@@ -73,7 +73,7 @@ def _to_signed01(x01: float) -> float:
 
 
 def compute_sentiment_score(username: str, token: str, repo_full_names: Optional[List[str]] = None,
-                            num_events: int = 10) -> Dict:
+                            num_events: int = 200000) -> Dict:
     """Computes sentiment area score.
 
     Returns dict with keys: score (float in [-1,1]), details (dict per-repo sentiment)
@@ -235,7 +235,7 @@ def load_weights_from_config(cfg: cfgparser.ConfigParser = config) -> Dict[str, 
 
 def score_user(username: Optional[str] = None, token: Optional[str] = None,
                weights: Optional[Dict[str, float]] = None, repo_limit: Optional[int] = None,
-               num_events_sentiment: int = 10) -> Dict:
+               num_events_sentiment: int = 20000) -> Dict:
     """Main entry point.
 
     Returns a summary dict:
@@ -304,40 +304,38 @@ def score_user(username: Optional[str] = None, token: Optional[str] = None,
     }
 
 
-def save_score_to_json(result: Dict, username: str,filename: str = "score_result.json") -> str:
+def save_score_to_json(result: Dict, username: str) -> str:
     """
-    Save the score_user result dict as a JSON file in a 'json' folder
-    located in the main project directory (same level as ScoringSys.py).
+    Save the score_user result dict as a JSON file named
+    '<username>_score.json' inside a 'json' folder located in the
+    main project directory (same level as this file).
     
     Args:
         result (Dict): The result dict returned by score_user().
-        filename (str): Name of the JSON file (default "score_result.json").
+        username (str): Username used to generate the filename.
     
     Returns:
         str: Full path to the saved JSON file.
     """
-    # Diretório principal (onde está o ScoringSys.py)
+
     base_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Criar a pasta 'json' se não existir
     json_dir = os.path.join(base_dir, "json")
     os.makedirs(json_dir, exist_ok=True)
 
-    # Se não passar filename, usa padrão com o username
-    if not filename:
-        filename = f"{username}_score.json"
-
-    # Caminho completo do arquivo
+    filename = f"{username}.json"
     file_path = os.path.join(json_dir, filename)
+
+    print(f"Saving result for {username} in {filename}...")
 
     try:
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(result, f, indent=2, ensure_ascii=False)
         return file_path
     except Exception as e:
-        raise RuntimeError(f"Erro ao salvar JSON: {e}")
+        raise RuntimeError(f"Error saving JSON: {e}")
+    
 
-# If run as script, print an example summary
 if __name__ == '__main__':
     import argparse
 
