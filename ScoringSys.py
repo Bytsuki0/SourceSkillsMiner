@@ -6,8 +6,10 @@ and returns scores in the range [-1, +1] for each area and a final aggregated sc
 (which is the weighted mean of the area scores by default). The weights are configurable
 via the config.ini under section [scoring] or by passing a dict to score_user().
 
+Now also includes raw WorkTypeAnalyzer data for language usage and work type classification.
+
 Design choices (defaults):
- - Areas: "OSS", "Status", "Sentiment"
+ - Areas: "OSS", "Status", "Sentiment", "Commitment"
  - Each area produces a score in [-1,1]. If there is no data for an area, the score is 0.0.
  - Final score = weighted mean of area scores (weights sum is normalized internally).
  - Sub-scores are computed using simple normalization heuristics (log-scale for counts,
@@ -15,7 +17,7 @@ Design choices (defaults):
    parameters to suit your project.
 
 Usage examples:
-    from ScoringSys import score_usersudo a
+    from ScoringSys import score_user
     summary = score_user(username, token)
     print(summary)
 """
@@ -30,6 +32,7 @@ from typing import Dict, List, Optional
 import OSSanaliser as f1
 import SentimentalAnaliser as f2
 import StatusAnaliser as f3
+import WorkTypeAnalyzer as f4
 
 # Load defaults from config.ini if available
 config = cfgparser.ConfigParser()
@@ -41,7 +44,8 @@ DEFAULT_TOKEN = config.get('github', 'token', fallback=None)
 DEFAULT_WEIGHTS = {
     'OSS': 1.0,
     'Status': 1.0,
-    'Sentiment': 1.0
+    'Sentiment': 1.0,
+    'Commitment': 1.0
 }
 
 # Helper normalizers -> produce values in [0,1], later converted to [-1,1]
@@ -71,7 +75,6 @@ def _to_signed01(x01: float) -> float:
     return max(-1.0, min(1.0, 2.0 * x01 - 1.0))
 
 
-
 def compute_sentiment_score(username: str, token: str, repo_full_names: Optional[List[str]] = None,
                             num_events: int = 200000) -> Dict:
     """Computes sentiment area score.
@@ -86,18 +89,6 @@ def compute_sentiment_score(username: str, token: str, repo_full_names: Optional
 
     sentiments = {}
 
-    #try:
-    #    analyzer = f3.GitHubStatsAnalyzerAllTime(username, token)
-    #    repo_full_names = [f"{username}/{repo_name}" for repo_name in analyzer.repos]
-    #except Exception:
-    #    repo_full_names = []
-    #if not repo_full_names:
-    #   try:
-    #        analyzer = f3.GitHubStatsAnalyzerAllTime(username, token)
-    #        repo_full_names = [f"{username}/{repo_name}" for repo_name in analyzer.repos]
-    #    except Exception:
-    #       repo_full_names = []
-
     for full in (repo_full_names or []):
         try:
             scores, reps = f2.get_user_activity_sentiment(full, num_events=num_events)
@@ -110,7 +101,6 @@ def compute_sentiment_score(username: str, token: str, repo_full_names: Optional
     upper = 0 
     base = 0 
     
-    
     for points in sentiments:
         if sentiments[points] > 0:
             base = base + 1
@@ -121,15 +111,11 @@ def compute_sentiment_score(username: str, token: str, repo_full_names: Optional
     scr = upper / base if base > 0 else 0.0
     
     avg = scr
-    #if sentiments:
-    #    avg = statistics.mean(sentiments.values())
-    #else:
-    #    avg = 0.0
 
     return {'score': avg, 'details': sentiments}
 
 
-def compute_oss_score(username: str, token: str, num_events: int = 100) -> Dict:
+def compute_oss_score(username: str, token: str, num_events: int = 1000000) -> Dict:
     """Computes OSS area score based on issues/PRs opened vs closed/merged and commit counts.
     Returns dict with keys: score, details
     """
@@ -163,8 +149,6 @@ def compute_oss_score(username: str, token: str, num_events: int = 100) -> Dict:
     # Normalize commit count using log-scale (scale chosen heuristically; edit as needed)
     commits_norm = _safe_log_norm(total_commits, scale=200.0)  # 200 commits maps near 1.0
 
-    # Combine sub-scores: resolution rates are already in [0,1], commits_norm in [0,1]
-    # We'll give equal weight to (issue resolution, PR merge rate, commits activity)
     subs = {
         'issue_resolution_rate': issue_resolution_rate,
         'pr_merge_rate': pr_merge_rate,
@@ -180,6 +164,81 @@ def compute_oss_score(username: str, token: str, num_events: int = 100) -> Dict:
     score = _to_signed01(avg01)
 
     return {'score': score, 'details': subs}
+
+
+def compute_commit_score(username: str, token: str) -> Dict:
+    """Computes commitment area score based on advanced contributor analysis.
+    Returns dict with keys: score, details
+    """
+    try:
+        analyzer = f3.AdvancedContributorAnalyzer(username, token)
+        
+        # get_results_as_json() returns a JSON STRING
+        commitment_json = analyzer.get_results_as_json()
+        commitment = json.loads(commitment_json)  # Parse JSON string to dict
+        
+    except Exception as e:
+        # Return neutral score if analysis fails
+        return {
+            'score': 0.0,
+            'details': {
+                'error': str(e),
+                'criteria_met': {}
+            }
+        }
+    
+    summary = commitment.get("summary")
+    
+    if summary is None:
+        return {
+            'score': 0.0,
+            'details': {
+                'error': "Missing 'summary' section in analysis result.",
+                'criteria_met': {}
+            }
+        }
+    
+    # These are the criteria being checked
+    required_keys = [
+        "has_12_month_streak",
+        "has_6_month_streak",
+        "has_write_to_non_owned_repo",
+        "has_repo_at_50th_percentile_commits",
+        "at_75th_percentile_followers"
+    ]
+    
+    total_points = 0
+    criteria_met = {}
+    
+    for key in required_keys:
+        if key not in summary:
+            criteria_met[key] = False
+            continue
+        
+        value = summary[key]
+        
+        if not isinstance(value, bool):
+            criteria_met[key] = False
+            continue
+        
+        criteria_met[key] = value
+        total_points += int(value)  # True=1, False=0
+    
+    # Normalize to [0,1]
+    normalized_score = total_points / len(required_keys)
+    
+    # Convert from [0,1] to [-1,1] to match other area scores
+    score = _to_signed01(normalized_score)
+    
+    return {
+        'score': normalized_score,
+        'details': {
+            'criteria_met': criteria_met,
+            'total_points': total_points,
+            'max_points': len(required_keys),
+            'percentage': normalized_score * 100
+        }
+    }
 
 
 def compute_status_score(username: str, token: str) -> Dict:
@@ -216,6 +275,95 @@ def compute_status_score(username: str, token: str) -> Dict:
     return {'score': score, 'details': subs}
 
 
+def get_language_usage_data(username: str, token: str) -> Dict:
+    """
+    Get raw language usage data (NOT scored, just data collection).
+    
+    Returns dict with language statistics.
+    """
+    try:
+        print("Analyzing language usage...")
+        analyzer = f4.GitHubLanguageCommitAnalyzer(username, token)
+        language_stats = analyzer.analyze_language_usage()
+        
+        if not language_stats:
+            return {
+                'error': None,
+                'languages': {},
+                'language_count': 0,
+                'total_commits': 0,
+                'total_lines': 0
+            }
+        
+        # Calculate totals
+        total_commits = sum(stats[1] for stats in language_stats.values())
+        total_lines = sum(stats[0] for stats in language_stats.values())
+        
+        # Sort languages by commits (descending)
+        sorted_languages = sorted(
+            language_stats.items(),
+            key=lambda x: x[1][1],  # Sort by commits
+            reverse=True
+        )
+        
+        return {
+            'error': None,
+            'languages': language_stats,
+            'language_count': len(language_stats),
+            'total_commits': total_commits,
+            'total_lines': total_lines,
+            'top_5_languages': [
+                {
+                    'language': lang,
+                    'lines': stats[0],
+                    'commits': stats[1]
+                }
+                for lang, stats in sorted_languages[:5]
+            ]
+        }
+    except Exception as e:
+        return {
+            'error': str(e),
+            'languages': {},
+            'language_count': 0,
+            'total_commits': 0,
+            'total_lines': 0
+        }
+
+
+def get_work_type_data(username: str, token: str, 
+                      max_repos: int = 20, 
+                      max_files_per_repo: int = 30) -> Dict:
+    """
+    Get raw work type analysis data (NOT scored, just data collection).
+    
+    Returns dict with work type classifications and statistics.
+    """
+    try:
+        print(f"Analyzing work types (max {max_repos} repos, {max_files_per_repo} files/repo)...")
+        analyzer = f4.GitHubWorkTypeAnalyzer(username, token)
+        
+        # Get full analysis results
+        work_type_data = analyzer.analyze_work_types(
+            max_repos=max_repos,
+            max_files_per_repo=max_files_per_repo
+        )
+        
+        return {
+            'error': None,
+            **work_type_data
+        }
+    except Exception as e:
+        return {
+            'error': str(e),
+            'username': username,
+            'primary_work_type': 'Unknown',
+            'work_type_distribution': {},
+            'total_files_analyzed': 0,
+            'total_repos_analyzed': 0
+        }
+
+
 # Orchestration
 
 def load_weights_from_config(cfg: cfgparser.ConfigParser = config) -> Dict[str, float]:
@@ -235,21 +383,38 @@ def load_weights_from_config(cfg: cfgparser.ConfigParser = config) -> Dict[str, 
 
 def score_user(username: Optional[str] = None, token: Optional[str] = None,
                weights: Optional[Dict[str, float]] = None, repo_limit: Optional[int] = None,
-               num_events_sentiment: int = 20000) -> Dict:
+               num_events_sentiment: int = 20000,
+               include_work_analysis: bool = True,
+               work_analysis_max_repos: int = 20,
+               work_analysis_max_files: int = 30) -> Dict:
     """Main entry point.
 
     Returns a summary dict:
       {
+        'username': '...',
         'areas': {
             'OSS': {'score': ..., 'details': {...}},
             'Status': {...},
-            'Sentiment': {...}
+            'Sentiment': {...},
+            'Commitment': {...}
          },
          'weights': {...},
-         'final_score': float in [-1,1]
+         'final_score': float in [-1,1],
+         'language_usage': {...},  # Raw data, not scored
+         'work_type_analysis': {...}  # Raw data, not scored
       }
 
     If username/token not provided, the values in config.ini will be used (if present).
+    
+    Args:
+        username: GitHub username
+        token: GitHub token
+        weights: Custom weights for scoring areas
+        repo_limit: Maximum repositories to analyze for sentiment
+        num_events_sentiment: Number of events for sentiment analysis
+        include_work_analysis: Whether to include work type analysis (can be slow)
+        work_analysis_max_repos: Max repos for work type analysis
+        work_analysis_max_files: Max files per repo for work type analysis
     """
     username = username or DEFAULT_USERNAME
     token = token or DEFAULT_TOKEN
@@ -279,35 +444,67 @@ def score_user(username: Optional[str] = None, token: Optional[str] = None,
     except Exception:
         repo_full_list = None
 
-    # Compute area scores
+    # Compute scored areas
+    print("Computing OSS score...")
     oss_res = compute_oss_score(username, token)
+    
+    print("Computing status score...")
     status_res = compute_status_score(username, token)
+    
+    print("Computing sentiment score...")
     sentiment_res = compute_sentiment_score(username, token, repo_full_names=repo_full_list,
                                             num_events=num_events_sentiment)
+    
+    print("Computing commitment score...")
+    commitment_res = compute_commit_score(username, token)
 
     areas = {
         'OSS': oss_res,
         'Status': status_res,
-        'Sentiment': sentiment_res
+        'Sentiment': sentiment_res,
+        'Commitment': commitment_res
     }
 
     # Weighted mean (weights normalized earlier)
-    area_scores = {k: areas[k]['score'] for k in ['OSS', 'Status', 'Sentiment']}
+    area_scores = {k: areas[k]['score'] for k in areas.keys()}
     final = 0.0
     for k, w in normalized.items():
-        final += area_scores.get(k, 0.0) * w
+        if k in area_scores:
+            final += area_scores[k] * w
 
+    # Get additional data (NOT scored, just included as raw data)
+    print("\nCollecting additional analysis data...")
+    language_data = get_language_usage_data(username, token)
+    
+    if include_work_analysis:
+        work_type_data = get_work_type_data(
+            username, token,
+            max_repos=work_analysis_max_repos,
+            max_files_per_repo=work_analysis_max_files
+        )
+    else:
+        print("Skipping work type analysis (use --include-work-analysis to enable)...")
+        work_type_data = {
+            'skipped': True,
+            'reason': 'Analysis skipped by user request'
+        }
+
+    print("\nAnalysis complete!")
+    
     return {
+        'username': username,
         'areas': areas,
         'weights': normalized,
-        'final_score': float(max(-1.0, min(1.0, final)))
+        'final_score': float(max(-1.0, min(1.0, final))),
+        'language_usage': language_data,
+        'work_type_analysis': work_type_data
     }
 
 
 def save_score_to_json(result: Dict, username: str) -> str:
     """
     Save the score_user result dict as a JSON file named
-    '<username>_score.json' inside a 'json' folder located in the
+    '<username>.json' inside a 'json' folder located in the
     main project directory (same level as this file).
     
     Args:
@@ -317,7 +514,6 @@ def save_score_to_json(result: Dict, username: str) -> str:
     Returns:
         str: Full path to the saved JSON file.
     """
-
     base_dir = os.path.dirname(os.path.abspath(__file__))
 
     json_dir = os.path.join(base_dir, "json")
@@ -326,7 +522,7 @@ def save_score_to_json(result: Dict, username: str) -> str:
     filename = f"{username}.json"
     file_path = os.path.join(json_dir, filename)
 
-    print(f"Saving result for {username} in {filename}...")
+    print(f"\nSaving result for {username} in {filename}...")
 
     try:
         with open(file_path, "w", encoding="utf-8") as f:
@@ -339,24 +535,44 @@ def save_score_to_json(result: Dict, username: str) -> str:
 if __name__ == '__main__':
     import argparse
 
-    p = argparse.ArgumentParser()
+    p = argparse.ArgumentParser(description='GitHub User Scoring System')
     p.add_argument('--username', '-u', help='GitHub username (overrides config)')
     p.add_argument('--token', '-t', help='GitHub token (overrides config)')
-    p.add_argument(
-    '--repo-limit',
-    type=int,
-    default=200,
-    help="Maximum number of repositories to analyze (default: %(default)s)"
-)
+    p.add_argument('--repo-limit', type=int, default=200,
+                   help="Maximum number of repositories to analyze (default: %(default)s)")
+    p.add_argument('--skip-work-analysis', action='store_true',
+                   help="Skip work type analysis (faster, but less data)")
+    p.add_argument('--work-max-repos', type=int, default=20,
+                   help="Max repos for work type analysis (default: %(default)s)")
+    p.add_argument('--work-max-files', type=int, default=30,
+                   help="Max files per repo for work analysis (default: %(default)s)")
+    
     args = p.parse_args()
 
     try:
-        summary = score_user(username=args.username, token=args.token, repo_limit=args.repo_limit)
-        import json
+        print("=" * 70)
+        print("GITHUB USER SCORING SYSTEM")
+        print("=" * 70)
+        print()
+        
+        summary = score_user(
+            username=args.username,
+            token=args.token,
+            repo_limit=args.repo_limit,
+            include_work_analysis=not args.skip_work_analysis,
+            work_analysis_max_repos=args.work_max_repos,
+            work_analysis_max_files=args.work_max_files
+        )
+        
+        print("\n" + "=" * 70)
+        print("RESULTS")
+        print("=" * 70)
         print(json.dumps(summary, indent=2, ensure_ascii=False))
+        
         saved_path = save_score_to_json(summary, username=args.username or DEFAULT_USERNAME)
-        print(f"Resultado salvo em: {saved_path}")
+        print(f"\nResultado salvo em: {saved_path}")
+        
     except Exception as e:
         print('Erro ao calcular pontuação:', e)
-
-
+        import traceback
+        traceback.print_exc()
