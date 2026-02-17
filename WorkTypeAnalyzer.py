@@ -607,4 +607,4 @@ if __name__ == "__main__":
     # --- Import / package scan ---
     print("\n=== IMPORT & PACKAGE SCAN ===\n")
     import_scanner = GitHubImportScanner(username, token)
-    print(import_scanner.get_results_as_json(max_repos=100, max_files_per_repo=100))
+    print(import_scanner.get_results_as_json(max_repos=1000, max_files_per_repo=1000))
