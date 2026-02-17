@@ -9,7 +9,7 @@ from typing import Dict, List, Set, Optional
 
 
 # ---------------------------------------------------------------------------
-# Language / commit distribution analyzer (unchanged)
+# Language / commit distribution analyzer
 # ---------------------------------------------------------------------------
 
 class GitHubLanguageCommitAnalyzer:
@@ -17,9 +17,28 @@ class GitHubLanguageCommitAnalyzer:
     Analyzes programming language usage across a user's GitHub repositories.
     Distributes commit and line-change statistics proportionally based on
     language byte counts in each repository.
+
+    Accepts an optional `prefetched_stats` dict to avoid redundant API calls
+    when GitHubStatsAnalyzerAllTime has already fetched contributor data.
+
+    Expected format of prefetched_stats:
+        {
+            "repo_name": {
+                "Linhas_trocas": <int>,
+                "Total_commits": <int>,
+                ...
+            },
+            ...
+        }
+    The keys must match repo['name'] (not full_name).
     """
 
-    def __init__(self, username: str, token: str):
+    def __init__(
+        self,
+        username: str,
+        token: str,
+        prefetched_stats: Optional[Dict[str, dict]] = None,
+    ):
         self.username = username
         self.token = token
         self.api_url = "https://api.github.com"
@@ -27,6 +46,19 @@ class GitHubLanguageCommitAnalyzer:
             'Authorization': f'token {token}',
             'Accept': 'application/vnd.github.v3+json',
         }
+        # Cache keyed by repo full_name → (lines_changed, commits).
+        # Pre-populate from already-fetched data when provided.
+        self._stats_cache: Dict[str, Optional[tuple]] = {}
+        if prefetched_stats:
+            for repo_name, stats in prefetched_stats.items():
+                lines   = stats.get('Linhas_trocas', 0)
+                commits = stats.get('Total_commits', 0)
+                # We store under the full_name format used internally.
+                # The caller must also pass the username so we can rebuild it,
+                # OR we just key on repo short-name and resolve in the method.
+                # Keying on short name here; _get_commit_stats receives full_name
+                # but we split it back to short name for lookup.
+                self._stats_cache[repo_name] = (lines, commits)
 
     def _get_user_repositories(self):
         repos, page = [], 1
@@ -47,7 +79,30 @@ class GitHubLanguageCommitAnalyzer:
         resp = requests.get(url, headers=self.headers)
         return resp.json() if resp.status_code == 200 else {}
 
-    def _get_commit_stats(self, full_name: str):
+    def _get_commit_stats(self, full_name: str) -> Optional[tuple]:
+        """
+        Returns (total_lines_changed, total_commits) for the authenticated user
+        in the given repository.
+
+        If the data was pre-fetched by GitHubStatsAnalyzerAllTime it is returned
+        directly from the cache — no API call is made.
+        """
+        # Cache lookup: try both short name and full_name as keys
+        short_name = full_name.split('/')[-1]
+        if short_name in self._stats_cache:
+            return self._stats_cache[short_name]
+        if full_name in self._stats_cache:
+            return self._stats_cache[full_name]
+
+        # Cache miss — fetch from GitHub
+        result = self._fetch_commit_stats_from_api(full_name)
+
+        # Store in cache for any future call
+        self._stats_cache[full_name] = result
+        return result
+
+    def _fetch_commit_stats_from_api(self, full_name: str) -> Optional[tuple]:
+        """Fetches contributor stats from the GitHub API (used only on cache miss)."""
         url = f"{self.api_url}/repos/{full_name}/stats/contributors"
         for _ in range(10):
             resp = requests.get(url, headers=self.headers)
@@ -98,10 +153,9 @@ class GitHubLanguageCommitAnalyzer:
 
 
 # ---------------------------------------------------------------------------
-# Import / package scanner  (classification removed)
+# Import / package scanner (unchanged)
 # ---------------------------------------------------------------------------
 
-# Maps a file extension to the language label used in output JSON.
 EXTENSION_TO_LANGUAGE: Dict[str, str] = {
     '.py':    'Python',
     '.js':    'JavaScript',
@@ -142,21 +196,14 @@ EXTENSION_TO_LANGUAGE: Dict[str, str] = {
 
 CODE_EXTENSIONS: Set[str] = set(EXTENSION_TO_LANGUAGE.keys())
 
-# ---------------------------------------------------------------------------
-# Per-language regex patterns that capture the *imported name / path*.
-# Each pattern should yield exactly one capture group: the raw import string.
-# ---------------------------------------------------------------------------
-
 IMPORT_PATTERNS: Dict[str, List[re.Pattern]] = {
-    # ---------- Python ----------
     'Python': [
-        re.compile(r'^\s*import\s+([\w,\s]+)'),            # import os, sys
-        re.compile(r'^\s*from\s+([\w.]+)\s+import'),        # from os.path import
+        re.compile(r'^\s*import\s+([\w,\s]+)'),
+        re.compile(r'^\s*from\s+([\w.]+)\s+import'),
     ],
-    # ---------- JavaScript / TypeScript ----------
     'JavaScript': [
-        re.compile(r"""(?:import|export)[^'"]*['"]([^'"]+)['"]"""),   # import … from '…'
-        re.compile(r"""require\s*\(\s*['"]([^'"]+)['"]\s*\)"""),      # require('…')
+        re.compile(r"""(?:import|export)[^'"]*['"]([^'"]+)['"]"""),
+        re.compile(r"""require\s*\(\s*['"]([^'"]+)['"]\s*\)"""),
     ],
     'TypeScript': [
         re.compile(r"""(?:import|export)[^'"]*['"]([^'"]+)['"]"""),
@@ -170,29 +217,25 @@ IMPORT_PATTERNS: Dict[str, List[re.Pattern]] = {
         re.compile(r"""(?:import|export)[^'"]*['"]([^'"]+)['"]"""),
         re.compile(r"""require\s*\(\s*['"]([^'"]+)['"]\s*\)"""),
     ],
-    # ---------- Java ----------
     'Java': [
-        re.compile(r'^\s*import\s+([\w.]+)\s*;'),           # import java.util.List;
-        re.compile(r'^\s*package\s+([\w.]+)\s*;'),          # package com.example;
+        re.compile(r'^\s*import\s+([\w.]+)\s*;'),
+        re.compile(r'^\s*package\s+([\w.]+)\s*;'),
     ],
-    # ---------- Go ----------
     'Go': [
-        re.compile(r'^\s*import\s+"([^"]+)"'),              # import "fmt"
-        re.compile(r'^\s*"([^"]+)"'),                       # inside import ( ) block
+        re.compile(r'^\s*import\s+"([^"]+)"'),
+        re.compile(r'^\s*"([^"]+)"'),
     ],
-    # ---------- Rust ----------
     'Rust': [
-        re.compile(r'^\s*use\s+([\w::<>]+)'),               # use std::collections::HashMap
-        re.compile(r'^\s*extern\s+crate\s+([\w]+)'),        # extern crate serde
+        re.compile(r'^\s*use\s+([\w::<>]+)'),
+        re.compile(r'^\s*extern\s+crate\s+([\w]+)'),
     ],
-    # ---------- C / C++ ----------
     'C': [
-        re.compile(r'^\s*#\s*include\s+[<"]([^>"]+)[>"]'),  # #include <stdio.h>
+        re.compile(r'^\s*#\s*include\s+[<"]([^>"]+)[>"]'),
     ],
     'C++': [
         re.compile(r'^\s*#\s*include\s+[<"]([^>"]+)[>"]'),
-        re.compile(r'^\s*using\s+namespace\s+([\w:]+)'),    # using namespace std
-        re.compile(r'^\s*import\s+<([^>]+)>'),              # C++20 module import
+        re.compile(r'^\s*using\s+namespace\s+([\w:]+)'),
+        re.compile(r'^\s*import\s+<([^>]+)>'),
     ],
     'C/C++ Header': [
         re.compile(r'^\s*#\s*include\s+[<"]([^>"]+)[>"]'),
@@ -201,101 +244,83 @@ IMPORT_PATTERNS: Dict[str, List[re.Pattern]] = {
         re.compile(r'^\s*#\s*include\s+[<"]([^>"]+)[>"]'),
         re.compile(r'^\s*using\s+namespace\s+([\w:]+)'),
     ],
-    # ---------- C# ----------
     'C#': [
-        re.compile(r'^\s*using\s+([\w.]+)\s*;'),            # using System.Linq;
+        re.compile(r'^\s*using\s+([\w.]+)\s*;'),
     ],
-    # ---------- PHP ----------
     'PHP': [
-        re.compile(r'^\s*use\s+([\w\\\\]+)\s*;'),           # use Symfony\Component\…
+        re.compile(r'^\s*use\s+([\w\\\\]+)\s*;'),
         re.compile(r"""(?:require|include)(?:_once)?\s*\(\s*['"]([^'"]+)['"]\s*\)"""),
         re.compile(r"""(?:require|include)(?:_once)?\s+['"]([^'"]+)['"]"""),
     ],
-    # ---------- Ruby ----------
     'Ruby': [
         re.compile(r"""^\s*require(?:_relative)?\s+['"]([^'"]+)['"]"""),
         re.compile(r"""^\s*gem\s+['"]([^'"]+)['"]"""),
     ],
-    # ---------- Swift ----------
     'Swift': [
-        re.compile(r'^\s*import\s+([\w.]+)'),               # import Foundation
+        re.compile(r'^\s*import\s+([\w.]+)'),
     ],
-    # ---------- Kotlin ----------
     'Kotlin': [
-        re.compile(r'^\s*import\s+([\w.*]+)'),              # import kotlin.collections.*
+        re.compile(r'^\s*import\s+([\w.*]+)'),
         re.compile(r'^\s*package\s+([\w.]+)'),
     ],
-    # ---------- Scala ----------
     'Scala': [
         re.compile(r'^\s*import\s+([\w._{},\s]+)'),
         re.compile(r'^\s*package\s+([\w.]+)'),
     ],
-    # ---------- R ----------
     'R': [
         re.compile(r"""(?:library|require)\s*\(\s*['"]?([\w.]+)['"]?\s*\)"""),
     ],
-    # ---------- Dart ----------
     'Dart': [
-        re.compile(r"""^\s*import\s+['"]([^'"]+)['"]"""),   # import 'package:flutter/…'
+        re.compile(r"""^\s*import\s+['"]([^'"]+)['"]"""),
     ],
-    # ---------- Lua ----------
     'Lua': [
         re.compile(r"""^\s*require\s*\(\s*['"]([^'"]+)['"]\s*\)"""),
         re.compile(r"""^\s*require\s+['"]([^'"]+)['"]"""),
     ],
-    # ---------- Elixir ----------
     'Elixir': [
         re.compile(r'^\s*(?:import|alias|use|require)\s+([\w.]+)'),
     ],
-    # ---------- Erlang ----------
     'Erlang': [
         re.compile(r'^\s*-include\s*\(\s*"([^"]+)"\s*\)'),
         re.compile(r'^\s*-include_lib\s*\(\s*"([^"]+)"\s*\)'),
     ],
-    # ---------- Haskell ----------
     'Haskell': [
         re.compile(r'^\s*import\s+(?:qualified\s+)?([\w.]+)'),
     ],
-    # ---------- OCaml ----------
     'OCaml': [
         re.compile(r'^\s*open\s+([\w.]+)'),
         re.compile(r'^\s*#require\s+"([^"]+)"'),
     ],
-    # ---------- Julia ----------
     'Julia': [
         re.compile(r'^\s*using\s+([\w,\s.]+)'),
         re.compile(r'^\s*import\s+([\w,\s.]+)'),
     ],
-    # ---------- Perl ----------
     'Perl': [
         re.compile(r'^\s*use\s+([\w:]+)'),
         re.compile(r'^\s*require\s+([\w:/"\']+)'),
     ],
-    # ---------- Objective-C / MATLAB ----------
     'Objective-C / MATLAB': [
         re.compile(r'^\s*#\s*import\s+[<"]([^>"]+)[>"]'),
         re.compile(r'^\s*#\s*include\s+[<"]([^>"]+)[>"]'),
     ],
 }
 
-# Generic fallback patterns keyed on trigger keywords — applied to any language
-# not fully covered above, scanning the *whole file* for any import-like line.
 GENERIC_IMPORT_KEYWORDS = re.compile(
     r"""
     ^\s*
     (?:
-        import   |   # Python, Java, Swift, Kotlin, JS/TS, Haskell, Julia, Go …
-        from\s+\w |  # Python: from x import
-        require  |   # Ruby, Lua, PHP, Perl, CommonJS
-        include  |   # PHP, C/C++, Erlang
-        using    |   # C#, C++, Rust
-        use\s    |   # Rust, Perl, PHP, Elixir
-        extern\s+crate | # Rust
-        open\s   |   # OCaml
-        alias\s  |   # Elixir
-        library\s |  # R
-        \#\s*include | # C/C++
-        \#\s*import    # Objective-C
+        import   |
+        from\s+\w |
+        require  |
+        include  |
+        using    |
+        use\s    |
+        extern\s+crate |
+        open\s   |
+        alias\s  |
+        library\s |
+        \#\s*include |
+        \#\s*import
     )
     """,
     re.VERBOSE | re.IGNORECASE,
@@ -303,50 +328,27 @@ GENERIC_IMPORT_KEYWORDS = re.compile(
 
 
 def _normalise_package(raw: str, language: str) -> Optional[str]:
-    """
-    Strip down a raw import match to the top-level package name.
-    Returns None if the result looks like a relative path or is empty.
-    """
-    raw = raw.strip().strip('"\'').split()[0]   # first token only
-
-    # Skip relative imports
+    raw = raw.strip().strip('"\'').split()[0]
     if raw.startswith('.') or raw.startswith('/'):
         return None
-
-    # JS/TS: '@scope/pkg' → 'scope/pkg', then take first component
     if language in ('JavaScript', 'TypeScript', 'JavaScript (JSX)', 'TypeScript (TSX)'):
         if raw.startswith('@'):
             raw = raw.lstrip('@')
         raw = raw.split('/')[0]
-
-    # Python: 'os.path' → 'os'
     if language == 'Python':
         raw = raw.split('.')[0].split(',')[0].strip()
-
-    # Java / Kotlin / Scala: 'java.util.List' → 'java.util'
     if language in ('Java', 'Kotlin', 'Scala'):
         parts = raw.rstrip('*').rstrip('.').split('.')
         raw = '.'.join(parts[:2]) if len(parts) >= 2 else parts[0]
-
-    # Rust: 'std::collections::HashMap' → 'std'
     if language == 'Rust':
         raw = raw.split('::')[0]
-
-    # Dart: 'package:flutter/material.dart' → 'flutter'
     if language == 'Dart':
         if raw.startswith('package:'):
             raw = raw[len('package:'):].split('/')[0]
-
     return raw if raw else None
 
 
 class GitHubImportScanner:
-    """
-    Scans all code files in a user's GitHub repositories for import / dependency
-    statements.  Reports, per language, which external packages are used and
-    how many times each appears — without any work-type classification.
-    """
-
     SKIP_DIRS = frozenset([
         'node_modules', 'vendor', 'dist', 'build', '.git',
         '__pycache__', '.venv', 'venv', 'env', 'target',
@@ -361,10 +363,6 @@ class GitHubImportScanner:
             'Authorization': f'token {token}',
             'Accept': 'application/vnd.github.v3+json',
         }
-
-    # ------------------------------------------------------------------
-    # GitHub API helpers
-    # ------------------------------------------------------------------
 
     def _get_user_repositories(self) -> List[dict]:
         repos, page = [], 1
@@ -413,44 +411,27 @@ class GitHubImportScanner:
             pass
         return None
 
-    # ------------------------------------------------------------------
-    # Import extraction
-    # ------------------------------------------------------------------
-
     def _extract_imports(self, content: str, language: str) -> Set[str]:
-        """
-        Two-pass extraction:
-          1. Targeted regex for the language (whole file).
-          2. Generic keyword sweep for any import-like line not caught above.
-        Both passes cover the entire file, not just the first 20 lines.
-        """
         found: Set[str] = set()
         lines = content.splitlines()
-
-        # --- Pass 1: language-specific patterns (full file) ---
         patterns = IMPORT_PATTERNS.get(language, [])
         for line in lines:
             for pattern in patterns:
                 m = pattern.search(line)
                 if m:
                     raw = m.group(1)
-                    # Handle comma-separated names (Python: import os, sys)
                     for part in raw.split(','):
                         pkg = _normalise_package(part, language)
                         if pkg:
                             found.add(pkg)
-
-        # --- Pass 2: generic keyword sweep (catches anything missed above) ---
         for line in lines:
             if GENERIC_IMPORT_KEYWORDS.match(line):
-                # Extract the first quoted or bare-word token after the keyword
                 quoted = re.search(r"""['"]([^'"]+)['"]""", line)
                 if quoted:
                     pkg = _normalise_package(quoted.group(1), language)
                     if pkg:
                         found.add(pkg)
                 else:
-                    # Try the token right after the keyword
                     bare = re.search(
                         r"""
                         (?:import|require|include|using|use|open|alias|library|extern\s+crate)
@@ -463,49 +444,15 @@ class GitHubImportScanner:
                         pkg = _normalise_package(bare.group(1), language)
                         if pkg:
                             found.add(pkg)
-
         return found
-
-    # ------------------------------------------------------------------
-    # Main analysis
-    # ------------------------------------------------------------------
 
     def analyze_imports(
         self,
         max_repos: int = 100,
         max_files_per_repo: int = 100,
     ) -> dict:
-        """
-        Scan repositories and collect package/import data grouped by language.
-
-        Returns a dict shaped as:
-        {
-          "username": "...",
-          "analysis_date": "...",
-          "total_repos_analyzed": N,
-          "total_files_analyzed": N,
-          "languages": {
-            "Python": {
-              "files_scanned": N,
-              "packages": { "requests": 12, "numpy": 7, ... }
-            },
-            ...
-          },
-          "repositories": [
-            {
-              "repository": "user/repo",
-              "files_analyzed": N,
-              "languages_found": ["Python", "JavaScript"]
-            },
-            ...
-          ]
-        }
-        """
         repos = self._get_user_repositories()[:max_repos]
-
-        # language → { package_name → count }
         language_packages: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(int))
-        # language → files scanned
         language_file_count: Dict[str, int] = defaultdict(int)
         repo_summaries = []
         total_files = 0
@@ -515,12 +462,9 @@ class GitHubImportScanner:
         for idx, repo in enumerate(repos):
             full_name = repo['full_name']
             print(f"  [{idx + 1}/{len(repos)}] {full_name}")
-
             tree = self._get_repo_tree(full_name)
             if not tree:
                 continue
-
-            # Collect eligible files, skip noisy directories
             code_files = [
                 item for item in tree
                 if item['type'] == 'blob'
@@ -538,34 +482,29 @@ class GitHubImportScanner:
                 language = EXTENSION_TO_LANGUAGE.get(ext)
                 if not language:
                     continue
-
                 content = self._get_file_content(full_name, path)
                 if not content:
                     continue
-
                 imports = self._extract_imports(content, language)
                 if imports:
                     for pkg in imports:
                         language_packages[language][pkg] += 1
                     language_file_count[language] += 1
                     repo_languages.add(language)
-
                 files_in_repo += 1
                 total_files += 1
-                time.sleep(0.1)     # stay within rate limits
+                time.sleep(0.1)
 
             if repo_languages:
                 repo_summaries.append({
-                    'repository':       full_name,
-                    'files_analyzed':   files_in_repo,
-                    'languages_found':  sorted(repo_languages),
+                    'repository':      full_name,
+                    'files_analyzed':  files_in_repo,
+                    'languages_found': sorted(repo_languages),
                 })
 
-        # Build final output structure
         languages_output = {}
         for lang in sorted(language_packages.keys()):
             pkg_dict = language_packages[lang]
-            # Sort packages by occurrence count descending
             sorted_pkgs = dict(
                 sorted(pkg_dict.items(), key=lambda x: x[1], reverse=True)
             )
@@ -588,23 +527,42 @@ class GitHubImportScanner:
 
 
 # ---------------------------------------------------------------------------
-# Entry point
+# Entry point — stats from first class feed directly into second
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
     import configparser
+    import sys
+    import os
+
+    # Allow importing GitHubStatsAnalyzerAllTime from the first file.
+    # Adjust the path below if your file is located elsewhere.
+    sys.path.insert(0, os.path.dirname(__file__))
+    from StatusAnaliser import GitHubStatsAnalyzerAllTime
 
     config = configparser.ConfigParser()
     config.read('config.ini')
     username = config['github']['username']
     token    = config['github']['token']
 
-    # --- Language / commit distribution ---
-    print("=== LANGUAGE USAGE ANALYSIS ===\n")
-    lang_analyzer = GitHubLanguageCommitAnalyzer(username, token)
+    # --- Step 1: run the all-time stats (fetches contributor data once) ---
+    print("=== ALL-TIME STATS ===\n")
+    stats_analyzer = GitHubStatsAnalyzerAllTime(username, token)
+    raw_stats = stats_analyzer.analyze_all()   # dict[repo_name → stats_dict]
+    print(json.dumps(raw_stats, indent=2))
+
+    # --- Step 2: pass those results as a cache into the language analyzer ---
+    # raw_stats keys are short repo names; values already have Linhas_trocas
+    # and Total_commits — exactly what the language analyzer needs.
+    print("\n=== LANGUAGE USAGE ANALYSIS (using cached stats) ===\n")
+    lang_analyzer = GitHubLanguageCommitAnalyzer(
+        username,
+        token,
+        prefetched_stats=raw_stats,   # <-- cache injected here; no re-fetch
+    )
     print(lang_analyzer.get_results_as_json())
 
-    # --- Import / package scan ---
+    # --- Import / package scan (independent, no overlap) ---
     print("\n=== IMPORT & PACKAGE SCAN ===\n")
     import_scanner = GitHubImportScanner(username, token)
     print(import_scanner.get_results_as_json(max_repos=1000, max_files_per_repo=1000))

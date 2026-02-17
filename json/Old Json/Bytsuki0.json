@@ -1,0 +1,304 @@
+{
+  "username": "Bytsuki0",
+  "areas": {
+    "OSS": {
+      "score": 0.14261661699395511,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.75,
+        "commits_activity": 0.9639249254909328
+      }
+    },
+    "Status": {
+      "score": 0.38877542097622575,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9485477468489539,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.19999999999999996,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.1828480094925452,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        3098941,
+        67
+      ],
+      "Cython": [
+        168007,
+        1
+      ],
+      "C++": [
+        163070,
+        2
+      ],
+      "C": [
+        47146,
+        2
+      ],
+      "XSLT": [
+        4831,
+        0
+      ],
+      "Fortran": [
+        1269,
+        0
+      ],
+      "Meson": [
+        1197,
+        0
+      ],
+      "JavaScript": [
+        10320,
+        4
+      ],
+      "CSS": [
+        413,
+        0
+      ],
+      "PowerShell": [
+        276,
+        0
+      ],
+      "Go Template": [
+        274,
+        0
+      ],
+      "Roff": [
+        248,
+        0
+      ],
+      "Shell": [
+        160,
+        7
+      ],
+      "HTML": [
+        42216,
+        20
+      ],
+      "CMake": [
+        53,
+        0
+      ],
+      "Jinja": [
+        49,
+        0
+      ],
+      "Batchfile": [
+        21,
+        0
+      ],
+      "Smarty": [
+        3,
+        0
+      ],
+      "Java": [
+        5130,
+        13
+      ],
+      "C#": [
+        1280,
+        2
+      ],
+      "R": [
+        17413,
+        8
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 126,
+    "total_lines": 3562317,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 3098941,
+        "commits": 67
+      },
+      {
+        "language": "HTML",
+        "lines": 42216,
+        "commits": 20
+      },
+      {
+        "language": "Java",
+        "lines": 5130,
+        "commits": 13
+      },
+      {
+        "language": "R",
+        "lines": 17413,
+        "commits": 8
+      },
+      {
+        "language": "Shell",
+        "lines": 160,
+        "commits": 7
+      }
+    ]
+  },
+  "work_type_analysis": {
+    "error": null,
+    "username": "Bytsuki0",
+    "analysis_date": "2026-02-08T21:57:49.254034",
+    "total_files_analyzed": 42,
+    "total_repos_analyzed": 11,
+    "work_type_scores": {
+      "Backend": 58,
+      "Database": 57,
+      "Machine_Learning": 44,
+      "Mobile": 42,
+      "Testing": 36,
+      "Data_Analysis": 30,
+      "Frontend": 22,
+      "DevOps": 18,
+      "Game_Development": 14,
+      "Security": 14
+    },
+    "work_type_percentages": {
+      "Machine_Learning": 13.13,
+      "Data_Analysis": 8.96,
+      "Backend": 17.31,
+      "Database": 17.01,
+      "Mobile": 12.54,
+      "Testing": 10.75,
+      "DevOps": 5.37,
+      "Frontend": 6.57,
+      "Game_Development": 4.18,
+      "Security": 4.18
+    },
+    "file_count_by_type": {
+      "Machine_Learning": 15,
+      "Data_Analysis": 11,
+      "Backend": 17,
+      "Database": 15,
+      "Mobile": 15,
+      "Testing": 13,
+      "DevOps": 9,
+      "Frontend": 11,
+      "Game_Development": 7,
+      "Security": 7
+    },
+    "primary_work_type": "Backend",
+    "repository_classifications": [
+      {
+        "repository": "Bytsuki0/GitBlame",
+        "primary_work_type": "Backend",
+        "scores": {
+          "Machine_Learning": 32,
+          "Data_Analysis": 18,
+          "Backend": 34,
+          "Database": 33,
+          "Mobile": 30,
+          "Testing": 24,
+          "DevOps": 12,
+          "Frontend": 17,
+          "Game_Development": 10,
+          "Security": 10
+        },
+        "files_analyzed": 18
+      },
+      {
+        "repository": "Bytsuki0/SourceSkillsMiner",
+        "primary_work_type": "Backend",
+        "scores": {
+          "Machine_Learning": 12,
+          "Data_Analysis": 12,
+          "Backend": 24,
+          "Database": 24,
+          "Mobile": 12,
+          "Testing": 12,
+          "DevOps": 6,
+          "Frontend": 5,
+          "Game_Development": 4,
+          "Security": 4
+        },
+        "files_analyzed": 9
+      }
+    ],
+    "common_imports_by_type": {
+      "Machine_Learning": [
+        "",
+        "io",
+        "nltk",
+        "os",
+        "sklearn"
+      ],
+      "Data_Analysis": [
+        "",
+        "matplotlib",
+        "pandas",
+        "stat"
+      ],
+      "Backend": [
+        "",
+        "ast",
+        "configparser",
+        "os",
+        "re"
+      ],
+      "Database": [
+        "",
+        "ast",
+        "os",
+        "re",
+        "time"
+      ],
+      "Mobile": [
+        "",
+        "io",
+        "os",
+        "re"
+      ],
+      "Testing": [
+        "",
+        "os",
+        "re"
+      ],
+      "DevOps": [
+        "",
+        "ast",
+        "re"
+      ],
+      "Frontend": [
+        "",
+        "io",
+        "re"
+      ],
+      "Game_Development": [
+        "",
+        "re"
+      ],
+      "Security": [
+        "",
+        "re"
+      ]
+    }
+  }
+}

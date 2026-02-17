@@ -1,0 +1,193 @@
+{
+  "username": "yasmindneves",
+  "areas": {
+    "OSS": {
+      "score": -0.5904319294596378,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6143521058105431
+      }
+    },
+    "Status": {
+      "score": 0.10976592703587706,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.606956582861508,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.02016650060594019,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        523,
+        2
+      ],
+      "Jupyter Notebook": [
+        6246,
+        3
+      ],
+      "C#": [
+        1683,
+        4
+      ],
+      "HTML": [
+        266,
+        0
+      ],
+      "Java": [
+        1851,
+        12
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 21,
+    "total_lines": 10569,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 1851,
+        "commits": 12
+      },
+      {
+        "language": "C#",
+        "lines": 1683,
+        "commits": 4
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 6246,
+        "commits": 3
+      },
+      {
+        "language": "C++",
+        "lines": 523,
+        "commits": 2
+      },
+      {
+        "language": "HTML",
+        "lines": 266,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "yasmindneves",
+    "analysis_date": "2026-02-17T19:35:02.214565",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 29,
+    "languages": {
+      "C#": {
+        "files_scanned": 3,
+        "packages": {
+          "System.Net.Http": 3,
+          "System.Text.Json": 3,
+          "System.IO": 3,
+          "System.Threading.Tasks": 3,
+          "var": 2,
+          "HttpClient": 1,
+          "System": 1,
+          "JsonDocument": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "stdlib.h": 2,
+          "<stdio.h>": 2,
+          "<string.h>": 2,
+          "<stdlib.h>": 2,
+          "string.h": 2,
+          "stdio.h": 2,
+          "ctype.h": 2,
+          "<ctype.h>": 2
+        }
+      },
+      "Java": {
+        "files_scanned": 22,
+        "packages": {
+          "com.mycompany": 13,
+          "teste": 9,
+          "java.util": 9,
+          "java.sql": 5,
+          "java.time": 3,
+          "javax.swing": 1,
+          "java.awt": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "yasmindneves/AED_II_TP_1",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "yasmindneves/REDES",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "yasmindneves/Redes_Clima",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "yasmindneves/Redes_codigos",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "yasmindneves/TP2_POO1_Final",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "yasmindneves/TPIII-POO",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

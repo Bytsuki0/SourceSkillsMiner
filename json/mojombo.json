@@ -1,0 +1,594 @@
+{
+  "username": "mojombo",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.7837837837837838,
+        "pr_merge_rate": 2.40625,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.0,
+      "details": {
+        "lines_activity": 0.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.8181818181818182,
+      "details": {
+        "mojombo/asteroids": 0.0457,
+        "mojombo/bert": 0.23257441860465117,
+        "mojombo/bert.erl": 0.12476666666666668,
+        "mojombo/bertrpc": 0.1276909090909091,
+        "mojombo/chronic": 0.02261477272727273,
+        "mojombo/clippy": 0.18294411764705884,
+        "mojombo/egitd": 0.3377666666666667,
+        "mojombo/erlectricity": 0.5305,
+        "mojombo/ernie": -0.007857142857142854,
+        "mojombo/github-flavored-markdown": 0.09817380952380954,
+        "mojombo/god": 0.11293879310344827,
+        "mojombo/grit": 0.06716513761467889,
+        "mojombo/mojombo": 0.6629666666666667,
+        "mojombo/mojombo.github.io": 0.11742444444444443,
+        "mojombo/mustache.erl": 0.20696764705882353,
+        "mojombo/omniship": -0.4767,
+        "mojombo/primer": -0.32505,
+        "mojombo/proxymachine": 0.16586,
+        "mojombo/rakegem": -0.5748,
+        "mojombo/sf-vegetarian-restaurants": 0.29309999999999997,
+        "mojombo/tomdoc": 0.3186637931034482,
+        "mojombo/vanhelsing": 0.3802
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6545454545454545,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        46888,
+        63
+      ],
+      "CoffeeScript": [
+        114,
+        1
+      ],
+      "CSS": [
+        1791,
+        33
+      ],
+      "Ruby": [
+        72210,
+        918
+      ],
+      "C": [
+        2925,
+        35
+      ],
+      "Erlang": [
+        36688,
+        220
+      ],
+      "Shell": [
+        333,
+        2
+      ],
+      "HTML": [
+        2814,
+        59
+      ],
+      "Perl": [
+        52008,
+        138
+      ],
+      "Makefile": [
+        261,
+        0
+      ],
+      "Emacs Lisp": [
+        0,
+        0
+      ],
+      "Java": [
+        0,
+        0
+      ],
+      "Groff": [
+        0,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 1469,
+    "total_lines": 216032,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 72210,
+        "commits": 918
+      },
+      {
+        "language": "Erlang",
+        "lines": 36688,
+        "commits": 220
+      },
+      {
+        "language": "Perl",
+        "lines": 52008,
+        "commits": 138
+      },
+      {
+        "language": "JavaScript",
+        "lines": 46888,
+        "commits": 63
+      },
+      {
+        "language": "HTML",
+        "lines": 2814,
+        "commits": 59
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mojombo",
+    "analysis_date": "2026-02-17T16:32:14.969340",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 224,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "ruby.h": 2,
+          "stdint.h": 1,
+          "<netinet/in.h>": 1,
+          "<stdint.h>": 1,
+          "netinet/in.h": 1,
+          "<string.h>": 1,
+          "string.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 14,
+        "packages": {
+          "project.h": 12,
+          "stdexcept": 2,
+          "<stdexcept>": 2,
+          "std": 2,
+          "namespace": 2,
+          "iostream": 2,
+          "<iostream>": 2,
+          "mapper.h": 2,
+          "ruby.h": 2,
+          "<ruby.h>": 2,
+          "<sys/types.h>": 1,
+          "sys/mman.h": 1,
+          "<fcntl.h>": 1,
+          "sys/types.h": 1,
+          "cstring": 1,
+          "windows.h": 1,
+          "errno.h": 1,
+          "unistd.h": 1,
+          "<sys/stat.h>": 1,
+          "sys/stat.h": 1,
+          "<string>": 1,
+          "<windows.h>": 1,
+          "<errno.h>": 1,
+          "<sys/mman.h>": 1,
+          "<cstring>": 1,
+          "string": 1,
+          "fcntl.h": 1,
+          "eventmachine.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "emwin.h": 1,
+          "rubysig.h": 1,
+          "ruby.h": 1,
+          "<ruby.h>": 1,
+          "<rubysig.h>": 1,
+          "<unistd.h>": 1,
+          "arpa/inet.h": 1,
+          "<sys/types.h>": 1,
+          "set": 1,
+          "eventmachine.h": 1,
+          "<sys/socket.h>": 1,
+          "<sys/resource.h>": 1,
+          "sys/inotify.h": 1,
+          "<set>": 1,
+          "<sys/wait.h>": 1,
+          "unistd.h": 1,
+          "<sys/stat.h>": 1,
+          "deque": 1,
+          "<ws2tcpip.h>": 1,
+          "<string>": 1,
+          "<errno.h>": 1,
+          "<time.h>": 1,
+          "time.h": 1,
+          "<netinet/tcp.h>": 1,
+          "<assert.h>": 1,
+          "pwd.h": 1,
+          "<netdb.h>": 1,
+          "<sys/uio.h>": 1,
+          "stdexcept": 1,
+          "sys/uio.h": 1,
+          "epoll.h": 1,
+          "em.h": 1,
+          "map": 1,
+          "sys/time.h": 1,
+          "openssl/err.h": 1,
+          "<winsock2.h>": 1,
+          "errno.h": 1,
+          "<linux/inotify.h>": 1,
+          "netdb.h": 1,
+          "namespace": 1,
+          "rpc.h": 1,
+          "<sys/un.h>": 1,
+          "strings.h": 1,
+          "page.h": 1,
+          "<windows.h>": 1,
+          "iostream": 1,
+          "<deque>": 1,
+          "sys/event.h": 1,
+          "openssl/ssl.h": 1,
+          "<openssl/ssl.h>": 1,
+          "<vector>": 1,
+          "sys/epoll.h": 1,
+          "<strings.h>": 1,
+          "<rpc.h>": 1,
+          "netinet/tcp.h": 1,
+          "<sys/syscall.h>": 1,
+          "eventmachine_cpp.h": 1,
+          "<sys/queue.h>": 1,
+          "files.h": 1,
+          "sys/socket.h": 1,
+          "<netinet/in.h>": 1,
+          "<sys/time.h>": 1,
+          "windows.h": 1,
+          "netinet/in.h": 1,
+          "sys/stat.h": 1,
+          "<map>": 1,
+          "<pwd.h>": 1,
+          "<iostream>": 1,
+          "<sys/epoll.h>": 1,
+          "ws2tcpip.h": 1,
+          "signal.h": 1,
+          "<arpa/inet.h>": 1,
+          "string": 1,
+          "vector": 1,
+          "<signal.h>": 1,
+          "<sstream>": 1,
+          "linux/inotify.h": 1,
+          "ed.h": 1,
+          "sys/wait.h": 1,
+          "<stdexcept>": 1,
+          "sstream": 1,
+          "ssl.h": 1,
+          "assert.h": 1,
+          "<fcntl.h>": 1,
+          "sys/types.h": 1,
+          "sigs.h": 1,
+          "winsock2.h": 1,
+          "binder.h": 1,
+          "sys/un.h": 1,
+          "sys/syscall.h": 1,
+          "<openssl/err.h>": 1,
+          "<sys/inotify.h>": 1,
+          "sys/queue.h": 1,
+          "sys/resource.h": 1,
+          "<sys/event.h>": 1,
+          "fcntl.h": 1
+        }
+      },
+      "Erlang": {
+        "files_scanned": 7,
+        "packages": {
+          "ernie.hrl": 4,
+          "test/bert_test.erl": 2,
+          "eunit/include/eunit.hrl": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 24,
+        "packages": {
+          "events": 14,
+          "nopt": 11,
+          "lodash": 11,
+          "path": 9,
+          "async": 7,
+          "fs": 7,
+          "hogan.js": 3,
+          "semver": 3,
+          "glob": 2,
+          "rimraf": 2,
+          "Wb=": 1,
+          "a-z\\u00A0-\\u05FF\\u0700-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF]+|[\\u0600-\\u06FF\\": 1,
+          "Xb=": 1,
+          "Vb=": 1,
+          "3})?": 1,
+          "dc=": 1,
+          "$b=": 1,
+          "Yb=": 1,
+          "ac=": 1,
+          "cc=": 1,
+          "function": 1,
+          "bc=": 1,
+          "2}": 1,
+          "ec=": 1,
+          "_b=": 1,
+          "Zb=": 1,
+          "undefined": 1,
+          "archy": 1,
+          "rc": 1,
+          "crypto": 1,
+          "tmp": 1,
+          "mkdirp": 1,
+          "fstream": 1,
+          "url": 1,
+          "tar": 1,
+          "http": 1,
+          "https": 1,
+          "child_process": 1,
+          "unzip": 1,
+          "request": 1,
+          "colors": 1,
+          "stable": 1,
+          "read-package-json": 1,
+          "resolve": 1,
+          "resolveLocal": 1,
+          "remark-external-links": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 43,
+        "packages": {
+          "rubygems": 11,
+          "test_helper": 9,
+          "bert": 5,
+          "erlectricity": 5,
+          "benchmark": 4,
+          "mkmf": 4,
+          "yajl": 3,
+          "json": 3,
+          "test/unit": 3,
+          "shoulda": 3,
+          "bertrpc": 3,
+          "chronic/handlers": 3,
+          "ernie": 3,
+          "stringio": 2,
+          "Types": 2,
+          "Handlers": 2,
+          "Erlectricity::External::Types": 2,
+          "bert/bert": 1,
+          "bert/decode": 1,
+          "bert/encode": 1,
+          "bert/encoder": 1,
+          "bert/decoder": 1,
+          "bert/c/decode": 1,
+          "bert/types": 1,
+          "bertrpc/mod": 1,
+          "bertrpc/errors": 1,
+          "bertrpc/encodes": 1,
+          "bertrpc/service": 1,
+          "socket": 1,
+          "bertrpc/action": 1,
+          "net/protocol": 1,
+          "bertrpc/request": 1,
+          "Encodes": 1,
+          "BERTRPC::Encodes": 1,
+          "mocha": 1,
+          "chronic/repeaters/repeater_second": 1,
+          "chronic/time": 1,
+          "numerizer": 1,
+          "chronic/version": 1,
+          "chronic/handler": 1,
+          "chronic/tokenizer": 1,
+          "chronic/repeaters/repeater_fortnight": 1,
+          "chronic/repeaters/repeater_time": 1,
+          "chronic/season": 1,
+          "chronic/repeaters/repeater_month_name": 1,
+          "chronic/tags/ordinal": 1,
+          "chronic/tags/separator": 1,
+          "chronic/repeaters/repeater_day_name": 1,
+          "chronic/repeaters/repeater_hour": 1,
+          "chronic/repeaters/repeater_season_name": 1,
+          "chronic/mini_date": 1,
+          "chronic/parser": 1,
+          "chronic/span": 1,
+          "chronic/repeaters/repeater_month": 1,
+          "chronic/repeaters/repeater_week": 1,
+          "chronic/repeaters/repeater_day": 1,
+          "chronic/repeaters/repeater_minute": 1,
+          "chronic/repeaters/repeater_year": 1,
+          "chronic/tags/time_zone": 1,
+          "chronic/repeaters/repeater_weekend": 1,
+          "chronic/tags/sign": 1,
+          "chronic/repeaters/repeater_day_portion": 1,
+          "chronic/repeaters/repeater_quarter": 1,
+          "chronic/tags/repeater": 1,
+          "chronic/tag": 1,
+          "time": 1,
+          "chronic/repeaters/repeater_season": 1,
+          "chronic/tags/grabber": 1,
+          "chronic/tags/scalar": 1,
+          "chronic/token": 1,
+          "chronic/repeaters/repeater_quarter_name": 1,
+          "chronic/tags/pointer": 1,
+          "chronic/date": 1,
+          "chronic/repeaters/repeater_weekday": 1,
+          "date": 1,
+          "chronic/definition": 1,
+          "chronic/dictionary": 1,
+          ":cover?": 1,
+          "gruff": 1,
+          "tinder": 1,
+          "erlectricity/matcher": 1,
+          "erlectricity/port": 1,
+          "erlectricity/types/pid": 1,
+          "erlectricity/condition": 1,
+          "erlectricity/errors/erlectricity_error": 1,
+          "erlectricity/conditions/boolean": 1,
+          "erlectricity/types/function": 1,
+          "decoder": 1,
+          "erlectricity/conditions/type": 1,
+          "erlectricity/types/new_reference": 1,
+          "erlectricity/errors/decode_error": 1,
+          "erlectricity/receiver": 1,
+          "erlectricity/encoder": 1,
+          "erlectricity/conditions/hash": 1,
+          "erlectricity/constants": 1,
+          "erlectricity/types/list": 1,
+          "erlectricity/errors/encode_error": 1,
+          "erlectricity/conditions/static": 1,
+          "erlectricity/decoder": 1,
+          "===": 1,
+          "logger": 1,
+          "eventmachine": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "react-emotion": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 27,
+        "packages": {
+          "react-emotion": 27,
+          "react": 16,
+          "components": 9,
+          "images": 4,
+          "docz": 3,
+          "react-router": 3,
+          "styles": 3,
+          "react-adopt": 2,
+          "react-powerplug": 2,
+          "react-feather": 2,
+          "div": 2,
+          "react-helmet": 1,
+          "react-github-button": 1,
+          "Docz's": 1,
+          "react-breakpoints": 1,
+          "blockquote": 1,
+          "button": 1,
+          "code": 1,
+          "h1": 1,
+          "h2": 1,
+          "h3": 1,
+          "h4": 1,
+          "h5": 1,
+          "h6": 1,
+          "hr": 1,
+          "react-images": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mojombo/30daysoflaptops.github.io",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mojombo/bert",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mojombo/bert.erl",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Erlang"
+        ]
+      },
+      {
+        "repository": "mojombo/bertrpc",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mojombo/bower",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mojombo/chronic",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mojombo/docz-website",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "mojombo/erlectricity",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mojombo/ernie",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Erlang",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mojombo/eventmachine",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

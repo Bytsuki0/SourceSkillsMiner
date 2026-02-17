@@ -1,41 +1,354 @@
 {
+  "username": "johnatan-si",
   "areas": {
     "OSS": {
-      "score": 0.13043478260869557,
+      "score": -0.33333333333333337,
       "details": {
-        "issue_resolution_rate": 0.6956521739130435,
+        "issue_resolution_rate": 0.0,
         "pr_merge_rate": 0.0,
         "commits_activity": 1.0
       }
     },
     "Status": {
-      "score": 0.39743589743589736,
+      "score": 0.33333333333333326,
       "details": {
         "lines_activity": 1.0,
         "commits_activity": 1.0,
-        "week_streak": 0.09615384615384616
+        "week_streak": 0.0
       }
     },
     "Sentiment": {
       "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.4,
       "details": {
-        "johnatan-si/astar0": 0.0,
-        "johnatan-si/aula-ci": 0.0,
-        "johnatan-si/aulagit": 0.0,
-        "johnatan-si/AulasPUCMG": 0.0,
-        "johnatan-si/bicjr": 0.0,
-        "johnatan-si/CalculadoraJava": 0.0,
-        "johnatan-si/demo-ci": 0.0,
-        "johnatan-si/Diw": 0.0,
-        "johnatan-si/DownloadGit": 0.0,
-        "johnatan-si/egit-github": 0.0
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
       }
     }
   },
   "weights": {
-    "OSS": 0.3333333333333333,
-    "Status": 0.3333333333333333,
-    "Sentiment": 0.3333333333333333
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
   },
-  "final_score": 0.17595689334819764
+  "final_score": 0.09999999999999998,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        1799,
+        10
+      ],
+      "Java": [
+        13189,
+        110
+      ],
+      "Makefile": [
+        3,
+        0
+      ],
+      "C": [
+        198,
+        6
+      ],
+      "JavaScript": [
+        1481,
+        2
+      ],
+      "HTML": [
+        75,
+        0
+      ],
+      "CSS": [
+        44,
+        0
+      ],
+      "Shell": [
+        204,
+        2
+      ],
+      "Dockerfile": [
+        4157,
+        44
+      ],
+      "Jupyter Notebook": [
+        9169,
+        7
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 181,
+    "total_lines": 30319,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 13189,
+        "commits": 110
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 4157,
+        "commits": 44
+      },
+      {
+        "language": "Python",
+        "lines": 1799,
+        "commits": 10
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 9169,
+        "commits": 7
+      },
+      {
+        "language": "C",
+        "lines": 198,
+        "commits": 6
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "johnatan-si",
+    "analysis_date": "2026-02-17T20:08:35.826454",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 124,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "<string.h>": 1,
+          "string.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 74,
+        "packages": {
+          "java.util": 35,
+          "org.eclipse": 33,
+          "org.junit": 31,
+          "static": 29,
+          "java.io": 25,
+          "main": 18,
+          "javax.swing": 10,
+          "ProgramacaoModular.Laboratorio": 9,
+          "org.apache": 7,
+          "exemplos": 6,
+          "org.mockito": 6,
+          "java.sql": 5,
+          "mes": 4,
+          "br.ufmg": 2,
+          "com.google": 2,
+          "java.text": 2,
+          "com.jcabi": 1,
+          "javax.json": 1,
+          "java.nio": 1,
+          "org.apiminer": 1,
+          "[()]": 1,
+          "java.awt": 1,
+          "java.time": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 31,
+        "packages": {
+          "src": 18,
+          "typing": 16,
+          "fastapi": 11,
+          "List": 7,
+          "APIRouter": 7,
+          "sqlalchemy": 7,
+          "Optional": 7,
+          "BaseModel": 4,
+          "pydantic": 4,
+          "and_": 4,
+          "db_session": 4,
+          "os": 3,
+          "ListFiltersQueryParams": 3,
+          "ItemModel": 3,
+          "ListGroupsQueryParams": 3,
+          "ListItemsQueryParams": 3,
+          "datetime": 3,
+          "PricingQueryParams": 3,
+          "dotenv": 2,
+          "load_dotenv": 2,
+          "FastAPI": 2,
+          "Any": 2,
+          "Column": 2,
+          "Base": 2,
+          "Query": 2,
+          "date": 2,
+          "get_params_values": 2,
+          "pyspark": 2,
+          "SparkContext": 2,
+          "the": 1,
+          "main": 1,
+          "Add": 1,
+          "sys": 1,
+          "PdfWriter": 1,
+          "subprocess": 1,
+          "shutil": 1,
+          "PyPDF2": 1,
+          "pricing_router": 1,
+          "groups_router": 1,
+          "filter_router": 1,
+          "items_router": 1,
+          "scoped_session": 1,
+          "create_engine": 1,
+          "declarative_base": 1,
+          "connect": 1,
+          "router": 1,
+          "CORSMiddleware": 1,
+          "FilterService": 1,
+          "FilterRepository": 1,
+          "GroupsService": 1,
+          "GroupModel": 1,
+          "GroupsRepository": 1,
+          "Date": 1,
+          "ItemsService": 1,
+          "load_only": 1,
+          "ItemsRepository": 1,
+          "PricingsService": 1,
+          "func": 1,
+          "count": 1,
+          "PricingRepository": 1,
+          "requests": 1,
+          "json": 1,
+          "csv": 1,
+          "mkdir": 1,
+          "Word2Vec": 1,
+          "IDF": 1,
+          "HashingTF": 1,
+          "pos_tag": 1,
+          "word_tokenize": 1,
+          "nltk": 1
+        }
+      },
+      "R": {
+        "files_scanned": 1,
+        "packages": {
+          "BaylorEdPsych": 1,
+          "ggplot2": 1,
+          "MASS": 1,
+          "psych": 1,
+          "sm": 1,
+          "grid": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "johnatan-si/astar0",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "johnatan-si/aula-ci",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "johnatan-si/AulasPUCMG",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "johnatan-si/ConversorPPTtoPDF",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "johnatan-si/demo-ci",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "johnatan-si/DownloadGit",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "johnatan-si/egit-github",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "johnatan-si/EstruturaDados",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "johnatan-si/extractgit",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "johnatan-si/F03_API",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "johnatan-si/GitBlame",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "johnatan-si/github_recommend",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "johnatan-si/groovonomics",
+        "files_analyzed": 1,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "johnatan-si/JExpert",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
 }

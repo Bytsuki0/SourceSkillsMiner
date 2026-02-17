@@ -1,0 +1,187 @@
+{
+  "username": "pjhyett",
+  "areas": {
+    "OSS": {
+      "score": 0.47862779868958283,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.3333333333333333,
+        "commits_activity": 0.884608364701041
+      }
+    },
+    "Status": {
+      "score": 0.31635634958252656,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8399191397584053,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "pjhyett/auto_migrations": -0.4019,
+        "pjhyett/github-services": 0.14875999999999998
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.4737460370680273,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        63405,
+        4
+      ],
+      "JavaScript": [
+        153402,
+        0
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 4,
+    "total_lines": 216807,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 63405,
+        "commits": 4
+      },
+      {
+        "language": "JavaScript",
+        "lines": 153402,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "pjhyett",
+    "analysis_date": "2026-02-17T17:33:46.671767",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 94,
+    "languages": {
+      "Ruby": {
+        "files_scanned": 31,
+        "packages": {
+          "rubygems": 5,
+          "digest/sha1": 3,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 3,
+          "pathname": 3,
+          "initializer": 3,
+          "boot": 3,
+          "dispatcher": 3,
+          "test_help": 3,
+          "test/unit": 2,
+          "your": 2,
+          "rails": 2,
+          "active_support/whiny_nil": 2,
+          "zoned": 2,
+          "auto_migrations": 1,
+          ":old_define": 1,
+          ":define": 1,
+          "game_controller": 1,
+          "socket": 1,
+          "pp": 1,
+          "fileutils": 1,
+          "digest": 1,
+          "zlib": 1,
+          "objects": 1,
+          "login_system": 1,
+          "LoginSystem": 1,
+          "active_support": 1,
+          "environments/#{RAILS_ENV}": 1,
+          "action_mailer": 1,
+          "action_web_service": 1,
+          "action_controller": 1,
+          "active_record": 1,
+          "user": 1,
+          "euro_controller": 1,
+          "action_controller/test_process": 1,
+          "breakpoint": 1,
+          "application": 1,
+          "action_web_service/test_invoke": 1,
+          "active_record/fixtures": 1,
+          "json": 1,
+          "data_mapper": 1,
+          ":z": 1,
+          "activeresource": 1,
+          "spec": 1,
+          "Zoned": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "pjhyett/auto_migrations",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pjhyett/blackjax",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pjhyett/errcount",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pjhyett/git-server",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pjhyett/ThoughtStream",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pjhyett/vjot",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pjhyett/zoned",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}
