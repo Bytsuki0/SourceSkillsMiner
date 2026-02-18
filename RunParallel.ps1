@@ -4,7 +4,7 @@ $Script       = "ScoringSys.py"
 $VenvPython   = "D:/Code/SourceSkillsMiner/win_venv/Scripts/python.exe"
 
 # Maximum simultaneous instances
-$MaxParallel  = 4
+$MaxParallel  = 2
 
 # --- Checks ---
 if (-not (Test-Path $UsersFile))  { Write-Error "Error: $UsersFile not found.";  exit 1 }
