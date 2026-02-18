@@ -549,8 +549,10 @@ class GitHubLanguageCommitAnalyzer:
         """
         Returns (lines_changed, commits). Priority:
           1. In-memory cache (from prefetched_stats or prior calls)
-          2. Repo-size estimate for lines + API for commits only (fast path)
-          3. Full contributor stats API call (slow path)
+          2. Single API call that extracts both lines and commits in one pass.
+             If a repo dict is provided, lines are replaced with the faster
+             size-based estimate — but commits always come from the API response,
+             and the response is only fetched once regardless.
         """
         short_name = full_name.split('/')[-1]
         if short_name in self._stats_cache:
@@ -558,37 +560,34 @@ class GitHubLanguageCommitAnalyzer:
         if full_name in self._stats_cache:
             return self._stats_cache[full_name]
 
-        if repo is not None:
-            lines = GitHubStatsAnalyzerAllTime._estimate_lines_from_repo(repo)
-            commits = self._fetch_commit_count_from_api(full_name)
-            result = (lines, commits) if commits is not None else None
-        else:
-            result = self._fetch_commit_stats_from_api(full_name)
+        result = self._fetch_user_stats_from_api(full_name)
+
+        if result is not None and repo is not None:
+            # Swap in the faster size-based line estimate while keeping the
+            # fetched commit count.  Both values came from the same API call.
+            estimated_lines = GitHubStatsAnalyzerAllTime._estimate_lines_from_repo(repo)
+            result = (estimated_lines, result[1])
 
         self._stats_cache[full_name] = result
         return result
 
-    def _fetch_commit_count_from_api(self, full_name: str) -> Optional[int]:
-        url = f"{self.api_url}/repos/{full_name}/stats/contributors"
+    def _fetch_user_stats_from_api(self, full_name: str) -> Optional[tuple]:
+        """
+        Single API call that extracts (total_lines_changed, total_commits)
+        for self.username in one pass over the weeks array.
+        Replaces the former _fetch_commit_count_from_api and
+        _fetch_commit_stats_from_api which hit the same endpoint separately.
+        """
+        url  = f"{self.api_url}/repos/{full_name}/stats/contributors"
         data = _fetch_contributor_stats(url, self.headers)
         if not data:
             return None
         for contributor in data:
             author = contributor.get('author')
             if author and author.get('login', '').lower() == self.username.lower():
-                return sum(w.get('c', 0) for w in contributor.get('weeks', []))
-        return None
-
-    def _fetch_commit_stats_from_api(self, full_name: str) -> Optional[tuple]:
-        url = f"{self.api_url}/repos/{full_name}/stats/contributors"
-        data = _fetch_contributor_stats(url, self.headers)
-        if not data:
-            return None
-        for contributor in data:
-            author = contributor.get('author')
-            if author and author.get('login', '').lower() == self.username.lower():
-                total_lines = sum(w.get('a', 0) + w.get('d', 0) for w in contributor.get('weeks', []))
-                total_commits = sum(w.get('c', 0) for w in contributor.get('weeks', []))
+                weeks        = contributor.get('weeks', [])
+                total_lines  = sum(w.get('a', 0) + w.get('d', 0) for w in weeks)
+                total_commits = sum(w.get('c', 0)                 for w in weeks)
                 return total_lines, total_commits
         return None
 

@@ -1,0 +1,678 @@
+{
+  "username": "lukas",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.7714285714285714,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "lukas/go-game": 0.7024166666666667,
+        "lukas/ml-class": 0.190265625,
+        "lukas/otto": 0.1468,
+        "lukas/promptsearch": 0.4926,
+        "lukas/robot": 0.21367727272727272,
+        "lukas/yelp-project": 0.703
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.8025641025641026,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        381557,
+        273
+      ],
+      "JavaScript": [
+        579056,
+        43
+      ],
+      "HTML": [
+        570752,
+        45
+      ],
+      "Makefile": [
+        129,
+        0
+      ],
+      "Cuda": [
+        108,
+        0
+      ],
+      "Shell": [
+        3210,
+        0
+      ],
+      "Jupyter Notebook": [
+        1638942,
+        293
+      ],
+      "CSS": [
+        4442,
+        2
+      ],
+      "TypeScript": [
+        10794,
+        9
+      ],
+      "Nginx": [
+        17,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 665,
+    "total_lines": 3189007,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 1638942,
+        "commits": 293
+      },
+      {
+        "language": "Python",
+        "lines": 381557,
+        "commits": 273
+      },
+      {
+        "language": "HTML",
+        "lines": 570752,
+        "commits": 45
+      },
+      {
+        "language": "JavaScript",
+        "lines": 579056,
+        "commits": 43
+      },
+      {
+        "language": "TypeScript",
+        "lines": 10794,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "lukas",
+    "analysis_date": "2026-02-18T20:11:27.130740",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 197,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 28,
+        "packages": {
+          "playwright": 22,
+          "vite": 2,
+          "vitejs": 2,
+          "child_process": 1,
+          "fs": 1,
+          "path": 1,
+          "vitest": 1,
+          "jQuery": 1,
+          "function": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 8,
+        "packages": {
+          "react": 8,
+          "react-dom": 2,
+          "mui": 1,
+          "react-three": 1,
+          "three": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 153,
+        "packages": {
+          "keras": 70,
+          "numpy": 69,
+          "*": 34,
+          "os": 31,
+          "Sequential": 25,
+          "sys": 24,
+          "typing": 23,
+          "print_function": 23,
+          "__future__": 23,
+          "tensorflow": 22,
+          "cv2": 22,
+          "common_defs": 22,
+          "utils": 20,
+          "sklearn": 20,
+          "data": 20,
+          "logging": 18,
+          "Dense": 17,
+          "Model": 16,
+          "backend": 16,
+          "load_model": 16,
+          "re": 15,
+          "List": 15,
+          "core": 14,
+          "argparse": 12,
+          "matplotlib": 12,
+          "time": 12,
+          "PIL": 10,
+          "Image": 10,
+          "preprocess_input": 10,
+          "load_data": 10,
+          "StandardScaler": 10,
+          "load_data_for_regression": 10,
+          "scipy": 9,
+          "layers": 9,
+          "wandb": 9,
+          "sqlalchemy": 9,
+          "models": 8,
+          "Input": 8,
+          "pickle": 8,
+          "LSTM": 8,
+          "pylab": 8,
+          "random": 7,
+          "pathlib": 7,
+          "Dict": 7,
+          "get_labels": 7,
+          "load_detection_model": 7,
+          "apply_offsets": 7,
+          "draw_bounding_box": 7,
+          "detect_faces": 7,
+          "json": 6,
+          "fastapi": 6,
+          "Path": 6,
+          "l2": 6,
+          "polylearn": 6,
+          "h5py": 5,
+          "BatchNormalization": 5,
+          "preprocessing": 5,
+          "SGD": 5,
+          "subprocess": 5,
+          "Conv2D": 5,
+          "np_utils": 5,
+          "APIRouter": 5,
+          "get_db": 5,
+          "Session": 5,
+          "datetime": 5,
+          "IssueCreate": 5,
+          "MDXDocument": 5,
+          "draw_text": 5,
+          "Embedding": 5,
+          "get_file": 5,
+          "sequence": 5,
+          "imdb": 5,
+          "mnist_data": 5,
+          "librosa": 4,
+          "LeakyReLU": 4,
+          "mnist": 4,
+          "Dropout": 4,
+          "db": 4,
+          "asyncio": 4,
+          "urllib": 4,
+          "ImageDataGenerator": 4,
+          "cPickle": 4,
+          "cifar10": 4,
+          "ModelCheckpoint": 4,
+          "Reshape": 3,
+          "EarlyStopping": 3,
+          "parse_annotation": 3,
+          "glob": 3,
+          "io": 3,
+          "func": 3,
+          "Issue": 3,
+          "dataclass": 3,
+          "dataclasses": 3,
+          "flask": 3,
+          "Flask": 3,
+          "load_image": 3,
+          "statistics": 3,
+          "mode": 3,
+          "ReduceLROnPlateau": 3,
+          "Adafruit_AMG88xx": 3,
+          "pprint": 3,
+          "math": 3,
+          "six": 3,
+          "click": 3,
+          "weights": 3,
+          "lassen": 3,
+          "decimate": 2,
+          "interpolate": 2,
+          "AudioUNet": 2,
+          "Activation": 2,
+          "concatenate": 2,
+          "MobileNet": 2,
+          "BoundBox": 2,
+          "tqdm": 2,
+          "YOLO": 2,
+          "frontend": 2,
+          "xml": 2,
+          "copy": 2,
+          "Callback": 2,
+          "WandbCallback": 2,
+          "Config": 2,
+          "Flatten": 2,
+          "File": 2,
+          "AnalysisRun": 2,
+          "settings": 2,
+          "contextlib": 2,
+          "pydantic": 2,
+          "BaseModel": 2,
+          "fnmatch": 2,
+          "httpx": 2,
+          "Markdown": 2,
+          "markdown": 2,
+          "Enum": 2,
+          "enum": 2,
+          "open": 2,
+          "packaging": 2,
+          "version": 2,
+          "catalog_loader": 2,
+          "VersionResolver": 2,
+          "create_unified_diff": 2,
+          "services": 2,
+          "GitRepository": 2,
+          "alembic": 2,
+          "urllib2": 2,
+          "call": 2,
+          "Request": 2,
+          "socket": 2,
+          "shutil": 2,
+          "compile_saliency_function": 2,
+          "modify_backprop": 2,
+          "calculate_guided_gradient_CAM": 2,
+          "compile_gradient_function": 2,
+          "register_gradient": 2,
+          "MaxPooling2D": 2,
+          "AveragePooling2D": 2,
+          "DataManager": 2,
+          "CSVLogger": 2,
+          "mini_XCEPTION": 2,
+          "shuffle": 2,
+          "pandas": 2,
+          "image": 2,
+          "stepper": 2,
+          "adafruit_motorkit": 2,
+          "adafruit_motor": 2,
+          "MotorKit": 2,
+          "sleep": 2,
+          "log": 2,
+          "all": 2,
+          "FactorizationMachineClassifier": 2,
+          "PolynomialNetworkClassifier": 2,
+          "RandomForestClassifier": 2,
+          "ExtraTreesClassifier": 2,
+          "xgboost": 2,
+          "FactorizationMachineRegressor": 2,
+          "PolynomialNetworkRegressor": 2,
+          "RandomForestRegressor": 2,
+          "ExtraTreesRegressor": 2,
+          "Hyperband": 2,
+          "hyperband": 2,
+          "get_params": 2,
+          "activations": 2,
+          "range": 2,
+          "tarfile": 2,
+          "pad_sequences": 2,
+          "functools": 2,
+          "add": 2,
+          "reduce": 2,
+          "Adam": 2,
+          "Conv1D": 2,
+          "to_categorical": 2,
+          "inference": 2,
+          "pywrap_tensorflow": 2,
+          "mnist_lassen": 2,
+          "butter": 1,
+          "audiounet": 1,
+          "normal": 1,
+          "model": 1,
+          "SubPixel1D": 1,
+          "Convolution1D": 1,
+          "merge": 1,
+          "base": 1,
+          "dtypes": 1,
+          "pyplot": 1,
+          "create_var_summaries": 1,
+          "summarization": 1,
+          "PReLU": 1,
+          "DataSet": 1,
+          "dataset": 1,
+          "load_h5": 1,
+          "default_opt": 1,
+          "VGG16": 1,
+          "InceptionV3": 1,
+          "ResNet50": 1,
+          "BatchGenerator": 1,
+          "TinyYoloFeature": 1,
+          "draw_boxes": 1,
+          "Sequence": 1,
+          "imgaug": 1,
+          "augmenters": 1,
+          "skimage": 1,
+          "triton": 1,
+          "torch": 1,
+          "FileResponse": 1,
+          "and_": 1,
+          "PRCreate": 1,
+          "RuleResponse": 1,
+          "Rule": 1,
+          "AnalysisRunResponse": 1,
+          "uvicorn": 1,
+          "init_db": 1,
+          "issues": 1,
+          "FastAPI": 1,
+          "API": 1,
+          "api": 1,
+          "asynccontextmanager": 1,
+          "CORSMiddleware": 1,
+          "tiktoken": 1,
+          "yaml": 1,
+          "Generator": 1,
+          "create_engine": 1,
+          "sessionmaker": 1,
+          "StaticPool": 1,
+          "contextmanager": 1,
+          "Repo": 1,
+          "git": 1,
+          "urljoin": 1,
+          "retry": 1,
+          "tenacity": 1,
+          "codehilite": 1,
+          "bs4": 1,
+          "frontmatter": 1,
+          "BeautifulSoup": 1,
+          "declarative_base": 1,
+          "relationship": 1,
+          "Column": 1,
+          "StringIO": 1,
+          "difflib": 1,
+          "tables": 1,
+          "LinkChecker": 1,
+          "create_line_replacement_patch": 1,
+          "require_img_alt": 1,
+          "require_one_h1": 1,
+          "EmbeddingService": 1,
+          "Verifier": 1,
+          "LLMClient": 1,
+          "analyzers": 1,
+          "DocumentChunk": 1,
+          "get_embedding_service": 1,
+          "verifier": 1,
+          "DocumentChunker": 1,
+          "traceback": 1,
+          "create_llm_client": 1,
+          "parse_mdx_file": 1,
+          "context": 1,
+          "engine_from_config": 1,
+          "get_database_url": 1,
+          "fileConfig": 1,
+          "Base": 1,
+          "postgresql": 1,
+          "op": 1,
+          "cameras": 1,
+          "threading": 1,
+          "Key": 1,
+          "boto": 1,
+          "S3Connection": 1,
+          "SeparableConv2D": 1,
+          "GlobalAveragePooling2D": 1,
+          "WandbKerasCallback": 1,
+          "split_data": 1,
+          "ImageGenerator": 1,
+          "split_imdb_data": 1,
+          "loadmat": 1,
+          "Lambda": 1,
+          "ops": 1,
+          "imread": 1,
+          "mpl_toolkits": 1,
+          "make_axes_locatable": 1,
+          "get_class_to_arg": 1,
+          "emotion_gender_processor": 1,
+          "ServoKit": 1,
+          "adafruit_servokit": 1,
+          "atexit": 1,
+          "send_file": 1,
+          "roc_auc_score": 1,
+          "mean_squared_error": 1,
+          "hyperopt": 1,
+          "sample": 1,
+          "hp": 1,
+          "GradientBoostingClassifier": 1,
+          "SGDClassifier": 1,
+          "XGBClassifier": 1,
+          "GradientBoostingRegressor": 1,
+          "SGDRegressor": 1,
+          "XGBRegressor": 1,
+          "defs": 1,
+          "defs_regression": 1,
+          "docs": 1,
+          "template_np_implementation": 1,
+          "EXCLUDE": 1,
+          "unicode_literals": 1,
+          "numpy_backend": 1,
+          "template_hidden_np_implementation": 1,
+          "PAGES": 1,
+          "inspect": 1,
+          "pathlib2": 1,
+          "noise": 1,
+          "callbacks": 1,
+          "constraints": 1,
+          "wrappers": 1,
+          "initializers": 1,
+          "optimizers": 1,
+          "metrics": 1,
+          "losses": 1,
+          "advanced_activations": 1,
+          "recurrent": 1,
+          "TensorFlow": 1,
+          "magic": 1,
+          "UpSampling2D": 1,
+          "vgg16": 1,
+          "save_img": 1,
+          "ConvLSTM2D": 1,
+          "Conv3D": 1,
+          "load_img": 1,
+          "inception_v3": 1,
+          "cairocffi": 1,
+          "itertools": 1,
+          "ndimage": 1,
+          "GRU": 1,
+          "editdistance": 1,
+          "codecs": 1,
+          "GlobalAveragePooling1D": 1,
+          "RMSprop": 1,
+          "LambdaCallback": 1,
+          "Progbar": 1,
+          "Conv2DTranspose": 1,
+          "collections": 1,
+          "defaultdict": 1,
+          "train_test_split": 1,
+          "preprocess": 1,
+          "keras_contrib": 1,
+          "Layer": 1,
+          "_obtain_input_shape": 1,
+          "segmentation": 1,
+          "densenet": 1,
+          "sigmoid": 1,
+          "img_to_array": 1,
+          "SegDataGenerator": 1,
+          "inference_model": 1,
+          "binary_accuracy": 1,
+          "train": 1,
+          "binary_crossentropy": 1,
+          "streaming_mean_iou": 1,
+          "model_from_json": 1,
+          "get_weights_path": 1,
+          "resnet_helpers": 1,
+          "cProfile": 1,
+          "ast": 1,
+          "ctypes": 1,
+          "unittest": 1,
+          "debug": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "lukas/audio-super-res",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/basic-yolo-keras",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/catz",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/claude-base",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "lukas/colorizer",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/cuda-play",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/demo",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/doc-crawler",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/facerec",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/face_classification",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/go-game",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "lukas/heater",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/hyperband",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/keras",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/keras-audio",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/Keras-FCN-1",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lukas/kid-jail",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lukas/lassen",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}
