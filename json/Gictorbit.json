@@ -1,0 +1,479 @@
+{
+  "username": "Gictorbit",
+  "areas": {
+    "OSS": {
+      "score": 0.7929824561403509,
+      "details": {
+        "issue_resolution_rate": 0.7894736842105263,
+        "pr_merge_rate": 0.9,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.33333333333333326,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "Gictorbit/illustratorCClinux": 0.18090666666666666,
+        "Gictorbit/photoshopCClinux": 0.14777179487179487,
+        "Gictorbit/radarvan": 0.2202,
+        "Gictorbit/victorconky": 0.09439230769230769
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6815789473684211,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        241388,
+        261
+      ],
+      "Just": [
+        54643,
+        9
+      ],
+      "Dockerfile": [
+        27748,
+        6
+      ],
+      "PLpgSQL": [
+        19499,
+        1
+      ],
+      "Python": [
+        3629,
+        57
+      ],
+      "Shell": [
+        12242,
+        155
+      ],
+      "PHP": [
+        21,
+        0
+      ],
+      "HTML": [
+        507240,
+        130
+      ],
+      "JavaScript": [
+        2992,
+        9
+      ],
+      "Makefile": [
+        349,
+        2
+      ],
+      "CSS": [
+        3226,
+        86
+      ],
+      "C": [
+        19,
+        1
+      ],
+      "Java": [
+        631,
+        3
+      ],
+      "HCL": [
+        140,
+        0
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 720,
+    "total_lines": 873767,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 241388,
+        "commits": 261
+      },
+      {
+        "language": "Shell",
+        "lines": 12242,
+        "commits": 155
+      },
+      {
+        "language": "HTML",
+        "lines": 507240,
+        "commits": 130
+      },
+      {
+        "language": "CSS",
+        "lines": 3226,
+        "commits": 86
+      },
+      {
+        "language": "Python",
+        "lines": 3629,
+        "commits": 57
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Gictorbit",
+    "analysis_date": "2026-02-17T21:51:35.941765",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 166,
+    "languages": {
+      "C": {
+        "files_scanned": 5,
+        "packages": {
+          "commands.h": 2,
+          "db.h": 2,
+          "shell.h": 2,
+          "token.h": 2,
+          "unistd.h": 1,
+          "<unistd.h>": 1,
+          "stdio.h": 1,
+          "pwd.h": 1,
+          "stdlib.h": 1,
+          "<stdio.h>": 1,
+          "<pwd.h>": 1,
+          "<sys/types.h>": 1,
+          "string.h": 1,
+          "<string.h>": 1,
+          "<stdlib.h>": 1,
+          "sys/types.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 4,
+        "packages": {
+          "stdbool.h": 4,
+          "<stdbool.h>": 4,
+          "db.h": 2,
+          "stdio.h": 2,
+          "stdlib.h": 2,
+          "<stdio.h>": 2,
+          "string.h": 2,
+          "<string.h>": 2,
+          "<stdlib.h>": 2,
+          "shell.h": 1,
+          "token.h": 1,
+          "<sqlite3.h>": 1,
+          "sqlite3.h": 1,
+          "<ctype.h>": 1,
+          "ctype.h": 1,
+          "<malloc.h>": 1,
+          "malloc.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 104,
+        "packages": {
+          "context": 51,
+          "go.uber.org/zap": 31,
+          "errors": 27,
+          "net": 25,
+          "fmt": 24,
+          "time": 21,
+          "google.golang.org/grpc/status": 17,
+          "google.golang.org/grpc/codes": 17,
+          "os": 16,
+          "net/http": 16,
+          "log": 15,
+          "google.golang.org/grpc": 15,
+          "github.com/Gictorbit/gofiler/proto/pb": 13,
+          "strings": 11,
+          "io": 11,
+          "google.golang.org/protobuf/proto": 10,
+          "github.com/Gictorbit/gofiler/utils": 10,
+          "google.golang.org/grpc/metadata": 9,
+          "github.com/grpc-ecosystem/grpc-gateway/v2/runtime": 9,
+          "github.com/Gictorbit/gotodotasks/internal/authutil": 9,
+          "github.com/jackc/pgx/v5/pgxpool": 7,
+          "regexp": 7,
+          "github.com/urfave/cli/v2": 6,
+          "github.com/gictorbit/ice/internal/todo/domain": 6,
+          "os/signal": 5,
+          "syscall": 5,
+          "database/sql": 5,
+          "google.golang.org/grpc/grpclog": 5,
+          "github.com/grpc-ecosystem/grpc-gateway/v2/utilities": 5,
+          "path/filepath": 5,
+          "testing": 5,
+          "github.com/Gictorbit/gofiler/server/storage": 5,
+          "google.golang.org/grpc/credentials/insecure": 4,
+          "unicode/utf8": 4,
+          "net/mail": 4,
+          "invalid": 4,
+          "google.golang.org/protobuf/types/known/anypb": 4,
+          "sort": 4,
+          "net/url": 4,
+          "bytes": 4,
+          "os/exec": 4,
+          "github.com/google/uuid": 4,
+          "github.com/gictorbit/arvan-challenge/envconfig": 3,
+          "crypto/rand": 3,
+          "github.com/jackc/pgx/v5": 3,
+          "github.com/redis/go-redis/v9": 3,
+          "encoding/json": 3,
+          "runtime/debug": 2,
+          "github.com/caarlos0/env/v10": 2,
+          "github.com/joho/godotenv": 2,
+          "github.com/pressly/goose/v3": 2,
+          "sync": 2,
+          "path": 2,
+          "RESPONSE_CODE_SUCCESS": 2,
+          "RESPONSE_CODE_FAILED": 2,
+          "RESPONSE_CODE_NOT_FOUND": 2,
+          "gotest.tools/v3/assert": 2,
+          "github.com/gictorbit/ice/internal/todo/usecase": 2,
+          "math/rand": 2,
+          "github.com/shopspring/decimal": 2,
+          "github.com/gictorbit/arvan-challenge/gateway": 1,
+          "github.com/gictorbit/arvan-challenge/services/walletapi": 1,
+          "google.golang.org/grpc/reflection": 1,
+          "github.com/gictorbit/arvan-challenge/services/discountapi": 1,
+          "github.com/gictorbit/arvan-challenge/db/discountdb": 1,
+          "github.com/gictorbit/arvan-challenge/db/walletdb": 1,
+          "github.com/tmc/grpc-websocket-proxy/wsproxy": 1,
+          "embed": 1,
+          "golang.org/x/exp/slices": 1,
+          "github.com/gictorbit/arvan-challenge/db": 1,
+          "gopkg.in/yaml.v3": 1,
+          "ImageName": 1,
+          "Compress": 1,
+          "NOProxy": 1,
+          "HTTPSProxy": 1,
+          "Username": 1,
+          "HTTPProxy": 1,
+          "RemoteAddr": 1,
+          "Tags": 1,
+          "Cache": 1,
+          "GoVersion": 1,
+          "strconv": 1,
+          "flag": 1,
+          "unicode": 1,
+          "github.com/Gictorbit/gofiler/client/tcpclient": 1,
+          "github.com/jedib0t/go-pretty/v6/table": 1,
+          "MESSAGE_TYPE_DELETE_FILE_RESPONSE": 1,
+          "MESSAGE_TYPE_UPLOAD_FILE_RESPONSE": 1,
+          "MESSAGE_TYPE_DELETE_FILE_REQUEST": 1,
+          "RESPONSE_CODE_OK": 1,
+          "MESSAGE_TYPE_DOWNLOAD_FILE_REQUEST": 1,
+          "MESSAGE_TYPE_FILE_INFO_REQUEST": 1,
+          "MESSAGE_TYPE_DOWNLOAD_FILE_RESPONSE": 1,
+          "MESSAGE_TYPE_UNKNOWN": 1,
+          "MESSAGE_TYPE_UPLOAD_FILE_REQUEST": 1,
+          "MESSAGE_TYPE_FILE_INFO_RESPONSE": 1,
+          "RESPONSE_CODE_READY": 1,
+          "github.com/Gictorbit/gofiler/server/tcpsrv": 1,
+          "crypto/md5": 1,
+          "TASKS_COMPLETED_FILTER_DONE": 1,
+          "TASKS_COMPLETED_FILTER_ALL": 1,
+          "RESPONSE_CODE_UNSPECIFIED": 1,
+          "TASKS_COMPLETED_FILTER_UNDONE": 1,
+          "USER_ROLE_NORMAL_USER": 1,
+          "USER_ROLE_ADMIN": 1,
+          "USER_ROLE_UNSPECIFIED": 1,
+          "USER_ROLE_TESTER": 1,
+          "github.com/Gictorbit/gotodotasks/internal/service/taskmanager": 1,
+          "github.com/Gictorbit/gotodotasks/internal/service/user": 1,
+          "html/template": 1,
+          "github.com/golang-jwt/jwt/v4": 1,
+          "due_date": 1,
+          "id": 1,
+          "title": 1,
+          "description": 1,
+          "is_completed": 1,
+          "golang.org/x/crypto/bcrypt": 1,
+          "math/big": 1,
+          "crypto/tls": 1,
+          "google.golang.org/grpc/credentials": 1,
+          "crypto/rsa": 1,
+          "encoding/pem": 1,
+          "crypto/x509/pkix": 1,
+          "crypto/x509": 1,
+          "github.com/gictorbit/ice/internal/todo/delivery": 1,
+          "github.com/gictorbit/ice/internal/todo/infrastructure/mysql": 1,
+          "publisher": 1,
+          "success": 1,
+          "github.com/golang/mock/gomock": 1,
+          "repo": 1,
+          "math": 1,
+          "encoding/binary": 1,
+          "open": 1,
+          ":=": 1,
+          "github.com/gictorbit/mabna/db": 1,
+          "github.com/gictorbit/mabna/service": 1,
+          "github.com/gorilla/mux": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 16,
+        "packages": {
+          "undefined": 9,
+          "object": 6,
+          "ev-emitter": 1,
+          "jquery": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "sys": 2,
+          "requests": 1,
+          "json": 1,
+          "HTTPBasicAuth": 1,
+          "time": 1,
+          "urlopen": 1,
+          "urllib": 1,
+          "sleep": 1,
+          "beautifultable": 1,
+          "BeautifulTable": 1,
+          "CpanelHost": 1,
+          "getpass": 1,
+          "re": 1,
+          "textpad": 1,
+          "cpanelhost": 1,
+          "validators": 1,
+          "curses": 1,
+          "Thread": 1,
+          "threading": 1,
+          "netIsOn": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Gictorbit/arvan-challenge",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Gictorbit/cpaneltop",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Gictorbit/dockygo",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Gictorbit/gateway-rd",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Gictorbit/Gictorbit.github.io",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Gictorbit/go-cipher",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Gictorbit/gofiler",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Gictorbit/gotodotasks",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Gictorbit/grpceptor-test",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Gictorbit/hugo-theme-zzo",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Gictorbit/ice",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Gictorbit/ipcalc",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Gictorbit/mabna",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Gictorbit/MeShell",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "Gictorbit/Mikhak",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

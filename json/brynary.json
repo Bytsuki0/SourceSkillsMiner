@@ -1,0 +1,68 @@
+{
+  "username": "brynary",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 6.224489795918367,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.0,
+      "details": {
+        "lines_activity": 0.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.75,
+      "details": {
+        "brynary/brakeman": -0.0386,
+        "brynary/cache-money": -0.296,
+        "brynary/cucumber": 0.07018333333333335,
+        "brynary/dotfiles": 0.3182,
+        "brynary/dryopteris": 0.3450666666666667,
+        "brynary/features2cards": -0.13396666666666665,
+        "brynary/grit": 0.15053529411764704,
+        "brynary/metric_fu": 0.45204999999999995,
+        "brynary/rack-bug": 0.081440625,
+        "brynary/rubygems.org": 0.4118,
+        "brynary/testjour": 0.67095,
+        "brynary/webrat": 0.11508666666666666
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/brynary/testbot/stats/contributors (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1077)')))",
+        "criteria_met": {}
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.4375,
+  "language_usage": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/brynary/delayed_job/stats/contributors (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1077)')))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/brynary/active_admin/contents/features/step_definitions/batch_action_steps.rb (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1077)')))",
+    "username": "brynary",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}
