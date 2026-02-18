@@ -1,0 +1,423 @@
+{
+  "username": "ivey",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.6,
+        "pr_merge_rate": 3.8181818181818183,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.33333333333333326,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "ivey/benjifs-micropub": 0.6467,
+        "ivey/colapp": 0.78095,
+        "ivey/merb_has_flash": 0.2023
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6833333333333333,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        11841,
+        35
+      ],
+      "Starlark": [
+        1137,
+        2
+      ],
+      "JavaScript": [
+        544887,
+        67
+      ],
+      "HTML": [
+        34846,
+        135
+      ],
+      "Shell": [
+        145,
+        0
+      ],
+      "Ruby": [
+        75532,
+        104
+      ],
+      "Clojure": [
+        632,
+        5
+      ],
+      "Go": [
+        6734,
+        24
+      ],
+      "CSS": [
+        2472,
+        13
+      ],
+      "Java": [
+        1698,
+        6
+      ],
+      "PHP": [
+        22,
+        0
+      ],
+      "Python": [
+        44,
+        1
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        12,
+        0
+      ],
+      "Makefile": [
+        885,
+        1
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 393,
+    "total_lines": 680887,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 34846,
+        "commits": 135
+      },
+      {
+        "language": "Ruby",
+        "lines": 75532,
+        "commits": 104
+      },
+      {
+        "language": "JavaScript",
+        "lines": 544887,
+        "commits": 67
+      },
+      {
+        "language": "C++",
+        "lines": 11841,
+        "commits": 35
+      },
+      {
+        "language": "Go",
+        "lines": 6734,
+        "commits": 24
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ivey",
+    "analysis_date": "2026-02-17T20:35:32.531827",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 158,
+    "languages": {
+      "C++": {
+        "files_scanned": 23,
+        "packages": {
+          "libaoc.h": 23,
+          "iostream": 15,
+          "<iostream>": 15,
+          "<fstream>": 8,
+          "fstream": 8,
+          "gtest/gtest.h": 7,
+          "<sstream>": 7,
+          "<gtest/gtest.h>": 7,
+          "sstream": 7,
+          "map": 7,
+          "<map>": 7,
+          "vector": 5,
+          "<vector>": 5,
+          "tuple": 5,
+          "<tuple>": 5,
+          "<string>": 4,
+          "<algorithm>": 4,
+          "string": 4,
+          "algorithm": 4,
+          "<unordered_set>": 3,
+          "unordered_set": 3,
+          "<deque>": 3,
+          "deque": 3
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 7,
+        "packages": {
+          "<sstream>": 7,
+          "cstdint": 7,
+          "sstream": 7,
+          "<cstdint>": 7,
+          "<iosfwd>": 7,
+          "iosfwd": 7
+        }
+      },
+      "Go": {
+        "files_scanned": 16,
+        "packages": {
+          "fmt": 14,
+          "net/http": 9,
+          "io/ioutil": 6,
+          "testing": 5,
+          "strings": 5,
+          "flag": 4,
+          "github.com/tbruyelle/hipchat-go/hipchat": 4,
+          "os": 4,
+          "reflect": 4,
+          "net/url": 3,
+          "encoding/json": 3,
+          "Content-Transfer-Encoding:": 3,
+          "--hipfileboundary\\n": 3,
+          "{\\": 3,
+          "Content-Disposition:": 3,
+          "Content-Type:": 3,
+          "links": 3,
+          "io": 2,
+          "path/filepath": 2,
+          "from": 2,
+          "self": 2,
+          "name": 2,
+          "startIndex": 2,
+          "Z28gZ29waGVycw==\\n": 2,
+          "items": 2,
+          "id": 2,
+          "maxResults": 2,
+          "type": 2,
+          "math/rand": 2,
+          "time": 2,
+          "mime": 1,
+          "encoding/base64": 1,
+          "errors": 1,
+          "os/user": 1,
+          "bytes": 1,
+          "net/http/httptest": 1,
+          "message": 1,
+          "message_format": 1,
+          "date": 1,
+          "mentions": 1,
+          "Owner": 1,
+          "Participants": 1,
+          "show": 1,
+          "last_active": 1,
+          "client": 1,
+          "is_online": 1,
+          "mention_name": 1,
+          "is_group_admin": 1,
+          "is_deleted": 1,
+          "created": 1,
+          "photo_url": 1,
+          "timezone": 1,
+          "email": 1,
+          "xmpp_jid": 1,
+          "version": 1,
+          "presence": 1,
+          "title": 1,
+          "is_guest": 1,
+          "group": 1,
+          "github.com/garyburd/twitterstream": 1,
+          "github.com/garyburd/go-oauth/oauth": 1,
+          "https://userstream.twitter.com/1.1/user.json": 1,
+          "regexp": 1,
+          "github.com/ivey/anaconda": 1,
+          "github.com/ivey/leader1/markov": 1,
+          "log": 1,
+          "github.com/ivey/leader1": 1,
+          "bufio": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 7,
+        "packages": {
+          "java.util": 7,
+          "com.gweezlebur": 7,
+          "lombok.Getter": 2,
+          "org.apache": 1,
+          "lombok.Setter": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "dotenv": 6,
+          "nock": 4,
+          "got": 4,
+          "gray-matter": 2,
+          "middy": 2,
+          "article-title": 1,
+          ");a.addRule(": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 21,
+        "packages": {
+          "DataMapper::Resource": 6,
+          "DataMapper::Validate": 3,
+          "md5": 2,
+          "test_helper": 2,
+          "rubygems": 2,
+          "test/unit": 1,
+          "lib/carpark.rb": 1,
+          "default": 1,
+          "rails/all": 1,
+          "settings": 1,
+          "bundler/setup": 1,
+          "devise/orm/active_record": 1,
+          "sinatra": 1,
+          "Ebooks": 1,
+          "twitter_ebooks": 1,
+          "bots": 1,
+          "merb-simple": 1,
+          "Merb::AssetsMixin": 1,
+          "CacheHelper": 1,
+          "MerbPaginate::Finders::Datamapper": 1,
+          "init.rb": 1,
+          "install.rb": 1,
+          "digest/sha1": 1,
+          "AuthenticatedSystem::Model": 1,
+          "controllers": 1,
+          "models": 1,
+          "mailers": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ivey/advent-of-code-2022",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "ivey/benjifs-micropub",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ivey/blog",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ivey/carpark",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ivey/colapp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ivey/enigma-codebook",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ivey/gobt",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ivey/hipchat-go",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ivey/ivey.github.com",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ivey/iveybot",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ivey/leader1",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ivey/mazes-java",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "ivey/merb-simple",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ivey/merbivore-blog",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

@@ -37,8 +37,10 @@ import StatusAnaliser as f3
 import WorkTypeAnalyzer as f4   # provides GitHubLanguageCommitAnalyzer + GitHubImportScanner
 
 # Load defaults from config.ini if available
+# Replace the top of the file with this — no module-level argparse needed
+
 config = cfgparser.ConfigParser()
-config.read('config.ini')
+config.read('config.ini')               # reads from cwd, which RunParallel sets per-job
 DEFAULT_USERNAME = config.get('github', 'username', fallback=None)
 DEFAULT_TOKEN    = config.get('github', 'token',    fallback=None)
 
