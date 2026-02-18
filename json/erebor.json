@@ -1,0 +1,592 @@
+{
+  "username": "erebor",
+  "areas": {
+    "OSS": {
+      "score": 0.4927916913888808,
+      "details": {
+        "issue_resolution_rate": 0.6111111111111112,
+        "pr_merge_rate": 0.7222222222222222,
+        "commits_activity": 0.9058542037499878
+      }
+    },
+    "Status": {
+      "score": 0.2684916073757222,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9027374110635834,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "erebor/conductorama": 0.279175,
+        "erebor/phone_wrangler": 0.37758
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5403208246911507,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        13602,
+        107
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "JavaScript": [
+        82,
+        0
+      ],
+      "HTML": [
+        1,
+        0
+      ],
+      "CoffeeScript": [
+        0,
+        0
+      ],
+      "CSS": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "C": [
+        91,
+        3
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 110,
+    "total_lines": 13776,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 13602,
+        "commits": 107
+      },
+      {
+        "language": "C",
+        "lines": 91,
+        "commits": 3
+      },
+      {
+        "language": "Shell",
+        "lines": 0,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 82,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 1,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "erebor",
+    "analysis_date": "2026-02-18T18:02:24.865544",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 311,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 6,
+        "packages": {
+          "CDIManagedTableViewController.h": 2,
+          "TTTAttributedLabel.h": 1,
+          "CDITableViewCell.h": 1,
+          "CDIPullToRefreshView.h": 1,
+          "CDIGroupedTableViewController.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 8,
+        "packages": {
+          "rssybot": 8,
+          "com.google": 7,
+          "javax.jdo": 5,
+          "java.util": 4,
+          "java.io": 2,
+          "com.sun": 2,
+          "java.text": 1,
+          "java.net": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 5,
+        "packages": {
+          "Please": 1,
+          "Rickshaw.Compat.ClassList": 1,
+          "svelte-preprocess": 1,
+          "https:": 1,
+          "sveltejs": 1,
+          "fs": 1,
+          "vite": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 15,
+        "packages": {
+          "UIFont+CheddariOSAdditions.h": 10,
+          "UIColor+CheddariOSAdditions.h": 10,
+          "CDITableViewCell.h": 3,
+          "CDICreateListViewController.h": 3,
+          "CDIAddListTableViewCell.h": 2,
+          "CDIAddTaskAnimationView.h": 2,
+          "SMTEDelegateController.h": 2,
+          "CDIAddTaskView.h": 2,
+          "CDISplitViewController.h": 2,
+          "CDIListsViewController.h": 2,
+          "CDIAttributedLabel.h": 2,
+          "CDIListTableViewCell.h": 2,
+          "CDIListViewController.h": 2,
+          "CDINoTasksView.h": 2,
+          "CDINoListsView.h": 2,
+          "CDILoadingView.h": 2,
+          "<QuartzCore/QuartzCore.h>": 1,
+          "QuartzCore/QuartzCore.h": 1,
+          "UIButton+CheddariOSAdditions.h": 1,
+          "CDITagView.h": 1,
+          "CDIAppDelegate.h": 1,
+          "Crashlytics/Crashlytics.h": 1,
+          "CDIDefines.h": 1,
+          "CDITransactionObserver.h": 1,
+          "StoreKit/StoreKit.h": 1,
+          "<Crashlytics/Crashlytics.h>": 1,
+          "LocalyticsUtilities.h": 1,
+          "<StoreKit/StoreKit.h>": 1,
+          "<CoreText/CoreText.h>": 1,
+          "CoreText/CoreText.h": 1,
+          "CDIGroupedTableViewController.h": 1,
+          "CDIRenameTaskViewController.h": 1,
+          "CDIWebViewController.h": 1,
+          "CDITaskTableViewCell.h": 1,
+          "CDISettingsViewController.h": 1,
+          "CDIWebSignInViewController.h": 1,
+          "CDISignUpViewController.h": 1,
+          "<SSToolkit/UIScrollView+SSToolkitAdditions.h>": 1,
+          "CDIUpgradeViewController.h": 1,
+          "SSToolkit/UIScrollView+SSToolkitAdditions.h": 1,
+          "CDIManagedTableViewController.h": 1,
+          "CDISettingsTableViewCell.h": 1,
+          "CDIPickerViewController.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 6,
+        "packages": {
+          "os": 4,
+          "urllib": 3,
+          "tweepy": 2,
+          "BeautifulSoup": 2,
+          "re": 2,
+          "cPickle": 2,
+          "pickle": 2,
+          "simplejson": 2,
+          "flickr": 1,
+          "twitter": 1,
+          "Thread": 1,
+          "threading": 1,
+          "helper": 1,
+          "webbrowser": 1,
+          "configobj": 1,
+          "cree": 1,
+          "OAuthHandler": 1,
+          "gobject": 1,
+          "ConfigObj": 1,
+          "osmgpsmap": 1,
+          "gtk": 1,
+          "shutil": 1,
+          "pango": 1,
+          "flickrapi": 1,
+          "FlickrError": 1,
+          "csv": 1,
+          "Cursor": 1,
+          "urlanalyzer": 1,
+          "urlparse": 1,
+          "mktime": 1,
+          "pyexiv2": 1,
+          "time": 1,
+          "datetime": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 96,
+        "packages": {
+          "rubygems": 12,
+          "google_spreadsheet/error": 9,
+          "test/unit": 8,
+          "google_spreadsheet/util": 8,
+          "cgi": 7,
+          "SortHelper": 7,
+          "citrus/grammars": 6,
+          "uri": 5,
+          "SelectiveAttributeProxy": 5,
+          "QueriesHelper": 4,
+          "citrus": 4,
+          "yaml": 3,
+          "CustomFieldsHelper": 3,
+          "json": 3,
+          "Gruff::Mini::Legend": 3,
+          "StackedMixin": 3,
+          "base64": 2,
+          "test_helper": 2,
+          "net/https": 2,
+          "xml/libxml": 2,
+          "faster_xml_simple": 2,
+          "open-uri": 2,
+          "Enumerable": 2,
+          "WatchersHelper": 2,
+          "Redmine::Export::PDF": 2,
+          "AttachmentsHelper": 2,
+          "benchmark": 2,
+          "grammar1": 2,
+          "sinatra": 2,
+          "net/http": 2,
+          "eql?": 2,
+          "highline": 2,
+          "google_spreadsheet/spreadsheet": 2,
+          "google_spreadsheet/worksheet": 2,
+          "google_spreadsheet/table": 2,
+          "bundler/setup": 2,
+          "spec_helper": 2,
+          "rspec": 2,
+          "gchart/version": 2,
+          "fileutils": 2,
+          "gchart": 2,
+          "gruff": 2,
+          "crack/xml": 1,
+          "httpclient": 1,
+          "hashie": 1,
+          "rake/testtask": 1,
+          "mocha": 1,
+          "asin": 1,
+          "s3/parsing": 1,
+          "s3/bucket": 1,
+          "s3/bittorrent": 1,
+          "s3/base": 1,
+          "s3/acl": 1,
+          "s3/service": 1,
+          "builder": 1,
+          "xmlsimple": 1,
+          "s3/error": 1,
+          "AWS::S3::Logging::Management": 1,
+          "s3/authentication": 1,
+          "AWS::S3::Connection::Management": 1,
+          "date": 1,
+          "AWS::S3::ACL::Bucket": 1,
+          "s3/owner": 1,
+          "s3/object": 1,
+          "AWS::S3::BitTorrent": 1,
+          "s3/response": 1,
+          "digest/sha1": 1,
+          "s3/exceptions": 1,
+          "s3/logging": 1,
+          "AWS::S3::ACL::S3Object": 1,
+          "time": 1,
+          "s3/connection": 1,
+          "mime/types": 1,
+          "openssl": 1,
+          "s3/version": 1,
+          "s3/extensions": 1,
+          "library": 1,
+          "Typecasting": 1,
+          "rake": 1,
+          "rdoc/rdoc": 1,
+          "repository/#{scm.underscore}": 1,
+          "Redmine::MenuManager::MenuController": 1,
+          "Redmine::Search::Controller": 1,
+          "Redmine::I18n": 1,
+          "MessagesHelper": 1,
+          "IssuesHelper": 1,
+          "IssueRelationsHelper": 1,
+          "ProjectsHelper": 1,
+          "citrus/version": 1,
+          "pathname": 1,
+          "Rule": 1,
+          "Proxy": 1,
+          "Nonterminal": 1,
+          "strscan": 1,
+          "ModuleNameHelpers": 1,
+          "file": 1,
+          "tempfile": 1,
+          "TestGrammar": 1,
+          "Citrus": 1,
+          "Words": 1,
+          "openai": 1,
+          "octokit": 1,
+          "sprockets": 1,
+          "coffee-script": 1,
+          "sinatra/content_for": 1,
+          "sass": 1,
+          "rufus/scheduler": 1,
+          "tmpdir": 1,
+          "rack/test": 1,
+          "stringio": 1,
+          "Rack::Test::Methods": 1,
+          "erb": 1,
+          "escape": 1,
+          "whois": 1,
+          "new_no_dup": 1,
+          "to_s": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "rails": 1,
+          "boot": 1,
+          "Active": 1,
+          "ruby-readability": 1,
+          "trollop": 1,
+          "formatador": 1,
+          "google/utils": 1,
+          "google/reverse-markdown/reverse_markdown": 1,
+          "htmlentities": 1,
+          "REXML": 1,
+          "rexml/document": 1,
+          "Benchmark": 1,
+          "curses": 1,
+          "google_spreadsheet/session": 1,
+          "google_spreadsheet/list_row": 1,
+          "merge!": 1,
+          "===": 1,
+          "forwardable": 1,
+          "member?": 1,
+          "include?": 1,
+          "key?": 1,
+          "oauth": 1,
+          "oauth2": 1,
+          "nokogiri": 1,
+          "google_spreadsheet/client_login_fetcher": 1,
+          "google_spreadsheet/authentication_error": 1,
+          "google_spreadsheet/collection": 1,
+          "google_spreadsheet/oauth2_fetcher": 1,
+          "google_spreadsheet/oauth1_fetcher": 1,
+          "title=": 1,
+          "google_spreadsheet/record": 1,
+          "google_spreadsheet/list": 1,
+          "set": 1,
+          "google_spreadsheet": 1,
+          "HTTParty": 1,
+          "httparty": 1,
+          "vcr": 1,
+          "FileUtils": 1,
+          "req_gem": 1,
+          "gchart/theme": 1,
+          "GchartInfo": 1,
+          "enumerator": 1,
+          "gchart/aliases": 1,
+          "distclean_dir_man": 1,
+          "clean_dir_data": 1,
+          "distclean_dir_lib": 1,
+          "config_dir_man": 1,
+          "clean_dir_bin": 1,
+          "config_dir_bin": 1,
+          "map": 1,
+          "config_dir_conf": 1,
+          "config": 1,
+          "parsearg_test": 1,
+          "clean_dir_conf": 1,
+          "config_dir_lib": 1,
+          "HookScriptAPI": 1,
+          "distclean_dir_bin": 1,
+          "help_default": 1,
+          "parsearg_show": 1,
+          "setup_dir_lib": 1,
+          "clean_dir_lib": 1,
+          "rbconfig": 1,
+          "distclean_dir_conf": 1,
+          "setup_dir_data": 1,
+          "FileOperations": 1,
+          "parsearg_distclean": 1,
+          "parsearg_clean": 1,
+          "clean_dir_man": 1,
+          "distclean_dir_data": 1,
+          "config_dir_data": 1,
+          "parsearg_setup": 1,
+          "setup_dir_conf": 1,
+          "setup_dir_man": 1,
+          "spec": 1,
+          "Magick": 1,
+          "RMagick": 1,
+          "Deprecated": 1,
+          "observer": 1,
+          "Observable": 1,
+          "<%=": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 12,
+        "packages": {
+          "svelte": 8,
+          "firebase": 2,
+          "flamethrower-router": 1,
+          "hover": 1,
+          "https:": 1,
+          "month": 1,
+          "js-confetti": 1,
+          "vimeo": 1,
+          "youtube-player": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "erebor/asin",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/aws-s3",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/cheddar-ios",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "erebor/chiliproject",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/citrus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/conductorama",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/creepy",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "erebor/dashing",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/dns-tools",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/fireship.io",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "erebor/fullcalendar_rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/google",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/google-spreadsheet-ruby",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/Google-wave-Rssybot",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "erebor/googlebook",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/googlecharts",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "erebor/gruff",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,516 @@
+{
+  "username": "gdeglin",
+  "areas": {
+    "OSS": {
+      "score": 0.5544859126251445,
+      "details": {
+        "issue_resolution_rate": 0.9473684210526315,
+        "pr_merge_rate": 0.7368421052631579,
+        "commits_activity": 0.6475183426219274
+      }
+    },
+    "Status": {
+      "score": 0.08996193736593949,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6349429060489094,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.261111962497771,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        10,
+        1
+      ],
+      "JavaScript": [
+        538,
+        3
+      ],
+      "CSS": [
+        3,
+        0
+      ],
+      "Ruby": [
+        311,
+        18
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "Nix": [
+        0,
+        0
+      ],
+      "Lua": [
+        2,
+        1
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 23,
+    "total_lines": 864,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 311,
+        "commits": 18
+      },
+      {
+        "language": "JavaScript",
+        "lines": 538,
+        "commits": 3
+      },
+      {
+        "language": "HTML",
+        "lines": 10,
+        "commits": 1
+      },
+      {
+        "language": "Lua",
+        "lines": 2,
+        "commits": 1
+      },
+      {
+        "language": "CSS",
+        "lines": 3,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "gdeglin",
+    "analysis_date": "2026-02-18T19:18:54.309580",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 351,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 21,
+        "packages": {
+          "<Foundation/Foundation.h>": 14,
+          "CDVPlugin.h": 10,
+          "<UIKit/UIKit.h>": 6,
+          "CDVViewController.h": 3,
+          "<Cordova/CDVViewController.h>": 2,
+          "CDVFile.h": 2,
+          "CDVContact.h": 2,
+          "CDVReachability.h": 2,
+          "CDVInvokedUrlCommand.h": 2,
+          "<AddressBookUI/AddressBookUI.h>": 2,
+          "<AddressBook/ABAddressBook.h>": 2,
+          "FlashRuntimeExtensions.h": 2,
+          "NSMutableArray+QueueAdditions.h": 1,
+          "CDVConnection.h": 1,
+          "CDVMotion.h": 1,
+          "CDVSound.h": 1,
+          "CDVDebug.h": 1,
+          "NSData+Base64.h": 1,
+          "NSDictionary+Extensions.h": 1,
+          "CDVNotification.h": 1,
+          "CDVLocation.h": 1,
+          "CDVFileTransfer.h": 1,
+          "CDVCapture.h": 1,
+          "CDVCommandDelegate.h": 1,
+          "CDVCordovaView.h": 1,
+          "CDVBattery.h": 1,
+          "CDVAccelerometer.h": 1,
+          "CDVURLProtocol.h": 1,
+          "CDVDebugConsole.h": 1,
+          "CDVAvailability.h": 1,
+          "JSONKit.h": 1,
+          "CDVPluginResult.h": 1,
+          "CDVWhitelist.h": 1,
+          "CDVSplashScreen.h": 1,
+          "CDVCamera.h": 1,
+          "CDVContacts.h": 1,
+          "<AVFoundation/AVFoundation.h>": 1,
+          "<MobileCoreServices/MobileCoreServices.h>": 1,
+          "<AIRExtHelpers/FlashRuntimeExtensions.h>": 1,
+          "OneSignalUIAppDelegate.h": 1,
+          "stdint.h": 1,
+          "<stdint.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 19,
+        "packages": {
+          "com.marpies": 19,
+          "com.adobe": 14,
+          "com.onesignal": 8,
+          "java.util": 5,
+          "org.json": 5,
+          "android.content": 3,
+          "android.os": 2,
+          "android.app": 2,
+          "android.util": 1,
+          "java.lang": 1,
+          "com.google": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 29,
+        "packages": {
+          "request": 9,
+          "parse": 7,
+          "fs": 5,
+          "path": 3,
+          "bluebird": 2,
+          "lodash": 2,
+          "deep-diff": 2,
+          "include-all": 1,
+          "time-grunt": 1,
+          "jit-grunt": 1,
+          "object": 1,
+          "imagemin-svgo": 1,
+          "imagemin-pngquant": 1,
+          "underscore.string": 1,
+          "jshint-stylish": 1,
+          "http": 1,
+          "url": 1,
+          "sys": 1,
+          "benchmark": 1,
+          "lib": 1,
+          "vendor": 1,
+          "mustache": 1,
+          "handlebars": 1,
+          "eco": 1,
+          "dust": 1,
+          "all": 1,
+          "tls": 1,
+          "util": 1,
+          "fromUser": 1,
+          "express": 1,
+          "apn": 1,
+          "mongodb": 1,
+          "aws-sdk": 1,
+          "child_process": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 14,
+        "packages": {
+          "NSDictionary+Extensions.h": 4,
+          "MainViewController.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "UIKit/UIKit.h": 2,
+          "NSData+Base64.h": 2,
+          "JSONKit.h": 2,
+          "AppDelegate.h": 1,
+          "Cordova/CDVURLProtocol.h": 1,
+          "<Cordova/CDVPlugin.h>": 1,
+          "<Cordova/CDVURLProtocol.h>": 1,
+          "CDVURLProtocol.h": 1,
+          "Cordova/CDVPlugin.h": 1,
+          "CDVPlugin.h": 1,
+          "CDVAccelerometer.h": 1,
+          "CDVBattery.h": 1,
+          "MobileCoreServices/UTCoreTypes.h": 1,
+          "CDVCamera.h": 1,
+          "<MobileCoreServices/UTCoreTypes.h>": 1,
+          "CDVViewController.h": 1,
+          "CDVCapture.h": 1,
+          "CDVReachability.h": 1,
+          "CDVConnection.h": 1,
+          "CDVContact.h": 1,
+          "CDVNotification.h": 1,
+          "CDVContacts.h": 1,
+          "CDVCordovaView.h": 1,
+          "CDVDebugConsole.h": 1,
+          "<MobileCoreServices/MobileCoreServices.h>": 1,
+          "CDVFile.h": 1,
+          "MobileCoreServices/MobileCoreServices.h": 1,
+          "Functions/GetTagsFunction.h": 1,
+          "AIROneSignal.h": 1,
+          "Functions/SetSubscriptionFunction.h": 1,
+          "Functions/SendTagsFunction.h": 1,
+          "Functions/InitFunction.h": 1,
+          "Functions/AreNotificationsAvailableFunction.h": 1,
+          "Functions/RegisterFunction.h": 1,
+          "Functions/AreNotificationsEnabledFunction.h": 1,
+          "Functions/PostNotificationFunction.h": 1,
+          "Functions/GetSDKVersionFunction.h": 1,
+          "Functions/DeleteTagsFunction.h": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 7,
+        "packages": {
+          "Symfony\\Component\\OptionsResolver\\OptionsResolver": 3,
+          "OneSignal\\Config": 2,
+          "Symfony\\Component\\OptionsResolver\\Options": 1,
+          "OneSignal\\Exception\\OneSignalException": 1,
+          "Http\\Client\\Common\\HttpMethodsClient": 1,
+          "Psr\\Http\\Message\\StreamInterface": 1,
+          "OneSignal\\OneSignal": 1,
+          "libphutil/src/__phutil_library_init__.php": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 51,
+        "packages": {
+          "spec_helper": 14,
+          "Modis::Model": 9,
+          "test_helper": 3,
+          "rubygems": 2,
+          "rails/generators": 2,
+          "Rails::Generators::Migration": 2,
+          "Koudoku::Plan": 2,
+          "benchmark": 2,
+          "redis/connection/fakedis": 2,
+          "bench": 2,
+          "simplecov": 2,
+          "OneSignal::AutoMap": 2,
+          "rails": 1,
+          "initializer": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "boot": 1,
+          "Active": 1,
+          "performance_test_help": 1,
+          "test_help": 1,
+          "v8": 1,
+          "test/unit/assertions": 1,
+          "timeout": 1,
+          "securerandom": 1,
+          "koudoku/engine": 1,
+          "generators/koudoku/install_generator": 1,
+          "generators/koudoku/views_generator": 1,
+          "stripe": 1,
+          "bluecloth": 1,
+          "Koudoku::Subscription": 1,
+          "rails/all": 1,
+          "koudoku": 1,
+          "bundler": 1,
+          "lib/modis": 1,
+          "stackprof": 1,
+          "fileutils": 1,
+          "redis/connection/hiredis": 1,
+          "connection_pool": 1,
+          "active_support/all": 1,
+          "modis/transaction": 1,
+          "active_model": 1,
+          "yaml": 1,
+          "modis/attribute": 1,
+          "modis/model": 1,
+          "redis": 1,
+          "modis/persistence": 1,
+          "msgpack": 1,
+          "modis/configuration": 1,
+          "modis/errors": 1,
+          "modis/version": 1,
+          "modis/finder": 1,
+          "modis/index": 1,
+          "ActiveModel::Validations": 1,
+          "Modis::Errors": 1,
+          "ActiveModel::Serialization": 1,
+          "Modis::Finder": 1,
+          "Modis::Index": 1,
+          "Modis::Persistence": 1,
+          "Modis::Attribute": 1,
+          "Modis::Transaction": 1,
+          "ActiveModel::Dirty": 1,
+          "modis": 1,
+          "SimpleCovHelper": 1,
+          "codeclimate-test-reporter": 1,
+          "omniauth/strategies/twitter": 1,
+          "omniauth-twitter/version": 1,
+          "multi_json": 1,
+          "omniauth-oauth": 1,
+          "rspec": 1,
+          "webmock/rspec": 1,
+          "omniauth-twitter": 1,
+          "omniauth": 1,
+          "rack/test": 1,
+          "onesignal/commands": 1,
+          "onesignal/version": 1,
+          "define": 1,
+          "active_support/json": 1,
+          "onesignal/responses": 1,
+          "active_support/core_ext/string": 1,
+          "onesignal/autoloader": 1,
+          "faraday": 1,
+          "onesignal/commands/autoloader": 1,
+          "simple_command": 1,
+          "logger": 1,
+          "!=": 1,
+          "==": 1,
+          ">": 1,
+          "<": 1,
+          "onesignal/notification/headings": 1,
+          "onesignal/notification/contents": 1,
+          "onesignal/responses/autoloader": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 18,
+        "packages": {
+          "anyhow": 16,
+          "crate": 15,
+          "std": 11,
+          "serde": 10,
+          "tracing": 8,
+          "reqwest": 5,
+          "inquire": 5,
+          "uuid": 4,
+          "clap": 4,
+          "serde_json": 3,
+          "chrono": 3,
+          "super": 3,
+          "rayon": 2,
+          "thiserror": 1,
+          "miette": 1,
+          "PosthogTyped": 1,
+          "value": 1,
+          "self": 1,
+          "crossterm": 1,
+          "ratatui": 1,
+          "tui_textarea": 1,
+          "posthog_rs": 1,
+          "posthog_cli": 1,
+          "posthog_symbol_data": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "gdeglin/FBJS-Sample",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "gdeglin/gamegear.io",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gdeglin/handlebars.js",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "gdeglin/html5-boilerplate",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gdeglin/incubator-cordova-ios",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "gdeglin/koudoku",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "gdeglin/modis",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "gdeglin/node-imap",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gdeglin/omniauth-twitter",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "gdeglin/onesignal-ane",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "gdeglin/onesignal-php-api",
+        "files_analyzed": 9,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gdeglin/onesignal-ruby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "gdeglin/parse-server",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gdeglin/phabricator",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gdeglin/posthog",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Rust"
+        ]
+      }
+    ]
+  }
+}

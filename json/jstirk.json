@@ -1,0 +1,444 @@
+{
+  "username": "jstirk",
+  "areas": {
+    "OSS": {
+      "score": 0.7916666666666667,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.6875,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.33333333333333326,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "jstirk/radiant-mailer-extension": 0.3182,
+        "jstirk/spree_related_products": -0.5707
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.45625,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        32395,
+        224
+      ],
+      "HTML": [
+        241,
+        9
+      ],
+      "Java": [
+        683,
+        5
+      ],
+      "JavaScript": [
+        27,
+        0
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 238,
+    "total_lines": 33346,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 32395,
+        "commits": 224
+      },
+      {
+        "language": "HTML",
+        "lines": 241,
+        "commits": 9
+      },
+      {
+        "language": "Java",
+        "lines": 683,
+        "commits": 5
+      },
+      {
+        "language": "JavaScript",
+        "lines": 27,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jstirk",
+    "analysis_date": "2026-02-18T19:34:54.944627",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 190,
+    "languages": {
+      "Java": {
+        "files_scanned": 8,
+        "packages": {
+          "org.monkeybars": 8,
+          "java.util": 4,
+          "java.net": 4,
+          "org.jruby": 4,
+          "java.io": 4
+        }
+      },
+      "Ruby": {
+        "files_scanned": 108,
+        "packages": {
+          "date": 14,
+          "yogo/structure/base": 11,
+          "test/unit": 9,
+          "icalendar": 9,
+          "test_helper": 8,
+          "rubygems": 7,
+          "BaseAttachmentTests": 5,
+          ":inspect": 5,
+          "net/http": 4,
+          "Icalendar": 4,
+          "java": 4,
+          "states/map_state": 4,
+          "ActiveMerchant::Billing::Integrations": 3,
+          "fileutils": 3,
+          "stringio": 3,
+          "slick.jar": 3,
+          "lwjgl.jar": 3,
+          "yogo/entity/base": 3,
+          "yogo/structure/coal_power_station": 3,
+          "active_merchant/billing/response": 2,
+          "Validateable": 2,
+          "time": 2,
+          "BeanstreamCore": 2,
+          "ancestry": 2,
+          "digest/sha2": 2,
+          "pathname": 2,
+          "json": 2,
+          "uri": 2,
+          "breakpoint": 2,
+          "yogo/structure/iron_mine": 2,
+          "active_merchant": 1,
+          "active_merchant/billing/integrations/action_view_helper": 1,
+          "builder": 1,
+          "active_support/core_ext/class/inheritable_attributes": 1,
+          "active_support/core_ext/string/inflections": 1,
+          "active_support/core_ext/hash/indifferent_access": 1,
+          "active_merchant/billing": 1,
+          "active_support/core_ext/class/delegating_attributes": 1,
+          "active_support/core_ext/module/attribute_accessors": 1,
+          "cgi": 1,
+          "active_support/core_ext/class/attribute_accessors": 1,
+          "active_support/core_ext/kernel/requires": 1,
+          "active_merchant/version": 1,
+          "active_merchant/common": 1,
+          "rexml/document": 1,
+          "active_support": 1,
+          "active_merchant/billing/base": 1,
+          "active_merchant/billing/cvv_result": 1,
+          "active_merchant/billing/credit_card_formatting": 1,
+          "active_merchant/billing/check": 1,
+          "active_merchant/billing/avs_result": 1,
+          "active_merchant/billing/gateways": 1,
+          "active_merchant/billing/credit_card": 1,
+          "active_merchant/billing/credit_card_methods": 1,
+          "active_merchant/billing/expiry_date": 1,
+          "CreditCardMethods": 1,
+          "CreditCardFormatting": 1,
+          "net/https": 1,
+          "RequiresParameters": 1,
+          "PostsData": 1,
+          "Utils": 1,
+          "ancestry/has_ancestry": 1,
+          "instance": 1,
+          "dynamic": 1,
+          "ancestry/class_methods": 1,
+          "ancestry/instance_methods": 1,
+          "Ancestry::InstanceMethods": 1,
+          "ancestry/exceptions": 1,
+          "active_support/test_case": 1,
+          "active_record": 1,
+          "environment": 1,
+          "geometry": 1,
+          "tempfile": 1,
+          "InstanceMethods": 1,
+          "storage_mod": 1,
+          "processor_mod": 1,
+          ":public_filename": 1,
+          "cloudfiles": 1,
+          "aws/s3": 1,
+          "AWS::S3": 1,
+          "red_artisan/core_image/processor": 1,
+          "gd2": 1,
+          "image_science": 1,
+          "mini_magick": 1,
+          "RMagick": 1,
+          "sqlite3": 1,
+          "base_attachment_tests": 1,
+          "ActionController::TestProcess": 1,
+          "active_record/fixtures": 1,
+          "sqlite": 1,
+          "fixtures/attachment": 1,
+          "RAILS_ROOT": 1,
+          "action_controller/test_process": 1,
+          "lib/box-view": 1,
+          "box-view/download": 1,
+          "box-view/document": 1,
+          "box-view/session": 1,
+          "crocodoc_error": 1,
+          "rest-client": 1,
+          "openssh": 1,
+          "timezone": 1,
+          "simple_iptables": 1,
+          "ntp": 1,
+          "user::data_bag": 1,
+          "sudo": 1,
+          "Console": 1,
+          "cucumber/formatter/console": 1,
+          "FacebookerAuthentication::Model": 1,
+          "facebooker_authentication": 1,
+          "hook": 1,
+          "facebooker_authentication/model": 1,
+          "groovehq/ticket": 1,
+          "groovehq/version": 1,
+          "httparty": 1,
+          "icalendar/calendar": 1,
+          "icalendar/component/timezone": 1,
+          "icalendar/component/event": 1,
+          "icalendar/base": 1,
+          "icalendar/component": 1,
+          "icalendar/component/journal": 1,
+          "icalendar/component/alarm": 1,
+          "icalendar/conversions": 1,
+          "meta": 1,
+          "icalendar/rrule": 1,
+          "icalendar/component/todo": 1,
+          "icalendar/component/freebusy": 1,
+          "icalendar/parser": 1,
+          "hash_attrs": 1,
+          "logger": 1,
+          ":lat": 1,
+          ":long": 1,
+          "remove_journal": 1,
+          ":lat=": 1,
+          "add": 1,
+          "remove": 1,
+          "remove_event": 1,
+          "add_event": 1,
+          "add_journal": 1,
+          "socket": 1,
+          ":long=": 1,
+          "add_todo": 1,
+          "remove_todo": 1,
+          "delegate": 1,
+          "Icalendar::TzidSupport": 1,
+          "uri/generic": 1,
+          "mod": 1,
+          "ci/reporter/rake/test_unit_loader": 1,
+          "template/world": 1,
+          "template/ui_handler": 1,
+          "logbang/railtie": 1,
+          "logbang/version": 1,
+          "logbang/helper": 1,
+          "active_support/concern": 1,
+          "logstats/haml/helpers": 1,
+          "haml": 1,
+          "logstats/worklog": 1,
+          "tail_from_sentinel": 1,
+          "phreak/world": 1,
+          "phreak/entities/base": 1,
+          "phreak/entities/concerns/encryptable": 1,
+          "Concerns::Encryptable": 1,
+          "org.newdawn.slick.util.pathfinding.TileBasedMap": 1,
+          "phreak/entities/player": 1,
+          "phreak/packet": 1,
+          "phreak/entities/goon": 1,
+          "phreak/map": 1,
+          "phreak/entities/cell_tower": 1,
+          "phreak/entities/access_point": 1,
+          "phreak/entities/cctv": 1,
+          "phreak/entities/server": 1,
+          "lib/slick.jar": 1,
+          "yogo/world": 1,
+          "yogo/ui/handler": 1,
+          "lib/lwjgl.jar": 1,
+          "yogo/tile": 1,
+          "yogo/entity/corporation": 1,
+          "yogo/entity/country": 1,
+          "yogo/structure/fishing_fleet": 1,
+          "yogo/structure/nuclear_plant": 1,
+          "yogo/structure/coal_mine": 1,
+          "yogo/structure/oil_power_station": 1,
+          "yogo/structure/wind_farm": 1,
+          "yogo/structure/foundry": 1,
+          "yogo/structure/city": 1,
+          "yogo/structure/well": 1,
+          "yogo/structure/farm": 1,
+          "yogo/ui/fonts": 1,
+          "yogo/ui/tileset": 1,
+          "yogo/ui/sounds": 1,
+          "org.newdawn.slick.util.ResourceLoader": 1,
+          "org.newdawn.slick.openal.SoundStore": 1,
+          "org.newdawn.slick.openal.Audio": 1,
+          "org.newdawn.slick.openal.AudioLoader": 1,
+          "yogo/entity/player": 1,
+          "yogo/market": 1,
+          "yogo/structure/all": 1,
+          "yogo/map": 1,
+          "utopia/world": 1,
+          "utopia/ui/handler": 1,
+          "utopia/cell": 1,
+          "utopia/ui/sprites": 1,
+          "utopia/structures/dock": 1,
+          "utopia/map": 1,
+          "yaml": 1,
+          "lib/project": 1,
+          "mail": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jstirk/active_merchant",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/ancestry",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/attachment_fu",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/box-view-ruby",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/chef-ubuntu-baseline",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/cucumber-stats-formatter",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/facebooker_authentication",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/groovehq-api",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/icalendar",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/jruby-slick2d",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/logbang",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/logstats",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/ludum-dare-27",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/ludum-dare-28",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/ludum-dare-29",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Java",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jstirk/minici",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

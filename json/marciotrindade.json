@@ -1,0 +1,537 @@
+{
+  "username": "marciotrindade",
+  "areas": {
+    "OSS": {
+      "score": 0.8245614035087718,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.7368421052631579,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.33333333333333326,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "marciotrindade/resque-web": -0.20095,
+        "marciotrindade/treinamento_ruby": 0.1350095238095238
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5644736842105262,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        47860,
+        256
+      ],
+      "JavaScript": [
+        124275,
+        57
+      ],
+      "PHP": [
+        7486,
+        10
+      ],
+      "Perl": [
+        187,
+        0
+      ],
+      "Shell": [
+        350,
+        0
+      ],
+      "Go": [
+        6082,
+        49
+      ],
+      "CSS": [
+        2421,
+        10
+      ],
+      "CoffeeScript": [
+        18,
+        0
+      ],
+      "HTML": [
+        8471,
+        52
+      ],
+      "Vim Script": [
+        3102,
+        3
+      ],
+      "Python": [
+        803667,
+        1
+      ],
+      "C": [
+        24980,
+        0
+      ],
+      "C++": [
+        18829,
+        0
+      ],
+      "Fortran": [
+        868,
+        0
+      ],
+      "Roff": [
+        659,
+        0
+      ],
+      "Elixir": [
+        227,
+        0
+      ],
+      "Batchfile": [
+        25,
+        0
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 438,
+    "total_lines": 1049507,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 47860,
+        "commits": 256
+      },
+      {
+        "language": "JavaScript",
+        "lines": 124275,
+        "commits": 57
+      },
+      {
+        "language": "HTML",
+        "lines": 8471,
+        "commits": 52
+      },
+      {
+        "language": "Go",
+        "lines": 6082,
+        "commits": 49
+      },
+      {
+        "language": "PHP",
+        "lines": 7486,
+        "commits": 10
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "marciotrindade",
+    "analysis_date": "2026-02-18T18:35:18.642728",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 253,
+    "languages": {
+      "Elixir": {
+        "files_scanned": 24,
+        "packages": {
+          "CalendlexWeb": 7,
+          "Config": 5,
+          "Ecto.Changeset": 3,
+          "Calendlex.EventType": 3,
+          "Ecto.Schema": 2,
+          "__MODULE__": 2,
+          "Ecto.Query": 2,
+          "Calendlex.": 2,
+          "Phoenix.LiveComponent": 2,
+          "Phoenix.Component": 2,
+          "Phoenix.LiveView.JS": 2,
+          "CalendlexWeb.Admin.Components.Dropdown": 2,
+          "#PACKAGE#": 1,
+          "defaults": 1,
+          "environment": 1,
+          "#{config_env()}.exs": 1,
+          "Application": 1,
+          "Ecto.Repo": 1,
+          "Calendlex.Event.Repo": 1,
+          "CalendlexWeb.ErrorHelpers": 1,
+          "Phoenix.LiveView": 1,
+          "basic": 1,
+          "Phoenix.LiveView.Router": 1,
+          "Plug.Conn": 1,
+          "LiveView": 1,
+          "CalendlexWeb.LiveViewHelpers": 1,
+          "Phoenix.Router": 1,
+          "CalendlexWeb.Router.Helpers": 1,
+          "Phoenix.HTML": 1,
+          "Phoenix.LiveView.Helpers": 1,
+          "convenience": 1,
+          "shared": 1,
+          "Phoenix.Channel": 1,
+          "Phoenix.Controller": 1,
+          "Phoenix.View": 1,
+          "Phoenix.Endpoint": 1,
+          "Calendlex.Event": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 4,
+        "packages": {
+          "path": 2,
+          "os": 2,
+          "io/ioutil": 2,
+          "crypto/tls": 2,
+          "net/url": 2,
+          "net/http": 2,
+          "log": 1,
+          "sync": 1,
+          "regexp": 1,
+          "strings": 1,
+          "github.com/kennygrant/sanitize": 1,
+          "encoding/csv": 1,
+          "sort": 1,
+          "github.com/stretchr/testify/assert": 1,
+          "testing": 1,
+          "errors": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 14,
+        "packages": {
+          "autoprefixer": 2,
+          "bootstrap": 1,
+          "chart.js": 1,
+          "feather-icons": 1,
+          "flatpickr": 1,
+          "moment": 1,
+          "simplebar": 1,
+          "jsvectormap": 1,
+          "undefined": 1,
+          "optimize-css-assets-webpack-plugin": 1,
+          "path": 1,
+          "copy-webpack-plugin": 1,
+          "hard-source-webpack-plugin": 1,
+          "terser-webpack-plugin": 1,
+          "filemanager-webpack-plugin": 1,
+          "mini-css-extract-plugin": 1,
+          "webpack": 1,
+          "esbuild": 1,
+          "some-package": 1,
+          "phoenix": 1,
+          "phoenix_html": 1,
+          "phoenix_live_view": 1,
+          "tailwindcss": 1,
+          "postcss-import": 1,
+          "input[name][required]:not([disabled]),textarea[name][required]:not([disabled])": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 5,
+        "packages": {
+          "cake": 2,
+          "webroot": 1,
+          "cache.php": 1,
+          "configure.php": 1,
+          "object.php": 1,
+          "inflector.php": 1,
+          "shell.php": 1,
+          "$this->shellPath": 1,
+          "folder.php": 1,
+          "database.php": 1,
+          "dispatcher.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 23,
+        "packages": {
+          "os": 12,
+          "sys": 8,
+          "BrickConfig": 7,
+          "dreque": 6,
+          "shutil": 6,
+          "time": 6,
+          "redis": 6,
+          "re": 6,
+          "pystache": 6,
+          "logging": 6,
+          "projects": 5,
+          "subprocess": 5,
+          "config": 5,
+          "Dreque": 4,
+          "git": 4,
+          "Projects": 4,
+          "bricklayer": 3,
+          "build_info": 3,
+          "BuildInfo": 3,
+          "Git": 3,
+          "json": 3,
+          "builder": 2,
+          "DrequeWorker": 2,
+          "twisted": 2,
+          "ConfigParser": 2,
+          "ftplib": 2,
+          "glob": 2,
+          "model_base": 2,
+          "ModelBase": 2,
+          "Groups": 2,
+          "groups": 2,
+          "signal": 2,
+          "simplejson": 2,
+          "Redis": 2,
+          "Template": 2,
+          "View": 2,
+          "utils": 1,
+          "build_project": 1,
+          "transaction": 1,
+          "yaml": 1,
+          "build_container": 1,
+          "threads": 1,
+          "BuildOptions": 1,
+          "shlex": 1,
+          "builder_deb": 1,
+          "build_options": 1,
+          "BuilderRpm": 1,
+          "BuilderDeb": 1,
+          "BuildContainer": 1,
+          "builder_rpm": 1,
+          "stat": 1,
+          "urlparse": 1,
+          "*": 1,
+          "tarfile": 1,
+          "types": 1,
+          "cyclone": 1,
+          "log": 1,
+          "reactor": 1,
+          "service": 1,
+          "Builder": 1,
+          "serializer": 1,
+          "StatsCollector": 1,
+          "zlib": 1,
+          "datetime": 1,
+          "django": 1,
+          "decimal": 1,
+          "cdll": 1,
+          "procname": 1,
+          "ctypes": 1,
+          "Process": 1,
+          "traceback": 1,
+          "socket": 1,
+          "multiprocessing": 1,
+          "copy": 1,
+          "setprocname": 1,
+          "wraps": 1,
+          "cPickle": 1,
+          "functools": 1,
+          "pickle": 1,
+          "cgi": 1,
+          "view": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 45,
+        "packages": {
+          "test_helper": 11,
+          "test/unit": 4,
+          "rubygems": 3,
+          "mime/types": 3,
+          "active_support": 3,
+          "yaml": 3,
+          "active_record": 2,
+          "pathname": 2,
+          "formtastic": 2,
+          "ckeditor/orm/base": 2,
+          "net/imap": 2,
+          "forwardable": 2,
+          "logger": 2,
+          "mocha": 2,
+          "action_controller": 2,
+          "zlib": 2,
+          "ActiveRecord::Acts::SEO::InstanceMethods": 1,
+          "orm_adapter": 1,
+          "ckeditor/version": 1,
+          "ckeditor/engine": 1,
+          "mini_magick": 1,
+          "ckeditor": 1,
+          "ckeditor/hooks/cancan": 1,
+          "ckeditor/hooks/simple_form": 1,
+          "rails": 1,
+          "ckeditor/hooks/formtastic": 1,
+          "cancan": 1,
+          "::Formtastic::Inputs::Base": 1,
+          "simple_form": 1,
+          "digest/sha1": 1,
+          "orm_adapter/adapters/mongoid": 1,
+          "action_view/helpers/form_tag_helper": 1,
+          "action_view/helpers/tag_helper": 1,
+          "ActionView::Helpers::FormTagHelper": 1,
+          "ActionView::Helpers::JavaScriptHelper": 1,
+          "ActionView::Helpers::TagHelper": 1,
+          "gist_macro": 1,
+          "net/http": 1,
+          "adapter/imap": 1,
+          "mover/folder": 1,
+          "mover/message": 1,
+          "will_paginate": 1,
+          "TableBuilder": 1,
+          "inherited_resources": 1,
+          "action_view/test_case": 1,
+          "UserTestHelper": 1,
+          "active_support/test_case": 1,
+          "responders": 1,
+          "inherited_views": 1,
+          "Mocha::API": 1,
+          "actionpack": 1,
+          "activesupport": 1,
+          "jammit/dependencies": 1,
+          "optparse": 1,
+          "jammit/routes": 1,
+          "jammit/packager": 1,
+          "jammit/compressor": 1,
+          "uri": 1,
+          "closure-compiler": 1,
+          "jammit/railtie": 1,
+          "base64": 1,
+          "yui/compressor": 1,
+          "jammit/controller": 1,
+          "jammit/helper": 1,
+          "fileutils": 1,
+          "erb": 1,
+          "the": 1,
+          "Jammit": 1,
+          "live_validations": 1,
+          "action_view": 1,
+          "action_controller/test_case": 1,
+          "ostruct": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "marciotrindade/acts_as_seo",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "marciotrindade/adminkit",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "marciotrindade/base_app_with_cake",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "marciotrindade/bricklayer",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Elixir",
+          "Python"
+        ]
+      },
+      {
+        "repository": "marciotrindade/cake_on_rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "marciotrindade/calendlex",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "marciotrindade/ckeditor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "marciotrindade/clean_csv",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "marciotrindade/filtered_column_gist_macro",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "marciotrindade/golang-cas-client",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "marciotrindade/imap_move",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "marciotrindade/inherited_views",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "marciotrindade/jammit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "marciotrindade/live-validations",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

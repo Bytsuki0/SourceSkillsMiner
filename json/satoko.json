@@ -1,0 +1,267 @@
+{
+  "username": "satoko",
+  "areas": {
+    "OSS": {
+      "score": 0.7522173522541231,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.6283260283811848
+      }
+    },
+    "Status": {
+      "score": 0.0855506855874566,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6283260283811848,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.20944200946039493,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        676,
+        2
+      ],
+      "CSS": [
+        169,
+        0
+      ],
+      "HTML": [
+        159,
+        0
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 2,
+    "total_lines": 1004,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 676,
+        "commits": 2
+      },
+      {
+        "language": "CSS",
+        "lines": 169,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 159,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "satoko",
+    "analysis_date": "2026-02-18T17:24:25.581241",
+    "total_repos_analyzed": 11,
+    "total_files_analyzed": 116,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 36,
+        "packages": {
+          "<UIKit/UIKit.h>": 16,
+          "<Three20/Three20.h>": 14,
+          "NTLNTimelineViewController.h": 6,
+          "UICTableViewController.h": 3,
+          "hayashi311_color_util.h": 2,
+          "<Foundation/Foundation.h>": 2,
+          "<QuartzCore/QuartzCore.h>": 1,
+          "hayashi311_color_picker_view_controller.h": 1,
+          "NTLNCacheCleaner.h": 1,
+          "NTLNTweetPostView.h": 1,
+          "NTLNAccelerometerSensor.h": 1,
+          "NTLNTwitterClient.h": 1,
+          "NTLNTimeline.h": 1,
+          "NTLNStatus.h": 1,
+          "NTLNIconRepository.h": 1,
+          "NTLNStatusCell.h": 1,
+          "SearchTestController.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "change": 1,
+          "click": 1,
+          "=": 1,
+          "#import-json-input": 1,
+          "#export-json-btn": 1,
+          "#import-json-btn": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 43,
+        "packages": {
+          "NTLNConfiguration.h": 10,
+          "NTLNAccount.h": 9,
+          "NTLNAppDelegate.h": 6,
+          "NTLNTweetPostViewController.h": 5,
+          "NTLNHttpClientPool.h": 5,
+          "NTLNTimelineViewController.h": 5,
+          "NTLNMentionsViewController.h": 4,
+          "NTLNConfigurationKeys.h": 4,
+          "NTLNFriendsViewController.h": 4,
+          "MockPhotoSource.h": 4,
+          "AppDelegate.h": 3,
+          "NTLNDirectMessageViewController.h": 3,
+          "NTLNCache.h": 3,
+          "NTLNColors.h": 3,
+          "SearchTestController.h": 3,
+          "MockDataSource.h": 3,
+          "sample_top_view_controller.h": 2,
+          "hayashi311_cg_util.h": 2,
+          "hayashi311_color_picker_view.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "UIKit/UIKit.h": 2,
+          "NTLNRateLimit.h": 2,
+          "NTLNOAuthConsumer.h": 2,
+          "NTLNFavoriteViewController.h": 2,
+          "NTLNTwitterAccountViewController.h": 2,
+          "NTLNSettingViewController.h": 2,
+          "NTLNTwitterPost.h": 2,
+          "NTLNSentsViewController.h": 2,
+          "NTLNUnreadsViewController.h": 2,
+          "NTLNAboutViewController.h": 2,
+          "NTLNFooterSettingViewController.h": 2,
+          "UICPrototypeTableCellTextInput.h": 2,
+          "UICTableViewCellTextInput.h": 2,
+          "NTLNTwitterClient.h": 2,
+          "NTLNAccelerometerSensor.h": 2,
+          "SwipeTestViewController.h": 2,
+          "SwipeView.h": 2,
+          "ActivityTestController.h": 2,
+          "PhotoTest2Controller.h": 2,
+          "ButtonTestController.h": 2,
+          "PhotoTest1Controller.h": 2,
+          "StyledTextTestController.h": 2,
+          "StyleTestController.h": 2,
+          "ImageTest1Controller.h": 2,
+          "MessageTestController.h": 2,
+          "StyledTextTableTestController.h": 2,
+          "CatalogController.h": 2,
+          "ScrollViewTestController.h": 2,
+          "this": 1,
+          "hayashi311_color_util.h": 1,
+          "hayashi311_color_picker_view_controller.h": 1,
+          "NTLNCacheCleaner.h": 1,
+          "GTMRegex.h": 1,
+          "OAToken.h": 1,
+          "NTLNWebView.h": 1,
+          "NTLNTweetViewController.h": 1,
+          "NTLNIconRepository.h": 1,
+          "SwipeTestAppDelegate.h": 1,
+          "Three20/Three20.h": 1,
+          "<Three20/Three20.h>": 1,
+          "TableImageTestController.h": 1,
+          "YouTubeTestController.h": 1,
+          "TableItemTestController.h": 1,
+          "TabBarTestController.h": 1,
+          "TableTestController.h": 1,
+          "TableControlsTestController.h": 1,
+          "Three20/developer.h": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 33,
+        "packages": {
+          "prawn": 30,
+          "benchmark": 4,
+          "rubygems": 2,
+          "fastercsv": 2,
+          "csv": 1,
+          "hook": 1,
+          "net/http": 1,
+          "test/unit": 1,
+          "TinyurlHelper": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "satoko/Color-Picker-for-iOS",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "satoko/ntlniph",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "satoko/prawn",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "satoko/SwipeTest",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "satoko/three20",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "satoko/tinyurl_helper",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "satoko/todo",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

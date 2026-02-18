@@ -1,0 +1,769 @@
+{
+  "username": "modgeosys",
+  "areas": {
+    "OSS": {
+      "score": 0.6349206349206349,
+      "details": {
+        "issue_resolution_rate": 0.7857142857142857,
+        "pr_merge_rate": 0.6666666666666666,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.33333333333333326,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "modgeosys/fme-components": 0.26796666666666663
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5920634920634921,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        44394,
+        100
+      ],
+      "Python": [
+        22302,
+        125
+      ],
+      "Objective-C": [
+        1465,
+        22
+      ],
+      "HTML": [
+        2732,
+        11
+      ],
+      "JavaScript": [
+        3020,
+        2
+      ],
+      "Shell": [
+        27981,
+        0
+      ],
+      "Dockerfile": [
+        750,
+        26
+      ],
+      "C++": [
+        341924,
+        1
+      ],
+      "C": [
+        171759,
+        2
+      ],
+      "Rust": [
+        4466,
+        72
+      ],
+      "Jupyter Notebook": [
+        3,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Vim Script": [
+        0,
+        0
+      ],
+      "Pascal": [
+        574,
+        0
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 361,
+    "total_lines": 621370,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 22302,
+        "commits": 125
+      },
+      {
+        "language": "Ruby",
+        "lines": 44394,
+        "commits": 100
+      },
+      {
+        "language": "Rust",
+        "lines": 4466,
+        "commits": 72
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 750,
+        "commits": 26
+      },
+      {
+        "language": "Objective-C",
+        "lines": 1465,
+        "commits": 22
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "modgeosys",
+    "analysis_date": "2026-02-18T18:59:22.618427",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 246,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "geos_c.h": 1,
+          "<stdlib.h>": 1,
+          "<stdio.h>": 1,
+          "<stdarg.h>": 1,
+          "stdio.h": 1,
+          "stdlib.h": 1,
+          "stdarg.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 28,
+        "packages": {
+          "namespace": 20,
+          "geos::geom": 16,
+          "<geos/geom/Geometry.h>": 13,
+          "geos/geom/Geometry.h": 13,
+          "<geos/geom/CoordinateSequence.h>": 13,
+          "<geos/geom/Coordinate.h>": 13,
+          "geos/geom/CoordinateSequence.h": 13,
+          "geos/geom/Coordinate.h": 13,
+          "<geos/geom/LineString.h>": 12,
+          "geos/geom/LineString.h": 12,
+          "typeinfo": 10,
+          "<typeinfo>": 10,
+          "geos/geom/GeometryCollection.h": 9,
+          "<geos/geom/GeometryCollection.h>": 9,
+          "<geos/geom/Polygon.h>": 9,
+          "geos/geom/Polygon.h": 9,
+          "std": 9,
+          "<geos/algorithm/CGAlgorithms.h>": 7,
+          "geos/algorithm/CGAlgorithms.h": 7,
+          "iostream": 6,
+          "<iostream>": 6,
+          "<geos/geom/LinearRing.h>": 6,
+          "geos/geom/LinearRing.h": 6,
+          "<geos/geom/Point.h>": 5,
+          "geos/geom/GeometryFactory.h": 5,
+          "geos/geom/Point.h": 5,
+          "<geos/geom/GeometryFactory.h>": 5,
+          "geos/algorithm/RobustDeterminant.h": 5,
+          "<cmath>": 5,
+          "cmath": 5,
+          "<geos/algorithm/RobustDeterminant.h>": 5,
+          "<geos/util.h>": 5,
+          "geos/util.h": 5,
+          "geos/geom/CoordinateSequenceFactory.h": 4,
+          "<geos/geom/CoordinateSequenceFactory.h>": 4,
+          "geos": 4,
+          "<vector>": 4,
+          "vector": 4,
+          "<cassert>": 4,
+          "cassert": 4,
+          "<geos/geom/LineSegment.h>": 4,
+          "geos/geom/LineSegment.h": 4,
+          "<geos/geosAlgorithm.h>": 4,
+          "geos/geosAlgorithm.h": 4,
+          "<geos/geom/MultiPolygon.h>": 3,
+          "<string>": 3,
+          "<geos/geom/PrecisionModel.h>": 3,
+          "geos/geom/PrecisionModel.h": 3,
+          "geos/geom/MultiPolygon.h": 3,
+          "string": 3,
+          "<algorithm>": 3,
+          "algorithm": 3,
+          "geos/algorithm/NotRepresentableException.h": 3,
+          "<geos/algorithm/NotRepresentableException.h>": 3,
+          "geos/geom/Envelope.h": 3,
+          "<geos/geom/Envelope.h>": 3,
+          "geos/geom/Location.h": 3,
+          "<geos/geom/Location.h>": 3,
+          "<geos/geom/MultiLineString.h>": 2,
+          "geos/geom/MultiLineString.h": 2,
+          "<geos/io/WKBReader.h>": 2,
+          "geos/io/WKBReader.h": 2,
+          "geos/io/WKTWriter.h": 2,
+          "geos/geom/IntersectionMatrix.h": 2,
+          "<geos/geom/IntersectionMatrix.h>": 2,
+          "memory": 2,
+          "sstream": 2,
+          "geos/io/WKBWriter.h": 2,
+          "<cstdlib>": 2,
+          "<geos/io/WKTWriter.h>": 2,
+          "geos/geom/MultiPoint.h": 2,
+          "<memory>": 2,
+          "<geos/io/WKBWriter.h>": 2,
+          "<geos/geom/MultiPoint.h>": 2,
+          "<sstream>": 2,
+          "cstdlib": 2,
+          "iomanip": 2,
+          "geos/util/IllegalArgumentException.h": 2,
+          "<iomanip>": 2,
+          "<geos/util/IllegalArgumentException.h>": 2,
+          "<geos/algorithm/LineIntersector.h>": 2,
+          "geos/algorithm/LineIntersector.h": 2,
+          "<geos/algorithm/ConvexHull.h>": 2,
+          "geos/algorithm/ConvexHull.h": 2,
+          "<geos/algorithm/HCoordinate.h>": 2,
+          "geos/algorithm/HCoordinate.h": 2,
+          "<geos/algorithm/RayCrossingCounter.h>": 2,
+          "geos/algorithm/RayCrossingCounter.h": 2,
+          "CustomCoordinateSequenceExample.h": 2,
+          "<geos/io.h>": 2,
+          "geos/geom.h": 2,
+          "<geos/geom.h>": 2,
+          "geos/io.h": 2,
+          "geos::operation::overlay::overlayOp": 1,
+          "<geos/io/WKTReader.h>": 1,
+          "geos::geom::Point": 1,
+          "geos/version.h": 1,
+          "geos/simplify/TopologyPreservingSimplifier.h": 1,
+          "<geos/operation/linemerge/LineMerger.h>": 1,
+          "geos::geom::Polygon": 1,
+          "geos::simplify": 1,
+          "geos/operation/polygonize/Polygonizer.h": 1,
+          "geos::io::WKTWriter": 1,
+          "<geos/simplify/DouglasPeuckerSimplifier.h>": 1,
+          "<fstream>": 1,
+          "geos::geom::IntersectionMatrix": 1,
+          "geos::geom::LinearRing": 1,
+          "geos::io::WKBWriter": 1,
+          "geos::geom::GeometryCollection": 1,
+          "<geos/operation/overlay/OverlayOp.h>": 1,
+          "geos::geom::CoordinateSequence": 1,
+          "geos_c.h": 1,
+          "geos::geom::GeometryFactory": 1,
+          "geos/io/WKTReader.h": 1,
+          "cstdio": 1,
+          "cstring": 1,
+          "<cstdio>": 1,
+          "<geos/simplify/TopologyPreservingSimplifier.h>": 1,
+          "<geos/operation/valid/IsValidOp.h>": 1,
+          "geos::geom::Geometry": 1,
+          "geos/simplify/DouglasPeuckerSimplifier.h": 1,
+          "geos::operation::polygonize::Polygonizer": 1,
+          "<cstring>": 1,
+          "geos::operation::linemerge::LineMerger": 1,
+          "geos::geom::LineString": 1,
+          "geos/operation/linemerge/LineMerger.h": 1,
+          "<geos/operation/polygonize/Polygonizer.h>": 1,
+          "geos::operation::overlay::OverlayOp": 1,
+          "geos::operation::valid::IsValidOp": 1,
+          "<geos/version.h>": 1,
+          "<geos/geom/BinaryOp.h>": 1,
+          "geos/geom/BinaryOp.h": 1,
+          "geos/operation/overlay/OverlayOp.h": 1,
+          "geos/operation/valid/IsValidOp.h": 1,
+          "geos::io::WKBReader": 1,
+          "fstream": 1,
+          "geos::operation::valid::TopologyValidationError": 1,
+          "geos::io::WKTReader": 1,
+          "<geos/geom/CoordinateArraySequence.h>": 1,
+          "geos/geom/CoordinateArraySequence.h": 1,
+          "<geos/util/GEOSException.h>": 1,
+          "<geos/opPolygonize.h>": 1,
+          "geos/opPolygonize.h": 1,
+          "geos::operation::linemerge": 1,
+          "<geos/util/GeometricShapeFactory.h>": 1,
+          "<geos/opLinemerge.h>": 1,
+          "geos::operation::polygonize": 1,
+          "geos/util/GEOSException.h": 1,
+          "geos/util/GeometricShapeFactory.h": 1,
+          "geos/opLinemerge.h": 1,
+          "<geos/algorithm/CentroidArea.h>": 1,
+          "geos/algorithm/CentroidArea.h": 1,
+          "geos/algorithm/CentroidLine.h": 1,
+          "<geos/algorithm/CentroidLine.h>": 1,
+          "geos/algorithm/CentroidPoint.h": 1,
+          "<geos/algorithm/CentroidPoint.h>": 1,
+          "geos/algorithm/ConvexHull.inl": 1,
+          "<geos/platform.h>": 1,
+          "<limits>": 1,
+          "geos/platform.h": 1,
+          "limits": 1,
+          "geos/algorithm/InteriorPointArea.h": 1,
+          "<geos/algorithm/InteriorPointArea.h>": 1,
+          "<geos/algorithm/InteriorPointLine.h>": 1,
+          "geos/algorithm/InteriorPointLine.h": 1,
+          "geos/algorithm/InteriorPointPoint.h": 1,
+          "<geos/algorithm/InteriorPointPoint.h>": 1,
+          "geos/algorithm/CentralEndpointIntersector.h": 1,
+          "<geos/algorithm/CentralEndpointIntersector.h>": 1,
+          "<geos/index/chain/MonotoneChain.h>": 1,
+          "<geos/index/bintree/Bintree.h>": 1,
+          "geos/index/chain/MonotoneChainBuilder.h": 1,
+          "geos::index": 1,
+          "<geos/index/bintree/Interval.h>": 1,
+          "geos/index/bintree/Bintree.h": 1,
+          "geos/index/chain/MonotoneChain.h": 1,
+          "geos/algorithm/MCPointInRing.h": 1,
+          "<geos/index/chain/MonotoneChainBuilder.h>": 1,
+          "geos/index/bintree/Interval.h": 1,
+          "<geos/algorithm/MCPointInRing.h>": 1,
+          "<geos/algorithm/MinimumDiameter.h>": 1,
+          "geos/algorithm/MinimumDiameter.h": 1,
+          "<geos/geomgraph/GeometryGraph.h>": 1,
+          "<geos/algorithm/PointLocator.h>": 1,
+          "geos/algorithm/PointLocator.h": 1,
+          "geos/geomgraph/GeometryGraph.h": 1,
+          "<geos/algorithm/SIRtreePointInRing.h>": 1,
+          "geos/index/strtree/SIRtree.h": 1,
+          "geos/algorithm/SIRtreePointInRing.h": 1,
+          "geos::index::strtree": 1,
+          "<geos/index/strtree/SIRtree.h>": 1,
+          "geos/algorithm/SimplePointInRing.h": 1,
+          "<geos/algorithm/SimplePointInRing.h>": 1,
+          "<geos/algorithm/locate/IndexedPointInAreaLocator.h>": 1,
+          "geos/geom/util/LinearComponentExtracter.h": 1,
+          "<geos/index/ItemVisitor.h>": 1,
+          "geos/index/ItemVisitor.h": 1,
+          "<geos/geom/util/LinearComponentExtracter.h>": 1,
+          "geos/index/intervalrtree/SortedPackedIntervalRTree.h": 1,
+          "geos/algorithm/locate/IndexedPointInAreaLocator.h": 1,
+          "<geos/index/intervalrtree/SortedPackedIntervalRTree.h>": 1,
+          "<geos/algorithm/locate/PointOnGeometryLocator.h>": 1,
+          "geos/algorithm/locate/PointOnGeometryLocator.h": 1,
+          "geos/algorithm/locate/SimplePointInAreaLocator.h": 1,
+          "<geos/algorithm/locate/SimplePointInAreaLocator.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "<Foundation/Foundation.h>": 1,
+          "<geos/util.h>": 1,
+          "<geos/platform.h>": 1,
+          "geos/geom.h": 1,
+          "<geos/geom.h>": 1,
+          "geos/platform.h": 1,
+          "geos/util.h": 1,
+          "namespace": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "rails": 1,
+          "hotwired": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 1,
+        "packages": {
+          "<SystemConfiguration/SCNetworkReachability.h>": 1,
+          "<netinet/in.h>": 1,
+          "netinet/in.h": 1,
+          "SystemConfiguration/SCNetworkReachability.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 22,
+        "packages": {
+          "aiosfstream": 8,
+          "aiocometd": 7,
+          "os": 6,
+          "collections": 5,
+          "logging": 4,
+          "reprlib": 4,
+          "typing": 4,
+          "asynctest": 4,
+          "TestCase": 4,
+          "pickle": 4,
+          "networkx": 4,
+          "ReplayMarkerStorage": 3,
+          "Client": 3,
+          "http": 3,
+          "Optional": 3,
+          "HTTPStatus": 3,
+          "abc": 3,
+          "AuthenticatorBase": 3,
+          "datetime": 3,
+          "gitlock": 3,
+          "git": 3,
+          "cupy": 3,
+          "numpy": 3,
+          "aiohttp": 2,
+          "json": 2,
+          "JsonObject": 2,
+          "AuthenticationError": 2,
+          "ClientError": 2,
+          "abstractmethod": 2,
+          "ServerError": 2,
+          "enum": 2,
+          "asyncio": 2,
+          "MetaChannel": 2,
+          "ReplayError": 2,
+          "setup": 2,
+          "OrderedDict": 2,
+          "manhattan_distance": 2,
+          "modgeosys": 2,
+          "mpld3": 2,
+          "cualgo": 2,
+          "scipy": 2,
+          "plugins": 2,
+          "floyd_warshall": 2,
+          "floydwarshall": 2,
+          "matplotlib": 2,
+          "cugraph": 2,
+          "concurrent": 2,
+          "ThreadPoolExecutor": 2,
+          "cudf": 2,
+          "pytest": 2,
+          "steiner_tree": 2,
+          "src": 2,
+          "RefreshTokenAuthenticator": 1,
+          "MappingStorage": 1,
+          "PasswordAuthenticator": 1,
+          "ReplayMarker": 1,
+          "ConstantReplayId": 1,
+          "DefaultMappingStorage": 1,
+          "VERSION": 1,
+          "ReplayMarkerStoragePolicy": 1,
+          "AuthExtension": 1,
+          "ClientSession": 1,
+          "translate_errors": 1,
+          "types": 1,
+          "Enum": 1,
+          "ReplayOption": 1,
+          "TracebackType": 1,
+          "wraps": 1,
+          "contextlib": 1,
+          "functools": 1,
+          "Generator": 1,
+          "IntEnum": 1,
+          "Payload": 1,
+          "Extension": 1,
+          "sys": 1,
+          "setuptools": 1,
+          "AiosfstreamException": 1,
+          "Iterable": 1,
+          "argparse": 1,
+          "IPython": 1,
+          "FetchInfo": 1,
+          "PushInfo": 1,
+          "GitConfigParser": 1,
+          "csv": 1,
+          "yaml": 1,
+          "errno": 1,
+          "distutils": 1,
+          "highlight": 1,
+          "pygments": 1,
+          "threading": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 75,
+        "packages": {
+          "rubygems": 9,
+          "rexml/document": 7,
+          "test_helper": 6,
+          "rails": 4,
+          "active_record": 4,
+          "test/unit": 4,
+          "ActiveMerchant::Billing::Integrations": 3,
+          "net/http": 3,
+          "active_support": 3,
+          "ckuru-tools": 3,
+          "Rails.application.routes.url_helpers": 3,
+          "active_merchant": 2,
+          "Validateable": 2,
+          "time": 2,
+          "net/https": 2,
+          "BeanstreamCore": 2,
+          "active_record/acts/renderer": 2,
+          "exception_notifiable": 2,
+          "exception_notifier": 2,
+          "#{File.dirname(__FILE__)}/../init": 2,
+          "ScottBarron::Acts::StateMachine": 2,
+          "rails/generators": 2,
+          "minitest/autorun": 2,
+          "File.join": 2,
+          "File.expand_path": 2,
+          "fileutils": 2,
+          "Devise::Controllers::ScopedViews": 2,
+          "Devise::Controllers::SignInOut": 2,
+          "Devise::Controllers::StoreLocation": 2,
+          "uri": 2,
+          "Rails.application.routes.mounted_helpers": 2,
+          "engines/plugin_list": 2,
+          "pathname": 2,
+          "action_mailer": 2,
+          "active_merchant/billing/integrations/action_view_helper": 1,
+          "active_merchant/billing/gateways": 1,
+          "active_merchant/lib/post_data": 1,
+          "active_merchant/lib/country": 1,
+          "active_merchant/lib/validateable": 1,
+          "active_merchant/lib/connection": 1,
+          "active_merchant/billing/cvv_result": 1,
+          "active_merchant/billing/base": 1,
+          "cgi": 1,
+          "active_merchant/billing/credit_card": 1,
+          "active_merchant/billing/credit_card_formatting": 1,
+          "active_merchant/billing/credit_card_methods": 1,
+          "builder": 1,
+          "active_merchant/lib/error": 1,
+          "active_merchant/lib/utils": 1,
+          "active_merchant/billing/avs_result": 1,
+          "active_merchant/billing/integrations": 1,
+          "activesupport": 1,
+          "active_merchant/lib/posts_data": 1,
+          "active_merchant/lib/requires_parameters": 1,
+          "date": 1,
+          "active_merchant/billing/expiry_date": 1,
+          "CreditCardMethods": 1,
+          "PostsData": 1,
+          "CreditCardFormatting": 1,
+          "active_merchant/billing/response": 1,
+          "RequiresParameters": 1,
+          "Utils": 1,
+          "active_merchant/billing/gateway": 1,
+          "smart_ps.rb": 1,
+          "ActiveRecord::Acts::Renderer::InstanceMethods": 1,
+          "controllers/application": 1,
+          "#{File.dirname(__FILE__)}/../../../../config/boot": 1,
+          "action_controller": 1,
+          "acts_as_state_machine": 1,
+          "person": 1,
+          "active_record/fixtures": 1,
+          "bulma_form_rails/railtie": 1,
+          "bulma_form_rails/message_box_helpers": 1,
+          "bulma_form_rails/form_page_helpers": 1,
+          "bulma_form_rails/header_and_footer_helpers": 1,
+          "bulma_form_rails/field_helpers": 1,
+          "bulma_form_rails/subform_helpers": 1,
+          "pagy/extras/bulma": 1,
+          "rails/test_help": 1,
+          "action_view": 1,
+          "bulma_form_rails": 1,
+          "getoptlong": 1,
+          "ruby-debug": 1,
+          "::Singleton": 1,
+          "singleton": 1,
+          "rake/clean": 1,
+          "rake": 1,
+          "lib": 1,
+          "ostruct": 1,
+          "spec": 1,
+          "sqlite3-ruby": 1,
+          ":scope_name": 1,
+          "Devise::Mailers::Helpers": 1,
+          "byebug": 1,
+          "bundler/inline": 1,
+          "rack/test": 1,
+          "devise/rails/routes": 1,
+          "Rack::Test::Methods": 1,
+          "devise": 1,
+          "Warden::Test::Helpers": 1,
+          "devise/rails/warden_compat": 1,
+          "devise/orm/active_record": 1,
+          "sqlite3": 1,
+          "action_controller/railtie": 1,
+          "devise/models": 1,
+          "set": 1,
+          "devise/modules": 1,
+          "responders": 1,
+          "scope::Helpers": 1,
+          "active_support/core_ext/numeric/time": 1,
+          "warden": 1,
+          "orm_adapter": 1,
+          "devise/mapping": 1,
+          "securerandom": 1,
+          "active_support/dependencies": 1,
+          "scope::UrlHelpers": 1,
+          "devise/rails": 1,
+          "helpers": 1,
+          ":expire_data_after_sign_out!": 1,
+          "bcrypt": 1,
+          "ActionController::Redirecting": 1,
+          "ActionController::UrlFor": 1,
+          "action_controller/metal": 1,
+          "Devise::Controllers::Rememberable": 1,
+          ":name": 1,
+          "bundler/setup": 1,
+          "rails/info": 1,
+          "engines": 1,
+          "engines/rails_extensions/rails_initializer": 1,
+          "engines/testing": 1,
+          "engines/rails_extensions/#{f}": 1,
+          "engines/plugin": 1,
+          "engines/plugin_migrator": 1,
+          "engines/rails_extensions/rails": 1,
+          "tmpdir": 1,
+          "ipaddr": 1,
+          "pp": 1,
+          "ExceptionNotifierHelper": 1,
+          "exception_notifier_helper": 1,
+          "rb": 1,
+          "ActiveMerchant::Billing::CreditCardMethods": 1,
+          "zlib": 1,
+          "REXML": 1,
+          "litle_online": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "modgeosys/active_merchant",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "modgeosys/acts_as_renderer",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "modgeosys/acts_as_state_machine",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "modgeosys/aiosfstream",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "modgeosys/appirater",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "modgeosys/bulma_form_rails",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "modgeosys/ckuru-tools",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "modgeosys/delayed_job",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "modgeosys/devise",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "modgeosys/downloads",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "modgeosys/engines",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "modgeosys/exception_notification",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "modgeosys/geos",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "modgeosys/gitlock",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "modgeosys/litle_online",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "modgeosys/modgeosys-cuda-graph-algorithms",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "modgeosys/modgeosys-fast-graph-algorithms",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

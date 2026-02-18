@@ -1,0 +1,138 @@
+{
+  "username": "ktowle",
+  "areas": {
+    "OSS": {
+      "score": 0.6095415488302076,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.4143123232453116
+      }
+    },
+    "Status": {
+      "score": -0.07193136132655087,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.39210295801017364,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "ktowle/workman": 0.13355
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.3844025468759142,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        257,
+        6
+      ],
+      "Shell": [
+        4,
+        0
+      ],
+      "JavaScript": [
+        3,
+        0
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 6,
+    "total_lines": 264,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 257,
+        "commits": 6
+      },
+      {
+        "language": "Shell",
+        "lines": 4,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 3,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ktowle",
+    "analysis_date": "2026-02-18T18:38:00.842212",
+    "total_repos_analyzed": 2,
+    "total_files_analyzed": 48,
+    "languages": {
+      "Elixir": {
+        "files_scanned": 14,
+        "packages": {
+          "Kane.Topic": 5,
+          "ExUnit.Case": 5,
+          "Mix.Config": 3,
+          "Kane.Message": 3,
+          "Kane.Client.Response.Error": 2,
+          "Kane.Client": 2,
+          "Kane.": 1,
+          "~/.iex.exs": 1,
+          "#{Mix.env}.exs": 1,
+          "Response.Error": 1,
+          "Response.Success": 1,
+          "Mix.Project": 1,
+          "Kane.Subscription": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 8,
+        "packages": {
+          "bluecloth": 6,
+          "user": 1,
+          "date": 1,
+          "TodosHelper": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ktowle/kane",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "ktowle/workman",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}
