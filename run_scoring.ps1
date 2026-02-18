@@ -1,4 +1,4 @@
-$UsersFile   = "github_users.txt"
+$UsersFile   = "github_users2.txt"
 $MainConfig  = "config_main.ini"
 $ConfigFile  = "config.ini"
 $Script      = "ScoringSys.py"
