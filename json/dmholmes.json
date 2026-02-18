@@ -1,0 +1,83 @@
+{
+  "username": "dmholmes",
+  "areas": {
+    "OSS": {
+      "score": -0.3846153846153846,
+      "details": {
+        "issue_resolution_rate": 0.9230769230769231,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.1794871794871795,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "dmholmes",
+    "analysis_date": "2026-02-17T21:45:26.975027",
+    "total_repos_analyzed": 1,
+    "total_files_analyzed": 8,
+    "languages": {
+      "Swift": {
+        "files_scanned": 8,
+        "packages": {
+          "UIKit": 8,
+          "class": 2,
+          "SKIP": 2,
+          "GOT": 2,
+          "var": 2,
+          "func": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "dmholmes/AlertOnboarding",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Swift"
+        ]
+      }
+    ]
+  }
+}
