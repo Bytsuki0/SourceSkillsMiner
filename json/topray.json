@@ -1,0 +1,234 @@
+{
+  "username": "topray",
+  "areas": {
+    "OSS": {
+      "score": 0.5947353053401159,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.39210295801017364
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.06535049300169563,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        60898,
+        6
+      ],
+      "Python": [
+        3789,
+        0
+      ],
+      "JavaScript": [
+        1189,
+        0
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 6,
+    "total_lines": 65876,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 60898,
+        "commits": 6
+      },
+      {
+        "language": "Python",
+        "lines": 3789,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1189,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "topray",
+    "analysis_date": "2026-02-18T17:12:36.722536",
+    "total_repos_analyzed": 3,
+    "total_files_analyzed": 44,
+    "languages": {
+      "C": {
+        "files_scanned": 16,
+        "packages": {
+          "cache.h": 15,
+          "config.h": 9,
+          "object-store.h": 6,
+          "commit.h": 4,
+          "refs.h": 4,
+          "alloc.h": 3,
+          "blob.h": 3,
+          "diff.h": 3,
+          "quote.h": 3,
+          "dir.h": 3,
+          "archive.h": 3,
+          "tag.h": 2,
+          "parse-options.h": 2,
+          "xdiff-interface.h": 2,
+          "run-command.h": 2,
+          "streaming.h": 2,
+          "utf8.h": 2,
+          "attr.h": 2,
+          "argv-array.h": 2,
+          "commit-slab.h": 2,
+          "color.h": 1,
+          "help.h": 1,
+          "alias.h": 1,
+          "string-list.h": 1,
+          "object.h": 1,
+          "tree.h": 1,
+          "apply.h": 1,
+          "lockfile.h": 1,
+          "rerere.h": 1,
+          "ll-merge.h": 1,
+          "delta.h": 1,
+          "tar.h": 1,
+          "userdiff.h": 1,
+          "tree-walk.h": 1,
+          "unpack-trees.h": 1,
+          "strbuf.h": 1,
+          "thread-utils.h": 1,
+          "exec-cmd.h": 1,
+          "sha1-lookup.h": 1,
+          "commit-reach.h": 1,
+          "sha1-array.h": 1,
+          "revision.h": 1,
+          "log-tree.h": 1,
+          "list-objects.h": 1,
+          "bisect.h": 1,
+          "blame.h": 1,
+          "cache-tree.h": 1,
+          "diffcore.h": 1,
+          "mergesort.h": 1,
+          "repository.h": 1,
+          "sha1.h": 1,
+          "branch.h": 1,
+          "refspec.h": 1,
+          "sequencer.h": 1,
+          "remote.h": 1,
+          "git-compat-util.h": 1,
+          "worktree.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 5,
+        "packages": {
+          "cache.h": 2,
+          "git-compat-util.h": 1,
+          "lockfile.h": 1,
+          "string-list.h": 1,
+          "hash.h": 1,
+          "pathspec.h": 1,
+          "diff.h": 1,
+          "revision.h": 1,
+          "commit.h": 1,
+          "prio-queue.h": 1,
+          "xdiff-interface.h": 1,
+          "object.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "express": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "http": 1,
+          "BaseHTTPRequestHandler": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 8,
+        "packages": {
+          "spec_helper": 4,
+          "asciidoctor/extensions": 1,
+          "asciidoctor": 1,
+          "active_record/connection_adapters/postgresql_adapter": 1,
+          "Macro": 1,
+          "jsonb_accessor/version": 1,
+          "jsonb_accessor/query_builder": 1,
+          "jsonb_accessor/macro": 1,
+          "jsonb_accessor/query_helper": 1,
+          "active_record": 1,
+          "setters": 1,
+          "awesome_print": 1,
+          "database_cleaner": 1,
+          "pry-nav": 1,
+          "jsonb_accessor": 1,
+          "yaml": 1,
+          "pry": 1,
+          "pry-doc": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "topray/ball",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "topray/git",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "topray/jsonb_accessor",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

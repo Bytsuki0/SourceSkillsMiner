@@ -1,0 +1,352 @@
+{
+  "username": "rakuto",
+  "areas": {
+    "OSS": {
+      "score": -0.1571906501601853,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.5833333333333334,
+        "commits_activity": 0.6808806914263886
+      }
+    },
+    "Status": {
+      "score": 0.0,
+      "details": {
+        "lines_activity": 0.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "rakuto/jrails_in_place_editing": -0.0772,
+        "rakuto/sagemaker-message-api": 0.6717500000000001
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.1357023374599537,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        875,
+        9
+      ],
+      "Rust": [
+        11543,
+        19
+      ],
+      "Makefile": [
+        49,
+        0
+      ],
+      "C": [
+        6,
+        0
+      ],
+      "Python": [
+        5006,
+        5
+      ],
+      "Dockerfile": [
+        122,
+        0
+      ],
+      "Jupyter Notebook": [
+        3,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 33,
+    "total_lines": 17604,
+    "top_5_languages": [
+      {
+        "language": "Rust",
+        "lines": 11543,
+        "commits": 19
+      },
+      {
+        "language": "Ruby",
+        "lines": 875,
+        "commits": 9
+      },
+      {
+        "language": "Python",
+        "lines": 5006,
+        "commits": 5
+      },
+      {
+        "language": "Makefile",
+        "lines": 49,
+        "commits": 0
+      },
+      {
+        "language": "C",
+        "lines": 6,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rakuto",
+    "analysis_date": "2026-02-18T17:16:43.587454",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 43,
+    "languages": {
+      "Python": {
+        "files_scanned": 29,
+        "packages": {
+          "transformers": 20,
+          "typing": 18,
+          "torch": 17,
+          "logging": 14,
+          "os": 11,
+          "numpy": 11,
+          "time": 9,
+          "jax": 9,
+          "math": 8,
+          "flax": 8,
+          "json": 6,
+          "List": 6,
+          "vibevoice": 6,
+          "tqdm": 5,
+          "re": 5,
+          "Dict": 5,
+          "dataclasses": 5,
+          "pathlib": 4,
+          "Path": 4,
+          "random": 4,
+          "argparse": 4,
+          "AutoModel": 4,
+          "PreTrainedModel": 4,
+          "whisper_jax": 4,
+          "datasets": 4,
+          "librosa": 3,
+          "dataclass": 3,
+          "ACT2FN": 3,
+          "functools": 3,
+          "compilation_cache": 3,
+          "DataLoader": 3,
+          "WhisperProcessor": 3,
+          "FlaxWhisperForConditionalGeneration": 3,
+          "freeze": 3,
+          "concatenate_datasets": 3,
+          "PartitionSpec": 3,
+          "Any": 3,
+          "partitioning": 3,
+          "sys": 2,
+          "click": 2,
+          "VibeVoiceForConditionalGenerationInference": 2,
+          "gradio": 2,
+          "VibeVoiceProcessor": 2,
+          "soundfile": 2,
+          "tempfile": 2,
+          "PretrainedConfig": 2,
+          "FlashAttentionKwargs": 2,
+          "modeling_utils": 2,
+          "DPMSolverMultistepScheduler": 2,
+          "Optional": 2,
+          "partial": 2,
+          "warnings": 2,
+          "ffmpeg_read": 2,
+          "TO_LANGUAGE_CODE": 2,
+          "WhisperConfig": 2,
+          "jax_utils": 2,
+          "shard": 2,
+          "lax": 2,
+          "traverse_util": 2,
+          "natsort": 1,
+          "torchaudio": 1,
+          "zonos": 1,
+          "snapshot_download": 1,
+          "natsorted": 1,
+          "Zonos": 1,
+          "logging_redirect_tqdm": 1,
+          "make_cond_dict": 1,
+          "huggingface_hub": 1,
+          "pydantic": 1,
+          "BaseModel": 1,
+          "shutil": 1,
+          "genai": 1,
+          "google": 1,
+          "datetime": 1,
+          "AudioStreamer": 1,
+          "VibeVoiceConfig": 1,
+          "traceback": 1,
+          "set_seed": 1,
+          "threading": 1,
+          "Qwen2Config": 1,
+          "CausalLMOutput": 1,
+          "LlamaRMSNorm": 1,
+          "BaseModelOutputWithPast": 1,
+          "GenerationMixin": 1,
+          "Qwen2TokenizerFast": 1,
+          "Qwen2Tokenizer": 1,
+          "fused_rms_norm_affine": 1,
+          "apex": 1,
+          "t": 1,
+          "copy": 1,
+          "asyncio": 1,
+          "annotations": 1,
+          "queue": 1,
+          "BaseStreamer": 1,
+          "__future__": 1,
+          "Queue": 1,
+          "TYPE_CHECKING": 1,
+          "BatchEncoding": 1,
+          "TensorType": 1,
+          "FeatureExtractionMixin": 1,
+          "randn_tensor": 1,
+          "ConfigMixin": 1,
+          "deprecate": 1,
+          "diffusers": 1,
+          "KarrasDiffusionSchedulers": 1,
+          "VibeVoiceForConditionalGeneration": 1,
+          "multiprocessing": 1,
+          "Pool": 1,
+          "yt_dlp": 1,
+          "FlaxWhisperPipline": 1,
+          "no_collate_fn": 1,
+          "PipelineChunkIterator": 1,
+          "load_dataset": 1,
+          "WhisperForConditionalGeneration": 1,
+          "setuptools": 1,
+          "codecs": 1,
+          "find_packages": 1,
+          "open": 1,
+          "linen": 1,
+          "promote_dtype": 1,
+          "operator": 1,
+          "PRNGKey": 1,
+          "dot_product_attention_weights": 1,
+          "layers": 1,
+          "FrozenDict": 1,
+          "combine_masks": 1,
+          "flatten_dict": 1,
+          "masking": 1,
+          "implements": 1,
+          "with_sharding_constraint": 1,
+          "absl": 1,
+          "collections": 1,
+          "pjit": 1,
+          "multihost_utils": 1,
+          "Mesh": 1,
+          "a": 1,
+          "abc": 1,
+          "cached_property": 1,
+          "create_hybrid_device_mesh": 1,
+          "requests": 1,
+          "scope": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 3,
+        "packages": {
+          "jrails_in_place_editing": 1,
+          "jrails_in_place_macros_helper": 1,
+          "FileUtils": 1,
+          "fileutils": 1,
+          "ActionView::Helpers::CaptureHelper": 1,
+          "InPlaceEditing": 1,
+          "InPlaceMacrosHelper": 1,
+          "ActionView::Helpers::FormHelper": 1,
+          "ActionView::Helpers::TagHelper": 1,
+          "ActionView::Helpers::TextHelper": 1,
+          "ActionView::Helpers::UrlHelper": 1,
+          "test/unit": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 5,
+        "packages": {
+          "crate": 3,
+          "anyhow": 3,
+          "std": 3,
+          "serde": 3,
+          "super": 2,
+          "tempfile": 2,
+          "serde_json": 2,
+          "aws_sdk_sagemakerruntime": 2,
+          "futures": 1,
+          "tracing_subscriber": 1,
+          "futures_util": 1,
+          "opentelemetry_sdk": 1,
+          "clap": 1,
+          "uuid": 1,
+          "axum": 1,
+          "core": 1,
+          "opentelemetry": 1,
+          "tower_http": 1,
+          "async_stream": 1,
+          "tracing": 1,
+          "bytes": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rakuto/jrails_in_place_editing",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "rakuto/real-persona-dialog",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rakuto/sagemaker-message-api",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "rakuto/VibeVoice",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rakuto/whisper-jax",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}
