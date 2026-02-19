@@ -1,0 +1,210 @@
+{
+  "username": "nikonoid",
+  "areas": {
+    "OSS": {
+      "score": -0.297681139046164,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.75,
+        "commits_activity": 0.303478291430754
+      }
+    },
+    "Status": {
+      "score": -0.11819395955898448,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.303478291430754,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.10396877465128712,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "nikonoid",
+    "analysis_date": "2026-02-19T07:53:50.369798",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 130,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "object": 2,
+          "__esModule": 2,
+          "url": 1,
+          "rails": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 10,
+        "packages": {
+          "datetime": 8,
+          "psycopg2": 7,
+          "ConfigParser": 6,
+          "gtk": 6,
+          "gobject": 6,
+          "pygtk": 6,
+          "pango": 6,
+          "time": 6,
+          "os": 5,
+          "threading": 3,
+          "thread": 3,
+          "pygst": 3,
+          "gst": 3,
+          "a": 3,
+          "dbus": 3,
+          "DBusGMainLoop": 3,
+          "etree": 2,
+          "lxml": 2,
+          "sys": 2,
+          "subprocess": 2,
+          "operator": 2,
+          "fcntl": 2,
+          "sql": 1,
+          "quota": 1,
+          "the": 1,
+          "pickle": 1,
+          "shutil": 1,
+          "calendar": 1,
+          "extras": 1,
+          "expanduser": 1,
+          "csv": 1,
+          "Gtk": 1,
+          "gi": 1,
+          "queries": 1,
+          "dialogs": 1,
+          "configparser": 1,
+          "in": 1,
+          "ioctl": 1,
+          "termios": 1,
+          "Serial": 1,
+          "serial": 1,
+          "itemgetter": 1,
+          "preview": 1,
+          "broadcast": 1,
+          "Popen": 1,
+          "socket": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 23,
+        "packages": {
+          "spec_helper": 5,
+          "active_support": 3,
+          "casclient/frameworks/rails/filter": 3,
+          "ActiveSupport::Rescuable": 2,
+          "active_support/rescuable": 2,
+          "set": 2,
+          "rubygems": 2,
+          "casclient": 2,
+          "casclient/tickets/storage/active_record_ticket_store": 2,
+          "action_controller": 2,
+          "action_cable/version": 1,
+          "active_support/rails": 1,
+          "Callbacks": 1,
+          "PeriodicTimers": 1,
+          "Streams": 1,
+          "Broadcasting": 1,
+          "Naming": 1,
+          "active_support/core_ext/object/to_param": 1,
+          "ActiveSupport::Callbacks": 1,
+          "active_support/callbacks": 1,
+          "active_support/core_ext/hash/indifferent_access": 1,
+          "stop_periodic_timers": 1,
+          "Behavior": 1,
+          "json": 1,
+          "ActiveSupport::Testing::ConstantLookup": 1,
+          "ActionCable::TestHelper": 1,
+          "active_support/test_case": 1,
+          "InternalChannel": 1,
+          "Identification": 1,
+          "action_dispatch": 1,
+          "Authorization": 1,
+          "websocket/driver": 1,
+          "=": 1,
+          "rails": 1,
+          "initializer": 1,
+          "#{Rails.root}/vendor/rails/railties/lib/initializer": 1,
+          "boot": 1,
+          "Active": 1,
+          "casclient/tickets/storage": 1,
+          "rexml/document": 1,
+          "logger": 1,
+          "casclient/responses": 1,
+          "net/https": 1,
+          "casclient/frameworks/rails/cas_proxy_callback_controller": 1,
+          "casclient/tickets": 1,
+          "cgi": 1,
+          "uri": 1,
+          "casclient/client": 1,
+          "validate_proxy_ticket": 1,
+          "XmlResponse": 1,
+          "pstore": 1,
+          "support/local_hash_ticket_store": 1,
+          "fileutils": 1,
+          "casclient/responses.rb": 1,
+          "rubycas-client": 1,
+          "database_cleaner": 1,
+          "simplecov": 1,
+          "bundler": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "nikonoid/Messaging",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "nikonoid/rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "nikonoid/rubycas-client",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

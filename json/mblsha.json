@@ -1,0 +1,281 @@
+{
+  "username": "mblsha",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.6,
+        "pr_merge_rate": 13.976744186046512,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5256410256410255,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.28846153846153844
+      }
+    },
+    "Sentiment": {
+      "score": 0.6470588235294118,
+      "details": {
+        "mblsha/binaryninja-m68k": 0.643,
+        "mblsha/binary_ninja_mcp": 0.24084705882352941,
+        "mblsha/binja-esr": -0.06439333333333334,
+        "mblsha/binja-i8086": 0.6779,
+        "mblsha/binja-scumm6": -0.4066166666666667,
+        "mblsha/binja-test-mocks": -0.198575,
+        "mblsha/bnida": 0.4199,
+        "mblsha/dist-clang": 0.7096,
+        "mblsha/miniware-mdp-m01": 0.0627090909090909,
+        "mblsha/musashi-wasm": -0.046749999999999986,
+        "mblsha/psi": 0.17204999999999998,
+        "mblsha/retrobus-explorer": -0.36535,
+        "mblsha/retrobus-perfetto": 0.27496666666666664,
+        "mblsha/spadeforge": 0.1569222222222222,
+        "mblsha/yandex-music-mac-player": 0.3477075,
+        "mblsha/yapsi-psi-snapshot": -0.10745000000000005,
+        "mblsha/Z80": 0.4926
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7431749622926094,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        1841773,
+        1524
+      ],
+      "JavaScript": [
+        53478,
+        93
+      ],
+      "Shell": [
+        29240,
+        36
+      ],
+      "Makefile": [
+        6240,
+        3
+      ],
+      "Dockerfile": [
+        346,
+        1
+      ],
+      "CMake": [
+        3612,
+        5
+      ],
+      "C++": [
+        838927,
+        568
+      ],
+      "Rust": [
+        188826,
+        401
+      ],
+      "TypeScript": [
+        52845,
+        110
+      ],
+      "Svelte": [
+        18007,
+        29
+      ],
+      "BASIC": [
+        291,
+        0
+      ],
+      "HTML": [
+        8699,
+        50
+      ],
+      "Kaitai Struct": [
+        6074,
+        31
+      ],
+      "Swift": [
+        5220,
+        57
+      ],
+      "Objective-C": [
+        78770,
+        20
+      ],
+      "Ruby": [
+        38163,
+        20
+      ],
+      "C": [
+        218267,
+        341
+      ],
+      "MAXScript": [
+        0,
+        0
+      ],
+      "CSS": [
+        12689,
+        4
+      ],
+      "Elm": [
+        12,
+        1
+      ],
+      "Assembly": [
+        4928,
+        17
+      ],
+      "TeX": [
+        1695,
+        0
+      ],
+      "Emacs Lisp": [
+        0,
+        0
+      ],
+      "Objective-C++": [
+        1449,
+        11
+      ],
+      "Awk": [
+        433,
+        0
+      ],
+      "C#": [
+        1,
+        0
+      ],
+      "QuickBASIC": [
+        3585,
+        0
+      ],
+      "Pascal": [
+        1072,
+        0
+      ],
+      "PHP": [
+        473,
+        0
+      ],
+      "FreeBASIC": [
+        400,
+        0
+      ],
+      "QMake": [
+        156,
+        0
+      ],
+      "Batchfile": [
+        9,
+        0
+      ],
+      "Perl": [
+        22117,
+        4
+      ],
+      "Turing": [
+        75,
+        0
+      ],
+      "Haskell": [
+        5,
+        0
+      ],
+      "Verilog": [
+        268110,
+        41
+      ],
+      "Tcl": [
+        106761,
+        16
+      ],
+      "NSIS": [
+        0,
+        0
+      ],
+      "Inno Setup": [
+        0,
+        0
+      ],
+      "Roff": [
+        0,
+        0
+      ],
+      "Go": [
+        7752,
+        15
+      ],
+      "GLSL": [
+        3736,
+        3
+      ],
+      "Linker Script": [
+        4,
+        0
+      ]
+    },
+    "language_count": 43,
+    "total_commits": 3401,
+    "total_lines": 3824240,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 1841773,
+        "commits": 1524
+      },
+      {
+        "language": "C++",
+        "lines": 838927,
+        "commits": 568
+      },
+      {
+        "language": "Rust",
+        "lines": 188826,
+        "commits": 401
+      },
+      {
+        "language": "C",
+        "lines": 218267,
+        "commits": 341
+      },
+      {
+        "language": "TypeScript",
+        "lines": 52845,
+        "commits": 110
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/mblsha/Bond/contents/Bond/iOS/Bond+UICollectionView.swift (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f99c125ce00>, 'Connection to api.github.com timed out. (connect timeout=None)'))",
+    "username": "mblsha",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

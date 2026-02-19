@@ -1,0 +1,484 @@
+{
+  "username": "coreyti",
+  "areas": {
+    "OSS": {
+      "score": 0.738031914893617,
+      "details": {
+        "issue_resolution_rate": 0.6382978723404256,
+        "pr_merge_rate": 0.96875,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.2913587632374013,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8793458371637943,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 0.6,
+      "details": {
+        "coreyti/beckett": -0.296,
+        "coreyti/meltdown": 0.5372,
+        "coreyti/osx-setup": 0.4404,
+        "coreyti/playwright-elixir": 0.5034294117647058,
+        "coreyti/syncopate": -0.4412
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5073476695327546,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        37430,
+        65
+      ],
+      "Ruby": [
+        2920,
+        17
+      ],
+      "Python": [
+        1659,
+        6
+      ],
+      "Dockerfile": [
+        39,
+        0
+      ],
+      "Go": [
+        1509,
+        19
+      ],
+      "HTML": [
+        4315,
+        8
+      ],
+      "Elixir": [
+        2164423,
+        459
+      ],
+      "JavaScript": [
+        439,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 574,
+    "total_lines": 2212734,
+    "top_5_languages": [
+      {
+        "language": "Elixir",
+        "lines": 2164423,
+        "commits": 459
+      },
+      {
+        "language": "Shell",
+        "lines": 37430,
+        "commits": 65
+      },
+      {
+        "language": "Go",
+        "lines": 1509,
+        "commits": 19
+      },
+      {
+        "language": "Ruby",
+        "lines": 2920,
+        "commits": 17
+      },
+      {
+        "language": "HTML",
+        "lines": 4315,
+        "commits": 8
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "coreyti",
+    "analysis_date": "2026-02-19T06:39:53.113720",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 226,
+    "languages": {
+      "Go": {
+        "files_scanned": 29,
+        "packages": {
+          "context": 20,
+          "fmt": 14,
+          "github.com/vito/bass/pkg/bass": 14,
+          "os": 11,
+          "github.com/vito/bass/pkg/cli": 8,
+          "github.com/vito/progrock": 7,
+          "testing": 6,
+          "github.com/vito/is": 6,
+          "strings": 5,
+          "github.com/vito/bass/pkg/zapctx": 4,
+          "github.com/vito/bass/pkg/runtimes": 4,
+          "github.com/vito/booklit": 4,
+          "io": 3,
+          "github.com/vito/bass/pkg/ioctx": 3,
+          "go.uber.org/zap": 3,
+          "bytes": 3,
+          "net/http": 2,
+          "log": 2,
+          "github.com/vito/bass/pkg/proto": 2,
+          "github.com/mattn/go-isatty": 2,
+          "go.uber.org/zap/zapcore": 2,
+          "net": 2,
+          "path/filepath": 2,
+          "github.com/alecthomas/chroma/styles": 2,
+          "sync": 2,
+          "regexp": 2,
+          "reflect": 2,
+          "b": 2,
+          "a": 2,
+          "bar": 2,
+          "golang.org/x/oauth2": 1,
+          "github.com/google/go-github/v44/github": 1,
+          "os/signal": 1,
+          "github.com/bradleyfalzon/ghinstallation": 1,
+          "google.golang.org/protobuf/encoding/prototext": 1,
+          "github.com/protocolbuffers/txtpbfmt/parser": 1,
+          "time": 1,
+          "github.com/hashicorp/go-multierror": 1,
+          "%s\\t%5.1f\\t%s\\t%s": 1,
+          "github.com/tonistiigi/units": 1,
+          "archive/tar": 1,
+          "encoding/json": 1,
+          "github.com/vito/bass/pkg/lsp": 1,
+          "github.com/sourcegraph/jsonrpc2": 1,
+          "runtime/pprof": 1,
+          "errors": 1,
+          "github.com/cenkalti/backoff/v4": 1,
+          "id_ed25519": 1,
+          "golang.org/x/crypto/ssh/agent": 1,
+          "github.com/vito/go-interact/interact": 1,
+          "golang.org/x/crypto/ssh/knownhosts": 1,
+          "golang.org/x/crypto/ssh": 1,
+          "id_ecdsa_sk": 1,
+          "id_dsa": 1,
+          "os/user": 1,
+          "id_ecdsa": 1,
+          "id_rsa": 1,
+          "golang.org/x/sync/errgroup": 1,
+          "id_ed25519_sk": 1,
+          "github.com/morikuni/aec": 1,
+          "runtime/debug": 1,
+          "embed": 1,
+          "Index": 1,
+          "path": 1,
+          "Target": 1,
+          "StartLine": 1,
+          "github.com/zeebo/xxh3": 1,
+          "sort": 1,
+          "Background": 1,
+          "ID": 1,
+          "StderrLines": 1,
+          "github.com/vito/invaders": 1,
+          "github.com/vito/vt100": 1,
+          "strconv": 1,
+          "Stderr": 1,
+          "Path": 1,
+          "github.com/vito/bass/pkg": 1,
+          "Value": 1,
+          "unicode": 1,
+          "github.com/vito/progrock/ui": 1,
+          "Scope": 1,
+          "github.com/vito/bass/demos": 1,
+          "Stdout": 1,
+          "Body": 1,
+          "Reference": 1,
+          "json": 1,
+          "runtime": 1,
+          "disable_cache": 1,
+          "Intensity": 1,
+          "Result": 1,
+          "Name": 1,
+          "image/color": 1,
+          "Key": 1,
+          "EndLine": 1,
+          "Description": 1,
+          "Predicates": 1,
+          "Foreground": 1,
+          "Run": 1,
+          "github.com/vito/bass/std": 1,
+          "github.com/gertd/go-pluralize": 1,
+          "github.com/vito/booklit/baselit": 1,
+          "github.com/alecthomas/chroma/lexers": 1,
+          "github.com/vito/bass/pkg/hl": 1,
+          "github.com/alecthomas/chroma": 1,
+          ":=": 1,
+          "html": 1,
+          "Language": 1,
+          "c": 1,
+          "doc": 1,
+          "i": 1,
+          "foo-bnd": 1,
+          "d": 1,
+          "foo": 1,
+          "bar-bnd": 1,
+          "io/ioutil": 1,
+          "flag": 1,
+          "gopkg.in/yaml.v2": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "object": 1,
+          "jQuery": 1,
+          "react-dom": 1,
+          "]&&i(o[": 1,
+          "react": 1,
+          "undefined": 1,
+          "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED": 1,
+          "create-react-class": 1,
+          "use": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 80,
+        "packages": {
+          "spec_helper": 10,
+          "spec/spec_helper": 8,
+          "rubygems": 6,
+          "DataMapper::Resource": 5,
+          "json": 4,
+          "uri": 4,
+          "file": 4,
+          "cf/spec/core": 3,
+          "spec": 3,
+          "autotest": 2,
+          "streamio-ffmpeg": 2,
+          "cf/spec/spec": 2,
+          "cf/spec/version": 2,
+          "ostruct": 2,
+          "rspec": 2,
+          "coolerator.vision": 2,
+          "engine-assets": 2,
+          "spec/autorun": 2,
+          "omniauth": 2,
+          "pusher": 2,
+          "instagram": 2,
+          "bundler": 2,
+          "datamapper": 2,
+          "rails": 2,
+          "fileutils": 2,
+          "beckett/node/br": 1,
+          "beckett/node": 1,
+          "beckett/node/section": 1,
+          "beckett/node/text": 1,
+          "beckett/node/header": 1,
+          "beckett/node/codespan": 1,
+          "beckett/renderer": 1,
+          "beckett/node/codeblock": 1,
+          "beckett/node/element": 1,
+          "beckett/node/article": 1,
+          "beckett/node/root": 1,
+          "kramdown": 1,
+          "beckett": 1,
+          "pp": 1,
+          "config/dependencies.rb": 1,
+          "Merb::Rack::Static": 1,
+          "Merb::Rack::PathPrefix": 1,
+          "ftools": 1,
+          "template": 1,
+          "cgi": 1,
+          "MarkUp": 1,
+          "rdoc/markup/simple_markup": 1,
+          "rdoc/options": 1,
+          "rdoc/template": 1,
+          "rdoc/markup/simple_markup/to_html": 1,
+          "merb-auth-more/mixins/salted_user": 1,
+          "carrierwave/video/ffmpeg_options": 1,
+          "carrierwave": 1,
+          "carrierwave/video/ffmpeg_theora": 1,
+          "CarrierWave::Video": 1,
+          "carrierwave/video": 1,
+          "cf/spec/cli": 1,
+          "cf/spec/cli/commands": 1,
+          "thor": 1,
+          "pry": 1,
+          "cf/spec/core/context": 1,
+          "cf/spec/core/runner": 1,
+          "cf/spec/core/backends": 1,
+          "cf/spec/core/configuration": 1,
+          "cf/spec/core/resources": 1,
+          "cf/spec/core/ui": 1,
+          "cf/spec/core/transports": 1,
+          "cf/spec/core/objects": 1,
+          "openssl": 1,
+          "open3": 1,
+          "highline": 1,
+          "cf/spec/spec/resources/#{type}": 1,
+          "cf-spec": 1,
+          "bundler/setup": 1,
+          "cf/spec": 1,
+          "weighted_randomizer": 1,
+          "corkboard/version": 1,
+          "corkboard/engine": 1,
+          "redis": 1,
+          "Corkboard::Client": 1,
+          "Corkboard::Provider": 1,
+          "omniauth-instagram": 1,
+          "critique/version": 1,
+          "logger": 1,
+          "Critique": 1,
+          "critique": 1,
+          "extlib": 1,
+          "dm-core": 1,
+          "hpricot": 1,
+          "Extlib": 1,
+          "net/http": 1,
+          "optparse": 1,
+          "pivotal_tracker": 1,
+          "pivotal_tracker/story": 1,
+          "File.join": 1,
+          "pivotal_tracker/iteration": 1,
+          "config/environment": 1,
+          "engine_assets/extensions/action_view/helpers/asset_tag_helper": 1,
+          "engine_assets/public_locator": 1,
+          "engine_assets/engine": 1,
+          "rspec/rails": 1,
+          "spec/rails": 1,
+          "Support::Helpers": 1,
+          "lib/engine-assets": 1,
+          "rr": 1,
+          "config": 1,
+          "enlightenment/engine": 1,
+          "i18n-js": 1,
+          "Validations::ValidatesUniqueness": 1,
+          "Validations::ValidatesFormat": 1,
+          "green_light": 1,
+          "Validations::CleanupValidator": 1,
+          "Validations::ValidatesAssociated": 1,
+          "Validations::CallbackValidator": 1,
+          "active_record/railtie": 1,
+          "active_resource/railtie": 1,
+          "action_mailer/railtie": 1,
+          "enlightenment": 1,
+          "sprockets/railtie": 1,
+          "action_controller/railtie": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "coreyti/bass",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "coreyti/beckett",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "coreyti/blinki",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "coreyti/carrierwave-video",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "coreyti/carvel",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "coreyti/cf-spec",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "coreyti/cf-spec.example",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "coreyti/coolerator.vision",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "coreyti/corkboard",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "coreyti/critique",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "coreyti/dm-pivotal-tracker",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "coreyti/engine-assets",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "coreyti/enlightenment",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

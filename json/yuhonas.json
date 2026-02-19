@@ -1,0 +1,511 @@
+{
+  "username": "yuhonas",
+  "areas": {
+    "OSS": {
+      "score": 0.6222222222222222,
+      "details": {
+        "issue_resolution_rate": 0.3,
+        "pr_merge_rate": 1.1333333333333333,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4487179487179487,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.17307692307692307
+      }
+    },
+    "Sentiment": {
+      "score": 0.5714285714285714,
+      "details": {
+        "yuhonas/clintp.xyz": -0.31804,
+        "yuhonas/dotfiles": -0.48187500000000005,
+        "yuhonas/free-exercise-db": 0.51367,
+        "yuhonas/learntlist-elixir": -0.674,
+        "yuhonas/osx-colors": 0.7442,
+        "yuhonas/williwake.com": 0.4199,
+        "yuhonas/zsh-ansimotd": 0.49364375
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6105921855921856,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        147719,
+        40
+      ],
+      "HTML": [
+        335499,
+        100
+      ],
+      "CSS": [
+        29806,
+        22
+      ],
+      "Shell": [
+        283520,
+        110
+      ],
+      "Jupyter Notebook": [
+        208647,
+        123
+      ],
+      "TeX": [
+        10015,
+        5
+      ],
+      "Astro": [
+        8637,
+        5
+      ],
+      "JavaScript": [
+        142160,
+        62
+      ],
+      "Python": [
+        35830,
+        49
+      ],
+      "MDX": [
+        2717,
+        1
+      ],
+      "Vim Script": [
+        108854,
+        29
+      ],
+      "Lua": [
+        87519,
+        23
+      ],
+      "Jinja": [
+        24941,
+        6
+      ],
+      "Rich Text Format": [
+        11676,
+        3
+      ],
+      "AppleScript": [
+        7361,
+        1
+      ],
+      "Vue": [
+        164044,
+        52
+      ],
+      "Makefile": [
+        10684,
+        6
+      ],
+      "Elixir": [
+        9982,
+        16
+      ],
+      "SCSS": [
+        332,
+        0
+      ],
+      "Dart": [
+        1585,
+        0
+      ],
+      "Swift": [
+        134,
+        0
+      ],
+      "Kotlin": [
+        40,
+        0
+      ],
+      "Objective-C": [
+        12,
+        0
+      ],
+      "Dockerfile": [
+        4840,
+        1
+      ],
+      "TypeScript": [
+        1646,
+        0
+      ],
+      "HCL": [
+        2976,
+        1
+      ],
+      "Batchfile": [
+        2,
+        0
+      ]
+    },
+    "language_count": 27,
+    "total_commits": 655,
+    "total_lines": 1641178,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 208647,
+        "commits": 123
+      },
+      {
+        "language": "Shell",
+        "lines": 283520,
+        "commits": 110
+      },
+      {
+        "language": "HTML",
+        "lines": 335499,
+        "commits": 100
+      },
+      {
+        "language": "JavaScript",
+        "lines": 142160,
+        "commits": 62
+      },
+      {
+        "language": "Vue",
+        "lines": 164044,
+        "commits": 52
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "yuhonas",
+    "analysis_date": "2026-02-19T04:22:47.608279",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 212,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 2,
+        "packages": {
+          "flutter": 2,
+          "dart:convert": 1,
+          "dart:async": 1,
+          "http": 1,
+          "flutter_test": 1,
+          "flutterapp": 1
+        }
+      },
+      "Elixir": {
+        "files_scanned": 52,
+        "packages": {
+          "Koans": 20,
+          "LearntListWeb": 10,
+          "Mix.Config": 6,
+          "Display.Paint": 3,
+          "GenServer": 2,
+          "IO.ANSI": 2,
+          "Application": 2,
+          "LearntList.Api.LearntItem": 2,
+          "LearntListWeb.Gettext": 2,
+          "Phoenix.HTML": 2,
+          "Display.": 1,
+          "Supervisor.Spec": 1,
+          "ExUnit.Assertions": 1,
+          "Integer": 1,
+          "environment": 1,
+          "#{Mix.env()}.exs": 1,
+          "prod.secret.exs": 1,
+          "LearntList.Api.Wikipedia": 1,
+          "Ecto.Query": 1,
+          "LearntList.Repo": 1,
+          "Ecto.Schema": 1,
+          "Ecto.Changeset": 1,
+          "HTTPoison.Base": 1,
+          "Ecto.Repo": 1,
+          "convenience": 1,
+          "LearntListWeb.Router.Helpers": 1,
+          "LearntListWeb.ErrorHelpers": 1,
+          "basic": 1,
+          "Phoenix.Controller": 1,
+          "Phoenix.Channel": 1,
+          "Phoenix.Router": 1,
+          "Plug.Conn": 1,
+          "Phoenix.View": 1,
+          "shared": 1,
+          "Phoenix.Socket": 1,
+          "LearntList.Api": 1,
+          "Phoenix.Endpoint": 1,
+          "Gettext": 1,
+          "Phoenix.LiveDashboard.Router": 1,
+          "Telemetry.Metrics": 1,
+          "Supervisor": 1,
+          "LearntListWeb.LearntItemView": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 25,
+        "packages": {
+          "fs": 8,
+          "path": 5,
+          "vue": 5,
+          "vitest": 4,
+          "glob": 3,
+          "cypress": 2,
+          "npm-shrinkwrap": 2,
+          "time-grunt": 2,
+          "load-grunt-tasks": 2,
+          "markdown-it": 2,
+          "btoa": 2,
+          "vite": 2,
+          "node:url": 2,
+          "phoenix": 2,
+          "eslint-plugin-astro": 1,
+          "1.6.0": 1,
+          "tailwindcss": 1,
+          "vitejs": 1,
+          "phoenix_html": 1,
+          "optimize-css-assets-webpack-plugin": 1,
+          "mini-css-extract-plugin": 1,
+          "copy-webpack-plugin": 1,
+          "terser-webpack-plugin": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 1,
+        "packages": {
+          "com.example": 1,
+          "io.flutter": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 2,
+        "packages": {
+          "lazy": 1,
+          "lazyvim.util": 1,
+          "typescript": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 24,
+        "packages": {
+          "flask": 9,
+          "os": 6,
+          "pytest": 5,
+          "werkzeug": 3,
+          "subprocess": 2,
+          "json": 2,
+          "TestApp": 2,
+          "webtest": 2,
+          "Flask": 2,
+          "flask_assets": 2,
+          "Bundle": 2,
+          "sys": 2,
+          "flask_login": 2,
+          "SQLAlchemy": 2,
+          "flask_wtf": 2,
+          "logging": 2,
+          "luigi": 1,
+          "urllib": 1,
+          "helpers": 1,
+          "urlopen": 1,
+          "Image": 1,
+          "segno": 1,
+          "PIL": 1,
+          "requirements": 1,
+          "webbrowser": 1,
+          "shutil": 1,
+          "task": 1,
+          "invoke": 1,
+          "get_debug_flag": 1,
+          "PostGenerationMethodCall": 1,
+          "SQLAlchemyModelFactory": 1,
+          "factory": 1,
+          "url_for": 1,
+          "datetime": 1,
+          "call": 1,
+          "with_appcontext": 1,
+          "current_app": 1,
+          "glob": 1,
+          "MethodNotAllowed": 1,
+          "click": 1,
+          "flask_caching": 1,
+          "Cache": 1,
+          "LoginManager": 1,
+          "DebugToolbarExtension": 1,
+          "Bcrypt": 1,
+          "flask_debugtoolbar": 1,
+          "flask_bcrypt": 1,
+          "flask_sqlalchemy": 1,
+          "CSRFProtect": 1,
+          "flask_migrate": 1,
+          "Migrate": 1,
+          "Form": 1,
+          "DataRequired": 1,
+          "PasswordField": 1,
+          "wtforms": 1,
+          "Blueprint": 1,
+          "login_required": 1,
+          "setuptools": 1,
+          "test": 1,
+          "setup": 1,
+          "ProxyFix": 1,
+          "Babel": 1,
+          "Manager": 1,
+          "ManageAssets": 1,
+          "UserMixin": 1,
+          "sqlalchemy": 1,
+          "generate_password_hash": 1,
+          "*": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 33,
+        "packages": {
+          "Web::Action": 10,
+          "Web::View": 8,
+          "Oauthable": 4,
+          "uri": 2,
+          "ActionView::Helpers::TextHelper": 2,
+          "hanami/assets": 1,
+          "Web::Authentication": 1,
+          "Hanami::Helpers": 1,
+          "Web::Assets::Helpers": 1,
+          "hanami/helpers": 1,
+          "Web::Layout": 1,
+          "hanami/setup": 1,
+          "bundler/setup": 1,
+          "hanami/model": 1,
+          "json_with_indifferent_access": 1,
+          "this": 1,
+          "Enumerable": 1,
+          "logger": 1,
+          "LongRunnable": 1,
+          "typhoeus/adapters/faraday": 1,
+          "faraday_middleware": 1,
+          "faraday": 1,
+          "SortableTable": 1,
+          "DotHelper": 1,
+          "active_support/concern": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 1,
+        "packages": {
+          "Flutter": 1,
+          "UIKit": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "yuhonas/beerclub-hanami",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "yuhonas/clintp.xyz",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "yuhonas/cookiecutter-flask",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "yuhonas/cookiecutter-flask-boilerplate",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "yuhonas/dotfiles",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "Lua"
+        ]
+      },
+      {
+        "repository": "yuhonas/elixir-koans",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "yuhonas/free-exercise-db",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "yuhonas/huginn",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "yuhonas/learntlist-elixir",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "yuhonas/learntlist-mobile",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "yuhonas/learntlist.com",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "username": "hamaco",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 3.566666666666667,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.6153846153846154,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.4230769230769231
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6038461538461539,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        19815,
+        437
+      ],
+      "PHP": [
+        64492,
+        124
+      ],
+      "JavaScript": [
+        25547,
+        23
+      ],
+      "CSS": [
+        530,
+        4
+      ],
+      "Shell": [
+        30259,
+        125
+      ],
+      "Perl": [
+        89,
+        0
+      ],
+      "Lua": [
+        65,
+        24
+      ],
+      "Vim Snippet": [
+        403742,
+        1625
+      ],
+      "Vim Script": [
+        56521,
+        240
+      ],
+      "CoffeeScript": [
+        2746,
+        11
+      ],
+      "Makefile": [
+        2665,
+        10
+      ],
+      "TypeScript": [
+        1979,
+        7
+      ],
+      "HTML": [
+        53436,
+        59
+      ],
+      "C": [
+        79,
+        0
+      ],
+      "C++": [
+        78,
+        0
+      ],
+      "Emacs Lisp": [
+        415,
+        32
+      ],
+      "Objective-C": [
+        5,
+        0
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 2721,
+    "total_lines": 662463,
+    "top_5_languages": [
+      {
+        "language": "Vim Snippet",
+        "lines": 403742,
+        "commits": 1625
+      },
+      {
+        "language": "Ruby",
+        "lines": 19815,
+        "commits": 437
+      },
+      {
+        "language": "Vim Script",
+        "lines": 56521,
+        "commits": 240
+      },
+      {
+        "language": "Shell",
+        "lines": 30259,
+        "commits": 125
+      },
+      {
+        "language": "PHP",
+        "lines": 64492,
+        "commits": 124
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "hamaco",
+    "analysis_date": "2026-02-19T07:09:22.828766",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 109,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 23,
+        "packages": {
+          "shCore": 23,
+          "undefined": 23,
+          "color3": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 3,
+        "packages": {
+          "Config": 1,
+          "Redmine::MenuManager::MenuController": 1,
+          "emoji_convert.php": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 2,
+        "packages": {
+          "homebrew": 1,
+          "macapps::slate": 1,
+          "macapps::scroll_reverser": 1,
+          "macapps::kobito": 1,
+          "macapps::fluid": 1,
+          "macapps::iterm2": 1,
+          "macapps::istat_menus": 1,
+          "macapps::keyremap4macbook": 1,
+          "macapps::pckeyboardhack": 1,
+          "macapps::omnifocus": 1,
+          "macapps::simplecap": 1,
+          "macapps::sourcetree": 1,
+          "macapps::skype": 1,
+          "macapps::virtualbox": 1,
+          "macapps::firefox": 1,
+          "macapps::chrome": 1,
+          "macapps::transmit": 1,
+          "macapps::clipmenu": 1,
+          "macapps::sequel_pro": 1,
+          "macapps::archiver": 1,
+          "macapps::vagrant": 1,
+          "macapps::1password": 1,
+          "macapps::alfred": 1,
+          "macapps::bettertouchtool": 1,
+          "macapps::chrome_canary": 1,
+          "macapps::horst": 1,
+          "macapps::hyperswitch": 1,
+          "macapps::dropbox": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "hamaco/candycane",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "hamaco/candycane-emoji",
+        "files_analyzed": 5,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "hamaco/candycane-repository-browser",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "hamaco/chef-hamacbook",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "username": "ascarter",
+  "areas": {
+    "OSS": {
+      "score": 0.7086183310533516,
+      "details": {
+        "issue_resolution_rate": 0.6511627906976745,
+        "pr_merge_rate": 0.9117647058823529,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.46153846153846145,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.19230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.8,
+      "details": {
+        "ascarter/ascarter.github.io": 0.0028200000000000005,
+        "ascarter/capistrano-boss": 0.4281,
+        "ascarter/Go-bbpackage": 0.38211388888888886,
+        "ascarter/vim-markdown": 0.8172,
+        "ascarter/zed": -0.1806
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6925391981479533,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CSS": [
+        7705,
+        96
+      ],
+      "Ruby": [
+        8179,
+        129
+      ],
+      "HTML": [
+        2316,
+        28
+      ],
+      "Makefile": [
+        1574,
+        15
+      ],
+      "Dockerfile": [
+        118,
+        1
+      ],
+      "Shell": [
+        35348,
+        164
+      ],
+      "Python": [
+        1681,
+        9
+      ],
+      "Perl": [
+        1322,
+        7
+      ],
+      "AppleScript": [
+        713,
+        3
+      ],
+      "C": [
+        408,
+        1
+      ],
+      "JavaScript": [
+        17,
+        0
+      ],
+      "PHP": [
+        45,
+        1
+      ],
+      "Go": [
+        16015,
+        111
+      ],
+      "C++": [
+        4588,
+        2
+      ],
+      "Vim Script": [
+        59129,
+        53
+      ],
+      "Objective-C": [
+        74,
+        1
+      ],
+      "Just": [
+        9348,
+        35
+      ],
+      "Rust": [
+        3653,
+        12
+      ],
+      "Emacs Lisp": [
+        50,
+        1
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 669,
+    "total_lines": 152283,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 35348,
+        "commits": 164
+      },
+      {
+        "language": "Ruby",
+        "lines": 8179,
+        "commits": 129
+      },
+      {
+        "language": "Go",
+        "lines": 16015,
+        "commits": 111
+      },
+      {
+        "language": "CSS",
+        "lines": 7705,
+        "commits": 96
+      },
+      {
+        "language": "Vim Script",
+        "lines": 59129,
+        "commits": 53
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ascarter",
+    "analysis_date": "2026-02-19T05:09:50.516863",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 129,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "#file##insertion#h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 14,
+        "packages": {
+          "time": 9,
+          "github.com/dapr/dapr/pkg/logger": 6,
+          "github.com/dapr/dapr/pkg/health": 5,
+          "github.com/dapr/dapr/pkg/version": 4,
+          "github.com/dapr/dapr/pkg/metrics": 4,
+          "flag": 4,
+          "net/http": 3,
+          "testing": 3,
+          "fmt": 3,
+          "os": 3,
+          "strings": 3,
+          "github.com/dapr/components-contrib/state": 3,
+          "os/signal": 3,
+          "github.com/dapr/dapr/pkg/signals": 3,
+          "github.com/dapr/dapr/pkg/credentials": 3,
+          "context": 3,
+          "sync": 3,
+          "syscall": 2,
+          "github.com/dapr/dapr/utils": 2,
+          "github.com/dapr/dapr/pkg/fswatcher": 2,
+          "github.com/dapr/dapr/pkg/placement": 2,
+          "github.com/stretchr/testify/assert": 2,
+          "encoding/json": 2,
+          "github.com/dapr/dapr/pkg/config": 2,
+          "io/ioutil": 1,
+          "net/http/httptest": 1,
+          "html": 1,
+          "github.com/ascarter/conductor": 1,
+          "log": 1,
+          "github.com/dapr/components-contrib/state/memcached": 1,
+          "github.com/dapr/components-contrib/state/cassandra": 1,
+          "github.com/dapr/components-contrib/state/cloudstate": 1,
+          "github.com/dapr/components-contrib/bindings/azure/eventhubs": 1,
+          "github.com/dapr/components-contrib/state/gcp/firestore": 1,
+          "github.com/dapr/components-contrib/pubsub/nats": 1,
+          "github.com/dapr/components-contrib/state/hashicorp/consul": 1,
+          "github.com/dapr/components-contrib/secretstores/aws/secretmanager": 1,
+          "github.com/dapr/components-contrib/bindings/azure/servicebusqueues": 1,
+          "github.com/dapr/components-contrib/bindings/redis": 1,
+          "github.com/dapr/components-contrib/middleware/http/ratelimit": 1,
+          "github.com/dapr/components-contrib/state/sqlserver": 1,
+          "github.com/dapr/components-contrib/secretstores": 1,
+          "github.com/dapr/components-contrib/bindings/azure/eventgrid": 1,
+          "github.com/dapr/components-contrib/bindings/aws/dynamodb": 1,
+          "github.com/dapr/components-contrib/exporters/native": 1,
+          "github.com/dapr/components-contrib/state/etcd": 1,
+          "github.com/dapr/components-contrib/bindings": 1,
+          "github.com/dapr/components-contrib/bindings/http": 1,
+          "github.com/dapr/components-contrib/pubsub/azure/servicebus": 1,
+          "github.com/dapr/components-contrib/state/mongodb": 1,
+          "github.com/dapr/components-contrib/bindings/gcp/bucket": 1,
+          "github.com/dapr/components-contrib/secretstores/hashicorp/vault": 1,
+          "github.com/valyala/fasthttp": 1,
+          "github.com/dapr/components-contrib/secretstores/azure/keyvault": 1,
+          "github.com/dapr/components-contrib/state/hazelcast": 1,
+          "github.com/dapr/components-contrib/bindings/aws/sns": 1,
+          "github.com/dapr/components-contrib/bindings/kafka": 1,
+          "github.com/dapr/components-contrib/servicediscovery": 1,
+          "github.com/dapr/components-contrib/bindings/azure/signalr": 1,
+          "github.com/dapr/components-contrib/bindings/gcp/pubsub": 1,
+          "github.com/dapr/components-contrib/bindings/twilio/sms": 1,
+          "github.com/dapr/components-contrib/bindings/azure/blobstorage": 1,
+          "github.com/dapr/components-contrib/middleware/http/oauth2": 1,
+          "github.com/dapr/components-contrib/bindings/aws/kinesis": 1,
+          "github.com/dapr/components-contrib/middleware/http/bearer": 1,
+          "github.com/dapr/components-contrib/state/zookeeper": 1,
+          "github.com/dapr/components-contrib/exporters": 1,
+          "github.com/dapr/dapr/pkg/runtime": 1,
+          "github.com/dapr/components-contrib/bindings/aws/s3": 1,
+          "github.com/dapr/components-contrib/bindings/kubernetes": 1,
+          "github.com/dapr/components-contrib/bindings/azure/storagequeues": 1,
+          "github.com/dapr/components-contrib/exporters/stringexporter": 1,
+          "github.com/dapr/components-contrib/bindings/twilio/sendgrid": 1,
+          "github.com/dapr/components-contrib/pubsub/rabbitmq": 1,
+          "github.com/dapr/components-contrib/bindings/twitter": 1,
+          "github.com/dapr/components-contrib/state/aerospike": 1,
+          "github.com/dapr/components-contrib/bindings/aws/sqs": 1,
+          "github.com/dapr/components-contrib/exporters/zipkin": 1,
+          "github.com/dapr/components-contrib/servicediscovery/mdns": 1,
+          "github.com/dapr/components-contrib/state/couchbase": 1,
+          "github.com/dapr/components-contrib/bindings/mqtt": 1,
+          "github.com/dapr/dapr/pkg/injector": 1,
+          "github.com/dapr/dapr/pkg/injector/monitoring": 1,
+          "k8s.io/klog": 1,
+          "github.com/dapr/dapr/pkg/operator": 1,
+          "github.com/dapr/dapr/pkg/operator/monitoring": 1,
+          "github.com/dapr/dapr/pkg/placement/monitoring": 1,
+          "path/filepath": 1,
+          "github.com/dapr/dapr/pkg/sentry": 1,
+          "github.com/dapr/dapr/pkg/sentry/monitoring": 1,
+          "github.com/dapr/dapr/pkg/sentry/config": 1,
+          "sync/atomic": 1,
+          "github.com/dapr/dapr/pkg/runtime/security": 1,
+          "errors": 1,
+          "github.com/mitchellh/mapstructure": 1,
+          "google.golang.org/grpc/metadata": 1,
+          "github.com/dapr/dapr/pkg/retry": 1,
+          "github.com/dapr/dapr/pkg/channel": 1,
+          "google.golang.org/grpc/codes": 1,
+          "google.golang.org/grpc/status": 1,
+          "google.golang.org/grpc": 1,
+          "strconv": 1,
+          "github.com/stretchr/testify/mock": 1,
+          "InvokeMethod": 1,
+          "github.com/dapr/dapr/pkg/apis/components": 1,
+          "k8s.io/apimachinery/pkg/runtime": 1,
+          "k8s.io/apimachinery/pkg/runtime/schema": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 12,
+        "packages": {
+          "constants": 10,
+          "globals": 5,
+          "CoreLibs/graphics": 3,
+          "CoreLibs/object": 3,
+          "utils": 3,
+          "sounds": 2,
+          "CoreLibs/sprites": 1,
+          "CoreLibs/crank": 1,
+          "menu": 1,
+          "themeManager": 1,
+          "images": 1,
+          "effects/sash": 1,
+          "CoreLibs/timer": 1,
+          "pieces": 1,
+          "effects/endline": 1,
+          "effects/clearline": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 1,
+        "packages": {
+          "strict": 1,
+          "Getopt::Long": 1,
+          "MT": 1,
+          "5": 1,
+          "vars": 1,
+          "5.006_000": 1,
+          "Digest::MD5": 1,
+          "MT::Template::Context": 1,
+          "MT::Plugin": 1,
+          "HTML": 1,
+          "warnings": 1,
+          "literal": 1,
+          "--": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "os": 2,
+          "sys": 2,
+          "fileinput": 1,
+          "json": 1,
+          "re": 1,
+          "getopt": 1,
+          "jsbeautifier": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 49,
+        "packages": {
+          "fileutils": 4,
+          "rubygems": 4,
+          "cgi": 4,
+          "capistrano/errors": 4,
+          "test/unit": 3,
+          "yaml": 3,
+          "digest": 3,
+          "action_controller": 2,
+          "actionpack": 2,
+          "activeresource": 2,
+          "Enumerable": 2,
+          "spec": 2,
+          "date": 2,
+          "capistrano/configuration": 2,
+          "capistrano/ssh": 2,
+          "capistrano/server_definition": 2,
+          "thread": 2,
+          "socket": 2,
+          "daemon_spawn": 2,
+          "set": 1,
+          "auth-hmac/version": 1,
+          "FileUtils": 1,
+          "req_gem": 1,
+          "Headers": 1,
+          "openssl": 1,
+          "base64": 1,
+          "activesupport": 1,
+          "active_support": 1,
+          "rbconfig": 1,
+          "parsearg_clean": 1,
+          "FileOperations": 1,
+          "setup_dir_data": 1,
+          "clean_dir_data": 1,
+          "distclean_dir_man": 1,
+          "parsearg_distclean": 1,
+          "setup_dir_conf": 1,
+          "parsearg_show": 1,
+          "distclean_dir_lib": 1,
+          "distclean_dir_bin": 1,
+          "config_dir_lib": 1,
+          "clean_dir_lib": 1,
+          "clean_dir_bin": 1,
+          "setup_dir_lib": 1,
+          "clean_dir_man": 1,
+          "config": 1,
+          "map": 1,
+          "setup_dir_man": 1,
+          "distclean_dir_conf": 1,
+          "config_dir_data": 1,
+          "distclean_dir_data": 1,
+          "help_default": 1,
+          "config_dir_bin": 1,
+          "parsearg_setup": 1,
+          "parsearg_test": 1,
+          "config_dir_man": 1,
+          "clean_dir_conf": 1,
+          "HookScriptAPI": 1,
+          "config_dir_conf": 1,
+          "action_controller/test_process": 1,
+          "time": 1,
+          "net/http": 1,
+          "active_resource": 1,
+          "active_resource/http_mock": 1,
+          "rspec": 1,
+          "auth-hmac": 1,
+          "json": 1,
+          "uri": 1,
+          "capistrano/extensions": 1,
+          "Help": 1,
+          "capistrano": 1,
+          "Execute": 1,
+          "capistrano/cli/ui": 1,
+          "capistrano/cli/execute": 1,
+          "capistrano/cli/help": 1,
+          "capistrano/cli/options": 1,
+          "optparse": 1,
+          "capistrano/version": 1,
+          "highline": 1,
+          "capistrano/configuration/actions/inspect": 1,
+          "Actions::FileTransfer": 1,
+          "capistrano/configuration/actions/invocation": 1,
+          "capistrano/configuration/servers": 1,
+          "capistrano/configuration/execution": 1,
+          "defer": 1,
+          "capistrano/configuration/callbacks": 1,
+          "capistrano/configuration/connections": 1,
+          "capistrano/configuration/variables": 1,
+          "capistrano/configuration/actions/file_transfer": 1,
+          "capistrano/logger": 1,
+          "Callbacks": 1,
+          "capistrano/configuration/loading": 1,
+          "capistrano/configuration/roles": 1,
+          "Connections": 1,
+          "capistrano/configuration/namespaces": 1,
+          "capistrano/upload": 1,
+          "capistrano/command": 1,
+          "capistrano/callback": 1,
+          "enumerator": 1,
+          "capistrano/gateway": 1,
+          "capistrano/task_definition": 1,
+          "Capistrano::Configuration::Namespaces": 1,
+          "capistrano/role": 1,
+          ":[]=": 1,
+          "fastthread": 1,
+          "erb": 1,
+          "capistrano/recipes/deploy/strategy": 1,
+          "capistrano/recipes/deploy/scm": 1,
+          "capistrano/recipes/deploy/local_dependency": 1,
+          "capistrano/recipes/deploy/remote_dependency": 1,
+          "capistrano_boss/channel": 1,
+          "extensions": 1,
+          "CapistranoBoss::Log": 1,
+          "capistrano_boss/extensions": 1,
+          "capistrano_boss/database": 1,
+          "capistrano_boss/log": 1,
+          "capistrano_boss/database/mysql.rb": 1,
+          "capistrano_boss/extensions/subversion": 1,
+          "capistrano/recipes/deploy/scm/base": 1,
+          "capistrano-boss": 1,
+          "spec/autorun": 1,
+          "tempfile": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ascarter/ascarter.github.io",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ascarter/auth-hmac",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ascarter/BBEdit-ApplicationSupport",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Perl",
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ascarter/BBEditSupport",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ascarter/BBTools",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ascarter/BlockDate",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "ascarter/capistrano",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ascarter/capistrano-boss",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ascarter/conductor",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ascarter/daemon-spawn",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ascarter/dapr",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

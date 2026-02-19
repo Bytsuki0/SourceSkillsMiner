@@ -1,0 +1,521 @@
+{
+  "username": "brycethornton",
+  "areas": {
+    "OSS": {
+      "score": 0.6654397946906303,
+      "details": {
+        "issue_resolution_rate": 0.9411764705882353,
+        "pr_merge_rate": 0.6,
+        "commits_activity": 0.9569832214477102
+      }
+    },
+    "Status": {
+      "score": 0.3236080664126355,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9277197919266457,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.3972619652758165,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Crystal": [
+        3,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "Vim Script": [
+        108575,
+        81
+      ],
+      "C": [
+        1202,
+        0
+      ],
+      "Ruby": [
+        4454,
+        48
+      ],
+      "Python": [
+        465,
+        9
+      ],
+      "HTML": [
+        36,
+        2
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 140,
+    "total_lines": 114735,
+    "top_5_languages": [
+      {
+        "language": "Vim Script",
+        "lines": 108575,
+        "commits": 81
+      },
+      {
+        "language": "Ruby",
+        "lines": 4454,
+        "commits": 48
+      },
+      {
+        "language": "Python",
+        "lines": 465,
+        "commits": 9
+      },
+      {
+        "language": "HTML",
+        "lines": 36,
+        "commits": 2
+      },
+      {
+        "language": "Crystal",
+        "lines": 3,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "brycethornton",
+    "analysis_date": "2026-02-19T03:04:45.439438",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 157,
+    "languages": {
+      "C": {
+        "files_scanned": 3,
+        "packages": {
+          "<stdlib.h>": 3,
+          "stdio.h": 3,
+          "<string.h>": 3,
+          "<errno.h>": 3,
+          "stddef.h": 3,
+          "<stddef.h>": 3,
+          "stdlib.h": 3,
+          "string.h": 3,
+          "<stdio.h>": 3,
+          "errno.h": 3,
+          "<fcntl.h>": 2,
+          "vimstack.c": 2,
+          "fcntl.h": 2,
+          "netinet/in.h": 1,
+          "sys/socket.h": 1,
+          "<sys/socket.h>": 1,
+          "<netinet/in.h>": 1,
+          "<libutil.h>": 1,
+          "<util.h>": 1,
+          "libutil.h": 1,
+          "sys/wait.h": 1,
+          "poll.h": 1,
+          "<unistd.h>": 1,
+          "<sys/wait.h>": 1,
+          "<signal.h>": 1,
+          "sys/types.h": 1,
+          "unistd.h": 1,
+          "signal.h": 1,
+          "util.h": 1,
+          "sys/ioctl.h": 1,
+          "<sys/types.h>": 1,
+          "termios.h": 1,
+          "pty.h": 1,
+          "<dlfcn.h>": 1,
+          "<poll.h>": 1,
+          "fakepoll.h": 1,
+          "<sys/ioctl.h>": 1,
+          "<termios.h>": 1,
+          "netdb.h": 1,
+          "<pty.h>": 1,
+          "<netdb.h>": 1,
+          "dlfcn.h": 1,
+          "winsock2.h": 1,
+          "windows.h": 1,
+          "<windows.h>": 1,
+          "io.h": 1,
+          "<winsock2.h>": 1,
+          "<io.h>": 1,
+          "<stdarg.h>": 1,
+          "stdarg.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "stdlib.h": 1,
+          "sys/types.h": 1,
+          "<stdlib.h>": 1,
+          "unistd.h": 1,
+          "<sys/types.h>": 1,
+          "<unistd.h>": 1,
+          "limits.h": 1,
+          "sys/time.h": 1,
+          "<limits.h>": 1,
+          "<sys/time.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "laravel-elixir": 1,
+          "laravel-elixir-vue-2": 1,
+          ");else{var": 1,
+          "i=n.length;a<i;a++)e.style[r]=n[a];else": 1,
+          "Oo=[": 1,
+          "undefined": 1,
+          "function": 1,
+          "default": 1,
+          "__p": 1,
+          "object": 1,
+          "vue": 1,
+          "moment": 1,
+          "axios": 1,
+          "lodash": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 9,
+        "packages": {
+          "Illuminate\\Database\\Schema\\Blueprint": 5,
+          "Illuminate\\Support\\Facades\\Schema": 5,
+          "Illuminate\\Database\\Migrations\\Migration": 5,
+          "Illuminate\\Console\\Command": 2,
+          "totem::partials.footer": 1,
+          "totem::partials.alerts": 1,
+          "totem::partials.sidebar": 1,
+          "totem::dialogs.frequencies.add": 1,
+          "Carbon\\Carbon": 1,
+          "Cron\\CronExpression": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 51,
+        "packages": {
+          "typing": 34,
+          "asyncio": 23,
+          "datetime": 17,
+          "Dict": 16,
+          "json": 15,
+          "mockfirestore": 14,
+          "dataclasses": 12,
+          "os": 11,
+          "logging": 11,
+          "dataclass": 10,
+          "enum": 10,
+          "Enum": 10,
+          "Any": 9,
+          "decimal": 8,
+          "Decimal": 8,
+          "unittest": 8,
+          "MockFirestore": 7,
+          "re": 6,
+          "sys": 6,
+          "logger": 6,
+          "loguru": 6,
+          "time": 6,
+          "aiohttp": 5,
+          "TestCase": 5,
+          "pydantic": 4,
+          "fantasy_football_multi_league": 4,
+          "src": 4,
+          "numpy": 4,
+          "hashlib": 4,
+          "Settings": 4,
+          "config": 4,
+          "threading": 4,
+          "random": 4,
+          "functools": 4,
+          "growthbook": 4,
+          "DocumentReference": 4,
+          "pathlib": 3,
+          "Path": 3,
+          "collections": 3,
+          "Iterable": 3,
+          "ABC": 3,
+          "abc": 3,
+          "BaseModel": 3,
+          "concurrent": 3,
+          "warnings": 3,
+          "pytest": 3,
+          "Query": 3,
+          "CollectionReference": 3,
+          "Optional": 2,
+          "call_tool": 2,
+          "traceback": 2,
+          "Player": 2,
+          "List": 2,
+          "mcp": 2,
+          "parse_team_roster": 2,
+          "asdict": 2,
+          "annotations": 2,
+          "__future__": 2,
+          "sleeper_api": 2,
+          "sleeper_client": 2,
+          "scipy": 2,
+          "math": 2,
+          "statistics": 2,
+          "ProcessPoolExecutor": 2,
+          "partial": 2,
+          "itertools": 2,
+          "base64": 2,
+          "asynccontextmanager": 2,
+          "urllib": 2,
+          "contextlib": 2,
+          "TypedDict": 2,
+          "typing_extensions": 2,
+          "setuptools": 2,
+          "Timestamp": 2,
+          "DocumentSnapshot": 2,
+          "Transaction": 2,
+          "google": 2,
+          "reduce": 2,
+          "operator": 2,
+          "generate_random_string": 2,
+          "NotFound": 2,
+          "Field": 1,
+          "pydantic_settings": 1,
+          "BaseSettings": 1,
+          "setup_development_config": 1,
+          "the": 1,
+          "LineupConstraints": 1,
+          "FantasyFootballAssistant": 1,
+          "stdio_server": 1,
+          "all": 1,
+          "Server": 1,
+          "get_bye_week_with_fallback": 1,
+          "dotenv": 1,
+          "rate": 1,
+          "rate_limiter": 1,
+          "analyze_reddit_sentiment": 1,
+          "extracted": 1,
+          "bye": 1,
+          "TextContent": 1,
+          "get_access_token": 1,
+          "load_dotenv": 1,
+          "Yahoo": 1,
+          "ContentBlock": 1,
+          "expert": 1,
+          "enhanced": 1,
+          "fastmcp": 1,
+          "Context": 1,
+          "tiers": 1,
+          "Sleeper": 1,
+          "projection": 1,
+          "enhance_player_with_context": 1,
+          "get_current_season": 1,
+          "get_player_projection": 1,
+          "matchup_analyzer": 1,
+          "ResponseCache": 1,
+          "difflib": 1,
+          "caching": 1,
+          "MatchupAnalyzer": 1,
+          "pickle": 1,
+          "OrderedDict": 1,
+          "SimpleMemoryCache": 1,
+          "PickleSerializer": 1,
+          "fnmatch": 1,
+          "aiocache": 1,
+          "YahooFantasySportsQuery": 1,
+          "Game": 1,
+          "yfpy": 1,
+          "models": 1,
+          "multi-factor": 1,
+          "comb": 1,
+          "textblob": 1,
+          "TextBlob": 1,
+          "prawcore": 1,
+          "with": 1,
+          "defaultdict": 1,
+          "ThreadPoolExecutor": 1,
+          "praw": 1,
+          "seasonal_decompose": 1,
+          "StandardScaler": 1,
+          "statsmodels": 1,
+          "cross_val_score": 1,
+          "stats": 1,
+          "LinearRegression": 1,
+          "sklearn": 1,
+          "mean_squared_error": 1,
+          "RandomForestRegressor": 1,
+          "pandas": 1,
+          "ARIMA": 1,
+          "norm": 1,
+          "BaseHTTPRequestHandler": 1,
+          "webbrowser": 1,
+          "http": 1,
+          "secrets": 1,
+          "urlencode": 1,
+          "urlparse": 1,
+          "Callable": 1,
+          "urllib3": 1,
+          "PoolManager": 1,
+          "ClientConnectorError": 1,
+          "Cipher": 1,
+          "cryptography": 1,
+          "b64decode": 1,
+          "padding": 1,
+          "Set": 1,
+          "FeatureRepository": 1,
+          "async_generator": 1,
+          "path": 1,
+          "setup": 1,
+          "EnhancedFeatureRepository": 1,
+          "patch": 1,
+          "MagicMock": 1,
+          "AsyncMock": 1,
+          "InMemoryStickyBucketService": 1,
+          "Experiment": 1,
+          "ClientError": 1,
+          "string": 1,
+          "WriteBatch": 1,
+          "AlreadyExists": 1,
+          "copy": 1,
+          "deepcopy": 1,
+          "T": 1,
+          "Iterator": 1,
+          "islice": 1,
+          "get_by_path": 1,
+          "firestore": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 15,
+        "packages": {
+          "pg": 3,
+          "rubygems": 2,
+          "json": 2,
+          "pg_query": 2,
+          "rebalance/account": 2,
+          "rebalance/target": 2,
+          "rebalance/rebalancer": 2,
+          "rebalance/fund": 2,
+          "fileutils": 1,
+          "gitback/repository": 1,
+          "Grit": 1,
+          "grit": 1,
+          "gitback": 1,
+          "test/unit": 1,
+          "helper": 1,
+          "pg_online_schema_change/version": 1,
+          "pg_online_schema_change/orchestrate": 1,
+          "ougai": 1,
+          "pg_online_schema_change/cli": 1,
+          "pg_online_schema_change/helper": 1,
+          "pg_online_schema_change/functions": 1,
+          "pg_online_schema_change/replay": 1,
+          "pg_online_schema_change/query": 1,
+          "pg_online_schema_change/client": 1,
+          "pg_online_schema_change/store": 1,
+          "thor": 1,
+          "securerandom": 1,
+          "pry": 1,
+          "pg_online_schema_change": 1,
+          "open-uri": 1,
+          "ruport": 1,
+          "vcr": 1,
+          "minitest/autorun": 1,
+          "sinatra": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "brycethornton/bringing-vim-to-the-people",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "brycethornton/fantasy-football-mcp-public",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "brycethornton/gitback",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "brycethornton/growthbook-python",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "brycethornton/laravel-totem",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "brycethornton/pg-osc",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "brycethornton/python-mock-firestore",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "brycethornton/rebalance",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "brycethornton/wedding",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

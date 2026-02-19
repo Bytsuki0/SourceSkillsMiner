@@ -1,0 +1,364 @@
+{
+  "username": "glhaynes",
+  "areas": {
+    "OSS": {
+      "score": 0.18407919110965576,
+      "details": {
+        "issue_resolution_rate": 0.42857142857142855,
+        "pr_merge_rate": 0.6666666666666666,
+        "commits_activity": 0.6808806914263886
+      }
+    },
+    "Status": {
+      "score": 0.16643918411386815,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6535049300169562,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.08762959380588098,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        48660,
+        20
+      ],
+      "C": [
+        21956,
+        7
+      ],
+      "Objective-C": [
+        305,
+        1
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 28,
+    "total_lines": 70921,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 48660,
+        "commits": 20
+      },
+      {
+        "language": "C",
+        "lines": 21956,
+        "commits": 7
+      },
+      {
+        "language": "Objective-C",
+        "lines": 305,
+        "commits": 1
+      },
+      {
+        "language": "Ruby",
+        "lines": 0,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 0,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "glhaynes",
+    "analysis_date": "2026-02-19T01:43:41.058079",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 247,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 34,
+        "packages": {
+          "<Foundation/Foundation.h>": 15,
+          "<UIKit/UIKit.h>": 13,
+          "<GLKit/GLKMath.h>": 6,
+          "COLLADAResource.h": 4,
+          "AGLKEffect.h": 1,
+          "AGLKMesh.h": 1,
+          "AGLKAxisAllignedBoundingBox.h": 1,
+          "AGLKView.h": 1,
+          "md5.h": 1,
+          "COLLADAInstance.h": 1,
+          "COLLADAParser.h": 1,
+          "<DropboxSDK/DBMetadata.h>": 1,
+          "<DropboxSDK/DropboxSDK.h>": 1,
+          "WDImportController.h": 1,
+          "WDHelpController.h": 1,
+          "<MessageUI/MFMailComposeViewController.h>": 1,
+          "WDSamplesController.h": 1,
+          "<QuartzCore/QuartzCore.h>": 1,
+          "QSPlatform.h": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 2,
+        "packages": {
+          "telescope.themes": 1,
+          "mason-lspconfig": 1,
+          "telescope": 1,
+          "lazy": 1,
+          "conform": 1,
+          "mini.ai": 1,
+          "mason-tool-installer": 1,
+          "tokyonight": 1,
+          "mini.surround": 1,
+          "🌙": 1,
+          "lspconfig": 1,
+          "=": 1,
+          "mason-nvim-dap": 1,
+          "dap": 1,
+          "dapui": 1,
+          "dap-go": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 44,
+        "packages": {
+          "COLLADARoot.h": 5,
+          "GLKit/GLKit.h": 4,
+          "<GLKit/GLKit.h>": 4,
+          "AGLKMesh.h": 4,
+          "WDUtilities.h": 4,
+          "WDActivity.h": 4,
+          "WDInspectableProperties.h": 4,
+          "UIView+Additions.h": 3,
+          "WDActivityManager.h": 3,
+          "WDCanvasController.h": 3,
+          "WDPropertyManager.h": 3,
+          "WDDrawingController.h": 3,
+          "COLLADAEffect.h": 2,
+          "COLLADAImagePath.h": 2,
+          "COLLADAResource.h": 2,
+          "COLLADAInstance.h": 2,
+          "COLLADAMeshGeometry.h": 2,
+          "UIBarButtonItem+Additions.h": 2,
+          "WDActivityController.h": 2,
+          "WDColor.h": 2,
+          "WDDrawing.h": 2,
+          "WDAppDelegate.h": 2,
+          "WDDrawingManager.h": 2,
+          "WDFontManager.h": 2,
+          "WDBrowserController.h": 2,
+          "WDArrowheadCell.h": 2,
+          "WDArrowhead.h": 2,
+          "WDBlockingView.h": 2,
+          "NSString+QSKit.h": 2,
+          "NSData+QSKit.h": 2,
+          "AGLKBaseEffect.h": 1,
+          "AGLKEffect.h": 1,
+          "AGLKMesh+viewAdditions.h": 1,
+          "AGLKModel.h": 1,
+          "<OpenGL/gl.h>": 1,
+          "OpenGL/gl.h": 1,
+          "AGLKView.h": 1,
+          "AGLKViewController.h": 1,
+          "COLLADAInstanceGeometry.h": 1,
+          "COLLADANode.h": 1,
+          "COLLADAParser+geometry.h": 1,
+          "OpenGL/gl3.h": 1,
+          "<OpenGL/gl3.h>": 1,
+          "AppDelegate.h": 1,
+          "DBMetadata+Additions.h": 1,
+          "WDProgressView.h": 1,
+          "WDAnglePicker.h": 1,
+          "WDGradient.h": 1,
+          "WDArrowController.h": 1,
+          "WDBlendModeController.h": 1,
+          "WDdrawingController.h": 1,
+          "WDDocument.h": 1,
+          "WDFontLibraryController.h": 1,
+          "Import": 1,
+          "Dropbox": 1,
+          "<DropboxSDK/DropboxSDK.h>": 1,
+          "WDThumbnailView.h": 1,
+          "NSData+Additions.h": 1,
+          "WDPageSizeController.h": 1,
+          "WDExportController.h": 1,
+          "WDEmail.h": 1,
+          "DropboxSDK/DropboxSDK.h": 1,
+          "WDButton.h": 1,
+          "WDLayer.h": 1,
+          "WDPalette.h": 1,
+          "WDToolManager.h": 1,
+          "WDToolView.h": 1,
+          "WDRulerView.h": 1,
+          "WDEraserPreviewView.h": 1,
+          "WDSelectionView.h": 1,
+          "WDEyedropper.h": 1,
+          "WDPath.h": 1,
+          "WDCanvas.h": 1,
+          "WDPenTool.h": 1,
+          "QSAppDelegate.h": 1,
+          "NSColor+QSKit.h": 1,
+          "NSView+QSKit.h": 1,
+          "NSArray+QSKit.h": 1,
+          "NSAttributedString+QSKit.h": 1,
+          "<CommonCrypto/CommonDigest.h>": 1,
+          "CommonCrypto/CommonDigest.h": 1,
+          "libkern/OSAtomic.h": 1,
+          "<libkern/OSAtomic.h>": 1,
+          "NSDate+QSKit.h": 1,
+          "NSDictionary+QSKit.h": 1,
+          "NSMutableArray+QSKit.h": 1,
+          "NSMutableDictionary+QSKit.h": 1,
+          "NSMutableSet+QSKit.h": 1,
+          "NSNotificationCenter+QSKit.h": 1,
+          "NSObject+QSKit.h": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 115,
+        "packages": {
+          "SwiftUI": 41,
+          "SIL": 26,
+          "Foundation": 25,
+          "CoreBlackbox": 15,
+          "UIKit": 14,
+          "Anima": 7,
+          "OptimizerBridging": 7,
+          "Combine": 6,
+          "EmbraceCore": 6,
+          "os.log": 5,
+          "Controllers": 4,
+          "CoreGraphics": 4,
+          "PackageDescription": 3,
+          "EmbraceOTel": 2,
+          "BTree": 2,
+          "AppKit": 1,
+          "UniformTypeIdentifiers": 1,
+          "OnscreenController": 1,
+          "Danger": 1,
+          "EmbraceIO": 1,
+          "Charts": 1,
+          "GlueKit": 1,
+          "XCPlayground": 1,
+          "QuartzCore": 1,
+          "proxy:": 1,
+          "Algorithms": 1,
+          "XCTest": 1,
+          "BasicBridging": 1,
+          "=": 1,
+          "operand:": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "glhaynes/Anima",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "glhaynes/Blackbox",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "glhaynes/COLLADAViewer2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "glhaynes/embrace-apple-sdk",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "glhaynes/GlueKit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "glhaynes/Inkpad",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "glhaynes/kickstart.nvim",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "glhaynes/OnscreenController",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "glhaynes/QSKit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "glhaynes/swift",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

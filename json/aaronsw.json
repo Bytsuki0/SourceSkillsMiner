@@ -1,0 +1,624 @@
+{
+  "username": "aaronsw",
+  "areas": {
+    "OSS": {
+      "score": 0.5757575757575757,
+      "details": {
+        "issue_resolution_rate": 0.6363636363636364,
+        "pr_merge_rate": 0.7272727272727273,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.25
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "aaronsw/commentsareclosed": 0.2913888888888889,
+        "aaronsw/html2text": 0.056159183673469386,
+        "aaronsw/htmldiff": 0.032268852459016395,
+        "aaronsw/https-everywhere": -0.02447999999999999,
+        "aaronsw/pytorctl": 0.3195,
+        "aaronsw/sanitize": -0.0772,
+        "aaronsw/tor2web": -0.00656000000000001,
+        "aaronsw/watchdog": -0.100475
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.593939393939394,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        210861,
+        435
+      ],
+      "Ruby": [
+        4,
+        1
+      ],
+      "JavaScript": [
+        5000,
+        48
+      ],
+      "Shell": [
+        1448,
+        3
+      ],
+      "Vim Script": [
+        0,
+        0
+      ],
+      "Emacs Lisp": [
+        0,
+        0
+      ],
+      "C": [
+        184,
+        4
+      ],
+      "CSS": [
+        849,
+        14
+      ],
+      "Perl": [
+        241,
+        4
+      ],
+      "R": [
+        36,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 509,
+    "total_lines": 218623,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 210861,
+        "commits": 435
+      },
+      {
+        "language": "JavaScript",
+        "lines": 5000,
+        "commits": 48
+      },
+      {
+        "language": "CSS",
+        "lines": 849,
+        "commits": 14
+      },
+      {
+        "language": "C",
+        "lines": 184,
+        "commits": 4
+      },
+      {
+        "language": "Perl",
+        "lines": 241,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "aaronsw",
+    "analysis_date": "2026-02-19T03:11:44.277393",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 159,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "Python.h": 1,
+          "<Python.h>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 4,
+        "packages": {
+          "io": 3,
+          "fmt": 3,
+          "text/template": 2,
+          "strings": 2,
+          "regexp": 1,
+          "sync": 1,
+          "template": 1,
+          "eq_igncase": 1,
+          "eq": 1,
+          "dec": 1,
+          "str": 1,
+          "log": 1,
+          "encoding/json": 1,
+          "io/ioutil": 1,
+          "os": 1,
+          "github.com/voxelbrain/goptions": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "resource:": 2,
+          "Cookie": 1,
+          "IOUtil": 1,
+          "X509ChainWhitelist": 1,
+          "sha256": 1,
+          "Root-CAs": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 86,
+        "packages": {
+          "sys": 30,
+          "jinja2": 21,
+          "re": 19,
+          "os": 18,
+          "boto": 18,
+          "time": 13,
+          "Environment": 13,
+          "*": 8,
+          "urllib": 7,
+          "socket": 7,
+          "json": 6,
+          "datetime": 6,
+          "struct": 6,
+          "TorUtil": 6,
+          "math": 5,
+          "setup": 5,
+          "settings": 5,
+          "django": 5,
+          "TorCtl": 5,
+          "hashlib": 4,
+          "httplib": 4,
+          "Request": 4,
+          "traceback": 4,
+          "setuptools": 4,
+          "random": 4,
+          "copy": 4,
+          "EC2Connection": 3,
+          "sha1": 3,
+          "sha": 3,
+          "OriginAccessIdentity": 3,
+          "ResultSet": 3,
+          "uuid": 3,
+          "Queue": 3,
+          "urlparse": 3,
+          "simplejson": 3,
+          "feedparser": 3,
+          "types": 3,
+          "subprocess": 3,
+          "Name": 3,
+          "lib2to3": 3,
+          "fixer_base": 3,
+          "itertools": 3,
+          "cgi": 3,
+          "tornado": 3,
+          "Markup": 3,
+          "unittest": 3,
+          "pusher": 3,
+          "threading": 3,
+          "PathSupport": 3,
+          "RegionInfo": 2,
+          "logging": 2,
+          "S3Connection": 2,
+          "hmac": 2,
+          "base64": 2,
+          "xml": 2,
+          "this": 2,
+          "config": 2,
+          "EC2Object": 2,
+          "Trigger": 2,
+          "AWSQueryConnection": 2,
+          "weakref": 2,
+          "ListElement": 2,
+          "ConfigParser": 2,
+          "Flask": 2,
+          "flask": 2,
+          "_getCharacterEncoding": 2,
+          "chardet": 2,
+          "codecs": 2,
+          "glob": 2,
+          "html2text": 2,
+          "Extension": 2,
+          "nodes": 2,
+          "DictLoader": 2,
+          "escape": 2,
+          "Template": 2,
+          "Timer": 2,
+          "Cheetah": 2,
+          "genshi": 2,
+          "mako": 2,
+          "timeit": 2,
+          "pstats": 2,
+          "Stats": 2,
+          "cProfile": 2,
+          "Profile": 2,
+          "profile": 2,
+          "join": 2,
+          "django2jinja": 2,
+          "gc": 2,
+          "nose": 2,
+          "plog": 2,
+          "sets": 2,
+          "Set": 2,
+          "meta_port": 2,
+          "binascii": 2,
+          "CloudFrontConnection": 1,
+          "CloudWatchConnection": 1,
+          "SQSConnection": 1,
+          "InvalidUriError": 1,
+          "OrdinaryCallingFormat": 1,
+          "IAMConnection": 1,
+          "GSConnection": 1,
+          "Route53Connection": 1,
+          "EmrConnection": 1,
+          "ELBConnection": 1,
+          "RDSConnection": 1,
+          "Config": 1,
+          "SESConnection": 1,
+          "VPCConnection": 1,
+          "SNSConnection": 1,
+          "FPSConnection": 1,
+          "SDBConnection": 1,
+          "MTurkConnection": 1,
+          "AutoScaleConnection": 1,
+          "BucketStorageUri": 1,
+          "AuthHandler": 1,
+          "BotoClientError": 1,
+          "sha256": 1,
+          "plugin": 1,
+          "Plugin": 1,
+          "InvalidationBatch": 1,
+          "StreamingDistribution": 1,
+          "Distribution": 1,
+          "AWSAuthConnection": 1,
+          "CloudFrontServerError": 1,
+          "OriginAccessIdentityConfig": 1,
+          "OriginAccessIdentitySummary": 1,
+          "handler": 1,
+          "ActiveTrustedSigners": 1,
+          "LoggingInfo": 1,
+          "signed": 1,
+          "Object": 1,
+          "S3Origin": 1,
+          "ACL": 1,
+          "BotoServerError": 1,
+          "Key": 1,
+          "identity": 1,
+          "Provider": 1,
+          "AWSConnectionError": 1,
+          "auth": 1,
+          "auth_handler": 1,
+          "errno": 1,
+          "M2Crypto": 1,
+          "HTTPSConnection": 1,
+          "SSL": 1,
+          "Message": 1,
+          "yaml": 1,
+          "LaunchConfiguration": 1,
+          "Activity": 1,
+          "AutoScalingGroup": 1,
+          "StringProperty": 1,
+          "propget": 1,
+          "MetricAlarm": 1,
+          "Datapoint": 1,
+          "Metric": 1,
+          "consistenthash": 1,
+          "dnsserver": 1,
+          "bisect": 1,
+          "md5": 1,
+          "dnsutils": 1,
+          "getopt": 1,
+          "signal": 1,
+          "TemplateNotFound": 1,
+          "TEMPLATES": 1,
+          "requests": 1,
+          "consensus": 1,
+          "suggest": 1,
+          "detect": 1,
+          "@import": 1,
+          "htmlentitydefs": 1,
+          "html": 1,
+          "optparse": 1,
+          "HTMLParser": 1,
+          "difflib": 1,
+          "string": 1,
+          "oauth_token": 1,
+          "tokenkeys": 1,
+          "Popen": 1,
+          "lxml": 1,
+          "etree": 1,
+          "pkg_resources": 1,
+          "pygments": 1,
+          "islice": 1,
+          "TemplateBridge": 1,
+          "inspect": 1,
+          "docutils": 1,
+          "Style": 1,
+          "prepare_docstring": 1,
+          "Keyword": 1,
+          "ViewList": 1,
+          "sphinx": 1,
+          "Node": 1,
+          "DEFAULT_FILTERS": 1,
+          "BuiltinFunctionType": 1,
+          "FileSystemLoader": 1,
+          "o2_options": 1,
+          "MarkupTemplate": 1,
+          "util": 1,
+          "language": 1,
+          "PageTemplate": 1,
+          "chameleon": 1,
+          "spitfire": 1,
+          "tenjin": 1,
+          "ROOT": 1,
+          "Library": 1,
+          "loader": 1,
+          "template": 1,
+          "dateformat": 1,
+          "rwbench": 1,
+          "TemplateLoader": 1,
+          "django_loader": 1,
+          "TemplateLookup": 1,
+          "generate_lorem_ipsum": 1,
+          "choice": 1,
+          "djangoext": 1,
+          "Writer": 1,
+          "DebugVariableNode": 1,
+          "defaulttags": 1,
+          "i18n": 1,
+          "StringIO": 1,
+          "yourapplication": 1,
+          "MyNode": 1,
+          "convert_templates": 1,
+          "chain": 1,
+          "DEFAULT_NAMESPACE": 1,
+          "HttpResponse": 1,
+          "TemplateDoesNotExist": 1,
+          "get_standard_processors": 1,
+          "ImproperlyConfigured": 1,
+          "Token": 1,
+          "TemplateSyntaxError": 1,
+          "werkzeug": 1,
+          "script": 1,
+          "environmentfilter": 1,
+          "TemplateError": 1,
+          "BytecodeCache": 1,
+          "BaseLoader": 1,
+          "Undefined": 1,
+          "imap": 1,
+          "HTML_ENTITIES": 1,
+          "markdown": 1,
+          "sanitize": 1,
+          "cPickle": 1,
+          "urlfetch": 1,
+          "google": 1,
+          "test_config": 1,
+          "mox": 1,
+          "__version__": 1,
+          "transparencydata": 1,
+          "distutils": 1,
+          "urllib2": 1,
+          "urlopen": 1,
+          "HTTPError": 1,
+          "urljoin": 1,
+          "urlencode": 1,
+          "GeoIP": 1,
+          "StatsSupport": 1,
+          "GeoIPSupport": 1,
+          "SocksiPy": 1,
+          "ThreadLocalMetaData": 1,
+          "-start_time": 1,
+          "-time": 1,
+          "sqlalchemy": 1,
+          "EVENT_TYPE": 1,
+          "create_engine": 1,
+          "elixir": 1,
+          "-published": 1,
+          "scoped_session": 1,
+          "func": 1,
+          "-launch_time": 1,
+          "shutil": 1,
+          "SQLSupport": 1,
+          "cookie": 1,
+          "getpass": 1,
+          "to": 1,
+          "web": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 6,
+        "packages": {
+          "selenium-webdriver": 1,
+          "commitron/version": 1,
+          "skypemac": 1,
+          "commitron/build_checker": 1,
+          "github_api": 1,
+          "commitron/rails_on_fire": 1,
+          "spec_helper": 1,
+          "rails_on_fire": 1,
+          "build_checker": 1,
+          "bluecloth": 1,
+          "cgi": 1,
+          "uri": 1,
+          "net/http": 1,
+          "OpenIdAuthentication": 1,
+          "AuthenticatedSystem": 1,
+          "SimpleCaptcha::ControllerHelpers": 1,
+          "UrlHelper": 1,
+          "Facebooker2::Rails::Controller": 1,
+          "authenticated_system": 1,
+          "hpricot": 1,
+          "ActionView::Helpers::NumberHelper": 1,
+          "mediacloth": 1,
+          "open-uri": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "aaronsw/boto",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/chdns",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/commentsareclosed",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/commitron",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "aaronsw/cube-client",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/ghcontest",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/html2text",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/html2text-service",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/htmldiff",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/https-everywhere",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/jinja2",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/jsonformat",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "aaronsw/metamake",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/opencongress",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "aaronsw/pusher_client_python",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/pybandit",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/python-transparencydata",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/pytorctl",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aaronsw/rtask",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

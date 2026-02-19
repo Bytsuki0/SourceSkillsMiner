@@ -1,0 +1,296 @@
+{
+  "username": "karthikc",
+  "areas": {
+    "OSS": {
+      "score": -0.36961250037271487,
+      "details": {
+        "issue_resolution_rate": 0.25,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6955812494409277
+      }
+    },
+    "Status": {
+      "score": 0.13340764043810527,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6808806914263886,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "karthikc/angucomplete": 0.1591,
+        "karthikc/binge-v1": 0.20323076923076921,
+        "karthikc/cheer": 0.6132818181818182
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.2409487850163476,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        213,
+        1
+      ],
+      "JavaScript": [
+        97,
+        1
+      ],
+      "CSS": [
+        27,
+        0
+      ],
+      "Ruby": [
+        38047,
+        29
+      ],
+      "Shell": [
+        11,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 31,
+    "total_lines": 38395,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 38047,
+        "commits": 29
+      },
+      {
+        "language": "HTML",
+        "lines": 213,
+        "commits": 1
+      },
+      {
+        "language": "JavaScript",
+        "lines": 97,
+        "commits": 1
+      },
+      {
+        "language": "CSS",
+        "lines": 27,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 11,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "karthikc",
+    "analysis_date": "2026-02-19T01:10:04.235524",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 195,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "load-grunt-tasks": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 74,
+        "packages": {
+          "test_helper": 9,
+          "benchmark": 7,
+          "workflow": 7,
+          "Workflow": 7,
+          "active_record": 5,
+          "rubygems": 5,
+          "rspec/mocks": 5,
+          "bundler/setup": 4,
+          "ActiveModel::Model": 3,
+          "rails/all": 3,
+          "spec_helper": 3,
+          "sqlite3": 3,
+          "mechanize": 3,
+          "sunspot_test": 3,
+          "csv": 2,
+          "boot": 2,
+          "rails/test_help": 2,
+          "rspec/mocks/standalone": 2,
+          "RSpec::Mocks::ArgumentMatchers": 2,
+          "texticle": 2,
+          "to_xls": 2,
+          "stringio": 2,
+          "forwardable": 1,
+          "CarrierWave::Validations::ActiveModel": 1,
+          "CarrierWave::MiniMagick": 1,
+          "CarrierWave::RMagick": 1,
+          "RMagick": 1,
+          "binge/engine": 1,
+          "carrierwave": 1,
+          "binge": 1,
+          "cheer/version": 1,
+          "cheer/leaderboard": 1,
+          "cheer/argument": 1,
+          "cheer/error": 1,
+          "cheer/model_additions": 1,
+          "cheer/rank_evaluator": 1,
+          "cheer": 1,
+          "application": 1,
+          "HoptoadNotifier::Catcher": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "rails": 1,
+          "dispatcher": 1,
+          "test_help": 1,
+          "helper": 1,
+          "allocation_stats": 1,
+          "memory_profiler": 1,
+          "public_method_defined?": 1,
+          "method_defined?": 1,
+          "shellwords": 1,
+          "aruba/cucumber": 1,
+          "rspec/expectations": 1,
+          "rspec/support": 1,
+          "Customizations": 1,
+          "rspec/support/fuzzy_matcher": 1,
+          "rspec/mocks/argument_matchers": 1,
+          "rspec/support/matcher_definition": 1,
+          ":when_declaring_verifying_double": 1,
+          "ExpectHost": 1,
+          "shape_of_a_request/version": 1,
+          "shape_of_a_request": 1,
+          "flickr_fu": 1,
+          "rails/performance_test_help": 1,
+          "spec/expectations": 1,
+          "something_test": 1,
+          "sunspot/rails": 1,
+          "net/http": 1,
+          "codeclimate-test-reporter": 1,
+          "sunspot": 1,
+          "Texticle": 1,
+          "yaml": 1,
+          "shoulda": 1,
+          "ruby-debug": 1,
+          "texticle/searchable": 1,
+          "to_xls/enumerable_patch.rb": 1,
+          "to_xls/version": 1,
+          "to_xls/writer.rb": 1,
+          "spreadsheet": 1,
+          "rspec": 1,
+          "#{fname}.pdf": 1,
+          "couchtiny/document": 1,
+          "couchtiny": 1,
+          "mocha": 1,
+          "test/unit": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "karthikc/angucomplete",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "karthikc/binge-v1",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "karthikc/cheer",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "karthikc/lazy_stats",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "karthikc/peek",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "karthikc/rspec-mocks",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "karthikc/shape_of_a_request",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "karthikc/shovel",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "karthikc/sunspot_test",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "karthikc/texticle",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "karthikc/to_xls",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "karthikc/workflow",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

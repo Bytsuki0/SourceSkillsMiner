@@ -1,0 +1,712 @@
+{
+  "username": "farktronix",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5084745762711864,
+        "pr_merge_rate": 2.765957446808511,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4871794871794872,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.23076923076923078
+      }
+    },
+    "Sentiment": {
+      "score": 0.6666666666666666,
+      "details": {
+        "farktronix/gittools": 0.74,
+        "farktronix/iResist-legacy": -0.128,
+        "farktronix/relisten-ios": 0.8133
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7384615384615385,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Objective-C": [
+        2025823,
+        293
+      ],
+      "Swift": [
+        1046104,
+        187
+      ],
+      "Ruby": [
+        17122,
+        1
+      ],
+      "Python": [
+        15346,
+        35
+      ],
+      "Dockerfile": [
+        183,
+        1
+      ],
+      "Shell": [
+        15784,
+        55
+      ],
+      "Vim Script": [
+        192,
+        1
+      ],
+      "GDB": [
+        24,
+        0
+      ],
+      "Objective-C++": [
+        107,
+        2
+      ],
+      "C": [
+        21411,
+        32
+      ],
+      "CSS": [
+        22168,
+        46
+      ],
+      "HTML": [
+        15967,
+        31
+      ],
+      "C++": [
+        2583,
+        10
+      ],
+      "JavaScript": [
+        14288,
+        35
+      ],
+      "TypeScript": [
+        183,
+        0
+      ],
+      "SCSS": [
+        19,
+        0
+      ],
+      "Makefile": [
+        323,
+        0
+      ],
+      "Elixir": [
+        29,
+        1
+      ],
+      "PHP": [
+        4311,
+        13
+      ],
+      "ApacheConf": [
+        144,
+        0
+      ],
+      "CoffeeScript": [
+        92,
+        0
+      ],
+      "TeX": [
+        1628,
+        13
+      ],
+      "Batchfile": [
+        491,
+        0
+      ],
+      "GLSL": [
+        2,
+        0
+      ],
+      "Visual Basic": [
+        3769,
+        2
+      ]
+    },
+    "language_count": 25,
+    "total_commits": 758,
+    "total_lines": 3208093,
+    "top_5_languages": [
+      {
+        "language": "Objective-C",
+        "lines": 2025823,
+        "commits": 293
+      },
+      {
+        "language": "Swift",
+        "lines": 1046104,
+        "commits": 187
+      },
+      {
+        "language": "Shell",
+        "lines": 15784,
+        "commits": 55
+      },
+      {
+        "language": "CSS",
+        "lines": 22168,
+        "commits": 46
+      },
+      {
+        "language": "Python",
+        "lines": 15346,
+        "commits": 35
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "farktronix",
+    "analysis_date": "2026-02-19T07:40:29.968949",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 285,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "c4.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 18,
+        "packages": {
+          "namespace": 10,
+          "c4Internal.hh": 8,
+          "Database.hh": 8,
+          "c4Private.h": 7,
+          "c4BlobStore.h": 5,
+          "c4Test.hh": 5,
+          "InstanceCounted.hh": 4,
+          "fleece": 4,
+          "c4DocEnumerator.h": 4,
+          "std": 4,
+          "Logging.hh": 3,
+          "StringUtil.hh": 3,
+          "litecore": 3,
+          "FilePath.hh": 3,
+          "sqlite3.h": 3,
+          "Record.hh": 3,
+          "SecureRandomize.hh": 3,
+          "<ctime>": 3,
+          "ctime": 3,
+          "fleece::impl": 3,
+          "<iostream>": 3,
+          "errno.h": 3,
+          "<cmath>": 3,
+          "iostream": 3,
+          "cmath": 3,
+          "<errno.h>": 3,
+          "global.h": 2,
+          "mutex": 2,
+          "<set>": 2,
+          "<mutex>": 2,
+          "set": 2,
+          "KeyStore.hh": 2,
+          "RecordEnumerator.hh": 2,
+          "c4Database.h": 2,
+          "DataFile.hh": 2,
+          "Document.hh": 2,
+          "c4Document+Fleece.h": 2,
+          "FleeceImpl.hh": 2,
+          "c4Observer.h": 2,
+          "c4PredictiveQuery.h": 2,
+          "nonexistent": 2,
+          "unistd.h": 2,
+          "Windows.h": 2,
+          "ArduinoSNMP.h": 1,
+          "EthernetUdp.h": 1,
+          "<EthernetUdp.h>": 1,
+          "SNMPAgent.h": 1,
+          "WProgram.h": 1,
+          "Time.h": 1,
+          "<WProgram.h>": 1,
+          "Arduino.h": 1,
+          "<Arduino.h>": 1,
+          "CodeList": 1,
+          "deque": 1,
+          "cctype": 1,
+          "repo_version.h": 1,
+          "<cctype>": 1,
+          "<algorithm>": 1,
+          "<deque>": 1,
+          "winerror.h": 1,
+          "ErrorSet": 1,
+          "algorithm": 1,
+          "WebSocketInterface.hh": 1,
+          "<winerror.h>": 1,
+          "BlobStore.hh": 1,
+          "thread": 1,
+          "PrebuiltCopier.hh": 1,
+          "Error.hh": 1,
+          "SecureSymmetricCrypto.hh": 1,
+          "<thread>": 1,
+          "SQLiteDataFile.hh": 1,
+          "c4Document.h": 1,
+          "stdint.h": 1,
+          "fleece/slice.hh": 1,
+          "<stdint.h>": 1,
+          "c4.h": 1,
+          "LegacyAttachments.hh": 1,
+          "RevTree.hh": 1,
+          "SequenceTracker.hh": 1,
+          "std::placeholders": 1,
+          "PredictiveModel.hh": 1,
+          "<list>": 1,
+          "LiveQuerier.hh": 1,
+          "c4Query.h": 1,
+          "math.h": 1,
+          "list": 1,
+          "<math.h>": 1,
+          "c4ExceptionUtils.hh": 1,
+          "Timer.hh": 1,
+          "limits.h": 1,
+          "<limits.h>": 1,
+          "Query.hh": 1,
+          "chrono": 1,
+          "Benchmark.hh": 1,
+          "<chrono>": 1,
+          "password123": 1,
+          "FilePath": 1,
+          "1-": 1,
+          "2-": 1,
+          "vector": 1,
+          "2-2222": 1,
+          "<vector>": 1,
+          "3-": 1,
+          "666-6666": 1,
+          "test": 1,
+          "cbl_core_test_bundle": 1,
+          "No": 1,
+          "no_such_bundle": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 61,
+        "packages": {
+          "<Foundation/Foundation.h>": 22,
+          "<UIKit/UIKit.h>": 17,
+          "c4Database.h": 7,
+          "c4Document.h": 6,
+          "UIColor+Chameleon.h": 4,
+          "c4BlobStore.h": 4,
+          "fleece/Fleece.h": 4,
+          "UINavigationController+Chameleon.h": 3,
+          "NSArray+Chameleon.h": 3,
+          "UIViewController+Chameleon.h": 3,
+          "c4Base.h": 3,
+          "AGAudioItem.h": 2,
+          "Arduino.h": 2,
+          "Time.h": 2,
+          "<ArduinoSNMP.h>": 2,
+          "ArduinoSNMP.h": 2,
+          "Chameleon_.h": 2,
+          "UIButton+Chameleon.h": 2,
+          "UIColor+ChameleonPrivate.h": 2,
+          "UIAppearance+Swift.h": 2,
+          "UILabel+Chameleon.h": 2,
+          "UIView+ChameleonPrivate.h": 2,
+          "UIImage+ChameleonPrivate.h": 2,
+          "c4Replicator.h": 2,
+          "c4Query.h": 2,
+          "CBLAuthenticator.h": 2,
+          "CBLLogger.h": 2,
+          "CBLDictionaryFragment.h": 2,
+          "<Adium/Adium.h>": 1,
+          "<Cocoa/Cocoa.h>": 1,
+          "<Adium/AIPlugin.h>": 1,
+          "AdiumHUDController.h": 1,
+          "<Carbon/Carbon.h>": 1,
+          "AGAudioItemCollection.h": 1,
+          "AGAudioPlayerUpNextQueue.h": 1,
+          "<AVFoundation/AVFoundation.h>": 1,
+          "<Foundation/NSEnumerator.h>": 1,
+          "AGAudioPlayer.h": 1,
+          "Udp.h": 1,
+          "<ctype.h>": 1,
+          "<Ethernet.h>": 1,
+          "global.h": 1,
+          "Ethernet.h": 1,
+          "ctype.h": 1,
+          "<sys/types.h>": 1,
+          "inttypes.h": 1,
+          "sys/types.h": 1,
+          "<inttypes.h>": 1,
+          "arduino.h": 1,
+          "<EthernetUdp.h>": 1,
+          "LinkedList.h": 1,
+          "<Time.h>": 1,
+          "EthernetUdp.h": 1,
+          "<arduino.h>": 1,
+          "ChameleonEnums.h": 1,
+          "ChameleonConstants.h": 1,
+          "ChameleonMacros.h": 1,
+          "<CoreGraphics/CoreGraphics.h>": 1,
+          "<objc/runtime.h>": 1,
+          "<stdatomic.h>": 1,
+          "atomic": 1,
+          "<atomic>": 1,
+          "stdatomic.h": 1,
+          "c4Observer.h": 1,
+          "c4DocEnumerator.h": 1,
+          "string.h": 1,
+          "<stdarg.h>": 1,
+          "stdint.h": 1,
+          "<string.h>": 1,
+          "<stdbool.h>": 1,
+          "c4Compat.h": 1,
+          "<stdint.h>": 1,
+          "fleece/FLSlice.h": 1,
+          "stdbool.h": 1,
+          "stdarg.h": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "<CoreFoundation/CFBase.h>": 1,
+          "CoreFoundation/CFBase.h": 1,
+          "your": 1,
+          "c4Socket.h": 1,
+          "CBLArrayFragment.h": 1,
+          "<Security/Security.h>": 1,
+          "<CoreML/CoreML.h>": 1,
+          "CBLPrediction.h": 1,
+          "CBLDatabase.h": 1,
+          "CBLDictionary.h": 1,
+          "CBLDocumentFlags.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "jQuery": 2
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 34,
+        "packages": {
+          "<UIKit/UIKit.h>": 5,
+          "UIKit/UIKit.h": 5,
+          "AppDelegate.h": 4,
+          "UIColor+ChameleonPrivate.h": 3,
+          "CBLDatabase+Internal.h": 3,
+          "AdiumHUDPanel.h": 2,
+          "<Adium/AIStatus.h>": 2,
+          "Adium/AIStatus.h": 2,
+          "AGAudioPlayer.h": 2,
+          "AGAudioPlayerUpNextQueue.h": 2,
+          "ViewController.h": 2,
+          "UIButton+Chameleon.h": 2,
+          "UIAppearance+Swift.h": 2,
+          "ChameleonMacros.h": 2,
+          "UIImage+ChameleonPrivate.h": 2,
+          "CBLAuthenticator+Internal.h": 2,
+          "CBLDatabase+Prediction.h": 2,
+          "Adium/AIChat.h": 1,
+          "Adium/AIChatControllerProtocol.h": 1,
+          "<Adium/AIChat.h>": 1,
+          "<Adium/AIChatControllerProtocol.h>": 1,
+          "AdiumHUDController.h": 1,
+          "QuartzCore/CAAnimation.h": 1,
+          "<QuartzCore/CAAnimation.h>": 1,
+          "<Adium/AIStatusItem.h>": 1,
+          "<Adium/AIStatusControllerProtocol.h>": 1,
+          "AdiumHUDPlugin.h": 1,
+          "Adium/AIStatusItem.h": 1,
+          "Adium/AIStatusControllerProtocol.h": 1,
+          "AGAudioItem.h": 1,
+          "AGAudioItemCollection.h": 1,
+          "<BASSGaplessAudioPlayer/ObjectiveBASS.h>": 1,
+          "BASSGaplessAudioPlayer/ObjectiveBASS.h": 1,
+          "AGDurationHelper.h": 1,
+          "XCTest/XCTest.h": 1,
+          "<XCTest/XCTest.h>": 1,
+          "AGAudioPlayer-Swift.h": 1,
+          "<Foundation/Foundation.h>": 1,
+          "Foundation/Foundation.h": 1,
+          "ChameleonConstants.h": 1,
+          "UILabel+Chameleon.h": 1,
+          "Chameleon_.h": 1,
+          "NSArray+Chameleon.h": 1,
+          "UIColor+Chameleon.h": 1,
+          "<objc/runtime.h>": 1,
+          "objc/runtime.h": 1,
+          "CBLAuthenticator.h": 1,
+          "CBLBasicAuthenticator.h": 1,
+          "MYAnonymousIdentity.h": 1,
+          "CBLClientCertAuthenticator.h": 1,
+          "CBLConsoleLogger.h": 1,
+          "CBLLog+Internal.h": 1,
+          "CBLLog+Admin.h": 1,
+          "<Vision/Vision.h>": 1,
+          "CBLCoreMLPredictiveModel+Internal.h": 1,
+          "<CoreImage/CoreImage.h>": 1,
+          "CBLMutableArray.h": 1,
+          "CBLCoreMLPredictiveModel.h": 1,
+          "CBLDictionary.h": 1,
+          "CoreImage/CoreImage.h": 1,
+          "Vision/Vision.h": 1,
+          "CBLBlob.h": 1,
+          "CBLMutableDictionary.h": 1,
+          "CBLPrediction+Internal.h": 1,
+          "CBLDatabaseChange.h": 1,
+          "CBLDatabaseConfiguration.h": 1,
+          "CBLDocumentChange.h": 1,
+          "CBLDocument+Internal.h": 1,
+          "CBLDocument.h": 1,
+          "CBLDocumentFragment.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 31,
+        "packages": {
+          "beancount_reds_importers": 24,
+          "ofxreader": 11,
+          "banking": 11,
+          "beancount": 8,
+          "os": 6,
+          "investments": 6,
+          "datetime": 5,
+          "re": 5,
+          "regression_pytest": 5,
+          "path": 5,
+          "csvreader": 4,
+          "D": 3,
+          "Fidelity": 3,
+          "logging": 2,
+          "ntpath": 2,
+          "pdfreader": 2,
+          "paycheck": 2,
+          "Discover": 2,
+          "InfluxDBClient": 1,
+          "influxdb": 1,
+          "sys": 1,
+          "collections": 1,
+          "urlopen": 1,
+          "boto": 1,
+          "urllib": 1,
+          "AWSProxy": 1,
+          "distutils": 1,
+          "setup": 1,
+          "a": 1,
+          "Alliant": 1,
+          "Ally": 1,
+          "ally": 1,
+          "importer": 1,
+          "itertools": 1,
+          "data": 1,
+          "American": 1,
+          "BambooHR": 1,
+          "search_dates": 1,
+          "dateparser": 1,
+          "BECU": 1,
+          "Capital": 1,
+          "capitalonebank": 1,
+          "Chase": 1,
+          "Citi": 1,
+          "DCU": 1,
+          "dcu": 1,
+          "ETrade": 1,
+          "etrade": 1,
+          "Generic": 1,
+          "genericpdfpaycheck": 1,
+          "Positions": 1,
+          "IBKR": 1,
+          "Currency": 1,
+          "Canceled": 1,
+          "Audit": 1,
+          "Dividend": 1,
+          "xmlreader": 1,
+          "click": 1,
+          "requests": 1,
+          "Morgan": 1,
+          "Schwab": 1,
+          "csv_multitable_reader": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 1,
+        "packages": {
+          "snmp": 1,
+          "rubygems": 1,
+          "logger": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 119,
+        "packages": {
+          "Foundation": 87,
+          "UIKit": 12,
+          "class": 12,
+          "Dispatch": 9,
+          "func": 4,
+          "Chameleon": 4,
+          "override": 3,
+          "MediaPlayer": 2,
+          "QuartzCore": 2,
+          "var": 2,
+          "PackageDescription": 2,
+          "PlaygroundSupport": 2,
+          "Cache": 2,
+          "AppKit": 2,
+          "Darwin.C.stdio": 2,
+          "os.log": 2,
+          "Interpolate": 1,
+          "NapySlider": 1,
+          "MarqueeLabel": 1,
+          "UIKit.UIGestureRecognizerSubclass": 1,
+          "private": 1,
+          "Darwin.C.stdlib": 1,
+          "to": 1,
+          "the": 1,
+          "XCTest": 1,
+          "Cocoa": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "farktronix/adiumhud",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "farktronix/AdventOfCode",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "farktronix/AdventOfCode2021",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "farktronix/AGAudioPlayer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "farktronix/AQICalculator",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "farktronix/Arduino-SNMP",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "farktronix/awsproxy",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "farktronix/banner",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "farktronix/beancount_reds_importers",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "farktronix/Cache",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "farktronix/Chameleon",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "farktronix/CleanroomLogger",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "farktronix/couchbase-lite-core",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "farktronix/couchbase-lite-ios",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "farktronix/cryptopals",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

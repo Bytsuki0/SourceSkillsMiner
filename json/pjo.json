@@ -1,0 +1,176 @@
+{
+  "username": "pjo",
+  "areas": {
+    "OSS": {
+      "score": -0.010899253461898795,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.48365111980715186
+      }
+    },
+    "Status": {
+      "score": -0.028309360114630144,
+      "details": {
+        "lines_activity": 0.9697470569678474,
+        "commits_activity": 0.46855813362943827,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.009802153394132235,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Vue": [
+        10673,
+        0
+      ],
+      "TypeScript": [
+        3383,
+        4
+      ],
+      "CSS": [
+        1361,
+        0
+      ],
+      "HTML": [
+        269,
+        0
+      ],
+      "Ruby": [
+        215,
+        3
+      ],
+      "JavaScript": [
+        254,
+        0
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 7,
+    "total_lines": 16155,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 3383,
+        "commits": 4
+      },
+      {
+        "language": "Ruby",
+        "lines": 215,
+        "commits": 3
+      },
+      {
+        "language": "Vue",
+        "lines": 10673,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 1361,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 269,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "pjo",
+    "analysis_date": "2026-02-19T07:14:21.744544",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 17,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "vue": 1,
+          "vuetify": 1,
+          "vitejs": 1,
+          "vite": 1,
+          "vite-plugin-vuetify": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 11,
+        "packages": {
+          "vue": 5,
+          "node:url": 3,
+          "vitest": 3,
+          "vuetify": 2,
+          "vite-plugin-vue-devtools": 2,
+          "vitejs": 2,
+          "vite": 2,
+          "pinia": 2,
+          "mdi": 1,
+          "express": 1,
+          "eslint-plugin-vue": 1,
+          "eslint": 1,
+          "fortawesome": 1,
+          "vue-router": 1,
+          "counter": 1,
+          "vite-plugin-vuetify": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "pjo/exercise-app",
+        "files_analyzed": 6,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "pjo/ts-server",
+        "files_analyzed": 1,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "pjo/vue-bricks",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pjo/vue-fontawesome-sample",
+        "files_analyzed": 8,
+        "languages_found": [
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "username": "twalling",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.08333333333333334,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "twalling",
+    "analysis_date": "2026-02-19T01:03:58.722094",
+    "total_repos_analyzed": 2,
+    "total_files_analyzed": 38,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 10,
+        "packages": {
+          "path": 4,
+          "moment-timezone": 4,
+          "fs": 2,
+          "vows": 2,
+          "assert": 2,
+          "underscore": 2,
+          "<%=": 1,
+          "module": 1,
+          "biased-opener": 1,
+          "child_process": 1,
+          "util": 1,
+          "which": 1,
+          "rrule": 1,
+          "uuid": 1,
+          "axios": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "PUBLISH": 1,
+          "rrule": 1,
+          "PUBLIC": 1,
+          "axios": 1,
+          "TRANSPARENT": 1,
+          "date-time": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "twalling/ical.js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "twalling/node-ical",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "username": "raecoo",
+  "areas": {
+    "OSS": {
+      "score": 0.3018937777179045,
+      "details": {
+        "issue_resolution_rate": 0.8571428571428571,
+        "pr_merge_rate": 0.3333333333333333,
+        "commits_activity": 0.7623644761006664
+      }
+    },
+    "Status": {
+      "score": 0.20273695367589273,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7656438920523007,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "raecoo/shopify_faker": -0.01755000000000001
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.2761576828484493,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Vim Script": [
+        560,
+        15
+      ],
+      "Shell": [
+        645,
+        4
+      ],
+      "Ruby": [
+        2940,
+        9
+      ],
+      "HTML": [
+        2868,
+        7
+      ],
+      "CSS": [
+        1367,
+        7
+      ],
+      "Dockerfile": [
+        121,
+        0
+      ],
+      "JavaScript": [
+        33653,
+        3
+      ],
+      "TypeScript": [
+        1168,
+        0
+      ],
+      "Vue": [
+        6577,
+        1
+      ],
+      "Python": [
+        2411,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 46,
+    "total_lines": 52310,
+    "top_5_languages": [
+      {
+        "language": "Vim Script",
+        "lines": 560,
+        "commits": 15
+      },
+      {
+        "language": "Ruby",
+        "lines": 2940,
+        "commits": 9
+      },
+      {
+        "language": "HTML",
+        "lines": 2868,
+        "commits": 7
+      },
+      {
+        "language": "CSS",
+        "lines": 1367,
+        "commits": 7
+      },
+      {
+        "language": "Shell",
+        "lines": 645,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "raecoo",
+    "analysis_date": "2026-02-19T01:38:21.669858",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 333,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "fs": 3,
+          "path": 3,
+          "rails": 2,
+          "~": 2,
+          "hotwired": 2,
+          ":": 1,
+          "esbuild": 1,
+          "readonly": 1,
+          "eslint": 1,
+          "typescript-eslint": 1,
+          "click": 1,
+          "jQuery": 1,
+          "node:child_process": 1,
+          "node:util": 1,
+          "<%=": 1,
+          "load-grunt-tasks": 1,
+          "bower": 1,
+          "=": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 62,
+        "packages": {
+          "flask": 16,
+          "datetime": 15,
+          "os": 14,
+          "db": 11,
+          "uuid": 10,
+          "json": 10,
+          "logging": 9,
+          "sys": 9,
+          "models": 9,
+          "Blueprint": 9,
+          "utils": 9,
+          "sqlalchemy": 8,
+          "config": 6,
+          "services": 6,
+          "werkzeug": 6,
+          "success_response": 6,
+          "alembic": 6,
+          "pathlib": 5,
+          "Path": 5,
+          "Flask": 5,
+          "Config": 5,
+          "app": 5,
+          "inspect": 5,
+          "op": 5,
+          "AIService": 4,
+          "secure_filename": 4,
+          "time": 4,
+          "re": 4,
+          "ansible": 4,
+          "xlsxwriter": 4,
+          "pytrends": 4,
+          "tempfile": 3,
+          "typing": 3,
+          "task_manager": 3,
+          "SQLAlchemy": 3,
+          "socket": 3,
+          "TrendReq": 3,
+          "pandas": 3,
+          "controllers": 2,
+          "Image": 2,
+          "PIL": 2,
+          "error_response": 2,
+          "FileParserService": 2,
+          "Optional": 2,
+          "shutil": 2,
+          "FileService": 2,
+          "traceback": 2,
+          "urllib": 2,
+          "flask_sqlalchemy": 2,
+          "Resource": 2,
+          "flask_restful": 2,
+          "the": 2,
+          "__future__": 2,
+          "SafeConfigParser": 2,
+          "ConfigParser": 2,
+          "pickle": 2,
+          "win32com": 2,
+          "responses": 2,
+          "pytest": 2,
+          "material_bp": 1,
+          "Engine": 1,
+          "load_dotenv": 1,
+          "dotenv": 1,
+          "event": 1,
+          "SQLAlchemyError": 1,
+          "flask_migrate": 1,
+          "project_bp": 1,
+          "flask_cors": 1,
+          "sqlite3": 1,
+          "settings_bp": 1,
+          "Migrate": 1,
+          "CORS": 1,
+          "reference_file_bp": 1,
+          "Settings": 1,
+          "timedelta": 1,
+          "ExportService": 1,
+          "io": 1,
+          "ThreadPoolExecutor": 1,
+          "concurrent": 1,
+          "find_file_with_prefix": 1,
+          "_get_project_reference_files_content": 1,
+          "BadRequest": 1,
+          "desc": 1,
+          "unquote": 1,
+          "threading": 1,
+          "create_app": 1,
+          "fileConfig": 1,
+          "engine_from_config": 1,
+          "context": 1,
+          "markdown_content": 1,
+          "Tuple": 1,
+          "current_app": 1,
+          "abc": 1,
+          "ABC": 1,
+          "lib": 1,
+          "api": 1,
+          "a": 1,
+          "auth": 1,
+          "HelloWorld": 1,
+          "LoginForm": 1,
+          "module": 1,
+          "check_password_hash": 1,
+          "User": 1,
+          "password": 1,
+          "Form": 1,
+          "Forgot": 1,
+          "flask_wtf": 1,
+          "Required": 1,
+          "TextField": 1,
+          "Must": 1,
+          "wtforms": 1,
+          "print_function": 1,
+          "ftplib": 1,
+          "getpass": 1,
+          "simiki": 1,
+          "fabric": 1,
+          "blue": 1,
+          "env": 1,
+          "raw_input": 1,
+          "callbacks": 1,
+          "commands": 1,
+          "multiprocessing": 1,
+          "SocketServer": 1,
+          "random": 1,
+          "xlrd": 1,
+          "glob": 1,
+          "Pyxlchart": 1,
+          "pyxlchart": 1,
+          "Dispatch": 1,
+          "pythoncom": 1,
+          "pycurl": 1,
+          "StringIO": 1,
+          "smtplib": 1,
+          "unicode_literals": 1,
+          "MIMEText": 1,
+          "email": 1,
+          "MailSender": 1,
+          "postmail": 1,
+          "chartkick": 1,
+          "*": 1,
+          "date": 1,
+          "partial": 1,
+          "functools": 1,
+          "sleep": 1,
+          "monthrange": 1,
+          "ResponseError": 1,
+          "calendar": 1,
+          "requests": 1,
+          "itertools": 1,
+          "product": 1,
+          "quote": 1,
+          "exceptions": 1,
+          "status_codes": 1,
+          "Retry": 1,
+          "HTTPAdapter": 1,
+          "RequestsMock": 1,
+          "dataclasses": 1,
+          "assert_frame_equal": 1,
+          "numpy": 1,
+          "unittest": 1,
+          "dataclass": 1,
+          "ANY": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 41,
+        "packages": {
+          "omniauth/core": 8,
+          "OmniAuth::Strategy": 5,
+          "omniauth/enterprise": 4,
+          "omniauth/basic": 4,
+          "rack": 4,
+          "active_support/core_ext/integer/time": 4,
+          "bundler/setup": 3,
+          "rspec": 2,
+          "simplecov": 2,
+          "rack/test": 2,
+          "omniauth/test": 2,
+          "net/ldap": 2,
+          "boot": 2,
+          "bootsnap/setup": 2,
+          "application": 2,
+          "action_mailer/railtie": 2,
+          "action_controller/railtie": 2,
+          "active_record/railtie": 2,
+          "hook": 1,
+          "acts_as_messages": 1,
+          "Raecoo::Acts::Messages": 1,
+          "Raecoo::Acts::Messages::InstanceMethods": 1,
+          "omniauth/openid": 1,
+          "omniauth/oauth": 1,
+          "omniauth/more": 1,
+          "rest-client": 1,
+          "webmock/rspec": 1,
+          "middleware": 1,
+          "Singleton": 1,
+          "singleton": 1,
+          "OmniAuth::Test::PhonySession": 1,
+          "*strat": 1,
+          "OmniAuth::Test::StrategyTestCase": 1,
+          "net/https": 1,
+          "nokogiri": 1,
+          "net/http": 1,
+          "sasl/base": 1,
+          "sasl": 1,
+          "net/ntlm": 1,
+          "uri": 1,
+          "rails/all": 1,
+          "test_helper": 1,
+          "rails/test_help": 1,
+          "active_resource/railtie": 1,
+          "rubygems": 1,
+          "shopify_faker/version": 1,
+          "fabrication": 1,
+          "faker": 1,
+          "fabrication/syntax/make": 1,
+          "spec_helper": 1,
+          "shopify_faker": 1,
+          "action_mailbox/engine": 1,
+          "action_text/engine": 1,
+          "active_job/railtie": 1,
+          "active_model/railtie": 1,
+          "action_view/railtie": 1,
+          "action_cable/engine": 1,
+          "rails": 1,
+          "active_storage/engine": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 42,
+        "packages": {
+          "type": 5,
+          "child_process": 4,
+          "util": 4,
+          "path": 4,
+          "fs": 4,
+          "react-router": 4,
+          "ora": 3,
+          "chalk": 3,
+          "os": 3,
+          "fastify": 3,
+          "next": 3,
+          "react": 3,
+          "clsx": 3,
+          "tailwind-merge": 3,
+          "commander": 2,
+          "ws": 2,
+          "events": 2,
+          "vite": 2,
+          "tailwindcss": 2,
+          "cloudflare:workers": 2,
+          "drizzle-orm": 2,
+          "nanoid": 2,
+          "edge": 2,
+          "aws-sdk": 2,
+          "dedent": 2,
+          "assert": 2,
+          "pimzino": 1,
+          "inquirer": 1,
+          "the": 1,
+          "open": 1,
+          "simple-git": 1,
+          "not-started": 1,
+          "light": 1,
+          "status": 1,
+          "active": 1,
+          "crypto": 1,
+          "vite-plugin-ruby": 1,
+          "imgly": 1,
+          "tailwindcss-animate": 1,
+          "react-dom": 1,
+          "inertiajs": 1,
+          "drizzle-kit": 1,
+          "vite-tsconfig-paths": 1,
+          "cloudflare": 1,
+          "next-s3-upload": 1,
+          "zod": 1,
+          "ai": 1,
+          "together-ai": 1,
+          "ai-sdk": 1,
+          "prisma": 1,
+          "pdfjs-dist": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 54,
+        "packages": {
+          "react": 34,
+          "lucide-react": 16,
+          "~": 16,
+          "react-router": 13,
+          "radix-ui": 12,
+          "svg": 11,
+          "class-variance-authority": 8,
+          "next": 7,
+          "sonner": 2,
+          "react-dropzone": 2,
+          "react-dom": 2,
+          "nanoid": 2,
+          "div": 1,
+          "inertiajs": 1,
+          "isbot": 1,
+          "postal-mime": 1,
+          "cloudflare:workers": 1,
+          "scaleway": 1,
+          "next-plausible": 1,
+          "next-s3-upload": 1,
+          "idle": 1,
+          "pdfjs-dist": 1,
+          "prisma": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "raecoo/actsasmessages",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "raecoo/banana-slides",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "raecoo/claude-code-spec-workflow",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "raecoo/flask-skeleton",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "raecoo/knowledge",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "raecoo/omniauth",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "raecoo/python-utils",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "raecoo/pytrends",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "raecoo/rails-vite-tailwind",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript",
+          "Ruby",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "raecoo/remove-bg",
+        "files_analyzed": 24,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "raecoo/sample-saml-strategy",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "raecoo/shopify_faker",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "raecoo/shore",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "raecoo/smail",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "raecoo/smartpdfs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "raecoo/techan.js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

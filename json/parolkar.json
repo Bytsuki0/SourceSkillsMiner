@@ -1,0 +1,503 @@
+{
+  "username": "parolkar",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "parolkar/active_log": 0.0772,
+        "parolkar/cartographer": 0.25465,
+        "parolkar/fluent-plugin-http-enhanced": 0.3274666666666667,
+        "parolkar/fluent-plugin-splunk": 0.15259999999999999,
+        "parolkar/geo_mere_laal": 0.7959,
+        "parolkar/pfeed": 0.26303,
+        "parolkar/RayRayHooray": 0.0367
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.366025641025641,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        232447,
+        139
+      ],
+      "Shell": [
+        237143,
+        12
+      ],
+      "Jupyter Notebook": [
+        2,
+        0
+      ],
+      "Python": [
+        42,
+        5
+      ],
+      "HTML": [
+        1456242,
+        41
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "Puppet": [
+        799,
+        3
+      ],
+      "CSS": [
+        91479,
+        20
+      ],
+      "PHP": [
+        247645,
+        1
+      ],
+      "JavaScript": [
+        281263,
+        25
+      ],
+      "ActionScript": [
+        8174,
+        0
+      ],
+      "Perl": [
+        3589,
+        0
+      ],
+      "ASP": [
+        2369,
+        0
+      ],
+      "R": [
+        2002,
+        0
+      ],
+      "ApacheConf": [
+        68,
+        0
+      ],
+      "Batchfile": [
+        13,
+        0
+      ],
+      "HCL": [
+        1,
+        1
+      ],
+      "Lua": [
+        12,
+        0
+      ],
+      "Makefile": [
+        7,
+        0
+      ],
+      "Dockerfile": [
+        12004,
+        0
+      ],
+      "Nix": [
+        1977,
+        0
+      ],
+      "CoffeeScript": [
+        33,
+        0
+      ],
+      "SCSS": [
+        28,
+        0
+      ],
+      "Vue": [
+        2571,
+        0
+      ],
+      "TypeScript": [
+        1048,
+        0
+      ],
+      "C++": [
+        0,
+        0
+      ],
+      "C": [
+        97,
+        0
+      ]
+    },
+    "language_count": 27,
+    "total_commits": 247,
+    "total_lines": 2581055,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 232447,
+        "commits": 139
+      },
+      {
+        "language": "HTML",
+        "lines": 1456242,
+        "commits": 41
+      },
+      {
+        "language": "JavaScript",
+        "lines": 281263,
+        "commits": 25
+      },
+      {
+        "language": "CSS",
+        "lines": 91479,
+        "commits": 20
+      },
+      {
+        "language": "Shell",
+        "lines": 237143,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "parolkar",
+    "analysis_date": "2026-02-19T04:46:31.311040",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 175,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "horizontal": 2,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1,
+          "t.write(": 1,
+          ")).appendTo(t.documentElement)": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 5,
+        "packages": {
+          "nusoap/nusoap.php": 2,
+          "SETTINGS.php": 2,
+          "class.soap_server.php": 2,
+          "class.wsdl.php": 2,
+          "class.soap_val.php": 2,
+          "class.soap_transport_http.php": 2,
+          "class.soapclient.php": 2,
+          "class.soap_fault.php": 2,
+          "class.soap_parser.php": 2,
+          "class.xmlschema.php": 2,
+          "nusoap.php": 1,
+          "Mail/mimePart.php": 1,
+          "Mail/mimeDecode.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 26,
+        "packages": {
+          "src": 18,
+          "pandas": 16,
+          "buster": 15,
+          "os": 11,
+          "logging": 8,
+          "openai": 6,
+          "copy": 5,
+          "gradio": 5,
+          "Completion": 5,
+          "tqdm": 4,
+          "FeedbackForm": 4,
+          "GPTTokenizer": 4,
+          "pytest": 3,
+          "Retriever": 3,
+          "buster_cfg": 3,
+          "ChatGPTCompleter": 3,
+          "json": 3,
+          "Buster": 3,
+          "argparse": 3,
+          "get_logging_db_name": 3,
+          "typing": 3,
+          "retriever": 2,
+          "cfg": 2,
+          "Validator": 2,
+          "random": 2,
+          "DocumentsFormatterJSON": 2,
+          "PromptFormatter": 2,
+          "numpy": 2,
+          "MONGO_URI": 2,
+          "DocumentsService": 2,
+          "datetime": 2,
+          "fastapi": 2,
+          "buster_app": 2,
+          "arena_app": 2,
+          "pymongo": 2,
+          "add_sources": 2,
+          "Optional": 2,
+          "OpenAI": 2,
+          "literal_eval": 1,
+          "ast": 1,
+          "init_db": 1,
+          "re": 1,
+          "retry": 1,
+          "ServiceRetriever": 1,
+          "tenacity": 1,
+          "Parallel": 1,
+          "joblib": 1,
+          "three": 1,
+          "matplotlib": 1,
+          "pyplot": 1,
+          "Type": 1,
+          "content": 1,
+          "starlette": 1,
+          "RedirectResponse": 1,
+          "uvicorn": 1,
+          "check_auth": 1,
+          "app_utils": 1,
+          "FastAPI": 1,
+          "quote_plus": 1,
+          "uuid": 1,
+          "urllib": 1,
+          "MongoClient": 1,
+          "Tokenizer": 1,
+          "itertools": 1,
+          "zip_longest": 1,
+          "asyncio": 1,
+          "ComparisonForm": 1,
+          "=": 1,
+          "setup_buster": 1,
+          "Path": 1,
+          "QuestionReformulator": 1,
+          "get_openai_embedding_constructor": 1,
+          "pathlib": 1,
+          "__future__": 1,
+          "UserInputs": 1,
+          "Any": 1,
+          "dataclass": 1,
+          "username": 1,
+          "annotations": 1,
+          "dataclasses": 1,
+          "pyparsing": 1,
+          "jsonable_encoder": 1,
+          "collections": 1,
+          "tiktoken": 1,
+          "defaultdict": 1,
+          "thread_map": 1,
+          "deepcopy": 1,
+          "QuestionValidator": 1,
+          "log_completion": 1,
+          "read_collection": 1,
+          "performance": 1,
+          "scripts": 1,
+          "chunk_text": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 48,
+        "packages": {
+          "spec_helper": 10,
+          "rubygems": 5,
+          "net/http": 5,
+          "Reloadable": 4,
+          "rspec": 3,
+          "formula": 3,
+          "ostruct": 2,
+          "nokogiri": 2,
+          "mocha": 2,
+          ":must": 2,
+          "spec/autorun": 2,
+          "puppet": 2,
+          "activerecord": 2,
+          "InstanceMethods": 2,
+          "json": 2,
+          "omniauth-oauth2": 2,
+          "ParolkarInnovationLab::SocialNet::InstanceMethods": 1,
+          "test_helper": 1,
+          "active_support/test_case": 1,
+          "active_support": 1,
+          "anemone/anemone": 1,
+          "anemone/core": 1,
+          "obey_robots_dot_txt": 1,
+          "anemone/page_hash": 1,
+          "anemone/tentacle": 1,
+          "thread": 1,
+          "anemone/http": 1,
+          "anemone/page": 1,
+          "fakeweb": 1,
+          "anemone": 1,
+          "a": 1,
+          "cash/util/array": 1,
+          "cash/write_through": 1,
+          "activesupport": 1,
+          "Cash": 1,
+          "cash/query/calculation": 1,
+          "cash/buffered": 1,
+          "cash/query/abstract": 1,
+          "cash/accessor": 1,
+          "cash/index": 1,
+          "cash/request": 1,
+          "cash/query/select": 1,
+          "Config": 1,
+          "cash/local": 1,
+          "cash/finders": 1,
+          "cash/mock": 1,
+          "cash/lock": 1,
+          "cash/config": 1,
+          "cash/query/primary_key": 1,
+          "cash/transactional": 1,
+          "Commands": 1,
+          "Attributes": 1,
+          "cache_money": 1,
+          "memcache": 1,
+          "pp": 1,
+          "spec": 1,
+          "v2/geocode": 1,
+          "v3/cartographer/header": 1,
+          "v3/cartographer/gmap": 1,
+          "v2/cartographer/gmap": 1,
+          "v3/cartographer/cluster_icon": 1,
+          "v2/cartographer/gmarker": 1,
+          "v2/cartographer": 1,
+          "v3/cartographer/gicon": 1,
+          "v3/cartographer/gpolyline": 1,
+          "v3/cartographer/gmarker": 1,
+          "v2/cartographer/gicon": 1,
+          "v2/cartographer/header": 1,
+          "v3/cartographer": 1,
+          "v3/cartographer/infowindow": 1,
+          "xmlrpc/client": 1,
+          "csv": 1,
+          "open-uri": 1,
+          "sinatra": 1,
+          "ClickfunnelsAuth::ControllerHelper": 1,
+          "cucumber/rails": 1,
+          "clickfunnels_auth/user_helper": 1,
+          "clickfunnels_auth/controller_helper": 1,
+          "clickfunnels_auth/engine": 1,
+          "omniauth/strategies/clickfunnels": 1,
+          "clickfunnels_auth": 1,
+          "sprockets/railtie": 1,
+          "action_controller/railtie": 1,
+          "action_mailer/railtie": 1,
+          "active_record/railtie": 1,
+          "bundler/setup": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "parolkar/active_log",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "parolkar/ai_policy_research_toolkit",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "parolkar/anemone",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "parolkar/automated_sysadmin_screen_test",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "parolkar/brew_install_hadoop",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "parolkar/cache-money",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "parolkar/cartographer",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "parolkar/charlie.bz",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "parolkar/ChatIOM",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "parolkar/clickfunnels_auth",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "parolkar/concerto",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

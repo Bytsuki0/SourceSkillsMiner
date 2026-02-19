@@ -1,0 +1,535 @@
+{
+  "username": "yeliu84",
+  "areas": {
+    "OSS": {
+      "score": 0.6114963320796005,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.7777777777777778,
+        "commits_activity": 0.9728000536749563
+      }
+    },
+    "Status": {
+      "score": 0.30125967859297464,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9134279794279234,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "yeliu84/fetch.json": 0.00235,
+        "yeliu84/fetch.jsonapi": -0.051875
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.45318900266814377,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        64758,
+        124
+      ],
+      "HTML": [
+        8905,
+        20
+      ],
+      "CSS": [
+        156,
+        0
+      ],
+      "Go": [
+        239,
+        13
+      ],
+      "Elm": [
+        186,
+        0
+      ],
+      "Objective-C": [
+        77,
+        1
+      ],
+      "Java": [
+        19,
+        0
+      ],
+      "C++": [
+        1,
+        0
+      ],
+      "Kotlin": [
+        13827,
+        2
+      ],
+      "TypeScript": [
+        1163,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 160,
+    "total_lines": 89331,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 64758,
+        "commits": 124
+      },
+      {
+        "language": "HTML",
+        "lines": 8905,
+        "commits": 20
+      },
+      {
+        "language": "Go",
+        "lines": 239,
+        "commits": 13
+      },
+      {
+        "language": "Kotlin",
+        "lines": 13827,
+        "commits": 2
+      },
+      {
+        "language": "Objective-C",
+        "lines": 77,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "yeliu84",
+    "analysis_date": "2026-02-19T02:57:58.616372",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 290,
+    "languages": {
+      "C": {
+        "files_scanned": 13,
+        "packages": {
+          "<string.h>": 7,
+          "string.h": 7,
+          "stdint.h": 6,
+          "<stdint.h>": 6,
+          "eeprom_driver.h": 5,
+          "wait.h": 5,
+          "debug.h": 4,
+          "timer.h": 3,
+          "util.h": 2,
+          "rn42.h": 2,
+          "bluefruit_le.h": 2,
+          "i2c_master.h": 2,
+          "gpio.h": 2,
+          "eeprom.h": 2,
+          "spi_master.h": 2,
+          "<stdio.h>": 1,
+          "math.h": 1,
+          "stdio.h": 1,
+          "<math.h>": 1,
+          "backlight.h": 1,
+          "backlight_driver_common.h": 1,
+          "bluetooth.h": 1,
+          "outputselect.h": 1,
+          "usb_util.h": 1,
+          "report.h": 1,
+          "uart.h": 1,
+          "eeprom_i2c.h": 1,
+          "eeprom_spi.h": 1,
+          "eeprom_transient.h": 1,
+          "wear_leveling.h": 1,
+          "keycodes.h": 1,
+          "keyboard.h": 1,
+          "split_util.h": 1,
+          "action.h": 1,
+          "encoder.h": 1,
+          "flash.h": 1,
+          "flash_spi.h": 1,
+          "mcp23018.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 1,
+        "packages": {
+          "System": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "namespace": 1,
+          "<iostream>": 1,
+          "std": 1,
+          "iostream": 1,
+          "spi_master.h": 1,
+          "<string.h>": 1,
+          "stdlib.h": 1,
+          "analog.h": 1,
+          "gpio.h": 1,
+          "<alloca.h>": 1,
+          "progmem.h": 1,
+          "debug.h": 1,
+          "timer.h": 1,
+          "stdio.h": 1,
+          "alloca.h": 1,
+          "<stdlib.h>": 1,
+          "string.h": 1,
+          "<stdio.h>": 1,
+          "wait.h": 1,
+          "ringbuffer.hpp": 1,
+          "bluefruit_le.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 24,
+        "packages": {
+          "<Foundation/Foundation.h>": 8,
+          "<UIKit/UIKit.h>": 7,
+          "stdint.h": 5,
+          "<stdint.h>": 5,
+          "PayPalConfiguration.h": 4,
+          "CardIODetectionMode.h": 3,
+          "report.h": 3,
+          "stdbool.h": 3,
+          "<stdbool.h>": 3,
+          "<StoreKit/StoreKit.h>": 2,
+          "CardIOViewDelegate.h": 2,
+          "CardIOPaymentViewControllerDelegate.h": 2,
+          "PayPalOAuthScopes.h": 2,
+          "PayPalPayment.h": 2,
+          "FileUtility.h": 1,
+          "SKProduct+LocalizedPrice.h": 1,
+          "<Cordova/NSData+Base64.h>": 1,
+          "<Cordova/CDVPlugin.h>": 1,
+          "CardIOCreditCardInfo.h": 1,
+          "CardIOUtilities.h": 1,
+          "CardIOPaymentViewController.h": 1,
+          "CardIOView.h": 1,
+          "PayPalFuturePaymentViewController.h": 1,
+          "PayPalPaymentViewController.h": 1,
+          "PayPalProfileSharingViewController.h": 1,
+          "PayPalMobile.h": 1,
+          "PayPalMobileXcode7CompatibilityMacros.h": 1,
+          "<Cordova/CDV.h>": 1,
+          "eeprom.h": 1,
+          "eeconfig.h": 1,
+          "stdlib.h": 1,
+          "<stdlib.h>": 1,
+          "flash.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 5,
+        "packages": {
+          "fmt": 3,
+          "regexp": 2,
+          "errors": 2,
+          "testing": 2,
+          "net/http": 2,
+          "os": 1,
+          "bytes": 1,
+          "os/exec": 1,
+          "github.com/DHowett/go-plist": 1,
+          "strings": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 14,
+        "packages": {
+          "com.smartmobilesoftware": 10,
+          "org.json": 7,
+          "android.content": 5,
+          "android.util": 4,
+          "java.util": 4,
+          "android.app": 3,
+          "org.apache": 3,
+          "android.view": 2,
+          "org.xwalk": 2,
+          "com.example": 2,
+          "android.widget": 2,
+          "android.graphics": 2,
+          "android.text": 2,
+          "android.webkit": 1,
+          "android.os": 1,
+          "com.android": 1,
+          "java.security": 1,
+          "foo": 1,
+          "org.junit": 1,
+          "android.net": 1,
+          "com.paypal": 1,
+          "java.math": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 84,
+        "packages": {
+          "react": 33,
+          "react-router": 18,
+          "react-google-maps": 17,
+          "path": 12,
+          "expect": 7,
+          "webpack": 6,
+          "react-dom": 6,
+          "prop-types": 6,
+          "sys": 5,
+          "lodash": 4,
+          "react-addons-update": 4,
+          "fs": 3,
+          "undefined": 3,
+          "isomorphic-fetch": 2,
+          "object": 2,
+          "os": 2,
+          "mysql": 2,
+          "expo": 2,
+          "child_process": 2,
+          "history": 2,
+          "iarna": 1,
+          "url": 1,
+          "yaml": 1,
+          "webpack-dev-server": 1,
+          "fetch.json": 1,
+          "query-string": 1,
+          "post": 1,
+          "vscode": 1,
+          "mocha": 1,
+          "glob": 1,
+          "gulp-tsb": 1,
+          "gulp": 1,
+          "object-assign": 1,
+          "function": 1,
+          "persistence": 1,
+          "sqlite": 1,
+          "sqlite3": 1,
+          "test": 1,
+          "assert": 1,
+          "closures": 1,
+          "react-icons": 1,
+          "can-use-dom": 1,
+          "raf": 1,
+          "metro-config": 1,
+          "escape-string-regexp": 1,
+          "src": 1,
+          "in-publish": 1,
+          "pretty-bytes": 1,
+          "gzip-size": 1,
+          "babel-preset-es2015": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 4,
+        "packages": {
+          "FileUtility.h": 1,
+          "sys/utsname.h": 1,
+          "<sys/utsname.h>": 1,
+          "InAppPurchase.h": 1,
+          "stdlib.h": 1,
+          "stdio.h": 1,
+          "<stdlib.h>": 1,
+          "<stdio.h>": 1,
+          "SKProduct+LocalizedPrice.h": 1,
+          "PayPalMobileCordovaPlugin.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 4,
+        "packages": {
+          "sqlalchemy": 3,
+          "select": 2,
+          "setup": 1,
+          "setuptools": 1,
+          "wechat": 1,
+          "os": 1,
+          "create_engine": 1,
+          "re": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 4,
+        "packages": {
+          "clsx": 1,
+          "tailwind-merge": 1,
+          "zustand": 1,
+          "path": 1,
+          "vite-plugin-static-copy": 1,
+          "tailwindcss": 1,
+          "vite": 1,
+          "vitejs": 1,
+          "vitepress": 1,
+          "vitepress-plugin-tabs": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 45,
+        "packages": {
+          "react": 40,
+          "react-native-svg": 22,
+          "lucide-react": 8,
+          "radix-ui": 7,
+          "react-router-dom": 2,
+          "sonner": 2,
+          "class-variance-authority": 2,
+          "copy-to-clipboard": 1,
+          "uiw": 1,
+          "codemirror": 1,
+          "cmdk": 1,
+          "next-themes": 1,
+          "react-dom": 1,
+          "react-native-svg-circle-country-flags": 1,
+          "react-native": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "yeliu84/cordova-plugin-inappbrowserxwalk",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "yeliu84/cordova-plugin-purchase",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "yeliu84/diskeject",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "yeliu84/dokploy-templates",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "yeliu84/elm-wizard",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "yeliu84/fetch.json",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "yeliu84/fetch.jsonapi",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "yeliu84/oni2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C#",
+          "C++",
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "yeliu84/PayPal-Cordova-Plugin",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "yeliu84/persistencejs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "yeliu84/python-wechat",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "yeliu84/qmk_firmware",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "yeliu84/react-google-maps",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "yeliu84/react-native-svg-circle-country-flags",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "yeliu84/react-router",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "yeliu84/rollins",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

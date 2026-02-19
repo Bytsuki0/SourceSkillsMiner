@@ -1,0 +1,658 @@
+{
+  "username": "bouchard",
+  "areas": {
+    "OSS": {
+      "score": 0.4442411409671545,
+      "details": {
+        "issue_resolution_rate": 0.9047619047619048,
+        "pr_merge_rate": 0.36363636363636365,
+        "commits_activity": 0.8979634430524635
+      }
+    },
+    "Status": {
+      "score": 0.2840339083737322,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8683585548682905,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "bouchard/asset_packager": 0.6498,
+        "bouchard/thumbs_up": 0.44394605263157894,
+        "bouchard/totalrecall.drbouchard.ca": 0.70135
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.48206876233522167,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        342372,
+        1
+      ],
+      "Ruby": [
+        124199,
+        84
+      ],
+      "HTML": [
+        19944,
+        0
+      ],
+      "Shell": [
+        130,
+        2
+      ],
+      "Dockerfile": [
+        22,
+        0
+      ],
+      "Procfile": [
+        5,
+        0
+      ],
+      "CSS": [
+        47258,
+        0
+      ],
+      "CoffeeScript": [
+        16287,
+        0
+      ],
+      "PHP": [
+        373,
+        2
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 89,
+    "total_lines": 550590,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 124199,
+        "commits": 84
+      },
+      {
+        "language": "Shell",
+        "lines": 130,
+        "commits": 2
+      },
+      {
+        "language": "PHP",
+        "lines": 373,
+        "commits": 2
+      },
+      {
+        "language": "JavaScript",
+        "lines": 342372,
+        "commits": 1
+      },
+      {
+        "language": "HTML",
+        "lines": 19944,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "bouchard",
+    "analysis_date": "2026-02-19T07:50:37.048694",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 330,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "string.h": 1,
+          "<string.h>": 1,
+          "<ruby.h>": 1,
+          "ruby.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 11,
+        "packages": {
+          "jquery": 3,
+          "object": 3,
+          "fs": 1,
+          "bean": 1,
+          "bonzo": 1,
+          "qwery": 1,
+          "reqwest": 1,
+          "all": 1,
+          "jQuery": 1,
+          ":not(.": 1,
+          "!important": 1,
+          "input[name][required]:not([disabled]),textarea[name][required]:not([disabled])": 1,
+          ":": 1,
+          "return": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "msal": 2,
+          "config": 2,
+          "sys": 2,
+          "ConfidentialClientApplication": 2,
+          "urllib": 1,
+          "threading": 1,
+          "webbrowser": 1,
+          "http": 1,
+          "os": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 134,
+        "packages": {
+          "spec_helper": 16,
+          "ROXML": 16,
+          "uri": 5,
+          "Utilities::Helpers": 5,
+          "pathname": 4,
+          "fileutils": 4,
+          "fog": 4,
+          "digest/md5": 4,
+          "active_record": 4,
+          "bigdecimal": 4,
+          "HasLineItems": 4,
+          "yaml": 3,
+          "Config::Helpers": 3,
+          "nokogiri": 3,
+          "HighlightCode": 3,
+          "TemplateWrapper": 3,
+          "net/http": 2,
+          "stringio": 2,
+          "json": 2,
+          "bundler/setup": 2,
+          "rubygems": 2,
+          "time": 2,
+          "forwardable": 2,
+          "backup/cloud_io/base": 2,
+          "ostruct": 2,
+          "carrierwave/orm/activerecord": 2,
+          "sqlite3": 2,
+          "CarrierWave::Mount": 2,
+          "carrierwave/validations/active_model": 2,
+          "CarrierWave::Validations::ActiveModel": 2,
+          "RMagick": 2,
+          "rmagick": 2,
+          "CarrierWave::Uploader::Callbacks": 2,
+          "CarrierWave::Uploader::Configuration": 2,
+          "net/https": 2,
+          "Octopress::Date": 2,
+          "cgi": 2,
+          "money/rails": 2,
+          "money": 2,
+          "quickbooks/model/custom_field": 2,
+          "quickbooks/model/entity_ref": 2,
+          "quickbooks/model/attachable_ref": 2,
+          "GlobalTaxCalculation": 2,
+          "NameEntity::PermitAlterations": 2,
+          "NameEntity::Quality": 2,
+          "lib": 1,
+          "synthesis/railtie": 1,
+          "synthesis": 1,
+          "rails": 1,
+          "autoprefixer-rails/railtie": 1,
+          "autoprefixer-rails/version": 1,
+          "autoprefixer-rails/result": 1,
+          "autoprefixer-rails/processor": 1,
+          "execjs": 1,
+          "rake/autoprefixer_tasks": 1,
+          "rake/tasklib": 1,
+          "rake": 1,
+          "autoprefixer-rails": 1,
+          "sprockets/railtie": 1,
+          "action_controller/railtie": 1,
+          "tzinfo": 1,
+          "bundler": 1,
+          "rspec/rails": 1,
+          "app/config/environment": 1,
+          "excon": 1,
+          "syslog": 1,
+          "tempfile": 1,
+          "thor": 1,
+          "response.inspect": 1,
+          "shellwords": 1,
+          "etc": 1,
+          "thread": 1,
+          "open4": 1,
+          "base64": 1,
+          "backup/config/dsl": 1,
+          "backup/config/helpers": 1,
+          ":cleanup": 1,
+          "the": 1,
+          "NestedExceptions": 1,
+          "backup/logger/fog_adapter": 1,
+          "backup/logger/console": 1,
+          "backup/logger/syslog": 1,
+          "backup/logger/logfile": 1,
+          "formatador": 1,
+          "fog/core/logger": 1,
+          "calendar_date_select/form_helpers.rb": 1,
+          "calendar_date_select/includes_helper.rb": 1,
+          "calendar_date_select/calendar_date_select.rb": 1,
+          "DataMapper::Resource": 1,
+          "sqlite3/sqlite3_native": 1,
+          "carrierwave/mount": 1,
+          ":running": 1,
+          "carrierwave": 1,
+          "activerecord": 1,
+          "rspec": 1,
+          "sham_rack": 1,
+          "active_support/memoizable": 1,
+          "carrierwave/orm/datamapper": 1,
+          "active_support/core_ext/object/blank": 1,
+          "active_support/concern": 1,
+          "active_support/core_ext/class/attribute": 1,
+          "carrierwave/orm/sequel": 1,
+          "carrierwave/orm/mongoid": 1,
+          "active_support/core_ext/class/inheritable_attributes": 1,
+          "CarrierWave::Compatibility::Paperclip": 1,
+          "CarrierWave::Mount::Extension": 1,
+          "mod": 1,
+          "mongoid": 1,
+          "image_science": 1,
+          "mini_magick": 1,
+          "CarrierWave::MiniMagick": 1,
+          "CarrierWave::RMagick": 1,
+          "active_support/core_ext/string/multibyte": 1,
+          "cloudfiles": 1,
+          "mongo": 1,
+          "CarrierWave::Uploader::DefaultUrl": 1,
+          "CarrierWave::Uploader::Mountable": 1,
+          "CarrierWave::Uploader::Url": 1,
+          "CarrierWave::Uploader::Remove": 1,
+          "CarrierWave::Uploader::Download": 1,
+          "CarrierWave::Uploader::Processing": 1,
+          "CarrierWave::Uploader::Cache": 1,
+          "CarrierWave::Uploader::ExtensionWhitelist": 1,
+          "CarrierWave::Uploader::Store": 1,
+          "CarrierWave::Uploader::Proxy": 1,
+          "CarrierWave::Uploader::Versions": 1,
+          "claimer/gateway": 1,
+          "claimer/record": 1,
+          "claimer/version": 1,
+          "csv": 1,
+          "test_submission": 1,
+          "claimer": 1,
+          "FavStar::ActsAsFaveable::InstanceMethods": 1,
+          "FavStar::ActsAsFaver::InstanceMethods": 1,
+          "acts_as_faveable": 1,
+          "acts_as_faver": 1,
+          "Rails::Generators::Migration": 1,
+          "rails/generators/active_record": 1,
+          "faraday": 1,
+          "googleauth": 1,
+          "event_stream_parser": 1,
+          "faraday/typhoeus": 1,
+          "Gemini::Errors": 1,
+          "dotenv/load": 1,
+          "anemone": 1,
+          "find": 1,
+          "colorize": 1,
+          "link_checker": 1,
+          "fakeweb": 1,
+          "debugger": 1,
+          "simplecov": 1,
+          "haml": 1,
+          "_includes": 1,
+          "OctopressFilters": 1,
+          "rubypants": 1,
+          "BacktickCodeBlock": 1,
+          "pygments": 1,
+          "meekster/ballot_file": 1,
+          "meekster/candidate": 1,
+          "meekster/ballot": 1,
+          "meekster/round": 1,
+          "meekster/election": 1,
+          "meekster/version": 1,
+          "support/cattr_accessor": 1,
+          "Comparable": 1,
+          "money/bank/variable_exchange_bank": 1,
+          "money/bank/no_exchange_bank": 1,
+          "money/core_extensions": 1,
+          "spec": 1,
+          "OCAMarkdown": 1,
+          "CanCan::Ability": 1,
+          "diff/lcs": 1,
+          "Sortable": 1,
+          "ActionController::Live": 1,
+          "quickbooks/service/bill": 1,
+          "quickbooks/util/collection": 1,
+          "quickbooks/model/time_activity": 1,
+          "quickbooks/model/purchase_line_item": 1,
+          "quickbooks/model/department": 1,
+          "quickbooks/model/item_based_expense_line_detail": 1,
+          "quickbooks/model/invoice_line_item": 1,
+          "quickbooks/service/service_crud": 1,
+          "quickbooks/service/invoice_change": 1,
+          "quickbooks/model/tax_line_detail": 1,
+          "quickbooks/model/bill": 1,
+          "quickbooks/service/department": 1,
+          "quickbooks/model/base_reference": 1,
+          "quickbooks/model/attachable": 1,
+          "quickbooks/model/vendor_change": 1,
+          "quickbooks/model/refund_receipt_change": 1,
+          "quickbooks/model/payment_line_detail": 1,
+          "quickbooks/model/name_value": 1,
+          "quickbooks/model/account_based_expense_line_detail": 1,
+          "quickbooks/model/bill_payment_check": 1,
+          "quickbooks/model/credit_memo_change": 1,
+          "quickbooks/service/term": 1,
+          "quickbooks/model/budget_line_item": 1,
+          "quickbooks/model/delivery_info": 1,
+          "quickbooks/model/purchase_order": 1,
+          "quickbooks/model/base_model": 1,
+          "quickbooks/model/vendor": 1,
+          "quickbooks/model/web_site_address": 1,
+          "quickbooks/service/customer_change": 1,
+          "quickbooks/model/company_info": 1,
+          "quickbooks/service/base_service_json": 1,
+          "quickbooks/service/budget": 1,
+          "quickbooks/model/credit_card_payment": 1,
+          "quickbooks/model/purchase_tax_rate_list": 1,
+          "quickbooks/service/sales_receipt": 1,
+          "quickbooks/service/access_token": 1,
+          "quickbooks/model/bill_payment": 1,
+          "quickbooks/util/http_encoding_helper": 1,
+          "quickbooks/util/name_entity": 1,
+          "quickbooks/model/validator": 1,
+          "quickbooks/model/payment_method": 1,
+          "quickbooks/model/tax_rate_detail": 1,
+          "quickbooks/util/multipart": 1,
+          "quickbooks/service/vendor_credit": 1,
+          "quickbooks/service/account": 1,
+          "quickbooks/model/sales_tax_rate_list": 1,
+          "quickbooks/service/vendor_change": 1,
+          "quickbooks/model/deposit_line_item": 1,
+          "quickbooks/service/credit_memo": 1,
+          "quickbooks/model/item_change": 1,
+          "quickbooks/model/access_token_response": 1,
+          "quickbooks/service/base_service": 1,
+          "quickbooks/model/purchase": 1,
+          "quickbooks/model/tax_line": 1,
+          "quickbooks/model/email_address": 1,
+          "quickbooks/model/tax_service": 1,
+          "quickbooks/service/time_activity": 1,
+          "quickbooks/service/purchase": 1,
+          "quickbooks/model/transfer": 1,
+          "quickbooks/service/tax_rate": 1,
+          "quickbooks/model/entity": 1,
+          "quickbooks/model/line": 1,
+          "quickbooks/model/invoice_change": 1,
+          "quickbooks/model/tax_agency": 1,
+          "quickbooks/model/item_group_line": 1,
+          "quickbooks/service/deposit": 1,
+          "quickbooks/service/tax_service": 1,
+          "quickbooks/model/document_numbering": 1,
+          "net/http/post/multipart": 1,
+          "quickbooks/model/sub_total_line_detail": 1,
+          "quickbooks/service/journal_entry": 1,
+          "quickbooks/model/customer": 1,
+          "quickbooks/model/markup_info": 1,
+          "quickbooks/model/batch_response": 1,
+          "quickbooks/model/budget": 1,
+          "quickbooks/service/tax_code": 1,
+          "quickbooks/model/class": 1,
+          "active_model": 1,
+          "quickbooks/model/telephone_number": 1,
+          "quickbooks/model/discount_line_detail": 1,
+          "quickbooks/model/check_payment": 1,
+          "quickbooks/model/deposit": 1,
+          "quickbooks/model/payment": 1,
+          "quickbooks/service/vendor": 1,
+          "quickbooks/model/base_model_json": 1,
+          "quickbooks/service/customer": 1,
+          "quickbooks/service/preferences": 1,
+          "quickbooks/model/deposit_line_detail": 1,
+          "quickbooks/model/term": 1,
+          "quickbooks/model/group_line_detail": 1,
+          "quickbooks/model/tax_code": 1,
+          "quickbooks/model/change_data_capture": 1,
+          "date": 1,
+          "quickbooks/model/bill_payment_credit_card": 1,
+          "quickbooks/model/bill_line_item": 1,
+          "quickbooks/model/physical_address": 1,
+          "quickbooks/model/payment_change": 1,
+          "quickbooks/service/attachable": 1,
+          "quickbooks/model/vendor_credit": 1,
+          "quickbooks/service/tax_agency": 1,
+          "quickbooks/model/bill_payment_line_item": 1,
+          "logger": 1,
+          "quickbooks/util/query_builder": 1,
+          "quickbooks/service/company_info": 1,
+          "quickbooks/model/discount_override": 1,
+          "quickbooks/model/preferences": 1,
+          "quickbooks/service/refund_receipt": 1,
+          "quickbooks/model/sales_receipt": 1,
+          "quickbooks/service/payment_method": 1,
+          "quickbooks/service/service_crud_json": 1,
+          "quickbooks/service/estimate": 1,
+          "quickbooks/model/other_contact_info": 1,
+          "quickbooks/util/logging": 1,
+          "quickbooks/service/employee": 1,
+          "quickbooks/model/journal_entry_line_detail": 1,
+          "quickbooks/service/invoice": 1,
+          "quickbooks/service/change_service": 1,
+          "quickbooks/model/item": 1,
+          "oauth": 1,
+          "quickbooks/model/customer_change": 1,
+          "quickbooks/model/tax_rate_detail_line": 1,
+          "quickbooks/service/item_change": 1,
+          "quickbooks/model/global_tax_calculation": 1,
+          "quickbooks/model/refund_receipt": 1,
+          "quickbooks/service/transfer": 1,
+          "quickbooks/model/invoice_group_line_detail": 1,
+          "quickbooks/model/account": 1,
+          "quickbooks/model/definition": 1,
+          "quickbooks/model/report": 1,
+          "quickbooks/model/tax_rate": 1,
+          "quickbooks/service/payment": 1,
+          "quickbooks/model/change_model": 1,
+          "quickbooks/model/employee": 1,
+          "quickbooks/model/fault": 1,
+          "quickbooks/service/item": 1,
+          "quickbooks/service/bill_payment": 1,
+          "quickbooks/model/meta_data": 1,
+          "quickbooks/service/credit_memo_change": 1,
+          "quickbooks/model/transaction_tax_detail": 1,
+          "quickbooks/service/purchase_order": 1,
+          "quickbooks/model/sales_item_line_detail": 1,
+          "quickbooks/service/reports": 1,
+          "quickbooks/service/payment_change": 1,
+          "quickbooks/model/credit_memo": 1,
+          "quickbooks/model/batch_request": 1,
+          "quickbooks/model/estimate": 1,
+          "quickbooks/model/has_line_items": 1,
+          "roxml": 1,
+          "quickbooks/model/item_group_detail": 1,
+          "quickbooks/model/journal_entry": 1,
+          "quickbooks/service/upload": 1,
+          "quickbooks/model/invoice": 1,
+          "quickbooks/service/batch": 1,
+          "quickbooks/service/change_data_capture": 1,
+          "quickbooks/service/refund_receipt_change": 1,
+          "quickbooks/service/class": 1,
+          "quickbooks/model/linked_transaction": 1,
+          "Validator": 1,
+          "ActiveModel::Validations": 1,
+          "Definition": 1,
+          "DocumentNumbering": 1,
+          "active_support/inflector": 1,
+          "active_support/core_ext/hash": 1,
+          "active_support": 1,
+          "roxml/xml": 1,
+          "active_support/core_ext/array/extract_options": 1,
+          "active_support/core_ext/object/duplicable": 1,
+          "active_support/core_ext/string/starts_ends_with": 1,
+          "active_support/core_ext/module/delegation": 1,
+          "InstanceMethods": 1,
+          "roxml/definition": 1,
+          "roxml/hash_definition": 1,
+          "roxml/xml/parsers": 1,
+          "roxml/xml/references": 1,
+          "parsers.first": 1,
+          "libxml": 1,
+          "mkmf": 1,
+          "similar_text/version": 1,
+          "similar_text.so": 1,
+          "test_init.rb": 1,
+          "test/unit": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "bouchard/asset_packager",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/autoprefixer-rails",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/backup",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/calendar_date_select",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/carrierwave",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/claimer",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/fav_star",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/gemini-ai",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/link-checker",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/M365-IMAP",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bouchard/meekster",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/money",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/oncallaid.com",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/peakehr.com",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/quickbooks-ruby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/roxml",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bouchard/similar_text-ruby",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C",
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

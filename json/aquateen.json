@@ -1,0 +1,488 @@
+{
+  "username": "aquateen",
+  "areas": {
+    "OSS": {
+      "score": -0.13317511362131418,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.6,
+        "commits_activity": 0.7002373295680288
+      }
+    },
+    "Status": {
+      "score": 0.12797764565232983,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6535049300169562,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.048700633007753916,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        9712,
+        11
+      ],
+      "Vim Script": [
+        108,
+        7
+      ],
+      "Shell": [
+        119,
+        5
+      ],
+      "Ruby": [
+        45,
+        4
+      ],
+      "HTML": [
+        1151,
+        1
+      ],
+      "CSS": [
+        1058,
+        1
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 29,
+    "total_lines": 12193,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 9712,
+        "commits": 11
+      },
+      {
+        "language": "Vim Script",
+        "lines": 108,
+        "commits": 7
+      },
+      {
+        "language": "Shell",
+        "lines": 119,
+        "commits": 5
+      },
+      {
+        "language": "Ruby",
+        "lines": 45,
+        "commits": 4
+      },
+      {
+        "language": "HTML",
+        "lines": 1151,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "aquateen",
+    "analysis_date": "2026-02-19T06:01:25.275381",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 179,
+    "languages": {
+      "C": {
+        "files_scanned": 3,
+        "packages": {
+          "stdio.h": 3,
+          "<stdio.h>": 3
+        }
+      },
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "net/http": 1,
+          "log": 1,
+          "time": 1,
+          "html/template": 1,
+          "fmt": 1,
+          "os": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 12,
+        "packages": {
+          "react": 10,
+          "react-router-dom": 3,
+          "axios": 3,
+          "react-dom": 2,
+          "os": 1,
+          "http": 1,
+          "=": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 77,
+        "packages": {
+          "File.join": 6,
+          "test_helper": 5,
+          "Roar::JSON": 5,
+          "Mongoid::Token": 3,
+          "Mongoid::Document": 3,
+          "netflix/json_resource": 3,
+          "json": 3,
+          "rake/file_utils_ext": 3,
+          "rake/early_time": 3,
+          "rbconfig": 3,
+          "rake": 3,
+          "spec_helper": 3,
+          "clearance": 2,
+          "Clearance::User": 2,
+          "rubygems": 2,
+          "bundler": 2,
+          "mongoid_token": 2,
+          "mongoid": 2,
+          "database_cleaner": 2,
+          "oauth": 2,
+          "yaml": 2,
+          "test/unit": 2,
+          "netflix": 2,
+          "rake/file_list": 2,
+          "ostruct": 2,
+          "rake/trace_output": 2,
+          "fileutils": 2,
+          "rake/win32": 2,
+          "rake/task_manager": 2,
+          "rake/file_task": 2,
+          "optparse": 2,
+          "rake/ext/string": 2,
+          "Singleton": 2,
+          "Comparable": 2,
+          "rake/ext/core": 2,
+          "Enumerable": 2,
+          "Roar::Rails::ControllerAdditions": 2,
+          "Roar::Hypermedia": 2,
+          "clearance/engine": 1,
+          "clearance/extensions/rescue": 1,
+          "clearance/authentication": 1,
+          "clearance/extensions/errors": 1,
+          "clearance/configuration": 1,
+          "clearance/user": 1,
+          "rails": 1,
+          "Clearance::Shoulda::Helpers": 1,
+          "digest/sha1": 1,
+          "Callbacks": 1,
+          "AttrAccessor": 1,
+          "InstanceMethods": 1,
+          "rails/generators/active_record": 1,
+          "Clearance::Authentication": 1,
+          "rails/all": 1,
+          "benchmark": 1,
+          "mongoid/token/finders": 1,
+          "mongoid/token/exceptions": 1,
+          "mongoid/token/generator": 1,
+          "mongoid/token/options": 1,
+          "mongoid/token/collision_resolver": 1,
+          "mongoid/token/collisions": 1,
+          "mongoid/token": 1,
+          "mongoid-rspec": 1,
+          "netflix/user": 1,
+          "netflix/disc": 1,
+          "netflix/queue": 1,
+          "netflix/client": 1,
+          "netflix/response": 1,
+          "netflix/errors": 1,
+          "launchy": 1,
+          "fakeweb": 1,
+          "rake/cpu_counter": 1,
+          "rake/version": 1,
+          "monitor": 1,
+          "singleton": 1,
+          "rake/late_time": 1,
+          "rake/rule_recursion_overflow_error": 1,
+          "rake/linked_list": 1,
+          "rake/task": 1,
+          "rake/application": 1,
+          "rake/name_space": 1,
+          "rake/scope": 1,
+          "rake/rake_module": 1,
+          "rake/default_loader": 1,
+          "rake/task_argument_error": 1,
+          "rake/dsl_definition": 1,
+          "rake/backtrace": 1,
+          "rake/task_arguments": 1,
+          "rake/file_creation_task": 1,
+          "rake/multi_task": 1,
+          "rake/pseudo_status": 1,
+          "rake/invocation_chain": 1,
+          "value": 1,
+          "rake/thread_pool": 1,
+          "TaskManager": 1,
+          "TraceOutput": 1,
+          "rake/thread_history_display": 1,
+          "etc": 1,
+          "win32ole": 1,
+          "FileUtilsExt": 1,
+          "the": 1,
+          "statement": 1,
+          "pathname": 1,
+          "rake/cloneable": 1,
+          "Cloneable": 1,
+          ":add": 1,
+          "kind_of?": 1,
+          "rake/task.rb": 1,
+          "rake/file_utils": 1,
+          "FileUtils": 1,
+          "Rake::DSL": 1,
+          "dependencies": 1,
+          "rake/tasklib": 1,
+          "Roar::<%=": 1,
+          "roar/rails/railtie": 1,
+          "roar/rails/rails3_2_strategy": 1,
+          "roar/rails/controller_additions": 1,
+          "roar/rails/rails3_0_strategy": 1,
+          "roar/rails/rails4_0_strategy": 1,
+          "roar/decorator": 1,
+          "roar/rails/rails4_2_strategy": 1,
+          "roar/rails/version": 1,
+          "uber/version": 1,
+          "roar/representer": 1,
+          "roar/rails/rails3_1_strategy": 1,
+          "responders": 1,
+          "if": 1,
+          "uber/inheritable_attr": 1,
+          "roar/rails/responder": 1,
+          "roar/rails/formats": 1,
+          "roar/json/hal": 1,
+          "roar/json/json_api": 1,
+          "action_controller/responder": 1,
+          "roar/rails/url_methods": 1,
+          "app.routes.mounted_helpers": 1,
+          "rails/railtie": 1,
+          "app.routes.url_helpers": 1,
+          "UrlMethods": 1,
+          "PrepareModel": 1,
+          "VersionStrategy": 1,
+          "test_xml/test_unit": 1,
+          "test_xml/mini_test": 1,
+          "TestCase::VersionStrategy": 1,
+          "TestXml::Assertions": 1,
+          "ProcessArgs": 1,
+          "Assertions": 1,
+          "Representable::JSON::Hash": 1,
+          "representable/json/collection": 1,
+          "Representable::JSON::Collection": 1,
+          "representable/json/hash": 1,
+          "Roar::JSON::JSONAPI": 1,
+          "Roar::Rails::TestCase": 1,
+          "Roar::JSON::HAL": 1,
+          "active_record/railtie": 1,
+          "action_controller/railtie": 1,
+          "action_view/railtie": 1,
+          "workable/version": 1,
+          "cgi": 1,
+          "net/http": 1,
+          "workable/errors": 1,
+          "date": 1,
+          "workable/transformation": 1,
+          "workable/collection": 1,
+          "workable/client": 1,
+          "uri": 1,
+          "webmock/rspec": 1,
+          "coveralls": 1,
+          "fixtures": 1,
+          "simplecov": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 30,
+        "packages": {
+          "lila.app": 30,
+          "controllers": 27,
+          "play.api": 22,
+          "lila.common": 15,
+          "lila.api": 12,
+          "views._": 12,
+          "lila.user": 8,
+          "scala.concurrent": 8,
+          "lila.game": 6,
+          "IpAddress": 4,
+          "HTTPRequest": 4,
+          "views.html": 3,
+          "lila.security": 3,
+          "ornicar.scalalib": 3,
+          "akka.actor": 2,
+          "PasswordAndToken": 2,
+          "TotpToken": 2,
+          "chess.format": 2,
+          "GameRepo": 2,
+          "org.joda": 2,
+          "User": 2,
+          "lila.forum": 2,
+          "com.typesafe": 1,
+          "GlobalSettings": 1,
+          "ResponseHeaders": 1,
+          "actor": 1,
+          "views.{": 1,
+          "views": 1,
+          "UserModel": 1,
+          "UserModel.{": 1,
+          "lila.pref": 1,
+          "lila.round": 1,
+          "PgnDump": 1,
+          "GameApiV2": 1,
+          "UserApi": 1,
+          "MaxPerPage": 1,
+          "lila.tournament": 1,
+          "MaxPerSecond": 1,
+          "lila.memo": 1,
+          "FormError": 1,
+          "FingerPrint": 1,
+          "EmailAddress": 1,
+          "UserModel.ClearPassword": 1,
+          "Prismic._": 1,
+          "io.prismic": 1,
+          "lila.challenge": 1,
+          "LilaCookie": 1,
+          "lila.socket": 1,
+          "AnonCookie": 1,
+          "lila.coach": 1,
+          "I18nLangPicker": 1,
+          "lila.i18n": 1,
+          "enLang": 1,
+          "Forms._": 1,
+          "chess.Situation": 1,
+          "Failure": 1,
+          "lila.fishnet": 1,
+          "scala.util": 1,
+          "Work": 1,
+          "imported": 1,
+          "Game": 1,
+          "=": 1,
+          "Dimension": 1,
+          "JsonQuestion._": 1,
+          "lila.insight": 1,
+          "lila.irwin": 1,
+          "lila.learn": 1,
+          "Lang": 1,
+          "lila.oauth": 1,
+          "Writes": 1,
+          "lila.notify": 1,
+          "FingerHash": 1,
+          "JsString": 1,
+          "JsObject": 1,
+          "Context": 1,
+          "HeaderContext": 1,
+          "scalatags.Text": 1,
+          "lila.relation": 1,
+          "FingerPrintedUser": 1,
+          "Granter": 1,
+          "ApiVersion": 1,
+          "BodyContext": 1,
+          "JsArray": 1,
+          "Nonce": 1,
+          "OAuthServer": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "aquateen/aws-bootstrap",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "aquateen/clearance",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "aquateen/colorbox",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "aquateen/example-web-app",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "aquateen/foodcodes-fe",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "aquateen/lila",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "aquateen/mongoid_token",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "aquateen/netflix-ruby",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "aquateen/rake",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "aquateen/roar-rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "aquateen/workable",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

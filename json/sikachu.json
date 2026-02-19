@@ -1,0 +1,561 @@
+{
+  "username": "sikachu",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.9375,
+        "pr_merge_rate": 9.333333333333334,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 0.75,
+      "details": {
+        "sikachu/capybara-envjs": -0.2526333333333333,
+        "sikachu/rails": 0.14986229508196722,
+        "sikachu/sprockets-redirect": 0.29624054054054055,
+        "sikachu/verification": 0.15956470588235291
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7432692307692308,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        54456,
+        300
+      ],
+      "Gherkin": [
+        8,
+        0
+      ],
+      "CSS": [
+        4010,
+        10
+      ],
+      "JavaScript": [
+        45204,
+        16
+      ],
+      "Shell": [
+        947,
+        81
+      ],
+      "Vim Script": [
+        783,
+        72
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Swift": [
+        680,
+        2
+      ],
+      "Java": [
+        607223,
+        0
+      ],
+      "XSLT": [
+        3329,
+        0
+      ],
+      "GAP": [
+        353,
+        0
+      ],
+      "HTML": [
+        602,
+        0
+      ],
+      "Dockerfile": [
+        84,
+        0
+      ],
+      "CoffeeScript": [
+        468,
+        8
+      ],
+      "C": [
+        6,
+        0
+      ],
+      "AppleScript": [
+        0,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 489,
+    "total_lines": 718153,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 54456,
+        "commits": 300
+      },
+      {
+        "language": "Shell",
+        "lines": 947,
+        "commits": 81
+      },
+      {
+        "language": "Vim Script",
+        "lines": 783,
+        "commits": 72
+      },
+      {
+        "language": "JavaScript",
+        "lines": 45204,
+        "commits": 16
+      },
+      {
+        "language": "CSS",
+        "lines": 4010,
+        "commits": 10
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sikachu",
+    "analysis_date": "2026-02-19T02:31:07.203715",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 253,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "path": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 153,
+        "packages": {
+          "spec_helper": 36,
+          "abstract_unit": 13,
+          "cases/helper": 12,
+          "active_record": 9,
+          "fixtures/person": 9,
+          "active_support/core_ext/hash/conversions": 7,
+          "fixtures/street_address": 7,
+          "active_support": 5,
+          "set": 4,
+          "minitest/autorun": 4,
+          "bundler/setup": 4,
+          "rubygems": 4,
+          "active_resource": 3,
+          "active_support/core_ext/object/blank": 3,
+          "active_support/core_ext/object/inclusion": 3,
+          "rails": 3,
+          "activeuuid": 3,
+          "ActiveUUID::UUID": 3,
+          "Enumerable": 3,
+          "Arel::Predications": 3,
+          "fileutils": 3,
+          "action_controller/action_caching": 2,
+          "active_model": 2,
+          "uri": 2,
+          "active_resource/exceptions": 2,
+          "active_support/core_ext/uri": 2,
+          "ActiveModel::Conversion": 2,
+          "active_support/core_ext/kernel/reporting": 2,
+          "active_resource/log_subscriber": 2,
+          "active_support/json": 2,
+          "ActiveModel::Observing": 2,
+          "bundler": 2,
+          "fixtures/customer": 2,
+          "fixtures/beast": 2,
+          "fixtures/proxy": 2,
+          "yaml": 2,
+          "ActiveHash::Associations": 2,
+          "PluginFactory": 2,
+          "Arel::Expressions": 2,
+          "Arel::Math": 2,
+          "audited": 2,
+          "audited/adapters/active_record": 2,
+          "audited/adapters/mongo_mapper": 2,
+          "audited/sweeper": 2,
+          "audited/auditor": 2,
+          "audited/audit": 2,
+          "Audited::Audit": 2,
+          "::MongoMapper::Document": 2,
+          "rails/generators/active_record": 2,
+          "Rails::Generators::Migration": 2,
+          "rails/generators/migration": 2,
+          "rails/generators": 2,
+          "RSpec::Rails::ControllerExampleGroup": 2,
+          "Actions": 1,
+          "action_controller/caching/actions": 1,
+          "actionpack/action_caching/railtie": 1,
+          "rails/railtie": 1,
+          "action_controller": 1,
+          "mocha/setup": 1,
+          ":exec_update": 1,
+          "active_record/connection_adapters/redshift/oid/jsonb": 1,
+          "active_record/connection_adapters/redshift/oid/json": 1,
+          "active_record/connection_adapters/redshift/oid/type_map_initializer": 1,
+          "active_record/connection_adapters/redshift/oid/date_time": 1,
+          "active_record/connection_adapters/redshift/oid/decimal": 1,
+          "Type::Helpers::Mutable": 1,
+          "ColumnMethods": 1,
+          "#data_source_exists?": 1,
+          "eql?": 1,
+          "Redshift::ReferentialIntegrity": 1,
+          "active_record/connection_adapters/redshift/schema_statements": 1,
+          "active_record/connection_adapters/redshift/utils": 1,
+          "active_record/connection_adapters/redshift/quoting": 1,
+          "active_record/connection_adapters/redshift/type_metadata": 1,
+          "active_record/connection_adapters/redshift/column": 1,
+          "Redshift::DatabaseStatements": 1,
+          "active_record/connection_adapters/abstract_adapter": 1,
+          "active_record/connection_adapters/redshift/schema_definitions": 1,
+          "Redshift::SchemaStatements": 1,
+          "ipaddr": 1,
+          "active_record/connection_adapters/redshift/schema_dumper": 1,
+          "active_record/connection_adapters/redshift/database_statements": 1,
+          "active_record/connection_adapters/redshift/referential_integrity": 1,
+          "active_record/connection_adapters/redshift/oid": 1,
+          "active_record/connection_adapters/statement_pool": 1,
+          "pg": 1,
+          "Redshift::Quoting": 1,
+          "models/book": 1,
+          "models/movie": 1,
+          "models/subscriber": 1,
+          "models/default": 1,
+          "models/course": 1,
+          "models/person": 1,
+          "models/comment": 1,
+          "models/post": 1,
+          "benchmark": 1,
+          "active_resource/version": 1,
+          "active_support/core_ext/module/delegation": 1,
+          "ActiveModel::Serializers::JSON": 1,
+          "active_resource/formats": 1,
+          "active_resource/connection": 1,
+          "CustomMethods": 1,
+          ":new_record?": 1,
+          "active_support/core_ext/hash/indifferent_access": 1,
+          "active_support/core_ext/object/duplicable": 1,
+          "active_support/core_ext/class/attribute": 1,
+          "active_support/core_ext/module/aliasing": 1,
+          "active_resource/schema": 1,
+          "active_support/core_ext/object/to_query": 1,
+          "active_support/core_ext/class/attribute_accessors": 1,
+          "ActiveModel::Serializers::Xml": 1,
+          "active_support/core_ext/benchmark": 1,
+          "time": 1,
+          "net/https": 1,
+          "date": 1,
+          ":orig_delete": 1,
+          "active_support/core_ext/array/wrap": 1,
+          "ActiveModel::Validations": 1,
+          "setter_trap": 1,
+          "active_support/logger": 1,
+          "active_support/test_case": 1,
+          "fixtures/subscription_plan": 1,
+          "fixtures/sound": 1,
+          "fixtures/address": 1,
+          "mocha": 1,
+          "active_support/log_subscriber/test_helper": 1,
+          "ActiveSupport::LogSubscriber::TestHelper": 1,
+          "activeuuid/version": 1,
+          "activeuuid/patches": 1,
+          "activeuuid/uuid": 1,
+          "activeuuid/railtie": 1,
+          "active_support/concern": 1,
+          "uuidtools": 1,
+          "rspec/expectations": 1,
+          "active_support/all": 1,
+          "active_model/naming": 1,
+          "active_file/multiple_files": 1,
+          "active_yaml/base": 1,
+          "active_json/base": 1,
+          "associations/associations": 1,
+          "active_yaml/aliases": 1,
+          "active_support/core_ext": 1,
+          "active_file/base": 1,
+          "active_hash/base": 1,
+          "enum/enum": 1,
+          "active_hash/relation": 1,
+          "active_file/hash_and_array_files": 1,
+          "save!": 1,
+          "==": 1,
+          "quoted_id": 1,
+          "ActiveYaml::Aliases": 1,
+          "ActiveHash::Enum": 1,
+          "rspec": 1,
+          "pry": 1,
+          "active_hash": 1,
+          "rspec/autorun": 1,
+          "File.expand_path": 1,
+          "active_record_mysql_xverify/utils": 1,
+          "active_record/connection_adapters/mysql2_adapter": 1,
+          "active_record_mysql_xverify/constants": 1,
+          "active_record_mysql_xverify/error_handler": 1,
+          "active_record_mysql_xverify/verifier": 1,
+          "active_record_mysql_xverify/verifiers/aurora_master": 1,
+          "active_record/connection_adapters/abstract_mysql_adapter": 1,
+          "active_record_mysql_xverify/version": 1,
+          "active_record_mysql_xverify/config": 1,
+          "logger": 1,
+          "active_record_mysql_xverify/logger": 1,
+          "active_record_mysql_xverify": 1,
+          "model/book": 1,
+          "SpecHelper": 1,
+          "#{File.dirname(__FILE__)}/lib/config/core.rb": 1,
+          "hook": 1,
+          "#{File.dirname(__FILE__)}/lib/helpers/id_helpers_override.rb": 1,
+          "#{File.dirname(__FILE__)}/lib/helpers/view_helpers_override.rb": 1,
+          "#{File.dirname(__FILE__)}/lib/data_structures/list_filter.rb": 1,
+          "#{File.dirname(__FILE__)}/lib/pluginfactory.rb": 1,
+          "#{File.dirname(__FILE__)}/lib/actions/list_filter.rb": 1,
+          "#{File.dirname(__FILE__)}/lib/data_structures/list_filters.rb": 1,
+          "install": 1,
+          "#{File.dirname(__FILE__)}/lib/config/list_filter.rb": 1,
+          "pluginfactory": 1,
+          "ActiveScaffold::Configurable": 1,
+          "ruby-debug": 1,
+          "test/unit": 1,
+          "acts_as_list": 1,
+          "acts_as_list/active_record/acts/list": 1,
+          "::ActiveRecord::Acts::List::InstanceMethods": 1,
+          "shared": 1,
+          "#{File.dirname(__FILE__)}/../init": 1,
+          "Shared::ZeroBased": 1,
+          "helper": 1,
+          "Shared::ArrayScopeList": 1,
+          "Shared::NoAddition": 1,
+          "Shared::TopAddition": 1,
+          "Shared::List": 1,
+          "Shared::ListSub": 1,
+          "arel/math": 1,
+          "arel/select_manager": 1,
+          "arel/update_manager": 1,
+          "arel/compatibility/wheres": 1,
+          "arel/visitors": 1,
+          "arel/sql_literal": 1,
+          "arel/table": 1,
+          "arel/delete_manager": 1,
+          "arel/relation": 1,
+          "arel/deprecated": 1,
+          "arel/expressions": 1,
+          "arel/tree_manager": 1,
+          "arel/factory_methods": 1,
+          "arel/predications": 1,
+          "arel/nodes": 1,
+          "arel/expression": 1,
+          "arel/crud": 1,
+          "arel/insert_manager": 1,
+          "arel/sql/engine": 1,
+          "arel/attributes": 1,
+          "arel/attributes/attribute": 1,
+          "arel/nodes/outer_join": 1,
+          "arel/nodes/in": 1,
+          "arel/nodes/join_source": 1,
+          "arel/nodes/named_function": 1,
+          "arel/nodes/count": 1,
+          "arel/nodes/update_statement": 1,
+          "arel/nodes/equality": 1,
+          "arel/nodes/function": 1,
+          "arel/nodes/string_join": 1,
+          "arel/nodes/ordering": 1,
+          "arel/nodes/values": 1,
+          "arel/nodes/binary": 1,
+          "arel/nodes/delete_statement": 1,
+          "arel/nodes/and": 1,
+          "arel/nodes/unqualified_column": 1,
+          "arel/nodes/select_statement": 1,
+          "arel/nodes/with": 1,
+          "arel/nodes/table_alias": 1,
+          "arel/nodes/node": 1,
+          "arel/nodes/inner_join": 1,
+          "arel/nodes/infix_operation": 1,
+          "arel/nodes/insert_statement": 1,
+          "arel/nodes/select_core": 1,
+          "arel/nodes/unary": 1,
+          "arel/nodes/sql_literal": 1,
+          ":wheres": 1,
+          ":wheres=": 1,
+          ":relation": 1,
+          ":relation=": 1,
+          ":operand1": 1,
+          ":operand2": 1,
+          "Arel::Expression": 1,
+          "Arel::FactoryMethods": 1,
+          ":direction": 1,
+          ":expr": 1,
+          ":froms": 1,
+          ":froms=": 1,
+          "Audited::RspecMatchers": 1,
+          "audited/rspec_matchers": 1,
+          "audited/adapters/active_record/audit": 1,
+          "audited/adapters/mongo_mapper/audited_changes": 1,
+          "mongo_mapper": 1,
+          "audited/adapters/mongo_mapper/audit": 1,
+          "Audited::Auditor::AuditedInstanceMethods": 1,
+          "support/active_record/schema": 1,
+          "support/active_record/models": 1,
+          "MongoMapper::Document": 1,
+          "support/mongo_mapper/connection": 1,
+          "support/mongo_mapper/models": 1,
+          "autosize/rails/engine": 1,
+          "autosize/rails/version": 1,
+          "rails/engine": 1,
+          "capybara-webkit": 1,
+          "capybara/rspec": 1,
+          "bootboot/bundler_patch": 1,
+          "bootboot/version": 1,
+          "bootboot/ruby_source": 1,
+          "Bundler::Plugin::API::Source": 1,
+          "lib/bootboot": 1,
+          "open3": 1,
+          "minitest": 1,
+          "warning": 1,
+          "test_helper": 1,
+          "tempfile": 1,
+          "bootboot": 1,
+          "aruba/cucumber": 1,
+          "bourbon/generator": 1,
+          "sass": 1,
+          "bourbon/version": 1,
+          "pathname": 1,
+          "thor": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sikachu/actionpack-action_caching",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/activerecord6-redshift-adapter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/activeresource",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/activeuuid",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/active_hash",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/active_record_mysql_xverify",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/active_scaffold_list_filters",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/acts_as_list",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/arel",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/audited",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/autosize-rails",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/bcbk-acceptance-testing",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/bootboot",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sikachu/bourbon",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

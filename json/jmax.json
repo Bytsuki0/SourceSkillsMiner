@@ -1,0 +1,437 @@
+{
+  "username": "jmax",
+  "areas": {
+    "OSS": {
+      "score": 0.7408696258872436,
+      "details": {
+        "issue_resolution_rate": 0.6122448979591837,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9990595408716817
+      }
+    },
+    "Status": {
+      "score": 0.3444024264118084,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9781421011561741,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "jmax/wething": 0.08778
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.571318013074763,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        86458,
+        95
+      ],
+      "JavaScript": [
+        8441,
+        9
+      ],
+      "HTML": [
+        63517,
+        18
+      ],
+      "Dockerfile": [
+        370,
+        0
+      ],
+      "Shell": [
+        133,
+        0
+      ],
+      "CoffeeScript": [
+        1890,
+        12
+      ],
+      "CSS": [
+        6765,
+        6
+      ],
+      "Elixir": [
+        107,
+        2
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 142,
+    "total_lines": 167681,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 86458,
+        "commits": 95
+      },
+      {
+        "language": "HTML",
+        "lines": 63517,
+        "commits": 18
+      },
+      {
+        "language": "CoffeeScript",
+        "lines": 1890,
+        "commits": 12
+      },
+      {
+        "language": "JavaScript",
+        "lines": 8441,
+        "commits": 9
+      },
+      {
+        "language": "CSS",
+        "lines": 6765,
+        "commits": 6
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jmax",
+    "analysis_date": "2026-02-19T00:55:50.401675",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 444,
+    "languages": {
+      "Elixir": {
+        "files_scanned": 22,
+        "packages": {
+          "JsonApiClient.": 8,
+          "ExUnit.Case": 7,
+          "JsonApiClient.Request": 4,
+          "Mock": 4,
+          "Mix.Config": 3,
+          "JsonApiClient.Middleware.Factory": 2,
+          "lib/": 1,
+          "#{Mix.env()}.exs": 1,
+          "__MODULE__.Middleware.Runner": 1,
+          "__MODULE__.Request": 1,
+          "Logger": 1,
+          "JsonApiClient.Parser.": 1,
+          "JsonApiClient.Resource": 1,
+          "coments.author": 1,
+          "author": 1,
+          "__MODULE__": 1,
+          "Mix.Project": 1,
+          "JsonApiClient.Middleware.DefaultRequestConfig": 1,
+          "JsonApiClient.Middleware.DocumentParser": 1,
+          "JsonApiClient.Middleware.Fuse": 1,
+          "JsonApiClient.Middleware.HTTPClient": 1,
+          "JsonApiClient.Middleware.": 1,
+          "JsonApiClient.Middleware.StatsTracker": 1,
+          "ExUnit.CaptureLog": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 11,
+        "packages": {
+          "hotwired": 4,
+          "coffee-script": 3,
+          "undefined": 2,
+          "express": 2,
+          "controllers": 2,
+          "underscore": 1,
+          "YOUR": 1,
+          "1.1.6": 1,
+          "connect-assets": 1,
+          "connect-redis": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 101,
+        "packages": {
+          "spec_helper": 10,
+          "bundler/setup": 8,
+          "test/helper": 8,
+          "rubygems": 7,
+          "AASM": 5,
+          "rails/all": 5,
+          "test_helper": 5,
+          "ApiPlayground": 4,
+          "action_controller/railtie": 4,
+          "active_record/railtie": 4,
+          "active_support/core_ext/integer/time": 4,
+          "devise/orm/active_record": 4,
+          "lib": 3,
+          "active_record": 3,
+          "ApiPlayground::ApiKeyProtection": 3,
+          "boot": 3,
+          "active_model/railtie": 3,
+          "action_view/railtie": 3,
+          "active_job/railtie": 3,
+          "sprockets/railtie": 3,
+          "action_mailer/railtie": 3,
+          "persistence": 2,
+          "ostruct": 2,
+          "administrate_me": 2,
+          "ApiPlayground::ApiProtection": 2,
+          "ApiPlayground::Documentation": 2,
+          "rails": 2,
+          "application": 2,
+          "digest/sha1": 2,
+          "rspec/rails": 2,
+          "tempfile": 2,
+          "JSONAPI::Serializer": 2,
+          "event": 1,
+          "state_machine": 1,
+          "state": 1,
+          "state_transition": 1,
+          "hook": 1,
+          "acts_as_commentable_with_threading": 1,
+          "comment": 1,
+          "CollectiveIdea::Acts::NestedSet": 1,
+          "activerecord": 1,
+          "Acts::CommentableWithThreading::InstanceMethods": 1,
+          "awesome_nested_set": 1,
+          "admin_view": 1,
+          "merge_conditions_backport": 1,
+          "admin_scaffold": 1,
+          "rspec_matchers": 1,
+          "AdministrateMe::AdminScaffold::Internal": 1,
+          "AdministrateMe::AdminScaffold::Listing": 1,
+          "AdministrateMe::AdminScaffold::Actions": 1,
+          "AdministrateMe::AdminScaffold::Helpers": 1,
+          "AdministrateMe::AdminScaffold::Support": 1,
+          "AdminView::GridTable": 1,
+          "AdminView::PresentationBuilder": 1,
+          "AdminView::ElegantPresentation": 1,
+          "AdminView::Backend": 1,
+          "AdminView::Actions": 1,
+          "AdminView::ListFor": 1,
+          "AdminView::Filters": 1,
+          "AdminView::Presenter": 1,
+          "AdminView::Forms": 1,
+          "AdminView::ResourceCard": 1,
+          "AdministrateMe::AdminScaffold::InstanceMethods": 1,
+          "AdministrateMe::InstanceMethods": 1,
+          "TestAdministrateMe::InstanceMethods": 1,
+          "superuser": 1,
+          "role_requirement": 1,
+          "will_paginate": 1,
+          "restful_authentication": 1,
+          "spec": 1,
+          "spec/rails": 1,
+          "api_playground/concern": 1,
+          "api_playground/routing_mapper": 1,
+          "api_playground/api_protection": 1,
+          "api_playground/version": 1,
+          "api_playground/engine": 1,
+          "api_playground/documentation": 1,
+          "api_playground/configuration": 1,
+          "data": 1,
+          "type": 1,
+          "rails/generators": 1,
+          "Rails::Generators::Migration": 1,
+          "rails/generators/migration": 1,
+          "rails/performance_test_help": 1,
+          "default": 1,
+          "bundler": 1,
+          "ExceptionNotifiable": 1,
+          "RoleRequirementSystem": 1,
+          "AuthenticatedSystem": 1,
+          "Authentication": 1,
+          "Authorization::AasmRoles": 1,
+          "Authentication::ByCookieToken": 1,
+          "Authentication::ByPassword": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "Active": 1,
+          "easy_indexer/results": 1,
+          "hashie": 1,
+          "easy_indexer/engine": 1,
+          "elasticsearch": 1,
+          "easy_indexer/active_record/callback": 1,
+          "easy_indexer": 1,
+          "database_cleaner": 1,
+          "shoulda-matchers": 1,
+          "capybara/rails": 1,
+          "rspec/autorun": 1,
+          "simplecov": 1,
+          "capybara/email/rspec": 1,
+          "capybara/rspec": 1,
+          "ActiveModel::ForbiddenAttributesProtection": 1,
+          "processor": 1,
+          "paperclip/thumbnail": 1,
+          "paperclip/iostream": 1,
+          "paperclip/storage": 1,
+          "InstanceMethods": 1,
+          "paperclip/upfile": 1,
+          "paperclip/geometry": 1,
+          "paperclip/processor": 1,
+          "paperclip/attachment": 1,
+          "?": 1,
+          "IOStream": 1,
+          "right_aws": 1,
+          "Paperclip::Upfile": 1,
+          "test/unit": 1,
+          "thoughtbot-shoulda": 1,
+          "Paperclip": 1,
+          "sqlite3-ruby": 1,
+          "active_support": 1,
+          "mocha": 1,
+          "shoulda": 1,
+          "ruby-debug": 1,
+          "rage/rails": 1,
+          "bootsnap/setup": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jmax/aasm",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/acts_as_commentable_with_threading",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/administrate_me",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/administrate_me_users",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/api_playground",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/backnote",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/Bitacora",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/bort",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/codeblast2013",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jmax/easy_indexer",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/imhere",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jmax/incubator",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/json_api_client",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "jmax/MyFiles",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/nch",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/paperclip",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/PhotoStore2",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmax/rage_blog",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}
