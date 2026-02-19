@@ -1,0 +1,123 @@
+{
+  "username": "nicholasjon",
+  "areas": {
+    "OSS": {
+      "score": -0.2461993426644058,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.13070098600339122
+      }
+    },
+    "Status": {
+      "score": -0.23337882984389302,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.13070098600339122,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.1198945431270747,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        9,
+        0
+      ],
+      "Ruby": [
+        5,
+        0
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 0,
+    "total_lines": 14,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 9,
+        "commits": 0
+      },
+      {
+        "language": "Ruby",
+        "lines": 5,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "nicholasjon",
+    "analysis_date": "2026-02-18T21:06:00.699380",
+    "total_repos_analyzed": 2,
+    "total_files_analyzed": 32,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "2.1.0": 1,
+          "node_helper": 1,
+          "request": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 7,
+        "packages": {
+          "open-uri": 2,
+          "Authentication": 1,
+          "SslRequirement": 1,
+          "twitter": 1,
+          "twitter_api": 1,
+          "rails": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "rubygems": 1,
+          "initializer": 1,
+          "boot": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "nicholasjon/dailyshoot",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "nicholasjon/MMM-Chart",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

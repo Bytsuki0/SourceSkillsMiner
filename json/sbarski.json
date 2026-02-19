@@ -1,0 +1,724 @@
+{
+  "username": "sbarski",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.6111111111111112,
+        "pr_merge_rate": 1.8387096774193548,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "sbarski/dashing.net": 0.26216,
+        "sbarski/KinesisNet": 0.2064,
+        "sbarski/run-local-lambda": 0.235925,
+        "sbarski/serverless-architectures-aws": 0.19371666666666665,
+        "sbarski/serverless-calculator": 0.49478181818181816,
+        "sbarski/watcher": 0.4863571428571429
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7493589743589744,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "PHP": [
+        12,
+        1
+      ],
+      "JavaScript": [
+        2337646,
+        143
+      ],
+      "CSS": [
+        29545,
+        16
+      ],
+      "HTML": [
+        36267,
+        17
+      ],
+      "PowerShell": [
+        79002,
+        1
+      ],
+      "Shell": [
+        180,
+        5
+      ],
+      "C#": [
+        79914,
+        58
+      ],
+      "ASP": [
+        326,
+        0
+      ],
+      "Ruby": [
+        3,
+        0
+      ],
+      "F#": [
+        5382,
+        16
+      ],
+      "CoffeeScript": [
+        3295,
+        0
+      ],
+      "Go": [
+        1250,
+        3
+      ],
+      "Objective-C": [
+        18770,
+        32
+      ],
+      "Python": [
+        430,
+        0
+      ],
+      "Swift": [
+        4179,
+        9
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 301,
+    "total_lines": 2596201,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 2337646,
+        "commits": 143
+      },
+      {
+        "language": "C#",
+        "lines": 79914,
+        "commits": 58
+      },
+      {
+        "language": "Objective-C",
+        "lines": 18770,
+        "commits": 32
+      },
+      {
+        "language": "HTML",
+        "lines": 36267,
+        "commits": 17
+      },
+      {
+        "language": "CSS",
+        "lines": 29545,
+        "commits": 16
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sbarski",
+    "analysis_date": "2026-02-18T21:34:14.804759",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 351,
+    "languages": {
+      "C#": {
+        "files_scanned": 130,
+        "packages": {
+          "System.Linq": 75,
+          "System.Collections.Generic": 69,
+          "System.Text": 28,
+          "System.Web": 26,
+          "System.Runtime.InteropServices": 25,
+          "System.Runtime.CompilerServices": 23,
+          "System.Threading.Tasks": 19,
+          "System.Reflection": 18,
+          "System.Threading": 18,
+          "System.IO": 18,
+          "Cormo.Injects": 16,
+          "System": 14,
+          "System.Web.Mvc": 13,
+          "System.Data": 11,
+          "DapperExtensions.Mapper": 11,
+          "NUnit.Framework": 11,
+          "Dapper": 9,
+          "DapperExtensions.Sql": 8,
+          "dashing.net.common": 8,
+          "dashing.net.streaming": 8,
+          "System.ComponentModel.Composition": 8,
+          "System.Diagnostics": 7,
+          "System.Web.Http": 7,
+          "System.Collections.Concurrent": 7,
+          "DapperExtensions.Test.Data": 7,
+          "System.Web.Optimization": 6,
+          "Cormo.Injects.Exceptions": 6,
+          "System.Data.SqlClient": 6,
+          "Microsoft.AspNet.SignalR": 5,
+          "System.Web.Routing": 5,
+          "Cormo.Contexts": 5,
+          "Cormo.Web.Api": 5,
+          "System.Net.Http": 5,
+          "System.Web.Http.Controllers": 4,
+          "System.Data.Common": 4,
+          "System.Reflection.Emit": 4,
+          "System.Data.SqlServerCe": 4,
+          "Newtonsoft.Json": 4,
+          "System.Net": 4,
+          "System.Reactive.Subjects": 3,
+          "Microsoft.AspNet.SignalR.Hubs": 3,
+          "AzureCloudBackup.Core.Service": 3,
+          "AzureCloudBackup.Infrastructure": 3,
+          "System.Configuration": 3,
+          "Owin": 3,
+          "Cormo.Web.Impl.Contexts": 3,
+          "System.ComponentModel": 3,
+          "System.Collections": 3,
+          "System.Linq.Expressions": 3,
+          "System.Dynamic": 3,
+          "dashing.net.Infrastructure": 3,
+          "AzureCloudBackup.Core.DTO": 2,
+          "System.Reactive.Linq": 2,
+          "SimpleInjector": 2,
+          "Cormo.Utils": 2,
+          "Cormo.Mixins": 2,
+          "Cormo.Impl.Weld.Contexts": 2,
+          "Microsoft.Owin.Extensions": 2,
+          "SqlMapper": 2,
+          "select": 2,
+          "DapperExtensions.Test.Entities": 2,
+          "System.Data.SQLite": 2,
+          "MySql.Data.MySqlClient": 2,
+          "System.ComponentModel.Composition.Hosting": 2,
+          "System.Web.Helpers": 2,
+          "Newtonsoft.Json.Linq": 2,
+          "Microsoft.SqlServer.Dac": 1,
+          "SimpleInjector.Integration.Web.Mvc": 1,
+          "System.Web.UI.WebControls": 1,
+          "AzureCloudBackup.App_Start": 1,
+          "System.Reactive.Disposables": 1,
+          "System.Data.Entity": 1,
+          "Cormo.Data.EntityFramework.Api": 1,
+          "Cormo.Data.EntityFramework.Api.Audits": 1,
+          "Cormo.Web.Impl": 1,
+          "Microsoft.Owin": 1,
+          "System.Web.Http.Dependencies": 1,
+          "System.Web.Http.Dispatcher": 1,
+          "System.Runtime.Remoting.Contexts": 1,
+          "System.Web.Caching": 1,
+          "System.Web.SessionState": 1,
+          "Cormo.Impl.Weld.Injections": 1,
+          "System.Web.Http.Metadata": 1,
+          "Cormorant.App.Model": 1,
+          "Microsoft.VisualStudio.TestTools.UnitTesting": 1,
+          "Cormorant": 1,
+          "System.Globalization": 1,
+          "System.Text.RegularExpressions": 1,
+          "Dapper.Contrib.Extensions": 1,
+          "System.Data.Entity.Spatial": 1,
+          "DapperExtensions.Test.SqlScripts.{0}.sql": 1,
+          "CreateFooTable": 1,
+          "CreateAnimalTable": 1,
+          "CreateMultikeyTable": 1,
+          "CreatePersonTable": 1,
+          "DapperExtensions.Test.IntegrationTests": 1,
+          "DapperExtensions.Test.Helpers": 1,
+          "DapperExtensions.Test.Maps": 1,
+          "System.Net.Http.Headers": 1,
+          "dashing.net.jobs": 1,
+          "System.Web.Mvc.Async": 1,
+          "System.Web.Script.Serialization": 1,
+          "dashing.net.Controllers": 1,
+          "dashing.net.App_Start": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 29,
+        "packages": {
+          "react": 15,
+          "semantic-ui-react": 9,
+          "react-router": 6,
+          "jQuery": 3,
+          "=": 3,
+          "object": 3,
+          "react-dom": 2,
+          "aws-sdk": 2,
+          "a": 2,
+          "chart.js": 1,
+          "semantic-ui-css": 1,
+          "YOUR_COGNITO_USER_POOL_ID": 1,
+          "YOUR_COGNITO_REGION": 1,
+          "YOUR_PRIMARY_AWS_REGION": 1,
+          "YOUR_COGNITO_IDENTITY_POOL_ID": 1,
+          "YOUR_COGNITO_CLIENT_ID": 1,
+          "amazon-cognito-identity-js": 1,
+          "function": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "t=(xt[0].contentWindow||xt[0].contentDocument).document": 1,
+          "t.write(": 1,
+          "peek": 1,
+          "memoization.unmemoize": 1,
+          "nativeTemplateEngine": 1,
+          "valueHasMutated": 1,
+          "applyBindingsToDescendants": 1,
+          "utils.setHtml": 1,
+          "utils.compareArrays": 1,
+          "memoization.memoize": 1,
+          "utils.arrayFirst": 1,
+          "utils.arrayForEach": 1,
+          "contextFor": 1,
+          "utils.postJson": 1,
+          "subscribable": 1,
+          "utils.parseJson": 1,
+          "setTemplateEngine": 1,
+          "utils.arrayGetDistinctValues": 1,
+          "utils.addOrRemoveItem": 1,
+          "unwrap": 1,
+          "utils.domNodeDisposal": 1,
+          "removeNode": 1,
+          "utils.toggleDomNodeCssClass": 1,
+          "extend": 1,
+          "expressionRewriting.bindingRewriteValidators": 1,
+          "utils.extend": 1,
+          "selectExtensions": 1,
+          "utils": 1,
+          "subscribe": 1,
+          "virtualElements.allowedBindings": 1,
+          "applyBindings": 1,
+          "version": 1,
+          "dependentObservable": 1,
+          "dataFor": 1,
+          "utils.domData.clear": 1,
+          "utils.fieldsIncludedWithJsonPost": 1,
+          "renderTemplate": 1,
+          "valueWillMutate": 1,
+          "bindingHandlers": 1,
+          "memoization.unmemoizeDomNodeAndDescendants": 1,
+          "utils.domNodeDisposal.removeDisposeCallback": 1,
+          "utils.range": 1,
+          "memoization.parseMemoText": 1,
+          "expressionRewriting.preProcessBindings": 1,
+          "templateSources.anonymousTemplate": 1,
+          "templateEngine": 1,
+          "isActive": 1,
+          "getSubscriptionsCount": 1,
+          "toJSON": 1,
+          "expressionRewriting": 1,
+          "selectExtensions.readValue": 1,
+          "computed": 1,
+          "bindingProvider": 1,
+          "virtualElements.firstChild": 1,
+          "virtualElements.prepend": 1,
+          "utils.peekObservable": 1,
+          "getDependenciesCount": 1,
+          "memoization": 1,
+          "utils.stringifyJson": 1,
+          "utils.arrayIndexOf": 1,
+          "observableArray": 1,
+          "toJS": 1,
+          "isSubscribable": 1,
+          "utils.domNodeDisposal.addDisposeCallback": 1,
+          "utils.parseHtmlFragment": 1,
+          "virtualElements.insertAfter": 1,
+          "utils.unwrapObservable": 1,
+          "virtualElements.setDomNodeChildren": 1,
+          "virtualElements.emptyNode": 1,
+          "utils.arrayMap": 1,
+          "isWriteableObservable": 1,
+          "virtualElements.nextSibling": 1,
+          "utils.objectForEach": 1,
+          "utils.triggerEvent": 1,
+          "jsonExpressionRewriting.insertPropertyAccessorsIntoJson": 1,
+          "expressionRewriting.parseObjectLiteral": 1,
+          "selectExtensions.writeValue": 1,
+          "jsonExpressionRewriting": 1,
+          "utils.domData": 1,
+          "isObservable": 1,
+          "jqueryTmplTemplateEngine": 1,
+          "cleanNode": 1,
+          "utils.getFormFields": 1,
+          "utils.arrayPushAll": 1,
+          "extenders": 1,
+          "templateSources": 1,
+          "templateSources.domElement": 1,
+          "dispose": 1,
+          "applyBindingsToNode": 1,
+          "__tr_ambtns": 1,
+          "isComputed": 1,
+          "utils.registerEventHandler": 1,
+          "utils.arrayFilter": 1,
+          "utils.arrayRemoveItem": 1,
+          "utils.setDomNodeChildrenFromArrayMapping": 1,
+          "observable": 1,
+          "virtualElements": 1,
+          "use": 1,
+          "qwery": 1,
+          "bean": 1,
+          "reqwest": 1,
+          "bonzo": 1,
+          "all": 1,
+          "connect-livereload": 1,
+          "path": 1,
+          "time-grunt": 1,
+          "load-grunt-tasks": 1,
+          "wiredep": 1,
+          "<%=": 1,
+          "ngModel": 1,
+          "Rickshaw.Compat.ClassList": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 19,
+        "packages": {
+          "wp-admin/admin-header.php": 12,
+          "wp-admin/admin-footer.php": 8,
+          "wp-admin/includes/admin.php": 4,
+          "wp-admin/includes/ajax-actions.php": 2,
+          "wp-load.php": 2,
+          "wp-admin/includes/meta-boxes.php": 2,
+          "wp-admin/options-head.php": 1,
+          "wp-admin/network/menu.php": 1,
+          "wp-admin/includes/upgrade.php": 1,
+          "wp-admin/menu.php": 1,
+          "wp-admin/user/menu.php": 1,
+          "wp-admin/admin.php": 1,
+          "wp-admin/edit-form-comment.php": 1,
+          "wp-admin/edit-tag-form.php": 1,
+          "wp-admin/includes/export.php": 1,
+          "wp-admin/includes/image.php": 1,
+          "wp-admin/includes/misc.php": 1,
+          "wp-admin/includes/ms.php": 1,
+          "wp-admin/includes/import.php": 1,
+          "wp-admin/includes/post.php": 1,
+          "wp-admin/includes/plugin.php": 1,
+          "wp-admin/includes/comment.php": 1,
+          "wp-admin/includes/file.php": 1,
+          "wp-admin/includes/media.php": 1,
+          "wp-admin/includes/deprecated.php": 1,
+          "wp-admin/includes/bookmark.php": 1,
+          "wp-admin/includes/taxonomy.php": 1,
+          "wp-admin/includes/list-table.php": 1,
+          "wp-admin/includes/ms-deprecated.php": 1,
+          "wp-admin/includes/theme.php": 1,
+          "wp-admin/includes/class-wp-list-table.php": 1,
+          "wp-admin/includes/screen.php": 1,
+          "wp-admin/includes/user.php": 1,
+          "wp-admin/includes/template.php": 1,
+          "wp-admin/includes/update.php": 1,
+          "wp-admin/includes/class-wp-upgrader.php": 1,
+          "wp-admin/includes/nav-menu.php": 1,
+          "wp-admin/includes/class-wp-press-this.php": 1,
+          "wp-admin/includes/revision.php": 1,
+          "wp-admin/includes/dashboard.php": 1,
+          "wp-admin/includes/image-edit.php": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 15,
+        "packages": {
+          "HighlightCode": 3,
+          "TemplateWrapper": 3,
+          "Octopress::Date": 2,
+          "digest/md5": 2,
+          "pathname": 2,
+          "OctopressFilters": 2,
+          "json": 2,
+          "jekyll/tagging": 1,
+          "uri": 1,
+          "cgi": 1,
+          "net/https": 1,
+          "haml": 1,
+          "_includes": 1,
+          "rubypants": 1,
+          "BacktickCodeBlock": 1,
+          "fileutils": 1,
+          "pygments": 1,
+          "sass": 1,
+          "rufus/scheduler": 1,
+          "sprockets": 1,
+          "sinatra/content_for": 1,
+          "sinatra": 1,
+          "coffee-script": 1,
+          "net/http": 1,
+          "test_helper": 1,
+          "Rack::Test::Methods": 1,
+          "test/unit": 1,
+          "rack/test": 1,
+          "tmpdir": 1,
+          "stringio": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 14,
+        "packages": {
+          "ENABLED": 4,
+          "PENDING": 3,
+          "RSA_2048": 2,
+          "UNSPECIFIED": 2,
+          "PUBLIC": 2,
+          "2017-07-25": 2,
+          "TLS_1_0": 2,
+          "CONVERT_TO_BINARY": 2,
+          "INTERNET": 2,
+          "AVAILABLE": 2,
+          "API": 2,
+          "REGIONAL": 2,
+          "2018-11-29": 2,
+          "NONE": 2,
+          "ERROR": 2,
+          "Pending": 2,
+          "Average": 2,
+          "ACTIVE": 2,
+          "DIGITAL_SIGNATURE": 1,
+          "CNAME": 1,
+          "2015-12-08": 1,
+          "PENDING_AUTO_RENEWAL": 1,
+          "EMAIL": 1,
+          "ELIGIBLE": 1,
+          "NO_AVAILABLE_CONTACTS": 1,
+          "IMPORTED": 1,
+          "TLS_WEB_SERVER_AUTHENTICATION": 1,
+          "PENDING_VALIDATION": 1,
+          "IssueCertificate": 1,
+          "s": 1,
+          "REQUEST_TIMED_OUT": 1,
+          "END_DATE": 1,
+          "ROOT": 1,
+          "SHA256WITHECDSA": 1,
+          "2017-08-22": 1,
+          "the": 1,
+          "CREATING": 1,
+          "JSON": 1,
+          "SIP": 1,
+          "VOICE": 1,
+          "FAHRENHEIT": 1,
+          "DEVICE_SOFTWARE_UPDATE_NEEDED": 1,
+          "RUNNING": 1,
+          "YES": 1,
+          "BLUETOOTH": 1,
+          "WORK": 1,
+          "ACCESS_DENIED": 1,
+          "OPEN": 1,
+          "2017-11-09": 1,
+          "en-US": 1,
+          "ASC": 1,
+          "ONLINE": 1,
+          "EAP_TLS": 1,
+          "METRIC": 1,
+          "ONE_DAY": 1,
+          "MOBILE": 1,
+          "READY": 1,
+          "CONNECTION_STATUS": 1,
+          "INITIALIZED": 1,
+          "ALEXA": 1,
+          "CHIME": 1,
+          "CSV": 1,
+          "PENDING_VERIFICATION": 1,
+          "PRODUCTION": 1,
+          "WEB": 1,
+          "RELEASE": 1,
+          "TOKEN": 1,
+          "HTTP": 1,
+          "file:": 1,
+          "DAY": 1,
+          "csv": 1,
+          "add": 1,
+          "integrations": 1,
+          "0.5": 1,
+          "FAIL_WITH_403": 1,
+          "2015-07-09": 1,
+          "DOCUMENTED": 1,
+          "CREATE_IN_PROGRESS": 1,
+          "HEADER": 1,
+          "DEFAULT_4XX": 1,
+          "oas30": 1,
+          "merge": 1,
+          "WHEN_NO_MATCH": 1,
+          "WEBSOCKET": 1,
+          "AWS": 1,
+          "REQUEST": 1,
+          "ecs": 1,
+          "StepScaling": 1,
+          "2016-02-06": 1,
+          "ChangeInCapacity": 1,
+          "ecs:service:DesiredCount": 1,
+          "DynamoDBReadCapacityUtilization": 1,
+          "2018-11-25": 1,
+          "NOT_SPECIFIED": 1,
+          "IGNORE": 1,
+          "LOW": 1,
+          "INSIGHTS_FEEDBACK": 1,
+          "this": 1,
+          "2018-10-01": 1,
+          "connection-error": 1,
+          "ALLOW_ALL": 1,
+          "ms": 1,
+          "CONNECT": 1,
+          "cancelled": 1,
+          "grpc": 1,
+          "http": 1,
+          "HOMEFOLDERS": 1,
+          "CLIPBOARD_COPY_FROM_LOCAL_DEVICE": 1,
+          "SUPPRESS": 1,
+          "IAM_SERVICE_ROLE_MISSING_ENI_DESCRIBE_ACTION": 1,
+          "STACK_NOT_FOUND": 1,
+          "DAILY": 1,
+          "STARTING": 1,
+          "STORAGE_CONNECTOR_ERROR": 1,
+          "WINDOWS": 1,
+          "ALWAYS_ON": 1,
+          "STORAGE_CONNECTORS": 1,
+          "VPC_CONFIGURATION": 1,
+          "STREAMING": 1,
+          "CONNECTED": 1,
+          "RESOURCE_NOT_FOUND": 1,
+          "2016-12-01": 1,
+          "INTERNAL_ERROR": 1,
+          "AWS_LAMBDA": 1,
+          "ALLOW": 1,
+          "SDL": 1,
+          "PROCESSING": 1,
+          "AWS_IAM": 1,
+          "RDS_HTTP_ENDPOINT": 1,
+          "API_KEY": 1,
+          "UNIT": 1,
+          "QUEUED": 1,
+          "SSE_S3": 1,
+          "DDL": 1,
+          "2017-05-18": 1,
+          "NOT_NULL": 1,
+          "ASGAverageCPUUtilization": 1,
+          "2011-01-01": 1,
+          "PendingSpotBidPlacement": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sbarski/aws-api-gateway-developer-portal",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sbarski/aws-sdk-js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "sbarski/AWS-wordpress",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "sbarski/AzureCloudBackup",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sbarski/belkirk-jekyll-demo",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sbarski/blog",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sbarski/cloudmonitor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sbarski/cormo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sbarski/cormorant",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sbarski/dapper-dot-net",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sbarski/Dapper-Extensions",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sbarski/dashing",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sbarski/dashing.net",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

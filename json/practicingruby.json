@@ -1,0 +1,412 @@
+{
+  "username": "practicingruby",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 2.1142857142857143,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.33333333333333326,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "practicingruby/alexeymk.github.com": 0.4926,
+        "practicingruby/bookie": 0.4926,
+        "practicingruby/liskov": 0.12228000000000001,
+        "practicingruby/pdf-writer": 0.4979,
+        "practicingruby/practicing-ruby-paid": 0.1842176470588235,
+        "practicingruby/prawn-layout": 0.2750666666666667,
+        "practicingruby/rbp-blog": 0.659,
+        "practicingruby/rbp-book": 0.08426363636363636,
+        "practicingruby/stack_wars": 0.2165,
+        "practicingruby/tictactoe": 0.39275
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7833333333333333,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        1788126,
+        1746
+      ],
+      "Vim Script": [
+        11952,
+        2
+      ],
+      "Shell": [
+        285,
+        2
+      ],
+      "Erlang": [
+        3497,
+        40
+      ],
+      "JavaScript": [
+        3413,
+        0
+      ],
+      "R": [
+        97,
+        1
+      ],
+      "Lua": [
+        1364,
+        9
+      ],
+      "Python": [
+        220,
+        3
+      ],
+      "CSS": [
+        6869,
+        290
+      ],
+      "HTML": [
+        40007,
+        496
+      ],
+      "Objective-C": [
+        238,
+        4
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 2593,
+    "total_lines": 1856068,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 1788126,
+        "commits": 1746
+      },
+      {
+        "language": "HTML",
+        "lines": 40007,
+        "commits": 496
+      },
+      {
+        "language": "CSS",
+        "lines": 6869,
+        "commits": 290
+      },
+      {
+        "language": "Erlang",
+        "lines": 3497,
+        "commits": 40
+      },
+      {
+        "language": "Lua",
+        "lines": 1364,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "practicingruby",
+    "analysis_date": "2026-02-18T20:26:40.344956",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 155,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "object": 2,
+          "(Required": 1,
+          "of": 1,
+          "a": 1,
+          "=": 1,
+          "Ember's": 1,
+          "in": 1,
+          "the": 1,
+          "this": 1,
+          "for": 1,
+          "something": 1,
+          "`addClass": 1,
+          "to": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "datetime": 1,
+          "argv": 1,
+          "urllib": 1,
+          "sys": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 45,
+        "packages": {
+          "minitest/autorun": 5,
+          "sinatra": 4,
+          "rexml/parsers/baseparser": 4,
+          "rubygems": 3,
+          "prawn": 3,
+          "strscan": 3,
+          ":convert_html_doctype": 3,
+          ":convert_th": 3,
+          ":convert_ol": 3,
+          "kramdown/parser/kramdown/attribute_list": 3,
+          "kramdown/parser/kramdown/blank_line": 3,
+          "fileutils": 2,
+          "date": 2,
+          "redcarpet": 2,
+          "erb": 2,
+          "passenger": 2,
+          "csv": 2,
+          ":convert_dl": 2,
+          "::Kramdown::Utils::HTML": 2,
+          ":convert_xml_pi": 2,
+          "kramdown/parser/kramdown/codeblock": 2,
+          "kramdown/parser/html": 2,
+          "digest/sha1": 2,
+          "posterous": 1,
+          "net/http": 1,
+          "Posterous": 1,
+          "URI": 1,
+          "jekyll": 1,
+          "bookie/parser": 1,
+          "bookie/book": 1,
+          "tempfile": 1,
+          "bookie/emitters": 1,
+          "bookie/version": 1,
+          "eeepub": 1,
+          "emitters/mobi": 1,
+          "emitters/html": 1,
+          "emitters/epub": 1,
+          "emitters/null": 1,
+          "emitters/pdf": 1,
+          "Prawn::Measurements": 1,
+          "test_helper": 1,
+          "units/parser_test": 1,
+          "frame": 1,
+          "bowling_calculator_test": 1,
+          "frame_test": 1,
+          "brine": 1,
+          "faker": 1,
+          "javax.swing.table.DefaultTableCellRenderer": 1,
+          "javax.swing.JFrame": 1,
+          "javax.swing.JPanel": 1,
+          "javax.swing.border.EmptyBorder": 1,
+          "Java": 1,
+          "java.awt.Color": 1,
+          "javax.swing.table.DefaultTableModel": 1,
+          "java.awt.Dimension": 1,
+          "java.awt.BorderLayout": 1,
+          "java.awt.Font": 1,
+          "javax.swing.JTable": 1,
+          "traffic": 1,
+          "event_log": 1,
+          "actor": 1,
+          "elevator": 1,
+          "gui": 1,
+          "clock": 1,
+          "elevator_controller": 1,
+          "compleat/testing": 1,
+          "Compleat::Testing::Helpers": 1,
+          "#{File.dirname(__FILE__)}/example_helper.rb": 1,
+          "descriptive_statistics/sum.rb": 1,
+          "descriptive_statistics/mean.rb": 1,
+          "descriptive_statistics/number.rb": 1,
+          "descriptive_statistics/standard_deviation.rb": 1,
+          "descriptive_statistics/median.rb": 1,
+          "descriptive_statistics/percentile.rb": 1,
+          "descriptive_statistics/variance.rb": 1,
+          ":convert_tbody": 1,
+          ":convert_tfoot": 1,
+          "coderay": 1,
+          ":convert_strong": 1,
+          ":convert_dd": 1,
+          ":convert_tr": 1,
+          "set": 1,
+          "kramdown/error": 1,
+          "kramdown/parser": 1,
+          "kramdown/compatibility": 1,
+          "rbconfig": 1,
+          "kramdown/options": 1,
+          "kramdown/version": 1,
+          "kramdown/converter": 1,
+          "kramdown/utils": 1,
+          "kramdown/document": 1,
+          "automatic": 1,
+          ":convert_span": 1,
+          ":convert_pre": 1,
+          "Constants": 1,
+          "::Kramdown::Utils::Entities": 1,
+          "Parser": 1,
+          "stringio": 1,
+          "kramdown/parser/kramdown/smart_quotes": 1,
+          "kramdown/parser/kramdown/html_entity": 1,
+          "kramdown/parser/kramdown/horizontal_rule": 1,
+          "kramdown/parser/kramdown/math": 1,
+          "::Kramdown": 1,
+          "kramdown/parser/kramdown/extension": 1,
+          "kramdown/parser/kramdown/list": 1,
+          "kramdown/parser/kramdown/escaped_chars": 1,
+          "kramdown/parser/kramdown/paragraph": 1,
+          "kramdown/parser/kramdown/abbreviation": 1,
+          "kramdown/parser/kramdown/emphasis": 1,
+          "kramdown/parser/kramdown/html": 1,
+          "kramdown/parser/kramdown/autolink": 1,
+          "kramdown/parser/kramdown/eob": 1,
+          "kramdown/parser/kramdown/footnote": 1,
+          "kramdown/parser/kramdown/blockquote": 1,
+          "kramdown/parser/kramdown/link": 1,
+          "kramdown/parser/kramdown/header": 1,
+          "kramdown/parser/kramdown/typographic_symbol": 1,
+          "kramdown/parser/kramdown/codespan": 1,
+          "kramdown/parser/kramdown/line_break": 1,
+          "kramdown/parser/kramdown/table": 1,
+          "Kramdown::Parser::Html::Parser": 1,
+          "sequel": 1,
+          "twilio-ruby": 1,
+          "active_record": 1,
+          "rdiscount": 1,
+          "mustache": 1,
+          "#{dir}/models": 1,
+          "#{dir}/database_setup": 1,
+          "Locklike": 1,
+          "bookie": 1,
+          "capybara/dsl": 1,
+          "Capybara::DSL": 1,
+          "fatty": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "practicingruby/alexeymk.github.com",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/bookie",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/bowling-kata",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/brine",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/climb",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/compleat-testing",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/descriptive_statistics",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/discourse",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "practicingruby/dotfiles",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/dwbh",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/electric-waterfall",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/elemental_ruby",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/evo",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "practicingruby/fatty",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}
