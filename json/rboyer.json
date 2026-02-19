@@ -1,0 +1,452 @@
+{
+  "username": "rboyer",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 22.88235294117647,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "rboyer/pingpong": 0.4215,
+        "rboyer/safeio": 0.1255
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7493589743589744,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        75865,
+        242
+      ],
+      "Makefile": [
+        804,
+        2
+      ],
+      "Dockerfile": [
+        1231,
+        11
+      ],
+      "HCL": [
+        6889,
+        17
+      ],
+      "Shell": [
+        13135,
+        111
+      ],
+      "HTML": [
+        680,
+        16
+      ],
+      "Vim Script": [
+        2,
+        1
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 400,
+    "total_lines": 98606,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 75865,
+        "commits": 242
+      },
+      {
+        "language": "Shell",
+        "lines": 13135,
+        "commits": 111
+      },
+      {
+        "language": "HCL",
+        "lines": 6889,
+        "commits": 17
+      },
+      {
+        "language": "HTML",
+        "lines": 680,
+        "commits": 16
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 1231,
+        "commits": 11
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rboyer",
+    "analysis_date": "2026-02-19T00:30:26.079854",
+    "total_repos_analyzed": 18,
+    "total_files_analyzed": 95,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "_cgo_export.h": 1,
+          "life.h": 1,
+          "assert.h": 1,
+          "<assert.h>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 90,
+        "packages": {
+          "fmt": 42,
+          "os": 30,
+          "strings": 28,
+          "path/filepath": 18,
+          "C": 18,
+          "bytes": 16,
+          "io": 15,
+          "github.com/rboyer/devconsul/infra": 15,
+          "errors": 14,
+          "github.com/rboyer/devconsul/config": 12,
+          "log": 10,
+          "os/exec": 9,
+          "testing": 9,
+          "net": 8,
+          "encoding/json": 8,
+          "flag": 8,
+          "strconv": 8,
+          "bufio": 8,
+          "time": 7,
+          "text/template": 7,
+          "github.com/rboyer/safeio": 6,
+          "runtime": 6,
+          "unsafe": 6,
+          "github.com/rboyer/netutil/runner": 6,
+          "sort": 5,
+          "github.com/rboyer/netutil/internal/util": 5,
+          "net/http": 4,
+          "github.com/hashicorp/go-hclog": 4,
+          "context": 3,
+          "github.com/hashicorp/go-cleanhttp": 3,
+          "github.com/rboyer/devconsul/cachestore": 3,
+          "service": 3,
+          "node": 3,
+          "github.com/hashicorp/consul/api": 3,
+          "github.com/rboyer/devconsul/util": 3,
+          "get": 3,
+          "github.com/hashicorp/hcl/v2/hclwrite": 3,
+          "math/rand": 3,
+          "io/ioutil": 3,
+          "dump": 3,
+          "set": 3,
+          "github.com/stretchr/testify/require": 3,
+          "net/url": 2,
+          "partition": 2,
+          "name": 2,
+          "namespace": 2,
+          "kind": 2,
+          "github.com/rboyer/devconsul/consulfunc": 2,
+          "addr": 2,
+          "golang.org/x/crypto/blake2b": 2,
+          "tls": 2,
+          "regexp": 2,
+          "--bare": 2,
+          "--may-exist": 2,
+          "google.golang.org/grpc/reflection": 1,
+          "google.golang.org/grpc": 1,
+          "github.com/rboyer/blankspace/blankpb": 1,
+          "golang.org/x/net/http2/h2c": 1,
+          "crypto/tls": 1,
+          "golang.org/x/net/http2": 1,
+          "github.com/hashicorp/go-uuid": 1,
+          "github.com/rboyer/devconsul/app/runner": 1,
+          "token": 1,
+          "[%s": 1,
+          "from_cluster": 1,
+          "secretID": 1,
+          "envoy_prometheus_bind_addr": 1,
+          "{{": 1,
+          "version": 1,
+          "vault-token-ca-": 1,
+          "github.com/mitchellh/copystructure": 1,
+          "vault-ca-": 1,
+          "IntermediatePKIPath": 1,
+          "RootCertTTL": 1,
+          "LeafCertTTL": 1,
+          "IntermediateCertTTL": 1,
+          "PrivateKeyType": 1,
+          "Token": 1,
+          "Address": 1,
+          "purpose": 1,
+          "RootPKIPath": 1,
+          "github.com/google/go-cmp/cmp": 1,
+          "RotationPeriod": 1,
+          "PrivateKeyBits": 1,
+          "aaa": 1,
+          "cluster": 1,
+          "src-cluster": 1,
+          "exec": 1,
+          "error": 1,
+          "dst-cluster": 1,
+          "nodes": 1,
+          "route": 1,
+          "github.com/rboyer/devconsul/grafana": 1,
+          "cache/grafana.ini": 1,
+          "cache/grafana-prometheus.yml": 1,
+          "cache/prometheus.yml": 1,
+          "cache/*.hcl": 1,
+          "cache/*.hash": 1,
+          "terraform.tfstate.backup": 1,
+          "github.com/hashicorp/go-multierror": 1,
+          "cache/*.val": 1,
+          "cache/*.tf": 1,
+          "terraform.tfstate": 1,
+          "cache/*.done": 1,
+          "ENVOY_VERSION=": 1,
+          "local/consul-base:latest": 1,
+          "CONSUL_IMAGE=local/consul-base:latest": 1,
+          "-f": 1,
+          "CONSUL_IMAGE=local/consul-base-canary:latest": 1,
+          "--build-arg": 1,
+          "build": 1,
+          "-t": 1,
+          "DATAPLANE_IMAGE=": 1,
+          "local/consul-base-canary:latest": 1,
+          "tag": 1,
+          "image": 1,
+          "confName": 1,
+          "k8s": 1,
+          "acls": 1,
+          "localAddrs": 1,
+          "clusters": 1,
+          "gossipKey": 1,
+          "agentMasterToken": 1,
+          "pods": 1,
+          "containers": 1,
+          "envoyVersion": 1,
+          "linkMode": 1,
+          "gossip": 1,
+          "ip": 1,
+          "dc": 1,
+          "github.com/rboyer/devconsul/app/tfgen": 1,
+          "github.com/rboyer/devconsul/structs": 1,
+          "config": 1,
+          "apply": 1,
+          "-o": 1,
+          "view": 1,
+          "cache/k8s/k8s-rbac-boot.yml": 1,
+          "could": 1,
+          "crypto/rand": 1,
+          "encoding/base64": 1,
+          "destroy": 1,
+          "SBOOT_MODE=direct": 1,
+          "SBOOT_TOKEN_FILE=/secrets/mesh-gateway--": 1,
+          "SBOOT_MODE=insecure": 1,
+          "SBOOT_PARTITION=": 1,
+          "SBOOT_AGENT_GRPC_TLS=1": 1,
+          "SBOOT_AGENT_TLS=1": 1,
+          "-cluster": 1,
+          "-config-file": 1,
+          "-consul-ip": 1,
+          "format": 1,
+          "embed": 1,
+          "-node=": 1,
+          "-client": 1,
+          "-dc=": 1,
+          "-server": 1,
+          "github.com/dghubble/ipnets": 1,
+          "10.0.0.0/8": 1,
+          "172.19.0.0/16": 1,
+          "172.24.0.0/14": 1,
+          "192.168.0.0/16": 1,
+          "172.17.0.0/16": 1,
+          "172.18.0.0/16": 1,
+          "172.20.0.0/14": 1,
+          "172.28.0.0/14": 1,
+          "go/build": 1,
+          "os/signal": 1,
+          "syscall": 1,
+          ";": 1,
+          "go/ast": 1,
+          "issue42580.go": 1,
+          "singleInnerPointerChecked": 1,
+          "checkedPointer": 1,
+          "go/parser": 1,
+          "doublePointerChecked": 1,
+          "-srcdir": 1,
+          "-objdir": 1,
+          "go/token": 1,
+          "unicode": 1,
+          "err1.go": 1,
+          "issue28721.go": 1,
+          "issue33061.go": 1,
+          "err2.go": 1,
+          "issue18452.go": 1,
+          "err4.go": 1,
+          "-O": 1,
+          "issue11097b.go": 1,
+          "issue11097a.go": 1,
+          "issue18889.go": 1,
+          "issue28069.go": 1,
+          "sync/atomic": 1,
+          "reflect": 1,
+          "<stdio.h>": 1,
+          "<stdlib.h>": 1,
+          "<gmp.h>": 1,
+          "cgolife": 1,
+          "link": 1,
+          "-details": 1,
+          "nat-addresses": 1,
+          "router-port": 1,
+          "dhcp-options-set-options": 1,
+          "github.com/rboyer/netutil/libovs": 1,
+          "snat": 1,
+          "ip_prefix=": 1,
+          "--": 1,
+          "static_routes=@route": 1,
+          "output_port=": 1,
+          "nexthop=": 1,
+          "--columns": 1,
+          "net/http/httputil": 1,
+          "sync": 1,
+          "encoding/hex": 1,
+          "dc1-agent": 1,
+          "go-build": 1,
+          "gopls-": 1,
+          "estimated": 1,
+          "007-agent": 1,
+          "agent_smith": 1,
+          "test-container": 1,
+          "bonnie-agent": 1,
+          "bob-agent": 1,
+          "test-agent": 1,
+          "betty-agent": 1,
+          "consul": 1,
+          "dc1-consul": 1,
+          "snapshot": 1,
+          "jones-agent": 1,
+          "dc2-agent": 1,
+          "dc2-consul": 1,
+          "Test": 1,
+          "test-consul-agent": 1,
+          "Agent1-agent": 1,
+          "Agent2-agent": 1,
+          "config-err-": 1,
+          "encoding/binary": 1,
+          "github.com/sean-/seed": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rboyer/blankspace",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rboyer/devconsul",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rboyer/fileserve",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rboyer/gimmesubnet",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rboyer/go",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "Go"
+        ]
+      },
+      {
+        "repository": "rboyer/netutil",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rboyer/pingpong",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rboyer/rbdebug",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rboyer/safeio",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rboyer/tmp-consul-clean",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rboyer/uvarints",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}
