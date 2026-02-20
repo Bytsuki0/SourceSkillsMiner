@@ -1,0 +1,233 @@
+{
+  "username": "stoney",
+  "areas": {
+    "OSS": {
+      "score": 0.20833333333333326,
+      "details": {
+        "issue_resolution_rate": 0.8125,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.03125000000000003,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "stoney",
+    "analysis_date": "2026-02-20T01:20:20.272933",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 86,
+    "languages": {
+      "C++ Header": {
+        "files_scanned": 27,
+        "packages": {
+          "<boost/utility/enable_if.hpp>": 14,
+          "boost/utility/enable_if.hpp": 14,
+          "boost/mpl/and.hpp": 7,
+          "<boost/mpl/and.hpp>": 7,
+          "base.hpp": 7,
+          "path_spec.hpp": 6,
+          "io_device.hpp": 6,
+          "boost/type_traits/is_base_and_derived.hpp": 5,
+          "<boost/type_traits/is_base_and_derived.hpp>": 5,
+          "get_reader.hpp": 4,
+          "conversion_policies.hpp": 3,
+          "formats/bmp/supported_types.hpp": 2,
+          "bmp_tags.hpp": 2,
+          "<boost/bind.hpp>": 2,
+          "boost/bind.hpp": 2,
+          "get_writer.hpp": 2,
+          "bmp_write.hpp": 1,
+          "bmp_read.hpp": 1,
+          "bmp_all.hpp": 1,
+          "detail/make_dynamic_image_reader.hpp": 1,
+          "detail/make_backend.hpp": 1,
+          "detail/make_scanline_reader.hpp": 1,
+          "detail/image_read_iterator.hpp": 1,
+          "formats/bmp/scanline_read.hpp": 1,
+          "detail/get_reader.hpp": 1,
+          "detail/read_and_convert_view.hpp": 1,
+          "detail/make_reader.hpp": 1,
+          "detail/read_image_info.hpp": 1,
+          "detail/read_and_convert_image.hpp": 1,
+          "detail/read_image.hpp": 1,
+          "detail/read_view.hpp": 1,
+          "formats/bmp/read.hpp": 1,
+          "detail/base.hpp": 1,
+          "formats/bmp/write.hpp": 1,
+          "detail/make_dynamic_image_writer.hpp": 1,
+          "detail/write_view.hpp": 1,
+          "detail/make_writer.hpp": 1,
+          "boost/gil/bit_aligned_pixel_reference.hpp": 1,
+          "typedefs.hpp": 1,
+          "boost/type_traits/is_base_of.hpp": 1,
+          "io_error.hpp": 1,
+          "<vector>": 1,
+          "<boost/type_traits/is_base_of.hpp>": 1,
+          "<istream>": 1,
+          "boost/array.hpp": 1,
+          "<ostream>": 1,
+          "boost/gil/bit_aligned_pixel_iterator.hpp": 1,
+          "<boost/gil/extension/toolbox/toolbox.hpp>": 1,
+          "boost/gil/utilities.hpp": 1,
+          "boost/gil/extension/toolbox/toolbox.hpp": 1,
+          "boost/gil/color_convert.hpp": 1,
+          "<boost/gil/color_convert.hpp>": 1,
+          "<boost/gil/bit_aligned_pixel_reference.hpp>": 1,
+          "vector": 1,
+          "istream": 1,
+          "ostream": 1,
+          "<boost/array.hpp>": 1,
+          "<boost/gil/bit_aligned_pixel_iterator.hpp>": 1,
+          "<boost/gil/utilities.hpp>": 1,
+          "<iterator>": 1,
+          "iterator": 1,
+          "boost/gil/image_view_factory.hpp": 1,
+          "algorithm": 1,
+          "<boost/gil/image_view_factory.hpp>": 1,
+          "<algorithm>": 1,
+          "boost/mpl/size.hpp": 1,
+          "<boost/gil/gil_config.hpp>": 1,
+          "<boost/mpl/size.hpp>": 1,
+          "boost/gil/extension/io_new/detail/io_error.hpp": 1,
+          "boost/gil/gil_config.hpp": 1,
+          "boost/mpl/at.hpp": 1,
+          "<boost/gil/extension/dynamic_image/dynamic_image_all.hpp>": 1,
+          "<boost/mpl/at.hpp>": 1,
+          "boost/gil/extension/dynamic_image/dynamic_image_all.hpp": 1,
+          "<boost/gil/extension/io_new/detail/io_error.hpp>": 1,
+          "get_read_device.hpp": 1,
+          "<boost/gil/extension/io_new/detail/path_spec.hpp>": 1,
+          "<boost/gil/extension/io_new/detail/io_device.hpp>": 1,
+          "boost/gil/extension/io_new/detail/path_spec.hpp": 1,
+          "boost/gil/extension/io_new/detail/io_device.hpp": 1,
+          "get_write_device.hpp": 1,
+          "boost/shared_ptr.hpp": 1,
+          "<cstdio>": 1,
+          "cstdio": 1,
+          "<boost/shared_ptr.hpp>": 1,
+          "<boost/mpl/bool_fwd.hpp>": 1,
+          "string": 1,
+          "cstdlib": 1,
+          "<boost/filesystem/path.hpp>": 1,
+          "<cstdlib>": 1,
+          "boost/filesystem/path.hpp": 1,
+          "malloc.h": 1,
+          "<malloc.h>": 1,
+          "boost/mpl/bool_fwd.hpp": 1,
+          "<string>": 1,
+          "boost/gil/extension/toolbox/dynamic_images.hpp": 1,
+          "boost/algorithm/string.hpp": 1,
+          "<boost/gil/extension/toolbox/dynamic_images.hpp>": 1,
+          "<boost/algorithm/string.hpp>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 5,
+        "packages": {
+          "<Foundation/Foundation.h>": 3,
+          "<UIKit/UIKit.h>": 2,
+          "TFHppleElement.h": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 9,
+        "packages": {
+          "TFHpple.h": 4,
+          "XCTest/XCTest.h": 3,
+          "<XCTest/XCTest.h>": 3,
+          "XPathQuery.h": 3,
+          "AppDelegate.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "UIKit/UIKit.h": 2,
+          "ViewController.h": 1,
+          "TFHppleElement.h": 1,
+          "libxml/tree.h": 1,
+          "<libxml/parser.h>": 1,
+          "<libxml/HTMLparser.h>": 1,
+          "<libxml/tree.h>": 1,
+          "<libxml/xpath.h>": 1,
+          "libxml/HTMLparser.h": 1,
+          "libxml/xpathInternals.h": 1,
+          "<libxml/xpathInternals.h>": 1,
+          "libxml/xpath.h": 1,
+          "libxml/parser.h": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 2,
+        "packages": {
+          "wp-admin/includes/media.php": 1,
+          "includes/class-ssp-frontend.php": 1,
+          "includes/class-ssp-admin.php": 1,
+          "includes/class-ssp-settings.php": 1,
+          "includes/ssp-functions.php": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "stoney/boost-gil-workshop",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "stoney/hpple",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "stoney/Seriously-Simple-Podcasting",
+        "files_analyzed": 12,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

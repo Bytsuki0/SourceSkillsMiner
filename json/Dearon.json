@@ -1,0 +1,366 @@
+{
+  "username": "Dearon",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "Dearon/SystemStats": 0.5859
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6961538461538461,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "PHP": [
+        17226,
+        147
+      ],
+      "CSS": [
+        8927,
+        20
+      ],
+      "Lua": [
+        1293,
+        23
+      ],
+      "JavaScript": [
+        90112,
+        132
+      ],
+      "Python": [
+        6694,
+        4
+      ],
+      "Shell": [
+        14162,
+        2
+      ],
+      "Haskell": [
+        44048,
+        7
+      ],
+      "Vim Script": [
+        4075,
+        0
+      ],
+      "HTML": [
+        178,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 335,
+    "total_lines": 186715,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 17226,
+        "commits": 147
+      },
+      {
+        "language": "JavaScript",
+        "lines": 90112,
+        "commits": 132
+      },
+      {
+        "language": "Lua",
+        "lines": 1293,
+        "commits": 23
+      },
+      {
+        "language": "CSS",
+        "lines": 8927,
+        "commits": 20
+      },
+      {
+        "language": "Haskell",
+        "lines": 44048,
+        "commits": 7
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Dearon",
+    "analysis_date": "2026-02-19T20:23:32.815565",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 215,
+    "languages": {
+      "Haskell": {
+        "files_scanned": 1,
+        "packages": {
+          "System.Exit": 1,
+          "qualified": 1,
+          "XMonad": 1,
+          "System.IO": 1,
+          "Data.Monoid": 1,
+          "Data.Map": 1,
+          "XMonad.Hooks.ManageDocks": 1,
+          "XMonad.StackSet": 1,
+          "XMonad.Util.Run": 1,
+          "XMonad.Hooks.ManageHelpers": 1,
+          "XMonad.Hooks.DynamicLog": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 34,
+        "packages": {
+          "immutable": 6,
+          "pubsub-js": 5,
+          "t.write(": 3,
+          ")).appendTo(t.documentElement)": 3,
+          "http": 3,
+          "function": 2,
+          "t=(xt[0].contentWindow||xt[0].contentDocument).document": 2,
+          "object": 2,
+          "time-grunt": 2,
+          "jQuery": 2,
+          "gameplayer": 2,
+          "express": 2,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1,
+          ").appendTo(o))": 1,
+          "a.opacity": 1,
+          "horizontal": 1,
+          "!important": 1,
+          "gamecombatant": 1,
+          "gameminer": 1,
+          "game": 1,
+          "use": 1,
+          "Response": 1,
+          "request": 1,
+          "jade": 1,
+          "cheerio": 1,
+          "amd": 1,
+          "=": 1,
+          "global": 1,
+          "undefined": 1,
+          "browserify": 1,
+          "vinyl-buffer": 1,
+          "gulp-uglify": 1,
+          "vinyl-source-stream": 1,
+          "gulp": 1,
+          "Combokeys": 1,
+          "__p+=": 1,
+          "xml2js": 1,
+          "mongoose": 1,
+          "lodash": 1,
+          "load-grunt-tasks": 1,
+          "jshint-stylish": 1,
+          "<%=": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 1,
+        "packages": {
+          "thirdparty.slam": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 30,
+        "packages": {
+          "PhpSpec\\ObjectBehavior": 13,
+          "Prophecy\\Argument": 13,
+          "\\InvalidArgumentException": 6,
+          "pclzip.lib.php": 2,
+          "data/php/company/invalid.php": 2,
+          "data/php/company/minimal.php": 2,
+          "data/php/project/invalid.php": 2,
+          "data/php/project/minimal.php": 2,
+          "data/php/company/full.php": 2,
+          "data/php/project/full.php": 2,
+          "Behat\\Behat\\Tester\\Exception\\PendingException": 1,
+          "Behat\\Behat\\Context\\SnippetAcceptingContext": 1,
+          "Behat\\Gherkin\\Node\\TableNode": 1,
+          "Behat\\Gherkin\\Node\\PyStringNode": 1,
+          "Behat\\Behat\\Context\\Context": 1,
+          "Bossa\\PhpSpec\\Expect": 1,
+          "PhpSpec\\Matcher\\ArrayContainMatcher": 1,
+          "Prophecy\\Prophet": 1,
+          "\\Doctrine\\ORM\\Mapping": 1,
+          "\\Michelf\\Markdown": 1,
+          "$filename": 1,
+          "\\finfo": 1,
+          "\\LogicException": 1,
+          "Presskit/Autoloader.php": 1,
+          "vendor/autoload.php": 1,
+          "validation.php": 1,
+          "Slim\\Slim": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 10,
+        "packages": {
+          "django": 8,
+          "os": 4,
+          "admin": 2,
+          "TemplateView": 2,
+          "sys": 2,
+          "unipath": 1,
+          "Path": 1,
+          "ImproperlyConfigured": 1,
+          "entries": 1,
+          "patterns": 1,
+          "EntriesHomeView": 1,
+          "get_wsgi_application": 1,
+          "models": 1,
+          "TestCase": 1,
+          "braces": 1,
+          "ensure_csrf_cookie": 1,
+          "method_decorator": 1,
+          "JSONResponseMixin": 1,
+          "execute_from_command_line": 1,
+          "local": 1,
+          "fabric": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Dearon/Acme",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Dearon/asylumjam02",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "Dearon/Blackjack",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Dearon/catalog",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Dearon/cms",
+        "files_analyzed": 5,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Dearon/dopresskit",
+        "files_analyzed": 9,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Dearon/dotfiles",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Haskell",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Dearon/multiverseminer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Dearon/presskit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Dearon/Scraping",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Dearon/Slim-Views",
+        "files_analyzed": 6,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Dearon/snake-clone",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Dearon/sokoban",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Dearon/steamcoop",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Dearon/steamcoop-angular",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

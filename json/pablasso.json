@@ -1,0 +1,380 @@
+{
+  "username": "pablasso",
+  "areas": {
+    "OSS": {
+      "score": 0.48051948051948057,
+      "details": {
+        "issue_resolution_rate": 0.8571428571428571,
+        "pr_merge_rate": 0.36363636363636365,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 0.6666666666666666,
+      "details": {
+        "pablasso/capistrano-resque": 0.807,
+        "pablasso/chelodina": -0.33230000000000004,
+        "pablasso/chocobot": 0.2263,
+        "pablasso/hubot-reddit": 0.29331999999999997,
+        "pablasso/JPGeodesy": -0.6904,
+        "pablasso/twitiriqui": 0.121
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5925657675657676,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        37525,
+        24
+      ],
+      "Lua": [
+        65,
+        2
+      ],
+      "Python": [
+        6483,
+        52
+      ],
+      "PHP": [
+        218624,
+        16
+      ],
+      "Objective-C": [
+        61757,
+        53
+      ],
+      "Ruby": [
+        210,
+        6
+      ],
+      "CoffeeScript": [
+        4487,
+        42
+      ],
+      "Shell": [
+        29600,
+        52
+      ],
+      "CSS": [
+        56,
+        0
+      ],
+      "Emacs Lisp": [
+        110071,
+        335
+      ],
+      "Vim Script": [
+        45297,
+        137
+      ],
+      "C": [
+        1498,
+        0
+      ],
+      "Go": [
+        1017749,
+        244
+      ],
+      "Makefile": [
+        3996,
+        0
+      ],
+      "TypeScript": [
+        9418,
+        4
+      ],
+      "HTML": [
+        61,
+        1
+      ],
+      "C#": [
+        169,
+        3
+      ],
+      "Perl": [
+        4,
+        0
+      ],
+      "C++": [
+        0,
+        0
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 971,
+    "total_lines": 1547070,
+    "top_5_languages": [
+      {
+        "language": "Emacs Lisp",
+        "lines": 110071,
+        "commits": 335
+      },
+      {
+        "language": "Go",
+        "lines": 1017749,
+        "commits": 244
+      },
+      {
+        "language": "Vim Script",
+        "lines": 45297,
+        "commits": 137
+      },
+      {
+        "language": "Objective-C",
+        "lines": 61757,
+        "commits": 53
+      },
+      {
+        "language": "Python",
+        "lines": 6483,
+        "commits": 52
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "pablasso",
+    "analysis_date": "2026-02-19T13:40:55.994569",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 146,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 16,
+        "packages": {
+          "<UIKit/UIKit.h>": 14,
+          "GMGridView-Constants.h": 6,
+          "<Foundation/Foundation.h>": 3,
+          "GMGridViewCell.h": 2,
+          "BSKeyboardControls.h": 1,
+          "<UIKit/UIControl.h>": 1,
+          "<UIKit/UIKitDefines.h>": 1,
+          "GMGridView.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "storybook": 3,
+          "path": 1,
+          "react": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 18,
+        "packages": {
+          "AppDelegate.h": 4,
+          "GMGridView.h": 4,
+          "GMGridViewLayoutStrategies.h": 4,
+          "<UIKit/UIKit.h>": 3,
+          "UIKit/UIKit.h": 3,
+          "QuartzCore/QuartzCore.h": 3,
+          "<QuartzCore/QuartzCore.h>": 3,
+          "OptionsViewController.h": 3,
+          "BSKeyboardControls.h": 2,
+          "DDPageControl.h": 2,
+          "DDPageControlViewController.h": 2,
+          "GMGridViewCell+Extended.h": 2,
+          "UIGestureRecognizer+GMGridViewAdditions.h": 2,
+          "UIView+GMGridViewAdditions.h": 2,
+          "Demo2ViewController.h": 2,
+          "Demo1ViewController.h": 2,
+          "ViewController.h": 1,
+          "this": 1,
+          "DDPageControlAppDelegate.h": 1,
+          "Quartzcore/QuartzCore.h": 1,
+          "<Quartzcore/QuartzCore.h>": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 10,
+        "packages": {
+          "lib/registrations.php": 2,
+          "lib/Pusher.php": 1,
+          "class.smtp.php": 1,
+          "facebook/facebook.php": 1,
+          "registration.php": 1,
+          "twitter/twitteroauth.php": 1,
+          "twitter/config.php": 1,
+          "class.phpmailer.php": 1,
+          "twitteroauth.php": 1,
+          "config.php": 1,
+          "OAuth.php": 1,
+          "webroot": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 12,
+        "packages": {
+          "chelodina": 5,
+          "ast": 3,
+          "compiler": 2,
+          "validator": 2,
+          "astor": 2,
+          "ply": 2,
+          "Enum": 1,
+          "enum": 1,
+          "copy": 1,
+          "only": 1,
+          "os": 1,
+          "argparse": 1,
+          "path": 1,
+          "Parser": 1,
+          "turtle": 1,
+          "Lexer": 1,
+          "ast_builder": 1,
+          "*": 1,
+          "setup": 1,
+          "setuptools": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 5,
+        "packages": {
+          "fileutils": 2,
+          "rubygems": 2,
+          "net/ftp": 2,
+          "tmpdir": 2,
+          "capistrano-resque/capistrano_integration": 1,
+          "capistrano-resque/version": 1,
+          "capistrano": 1,
+          "capistrano/version": 1,
+          "net/ftp/list": 1,
+          "test/unit": 1,
+          "ftp_sync": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 3,
+        "packages": {
+          "react": 2,
+          "dnd-kit": 2
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 5,
+        "packages": {
+          "react": 4,
+          "react-dom": 2,
+          "dnd-kit": 2,
+          "type": 1,
+          "React": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "pablasso/adventofcode-2018",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "pablasso/blipter",
+        "files_analyzed": 10,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "pablasso/BSKeyboardControls",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "pablasso/capistrano-resque",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pablasso/chelodina",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "pablasso/DDPageControl",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "pablasso/DevHouser",
+        "files_analyzed": 13,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "pablasso/dnd-kit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "pablasso/ftp_sync",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pablasso/GMGridView",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "pablasso/Greno",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

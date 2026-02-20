@@ -1,0 +1,469 @@
+{
+  "username": "osuGrad",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.08333333333333334,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "osuGrad",
+    "analysis_date": "2026-02-20T00:28:29.551341",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 407,
+    "languages": {
+      "C": {
+        "files_scanned": 3,
+        "packages": {
+          "linebreak.h": 3,
+          "linebreakdef.h": 3,
+          "assert.h": 1,
+          "<assert.h>": 1,
+          "string.h": 1,
+          "<stddef.h>": 1,
+          "<string.h>": 1,
+          "stddef.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 15,
+        "packages": {
+          "System.Web.Mvc": 8,
+          "System.Linq": 8,
+          "System.Collections.Generic": 8,
+          "System.Web": 6,
+          "System.Web.Optimization": 4,
+          "System.Web.Routing": 4,
+          "System.Runtime.CompilerServices": 3,
+          "System.Runtime.InteropServices": 3,
+          "System.Threading.Tasks": 2,
+          "Microsoft.WindowsAzure.Subscriptions": 1,
+          "Microsoft.WindowsAzure.Storage.Blob": 1,
+          "System.IO": 1,
+          "System.Net.Http": 1,
+          "Microsoft.WindowsAzure.Storage": 1,
+          "System.Net": 1,
+          "Microsoft.WindowsAzure.Management.WebSites.Models": 1,
+          "Microsoft.WindowsAzure.Management.Storage.Models": 1,
+          "Microsoft.WindowsAzure.Subscriptions.Models": 1,
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": 1,
+          "Microsoft.WindowsAzure.Management.Storage": 1,
+          "Microsoft.WindowsAzure.Management.Compute.Models": 1,
+          "Microsoft.WindowsAzure": 1,
+          "Microsoft.WindowsAzure.Management.Compute": 1,
+          "Microsoft.WindowsAzure.Management.WebSites": 1,
+          "Microsoft.WindowsAzure.Management.Models": 1,
+          "System.Net.Security": 1,
+          "Microsoft.Web.Deployment": 1,
+          "System.Globalization": 1,
+          "System.Security.Cryptography.X509Certificates": 1,
+          "System.Text": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 14,
+        "packages": {
+          "AndroidUtil.h": 5,
+          "<AndroidUtil.h>": 5,
+          "<JniEnvelope.h>": 4,
+          "ZLFileImage.h": 4,
+          "<ZLFileImage.h>": 4,
+          "JniEnvelope.h": 4,
+          "ZLImage.h": 4,
+          "<ZLImage.h>": 4,
+          "jni.h": 3,
+          "<jni.h>": 3,
+          "ZLFile.h": 3,
+          "<ZLFile.h>": 3,
+          "<ZLInputStream.h>": 3,
+          "ZLInputStream.h": 3,
+          "<ZLStringUtil.h>": 3,
+          "ZLStringUtil.h": 3,
+          "fbreader/src/formats/FormatPlugin.h": 2,
+          "BookReader.h": 2,
+          "BookModel.h": 2,
+          "FormatPlugin.h": 2,
+          "<ZLibrary.h>": 2,
+          "ZLibrary.h": 2,
+          "cstring": 2,
+          "<cstring>": 2,
+          "FB2BookReader.h": 2,
+          "<cstdlib>": 2,
+          "cstdlib": 2,
+          "FB2CoverReader.h": 2,
+          "FB2MetaInfoReader.h": 2,
+          "zlib.h": 1,
+          "<zlib.h>": 1,
+          "string.h": 1,
+          "<new>": 1,
+          "<string.h>": 1,
+          "new": 1,
+          "liblinebreak-2.0/linebreak.h": 1,
+          "fbreader/src/library/Tag.h": 1,
+          "fbreader/src/library/Book.h": 1,
+          "fbreader/src/library/Author.h": 1,
+          "fbreader/src/library/Library.h": 1,
+          "fbreader/src/bookmodel/BookModel.h": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "<ZLLogger.h>": 1,
+          "ZLLogger.h": 1,
+          "ZLCachedMemoryAllocator.h": 1,
+          "<ZLCachedMemoryAllocator.h>": 1,
+          "EncodedTextReader.h": 1,
+          "ZLLanguageDetector.h": 1,
+          "<ZLLanguageDetector.h>": 1,
+          "txt/TxtPlugin.h": 1,
+          "rtf/RtfPlugin.h": 1,
+          "fb2/FB2Plugin.h": 1,
+          "<ZLTextParagraph.h>": 1,
+          "ZLTextParagraph.h": 1,
+          "FB2TagManager.h": 1,
+          "FB2Plugin.h": 1,
+          "ZLXMLNamespace.h": 1,
+          "<ZLXMLNamespace.h>": 1,
+          "FB2Reader.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 9,
+        "packages": {
+          "string": 5,
+          "<string>": 5,
+          "FB2Reader.h": 3,
+          "<jni.h>": 2,
+          "jni.h": 2,
+          "<ZLTextParagraph.h>": 2,
+          "ZLTextParagraph.h": 2,
+          "<vector>": 2,
+          "vector": 2,
+          "<stddef.h>": 1,
+          "stddef.h": 1,
+          "ZLUserData.h": 1,
+          "<ZLTextModel.h>": 1,
+          "<map>": 1,
+          "map": 1,
+          "<ZLUserData.h>": 1,
+          "ZLTextModel.h": 1,
+          "stack": 1,
+          "FBTextKind.h": 1,
+          "FBHyperlinkType.h": 1,
+          "<stack>": 1,
+          "<ZLEncodingConverter.h>": 1,
+          "ZLEncodingConverter.h": 1,
+          "shared_ptr.h": 1,
+          "<shared_ptr.h>": 1,
+          "ZLFile.h": 1,
+          "ZLImage.h": 1,
+          "<ZLImage.h>": 1,
+          "<ZLFile.h>": 1,
+          "<ZLXMLReader.h>": 1,
+          "ZLXMLReader.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 182,
+        "packages": {
+          "org.springframework": 53,
+          "java.util": 52,
+          "org.broadleafcommerce": 51,
+          "com.seriouscompany": 30,
+          "com.springsource": 30,
+          "com.google": 27,
+          "javax.servlet": 26,
+          "java.io": 26,
+          "com.gitblit": 24,
+          "com.smartgwt": 22,
+          "com.mycompany": 21,
+          "expenses.domain": 15,
+          "java.text": 12,
+          "com.example": 12,
+          "javax.ws": 9,
+          "expenses.context": 9,
+          "org.elite": 8,
+          "com.yammer": 8,
+          "static": 7,
+          "org.junit": 7,
+          "javax.validation": 7,
+          "org.joda": 7,
+          "javax.jdo": 6,
+          "expenses.repository": 6,
+          "com.syntevo": 6,
+          "org.slf4j": 6,
+          "javax.inject": 6,
+          "java.security": 6,
+          "org.apache": 5,
+          "expenses.web": 5,
+          "org.eclipse": 5,
+          "org.kohsuke": 5,
+          "java.net": 5,
+          "com.sun": 4,
+          "org.jetbrains": 4,
+          "javax.annotation": 3,
+          "expenses.security": 3,
+          "java.sql": 3,
+          "java.math": 2,
+          "javax.persistence": 2,
+          "java.lang": 2,
+          "dagger.Module": 2,
+          "dagger.Provides": 2,
+          "=": 2,
+          "com.unboundid": 2,
+          "javax.net": 2,
+          "javax.xml": 1,
+          "com.fasterxml": 1,
+          "org.hibernate": 1,
+          "com.bluelotussoftware": 1,
+          "org.codehaus": 1,
+          "dagger.ObjectGraph": 1,
+          "org.jvnet": 1,
+          "com.sforce": 1,
+          "waffle.windows": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 28,
+        "packages": {
+          "=": 4,
+          "util": 3,
+          "underscore": 3,
+          "of": 3,
+          "Ember's": 3,
+          "the": 3,
+          "`addClass": 3,
+          "for": 3,
+          "in": 3,
+          "replace": 3,
+          "to": 3,
+          "(Required": 3,
+          "something": 3,
+          "a": 3,
+          "handlebars": 3,
+          "this": 3,
+          "DS.JSONSerializer": 3,
+          "DS.Model's": 3,
+          "path": 2,
+          "t.write(": 2,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 2,
+          ")).appendTo(t.documentElement)": 2,
+          "_": 2,
+          "angular": 2,
+          "This": 2,
+          "grunt-contrib-livereload": 1,
+          "<%=": 1,
+          "matchdep": 1,
+          "select": 1,
+          "?ngModel": 1,
+          "{0}": 1,
+          ">": 1,
+          "ngSwitch": 1,
+          "^ngSwitch": 1,
+          "ngModel": 1,
+          "main": 1,
+          "object": 1,
+          "browserify": 1,
+          "connect": 1,
+          "child_process": 1,
+          "rimraf": 1,
+          "fs": 1,
+          "mkdirp": 1,
+          "nopt": 1,
+          "undefined": 1,
+          "1.6.0.3": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 4,
+        "packages": {
+          "django": 2,
+          "*": 2,
+          "autodiscover": 1,
+          "dbindexer": 1,
+          "settings": 1,
+          "execute_manager": 1,
+          "sys": 1,
+          "os": 1,
+          "djangoappengine": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "osuGrad/angudone",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osuGrad/angudone-backend",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osuGrad/angularjs-Quizzler",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osuGrad/BadAssWebApp",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "osuGrad/BroadleafCommerce",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "osuGrad/CodeMash2015",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osuGrad/cucumber-js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osuGrad/DemoSite",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "osuGrad/django-testapp",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "osuGrad/dropwizard-security",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "osuGrad/ember-beginner-workshop",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osuGrad/FBReaderJ",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "osuGrad/file-uploader",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osuGrad/finance",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "osuGrad/FizzBuzzEnterpriseEdition",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "osuGrad/gitblit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "osuGrad/grails-cucumber",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osuGrad/greenhouse",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,628 @@
+{
+  "username": "norman",
+  "areas": {
+    "OSS": {
+      "score": 0.9907834101382489,
+      "details": {
+        "issue_resolution_rate": 0.8571428571428571,
+        "pr_merge_rate": 1.1290322580645162,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4487179487179487,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.17307692307692307
+      }
+    },
+    "Sentiment": {
+      "score": 0.95,
+      "details": {
+        "norman/ambry": 0.40227777777777773,
+        "norman/babosa": 0.3010689189189189,
+        "norman/disqus": 0.24276666666666666,
+        "norman/fastri": 0.025733333333333334,
+        "norman/friendly_id": 0.266325,
+        "norman/friendly_id-globalize": 0.2636282051282051,
+        "norman/friendly_id_sequel": 0.6033,
+        "norman/hash_formatter": 0.39865,
+        "norman/hops": 0.4926,
+        "norman/lua-haml": 0.37410333333333334,
+        "norman/lua-postgres": -0.2371,
+        "norman/luaargentina": 0.2263,
+        "norman/luacov": 0.41908571428571423,
+        "norman/luarocks": 0.38554166666666667,
+        "norman/mongrel2_wsapi": 0.807,
+        "norman/replicate": 0.40965,
+        "norman/squirm": 0.265475,
+        "norman/telescope": 0.22902999999999998,
+        "norman/unidecoder": 0.3022529411764706,
+        "norman/yourbugreportneedsmore.info": 0.35945
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7973753397140494,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        264650,
+        1389
+      ],
+      "HTML": [
+        129,
+        4
+      ],
+      "JavaScript": [
+        5187,
+        11
+      ],
+      "Shell": [
+        2724,
+        51
+      ],
+      "Vim Script": [
+        115504,
+        161
+      ],
+      "CSS": [
+        1288,
+        7
+      ],
+      "CoffeeScript": [
+        13,
+        0
+      ],
+      "Lua": [
+        31649,
+        338
+      ],
+      "C": [
+        1917,
+        17
+      ],
+      "C++": [
+        2,
+        0
+      ],
+      "Elixir": [
+        248,
+        1
+      ],
+      "Perl": [
+        1422,
+        9
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 1988,
+    "total_lines": 424733,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 264650,
+        "commits": 1389
+      },
+      {
+        "language": "Lua",
+        "lines": 31649,
+        "commits": 338
+      },
+      {
+        "language": "Vim Script",
+        "lines": 115504,
+        "commits": 161
+      },
+      {
+        "language": "Shell",
+        "lines": 2724,
+        "commits": 51
+      },
+      {
+        "language": "C",
+        "lines": 1917,
+        "commits": 17
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "norman",
+    "analysis_date": "2026-02-20T02:17:52.484130",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 346,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "jQuery": 1,
+          "o.opacity&&(this.helper.css(": 1,
+          "horizontal": 1,
+          ").appendTo(a))": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 154,
+        "packages": {
+          "spec_helper": 19,
+          "rubygems": 12,
+          "test/unit": 10,
+          "latin": 9,
+          "mock": 9,
+          "bundler/setup": 8,
+          "forwardable": 6,
+          "activerecord": 6,
+          "kramdown": 6,
+          "mysql2": 6,
+          "redcarpet": 6,
+          "railties": 6,
+          "activerecord-jdbcpostgresql-adapter": 6,
+          "sqlite3": 6,
+          "activerecord-jdbcmysql-adapter": 6,
+          "pg": 6,
+          "Enumerable": 5,
+          "stringio": 5,
+          "AASM": 4,
+          "test_helper": 4,
+          "ffaker": 4,
+          "fileutils": 4,
+          "cyrillic": 4,
+          "FastRI": 4,
+          "FriendlyId::Test::SequelAdapter::Core": 4,
+          "aasm/persistence/orm": 3,
+          "ambry": 3,
+          "yaml": 3,
+          "rails/generators": 3,
+          "Arel::Predications": 3,
+          "Arel::OrderPredications": 3,
+          "rdoc/ri/paths": 3,
+          "fastri/full_text_indexer": 3,
+          "active_record": 3,
+          "Model": 3,
+          "friendly_id": 3,
+          "bundler": 3,
+          "FriendlyId::Test::Generic": 3,
+          "FriendlyId::Test::SequelAdapter::Slugged": 3,
+          "logger": 2,
+          "AASM::DslHelper": 2,
+          "active_support": 2,
+          "benchmark": 2,
+          "InstanceMethods": 2,
+          "ambry/adapters/yaml": 2,
+          "ambry/active_model": 2,
+          "minitest/spec": 2,
+          "simplecov": 2,
+          "Arel::Math": 2,
+          "Arel::Expressions": 2,
+          "Arel::AliasPredication": 2,
+          "babosa": 2,
+          "uri": 2,
+          "capybara/cuprite": 2,
+          "rspec": 2,
+          "deface": 2,
+          "action_view": 2,
+          "deface/dsl/loader": 2,
+          "action_controller": 2,
+          "deface/dsl/context": 2,
+          "deface/haml_converter": 2,
+          "deface/action_view_extensions": 2,
+          "mocha": 2,
+          "unicode": 2,
+          "strscan": 2,
+          "enumerator": 2,
+          "fastri/util": 2,
+          "fastri/version": 2,
+          "fastri/name_descriptor": 2,
+          "rbconfig": 2,
+          "fastri/full_text_index": 2,
+          "fastri/ri_index": 2,
+          "fatalistic": 2,
+          "minitest/autorun": 2,
+          "FriendlyId": 2,
+          "::FriendlyId::FinderMethods": 2,
+          "i18n": 2,
+          "rails/generators/active_record": 2,
+          "rails/all": 2,
+          "sequel": 2,
+          "FriendlyId::Test::Slugged": 2,
+          "aasm/instance_base": 1,
+          "aasm/aasm": 1,
+          "aasm/core/invokers/proc_invoker": 1,
+          "aasm/version": 1,
+          "aasm/persistence": 1,
+          "aasm/configuration": 1,
+          "aasm/base": 1,
+          "aasm/core/transition": 1,
+          "aasm/persistence/base": 1,
+          "aasm/state_machine": 1,
+          "aasm/core/event": 1,
+          "aasm/core/invokers/base_invoker": 1,
+          "aasm/core/invokers/literal_invoker": 1,
+          "aasm/dsl_helper": 1,
+          "aasm/core/invoker": 1,
+          "aasm/localizer": 1,
+          "aasm/core/state": 1,
+          "aasm/persistence/plain_persistence": 1,
+          "aasm/core/invokers/class_invoker": 1,
+          "aasm/state_machine_store": 1,
+          "aasm/errors": 1,
+          "human_name": 1,
+          "aasm/minitest/": 1,
+          "aasm/minitest": 1,
+          "persistence": 1,
+          "after_commit_everywhere": 1,
+          "Mongoid::Document": 1,
+          "NoBrainer::Document": 1,
+          "active_record_random": 1,
+          "hook": 1,
+          "active_support/test_case": 1,
+          "ambry/model": 1,
+          "ambry/abstract_key_set": 1,
+          "thread": 1,
+          "ambry/adapter": 1,
+          "ambry/mapper": 1,
+          "ambry/hash_proxy": 1,
+          "ambry/adapters/file": 1,
+          "all": 1,
+          "|": 1,
+          "::ActiveModel::Serializers::JSON": 1,
+          "::ActiveModel::Validations": 1,
+          "active_model": 1,
+          "id_field": 1,
+          "Comparable": 1,
+          "rails/generators/actions": 1,
+          "ActiveModuleSupportSpecHelper": 1,
+          "ActiveModel::Lint::Tests": 1,
+          "arel/table": 1,
+          "arel/relation": 1,
+          "arel/select_manager": 1,
+          "arel/predications": 1,
+          "arel/alias_predication": 1,
+          "arel/tree_manager": 1,
+          "arel/nodes": 1,
+          "arel/visitors": 1,
+          "arel/attributes": 1,
+          "arel/factory_methods": 1,
+          "arel/expression": 1,
+          "arel/update_manager": 1,
+          "arel/delete_manager": 1,
+          "arel/deprecated": 1,
+          "arel/compatibility/wheres": 1,
+          "arel/math": 1,
+          "arel/order_predications": 1,
+          "arel/crud": 1,
+          "arel/insert_manager": 1,
+          "arel/sql/engine": 1,
+          "arel/expressions": 1,
+          "arel/sql_literal": 1,
+          "arel/attributes/attribute": 1,
+          "arel/nodes/unary": 1,
+          "arel/nodes/with": 1,
+          "arel/nodes/and": 1,
+          "arel/nodes/named_function": 1,
+          "arel/nodes/inner_join": 1,
+          "arel/nodes/string_join": 1,
+          "arel/nodes/binary": 1,
+          "arel/nodes/delete_statement": 1,
+          "arel/nodes/select_statement": 1,
+          "arel/nodes/insert_statement": 1,
+          "arel/nodes/equality": 1,
+          "arel/nodes/infix_operation": 1,
+          "arel/nodes/false": 1,
+          "arel/nodes/true": 1,
+          "arel/nodes/join_source": 1,
+          "arel/nodes/update_statement": 1,
+          "arel/nodes/values": 1,
+          "arel/nodes/table_alias": 1,
+          "arel/nodes/ascending": 1,
+          "arel/nodes/terminal": 1,
+          "arel/nodes/function": 1,
+          "arel/nodes/sql_literal": 1,
+          "arel/nodes/in": 1,
+          "arel/nodes/select_core": 1,
+          "arel/nodes/descending": 1,
+          "arel/nodes/outer_join": 1,
+          "arel/nodes/unqualified_column": 1,
+          "arel/nodes/count": 1,
+          "arel/nodes/node": 1,
+          ":wheres=": 1,
+          ":relation=": 1,
+          ":relation": 1,
+          ":wheres": 1,
+          ":operand2": 1,
+          ":operand1": 1,
+          "Arel::Expression": 1,
+          "Arel::FactoryMethods": 1,
+          "babosa/identifier": 1,
+          "babosa/transliterator/base": 1,
+          "singleton": 1,
+          "Singleton": 1,
+          "capybara/cuprite/driver": 1,
+          "capybara/cuprite/errors": 1,
+          "capybara": 1,
+          "ferrum": 1,
+          "capybara/cuprite/page": 1,
+          "capybara/cuprite/browser": 1,
+          "capybara/cuprite/node": 1,
+          "pdf/reader": 1,
+          "image_size": 1,
+          "when": 1,
+          "Spec::Support::ExternalBrowser": 1,
+          "chunky_png": 1,
+          "render": 1,
+          "pty": 1,
+          "timeout": 1,
+          "support/external_browser": 1,
+          "support/test_app": 1,
+          "capybara/spec/spec_helper": 1,
+          "login": 1,
+          "capybara/spec/test_app": 1,
+          "deface/template_helper": 1,
+          "deface/search": 1,
+          "deface/environment": 1,
+          "deface/parser": 1,
+          "deface/railtie": 1,
+          "deface/applicator": 1,
+          "deface/override": 1,
+          "deface/original_validator": 1,
+          "polyglot": 1,
+          "OriginalValidator": 1,
+          "TemplateHelper": 1,
+          "nokogiri": 1,
+          "cgi": 1,
+          "rake": 1,
+          "Deface::TemplateHelper": 1,
+          "haml": 1,
+          "time": 1,
+          "disqus": 1,
+          "net/http": 1,
+          "open-uri": 1,
+          "json": 1,
+          "active_support/inflector": 1,
+          "rdoc/ri/reader": 1,
+          "rdoc/ri/cache": 1,
+          "rdoc/ri/descriptions": 1,
+          "rdoc/ri/util": 1,
+          "rdoc/ri/display": 1,
+          "rdoc/ri/formatter": 1,
+          "fastri/ri_index.rb": 1,
+          "FormatterRedirection": 1,
+          "rdoc/ri/writer": 1,
+          "map": 1,
+          "help_default": 1,
+          "HookScriptAPI": 1,
+          "FileOperations": 1,
+          "setup_dir_man": 1,
+          "setup_dir_data": 1,
+          "distclean_dir_conf": 1,
+          "setup_dir_lib": 1,
+          "config_dir_bin": 1,
+          "distclean_dir_bin": 1,
+          "distclean_dir_man": 1,
+          "clean_dir_lib": 1,
+          "parsearg_clean": 1,
+          "clean_dir_conf": 1,
+          "parsearg_test": 1,
+          "parsearg_setup": 1,
+          "clean_dir_data": 1,
+          "distclean_dir_lib": 1,
+          "clean_dir_bin": 1,
+          "config_dir_data": 1,
+          "config_dir_lib": 1,
+          "config_dir_man": 1,
+          "config": 1,
+          "clean_dir_man": 1,
+          "distclean_dir_data": 1,
+          "config_dir_conf": 1,
+          "parsearg_show": 1,
+          "parsearg_distclean": 1,
+          "setup_dir_conf": 1,
+          "fastri/ri_service": 1,
+          "FastRI::Util::MagicHelp": 1,
+          "FastRI::Util": 1,
+          "friendly_id/configuration": 1,
+          "friendly_id/base": 1,
+          "friendly_id/finder_methods": 1,
+          "friendly_id/object_utils": 1,
+          "the": 1,
+          "securerandom": 1,
+          "friendly_id/slugged": 1,
+          "sequentially_slugged/calculator": 1,
+          "friendly_id/slug_generator": 1,
+          "friendly_id/candidates": 1,
+          "helper": 1,
+          "FriendlyId::Test": 1,
+          "globalize": 1,
+          "friendly_id/globalize": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "rails": 1,
+          "initializer": 1,
+          "boot": 1,
+          "Active": 1,
+          "rails/performance_test_help": 1,
+          "rails/test_help": 1,
+          "friendly_id/sequel": 1,
+          "sequel/extensions/migration": 1,
+          "FriendlyId::Slugged::Model": 1,
+          "::FriendlyId::SequelAdapter::SimpleModel": 1,
+          "sequel/extensions/inflector.rb": 1,
+          "friendly_id/sequel_adapter/slugged_model": 1,
+          "friendly_id/sequel_adapter/slug": 1,
+          "sequel/extensions/blank.rb": 1,
+          "::FriendlyId::SequelAdapter::SluggedModel": 1,
+          "friendly_id/sequel_adapter/simple_model": 1,
+          "friendly_id/sequel_adapter/create_slugs": 1,
+          "FriendlyId::Test::SequelAdapter::Simple": 1,
+          "FriendlyId::Test::Simple": 1,
+          "FriendlyId::Test::CustomNormalizer": 1,
+          "friendly_id/test": 1,
+          "friendly_id_sequel": 1,
+          "gem_init/version": 1,
+          "gem_init/app": 1,
+          "shellwords": 1,
+          "FileUtils": 1,
+          "erb": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "norman/aasm",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/active_record_random",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/ambry",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/arel",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/babosa",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/cuprite",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/deface",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/disqus",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/dotfiles",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/enc",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/fastri",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/fatalistic",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/friendly_id",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/friendly_id-globalize",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/friendly_id_5_demo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/friendly_id_join_test",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/friendly_id_manual_slug_demo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/friendly_id_sequel",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "norman/gem_init",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

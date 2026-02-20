@@ -1,0 +1,162 @@
+{
+  "username": "gareth",
+  "areas": {
+    "OSS": {
+      "score": 0.7287157287157287,
+      "details": {
+        "issue_resolution_rate": 0.7142857142857143,
+        "pr_merge_rate": 0.8787878787878788,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4871794871794872,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.23076923076923078
+      }
+    },
+    "Sentiment": {
+      "score": 0.8333333333333334,
+      "details": {
+        "gareth/festivals_lab": 0.5852333333333334,
+        "gareth/live-f1": 0.44891875,
+        "gareth/live_f1-core": 0.89566,
+        "gareth/live_f1-stream": 0.00943333333333333,
+        "gareth/ruby_hid_api": 0.41859,
+        "gareth/witness-thumbnails": -0.2316
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5623071373071373,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        82958,
+        192
+      ],
+      "Rust": [
+        2723,
+        11
+      ],
+      "Shell": [
+        265,
+        2
+      ],
+      "Procfile": [
+        1,
+        0
+      ],
+      "HTML": [
+        3988,
+        16
+      ],
+      "CSS": [
+        9295,
+        23
+      ],
+      "JavaScript": [
+        17337,
+        30
+      ],
+      "SCSS": [
+        461,
+        1
+      ],
+      "Haml": [
+        310,
+        4
+      ],
+      "Slim": [
+        208,
+        2
+      ],
+      "CoffeeScript": [
+        1,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "Puppet": [
+        2,
+        0
+      ],
+      "TypeScript": [
+        14662,
+        75
+      ],
+      "Vue": [
+        14631,
+        69
+      ],
+      "Python": [
+        138,
+        4
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 429,
+    "total_lines": 146980,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 82958,
+        "commits": 192
+      },
+      {
+        "language": "TypeScript",
+        "lines": 14662,
+        "commits": 75
+      },
+      {
+        "language": "Vue",
+        "lines": 14631,
+        "commits": 69
+      },
+      {
+        "language": "JavaScript",
+        "lines": 17337,
+        "commits": 30
+      },
+      {
+        "language": "CSS",
+        "lines": 9295,
+        "commits": 23
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/gareth/Archipelago/contents/WebHostLib/customserver.py (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7e494088c350>, 'Connection to api.github.com timed out. (connect timeout=None)'))",
+    "username": "gareth",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

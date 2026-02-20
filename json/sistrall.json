@@ -1,0 +1,417 @@
+{
+  "username": "sistrall",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 1.6,
+        "commits_activity": 0.9903774191947936
+      }
+    },
+    "Status": {
+      "score": 0.2762556889689405,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.856691225761103,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "sistrall/comma-heaven": 0.2263,
+        "sistrall/project-u": 0.18515454545454546
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6190639222422352,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        4807,
+        96
+      ],
+      "CoffeeScript": [
+        0,
+        0
+      ],
+      "JavaScript": [
+        11880,
+        46
+      ],
+      "PHP": [
+        20,
+        1
+      ],
+      "HTML": [
+        1043,
+        2
+      ],
+      "CSS": [
+        4504,
+        1
+      ],
+      "Dockerfile": [
+        62,
+        0
+      ],
+      "Shell": [
+        13,
+        0
+      ],
+      "Erlang": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        13249,
+        6
+      ],
+      "C": [
+        267,
+        0
+      ],
+      "Makefile": [
+        20,
+        0
+      ],
+      "Svelte": [
+        1182,
+        0
+      ],
+      "Vue": [
+        9,
+        0
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 152,
+    "total_lines": 37056,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 4807,
+        "commits": 96
+      },
+      {
+        "language": "JavaScript",
+        "lines": 11880,
+        "commits": 46
+      },
+      {
+        "language": "TypeScript",
+        "lines": 13249,
+        "commits": 6
+      },
+      {
+        "language": "HTML",
+        "lines": 1043,
+        "commits": 2
+      },
+      {
+        "language": "PHP",
+        "lines": 20,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sistrall",
+    "analysis_date": "2026-02-19T16:26:53.904511",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 273,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 22,
+        "packages": {
+          "tape": 12,
+          "sinon": 9,
+          "metal-soy": 3,
+          "metal-component": 3,
+          "http": 2,
+          "marble": 1,
+          "markdown-slug": 1,
+          "metal-toggler": 1,
+          "metal-dom": 1,
+          "moment": 1,
+          "hapi": 1,
+          "lodash": 1,
+          "apollo-server-hapi": 1,
+          "graphql-tools": 1,
+          "houdini-react": 1,
+          "next": 1,
+          "houdini": 1,
+          "sveltejs": 1,
+          "$houdini": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "react": 1,
+          "$houdini": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 34,
+        "packages": {
+          "spec_helper": 6,
+          "rubygems": 5,
+          "active_support": 2,
+          "active_record": 2,
+          "spec": 2,
+          "bundler/setup": 2,
+          "comma-heaven": 2,
+          "extensions/string": 2,
+          "fileutils": 1,
+          "fastercsv": 1,
+          "csv": 1,
+          "cgi": 1,
+          "uri": 1,
+          "capybara/session": 1,
+          "capybara/cucumber": 1,
+          "cucumber/rails": 1,
+          "capybara/rails": 1,
+          "rails": 1,
+          "database_cleaner": 1,
+          "database_cleaner/cucumber": 1,
+          "Warden::Test::Helpers": 1,
+          "RAILS_ROOT": 1,
+          "bundler": 1,
+          "active_admin": 1,
+          "acts_as_taggable_on/tagging": 1,
+          "acts_as_taggable_on/acts_as_taggable_on": 1,
+          "acts_as_taggable_on/acts_as_tagger": 1,
+          "acts_as_taggable_on/tag_list": 1,
+          "acts_as_taggable_on/tag": 1,
+          "acts_as_taggable_on/tags_helper": 1,
+          "ActiveRecord::Acts::TaggableOn::InstanceMethods": 1,
+          "ActiveRecord::Acts::Tagger::InstanceMethods": 1,
+          "acts-as-taggable-on": 1,
+          ":context": 1,
+          "amcss/concepts": 1,
+          "amcss/configuration": 1,
+          "amcss/concepts/module": 1,
+          "amcss/concepts/variation": 1,
+          "amcss/html": 1,
+          "amcss/css/selector": 1,
+          "amcss/concepts/trait": 1,
+          "amcss/css": 1,
+          "amcss/html/attribute": 1,
+          "amcss/version": 1,
+          "amcss": 1,
+          "amcss/rails/version": 1,
+          "amcss/rails/engine": 1,
+          "amcss/rails/helper": 1,
+          "rspec/rails": 1,
+          "amcss/rails": 1,
+          "combustion": 1,
+          "comma-heaven/sqler/association_columns": 1,
+          "1.9": 1,
+          "comma-heaven/sqler/has_one_columns": 1,
+          "comma-heaven/sqler/has_many_columns": 1,
+          "comma-heaven/sqler/columns": 1,
+          "comma-heaven/sqler/belongs_to_columns": 1,
+          "comma-heaven/active_record/to_comma_heaven": 1,
+          "comma-heaven/sqler": 1,
+          "comma-heaven/sqler/column": 1,
+          "comma-heaven/export": 1,
+          "ostruct": 1,
+          "active_support/core_ext": 1,
+          "rspec": 1,
+          "awesome_print": 1,
+          "simplecov": 1,
+          "ActionController::Instrumentation": 1,
+          "ActionController::Rescue": 1,
+          "ActionController::ConditionalGet": 1,
+          "ActionController::Rendering": 1,
+          "ActionController::Renderers": 1,
+          "HTMLDiff": 1,
+          "rails/all": 1,
+          ":boolean_radio_input": 1,
+          ":errors_on": 1,
+          ":input_field_set": 1,
+          ":boolean_select_input": 1,
+          ":button_field_set": 1,
+          "File.join": 1,
+          "ActionView::Helpers::FormOptionsHelper": 1,
+          "Formtastic::SemanticFormHelper": 1,
+          "ActionController::PolymorphicRoutes": 1,
+          "ActionView::Helpers::CaptureHelper": 1,
+          "ActionView::Helpers::FormHelper": 1,
+          "ActionView::Helpers::ActiveRecordHelper": 1,
+          "formtastic": 1,
+          "ActionView::Helpers::DateHelper": 1,
+          "ActionView::Helpers::TagHelper": 1,
+          "ActionView::Helpers::TextHelper": 1,
+          "FormtasticSpecHelper": 1,
+          "ActionView::Helpers::FormTagHelper": 1,
+          "ActiveSupport": 1,
+          "ActionView::Helpers::UrlHelper": 1,
+          "justin_french/formtastic": 1,
+          "ActionView::Helpers::RecordIdentificationHelper": 1,
+          "action_controller": 1,
+          "activesupport": 1,
+          "action_view": 1,
+          "rexml/document": 1,
+          "actionpack": 1,
+          "rspec_hpricot_matchers": 1,
+          "sinatra-websocket": 1,
+          "haml": 1,
+          "redis": 1,
+          "sinatra": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 40,
+        "packages": {
+          "gql.tada": 10,
+          "playwright": 10,
+          "node:path": 8,
+          "node:fs": 5,
+          "$houdini": 5,
+          "clipanion": 4,
+          "wonka": 3,
+          "sveltejs": 3,
+          "typescript": 2,
+          "vue": 1,
+          "typanion": 1,
+          "0no-co": 1,
+          "error": 1,
+          "semiver": 1,
+          "div[id=pageInfo]": 1,
+          "kitql": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 4,
+        "packages": {
+          "urql": 2,
+          "react-dom": 1,
+          "react": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sistrall/active_admin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sistrall/acts-as-taggable-on",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sistrall/amcss",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sistrall/amcss-rails",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sistrall/comma-heaven",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sistrall/copycopter-server",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sistrall/crocks",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sistrall/debugging-node-js-code-from-vs-code",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sistrall/example-of-graphql-hapi-server",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sistrall/formtastic",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "sistrall/gql.tada",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "sistrall/houdini",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "sistrall/imgpublisher",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

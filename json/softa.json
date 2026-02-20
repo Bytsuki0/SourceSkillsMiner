@@ -1,0 +1,304 @@
+{
+  "username": "softa",
+  "areas": {
+    "OSS": {
+      "score": -0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "softa/git_document_db": 0.20863333333333334,
+        "softa/ramify": 0.45735517241379314,
+        "softa/rsonrails2011": 0.12866666666666668
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -2.7755575615628914e-17,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "softa",
+    "analysis_date": "2026-02-20T00:41:40.612270",
+    "total_repos_analyzed": 17,
+    "total_files_analyzed": 332,
+    "languages": {
+      "Haskell": {
+        "files_scanned": 13,
+        "packages": {
+          "List": 7,
+          "Polynomials": 2,
+          "STAL": 2,
+          "DB": 2,
+          "PowerSeries": 1,
+          "Random": 1,
+          "SetEq": 1,
+          "Data.Ratio": 1,
+          "SetOrd": 1,
+          "TAMO": 1,
+          "Char": 1,
+          "Nats": 1,
+          "Ratio": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 15,
+        "packages": {
+          "path": 7,
+          "chai": 3,
+          "fs-extra": 2,
+          "webpack": 2,
+          "babel-register": 1,
+          "commander": 1,
+          "temp": 1,
+          "webpack-dev-server": 1,
+          "template-directory": 1,
+          "eslint": 1,
+          "karma": 1,
+          "child_process": 1,
+          "flow-bin": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "[High": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 70,
+        "packages": {
+          "rubygems": 12,
+          "test_helper": 10,
+          "spec_helper": 6,
+          "rails/all": 4,
+          "bundler": 4,
+          "benchmark": 3,
+          "rails/performance_test_help": 3,
+          "fileutils": 3,
+          "sinatra": 3,
+          "open-uri": 3,
+          "CarrierWave::RMagick": 3,
+          "soap4r": 3,
+          "rails/test_help": 2,
+          "bundler/setup": 2,
+          "GitDocument::Document": 2,
+          "hook": 2,
+          "ostruct": 2,
+          "Rails.application.routes.url_helpers": 2,
+          "yaml": 2,
+          "digest/md5": 2,
+          "compass": 2,
+          "Service.rb": 2,
+          "ServiceDriver.rb": 2,
+          "activerecord-postgres-hstore/railties": 1,
+          "active_support/hash_with_indifferent_access": 1,
+          "activerecord-postgres-hstore/coder": 1,
+          "activerecord-postgres-hstore/hash": 1,
+          "activerecord-postgres-hstore/string": 1,
+          "percy": 1,
+          "lib": 1,
+          "ActiveModel::Translation": 1,
+          "ActiveModel::Validations": 1,
+          "grit": 1,
+          "ActiveModel::AttributeMethods": 1,
+          "ActiveModel::Observing": 1,
+          "active_model": 1,
+          "ActiveModel::Dirty": 1,
+          "json": 1,
+          "memcached": 1,
+          "document": 1,
+          "Restricted": 1,
+          "Rack::Test::Methods": 1,
+          "rspec": 1,
+          "rack/test": 1,
+          "has_vimeo_video/version": 1,
+          "vimeo/simple": 1,
+          "has_vimeo_video/railtie": 1,
+          "has_vimeo_video/vimeo_video": 1,
+          "has_vimeo_video/model_additions": 1,
+          "httparty": 1,
+          "has_vimeo_video": 1,
+          "supermodel": 1,
+          "komerci": 1,
+          "iconv": 1,
+          "mocha": 1,
+          "test/unit": 1,
+          "require_admin": 1,
+          "require_login": 1,
+          "CanCan::Ability": 1,
+          "ActsAsCommentable::Comment": 1,
+          "ActionView::Helpers::DateHelper": 1,
+          "AutoHtml": 1,
+          "ActionView::Helpers::TextHelper": 1,
+          "CarrierWave::ImageScience": 1,
+          "RMagick": 1,
+          "initializer": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "rails": 1,
+          "boot": 1,
+          "Active": 1,
+          "performance_test_help": 1,
+          "test_help": 1,
+          "action_controller/railtie": 1,
+          "action_mailer/railtie": 1,
+          "active_resource/railtie": 1,
+          "rails/test_unit/railtie": 1,
+          "indesign/server/ServiceDriver": 1,
+          "xsd/qname": 1,
+          "indesign/server/Service.rb": 1,
+          "indesign/server/ServiceMappingRegistry.rb": 1,
+          "soap/rpc/driver": 1,
+          "soap/mapping": 1,
+          "aws/s3": 1,
+          "hpricot": 1,
+          "indesign/server": 1,
+          "s3/s3connect": 1,
+          "visanet": 1,
+          "net/http": 1,
+          "uri": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "softa/activerecord-postgres-hstore",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "softa/cabral_robot",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "softa/git_document_db",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "softa/gururs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "softa/haskell_road",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Haskell"
+        ]
+      },
+      {
+        "repository": "softa/has_vimeo_video",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "softa/komerci",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "softa/ramify",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "softa/rsonrails2011",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "softa/rsrails",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "softa/sagui",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "softa/softa",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "softa/under_my_skin",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript (JSX)",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "softa/visanet",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

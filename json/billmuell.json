@@ -1,0 +1,138 @@
+{
+  "username": "billmuell",
+  "areas": {
+    "OSS": {
+      "score": -0.5643300466553625,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6535049300169562
+      }
+    },
+    "Status": {
+      "score": 0.15832619014043137,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.641335439056801,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.10150096412873277,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        236013,
+        28
+      ],
+      "C": [
+        7858,
+        0
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 28,
+    "total_lines": 243871,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 236013,
+        "commits": 28
+      },
+      {
+        "language": "C",
+        "lines": 7858,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "billmuell",
+    "analysis_date": "2026-02-19T10:41:25.171099",
+    "total_repos_analyzed": 1,
+    "total_files_analyzed": 30,
+    "languages": {
+      "C++": {
+        "files_scanned": 15,
+        "packages": {
+          "stdafx.h": 15,
+          "AppConf.h": 5,
+          "ButtonFile.h": 2,
+          "CadEntity.h": 2,
+          "CadPolygon.h": 2,
+          "CadPoint.h": 2,
+          "CadLine.h": 2,
+          "Locale.h": 2,
+          "CadEntities.h": 1,
+          "CadEntityFactory.h": 1,
+          "Connection.h": 1,
+          "ConnectionParam.h": 1,
+          "DlgLayers.h": 1,
+          "DlgProviderArcSDE.h": 1,
+          "DlgProviderParam.h": 1,
+          "DlgProviders.h": 1,
+          "Utils.h": 1,
+          "FeatureReaderFactory.h": 1,
+          "FeatureClass.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 15,
+        "packages": {
+          "fdo.h": 7,
+          "<fdo.h>": 7,
+          "CadEntity.h": 5,
+          "afxwin.h": 4,
+          "resource.h": 4,
+          "FeatureData.h": 2,
+          "Connection.h": 2,
+          "afxcmn.h": 2,
+          "Locale.h": 1,
+          "vector": 1,
+          "<vector>": 1,
+          "ConnectionParam.h": 1,
+          "FeatureClass.h": 1,
+          "Provider.h": 1,
+          "FeatureReader.h": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "billmuell/GeoMap",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

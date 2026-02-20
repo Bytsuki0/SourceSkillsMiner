@@ -1,0 +1,512 @@
+{
+  "username": "ptdorf",
+  "areas": {
+    "OSS": {
+      "score": 0.22222222222222232,
+      "details": {
+        "issue_resolution_rate": 0.3333333333333333,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.35516474088140004,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9942855728605616,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "ptdorf/can": 0.2263
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.4443467407759056,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        461,
+        17
+      ],
+      "Makefile": [
+        7,
+        0
+      ],
+      "Ruby": [
+        828,
+        31
+      ],
+      "PHP": [
+        6175,
+        103
+      ],
+      "CSS": [
+        1,
+        1
+      ],
+      "Java": [
+        33,
+        5
+      ],
+      "Vim Script": [
+        561,
+        21
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 178,
+    "total_lines": 8066,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 6175,
+        "commits": 103
+      },
+      {
+        "language": "Ruby",
+        "lines": 828,
+        "commits": 31
+      },
+      {
+        "language": "Vim Script",
+        "lines": 561,
+        "commits": 21
+      },
+      {
+        "language": "Python",
+        "lines": 461,
+        "commits": 17
+      },
+      {
+        "language": "Java",
+        "lines": 33,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ptdorf",
+    "analysis_date": "2026-02-19T22:35:03.910602",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 145,
+    "languages": {
+      "Go": {
+        "files_scanned": 36,
+        "packages": {
+          "fmt": 21,
+          "os": 19,
+          "github.com/spf13/cobra": 15,
+          "strings": 14,
+          "github.com/google/ko/pkg/commands/options": 11,
+          "errors": 9,
+          "testing": 8,
+          "context": 8,
+          "github.com/google/ko/pkg/build": 8,
+          "bytes": 7,
+          "github.com/google/go-containerregistry/pkg/name": 7,
+          "time": 6,
+          "io": 6,
+          "os/exec": 6,
+          "log": 6,
+          "sync": 5,
+          "path/filepath": 5,
+          "runtime/debug": 4,
+          "github.com/google/ko/pkg/publish": 4,
+          "path": 4,
+          "net/http": 3,
+          "os/signal": 3,
+          "golang.org/x/sync/errgroup": 3,
+          "github.com/google/go-containerregistry/pkg/v1/daemon": 3,
+          "runtime": 2,
+          "net/url": 2,
+          "io/ioutil": 2,
+          "net/http/httptest": 2,
+          "bufio": 2,
+          "github.com/google/ko/pkg/commands": 2,
+          "encoding/json": 2,
+          "github.com/sigstore/cosign/v2/pkg/oci": 2,
+          "encoding/hex": 2,
+          "github.com/google/go-containerregistry/pkg/v1/types": 2,
+          "github.com/google/go-containerregistry/pkg/v1/empty": 2,
+          "github.com/google/go-containerregistry/pkg/logs": 2,
+          "github.com/google/go-containerregistry/pkg/v1/remote": 2,
+          "github.com/google/go-containerregistry/pkg/crane": 2,
+          "Which": 2,
+          "Path": 2,
+          "github.com/google/ko/test": 2,
+          "gopkg.in/yaml.v3": 2,
+          "github.com/rakyll/boom/boomer": 1,
+          "csv": 1,
+          "regexp": 1,
+          "flag": 1,
+          "the": 1,
+          "crypto/tls": 1,
+          "golang.org/x/net/http2": 1,
+          "sync/atomic": 1,
+          "sort": 1,
+          "syscall": 1,
+          "yellow": 1,
+          "black": 1,
+          "higreen": 1,
+          "cyan": 1,
+          "white": 1,
+          "hiyellow": 1,
+          "himagenta": 1,
+          "blue": 1,
+          "red": 1,
+          "github.com/fatih/color": 1,
+          "green": 1,
+          "hired": 1,
+          "hicyan": 1,
+          "hiwhite": 1,
+          "hiblue": 1,
+          "hiblack": 1,
+          "magenta": 1,
+          "github.com/spf13/cobra/doc": 1,
+          "encoding/base64": 1,
+          "unicode": 1,
+          "github.com/google/go-containerregistry/pkg/v1/match": 1,
+          "github.com/google/go-containerregistry/pkg/v1/layout": 1,
+          "github.com/google/go-containerregistry/pkg/v1/partial": 1,
+          "github.com/chrismellard/docker-credential-acr-env/pkg/credhelper": 1,
+          "strconv": 1,
+          "github.com/google/go-containerregistry/pkg/authn/github": 1,
+          "github.com/google/go-containerregistry/pkg/v1/google": 1,
+          "github.com/google/go-containerregistry/pkg/authn": 1,
+          "Disable": 1,
+          "github.com/spf13/viper": 1,
+          "platform]*": 1,
+          "go.version-m).": 1,
+          "also": 1,
+          "cyclonedx": 1,
+          "golang.org/x/tools/go/packages": 1,
+          "The": 1,
+          "reflect": 1,
+          "directory": 1,
+          "Filename": 1,
+          "Process": 1,
+          "--filename": 1,
+          "or": 1,
+          "crypto/md5": 1,
+          "Include": 1,
+          "(may": 1,
+          "Whether": 1,
+          "Load": 1,
+          "and": 1,
+          "key2=value2)": 1,
+          "supports": 1,
+          "==": 1,
+          "Selector": 1,
+          "github.com/google/ko/pkg/resolve": 1,
+          "k8s.io/apimachinery/pkg/labels": 1,
+          "github.com/docker/docker/api/types": 1,
+          "github.com/google/go-containerregistry/pkg/v1/random": 1,
+          "github.com/google/go-cmp/cmp/cmpopts": 1,
+          "github.com/google/go-cmp/cmp": 1,
+          "github.com/google/go-containerregistry/pkg/registry": 1,
+          "ko://github.com/google/ko/test": 1,
+          "go.uber.org/automaxprocs/maxprocs": 1,
+          "--log-flush-frequency=1s": 1,
+          "--rm": 1,
+          "--restart=Never": 1,
+          "--attach": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 17,
+        "packages": {
+          "com.teamtreehouse": 10,
+          "java.util": 8,
+          "io.ruck": 7,
+          "org.springframework": 7,
+          "java.io": 5,
+          "static": 4,
+          "com.thoughtworks": 3,
+          "org.junit": 2,
+          "org.eclipse": 1,
+          "javax.servlet": 1,
+          "javax.persistence": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "events": 1,
+          "path": 1,
+          "util": 1,
+          "fs": 1,
+          "readline": 1,
+          "https": 1,
+          "http": 1,
+          "eyes": 1,
+          "querystring": 1,
+          "undefined": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "\\PDO": 1,
+          "\\RuntimeException": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 63,
+        "packages": {
+          "os": 26,
+          "sys": 26,
+          "ivy": 11,
+          "pathlib": 10,
+          "gomatic": 10,
+          "gitrevise": 9,
+          "subprocess": 9,
+          "typing": 8,
+          "xml": 8,
+          "Path": 7,
+          "Repository": 7,
+          "time": 6,
+          "re": 6,
+          "ElementTree": 6,
+          "annotations": 5,
+          "__future__": 5,
+          "pytest": 5,
+          "CommonEqualityMixin": 5,
+          "CalledProcessError": 4,
+          "hashlib": 4,
+          "textwrap": 4,
+          "hooks": 4,
+          "yaml": 3,
+          "setup": 3,
+          "setuptools": 3,
+          "TYPE_CHECKING": 3,
+          "Artifact": 3,
+          "shutil": 3,
+          "requests": 2,
+          "json": 2,
+          "backups": 2,
+          "types": 2,
+          "enum": 2,
+          "TracebackType": 2,
+          "tempfile": 2,
+          "Enum": 2,
+          "List": 2,
+          "argparse": 2,
+          "contextlib": 2,
+          "contextmanager": 2,
+          "_typeshed": 2,
+          "StrPath": 2,
+          "http": 2,
+          "urlopen": 2,
+          "FakeHostRestClient": 2,
+          "Agent": 2,
+          "Decimal": 2,
+          "Ensurance": 2,
+          "decimal": 2,
+          "ThingWithResources": 2,
+          "PossiblyMissingElement": 2,
+          "parseString": 2,
+          "unittest": 2,
+          "GoCdConfigurator": 2,
+          "webbrowser": 2,
+          "clio": 2,
+          "docopt": 1,
+          "logging": 1,
+          "MySQLdb": 1,
+          "version": 1,
+          "timedelta": 1,
+          "BashOperator": 1,
+          "days_ago": 1,
+          "datetime": 1,
+          "airflow": 1,
+          "DAG": 1,
+          "Iterator": 1,
+          "collections": 1,
+          "DEVNULL": 1,
+          "_FILE": 1,
+          "defaultdict": 1,
+          "TemporaryDirectory": 1,
+          "ArgumentParser": 1,
+          "in": 1,
+          "CompletedProcess": 1,
+          "Any": 1,
+          "sh_path": 1,
+          "threading": 1,
+          "Thread": 1,
+          "shlex": 1,
+          "concurrent": 1,
+          "queue": 1,
+          "ThreadPoolExecutor": 1,
+          "Empty": 1,
+          "CancelledError": 1,
+          "traceback": 1,
+          "BaseHTTPRequestHandler": 1,
+          "urllib": 1,
+          "commit_range": 1,
+          "Generator": 1,
+          "StepKind": 1,
+          "sh_run": 1,
+          "normalize_conflicted_file": 1,
+          "FetchArtifactTask": 1,
+          "HostRestClient": 1,
+          "FetchArtifactFile": 1,
+          "GitMaterial": 1,
+          "Tab": 1,
+          "Pipeline": 1,
+          "ignore_patterns_in": 1,
+          "Materials": 1,
+          "Task": 1,
+          "fetch_artifact_src_from": 1,
+          "escape": 1,
+          "*": 1,
+          "DEFAULT_LABEL_TEMPLATE": 1,
+          "prettify": 1,
+          "distutils": 1,
+          "urllib2": 1,
+          "StrictVersion": 1,
+          "ibis": 1,
+          "jinja2": 1,
+          "markdown": 1,
+          "shortcodes": 1,
+          "syntex": 1,
+          "importlib": 1,
+          "pickle": 1,
+          "isdir": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 4,
+        "packages": {
+          "can/store": 1,
+          "can/util": 1,
+          "can/crypto": 1,
+          "base64": 1,
+          "digest/sha1": 1,
+          "openssl": 1,
+          "json": 1,
+          "time": 1,
+          "net/http": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ptdorf/backups",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ptdorf/boom",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ptdorf/can",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ptdorf/dags",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ptdorf/db",
+        "files_analyzed": 5,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "ptdorf/git-revise",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ptdorf/gocd-maven-plugin",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "ptdorf/gomatic",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ptdorf/gotest",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ptdorf/http-console",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptdorf/ivy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "ptdorf/java-debugging-flashy",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "ptdorf/ko",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

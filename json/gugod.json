@@ -1,0 +1,491 @@
+{
+  "username": "gugod",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 6.209302325581396,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.5384615384615385,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.3076923076923077
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "gugod/advent-of-code": 0.2911944444444445,
+        "gugod/Alien-libsndfile": 0.2263,
+        "gugod/App-jt": 0.40925,
+        "gugod/App-perlbrew": 0.16117280701754386,
+        "gugod/App-PerlNitpick": 0.24876428571428572,
+        "gugod/bifty": 0.43489999999999995,
+        "gugod/Doorman": 0.7529636363636364,
+        "gugod/Elastijk": 0.1277375,
+        "gugod/fl": 0.2263,
+        "gugod/geonames-ys": 0.2263,
+        "gugod/Graph-Writer-GraphViz": 0.2263,
+        "gugod/Hijk": 0.09851379310344828,
+        "gugod/Imager-Filter-Binarization": 0.2263,
+        "gugod/libravatar": 0.1127375,
+        "gugod/markapl": 0.3612,
+        "gugod/Object-Method": 0.6486333333333333,
+        "gugod/patchperl-packing": 0.07577058823529412,
+        "gugod/Perl-Critic-TooMuchCode": 0.3340725,
+        "gugod/Phash-FFI": 0.25996
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.8346153846153846,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Perl": [
+        11644975,
+        7670
+      ],
+      "Shell": [
+        8181411,
+        284
+      ],
+      "Raku": [
+        54945,
+        375
+      ],
+      "Perl 6": [
+        2708,
+        76
+      ],
+      "Dockerfile": [
+        3979529,
+        65
+      ],
+      "Kotlin": [
+        16307,
+        73
+      ],
+      "Rust": [
+        869,
+        3
+      ],
+      "C": [
+        8933,
+        43
+      ],
+      "Zig": [
+        231,
+        1
+      ],
+      "Clojure": [
+        593993,
+        67
+      ],
+      "Janet": [
+        191,
+        0
+      ],
+      "Go": [
+        1394,
+        30
+      ],
+      "HTML": [
+        7031698,
+        268
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "JavaScript": [
+        216848,
+        529
+      ],
+      "Objective-C": [
+        134483,
+        10
+      ],
+      "Ruby": [
+        3652,
+        101
+      ],
+      "CSS": [
+        137827,
+        262
+      ],
+      "Python": [
+        1268,
+        4
+      ],
+      "Makefile": [
+        2144351,
+        41
+      ],
+      "C++": [
+        56,
+        4
+      ],
+      "CMake": [
+        0,
+        0
+      ],
+      "XS": [
+        8,
+        0
+      ],
+      "Emacs Lisp": [
+        761,
+        30
+      ],
+      "LiveScript": [
+        27173,
+        14
+      ],
+      "Java": [
+        625,
+        1
+      ],
+      "SCSS": [
+        1757,
+        12
+      ],
+      "Max": [
+        0,
+        0
+      ],
+      "AppleScript": [
+        0,
+        0
+      ],
+      "RobotFramework": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        0
+      ],
+      "Erlang": [
+        0,
+        0
+      ],
+      "Lua": [
+        515,
+        8
+      ],
+      "PLpgSQL": [
+        0,
+        0
+      ],
+      "Scala": [
+        10,
+        0
+      ],
+      "Swift": [
+        8,
+        0
+      ]
+    },
+    "language_count": 36,
+    "total_commits": 9971,
+    "total_lines": 34186526,
+    "top_5_languages": [
+      {
+        "language": "Perl",
+        "lines": 11644975,
+        "commits": 7670
+      },
+      {
+        "language": "JavaScript",
+        "lines": 216848,
+        "commits": 529
+      },
+      {
+        "language": "Raku",
+        "lines": 54945,
+        "commits": 375
+      },
+      {
+        "language": "Shell",
+        "lines": 8181411,
+        "commits": 284
+      },
+      {
+        "language": "HTML",
+        "lines": 7031698,
+        "commits": 268
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "gugod",
+    "analysis_date": "2026-02-19T14:43:32.352151",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 54,
+    "languages": {
+      "Perl": {
+        "files_scanned": 47,
+        "packages": {
+          "strict": 37,
+          "warnings": 25,
+          "parent": 21,
+          "Carp": 8,
+          "Alien::Base": 6,
+          "utf8": 5,
+          "Alien::Base::ModuleBuild::Repository": 5,
+          "Data::Dumper": 4,
+          "v5": 4,
+          "CPANPLUS": 4,
+          "Module::Build": 4,
+          "Capture::Tiny": 4,
+          "File::Spec": 4,
+          "Alien::Base::ModuleBuild": 4,
+          "List::MoreUtils": 3,
+          "common::sense": 3,
+          "Config": 3,
+          "Exporter": 2,
+          "base": 2,
+          "self": 2,
+          "URI": 2,
+          "LWP::UserAgent": 2,
+          "Text::ParseWords": 2,
+          "Alien::Base::PkgConfig": 2,
+          "File::Find": 2,
+          "<": 2,
+          "Scalar::Util": 2,
+          "File::chdir": 2,
+          "File::Basename": 2,
+          "File::Copy": 2,
+          "Sort::Versions": 2,
+          "Alien::Base::ModuleBuild::Utils": 2,
+          "==": 1,
+          "overload": 1,
+          "v5.28": 1,
+          ">:utf8": 1,
+          "charnames": 1,
+          ":all": 1,
+          "boolean": 1,
+          "Acme::Boolean": 1,
+          "Acme::CPANAuthors::Register": 1,
+          "Acme::DreamyImage": 1,
+          "Imager": 1,
+          "Object::Tiny": 1,
+          "Digest::SHA1": 1,
+          "v5.12.3": 1,
+          "Acme::Greeting": 1,
+          "v5.10": 1,
+          "Moo": 1,
+          "Types::Standard": 1,
+          "Hash::Merge": 1,
+          "Acme::Lingua::ZH::Remix": 1,
+          "Acme::NumericMethod": 1,
+          "Lingua::EN::Words2Nums": 1,
+          "v5.8.8": 1,
+          "ActiveResource::Base": 1,
+          "Lingua::EN::Inflect": 1,
+          "ActiveResource::Connection": 1,
+          "Hash::AsObject": 1,
+          "ActiveResource::Formats::XmlFormat": 1,
+          "HTTP::Request": 1,
+          "XML::Hash": 1,
+          "JSON": 1,
+          "the": 1,
+          "LWP::Protocol::https": 1,
+          "FindBin": 1,
+          "Crypt::CBC": 1,
+          "Encode": 1,
+          "LWP::Protocol::socks": 1,
+          "RPC::XML": 1,
+          "Time::HiRes": 1,
+          "HTTP::Server::Simple::CGI::PreFork": 1,
+          "Digest::SHA": 1,
+          "POSIX": 1,
+          "RPC::XML::Client": 1,
+          "Compress::Zlib": 1,
+          "HTML::Entities": 1,
+          "MIME::Base64": 1,
+          "XML::FeedPP": 1,
+          "Crypt::OpenSSL::RSA": 1,
+          "Net::Twitter::Lite::WithAPIv1_1": 1,
+          "Quantum::Superpositions": 1,
+          "Moose": 1,
+          "Graph": 1,
+          "Alien::MyLibrary": 1,
+          "FFI::CheckLib": 1,
+          "ExtUtils::Depends": 1,
+          "Inline": 1,
+          "FFI::Platypus": 1,
+          "File::ShareDir": 1,
+          "ExtUtils::MakeMaker": 1,
+          "DynaLoader": 1,
+          "Perl::OSType": 1,
+          "JSON::PP": 1,
+          "Archive::Extract": 1,
+          "Alien::Base::ModuleBuild::Repository::HTTP": 1,
+          "Env": 1,
+          "File::Path": 1,
+          "Alien::Base::ModuleBuild::Repository::Local": 1,
+          ">": 1,
+          "Alien::Base::ModuleBuild::Cabinet": 1,
+          "Shell::Guess": 1,
+          "$module": 1,
+          "Shell::Config::Generate": 1,
+          "looks": 1,
+          "Alien::Base::ModuleBuild::Repository::FTP": 1,
+          "ExtUtils::Installed": 1,
+          "Alien::Base::ModuleBuild::File": 1,
+          "Net::FTP": 1,
+          "HTTP::Tiny": 1,
+          "Text::Balanced": 1,
+          "PkgConfig": 1,
+          "ExtUtils::CChecker": 1,
+          "<CImg.h>": 1,
+          "<stdio.h>": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 2,
+        "packages": {
+          "Handlino::ActsAsStatePattern": 1,
+          "acts_as_state_pattern": 1,
+          "InstanceMethods": 1,
+          "mixology": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "gugod/aaa-pl",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/acme-boolean",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/acme-cpanauthors-japanese",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/Acme-DreamyImage",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/Acme-Greeting",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/Acme-Lingua-ZH-Remix",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/Acme-NumericMethod",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/ActiveResource",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/acts_as_state_pattern",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "gugod/AirChat",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/Algorithm-SocialNetwork",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/Alien-Base",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/Alien-CImg",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/Alien-libsndfile",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "gugod/Alien-pHash",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Perl"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "username": "lukaso",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.7894736842105263,
+        "pr_merge_rate": 3.2857142857142856,
+        "commits_activity": 0.8442540815773761
+      }
+    },
+    "Status": {
+      "score": 0.12277811922520199,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6649364096070336,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.6666666666666666,
+      "details": {
+        "lukaso/gimp-ai": 0.47284,
+        "lukaso/releasy": -0.4767,
+        "lukaso/savon_fixes": 0.4973
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.49736119647296717,
+  "language_usage": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/lukaso/stable-diffusion/stats/contributors (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x701a0ef3aa20>, 'Connection to api.github.com timed out. (connect timeout=None)'))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/lukaso/gimp-ai/contents/install.py (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x701a26b020c0>, 'Connection to api.github.com timed out. (connect timeout=None)'))",
+    "username": "lukaso",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

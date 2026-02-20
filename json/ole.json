@@ -1,0 +1,468 @@
+{
+  "username": "ole",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 3.65,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.8148148148148148,
+      "details": {
+        "ole/Ampere": 0.19644999999999999,
+        "ole/Animated-Paths": 0.07057500000000001,
+        "ole/AppointmentList": 0.09,
+        "ole/CGPathHitTesting": 0.010916666666666667,
+        "ole/CollectionViewParallaxScrolling": 0.3428,
+        "ole/CoreDataDebugging": -0.009399999999999983,
+        "ole/CustomScrollView": -0.4767,
+        "ole/GestureRecognition": 0.53355,
+        "ole/itunesconnect-financialreports": 0.8494,
+        "ole/Kaffeekasse": 0.14633333333333332,
+        "ole/NSBundle-OBCodeSigningInfo": 0.4438333333333333,
+        "ole/OBShapedButton": 0.27266451612903225,
+        "ole/OBSlider": 0.46471666666666667,
+        "ole/OLEContainerScrollView": 0.34090000000000004,
+        "ole/OSLogStoreTest": 0.24218,
+        "ole/pico-embedded-swift": -0.01617999999999998,
+        "ole/SilentPush": -0.5362,
+        "ole/SortedArray": 0.27000588235294115,
+        "ole/Storyboard-Strings-Extraction": 0.33727999999999997,
+        "ole/swift-rp-pico-bare": -0.014080000000000004,
+        "ole/swiftui-layout-inspector": 0.24731666666666666,
+        "ole/swiftui-view-lifecycle": 0.57035,
+        "ole/topaz": 0.3271,
+        "ole/transcribe": 0.3336,
+        "ole/twitter-backup": 0.886,
+        "ole/whats-new-in-swift-4": 0.35130434782608694,
+        "ole/whats-new-in-swift-4-2": 0.469675
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6998575498575499,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        762052,
+        681
+      ],
+      "Objective-C": [
+        73621,
+        315
+      ],
+      "Ruby": [
+        10635,
+        57
+      ],
+      "C": [
+        15916,
+        60
+      ],
+      "TypeScript": [
+        40,
+        0
+      ],
+      "JavaScript": [
+        26,
+        0
+      ],
+      "Makefile": [
+        151,
+        3
+      ],
+      "C++": [
+        13422,
+        33
+      ],
+      "HTML": [
+        1459,
+        11
+      ],
+      "CMake": [
+        722,
+        18
+      ],
+      "sed": [
+        2,
+        0
+      ],
+      "Lua": [
+        0,
+        0
+      ],
+      "Fortran": [
+        0,
+        0
+      ],
+      "Perl": [
+        0,
+        0
+      ],
+      "R": [
+        0,
+        0
+      ],
+      "Hy": [
+        0,
+        0
+      ],
+      "MoonScript": [
+        0,
+        0
+      ],
+      "Rust": [
+        702,
+        4
+      ],
+      "Shell": [
+        104,
+        9
+      ],
+      "Assembly": [
+        805,
+        2
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 1193,
+    "total_lines": 879657,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 762052,
+        "commits": 681
+      },
+      {
+        "language": "Objective-C",
+        "lines": 73621,
+        "commits": 315
+      },
+      {
+        "language": "C",
+        "lines": 15916,
+        "commits": 60
+      },
+      {
+        "language": "Ruby",
+        "lines": 10635,
+        "commits": 57
+      },
+      {
+        "language": "C++",
+        "lines": 13422,
+        "commits": 33
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ole",
+    "analysis_date": "2026-02-19T21:28:30.716395",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 167,
+    "languages": {
+      "C": {
+        "files_scanned": 6,
+        "packages": {
+          "ptrauth.h": 2,
+          "<ptrauth.h>": 2,
+          "ImageInspection.h": 2,
+          "CallAccessor.h": 1,
+          "include/Functions.h": 1,
+          "link.h": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "<fcntl.h>": 1,
+          "<stdlib.h>": 1,
+          "<elf.h>": 1,
+          "stdlib.h": 1,
+          "<link.h>": 1,
+          "string.h": 1,
+          "fcntl.h": 1,
+          "<string.h>": 1,
+          "elf.h": 1,
+          "include/Builtins.def": 1,
+          "include/KnownMetadata.h": 1,
+          "ValueWitnessTable.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 48,
+        "packages": {
+          "<UIKit/UIKit.h>": 15,
+          "<Foundation/Foundation.h>": 10,
+          "<stddef.h>": 4,
+          "stddef.h": 4,
+          "<POP/POPDefines.h>": 3,
+          "<POP/POPPropertyAnimation.h>": 3,
+          "<POP/POPAnimation.h>": 3,
+          "<POP/POPAnimationTracer.h>": 3,
+          "<Foundation/NSObject.h>": 3,
+          "<QuartzCore/QuartzCore.h>": 2,
+          "<POP/POPAnimator.h>": 2,
+          "<POP/POPGeometry.h>": 2,
+          "<POP/POPSpringAnimation.h>": 2,
+          "<POP/POPAnimationEvent.h>": 2,
+          "<CoreGraphics/CoreGraphics.h>": 2,
+          "namespace": 2,
+          "<objc/runtime.h>": 2,
+          "POPPropertyAnimationInternal.h": 2,
+          "stdbool.h": 2,
+          "<stdbool.h>": 2,
+          "DrawingView.h": 1,
+          "<CoreGraphics/CGBase.h>": 1,
+          "CoreGraphics/CGBase.h": 1,
+          "<POP/POPAnimationExtras.h>": 1,
+          "<POP/POPAnimatableProperty.h>": 1,
+          "<POP/POPDecayAnimation.h>": 1,
+          "<POP/POPCustomAnimation.h>": 1,
+          "<POP/POPBasicAnimation.h>": 1,
+          "<QuartzCore/CATransaction.h>": 1,
+          "POPAnimationEvent.h": 1,
+          "<QuartzCore/CAAnimation.h>": 1,
+          "POPSpringSolver.h": 1,
+          "POPAnimationTracerInternal.h": 1,
+          "POPAnimationRuntime.h": 1,
+          "POPAnimation.h": 1,
+          "POPAction.h": 1,
+          "<QuartzCore/CAMediaTimingFunction.h>": 1,
+          "POPVector.h": 1,
+          "POPBasicAnimation.h": 1,
+          "POPDefines.h": 1,
+          "POPDecayAnimation.h": 1,
+          "<UIKit/UIGeometry.h>": 1,
+          "DocoptTestCase.h": 1,
+          "<SenTestingKit/SenTestingKit.h>": 1,
+          "objc/runtime.h": 1,
+          "<mach-o/getsect.h>": 1,
+          "mach-o/getsect.h": 1,
+          "mach-o/dyld.h": 1,
+          "<mach-o/dyld.h>": 1,
+          "Builtins.def": 1,
+          "ptrauth.h": 1,
+          "<ptrauth.h>": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 34,
+        "packages": {
+          "AppDelegate.h": 12,
+          "<UIKit/UIKit.h>": 6,
+          "UIKit/UIKit.h": 6,
+          "ViewController.h": 5,
+          "this": 3,
+          "Shape.h": 3,
+          "ParallaxLayoutAttributes.h": 3,
+          "Docopt.h": 3,
+          "AnimatedPathViewController.h": 2,
+          "CustomShapeLayer.h": 2,
+          "CustomShapeView.h": 2,
+          "PhotosCollectionViewController.h": 2,
+          "ParallaxFlowLayout.h": 2,
+          "ParallaxPhotoCell.h": 2,
+          "CustomScrollView.h": 2,
+          "DocoptTestCaseParser.h": 2,
+          "AnimatedPathAppDelegate.h": 1,
+          "CoreText/CoreText.h": 1,
+          "<CoreText/CoreText.h>": 1,
+          "<QuartzCore/QuartzCore.h>": 1,
+          "QuartzCore/QuartzCore.h": 1,
+          "MasterViewController.h": 1,
+          "DrawingView.h": 1,
+          "POP.h": 1,
+          "<POP.h>": 1,
+          "DocoptTestCase.h": 1,
+          "DocoptTestCasesTests.h": 1,
+          "<Foundation/Foundation.h>": 1,
+          "Foundation/Foundation.h": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 49,
+        "packages": {
+          "XCTest": 20,
+          "Foundation": 11,
+          "Ampere": 11,
+          "PackageDescription": 7,
+          "SwiftUI": 7,
+          "UIKit": 3,
+          "Ccmark": 3,
+          "Computation": 2,
+          "AnalogDial": 1,
+          "Combine": 1,
+          "AsyncSequenceOperators": 1,
+          "CommonMarkTests": 1,
+          "Dispatch": 1,
+          "CollectionsBenchmark": 1,
+          "CoreData": 1,
+          "ObjectiveC": 1,
+          "CEcho": 1,
+          "Atomics": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ole/Ampere",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "ole/AnalogDial",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "ole/Animated-Paths",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ole/AppointmentList",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ole/AsyncSequenceOperators",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "ole/AsyncXMLParsing",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "ole/CAShapeLayer-Animation",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ole/CGPathHitTesting",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ole/CollectionViewContentSizeAnimation",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ole/CollectionViewParallaxScrolling",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ole/commonmark-swift",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "ole/ConcurrencyBenchmark",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "ole/CoreDataDebugging",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "ole/CustomScrollView",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ole/DocC-omits-at-Sendable",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "ole/docopt.objc",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ole/Echo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

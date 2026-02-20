@@ -1,0 +1,449 @@
+{
+  "username": "jcouture",
+  "areas": {
+    "OSS": {
+      "score": 0.7948717948717949,
+      "details": {
+        "issue_resolution_rate": 0.9230769230769231,
+        "pr_merge_rate": 0.7692307692307693,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "jcouture/Folklore": 0.16282666666666668,
+        "jcouture/incr": 0.14089333333333334,
+        "jcouture/nv": 0.5004500000000001,
+        "jcouture/ogp": 0.41270416666666665,
+        "jcouture/PSMTabBarControl": 0.807
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5916666666666667,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Objective-C": [
+        17634,
+        53
+      ],
+      "Ruby": [
+        3952,
+        82
+      ],
+      "Go": [
+        3879,
+        71
+      ],
+      "Just": [
+        487,
+        14
+      ],
+      "Dockerfile": [
+        54,
+        2
+      ],
+      "Elixir": [
+        87,
+        0
+      ],
+      "HTML": [
+        11,
+        0
+      ],
+      "JavaScript": [
+        9,
+        0
+      ],
+      "SCSS": [
+        6,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 222,
+    "total_lines": 26119,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 3952,
+        "commits": 82
+      },
+      {
+        "language": "Go",
+        "lines": 3879,
+        "commits": 71
+      },
+      {
+        "language": "Objective-C",
+        "lines": 17634,
+        "commits": 53
+      },
+      {
+        "language": "Just",
+        "lines": 487,
+        "commits": 14
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 54,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jcouture",
+    "analysis_date": "2026-02-19T20:40:08.621095",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 145,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 35,
+        "packages": {
+          "<Cocoa/Cocoa.h>": 16,
+          "<UIKit/UIKit.h>": 12,
+          "<Foundation/Foundation.h>": 5,
+          "PSMTabBarControl.h": 3,
+          "AFHTTPClient.h": 2,
+          "AFJSONRequestOperation.h": 2,
+          "AFOAuth1Client.h": 2,
+          "FolkloreFriend.h": 1,
+          "FolkloreFriendInformation.h": 1,
+          "<XMPPFramework/XMPPJID.h>": 1,
+          "DTSHashedContactsProvider.h": 1,
+          "PSMTabContentViewController.h": 1,
+          "PSMTabStyle.h": 1
+        }
+      },
+      "Elixir": {
+        "files_scanned": 24,
+        "packages": {
+          "TextdbWeb": 8,
+          "Mix.Config": 4,
+          "Textdb.Repo": 4,
+          "Phoenix.HTML": 3,
+          "Textdb.Data": 3,
+          "Logger": 3,
+          "Mix.Project": 2,
+          "Ecto.Schema": 2,
+          "Ecto.Changeset": 2,
+          "TextdbWeb.Gettext": 2,
+          "Textdb.Analytic": 2,
+          "Ecto": 2,
+          "Phoenix.LiveView": 2,
+          "#{Mix.env()}.exs": 1,
+          "environment": 1,
+          "prod.secret.exs": 1,
+          "Application": 1,
+          "Ecto.Repo": 1,
+          "basic": 1,
+          "TextdbWeb.Router.Helpers": 1,
+          "Phoenix.View": 1,
+          "Phoenix.Channel": 1,
+          "Phoenix.LiveView.Helpers": 1,
+          "shared": 1,
+          "Phoenix.Controller": 1,
+          "TextdbWeb.ErrorHelpers": 1,
+          "convenience": 1,
+          "Plug.Conn": 1,
+          "Phoenix.Router": 1,
+          "Phoenix.Socket": 1,
+          "Ecto.Query": 1,
+          "Phoenix.Endpoint": 1,
+          "Gettext": 1,
+          "NaiveDateTime": 1,
+          "Phoenix.LiveView.Router": 1,
+          "Phoenix.LiveDashboard.Router": 1,
+          "Supervisor": 1,
+          "Telemetry.Metrics": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 8,
+        "packages": {
+          "os": 4,
+          "strings": 3,
+          "github.com/stretchr/testify/assert": 3,
+          "testing": 3,
+          "fmt": 3,
+          "github.com/jcouture/env": 2,
+          "github.com/jcouture/nv/internal/build": 1,
+          "github.com/jcouture/nv/internal/sys": 1,
+          "os/exec": 1,
+          "syscall": 1,
+          "bufio": 1,
+          "github.com/jcouture/nv/internal/parser": 1,
+          "path/filepath": 1,
+          "github.com/mitchellh/go-homedir": 1,
+          "flag": 1,
+          "github.com/lithammer/fuzzysearch/fuzzy": 1,
+          "github.com/fatih/color": 1,
+          "sort": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "phoenix": 2,
+          "phoenix_live_view": 1,
+          "phoenix_html": 1,
+          "terser-webpack-plugin": 1,
+          "mini-css-extract-plugin": 1,
+          "copy-webpack-plugin": 1,
+          "optimize-css-assets-webpack-plugin": 1,
+          "path": 1,
+          "glob": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 43,
+        "packages": {
+          "AppDelegate.h": 7,
+          "PSMTabBarControl.h": 6,
+          "UIKit/UIKit.h": 4,
+          "<UIKit/UIKit.h>": 4,
+          "PSMRolloverButton.h": 4,
+          "PSMTabBarCell.h": 4,
+          "Cocoa/Cocoa.h": 3,
+          "<Cocoa/Cocoa.h>": 3,
+          "UIDevice+DEFacebookComposeViewController.h": 3,
+          "FolkloreFriendInformation.h": 3,
+          "PSMTabStyle.h": 3,
+          "DEFacebookComposeViewController.h": 2,
+          "QuartzCore/QuartzCore.h": 2,
+          "<QuartzCore/QuartzCore.h>": 2,
+          "DEFacebookSheetCardView.h": 2,
+          "DEFacebookTextView.h": 2,
+          "DEFacebookGradientView.h": 2,
+          "DERuledView.h": 2,
+          "XMPPFramework/XMPPUser.h": 2,
+          "Folklore.h": 2,
+          "<XMPPFramework/XMPPUser.h>": 2,
+          "GHSAPIClient.h": 2,
+          "DTSViewController.h": 2,
+          "DTSAppDelegate.h": 2,
+          "PSMAnyTabContentViewController.h": 2,
+          "PSMMainWindowController.h": 2,
+          "NSString_AITruncation.h": 2,
+          "PSMMetalTabStyle.h": 2,
+          "PSMOverflowPopUpButton.h": 2,
+          "PSMProgressIndicator.h": 2,
+          "PSMTabDragAssistant.h": 2,
+          "PSMTabBarController.h": 2,
+          "CommonCrypto/CommonHMAC.h": 1,
+          "AFHTTPRequestOperation.h": 1,
+          "AFOAuth1Client.h": 1,
+          "<CommonCrypto/CommonHMAC.h>": 1,
+          "ViewController.h": 1,
+          "Social/Social.h": 1,
+          "<FacebookSDK/FacebookSDK.h>": 1,
+          "FacebookSDK/FacebookSDK.h": 1,
+          "<Social/Social.h>": 1,
+          "FacebookSDK.h": 1,
+          "UIApplication+DEFacebookComposeViewController.h": 1,
+          "<XMPPFramework/XMPPFramework.h>": 1,
+          "XMPPFramework/XMPPRoster.h": 1,
+          "CocoaLumberjack/DDLog.h": 1,
+          "<XMPPFramework/XMPPRosterMemoryStorage.h>": 1,
+          "<XMPPFramework/XMPPRoster.h>": 1,
+          "<XMPPFramework/XMPPLogging.h>": 1,
+          "XMPPFramework/XMPPFramework.h": 1,
+          "XMPPFramework/XMPPJID.h": 1,
+          "<XMPPFramework/XMPPJID.h>": 1,
+          "XMPPFramework/XMPPRosterMemoryStorage.h": 1,
+          "XMPPFramework/XMPPLogging.h": 1,
+          "<CocoaLumberjack/DDLog.h>": 1,
+          "<CocoaLumberjack/DDTTYLogger.h>": 1,
+          "CocoaLumberjack/DDTTYLogger.h": 1,
+          "<XMPPFramework/XMPPReconnect.h>": 1,
+          "XMPPFramework/XMPPReconnect.h": 1,
+          "FolkloreFriend.h": 1,
+          "<XCTest/XCTest.h>": 1,
+          "XCTest/XCTest.h": 1,
+          "AFJSONRequestOperation.h": 1,
+          "GHSAppDelegate.h": 1,
+          "this": 1,
+          "DTSHashedContactsProvider.h": 1,
+          "CommonCrypto/CommonDigest.h": 1,
+          "<AddressBook/AddressBook.h>": 1,
+          "AddressBook/AddressBook.h": 1,
+          "<CommonCrypto/CommonDigest.h>": 1,
+          "PSMAppDelegate.h": 1,
+          "TabInfo.h": 1,
+          "NSBezierPath_AMShading.h": 1,
+          "PSMTabContentViewController.h": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 15,
+        "packages": {
+          "spec_helper": 6,
+          "sem_version": 3,
+          "clippybot/web": 1,
+          "sinatra/base": 1,
+          "clippybot/mailer": 1,
+          "clippybot/version": 1,
+          "clippybot/bot": 1,
+          "slack-ruby-client": 1,
+          "sendgrid-ruby": 1,
+          "incr/service/file_helper": 1,
+          "incr/service/version": 1,
+          "incr/command/npm": 1,
+          "incr/command/mix": 1,
+          "incr/command/laravel": 1,
+          "incr/version": 1,
+          "incr/service/repository": 1,
+          "json": 1,
+          "git": 1,
+          "Mix.Project": 1,
+          "fileutils": 1,
+          "incr": 1,
+          "tempfile": 1,
+          "ogp/open_graph": 1,
+          "ogp/version": 1,
+          "ostruct": 1,
+          "oga": 1,
+          "bundler/setup": 1,
+          "ogp": 1,
+          "rubygems": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jcouture/AFOAuth1Client",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "jcouture/clippybot",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jcouture/DEFacebookComposeViewController",
+        "files_analyzed": 19,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "jcouture/env",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "jcouture/Folklore",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "jcouture/GHStatus",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "jcouture/HashedContacts",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "jcouture/incr",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Elixir",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jcouture/nv",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "jcouture/ogp",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jcouture/prntenv",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "jcouture/PSMTabBarControl",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "jcouture/textdb",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir",
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

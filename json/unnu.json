@@ -1,0 +1,629 @@
+{
+  "username": "unnu",
+  "areas": {
+    "OSS": {
+      "score": 0.37144694535789524,
+      "details": {
+        "issue_resolution_rate": 0.5714285714285714,
+        "pr_merge_rate": 0.6666666666666666,
+        "commits_activity": 0.8190751799416048
+      }
+    },
+    "Status": {
+      "score": 0.25117832508927496,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8190751799416048,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "unnu/flvtool2": 0.007413333333333331,
+        "unnu/hangover": 0.2681,
+        "unnu/taxomatic": 0.1414375
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.45565631761179254,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        12406,
+        66
+      ],
+      "Vim Script": [
+        272,
+        4
+      ],
+      "Shell": [
+        49,
+        0
+      ],
+      "JavaScript": [
+        62,
+        0
+      ],
+      "HTML": [
+        1,
+        0
+      ],
+      "CSS": [
+        0,
+        0
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 70,
+    "total_lines": 12790,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 12406,
+        "commits": 66
+      },
+      {
+        "language": "Vim Script",
+        "lines": 272,
+        "commits": 4
+      },
+      {
+        "language": "Shell",
+        "lines": 49,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 62,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 1,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "unnu",
+    "analysis_date": "2026-02-20T01:42:52.245923",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 292,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "formula": 1,
+          "the": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 142,
+        "packages": {
+          "formula": 19,
+          "Mongoid::Document": 10,
+          "logger": 6,
+          "spec_helper": 6,
+          "test_helper": 6,
+          "rubygems": 6,
+          "inline": 6,
+          "active_support/core_ext": 4,
+          "yaml": 3,
+          "benchmark": 3,
+          "mail": 3,
+          "minitest/autorun": 3,
+          "test/unit": 3,
+          "pathname": 3,
+          "stringio": 3,
+          "fileutils": 3,
+          "bundler/setup": 3,
+          "iso3166": 2,
+          "date": 2,
+          "ostruct": 2,
+          "dxf/parser": 2,
+          "flv/stream": 2,
+          "miyaml": 2,
+          "flv/amf_string_buffer": 2,
+          "flv/core_extensions": 2,
+          "Enumerable": 2,
+          "rbconfig": 2,
+          "rb-fsevent": 2,
+          "hangover/commit_message_builder": 2,
+          "hangover/repository": 2,
+          "hangover/diff_tokenizer": 2,
+          "hangover/watch_dir": 2,
+          "active_support/test_case": 2,
+          "open-uri": 2,
+          "keg": 2,
+          "utils": 2,
+          "active_support/json": 2,
+          "indexes": 2,
+          "Embedded": 2,
+          "ActiveModel::Observing": 2,
+          ":delete": 2,
+          ":size": 2,
+          ":destroy": 2,
+          ":one": 2,
+          ":length": 2,
+          ":update": 2,
+          "test_help": 2,
+          "roda": 2,
+          "securerandom": 2,
+          "digest/md5": 2,
+          "factory_girl": 2,
+          "HTTParty": 2,
+          "countries/version": 1,
+          ":states": 1,
+          ":countries": 1,
+          "iso4217": 1,
+          "countries/country": 1,
+          "spec/spec_helper": 1,
+          "optparse": 1,
+          "daemons": 1,
+          "__delay__": 1,
+          "active_support/basic_object": 1,
+          "active_support/core_ext/module/aliasing": 1,
+          "active_support/core_ext/module/delegation": 1,
+          "active_support/core_ext/class/attribute": 1,
+          "delayed_job": 1,
+          "rails": 1,
+          "delayed/serialization/#{backend}": 1,
+          "active_support/core_ext/numeric/time": 1,
+          "delayed/backend/#{backend}": 1,
+          "active_support/core_ext/class/attribute_accessors": 1,
+          "active_support/core_ext/kernel": 1,
+          "active_support/core_ext/enumerable": 1,
+          "timeout": 1,
+          "delayed/message_sending": 1,
+          "delayed/plugin": 1,
+          "delayed/backend/base": 1,
+          "delayed/lifecycle": 1,
+          "action_mailer/version": 1,
+          "delayed/deserialization_error": 1,
+          "delayed/performable_mailer": 1,
+          "active_support": 1,
+          "delayed/worker": 1,
+          "delayed/railtie": 1,
+          "delayed/performable_method": 1,
+          "delayed/plugins/clear_locks": 1,
+          "delayed/yaml_ext": 1,
+          "rails/generators": 1,
+          "Delayed::Backend::Base": 1,
+          ":new": 1,
+          ":original_new": 1,
+          "this": 1,
+          "ClusterFactory": 1,
+          "cluster_factory": 1,
+          "geometry": 1,
+          "entity": 1,
+          ":to_str": 1,
+          "flv/meta_tag": 1,
+          "flv/audio_tag": 1,
+          "flv/video_tag": 1,
+          "flv/tag": 1,
+          "flvtool2/base": 1,
+          "flvtool2/version": 1,
+          "mixml": 1,
+          "flv": 1,
+          "parsearg_test": 1,
+          "setup_dir_conf": 1,
+          "config_dir_bin": 1,
+          "clean_dir_bin": 1,
+          "config_dir_conf": 1,
+          "parsearg_clean": 1,
+          "config_dir_lib": 1,
+          "clean_dir_lib": 1,
+          "parsearg_distclean": 1,
+          "clean_dir_man": 1,
+          "map": 1,
+          "parsearg_show": 1,
+          "distclean_dir_man": 1,
+          "clean_dir_conf": 1,
+          "setup_dir_data": 1,
+          "config_dir_data": 1,
+          "distclean_dir_data": 1,
+          "setup_dir_man": 1,
+          "clean_dir_data": 1,
+          "config": 1,
+          "distclean_dir_conf": 1,
+          "help_default": 1,
+          "distclean_dir_bin": 1,
+          "FileOperations": 1,
+          "parsearg_setup": 1,
+          "setup_dir_lib": 1,
+          "distclean_dir_lib": 1,
+          "HookScriptAPI": 1,
+          "config_dir_man": 1,
+          "resource": 1,
+          "it.": 1,
+          "net/https": 1,
+          "net/http": 1,
+          "utils/json": 1,
+          "ruby-prof": 1,
+          "rexml/cdata": 1,
+          "rexml/xmldecl": 1,
+          "rexml/document": 1,
+          "do_patch": 1,
+          "extend/pathname": 1,
+          "include": 1,
+          "open3": 1,
+          "<stdio.h>": 1,
+          "<string.h>": 1,
+          "aaint.h": 1,
+          "config.h": 1,
+          "<ctype.h>": 1,
+          "<stdlib.h>": 1,
+          "aalib.h": 1,
+          "mongoid/serialization": 1,
+          "mongoid/railtie": 1,
+          "mongoid/javascript": 1,
+          "mongoid/config": 1,
+          "mongoid/extras": 1,
+          "mongoid/json": 1,
+          "mongoid/reloading": 1,
+          "active_support/inflector": 1,
+          "mongo": 1,
+          "rack/mongoid": 1,
+          "mongoid/extensions": 1,
+          "mongoid/contexts": 1,
+          "mongoid/finders": 1,
+          "active_model": 1,
+          "mongoid/criteria": 1,
+          "mongoid/factory": 1,
+          "mongoid/multi_parameter_attributes": 1,
+          "mongoid/atomic": 1,
+          "mongoid/dirty": 1,
+          "mongoid/hierarchy": 1,
+          "mongoid/fields": 1,
+          "mongoid/observer": 1,
+          "mongoid/timestamps": 1,
+          "mongoid/persistence": 1,
+          "mongoid/nested_attributes": 1,
+          "mongoid/state": 1,
+          "mongoid/logger": 1,
+          "mongoid/multi_database": 1,
+          "mongoid/safety": 1,
+          "mongoid/matchers": 1,
+          "mongoid/unit_of_work": 1,
+          "mongoid/inspection": 1,
+          "mongoid/relations": 1,
+          "mongoid/attributes": 1,
+          "mongoid/validations": 1,
+          "mongoid/collection": 1,
+          "mongoid/collections": 1,
+          "mongoid/paranoia": 1,
+          "time": 1,
+          "delegate": 1,
+          "mongoid/sharding": 1,
+          "mongoid/errors": 1,
+          "active_support/lazy_load_hooks": 1,
+          "mongoid/identity_map": 1,
+          "mongoid/copyable": 1,
+          "mongoid/callbacks": 1,
+          "mongoid/components": 1,
+          "mongoid/cursor": 1,
+          "mongoid/indexes": 1,
+          "mongoid/scoping": 1,
+          "mongoid/document": 1,
+          ":config": 1,
+          "mongoid/threaded": 1,
+          "mongoid/versioning": 1,
+          "active_support/time_with_zone": 1,
+          ":_updates": 1,
+          "mongoid/atomic/modifiers": 1,
+          "mongoid/atomic/paths": 1,
+          "mongoid/atomic/paths/embedded": 1,
+          "mongoid/atomic/paths/root": 1,
+          "mongoid/atomic/paths/embedded/one": 1,
+          "mongoid/atomic/paths/embedded/many": 1,
+          ":raw_attributes": 1,
+          ":[]": 1,
+          ":attributes=": 1,
+          "mongoid/attributes/processing": 1,
+          "Processing": 1,
+          "#": 1,
+          ":[]=": 1,
+          "reset_#": 1,
+          "mongoid/attributes/readonly": 1,
+          "Readonly": 1,
+          "ActiveModel::Validations::Callbacks": 1,
+          "mongoid/collections/retry": 1,
+          "mongoid/collections/master": 1,
+          "mongoid/collections/operations": 1,
+          ":mapreduce": 1,
+          "Mongoid::Collections::Retry": 1,
+          "Mongoid::Scoping": 1,
+          "Mongoid::MultiDatabase": 1,
+          "Mongoid::Reloading": 1,
+          "Mongoid::Collections": 1,
+          "Mongoid::Relations": 1,
+          "Mongoid::Validations": 1,
+          "ActiveModel::Conversion": 1,
+          "Mongoid::Serialization": 1,
+          "ActiveModel::Naming": 1,
+          "Mongoid::Persistence": 1,
+          "ActiveModel::MassAssignmentSecurity": 1,
+          "Mongoid::Timestamps::Timeless": 1,
+          "Mongoid::Indexes": 1,
+          "ActiveModel::Serializers::Xml": 1,
+          "Mongoid::Threaded::Lifecycle": 1,
+          "Mongoid::Callbacks": 1,
+          "Mongoid::Hierarchy": 1,
+          "Mongoid::Dirty": 1,
+          "Mongoid::Attributes": 1,
+          "Mongoid::Extras": 1,
+          "Mongoid::Fields": 1,
+          "Mongoid::JSON": 1,
+          "Mongoid::Atomic": 1,
+          "Mongoid::Copyable": 1,
+          "Mongoid::Matchers": 1,
+          "Mongoid::Inspection": 1,
+          "Mongoid::NestedAttributes": 1,
+          "ActiveModel::Serializers::JSON": 1,
+          "Mongoid::Sharding": 1,
+          "Mongoid::Safety": 1,
+          "Mongoid::State": 1,
+          ":database": 1,
+          "mongoid/config/environment": 1,
+          "mongoid/config/replset_database": 1,
+          "mongoid/config/options": 1,
+          "uri": 1,
+          "mongoid/config/database": 1,
+          ":database=": 1,
+          "mongoid/contexts/mongo": 1,
+          "mongoid/contexts/enumerable": 1,
+          "Relations::Embedded::Atomic": 1,
+          "mongoid/contexts/enumerable/sort": 1,
+          ":empty?": 1,
+          "Criterion::Exclusion": 1,
+          ":to_ary": 1,
+          "mongoid/criterion/inclusion": 1,
+          "mongoid/criterion/complex": 1,
+          "Criterion::Inclusion": 1,
+          "mongoid/criterion/exclusion": 1,
+          "Criterion::Inspection": 1,
+          "Criterion::Optional": 1,
+          "mongoid/criterion/inspection": 1,
+          "mongoid/criterion/optional": 1,
+          "Criterion::Scoping": 1,
+          "mongoid/criterion/scoping": 1,
+          "mongoid/criterion/selector": 1,
+          "mongoid_spacial/criterion": 1,
+          "mongoid_spacial/extentions/symbol/inflections": 1,
+          "active_support/concern": 1,
+          "active_support/core_ext/string/inflections": 1,
+          "mongoid_spacial/contexts/mongo": 1,
+          "mongoid_spacial/spacial": 1,
+          "mongoid_spacial/extentions/hash/criteria_helpers": 1,
+          "mongoid": 1,
+          "mongoid_spacial/field_option": 1,
+          "mongoid_spacial/finders": 1,
+          "mongoid_spacial/criteria": 1,
+          "mongoid_spacial/criterion/within_spacial": 1,
+          "mongoid_spacial/criterion/complex": 1,
+          "mongoid_spacial/criterion/near_spacial": 1,
+          "mongoid_spacial/spacial/geo_near_results": 1,
+          "mongoid_spacial/spacial/formulas": 1,
+          "mongoid_spacial/spacial/core_ext": 1,
+          "mongoid_spacial/spacial/document": 1,
+          "Mongoid::Timestamps::Updated": 1,
+          "rails_conditions": 1,
+          "RailsConditions::Base": 1,
+          "Operators": 1,
+          "test/spec/rails": 1,
+          "sequel/core": 1,
+          "tilt/string": 1,
+          "rodauth/features/#{feature_name}": 1,
+          "argon2": 1,
+          "account_password_hash_column": 1,
+          "rack/request": 1,
+          "bcrypt": 1,
+          "raised_uniqueness_violation": 1,
+          "ignore_uniqueness_violation": 1,
+          "account_session_value": 1,
+          "required=\\": 1,
+          "rack/utils": 1,
+          "logged_in?": 1,
+          "set": 1,
+          "set_redirect_error_flash": 1,
+          "close_account_requires_password?": 1,
+          "change_login_requires_password?": 1,
+          "two_factor_modifications_require_password?": 1,
+          "require_login_confirmation?": 1,
+          "set_notice_now_flash": 1,
+          "require_password_confirmation?": 1,
+          "change_password_requires_password?": 1,
+          "jwt": 1,
+          "ZenTestMapping": 1,
+          "zentest_mapping": 1,
+          "inline/#{lang}": 1,
+          "#{so_name}": 1,
+          "tempfile": 1,
+          "tmpdir": 1,
+          "#{tempfile.path}.rb": 1,
+          "ruby.h": 1,
+          "header\\": 1,
+          "header.h\\": 1,
+          "<header>": 1,
+          "ruby_fixtures": 1,
+          "scenarios": 1,
+          "RAILS_ROOT": 1,
+          "sqlite3": 1,
+          "irb": 1,
+          "sametime/chat": 1,
+          "sametime/base": 1,
+          "httmultiparty": 1,
+          "sametime/library": 1,
+          "sametime/document": 1,
+          "httparty": 1,
+          "sametime/url": 1,
+          "sametime/room": 1,
+          "sametime/projector": 1,
+          "sametime/map": 1,
+          "active_support/ordered_hash": 1,
+          "HTTMultiParty": 1,
+          "socket": 1,
+          "statsd": 1,
+          "simplecov": 1,
+          "helper": 1,
+          "rails/all": 1,
+          "bundler/capistrano": 1,
+          "whenever/capistrano": 1,
+          "airbrake/capistrano": 1,
+          "rvm/capistrano": 1,
+          "devise/orm/active_record": 1,
+          "digest": 1,
+          "harvested": 1,
+          "MoneyStringParser": 1,
+          "csv": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "unnu/countries",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/delayed_job",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/dxf-ruby",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/flvtool2",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/hangover",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/hangover2",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/homebrew",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/mongoid",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/mongoid_spacial",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/railsconditions",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/rodauth",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/rubyinline",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/ruby_fixtures",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/sametime",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/statsd",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/superuser_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "unnu/taxomatic",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

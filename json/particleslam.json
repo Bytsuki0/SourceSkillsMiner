@@ -1,0 +1,345 @@
+{
+  "username": "particleslam",
+  "areas": {
+    "OSS": {
+      "score": 0.9681007490448015,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.5,
+        "commits_activity": 0.4521511235672024
+      }
+    },
+    "Status": {
+      "score": -0.019078738134685636,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.4521511235672024,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "particleslam/uebersicht-statuscake": 0.36528
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.537255502727529,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        26,
+        1
+      ],
+      "HTML": [
+        1,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Ruby": [
+        10,
+        1
+      ],
+      "CoffeeScript": [
+        114,
+        4
+      ],
+      "JavaScript": [
+        0,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 6,
+    "total_lines": 151,
+    "top_5_languages": [
+      {
+        "language": "CoffeeScript",
+        "lines": 114,
+        "commits": 4
+      },
+      {
+        "language": "Python",
+        "lines": 26,
+        "commits": 1
+      },
+      {
+        "language": "Ruby",
+        "lines": 10,
+        "commits": 1
+      },
+      {
+        "language": "HTML",
+        "lines": 1,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 0,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "particleslam",
+    "analysis_date": "2026-02-19T18:17:50.211722",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 102,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "function": 1,
+          "jquery": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 90,
+        "packages": {
+          "django": 76,
+          "__future__": 26,
+          "unicode_literals": 23,
+          "migrations": 20,
+          "wagtail": 20,
+          "models": 16,
+          "datetime": 14,
+          "TestCase": 11,
+          "os": 10,
+          "wagtailnews": 9,
+          "tests": 9,
+          "sys": 8,
+          "swapper": 8,
+          "south": 8,
+          "SchemaMigration": 8,
+          "db": 8,
+          "WagtailTestUtils": 8,
+          "settings": 7,
+          "reverse": 7,
+          "Page": 7,
+          "NewsIndex": 7,
+          "json": 6,
+          "Site": 6,
+          "BaseCommand": 5,
+          "mailchimp": 5,
+          "warnings": 5,
+          "timezone": 5,
+          "VERSION": 4,
+          "random": 4,
+          "re": 3,
+          "admin": 3,
+          "ugettext_lazy": 3,
+          "urllib": 3,
+          "math": 3,
+          "force_text": 3,
+          "include": 3,
+          "get_connection": 3,
+          "tqdm": 2,
+          "cities": 2,
+          "collections": 2,
+          "ImproperlyConfigured": 2,
+          "importlib": 2,
+          "transaction": 2,
+          "optparse": 2,
+          "Point": 2,
+          "make_option": 2,
+          "force_unicode": 2,
+          "python_2_unicode_compatible": 2,
+          "string": 2,
+          "mark_safe": 2,
+          "patterns": 2,
+          "execute_from_command_line": 2,
+          "chimpy": 2,
+          "ContentType": 2,
+          "sphinx_rtd_theme": 2,
+          "setuptools": 2,
+          "absolute_import": 2,
+          "apps": 2,
+          "wagtail_feeds": 2,
+          "urls": 2,
+          "Feed": 2,
+          "modelcluster": 2,
+          "taggit": 2,
+          "mmap": 1,
+          "files": 1,
+          "CITIES_INCLUDE_NUMERIC_ALTERNATIVE_NAMES": 1,
+          "import_module": 1,
+          "defaultdict": 1,
+          "CITIES_INCLUDE_AIRPORT_CODES": 1,
+          "Q": 1,
+          "continent": 1,
+          "CharField": 1,
+          "load_model": 1,
+          "iana": 1,
+          "print_function": 1,
+          "logging": 1,
+          "urlopen": 1,
+          "zipfile": 1,
+          "Envelope": 1,
+          "chain": 1,
+          "io": 1,
+          "Distance": 1,
+          "D": 1,
+          "itertools": 1,
+          "Choices": 1,
+          "model_utils": 1,
+          "choice": 1,
+          "ascii_uppercase": 1,
+          "reset_queries": 1,
+          "unicodedata": 1,
+          "six": 1,
+          "radians": 1,
+          "keep_lazy": 1,
+          "allow_lazy": 1,
+          "ListView": 1,
+          "url": 1,
+          "Queue": 1,
+          "Connection": 1,
+          "requests": 1,
+          "request": 1,
+          "HTTPError": 1,
+          "warn": 1,
+          "hashlib": 1,
+          "operator": 1,
+          "md5": 1,
+          "pprint": 1,
+          "timedelta": 1,
+          "dequeue": 1,
+          "Manager": 1,
+          "get_object_or_404": 1,
+          "GenericForeignKey": 1,
+          "Signal": 1,
+          "get_runner": 1,
+          "setup": 1,
+          "ImageChooserBlock": 1,
+          "blocks": 1,
+          "RichTextField": 1,
+          "RSSFeedsSettings": 1,
+          "RichText": 1,
+          "Collection": 1,
+          "Image": 1,
+          "BasicFeed": 1,
+          "BeautifulSoup": 1,
+          "expand_db_html": 1,
+          "bs4": 1,
+          "OrderedDict": 1,
+          "urljoin": 1,
+          "urlparse": 1,
+          "strip_tags": 1,
+          "gettext_lazy": 1,
+          "find_packages": 1,
+          "LatestEntriesFeed": 1,
+          "newsindex": 1,
+          "ClusterTaggableManager": 1,
+          "ParentalKey": 1,
+          "NewsChooserPanel": 1,
+          "TaggedItemBase": 1,
+          "index": 1,
+          "NewsChooserBlock": 1,
+          "NewsItem": 1,
+          "DeprecatedCallableStr": 1,
+          "OPEN_PREVIEW_PARAM": 1,
+          "signals": 1,
+          "unittest": 1,
+          "MagicMock": 1,
+          "RequestFactory": 1,
+          "urlquote": 1,
+          "Group": 1,
+          "functools": 1,
+          "GroupPagePermission": 1,
+          "wraps": 1,
+          "Tag": 1,
+          "cache": 1,
+          "AdminNewsChooser": 1,
+          "resolve_model_string": 1,
+          "ChooserBlock": 1,
+          "cached_property": 1,
+          "import_string": 1,
+          "Paginator": 1,
+          "NEWSINDEX_MODEL_CLASSES": 1,
+          "render_to_string": 1,
+          "BaseChooserPanel": 1,
+          "enum": 1,
+          "Enum": 1,
+          "reverse_lazy": 1,
+          "MenuItem": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 2,
+        "packages": {
+          ":options_no_memo": 1,
+          "spec": 1,
+          "rubygems": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "particleslam/django-cities",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "particleslam/django-mailchimp",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "particleslam/django-wagtail-feeds",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "particleslam/ruby-sass-tmbundle",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "particleslam/wagtailnews",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "username": "erick",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.1551892432031694,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7135530955739849,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "erick/test-fork-orphan-commits": -0.296
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.03879731080079235,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        9861,
+        47
+      ],
+      "PHP": [
+        2852,
+        0
+      ],
+      "CSS": [
+        609,
+        0
+      ],
+      "Hack": [
+        287,
+        0
+      ],
+      "JavaScript": [
+        604,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 47,
+    "total_lines": 14213,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 9861,
+        "commits": 47
+      },
+      {
+        "language": "PHP",
+        "lines": 2852,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 609,
+        "commits": 0
+      },
+      {
+        "language": "Hack",
+        "lines": 287,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 604,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "erick",
+    "analysis_date": "2026-02-19T10:40:52.063511",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 40,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          ":": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 2,
+        "packages": {
+          "sidebars/": 1,
+          "php_inc/views/credit_roll.inc.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 5,
+        "packages": {
+          "Result": 2,
+          "utils": 2,
+          "time": 2,
+          "Path": 2,
+          "pathlib": 2,
+          "dataclasses": 2,
+          "dataclass": 2,
+          "all_unique": 1,
+          "conf/bgpd-R1": 1,
+          "results": 1,
+          "re": 1,
+          "shutil": 1,
+          "random": 1,
+          "bgph_vm": 1,
+          "hashlib": 1,
+          "BGPHVirtualMachine": 1,
+          "bgp": 1,
+          "fig2_topo": 1,
+          "paramiko": 1,
+          "subprocess": 1,
+          "json": 1,
+          "List": 1,
+          "typing": 1,
+          "argparse": 1,
+          "http": 1,
+          "socketserver": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "erick/hephalump",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "erick/site-animatedamericanmovie.com",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

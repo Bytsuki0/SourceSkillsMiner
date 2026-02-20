@@ -1,0 +1,138 @@
+{
+  "username": "thomaskay",
+  "areas": {
+    "OSS": {
+      "score": -0.08871729575039844,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.3669240563744024
+      }
+    },
+    "Status": {
+      "score": -0.07589678292988555,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.3669240563744024,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.041153519670071,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        56,
+        6
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 6,
+    "total_lines": 56,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 56,
+        "commits": 6
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "thomaskay",
+    "analysis_date": "2026-02-19T16:48:39.943722",
+    "total_repos_analyzed": 3,
+    "total_files_analyzed": 53,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 31,
+        "packages": {
+          "react-router": 18,
+          "react": 11,
+          "expect": 7,
+          "react-dom": 6,
+          "fs": 4,
+          "webpack": 3,
+          "chai": 2,
+          "history": 2,
+          "gulp-mocha": 1,
+          "gulp-babel": 1,
+          "gulp-jshint": 1,
+          "run-sequence": 1,
+          "del": 1,
+          "gulp": 1,
+          "in-publish": 1,
+          "pretty-bytes": 1,
+          "child_process": 1,
+          "gzip-size": 1,
+          "babel-preset-es2015": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 4,
+        "packages": {
+          "active_record": 3,
+          "test/unit": 3,
+          "rubygems": 3,
+          "translation": 1,
+          "klein_routing": 1,
+          "klein_filter": 1,
+          "klein_backend": 1,
+          "sqlite3": 1,
+          "sqlite": 1,
+          "active_record/fixtures": 1,
+          "RAILS_ROOT": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "thomaskay/easy-fit",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "thomaskay/klein",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "thomaskay/react-router",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

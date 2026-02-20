@@ -1,0 +1,358 @@
+{
+  "username": "srerisso",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333333,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.75,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "srerisso/be3_ruby": 0.0027647058823529413
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6641025641025641,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        480053,
+        114
+      ],
+      "Ruby": [
+        482517,
+        119
+      ],
+      "JavaScript": [
+        826286,
+        100
+      ],
+      "HTML": [
+        501580,
+        150
+      ],
+      "CSS": [
+        454385,
+        69
+      ],
+      "Svelte": [
+        954,
+        1
+      ],
+      "TypeScript": [
+        39296,
+        11
+      ],
+      "Astro": [
+        7429,
+        4
+      ],
+      "MDX": [
+        3248,
+        1
+      ],
+      "SCSS": [
+        527,
+        0
+      ],
+      "Shell": [
+        3893,
+        0
+      ],
+      "TSQL": [
+        194,
+        0
+      ],
+      "CoffeeScript": [
+        3581,
+        0
+      ],
+      "PHP": [
+        91306,
+        3
+      ],
+      "Rust": [
+        4537,
+        0
+      ],
+      "Makefile": [
+        11,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 572,
+    "total_lines": 2899797,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 501580,
+        "commits": 150
+      },
+      {
+        "language": "Ruby",
+        "lines": 482517,
+        "commits": 119
+      },
+      {
+        "language": "Python",
+        "lines": 480053,
+        "commits": 114
+      },
+      {
+        "language": "JavaScript",
+        "lines": 826286,
+        "commits": 100
+      },
+      {
+        "language": "CSS",
+        "lines": 454385,
+        "commits": 69
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "srerisso",
+    "analysis_date": "2026-02-19T11:14:35.144224",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 165,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 30,
+        "packages": {
+          "react": 7,
+          "gatsby": 6,
+          "vue": 4,
+          "rails": 4,
+          "prop-types": 3,
+          "jquery": 3,
+          "meteor": 3,
+          "object": 2,
+          "lodash": 2,
+          "~": 2,
+          "turbolinks": 2,
+          "channels": 2,
+          "gatsby-image": 1,
+          "react-helmet": 1,
+          "undefined": 1,
+          "jQuery": 1,
+          "artists": 1,
+          "sveltejs": 1,
+          "fullhuman": 1,
+          "assets": 1,
+          "responsive-loader": 1,
+          "url-parse": 1,
+          "path": 1,
+          "glob": 1,
+          "vue-disqus": 1,
+          "opti-image": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 30,
+        "packages": {
+          "django": 21,
+          "os": 6,
+          "admin": 5,
+          "__future__": 5,
+          "unicode_literals": 5,
+          "re": 3,
+          "path": 2,
+          "get_wsgi_application": 2,
+          "AppConfig": 2,
+          "models": 2,
+          "TestCase": 2,
+          "HttpResponse": 2,
+          "render": 2,
+          "execute_from_command_line": 2,
+          "sys": 2,
+          "include": 2,
+          "Counter": 1,
+          "typing": 1,
+          "ConfigParser": 1,
+          "configparser": 1,
+          "config": 1,
+          "psycopg2": 1,
+          "forms": 1,
+          "migrations": 1,
+          "url": 1,
+          "Paginator": 1,
+          "pprint": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 4,
+        "packages": {
+          "set": 1,
+          "rails/all": 1,
+          "boot": 1,
+          "bootsnap/setup": 1,
+          "bundler/setup": 1,
+          "application": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "sveltejs": 1,
+          "vite": 1,
+          "astro:content": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "gatsby": 1,
+          "react": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "srerisso/50ftsquid-gatsby",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "srerisso/adventofcode2020",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "srerisso/adventofcode2021",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "srerisso/adventofcode2022",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "srerisso/afix2019",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "srerisso/alg-articulos",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "srerisso/alg-website2",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "srerisso/alg-website6",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "srerisso/alps17",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "srerisso/aoc2024",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "srerisso/arm-vite",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "srerisso/astroship",
+        "files_analyzed": 4,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "srerisso/awake-tmplt",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "srerisso/backend3",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "srerisso/be32",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

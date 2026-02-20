@@ -1,0 +1,346 @@
+{
+  "username": "powellnathanj",
+  "areas": {
+    "OSS": {
+      "score": 0.4444444444444444,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 0.75,
+      "details": {
+        "powellnathanj/mcollective-shellout-agent": -0.0386,
+        "powellnathanj/mcollective-yum-agent": 0.4276333333333333,
+        "powellnathanj/swisclient": 0.69052,
+        "powellnathanj/whereeat": 0.2751
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.44155982905982905,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Makefile": [
+        183,
+        11
+      ],
+      "Python": [
+        326,
+        10
+      ],
+      "PowerShell": [
+        10,
+        0
+      ],
+      "AutoHotkey": [
+        31,
+        1
+      ],
+      "Shell": [
+        59,
+        7
+      ],
+      "Ruby": [
+        1337,
+        75
+      ],
+      "Go": [
+        31,
+        1
+      ],
+      "HTML": [
+        47,
+        3
+      ],
+      "CSS": [
+        8,
+        0
+      ],
+      "C": [
+        2767,
+        9
+      ],
+      "C++": [
+        67,
+        1
+      ],
+      "HCL": [
+        462,
+        9
+      ],
+      "Puppet": [
+        231,
+        9
+      ],
+      "Vim Script": [
+        2924,
+        24
+      ],
+      "Swift": [
+        403,
+        3
+      ],
+      "Vim Snippet": [
+        78,
+        0
+      ],
+      "CMake": [
+        9,
+        0
+      ],
+      "Nginx": [
+        21,
+        1
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 164,
+    "total_lines": 8994,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 1337,
+        "commits": 75
+      },
+      {
+        "language": "Vim Script",
+        "lines": 2924,
+        "commits": 24
+      },
+      {
+        "language": "Makefile",
+        "lines": 183,
+        "commits": 11
+      },
+      {
+        "language": "Python",
+        "lines": 326,
+        "commits": 10
+      },
+      {
+        "language": "C",
+        "lines": 2767,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "powellnathanj",
+    "analysis_date": "2026-02-19T22:00:37.936184",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 80,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "unistd.h": 2,
+          "<unistd.h>": 2,
+          "<stdio.h>": 2,
+          "stdio.h": 2,
+          "sys/ioctl.h": 1,
+          "dev/acpica/acpiio.h": 1,
+          "<fcntl.h>": 1,
+          "<sysexits.h>": 1,
+          "fcntl.h": 1,
+          "<dev/acpica/acpiio.h>": 1,
+          "<err.h>": 1,
+          "<sys/ioctl.h>": 1,
+          "err.h": 1,
+          "sysexits.h": 1,
+          "<X11/Xproto.h>": 1,
+          "<stdlib.h>": 1,
+          "<signal.h>": 1,
+          "stdarg.h": 1,
+          "<locale.h>": 1,
+          "<X11/Xlib.h>": 1,
+          "sys/types.h": 1,
+          "X11/Xatom.h": 1,
+          "<X11/cursorfont.h>": 1,
+          "X11/cursorfont.h": 1,
+          "<string.h>": 1,
+          "X11/extensions/Xinerama.h": 1,
+          "stdlib.h": 1,
+          "X11/Xutil.h": 1,
+          "<errno.h>": 1,
+          "<X11/Xutil.h>": 1,
+          "<X11/extensions/Xinerama.h>": 1,
+          "signal.h": 1,
+          "X11/Xlib.h": 1,
+          "X11/keysym.h": 1,
+          "<stdarg.h>": 1,
+          "<sys/wait.h>": 1,
+          "sys/wait.h": 1,
+          "<sys/types.h>": 1,
+          "string.h": 1,
+          "errno.h": 1,
+          "X11/Xproto.h": 1,
+          "<X11/keysym.h>": 1,
+          "<X11/Xatom.h>": 1,
+          "config.h": 1,
+          "locale.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "os": 1,
+          "flag": 1,
+          "github.com/stianeikeland/go-rpio": 1,
+          "time": 1,
+          "fmt": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "twisted": 2,
+          "service": 2,
+          "__future__": 1,
+          "print_function": 1,
+          "protocol": 1,
+          "basic": 1,
+          "random": 1,
+          "hangd": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 23,
+        "packages": {
+          "rubygems": 7,
+          "test_helper": 7,
+          "compass": 3,
+          "activerecord": 2,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "rails": 1,
+          "boot": 1,
+          "Active": 1,
+          "performance_test_help": 1,
+          "test_help": 1,
+          "simple-rss": 1,
+          "grackle": 1,
+          "nokogiri": 1,
+          "open-uri": 1,
+          "whois": 1,
+          "active_support": 1,
+          "isaac": 1,
+          "models": 1,
+          "hpricot": 1,
+          "sanitize": 1,
+          "daemons": 1,
+          "activesupport": 1,
+          "net/ldap": 1,
+          "rails/all": 1,
+          "bundler": 1,
+          "rails/performance_test_help": 1,
+          "rails/test_help": 1,
+          "json": 1,
+          "sinatra": 1,
+          "App::Util": 1,
+          "Rack::Flash": 1,
+          "app/util": 1,
+          "haml": 1,
+          "rack-flash": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "powellnathanj/adhearsion_talk",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "powellnathanj/aws-lambda-skel",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "powellnathanj/cprbot",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "powellnathanj/Dapper",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "powellnathanj/garagedoor",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "powellnathanj/hangd-man",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "powellnathanj/mcollective-yum-agent",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "powellnathanj/nwm",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "powellnathanj/sinatra-minimum",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

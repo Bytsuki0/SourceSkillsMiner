@@ -1,0 +1,370 @@
+{
+  "username": "aok",
+  "areas": {
+    "OSS": {
+      "score": -0.5683211049187151,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6475183426219274
+      }
+    },
+    "Status": {
+      "score": 0.12398658738897717,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6475183426219274,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.11108362938243449,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        106,
+        3
+      ],
+      "CSS": [
+        37,
+        1
+      ],
+      "Haskell": [
+        41,
+        3
+      ],
+      "CoffeeScript": [
+        705,
+        20
+      ],
+      "Scala": [
+        15,
+        0
+      ],
+      "Java": [
+        2,
+        0
+      ],
+      "Shell": [
+        12,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 27,
+    "total_lines": 918,
+    "top_5_languages": [
+      {
+        "language": "CoffeeScript",
+        "lines": 705,
+        "commits": 20
+      },
+      {
+        "language": "HTML",
+        "lines": 106,
+        "commits": 3
+      },
+      {
+        "language": "Haskell",
+        "lines": 41,
+        "commits": 3
+      },
+      {
+        "language": "CSS",
+        "lines": 37,
+        "commits": 1
+      },
+      {
+        "language": "Scala",
+        "lines": 15,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "aok",
+    "analysis_date": "2026-02-19T10:49:50.479832",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 103,
+    "languages": {
+      "C++": {
+        "files_scanned": 13,
+        "packages": {
+          "core/Tools.h": 3,
+          "core/FilePath.h": 2,
+          "core/Group.h": 2,
+          "<QApplication>": 2,
+          "QApplication": 2,
+          "autotype/AutoType.h": 2,
+          "autotype/AutoTypeSelectDialog.h": 1,
+          "autotype/WildcardMatcher.h": 1,
+          "core/Entry.h": 1,
+          "core/ListDeleter.h": 1,
+          "autotype/AutoTypePlatformPlugin.h": 1,
+          "AutoType.h": 1,
+          "QPluginLoader": 1,
+          "core/Database.h": 1,
+          "<QPluginLoader>": 1,
+          "AutoTypeAction.h": 1,
+          "autotype/AutoTypeSelectView.h": 1,
+          "gui/entry/EntryModel.h": 1,
+          "<QLabel>": 1,
+          "<QDialogButtonBox>": 1,
+          "QDesktopWidget": 1,
+          "AutoTypeSelectDialog.h": 1,
+          "<QVBoxLayout>": 1,
+          "QDialogButtonBox": 1,
+          "QVBoxLayout": 1,
+          "<QDesktopWidget>": 1,
+          "QLabel": 1,
+          "AutoTypeSelectView.h": 1,
+          "QMouseEvent": 1,
+          "<QMouseEvent>": 1,
+          "<QKeyEvent>": 1,
+          "QKeyEvent": 1,
+          "ShortcutWidget.h": 1,
+          "WildcardMatcher.h": 1,
+          "QStringList": 1,
+          "<QStringList>": 1,
+          "QLineEdit": 1,
+          "<QLineEdit>": 1,
+          "WindowSelectComboBox.h": 1,
+          "AutoTypeTest.h": 1,
+          "time.h": 1,
+          "AutoTypeX11.h": 1,
+          "<time.h>": 1,
+          "KeySymMap.h": 1,
+          "ArgumentParser.h": 1,
+          "AutoTypeAssociations.h": 1,
+          "QTemporaryFile": 1,
+          "QDir": 1,
+          "<QSettings>": 1,
+          "<QDesktopServices>": 1,
+          "QSettings": 1,
+          "<QCoreApplication>": 1,
+          "<QDir>": 1,
+          "QDesktopServices": 1,
+          "Config.h": 1,
+          "QCoreApplication": 1,
+          "<QTemporaryFile>": 1,
+          "<QTimer>": 1,
+          "<QXmlStreamReader>": 1,
+          "Database.h": 1,
+          "QTimer": 1,
+          "QXmlStreamReader": 1,
+          "crypto/Random.h": 1,
+          "format/KeePass2.h": 1,
+          "<QFile>": 1,
+          "core/Metadata.h": 1,
+          "QFile": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 15,
+        "packages": {
+          "core/Global.h": 11,
+          "autotype/AutoTypeAction.h": 4,
+          "QWidget": 3,
+          "<QWidget>": 3,
+          "QStringList": 3,
+          "<QStringList>": 3,
+          "<QHash>": 3,
+          "QHash": 3,
+          "QObject": 2,
+          "<QObject>": 2,
+          "QtPlugin": 2,
+          "autotype/AutoTypePlatformPlugin.h": 2,
+          "<QtPlugin>": 2,
+          "<Qt>": 1,
+          "Qt": 1,
+          "<QChar>": 1,
+          "QChar": 1,
+          "QDialog": 1,
+          "QAbstractItemModel": 1,
+          "<QAbstractItemModel>": 1,
+          "<QDialog>": 1,
+          "gui/entry/EntryView.h": 1,
+          "QLineEdit": 1,
+          "<QLineEdit>": 1,
+          "QComboBox": 1,
+          "<QComboBox>": 1,
+          "autotype/test/AutoTypeTestInterface.h": 1,
+          "QX11Info": 1,
+          "<QSet>": 1,
+          "X11/extensions/XTest.h": 1,
+          "QSet": 1,
+          "<X11/Xutil.h>": 1,
+          "<QApplication>": 1,
+          "QApplication": 1,
+          "X11/XKBlib.h": 1,
+          "<X11/XKBlib.h>": 1,
+          "<X11/extensions/XTest.h>": 1,
+          "X11/Xutil.h": 1,
+          "<QX11Info>": 1,
+          "QScopedPointer": 1,
+          "<QVariant>": 1,
+          "<QScopedPointer>": 1,
+          "QVariant": 1,
+          "core/Uuid.h": 1,
+          "keys/CompositeKey.h": 1,
+          "<QDateTime>": 1,
+          "QDateTime": 1
+        }
+      },
+      "Haskell": {
+        "files_scanned": 2,
+        "packages": {
+          "Control.Monad": 2,
+          "Data.Function": 1,
+          "Text.PrettyPrint.Leijen": 1,
+          "Data.List": 1,
+          "System.Random.Shuffle": 1,
+          "System.Random": 1,
+          "System.Environment": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 1,
+        "packages": {
+          "mtk.mylog": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "globals": 2,
+          "eslint": 2,
+          "eslint-plugin-react-refresh": 2,
+          "typescript-eslint": 2,
+          ":": 2,
+          "eslint-plugin-react-hooks": 2,
+          "Could": 1,
+          "use": 1,
+          "undefined": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "collections": 1,
+          "sys": 1,
+          "re": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 4,
+        "packages": {
+          "mtk.mylog": 3,
+          "sbt._": 1,
+          "android.database": 1,
+          "android.content": 1,
+          "View}": 1,
+          "android.provider": 1,
+          "android.text": 1,
+          "android.telephony": 1,
+          "android.os": 1,
+          "android.widget": 1,
+          "android.view": 1,
+          "TextView}": 1,
+          "ArrayAdapter": 1,
+          "android.app": 1,
+          "android.net": 1,
+          "PhoneNumberUtils}": 1,
+          "ShouldMatchers}": 1,
+          "org.scalatest": 1,
+          "_root_.android": 1,
+          "junit.framework": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 57,
+        "packages": {
+          "react": 50,
+          "radix-ui": 35,
+          "lucide-react": 29,
+          "class-variance-authority": 7,
+          "react-day-picker": 2,
+          "useEmblaCarousel": 2,
+          "cmdk": 2,
+          "react-resizable-panels": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "aok/aok.github.io",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "aok/fair-share-negotiation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "aok/fairshare-game",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "aok/handjobs-haskell",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Haskell"
+        ]
+      },
+      {
+        "repository": "aok/keepassx",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "aok/my-log",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java",
+          "Scala"
+        ]
+      }
+    ]
+  }
+}

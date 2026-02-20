@@ -1,0 +1,897 @@
+{
+  "username": "polaris",
+  "areas": {
+    "OSS": {
+      "score": 0.8666666666666667,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.8,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.47435897435897445,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.21153846153846154
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "polaris/generic-object-factory": 0.7068000000000001,
+        "polaris/polaris.github.io": 0.4404
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6852564102564103,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        80023,
+        64
+      ],
+      "C++": [
+        403925,
+        498
+      ],
+      "CMake": [
+        8619,
+        13
+      ],
+      "JavaScript": [
+        48951,
+        39
+      ],
+      "Common Lisp": [
+        3415,
+        111
+      ],
+      "Python": [
+        19413,
+        20
+      ],
+      "Makefile": [
+        1158,
+        6
+      ],
+      "Erlang": [
+        4632,
+        102
+      ],
+      "Shell": [
+        1986,
+        5
+      ],
+      "TypeScript": [
+        21051,
+        1
+      ],
+      "CSS": [
+        11715,
+        0
+      ],
+      "HTML": [
+        20532,
+        12
+      ],
+      "Assembly": [
+        38666,
+        11
+      ],
+      "Vim Script": [
+        484,
+        19
+      ],
+      "MATLAB": [
+        115,
+        3
+      ],
+      "QML": [
+        100,
+        0
+      ],
+      "Ruby": [
+        684,
+        0
+      ],
+      "Lua": [
+        153,
+        1
+      ],
+      "Fortran": [
+        48949,
+        4
+      ],
+      "Objective-C": [
+        313,
+        0
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 909,
+    "total_lines": 714884,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 403925,
+        "commits": 498
+      },
+      {
+        "language": "Common Lisp",
+        "lines": 3415,
+        "commits": 111
+      },
+      {
+        "language": "Erlang",
+        "lines": 4632,
+        "commits": 102
+      },
+      {
+        "language": "C",
+        "lines": 80023,
+        "commits": 64
+      },
+      {
+        "language": "JavaScript",
+        "lines": 48951,
+        "commits": 39
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "polaris",
+    "analysis_date": "2026-02-19T19:29:15.870262",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 192,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "<string.h>": 1,
+          "string.h": 1,
+          "<stdlib.h>": 1,
+          "<unistd.h>": 1,
+          "unistd.h": 1,
+          "<stdio.h>": 1,
+          "stdlib.h": 1,
+          "emulator.h": 1,
+          "stdio.h": 1,
+          "<libavutil/imgutils.h>": 1,
+          "libavformat/avformat.h": 1,
+          "libswscale/swscale.h": 1,
+          "libavutil/imgutils.h": 1,
+          "<libavformat/avformat.h>": 1,
+          "<libavcodec/avcodec.h>": 1,
+          "libavcodec/avcodec.h": 1,
+          "SDL2/SDL.h": 1,
+          "<libswscale/swscale.h>": 1,
+          "<SDL2/SDL.h>": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 32,
+        "packages": {
+          "<iostream>": 10,
+          "iostream": 10,
+          "cmath": 4,
+          "thread": 4,
+          "<cmath>": 4,
+          "<thread>": 4,
+          "<string>": 3,
+          "string": 3,
+          "CutterConfig.h": 3,
+          "<QJsonArray>": 3,
+          "QJsonArray": 3,
+          "<algorithm>": 3,
+          "algorithm": 3,
+          "gtest/gtest.h": 3,
+          "<gtest/gtest.h>": 3,
+          "<sstream>": 2,
+          "sstream": 2,
+          "<inttypes.h>": 2,
+          "<signal.h>": 2,
+          "signal.h": 2,
+          "atomic": 2,
+          "alsa/asoundlib.h": 2,
+          "inttypes.h": 2,
+          "<chrono>": 2,
+          "<atomic>": 2,
+          "boost/program_options.hpp": 2,
+          "chrono": 2,
+          "<boost/program_options.hpp>": 2,
+          "<alsa/asoundlib.h>": 2,
+          "<QDir>": 2,
+          "common/CrashHandler.h": 2,
+          "QDir": 2,
+          "CutterApplication.h": 2,
+          "<QJsonObject>": 2,
+          "core/MainWindow.h": 2,
+          "QJsonObject": 2,
+          "<vector>": 2,
+          "vector": 2,
+          "unordered_map": 2,
+          "<unordered_map>": 2,
+          "Hello,": 2,
+          "<catch2/catch_test_macros.hpp>": 2,
+          "catch2/catch_test_macros.hpp": 2,
+          "Registrar.h": 2,
+          "Client.h": 2,
+          "Interface.h": 2,
+          "gmock/gmock.h": 2,
+          "<gmock/gmock.h>": 2,
+          "SDL.h": 1,
+          "<SDL.h>": 1,
+          "boost/core/ignore_unused.hpp": 1,
+          "<boost/core/ignore_unused.hpp>": 1,
+          "emulator.h": 1,
+          "boost/accumulators/statistics/stats.hpp": 1,
+          "<boost/accumulators/statistics/stats.hpp>": 1,
+          "<boost/accumulators/statistics/rolling_mean.hpp>": 1,
+          "<boost/accumulators/accumulators.hpp>": 1,
+          "boost/accumulators/accumulators.hpp": 1,
+          "boost/accumulators/statistics/rolling_mean.hpp": 1,
+          "config.h": 1,
+          "<QtNetwork/QtNetwork>": 1,
+          "common/ResourcePaths.h": 1,
+          "QFileOpenEvent": 1,
+          "<QApplication>": 1,
+          "QProcess": 1,
+          "<QProcess>": 1,
+          "<QTranslator>": 1,
+          "<QCommandLineParser>": 1,
+          "<QStringList>": 1,
+          "<QFontDatabase>": 1,
+          "plugins/PluginManager.h": 1,
+          "QApplication": 1,
+          "<QTextCodec>": 1,
+          "QStringList": 1,
+          "<R2GhidraDecompiler.h>": 1,
+          "QTranslator": 1,
+          "<QFileOpenEvent>": 1,
+          "QTextCodec": 1,
+          "cstdlib": 1,
+          "<QLibraryInfo>": 1,
+          "<QMenu>": 1,
+          "<cstdlib>": 1,
+          "QMessageBox": 1,
+          "QMenu": 1,
+          "QFontDatabase": 1,
+          "QEvent": 1,
+          "QPluginLoader": 1,
+          "<QMessageBox>": 1,
+          "common/PythonManager.h": 1,
+          "QCommandLineParser": 1,
+          "QLibraryInfo": 1,
+          "<QPluginLoader>": 1,
+          "<QEvent>": 1,
+          "QtNetwork/QtNetwork": 1,
+          "R2GhidraDecompiler.h": 1,
+          "common/Decompiler.h": 1,
+          "common/SettingsUpgrade.h": 1,
+          "common/UpdateWorker.h": 1,
+          "AddressableItemModel.h": 1,
+          "stdexcept": 1,
+          "<stdexcept>": 1,
+          "QCheckBox": 1,
+          "common/AnalTask.h": 1,
+          "core/Cutter.h": 1,
+          "<QCheckBox>": 1,
+          "dialogs/InitialOptionsDialog.h": 1,
+          "QDebug": 1,
+          "<QDebug>": 1,
+          "AsyncTask.h": 1,
+          "BasicBlockHighlighter.h": 1,
+          "BasicInstructionHighlighter.h": 1,
+          "Cutter.h": 1,
+          "QUrl": 1,
+          "BugReporting.h": 1,
+          "<QUrl>": 1,
+          "QDesktopServices": 1,
+          "<QDesktopServices>": 1,
+          "QStandardPaths": 1,
+          "QFile": 1,
+          "<QColor>": 1,
+          "<QRegularExpression>": 1,
+          "QRegularExpression": 1,
+          "<QFile>": 1,
+          "ColorThemeWorker.h": 1,
+          "<QStandardPaths>": 1,
+          "QColor": 1,
+          "common/Configuration.h": 1,
+          "vm/EvaVM.h": 1,
+          "EvaCompiler.h": 1,
+          "EvaParser.h": 1,
+          "UnknowOpcode.h": 1,
+          "functional": 1,
+          "EvaVM.h": 1,
+          "<functional>": 1,
+          "hello": 1,
+          "foobar": 1,
+          "Circle.h": 1,
+          "Rectangle.h": 1,
+          "Shape.h": 1,
+          "::testing::AtLeast": 1,
+          "::testing::Return": 1,
+          "MockInterface.h": 1,
+          "include/hammurabi/connector.h": 1,
+          "boost/lexical_cast.hpp": 1,
+          "proto/raft.pb.h": 1,
+          "<boost/asio.hpp>": 1,
+          "include/hammurabi/raft.h": 1,
+          "boost/asio.hpp": 1,
+          "<boost/lexical_cast.hpp>": 1,
+          "<boost/filesystem.hpp>": 1,
+          "boost/filesystem.hpp": 1,
+          "<fstream>": 1,
+          "boost/iostreams/device/mapped_file.hpp": 1,
+          "<boost/iostreams/device/mapped_file.hpp>": 1,
+          "fstream": 1,
+          "catch2/catch.hpp": 1,
+          "include/hammurabi/kv_store.h": 1,
+          "<catch2/catch.hpp>": 1,
+          "<windows.h>": 1,
+          "windows.h": 1,
+          "<cctype>": 1,
+          "<cstddef>": 1,
+          "<cerrno>": 1,
+          "cstring": 1,
+          "<string.h>": 1,
+          "<cstring>": 1,
+          "fmt::internal::Arg": 1,
+          "<cstdarg>": 1,
+          "cctype": 1,
+          "cerrno": 1,
+          "string.h": 1,
+          "cstdarg": 1,
+          "format.h": 1,
+          "cstddef": 1,
+          "<climits>": 1,
+          "climits": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "Foundation/Foundation.h": 1,
+          "<iomanip>": 1,
+          "<assert.h>": 1,
+          "memory": 1,
+          "<memory>": 1,
+          "<cstdio>": 1,
+          "TestCaseTracking::SectionTracker": 1,
+          "<tuple>": 1,
+          "<cmath>": 1,
+          "<iostream>": 1,
+          "<vector>": 1,
+          "<algorithm>": 1,
+          "<cstring>": 1,
+          "Catch::Detail::Approx": 1,
+          "iterator": 1,
+          "Tbc::TextAttributes": 1,
+          "<limits>": 1,
+          "<type_traits>": 1,
+          "stdbool.h": 1,
+          "Generators": 1,
+          "<stdbool.h>": 1,
+          "stdexcept": 1,
+          "<iterator>": 1,
+          "<ctime>": 1,
+          "limits": 1,
+          "<signal.h>": 1,
+          "streambuf": 1,
+          "Clara": 1,
+          "<set>": 1,
+          "<cstddef>": 1,
+          "vector": 1,
+          "fstream": 1,
+          "AfxWin.h": 1,
+          "TestCaseTracking::ITracker": 1,
+          "cstring": 1,
+          "<streambuf>": 1,
+          "Matchers": 1,
+          "<stdlib.h>": 1,
+          "iomanip": 1,
+          "namespace": 1,
+          "map": 1,
+          "<string>": 1,
+          "stdlib.h": 1,
+          "<sys/time.h>": 1,
+          "Tbc::Text": 1,
+          "<sys/sysctl.h>": 1,
+          "<sstream>": 1,
+          "type_traits": 1,
+          "ctime": 1,
+          "<stdint.h>": 1,
+          "windows.h": 1,
+          "<ostream>": 1,
+          "<Foundation/Foundation.h>": 1,
+          "<map>": 1,
+          "algorithm": 1,
+          "<unistd.h>": 1,
+          "TestCaseTracking::TrackerContext": 1,
+          "stdint.h": 1,
+          "cmath": 1,
+          "ostream": 1,
+          "sys/sysctl.h": 1,
+          "assert.h": 1,
+          "cstddef": 1,
+          "<objc/runtime.h>": 1,
+          "sys/time.h": 1,
+          "sys/types.h": 1,
+          "<fstream>": 1,
+          "unistd.h": 1,
+          "sstream": 1,
+          "TestCaseTracking::IndexTracker": 1,
+          "<windows.h>": 1,
+          "Tbc": 1,
+          "signal.h": 1,
+          "cstdio": 1,
+          "<AfxWin.h>": 1,
+          "<sys/types.h>": 1,
+          "iostream": 1,
+          "string": 1,
+          "set": 1,
+          "CommonArgProperties<ConfigT>::placeholder": 1,
+          "tuple": 1,
+          "<stdexcept>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 62,
+        "packages": {
+          "<string>": 26,
+          "string": 26,
+          "memory": 22,
+          "<memory>": 22,
+          "<vector>": 12,
+          "vector": 12,
+          "<mutex>": 11,
+          "mutex": 11,
+          "<spdlog/common.h>": 11,
+          "spdlog/common.h": 11,
+          "chrono": 10,
+          "<chrono>": 10,
+          "functional": 9,
+          "<functional>": 9,
+          "<spdlog/details/null_mutex.h>": 9,
+          "spdlog/details/null_mutex.h": 9,
+          "spdlog/details/log_msg.h": 8,
+          "<spdlog/details/log_msg.h>": 8,
+          "<spdlog/sinks/base_sink.h>": 8,
+          "spdlog/sinks/base_sink.h": 8,
+          "map": 7,
+          "<map>": 6,
+          "utility": 6,
+          "<utility>": 6,
+          "<algorithm>": 5,
+          "algorithm": 5,
+          "stdexcept": 5,
+          "<stdexcept>": 5,
+          "<cstdio>": 5,
+          "cstdio": 5,
+          "EvaValue.h": 4,
+          "<sstream>": 4,
+          "sstream": 4,
+          "boost/asio.hpp": 4,
+          "<boost/asio.hpp>": 4,
+          "unordered_map": 4,
+          "<unordered_map>": 4,
+          "spdlog/logger.h": 4,
+          "<spdlog/logger.h>": 4,
+          "thread": 4,
+          "namespace": 4,
+          "<thread>": 4,
+          "<cstdint>": 3,
+          "cstdint": 3,
+          "OpCode.h": 3,
+          "Global.h": 3,
+          "ostream": 3,
+          "<ostream>": 3,
+          "atomic": 3,
+          "<atomic>": 3,
+          "spdlog/sinks/sink.h": 3,
+          "<spdlog/details/os.h>": 3,
+          "spdlog/formatter.h": 3,
+          "<spdlog/sinks/sink.h>": 3,
+          "<spdlog/formatter.h>": 3,
+          "spdlog/details/os.h": 3,
+          "<spdlog/details/format.h>": 3,
+          "spdlog/details/format.h": 3,
+          "ctime": 3,
+          "<ctime>": 3,
+          "<stdint.h>": 2,
+          "stdint.h": 2,
+          "QList": 2,
+          "<QList>": 2,
+          "Cutter.h": 2,
+          "<QColor>": 2,
+          "QColor": 2,
+          "QObject": 2,
+          "<QObject>": 2,
+          "EvaParser.h": 2,
+          "<iostream>": 2,
+          "iostream": 2,
+          "array": 2,
+          "<array>": 2,
+          "iomanip": 2,
+          "<iomanip>": 2,
+          "Shape.h": 2,
+          "boost/any.hpp": 2,
+          "<boost/any.hpp>": 2,
+          "<exception>": 2,
+          "exception": 2,
+          "item_type": 2,
+          "<spdlog/async_logger.h>": 2,
+          "spdlog/async_logger.h": 2,
+          "spdlog/details/line_logger_fwd.h": 2,
+          "<spdlog/details/line_logger_fwd.h>": 2,
+          "QEvent": 1,
+          "core/MainWindow.h": 1,
+          "<QEvent>": 1,
+          "<QProxyStyle>": 1,
+          "<QApplication>": 1,
+          "QApplication": 1,
+          "QProxyStyle": 1,
+          "QSortFilterProxyModel": 1,
+          "<QAbstractItemModel>": 1,
+          "<core/CutterCommon.h>": 1,
+          "QAbstractItemModel": 1,
+          "core/CutterCommon.h": 1,
+          "ParentClass": 1,
+          "<QSortFilterProxyModel>": 1,
+          "core/Cutter.h": 1,
+          "common/AsyncTask.h": 1,
+          "common/InitialOptions.h": 1,
+          "Ptr": 1,
+          "QElapsedTimer": 1,
+          "<QThreadPool>": 1,
+          "<QElapsedTimer>": 1,
+          "<QRunnable>": 1,
+          "<QMutex>": 1,
+          "QRunnable": 1,
+          "QThreadPool": 1,
+          "<QSharedPointer>": 1,
+          "QSharedPointer": 1,
+          "QMutex": 1,
+          "CutterCommon.h": 1,
+          "NodeType": 1,
+          "NodePosition": 1,
+          "BaseType": 1,
+          "cstdlib": 1,
+          "ValueType": 1,
+          "<cstdlib>": 1,
+          "BaseType::This": 1,
+          "BaseType::BaseType": 1,
+          "<climits>": 1,
+          "climits": 1,
+          "QFont": 1,
+          "common/Metrics.h": 1,
+          "QFontMetrics": 1,
+          "<QFont>": 1,
+          "<QFontMetrics>": 1,
+          "<QJsonObject>": 1,
+          "QFile": 1,
+          "QJsonObject": 1,
+          "<QFile>": 1,
+          "EvaDisassembler.h": 1,
+          "Value": 1,
+          "<assert.h>": 1,
+          "Row": 1,
+          "SharedToken": 1,
+          "<regex>": 1,
+          "yyparse": 1,
+          "assert.h": 1,
+          "regex": 1,
+          "EvaCompiler.h": 1,
+          "EmptyStack.h": 1,
+          "StackOverflow.h": 1,
+          "<variant>": 1,
+          "EvaValue": 1,
+          "UnknownType.h": 1,
+          "variant": 1,
+          "ProductCreatorType": 1,
+          "Factory": 1,
+          "Factory.h": 1,
+          "IdentifierType": 1,
+          "Interface.h": 1,
+          "gmock/gmock.h": 1,
+          "<gmock/gmock.h>": 1,
+          "random": 1,
+          "<random>": 1,
+          "detail/hashmap.h": 1,
+          "detail/timer.h": 1,
+          "types.h": 1,
+          "detail/rng.h": 1,
+          "connector.h": 1,
+          "endpoint_t": 1,
+          "log_index_t": 1,
+          "server_id_t": 1,
+          "term_t": 1,
+          "endpoint_map_t": 1,
+          "spdlog/details/async_logger_impl.h": 1,
+          "<spdlog/details/async_logger_impl.h>": 1,
+          "level_t": 1,
+          "sink_ptr": 1,
+          "initializer_list": 1,
+          "filename_t": 1,
+          "locale": 1,
+          "codecvt": 1,
+          "<codecvt>": 1,
+          "sinks_init_list": 1,
+          "formatter_ptr": 1,
+          "log_clock": 1,
+          "<initializer_list>": 1,
+          "<locale>": 1,
+          "q_type": 1,
+          "<spdlog/details/mpmc_bounded_q.h>": 1,
+          "std::chrono::milliseconds": 1,
+          "clock": 1,
+          "spdlog/details/mpmc_bounded_q.h": 1,
+          "spdlog/details/async_log_helper.h": 1,
+          "<spdlog/details/async_log_helper.h>": 1,
+          "internal::FormatterBase::get_arg": 1,
+          "<iterator>": 1,
+          "ArgVisitor<Impl": 1,
+          ":class:`fmt::BasicMemoryWriter`.": 1,
+          "limits": 1,
+          "format.cc": 1,
+          "<intrin.h>": 1,
+          "<cmath>": 1,
+          "<cassert>": 1,
+          "=": 1,
+          "cstring": 1,
+          "<cstring>": 1,
+          "iterator": 1,
+          "internal::Arg": 1,
+          "intrin.h": 1,
+          "<limits>": 1,
+          "0": 1,
+          "cmath": 1,
+          "std::move": 1,
+          "#": 1,
+          "cassert": 1,
+          "<type_traits>": 1,
+          "type_traits": 1,
+          "share.h": 1,
+          "unistd.h": 1,
+          "<sys/syscall.h>": 1,
+          "<windows.h>": 1,
+          "windows.h": 1,
+          "sys/stat.h": 1,
+          "<unistd.h>": 1,
+          "<share.h>": 1,
+          "sys/syscall.h": 1,
+          "<sys/stat.h>": 1,
+          "<spdlog/sinks/ansicolor_sink.h>": 1,
+          "<spdlog/sinks/file_sinks.h>": 1,
+          "spdlog/sinks/file_sinks.h": 1,
+          "spdlog/sinks/stdout_sinks.h": 1,
+          "spdlog/details/registry.h": 1,
+          "spdlog/sinks/syslog_sink.h": 1,
+          "<spdlog/spdlog.h>": 1,
+          "<spdlog/sinks/syslog_sink.h>": 1,
+          "<spdlog/details/registry.h>": 1,
+          "spdlog/spdlog.h": 1,
+          "spdlog/sinks/ansicolor_sink.h": 1,
+          "<spdlog/sinks/stdout_sinks.h>": 1,
+          "<spdlog/details/pattern_formatter_impl.h>": 1,
+          "spdlog/details/pattern_formatter_impl.h": 1,
+          "spdlog/details/logger_impl.h": 1,
+          "spdlog/details/line_logger_impl.h": 1,
+          "<spdlog/details/logger_impl.h>": 1,
+          "<spdlog/details/line_logger_impl.h>": 1,
+          "android/log.h": 1,
+          "<android/log.h>": 1,
+          "spdlog/details/file_helper.h": 1,
+          "<spdlog/details/file_helper.h>": 1,
+          "<WinBase.h>": 1,
+          "WinBase.h": 1,
+          "MyType": 1
+        }
+      },
+      "Erlang": {
+        "files_scanned": 4,
+        "packages": {
+          "eunit/include/eunit.hrl": 3,
+          "global.hrl": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 14,
+        "packages": {
+          "assert": 12,
+          "fs": 2,
+          "express": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 17,
+        "packages": {
+          "os": 10,
+          "sys": 8,
+          "re": 5,
+          "subprocess": 5,
+          "common": 3,
+          "List": 3,
+          "typing": 3,
+          "json": 3,
+          "tacky": 2,
+          "lexer": 2,
+          "parser": 2,
+          "argparse": 2,
+          "dataclass": 2,
+          "dataclasses": 2,
+          "xml": 2,
+          "enum": 1,
+          "Enum": 1,
+          "validation": 1,
+          "codegen": 1,
+          "UnaryOperator": 1,
+          "utils": 1,
+          "errno": 1,
+          "logging": 1,
+          "importlib": 1,
+          "atexit": 1,
+          "requests": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 4,
+        "packages": {
+          "aws-amplify": 3,
+          "JavaScript": 1,
+          "next": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "next": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "polaris/8080invaders",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "polaris/audio-demo",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "polaris/c-compiler",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "polaris/click",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "polaris/cmake-howto",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "polaris/cutter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "polaris/equ",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Erlang"
+        ]
+      },
+      {
+        "repository": "polaris/eva-js",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "polaris/eva-vm",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "polaris/ffmpeg-video-player",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "polaris/foobar",
+        "files_analyzed": 6,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "polaris/generic-object-factory",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "polaris/gtest-cmake-integration",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "polaris/hammurabi",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "polaris/hermes",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C++ Header",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "username": "coldpie",
+  "areas": {
+    "OSS": {
+      "score": -0.9128660093310725,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.13070098600339122
+      }
+    },
+    "Status": {
+      "score": -0.2561625758050534,
+      "details": {
+        "lines_activity": 0.9658243810582594,
+        "commits_activity": 0.13070098600339122,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.2922571462840315,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "PHP": [
+        2,
+        1
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 1,
+    "total_lines": 2,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 2,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "coldpie",
+    "analysis_date": "2026-02-19T08:52:55.104971",
+    "total_repos_analyzed": 1,
+    "total_files_analyzed": 10,
+    "languages": {
+      "PHP": {
+        "files_scanned": 8,
+        "packages": {
+          "Nordigen\\NordigenPHP\\API\\NordigenClient": 2,
+          "App\\Models\\User": 2,
+          "Hypnodev\\LaravelNordigen\\Facades\\LaravelNordigen": 2,
+          "Illuminate\\Database\\Schema\\Blueprint": 1,
+          "Illuminate\\Database\\Migrations\\Migration": 1,
+          "Illuminate\\Support\\Facades\\Schema": 1,
+          "Exception": 1,
+          "Illuminate\\Support\\Facades\\Facade": 1,
+          "ValidatesRequests": 1,
+          "Illuminate\\Http\\Request": 1,
+          "Illuminate\\Routing\\Controller": 1,
+          "Illuminate\\Validation\\ValidationException": 1,
+          "Nordigen\\NordigenPHP\\Enums\\RequisitionStatus": 1,
+          "Illuminate\\Http\\RedirectResponse": 1,
+          "Illuminate\\Routing\\Redirector": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "ForwardsCalls": 1,
+          "Illuminate\\Support\\Facades\\Cache": 1,
+          "Illuminate\\Support\\Traits\\ForwardsCalls": 1,
+          "Carbon\\Carbon": 1,
+          "Hypnodev\\LaravelNordigen\\LaravelNordigen": 1,
+          "Illuminate\\Support\\ServiceProvider": 1,
+          "Illuminate\\Database\\Eloquent\\Relations\\BelongsTo": 1,
+          "Illuminate\\Database\\Eloquent\\Model": 1,
+          "Hypnodev\\LaravelNordigen\\Exceptions\\NordigenAccountException": 1,
+          "Hypnodev\\LaravelNordigen\\Models\\NordigenRequisition": 1,
+          "Illuminate\\Database\\Eloquent\\Relations\\HasMany": 1,
+          "Illuminate\\Support\\Collection": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "coldpie/laravel-nordigen",
+        "files_analyzed": 10,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

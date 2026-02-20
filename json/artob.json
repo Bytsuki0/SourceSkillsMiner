@@ -1,0 +1,410 @@
+{
+  "username": "artob",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 2.375,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4487179487179487,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.17307692307692307
+      }
+    },
+    "Sentiment": {
+      "score": 0.6666666666666666,
+      "details": {
+        "artob/ar.to": 0.2263,
+        "artob/protoflow": -0.020599999999999997,
+        "artob/sysml.rs": 0.03677777777777777
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6788461538461539,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        191085,
+        25
+      ],
+      "JavaScript": [
+        127362,
+        27
+      ],
+      "Rust": [
+        114156,
+        899
+      ],
+      "Makefile": [
+        9583,
+        17
+      ],
+      "TeX": [
+        2,
+        1
+      ],
+      "Ruby": [
+        190756,
+        5
+      ],
+      "MDX": [
+        1439,
+        1
+      ],
+      "Shell": [
+        9113,
+        200
+      ],
+      "PHP": [
+        185,
+        4
+      ],
+      "GDB": [
+        18,
+        0
+      ],
+      "Jinja": [
+        1036,
+        2
+      ],
+      "Dart": [
+        552,
+        11
+      ],
+      "Mermaid": [
+        2062,
+        16
+      ],
+      "Elixir": [
+        9272,
+        68
+      ],
+      "M4": [
+        3749,
+        27
+      ],
+      "C++": [
+        1688,
+        12
+      ],
+      "QML": [
+        459,
+        3
+      ],
+      "OCaml": [
+        394,
+        2
+      ],
+      "C": [
+        129,
+        0
+      ],
+      "Nim": [
+        117,
+        0
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 1320,
+    "total_lines": 663157,
+    "top_5_languages": [
+      {
+        "language": "Rust",
+        "lines": 114156,
+        "commits": 899
+      },
+      {
+        "language": "Shell",
+        "lines": 9113,
+        "commits": 200
+      },
+      {
+        "language": "Elixir",
+        "lines": 9272,
+        "commits": 68
+      },
+      {
+        "language": "JavaScript",
+        "lines": 127362,
+        "commits": 27
+      },
+      {
+        "language": "M4",
+        "lines": 3749,
+        "commits": 27
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "artob",
+    "analysis_date": "2026-02-19T11:52:51.656477",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 233,
+    "languages": {
+      "Dart": {
+        "files_scanned": 12,
+        "packages": {
+          "near": 10,
+          "flutter_test": 8,
+          "dart:typed_data": 2
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "function": 1,
+          "arweave": 1,
+          "actions": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 23,
+        "packages": {
+          "myonn": 4,
+          "mnist": 4,
+          "Enumerable": 2,
+          "mnist/parser": 2,
+          "numo/narray": 2,
+          "ruby2d": 2,
+          "open3": 1,
+          "kdl/value": 1,
+          "kdl/types": 1,
+          "kdl/parser_common": 1,
+          "kdl/tokenizer": 1,
+          "kdl/string_dumper": 1,
+          "kdl/kdl.tab": 1,
+          "kdl/node": 1,
+          "kdl/error": 1,
+          "kdl/v1": 1,
+          "kdl/version": 1,
+          "kdl/document": 1,
+          "inspect": 1,
+          "bigdecimal": 1,
+          "kdl/types/uuid": 1,
+          "kdl/types/ip": 1,
+          "kdl/types/decimal": 1,
+          "kdl/types/duration": 1,
+          "kdl/types/hostname": 1,
+          "kdl/types/email": 1,
+          "kdl/types/url": 1,
+          "kdl/types/base64": 1,
+          "kdl/types/currency": 1,
+          "kdl/types/irl": 1,
+          "kdl/types/date_time": 1,
+          "kdl/types/url_template": 1,
+          "kdl/types/regex": 1,
+          "kdl/types/country": 1,
+          "base64": 1,
+          "kdl/types/country/iso3166_countries": 1,
+          "kdl/types/country/iso3166_subdivisions": 1,
+          "kdl/types/currency/iso4217_currencies": 1,
+          "time": 1,
+          "kdl/types/duration/iso8601_parser": 1,
+          "strscan": 1,
+          "simpleidn": 1,
+          "unicode": 1,
+          "ascii": 1,
+          "uri": 1,
+          "kdl/v1/tokenizer": 1,
+          "kdl/v1/value": 1,
+          "kdl/v1/document": 1,
+          "kdl/v1/kdl.tab": 1,
+          "kdl/v1/string_dumper": 1,
+          "kdl/v1/node": 1,
+          "mnist/model": 1,
+          "numo/linalg/linalg": 1,
+          "yaml": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 133,
+        "packages": {
+          "std": 53,
+          "crate": 51,
+          "alloc": 42,
+          "super": 27,
+          "core": 22,
+          "async_flow": 14,
+          "derive_more": 12,
+          "Type": 12,
+          "flows_derive": 12,
+          "thiserror": 10,
+          "arrow_array": 8,
+          "pyo3": 7,
+          "clientele": 6,
+          "Opcode": 4,
+          "datafusion_common": 4,
+          "arrow_schema": 4,
+          "syn": 4,
+          "cap_std": 3,
+          "hf_hub": 3,
+          "dogma": 3,
+          "ethnum": 3,
+          "arrow_arith": 3,
+          "quote": 3,
+          "proc_macro2": 3,
+          "pci_info": 3,
+          "asimov_credit": 2,
+          "flume": 2,
+          "Bound": 2,
+          "zerocopy": 2,
+          "s3": 2,
+          "subcommands_shared": 2,
+          "codify": 2,
+          "syn_match": 2,
+          "tokio": 2,
+          "serde_json": 2,
+          "rust_decimal": 1,
+          "cap_directories": 1,
+          "asimov_huggingface": 1,
+          "indicatif": 1,
+          "libflate": 1,
+          "lz4_flex": 1,
+          "zeroize": 1,
+          "zerocopy_derive": 1,
+          "cap_tempfile": 1,
+          "redis": 1,
+          "clap": 1,
+          "camino": 1,
+          "temp_dir": 1,
+          "Language": 1,
+          "TypeParseError": 1,
+          "itertools": 1,
+          "DecodeError": 1,
+          "darling": 1,
+          "proc_macro": 1,
+          "ParamType": 1,
+          "syn_path": 1,
+          "rustls_platform_verifier": 1,
+          "rustls": 1,
+          "hyper_util": 1,
+          "hyper": 1,
+          "nusb": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "artob/asimov.rs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "artob/async-flow",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "artob/blobary",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "artob/borsh",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "artob/clientele.rs",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "artob/codify.rs",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Ruby",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "artob/evm.rs",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "artob/flows.rs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "artob/flutter_near",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Dart"
+        ]
+      },
+      {
+        "repository": "artob/gitstamp-action",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "artob/kdl-rb",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "artob/libegpu",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "artob/myonn.rb",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

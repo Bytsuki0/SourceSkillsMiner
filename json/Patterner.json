@@ -1,0 +1,92 @@
+{
+  "username": "Patterner",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.08333333333333334,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Patterner",
+    "analysis_date": "2026-02-19T21:07:47.859262",
+    "total_repos_analyzed": 1,
+    "total_files_analyzed": 6,
+    "languages": {
+      "Lua": {
+        "files_scanned": 3,
+        "packages": {
+          "mason-tool-installer": 1,
+          "mason-lspconfig": 1,
+          "lazy": 1,
+          "mini.ai": 1,
+          "🌙": 1,
+          "telescope.themes": 1,
+          "lspconfig": 1,
+          "mason": 1,
+          "nvim-treesitter.configs": 1,
+          "telescope": 1,
+          "which-key": 1,
+          "mini.surround": 1,
+          "mason-nvim-dap": 1,
+          "dap-go": 1,
+          "lint": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Patterner/kickstart.nvim",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Lua"
+        ]
+      }
+    ]
+  }
+}

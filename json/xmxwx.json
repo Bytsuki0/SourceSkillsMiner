@@ -1,0 +1,288 @@
+{
+  "username": "xmxwx",
+  "areas": {
+    "OSS": {
+      "score": 0.15116402434329057,
+      "details": {
+        "issue_resolution_rate": 0.8888888888888888,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.337857147626047
+      }
+    },
+    "Status": {
+      "score": -0.06963369645443018,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.337857147626047,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "xmxwx/opentx": 0.21342
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.2703825819722151,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        413,
+        3
+      ],
+      "C": [
+        174,
+        1
+      ],
+      "C#": [
+        16,
+        0
+      ],
+      "Python": [
+        6,
+        0
+      ],
+      "Makefile": [
+        4,
+        0
+      ],
+      "CMake": [
+        3,
+        0
+      ],
+      "Lua": [
+        2,
+        0
+      ],
+      "Prolog": [
+        0,
+        0
+      ],
+      "NSIS": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 4,
+    "total_lines": 618,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 413,
+        "commits": 3
+      },
+      {
+        "language": "C",
+        "lines": 174,
+        "commits": 1
+      },
+      {
+        "language": "C#",
+        "lines": 16,
+        "commits": 0
+      },
+      {
+        "language": "Python",
+        "lines": 6,
+        "commits": 0
+      },
+      {
+        "language": "Makefile",
+        "lines": 4,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "xmxwx",
+    "analysis_date": "2026-02-20T00:59:58.265133",
+    "total_repos_analyzed": 1,
+    "total_files_analyzed": 24,
+    "languages": {
+      "C++": {
+        "files_scanned": 12,
+        "packages": {
+          "helpers.h": 8,
+          "appdata.h": 7,
+          "eeprominterface.h": 5,
+          "QtGui": 4,
+          "<QtGui>": 4,
+          "firmwareinterface.h": 3,
+          "<unistd.h>": 3,
+          "unistd.h": 3,
+          "mainwindow.h": 2,
+          "<iostream>": 2,
+          "iostream": 2,
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "<algorithm>": 2,
+          "algorithm": 2,
+          "file.h": 2,
+          "er9xeeprom.h": 2,
+          "joystick.h": 1,
+          "ui_apppreferencesdialog.h": 1,
+          "<QDesktopServices>": 1,
+          "QDesktopServices": 1,
+          "apppreferencesdialog.h": 1,
+          "joystickdialog.h": 1,
+          "progressdialog.h": 1,
+          "process_flash.h": 1,
+          "burnconfigdialog.h": 1,
+          "ui_burnconfigdialog.h": 1,
+          "QLocale": 1,
+          "<SDL.h>": 1,
+          "<QSplashScreen>": 1,
+          "QTranslator": 1,
+          "<QString>": 1,
+          "<QLocale>": 1,
+          "<QProxyStyle>": 1,
+          "<QThread>": 1,
+          "QThread": 1,
+          "QDir": 1,
+          "<QApplication>": 1,
+          "<QTranslator>": 1,
+          "QProxyStyle": 1,
+          "QSplashScreen": 1,
+          "SDL.h": 1,
+          "QApplication": 1,
+          "<QFileInfo>": 1,
+          "<windows.h>": 1,
+          "QFileInfo": 1,
+          "QString": 1,
+          "<QDir>": 1,
+          "windows.h": 1,
+          "comparedialog.h": 1,
+          "helpers_html.h": 1,
+          "<QPainter>": 1,
+          "ui_comparedialog.h": 1,
+          "QPainter": 1,
+          "<QColor>": 1,
+          "<QImage>": 1,
+          "QImage": 1,
+          "QColor": 1,
+          "ui_contributorsdialog.h": 1,
+          "contributorsdialog.h": 1,
+          "customizesplashdialog.h": 1,
+          "splashlibrary.h": 1,
+          "flashfirmwaredialog.h": 1,
+          "ui_customizesplashdialog.h": 1,
+          "downloaddialog.h": 1,
+          "QTime": 1,
+          "<QMessageBox>": 1,
+          "ui_downloaddialog.h": 1,
+          "<QTime>": 1,
+          "QMessageBox": 1,
+          "firmwares/ersky9x/ersky9xinterface.h": 1,
+          "firmwares/opentx/opentxinterface.h": 1,
+          "wizarddata.h": 1,
+          "firmwares/er9x/er9xinterface.h": 1,
+          "<list>": 1,
+          "firmwares/gruvin9x/gruvin9xinterface.h": 1,
+          "firmwares/th9x/th9xinterface.h": 1,
+          "<float.h>": 1,
+          "list": 1,
+          "firmwares/opentx/opentxeeprom.h": 1,
+          "float.h": 1,
+          "<string.h>": 1,
+          "inttypes.h": 1,
+          "assert.h": 1,
+          "<assert.h>": 1,
+          "string.h": 1,
+          "<inttypes.h>": 1,
+          "QObject": 1,
+          "<QObject>": 1,
+          "simulator/er9xsimulator.h": 1,
+          "er9xinterface.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 11,
+        "packages": {
+          "eeprominterface.h": 6,
+          "QDialog": 6,
+          "<QDialog>": 6,
+          "QtGui": 3,
+          "<QtGui>": 3,
+          "QString": 2,
+          "<QStringList>": 2,
+          "<QString>": 2,
+          "QStringList": 2,
+          "QtXml": 2,
+          "<QtXml>": 2,
+          "<QSettings>": 1,
+          "QByteArray": 1,
+          "<QByteArray>": 1,
+          "QSettings": 1,
+          "<QCheckBox>": 1,
+          "QCheckBox": 1,
+          "<QDir>": 1,
+          "QDir": 1,
+          "downloaddialog.h": 1,
+          "firmwareinterface.h": 1,
+          "QNetworkRequest": 1,
+          "QFile": 1,
+          "<QFile>": 1,
+          "QNetworkReply": 1,
+          "<QNetworkReply>": 1,
+          "<QNetworkAccessManager>": 1,
+          "<QNetworkRequest>": 1,
+          "QNetworkAccessManager": 1,
+          "iostream": 1,
+          "<string.h>": 1,
+          "simulatorinterface.h": 1,
+          "QList": 1,
+          "constants.h": 1,
+          "<QList>": 1,
+          "<iostream>": 1,
+          "string.h": 1,
+          "<inttypes.h>": 1,
+          "inttypes.h": 1,
+          "er9xeeprom.h": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "xmxwx/opentx",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

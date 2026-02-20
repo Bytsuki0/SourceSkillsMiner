@@ -1,0 +1,349 @@
+{
+  "username": "mratliff",
+  "areas": {
+    "OSS": {
+      "score": 0.6443034567713819,
+      "details": {
+        "issue_resolution_rate": 0.7142857142857143,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7521694708713587
+      }
+    },
+    "Status": {
+      "score": 0.1937540062219314,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7521694708713587,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.2595143657483283,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        17296,
+        3
+      ],
+      "R": [
+        203,
+        6
+      ],
+      "Swift": [
+        9395,
+        3
+      ],
+      "Ruby": [
+        61,
+        0
+      ],
+      "HTML": [
+        2362,
+        3
+      ],
+      "Elixir": [
+        19781,
+        23
+      ],
+      "CSS": [
+        177,
+        0
+      ],
+      "JavaScript": [
+        153,
+        0
+      ],
+      "Dockerfile": [
+        120,
+        0
+      ],
+      "Shell": [
+        7,
+        0
+      ],
+      "Batchfile": [
+        3,
+        0
+      ],
+      "Objective-C": [
+        0,
+        0
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 38,
+    "total_lines": 49558,
+    "top_5_languages": [
+      {
+        "language": "Elixir",
+        "lines": 19781,
+        "commits": 23
+      },
+      {
+        "language": "R",
+        "lines": 203,
+        "commits": 6
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 17296,
+        "commits": 3
+      },
+      {
+        "language": "Swift",
+        "lines": 9395,
+        "commits": 3
+      },
+      {
+        "language": "HTML",
+        "lines": 2362,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mratliff",
+    "analysis_date": "2026-02-19T23:38:06.118353",
+    "total_repos_analyzed": 16,
+    "total_files_analyzed": 185,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 5,
+        "packages": {
+          "<UIKit/UIKit.h>": 5
+        }
+      },
+      "Elixir": {
+        "files_scanned": 75,
+        "packages": {
+          "Ecto.Schema": 11,
+          "Ecto.Changeset": 10,
+          "Ash.Query": 8,
+          "Ash.Tracer": 8,
+          "ExUnit.Case": 8,
+          "Config": 7,
+          "Logger": 7,
+          "ExMatrix": 6,
+          "Ecto.Query": 6,
+          "Ash.Domain": 5,
+          "Ash.Resource": 5,
+          "Ash.Expr": 5,
+          "Pour.Repo": 5,
+          "Pour.Accounts.User": 5,
+          "Ash.Actions.Helpers": 4,
+          "Pour.Catalog.Wine": 4,
+          "Spark.Options.Validator": 3,
+          "Ash.Flags": 3,
+          "Mix.Project": 3,
+          "Swoosh.Email": 3,
+          "Pour.Mailer": 3,
+          "Scrivener.HTML": 3,
+          "Scrivener.Page": 3,
+          "#{Mix.env}.exs": 2,
+          "Mix.Config": 2,
+          "Pour.Events.": 2,
+          "Pour.Events.Tasting": 2,
+          "Phoenix.HTML": 2,
+          "Scrivener.HTML.SEO": 2,
+          "Ash.Helpers": 1,
+          "this": 1,
+          "Ash.Error.Action.InvalidArgument": 1,
+          "Ash.Error.Query.NotFound": 1,
+          "Ash.Error.Changes.InvalidRelationship": 1,
+          "Agent": 1,
+          "Ash.Filter": 1,
+          "Ash.Error.Invalid.": 1,
+          "Spark.Dsl.Extension": 1,
+          "AshPhoenix.FilterForm.Predicate": 1,
+          "MyApp.Payroll.Employee": 1,
+          "AshPhoenix.Form.InvalidPath": 1,
+          "`for_path`": 1,
+          "AshPhoenix.FormData.Helpers": 1,
+          "a": 1,
+          "comments": 1,
+          "Spark.InfoGenerator": 1,
+          "Phoenix.Component": 1,
+          "Phoenix.LiveView": 1,
+          "Plug.Conn": 1,
+          "Benchfella": 1,
+          "#{config_env()}.exs": 1,
+          "environment": 1,
+          "HEEx": 1,
+          "Pour.Accounts.": 1,
+          "login": 1,
+          "Pour.Accounts.UserToken": 1,
+          "session": 1,
+          "Application": 1,
+          "Pour.Blog.": 1,
+          "Pour.Blog.Tag": 1,
+          "Pour.Blog.BlogPost": 1,
+          "Pour.Catalog.WineVarietals": 1,
+          "Pour.Vintages.Vintage": 1,
+          "Pour.WineRegions.Country": 1,
+          "Pour.WineRegions.Region": 1,
+          "Pour.WineRegions.Subregion": 1,
+          "Pour.Varietals.Varietal": 1,
+          "Swoosh.Mailer": 1,
+          "Pour.ShoppingCart.CartItem": 1,
+          "Pour.Orders.": 1,
+          "Pour.ShoppingCart": 1,
+          "Pour.Orders.Notifier": 1,
+          "Pour.Orders.OrderItem": 1,
+          "Pour.Orders.Order": 1,
+          "to": 1,
+          "MyApp.Web": 1,
+          "in": 1,
+          "Scrivener.Support.HTML": 1,
+          "Phoenix.ConnTest": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "function": 1,
+          "phoenix_live_view": 1,
+          "phoenix": 1,
+          "some-package": 1,
+          "phoenix_html": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 5,
+        "packages": {
+          "<Foundation/Foundation.h>": 5,
+          "Foundation/Foundation.h": 5
+        }
+      },
+      "R": {
+        "files_scanned": 2,
+        "packages": {
+          "shiny": 2,
+          "caret": 1,
+          "pls": 1,
+          "datasets": 1,
+          "e1071": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 42,
+        "packages": {
+          "UIKit": 15,
+          "Foundation": 15,
+          "AVFoundation": 7,
+          "Quick": 6,
+          "Nimble": 6,
+          "class": 5,
+          "func": 4,
+          "Starscream": 4,
+          "SwiftPhoenixClient": 2,
+          "zlib": 2,
+          "Security": 2,
+          "certs": 2,
+          "CoreFoundation": 2,
+          "CommonCrypto": 2,
+          "Swift": 2,
+          "override": 1,
+          "PackageDescription": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mratliff/ash",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "mratliff/ash_phoenix",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "mratliff/exmatrix",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Elixir",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mratliff/greenlight_scanner",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mratliff/iris",
+        "files_analyzed": 2,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "mratliff/pour",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mratliff/scrivener_html",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "mratliff/SwiftPhoenixClient",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mratliff/topology_postgis",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Elixir"
+        ]
+      }
+    ]
+  }
+}

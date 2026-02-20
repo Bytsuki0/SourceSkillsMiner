@@ -1,0 +1,242 @@
+{
+  "username": "taos-thiagoaos",
+  "areas": {
+    "OSS": {
+      "score": -0.017584500314550167,
+      "details": {
+        "issue_resolution_rate": 0.8666666666666667,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.606956582861508
+      }
+    },
+    "Status": {
+      "score": 0.09694541421536429,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.606956582861508,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.01984022847520353,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        19107,
+        10
+      ],
+      "Java": [
+        18853,
+        11
+      ],
+      "HTML": [
+        1888,
+        1
+      ],
+      "CSS": [
+        901,
+        0
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 22,
+    "total_lines": 40749,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 18853,
+        "commits": 11
+      },
+      {
+        "language": "JavaScript",
+        "lines": 19107,
+        "commits": 10
+      },
+      {
+        "language": "HTML",
+        "lines": 1888,
+        "commits": 1
+      },
+      {
+        "language": "CSS",
+        "lines": 901,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "taos-thiagoaos",
+    "analysis_date": "2026-02-19T23:42:29.539515",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 122,
+    "languages": {
+      "Java": {
+        "files_scanned": 36,
+        "packages": {
+          "br.com": 34,
+          "java.util": 18,
+          "org.springframework": 18,
+          "javax.validation": 6,
+          "com.fasterxml": 4,
+          "io.swagger": 3,
+          "org.junit": 3,
+          "static": 3,
+          "java.nio": 2,
+          "java.io": 2,
+          "java.net": 2,
+          "javax.persistence": 2,
+          "lombok.AllArgsConstructor": 2,
+          "lombok.Data": 2,
+          "lombok.NoArgsConstructor": 2,
+          "org.hibernate": 2,
+          "springfox.documentation": 1,
+          "com.google": 1,
+          "lombok.Setter": 1,
+          "javax.xml": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 20,
+        "packages": {
+          "fs": 5,
+          "react": 5,
+          "path": 4,
+          "express": 4,
+          "uuid": 3,
+          "actual-app": 3,
+          "sequelize": 3,
+          "styles": 3,
+          "material-ui": 3,
+          "react-router-dom": 3,
+          "node-fetch": 2,
+          "components": 2,
+          "bcrypt": 1,
+          "plaid": 1,
+          "adm-zip": 1,
+          "buffer": 1,
+          "cors": 1,
+          "body-parser": 1,
+          "better-sqlite3": 1,
+          "url": 1,
+          "minimist": 1,
+          "dotenv": 1,
+          "AppRouter": 1,
+          "history": 1,
+          "react-dom": 1,
+          "json-server": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 5,
+        "packages": {
+          "simple_form/action_view_extensions/builder": 1,
+          "simple_form/action_view_extensions/form_helper": 1,
+          "active_support/core_ext/hash/except": 1,
+          "action_view": 1,
+          "active_support/core_ext/hash/reverse_merge": 1,
+          "active_support/core_ext/hash/slice": 1,
+          ":original_collection_select": 1,
+          "SimpleForm::ActionViewExtensions::Builder": 1,
+          "SimpleForm::Components::Labels": 1,
+          ":attribute": 1,
+          "SimpleForm::Inputs": 1,
+          "simple_form/core_ext/hash": 1,
+          "SimpleForm::Helpers::Autofocus": 1,
+          "SimpleForm::Helpers::Readonly": 1,
+          "SimpleForm::Helpers::Disabled": 1,
+          "SimpleForm::Components::Maxlength": 1,
+          "SimpleForm::Components::LabelInput": 1,
+          "SimpleForm::Components::MinMax": 1,
+          "SimpleForm::Components::Pattern": 1,
+          "SimpleForm::Components::Readonly": 1,
+          "SimpleForm::Components::Errors": 1,
+          "SimpleForm::Components::HTML5": 1,
+          "SimpleForm::Helpers::Required": 1,
+          "SimpleForm::Components::Hints": 1,
+          "SimpleForm::Components::Placeholders": 1,
+          "SimpleForm::Helpers::Validators": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 30,
+        "packages": {
+          "angular": 30,
+          "ng2-semantic-ui": 12,
+          "element-closest": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "taos-thiagoaos/actual-server",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "taos-thiagoaos/itau-test",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "taos-thiagoaos/ng2-semantic-ui",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "taos-thiagoaos/simple_form",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "taos-thiagoaos/swapi-json-server",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "taos-thiagoaos/test-java",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

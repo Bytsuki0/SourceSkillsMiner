@@ -1,0 +1,703 @@
+{
+  "username": "tanob",
+  "areas": {
+    "OSS": {
+      "score": 0.7652777777777777,
+      "details": {
+        "issue_resolution_rate": 0.78125,
+        "pr_merge_rate": 0.8666666666666667,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.8571428571428571,
+      "details": {
+        "tanob/GrooBe": 0.011299999999999977,
+        "tanob/javaparser": 0.4926,
+        "tanob/libofa": 0.36096666666666666,
+        "tanob/mcp-desktop-automation": -0.15235,
+        "tanob/ofa-ruby": 0.1205,
+        "tanob/oh-my-fish": 0.30093333333333333,
+        "tanob/tanob.github.com": 0.4926
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6581692612942613,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        103620,
+        77
+      ],
+      "Shell": [
+        32619,
+        13
+      ],
+      "Ruby": [
+        9959,
+        79
+      ],
+      "JavaScript": [
+        4492,
+        30
+      ],
+      "CoffeeScript": [
+        0,
+        0
+      ],
+      "Vim Script": [
+        23,
+        2
+      ],
+      "C": [
+        19645,
+        17
+      ],
+      "Makefile": [
+        13979,
+        1
+      ],
+      "Swift": [
+        8588,
+        20
+      ],
+      "Groovy": [
+        2752,
+        43
+      ],
+      "Haskell": [
+        7649,
+        4
+      ],
+      "Perl": [
+        1,
+        0
+      ],
+      "Scala": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        70,
+        4
+      ],
+      "MATLAB": [
+        0,
+        0
+      ],
+      "C++": [
+        17006,
+        1
+      ],
+      "Dockerfile": [
+        635,
+        3
+      ],
+      "Assembly": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        0
+      ],
+      "CSS": [
+        4498,
+        51
+      ],
+      "HTML": [
+        562,
+        6
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 351,
+    "total_lines": 226098,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 9959,
+        "commits": 79
+      },
+      {
+        "language": "Java",
+        "lines": 103620,
+        "commits": 77
+      },
+      {
+        "language": "CSS",
+        "lines": 4498,
+        "commits": 51
+      },
+      {
+        "language": "Groovy",
+        "lines": 2752,
+        "commits": 43
+      },
+      {
+        "language": "JavaScript",
+        "lines": 4492,
+        "commits": 30
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "tanob",
+    "analysis_date": "2026-02-19T22:18:04.215218",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 315,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "stdio.h": 2,
+          "string.h": 2,
+          "stdlib.h": 2,
+          "<stdlib.h>": 2,
+          "<string.h>": 2,
+          "<stdio.h>": 2,
+          "unistd.h": 1,
+          "dirutils.h": 1,
+          "<unistd.h>": 1,
+          "dirconsts.h": 1,
+          "stdbool.h": 1,
+          "<sys/types.h>": 1,
+          "dirent.h": 1,
+          "<stdbool.h>": 1,
+          "<sys/stat.h>": 1,
+          "<dirent.h>": 1,
+          "sys/stat.h": 1,
+          "sys/types.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 10,
+        "packages": {
+          "<CarrierHeatpumpIR.h>": 1,
+          "CarrierHeatpumpIR.h": 1,
+          "FujitsuHeatpumpIR.h": 1,
+          "<FujitsuHeatpumpIR.h>": 1,
+          "HeatpumpIR.h": 1,
+          "<HeatpumpIR.h>": 1,
+          "<HisenseHeatpumpIR.h>": 1,
+          "HisenseHeatpumpIR.h": 1,
+          "IRSender.h": 1,
+          "Arduino.h": 1,
+          "<IRSender.h>": 1,
+          "<Arduino.h>": 1,
+          "<MideaHeatpumpIR.h>": 1,
+          "MideaHeatpumpIR.h": 1,
+          "MitsubishiHeatpumpIR.h": 1,
+          "<MitsubishiHeatpumpIR.h>": 1,
+          "PanasonicCKPHeatpumpIR.h": 1,
+          "<PanasonicCKPHeatpumpIR.h>": 1,
+          "<PanasonicHeatpumpIR.h>": 1,
+          "PanasonicHeatpumpIR.h": 1,
+          "SamsungHeatpumpIR.h": 1,
+          "<SamsungHeatpumpIR.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 40,
+        "packages": {
+          "<Foundation/Foundation.h>": 20,
+          "<netinet/in.h>": 10,
+          "<ifaddrs.h>": 10,
+          "<netinet6/in6.h>": 10,
+          "<SystemConfiguration/SystemConfiguration.h>": 10,
+          "<sys/socket.h>": 10,
+          "<netdb.h>": 10,
+          "<arpa/inet.h>": 10,
+          "HeatpumpIR.h": 8,
+          "<HeatpumpIR.h>": 8,
+          "<UIKit/UIKit.h>": 5,
+          "stdint.h": 3,
+          "<Foundation/NSData.h>": 3,
+          "<TargetConditionals.h>": 3,
+          "<Foundation/NSError.h>": 3,
+          "<Foundation/NSString.h>": 3,
+          "TargetConditionals.h": 3,
+          "<stdint.h>": 3,
+          "<Foundation/NSObjCRuntime.h>": 3,
+          "AvailabilityMacros.h": 3,
+          "limits.h": 3,
+          "<limits.h>": 3,
+          "<stddef.h>": 3,
+          "stddef.h": 3,
+          "<AvailabilityMacros.h>": 3,
+          "<Foundation/NSDictionary.h>": 3,
+          "<Foundation/NSArray.h>": 3,
+          "Arduino.h": 2,
+          "<Arduino.h>": 2,
+          "BPExitStatus.h": 2,
+          "IRSender.h": 1,
+          "<IRSender.h>": 1,
+          "BPConfiguration.h": 1,
+          "<Availability.h>": 1,
+          "<Cocoa/Cocoa.h>": 1,
+          "AFHTTPClient.h": 1,
+          "<Security/SecCertificate.h>": 1,
+          "dirconsts.h": 1,
+          "stdbool.h": 1,
+          "<sys/types.h>": 1,
+          "dirent.h": 1,
+          "<stdbool.h>": 1,
+          "<sys/stat.h>": 1,
+          "<dirent.h>": 1,
+          "sys/stat.h": 1,
+          "sys/types.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "path/filepath": 1,
+          "strings": 1,
+          "log": 1,
+          "io": 1,
+          "fmt": 1,
+          "os": 1,
+          "flag": 1,
+          "os/exec": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 84,
+        "packages": {
+          "java.util": 35,
+          "com.djtemplate4j": 30,
+          "io.appium": 28,
+          "static": 20,
+          "org.json": 11,
+          "com.android": 10,
+          "java.io": 10,
+          "java.lang": 10,
+          "lambda.weaving": 10,
+          "lambda": 8,
+          "org.objectweb": 7,
+          "org.junit": 5,
+          "com.example": 4,
+          "lambda.enumerable": 4,
+          "android.app": 2,
+          "android.os": 2,
+          "lambda.Fn1": 2,
+          "android.widget": 1,
+          "android.view": 1,
+          "android.test": 1,
+          "android.util": 1,
+          "android.graphics": 1,
+          "java.net": 1,
+          "lambda.Fn2": 1,
+          "java.security": 1,
+          "lambda.LambdaParameter": 1,
+          "lambda.NewLambda": 1,
+          "java.awt": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 5,
+        "packages": {
+          "path": 2,
+          "ncp": 1,
+          "rimraf": 1,
+          "net": 1,
+          "child_process": 1,
+          "async": 1,
+          "fs": 1,
+          "adm-zip": 1,
+          "mkdirp": 1,
+          "underscore": 1,
+          "win-spawn": 1,
+          "undefined": 1,
+          "test": 1,
+          "assert": 1,
+          "=": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 37,
+        "packages": {
+          "XCTest/XCTest.h": 14,
+          "<XCTest/XCTest.h>": 14,
+          "BPUtils.h": 9,
+          "BPConfiguration.h": 6,
+          "BPTestHelper.h": 6,
+          "Foundation/Foundation.h": 5,
+          "<Foundation/Foundation.h>": 5,
+          "User.h": 4,
+          "Post.h": 4,
+          "AppDelegate.h": 3,
+          "BPTreeParser.h": 3,
+          "BPStats.h": 3,
+          "BPWriter.h": 3,
+          "Reachability.h": 3,
+          "UIKit/UIKit.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "BPReporters.h": 2,
+          "stdio.h": 2,
+          "Bluepill.h": 2,
+          "<stdio.h>": 2,
+          "BPWaitTimer.h": 2,
+          "BPExecutionContext.h": 2,
+          "<objc/runtime.h>": 2,
+          "objc/runtime.h": 2,
+          "GlobalTimelineViewController.h": 2,
+          "AFAppDotNetAPIClient.h": 2,
+          "PostTableViewCell.h": 2,
+          "ViewController.h": 1,
+          "BPConfiguration+Test.h": 1,
+          "SimulatorMonitor.h": 1,
+          "BPExitStatus.h": 1,
+          "BPTreeAssembler.h": 1,
+          "BPXCTestFile.h": 1,
+          "SimDeviceType.h": 1,
+          "BPConstants.h": 1,
+          "SimulatorHelper.h": 1,
+          "BPTestBundleConnection.h": 1,
+          "<libproc.h>": 1,
+          "BPSimulator.h": 1,
+          "BPHandler.h": 1,
+          "BPTestDaemonConnection.h": 1,
+          "libproc.h": 1,
+          "AFNetworking/AFNetworkActivityIndicatorManager.h": 1,
+          "<AFNetworking/AFNetworkActivityIndicatorManager.h>": 1,
+          "AFNetworkActivityIndicatorManager.h": 1,
+          "AFJSONRequestOperation.h": 1,
+          "AFImageRequestOperation.h": 1,
+          "UIImageView+AFNetworking.h": 1,
+          "<Cocoa/Cocoa.h>": 1,
+          "Cocoa/Cocoa.h": 1,
+          "<CoreFoundation/CFNumber.h>": 1,
+          "Foundation/NSObjCRuntime.h": 1,
+          "<Foundation/NSData.h>": 1,
+          "stdlib.h": 1,
+          "<math.h>": 1,
+          "<Foundation/NSException.h>": 1,
+          "limits.h": 1,
+          "Foundation/NSAutoreleasePool.h": 1,
+          "assert.h": 1,
+          "<CoreFoundation/CFArray.h>": 1,
+          "Foundation/NSArray.h": 1,
+          "<Foundation/NSAutoreleasePool.h>": 1,
+          "<CoreFoundation/CFString.h>": 1,
+          "Foundation/NSNull.h": 1,
+          "sys/errno.h": 1,
+          "string.h": 1,
+          "Foundation/NSException.h": 1,
+          "<assert.h>": 1,
+          "stdint.h": 1,
+          "JSONKit.h": 1,
+          "CoreFoundation/CFArray.h": 1,
+          "Foundation/NSDictionary.h": 1,
+          "<Foundation/NSObjCRuntime.h>": 1,
+          "Foundation/NSData.h": 1,
+          "CoreFoundation/CFString.h": 1,
+          "<Foundation/NSDictionary.h>": 1,
+          "<Foundation/NSNull.h>": 1,
+          "<stdlib.h>": 1,
+          "CoreFoundation/CFDictionary.h": 1,
+          "<string.h>": 1,
+          "<sys/errno.h>": 1,
+          "<stdint.h>": 1,
+          "<limits.h>": 1,
+          "math.h": 1,
+          "<CoreFoundation/CFDictionary.h>": 1,
+          "CoreFoundation/CFNumber.h": 1,
+          "<Foundation/NSArray.h>": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 60,
+        "packages": {
+          "spec_helper": 27,
+          "capistrano/errors": 4,
+          "fileutils": 3,
+          "thor": 2,
+          "pathname": 2,
+          "capistrano/configuration": 2,
+          "active_support/core_ext/string/strip": 2,
+          "xcodeproj": 2,
+          "rubygems": 2,
+          "aruba/cucumber": 1,
+          "sass": 1,
+          "bourbon/generator": 1,
+          "bourbon/engine": 1,
+          "bourbon/version": 1,
+          "bunch/version": 1,
+          "bunch/definition": 1,
+          "bunch/dsl": 1,
+          "bunch/repo": 1,
+          "bunch/git": 1,
+          "bunch/cli": 1,
+          "bunch": 1,
+          "capistrano/ext/string": 1,
+          "capistrano/fix_rake_deprecated_dsl": 1,
+          "capistrano/extensions": 1,
+          "Execute": 1,
+          "capistrano": 1,
+          "capistrano/cli/options": 1,
+          "Help": 1,
+          "capistrano/cli/help": 1,
+          "capistrano/cli/ui": 1,
+          "capistrano/cli/execute": 1,
+          "capistrano/version": 1,
+          "optparse": 1,
+          "highline": 1,
+          "benchmark": 1,
+          "capistrano/processable": 1,
+          "Processable": 1,
+          "Enumerable": 1,
+          "defer": 1,
+          "capistrano/configuration/actions/file_transfer": 1,
+          "capistrano/configuration/actions/inspect": 1,
+          "Actions::FileTransfer": 1,
+          "capistrano/configuration/roles": 1,
+          "capistrano/configuration/namespaces": 1,
+          "capistrano/configuration/actions/invocation": 1,
+          "capistrano/configuration/connections": 1,
+          "Callbacks": 1,
+          "capistrano/configuration/callbacks": 1,
+          "capistrano/configuration/execution": 1,
+          "capistrano/configuration/loading": 1,
+          "capistrano/configuration/log_formatters": 1,
+          "capistrano/configuration/servers": 1,
+          "capistrano/configuration/alias_task": 1,
+          "capistrano/configuration/variables": 1,
+          "capistrano/logger": 1,
+          "AliasTask": 1,
+          "capistrano/transfer": 1,
+          "capistrano/command": 1,
+          "capistrano/callback": 1,
+          "capistrano/ssh": 1,
+          "net/ssh/gateway": 1,
+          "enumerator": 1,
+          "Capistrano::Configuration::Namespaces": 1,
+          "capistrano/task_definition": 1,
+          "Capistrano::Configuration::AliasTask": 1,
+          "capistrano/server_definition": 1,
+          "capistrano/role": 1,
+          ":[]=": 1,
+          "thread": 1,
+          "cocoapods-core": 1,
+          "i18n": 1,
+          "cocoapods/gem_version": 1,
+          "active_support/core_ext/string/inflections": 1,
+          "active_support/core_ext/array/conversions": 1,
+          "cocoapods/user_interface": 1,
+          "cocoapods/config": 1,
+          "cocoapods/downloader": 1,
+          "colored": 1,
+          "cocoapods/command/outdated": 1,
+          "molinillo/errors": 1,
+          "cocoapods/command/project": 1,
+          "cocoapods/command/lib": 1,
+          "cocoapods/command/spec": 1,
+          "cocoapods/command/repo": 1,
+          "cocoapods/command/list": 1,
+          "cocoapods/command/search": 1,
+          "claide": 1,
+          "Config::Mixin": 1,
+          "cocoapods/command/inter_process_communication": 1,
+          "cocoapods/command/setup": 1,
+          "CLAide::InformativeError": 1,
+          "cocoapods/command/init": 1,
+          "json": 1,
+          "Project": 1,
+          "cocoapods/command/repo/lint": 1,
+          "cocoapods/command/repo/list": 1,
+          "cocoapods/command/repo/update": 1,
+          "cocoapods/command/repo/push": 1,
+          "cocoapods/command/repo/add": 1,
+          "cocoapods/command/repo/remove": 1,
+          "earworm/client": 1,
+          "rexml/document": 1,
+          "earworm/fingerprint": 1,
+          "net/http": 1,
+          "tempfile": 1,
+          "ofa": 1,
+          "icanhasaudio": 1,
+          "rexml/parsers/pullparser": 1,
+          "earworm/track": 1,
+          "earworm/puid": 1,
+          "id3lib": 1,
+          ":artist": 1,
+          "earworm": 1,
+          "test/unit": 1,
+          "yaml": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 8,
+        "packages": {
+          "UIKit": 6,
+          "Alamofire": 3,
+          "Foundation": 2,
+          "XCTest": 1,
+          "Pusher": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "tanob/android-ant-ivy",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "tanob/android-maven-example",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "tanob/appium",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "tanob/arduino-heatpumpir",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "tanob/bluepill",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "tanob/bourbon",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tanob/bunch",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tanob/capistrano",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tanob/chrono.js",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "tanob/CocoaPods",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Ruby",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "tanob/cocoapods-integration-specs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "tanob/coffee-script",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "tanob/cvshelpers",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "tanob/djtemplate4j",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "tanob/documentation",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "tanob/earworm",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tanob/enumerable",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

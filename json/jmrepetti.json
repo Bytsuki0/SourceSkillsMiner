@@ -1,0 +1,793 @@
+{
+  "username": "jmrepetti",
+  "areas": {
+    "OSS": {
+      "score": 0.33077786297866774,
+      "details": {
+        "issue_resolution_rate": 0.7142857142857143,
+        "pr_merge_rate": 0.3333333333333333,
+        "commits_activity": 0.9485477468489539
+      }
+    },
+    "Status": {
+      "score": 0.3418168801982875,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9358022433743544,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.2681486857942388,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        245446,
+        6
+      ],
+      "Ruby": [
+        190520,
+        31
+      ],
+      "HTML": [
+        53305,
+        36
+      ],
+      "CSS": [
+        32165,
+        10
+      ],
+      "C": [
+        18,
+        0
+      ],
+      "Cuda": [
+        2,
+        0
+      ],
+      "Python": [
+        78,
+        3
+      ],
+      "C++": [
+        42,
+        1
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Shell": [
+        242,
+        0
+      ],
+      "Vala": [
+        377,
+        6
+      ],
+      "Meson": [
+        397,
+        0
+      ],
+      "Elixir": [
+        31425,
+        35
+      ],
+      "SCSS": [
+        909,
+        0
+      ],
+      "Dockerfile": [
+        270,
+        0
+      ],
+      "Rust": [
+        2514,
+        6
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 134,
+    "total_lines": 557710,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 53305,
+        "commits": 36
+      },
+      {
+        "language": "Elixir",
+        "lines": 31425,
+        "commits": 35
+      },
+      {
+        "language": "Ruby",
+        "lines": 190520,
+        "commits": 31
+      },
+      {
+        "language": "CSS",
+        "lines": 32165,
+        "commits": 10
+      },
+      {
+        "language": "JavaScript",
+        "lines": 245446,
+        "commits": 6
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jmrepetti",
+    "analysis_date": "2026-02-20T01:34:27.838007",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 276,
+    "languages": {
+      "C": {
+        "files_scanned": 24,
+        "packages": {
+          "darknet.h": 21,
+          "<sys/time.h>": 5,
+          "sys/time.h": 5,
+          "<stdio.h>": 5,
+          "stdio.h": 5,
+          "assert.h": 3,
+          "<assert.h>": 3,
+          "stdlib.h": 3,
+          "<stdlib.h>": 3,
+          "cuda.h": 2,
+          "<math.h>": 2,
+          "<string.h>": 2,
+          "string.h": 2,
+          "math.h": 2,
+          "time.h": 1,
+          "<time.h>": 1,
+          "unistd.h": 1,
+          "<unistd.h>": 1,
+          "gemm.h": 1,
+          "blas.h": 1,
+          "activation_layer.h": 1,
+          "utils.h": 1,
+          "activations.h": 1,
+          "avgpool_layer.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 5,
+        "packages": {
+          "UnityEngine": 5,
+          "System.Collections.Generic": 5,
+          "UnityEngine.SceneManagement": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 4,
+        "packages": {
+          "gdexample.h": 2,
+          "namespace": 1,
+          "godot": 1,
+          "<juce_audio_basics/juce_audio_basics.cpp>": 1,
+          "juce_audio_basics/juce_audio_basics.cpp": 1,
+          "juce_audio_devices/juce_audio_devices.cpp": 1,
+          "<juce_audio_devices/juce_audio_devices.cpp>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 43,
+        "packages": {
+          "mutex": 13,
+          "<mutex>": 13,
+          "system/CFFI.h": 11,
+          "<system/CFFI.h>": 11,
+          "optional": 10,
+          "<optional>": 10,
+          "JuceHeader.h": 6,
+          "pybind11/pybind11.h": 6,
+          "pybind11/numpy.h": 6,
+          "<pybind11/pybind11.h>": 6,
+          "<pybind11/numpy.h>": 6,
+          "AudioFile.h": 5,
+          "utils/Bytes.h": 4,
+          "<utils/Bytes.h>": 4,
+          "Plugin.h": 4,
+          "cuda.h": 3,
+          "network.h": 3,
+          "layer.h": 3,
+          "graphics/ImageBuffer.h": 3,
+          "<graphics/ImageBuffer.h>": 3,
+          "<graphics/PixelFormat.h>": 3,
+          "utils/ArrayBufferView.h": 3,
+          "<utils/ArrayBufferView.h>": 3,
+          "graphics/PixelFormat.h": 3,
+          "<utils/Resource.h>": 3,
+          "utils/Resource.h": 3,
+          "<stdint.h>": 3,
+          "stdint.h": 3,
+          "image.h": 2,
+          "activations.h": 2,
+          "math.h": 2,
+          "<system/ValuePointer.h>": 2,
+          "system/ValuePointer.h": 2,
+          "math/Rectangle.h": 2,
+          "<math/Rectangle.h>": 2,
+          "system/Endian.h": 2,
+          "<system/System.h>": 2,
+          "system/System.h": 2,
+          "<system/Endian.h>": 2,
+          "namespace": 2,
+          "LameMP3AudioFormat.h": 2,
+          "ReadableAudioFile.h": 2,
+          "PythonFileLike.h": 2,
+          "PythonInputStream.h": 2,
+          "demo.h": 1,
+          "data.h": 1,
+          "cost_layer.h": 1,
+          "activation_layer.h": 1,
+          "dropout_layer.h": 1,
+          "opencv2/videoio/videoio_c.h": 1,
+          "crop_layer.h": 1,
+          "stb_image.h": 1,
+          "box.h": 1,
+          "maxpool_layer.h": 1,
+          "rnn_layer.h": 1,
+          "opencv2/core/version.hpp": 1,
+          "softmax_layer.h": 1,
+          "route_layer.h": 1,
+          "list.h": 1,
+          "<pthread.h>": 1,
+          "blas.h": 1,
+          "matrix.h": 1,
+          "crnn_layer.h": 1,
+          "opencv2/imgproc/imgproc_c.h": 1,
+          "connected_layer.h": 1,
+          "parser.h": 1,
+          "utils.h": 1,
+          "reorg_layer.h": 1,
+          "opencv2/highgui/highgui_c.h": 1,
+          "cuda_runtime.h": 1,
+          "col2im.h": 1,
+          "cublas_v2.h": 1,
+          "curand.h": 1,
+          "avgpool_layer.h": 1,
+          "tree.h": 1,
+          "stdlib.h": 1,
+          "<stdlib.h>": 1,
+          "detection_layer.h": 1,
+          "batchnorm_layer.h": 1,
+          "cudnn.h": 1,
+          "deconvolutional_layer.h": 1,
+          "gru_layer.h": 1,
+          "gemm.h": 1,
+          "region_layer.h": 1,
+          "shortcut_layer.h": 1,
+          "im2col.h": 1,
+          "classifier.h": 1,
+          "pthread.h": 1,
+          "convolutional_layer.h": 1,
+          "normalization_layer.h": 1,
+          "option_list.h": 1,
+          "stb_image_write.h": 1,
+          "local_layer.h": 1,
+          "darknet.h": 1,
+          "Sprite.hpp": 1,
+          "<Godot.hpp>": 1,
+          "<Sprite.hpp>": 1,
+          "Godot.hpp": 1,
+          "graphics/Image.h": 1,
+          "<graphics/Image.h>": 1,
+          "<math/Vector2.h>": 1,
+          "<math/ColorMatrix.h>": 1,
+          "math/Vector2.h": 1,
+          "math/ColorMatrix.h": 1,
+          "hx/CFFI.h": 1,
+          "<hx/CFFI.h>": 1,
+          "<math.h>": 1,
+          "android/log.h": 1,
+          "<android/log.h>": 1,
+          "<FBase.h>": 1,
+          "FBase.h": 1,
+          "vorbis/vorbisfile.h": 1,
+          "<vorbis/vorbisfile.h>": 1,
+          "media/AudioBuffer.h": 1,
+          "<media/AudioBuffer.h>": 1,
+          "process.h": 1,
+          "pedalboard": 1,
+          "Message": 1,
+          "Event": 1,
+          "<sys/utsname.h>": 1,
+          "<AudioToolbox/AudioUnitUtilities.h>": 1,
+          "AudioToolbox/AudioUnitUtilities.h": 1,
+          "load_plugin": 1,
+          "AudioUnitParser.h": 1,
+          "AudioFile": 1,
+          "<pybind11/stl.h>": 1,
+          "sys/utsname.h": 1,
+          "pybind11/stl.h": 1,
+          "juce_overrides/juce_PatchedVST3PluginFormat.h": 1,
+          "<juce_events/juce_events.h>": 1,
+          "<juce_data_structures/juce_data_structures.h>": 1,
+          "<juce_graphics/juce_graphics.h>": 1,
+          "juce_dsp/juce_dsp.h": 1,
+          "<juce_audio_formats/juce_audio_formats.h>": 1,
+          "juce_audio_processors/juce_audio_processors.h": 1,
+          "juce_audio_formats/juce_audio_formats.h": 1,
+          "juce_gui_basics/juce_gui_basics.h": 1,
+          "<juce_audio_processors/juce_audio_processors.h>": 1,
+          "<juce_audio_basics/juce_audio_basics.h>": 1,
+          "juce_audio_devices/juce_audio_devices.h": 1,
+          "juce_events/juce_events.h": 1,
+          "<juce_gui_basics/juce_gui_basics.h>": 1,
+          "<juce_core/juce_core.h>": 1,
+          "<juce_audio_devices/juce_audio_devices.h>": 1,
+          "juce_core/juce_core.h": 1,
+          "<juce_dsp/juce_dsp.h>": 1,
+          "juce_data_structures/juce_data_structures.h": 1,
+          "juce_graphics/juce_graphics.h": 1,
+          "juce_audio_basics/juce_audio_basics.h": 1,
+          "BufferUtils.h": 1,
+          "<iostream>": 1,
+          "iostream": 1,
+          "StreamUtils.h": 1,
+          "a": 1,
+          "WriteableAudioFile.h": 1,
+          "<chrono>": 1,
+          "chrono": 1,
+          "<thread>": 1,
+          "thread": 1,
+          ":py:meth:`AudioStream.play`": 1,
+          "lame.h": 1,
+          "<lame.h>": 1,
+          "juce::AudioFormat::createWriterFor": 1,
+          "cerrno": 1,
+          "<cerrno>": 1,
+          ":meth:`pedalboard.io.get_supported_read_formats": 1,
+          ":py:attr:`exact_duration_known`": 1,
+          "StreamResampler.h": 1,
+          "PythonOutputStream.h": 1,
+          ":meth:`pedalboard.io.get_supported_write_formats": 1
+        }
+      },
+      "Elixir": {
+        "files_scanned": 42,
+        "packages": {
+          "Plug.Conn": 10,
+          "RoomxWeb": 9,
+          "Mix.Config": 6,
+          "Logger": 6,
+          "Roomx.Rooms.Room": 3,
+          "Mix.Project": 2,
+          "Application": 2,
+          "Plug.Builder": 2,
+          "RoomxWeb.Gettext": 2,
+          "Phoenix.HTML": 2,
+          "Roomx.Rooms": 2,
+          "Plapp.Ctx": 1,
+          "ExUnit.Case": 1,
+          "Plug.BasicAuth": 1,
+          "`builder_opts/0`": 1,
+          "unquote": 1,
+          "AnotherModule": 1,
+          "=": 1,
+          "the": 1,
+          "`Plug.Crypto.KeyGenerator.generate/3`": 1,
+          "`halt/1`": 1,
+          "Plug.Conn.Unfetched": 1,
+          "Bitwise": 1,
+          "Plug.Crypto.KeyGenerator": 1,
+          "Plug.Crypto.MessageVerifier": 1,
+          "EEx": 1,
+          "it": 1,
+          "Plug.Debugger": 1,
+          "Plug.Router": 1,
+          "Plug.ErrorHandler": 1,
+          "`Plug.Debugger`.": 1,
+          "environment": 1,
+          "#{Mix.env()}.exs": 1,
+          "prod.secret.exs": 1,
+          "Memoize": 1,
+          "Ecto.Repo": 1,
+          "Ecto.Query": 1,
+          "Roomx.Repo": 1,
+          "Ecto.Schema": 1,
+          "Ecto.Changeset": 1,
+          "Agent": 1,
+          "Phoenix.LiveView": 1,
+          "Phoenix.LiveView.Router": 1,
+          "RoomxWeb.ErrorHelpers": 1,
+          "Phoenix.Controller": 1,
+          "convenience": 1,
+          "Phoenix.Router": 1,
+          "Phoenix.LiveView.Helpers": 1,
+          "LiveView": 1,
+          "basic": 1,
+          "Phoenix.View": 1,
+          "Phoenix.LiveComponent": 1,
+          "Phoenix.Channel": 1,
+          "RoomxWeb.Router.Helpers": 1,
+          "shared": 1,
+          "Phoenix.Socket": 1,
+          "Phoenix.Endpoint": 1,
+          "Gettext": 1,
+          "Phoenix.LiveDashboard.Router": 1,
+          "Supervisor": 1,
+          "Telemetry.Metrics": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 5,
+        "packages": {
+          "org.haxe": 5,
+          "android.content": 2,
+          "android.app": 1,
+          "android.view": 1,
+          "android.os": 1,
+          "java.lang": 1,
+          "android.util": 1,
+          "lime.system": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 6,
+        "packages": {
+          "undefined": 3,
+          "express": 1,
+          "errorhandler": 1,
+          "http": 1,
+          "body-parser": 1,
+          "method-override": 1,
+          "socket.io": 1,
+          "nprogress": 1,
+          "phoenix": 1,
+          "phoenix_live_view": 1,
+          "phoenix_html": 1,
+          "hard-source-webpack-plugin": 1,
+          "terser-webpack-plugin": 1,
+          "copy-webpack-plugin": 1,
+          "path": 1,
+          "optimize-css-assets-webpack-plugin": 1,
+          "glob": 1,
+          "mini-css-extract-plugin": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 40,
+        "packages": {
+          "typing": 21,
+          "os": 20,
+          "basic_pitch": 18,
+          "numpy": 17,
+          "tensorflow": 13,
+          "Any": 12,
+          "argparse": 12,
+          "logging": 11,
+          "pathlib": 8,
+          "apache_beam": 7,
+          "commandline": 6,
+          "tempfile": 5,
+          "sox": 5,
+          "mirdata": 5,
+          "tf_example_serialization": 5,
+          "time": 5,
+          "sys": 5,
+          "List": 4,
+          "re": 4,
+          "pedalboard": 4,
+          "enum": 3,
+          "random": 3,
+          "librosa": 3,
+          "pedalboard_native": 3,
+          "coremltools": 2,
+          "tflite_runtime": 2,
+          "onnxruntime": 2,
+          "contextmanager": 2,
+          "contextlib": 2,
+          "uuid": 2,
+          "pretty_midi": 2,
+          "json": 2,
+          "warnings": 2,
+          "scipy": 2,
+          "log_base_b": 2,
+          "mir_eval": 2,
+          "datetime": 2,
+          "models": 2,
+          "shutil": 2,
+          "sphinx": 2,
+          "*": 2,
+          "visualize": 1,
+          "Iterator": 1,
+          "threading": 1,
+          "Enum": 1,
+          "Path": 1,
+          "Optional": 1,
+          "ffmpeg": 1,
+          "main": 1,
+          "PipelineOptions": 1,
+          "tensorflow_addons": 1,
+          "AUDIO_N_CHANNELS": 1,
+          "csv": 1,
+          "CT_PRESENT": 1,
+          "signal": 1,
+          "nn": 1,
+          "pitch": 1,
+          "resampy": 1,
+          "collections": 1,
+          "DefaultDict": 1,
+          "defaultdict": 1,
+          "wavfile": 1,
+          "traceback": 1,
+          "Model": 1,
+          "DATASET_SAMPLING_FREQUENCY": 1,
+          "tf_example_deserialization": 1,
+          "VisualizeCallback": 1,
+          "Dict": 1,
+          "setuptools": 1,
+          "setup": 1,
+          "unittest": 1,
+          "mock": 1,
+          "pytest": 1,
+          "TestPipeline": 1,
+          "utils": 1,
+          "create_mock_wav": 1,
+          "WriteBatchToTfRecord": 1,
+          "itertools": 1,
+          "pipes": 1,
+          "string": 1,
+          "join": 1,
+          "pickle": 1,
+          "xml": 1,
+          "listdir": 1,
+          "strings-single": 1,
+          "name": 1,
+          "keywords": 1,
+          "builtins": 1,
+          "pygments": 1,
+          "strings-double": 1,
+          "numbers": 1,
+          "nodes": 1,
+          "docutils": 1,
+          "addnodes": 1,
+          "isfile": 1,
+          "ArgumentParser": 1,
+          "GDScriptLexer": 1,
+          "sphinx_rtd_theme": 1,
+          "gdscript": 1,
+          "lexers": 1,
+          "MAJOR": 1,
+          "Reverb": 1,
+          "soundfile": 1,
+          "tqdm": 1,
+          "TqdmWarning": 1,
+          "Pedalboard": 1,
+          "AudioStream": 1,
+          "this": 1,
+          "BytesIO": 1,
+          "AudioFile": 1,
+          "io": 1,
+          "Pedalboard's": 1,
+          "Chain": 1,
+          "AudioUnitPlugin": 1,
+          "VST3Plugin": 1,
+          "weakref": 1,
+          "label": 1,
+          "larger": 1,
+          "platform": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 30,
+        "packages": {
+          "casbin-ruby/effect/effector": 6,
+          "casbin-ruby/logger": 5,
+          "casbin-ruby/persist/adapter": 4,
+          "date_time_step_with": 4,
+          "time": 4,
+          "minitest/autorun": 4,
+          "casbin-ruby/config": 3,
+          "casbin-ruby/util": 3,
+          "net/http": 2,
+          "casbin-ruby/synced_enforcer": 1,
+          "casbin-ruby/version": 1,
+          "casbin-ruby/enforcer": 1,
+          "logger": 1,
+          "casbin-ruby/model/model": 1,
+          "casbin-ruby/persist/adapters/file_adapter": 1,
+          "casbin-ruby/model/function_map": 1,
+          "casbin-ruby/util/builtin_operators": 1,
+          "casbin-ruby/effect/default_effector": 1,
+          "casbin-ruby/rbac/default_role_manager/role_manager": 1,
+          "enabled?": 1,
+          "casbin-ruby/util/evaluator": 1,
+          "casbin-ruby/effect/priority_effector": 1,
+          "casbin-ruby/effect/deny_override_effector": 1,
+          "casbin-ruby/effect/allow_and_deny_effector": 1,
+          "casbin-ruby/effect/allow_override_effector": 1,
+          "casbin-ruby/management_enforcer": 1,
+          "casbin-ruby/core_enforcer": 1,
+          "casbin-ruby/internal_enforcer": 1,
+          "parent_update_policy": 1,
+          "parent_remove_policy": 1,
+          "parent_remove_policies": 1,
+          "parent_add_policy": 1,
+          "parent_remove_filtered_policy": 1,
+          "parent_add_policies": 1,
+          "parent_update_policies": 1,
+          "get_functions": 1,
+          "casbin-ruby/model/assertion": 1,
+          "casbin-ruby/model/policy": 1,
+          "casbin-ruby/config/config": 1,
+          "casbin-ruby/rbac/default_role_manager/role": 1,
+          "casbin-ruby/rbac/role_manager": 1,
+          "casbin-ruby/util/thread_lock": 1,
+          "keisan": 1,
+          "singleton": 1,
+          "Singleton": 1,
+          "forwardable": 1,
+          "date_time_step_with/version": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 29,
+        "packages": {
+          "bevy_ecs": 25,
+          "glam": 14,
+          "criterion": 4,
+          "bevy": 1,
+          "archetype_updates": 1,
+          "bevy_tasks": 1,
+          "super": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "playwright": 2,
+          "dotenv": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jmrepetti/100x100",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmrepetti/Alone-in-the-bar",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jmrepetti/basic-pitch",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jmrepetti/bevy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "jmrepetti/casbin-ruby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmrepetti/darknet",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jmrepetti/date_time_step_with",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jmrepetti/gdnative_cpp_example",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "jmrepetti/godot-docs",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jmrepetti/lime",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jmrepetti/pedalboard",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jmrepetti/plapp",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "jmrepetti/plug",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "jmrepetti/roomx",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jmrepetti/rstrie",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Rust"
+        ]
+      }
+    ]
+  }
+}

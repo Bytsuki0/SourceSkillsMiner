@@ -1,0 +1,494 @@
+{
+  "username": "shelling",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.6944444444444444,
+        "pr_merge_rate": 2.027027027027027,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4871794871794872,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.23076923076923078
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "shelling/app-ldap": 0.143675
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.8217948717948718,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Perl": [
+        33952,
+        627
+      ],
+      "Ruby": [
+        24808,
+        235
+      ],
+      "LiveScript": [
+        827,
+        32
+      ],
+      "Shell": [
+        112,
+        3
+      ],
+      "CSS": [
+        2304,
+        23
+      ],
+      "JavaScript": [
+        16877,
+        154
+      ],
+      "HTML": [
+        570,
+        3
+      ],
+      "Emacs Lisp": [
+        533100,
+        284
+      ],
+      "C": [
+        629,
+        24
+      ],
+      "PHP": [
+        4,
+        0
+      ],
+      "Vim Script": [
+        25705,
+        15
+      ],
+      "Python": [
+        15650,
+        250
+      ],
+      "Prolog": [
+        16,
+        0
+      ],
+      "Erlang": [
+        2,
+        0
+      ],
+      "R": [
+        2,
+        0
+      ],
+      "Nu": [
+        0,
+        0
+      ],
+      "Groovy": [
+        0,
+        0
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 1650,
+    "total_lines": 654558,
+    "top_5_languages": [
+      {
+        "language": "Perl",
+        "lines": 33952,
+        "commits": 627
+      },
+      {
+        "language": "Emacs Lisp",
+        "lines": 533100,
+        "commits": 284
+      },
+      {
+        "language": "Python",
+        "lines": 15650,
+        "commits": 250
+      },
+      {
+        "language": "Ruby",
+        "lines": 24808,
+        "commits": 235
+      },
+      {
+        "language": "JavaScript",
+        "lines": 16877,
+        "commits": 154
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "shelling",
+    "analysis_date": "2026-02-19T16:43:57.405764",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 197,
+    "languages": {
+      "Java": {
+        "files_scanned": 60,
+        "packages": {
+          "com.clover": 30,
+          "com.pro100svitlo": 30,
+          "java.util": 14,
+          "android.content": 10,
+          "android.os": 8,
+          "android.accounts": 6,
+          "android.util": 5,
+          "org.apache": 5,
+          "java.lang": 4,
+          "java.io": 4,
+          "android.widget": 2,
+          "android.app": 2,
+          "java.security": 2,
+          "android.nfc": 2,
+          "android.view": 1,
+          "android.support": 1,
+          "android.net": 1,
+          "org.junit": 1,
+          "static": 1,
+          "java.text": 1,
+          "fr.devnied": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "Parse": 1,
+          "react": 1,
+          "path": 1,
+          "webpack": 1,
+          "undefined": 1,
+          "use": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "Parse": 1,
+          "react": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 34,
+        "packages": {
+          "Modern::Perl": 30,
+          "Moose": 29,
+          "strict": 4,
+          "warnings": 4,
+          "App::LDAP::LDIF::Group": 4,
+          "MooseX::Singleton": 2,
+          "App::LDAP::LDIF::Host": 2,
+          "App::LDAP::LDIF::OrgUnit": 2,
+          "App::LDAP::LDIF::Sudoer": 2,
+          "App::LDAP::LDIF::User": 2,
+          "Net::LDAP::LDIF": 2,
+          "Net::LDAP": 2,
+          "5": 2,
+          "Text::Greeking::zh_TW": 1,
+          "Acme::CorpusScrambler": 1,
+          "App::LDAP::Command": 1,
+          "App::LDAP": 1,
+          "Term::Prompt": 1,
+          "App::LDAP::Command::Add::Group": 1,
+          ">": 1,
+          "Authen::SASL": 1,
+          "IO::String": 1,
+          "Date::Calc": 1,
+          "Net::LDAP::Extension::WhoAmI": 1,
+          "<": 1,
+          "base": 1,
+          "Net::LDAP::Entry": 1,
+          "5.008008": 1,
+          "Class::Implant": 1,
+          "Class::Inspector": 1,
+          "5.010": 1,
+          "CPAN::MirrorStatus": 1,
+          "Rubyish::Attribute": 1,
+          "self": 1,
+          "LWP::Simple": 1,
+          "Dancer": 1,
+          "Dancer::Plugin::WebDAV": 1,
+          "Dancer::Exception": 1,
+          "Dancer::Plugin": 1,
+          ":syntax": 1,
+          ":all": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 29,
+        "packages": {
+          "flask": 17,
+          "__future__": 17,
+          "unicode_literals": 16,
+          "six": 11,
+          "werkzeug": 10,
+          "flask_restplus": 9,
+          "re": 7,
+          "collections": 7,
+          "OrderedDict": 6,
+          "Flask": 5,
+          "Api": 5,
+          "iteritems": 5,
+          "make_response": 4,
+          "inspect": 4,
+          "sys": 3,
+          "ProxyFix": 3,
+          "functools": 3,
+          "url_for": 3,
+          "cached_property": 3,
+          "datetime": 3,
+          "request": 3,
+          "copy": 3,
+          "os": 2,
+          "dumps": 2,
+          "Namespace": 2,
+          "wraps": 2,
+          "BaseResponse": 2,
+          "logging": 2,
+          "HTTPException": 2,
+          "jsonschema": 2,
+          "urlparse": 2,
+          "decimal": 2,
+          "email": 2,
+          "isclass": 2,
+          "warnings": 2,
+          "deepcopy": 2,
+          "current_app": 2,
+          "alabaster": 1,
+          "api": 1,
+          "zoo": 1,
+          "Resource": 1,
+          "simplexml": 1,
+          "absolute_import": 1,
+          "IntEnum": 1,
+          "enum": 1,
+          "ERROR_INCLUDE_MESSAGE": 1,
+          "types": 1,
+          "Headers": 1,
+          "got_request_exception": 1,
+          "operator": 1,
+          "difflib": 1,
+          "_endpoint_from_view_func": 1,
+          "RefResolver": 1,
+          "MethodType": 1,
+          "update_wrapper": 1,
+          "timedelta": 1,
+          "date": 1,
+          "formatdate": 1,
+          "timegm": 1,
+          "calendar": 1,
+          "Decimal": 1,
+          "aniso8601": 1,
+          "pytz": 1,
+          "socket": 1,
+          "parsedate_tz": 1,
+          "ValidationError": 1,
+          "Draft4Validator": 1,
+          "http_method_funcs": 1,
+          "urlencode": 1,
+          "uuid": 1,
+          "time": 1,
+          "uuid5": 1,
+          "json": 1,
+          "ujson": 1,
+          "RequestParser": 1,
+          "MultiDict": 1,
+          "Hashable": 1,
+          "exceptions": 1,
+          "MethodView": 1,
+          "parse_rule": 1,
+          "itertools": 1,
+          "string_types": 1,
+          "io": 1,
+          "setup": 1,
+          "setuptools": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 20,
+        "packages": {
+          "spec_helper": 4,
+          "active_record": 3,
+          "net/ftp": 2,
+          "acts_as_ftp_shuttle": 2,
+          "bundler/setup": 2,
+          "InstanceMethods": 1,
+          "before_run_spec": 1,
+          "ptools": 1,
+          "create_pdf_models": 1,
+          "pdf_model": 1,
+          "test_helper": 1,
+          "rubygems": 1,
+          "active_support/test_case": 1,
+          "active_support": 1,
+          "getopt/long": 1,
+          "Rack::Utils": 1,
+          "Singleton": 1,
+          "singleton": 1,
+          "eb": 1,
+          "feint/version": 1,
+          "Mongoid::Document": 1,
+          "mongoid": 1,
+          "feint": 1,
+          "default": 1,
+          "action_controller/railtie": 1,
+          "action_mailer/railtie": 1,
+          "action_view/railtie": 1,
+          "active_model/railtie": 1,
+          "sprockets/railtie": 1,
+          "active_job/railtie": 1,
+          "rails": 1,
+          "active_record/railtie": 1,
+          "devise/orm/active_record": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "shelling/acme-corpusscrambler",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "shelling/acts_as_ftp_shuttle",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "shelling/app-cli",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "shelling/app-ldap",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "shelling/class-implant",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "shelling/clover-android-sdk",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "shelling/cpan-mirrorstatus",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "shelling/craigslist",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "shelling/Credit-Card-NFC-Reader",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "shelling/dancer-plugin-webdav",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "shelling/dropbox.io",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "shelling/eb",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "shelling/editor",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "shelling/feint",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "shelling/flask-restplus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "shelling/Full-Stack-Engineer-Ruby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

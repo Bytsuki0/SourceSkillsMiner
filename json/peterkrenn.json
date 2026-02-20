@@ -1,0 +1,398 @@
+{
+  "username": "peterkrenn",
+  "areas": {
+    "OSS": {
+      "score": 0.49424138509533555,
+      "details": {
+        "issue_resolution_rate": 0.25,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9913620776430032
+      }
+    },
+    "Status": {
+      "score": 0.40275734822580445,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9695206377233221,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "peterkrenn/lucas-kanade-opencv": -0.296
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.37424968333028497,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        10019,
+        89
+      ],
+      "Elixir": [
+        925,
+        7
+      ],
+      "Pure Data": [
+        166,
+        3
+      ],
+      "JavaScript": [
+        13960,
+        2
+      ],
+      "CoffeeScript": [
+        2121,
+        0
+      ],
+      "Java": [
+        260,
+        4
+      ],
+      "MATLAB": [
+        82,
+        2
+      ],
+      "C": [
+        756,
+        10
+      ],
+      "C++": [
+        1813,
+        18
+      ],
+      "Objective-C": [
+        69,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "PHP": [
+        2,
+        1
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 136,
+    "total_lines": 30173,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 10019,
+        "commits": 89
+      },
+      {
+        "language": "C++",
+        "lines": 1813,
+        "commits": 18
+      },
+      {
+        "language": "C",
+        "lines": 756,
+        "commits": 10
+      },
+      {
+        "language": "Elixir",
+        "lines": 925,
+        "commits": 7
+      },
+      {
+        "language": "Java",
+        "lines": 260,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "peterkrenn",
+    "analysis_date": "2026-02-19T17:10:33.556308",
+    "total_repos_analyzed": 16,
+    "total_files_analyzed": 187,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "stdio.h": 1,
+          "stdbool.h": 1,
+          "highgui.h": 1,
+          "<stdio.h>": 1,
+          "<highgui.h>": 1,
+          "<stdbool.h>": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 12,
+        "packages": {
+          "testApp.h": 4,
+          "ofMain.h": 2,
+          "ofMoreUtils.h": 1,
+          "ofBall.h": 1,
+          "ofx2dFluid.h": 1,
+          "ofAppGlutWindow.h": 1,
+          "model3DS.h": 1,
+          "texture3DS.h": 1,
+          "ofx3DModelLoader.h": 1,
+          "ofMath.h": 1,
+          "ofx3D.h": 1,
+          "ofx3DGraphics.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 15,
+        "packages": {
+          "ofMain.h": 10,
+          "ofConstants.h": 2,
+          "ofx2dFluid.h": 2,
+          "<list>": 2,
+          "ofx2dSolver.h": 2,
+          "ofx2dFluidConstants.h": 2,
+          "list": 2,
+          "math.h": 2,
+          "<math.h>": 2,
+          "<iostream>": 2,
+          "iostream": 2,
+          "ofShader.h": 1,
+          "ofxFreeFrame.h": 1,
+          "ofTodd.h": 1,
+          "ofxObjLoader.h": 1,
+          "ofxBox2D.h": 1,
+          "ofxDirList.h": 1,
+          "ofxTuio.h": 1,
+          "ofxOpenCv.h": 1,
+          "ofMoreUtils.h": 1,
+          "ofxThread.h": 1,
+          "ofxMSASpline.h": 1,
+          "ofxQRCodes.h": 1,
+          "ofxMSAPhysics.h": 1,
+          "ofxVectorGraphics.h": 1,
+          "ofxXmlSettings.h": 1,
+          "ofxVectorMath.h": 1,
+          "ofxGui.h": 1,
+          "MSAShape3D.h": 1,
+          "ofxBazAR.h": 1,
+          "ofxOsc.h": 1,
+          "ofxFidMain.h": 1,
+          "ofxSimpleGui.h": 1,
+          "ofxCvHaarFinder.h": 1,
+          "ofxNetwork.h": 1,
+          "ofAddons.h": 1,
+          "ofBall.h": 1,
+          "ofx3DModelLoader.h": 1,
+          "<map>": 1,
+          "texture3DS.h": 1,
+          "cctype": 1,
+          "algorithm": 1,
+          "<algorithm>": 1,
+          "fstream": 1,
+          "functional": 1,
+          "<assert.h>": 1,
+          "Vector3DS.h": 1,
+          "string": 1,
+          "<fstream>": 1,
+          "assert.h": 1,
+          "<string>": 1,
+          "vector": 1,
+          "<sstream>": 1,
+          "sstream": 1,
+          "map": 1,
+          "<functional>": 1,
+          "<vector>": 1,
+          "<cctype>": 1,
+          "ofx3DBaseLoader.h": 1,
+          "model3DS.h": 1,
+          "ofGraphics.h": 1,
+          "GLUT/glut.h": 1,
+          "<GLUT/glut.h>": 1,
+          "ofxVec3f.h": 1
+        }
+      },
+      "Elixir": {
+        "files_scanned": 13,
+        "packages": {
+          "GenServer": 2,
+          "Supervisor": 2,
+          "GenStage": 2,
+          "Mix.Config": 1,
+          "Application": 1,
+          "Ecto.Repo": 1,
+          "Ecto.Query": 1,
+          "Ecto.Schema": 1,
+          "ConsumerSupervisor": 1,
+          "Mix.Project": 1,
+          "Ecto.Migration": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 1,
+        "packages": {
+          "static": 1,
+          "com.googlecode": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 1,
+        "packages": {
+          "awful.hotkeys_popup.keys": 1,
+          "module.rules": 1,
+          "module.autostart": 1,
+          "awful.autofocus": 1,
+          "layout.wibar": 1,
+          "module.bindings": 1,
+          "layout.client": 1,
+          "module.notifications": 1,
+          "module.wallpaper": 1,
+          "module.layouts": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 30,
+        "packages": {
+          "processing.opengl": 4,
+          "anar": 3,
+          "StorageScope": 2,
+          "bundler/setup": 2,
+          "ffi": 2,
+          "fcntl": 2,
+          "screen": 2,
+          "device": 2,
+          "fileutils": 2,
+          "erb": 2,
+          "#{File.dirname(__FILE__)}/base.rb": 2,
+          "set": 1,
+          "apricot/ast/#{r}": 1,
+          "Enumerable": 1,
+          "stringio": 1,
+          "yaml": 1,
+          "readline": 1,
+          "Apricot": 1,
+          "apricot": 1,
+          "rspec": 1,
+          "FFI::PortAudio": 1,
+          "ffi-portaudio": 1,
+          "lib/ffi-pd": 1,
+          "wiringpi": 1,
+          "collision": 1,
+          "arrow": 1,
+          "guy": 1,
+          "joystick": 1,
+          "score": 1,
+          "audio": 1,
+          "explosion": 1,
+          "rails/all": 1,
+          "rubygems": 1,
+          "ruby-debug": 1,
+          "spec_helper": 1,
+          "ruby-processing/helpers/numeric": 1,
+          "ruby-processing/helpers/string": 1,
+          "some": 1,
+          "java": 1,
+          "#{RP5_ROOT}/lib/core/core.jar": 1,
+          "Math": 1,
+          "processing.core": 1,
+          "processing.core.#{klass}": 1,
+          "FileUtils": 1,
+          "{#{local_dir}/,}{#{partial_paths.join(": 1,
+          "ostruct": 1,
+          "ruby-processing/app": 1,
+          "ruby-processing": 1,
+          "irb": 1,
+          "#{root}/base.rb": 1,
+          "lsys.Grammar": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "peterkrenn/apricot",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "peterkrenn/ecto-genstage-batcher-example",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "peterkrenn/elle-and-the-spooky-arrow",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "peterkrenn/lucas-kanade-javacv",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "peterkrenn/lucas-kanade-opencv",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "peterkrenn/nixos-config",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "peterkrenn/ofx-dev",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "peterkrenn/optical-flow",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "peterkrenn/ruby-processing",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

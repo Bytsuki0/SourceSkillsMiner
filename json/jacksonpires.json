@@ -1,0 +1,436 @@
+{
+  "username": "jacksonpires",
+  "areas": {
+    "OSS": {
+      "score": 0.9313725490196079,
+      "details": {
+        "issue_resolution_rate": 0.75,
+        "pr_merge_rate": 1.1470588235294117,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5897435897435899,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.38461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "jacksonpires/cpf_utils": 0.2263,
+        "jacksonpires/curso-rails": 0.2263,
+        "jacksonpires/curso-rails-5x": 0.007543333333333333,
+        "jacksonpires/documentos_br": 0.2263
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.8302790346907994,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        25622,
+        0
+      ],
+      "HTML": [
+        1659010,
+        279
+      ],
+      "CSS": [
+        484002,
+        88
+      ],
+      "Ruby": [
+        242726,
+        284
+      ],
+      "JavaScript": [
+        483244,
+        56
+      ],
+      "CoffeeScript": [
+        4575,
+        0
+      ],
+      "ActionScript": [
+        3636,
+        1
+      ],
+      "Perl": [
+        476,
+        0
+      ],
+      "Shell": [
+        485,
+        0
+      ],
+      "Elixir": [
+        1473,
+        37
+      ],
+      "PowerShell": [
+        192,
+        0
+      ],
+      "SCSS": [
+        5544,
+        27
+      ],
+      "Dockerfile": [
+        405,
+        1
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "Pascal": [
+        9682,
+        3
+      ],
+      "Python": [
+        209277,
+        3
+      ],
+      "HyPhy": [
+        5684,
+        5
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 784,
+    "total_lines": 3136033,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 242726,
+        "commits": 284
+      },
+      {
+        "language": "HTML",
+        "lines": 1659010,
+        "commits": 279
+      },
+      {
+        "language": "CSS",
+        "lines": 484002,
+        "commits": 88
+      },
+      {
+        "language": "JavaScript",
+        "lines": 483244,
+        "commits": 56
+      },
+      {
+        "language": "Elixir",
+        "lines": 1473,
+        "commits": 37
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jacksonpires",
+    "analysis_date": "2026-02-20T00:15:02.135335",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 312,
+    "languages": {
+      "Java": {
+        "files_scanned": 27,
+        "packages": {
+          "br.com": 27,
+          "java.io": 12,
+          "java.util": 10,
+          "javafx.scene": 9,
+          "javafx.fxml": 7,
+          "javafx.stage": 5,
+          "java.sql": 5,
+          "javafx.event": 4,
+          "java.time": 3,
+          "javafx.beans": 2,
+          "javafx.collections": 2,
+          "org.hibernate": 2,
+          "org.junit": 2,
+          "static": 2,
+          "javafx.application": 1,
+          "javax.persistence": 1,
+          "org.apache": 1,
+          "javafx.geometry": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 79,
+        "packages": {
+          "spec_helper": 8,
+          "rubygems": 7,
+          "beverage": 6,
+          "rails/all": 4,
+          "bundler/setup": 4,
+          "Roar::Representer::JSON": 3,
+          "fileutils": 2,
+          "cgi": 2,
+          "kaminari": 2,
+          "action_view": 2,
+          "active_mocker/mock": 2,
+          "create_user!": 2,
+          "ActiveMocker::Base::Scopes": 2,
+          "api-pagination/hooks": 2,
+          "support/shared_examples/middle_page": 2,
+          "support/shared_examples/first_page": 2,
+          "support/shared_examples/last_page": 2,
+          "support/shared_examples/existing_headers": 2,
+          "api-pagination": 2,
+          "action_controller": 2,
+          "rails": 2,
+          "net/http": 2,
+          "CpfCnpj": 2,
+          "active_record": 2,
+          "rails/generators": 2,
+          "simplecov": 2,
+          "beverage_factory": 2,
+          "uri": 1,
+          "RAILS_ROOT": 1,
+          "cucumber/rails": 1,
+          "database_cleaner": 1,
+          "database_cleaner/cucumber": 1,
+          "capybara/rails": 1,
+          "bundler": 1,
+          "capybara/cucumber": 1,
+          "capybara/session": 1,
+          "active_admin/comments": 1,
+          "devise": 1,
+          "active_admin/arbre": 1,
+          "rails/version": 1,
+          "active_admin/engine": 1,
+          "meta_search": 1,
+          "active_support/i18n": 1,
+          "sass": 1,
+          "their": 1,
+          "active_admin/helpers/settings": 1,
+          "AssetRegistration": 1,
+          "active_admin/sass/css_loader": 1,
+          "active_admin/router": 1,
+          "active_admin/sass/helpers": 1,
+          "sass/plugin": 1,
+          "Settings": 1,
+          "active_admin/arbre/document": 1,
+          "active_admin/arbre/html5_elements": 1,
+          "active_admin/arbre/element": 1,
+          "active_admin/arbre/core_extensions": 1,
+          "active_admin/arbre/collection": 1,
+          "active_admin/arbre/html": 1,
+          "active_admin/arbre/context": 1,
+          "active_admin/arbre/tag": 1,
+          "active_admin/arbre/class_list": 1,
+          "active_admin/arbre/text_node": 1,
+          "active_admin/arbre/attributes": 1,
+          ":<<": 1,
+          "set": 1,
+          "spec/mocks/user_mock": 1,
+          "spec/mocks/subscription_mock": 1,
+          "lib/subscribe_user": 1,
+          "CommentMock::Scopes": 1,
+          "SubscriptionMock::Scopes": 1,
+          "test_helper": 1,
+          "Pundit": 1,
+          "Roar::Rails::ControllerAdditions": 1,
+          "default": 1,
+          "api-pagination/version": 1,
+          "api-pagination/configuration": 1,
+          "kaminari/models/array_extension": 1,
+          "these": 1,
+          ":configuration": 1,
+          "rails/pagination": 1,
+          "grape/pagination": 1,
+          "will_paginate": 1,
+          "sqlite3": 1,
+          "sequel": 1,
+          "will_paginate/sequel": 1,
+          "support/numbers_controller": 1,
+          "PAGINATOR": 1,
+          "will_paginate/array": 1,
+          "support/numbers_api": 1,
+          "grape": 1,
+          "ostruct": 1,
+          "Rails.application.routes.url_helpers": 1,
+          "rails/test_help": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "pathname": 1,
+          "initializer": 1,
+          "your": 1,
+          "boot": 1,
+          "dispatcher": 1,
+          "areas_controller": 1,
+          "documentos_controller": 1,
+          "tipos_controller": 1,
+          "iconv": 1,
+          "fakeweb": 1,
+          "mocha": 1,
+          "test/unit": 1,
+          "rspec": 1,
+          "active_support": 1,
+          "lib/certificate_factory": 1,
+          "lib/certificates/def": 1,
+          "lib/certificates/abc": 1,
+          "certificate_factory": 1,
+          "null_certificate": 1,
+          "certificate": 1,
+          "orm_adapter": 1,
+          "ckeditor/version": 1,
+          "ckeditor/engine": 1,
+          "ActionView::Helpers::JavaScriptHelper": 1,
+          "ActionView::Helpers::TagHelper": 1,
+          "digest/sha1": 1,
+          "mime/types": 1,
+          "orm_adapter/adapters/mongoid": 1,
+          "rails/generators/migration": 1,
+          "Rails::Generators::Migration": 1,
+          "ckeditor/orm/<%=": 1,
+          "cnpj_utils/version": 1,
+          "cnpj_utils/string": 1,
+          "cnpj_utils/cnpj": 1,
+          "coveralls": 1,
+          "cnpj_utils": 1,
+          "tomato_soup": 1,
+          "coffee": 1,
+          "tea": 1,
+          "driver": 1,
+          "null_beverage": 1,
+          "cocoa": 1,
+          "apple_cider": 1,
+          "redcarpet": 1,
+          "commonplace": 1,
+          "yaml": 1,
+          "erb": 1,
+          "sinatra": 1,
+          "rack/test": 1,
+          "Rack::Test::Methods": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jacksonpires/acmefx",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jacksonpires/active_admin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/active_mocker",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/agenda_aula20",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/angular-rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/api-pagination",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/appexample_aula07",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/BDDoc",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/brazilian-rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/certificates",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/ckeditor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/cnpj_utils",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/coffee",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jacksonpires/commonplace",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

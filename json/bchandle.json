@@ -1,0 +1,211 @@
+{
+  "username": "bchandle",
+  "areas": {
+    "OSS": {
+      "score": 0.1838550266786223,
+      "details": {
+        "issue_resolution_rate": 0.23076923076923078,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.5450133092487028
+      }
+    },
+    "Status": {
+      "score": 0.04282938565298133,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5450133092487028,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.10667110308290091,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Scala": [
+        28556,
+        16
+      ],
+      "Java": [
+        90,
+        0
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 16,
+    "total_lines": 28646,
+    "top_5_languages": [
+      {
+        "language": "Scala",
+        "lines": 28556,
+        "commits": 16
+      },
+      {
+        "language": "Java",
+        "lines": 90,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "bchandle",
+    "analysis_date": "2026-02-20T01:17:16.225471",
+    "total_repos_analyzed": 2,
+    "total_files_analyzed": 36,
+    "languages": {
+      "Java": {
+        "files_scanned": 1,
+        "packages": {
+          "cogjni": 1,
+          "java.util": 1,
+          "java.nio": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 35,
+        "packages": {
+          "scala.swing": 21,
+          "cogdebugger": 12,
+          "org.interactivemesh": 11,
+          "cogdebugger.ui": 11,
+          "cogdebugger.coggui3ports": 11,
+          "java.awt": 8,
+          "javax.swing": 8,
+          "scala.language": 5,
+          "scala.xml": 4,
+          "scala.collection": 3,
+          "libcog._": 3,
+          "cogx.runtime": 3,
+          "com.mxgraph": 3,
+          "java.io": 2,
+          "Rectangle}": 2,
+          "SimpleSwingApplication": 2,
+          "swing": 2,
+          "com.jogamp": 2,
+          "cogdebugger.opengl": 2,
+          "Node}": 2,
+          "cogdebugger._": 2,
+          "JComponent": 2,
+          "split": 1,
+          "Split": 1,
+          "cogx.utilities": 1,
+          "Elem}": 1,
+          "SplitPane": 1,
+          "cogx._": 1,
+          "Point}": 1,
+          "BorderPanel": 1,
+          "Desktop}": 1,
+          "BoxPanel": 1,
+          "Orientation}": 1,
+          "libcog.{ComputeGraph": 1,
+          "FieldMemory}": 1,
+          "libcog": 1,
+          "AbstractFieldMemory": 1,
+          "ValueChanged}": 1,
+          "NodeSeq": 1,
+          "Node": 1,
+          "Null": 1,
+          "java.lang": 1,
+          "Text}": 1,
+          "Attribute": 1,
+          "You": 1,
+          "collection.mutable": 1,
+          "mxCell}": 1,
+          "java.util": 1,
+          "MouseAdapter": 1,
+          "SwingUtilities}": 1,
+          "mxCellState}": 1,
+          "JFrame": 1,
+          "MouseEvent}": 1,
+          "cogdebugger.{BinPacker2D": 1,
+          "ProbeManager}": 1,
+          "InternalDesktopPane}": 1,
+          "swing.{MainFrame": 1,
+          "CheckBox}": 1,
+          "mxGeometry}": 1,
+          "Label}": 1,
+          "swing.{BorderPanel": 1,
+          "MainFrame": 1,
+          "gl._": 1,
+          "GLEventListener}": 1,
+          "GLCapabilities": 1,
+          "libcog.ComputeGraph": 1,
+          "Elem": 1,
+          "ErrMsg}": 1,
+          "CogDebugger.Log": 1,
+          "ProbeDesktop": 1,
+          "VertexRightClick}": 1,
+          "EdgeRightClick": 1,
+          "VertexLeftClick": 1,
+          "Desktop.Log": 1,
+          "WrappedInternalDesktopPane}": 1,
+          "MessagesPanel._": 1,
+          "cogdebugger.ProbeManager": 1,
+          "ProbeToolbar._": 1,
+          "BoxPanel}": 1,
+          "Orientation": 1,
+          "JInternalFrame}": 1,
+          "DesktopManager": 1,
+          "JDesktopPane._": 1,
+          "InternalDesktopPane._": 1,
+          "DragMode._": 1,
+          "JInternalFrame": 1,
+          "JPanel}": 1,
+          "RootPanel": 1,
+          "Publisher": 1,
+          "UIElement}": 1,
+          "MenuBar": 1,
+          "JLayeredPane}": 1,
+          "LayoutContainer}": 1,
+          "Layer._": 1,
+          "LayeredPane._": 1,
+          "JPopupMenu}": 1,
+          "SequentialContainer}": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "bchandle/cogexmachina",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Scala"
+        ]
+      },
+      {
+        "repository": "bchandle/im-scala-swing",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Scala"
+        ]
+      }
+    ]
+  }
+}

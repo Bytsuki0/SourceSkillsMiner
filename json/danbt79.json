@@ -1,0 +1,352 @@
+{
+  "username": "danbt79",
+  "areas": {
+    "OSS": {
+      "score": -0.5525396793604131,
+      "details": {
+        "issue_resolution_rate": 0.3333333333333333,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.337857147626047
+      }
+    },
+    "Status": {
+      "score": -0.09527472209545584,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.337857147626047,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.16195360036396725,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        61,
+        5
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 5,
+    "total_lines": 61,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 61,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "danbt79",
+    "analysis_date": "2026-02-19T19:15:38.442147",
+    "total_repos_analyzed": 10,
+    "total_files_analyzed": 212,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 11,
+        "packages": {
+          "<Foundation/Foundation.h>": 6,
+          "<Cocoa/Cocoa.h>": 4,
+          "shared.h": 3,
+          "SkinManager.h": 2,
+          "Skin.h": 2,
+          "ITControl.h": 2,
+          "<Growl/GrowlApplicationBridge.h>": 2,
+          "<Growl/GrowlDefines.h>": 2,
+          "ControlView.h": 1,
+          "PreferencesDelegate.h": 1,
+          "Preferences.h": 1,
+          "Shared.h": 1,
+          "Growl/GrowlDefines.h": 1,
+          "Growl/GrowlApplicationBridge.h": 1,
+          "<AppKit/AppKit.h>": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 10,
+        "packages": {
+          "Application.h": 3,
+          "ControlView.h": 1,
+          "ITControl.h": 1,
+          "Growl/GrowlApplicationBridge.h": 1,
+          "Preferences.h": 1,
+          "<Growl/GrowlApplicationBridge.h>": 1,
+          "PreferencesDelegate.h": 1,
+          "PreferencesWindow.h": 1,
+          "Skin.h": 1,
+          "SkinManager.h": 1,
+          "<Cocoa/Cocoa.h>": 1,
+          "Cocoa/Cocoa.h": 1,
+          "shared.h": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 3,
+        "packages": {
+          "limonade/lib/limonade.php": 1,
+          "controllers_dir": 1,
+          "lib_dir": 1,
+          "$view_path": 1,
+          "$config_file": 1,
+          "tests.php": 1,
+          "functional.php": 1,
+          "main.php": 1,
+          "request.php": 1,
+          "output.php": 1,
+          "router.php": 1,
+          "http.php": 1,
+          "file.php": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 62,
+        "packages": {
+          "spec_helper": 8,
+          "chatterbot/dsl": 6,
+          "rubygems": 5,
+          "uri": 4,
+          "I18nLazyScope::Helper": 4,
+          "yaml": 3,
+          "paperclip": 3,
+          "sonia": 3,
+          "set": 2,
+          "cgi": 2,
+          "pathname": 2,
+          "capistrano/scm": 2,
+          "i18n": 2,
+          "launchy": 2,
+          "json": 2,
+          "logger": 2,
+          "rspec": 2,
+          "i18n_lazy_scope/configuration": 2,
+          "i18n_lazy_scope/action_view/helper": 2,
+          "rails": 2,
+          "I18nLazyScope::ActionView::Helper": 2,
+          "i18n_lazy_scope/action_controller/helper": 2,
+          "I18nLazyScope::ActionController::Helper": 2,
+          "i18n_lazy_scope/action_mailer/helper": 2,
+          "i18n_lazy_scope/helper": 2,
+          "I18nLazyScope::ActionMailer::Helper": 2,
+          "paperclip_database": 2,
+          "active_support": 2,
+          "sonia/version": 2,
+          "yajl": 2,
+          "nokogiri": 2,
+          "capistrano/application": 1,
+          "capistrano/i18n": 1,
+          "highline": 1,
+          "capistrano/version": 1,
+          "sshkit": 1,
+          "capistrano/version_validator": 1,
+          "capistrano/dsl": 1,
+          "sshkit/dsl": 1,
+          "rake": 1,
+          "capistrano/configuration": 1,
+          "configuration/servers": 1,
+          "configuration/question": 1,
+          "configuration/server": 1,
+          "roles=": 1,
+          "servers/host_filter": 1,
+          "Enumerable": 1,
+          "servers/role_filter": 1,
+          "capistrano/framework": 1,
+          "capistrano/dsl/task_enhancements": 1,
+          "capistrano/dsl/env": 1,
+          "capistrano/dsl/paths": 1,
+          "Env": 1,
+          "capistrano/dsl/stages": 1,
+          "Stages": 1,
+          "etc": 1,
+          "Paths": 1,
+          "TaskEnhancements": 1,
+          "capistrano/install": 1,
+          "chatterbot": 1,
+          "chatterbot/tweet": 1,
+          "chatterbot/db": 1,
+          "chatterbot/ui": 1,
+          "chatterbot/version": 1,
+          "chatterbot/favorite": 1,
+          "chatterbot/followers": 1,
+          "chatterbot/helpers": 1,
+          "chatterbot/utils": 1,
+          "chatterbot/reply": 1,
+          "chatterbot/config": 1,
+          "twitter": 1,
+          "oauth": 1,
+          "chatterbot/streaming": 1,
+          "chatterbot/search": 1,
+          "chatterbot/logging": 1,
+          "chatterbot/blacklist": 1,
+          "chatterbot/retweet": 1,
+          "chatterbot/bot": 1,
+          "sequel": 1,
+          "chatterbot/client": 1,
+          "Logging": 1,
+          "Reply": 1,
+          "Blacklist": 1,
+          "UI": 1,
+          "Followers": 1,
+          "Search": 1,
+          "Retweet": 1,
+          "Favorite": 1,
+          "DB": 1,
+          "Helpers": 1,
+          "Streaming": 1,
+          "Client": 1,
+          "Utils": 1,
+          "Tweet": 1,
+          "Config": 1,
+          "Chatterbot::DSL": 1,
+          "optparse": 1,
+          "Chatterbot::Helpers": 1,
+          "houston/client": 1,
+          "houston/connection": 1,
+          "houston/notification": 1,
+          "houston/version": 1,
+          "forwardable": 1,
+          "openssl": 1,
+          "socket": 1,
+          ":device=": 1,
+          ":device": 1,
+          "simplecov": 1,
+          "houston": 1,
+          "pry": 1,
+          "i18n_lazy_scope/version": 1,
+          "i18n_lazy_scope/railtie": 1,
+          "i18n_lazy_scope": 1,
+          "support/fake_view": 1,
+          "support/fake_mailer": 1,
+          "support/fake_controller": 1,
+          "sqlite3": 1,
+          "capybara/rails": 1,
+          "gherkin": 1,
+          "fileutils": 1,
+          "capybara": 1,
+          "capybara/cucumber": 1,
+          "aruba/cucumber": 1,
+          "fake_web": 1,
+          "rails/generators/active_record": 1,
+          "paperclip/storage/database": 1,
+          "paperclip_database/version": 1,
+          "paperclip_database/deconstantize": 1,
+          "test/unit": 1,
+          "ostruct": 1,
+          "active_record/version": 1,
+          "lib": 1,
+          "Paperclip::Glue": 1,
+          "active_support/core_ext": 1,
+          "mocha/setup": 1,
+          "tempfile": 1,
+          "active_record": 1,
+          "spec/expectations": 1,
+          "thor": 1,
+          "irb/completion": 1,
+          "irb": 1,
+          "em-websocket": 1,
+          "thin": 1,
+          "em-http": 1,
+          "eventmachine": 1,
+          "sinatra": 1,
+          "haml": 1,
+          "digest/sha1": 1,
+          "file": 1,
+          "sonia/config": 1,
+          "spec/autorun": 1,
+          "spec": 1,
+          "twitter/json_stream": 1,
+          "digest/md5": 1,
+          "pp": 1,
+          "ROXML": 1,
+          "roxml": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "danbt79/bytecontroller",
+        "files_analyzed": 22,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "danbt79/capistrano",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danbt79/chatterbot",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danbt79/houston",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danbt79/httpcode",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "danbt79/i18n_lazy_scope",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danbt79/paperclip_database",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danbt79/sonia",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

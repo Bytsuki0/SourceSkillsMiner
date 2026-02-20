@@ -1,0 +1,604 @@
+{
+  "username": "skrat",
+  "areas": {
+    "OSS": {
+      "score": 0.4761904761904763,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.7142857142857143,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4358974358974359,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "skrat/bpycollada": 0.31649375,
+        "skrat/hickory": -0.0707,
+        "skrat/rabbitmq-etcd": -0.11819999999999999,
+        "skrat/sunflow": 0.5023
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.503021978021978,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Clojure": [
+        7279,
+        21
+      ],
+      "CSS": [
+        7412,
+        10
+      ],
+      "Go": [
+        622,
+        0
+      ],
+      "HTML": [
+        406,
+        0
+      ],
+      "Shell": [
+        9690,
+        36
+      ],
+      "Nginx": [
+        60,
+        0
+      ],
+      "Python": [
+        8150,
+        59
+      ],
+      "Ruby": [
+        3969,
+        27
+      ],
+      "JavaScript": [
+        746,
+        17
+      ],
+      "Emacs Lisp": [
+        1452,
+        5
+      ],
+      "Vim Script": [
+        91,
+        0
+      ],
+      "Perl": [
+        82,
+        0
+      ],
+      "Java": [
+        1363,
+        7
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Scala": [
+        6007,
+        30
+      ],
+      "C++": [
+        139,
+        0
+      ],
+      "C": [
+        6,
+        0
+      ],
+      "PHP": [
+        146,
+        1
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 213,
+    "total_lines": 47620,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 8150,
+        "commits": 59
+      },
+      {
+        "language": "Shell",
+        "lines": 9690,
+        "commits": 36
+      },
+      {
+        "language": "Scala",
+        "lines": 6007,
+        "commits": 30
+      },
+      {
+        "language": "Ruby",
+        "lines": 3969,
+        "commits": 27
+      },
+      {
+        "language": "Clojure",
+        "lines": 7279,
+        "commits": 21
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "skrat",
+    "analysis_date": "2026-02-19T21:05:50.065269",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 130,
+    "languages": {
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "fmt": 1,
+          "flag": 1,
+          "crypto/sha1": 1,
+          "github.com/go-martini/martini": 1,
+          "crypto/rand": 1,
+          "github.com/garyburd/redigo/redis": 1,
+          "text/template": 1,
+          "net/http": 1,
+          "os": 1,
+          "bytes": 1,
+          "io/ioutil": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 2,
+        "packages": {
+          "clojure.core": 2,
+          "mikera.cljunit": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "fs": 3,
+          "base64tests": 1,
+          "http": 1,
+          "ini": 1,
+          "amqp": 1,
+          "socket.io": 1,
+          "msgpack": 1,
+          "url": 1,
+          "path": 1,
+          "system": 1,
+          "webpage": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 56,
+        "packages": {
+          "django": 45,
+          "settings": 23,
+          "os": 16,
+          "cms": 15,
+          "thumbnails": 10,
+          "Page": 7,
+          "Site": 6,
+          "models": 5,
+          "ugettext": 5,
+          "File": 5,
+          "TestCase": 5,
+          "get_apps": 4,
+          "cache": 4,
+          "conf": 4,
+          "apphook_pool": 4,
+          "plugin_pool": 4,
+          "ugettext_lazy": 4,
+          "copy": 4,
+          "bpy": 3,
+          "tempfile": 3,
+          "sys": 3,
+          "Http404": 3,
+          "Title": 3,
+          "forms": 3,
+          "render_to_response": 3,
+          "patterns": 3,
+          "NoPermissionsException": 3,
+          "deepcopy": 3,
+          "admin": 3,
+          "RequestContext": 3,
+          "get_language_from_request": 3,
+          "ImproperlyConfigured": 3,
+          "images": 3,
+          "bpy_extras": 2,
+          "collada": 2,
+          "Matrix": 2,
+          "mathutils": 2,
+          "Collada": 2,
+          "__future__": 2,
+          "shutil": 2,
+          "appmedia": 2,
+          "reverse": 2,
+          "setuptools": 2,
+          "setup": 2,
+          "NoHomeFound": 2,
+          "MASK_PAGE": 2,
+          "menus": 2,
+          "menu_pool": 2,
+          "force_unicode": 2,
+          "Version": 2,
+          "ModelAdmin": 2,
+          "Placeholder": 2,
+          "has_plugin_permission": 2,
+          "reversion": 2,
+          "warnings": 2,
+          "patch": 2,
+          "get_site_choices": 2,
+          "mark_safe": 2,
+          "StrictRedis": 2,
+          "Source": 2,
+          "redis": 2,
+          "import_attribute": 2,
+          "compat": 2,
+          "shortuuid": 2,
+          "ImageField": 2,
+          "south": 2,
+          "metadata": 2,
+          "RedisBackend": 2,
+          "ImportHelper": 1,
+          "EnumProperty": 1,
+          "StringProperty": 1,
+          "BoolProperty": 1,
+          "CollectionProperty": 1,
+          "imp": 1,
+          "FloatSource": 1,
+          "tag": 1,
+          "MatrixTransform": 1,
+          "Node": 1,
+          "Geometry": 1,
+          "Effect": 1,
+          "numpy": 1,
+          "GeometryNode": 1,
+          "AmbientLight": 1,
+          "BoundPrimitive": 1,
+          "BPyOpsSubModOp": 1,
+          "TriangleSet": 1,
+          "Map": 1,
+          "DaeBrokenRefError": 1,
+          "load_image": 1,
+          "Scene": 1,
+          "PerspectiveCamera": 1,
+          "contextlib": 1,
+          "NamedTemporaryFile": 1,
+          "Polylist": 1,
+          "contextmanager": 1,
+          "math": 1,
+          "ConfigParser": 1,
+          "json": 1,
+          "argparse": 1,
+          "etcd": 1,
+          "types": 1,
+          "string": 1,
+          "codecs": 1,
+          "name2codepoint": 1,
+          "sgmllib": 1,
+          "chardet": 1,
+          "SGMLParser": 1,
+          "cjkcodecs": 1,
+          "htmlentitydefs": 1,
+          "re": 1,
+          "iconv_codec": 1,
+          "generators": 1,
+          "subelements": 1,
+          "LabelCommand": 1,
+          "NoArgsCommand": 1,
+          "BeautifulSoup": 1,
+          "md5": 1,
+          "*": 1,
+          "serve": 1,
+          "cache_page": 1,
+          "patch_settings": 1,
+          "permissionadmin": 1,
+          "useradmin": 1,
+          "pageadmin": 1,
+          "ChangeList": 1,
+          "SITE_VAR": 1,
+          "mptt": 1,
+          "get_user_sites_queryset": 1,
+          "mptt_tags": 1,
+          "current_site": 1,
+          "staff_member_required": 1,
+          "PermissionAndModeratorForm": 1,
+          "UserCreationForm": 1,
+          "slugify": 1,
+          "BooleanField": 1,
+          "ErrorList": 1,
+          "ValidationError": 1,
+          "get_page_from_path": 1,
+          "any_path_re": 1,
+          "ContentType": 1,
+          "HiddenInput": 1,
+          "UserSelectAdminWidget": 1,
+          "Permission": 1,
+          "mail_page_user_change": 1,
+          "is_valid_page_slug": 1,
+          "RelatedObject": 1,
+          "BaseInlineFormSet": 1,
+          "transaction": 1,
+          "CharField": 1,
+          "PageForm": 1,
+          "inspect": 1,
+          "CMSChangeList": 1,
+          "PermissionDenied": 1,
+          "VersionAdmin": 1,
+          "get_copy_dialog": 1,
+          "ERROR_FLAG": 1,
+          "PagePermissionsPermissionManager": 1,
+          "unquote": 1,
+          "page_changed": 1,
+          "revert_plugins": 1,
+          "PluginEditor": 1,
+          "IncorrectLookupParameters": 1,
+          "template": 1,
+          "=": 1,
+          "router": 1,
+          "title": 1,
+          "get_user_permission_level": 1,
+          "CMSPlugin": 1,
+          "force_escape": 1,
+          "PlaceholderField": 1,
+          "PlaceholderFormField": 1,
+          "PageUserForm": 1,
+          "GenericCmsPermissionAdmin": 1,
+          "UserAdmin": 1,
+          "PageUser": 1,
+          "get_subordinate_users": 1,
+          "get_object_or_404": 1,
+          "load": 1,
+          "AppAlreadyRegistered": 1,
+          "CMSApp": 1,
+          "all": 1,
+          "RegexURLResolver": 1,
+          "get_page_queryset": 1,
+          "import_module": 1,
+          "global_settings": 1,
+          "pre_patch": 1,
+          "warn": 1,
+          "validate_template": 1,
+          "Loader": 1,
+          "sekizai": 1,
+          "PageSelectWidget": 1,
+          "EMPTY_VALUES": 1,
+          "i18n": 1,
+          "defaultdict": 1,
+          "post_save": 1,
+          "translation": 1,
+          "collections": 1,
+          "render_to_string": 1,
+          "Select": 1,
+          "the": 1,
+          "introspector": 1,
+          "ImageFieldFile": 1,
+          "force_str": 1,
+          "apps": 1,
+          "BaseCommand": 1,
+          "unicode_literals": 1,
+          "call": 1,
+          "subprocess": 1,
+          "imghdr": 1,
+          "da_vinci": 1,
+          "io": 1,
+          "ContentFile": 1,
+          "SchemaMigration": 1,
+          "db": 1,
+          "datetime_utils": 1,
+          "FileSystemStorage": 1,
+          "call_command": 1,
+          "fetch_thumbnails": 1,
+          "Thumbnail": 1,
+          "Context": 1,
+          "get_path": 1,
+          "ThumbnailMeta": 1,
+          "unittest": 1,
+          "DatabaseBackend": 1,
+          "ImageMeta": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 18,
+        "packages": {
+          "test/unit": 8,
+          "builder/xmlmarkup": 4,
+          "test/preload": 4,
+          "builder/blankslate": 3,
+          "builder/xchar": 3,
+          "builder": 3,
+          "builder/xmlevents": 2,
+          "stringio": 2,
+          "blankslate_original_append_features": 1,
+          "blankslate": 1,
+          "builder/xmlbase": 1,
+          "Builder": 1,
+          "benchmark": 1,
+          "Benchmark": 1,
+          "GlobalModule": 1,
+          "LateKernel": 1,
+          "LateObject": 1,
+          "builder/css": 1,
+          "uuid": 1,
+          "amqp": 1,
+          "celerb/task": 1,
+          "rubygems": 1,
+          "msgpack": 1,
+          "celerb/result_consumer": 1,
+          "celerb/task_publisher": 1,
+          ":create_v3": 1,
+          "guid": 1,
+          "Comparable": 1,
+          "digest/md5": 1,
+          "tmpdir": 1,
+          "digest/sha1": 1,
+          "w": 1,
+          ":create_v5": 1,
+          ":create_v4": 1,
+          "r+": 1,
+          "urn": 1,
+          ":create_v1": 1,
+          "the": 1,
+          "to_i": 1,
+          "test/thumbTask.pb": 1,
+          "Celerb::Task": 1,
+          "protobuf/message/service": 1,
+          "protobuf/message/enum": 1,
+          "protobuf/message/message": 1,
+          "protobuf/message/extend": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 29,
+        "packages": {
+          "std": 25,
+          "crate": 20,
+          "alacritty_terminal": 20,
+          "log": 13,
+          "winit": 11,
+          "serde": 9,
+          "alacritty_config_derive": 8,
+          "super": 7,
+          "serde_yaml": 4,
+          "crossfont": 3,
+          "unicode_width": 2,
+          "libc": 2,
+          "glutin": 2,
+          "gl_generator": 1,
+          "clap": 1,
+          "clap_complete": 1,
+          "copypasta": 1,
+          "bitflags": 1,
+          "de": 1,
+          "notify": 1,
+          "windows_sys": 1,
+          "parking_lot": 1,
+          "raw_window_handle": 1,
+          "wayland_client": 1,
+          "objc": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "skrat/alacritty",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "skrat/base64-arraybuffer",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "skrat/beven",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "skrat/bpycollada",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "skrat/builder",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "skrat/celerb",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "skrat/celery.js",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "skrat/clojurescript.test",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "skrat/core.matrix",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "skrat/django-appmedia",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "skrat/django-cms",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "skrat/django-thumbnails",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

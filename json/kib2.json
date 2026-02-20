@@ -1,0 +1,214 @@
+{
+  "username": "kib2",
+  "areas": {
+    "OSS": {
+      "score": -0.5856876767546884,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6214684848679674
+      }
+    },
+    "Status": {
+      "score": 0.11944052837351671,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6214684848679674,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.11656178709529291,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        7593,
+        19
+      ],
+      "Clojure": [
+        99,
+        0
+      ],
+      "Python": [
+        1692,
+        5
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 24,
+    "total_lines": 9384,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 7593,
+        "commits": 19
+      },
+      {
+        "language": "Python",
+        "lines": 1692,
+        "commits": 5
+      },
+      {
+        "language": "Clojure",
+        "lines": 99,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "kib2",
+    "analysis_date": "2026-02-19T18:58:14.013062",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 29,
+    "languages": {
+      "Python": {
+        "files_scanned": 11,
+        "packages": {
+          "os": 6,
+          "*": 3,
+          "sys": 3,
+          "md5": 3,
+          "re": 3,
+          "time": 2,
+          "ftplib": 2,
+          "path": 2,
+          "string": 2,
+          "docutils": 2,
+          "codecs": 2,
+          "ConfigParser": 2,
+          "markdown": 2,
+          "glob": 2,
+          "datetime": 2,
+          "get_lexer_by_name": 2,
+          "pygments": 2,
+          "highlight": 2,
+          "HtmlFormatter": 2,
+          "shutil": 2,
+          "peg": 2,
+          "LittleBlogger": 1,
+          "logging": 1,
+          "pickle": 1,
+          "RegisterPygment": 1,
+          "FtpUpload": 1,
+          "mako": 1,
+          "publish_parts": 1,
+          "PyRSS2Gen": 1,
+          "localtime": 1,
+          "TemplateLookup": 1,
+          "itertools": 1,
+          "Template": 1,
+          "FTP": 1,
+          "xml": 1,
+          "saxutils": 1,
+          "cStringIO": 1,
+          "StringIO": 1,
+          "Keyword": 1,
+          "STYLE_MAP": 1,
+          "publish_cmdline": 1,
+          "locale": 1,
+          "get_style_by_name": 1,
+          "nodes": 1,
+          "directives": 1,
+          "popen3": 1,
+          "pwd": 1,
+          "generators": 1,
+          "warnings": 1,
+          "fnmatch": 1,
+          "win32security": 1,
+          "D": 1,
+          "__future__": 1,
+          "linesep=": 1,
+          "the": 1,
+          "factor_eval": 1,
+          "cache": 1,
+          "pango": 1,
+          "cairo": 1,
+          "gtk": 1,
+          "poppler": 1,
+          "subprocess": 1,
+          "gobject": 1,
+          "gtksourceview2": 1,
+          "call": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 7,
+        "packages": {
+          "Prism": 3,
+          "cgi": 2,
+          "benchmark": 2,
+          "grammars/lang_#{lang}": 1,
+          "coderay": 1,
+          "uv": 1,
+          "rubygems": 1,
+          "erb": 1,
+          "creole": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "kib2/littleblogger",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kib2/Prism",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "kib2/PyPeg",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kib2/Ruby-Creole",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "kib2/texbases",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

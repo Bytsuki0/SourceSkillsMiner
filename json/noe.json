@@ -1,0 +1,747 @@
+{
+  "username": "noe",
+  "areas": {
+    "OSS": {
+      "score": 0.4718196457326893,
+      "details": {
+        "issue_resolution_rate": 0.6521739130434783,
+        "pr_merge_rate": 0.5555555555555556,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "noe/encoding": 0.19885999999999998,
+        "noe/seqp": -0.009666666666666665,
+        "noe/whatsapp2md": 0.3272529411764706,
+        "noe/wmt19-news-lowres": -0.02034999999999998
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5487241422024032,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Perl 6": [
+        15,
+        1
+      ],
+      "Perl": [
+        12,
+        1
+      ],
+      "Python": [
+        16396,
+        135
+      ],
+      "Shell": [
+        12079,
+        102
+      ],
+      "JavaScript": [
+        1405,
+        31
+      ],
+      "CSS": [
+        1738,
+        18
+      ],
+      "HTML": [
+        20463,
+        41
+      ],
+      "Kotlin": [
+        1146,
+        6
+      ],
+      "C++": [
+        11267,
+        89
+      ],
+      "Cuda": [
+        0,
+        0
+      ],
+      "Lua": [
+        0,
+        0
+      ],
+      "CMake": [
+        1,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "Makefile": [
+        7,
+        0
+      ],
+      "TeX": [
+        28291,
+        39
+      ],
+      "Jupyter Notebook": [
+        1613,
+        13
+      ],
+      "Ruby": [
+        17,
+        0
+      ],
+      "Java": [
+        84598,
+        6
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 482,
+    "total_lines": 179048,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 16396,
+        "commits": 135
+      },
+      {
+        "language": "Shell",
+        "lines": 12079,
+        "commits": 102
+      },
+      {
+        "language": "C++",
+        "lines": 11267,
+        "commits": 89
+      },
+      {
+        "language": "HTML",
+        "lines": 20463,
+        "commits": 41
+      },
+      {
+        "language": "TeX",
+        "lines": 28291,
+        "commits": 39
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "noe",
+    "analysis_date": "2026-02-19T15:12:05.712505",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 209,
+    "languages": {
+      "C++": {
+        "files_scanned": 10,
+        "packages": {
+          "string": 4,
+          "<string>": 4,
+          "iostream": 4,
+          "<iostream>": 4,
+          "encoding/codec.hpp": 4,
+          "gtest/gtest.h": 4,
+          "<gtest/gtest.h>": 4,
+          "namespace": 3,
+          "test_functions.hpp": 3,
+          "golib/util.hpp": 3,
+          "encoding/float.hpp": 2,
+          "sstream": 2,
+          "encoding": 2,
+          "encoding/input.hpp": 2,
+          "std": 2,
+          "<sstream>": 2,
+          "encoding/output.hpp": 2,
+          "encoding/enum.hpp": 2,
+          "encoding/integer.hpp": 2,
+          "test_integer.hpp": 1,
+          "test_enum.hpp": 1,
+          "ctime": 1,
+          "<ctime>": 1,
+          "cstdlib": 1,
+          "<cstdlib>": 1,
+          "test_streams.hpp": 1,
+          "test_float.hpp": 1,
+          "gene/coding/dna.hpp": 1,
+          "utility": 1,
+          "gene": 1,
+          "gene/policies.hpp": 1,
+          "<utility>": 1,
+          "gene/algorithm.hpp": 1,
+          "boost/noncopyable.hpp": 1,
+          "<boost/noncopyable.hpp>": 1,
+          "gene::coding::dna": 1,
+          "golib/literals.hpp": 1,
+          "golib/board.hpp": 1,
+          "cassert": 1,
+          "<cassert>": 1,
+          "golib/game.hpp": 1,
+          "golib/hash.hpp": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 58,
+        "packages": {
+          "<string>": 27,
+          "string": 27,
+          "fdeep/layers/layer.hpp": 15,
+          "vector": 13,
+          "<vector>": 13,
+          "<algorithm>": 11,
+          "algorithm": 11,
+          "<limits>": 8,
+          "limits": 8,
+          "cassert": 7,
+          "<cassert>": 7,
+          "<fplus/fplus.hpp>": 7,
+          "fplus/fplus.hpp": 7,
+          "memory": 7,
+          "<memory>": 7,
+          "<cstddef>": 7,
+          "cstddef": 7,
+          "fdeep/recurrent_ops.hpp": 6,
+          "gene/policies.hpp": 6,
+          "encoding/codec.hpp": 5,
+          "fdeep/common.hpp": 5,
+          "fdeep/filter.hpp": 5,
+          "fdeep/tensor_shape.hpp": 5,
+          "random": 5,
+          "<random>": 5,
+          "golib/types.hpp": 5,
+          "<stdexcept>": 4,
+          "stdexcept": 4,
+          "fdeep/tensor.hpp": 4,
+          "map": 4,
+          "<map>": 4,
+          "<functional>": 4,
+          "functional": 4,
+          "fdeep/layers/activation_layer.hpp": 4,
+          "fdeep/layers/global_pooling_layer.hpp": 4,
+          "<cmath>": 3,
+          "cmath": 3,
+          "fdeep/convolution.hpp": 3,
+          "fdeep/shape2.hpp": 3,
+          "gene/fitness.hpp": 3,
+          "golib/board.hpp": 3,
+          "encoding/integer.hpp": 2,
+          "nlohmann/json.hpp": 2,
+          "<nlohmann/json.hpp>": 2,
+          "fdeep/tensor_shape_variable.hpp": 2,
+          "fdeep/layers/pooling_2d_layer.hpp": 2,
+          "<utility>": 2,
+          "utility": 2,
+          "<boost/noncopyable.hpp>": 2,
+          "boost/noncopyable.hpp": 2,
+          "<array>": 2,
+          "array": 2,
+          "Fitness": 2,
+          "FitnessPtr": 2,
+          "Population": 2,
+          "Individual": 2,
+          "boost/variant.hpp": 2,
+          "<boost/variant.hpp>": 2,
+          "list": 2,
+          "<list>": 2,
+          "<boost/dynamic_bitset.hpp>": 1,
+          "boost/dynamic_bitset.hpp": 1,
+          "encoding/detail/enum_impl.hpp": 1,
+          "codec.hpp": 1,
+          "encoding/detail/float_impl.hpp": 1,
+          "encoding/detail/input_impl.hpp": 1,
+          "encoding/detail/integer_impl.hpp": 1,
+          "encoding/detail/output_impl.hpp": 1,
+          "<gtest/gtest.h>": 1,
+          "gtest/gtest.h": 1,
+          "<cstdint>": 1,
+          "cstdint": 1,
+          "MappedRowMajorMatrixXf": 1,
+          "aligned_vector": 1,
+          "MappedColMajorMatrixXf": 1,
+          "<Eigen/Core>": 1,
+          "ColMajorMatrixXf": 1,
+          "Eigen/Core": 1,
+          "RowMajorMatrixXf": 1,
+          "MappedColMajorMatrixXfUnaligned": 1,
+          "MappedColMajorMatrixXfUnalignedOuterStride": 1,
+          "fdeep/import_model.hpp": 1,
+          "fdeep/node.hpp": 1,
+          "fdeep/tensor_pos.hpp": 1,
+          "fdeep/model.hpp": 1,
+          "fdeep/layers/leaky_relu_layer.hpp": 1,
+          "fdeep/layers/concatenate_layer.hpp": 1,
+          "test_cases": 1,
+          "fdeep/layers/relu_layer.hpp": 1,
+          "fdeep/layers/gru_layer.hpp": 1,
+          "fdeep/layers/sigmoid_layer.hpp": 1,
+          "fdeep/layers/tanh_layer.hpp": 1,
+          "fdeep/base64.hpp": 1,
+          "fdeep/layers/bidirectional_layer.hpp": 1,
+          "fdeep/layers/model_layer.hpp": 1,
+          "fdeep/layers/average_pooling_2d_layer.hpp": 1,
+          "fdeep/layers/dense_layer.hpp": 1,
+          "fdeep/layers/reshape_layer.hpp": 1,
+          "fdeep/layers/depthwise_conv_2d_layer.hpp": 1,
+          "fdeep/layers/swish_layer.hpp": 1,
+          "fdeep/layers/global_average_pooling_1d_layer.hpp": 1,
+          "fdeep/layers/flatten_layer.hpp": 1,
+          "fdeep/layers/separable_conv_2d_layer.hpp": 1,
+          "fdeep/layers/upsampling_2d_layer.hpp": 1,
+          "fdeep/layers/exponential_layer.hpp": 1,
+          "fdeep/layers/batch_normalization_layer.hpp": 1,
+          "fdeep/layers/multiply_layer.hpp": 1,
+          "fdeep/layers/normalization_layer.hpp": 1,
+          "fdeep/layers/linear_layer.hpp": 1,
+          "get_param_f": 1,
+          "wrapper_layer_creators": 1,
+          "fdeep/layers/softsign_layer.hpp": 1,
+          "iostream": 1,
+          "fdeep/layers/global_max_pooling_1d_layer.hpp": 1,
+          "fdeep/layers/selu_layer.hpp": 1,
+          "fdeep/layers/softmax_layer.hpp": 1,
+          "fdeep/layers/subtract_layer.hpp": 1,
+          "fdeep/layers/permute_layer.hpp": 1,
+          "fdeep/layers/repeat_vector_layer.hpp": 1,
+          "fdeep/layers/add_layer.hpp": 1,
+          "fdeep/layers/hard_sigmoid_layer.hpp": 1,
+          "fdeep/layers/max_pooling_2d_layer.hpp": 1,
+          "fdeep/layers/zero_padding_2d_layer.hpp": 1,
+          "fdeep/layers/lstm_layer.hpp": 1,
+          "fdeep/layers/cropping_2d_layer.hpp": 1,
+          "fdeep/layers/maximum_layer.hpp": 1,
+          "fdeep/layers/input_layer.hpp": 1,
+          "fdeep/layers/prelu_layer.hpp": 1,
+          "fdeep/layers/average_layer.hpp": 1,
+          "fdeep/layers/gelu_layer.hpp": 1,
+          "fdeep/layers/upsampling_1d_layer.hpp": 1,
+          "fdeep/layers/embedding_layer.hpp": 1,
+          "fdeep/layers/conv_2d_layer.hpp": 1,
+          "fdeep/layers/softplus_layer.hpp": 1,
+          "fdeep/layers/global_average_pooling_2d_layer.hpp": 1,
+          "fdeep/layers/elu_layer.hpp": 1,
+          "layer_creators": 1,
+          "fdeep/layers/global_max_pooling_2d_layer.hpp": 1,
+          "fdeep/layers/time_distributed_layer.hpp": 1,
+          "<iostream>": 1,
+          "gene/algorithm_impl.hpp": 1,
+          "gene/algorithm.hpp": 1,
+          "gene/bitstring_impl.hpp": 1,
+          "gene/coding/dna_impl.hpp": 1,
+          "Combination": 1,
+          "CombinationPtr": 1,
+          "gene/mating.hpp": 1,
+          "gene/selection.hpp": 1,
+          "MutationStrategy": 1,
+          "Codec": 1,
+          "FitnessFunction": 1,
+          "CombinationStrategy": 1,
+          "Function": 1,
+          "Wheel": 1,
+          "typename": 1,
+          "Mutation": 1,
+          "MutationPtr": 1,
+          "<set>": 1,
+          "Survivors": 1,
+          "PopulationMutationRates": 1,
+          "FitnessType": 1,
+          "PopulationFitness": 1,
+          "set": 1,
+          "NumberOfChildren": 1,
+          "PopulationIndex": 1,
+          "<boost/function.hpp>": 1,
+          "boost/function.hpp": 1,
+          "golib/player.hpp": 1,
+          "golib/score.hpp": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 26,
+        "packages": {
+          "com.zachklipp": 19,
+          "androidx.compose": 19,
+          "org.junit": 10,
+          "androidx.ui": 6,
+          "com.mobnetic": 6,
+          "androidx.test": 5,
+          "android.os": 3,
+          "com.google": 3,
+          "kotlin.math": 2,
+          "androidx.annotation": 2,
+          "androidx.appcompat": 2,
+          "org.jetbrains": 1,
+          "androidx.activity": 1,
+          "android.content": 1,
+          "Backstack": 1,
+          "java.lang": 1,
+          "kotlin.collections": 1,
+          "class": 1,
+          "kotlin.properties": 1,
+          "android.view": 1,
+          "fun": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 7,
+        "packages": {
+          "Exporter": 4,
+          "Parse::RecDescent": 3,
+          "Clone": 1,
+          "clone": 1,
+          "Time::HiRes": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 83,
+        "packages": {
+          "os": 35,
+          "torch": 25,
+          "numpy": 25,
+          "sys": 21,
+          "argparse": 21,
+          "math": 18,
+          "fairseq": 18,
+          "collections": 15,
+          "json": 15,
+          "tensorflow": 12,
+          "__future__": 11,
+          "re": 10,
+          "utils": 9,
+          "logging": 8,
+          "nltk": 8,
+          "Counter": 6,
+          "time": 6,
+          "data": 6,
+          "print_function": 6,
+          "tqdm": 6,
+          "division": 6,
+          "models": 6,
+          "options": 6,
+          "Variable": 5,
+          "defaultdict": 5,
+          "subprocess": 5,
+          "random": 5,
+          "pdb": 5,
+          "corpus_bleu": 5,
+          "corpus_gleu": 5,
+          "itertools": 4,
+          "tempfile": 4,
+          "copy": 4,
+          "pickle": 4,
+          "BleuScorer": 4,
+          "registry": 4,
+          "tensor2tensor": 4,
+          "t2t_model": 4,
+          "EOS": 4,
+          "problems": 4,
+          "diffbleu": 4,
+          "GleuScorer": 4,
+          "fairseq_cli": 4,
+          "fileinput": 4,
+          "multiprocessing": 4,
+          "contextlib": 4,
+          "model": 3,
+          "batchify": 3,
+          "hashlib": 3,
+          "weight_drop": 3,
+          "WeightDrop": 3,
+          "functools": 3,
+          "absolute_import": 3,
+          "CiderScorer": 3,
+          "matplotlib": 3,
+          "gumbel_softmax": 3,
+          "examples": 3,
+          "Pool": 3,
+          "redirect_stdout": 3,
+          "FairseqCriterion": 3,
+          "sampling": 2,
+          "top_k_top_p_filtering": 2,
+          "wraps": 2,
+          "typing": 2,
+          "pathlib": 2,
+          "shutil": 2,
+          "Optional": 2,
+          "Path": 2,
+          "apex": 2,
+          "nn": 2,
+          "CrossEntropyLoss": 2,
+          "string": 2,
+          "encoder": 2,
+          "COCOEvalCap": 2,
+          "COCO": 2,
+          "cider_scorer": 2,
+          "modified_precision": 2,
+          "namedtuple": 2,
+          "SummaryWriterCache": 2,
+          "common_layers": 2,
+          "metrics": 2,
+          "custom_corpus_gleu": 2,
+          "TransformerModel": 2,
+          "sacremoses": 2,
+          "generate": 2,
+          "FairseqTask": 2,
+          "wav2letter": 2,
+          "zipfile": 1,
+          "splitcross": 1,
+          "SplitCrossEntropyLoss": 1,
+          "locked_dropout": 1,
+          "torchqrnn": 1,
+          "LockedDropout": 1,
+          "embedded_dropout": 1,
+          "QRNNLayer": 1,
+          "embed_regularize": 1,
+          "io": 1,
+          "Parameter": 1,
+          "izip": 1,
+          "stanford_corenlp_pywrapper": 1,
+          "sockwrap": 1,
+          "BertConfig": 1,
+          "modeling": 1,
+          "boto3": 1,
+          "requests": 1,
+          "botocore": 1,
+          "ClientError": 1,
+          "urllib": 1,
+          "sha256": 1,
+          "urlparse": 1,
+          "FusedLayerNorm": 1,
+          "tarfile": 1,
+          "required": 1,
+          "clip_grad_norm_": 1,
+          "Optimizer": 1,
+          "unicodedata": 1,
+          "the": 1,
+          "PYTORCH_PRETRAINED_BERT_CACHE": 1,
+          "FusedAdam": 1,
+          "PreTrainedBertModel": 1,
+          "DistributedDataParallel": 1,
+          "TensorDataset": 1,
+          "DistributedSampler": 1,
+          "BertAdam": 1,
+          "whitespace_tokenize": 1,
+          "FP16_Optimizer": 1,
+          "pytorch_pretrained_bert": 1,
+          "cPickle": 1,
+          "basic": 1,
+          "ROOT_PATH": 1,
+          "codecs": 1,
+          "evals": 1,
+          "pack_padded_sequence": 1,
+          "Vocabulary": 1,
+          "get_loader": 1,
+          "read_data": 1,
+          "decode_sequence": 1,
+          "scipy": 1,
+          "LoadData": 1,
+          "pydataformat": 1,
+          "pyciderevalcap": 1,
+          "CIDErEvalCap": 1,
+          "ciderD_scorer": 1,
+          "tokenizer": 1,
+          "CiderD": 1,
+          "PTBTokenizer": 1,
+          "Cider": 1,
+          "ciderD": 1,
+          "cider": 1,
+          "pycxtools": 1,
+          "skimage": 1,
+          "pycxevalcap": 1,
+          "pylab": 1,
+          "bleu_scorer": 1,
+          "get_distribution": 1,
+          "pkg_resources": 1,
+          "transformer_base": 1,
+          "SymbolModality": 1,
+          "Transformer": 1,
+          "everygrams": 1,
+          "sentence_bleu": 1,
+          "sentence_gleu": 1,
+          "_ExpRelaxedOneHotCategorical": 1,
+          "ExpRelaxedOneHotCategorical": 1,
+          "seaborn": 1,
+          "pandas": 1,
+          "sequence_loss": 1,
+          "SpaceID": 1,
+          "Seq2SeqAttn": 1,
+          "ngrams": 1,
+          "product": 1,
+          "bibtexparser": 1,
+          "stat": 1,
+          "colorsys": 1,
+          "ST_MTIME": 1,
+          "sets": 1,
+          "check_call": 1,
+          "cli_main": 1,
+          "MosesTokenizer": 1,
+          "cpu_count": 1,
+          "Characters": 1,
+          "ByteBPE": 1,
+          "Bytes": 1,
+          "SentencepieceBPE": 1,
+          "sentencepiece": 1,
+          "byte_encode": 1,
+          "register_model": 1,
+          "dictionary": 1,
+          "bleu": 1,
+          "eval_lm": 1,
+          "get_encoder": 1,
+          "encoders": 1,
+          "LegacyFairseqCriterion": 1,
+          "en_core_web_lg": 1,
+          "MosesDetokenizer": 1,
+          "lru_cache": 1,
+          "pack_replabels": 1,
+          "ASGLoss": 1,
+          "groupby": 1,
+          "encoder_padding_mask_to_lengths": 1,
+          "Code": 1,
+          "importlib": 1,
+          "SummaryWriter": 1,
+          "TranslationTask": 1,
+          "register_task": 1,
+          "tensorboardX": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "noe/awd-lstm-lm",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "noe/cfilt_preorder",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Perl",
+          "Python"
+        ]
+      },
+      {
+        "repository": "noe/cmrc2019",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "noe/coco-cn",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "noe/compMT",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "noe/compose-backstack",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "noe/compose-shared-element",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "noe/differentiable-bleu",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "noe/draw-citation-graph",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "noe/encoding",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "noe/fairseq",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "noe/fairseq-tensorboard",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "noe/frugally-deep",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "noe/gene",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "noe/golib",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      }
+    ]
+  }
+}

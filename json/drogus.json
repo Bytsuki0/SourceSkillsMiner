@@ -1,0 +1,678 @@
+{
+  "username": "drogus",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.6382978723404256,
+        "pr_merge_rate": 6.9,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.75,
+      "details": {
+        "drogus/active_admin": 0.24003333333333332,
+        "drogus/apache-upload-progress-module": 0.33502200000000004,
+        "drogus/blog_engine": 0.46021999999999996,
+        "drogus/bulk_api": 0.28795333333333334,
+        "drogus/developer.stoliczku.pl": 0.11315,
+        "drogus/ember-cli-inline-images": -0.6705,
+        "drogus/iridium": -0.2053,
+        "drogus/jawsm": 0.4926,
+        "drogus/jquery-upload-progress": 0.24730714285714286,
+        "drogus/rails-parts": 0.46236666666666665,
+        "drogus/spree": 0.3818,
+        "drogus/terraform-provider-parameters-manager": -0.11315
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7400641025641026,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        139562,
+        204
+      ],
+      "JavaScript": [
+        93828,
+        157
+      ],
+      "C": [
+        999,
+        37
+      ],
+      "Makefile": [
+        434,
+        1
+      ],
+      "Eagle": [
+        4815,
+        2
+      ],
+      "CoffeeScript": [
+        16,
+        0
+      ],
+      "C#": [
+        415,
+        1
+      ],
+      "Rust": [
+        118131,
+        356
+      ],
+      "Dockerfile": [
+        556,
+        1
+      ],
+      "Shell": [
+        4393,
+        25
+      ],
+      "RenderScript": [
+        0,
+        0
+      ],
+      "Lua": [
+        1547,
+        5
+      ],
+      "Emacs Lisp": [
+        15901,
+        11
+      ],
+      "HTML": [
+        25,
+        0
+      ],
+      "C++": [
+        88,
+        1
+      ],
+      "WebAssembly": [
+        404,
+        1
+      ],
+      "Java": [
+        208,
+        6
+      ],
+      "Objective-C": [
+        6453,
+        3
+      ],
+      "TypeScript": [
+        2322,
+        1
+      ],
+      "Python": [
+        1,
+        0
+      ],
+      "Perl": [
+        0,
+        0
+      ],
+      "PowerShell": [
+        0,
+        0
+      ],
+      "Go": [
+        3715,
+        19
+      ],
+      "HCL": [
+        71,
+        0
+      ]
+    },
+    "language_count": 24,
+    "total_commits": 831,
+    "total_lines": 393884,
+    "top_5_languages": [
+      {
+        "language": "Rust",
+        "lines": 118131,
+        "commits": 356
+      },
+      {
+        "language": "Ruby",
+        "lines": 139562,
+        "commits": 204
+      },
+      {
+        "language": "JavaScript",
+        "lines": 93828,
+        "commits": 157
+      },
+      {
+        "language": "C",
+        "lines": 999,
+        "commits": 37
+      },
+      {
+        "language": "Shell",
+        "lines": 4393,
+        "commits": 25
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "drogus",
+    "analysis_date": "2026-02-19T20:14:56.515901",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 426,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "apr_pools.h": 1,
+          "<ctype.h>": 1,
+          "<apr_pools.h>": 1,
+          "ap_config.h": 1,
+          "apr_strings.h": 1,
+          "http_log.h": 1,
+          "http_core.h": 1,
+          "<apr_strings.h>": 1,
+          "http_request.h": 1,
+          "ap_backports.h": 1,
+          "apr_version.h": 1,
+          "<http_request.h>": 1,
+          "unistd.h": 1,
+          "http_protocol.h": 1,
+          "ctype.h": 1,
+          "apr_shm.h": 1,
+          "<apr_version.h>": 1,
+          "<unistd.h>": 1,
+          "<http_core.h>": 1,
+          "apr_rmm.h": 1,
+          "unixd.h": 1,
+          "<stdint.h>": 1,
+          "<http_log.h>": 1,
+          "<http_protocol.h>": 1,
+          "<ap_config.h>": 1,
+          "stdint.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 27,
+        "packages": {
+          "System.Collections.Generic": 21,
+          "System": 14,
+          "System.Collections": 11,
+          "System.Linq": 10,
+          "System.Text": 8,
+          "System.Threading.Tasks": 7,
+          "Newtonsoft.Json": 5,
+          "SpacetimeDB.SATS": 4,
+          "System.Collections.Concurrent": 3,
+          "System.Reflection": 3,
+          "UnityEngine": 3,
+          "System.IO": 3,
+          "System.Numerics": 2,
+          "System.Net.WebSockets": 2,
+          "System.Threading": 2,
+          "Namespace": 2,
+          "pbr": 1,
+          "scg": 1,
+          "pbc": 1,
+          "pb": 1,
+          "System.Runtime.CompilerServices": 1,
+          "System.Runtime.InteropServices": 1,
+          "ClientApi": 1,
+          "var": 1,
+          "System.Threading.Channels": 1,
+          "Channel": 1,
+          "Thread": 1,
+          "Newtonsoft.Json.Serialization": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "sys/ipc.h": 1,
+          "sys/file.h": 1,
+          "<sys/ipc.h>": 1,
+          "<sys/mutex.h>": 1,
+          "sys/mman.h": 1,
+          "sys/mutex.h": 1,
+          "<sys/shm.h>": 1,
+          "ap_release.h": 1,
+          "sys/shm.h": 1,
+          "<sys/file.h>": 1,
+          "<sys/mman.h>": 1,
+          "<ap_release.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "debug": 12,
+          "system": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 130,
+        "packages": {
+          "helper": 12,
+          "rubygems": 10,
+          "uri": 6,
+          "InstanceMethods": 6,
+          "spec_helper": 6,
+          "fileutils": 5,
+          "ActionView::Helpers::TextHelper": 5,
+          "sproutcore/builders/base": 4,
+          "bundler": 4,
+          "set": 4,
+          "capybara": 4,
+          "active_record": 3,
+          "fastercsv": 3,
+          "digest/sha1": 3,
+          "bundler/setup": 3,
+          "GemHelpers": 3,
+          "MatchPlatform": 3,
+          "active_support/time": 3,
+          "capybara/dsl": 3,
+          "yaml": 2,
+          "chance": 2,
+          "json": 2,
+          "cgi": 2,
+          "capybara/cucumber": 2,
+          "rails": 2,
+          "SendGrid": 2,
+          "digest/md5": 2,
+          "digest/sha2": 2,
+          "rails/all": 2,
+          "test_helper": 2,
+          "action_mailer/railtie": 2,
+          "action_view/railtie": 2,
+          "active_model/railtie": 2,
+          "action_controller/railtie": 2,
+          "active_record/railtie": 2,
+          "Enumerable": 2,
+          "bundler/rubygems_ext": 2,
+          "pathname": 2,
+          "eql?": 2,
+          "rubygems/spec_fetcher": 2,
+          "time": 2,
+          "active_support": 2,
+          "thread": 2,
+          "active_support/core_ext": 2,
+          "capybara/spec/test_app": 2,
+          "nokogiri": 2,
+          "capybara/rspec/matchers": 2,
+          "Capybara::Node::Finders": 2,
+          "Capybara::Node::Matchers": 2,
+          "capybara/util/timeout": 2,
+          "sproutcore/render_engines/erubis": 1,
+          "sproutcore/version": 1,
+          "ruby-prof": 1,
+          "each": 1,
+          "extlib": 1,
+          "sproutcore/deprecated/view_helper": 1,
+          "sproutcore/helpers": 1,
+          "sproutcore/models": 1,
+          "sproutcore/render_engines/haml": 1,
+          "sproutcore/rack": 1,
+          "sproutcore/buildfile": 1,
+          "jcode": 1,
+          "sproutcore/tools": 1,
+          "sproutcore/builders": 1,
+          "logger": 1,
+          "sproutcore/builders/handlebars": 1,
+          "sproutcore/builders/strings": 1,
+          "sproutcore/builders/less": 1,
+          "sproutcore/builders/javascript": 1,
+          "sproutcore/builders/chance_file": 1,
+          "sproutcore/builders/module": 1,
+          "sproutcore/builders/string_wrapper": 1,
+          "sproutcore/builders/minify": 1,
+          "sproutcore/builders/html": 1,
+          "sproutcore/builders/sass": 1,
+          "sproutcore/builders/test_index": 1,
+          "sproutcore/builders/combine": 1,
+          "sproutcore/builders/test": 1,
+          "sproutcore/builders/stylesheet": 1,
+          "ar_pg_array/references_by": 1,
+          "ar_pg_array/schema_arel": 1,
+          "ar_pg_array/schema": 1,
+          "ar_pg_array/schema_cacheable": 1,
+          "active_record/connection_adapters/postgresql_adapter": 1,
+          "ar_pg_array/querying_arel": 1,
+          "ar_pg_array/allways_save": 1,
+          "active_record/base": 1,
+          "ar_pg_array/querying": 1,
+          "ActiveSupport::Concern": 1,
+          ":visit_PGArrays_PgIncluded": 1,
+          ":visit_PGArrays_PgAll": 1,
+          ":visit_PGArrays_PgAny": 1,
+          "meths": 1,
+          "PgArrayParser": 1,
+          "ar_pg_array/parser": 1,
+          "column_defaults_without_extradup": 1,
+          "column_defaults": 1,
+          "base64": 1,
+          "CanCan::Ability": 1,
+          "arel": 1,
+          "rspec": 1,
+          "tag": 1,
+          "activerecord": 1,
+          "active_record/fixtures": 1,
+          "cancan": 1,
+          "unrelated": 1,
+          "ar_pg_array": 1,
+          "item": 1,
+          "pg": 1,
+          "cancan/matchers": 1,
+          "bulk": 1,
+          "fake_arel": 1,
+          "csv": 1,
+          "capybara/rails": 1,
+          "active_admin": 1,
+          "Warden::Test::Helpers": 1,
+          "cucumber/rails": 1,
+          "database_cleaner": 1,
+          "RAILS_ROOT": 1,
+          "capybara/session": 1,
+          "database_cleaner/cucumber": 1,
+          "Clearance::Authentication": 1,
+          "ActionView::Helpers::AssetTagHelper": 1,
+          "crack": 1,
+          "geokit": 1,
+          "Clearance::User": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "controller_adapters/sinatra_adapter": 1,
+          "controller_adapters/merb_adapter": 1,
+          "AUTHLOGIC_PATH": 1,
+          "controller_adapters/rails_adapter": 1,
+          "openssl": 1,
+          "bcrypt": 1,
+          ":t": 1,
+          "authlogic/i18n/translator": 1,
+          "delegate": 1,
+          "blog/engine": 1,
+          "blog": 1,
+          "capybara/poltergeist": 1,
+          "rails/test_help": 1,
+          "bulk/abstract_collection": 1,
+          "active_support/core_ext/module/delegation": 1,
+          "bulk/routes": 1,
+          "BulkHelpers": 1,
+          "bulk/resource": 1,
+          "bulk/engine": 1,
+          "bulk/collection": 1,
+          "Rack::Test::Methods": 1,
+          "action_dispatch/testing/integration": 1,
+          "bulk_api": 1,
+          "bundler/rubygems_integration": 1,
+          "rbconfig": 1,
+          "bundler/version": 1,
+          "bundler/psyched_yaml": 1,
+          "bundler/deployment": 1,
+          "rubygems/config_file": 1,
+          "irb": 1,
+          "rubygems/user_interaction": 1,
+          "Thor::Actions": 1,
+          "bundler/vendored_thor": 1,
+          "bundler/shared_helpers": 1,
+          "rubygems/dependency": 1,
+          "bundler/dependency": 1,
+          "net/http/persistent": 1,
+          "thor": 1,
+          "Rake::DSL": 1,
+          "rubygems/installer": 1,
+          "bundler/gem_helper": 1,
+          "graphviz": 1,
+          "[]": 1,
+          "erb": 1,
+          "rubygems/dependency_installer": 1,
+          "strscan": 1,
+          "bundler/gem_helpers": 1,
+          "psych": 1,
+          "bundler/match_platform": 1,
+          "::Bundler::MatchPlatform": 1,
+          "rubygems/specification": 1,
+          "require": 1,
+          "rubygems_require": 1,
+          "SharedHelpers": 1,
+          "gems": 1,
+          ":set_local": 1,
+          "extensions/time": 1,
+          "business_time/config": 1,
+          "business_time/business_days": 1,
+          "extensions/fixnum": 1,
+          "extensions/date": 1,
+          "business_time/business_hours": 1,
+          "BusinessTime": 1,
+          "shoulda": 1,
+          "date": 1,
+          "business_time": 1,
+          "test/unit": 1,
+          "capistrano-unicorn/version": 1,
+          "capistrano-unicorn/capistrano_integration": 1,
+          "capistrano/version": 1,
+          "capistrano": 1,
+          "xpath": 1,
+          "rack/handler/thin": 1,
+          "timeout": 1,
+          "rack/handler/webrick": 1,
+          "Capybara::DSL": 1,
+          "Capybara::Node::Actions": 1,
+          "::Rack::Test::Methods": 1,
+          "rack/test": 1,
+          "rack/utils": 1,
+          "mime/types": 1,
+          "Rails::Rack::Static": 1,
+          "rspec/core": 1,
+          "capybara/rspec/features": 1,
+          ":scenario": 1,
+          ":background": 1,
+          "selenium-webdriver": 1,
+          ":checked?": 1,
+          "net/http": 1,
+          "rack": 1,
+          "capybara/util/save_and_open_page": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 25,
+        "packages": {
+          "std": 19,
+          "crate": 14,
+          "tokio": 12,
+          "crows_utils": 10,
+          "anyhow": 8,
+          "wasmtime": 5,
+          "super": 4,
+          "serde": 4,
+          "crows_shared": 4,
+          "uuid": 3,
+          "crows_wasm": 2,
+          "futures": 2,
+          "syn": 2,
+          "proc_macro": 2,
+          "quote": 2,
+          "hyper_rustls": 2,
+          "wasmtime_wasi": 2,
+          "crows": 1,
+          "clap": 1,
+          "crossterm": 1,
+          "proc_macro2": 1,
+          "convert_case": 1,
+          "axum": 1,
+          "tokio_util": 1,
+          "tokio_serde": 1,
+          "services": 1,
+          "thiserror": 1,
+          "crows_service": 1,
+          "constant_arrival_rate": 1,
+          "hyper": 1,
+          "url": 1,
+          "http_body_util": 1,
+          "rustls": 1,
+          "hyper_util": 1,
+          "wiremock": 1,
+          "lazy_static": 1,
+          "executors": 1,
+          "wasi_common": 1,
+          "local": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "drogus/abbot",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/activerecord-postgresql-arrays",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/active_admin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/allourideas.org",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/apache-upload-progress-module",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "drogus/authlogic",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/blog-api-example",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/blog_engine",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/bridge-ember",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/bulk_api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/bulk_data_source",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "drogus/bundler",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/business_time",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/capistrano-unicorn",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/capybara",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "drogus/com.clockworklabs.spacetimedbsdk",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "drogus/crows",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      }
+    ]
+  }
+}

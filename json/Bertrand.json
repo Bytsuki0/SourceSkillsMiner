@@ -1,0 +1,617 @@
+{
+  "username": "Bertrand",
+  "areas": {
+    "OSS": {
+      "score": 0.26647518112349977,
+      "details": {
+        "issue_resolution_rate": 0.4,
+        "pr_merge_rate": 0.7777777777777778,
+        "commits_activity": 0.721934993907472
+      }
+    },
+    "Status": {
+      "score": 0.16216182830799197,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7047812040004494,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "Bertrand/handlebars-objc": 0.21806470588235294
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.4071592523578729,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Objective-C": [
+        79,
+        9
+      ],
+      "HTML": [
+        55,
+        6
+      ],
+      "CSS": [
+        1,
+        0
+      ],
+      "Shell": [
+        1,
+        0
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        904,
+        21
+      ],
+      "JavaScript": [
+        22,
+        0
+      ],
+      "TypeScript": [
+        12902,
+        1
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 37,
+    "total_lines": 13964,
+    "top_5_languages": [
+      {
+        "language": "Kotlin",
+        "lines": 904,
+        "commits": 21
+      },
+      {
+        "language": "Objective-C",
+        "lines": 79,
+        "commits": 9
+      },
+      {
+        "language": "HTML",
+        "lines": 55,
+        "commits": 6
+      },
+      {
+        "language": "TypeScript",
+        "lines": 12902,
+        "commits": 1
+      },
+      {
+        "language": "CSS",
+        "lines": 1,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Bertrand",
+    "analysis_date": "2026-02-19T11:35:06.446362",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 390,
+    "languages": {
+      "C": {
+        "files_scanned": 3,
+        "packages": {
+          "<stdio.h>": 2,
+          "stdio.h": 2,
+          "ruby_backtrace_walker.h": 1,
+          "ruby/st.h": 1,
+          "st.h": 1,
+          "private_ruby_2_0.h": 1,
+          "private_ruby_1_9.h": 1,
+          "<ruby/intern.h>": 1,
+          "ruby/version.h": 1,
+          "<node.h>": 1,
+          "ruby/intern.h": 1,
+          "node.h": 1,
+          "env.h": 1,
+          "<ruby/st.h>": 1,
+          "<st.h>": 1,
+          "<env.h>": 1,
+          "<ruby/version.h>": 1,
+          "assert.h": 1,
+          "<assert.h>": 1,
+          "ruby_sanspleur.h": 1,
+          "sampler.h": 1,
+          "sys/time.h": 1,
+          "<stdlib.h>": 1,
+          "<sys/time.h>": 1,
+          "stdlib.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 7,
+        "packages": {
+          "sampler.h": 5,
+          "time.h": 4,
+          "<time.h>": 4,
+          "info_header.h": 4,
+          "stack_trace_sample.h": 3,
+          "unistd.h": 3,
+          "<unistd.h>": 3,
+          "ruby_sanspleur.h": 3,
+          "clock_ticker.h": 2,
+          "stdarg.h": 2,
+          "dumper_file.h": 2,
+          "<stdarg.h>": 2,
+          "<stdio.h>": 2,
+          "signal_ticker.h": 2,
+          "stdio.h": 2,
+          "ruby_backtrace_walker.h": 2,
+          "thread_ticker.h": 2,
+          "sys/time.h": 2,
+          "<stdlib.h>": 2,
+          "<sys/time.h>": 2,
+          "stdlib.h": 2,
+          "<mach/mach_time.h>": 1,
+          "mach/mach_time.h": 1,
+          "<fcntl.h>": 1,
+          "version.h": 1,
+          "fcntl.h": 1,
+          "ruby/debug.h": 1,
+          "<ruby/debug.h>": 1,
+          "<ruby/intern.h>": 1,
+          "st.h": 1,
+          "ruby/intern.h": 1,
+          "<st.h>": 1,
+          "string.h": 1,
+          "<string.h>": 1,
+          "<signal.h>": 1,
+          "signal.h": 1,
+          "errno.h": 1,
+          "<errno.h>": 1,
+          "pthread.h": 1,
+          "<pthread.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 59,
+        "packages": {
+          "<Foundation/Foundation.h>": 24,
+          "<Cocoa/Cocoa.h>": 12,
+          "GRMustacheAvailabilityMacros.h": 10,
+          "HBAstNode.h": 8,
+          "HBAstValue.h": 7,
+          "GRMustache.h": 3,
+          "GRMustacheTemplateDelegate.h": 3,
+          "HBAstContextualValue.h": 3,
+          "HBAstTag.h": 3,
+          "generic_ticker.h": 3,
+          "ruby.h": 3,
+          "<ruby.h>": 3,
+          "GRMustacheError.h": 2,
+          "GRMustacheSection.h": 2,
+          "GRMustacheVersion.h": 2,
+          "GRMustacheTemplate.h": 2,
+          "GRMustacheTemplateRepository.h": 2,
+          "GRMustacheHelper.h": 2,
+          "GRMustacheInvocation.h": 2,
+          "GRMustacheFilter.h": 2,
+          "HBAstExpression.h": 2,
+          "HBAstProgram.h": 2,
+          "HBAstParametersHash.h": 2,
+          "RPLogReader.h": 2,
+          "<stdio.h>": 2,
+          "stdio.h": 2,
+          "<node.h>": 2,
+          "node.h": 2,
+          "HBHelper.h": 1,
+          "HBExecutionContextDelegate.h": 1,
+          "HBPartial.h": 1,
+          "HBHelperUtils.h": 1,
+          "HBHandlebarsKVCValidation.h": 1,
+          "HBHelperRegistry.h": 1,
+          "HBPartialRegistry.h": 1,
+          "HBErrorHandling.h": 1,
+          "HBDataContext.h": 1,
+          "HBExecutionContext.h": 1,
+          "HBTemplate.h": 1,
+          "HBAstBlock.h": 1,
+          "HBAstKeyPathComponent.h": 1,
+          "HBAstComment.h": 1,
+          "HBAstPartialTag.h": 1,
+          "HBAstString.h": 1,
+          "HBAstNumber.h": 1,
+          "HBAstSimpleTag.h": 1,
+          "HBAstRawText.h": 1,
+          "RPStackFrame.h": 1,
+          "RPCallTree.h": 1,
+          "stdint.h": 1,
+          "<stdint.h>": 1,
+          "sys/time.h": 1,
+          "ruby_sanspleur.h": 1,
+          "<sys/time.h>": 1,
+          "version.h": 1,
+          "ruby/st.h": 1,
+          "st.h": 1,
+          "<ruby/st.h>": 1,
+          "env.h": 1,
+          "<st.h>": 1,
+          "<env.h>": 1,
+          "sampler.h": 1,
+          "pthread.h": 1,
+          "<pthread.h>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "fmt": 1,
+          "time": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 54,
+        "packages": {
+          "fs": 16,
+          "path": 11,
+          "graphql": 8,
+          "child_process": 6,
+          "preact": 6,
+          "rax": 6,
+          "underscore": 5,
+          "react": 5,
+          "assert": 4,
+          "os": 3,
+          "vue": 3,
+          "mocha": 2,
+          "babel": 2,
+          "benchmark": 2,
+          "mapbox": 2,
+          "xtend": 2,
+          "react-dom": 2,
+          "rax-server-renderer": 2,
+          "preact-render-to-string": 2,
+          "vue-server-renderer": 2,
+          "${modulePath}": 1,
+          "util": 1,
+          "https": 1,
+          "${version}": 1,
+          "chai": 1,
+          "Handlebars": 1,
+          "zlib": 1,
+          "async": 1,
+          "mustache": 1,
+          "dustjs-linkedin": 1,
+          "eco": 1,
+          "sys": 1,
+          "2.0.0-alpha.2": 1,
+          "eventemitter3": 1,
+          "got": 1,
+          "rollup-plugin-commonjs": 1,
+          "rollup-plugin-node-resolve": 1,
+          "koa-static": 1,
+          "xtpl": 1,
+          "koa": 1,
+          "koa-router": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 90,
+        "packages": {
+          "org.litote": 35,
+          "com.github": 33,
+          "fr.vsct": 30,
+          "org.junit": 19,
+          "java.util": 16,
+          "kotlin.test": 13,
+          "class": 11,
+          "kotlin.reflect": 10,
+          "org.bson": 7,
+          "com.fasterxml": 6,
+          "javax.lang": 6,
+          "mu.KotlinLogging": 6,
+          "javax.annotation": 5,
+          "org.openjdk": 4,
+          "com.squareup": 4,
+          "java.nio": 4,
+          "com.mongodb": 4,
+          "org.jetbrains": 3,
+          "java.io": 3,
+          "kotlinx.coroutines": 2,
+          "com.google": 2,
+          "com.intellij": 2,
+          "mu.KLogger": 2,
+          "io.vertx": 2,
+          "java.time": 2,
+          "fun": 1,
+          "javax.tools": 1,
+          "java.lang": 1,
+          "retrofit2.Call": 1,
+          "retrofit2.http": 1,
+          "java.net": 1,
+          "org.apache": 1,
+          "=": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 42,
+        "packages": {
+          "HBAstVisitor.h": 12,
+          "GRMustache.h": 4,
+          "Document.h": 4,
+          "RPSampleSession.h": 4,
+          "Cocoa/Cocoa.h": 3,
+          "<Cocoa/Cocoa.h>": 3,
+          "RPCallTree.h": 3,
+          "Person.h": 2,
+          "PositionFilter.h": 2,
+          "Foundation/Foundation.h": 2,
+          "<Foundation/Foundation.h>": 2,
+          "Article.h": 2,
+          "HBAstKeyPathComponent.h": 2,
+          "RPOutlineView.h": 2,
+          "RPRubyTraceLogReader.h": 2,
+          "RPStackTrace.h": 2,
+          "RPStackFrame.h": 2,
+          "RPTableHeaderView.h": 2,
+          "NSURL+L0URLParsing.h": 2,
+          "AppDelegate.h": 1,
+          "GRAppDelegate.h": 1,
+          "HBHelper.h": 1,
+          "HBAst.h": 1,
+          "HBParser.h": 1,
+          "HBHandlebars.h": 1,
+          "HBAstEvaluationVisitor.h": 1,
+          "HBTemplate.h": 1,
+          "HBAstBlock.h": 1,
+          "HBAstComment.h": 1,
+          "HBAstNode.h": 1,
+          "HBAstPartialTag.h": 1,
+          "HBAstProgram.h": 1,
+          "HBAstRawText.h": 1,
+          "HBAstSimpleTag.h": 1,
+          "HBAstTag.h": 1,
+          "HBAstContextualValue.h": 1,
+          "HBAstExpression.h": 1,
+          "HBAstNumber.h": 1,
+          "HBAstParametersHash.h": 1,
+          "NSDataAdditions.h": 1,
+          "NSStringAdditions.h": 1,
+          "NSURLAdditions.h": 1,
+          "RPApplication.h": 1,
+          "RPApplicationDelegate.h": 1,
+          "RPURLLoaderController.h": 1,
+          "RPWebViewController.h": 1,
+          "RPRubyLogReader.h": 1,
+          "RPTraceDocument.h": 1,
+          "App.h": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 40,
+        "packages": {
+          "mustache": 15,
+          "premailer": 4,
+          "benchmark": 3,
+          "helper": 2,
+          "cgi": 2,
+          "hpricot": 2,
+          "HtmlToPlainText": 2,
+          "complex_view": 1,
+          "haml": 1,
+          "erb": 1,
+          "mustache/template": 1,
+          "mustache/settings": 1,
+          "#{file}": 1,
+          "mustache/context": 1,
+          "mustache/safe_string": 1,
+          "strscan": 1,
+          "sinatra/base": 1,
+          "mustache/parser": 1,
+          "mustache/generator": 1,
+          "rack/bug/panels/mustache_panel/mustache_extension": 1,
+          "ostruct": 1,
+          "digest/md5": 1,
+          "open-uri": 1,
+          "yaml": 1,
+          "premailer/html_to_plain_text": 1,
+          "premailer/premailer": 1,
+          "css_parser": 1,
+          "premailer/adapter": 1,
+          "library": 1,
+          "nokogiri": 1,
+          "optparse": 1,
+          "htmlentities": 1,
+          "CssParser": 1,
+          "Warnings": 1,
+          "rubygems/package_task": 1,
+          "rdoc/task": 1,
+          "rake/testtask": 1,
+          "rake": 1,
+          "fileutils": 1,
+          "rubygems": 1,
+          "test/unit": 1,
+          "webmock/test_unit": 1,
+          "ruby-sanspleur": 1,
+          "AModule": 1,
+          "mkmf": 1,
+          "ruby-sanspleur/railtie": 1,
+          "#{me}/ruby-sanspleur/errors": 1,
+          "#{me}/../ext/ruby_sanspleur/ruby_sanspleur": 1,
+          "#{me}/#{RUBY_VERSION[0..2]}/ruby_sanspleur": 1,
+          "#{me}/ruby-sanspleur/middleware": 1,
+          "timeout": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 2,
+        "packages": {
+          "std": 2,
+          "debug": 1,
+          "time": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 1,
+        "packages": {
+          "scala.collection": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "graphql": 2,
+          "Author": 1,
+          "Query": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Bertrand/graphql-js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "Bertrand/GRMustache",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "Bertrand/handlebars-objc",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "Bertrand/handlebars.js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Bertrand/KGraphQL",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "Bertrand/kmongo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "Bertrand/mapbox-sdk-js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Bertrand/mustache",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "Bertrand/premailer",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "Bertrand/rampler",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "Bertrand/ruby-sanspleur",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "Bertrand/rust-sandbox",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C",
+          "Go",
+          "Rust",
+          "Scala"
+        ]
+      },
+      {
+        "repository": "Bertrand/server-side-rendering-comparison",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Bertrand/subl-handler",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "Bertrand/test-graphql-codegen",
+        "files_analyzed": 2,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "Bertrand/tock",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,600 @@
+{
+  "username": "mje113",
+  "areas": {
+    "OSS": {
+      "score": 0.5273132664437012,
+      "details": {
+        "issue_resolution_rate": 0.7692307692307693,
+        "pr_merge_rate": 0.5217391304347826,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.46153846153846145,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.19230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.8333333333333334,
+      "details": {
+        "mje113/couchbase-jruby-client": 0.08038461538461537,
+        "mje113/couchbase-jruby-model": 0.5108,
+        "mje113/couchbase-view-helpers": -0.6275,
+        "mje113/newark": 0.30953636363636367,
+        "mje113/rack-ip_filter": 0.2263,
+        "mje113/sorcery-couchbase": 0.6583
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5555462653288741,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        23277,
+        284
+      ],
+      "JavaScript": [
+        10669,
+        1
+      ],
+      "C": [
+        245,
+        2
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "CSS": [
+        75,
+        0
+      ],
+      "PHP": [
+        126,
+        2
+      ],
+      "Vim Script": [
+        72,
+        1
+      ],
+      "Shell": [
+        270,
+        2
+      ],
+      "HTML": [
+        0,
+        0
+      ],
+      "CoffeeScript": [
+        16,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 292,
+    "total_lines": 34750,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 23277,
+        "commits": 284
+      },
+      {
+        "language": "C",
+        "lines": 245,
+        "commits": 2
+      },
+      {
+        "language": "PHP",
+        "lines": 126,
+        "commits": 2
+      },
+      {
+        "language": "Shell",
+        "lines": 270,
+        "commits": 2
+      },
+      {
+        "language": "JavaScript",
+        "lines": 10669,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mje113",
+    "analysis_date": "2026-02-19T21:47:03.368967",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 302,
+    "languages": {
+      "C": {
+        "files_scanned": 20,
+        "packages": {
+          "couchbase_ext.h": 20,
+          "<mach/mach_time.h>": 1,
+          "mach/mach_time.h": 1,
+          "<time.h>": 1,
+          "<sys/time.h>": 1,
+          "time.h": 1,
+          "sys/time.h": 1,
+          "<assert.h>": 1,
+          "assert.h": 1,
+          "<stdlib.h>": 1,
+          "stdlib.h": 1,
+          "<rubysig.h>": 1,
+          "errno.h": 1,
+          "poll.h": 1,
+          "rubysig.h": 1,
+          "<errno.h>": 1,
+          "<poll.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<varargs.h>": 1,
+          "ruby/thread.h": 1,
+          "libcouchbase/couchbase.h": 1,
+          "sys/socket.h": 1,
+          "<stdint.h>": 1,
+          "couchbase_config.h": 1,
+          "<stdarg.h>": 1,
+          "<errno.h>": 1,
+          "st.h": 1,
+          "varargs.h": 1,
+          "<ruby.h>": 1,
+          "stdint.h": 1,
+          "fcntl.h": 1,
+          "<st.h>": 1,
+          "errno.h": 1,
+          "ruby.h": 1,
+          "<libcouchbase/couchbase.h>": 1,
+          "ruby/encoding.h": 1,
+          "<sys/socket.h>": 1,
+          "stdarg.h": 1,
+          "<ruby/thread.h>": 1,
+          "<fcntl.h>": 1
+        }
+      },
+      "Elixir": {
+        "files_scanned": 47,
+        "packages": {
+          "Mix.Config": 8,
+          "Catcaluser.User": 7,
+          "Catcaluser.ConnCase": 7,
+          "ExUnit.Case": 7,
+          "SparkPost.": 5,
+          "#{Mix.env}.exs": 4,
+          "Ecto.Migration": 4,
+          "Logger": 3,
+          "Mix.Project": 3,
+          "Catcaluser.Account": 3,
+          "Catcaluser.Repo": 3,
+          "Mock": 3,
+          "Eurexa.EurexaServer": 3,
+          "environment": 2,
+          "Supervisor.Spec": 2,
+          "Application": 2,
+          ":exometer": 2,
+          "Catcaluser.ModelCase": 2,
+          "do": 2,
+          "Ecto.Model": 2,
+          "ExUnit.CaseTemplate": 2,
+          "Ecto.Query": 2,
+          "SparkPost.Content": 2,
+          "exometer.exs": 1,
+          "prod.secret.exs": 1,
+          "Phoenix.Endpoint": 1,
+          "Plug.Conn": 1,
+          "Ecto.Repo": 1,
+          "Catcaluser.JsonUser": 1,
+          "Catcaluser.Router.Helpers": 1,
+          "URL": 1,
+          "conveniences": 1,
+          "Phoenix.ConnTest": 1,
+          "Phoenix.View": 1,
+          "SparkPost.MockServer": 1,
+          "SparkPost.Endpoint": 1,
+          "Behaviour": 1,
+          "GenServer": 1,
+          "Eurexa.EurekaV2": 1
+        }
+      },
+      "Erlang": {
+        "files_scanned": 4,
+        "packages": {
+          "xmerl/include/xmerl.hrl": 4,
+          "edoc/include/edoc_doclet.hrl": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "fmt": 1,
+          "net/http": 1,
+          "os": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 45,
+        "packages": {
+          "com.couchbase": 45,
+          "java.util": 17,
+          "rx.Observable": 13,
+          "io.netty": 9,
+          "com.fasterxml": 8,
+          "rx.functions": 7,
+          "com.lmax": 7,
+          "org.junit": 4,
+          "static": 4,
+          "rx.subjects": 4,
+          "rx.Observer": 2,
+          "org.slf4j": 2,
+          "rx.observables": 1,
+          "java.io": 1,
+          "javax.xml": 1,
+          "=": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "express": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "flask": 1,
+          "Flask": 1,
+          "os": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 102,
+        "packages": {
+          "helper": 25,
+          "couchbase": 11,
+          "couchbase/model": 9,
+          "setup": 8,
+          "minitest/autorun": 6,
+          "memcached_mock": 5,
+          "multi_json": 4,
+          "thread": 4,
+          "rails/generators/couchbase_generator": 4,
+          "socket": 4,
+          "dalli": 4,
+          "rubygems": 3,
+          "digest/md5": 3,
+          "zlib": 3,
+          "active_support/cache": 3,
+          "orm_adapter/adapters/couchbase": 2,
+          "rails/test_help": 2,
+          "rbconfig": 2,
+          "couchbase/bucket": 2,
+          "couchbase/view": 2,
+          "couchbase/version": 2,
+          "couchbase/cluster": 2,
+          "pry": 2,
+          "coveralls": 2,
+          "couchbase/railtie": 2,
+          "::ActiveModel::Conversion": 2,
+          "::ActiveModel::Validations": 2,
+          "::ActiveModel::Validations::Callbacks": 2,
+          "#": 2,
+          "Couchbase::ActiveModel": 2,
+          "couchbase/model/version": 2,
+          "couchbase/model/uuid": 2,
+          "couchbase/model/ext/singleton_class": 2,
+          "couchbase/model/ext/camelize": 2,
+          "couchbase/active_model": 2,
+          "couchbase/model/ext/constantize": 2,
+          "couchbase/model/configuration": 2,
+          "active_model": 2,
+          "#{path}/": 2,
+          "rails/generators/named_base": 2,
+          "rails/generators/active_model": 2,
+          "open-uri": 2,
+          "ActiveModel::Lint::Tests": 2,
+          "active_support/json/encoding": 2,
+          "Enumerable": 2,
+          "stringio": 2,
+          "action_dispatch/middleware/session/abstract_store": 2,
+          "monitor": 2,
+          "couchbase/view_helpers/version": 2,
+          "logger": 2,
+          "active_support/cache/dalli_store": 2,
+          "rails": 2,
+          "json": 2,
+          "cb/devise/version": 1,
+          "activemodel": 1,
+          "devise/orm/couchbase": 1,
+          "orm/#{DEVISE_ORM}": 1,
+          "mocha": 1,
+          "rails/generators/test_case": 1,
+          "rails_app/config/environment": 1,
+          "generators/devise/install_generator": 1,
+          "generators/devise/views_generator": 1,
+          "webrat": 1,
+          "orm_adapter": 1,
+          "example_app_shared": 1,
+          "spec_helper": 1,
+          "cb-orm-adapter": 1,
+          "stemmer": 1,
+          "rake": 1,
+          "ftools": 1,
+          "find": 1,
+          "Config": 1,
+          "classifier/lsi": 1,
+          "classifier/bayes": 1,
+          "classifier/extensions/string": 1,
+          "append_category": 1,
+          "fast_stemmer": 1,
+          "classifier/extensions/word_hash": 1,
+          ":trans": 1,
+          "mathn": 1,
+          "matrix": 1,
+          ":diag": 1,
+          "classifier/extensions/vector": 1,
+          "classifier/lsi/summary": 1,
+          "gsl": 1,
+          "classifier/lsi/word_list": 1,
+          "classifier/lsi/content_node": 1,
+          "classifier/extensions/vector_serialize": 1,
+          "classifier": 1,
+          "test/unit": 1,
+          "jars/rxjruby-0.0.1": 1,
+          "jars/core-io-1.2.3": 1,
+          "couchbase/error": 1,
+          "couchbase/operations": 1,
+          "couchbase/design_doc": 1,
+          "jars/java-client-2.2.3": 1,
+          "jars/rxjava-1.1.0": 1,
+          "couchbase/document": 1,
+          "couchbase/configuration": 1,
+          "rx/lang/jruby/interop": 1,
+          "Couchbase::Operations": 1,
+          "forwardable": 1,
+          "minitest": 1,
+          "ostruct": 1,
+          "Couchbase": 1,
+          "::ActiveModel::Serializers::JSON": 1,
+          "java": 1,
+          "#{File.dirname(__FILE__)}/CouchbaseMock.jar": 1,
+          "bundler": 1,
+          "grape": 1,
+          "date": 1,
+          "em-synchrony": 1,
+          "goliath": 1,
+          "optparse": 1,
+          "includedir": 1,
+          "mkmf": 1,
+          "<stdarg.h>": 1,
+          "<stdio.h>": 1,
+          "<libcouchbase/couchbase.h>": 1,
+          "rack/session/couchbase": 1,
+          "Compatibility": 1,
+          "StaleSessionCheck": 1,
+          "active_support/core_ext/array/extract_options": 1,
+          ":exist?": 1,
+          "securerandom": 1,
+          "couchbase/view_row": 1,
+          "couchbase/constants": 1,
+          "yaji": 1,
+          "couchbase/transcoder": 1,
+          "uri": 1,
+          "couchbase_ext": 1,
+          "couchbase/utils": 1,
+          ":new": 1,
+          "set_bucket": 1,
+          "couchbase/result": 1,
+          "couchbase/view_helpers": 1,
+          "ViewHelpers": 1,
+          "couchbase/view_helpers/paginate_params": 1,
+          "Couchbase::ViewHelpers": 1,
+          "dalli/compressor": 1,
+          "dalli/railtie": 1,
+          "dalli/ring": 1,
+          "dalli/client": 1,
+          "dalli/options": 1,
+          "dalli/version": 1,
+          "dalli/server": 1,
+          "dalli/socket": 1,
+          "set": 1,
+          "inline": 1,
+          "digest/sha1": 1,
+          "timeout": 1,
+          ":write": 1,
+          "kgio": 1,
+          "rack/session/abstract/id": 1,
+          "benchmark": 1,
+          "action_dispatch": 1,
+          "action_controller": 1,
+          "active_support/all": 1,
+          "mini_shoulda": 1,
+          "minitest/pride": 1,
+          "MemcachedMock::Helper": 1,
+          "mocha/setup": 1,
+          "rack/lint": 1,
+          "rack/mock": 1,
+          "rack/session/dalli": 1,
+          "dockler/version": 1,
+          "log4r": 1,
+          "erb": 1,
+          "fileutils": 1,
+          "minitest/mock": 1,
+          "dockler": 1,
+          "rails/all": 1,
+          "bundler/setup": 1,
+          "erb2haml/railtie": 1,
+          "erb2haml": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mje113/catcaluser",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "mje113/cb-devise",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/cb-orm-adapter",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/classifier",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/couchbase-java-client",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "mje113/couchbase-jruby-client",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/couchbase-jruby-model",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/couchbase-jvm-core",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "mje113/couchbase-ruby-client",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/couchbase-ruby-model",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/couchbase-view-helpers",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/dalli",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/dockler",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/dockler-test-app",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/dokku",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "mje113/edown",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Erlang"
+        ]
+      },
+      {
+        "repository": "mje113/elixir-sparkpost",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "mje113/erb2haml",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mje113/eurexa",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Elixir"
+        ]
+      }
+    ]
+  }
+}

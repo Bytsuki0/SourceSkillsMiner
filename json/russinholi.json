@@ -1,0 +1,375 @@
+{
+  "username": "russinholi",
+  "areas": {
+    "OSS": {
+      "score": 0.845911497905059,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7688672468575887
+      }
+    },
+    "Status": {
+      "score": 0.22619170201582883,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7623644761006664,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.31802579998022196,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        69462,
+        33
+      ],
+      "CSS": [
+        267112,
+        2
+      ],
+      "JavaScript": [
+        793856,
+        9
+      ],
+      "Objective-C": [
+        2110,
+        0
+      ],
+      "D": [
+        1149,
+        0
+      ],
+      "Shell": [
+        818,
+        0
+      ],
+      "C++": [
+        636,
+        0
+      ],
+      "C#": [
+        377,
+        0
+      ],
+      "Ruby": [
+        156,
+        0
+      ],
+      "HTML": [
+        1079,
+        3
+      ],
+      "Scala": [
+        39,
+        0
+      ],
+      "Go": [
+        239,
+        4
+      ],
+      "PHP": [
+        0,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 51,
+    "total_lines": 1137033,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 69462,
+        "commits": 33
+      },
+      {
+        "language": "JavaScript",
+        "lines": 793856,
+        "commits": 9
+      },
+      {
+        "language": "Go",
+        "lines": 239,
+        "commits": 4
+      },
+      {
+        "language": "HTML",
+        "lines": 1079,
+        "commits": 3
+      },
+      {
+        "language": "CSS",
+        "lines": 267112,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "russinholi",
+    "analysis_date": "2026-02-20T00:58:56.625327",
+    "total_repos_analyzed": 11,
+    "total_files_analyzed": 228,
+    "languages": {
+      "Go": {
+        "files_scanned": 5,
+        "packages": {
+          "io": 2,
+          "os": 2,
+          "syscall": 1,
+          "time": 1,
+          "<stdlib.h>": 1,
+          "unsafe": 1,
+          "C": 1,
+          "<zip.h>": 1,
+          "fmt": 1,
+          "path": 1,
+          "testing": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 170,
+        "packages": {
+          "java.util": 83,
+          "java.io": 36,
+          "org.activiti": 30,
+          "javax.xml": 29,
+          "org.apache": 25,
+          "hudson": 25,
+          "javax.persistence": 23,
+          "model": 17,
+          "java.net": 16,
+          "basic": 16,
+          "dim.jolim": 15,
+          "din.jolim": 15,
+          "static": 14,
+          "play.data": 14,
+          "hudson.model": 14,
+          "codeit.curso": 12,
+          "com.avaje": 12,
+          "jenkins.model": 11,
+          "java.text": 10,
+          "com.squareup": 10,
+          "play.mvc": 10,
+          "hudson.util": 10,
+          "views.html": 9,
+          "controllers": 9,
+          "play.db": 9,
+          "org.junit": 7,
+          "org.kohsuke": 7,
+          "events": 7,
+          "hudson.cli": 6,
+          "hudson.remoting": 6,
+          "java.lang": 6,
+          "javax.net": 5,
+          "model.Usuario": 4,
+          "com.google": 4,
+          "javax.annotation": 4,
+          "org.slf4j": 3,
+          "java.security": 3,
+          "java.nio": 3,
+          "model.Fornecedor": 3,
+          "play.libs": 3,
+          "com.fasterxml": 3,
+          "model.Produto": 3,
+          "jenkins.ExtensionFilter": 3,
+          "hudson.security": 3,
+          "org.acegisecurity": 3,
+          "jenkins.ExtensionComponentSet": 3,
+          "jenkins.security": 3,
+          "hudson.init": 3,
+          "core.ObjectIdentity": 3,
+          "basic.mock": 3,
+          "core.events": 3,
+          "javax.inject": 2,
+          "javax.enterprise": 2,
+          "javax.servlet": 2,
+          "model.Cliente": 2,
+          "model.ItemNotaFiscal": 2,
+          "model.ETipoOperacao": 2,
+          "model.NotaFiscal": 2,
+          "javax.crypto": 2,
+          "org.jenkinsci": 2,
+          "jenkins.util": 2,
+          "hudson.tasks": 2,
+          "hudson.slaves": 2,
+          "net.java": 2,
+          "hudson.scm": 2,
+          "org.picocontainer": 2,
+          "basic.durable": 2,
+          "basic.IdProvider": 2,
+          "basic.HardwareClock": 2,
+          "events.eventslist": 2,
+          "org.xml": 1,
+          "javax.ejb": 1,
+          "org.hibernate": 1,
+          "play": 1,
+          "controllers.GerenciamentoCompra": 1,
+          "model.ETipoProduto": 1,
+          "play.Routes": 1,
+          "play.i18n": 1,
+          "play.test": 1,
+          "hudson.MarkupText": 1,
+          "hudson.Plugin": 1,
+          "hudson.PluginWrapper": 1,
+          "jenkins.ClassLoaderReflectionToolkit": 1,
+          "javax.jmdns": 1,
+          "net.sf": 1,
+          "jenkins.YesNoMaybe": 1,
+          "jenkins.ProxyInjector": 1,
+          "jenkins.ExtensionRefreshException": 1,
+          "hudson.ExtensionPoint": 1,
+          "jenkins.MasterToSlaveFileCallable": 1,
+          "jenkins.SlaveToMasterFileCallable": 1,
+          "hudson.Launcher": 1,
+          "jenkins.FilePathFilter": 1,
+          "com.jcraft": 1,
+          "hudson.os": 1,
+          "jenkins.SoloFilePathFilter": 1,
+          "hudson.FilePath": 1,
+          "hudson.search": 1,
+          "org.jvnet": 1,
+          "hudson.console": 1,
+          "hudson.widgets": 1,
+          "org.jenkins": 1,
+          "hudson.views": 1,
+          "hudson.Proc": 1,
+          "org.reactive": 1,
+          "wheel.io": 1,
+          "core": 1,
+          "events.persistence": 1,
+          "basic.SystemClockImpl": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 8,
+        "packages": {
+          "store.busstore": 2,
+          "=": 1,
+          "BusTracking.model.PontoOnibus": 1,
+          "BusTracking.model.Bus": 1,
+          "store.linhaStore": 1,
+          "BusTracking.model.Linha": 1,
+          "store.responsepontostore": 1,
+          "BusTracking.model.ResponsePonto": 1,
+          "widget.global": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "t=(cn[0].contentWindow||cn[0].contentDocument).document": 1,
+          "t.write(": 1,
+          "undefined": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "md5": 1,
+          "deepcopy": 1,
+          "Flask": 1,
+          "copy": 1,
+          "flask": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "russinholi/Activiti",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "russinholi/aulas",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "russinholi/busTracking",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "russinholi/code-services-api",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "russinholi/cursoJavaFuncional",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "russinholi/gef",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "russinholi/go-zip",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "russinholi/jenkins",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "russinholi/jpatchaca",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "russinholi/scala.github.com",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

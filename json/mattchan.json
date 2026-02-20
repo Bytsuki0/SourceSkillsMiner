@@ -1,0 +1,337 @@
+{
+  "username": "mattchan",
+  "areas": {
+    "OSS": {
+      "score": 0.5356521942871693,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.303478291430754
+      }
+    },
+    "Status": {
+      "score": -0.00814073142652838,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.46855813362943827,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.13187786571516022,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "ActionScript": [
+        446,
+        1
+      ],
+      "TypeScript": [
+        558,
+        5
+      ],
+      "Python": [
+        66,
+        0
+      ],
+      "JavaScript": [
+        34,
+        0
+      ],
+      "PHP": [
+        1017,
+        1
+      ],
+      "Vue": [
+        3,
+        0
+      ],
+      "SCSS": [
+        2,
+        0
+      ],
+      "HTML": [
+        0,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 7,
+    "total_lines": 2126,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 558,
+        "commits": 5
+      },
+      {
+        "language": "ActionScript",
+        "lines": 446,
+        "commits": 1
+      },
+      {
+        "language": "PHP",
+        "lines": 1017,
+        "commits": 1
+      },
+      {
+        "language": "Python",
+        "lines": 66,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 34,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mattchan",
+    "analysis_date": "2026-02-19T22:38:43.258156",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 129,
+    "languages": {
+      "C": {
+        "files_scanned": 39,
+        "packages": {
+          "QMK_KEYBOARD_H": 27,
+          "string.h": 7,
+          "<string.h>": 7,
+          "<stdint.h>": 6,
+          "stdint.h": 6,
+          "eeprom_driver.h": 5,
+          "wait.h": 4,
+          "gpio.h": 3,
+          "debug.h": 3,
+          "timer.h": 3,
+          "util.h": 2,
+          "bluetooth.h": 2,
+          "rn42.h": 2,
+          "eeprom.h": 2,
+          "spi_master.h": 2,
+          "backlight_driver_common.h": 1,
+          "backlight.h": 1,
+          "analog.h": 1,
+          "battery_driver.h": 1,
+          "bluefruit_le.h": 1,
+          "report.h": 1,
+          "uart.h": 1,
+          "i2c_master.h": 1,
+          "eeprom_i2c.h": 1,
+          "eeprom_spi.h": 1,
+          "eeprom_transient.h": 1,
+          "wear_leveling.h": 1,
+          "action.h": 1,
+          "keycodes.h": 1,
+          "split_util.h": 1,
+          "keyboard.h": 1,
+          "encoder.h": 1,
+          "flash_spi.h": 1,
+          "flash.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "analog.h": 1,
+          "stdio.h": 1,
+          "string.h": 1,
+          "<stdlib.h>": 1,
+          "<string.h>": 1,
+          "stdlib.h": 1,
+          "gpio.h": 1,
+          "alloca.h": 1,
+          "wait.h": 1,
+          "spi_master.h": 1,
+          "<alloca.h>": 1,
+          "ringbuffer.hpp": 1,
+          "progmem.h": 1,
+          "debug.h": 1,
+          "bluefruit_le.h": 1,
+          "timer.h": 1,
+          "<stdio.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 8,
+        "packages": {
+          "stdint.h": 5,
+          "<stdint.h>": 5,
+          "report.h": 3,
+          "stdbool.h": 3,
+          "<stdbool.h>": 3,
+          "connection.h": 1,
+          "eeprom.h": 1,
+          "nvm_eeprom_eeconfig_internal.h": 1,
+          "<stdlib.h>": 1,
+          "stdlib.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 7,
+        "packages": {
+          "csv-parse": 3,
+          "fs": 3,
+          "csv-stringify": 2,
+          "path": 2,
+          "cypress": 1,
+          "eslint-plugin-cypress": 1,
+          "eslint-plugin-vue": 1,
+          "eslint": 1,
+          "simplecc-wasm": 1,
+          "ajv": 1,
+          "keyboard": 1,
+          "lodash": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "none.php": 1,
+          "m_tags.php": 1,
+          "m_categories.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "collections": 1,
+          "os": 1,
+          "json": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 8,
+        "packages": {
+          "test_helper": 2,
+          "SearchTestHelper": 2,
+          "search_test_helper": 2,
+          "rails/generators/solrsan_generator": 1,
+          "rails/generators/named_base": 1,
+          "active_support/core_ext": 1,
+          "solrsan/config": 1,
+          "active_support/json": 1,
+          "rsolr": 1,
+          "solrsan/search": 1,
+          "singleton": 1,
+          "active_support/concern": 1,
+          "solrsan/indexer": 1,
+          "Singleton": 1,
+          "Solrsan::Search": 1,
+          "active_model/attribute_methods": 1,
+          "ActiveModel::AttributeMethods": 1,
+          "rubygems": 1,
+          "solrsan": 1,
+          "test/unit": 1,
+          "document": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 8,
+        "packages": {
+          "fs-extra": 5,
+          "json-stringify-pretty-compact": 2,
+          "glob": 1,
+          "the-via": 1,
+          "v2": 1,
+          "path": 1,
+          "node:crypto": 1,
+          "vitepress": 1,
+          "vitepress-plugin-tabs": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 3,
+        "packages": {
+          "react": 3,
+          "styled-components": 3,
+          "react-select": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mattchan/keyboards",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "mattchan/matts-wp-theme",
+        "files_analyzed": 14,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "mattchan/qmk_configurator",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mattchan/qmk_firmware",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "mattchan/qmk_userspace_via",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "mattchan/solrsan",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}
