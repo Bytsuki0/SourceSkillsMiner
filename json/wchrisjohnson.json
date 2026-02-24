@@ -1,0 +1,434 @@
+{
+  "username": "wchrisjohnson",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.7317073170731707,
+        "pr_merge_rate": 1.4375,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.46153846153846145,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.19230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.41538461538461535,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        1048,
+        10
+      ],
+      "Shell": [
+        83544,
+        21
+      ],
+      "Smarty": [
+        24,
+        0
+      ],
+      "Makefile": [
+        1,
+        0
+      ],
+      "Vim Script": [
+        13279,
+        1
+      ],
+      "Lua": [
+        3961,
+        0
+      ],
+      "Elixir": [
+        752,
+        4
+      ],
+      "Ruby": [
+        309870,
+        16
+      ],
+      "CSS": [
+        451,
+        8
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 60,
+    "total_lines": 412930,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 83544,
+        "commits": 21
+      },
+      {
+        "language": "Ruby",
+        "lines": 309870,
+        "commits": 16
+      },
+      {
+        "language": "Python",
+        "lines": 1048,
+        "commits": 10
+      },
+      {
+        "language": "CSS",
+        "lines": 451,
+        "commits": 8
+      },
+      {
+        "language": "Elixir",
+        "lines": 752,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "wchrisjohnson",
+    "analysis_date": "2026-02-24T10:11:24.012253",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 175,
+    "languages": {
+      "Elixir": {
+        "files_scanned": 3,
+        "packages": {
+          "GenServer.Behaviour": 1,
+          "Mix.Project": 1,
+          "ExUnit.Case": 1
+        }
+      },
+      "Erlang": {
+        "files_scanned": 4,
+        "packages": {
+          "amqp_client.hrl": 2,
+          "rabbit_common/include/rabbit_framing.hrl": 1,
+          "rabbit_common/include/rabbit.hrl": 1,
+          "rabbit.hrl": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 12,
+        "packages": {
+          "fmt": 10,
+          "net/http": 8,
+          "net/url": 3,
+          "reflect": 3,
+          "testing": 3,
+          "io/ioutil": 2,
+          "github.com/google/go-querystring/query": 2,
+          "io": 2,
+          "encoding/json": 2,
+          "bytes": 2,
+          "github.com/gin-gonic/gin": 1,
+          "log": 1,
+          "os": 1,
+          "Content-Type": 1,
+          "%v": 1,
+          "Accept": 1,
+          "net/http/httptest": 1,
+          "strings": 1,
+          "path/filepath": 1,
+          "runtime": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 33,
+        "packages": {
+          "grommet": 27,
+          "react": 26,
+          "react-router": 11,
+          "gulp": 3,
+          "path": 3,
+          "ngModel": 2,
+          "json-stringify-pretty-compact": 2,
+          "jshint-stylish": 1,
+          "load-grunt-tasks": 1,
+          "grunt-connect-proxy": 1,
+          "time-grunt": 1,
+          "gulp-chug": 1,
+          "reflux": 1,
+          "the": 1,
+          "react-gravatar": 1,
+          "!style!css!highlight.js": 1,
+          "highlight.js": 1,
+          "{number}": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 25,
+        "packages": {
+          "tkinter": 17,
+          "time": 14,
+          "random": 14,
+          "math": 7,
+          "os": 6,
+          "sys": 5,
+          "battleschool": 3,
+          "ansible": 3,
+          "flask": 2,
+          "logging": 2,
+          "errors": 2,
+          "__version__": 2,
+          "platform": 2,
+          "json": 2,
+          "display": 2,
+          "proxy": 1,
+          "functools": 1,
+          "ipdb": 1,
+          "Thread": 1,
+          "has_request_context": 1,
+          "argparse": 1,
+          "threading": 1,
+          "environ": 1,
+          "posixpath": 1,
+          "exceptions": 1,
+          "Blueprint": 1,
+          "werkzeug": 1,
+          "requests": 1,
+          "Headers": 1,
+          "copy": 1,
+          "deepcopy": 1,
+          "*": 1,
+          "Git": 1,
+          "utils": 1,
+          "Local": 1,
+          "callbacks": 1,
+          "urlparse": 1,
+          "gettempdir": 1,
+          "tempfile": 1,
+          "Url": 1,
+          "ANSIBLE_COLOR": 1,
+          "pprint": 1,
+          "call_callback_module": 1,
+          "DefaultRunnerCallbacks": 1,
+          "BattleschoolRunnerCallbacks": 1,
+          "abc": 1,
+          "Runner": 1,
+          "DIST_MODULE_PATH": 1,
+          "setup": 1,
+          "distutils": 1,
+          "glob": 1,
+          "simplejson": 1,
+          "md5": 1,
+          "pwd": 1,
+          "shlex": 1,
+          "types": 1,
+          "errno": 1,
+          "shutil": 1,
+          "stat": 1,
+          "required": 1,
+          "hashlib": 1,
+          "syslog": 1,
+          "subprocess": 1,
+          "re": 1,
+          "traceback": 1,
+          "selinux": 1,
+          "grp": 1,
+          "systemd": 1,
+          "journal": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 31,
+        "packages": {
+          "fog/core/model": 6,
+          "fog/core/collection": 5,
+          "net/ssh": 2,
+          "net/scp": 2,
+          "fog/core/utils": 2,
+          "fog/core/deprecation": 2,
+          "time": 2,
+          "Fog::Attributes::InstanceMethods": 2,
+          "fog/core/deprecated_connection_accessors": 2,
+          "Fog::Core::DeprecatedConnectionAccessors": 2,
+          "fog/openstackcore/errors": 2,
+          "fog/openstackcore/service_discovery": 2,
+          "susy": 1,
+          "fog/storm_on_demand/account": 1,
+          "fog/storm_on_demand/billing": 1,
+          "fog/#{provider}/cdn": 1,
+          "fog/rackspace/compute": 1,
+          "fog/rackspace/compute_v2": 1,
+          "fog/vcloud_director/compute": 1,
+          "fog/hp/compute_v2": 1,
+          "fog/storm_on_demand/compute": 1,
+          "fog/vcloud/compute": 1,
+          "fog/#{provider}/compute": 1,
+          "fog/hp/compute": 1,
+          "fog/bare_metal_cloud/compute": 1,
+          "fog/go_grid/compute": 1,
+          "fog/core/attributes": 1,
+          "timeout": 1,
+          "fog/core/wait_for": 1,
+          "fog/network": 1,
+          "fog/version": 1,
+          "fog/core/logger": 1,
+          "fog/core/service": 1,
+          "fog/account": 1,
+          "fog/core/credentials": 1,
+          "fog/metering": 1,
+          "fileutils": 1,
+          "fog/image": 1,
+          "fog/core/connection": 1,
+          "ipaddr": 1,
+          "cgi": 1,
+          "formatador": 1,
+          "fog/support": 1,
+          "openssl": 1,
+          "fog/core/provider": 1,
+          "uri": 1,
+          "fog/core/scp": 1,
+          "fog/billing": 1,
+          "fog/core/uuid": 1,
+          "fog/orchestration": 1,
+          "fog/identity": 1,
+          "base64": 1,
+          "fog/core/hmac": 1,
+          "excon": 1,
+          "fog/core/wait_for_defaults": 1,
+          "fog/vpn": 1,
+          "fog/cdn": 1,
+          "fog/core/time": 1,
+          "fog/core/errors": 1,
+          "fog/dns": 1,
+          "fog/volume": 1,
+          "fog/core/ssh": 1,
+          "fog/core/mock": 1,
+          "fog/storage": 1,
+          "fog/core/current_machine": 1,
+          "fog/compute": 1,
+          "fog/monitoring": 1,
+          "yaml": 1,
+          "thread": 1,
+          "File.join": 1,
+          "Fog::Service::Collections": 1,
+          "delegate": 1,
+          "securerandom": 1,
+          "fog/storm_on_demand/dns": 1,
+          "fog/#{provider}/dns": 1,
+          "fog/#{provider}/identity": 1,
+          "fog/#{provider}/image": 1,
+          "fog/openstackcore/common": 1,
+          "fog/core": 1,
+          "fog/openstackcore/services/identity_v1": 1,
+          "multi_json": 1,
+          "fog/openstackcore/core": 1,
+          "fog/openstackcore/identity": 1,
+          "fog/openstackcore/services/identity_v2": 1,
+          "Fog::OpenStackCore::Errors": 1,
+          "fog/openstackcore/models/identity/v2/ec2_credential": 1,
+          "fog/openstackcore/models/identity/v2/role": 1,
+          "fog/openstackcore/models/identity/v2/tenant": 1,
+          "fog/openstackcore/models/identity/v2/user": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "wchrisjohnson/angboard",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "wchrisjohnson/battleschool",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "wchrisjohnson/cactus-jekyll-theme",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wchrisjohnson/dk-help-your-kids-with-computer-coding",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "wchrisjohnson/elixir_amqp_consumer",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Elixir",
+          "Erlang"
+        ]
+      },
+      {
+        "repository": "wchrisjohnson/fog-core",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wchrisjohnson/fog-openstack-core",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wchrisjohnson/go-getting-started",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "wchrisjohnson/go-librato",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "wchrisjohnson/grommet",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

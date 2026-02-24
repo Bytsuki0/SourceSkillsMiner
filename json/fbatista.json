@@ -1,0 +1,739 @@
+{
+  "username": "fbatista",
+  "areas": {
+    "OSS": {
+      "score": 0.5154121863799284,
+      "details": {
+        "issue_resolution_rate": 0.4666666666666667,
+        "pr_merge_rate": 0.8064516129032258,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "fbatista/mtg-coin-flipper": 0.19704999999999998
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5718017645437,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        19508,
+        37
+      ],
+      "Shell": [
+        364,
+        0
+      ],
+      "Puppet": [
+        125,
+        0
+      ],
+      "HTML": [
+        14291,
+        44
+      ],
+      "JavaScript": [
+        13736,
+        51
+      ],
+      "Dockerfile": [
+        181,
+        0
+      ],
+      "CSS": [
+        2365,
+        9
+      ],
+      "Python": [
+        29,
+        1
+      ],
+      "SCSS": [
+        4,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 142,
+    "total_lines": 50603,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 13736,
+        "commits": 51
+      },
+      {
+        "language": "HTML",
+        "lines": 14291,
+        "commits": 44
+      },
+      {
+        "language": "Ruby",
+        "lines": 19508,
+        "commits": 37
+      },
+      {
+        "language": "CSS",
+        "lines": 2365,
+        "commits": 9
+      },
+      {
+        "language": "Python",
+        "lines": 29,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "fbatista",
+    "analysis_date": "2026-02-22T06:04:22.255793",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 270,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "ruby.h": 1,
+          "<ctype.h>": 1,
+          "ctype.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 15,
+        "packages": {
+          "QGraphicsSceneMouseEvent": 7,
+          "<QGraphicsSceneMouseEvent>": 7,
+          "<QPainter>": 7,
+          "QPainter": 7,
+          "carddatabase.h": 6,
+          "carditem.h": 6,
+          "QDebug": 5,
+          "<QDebug>": 5,
+          "player.h": 5,
+          "settingscache.h": 4,
+          "cardzone.h": 4,
+          "<QCursor>": 3,
+          "QCursor": 3,
+          "main.h": 3,
+          "gamescene.h": 3,
+          "QAction": 3,
+          "<QAction>": 3,
+          "<QMenu>": 3,
+          "QMenu": 3,
+          "arrowitem.h": 3,
+          "zoneviewzone.h": 3,
+          "math.h": 2,
+          "cardinfowidget.h": 2,
+          "QGraphicsScene": 2,
+          "<QGraphicsScene>": 2,
+          "tablezone.h": 2,
+          "carddragitem.h": 2,
+          "QTextEdit": 2,
+          "<QTextEdit>": 2,
+          "QMouseEvent": 2,
+          "<QMouseEvent>": 2,
+          "abstractcarddragitem.h": 1,
+          "abstractcarditem.h": 1,
+          "<math.h>": 1,
+          "pb/event_server_message.pb.h": 1,
+          "google/protobuf/descriptor.h": 1,
+          "pb/event_connection_closed.pb.h": 1,
+          "abstractclient.h": 1,
+          "pb/commands.pb.h": 1,
+          "pb/event_user_message.pb.h": 1,
+          "get_pb_extension.h": 1,
+          "pb/event_user_left.pb.h": 1,
+          "client_metatypes.h": 1,
+          "<google/protobuf/descriptor.h>": 1,
+          "pending_command.h": 1,
+          "pb/event_game_joined.pb.h": 1,
+          "pb/server_message.pb.h": 1,
+          "pb/event_user_joined.pb.h": 1,
+          "pb/event_list_rooms.pb.h": 1,
+          "pb/event_replay_added.pb.h": 1,
+          "pb/event_server_shutdown.pb.h": 1,
+          "pb/event_remove_from_list.pb.h": 1,
+          "pb/event_add_to_list.pb.h": 1,
+          "pb/event_server_identification.pb.h": 1,
+          "pb/command_inc_counter.pb.h": 1,
+          "abstractcounter.h": 1,
+          "QGraphicsSceneHoverEvent": 1,
+          "pb/command_set_counter.pb.h": 1,
+          "<QGraphicsSceneHoverEvent>": 1,
+          "abstractgraphicsitem.h": 1,
+          "pb/command_create_arrow.pb.h": 1,
+          "pb/command_delete_arrow.pb.h": 1,
+          "color.h": 1,
+          "pb/command_attach_card.pb.h": 1,
+          "playertarget.h": 1,
+          "arrowtarget.h": 1,
+          "<QSettings>": 1,
+          "<QDir>": 1,
+          "QSvgRenderer": 1,
+          "<QTextStream>": 1,
+          "<QNetworkAccessManager>": 1,
+          "QFile": 1,
+          "<QFile>": 1,
+          "<QSvgRenderer>": 1,
+          "<QDirIterator>": 1,
+          "QDirIterator": 1,
+          "<QNetworkRequest>": 1,
+          "QTextStream": 1,
+          "QNetworkRequest": 1,
+          "QSet": 1,
+          "QDir": 1,
+          "<QSet>": 1,
+          "<QNetworkReply>": 1,
+          "QUrl": 1,
+          "<QUrl>": 1,
+          "QNetworkAccessManager": 1,
+          "QSettings": 1,
+          "QNetworkReply": 1,
+          "carddatabasemodel.h": 1,
+          "QDesktopWidget": 1,
+          "<QStyle>": 1,
+          "<QGridLayout>": 1,
+          "QStyle": 1,
+          "<QDesktopWidget>": 1,
+          "<QLabel>": 1,
+          "QLabel": 1,
+          "QGridLayout": 1,
+          "QPushButton": 1,
+          "<QPushButton>": 1,
+          "<QApplication>": 1,
+          "tab_game.h": 1,
+          "QApplication": 1,
+          "pb/serverinfo_card.pb.h": 1,
+          "cardlist.h": 1,
+          "pb/serverinfo_user.pb.h": 1,
+          "pb/command_move_card.pb.h": 1,
+          "tab_supervisor.h": 1,
+          "<QDesktopServices>": 1,
+          "QDesktopServices": 1,
+          "chatview.h": 1,
+          "QDateTime": 1,
+          "<QDateTime>": 1,
+          "user_level.h": 1,
+          "pixmapgenerator.h": 1,
+          "QScrollBar": 1,
+          "<QScrollBar>": 1,
+          "user_context_menu.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 20,
+        "packages": {
+          "QList": 4,
+          "<QList>": 4,
+          "<Foundation/Foundation.h>": 3,
+          "<QGraphicsItem>": 3,
+          "QGraphicsItem": 3,
+          "abstractcarditem.h": 2,
+          "<QMutex>": 2,
+          "QMutex": 2,
+          "abstractgraphicsitem.h": 2,
+          "<UIKit/UIKit.h>": 1,
+          "BBCyclingLabel.h": 1,
+          "LEHasher.h": 1,
+          "BKHashableValue.h": 1,
+          "BKNode.h": 1,
+          "arrowtarget.h": 1,
+          "QObject": 1,
+          "QVariant": 1,
+          "<QVariant>": 1,
+          "<QObject>": 1,
+          "pb/serverinfo_user.pb.h": 1,
+          "pb/response.pb.h": 1,
+          "<QHash>": 1,
+          "<QMap>": 1,
+          "<QWaitCondition>": 1,
+          "QDataStream": 1,
+          "QPixmap": 1,
+          "QWaitCondition": 1,
+          "<QPixmap>": 1,
+          "<QNetworkRequest>": 1,
+          "<QThread>": 1,
+          "QNetworkRequest": 1,
+          "QHash": 1,
+          "<QXmlStreamReader>": 1,
+          "QThread": 1,
+          "QMap": 1,
+          "QXmlStreamReader": 1,
+          "<QDataStream>": 1,
+          "QSortFilterProxyModel": 1,
+          "<QSortFilterProxyModel>": 1,
+          "QAbstractListModel": 1,
+          "QSet": 1,
+          "<QSet>": 1,
+          "<QAbstractListModel>": 1,
+          "carddatabase.h": 1,
+          "abstractcarddragitem.h": 1,
+          "<QComboBox>": 1,
+          "<QStringList>": 1,
+          "QFrame": 1,
+          "QComboBox": 1,
+          "QStringList": 1,
+          "<QFrame>": 1,
+          "<QString>": 1,
+          "cardlist.h": 1,
+          "translation.h": 1,
+          "QString": 1,
+          "<QColor>": 1,
+          "<QTextFragment>": 1,
+          "QTextFragment": 1,
+          "<QTextCursor>": 1,
+          "QTextCursor": 1,
+          "<QTextBrowser>": 1,
+          "QColor": 1,
+          "user_level.h": 1,
+          "QTextBrowser": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 52,
+        "packages": {
+          "load-script": 22,
+          "lodash": 9,
+          "discord.js": 9,
+          "type": 7,
+          "hotwired": 7,
+          "extend": 6,
+          "request-promise-native": 6,
+          "is-email": 5,
+          ":": 5,
+          "bind-all": 4,
+          "url": 4,
+          "each": 4,
+          "on-body": 4,
+          "cheerio": 4,
+          "object": 3,
+          "after": 3,
+          "analytics": 3,
+          "json": 3,
+          "load-date": 3,
+          "alias": 3,
+          "clone": 3,
+          "defaults": 3,
+          "bind": 2,
+          "component-each": 2,
+          "segmentio-extend": 2,
+          "segmentio-type": 2,
+          "=": 2,
+          "segmentio-canonical": 2,
+          "json-fallback": 2,
+          "trim": 2,
+          "timoxley-next-tick": 2,
+          "component-cookie": 2,
+          "component-clone": 2,
+          "component-json-fallback": 2,
+          "segmentio-store.js": 2,
+          "segmentio-is-meta": 2,
+          "segmentio-load-script": 2,
+          "yields-prevent": 2,
+          "segmentio-is-email": 2,
+          "segmentio-load-date": 2,
+          "component-querystring": 2,
+          "component-type": 2,
+          "segmentio-alias": 2,
+          "segmentio-on-body": 2,
+          "segmentio-json": 2,
+          "segmentio-after": 2,
+          "component-inherit": 2,
+          "component-trim": 2,
+          "segmentio-new-date": 2,
+          "undefined": 2,
+          "component-bind": 2,
+          "segmentio-top-domain": 2,
+          "component-event": 2,
+          "segmentio-bind-all": 2,
+          "component-object": 2,
+          "avetisk-defaults": 2,
+          "component-url": 2,
+          "store": 2,
+          "prevent": 2,
+          "querystring": 2,
+          "cookie": 2,
+          "event": 2,
+          "new-date": 2,
+          "canonical": 2,
+          "top-domain": 2,
+          "is-meta": 2,
+          "controllers": 2,
+          "request": 2,
+          "LiveChat": 1,
+          "FoxMetrics": 1,
+          "Vero": 1,
+          "Quantcast": 1,
+          "t": 1,
+          "userfox": 1,
+          "USERcycle": 1,
+          "string": 1,
+          "a": 1,
+          "Clicky": 1,
+          "Improvely": 1,
+          "comScore": 1,
+          "Mixpanel": 1,
+          "analytics)": 1,
+          "Klaviyo": 1,
+          "HitTail": 1,
+          "Bitdeli": 1,
+          "array": 1,
+          "Chartbeat": 1,
+          "Heap": 1,
+          "KISSmetrics": 1,
+          "AdRoll": 1,
+          "Pingdom": 1,
+          "Qualaroo": 1,
+          "Preact": 1,
+          "arguments);\\n": 1,
+          "UserVoice": 1,
+          "Perfect": 1,
+          "[object": 1,
+          "convert": 1,
+          "Errorception": 1,
+          "GoSquared": 1,
+          "Customer.io": 1,
+          "ready": 1,
+          "function": 1,
+          "Cant": 1,
+          "0.11.10": 1,
+          "BugHerd": 1,
+          "Intercom": 1,
+          "Lytics": 1,
+          "Get": 1,
+          "Sentry": 1,
+          "Woopra": 1,
+          "to": 1,
+          "HubSpot": 1,
+          "Visual": 1,
+          "Keen": 1,
+          "link": 1,
+          "Google": 1,
+          "Gauges": 1,
+          "?": 1,
+          "s": 1,
+          "ClickTale": 1,
+          "SnapEngage": 1,
+          "on": 1,
+          "CrazyEgg": 1,
+          "Amplitude": 1,
+          "Olark": 1,
+          "Optimizely": 1,
+          "type-component": 1,
+          "YOUR": 1,
+          "next-tick": 1,
+          "inherit": 1,
+          "flowbite": 1,
+          "path": 1,
+          "load-grunt-config": 1,
+          "highlight.js": 1,
+          "required": 1,
+          "iconv-lite": 1,
+          "fuse.js": 1,
+          "fs": 1,
+          "chai": 1,
+          "log4js": 1,
+          "chalk": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 6,
+        "packages": {
+          "BBAppDelegate.h": 2,
+          "BBCyclingLabel.h": 1,
+          "BBRootViewController.h": 1,
+          "<UIKit/UIKit.h>": 1,
+          "UIKit/UIKit.h": 1,
+          "BKNode.h": 1,
+          "BKTree.h": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 64,
+        "packages": {
+          "faraday": 11,
+          "hashie": 11,
+          "json": 11,
+          "spec_helper": 10,
+          "angellist_api/error": 9,
+          "contacts": 5,
+          "angellist_api/configuration": 2,
+          "Authentication": 2,
+          "cgi": 2,
+          "oauth": 2,
+          "Cloudpt::API::Fileops": 2,
+          "cloudpt-api": 2,
+          "yaml": 2,
+          "nokogiri": 2,
+          "RGeo::ActiveRecord::SpatialToSql": 1,
+          ":has_m?": 1,
+          ":has_z?": 1,
+          ":geographic?": 1,
+          "ColumnMethods": 1,
+          "postgis/column_methods": 1,
+          "postgis/schema_statements": 1,
+          "postgis/spatial_column_info": 1,
+          "postgis/oid/date_time": 1,
+          "postgis/type": 1,
+          "postgis/version": 1,
+          "active_record/connection_adapters/postgresql_adapter": 1,
+          "PostGIS::SchemaStatements": 1,
+          "postgis/quoting": 1,
+          "PostGIS::DatabaseStatements": 1,
+          "PostGIS::Quoting": 1,
+          "postgis/arel_tosql": 1,
+          "postgis/spatial_column": 1,
+          "postgis/oid/spatial": 1,
+          "postgis/database_statements": 1,
+          "postgis/spatial_table_definition": 1,
+          "rgeo/active_record": 1,
+          "active_record": 1,
+          "active_record/connection_adapters": 1,
+          "active_record/testing/query_assertions": 1,
+          "ActiveRecord::Assertions::QueryAssertions": 1,
+          "angellist_api/client": 1,
+          "angellist_api/authentication": 1,
+          "angellist_api/connection": 1,
+          "Request": 1,
+          "angellist_api/request": 1,
+          "Connection": 1,
+          "AngellistApi::Client::Users": 1,
+          "angellist_api/client/startup_roles": 1,
+          "AngellistApi::Client::ActivityFeeds": 1,
+          "AngellistApi::Client::Reviews": 1,
+          "angellist_api/client/status_updates": 1,
+          "angellist_api/client/search": 1,
+          "angellist_api/client/follows": 1,
+          "angellist_api/client/tags": 1,
+          "AngellistApi::Client::Tags": 1,
+          "angellist_api/client/jobs": 1,
+          "AngellistApi::Client::Messages": 1,
+          "AngellistApi::Client::Press": 1,
+          "angellist_api/client/messages": 1,
+          "angellist_api/client/activity_feeds": 1,
+          "AngellistApi::Client::Search": 1,
+          "angellist_api/api": 1,
+          "AngellistApi::Client::StatusUpdates": 1,
+          "angellist_api/client/press": 1,
+          "angellist_api/client/startups": 1,
+          "AngellistApi::Client::Paths": 1,
+          "angellist_api/client/paths": 1,
+          "angellist_api/client/users": 1,
+          ":api_endpoint": 1,
+          "AngellistApi::Client::Startups": 1,
+          "AngellistApi::Client::Jobs": 1,
+          "angellist_api/client/reviews": 1,
+          "AngellistApi::Client::StartupRoles": 1,
+          "AngellistApi::Client::Follows": 1,
+          "angellist_api/version": 1,
+          "angellist_api/request/multipart_with_file": 1,
+          "angellist_api/request/angellist_api_oauth": 1,
+          "angellist_api/response/raise_server_error": 1,
+          "angellist_api/response/raise_client_error": 1,
+          "faraday_middleware": 1,
+          "angellist_api/core_ext/hash": 1,
+          "angellist_api/request/gateway": 1,
+          "rubygems": 1,
+          "pathname": 1,
+          "bundler/setup": 1,
+          "required": 1,
+          "cloudpt-api/objects/object": 1,
+          "multi_json": 1,
+          "cloudpt-api/util/oauth": 1,
+          "cloudpt-api/objects/file": 1,
+          "cloudpt-api/objects/fileops": 1,
+          "cloudpt-api/client": 1,
+          "cloudpt-api/util/error": 1,
+          "cloudpt-api/util/config": 1,
+          "cloudpt-api/version": 1,
+          "cloudpt-api/objects/dir": 1,
+          "cloudpt-api/objects/delta": 1,
+          "cloudpt-api/util/util": 1,
+          "cloudpt-api/connection": 1,
+          "cloudpt-api/client/files": 1,
+          "cloudpt-api/client/raw": 1,
+          "Cloudpt::API::Client::Files": 1,
+          "Cloudpt::API::Connection::Requests": 1,
+          "cloudpt-api/connection/requests": 1,
+          "fileutils": 1,
+          "rspec": 1,
+          "simplecov": 1,
+          "uri": 1,
+          "contacts/railtie": 1,
+          "contacts/version": 1,
+          "rails": 1,
+          "contacts/google": 1,
+          "fake_web": 1,
+          "contacts/windows_live": 1,
+          "contacts/yahoo": 1,
+          "crunchbase/product": 1,
+          "crunchbase/acquisition": 1,
+          "crunchbase/location": 1,
+          "crunchbase/funding_round": 1,
+          "crunchbase/person": 1,
+          "crunchbase/version": 1,
+          "crunchbase/category": 1,
+          "crunchbase/fund_raise": 1,
+          "crunchbase/organization": 1,
+          "crunchbase/i_p_o": 1,
+          "webmock/minitest": 1,
+          "vcr": 1,
+          "minitest/autorun": 1,
+          "will_pickdate/pickdate_builder.rb": 1,
+          "will_pickdate/version.rb": 1,
+          "mkmf": 1,
+          "geohash_native": 1,
+          "java": 1,
+          "#{File.dirname(__FILE__)}/../lib/geohash": 1,
+          "test/unit": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "fbatista/activerecord-postgis-adapter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "fbatista/analytics.js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "fbatista/angellist-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "fbatista/BBCyclingLabel",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "fbatista/BKTree",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "fbatista/boxen",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "fbatista/canivete",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "fbatista/cloudpt-api",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "fbatista/Cockatrice",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "fbatista/contacts",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "fbatista/crunchbase-wrapper",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "fbatista/foundation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "fbatista/gem_will_pickdate",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "fbatista/geohash",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "fbatista/judgebot",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

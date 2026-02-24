@@ -1,0 +1,171 @@
+{
+  "username": "pocketarc",
+  "areas": {
+    "OSS": {
+      "score": 0.8431372549019607,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.2647058823529411,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.7142857142857143,
+      "details": {
+        "pocketarc/blade": 0.4512,
+        "pocketarc/codeigniter": 0.1671192307692308,
+        "pocketarc/git-deploy-php": 0.209103125,
+        "pocketarc/helpers": 0.94035,
+        "pocketarc/syncpad": -0.022499999999999992,
+        "pocketarc/tvsort": -0.35529999999999995,
+        "pocketarc/use-journey": 0.875
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6419198448610213,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "PHP": [
+        204277,
+        235
+      ],
+      "Python": [
+        765,
+        7
+      ],
+      "Shell": [
+        83,
+        0
+      ],
+      "Blade": [
+        4,
+        0
+      ],
+      "HTML": [
+        11660,
+        4
+      ],
+      "JavaScript": [
+        28789,
+        13
+      ],
+      "TypeScript": [
+        84241,
+        131
+      ],
+      "Dockerfile": [
+        1093,
+        0
+      ],
+      "CSS": [
+        1063,
+        0
+      ],
+      "MDX": [
+        102,
+        0
+      ],
+      "SCSS": [
+        6131,
+        1
+      ],
+      "Rust": [
+        20790,
+        40
+      ],
+      "Makefile": [
+        114,
+        0
+      ],
+      "Linker Script": [
+        113,
+        0
+      ],
+      "XSLT": [
+        0,
+        0
+      ],
+      "Hack": [
+        0,
+        0
+      ],
+      "Ruby": [
+        2,
+        1
+      ],
+      "Objective-C": [
+        20,
+        2
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 434,
+    "total_lines": 359247,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 204277,
+        "commits": 235
+      },
+      {
+        "language": "TypeScript",
+        "lines": 84241,
+        "commits": 131
+      },
+      {
+        "language": "Rust",
+        "lines": 20790,
+        "commits": 40
+      },
+      {
+        "language": "JavaScript",
+        "lines": 28789,
+        "commits": 13
+      },
+      {
+        "language": "Python",
+        "lines": 765,
+        "commits": 7
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "list index out of range",
+    "username": "pocketarc",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "username": "tjbell",
+  "areas": {
+    "OSS": {
+      "score": -0.030303030303030276,
+      "details": {
+        "issue_resolution_rate": 0.9545454545454546,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.09090909090909091,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "tjbell",
+    "analysis_date": "2026-02-22T20:20:05.403309",
+    "total_repos_analyzed": 1,
+    "total_files_analyzed": 30,
+    "languages": {
+      "Kotlin": {
+        "files_scanned": 30,
+        "packages": {
+          "com.wix": 29,
+          "com.intellij": 19,
+          "class": 8,
+          "frame.CodioFrameDocument": 7,
+          "java.util": 4,
+          "org.jetbrains": 4,
+          "java.time": 3,
+          "java.awt": 3,
+          "java.io": 3,
+          "com.beust": 3,
+          "java.nio": 2,
+          "frame.CodioFrame": 2,
+          "userInterface.SelectionRenderer": 2,
+          "javax.swing": 2,
+          "frame": 2,
+          "kotlin.collections": 1,
+          "com.sun": 1,
+          "frame.CodioFile": 1,
+          "kotlin.reflect": 1,
+          "org.apache": 1,
+          "frame.InteracterContentData": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "tjbell/codio",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      }
+    ]
+  }
+}

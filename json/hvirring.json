@@ -1,0 +1,183 @@
+{
+  "username": "hvirring",
+  "areas": {
+    "OSS": {
+      "score": 0.8118604097840438,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7177906146760656
+      }
+    },
+    "Status": {
+      "score": 0.14631206586586543,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7002373295680288,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "hvirring/simplesamlphp-sqlauthbcrypt": 0.53735
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5395431189124773,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        606,
+        15
+      ],
+      "JavaScript": [
+        646,
+        16
+      ],
+      "PHP": [
+        353,
+        6
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 37,
+    "total_lines": 1605,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 646,
+        "commits": 16
+      },
+      {
+        "language": "Ruby",
+        "lines": 606,
+        "commits": 15
+      },
+      {
+        "language": "PHP",
+        "lines": 353,
+        "commits": 6
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "hvirring",
+    "analysis_date": "2026-02-24T00:29:37.196478",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 61,
+    "languages": {
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "SimpleSAML\\Error": 1,
+          "PDO": 1,
+          "SimpleSAML\\Logger": 1,
+          "Exception": 1,
+          "PDOException": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 13,
+        "packages": {
+          "devise": 3,
+          "fileutils": 1,
+          "cgi": 1,
+          "uri": 1,
+          "RAILS_ROOT": 1,
+          "database_cleaner": 1,
+          "database_cleaner/cucumber": 1,
+          "bundler": 1,
+          "rubygems": 1,
+          "capybara/rails": 1,
+          "capybara/cucumber": 1,
+          "capybara/session": 1,
+          "cucumber/rails": 1,
+          "sass": 1,
+          "meta_search": 1,
+          "active_admin/engine": 1,
+          "active_admin/comments": 1,
+          "kaminari": 1,
+          "rails/version": 1,
+          "active_support/i18n": 1,
+          "active_admin/arbre": 1,
+          "active_admin/helpers/settings": 1,
+          "AssetRegistration": 1,
+          "active_admin/router": 1,
+          "Settings": 1,
+          "their": 1,
+          "sass/plugin": 1,
+          "active_admin/sass/helpers": 1,
+          "active_admin/sass/css_loader": 1,
+          "active_admin/arbre/text_node": 1,
+          "active_admin/arbre/element": 1,
+          "active_admin/arbre/context": 1,
+          "active_admin/arbre/collection": 1,
+          "active_admin/arbre/attributes": 1,
+          "active_admin/arbre/core_extensions": 1,
+          "active_admin/arbre/document": 1,
+          "active_admin/arbre/class_list": 1,
+          "action_view": 1,
+          "active_admin/arbre/tag": 1,
+          "active_admin/arbre/html": 1,
+          "active_admin/arbre/html5_elements": 1,
+          "set": 1,
+          ":<<": 1,
+          "default": 1,
+          "factory_girl": 1,
+          "pathname": 1,
+          "refinery/generators": 1,
+          "friendly_id": 1,
+          "refinerycms-core": 1,
+          "spec_helper": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "hvirring/active_admin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "hvirring/refinerycms",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "hvirring/simplesamlphp-sqlauthbcrypt",
+        "files_analyzed": 1,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

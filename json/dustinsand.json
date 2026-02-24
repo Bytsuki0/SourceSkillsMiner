@@ -1,0 +1,531 @@
+{
+  "username": "dustinsand",
+  "areas": {
+    "OSS": {
+      "score": 0.6395381901265722,
+      "details": {
+        "issue_resolution_rate": 0.8,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.6593072851898583
+      }
+    },
+    "Status": {
+      "score": 0.10976592703587706,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.606956582861508,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "dustinsand/blockinfile": 0.50414,
+        "dustinsand/hex-arch-kotlin-spring-boot": 0.5168,
+        "dustinsand/lagom-helloworld-java-to-kotlin": 0.26335,
+        "dustinsand/pre-commit-jvm": 0.0721875
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.4873260292906123,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        21,
+        1
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        5373,
+        12
+      ],
+      "HTML": [
+        327,
+        0
+      ],
+      "Shell": [
+        112,
+        0
+      ],
+      "Java": [
+        488,
+        1
+      ],
+      "Mako": [
+        0,
+        0
+      ],
+      "Python": [
+        0,
+        0
+      ],
+      "SCSS": [
+        0,
+        0
+      ],
+      "JavaScript": [
+        0,
+        0
+      ],
+      "Smalltalk": [
+        15,
+        0
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 14,
+    "total_lines": 6336,
+    "top_5_languages": [
+      {
+        "language": "Kotlin",
+        "lines": 5373,
+        "commits": 12
+      },
+      {
+        "language": "Go",
+        "lines": 21,
+        "commits": 1
+      },
+      {
+        "language": "Java",
+        "lines": 488,
+        "commits": 1
+      },
+      {
+        "language": "Makefile",
+        "lines": 0,
+        "commits": 0
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 0,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "dustinsand",
+    "analysis_date": "2026-02-23T03:15:11.998609",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 255,
+    "languages": {
+      "Go": {
+        "files_scanned": 28,
+        "packages": {
+          "github.com/zricethezav/gitleaks/v7/options": 21,
+          "github.com/zricethezav/gitleaks/v7/config": 18,
+          "path/filepath": 16,
+          "os": 13,
+          "fmt": 10,
+          "github.com/go-git/go-git/v5": 10,
+          "strings": 9,
+          "time": 8,
+          "testing": 8,
+          "github.com/zricethezav/gitleaks/v7/scan": 8,
+          "io/ioutil": 7,
+          "regexp": 5,
+          "github.com/go-git/go-git/v5/plumbing/object": 5,
+          "strconv": 3,
+          "github.com/go-git/go-git/v5/plumbing": 3,
+          "encoding/json": 3,
+          "os/exec": 2,
+          "log": 2,
+          "github.com/sergi/go-diff/diffmatchpatch": 2,
+          "io": 2,
+          "math": 2,
+          "github.com/zricethezav/gitleaks/v7/version": 2,
+          "bufio": 2,
+          "context": 2,
+          "golang.org/x/sync/errgroup": 2,
+          "sync": 2,
+          "runtime": 2,
+          "github.com/urfave/cli/v2/altsrc": 1,
+          "sort": 1,
+          "github.com/urfave/cli/v2": 1,
+          "errors": 1,
+          "a": 1,
+          "#": 1,
+          "phpinfo();": 1,
+          "phpinfo();\\n": 1,
+          "github.com/stretchr/testify/assert": 1,
+          "path": 1,
+          "github.com/BurntSushi/toml": 1,
+          "github.com/hako/durafmt": 1,
+          "os/signal": 1,
+          "github.com/go-git/go-git/v5/plumbing/transport": 1,
+          "github.com/go-git/go-git/v5/plumbing/transport/http": 1,
+          "github.com/go-git/go-git/v5/plumbing/transport/ssh": 1,
+          "github.com/jessevdk/go-flags": 1,
+          "os/user": 1,
+          "github.com/go-git/go-git/v5/plumbing/storer": 1,
+          "encoding/csv": 1,
+          "github.com/sirupsen/logrus": 1,
+          "bytes": 1,
+          "github.com/go-git/go-git/v5/storage/memory": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 99,
+        "packages": {
+          "org.springframework": 52,
+          "java.util": 36,
+          "com.horizex": 20,
+          "org.junit": 16,
+          "com.intuit": 16,
+          "com.hexarchbootdemo": 15,
+          "javax.annotation": 14,
+          "static": 13,
+          "org.jooq": 10,
+          "com.dustin": 9,
+          "org.slf4j": 8,
+          "payment.producer": 8,
+          "java.io": 6,
+          "java.lang": 6,
+          "java.sql": 4,
+          "org.mapstruct": 4,
+          "lombok.RequiredArgsConstructor": 4,
+          "ui": 4,
+          "payment.consumer": 3,
+          "java.nio": 3,
+          "com.example": 3,
+          "example": 3,
+          "java.net": 2,
+          "com.fasterxml": 2,
+          "perf": 2,
+          "org.dustin": 2,
+          "com.lightbend": 2,
+          "akka.NotUsed": 2,
+          "example.a": 2,
+          "com.jayway": 2,
+          "io.toolisticon": 2,
+          "com.tngtech": 2,
+          "lombok.Data": 1,
+          "lombok.AllArgsConstructor": 1,
+          "jakarta.persistence": 1,
+          "lombok.NoArgsConstructor": 1,
+          "lombok.extern": 1,
+          "org.apache": 1,
+          "mock": 1,
+          "android": 1,
+          "mac": 1,
+          "win": 1,
+          "examples": 1,
+          "examples.users": 1,
+          "akka.Done": 1,
+          "akka.stream": 1,
+          "org.javamoney": 1,
+          "java.math": 1,
+          "org.opentest4j": 1,
+          "org.testcontainers": 1,
+          "example.b": 1,
+          "net.minidev": 1,
+          "javax.tools": 1,
+          "javax.lang": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 65,
+        "packages": {
+          "java.util": 16,
+          "playground.shouldBe": 16,
+          "com.hexarchbootdemo": 15,
+          "org.dustin": 15,
+          "com.lightbend": 12,
+          "org.springframework": 10,
+          "kotlinx.coroutines": 10,
+          "org.junit": 7,
+          "playground.kotlinx": 6,
+          "akka.Done": 6,
+          "com.horizex": 5,
+          "javax.inject": 5,
+          "com.fasterxml": 5,
+          "framework.common": 4,
+          "javax.annotation": 4,
+          "com.squareup": 3,
+          "okhttp3.OkHttpClient": 3,
+          "java.time": 3,
+          "playground.di": 3,
+          "akka.NotUsed": 3,
+          "akka.stream": 3,
+          "org.assertj": 2,
+          "io.github": 2,
+          "org.valiktor": 2,
+          "playground": 2,
+          "com.github": 2,
+          "io.ktor": 2,
+          "kotlinx.serialization": 2,
+          "okhttp3.logging": 2,
+          "com.jakewharton": 2,
+          "com.google": 2,
+          "akka.actor": 2,
+          "io.r2dbc": 1,
+          "org.jooq": 1,
+          "org.flywaydb": 1,
+          "lombok.extern": 1,
+          "org.slf4j": 1,
+          "dagger.Component": 1,
+          "dagger.Provides": 1,
+          "dagger.Module": 1,
+          "playground.dagger": 1,
+          "playground.moshi": 1,
+          "com.apollographql": 1,
+          "launches.GetLaunchesQuery": 1,
+          "playground.apollo": 1,
+          "okhttp3.Dispatcher": 1,
+          "playground.clikt": 1,
+          "org.jetbrains": 1,
+          "playground.exposed": 1,
+          "com.beust": 1,
+          "playground.klaxon": 1,
+          "org.kodein": 1,
+          "org.koin": 1,
+          "com.uchuhimo": 1,
+          "playground.konf": 1,
+          "item": 1,
+          "should": 1,
+          "playground.kotlinfaker": 1,
+          "playground.kotlinpoet": 1,
+          "kotlinx.collections": 1,
+          "kotlin.time": 1,
+          "kotlinx.datetime": 1,
+          "java.io": 1,
+          "kotlinx.html": 1,
+          "playground.ktor": 1,
+          "playground.mordant": 1,
+          "okhttp3": 1,
+          "okhttp3.HttpUrl": 1,
+          "playground.okhttp": 1,
+          "okio.ByteString": 1,
+          "playground.okio": 1,
+          "playground.picnic": 1,
+          "retrofit2.Call": 1,
+          "retrofit2.Retrofit": 1,
+          "retrofit2.create": 1,
+          "playground.retrofit": 1,
+          "okhttp3.MediaType": 1,
+          "retrofit2.http": 1,
+          "playground.sqldelight": 1,
+          "references.kotlinPoet": 1,
+          "kotlin.String": 1,
+          "kotlin.Int": 1,
+          "framework.junit5": 1,
+          "akka.japi": 1,
+          "akka.testkit": 1,
+          "java.net": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 4,
+        "packages": {
+          "typing": 4,
+          "os": 4,
+          "subprocess": 3,
+          "sys": 2,
+          "Dict": 2,
+          "json": 2,
+          "Any": 2,
+          "urllib": 1,
+          "__future__": 1,
+          "hashlib": 1,
+          "unicode_literals": 1,
+          "tarfile": 1,
+          "contextlib": 1,
+          "print_function": 1,
+          "Generator": 1,
+          "distutils": 1,
+          "io": 1,
+          "urlopen": 1,
+          "shutil": 1,
+          "absolute_import": 1,
+          "pre_commit": 1,
+          "List": 1,
+          "load_manifest": 1,
+          "functools": 1,
+          "yaml": 1,
+          "Tuple": 1,
+          "multiprocessing": 1,
+          "tempfile": 1,
+          "collections": 1,
+          "from": 1,
+          "mako": 1,
+          "Optional": 1,
+          "markdown_code_blocks": 1,
+          "markupsafe": 1,
+          "shlex": 1,
+          "re": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 3,
+        "packages": {
+          "scala.concurrent": 3,
+          "io.gatling": 3,
+          "mock": 2,
+          "com.intuit": 2,
+          "perf": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 10,
+        "packages": {
+          "next": 3,
+          "clerk": 2,
+          "tailwind-merge": 2,
+          "clsx": 2,
+          "gptscript-ai": 2,
+          "firebase-admin": 1,
+          "path": 1,
+          "fs": 1,
+          "build": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 28,
+        "packages": {
+          "react": 17,
+          "next": 12,
+          "lucide-react": 8,
+          "radix-ui": 5,
+          "react-firebase-hooks": 3,
+          "firebase": 3,
+          "clerk": 2,
+          "class-variance-authority": 2,
+          "gptscript-ai": 2,
+          "sonner": 2,
+          "vaul": 1,
+          "useEmblaCarousel": 1,
+          "next-themes": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "dustinsand/blockinfile",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "dustinsand/gitleaks",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "dustinsand/hex-arch-kotlin-spring-boot",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "dustinsand/horizex",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "dustinsand/karate",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Scala"
+        ]
+      },
+      {
+        "repository": "dustinsand/kotlin-libraries-playground",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "dustinsand/lagom-helloworld-java-to-kotlin",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "dustinsand/modulith-mark-as-processed-issue",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "dustinsand/notion-clone",
+        "files_analyzed": 21,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "dustinsand/pre-commit.com",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dustinsand/spring-ai-rag-playground",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "dustinsand/spring-modulith",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "dustinsand/storyteller-ai",
+        "files_analyzed": 21,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "username": "butzopower",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.8095238095238095,
+        "pr_merge_rate": 6.166666666666667,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.492948717948718,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        2777,
+        37
+      ],
+      "Ruby": [
+        12648,
+        91
+      ],
+      "TypeScript": [
+        10135,
+        50
+      ],
+      "JavaScript": [
+        12368,
+        19
+      ],
+      "HTML": [
+        358,
+        1
+      ],
+      "CSS": [
+        156,
+        6
+      ],
+      "Gherkin": [
+        25,
+        0
+      ],
+      "Shell": [
+        1,
+        0
+      ],
+      "C": [
+        42,
+        7
+      ],
+      "Java": [
+        2263,
+        14
+      ],
+      "Makefile": [
+        75,
+        1
+      ],
+      "Clojure": [
+        72,
+        0
+      ],
+      "Python": [
+        23,
+        0
+      ],
+      "CoffeeScript": [
+        3,
+        0
+      ],
+      "Roff": [
+        212522,
+        24
+      ],
+      "Vue": [
+        313,
+        0
+      ],
+      "Handlebars": [
+        16,
+        1
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 251,
+    "total_lines": 253797,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 12648,
+        "commits": 91
+      },
+      {
+        "language": "TypeScript",
+        "lines": 10135,
+        "commits": 50
+      },
+      {
+        "language": "Go",
+        "lines": 2777,
+        "commits": 37
+      },
+      {
+        "language": "Roff",
+        "lines": 212522,
+        "commits": 24
+      },
+      {
+        "language": "JavaScript",
+        "lines": 12368,
+        "commits": 19
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "butzopower",
+    "analysis_date": "2026-02-23T18:54:07.487913",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 317,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "<ruby_cups.h>": 1,
+          "ruby_cups.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<cups/cups.h>": 1,
+          "ruby.h": 1,
+          "cups/cups.h": 1,
+          "<ruby.h>": 1,
+          "<ruby/ruby.h>": 1,
+          "ruby/ruby.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 2,
+        "packages": {
+          "adtExample/lib": 2,
+          "adtExample/adt": 1,
+          "testing": 1,
+          "type-a": 1,
+          "type-b": 1,
+          "github.com/stretchr/testify/require": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 4,
+        "packages": {
+          "java.io": 4,
+          "java.security": 4,
+          "java.util": 4,
+          "org.apache": 2,
+          "org.junit": 2,
+          "org.joda": 2,
+          "com.amazonaws": 2,
+          "javax.crypto": 2
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 10,
+        "packages": {
+          "express": 3,
+          "assert": 2,
+          "redis": 2,
+          "path": 1,
+          "angular": 1,
+          "apigee-access": 1,
+          "redis-mock": 1,
+          "cookie-parser": 1,
+          "morgan": 1,
+          "util": 1,
+          "axios": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 87,
+        "packages": {
+          "clean_rogue/values/room": 9,
+          "clean_rogue/values/player": 7,
+          "clean_rogue": 5,
+          "clean_rogue_test_support/doubles/gui_spy": 5,
+          "bundler/setup": 4,
+          "rubygems": 4,
+          "clean_rogue/values/item": 4,
+          "clean_rogue/values/obstacle": 4,
+          "action_controller/railtie": 3,
+          "active_support/test_case": 3,
+          "board/entities/entity": 3,
+          "Validations": 3,
+          "board/entities/validations": 3,
+          "file": 3,
+          "clean_rogue/values/entrance": 3,
+          "CleanRogue": 3,
+          "action_cable": 2,
+          "active_support": 2,
+          "Behavior": 2,
+          "ActiveSupport::Testing::ConstantLookup": 2,
+          "active_support/core_ext/hash/indifferent_access": 2,
+          "ActionCable::TestHelper": 2,
+          "rspec/rails": 2,
+          "boot": 2,
+          "UseCases": 2,
+          "board/entities/help": 2,
+          "board/use_cases/create_entity_for_team_use_case": 2,
+          "board/entities/new_face": 2,
+          "board/entities/team": 2,
+          "board_test_support/contract_tests/entity_that_belongs_to_team_repo_with_date_contract": 2,
+          "board_test_support/contract_tests/entity_repo_contract": 2,
+          "board_test_support/doubles/fake_entity_repo": 2,
+          "securerandom": 2,
+          "board_test_support/doubles/fake_entity_belonging_to_team_with_date_repo": 2,
+          "components/command_options": 2,
+          "configuration": 2,
+          "test/unit": 2,
+          "clean_rogue_test_support/doubles/fake_game_repo": 2,
+          "clean_rogue/utils/map_generators/random_map_generator": 2,
+          "rails/all": 2,
+          "rails/version": 1,
+          "action_cable/testing/rspec": 1,
+          "action_view/railtie": 1,
+          "fileutils": 1,
+          "aruba/cucumber": 1,
+          "action_cable/testing": 1,
+          "action_cable/subscription_adapter/async": 1,
+          "action_cable/testing/test_helper": 1,
+          "action_cable/testing/rails_six": 1,
+          "action_cable/subscription_adapter/test": 1,
+          "action_cable/testing/test_case": 1,
+          "action_cable/testing/connection/test_case": 1,
+          "action_cable/testing/version": 1,
+          "action_cable/testing/channel/test_case": 1,
+          "json": 1,
+          "stop_periodic_timers": 1,
+          "Assertions": 1,
+          "action_dispatch/http/headers": 1,
+          "action_dispatch": 1,
+          "action_dispatch/testing/test_request": 1,
+          "rspec/rails/matchers/action_cable": 1,
+          "rspec/rails/example/channel_example_group": 1,
+          "action-cable-testing": 1,
+          "rspec/rails/shared_contexts/action_cable": 1,
+          "generators/rspec": 1,
+          "rails/generators/test_unit": 1,
+          "rspec/rails/matchers/action_cable/have_streams": 1,
+          "ActionCable::Connection::TestCase::Behavior": 1,
+          "ActionCable::Channel::TestCase::Behavior": 1,
+          "RSpec::Rails::RailsExampleGroup": 1,
+          "rspec/rails/matchers/action_cable/have_broadcasted_to": 1,
+          "action_cable/subscription_adapter/#{adapter}": 1,
+          "GlobalID::Identification": 1,
+          "global_id": 1,
+          "action_cable/engine": 1,
+          "application": 1,
+          "lib/util": 1,
+          "csv": 1,
+          "board_test_support/doubles/gui_spy": 1,
+          "board_test_support/doubles/fake_repo_factory": 1,
+          "board_test_support/test_attributes": 1,
+          "board": 1,
+          "board/use_cases/create_new_face_use_case": 1,
+          "board/use_cases/present_teams_use_case": 1,
+          "board/use_cases/create_team_use_case": 1,
+          "board/use_cases/present_team_use_case": 1,
+          "board/use_cases/present_standup_use_case": 1,
+          "board/use_cases/create_help_use_case": 1,
+          "board/validation_error": 1,
+          "board_test_support/doubles/fake_help_repo": 1,
+          "board_test_support/doubles/fake_new_face_repo": 1,
+          "board_test_support/doubles/fake_team_repo": 1,
+          "date": 1,
+          "colorizer": 1,
+          "streams/colorized_stream": 1,
+          "thor": 1,
+          "commands/collection": 1,
+          "ingest/git_accessor": 1,
+          "ostruct": 1,
+          "ansi/code": 1,
+          "local": 1,
+          "middleman-syntax": 1,
+          "Enumerable": 1,
+          "command_file": 1,
+          "layout_preparer": 1,
+          "bookbindery": 1,
+          "bundler": 1,
+          "section_config": 1,
+          "product_config": 1,
+          "yaml_loader": 1,
+          "checkers/required_keys_checker": 1,
+          "checkers/ditamap_presence_checker": 1,
+          "checkers/duplicate_section_name_checker": 1,
+          "checkers/section_presence_checker": 1,
+          "checkers/archive_menu_checker": 1,
+          "checkers/products_checker": 1,
+          "checkers/repository_name_presence_checker": 1,
+          "yaml": 1,
+          "active_record/railtie": 1,
+          "sprockets/railtie": 1,
+          "action_mailer/railtie": 1,
+          "spec_helper": 1,
+          "capybara/poltergeist": 1,
+          "rspec/autorun": 1,
+          "clean_rogue/utils/direction": 1,
+          "clean_rogue/entities/game": 1,
+          "clean_rogue/utils/field_of_view_calculation": 1,
+          "clean_rogue/values/vision": 1,
+          "clean_rogue/vendor/shadowcasting_field_of_view": 1,
+          "ShadowcastingFieldOfView": 1,
+          "clean_rogue_test_support/doubles/fake_room_builder": 1,
+          "service_instance_access.rb": 1,
+          "base_access.rb": 1,
+          "Allowy::AccessControl": 1,
+          "test_helper": 1,
+          "rails/performance_test_help": 1,
+          "rails/test_help": 1,
+          "mkmf": 1,
+          "cups": 1,
+          "AuthenticatedSystem": 1,
+          "Authentication::ByPassword": 1,
+          "Authentication::ByCookieToken": 1,
+          "digest/sha1": 1,
+          "Authentication": 1,
+          "rails": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "Active": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 15,
+        "packages": {
+          "angular": 9,
+          "highcharts": 5,
+          "reactivex": 1,
+          "chai": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "butzopower/action-cable-testing",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "butzopower/adtExample",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "butzopower/aiclassifier",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "butzopower/angular2-highcharts",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "butzopower/apigee-access-contract-testing",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "butzopower/apod-proxy",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "butzopower/board_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "butzopower/bookbinder",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "butzopower/broom-backwards",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "butzopower/ci_test",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "butzopower/clean-rogue",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "butzopower/clean-rogue-ts",
+        "files_analyzed": 5,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "butzopower/cloud_controller_ng",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "butzopower/command_graph",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "butzopower/cookbook",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "butzopower/crawly",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "butzopower/cups",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "butzopower/decl_auth_demo_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

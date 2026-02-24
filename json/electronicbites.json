@@ -1,0 +1,623 @@
+{
+  "username": "electronicbites",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.3333333333333333,
+        "pr_merge_rate": 2.2,
+        "commits_activity": 0.8463847445224318
+      }
+    },
+    "Status": {
+      "score": 0.25908708217581844,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.83093831557142,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "electronicbites/validates_captcha": 0.09106666666666667
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6647717705439546,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        29795,
+        38
+      ],
+      "Shell": [
+        3186,
+        10
+      ],
+      "JavaScript": [
+        3058,
+        0
+      ],
+      "CSS": [
+        2381,
+        0
+      ],
+      "Elixir": [
+        4021,
+        8
+      ],
+      "HTML": [
+        712,
+        7
+      ],
+      "Dockerfile": [
+        115,
+        0
+      ],
+      "Batchfile": [
+        2,
+        0
+      ],
+      "Objective-C": [
+        4588,
+        6
+      ],
+      "PHP": [
+        44125,
+        7
+      ],
+      "HCL": [
+        1,
+        0
+      ],
+      "Go": [
+        0,
+        0
+      ],
+      "C": [
+        3,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 76,
+    "total_lines": 91987,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 29795,
+        "commits": 38
+      },
+      {
+        "language": "Shell",
+        "lines": 3186,
+        "commits": 10
+      },
+      {
+        "language": "Elixir",
+        "lines": 4021,
+        "commits": 8
+      },
+      {
+        "language": "HTML",
+        "lines": 712,
+        "commits": 7
+      },
+      {
+        "language": "PHP",
+        "lines": 44125,
+        "commits": 7
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "electronicbites",
+    "analysis_date": "2026-02-24T05:22:33.862511",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 386,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 9,
+        "packages": {
+          "<UIKit/UIKit.h>": 6,
+          "<Foundation/Foundation.h>": 3
+        }
+      },
+      "Elixir": {
+        "files_scanned": 84,
+        "packages": {
+          "ExUnit.Case": 16,
+          "Logger": 13,
+          "NameBadge.Screen": 12,
+          "GenServer": 9,
+          "Config": 8,
+          "EfxCase": 6,
+          "ExGuard.Config": 6,
+          "ObanTestsWeb": 6,
+          "Efx": 5,
+          "EfxCase.EfxExample": 5,
+          "Mix.Project": 4,
+          "Application": 3,
+          "EfxCase.MockState": 3,
+          "Mix.Config": 3,
+          "Gettext": 3,
+          "Agent": 2,
+          "EfxCase.Mock": 2,
+          "EfxCase.EfxOmnipresentExample": 2,
+          "#{Mix.env}.exs": 2,
+          "ExGuard.Guard": 2,
+          "ExUnit.CaptureIO": 2,
+          "Phoenix.LiveView": 2,
+          "ObanTests.Worker.TestJob": 2,
+          "Phoenix.LiveView.JS": 2,
+          "Phoenix.Component": 2,
+          "MyModule.Effects": 1,
+          "EfxCase.Internal": 1,
+          "__MODULE__": 1,
+          "TypedStruct": 1,
+          "EfxCase.Mock.MockedFun": 1,
+          "ExUnit.Assertions": 1,
+          "EfxCase.EfxCaseRescueExample": 1,
+          "ExGuard.Notifier": 1,
+          "ExGuard.Notifier.NotifySend": 1,
+          "ExGuard.Notifier.TerminalNotifier": 1,
+          "ExGuard.Notifier.TerminalTitle": 1,
+          "ExGuard.Notifier.TMux": 1,
+          "target.exs": 1,
+          "host.exs": 1,
+          "#{Mix.target()}.exs": 1,
+          "target": 1,
+          "Circuits.GPIO": 1,
+          "NameBadge.ScheduleAPI": 1,
+          "NameBadge.Layout": 1,
+          "NameBadge.ButtonMonitor": 1,
+          "NameBadge.ScreenManager": 1,
+          "NameBadge.Display": 1,
+          "NameBadge.Screen.Settings": 1,
+          "#{config_env()}.exs": 1,
+          "environment": 1,
+          "debug": 1,
+          "ObanTests.Worker.TestHelper": 1,
+          "Swoosh.Mailer": 1,
+          "Ecto.Repo": 1,
+          "Oban.Worker": 1,
+          "ObanTestsWeb.CoreComponents": 1,
+          "Phoenix.Router": 1,
+          "Phoenix.Channel": 1,
+          "common": 1,
+          "convenience": 1,
+          "Phoenix.VerifiedRoutes": 1,
+          "ObanTestsWeb.Layouts": 1,
+          "general": 1,
+          "Phoenix.LiveComponent": 1,
+          "Phoenix.Controller": 1,
+          "Plug.Conn": 1,
+          "Phoenix.LiveView.Router": 1,
+          "Phoenix.HTML": 1,
+          "Phoenix.Endpoint": 1,
+          "Gettext.Backend": 1,
+          "Oban.Web.Router": 1,
+          "Phoenix.LiveDashboard.Router": 1,
+          "Telemetry.Metrics": 1,
+          "Supervisor": 1,
+          "Ecto.Migration": 1,
+          "ObanTestsWeb.ConnCase": 1,
+          "Phoenix.Template": 1,
+          "Map": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 2,
+        "packages": {
+          "fmt": 2,
+          "time": 1,
+          "runtime": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 16,
+        "packages": {
+          "ember": 11,
+          "ivy-videojs": 2,
+          "path": 2,
+          "ember-qunit": 2,
+          "htmlbars-inline-precompile": 2,
+          "videojs": 1,
+          "ember-cli": 1,
+          "vendor": 1,
+          "video.js": 1,
+          "ember-load-initializers": 1,
+          "ember-resolver": 1,
+          "qunit": 1,
+          "phoenix": 1,
+          "some-package": 1,
+          "phoenix-colocated": 1,
+          "phoenix_live_view": 1,
+          "phoenix_html": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 10,
+        "packages": {
+          "BHPhoto.h": 3,
+          "BHAlbum.h": 2,
+          "BHAlbumPhotoCell.h": 2,
+          "BHAlbumTitleReusableView.h": 2,
+          "BHCollectionViewController.h": 2,
+          "BHAppDelegate.h": 2,
+          "BHPhotoAlbumLayout.h": 2,
+          "BHEmblemView.h": 2,
+          "CRVStompClient.h": 1,
+          "GCDAsyncSocket.h": 1,
+          "<QuartzCore/QuartzCore.h>": 1,
+          "QuartzCore/QuartzCore.h": 1,
+          "<UIKit/UIKit.h>": 1,
+          "UIKit/UIKit.h": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 15,
+        "packages": {
+          "DOCUMENT_ROOT": 14,
+          "202-ministats.php": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 102,
+        "packages": {
+          "test_helper": 10,
+          "rubygems": 8,
+          "stomp": 8,
+          "spec_helper": 6,
+          "DebugHelper": 4,
+          "net/http": 3,
+          "timeout": 3,
+          "compass": 3,
+          "em-synchrony": 3,
+          ":a#": 3,
+          "Spree::Gateway::AdyenGateway": 3,
+          "TestBase": 3,
+          "sevendigital": 2,
+          "net/https": 2,
+          "cgi": 2,
+          "yaml": 2,
+          "date": 2,
+          "thor/group": 2,
+          "socket": 2,
+          "active_merchant/billing/response": 2,
+          "nokogiri": 2,
+          "json": 2,
+          "compass-rails/patches/compass": 2,
+          "Kernal::Captures": 2,
+          "FileHelper": 2,
+          "CommandHelper": 2,
+          "lib/em-synchrony": 2,
+          "go": 2,
+          "em-synchrony/thread": 2,
+          "active_record": 2,
+          "Spree::Adyen::PaymentCheck": 2,
+          "logger": 2,
+          "memcache": 1,
+          "peachy": 1,
+          "uri": 1,
+          "oauth": 1,
+          "ostruct": 1,
+          "rational": 1,
+          "Thor::Actions": 1,
+          "base64": 1,
+          "active_merchant/billing": 1,
+          "rexml/document": 1,
+          "active_support/core_ext/enumerable": 1,
+          "securerandom": 1,
+          "active_merchant/version": 1,
+          "active_support": 1,
+          "active_merchant/posts_data": 1,
+          "active_support/core_ext/object/conversions": 1,
+          "active_support/core_ext/class/attribute": 1,
+          "active_merchant/country": 1,
+          "active_support/core_ext/class/attribute_accessors": 1,
+          "active_merchant/post_data": 1,
+          "active_support/core_ext/hash/indifferent_access": 1,
+          "active_support/core_ext/hash/conversions": 1,
+          "builder": 1,
+          "active_support/core_ext/module/attribute_accessors": 1,
+          "active_support/core_ext/string/inflections": 1,
+          "active_merchant/connection": 1,
+          "active_merchant/network_connection_retries": 1,
+          "active_merchant/billing/gateways": 1,
+          "active_merchant/billing/payment_token": 1,
+          "active_merchant/billing/credit_card_methods": 1,
+          "active_merchant/billing/credit_card": 1,
+          "active_merchant/billing/gateway": 1,
+          "active_merchant/billing/check": 1,
+          "active_merchant/billing/base": 1,
+          "active_merchant/billing/credit_card_formatting": 1,
+          "active_merchant/billing/cvv_result": 1,
+          "active_merchant/billing/network_tokenization_credit_card": 1,
+          "active_merchant/billing/apple_pay_payment_token": 1,
+          "active_merchant/billing/avs_result": 1,
+          "active_merchant/errors": 1,
+          "count": 1,
+          "time": 1,
+          "active_merchant/billing/model": 1,
+          "CreditCardMethods": 1,
+          "CreditCardFormatting": 1,
+          "PostsData": 1,
+          "pathname": 1,
+          "Empty": 1,
+          "iconv": 1,
+          "digest/sha2": 1,
+          "compass-rails/configuration": 1,
+          "compass-rails/version": 1,
+          "compass-rails/railties": 1,
+          "compass-rails/patches": 1,
+          "compass-rails/patches/importer": 1,
+          "compass-rails/patches/static_compiler": 1,
+          "compass-rails/patches/sass_importer": 1,
+          "compass-rails/patches/sprite_importer": 1,
+          "compass/compiler": 1,
+          "sprockets": 1,
+          "compass/sprite_importer": 1,
+          "sprockets/static_compiler": 1,
+          "compass-rails/railties/4_0": 1,
+          "compass-rails/railties/3_1": 1,
+          "compass-rails/patches/3_1": 1,
+          "compass-rails/patches/4_0": 1,
+          "CompassRails::Test::RailsHelpers": 1,
+          "appraisal": 1,
+          "appraisal/command": 1,
+          "RailsHelpers": 1,
+          "minitest/autorun": 1,
+          "compass-rails": 1,
+          "active_support/all": 1,
+          "money/bank/google_currency": 1,
+          "money": 1,
+          "DataMapper::Resource": 1,
+          "data_mapper": 1,
+          ":<<": 1,
+          "active_record/connection_adapters/mysql2_adapter": 1,
+          "EM::Synchrony::ActiveRecord::Adapter": 1,
+          "EM::Synchrony::ActiveRecord::Adapter_4_2": 1,
+          "em-synchrony/mysql2": 1,
+          "EM::Synchrony::ActiveRecord::Client": 1,
+          "em-synchrony/activerecord_4_2": 1,
+          "em-synchrony/activerecord": 1,
+          "em-synchrony/em-multi": 1,
+          "em-synchrony/core_ext": 1,
+          "em-synchrony/kernel": 1,
+          "em-synchrony/connection_pool": 1,
+          "eventmachine": 1,
+          "em-synchrony/iterator": 1,
+          "fiber": 1,
+          "em-synchrony/keyboard": 1,
+          "em-synchrony/tcpsocket": 1,
+          "active_record/connection_adapters/abstract/connection_pool": 1,
+          "active_record/connection_adapters/abstract_adapter": 1,
+          ":aresubscribe": 1,
+          ":apublish": 1,
+          ":acancel": 1,
+          "amq/protocol": 1,
+          ":adelete": 1,
+          ":aqueue!": 1,
+          ":asubscribe": 1,
+          "amqp": 1,
+          ":aon_delivery": 1,
+          ":aconsume": 1,
+          ":old_method_missing": 1,
+          "em-hiredis": 1,
+          "em-http-request": 1,
+          "em-jack": 1,
+          ":ause": 1,
+          ":aget_hash": 1,
+          ":afind": 1,
+          ":afirst": 1,
+          ":first": 1,
+          "em-mongo": 1,
+          "EventMachine::Deferrable": 1,
+          "em-redis": 1,
+          ":old_call_command": 1,
+          ":aconnect": 1,
+          "remcached": 1,
+          "em/iterator": 1,
+          "EM::Protocols::LineText2": 1,
+          ":request_without_defer": 1,
+          "mechanize": 1,
+          ":request": 1,
+          "mongo": 1,
+          "em-synchrony/mongo": 1,
+          ":aquery": 1,
+          "mysql2/em": 1,
+          "jquery_mobile_rails/engine": 1,
+          "jquery_mobile_rails": 1,
+          "rails/all": 1,
+          "bundler": 1,
+          "rails/test_help": 1,
+          "prawn": 1,
+          "solidus_core": 1,
+          "solidus_support": 1,
+          "prawn_handler": 1,
+          "solidus_print_invoice/engine": 1,
+          "deface": 1,
+          "database_cleaner": 1,
+          "pry": 1,
+          "factory_girl_rails": 1,
+          "spree/testing_support/factories": 1,
+          "rspec/rails": 1,
+          "capybara/poltergeist": 1,
+          "ffaker": 1,
+          "capybara-screenshot/rspec": 1,
+          "slogger": 1,
+          "stomp/client": 1,
+          "stomp/ext/hash": 1,
+          "stomp/version": 1,
+          "stomp/errors": 1,
+          "stomp/connection": 1,
+          "stomp/message": 1,
+          "digest/sha1": 1,
+          "thread": 1,
+          "io/wait": 1,
+          "openssl": 1,
+          "client_shared_examples": 1,
+          "rspec": 1,
+          "test/unit": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "electronicbites/7digital",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "electronicbites/active_merchant",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "electronicbites/compass-rails",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "electronicbites/currency_converter",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "electronicbites/efx",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "electronicbites/em-synchrony",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "electronicbites/ex_guard",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "electronicbites/ivy-videojs",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "electronicbites/jquery-mobile-rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "electronicbites/name_badge",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "electronicbites/oban-test-on-fly-graceful-shutdown",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Elixir",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "electronicbites/objc-stomp",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "electronicbites/PhotoCollectionView",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "electronicbites/prosper202",
+        "files_analyzed": 29,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "electronicbites/s3_direct_upload",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "electronicbites/solidus-adyen",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "electronicbites/solidus_print_invoice",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "electronicbites/stomp",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

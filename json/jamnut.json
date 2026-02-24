@@ -1,0 +1,206 @@
+{
+  "username": "jamnut",
+  "areas": {
+    "OSS": {
+      "score": -0.08568767675468847,
+      "details": {
+        "issue_resolution_rate": 0.75,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6214684848679674
+      }
+    },
+    "Status": {
+      "score": 0.15790206683505525,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6214684848679674,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.018053597520091696,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        46,
+        1
+      ],
+      "Makefile": [
+        42,
+        0
+      ],
+      "Rust": [
+        8674,
+        24
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 25,
+    "total_lines": 8762,
+    "top_5_languages": [
+      {
+        "language": "Rust",
+        "lines": 8674,
+        "commits": 24
+      },
+      {
+        "language": "C",
+        "lines": 46,
+        "commits": 1
+      },
+      {
+        "language": "Makefile",
+        "lines": 42,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jamnut",
+    "analysis_date": "2026-02-24T05:29:56.073446",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 43,
+    "languages": {
+      "C": {
+        "files_scanned": 7,
+        "packages": {
+          "stdio.h": 7,
+          "<stdio.h>": 7,
+          "<stdlib.h>": 4,
+          "<string.h>": 4,
+          "string.h": 4,
+          "stdlib.h": 4,
+          "pthread.h": 2,
+          "<pthread.h>": 2,
+          "sys/types.h": 2,
+          "unistd.h": 2,
+          "<sys/stat.h>": 2,
+          "<sys/types.h>": 2,
+          "sys/stat.h": 2,
+          "<unistd.h>": 2,
+          "<fcntl.h>": 2,
+          "fcntl.h": 2,
+          "libgen.h": 1,
+          "<errno.h>": 1,
+          "<stdarg.h>": 1,
+          "<libgen.h>": 1,
+          "stdarg.h": 1,
+          "errno.h": 1,
+          "link.h": 1,
+          "<elf.h>": 1,
+          "endian.h": 1,
+          "<sys/mman.h>": 1,
+          "<byteswap.h>": 1,
+          "<link.h>": 1,
+          "sys/mman.h": 1,
+          "elf.h": 1,
+          "<endian.h>": 1,
+          "byteswap.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "namespace": 1,
+          "std": 1,
+          "iostream": 1,
+          "<iostream>": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "os": 1,
+          "sys": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 27,
+        "packages": {
+          "crate": 15,
+          "plotters": 10,
+          "std": 9,
+          "plotters_backend": 5,
+          "super": 4,
+          "criterion": 3,
+          "plotters_bitmap": 2,
+          "image": 2,
+          "num": 1,
+          "draw": 1,
+          "core": 1,
+          "pixels": 1,
+          "VirtualKeyCode": 1,
+          "winit": 1,
+          "cpal": 1,
+          "rodio": 1,
+          "byteorder": 1,
+          "derive_more": 1,
+          "text_anchor": 1,
+          "rayon": 1,
+          "target": 1,
+          "image_encoding_support": 1,
+          "gif": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jamnut/aboriginal",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C",
+          "C++",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jamnut/M4F",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "jamnut/moby",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "jamnut/plotters",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      }
+    ]
+  }
+}

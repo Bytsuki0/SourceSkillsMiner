@@ -1,0 +1,725 @@
+{
+  "username": "michaeljones",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 4.8108108108108105,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.9375,
+      "details": {
+        "michaeljones/checklist": -0.07543333333333334,
+        "michaeljones/cookies": 0.5859,
+        "michaeljones/dance-code-of-conduct": 0.743,
+        "michaeljones/django-scenic": 0.0094,
+        "michaeljones/elm-make-server": 0.4019,
+        "michaeljones/elm-manchester-resources": 0.48629,
+        "michaeljones/elm-message-format-experiment": 0.49470000000000003,
+        "michaeljones/elm-parser": 0.8198,
+        "michaeljones/helix": 0.67945,
+        "michaeljones/kdtree": 0.5613900000000001,
+        "michaeljones/mango": 0.562275,
+        "michaeljones/matcha": 0.27966756756756755,
+        "michaeljones/nave": 0.3234,
+        "michaeljones/packed": 0.4763611111111111,
+        "michaeljones/rada": 0.35904444444444444,
+        "michaeljones/sphinx-to-github": 0.6056133333333334
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7869391025641026,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        29270,
+        157
+      ],
+      "Shell": [
+        13756,
+        9
+      ],
+      "Haskell": [
+        2267,
+        39
+      ],
+      "Python": [
+        24220,
+        205
+      ],
+      "Gleam": [
+        53600,
+        56
+      ],
+      "HTML": [
+        11634,
+        21
+      ],
+      "JavaScript": [
+        62591,
+        96
+      ],
+      "CSS": [
+        14537,
+        13
+      ],
+      "Just": [
+        196,
+        0
+      ],
+      "Rust": [
+        90882,
+        365
+      ],
+      "Elixir": [
+        19818,
+        30
+      ],
+      "Makefile": [
+        44,
+        0
+      ],
+      "Tcl": [
+        2660,
+        52
+      ],
+      "Vim Script": [
+        1096,
+        22
+      ],
+      "Perl": [
+        202,
+        3
+      ],
+      "Elm": [
+        67006,
+        36
+      ],
+      "Erlang": [
+        67,
+        0
+      ],
+      "Vim Snippet": [
+        28,
+        1
+      ],
+      "C": [
+        7500,
+        20
+      ],
+      "TypeScript": [
+        4663,
+        19
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 1144,
+    "total_lines": 406037,
+    "top_5_languages": [
+      {
+        "language": "Rust",
+        "lines": 90882,
+        "commits": 365
+      },
+      {
+        "language": "Python",
+        "lines": 24220,
+        "commits": 205
+      },
+      {
+        "language": "C++",
+        "lines": 29270,
+        "commits": 157
+      },
+      {
+        "language": "JavaScript",
+        "lines": 62591,
+        "commits": 96
+      },
+      {
+        "language": "Gleam",
+        "lines": 53600,
+        "commits": 56
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "michaeljones",
+    "analysis_date": "2026-02-24T04:32:50.548478",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 181,
+    "languages": {
+      "C++": {
+        "files_scanned": 19,
+        "packages": {
+          "AlembicFS.hh": 3,
+          "wrap.hh": 2,
+          "Engine.h": 2,
+          "View.h": 2,
+          "World.h": 2,
+          "objects/Object.h": 2,
+          "iostream": 2,
+          "<iostream>": 2,
+          "boost/algorithm/string.hpp": 1,
+          "<boost/algorithm/string.hpp>": 1,
+          "<sstream>": 1,
+          "OutputTrait.hh": 1,
+          "sstream": 1,
+          "ValuesPropertyView.hh": 1,
+          "fuse.h": 1,
+          "stdio.h": 1,
+          "MaxValuePropertyView.hh": 1,
+          "<fuse.h>": 1,
+          "<stdio.h>": 1,
+          "<boost/scoped_ptr.hpp>": 1,
+          "JsonValuesPropertyView.hh": 1,
+          "boost/scoped_ptr.hpp": 1,
+          "MinValuePropertyView.hh": 1,
+          "ImagePlane.h": 1,
+          "ClippingPlaneIntersection.h": 1,
+          "Intersection.h": 1,
+          "IntersectionFactory.h": 1,
+          "ObjectIntersection.h": 1,
+          "SphereIntersection.h": 1,
+          "PointLight.h": 1,
+          "materials/ConstantMaterial.h": 1,
+          "lights/PointLight.h": 1,
+          "materials/NormalMaterial.h": 1,
+          "ImathVec.h": 1,
+          "<ImathVec.h>": 1,
+          "objects/Sphere.h": 1,
+          "outputs/Output.h": 1,
+          "objects/ClippingPlane.h": 1,
+          "ConstantMaterial.h": 1,
+          "Material.h": 1,
+          "intersections/Intersection.h": 1,
+          "NormalMaterial.h": 1,
+          "vectorconst.hh": 1,
+          "gtest/gtest.h": 1,
+          "<gtest/gtest.h>": 1,
+          "<GL/gl.h>": 1,
+          "GL/gl.h": 1,
+          "GL/glu.h": 1,
+          "unistd.h": 1,
+          "<unistd.h>": 1,
+          "GL/glut.h": 1,
+          "<curlnoise/curlnoise.h>": 1,
+          "curlnoise/curlnoise.h": 1,
+          "<GL/glut.h>": 1,
+          "<cmath>": 1,
+          "<GL/glu.h>": 1,
+          "cmath": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 18,
+        "packages": {
+          "ImathColor.h": 6,
+          "Ray.h": 6,
+          "<ImathColor.h>": 5,
+          "ImathVec.h": 3,
+          "<ImathVec.h>": 3,
+          "vector": 3,
+          "<vector>": 3,
+          "ObjectIntersection.h": 2,
+          "Intersection.h": 2,
+          "Material.h": 2,
+          "View.h": 1,
+          "World.h": 1,
+          "Camera.h": 1,
+          "ImagePlane.h": 1,
+          "objects/Object.h": 1,
+          "lights/PointLight.h": 1,
+          "intersections/IntersectionFactory.h": 1,
+          "objects/ClippingPlane.h": 1,
+          "<list>": 1,
+          "list": 1,
+          "objects/Sphere.h": 1,
+          "intersections/Intersection.h": 1,
+          "<perlin/perlin.h>": 1,
+          "object.h": 1,
+          "perlin/perlin.h": 1,
+          "<GL/gl.h>": 1,
+          "GL/gl.h": 1,
+          "line.h": 1
+        }
+      },
+      "Elixir": {
+        "files_scanned": 32,
+        "packages": {
+          "Cachex.Spec": 29,
+          "Cachex.Services.Locksmith": 12,
+          "Cachex.Actions": 8,
+          "Cachex.Errors": 6,
+          "Cachex.Query": 5,
+          "Cachex.Options": 5,
+          "Cachex.Services.Janitor": 5,
+          "the": 2,
+          "Cachex.Services": 2,
+          "a": 2,
+          "Services.Overseer": 2,
+          "needed": 2,
+          "Cachex.Actions.Size": 2,
+          "Cachex.Disk": 2,
+          "lib/": 1,
+          "Router": 1,
+          "util": 1,
+          "Cachex.Router": 1,
+          "Services.Informant": 1,
+          "Unsafe.Generator": 1,
+          "Overseer": 1,
+          "Supervisor": 1,
+          "Cachex.ExecutionError": 1,
+          "Kernel": 1,
+          "required": 1,
+          "our": 1,
+          "record": 1,
+          "Cachex.Services.Courier": 1,
+          "Cachex.Actions.Get": 1,
+          "time": 1,
+          "Services.Janitor": 1,
+          "Cachex.Actions.Clear": 1,
+          "Cachex.Stats": 1,
+          "Cachex.Services.Informant": 1,
+          "Mix.Project": 1,
+          "ExUnit.Case": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 30,
+        "packages": {
+          "context": 25,
+          "fmt": 22,
+          "strings": 22,
+          "github.com/dagger/dagger/.dagger/internal/dagger": 19,
+          "golang.org/x/sync/errgroup": 12,
+          "go.opentelemetry.io/otel/codes": 8,
+          "golang.org/x/mod/semver": 8,
+          "path/filepath": 8,
+          "github.com/dagger/dagger/engine/distconsts": 4,
+          "github.com/moby/buildkit/identity": 4,
+          "errors": 4,
+          "os": 4,
+          "github.com/dagger/dagger/cmd/codegen/introspection": 4,
+          "bytes": 3,
+          "encoding/json": 3,
+          "github.com/dagger/dagger/.dagger/build": 3,
+          "regexp": 3,
+          "path": 3,
+          "dagger.io/dagger": 3,
+          "github.com/containerd/platforms": 2,
+          "github.com/dagger/dagger/.dagger/consts": 2,
+          "text/template": 2,
+          "--addr": 2,
+          "--network-name": 2,
+          "--network-cidr": 2,
+          "encoding/base64": 2,
+          "go": 2,
+          "testing": 2,
+          "io": 2,
+          "sync": 2,
+          "github.com/dagger/dagger/cmd/codegen/generator": 2,
+          "os/exec": 2,
+          "io/fs": 2,
+          "[failed](%s)": 1,
+          "--nightly": 1,
+          "github.com/dagger/dagger/.dagger/util": 1,
+          "net/url": 1,
+          "--config": 1,
+          "--release-notes": 1,
+          "sort": 1,
+          "golang.org/x/exp/maps": 1,
+          "docker": 1,
+          "-d": 1,
+          "run": 1,
+          "--name": 1,
+          "-v": 1,
+          "--privileged": 1,
+          "--format=json": 1,
+          "--severity=CRITICAL": 1,
+          "--exit-code=1": 1,
+          "library": 1,
+          "--db-repository=public.ecr.aws/aquasecurity/trivy-db": 1,
+          "fs": 1,
+          "image": 1,
+          "--vuln-type=os": 1,
+          "--show-suppressed": 1,
+          "trivy": 1,
+          "--vuln-type=library": 1,
+          "HIGH": 1,
+          "--scanners=vuln": 1,
+          "push": 1,
+          "--subdirectory-filter": 1,
+          "git": 1,
+          "--": 1,
+          "--tree-filter": 1,
+          "sdk/dotnet": 1,
+          "1.16": 1,
+          "1.17": 1,
+          "1.15": 1,
+          "https://github.com/dagger/dagger-go-sdk.git": 1,
+          "https://github.com/dagger/dagger.git": 1,
+          "dagger-ci": 1,
+          "hello@dagger.io": 1,
+          "mvn": 1,
+          "versions:set-property": 1,
+          "-Dproperty=daggerengine.version": 1,
+          "-DgenerateBackupPoms=false": 1,
+          "-Dproperty=dagger.module.deps": 1,
+          "-DnewVersion=": 1,
+          "versions:set": 1,
+          "<?php\\n\\n/*": 1,
+          "docs/current_docs/**/*.py": 1,
+          "**/.ruff.toml": 1,
+          "**/Cargo.toml": 1,
+          "github.com/BurntSushi/toml": 1,
+          "**/main.rs": 1,
+          "rustup": 1,
+          "cargo": 1,
+          "**/Cargo.lock": 1,
+          "**/lib.rs": 1,
+          "**/*.js": 1,
+          "*prettier*": 1,
+          "*eslint*": 1,
+          "**/*.ts": 1,
+          "export": 1,
+          "**/*.mts": 1,
+          "**/*.mjs": 1,
+          "-X": 1,
+          "--debugaddr": 1,
+          "test": 1,
+          "reflect": 1,
+          "elixir": 1,
+          "php": 1,
+          "dagger-g%d-%s-%dc": 1,
+          "java": 1,
+          "docs": 1,
+          "rust": 1,
+          "Engine": 1,
+          "check": 1,
+          "${{": 1,
+          "typescript": 1,
+          "--github-token=env:RELEASE_DAGGER_CI_TOKEN": 1,
+          "python": 1,
+          "Github": 1,
+          "github.com/dagger/dagger/.github/internal/dagger": 1,
+          "SDKs": 1,
+          "dotnet": 1,
+          "deploy": 1,
+          "nscloud-ubuntu-%s-amd64-%dx%d": 1,
+          "Helm": 1,
+          "github.com/dagger/dagger/engine/telemetry": 1,
+          "github.com/dagger/dagger/engine": 1,
+          "crypto/sha256": 1,
+          "net/http": 1,
+          "github.com/dagger/dagger/engine/slog": 1,
+          "time": 1,
+          "google.golang.org/grpc/status": 1,
+          "google.golang.org/grpc/codes": 1,
+          "strconv": 1,
+          "google.golang.org/grpc": 1,
+          "Short": 1,
+          "index.docker.io": 1,
+          "Empty": 1,
+          "localhost": 1,
+          "Private": 1,
+          "github.com/moby/buildkit/session/auth": 1,
+          "registry-1.docker.io": 1,
+          "GitHub": 1,
+          "Invalid": 1,
+          "Only": 1,
+          "AWS": 1,
+          "Local": 1,
+          "github.com/stretchr/testify/require": 1,
+          "unicode": 1,
+          "runtime": 1,
+          "go/parser": 1,
+          "golang.org/x/tools/go/packages": 1,
+          "github.com/dagger/dagger/cmd/codegen/generator/go/templates": 1,
+          "github.com/iancoleman/strcase": 1,
+          "%[2]s/internal/dagger": 1,
+          "go/token": 1,
+          "golang.org/x/mod/modfile": 1,
+          "github.com/dagger/dagger/cmd/codegen/trace": 1,
+          "dagger.io/dagger/telemetry": 1,
+          "go/ast": 1,
+          "golang.org/x/tools/imports": 1,
+          "github.com/psanford/memfs": 1,
+          "github.com/dschmidt/go-layerfs": 1,
+          "go/format": 1
+        }
+      },
+      "Haskell": {
+        "files_scanned": 8,
+        "packages": {
+          "qualified": 7,
+          "Data.Vect.Float": 7,
+          "Plane": 4,
+          "Brick": 4,
+          "Data.Vect.Float.Instances": 4,
+          "Data.Default": 3,
+          "Data.List": 2,
+          "Paddle": 2,
+          "Collision": 2,
+          "Ball": 1,
+          "Control.Monad.IO.Class": 1,
+          "Control.Monad.Reader": 1,
+          "Control.Monad": 1,
+          "Graphics.Rendering.OpenGL": 1,
+          "Control.Monad.State": 1,
+          "Timer": 1,
+          "Graphics.UI.SDL": 1,
+          "Graphics.UI.SDL.Time": 1,
+          "Data.Word": 1,
+          "Test.Tasty": 1,
+          "Test.Tasty.HUnit": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "broccoli-babel-transpiler": 1,
+          "ramda": 1,
+          "request": 1,
+          "q": 1,
+          "github": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 19,
+        "packages": {
+          "django": 15,
+          "os": 6,
+          "settings": 4,
+          "forms": 3,
+          "models": 3,
+          "sys": 2,
+          "PIL": 2,
+          "Image": 2,
+          "json": 2,
+          "patterns": 2,
+          "*": 2,
+          "formexample": 2,
+          "admin": 1,
+          "uuid": 1,
+          "gettext_lazy": 1,
+          "db": 1,
+          "south": 1,
+          "datetime": 1,
+          "SchemaMigration": 1,
+          "re_path": 1,
+          "require_POST": 1,
+          "xframe_options_sameorigin": 1,
+          "File": 1,
+          "csrf_exempt": 1,
+          "HttpResponse": 1,
+          "path": 1,
+          "mark_safe": 1,
+          "reverse": 1,
+          "gettext": 1,
+          "get_wsgi_application": 1,
+          "CicuUploaderInput": 1,
+          "example": 1,
+          "MEDIA_ROOT": 1,
+          "cicu": 1,
+          "TestCase": 1,
+          "HttpResponseRedirect": 1,
+          "render": 1,
+          "execute_from_command_line": 1,
+          "setuptools": 1,
+          "distutils": 1,
+          "setup": 1,
+          "pprint": 1,
+          "re": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 10,
+        "packages": {
+          "std": 9,
+          "miette": 4,
+          "clap": 3,
+          "crate": 3,
+          "tracing": 3,
+          "watchexec": 3,
+          "parse_zoneinfo": 1,
+          "regex": 1,
+          "reqwest": 1,
+          "flate2": 1,
+          "tar": 1,
+          "clap_complete": 1,
+          "clap_complete_fig": 1,
+          "duct": 1,
+          "tempfile": 1,
+          "argfile": 1,
+          "notify_rust": 1,
+          "tracing_subscriber": 1,
+          "trycmd": 1,
+          "image": 1,
+          "serde": 1,
+          "scarlet": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 23,
+        "packages": {
+          "vscode": 13,
+          "fs": 10,
+          "events": 9,
+          "os": 7,
+          "child_process": 5,
+          "vscode-debugprotocol": 4,
+          "path": 4,
+          "net": 3,
+          "tmp": 2,
+          "timers": 1,
+          "crypto": 1,
+          "vscode-debugadapter": 1,
+          "gdbPort": 1,
+          "command-exists": 1,
+          "process": 1,
+          "[": 1,
+          "95m": 1,
+          "0m": 1,
+          "1m": 1,
+          "\\x1b": 1,
+          "xml2js": 1,
+          "ringbufferjs": 1,
+          "binary-parser": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "michaeljones/alembic-fs",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "michaeljones/birl",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "michaeljones/breakout",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Haskell"
+        ]
+      },
+      {
+        "repository": "michaeljones/cachex",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "michaeljones/cargo-watch",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "michaeljones/charles",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "michaeljones/clean-image-crop-uploader",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "michaeljones/community-bot",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "michaeljones/containerconst",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "michaeljones/cortex-debug",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "michaeljones/cross-stitch",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Elixir",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "michaeljones/curl-noise",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "michaeljones/dagger",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

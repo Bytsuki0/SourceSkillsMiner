@@ -1,0 +1,239 @@
+{
+  "username": "tariel",
+  "areas": {
+    "OSS": {
+      "score": 0.7874022225390318,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.88,
+        "commits_activity": 0.8011033338085477
+      }
+    },
+    "Status": {
+      "score": 0.23877297102852735,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7812363796197139,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.3065437983918898,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        3951,
+        37
+      ],
+      "Ruby": [
+        3411,
+        24
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 61,
+    "total_lines": 7362,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 3951,
+        "commits": 37
+      },
+      {
+        "language": "Ruby",
+        "lines": 3411,
+        "commits": 24
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "tariel",
+    "analysis_date": "2026-02-24T09:43:42.407744",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 80,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 16,
+        "packages": {
+          "querystring": 6,
+          "nock": 5,
+          "util": 3,
+          "fs": 3,
+          "path": 2,
+          "child_process": 2,
+          "time-grunt": 1,
+          "jit-grunt": 1,
+          "grunt": 1,
+          "nodegit": 1,
+          "github": 1,
+          "object-merge": 1,
+          "date-utils": 1,
+          "crypto": 1,
+          "request": 1,
+          "all": 1,
+          "async": 1,
+          "flex-sdk": 1,
+          "undefined": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 29,
+        "packages": {
+          "helper": 10,
+          "dalli": 5,
+          "rubygems": 4,
+          "memcached_mock": 3,
+          "sinatra": 3,
+          "#{File.dirname(__FILE__)}/spec_helper": 3,
+          "logger": 2,
+          "thread": 2,
+          "zlib": 2,
+          "socket": 2,
+          "action_controller": 2,
+          "action_dispatch": 2,
+          "active_support/cache/dalli_store": 2,
+          "MemcachedMock::Helper": 2,
+          "haml": 2,
+          "bundler/setup": 2,
+          "StatusHelper": 2,
+          "action_dispatch/middleware/session/abstract_store": 1,
+          "active_support/cache": 1,
+          "dalli/ring": 1,
+          "dalli/socket": 1,
+          "dalli/railtie": 1,
+          "dalli/client": 1,
+          "dalli/server": 1,
+          "dalli/options": 1,
+          "dalli/version": 1,
+          "digest/md5": 1,
+          "monitor": 1,
+          "digest/sha1": 1,
+          "timeout": 1,
+          "kgio": 1,
+          ":write": 1,
+          "rack/session/abstract/id": 1,
+          "active_support/dependencies": 1,
+          "test/unit": 1,
+          "pp": 1,
+          "active_support/core_ext/kernel/reporting": 1,
+          "routes.url_helpers": 1,
+          "action_controller/caching": 1,
+          "action_view": 1,
+          "ActionController::Testing": 1,
+          "action_controller/caching/sweeping": 1,
+          "SharedTestRoutes.url_helpers": 1,
+          "SetupOnce": 1,
+          "abstract_controller": 1,
+          "ActionDispatch::TestProcess": 1,
+          "active_support/core_ext/string/encoding": 1,
+          "benchmark": 1,
+          "active_support/all": 1,
+          "minitest/pride": 1,
+          "mini_shoulda": 1,
+          "minitest/autorun": 1,
+          "mocha": 1,
+          "rails": 1,
+          "rack/mock": 1,
+          "rack/lint": 1,
+          "rack/session/dalli": 1,
+          "abstract_unit": 1,
+          "action_dispatch/middleware/session/dalli_store": 1,
+          "config": 1,
+          "compass": 1,
+          "sass": 1,
+          "ostruct": 1,
+          "open-uri": 1,
+          "dm-validations": 1,
+          "dm-core": 1,
+          "rest_client": 1,
+          "dm-aggregates": 1,
+          "simple-rss": 1,
+          "mail": 1,
+          "dm-migrations": 1,
+          "dm-timestamps": 1,
+          "json": 1,
+          "from_email": 1,
+          "DataMapper::Resource": 1,
+          "Rack::Test::Methods": 1,
+          "webmock/rspec": 1,
+          "rspec": 1,
+          "bundler": 1,
+          "rack/test": 1,
+          "time": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "tariel/dalli",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tariel/grunt-trimtrailingspaces",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "tariel/modern-web-tools-with-node-js-book",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "tariel/simple-oauth2",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "tariel/statusboard",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tariel/video-js-swf",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "username": "bjreath",
+  "areas": {
+    "OSS": {
+      "score": 0.24412667240597696,
+      "details": {
+        "issue_resolution_rate": 0.8,
+        "pr_merge_rate": 0.5555555555555556,
+        "commits_activity": 0.5106344530534098
+      }
+    },
+    "Status": {
+      "score": 0.01123720773904191,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.4976250423777936,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.11384097003625472,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        56263,
+        6
+      ],
+      "JavaScript": [
+        6888,
+        0
+      ],
+      "CSS": [
+        1902,
+        0
+      ],
+      "TypeScript": [
+        1790,
+        2
+      ],
+      "HTML": [
+        99,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 8,
+    "total_lines": 66942,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 56263,
+        "commits": 6
+      },
+      {
+        "language": "TypeScript",
+        "lines": 1790,
+        "commits": 2
+      },
+      {
+        "language": "JavaScript",
+        "lines": 6888,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 1902,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 99,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "bjreath",
+    "analysis_date": "2026-02-22T19:35:45.848549",
+    "total_repos_analyzed": 10,
+    "total_files_analyzed": 172,
+    "languages": {
+      "Java": {
+        "files_scanned": 1,
+        "packages": {
+          "be.jedi": 1,
+          "java.io": 1,
+          "de.waldheinz": 1,
+          "java.nio": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 14,
+        "packages": {
+          "ember": 6,
+          "react": 4,
+          "react-dom": 3,
+          "webpack": 3,
+          "path": 2,
+          "ember-cli": 1,
+          "webpack-dev-middleware": 1,
+          "express": 1,
+          "chai": 1,
+          "react-addons-test-utils": 1,
+          "lodash": 1,
+          "twemoji": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "prlsdkapi": 3,
+          "sys": 3,
+          "string": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 25,
+        "packages": {
+          "bundler/setup": 4,
+          "rails/all": 3,
+          "test_helper": 3,
+          "postgresql::client": 3,
+          "boot": 2,
+          "application": 2,
+          "god": 2,
+          "yaml": 2,
+          "postgresql::master": 1,
+          "rubygems": 1,
+          "postgresql::server": 1,
+          "postgresql::yum_pgdg_postgresql": 1,
+          "active_job/railtie": 1,
+          "active_model/railtie": 1,
+          "action_cable/engine": 1,
+          "active_record/railtie": 1,
+          "action_view/railtie": 1,
+          "rails/test_unit/railtie": 1,
+          "action_controller/railtie": 1,
+          "action_mailer/railtie": 1,
+          "rails": 1,
+          "date": 1,
+          "cfpropertylist": 1,
+          "fission/leasesfile": 1,
+          "fission/error": 1,
+          "shellwords": 1,
+          "ostruct": 1,
+          "fileutils": 1,
+          "fission/cli": 1,
+          "fission/core_ext/object": 1,
+          "fission/command/snapshot_revert": 1,
+          "fission/command/clone": 1,
+          "fission/fusion": 1,
+          "fission/command/status": 1,
+          "fission/command_helpers": 1,
+          "fission/core_ext/class": 1,
+          "fission/command/suspend": 1,
+          "fission/ui": 1,
+          "fission/command/start": 1,
+          "fission/vm": 1,
+          "fission/response": 1,
+          "fission/metadata": 1,
+          "fission/command/snapshot_create": 1,
+          "optparse": 1,
+          "fission/config": 1,
+          "fission/command/stop": 1,
+          "fission/lease": 1,
+          "fission/command": 1,
+          "fission/command/snapshot_list": 1,
+          "fission/core_ext/file": 1,
+          "fission/version": 1,
+          "socket": 1,
+          "net/vnc/version": 1,
+          "thread": 1,
+          "cipher/des": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "react": 1,
+          "enzyme": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "bjreath/bootstrap-rails-ruby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bjreath/ember-rails-demo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bjreath/ember-select-example",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "bjreath/postgresql-ha-presentation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bjreath/postgresql-replication-lab",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bjreath/react-sample",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "bjreath/react-twemoji",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "bjreath/veewee-lab",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Python",
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "username": "mburns",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.75,
+        "pr_merge_rate": 5.589285714285714,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.8333333333333334,
+      "details": {
+        "mburns/application_nodejs": 0.20589677419354838,
+        "mburns/chef-aide": 0.185475,
+        "mburns/chef-cookbook-docker_compose": -0.012633333333333349,
+        "mburns/chef-openerp-cookbook": 0.61936,
+        "mburns/chef-pre-commit-hook": 0.23315,
+        "mburns/cookbook-treslek": 0.39102499999999996,
+        "mburns/libyaml": 0.3272,
+        "mburns/nomic": 0.23275897435897436,
+        "mburns/paramount": -0.030471666666666668,
+        "mburns/rackspace_monitoring-cookbook": 0.2082333333333333,
+        "mburns/ssmtp": 0.2670766666666667,
+        "mburns/statsd": 0.3255777777777778
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7044871794871794,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        12331,
+        205
+      ],
+      "HTML": [
+        5677,
+        67
+      ],
+      "Go": [
+        6,
+        0
+      ],
+      "Shell": [
+        196,
+        2
+      ],
+      "JavaScript": [
+        638,
+        26
+      ],
+      "GDScript": [
+        1880,
+        0
+      ],
+      "Python": [
+        72,
+        1
+      ],
+      "Makefile": [
+        8,
+        0
+      ],
+      "Dockerfile": [
+        79,
+        2
+      ],
+      "Lua": [
+        756,
+        5
+      ],
+      "PowerShell": [
+        7,
+        0
+      ],
+      "CSS": [
+        7611,
+        37
+      ],
+      "PHP": [
+        1265,
+        12
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 357,
+    "total_lines": 30526,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 12331,
+        "commits": 205
+      },
+      {
+        "language": "HTML",
+        "lines": 5677,
+        "commits": 67
+      },
+      {
+        "language": "CSS",
+        "lines": 7611,
+        "commits": 37
+      },
+      {
+        "language": "JavaScript",
+        "lines": 638,
+        "commits": 26
+      },
+      {
+        "language": "PHP",
+        "lines": 1265,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mburns",
+    "analysis_date": "2026-02-22T16:32:47.991080",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 217,
+    "languages": {
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "testing": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "sprintf": 2,
+          "logmagic": 1,
+          "net": 1,
+          "irc-colors": 1,
+          "async": 1,
+          "util": 1,
+          "crypto": 1,
+          "redis": 1,
+          "request": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 53,
+        "packages": {
+          "__future__": 23,
+          "checkov": 23,
+          "braid": 22,
+          "fabric": 18,
+          "annotations": 16,
+          "typing": 12,
+          "CheckResult": 12,
+          "twisted": 9,
+          "BaseAnsibleTaskValueCheck": 8,
+          "Any": 8,
+          "os": 7,
+          "*": 6,
+          "run": 6,
+          "sudo": 6,
+          "FilePath": 6,
+          "absolute_import": 5,
+          "package": 4,
+          "StringIO": 4,
+          "cStringIO": 4,
+          "TYPE_CHECKING": 4,
+          "Iterable": 4,
+          "collections": 4,
+          "BlockType": 4,
+          "pathlib": 4,
+          "Path": 4,
+          "info": 3,
+          "re": 3,
+          "addTasks": 3,
+          "abc": 3,
+          "CheckCategories": 3,
+          "registry": 3,
+          "abstractmethod": 3,
+          "CheckType": 3,
+          "quote": 2,
+          "pipes": 2,
+          "env": 2,
+          "print_function": 2,
+          "tempfile": 2,
+          "cd": 2,
+          "distroFamily": 2,
+          "fails": 2,
+          "task": 2,
+          "settings": 2,
+          "files": 2,
+          "config": 2,
+          "service": 2,
+          "buildbot": 2,
+          "ShellCommand": 2,
+          "json": 2,
+          "BaseCheck": 2,
+          "logging": 2,
+          "Registry": 2,
+          "ResourceType": 2,
+          "ObjectLocalGraph": 2,
+          "START_LINE": 2,
+          "BaseArgoWorkflowsCheck": 2,
+          "api": 1,
+          "utils": 1,
+          "pypy": 1,
+          "ENVIRONMENTS": 1,
+          "sibpath": 1,
+          "succeeds": 1,
+          "path": 1,
+          "prefixedMethods": 1,
+          "pip": 1,
+          "requests": 1,
+          "contextlib": 1,
+          "console": 1,
+          "functools": 1,
+          "imp": 1,
+          "loadServices": 1,
+          "base": 1,
+          "cron": 1,
+          "put": 1,
+          "git": 1,
+          "confirm": 1,
+          "twisted_steps": 1,
+          "BuildFactory": 1,
+          "ntpath": 1,
+          "private": 1,
+          "shell": 1,
+          "ProcessDocs": 1,
+          "WithProperties": 1,
+          "txbuildbot": 1,
+          "posixpath": 1,
+          "Build": 1,
+          "builder": 1,
+          "a": 1,
+          "RemoteShellCommand": 1,
+          "exception": 1,
+          "SUCCESS": 1,
+          "LogLineObserver": 1,
+          "log": 1,
+          "ANY_VALUE": 1,
+          "find_in_dict": 1,
+          "BaseAnsibleTaskCheck": 1,
+          "Enum": 1,
+          "enum": 1,
+          "CustomAttributes": 1,
+          "GraphSource": 1,
+          "Block": 1,
+          "pickle_deepcopy": 1,
+          "get_scannable_file_paths": 1,
+          "AnsibleLocalGraph": 1,
+          "LibraryGraphConnector": 1,
+          "TASK_RESERVED_KEYWORDS": 1,
+          "BaseCheckRegistry": 1,
+          "Runner": 1,
+          "ObjectGraphManager": 1,
+          "parse": 1,
+          "copy": 1,
+          "random": 1,
+          "base64": 1,
+          "traceback": 1,
+          "Flask": 1,
+          "http": 1,
+          "flask": 1,
+          "jsonpatch": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 92,
+        "packages": {
+          "spec_helper": 28,
+          "chefspec": 15,
+          "serverspec": 13,
+          "chefspec/berkshelf": 8,
+          "rspec/expectations": 7,
+          "chef/application": 7,
+          "runit": 4,
+          "silverware": 4,
+          "nodejs::npm": 3,
+          "Chef::DSL::IncludeRecipe": 3,
+          "ApplicationCookbook::ResourceBase": 3,
+          "golang": 3,
+          "golang::packages": 3,
+          "kibana": 3,
+          "flume": 3,
+          "flume::default": 3,
+          "nodejs::nodejs_from_source": 2,
+          "apache2": 2,
+          "nodejs": 2,
+          "kibana::_service": 2,
+          "json": 2,
+          "openerp::common": 2,
+          "Serverspec::Helper::DetectOS": 2,
+          "Serverspec::Helper::Exec": 2,
+          "volumes": 2,
+          "nodejs::install": 1,
+          "passenger_apache2": 1,
+          "apache2::mod_rewrite": 1,
+          "apache2::mod_ssl": 1,
+          "nginx::http_ssl_module": 1,
+          "nginx::source": 1,
+          "nginx::passenger": 1,
+          "aide": 1,
+          "docker_compose::default": 1,
+          "docker_compose_test::application_up_remove_orphans": 1,
+          "docker_compose_test::installation": 1,
+          "docker_compose_test::application_up": 1,
+          "docker_compose::installation": 1,
+          "etherpad::default": 1,
+          "etc": 1,
+          "Helpers::Golang": 1,
+          "MiniTest::Chef::Assertions": 1,
+          "Chef::Mixin::ShellOut": 1,
+          "chef/mixin/shell_out": 1,
+          "MiniTest::Chef::Resources": 1,
+          "MiniTest::Chef::Context": 1,
+          "apache2::mod_proxy": 1,
+          "apache2::mod_proxy_http": 1,
+          "kibana::kibana#{node[": 1,
+          "nginx": 1,
+          "postgresql::client": 1,
+          "postgresql::server": 1,
+          "openerp::database": 1,
+          "openerp::server": 1,
+          "openerp::webclient": 1,
+          "iptables": 1,
+          "redis": 1,
+          "encfs": 1,
+          "shellwords": 1,
+          "java": 1,
+          "thrift": 1,
+          "maven": 1,
+          "hadoop_cluster::add_cloudera_repo": 1,
+          "right_aws": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mburns/application_nodejs",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/braid",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mburns/checkov",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mburns/chef-aide",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/chef-cookbook-docker_compose",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/chef-dspam",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/chef-etherpad",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/chef-golang",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Go",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/chef-kibana",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/chef-openerp-cookbook",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/cookbook-statsdaemon",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/cookbook-statsdaemon-vimeo",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/cookbook-treslek",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/encfs",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/flume",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mburns/gke-cloud-dns-tls",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

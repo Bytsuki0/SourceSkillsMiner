@@ -1,0 +1,214 @@
+{
+  "username": "xitrium",
+  "areas": {
+    "OSS": {
+      "score": -0.797681139046164,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.303478291430754
+      }
+    },
+    "Status": {
+      "score": -0.10537344673847171,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.303478291430754,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.22576364644615893,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        46,
+        4
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 4,
+    "total_lines": 46,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 46,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "xitrium",
+    "analysis_date": "2026-02-23T04:23:10.741895",
+    "total_repos_analyzed": 2,
+    "total_files_analyzed": 59,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "scrypt.h": 1,
+          "stdint.h": 1,
+          "stdlib.h": 1,
+          "string.h": 1,
+          "<stdint.h>": 1,
+          "<stdlib.h>": 1,
+          "<string.h>": 1,
+          "<Python.h>": 1,
+          "Python.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 30,
+        "packages": {
+          "com.metamolecular": 28,
+          "java.util": 17,
+          "java.io": 4,
+          "junit.framework": 2,
+          "javax.swing": 2,
+          "junit.textui": 1,
+          "java.text": 1,
+          "org.w3c": 1,
+          "javax.xml": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 23,
+        "packages": {
+          "__version__": 14,
+          "version": 14,
+          "Config": 11,
+          "*": 10,
+          "NS": 8,
+          "Types": 7,
+          "Utilities": 7,
+          "types": 6,
+          "Errors": 6,
+          "xml": 6,
+          "socket": 6,
+          "nested_scopes": 5,
+          "SOAPBuilder": 5,
+          "__future__": 5,
+          "re": 5,
+          "Parser": 5,
+          "sys": 5,
+          "wstools": 5,
+          "urllib": 4,
+          "logging": 4,
+          "nattraverso": 4,
+          "twisted": 4,
+          "pyGlobus": 3,
+          "faultType": 3,
+          "buildSOAP": 3,
+          "parseSOAPRPC": 3,
+          "Server": 3,
+          "Client": 3,
+          "base64": 2,
+          "BaseHTTPServer": 2,
+          "SocketServer": 2,
+          "debugHeader": 2,
+          "fpconst": 2,
+          "string": 2,
+          "StringIO": 2,
+          "SOAPpy": 2,
+          "WSDL": 2,
+          "SOAPProxy": 2,
+          "cgi": 2,
+          "traceback": 2,
+          "DatagramProtocol": 2,
+          "random": 2,
+          "CannotListenError": 2,
+          "client": 2,
+          "HTTPConnection": 1,
+          "httplib": 1,
+          "GSIHTTP": 1,
+          "Cookie": 1,
+          "ssl": 1,
+          "M2Crypto": 1,
+          "SSL": 1,
+          "io": 1,
+          "exceptions": 1,
+          "GSITCPSocketServer": 1,
+          "ioc": 1,
+          "SOAPConfig": 1,
+          "cStringIO": 1,
+          "fromXMLname": 1,
+          "SOAP": 1,
+          "warn": 1,
+          "warnings": 1,
+          "toXMLname": 1,
+          "thread": 1,
+          "UserList": 1,
+          "copy": 1,
+          "encodeHexString": 1,
+          "time": 1,
+          "FancyURLopener": 1,
+          "Error": 1,
+          "struct": 1,
+          "operator": 1,
+          "setup": 1,
+          "distutils": 1,
+          "defer": 1,
+          "p2pool": 1,
+          "is_rfc1918_ip": 1,
+          "itertools": 1,
+          "variable": 1,
+          "BasePort": 1,
+          "search_upnp_device": 1,
+          "SoapProxy": 1,
+          "reactor": 1,
+          "ipdiscover": 1,
+          "UPnPXml": 1,
+          "failure": 1,
+          "urlparse": 1,
+          "minidom": 1,
+          "subprocess": 1,
+          "os": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "xitrium/mx",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "xitrium/p2pool-rav",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "username": "jnovak",
+  "areas": {
+    "OSS": {
+      "score": -0.797681139046164,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.303478291430754
+      }
+    },
+    "Status": {
+      "score": -0.11819395955898448,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.303478291430754,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.22896877465128712,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        158,
+        3
+      ],
+      "Jupyter Notebook": [
+        907,
+        1
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 4,
+    "total_lines": 1065,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 158,
+        "commits": 3
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 907,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jnovak",
+    "analysis_date": "2026-02-23T03:33:23.463409",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 174,
+    "languages": {
+      "C": {
+        "files_scanned": 22,
+        "packages": {
+          "<sys/types.h>": 9,
+          "sys/types.h": 9,
+          "assert.h": 8,
+          "<assert.h>": 8,
+          "<sys/socket.h>": 7,
+          "sys/socket.h": 7,
+          "<stdlib.h>": 6,
+          "stdlib.h": 6,
+          "string.h": 6,
+          "<string.h>": 6,
+          "<signal.h>": 6,
+          "signal.h": 6,
+          "config.h": 6,
+          "stdio.h": 5,
+          "<stdio.h>": 5,
+          "lwes_listener.h": 5,
+          "<netinet/in.h>": 5,
+          "arpa/inet.h": 5,
+          "netinet/in.h": 5,
+          "<arpa/inet.h>": 5,
+          "lwes_emitter.h": 5,
+          "lwes_marshall_functions.h": 5,
+          "lwes_event.h": 5,
+          "lwes_hash.h": 5,
+          "<sys/wait.h>": 4,
+          "sys/wait.h": 4,
+          "<limits.h>": 3,
+          "<errno.h>": 3,
+          "limits.h": 3,
+          "errno.h": 3,
+          "getopt.h": 3,
+          "<getopt.h>": 3,
+          "unistd.h": 3,
+          "lwes_time_functions.h": 3,
+          "<unistd.h>": 3,
+          "<config.h>": 3,
+          "lwes_net_functions.h": 2,
+          "<lwes_event.h>": 2,
+          "<valgrind/valgrind.h>": 2,
+          "valgrind/valgrind.h": 2,
+          "glib.h": 1,
+          "<glib.h>": 1,
+          "<time.h>": 1,
+          "time.h": 1,
+          "lwes_esf_parser.h": 1,
+          "lwes_event_type_db.h": 1,
+          "to": 1,
+          "EXTERNAL_GETTIMEOFDAY_HEADER": 1,
+          "lwes_types.h": 1,
+          "netdb.h": 1,
+          "lwes_listener.c": 1,
+          "lwes_emitter.c": 1,
+          "<netdb.h>": 1,
+          "lwes_event.c": 1,
+          "lwes_event_type_db.c": 1,
+          "lwes_hash.c": 1,
+          "the": 1,
+          "lwes-event-counting-listener.c": 1,
+          "<lwes_emitter.h>": 1,
+          "lwes-event-printing-listener.c": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 10,
+        "packages": {
+          "stdio.h": 7,
+          "lwes_types.h": 7,
+          "<stdio.h>": 7,
+          "<stdlib.h>": 3,
+          "stdlib.h": 3,
+          "<time.h>": 2,
+          "lwes_net_functions.h": 2,
+          "time.h": 2,
+          "lwes_event.h": 2,
+          "lwes_event_type_db.h": 2,
+          "ctype.h": 2,
+          "<ctype.h>": 2,
+          "<sys/types.h>": 2,
+          "sys/types.h": 2,
+          "<netinet/in.h>": 2,
+          "sys/time.h": 2,
+          "netinet/in.h": 2,
+          "<sys/time.h>": 2,
+          "config.h": 1,
+          "<config.h>": 1,
+          "lwes_hash.h": 1,
+          "string.h": 1,
+          "<string.h>": 1,
+          "arpa/inet.h": 1,
+          "<sys/socket.h>": 1,
+          "sys/socket.h": 1,
+          "errno.h": 1,
+          "unistd.h": 1,
+          "<unistd.h>": 1,
+          "<errno.h>": 1,
+          "<arpa/inet.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 95,
+        "packages": {
+          "org.lwes": 63,
+          "org.apache": 50,
+          "java.io": 41,
+          "java.util": 32,
+          "com.ning": 30,
+          "java.net": 23,
+          "java.math": 6,
+          "org.kohsuke": 6,
+          "javax.management": 6,
+          "org.junit": 6,
+          "java.nio": 5,
+          "static": 5,
+          "org.joda": 4,
+          "junit.framework": 3,
+          "java.lang": 3,
+          "com.google": 2,
+          "org.skife": 2,
+          "java.text": 1,
+          "org.openx": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 16,
+        "packages": {
+          "arrow": 13,
+          "datetime": 10,
+          "__future__": 9,
+          "tz": 9,
+          "dateutil": 9,
+          "absolute_import": 8,
+          "chai": 7,
+          "Chai": 7,
+          "sys": 6,
+          "calendar": 6,
+          "time": 5,
+          "util": 3,
+          "unicode_literals": 3,
+          "parser": 2,
+          "re": 2,
+          "locales": 2,
+          "timedelta": 2,
+          "ArrowFactory": 1,
+          "single": 1,
+          "plural": 1,
+          "relativedelta": 1,
+          "isstr": 1,
+          "Arrow": 1,
+          "inspect": 1,
+          "os": 1,
+          "setup": 1,
+          "setuptools": 1,
+          "distutils": 1,
+          "api": 1,
+          "date": 1,
+          "pickle": 1,
+          "factory": 1,
+          "formatter": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 21,
+        "packages": {
+          "abstract_unit": 11,
+          "active_support/core_ext/object/blank": 3,
+          "mail": 3,
+          "active_support/core_ext/string/inflections": 2,
+          "active_support/core_ext/array/wrap": 2,
+          "action_mailer/log_subscriber": 2,
+          "action_mailer": 2,
+          "action_controller": 2,
+          "active_support/core_ext/module/attr_internal": 1,
+          "abstract_controller": 1,
+          "active_support/core_ext/array/uniq_by": 1,
+          "action_mailer/version": 1,
+          "active_support/lazy_load_hooks": 1,
+          "active_support/core_ext/class": 1,
+          "active_support/core_ext/module/delegation": 1,
+          "action_view": 1,
+          "AbstractController::Translation": 1,
+          "AbstractController::AssetPaths": 1,
+          "ActionMailer::OldApi": 1,
+          "active_support/core_ext/hash/except": 1,
+          "action_mailer/collector": 1,
+          "AbstractController::Helpers": 1,
+          "AbstractController::Rendering": 1,
+          "DeliveryMethods": 1,
+          "AbstractController::Logger": 1,
+          ":controller_path": 1,
+          "action_mailer/tmail_compat": 1,
+          "AbstractController::Layouts": 1,
+          "active_support/core_ext/proc": 1,
+          "active_support/core_ext/array/extract_options": 1,
+          "AbstractController::Collector": 1,
+          "abstract_controller/collector": 1,
+          ":all": 1,
+          "active_support/core_ext/hash/reverse_merge": 1,
+          "tmpdir": 1,
+          "active_support/core_ext/object/try": 1,
+          "active_support/concern": 1,
+          "app.routes.mounted_helpers": 1,
+          "rails": 1,
+          "AbstractController::UrlFor": 1,
+          "abstract_controller/railties/routes_helpers": 1,
+          "TestHelper": 1,
+          "Behavior": 1,
+          "active_support/core_ext/class/attribute": 1,
+          ":old_transfer_encoding": 1,
+          "action_mailer/test_case": 1,
+          "active_support/core_ext/kernel/reporting": 1,
+          "pathname": 1,
+          "active_support/core_ext/string/encoding": 1,
+          "test/unit": 1,
+          "mailers/base_mailer": 1,
+          "mailers/proc_mailer": 1,
+          "mailers/asset_mailer": 1,
+          "active_support/time": 1,
+          "active_support/log_subscriber/test_helper": 1,
+          "ActiveSupport::LogSubscriber::TestHelper": 1,
+          "action_mailer/adv_attr_accessor": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jnovak/arrow",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jnovak/cpp-refresher",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "jnovak/docrails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jnovak/hfind",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jnovak/lwes",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "jnovak/lwes-contrib-hive-serde",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jnovak/lwes-java",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jnovak/lwes-journaller-java",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

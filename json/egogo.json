@@ -1,0 +1,431 @@
+{
+  "username": "egogo",
+  "areas": {
+    "OSS": {
+      "score": 0.13985255803581342,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.8571428571428571,
+        "commits_activity": 0.8526359799108632
+      }
+    },
+    "Status": {
+      "score": 0.28499883540308746,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8505751761815543,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "egogo/sponsorpay_api_test": -0.05295
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.1562128483597252,
+  "language_usage": {
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "egogo",
+    "analysis_date": "2026-02-24T01:28:31.837883",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 265,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 12,
+        "packages": {
+          "<UIKit/UIKit.h>": 8,
+          "<Foundation/Foundation.h>": 3,
+          "Vehicle.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 2,
+        "packages": {
+          "os": 2,
+          "path": 2,
+          "archive/tar": 1,
+          "archive/zip": 1,
+          "io": 1,
+          "strings": 1,
+          "io/ioutil": 1,
+          "bool": 1,
+          "fmt": 1,
+          "testing": 1,
+          "reflect": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 19,
+        "packages": {
+          "react": 13,
+          "react-redux": 9,
+          "prop-types": 8,
+          "react-router-dom": 7,
+          "eventEmitter": 3,
+          "react-datepicker": 2,
+          "object": 2,
+          "eventie": 2,
+          "FETCH_EVENT": 1,
+          "ADMIN_FETCH_EVENT_SIGNUPS": 1,
+          "ADMIN_FETCH_EVENTS": 1,
+          "ADMIN_CREATE_LOCATION": 1,
+          "SIGNUP": 1,
+          "FETCH_EVENTS": 1,
+          "ADMIN_UPDATE_EVENT": 1,
+          "ADMIN_FETCH_LOCATIONS": 1,
+          "ADMIN_DELETE_EVENT": 1,
+          "ADMIN_CREATE_EVENT": 1,
+          "ADMIN_FETCH_EVENT": 1,
+          "react-select": 1,
+          "redux": 1,
+          "redux-thunk": 1,
+          "IS_NOT_SET": 1,
+          "on": 1,
+          "require": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 14,
+        "packages": {
+          "AppDelegate.h": 2,
+          "User.h": 2,
+          "ForgotPasswordViewController.h": 1,
+          "MapViewController.h": 1,
+          "RegistratiomViewController.h": 1,
+          "RegistrationViewController.h": 1,
+          "LoginViewController.h": 1,
+          "Bus.h": 1,
+          "Route.h": 1,
+          "Vehicle.h": 1,
+          "PasswordRecoveryViewController.h": 1,
+          "ViewController.h": 1,
+          "<UIKit/UIKit.h>": 1,
+          "UIKit/UIKit.h": 1,
+          "<XCTest/XCTest.h>": 1,
+          "XCTest/XCTest.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "logging": 2,
+          "growattRS232": 2,
+          "asyncio": 1,
+          "GrowattRS232": 1,
+          "argv": 1,
+          "sys": 1,
+          "datetime": 1,
+          "os": 1,
+          "pymodbus": 1,
+          "ModbusSerialClient": 1,
+          "setup": 1,
+          "setuptools": 1,
+          "pathlib": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 76,
+        "packages": {
+          "rubygems": 7,
+          "helper": 7,
+          "test_helper": 6,
+          "minitest/autorun": 6,
+          "bundler": 5,
+          "mocha/mini_test": 5,
+          "json": 5,
+          "fileutils": 4,
+          "tmpdir": 4,
+          "mine": 4,
+          "sidekiq/api": 3,
+          "AuthenticatedSystem": 3,
+          "rails": 3,
+          "resque": 3,
+          "resque/failure/redis": 3,
+          "bundler/setup": 2,
+          "spec_helper": 2,
+          "Rack::Test::Methods": 2,
+          "rack/test": 2,
+          "sidekiq/testing": 2,
+          "test/unit": 2,
+          "eeepub": 2,
+          "forwardable": 2,
+          "sinatra": 2,
+          "explosion_simulator": 2,
+          "redis": 2,
+          "resque/errors": 2,
+          "resque/coder": 2,
+          "resque/signal_trapper": 2,
+          "resque/failure/each": 2,
+          "sprockets/railtie": 1,
+          "action_controller/railtie": 1,
+          "action_mailer/railtie": 1,
+          "rails/test_unit/railtie": 1,
+          "rspec/rails": 1,
+          "rspec/autorun": 1,
+          "rails/test_help": 1,
+          "ArenaService::Models": 1,
+          "workers/contest_worker": 1,
+          "contest_evaluators/evaluator_base": 1,
+          "contest_evaluators/senses_evaluator": 1,
+          "Sidekiq::Worker": 1,
+          "contest_evaluators/wit_evaluator": 1,
+          "contest_evaluators/strength_evaluator": 1,
+          "contest_evaluators/agility_evaluator": 1,
+          "PetService::Models": 1,
+          "faraday_bang": 1,
+          "webmock/minitest": 1,
+          "custom_counter_cache/model": 1,
+          "custom_counter_cache": 1,
+          "sqlite3": 1,
+          "action_view": 1,
+          "active_record": 1,
+          "eeepub/ncx": 1,
+          "eeepub/container_item": 1,
+          "eeepub/opf": 1,
+          "eeepub/maker": 1,
+          "eeepub/ocf": 1,
+          "eeepub/easy": 1,
+          "builder": 1,
+          "zip/zip": 1,
+          "date": 1,
+          "simplecov": 1,
+          "nokogiri": 1,
+          "rr": 1,
+          "rspec": 1,
+          "em-http": 1,
+          "net/https": 1,
+          "eventmachine": 1,
+          "terminal-notifier": 1,
+          "uri": 1,
+          "foursquare2/api_error": 1,
+          "faraday": 1,
+          "foursquare2/photos": 1,
+          "foursquare2/client": 1,
+          "foursquare2/venues": 1,
+          "foursquare2/settings": 1,
+          "foursquare2/specials": 1,
+          "foursquare2/users": 1,
+          "faraday_middleware": 1,
+          "foursquare2/tips": 1,
+          "foursquare2/checkins": 1,
+          "Settings": 1,
+          "Checkins": 1,
+          "Tips": 1,
+          "Specials": 1,
+          "Photos": 1,
+          "Users": 1,
+          "Venues": 1,
+          "hashie": 1,
+          "matchy": 1,
+          "fakeweb": 1,
+          "config": 1,
+          "foursquare2": 1,
+          "shoulda": 1,
+          "net/http": 1,
+          "aggregation_service": 1,
+          "Comparable": 1,
+          "lib/mine": 1,
+          "lib/minesweeper": 1,
+          "result": 1,
+          "minesweeper": 1,
+          "mocha": 1,
+          "admin": 1,
+          "RoleRequirementSystem": 1,
+          "mime/types": 1,
+          "Authentication::ByCookieToken": 1,
+          "Authentication": 1,
+          "digest/sha1": 1,
+          "Authentication::ByPassword": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "rvm/capistrano": 1,
+          "bundler/capistrano": 1,
+          "mono_logger": 1,
+          "resque/stat": 1,
+          "resque/worker_registry": 1,
+          "resque/plugin": 1,
+          "resque/process_coordinator": 1,
+          "resque/failure": 1,
+          "resque/failure/base": 1,
+          "redis/namespace": 1,
+          "resque/hook_register": 1,
+          "resque/config": 1,
+          "resque/queue": 1,
+          "resque/version": 1,
+          "resque/multi_queue": 1,
+          "resque/logging": 1,
+          "resque/job": 1,
+          "resque/json_coder": 1,
+          "resque/worker": 1,
+          "resque/worker_hooks": 1,
+          "yaml": 1,
+          "#{file}/config/environment.rb": 1,
+          "thor": 1,
+          "File.expand_path": 1,
+          "resque/core_ext/hash": 1,
+          "airbrake": 1,
+          "time": 1,
+          "resque/job_performer": 1,
+          "resque/core_ext/string": 1,
+          "this": 1,
+          "redis-namespace": 1,
+          "thread": 1,
+          "Mutex_m": 1,
+          "mutex_m": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "egogo/apple_test_task",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "egogo/appl_sw_delivery_hw",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "egogo/archivex",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "egogo/battle_pets",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "egogo/catawiki",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "egogo/custom_counter_cache",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "egogo/eeepub",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "egogo/flowdock-growl-notifier",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "egogo/foursquare2",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "egogo/growattRS232",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "egogo/hm_hotel_aggregation",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "egogo/imagesloaded",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "egogo/masonry",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "egogo/minefield",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "egogo/mu-hw",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "egogo/ps",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "egogo/resque",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

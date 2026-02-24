@@ -1,0 +1,911 @@
+{
+  "username": "ratmice",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 6.604166666666667,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.47435897435897445,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.21153846153846154
+      }
+    },
+    "Sentiment": {
+      "score": 0.8333333333333334,
+      "details": {
+        "ratmice/driver": 0.59618,
+        "ratmice/enum_extra": -0.11344000000000003,
+        "ratmice/json-pop": 0.19063333333333332,
+        "ratmice/neewerctl": 0.5647,
+        "ratmice/nimbleparse_lsp": 0.25235882352941175,
+        "ratmice/prop": 0.17
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.676923076923077,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Standard ML": [
+        25584,
+        12
+      ],
+      "Rust": [
+        60466,
+        574
+      ],
+      "RPC": [
+        110,
+        0
+      ],
+      "C": [
+        329,
+        10
+      ],
+      "Assembly": [
+        0,
+        0
+      ],
+      "C++": [
+        116,
+        5
+      ],
+      "CMake": [
+        114,
+        2
+      ],
+      "Yacc": [
+        1799,
+        8
+      ],
+      "Makefile": [
+        615,
+        3
+      ],
+      "Lex": [
+        64,
+        0
+      ],
+      "Lua": [
+        568,
+        3
+      ],
+      "HTML": [
+        55,
+        1
+      ],
+      "JavaScript": [
+        0,
+        0
+      ],
+      "CSS": [
+        0,
+        0
+      ],
+      "Vim Script": [
+        0,
+        0
+      ],
+      "Nix": [
+        0,
+        0
+      ],
+      "Shell": [
+        129,
+        0
+      ],
+      "Python": [
+        48,
+        0
+      ],
+      "SCSS": [
+        0,
+        0
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "FreeMarker": [
+        0,
+        0
+      ],
+      "Roff": [
+        10,
+        0
+      ],
+      "OCaml": [
+        0,
+        0
+      ],
+      "PHP": [
+        1,
+        0
+      ],
+      "C#": [
+        1,
+        0
+      ],
+      "Perl": [
+        0,
+        0
+      ],
+      "XS": [
+        0,
+        0
+      ],
+      "PowerShell": [
+        0,
+        0
+      ],
+      "TeX": [
+        587,
+        1
+      ],
+      "Lean": [
+        4,
+        0
+      ],
+      "TypeScript": [
+        2208,
+        14
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "M4": [
+        1,
+        0
+      ],
+      "Ragel": [
+        0,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "sed": [
+        0,
+        0
+      ],
+      "XSLT": [
+        0,
+        0
+      ],
+      "Emacs Lisp": [
+        0,
+        0
+      ],
+      "Beef": [
+        0,
+        0
+      ],
+      "HyPhy": [
+        0,
+        0
+      ],
+      "Objective-C++": [
+        0,
+        0
+      ],
+      "D": [
+        2,
+        0
+      ],
+      "DTrace": [
+        0,
+        0
+      ]
+    },
+    "language_count": 44,
+    "total_commits": 633,
+    "total_lines": 92811,
+    "top_5_languages": [
+      {
+        "language": "Rust",
+        "lines": 60466,
+        "commits": 574
+      },
+      {
+        "language": "TypeScript",
+        "lines": 2208,
+        "commits": 14
+      },
+      {
+        "language": "Standard ML",
+        "lines": 25584,
+        "commits": 12
+      },
+      {
+        "language": "C",
+        "lines": 329,
+        "commits": 10
+      },
+      {
+        "language": "Yacc",
+        "lines": 1799,
+        "commits": 8
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ratmice",
+    "analysis_date": "2026-02-23T17:15:33.279531",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 313,
+    "languages": {
+      "C": {
+        "files_scanned": 42,
+        "packages": {
+          "<string.h>": 15,
+          "string.h": 15,
+          "<eros/Invoke.h>": 15,
+          "eros/Invoke.h": 15,
+          "domain/Runtime.h": 10,
+          "domain/domdbg.h": 10,
+          "<domain/Runtime.h>": 10,
+          "eros/target.h": 10,
+          "<domain/domdbg.h>": 10,
+          "<eros/target.h>": 10,
+          "idl/capros/Process.h": 9,
+          "<idl/capros/Process.h>": 9,
+          "<stdint.h>": 8,
+          "stdint.h": 8,
+          "netif/etharp.h": 8,
+          "<camkes.h>": 7,
+          "camkes.h": 7,
+          "<domain/assert.h>": 7,
+          "domain/assert.h": 7,
+          "idl/capros/key.h": 7,
+          "idl/capros/SpaceBank.h": 7,
+          "constituents.h": 7,
+          "idl/capros/Node.h": 7,
+          "<idl/capros/Node.h>": 7,
+          "<idl/capros/SpaceBank.h>": 7,
+          "<idl/capros/key.h>": 7,
+          "lwip/mem.h": 7,
+          "lwip/udp.h": 7,
+          "stdio.h": 6,
+          "<stdio.h>": 6,
+          "<stdlib.h>": 6,
+          "stdlib.h": 6,
+          "idl/capros/Number.h": 6,
+          "<idl/capros/Number.h>": 6,
+          "<linuxk/linux-emul.h>": 6,
+          "linuxk/linux-emul.h": 6,
+          "<linuxk/lsync.h>": 6,
+          "linuxk/lsync.h": 6,
+          "lwip/netif.h": 6,
+          "<eros/cap-instr.h>": 5,
+          "eros/cap-instr.h": 5,
+          "stddef.h": 5,
+          "eros/NodeKey.h": 5,
+          "<eros/NodeKey.h>": 5,
+          "<stddef.h>": 5,
+          "lwipCap.h": 5,
+          "<lwipCap.h>": 5,
+          "<netif/etharp.h>": 5,
+          "mcp2515.h": 4,
+          "can_inf.h": 4,
+          "lwip/stats.h": 4,
+          "lwip/pbuf.h": 4,
+          "<idl/capros/IPInt.h>": 4,
+          "<linux/kernel.h>": 4,
+          "linux/kernel.h": 4,
+          "idl/capros/IPInt.h": 4,
+          "lwip/opt.h": 4,
+          "platsupport/sync/spinlock.h": 3,
+          "<platsupport/sync/spinlock.h>": 3,
+          "aestab.h": 3,
+          "aesopt.h": 3,
+          "<idl/capros/ProcCre.h>": 3,
+          "<eros/StdKeyType.h>": 3,
+          "idl/capros/ProcCre.h": 3,
+          "eros/StdKeyType.h": 3,
+          "<domain/ConstructorKey.h>": 3,
+          "domain/ConstructorKey.h": 3,
+          "idl/capros/SuperNode.h": 3,
+          "<idl/capros/SuperNode.h>": 3,
+          "idl/capros/Ps2.h": 3,
+          "<idl/capros/Ps2.h>": 3,
+          "asm/io.h": 3,
+          "<lwip/mem.h>": 3,
+          "<linux/timer.h>": 3,
+          "<asm/io.h>": 3,
+          "<lwip/pbuf.h>": 3,
+          "<lwip/udp.h>": 3,
+          "lwip/memp.h": 3,
+          "lwip/tcp.h": 3,
+          "linux/netdevice.h": 3,
+          "<linux/netdevice.h>": 3,
+          "linux/timer.h": 3,
+          "lwip/err.h": 3,
+          "<lwip/err.h>": 3,
+          "<lwip/netif.h>": 3,
+          "linux/pci.h": 3,
+          "<linux/pci.h>": 3,
+          "lwip/autoip.h": 3,
+          "lwip/dns.h": 3,
+          "<can_inf.h>": 2,
+          "<queue.h>": 2,
+          "queue.h": 2,
+          "utils.h": 2,
+          "common.h": 2,
+          "spi_inf.h": 2,
+          "stdbool.h": 2,
+          "<stdbool.h>": 2,
+          "aes.h": 2,
+          "gcm.h": 2,
+          "mode_hdr.h": 2,
+          "<idl/capros/Sleep.h>": 2,
+          "idl/capros/Sleep.h": 2,
+          "idl/capros/Constructor.h": 2,
+          "<idl/capros/Constructor.h>": 2,
+          "<idl/capros/GPT.h>": 2,
+          "idl/capros/GPT.h": 2,
+          "<eros/KeyConst.h>": 2,
+          "idl/console/textconsole.h": 2,
+          "eros/KeyConst.h": 2,
+          "<idl/console/textconsole.h>": 2,
+          "idl/console/keyclient.h": 2,
+          "<idl/console/keyclient.h>": 2,
+          "keytrans.h": 2,
+          "<lwip/tcp.h>": 2,
+          "disk/NPODescr.h": 2,
+          "<lwip/stats.h>": 2,
+          "<linux/delay.h>": 2,
+          "linux/mii.h": 2,
+          "<linux/module.h>": 2,
+          "linux/etherdevice.h": 2,
+          "linux/moduleparam.h": 2,
+          "linux/dma-mapping.h": 2,
+          "linux/init.h": 2,
+          "<disk/NPODescr.h>": 2,
+          "<linux/ethtool.h>": 2,
+          "<lwip/memp.h>": 2,
+          "ipv4/lwip/ip.h": 2,
+          "<linux/etherdevice.h>": 2,
+          "linux/module.h": 2,
+          "asm/arch/ep93xx-regs.h": 2,
+          "<linux/init.h>": 2,
+          "<asm/arch/ep93xx-regs.h>": 2,
+          "<linux/dma-mapping.h>": 2,
+          "linux/ethtool.h": 2,
+          "<linux/mii.h>": 2,
+          "<ipv4/lwip/ip.h>": 2,
+          "<linux/moduleparam.h>": 2,
+          "linux/delay.h": 2,
+          "<ipv4/lwip/inet.h>": 2,
+          "ipv4/lwip/inet.h": 2,
+          "lwip/init.h": 2,
+          "<idl/capros/UDPPort.h>": 2,
+          "<idl/capros/Forwarder.h>": 2,
+          "cap.h": 2,
+          "<idl/capros/NPIP.h>": 2,
+          "idl/capros/UDPPort.h": 2,
+          "idl/capros/NPIP.h": 2,
+          "idl/capros/Forwarder.h": 2,
+          "lwip/ip_addr.h": 2,
+          "lwip/sys.h": 2,
+          "<windows.h>": 2,
+          "windows.h": 2,
+          "<utils.h>": 1,
+          "<mcp2515.h>": 1,
+          "platsupport/clock.h": 1,
+          "<platsupport/clock.h>": 1,
+          "platsupport/plat/gpio.h": 1,
+          "<platsupport/irq_combiner.h>": 1,
+          "platsupport/gpio.h": 1,
+          "platsupport/mux.h": 1,
+          "platsupport/plat/mux.h": 1,
+          "<platsupport/gpio.h>": 1,
+          "<platsupport/plat/gpio.h>": 1,
+          "<platsupport/mux.h>": 1,
+          "<platsupport/plat/mux.h>": 1,
+          "platsupport/irq_combiner.h": 1,
+          "commsec.h": 1,
+          "an": 1,
+          "gf128mul.h": 1,
+          "gf_mul_lo.h": 1,
+          "idl/capros/IP.h": 1,
+          "<idl/capros/RTCSet.h>": 1,
+          "<idl/capros/IP.h>": 1,
+          "idl/capros/RTCSet.h": 1,
+          "<idl/capros/Checkpoint.h>": 1,
+          "idl/capros/Checkpoint.h": 1,
+          "debug.h": 1,
+          "idl/capros/Discrim.h": 1,
+          "<idl/capros/Discrim.h>": 1,
+          "<domain/ProtoSpaceDS.h>": 1,
+          "<idl/capros/PCC.h>": 1,
+          "idl/capros/PCC.h": 1,
+          "domain/ProtoSpace.h": 1,
+          "<domain/ProtoSpace.h>": 1,
+          "domain/ProtoSpaceDS.h": 1,
+          "<idl/capros/DevClock.h>": 1,
+          "idl/capros/DevClock.h": 1,
+          "idl/capros/IndexedKeyStore.h": 1,
+          "<idl/capros/IndexedKeyStore.h>": 1,
+          "<idl/capros/Stream.h>": 1,
+          "<ethread/ethread.h>": 1,
+          "ethread/ethread.h": 1,
+          "idl/capros/Stream.h": 1,
+          "eros/machine/atomic.h": 1,
+          "<eros/machine/atomic.h>": 1,
+          "<idl/capros/arch/i386/Process.h>": 1,
+          "<idl/capros/Range.h>": 1,
+          "idl/capros/arch/i386/Process.h": 1,
+          "idl/capros/DevPrivs.h": 1,
+          "eros/machine/io.h": 1,
+          "idl/capros/Range.h": 1,
+          "textconsole.h": 1,
+          "<eros/machine/io.h>": 1,
+          "<idl/capros/DevPrivs.h>": 1,
+          "asm/arch/platform.h": 1,
+          "linux/platform_device.h": 1,
+          "<asm/arch/platform.h>": 1,
+          "<linux/platform_device.h>": 1,
+          "<asm/arch/irqs.h>": 1,
+          "asm/arch/irqs.h": 1,
+          "<domain/PCIDrvr.h>": 1,
+          "domain/PCIDrvr.h": 1,
+          "linux/slab.h": 1,
+          "linux/skbuff.h": 1,
+          "linux/string.h": 1,
+          "<linux/errno.h>": 1,
+          "<linux/interrupt.h>": 1,
+          "<linux/skbuff.h>": 1,
+          "linux/bitops.h": 1,
+          "<linux/slab.h>": 1,
+          "linux/interrupt.h": 1,
+          "a": 1,
+          "asm/irq.h": 1,
+          "<linux/bitops.h>": 1,
+          "linux/ioport.h": 1,
+          "<asm/uaccess.h>": 1,
+          "asm/processor.h": 1,
+          "<linux/ioport.h>": 1,
+          "<asm/processor.h>": 1,
+          "asm/uaccess.h": 1,
+          "linux/errno.h": 1,
+          "<linux/string.h>": 1,
+          "<asm/irq.h>": 1,
+          "<eros/machine/cap-instr.h>": 1,
+          "eros/machine/cap-instr.h": 1,
+          "<lwip/init.h>": 1,
+          "idl/capros/NPLink.h": 1,
+          "<idl/capros/NPLink.h>": 1,
+          "lwip/inet.h": 1,
+          "lwip/dhcp.h": 1,
+          "DHCP_GLOBAL_XID_HEADER": 1,
+          "arch/epstruct.h": 1,
+          "arch/bpstruct.h": 1,
+          "lwip/ip.h": 1,
+          "lwip/snmp_msg.h": 1,
+          "lwip/sockets.h": 1,
+          "lwip/raw.h": 1,
+          "lwip/igmp.h": 1,
+          "foo.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "stdint.h": 1,
+          "<stdint.h>": 1,
+          "<iostream>": 1,
+          "<string_view>": 1,
+          "iostream": 1,
+          "string_view": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 15,
+        "packages": {
+          "stdint.h": 7,
+          "<stdint.h>": 7,
+          "can_inf.h": 2,
+          "<stdbool.h>": 2,
+          "stdbool.h": 2,
+          "<stdlib.h>": 2,
+          "stdlib.h": 2,
+          "brg_types.h": 2,
+          "aes.h": 2,
+          "common.h": 1,
+          "<can_inf.h>": 1,
+          "this": 1,
+          "aescpp.h": 1,
+          "or": 1,
+          "special": 1,
+          "<byteswap.h>": 1,
+          "<machine/endian.h>": 1,
+          "<sys/isa_defs.h>": 1,
+          "byteswap.h": 1,
+          "<endian.h>": 1,
+          "machine/endian.h": 1,
+          "<sys/endian.h>": 1,
+          "sys/isa_defs.h": 1,
+          "endian.h": 1,
+          "sys/endian.h": 1,
+          "stddef.h": 1,
+          "<limits.h>": 1,
+          "limits.h": 1,
+          "<stddef.h>": 1,
+          "gcm.h": 1,
+          "gf128mul.h": 1,
+          "<string.h>": 1,
+          "brg_endian.h": 1,
+          "string.h": 1,
+          "<domain/PCIDrvr.h>": 1,
+          "domain/PCIDrvr.h": 1,
+          "ipv4/lwip/ip_addr.h": 1,
+          "<ipv4/lwip/ip_addr.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 10,
+        "packages": {
+          "org.libsdl": 9,
+          "android.util": 8,
+          "android.os": 8,
+          "android.content": 7,
+          "java.util": 6,
+          "android.hardware": 5,
+          "android.view": 3,
+          "android.preference": 3,
+          "android.app": 3,
+          "java.lang": 3,
+          "com.cleverraven": 2,
+          "android.widget": 2,
+          "java.io": 2,
+          "android.bluetooth": 2,
+          "android.text": 1,
+          "lib": 1,
+          "libmain.so": 1,
+          "android.graphics": 1,
+          "android.media": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 1,
+        "packages": {
+          "this": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 6,
+        "packages": {
+          "os": 5,
+          "OptionParser": 3,
+          "optparse": 3,
+          "polib": 3,
+          "subprocess": 2,
+          "json": 2,
+          "sys": 2,
+          "HTTPError": 1,
+          "urllib": 1,
+          "re": 1,
+          "auto": 1,
+          "unicode_literals": 1,
+          "biplist": 1,
+          "__future__": 1,
+          "glob": 1,
+          "POEntry": 1,
+          "Dict": 1,
+          "typing": 1,
+          "luaparser": 1,
+          "platform": 1,
+          "itertools": 1,
+          "ast": 1,
+          "copy": 1,
+          "deepcopy": 1,
+          "astnodes": 1,
+          "time": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 179,
+        "packages": {
+          "std": 112,
+          "crate": 49,
+          "super": 47,
+          "bevy_ecs": 25,
+          "log": 14,
+          "serde": 13,
+          "glam": 12,
+          "futures": 12,
+          "uuid": 11,
+          "objc": 10,
+          "tokio": 8,
+          "async_trait": 8,
+          "config": 8,
+          "self": 7,
+          "codespan_reporting": 7,
+          "criterion": 6,
+          "cargo_platform": 6,
+          "cmake_config": 6,
+          "fel4_config": 6,
+          "structopt": 6,
+          "syn": 5,
+          "proptest": 5,
+          "command_ext": 5,
+          "termcolor": 5,
+          "ariadne": 4,
+          "btleplug": 4,
+          "serde_cr": 4,
+          "libc": 4,
+          "core": 4,
+          "cocoa": 4,
+          "url": 4,
+          "cargo": 4,
+          "filetime": 4,
+          "lazy_static": 4,
+          "regex": 4,
+          "cargo_metadata": 4,
+          "block": 4,
+          "clap": 4,
+          "bluez_async": 3,
+          "failure": 3,
+          "semver": 3,
+          "sel4_sys": 3,
+          "crowbook_text_processing": 3,
+          "common": 3,
+          "quote": 2,
+          "proc_macro2": 2,
+          "proc_macro": 2,
+          "rand": 2,
+          "bevy_tasks": 2,
+          "bitflags": 2,
+          "tokio_stream": 2,
+          "serde_json": 2,
+          "tar": 2,
+          "flate2": 2,
+          "jobserver": 2,
+          "cmake_codegen": 2,
+          "cargo_fel4": 2,
+          "alloc": 2,
+          "base": 2,
+          "core_graphics": 2,
+          "platforms": 2,
+          "logos": 2,
+          "rowan": 2,
+          "embassy_time": 1,
+          "apache_nimble": 1,
+          "rust_fuzzy_search": 1,
+          "argh": 1,
+          "wildcard": 1,
+          "the": 1,
+          "`test_arg_0": 1,
+          "type": 1,
+          "field": 1,
+          "parse_attrs": 1,
+          "Optionality": 1,
+          "yansi": 1,
+          "rand_chacha": 1,
+          "bevy": 1,
+          "archetype_updates": 1,
+          "dashmap": 1,
+          "static_assertions": 1,
+          "windows": 1,
+          "ParseErrorKind": 1,
+          "some": 1,
+          "git2": 1,
+          "curl": 1,
+          "percent_encoding": 1,
+          "varisat": 1,
+          "resolver_tests": 1,
+          "lazycell": 1,
+          "crossbeam_utils": 1,
+          "core_foundation": 1,
+          "generator": 1,
+          "colored": 1,
+          "new_cmd": 1,
+          "tempfile": 1,
+          "cc_test": 1,
+          "cc": 1,
+          "tempdir": 1,
+          "foundation": 1,
+          "lsp_types": 1,
+          "codespan": 1,
+          "rustyline": 1,
+          "unicode_width": 1,
+          "subcommands": 1,
+          "lrlex": 1,
+          "cfgrammar": 1,
+          "lalrpop_util": 1,
+          "test": 1,
+          "clean": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 5,
+        "packages": {
+          "playwright": 2,
+          "node:path": 2,
+          "astrojs": 2,
+          "dotenv": 1,
+          "astro": 1,
+          "vite": 1,
+          "starlight-links-validator": 1,
+          "node:url": 1,
+          "unist-util-visit": 1,
+          "mdast": 1,
+          "astro:content": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ratmice/apache_nimble_test",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/argh",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/ariadne",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/bevy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "ratmice/btleplug",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/camkes-vm-apps",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "ratmice/capros",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "ratmice/cargo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/cargo-fel4",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/cargo_issue_15350",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/Cataclysm-BN",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Lua",
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "ratmice/cc-rs",
+        "files_analyzed": 22,
+        "languages_found": [
+          "C",
+          "C++",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/cocoa-rs",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/codespan",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/corrosion",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C++",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/crimson",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/crispy-parakeet",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ratmice/crowbook-text-processing",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Rust"
+        ]
+      }
+    ]
+  }
+}

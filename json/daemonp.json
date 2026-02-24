@@ -1,0 +1,636 @@
+{
+  "username": "daemonp",
+  "areas": {
+    "OSS": {
+      "score": 0.6256173416202035,
+      "details": {
+        "issue_resolution_rate": 0.7222222222222222,
+        "pr_merge_rate": 0.8333333333333334,
+        "commits_activity": 0.8828704568747499
+      }
+    },
+    "Status": {
+      "score": 0.18407940488429175,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7376575688648992,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.6666666666666666,
+      "details": {
+        "daemonp/esphome_waterfurnace_aurora": 0.05135,
+        "daemonp/interact-rs": 0.64955,
+        "daemonp/pixelbook-linux": -0.296
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.4190908532927905,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        138,
+        8
+      ],
+      "Dockerfile": [
+        42,
+        0
+      ],
+      "C": [
+        758,
+        1
+      ],
+      "Roff": [
+        29,
+        0
+      ],
+      "Makefile": [
+        5449,
+        0
+      ],
+      "C++": [
+        44065,
+        18
+      ],
+      "Python": [
+        2067,
+        0
+      ],
+      "Lua": [
+        6249,
+        6
+      ],
+      "Go": [
+        453596,
+        33
+      ],
+      "HTML": [
+        192,
+        1
+      ],
+      "Rust": [
+        352707,
+        21
+      ],
+      "Awk": [
+        0,
+        0
+      ],
+      "QMake": [
+        1,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 88,
+    "total_lines": 865293,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 453596,
+        "commits": 33
+      },
+      {
+        "language": "Rust",
+        "lines": 352707,
+        "commits": 21
+      },
+      {
+        "language": "C++",
+        "lines": 44065,
+        "commits": 18
+      },
+      {
+        "language": "Shell",
+        "lines": 138,
+        "commits": 8
+      },
+      {
+        "language": "Lua",
+        "lines": 6249,
+        "commits": 6
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "daemonp",
+    "analysis_date": "2026-02-24T09:38:55.195353",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 173,
+    "languages": {
+      "C": {
+        "files_scanned": 13,
+        "packages": {
+          "<stdlib.h>": 11,
+          "stdlib.h": 11,
+          "<wayland-server-core.h>": 8,
+          "wayland-server-core.h": 8,
+          "server.h": 8,
+          "view.h": 7,
+          "wlr/util/log.h": 6,
+          "<wlr/util/log.h>": 6,
+          "util.h": 6,
+          "xwayland.h": 5,
+          "output.h": 5,
+          "<wlr/types/wlr_box.h>": 5,
+          "wlr/types/wlr_box.h": 5,
+          "<unistd.h>": 4,
+          "seat.h": 4,
+          "unistd.h": 4,
+          "<wlr/backend.h>": 4,
+          "config.h": 4,
+          "wlr/backend.h": 4,
+          "stdio.h": 4,
+          "<stdio.h>": 4,
+          "<wlr/types/wlr_surface.h>": 4,
+          "wlr/types/wlr_surface.h": 4,
+          "string.h": 4,
+          "<string.h>": 4,
+          "wlr/types/wlr_idle.h": 3,
+          "wlr/render/wlr_renderer.h": 3,
+          "<wlr/types/wlr_xdg_shell.h>": 3,
+          "wlr/types/wlr_output_layout.h": 3,
+          "wlr/types/wlr_data_device.h": 3,
+          "<wlr/types/wlr_idle.h>": 3,
+          "<wlr/render/wlr_renderer.h>": 3,
+          "wlr/types/wlr_xdg_shell.h": 3,
+          "<wlr/types/wlr_data_device.h>": 3,
+          "wlr/xwayland.h": 3,
+          "<wlr/xwayland.h>": 3,
+          "<wlr/types/wlr_output_layout.h>": 3,
+          "wlr/types/wlr_output.h": 3,
+          "<wlr/types/wlr_output.h>": 3,
+          "<stdbool.h>": 3,
+          "stdbool.h": 3,
+          "X11/Xlib.h": 3,
+          "<X11/Xlib.h>": 3,
+          "wlr/types/wlr_idle_inhibit_v1.h": 2,
+          "xdg_shell.h": 2,
+          "<sys/wait.h>": 2,
+          "<wlr/types/wlr_idle_inhibit_v1.h>": 2,
+          "wlr/types/wlr_xcursor_manager.h": 2,
+          "<signal.h>": 2,
+          "signal.h": 2,
+          "sys/wait.h": 2,
+          "<wlr/types/wlr_xcursor_manager.h>": 2,
+          "idle_inhibit_v1.h": 2,
+          "wlr/types/wlr_matrix.h": 2,
+          "wlr/util/region.h": 2,
+          "<wlr/util/region.h>": 2,
+          "<wlr/types/wlr_matrix.h>": 2,
+          "drw.h": 2,
+          "<X11/Xft/Xft.h>": 2,
+          "X11/Xft/Xft.h": 2,
+          "<stdarg.h>": 2,
+          "stdarg.h": 2,
+          "<X11/Xutil.h>": 2,
+          "X11/Xutil.h": 2,
+          "getopt.h": 1,
+          "wlr/types/wlr_gamma_control_v1.h": 1,
+          "wlr/types/wlr_screencopy_v1.h": 1,
+          "<wlr/types/wlr_screencopy_v1.h>": 1,
+          "wlr/types/wlr_compositor.h": 1,
+          "wlr/types/wlr_xdg_decoration_v1.h": 1,
+          "wlr/types/wlr_server_decoration.h": 1,
+          "wlr/types/wlr_export_dmabuf_v1.h": 1,
+          "<wlr/types/wlr_xdg_decoration_v1.h>": 1,
+          "<wlr/types/wlr_export_dmabuf_v1.h>": 1,
+          "<getopt.h>": 1,
+          "<wlr/types/wlr_compositor.h>": 1,
+          "<wlr/types/wlr_gamma_control_v1.h>": 1,
+          "<wlr/types/wlr_xdg_output_v1.h>": 1,
+          "wlr/types/wlr_xdg_output_v1.h": 1,
+          "<wlr/types/wlr_server_decoration.h>": 1,
+          "<wlr/backend/wayland.h>": 1,
+          "wlr/config.h": 1,
+          "render.h": 1,
+          "<wlr/backend/x11.h>": 1,
+          "wlr/types/wlr_output_damage.h": 1,
+          "<wlr/config.h>": 1,
+          "wlr/backend/x11.h": 1,
+          "wlr/backend/wayland.h": 1,
+          "<wlr/types/wlr_output_damage.h>": 1,
+          "<wlr/types/wlr_cursor.h>": 1,
+          "wlr/types/wlr_cursor.h": 1,
+          "<wlr/types/wlr_primary_selection.h>": 1,
+          "wlr/types/wlr_seat.h": 1,
+          "linux/input-event-codes.h": 1,
+          "<wlr/types/wlr_seat.h>": 1,
+          "wlr/types/wlr_primary_selection.h": 1,
+          "<linux/input-event-codes.h>": 1,
+          "<locale.h>": 1,
+          "X11/cursorfont.h": 1,
+          "errno.h": 1,
+          "<sys/types.h>": 1,
+          "<X11/Xatom.h>": 1,
+          "<errno.h>": 1,
+          "X11/Xatom.h": 1,
+          "<X11/Xproto.h>": 1,
+          "X11/extensions/Xinerama.h": 1,
+          "locale.h": 1,
+          "X11/keysym.h": 1,
+          "<X11/cursorfont.h>": 1,
+          "<X11/keysym.h>": 1,
+          "<X11/extensions/Xinerama.h>": 1,
+          "sys/types.h": 1,
+          "X11/Xproto.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 10,
+        "packages": {
+          "esphome/core/log.h": 8,
+          "esphome/core/helpers.h": 4,
+          "<cmath>": 4,
+          "cmath": 4,
+          "aurora_climate_utils.h": 2,
+          "<cstring>": 2,
+          "cstring": 2,
+          "<algorithm>": 2,
+          "algorithm": 2,
+          "aurora_button.h": 1,
+          "aurora_climate.h": 1,
+          "aurora_iz2_climate.h": 1,
+          "aurora_number.h": 1,
+          "protocol.h": 1,
+          "registers.h": 1,
+          "aurora_humidistat_select.h": 1,
+          "aurora_dhw_switch.h": 1,
+          "aurora_water_heater.h": 1,
+          "waterfurnace_aurora.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 21,
+        "packages": {
+          "wayland-server-core.h": 7,
+          "<wayland-server-core.h>": 7,
+          "esphome/core/component.h": 7,
+          "view.h": 5,
+          "server.h": 3,
+          "wlr/xwayland.h": 3,
+          "<wlr/xwayland.h>": 3,
+          "esphome/components/climate/climate.h": 3,
+          "seat.h": 2,
+          "output.h": 2,
+          "wlr/types/wlr_xdg_decoration_v1.h": 2,
+          "config.h": 2,
+          "<wlr/types/wlr_xdg_decoration_v1.h>": 2,
+          "wlr/types/wlr_box.h": 2,
+          "<wlr/types/wlr_box.h>": 2,
+          "wlr/types/wlr_xdg_shell.h": 2,
+          "<wlr/types/wlr_xdg_shell.h>": 2,
+          "namespace": 2,
+          "esphome.h": 2,
+          "<cmath>": 2,
+          "cmath": 2,
+          "<cstdint>": 2,
+          "cstdint": 2,
+          "vector": 2,
+          "<vector>": 2,
+          "<wlr/types/wlr_output_damage.h>": 1,
+          "wlr/types/wlr_output.h": 1,
+          "wlr/types/wlr_output_damage.h": 1,
+          "<wlr/types/wlr_output.h>": 1,
+          "wlr/types/wlr_input_device.h": 1,
+          "wlr/types/wlr_xcursor_manager.h": 1,
+          "<wlr/types/wlr_seat.h>": 1,
+          "<wlr/types/wlr_cursor.h>": 1,
+          "wlr/types/wlr_cursor.h": 1,
+          "<wlr/types/wlr_input_device.h>": 1,
+          "wlr/types/wlr_seat.h": 1,
+          "<wlr/types/wlr_xcursor_manager.h>": 1,
+          "wlr/types/wlr_data_device.h": 1,
+          "<wlr/types/wlr_data_device.h>": 1,
+          "<wlr/types/wlr_idle_inhibit_v1.h>": 1,
+          "wlr/types/wlr_idle_inhibit_v1.h": 1,
+          "<wlr/types/wlr_idle.h>": 1,
+          "<wlr/backend.h>": 1,
+          "wlr/types/wlr_idle.h": 1,
+          "wlr/types/wlr_output_layout.h": 1,
+          "wlr/backend.h": 1,
+          "<wlr/types/wlr_output_layout.h>": 1,
+          "<stdbool.h>": 1,
+          "stdbool.h": 1,
+          "<wlr/types/wlr_surface.h>": 1,
+          "wlr/types/wlr_surface.h": 1,
+          "relay": 1,
+          "esphome/components/button/button.h": 1,
+          "esphome/components/number/number.h": 1,
+          "utility": 1,
+          "cstddef": 1,
+          "array": 1,
+          "<utility>": 1,
+          "<array>": 1,
+          "<cstddef>": 1,
+          "<string>": 1,
+          "<algorithm>": 1,
+          "string": 1,
+          "<cstring>": 1,
+          "RegisterMap": 1,
+          "cstring": 1,
+          "algorithm": 1,
+          "esphome/components/select/select.h": 1,
+          "esphome/components/switch/switch.h": 1,
+          "esphome/components/water_heater/water_heater.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 25,
+        "packages": {
+          "strings": 13,
+          "os": 11,
+          "fmt": 9,
+          "testing": 7,
+          "net/http": 6,
+          "github.com/daemonp/gogpt/pkg/types": 6,
+          "github.com/rs/zerolog/log": 6,
+          "path/filepath": 6,
+          "io": 5,
+          "bytes": 4,
+          "github.com/stretchr/testify/assert": 4,
+          "strconv": 3,
+          "context": 3,
+          "github.com/daemonp/forklift/config": 3,
+          "sync": 3,
+          "log": 3,
+          "flag": 3,
+          "github.com/daemonp/gogpt/pkg/fileutils": 3,
+          "time": 2,
+          "Content-Type": 2,
+          "github.com/daemonp/forklift": 2,
+          "net/http/httptest": 2,
+          "github.com/rs/zerolog": 2,
+          "github.com/daemonp/gogpt/pkg/exporter": 2,
+          "regexp": 2,
+          "github.com/daemonp/gogpt/pkg/gitignore": 2,
+          "embed": 2,
+          "html/template": 2,
+          "encoding/json": 2,
+          "gopkg.in/yaml.v3": 1,
+          "encoding/base64": 1,
+          "hash/fnv": 1,
+          "sort": 1,
+          "crypto/rand": 1,
+          "errors": 1,
+          "github.com/daemonp/forklift/logger": 1,
+          "hash": 1,
+          "math": 1,
+          "net/url": 1,
+          "X-User-Type": 1,
+          "github.com/daemonp/gogpt/cmd/gogpt/flags": 1,
+          "github.com/daemonp/gogpt/cmd/gogpt/logger": 1,
+          "bufio": 1,
+          "github.com/daemonp/gogpt/pkg/languagedetector": 1,
+          "io/ioutil": 1,
+          "github.com/stretchr/testify/require": 1,
+          "github.com/daemonp/gogpt/pkg/tiktoken": 1,
+          "github.com/ddddddO/gtree": 1,
+          "c": 1,
+          "powershell": 1,
+          "ts": 1,
+          "go": 1,
+          "ruby": 1,
+          "scala": 1,
+          "csharp": 1,
+          "sql": 1,
+          "xml": 1,
+          "python": 1,
+          "css": 1,
+          "yaml": 1,
+          "cpp": 1,
+          "java": 1,
+          "markdown": 1,
+          "json": 1,
+          "php": 1,
+          "rust": 1,
+          "html": 1,
+          "config": 1,
+          "swift": 1,
+          "shell": 1,
+          "js": 1,
+          "kotlin": 1,
+          "docker": 1,
+          "make": 1,
+          "github.com/denormal/go-gitignore": 1,
+          "unicode": 1,
+          "requests": 1,
+          "github.com/gorilla/websocket": 1,
+          "request": 1,
+          "Host": 1,
+          "Protocol": 1,
+          "remoteInfo": 1,
+          "Domain": 1,
+          "tls": 1,
+          "UserAgent": 1,
+          "X-Forwarded-User": 1,
+          "Secure": 1,
+          "Method": 1,
+          "cloudflare": 1,
+          "RequestURI": 1,
+          "X-Forwarded-Host": 1,
+          "X-Forwarded-Proto": 1,
+          "TLS": 1,
+          "ServerProtocol": 1,
+          "traefik": 1,
+          "crypto/tls": 1,
+          "SameSite": 1,
+          "Value": 1,
+          "cookies": 1,
+          "X-Real-IP": 1,
+          "X-Forwarded-Server": 1,
+          "X-Forwarded-Uri": 1,
+          "Negotiated": 1,
+          "Expires": 1,
+          "HttpOnly": 1,
+          "RemoteAddr": 1,
+          "Path": 1,
+          "environment": 1,
+          "ServerSoftware": 1,
+          "Server": 1,
+          "serverInfo": 1,
+          "X-Original-URL": 1,
+          "MaxAge": 1,
+          "X-Forwarded-Group": 1,
+          "X-Forwarded-For": 1,
+          "Referer": 1,
+          "URL": 1,
+          "Cipher": 1,
+          "Name": 1,
+          "headers": 1,
+          "X-Forwarded-Port": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 1,
+        "packages": {
+          "=": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 10,
+        "packages": {
+          "esphome": 10,
+          "CONF_ID": 3,
+          "uart": 1,
+          "pins": 1,
+          "binary_sensor": 1,
+          "button": 1,
+          "climate": 1,
+          "number": 1,
+          "select": 1,
+          "sensor": 1,
+          "switch": 1,
+          "text_sensor": 1,
+          "ENTITY_CATEGORY_DIAGNOSTIC": 1,
+          "water_heater": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 43,
+        "packages": {
+          "std": 26,
+          "super": 24,
+          "crate": 23,
+          "serde": 6,
+          "zip": 4,
+          "quick_xml": 4,
+          "otd_core": 4,
+          "egui": 4,
+          "cfb": 2,
+          "thiserror": 2,
+          "once_cell": 2,
+          "windows": 2,
+          "man": 1,
+          "encoding_rs": 1,
+          "bat": 1,
+          "is_terminal": 1,
+          "-": 1,
+          "error": 1,
+          "base64": 1,
+          "retour": 1,
+          "anyhow": 1,
+          "tracing": 1,
+          "tracing_subscriber": 1,
+          "clap": 1,
+          "cipher": 1,
+          "md5": 1,
+          "app": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "daemonp/Aux-Revamped",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "daemonp/batdoc",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "daemonp/cage",
+        "files_analyzed": 18,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "daemonp/dwm",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "daemonp/esphome-lctech-4chanel-modules",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "daemonp/esphome_waterfurnace_aurora",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "daemonp/forklift",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "daemonp/gogpt",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "daemonp/httpsink",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "daemonp/inspecto-http",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "daemonp/interact-rs",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "daemonp/intermac-rs",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Rust"
+        ]
+      }
+    ]
+  }
+}

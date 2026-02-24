@@ -1,0 +1,351 @@
+{
+  "username": "tolnem",
+  "areas": {
+    "OSS": {
+      "score": 0.06595522459019953,
+      "details": {
+        "issue_resolution_rate": 0.5454545454545454,
+        "pr_merge_rate": 0.75,
+        "commits_activity": 0.303478291430754
+      }
+    },
+    "Status": {
+      "score": -0.11819395955898448,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.303478291430754,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "tolnem/markdown-handler": -0.03157500000000001
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.013059683742196238,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        295,
+        2
+      ],
+      "Python": [
+        3771,
+        2
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 4,
+    "total_lines": 4066,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 295,
+        "commits": 2
+      },
+      {
+        "language": "Python",
+        "lines": 3771,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "tolnem",
+    "analysis_date": "2026-02-24T00:46:25.763320",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 176,
+    "languages": {
+      "C": {
+        "files_scanned": 14,
+        "packages": {
+          "<avr/io.h>": 7,
+          "avr/io.h": 7,
+          "debug.h": 4,
+          "i2c_master.h": 3,
+          "hal.h": 3,
+          "avr/pgmspace.h": 3,
+          "<avr/pgmspace.h>": 3,
+          "util/delay.h": 3,
+          "<avr/interrupt.h>": 3,
+          "<util/delay.h>": 3,
+          "avr/interrupt.h": 3,
+          "<string.h>": 2,
+          "string.h": 2,
+          "timer.h": 2,
+          "<util/twi.h>": 2,
+          "util/twi.h": 2,
+          "print.h": 2,
+          "DRV2605L.h": 2,
+          "<hal.h>": 1,
+          "quantum.h": 1,
+          "<stdint.h>": 1,
+          "stdint.h": 1,
+          "analog.h": 1,
+          "apa102.h": 1,
+          "pgmspace.h": 1,
+          "<pgmspace.h>": 1,
+          "<inttypes.h>": 1,
+          "inttypes.h": 1,
+          "hd44780.h": 1,
+          "can": 1,
+          "wait.h": 1,
+          "stdbool.h": 1,
+          "<stdbool.h>": 1,
+          "i2c_slave.h": 1,
+          "ssd1306.h": 1,
+          "adafruit_ble.h": 1,
+          "lufa.h": 1,
+          "glcdfont.c": 1,
+          "sendchar.h": 1,
+          "i2c.h": 1,
+          "the": 1,
+          "ws2812.h": 1,
+          "pca9555.h": 1,
+          "stdlib.h": 1,
+          "<stdlib.h>": 1,
+          "stdio.h": 1,
+          "<math.h>": 1,
+          "<stdio.h>": 1,
+          "math.h": 1,
+          "haptic.h": 1,
+          "eeconfig.h": 1,
+          "solenoid.h": 1,
+          "progmem.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 9,
+        "packages": {
+          "stdint.h": 2,
+          "<stdint.h>": 2,
+          "<avr/interrupt.h>": 2,
+          "<avr/io.h>": 2,
+          "avr/interrupt.h": 2,
+          "avr/io.h": 2,
+          "avr/pgmspace.h": 2,
+          "<avr/pgmspace.h>": 2,
+          "stdbool.h": 2,
+          "<stdbool.h>": 2,
+          "ch.h": 1,
+          "<hal.h>": 1,
+          "hal.h": 1,
+          "color.h": 1,
+          "<inttypes.h>": 1,
+          "inttypes.h": 1,
+          "lcd_definitions.h": 1,
+          "config.h": 1,
+          "pincontrol.h": 1,
+          "stdio.h": 1,
+          "<stdio.h>": 1,
+          "quantum/color.h": 1,
+          "i2c_master.h": 1,
+          "DRV2605L.h": 1,
+          "quantum.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "time-grunt": 1,
+          "load-grunt-config": 1,
+          "path": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 46,
+        "packages": {
+          "FOS\\Rest\\Util\\Codes": 4,
+          "FOS\\RestBundle\\Routing\\RestRouteCollection": 4,
+          "\\Faker\\Provider\\Base": 2,
+          "Doctrine\\Common\\Persistence\\ObjectManager": 2,
+          "Mandango\\Mandango": 2,
+          "\\ColumnMap": 2,
+          "Symfony\\Component\\DependencyInjection\\ContainerBuilder": 2,
+          "Symfony\\Component\\Config\\FileLocator": 2,
+          "Symfony\\Component\\HttpKernel\\Bundle\\Bundle": 2,
+          "Doctrine\\Common\\Annotations\\Annotation": 2,
+          "FOS\\Rest\\Decoder\\DecoderProviderInterface": 2,
+          "Symfony\\Component\\HttpKernel\\Event\\FilterControllerEvent": 2,
+          "FOS\\RestBundle\\View\\View": 2,
+          "Doctrine\\Common\\Annotations\\Reader": 2,
+          "Symfony\\Component\\Config\\FileLocatorInterface": 2,
+          "Credis/Client.php": 1,
+          "Doctrine\\Common\\Persistence\\Mapping\\ClassMetadata": 1,
+          "Doctrine\\ORM\\EntityManagerInterface": 1,
+          "Doctrine\\ORM\\Mapping\\ClassMetadata": 1,
+          "Faker\\Provider\\Base": 1,
+          "\\PropelColumnTypes": 1,
+          "Faker\\DefaultGenerator": 1,
+          "Faker\\Generator": 1,
+          "Faker\\UniqueGenerator": 1,
+          "Symfony\\Component\\HttpKernel\\DependencyInjection\\Extension": 1,
+          "Symfony\\Component\\DependencyInjection\\Loader\\XmlFileLoader": 1,
+          "Ideato\\FlickrApiBundle\\Model\\PhotoGallery": 1,
+          "Ideato\\FlickrApiBundle\\Model\\Photo": 1,
+          "Ideato\\FlickrApiBundle\\Wrapper\\Curl": 1,
+          "Ideato\\FlickrApiBundle\\Model\\PhotoGalleryRepository": 1,
+          "Ideato\\FlickrApiBundle\\Model\\PhotoRepository": 1,
+          "Ideato\\FlickrApiBundle\\Wrapper\\FlickrApi": 1,
+          "Ideato\\FlickrApiBundle\\Test\\CurlMock": 1,
+          "Test": 1,
+          "Model": 1,
+          "Wrapper": 1,
+          "Symfony\\Component\\Routing\\Annotation\\Route": 1,
+          "Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Template": 1,
+          "Symfony\\Bundle\\FrameworkBundle\\Templating\\TemplateReference": 1,
+          "Symfony\\Component\\DependencyInjection\\ContainerAware": 1,
+          "Symfony\\Component\\Config\\Definition\\Builder\\TreeBuilder": 1,
+          "Symfony\\Component\\HttpFoundation\\ParameterBag": 1,
+          "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent": 1,
+          "Sensio\\Bundle\\FrameworkExtraBundle\\EventListener\\TemplateListener": 1,
+          "Symfony\\Bridge\\Monolog\\Logger": 1,
+          "Symfony\\Component\\Routing\\Route": 1,
+          "FOS\\RestBundle\\Util\\Pluralization": 1,
+          "Symfony\\Component\\Config\\Resource\\FileResource": 1,
+          "Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser": 1,
+          "FOS\\RestBundle\\Routing\\Loader\\Reader\\RestControllerReader": 1,
+          "FOS\\RestBundle\\Routing\\Loader\\RestRouteLoader": 1,
+          "Symfony\\Component\\Config\\Loader\\FileLoader": 1,
+          "Symfony\\Component\\Routing\\RouteCollection": 1,
+          "FOS\\RestBundle\\DependencyInjection\\FOSRestExtension": 1,
+          "Symfony\\Component\\HttpFoundation\\Request": 1,
+          "markdown.php": 1,
+          "smartypants.php": 1,
+          "admin/views/user-profile.php": 1,
+          "Zend/Cache/Backend.php": 1,
+          "Zend\\Cache": 1,
+          "Zend/Cache/Backend/ExtendedInterface.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 17,
+        "packages": {
+          "logging": 11,
+          "cflib": 10,
+          "struct": 9,
+          "CRTPPacket": 5,
+          "threading": 5,
+          "time": 4,
+          "Caller": 4,
+          "Thread": 4,
+          "Queue": 4,
+          "re": 4,
+          "the": 2,
+          "traceback": 2,
+          "os": 2,
+          "usb": 2,
+          "math": 1,
+          "random": 1,
+          "Timer": 1,
+          "CRTPPort": 1,
+          "glob": 1,
+          "json": 1,
+          "ParamTocElement": 1,
+          "LogTocElement": 1,
+          "datetime": 1,
+          "array": 1,
+          "CRTPDriver": 1,
+          "USBError": 1,
+          "Crazyradio": 1,
+          "socket": 1,
+          "rtmidi": 1,
+          "crazyflie": 1,
+          "sys": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "tolnem/credis",
+        "files_analyzed": 7,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "tolnem/Faker",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "tolnem/FlickrApiBundle",
+        "files_analyzed": 13,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "tolnem/FOSRestBundle",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "tolnem/markdown-handler",
+        "files_analyzed": 3,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "tolnem/nano-crazyflie",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tolnem/qmk_firmware",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "tolnem/wordpress-seo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "tolnem/Zend_Cache_Backend_Redis",
+        "files_analyzed": 1,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

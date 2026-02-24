@@ -1,0 +1,453 @@
+{
+  "username": "PiTiLeZarD",
+  "areas": {
+    "OSS": {
+      "score": 0.7714285714285714,
+      "details": {
+        "issue_resolution_rate": 0.8571428571428571,
+        "pr_merge_rate": 0.8,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5128205128205128,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.2692307692307692
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "PiTiLeZarD/workbench_alchemy": 0.32034375
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.721062271062271,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        237879,
+        271
+      ],
+      "HTML": [
+        10875,
+        9
+      ],
+      "TypeScript": [
+        184153,
+        984
+      ],
+      "CSS": [
+        353,
+        0
+      ],
+      "Shell": [
+        937,
+        20
+      ],
+      "Dockerfile": [
+        311,
+        3
+      ],
+      "Python": [
+        7766,
+        173
+      ],
+      "Rust": [
+        628,
+        0
+      ],
+      "Makefile": [
+        25,
+        0
+      ],
+      "HCL": [
+        71,
+        0
+      ],
+      "Procfile": [
+        8,
+        0
+      ],
+      "Nunjucks": [
+        34,
+        0
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 1460,
+    "total_lines": 443040,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 184153,
+        "commits": 984
+      },
+      {
+        "language": "JavaScript",
+        "lines": 237879,
+        "commits": 271
+      },
+      {
+        "language": "Python",
+        "lines": 7766,
+        "commits": 173
+      },
+      {
+        "language": "Shell",
+        "lines": 937,
+        "commits": 20
+      },
+      {
+        "language": "HTML",
+        "lines": 10875,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "PiTiLeZarD",
+    "analysis_date": "2026-02-23T06:08:13.282028",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 321,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 50,
+        "packages": {
+          "assert": 18,
+          "path": 11,
+          "express": 6,
+          "graphql-upload-minimal": 5,
+          "mongoose": 5,
+          "fs": 5,
+          "foo": 5,
+          "stream": 4,
+          "form-data": 4,
+          "parcel": 4,
+          "react-dom": 3,
+          "graphql": 3,
+          "node-fetch": 3,
+          "simple-acl": 3,
+          "koa": 2,
+          "http": 2,
+          "stylus": 2,
+          "passport": 2,
+          "nullthrows": 2,
+          "regenerator-runtime": 1,
+          "undefined": 1,
+          "graphql-tools": 1,
+          "express-graphql": 1,
+          "graphql-api-koa": 1,
+          "koa-bodyparser": 1,
+          "busboy": 1,
+          "express-validator": 1,
+          "connect-mongo": 1,
+          "connect-flash": 1,
+          "dev": 1,
+          "name": 1,
+          "crypto": 1,
+          "passport-local": 1,
+          "User": 1,
+          "nodemailer": 1,
+          "bcrypt": 1,
+          "socket.io": 1,
+          "connect": 1,
+          "Contact": 1,
+          "Livechat": 1,
+          "ngSwitch": 1,
+          "=": 1,
+          "^ngSwitch": 1,
+          "ngModel": 1,
+          "select": 1,
+          "?ngModel": 1,
+          "three": 1,
+          "sinon": 1,
+          "json5": 1,
+          "jsdom": 1,
+          "ws": 1,
+          "other": 1,
+          "get-port": 1,
+          "module": 1,
+          "hello": 1,
+          "(.*?)": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 20,
+        "packages": {
+          "react": 15,
+          "react-relay": 6,
+          "material-ui": 6,
+          "formik": 3,
+          "react-three": 3,
+          "three": 3,
+          "formik-material-ui": 2,
+          "aframe": 1,
+          "material-ui-search-bar": 1,
+          "relay-runtime": 1,
+          "react-dom": 1,
+          "luxon": 1,
+          "algebra.js": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 59,
+        "packages": {
+          "pytest": 27,
+          "metl": 20,
+          "os": 10,
+          "docker": 6,
+          "sys": 5,
+          "time": 5,
+          "requests": 5,
+          "subprocess": 4,
+          "re": 4,
+          "logging": 4,
+          "*": 3,
+          "const": 3,
+          "backoff": 3,
+          "ConnectionError": 3,
+          "sleep": 3,
+          "codecs": 2,
+          "tarr": 2,
+          "StringIO": 2,
+          "numpy": 2,
+          "json": 1,
+          "argparse": 1,
+          "glob": 1,
+          "yaml": 1,
+          "traceback": 1,
+          "sqlalchemy": 1,
+          "TypeDecorator": 1,
+          "output": 1,
+          "operator": 1,
+          "DOT_SPACE": 1,
+          "functools": 1,
+          "play_notes": 1,
+          "DIT": 1,
+          "SAMPLING": 1,
+          "simpleaudio": 1,
+          "play_string": 1,
+          "codes": 1,
+          "sanitize": 1,
+          "code": 1,
+          "coder": 1,
+          "parse": 1,
+          "crossplane": 1,
+          "print_function": 1,
+          "HAS_IPV6": 1,
+          "__future__": 1,
+          "tarfile": 1,
+          "shlex": 1,
+          "contextlib": 1,
+          "cStringIO": 1,
+          "socket": 1,
+          "_pytest": 1,
+          "ReprExceptionInfo": 1,
+          "socketserver": 1,
+          "http": 1,
+          "join": 1,
+          "shutil": 1,
+          "copy": 1,
+          "doctest": 1,
+          "NotFound": 1,
+          "it": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 7,
+        "packages": {
+          "aframe": 1,
+          "koa": 1,
+          "graphql": 1,
+          "fs": 1,
+          "express": 1,
+          "http": 1,
+          "zustand": 1,
+          "day": 1,
+          "luxon": 1,
+          "Mon": 1,
+          "mui": 1,
+          "Test2": 1,
+          "FINE": 1,
+          "IGNORE": 1,
+          "wanakana": 1,
+          "humanize-duration": 1,
+          "nanoid": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 77,
+        "packages": {
+          "react": 75,
+          "mui": 28,
+          "react-hook-form": 21,
+          "react-native": 12,
+          "react-native-unistyles": 9,
+          "luxon": 9,
+          "expo-router": 4,
+          "react-router-dom": 4,
+          "aframe": 3,
+          "react-native-gesture-handler": 2,
+          "react-dropzone": 2,
+          "react-dom": 2,
+          "wanakana": 2,
+          "aframe-environment-component-v2": 1,
+          "expo-font": 1,
+          "react-native-safe-area-context": 1,
+          "expo-splash-screen": 1,
+          "t": 1,
+          "adx": 1,
+          "cabrillo": 1,
+          "gmaps": 1,
+          "zustand": 1,
+          "recharts": 1,
+          "react-calendar-heatmap": 1,
+          "|": 1,
+          "usehooks-ts": 1,
+          "string-similarity": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "PiTiLeZarD/aframe-react-gui",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/AGQL.js",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/decompose",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/down-the-log",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/DrinkingBuddy",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/FunnyMaze",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/graphql-upload-minimal",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/guestimate",
+        "files_analyzed": 10,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/lazycook",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/memup",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/mETL",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/micd",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/MorPy",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/nginx-proxy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "PiTiLeZarD/parcel",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

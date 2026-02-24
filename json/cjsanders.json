@@ -1,0 +1,184 @@
+{
+  "username": "cjsanders",
+  "areas": {
+    "OSS": {
+      "score": -0.6876279109137078,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.46855813362943827
+      }
+    },
+    "Status": {
+      "score": 0.01750029421449728,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.46855813362943827,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.16753190417480263,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        626,
+        11
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 11,
+    "total_lines": 626,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 626,
+        "commits": 11
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "cjsanders",
+    "analysis_date": "2026-02-22T23:56:26.409227",
+    "total_repos_analyzed": 3,
+    "total_files_analyzed": 66,
+    "languages": {
+      "Ruby": {
+        "files_scanned": 46,
+        "packages": {
+          "spec_helper": 14,
+          "test/helper": 9,
+          "engineyard/error": 5,
+          "it": 4,
+          "tempfile": 3,
+          "engineyard-cloud-client": 2,
+          "highline": 2,
+          "engineyard/eyrc": 2,
+          "pathname": 2,
+          "uri": 2,
+          "engineyard/cli": 2,
+          "lib": 2,
+          "file": 1,
+          "httparty": 1,
+          "HTTParty": 1,
+          "vcr": 1,
+          "turn": 1,
+          "webmock/minitest": 1,
+          "minitest/autorun": 1,
+          "engineyard/version": 1,
+          "engineyard/config": 1,
+          "engineyard/serverside_runner": 1,
+          "engineyard/cli/recipes": 1,
+          "engineyard/cli/ui": 1,
+          "engineyard/cli/api": 1,
+          "engineyard-cloud-client/errors": 1,
+          "engineyard/deploy_config": 1,
+          "engineyard": 1,
+          "launchy": 1,
+          "engineyard/cli/web": 1,
+          "Thor::Actions": 1,
+          "engineyard/thor": 1,
+          "yaml": 1,
+          "migrate_command": 1,
+          "migrate_command=": 1,
+          "engineyard/deploy_config/ref": 1,
+          "engineyard/deploy_config/migrate": 1,
+          "net/ssh": 1,
+          "escape": 1,
+          "engineyard-serverside-adapter": 1,
+          "UtilityMethods": 1,
+          "thor": 1,
+          "InstanceMethods": 1,
+          "paperclip/geometry": 1,
+          "paperclip/interpolations": 1,
+          "paperclip/storage": 1,
+          "paperclip/style": 1,
+          "erb": 1,
+          "paperclip/upfile": 1,
+          "paperclip/thumbnail": 1,
+          "paperclip/iostream": 1,
+          "paperclip/processor": 1,
+          "paperclip/callback_compatability": 1,
+          "processor": 1,
+          "paperclip/attachment": 1,
+          "?": 1,
+          "IOStream": 1,
+          "paperclip/matchers/have_attached_file_matcher": 1,
+          "paperclip/matchers/validate_attachment_size_matcher": 1,
+          "paperclip/matchers/validate_attachment_content_type_matcher": 1,
+          "paperclip/matchers/validate_attachment_presence_matcher": 1,
+          "aws/s3": 1,
+          "Paperclip::Upfile": 1,
+          "Paperclip::Shoulda": 1,
+          "Matchers": 1,
+          "action_controller": 1,
+          "paperclip/matchers": 1,
+          "rubygems": 1,
+          "test/unit": 1,
+          "activesupport": 1,
+          "mocha": 1,
+          "active_record/version": 1,
+          "action_pack": 1,
+          "shoulda_macros/paperclip": 1,
+          "active_record": 1,
+          "ruby-debug": 1,
+          "active_support": 1,
+          "activerecord": 1,
+          "actionpack": 1,
+          "Paperclip": 1,
+          "shoulda": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "cjsanders/cj_client",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cjsanders/engineyard",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cjsanders/paperclip",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

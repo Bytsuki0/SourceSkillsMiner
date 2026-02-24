@@ -1,0 +1,477 @@
+{
+  "username": "directeur",
+  "areas": {
+    "OSS": {
+      "score": -0.5187100040616854,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.721934993907472
+      }
+    },
+    "Status": {
+      "score": 0.165119794811035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7092181537550141,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "directeur/django-pdf": 0.37815,
+        "directeur/django-sorting": 0.31806666666666666
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.21160244768733738,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        11409,
+        31
+      ],
+      "JavaScript": [
+        2016,
+        4
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 35,
+    "total_lines": 13425,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 11409,
+        "commits": 31
+      },
+      {
+        "language": "JavaScript",
+        "lines": 2016,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "directeur",
+    "analysis_date": "2026-02-22T15:49:49.701544",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 140,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "<sys/epoll.h>": 1,
+          "sys/epoll.h": 1,
+          "Python.h": 1,
+          "<string.h>": 1,
+          "string.h": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 2,
+        "packages": {
+          "libs/pclzip.lib.php": 1,
+          "view.php": 1,
+          "libs/functions.php": 1,
+          "book.tex": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 116,
+        "packages": {
+          "django": 38,
+          "os": 31,
+          "re": 24,
+          "logging": 24,
+          "*": 22,
+          "settings": 19,
+          "time": 16,
+          "sys": 16,
+          "urllib": 14,
+          "datetime": 13,
+          "git": 12,
+          "test": 11,
+          "xml": 11,
+          "tornado": 10,
+          "urlparse": 9,
+          "google": 8,
+          "template": 8,
+          "parseString": 8,
+          "account": 8,
+          "User": 7,
+          "reverse": 7,
+          "escape": 7,
+          "blog": 7,
+          "db": 6,
+          "functools": 6,
+          "cgi": 6,
+          "base64": 6,
+          "hashlib": 6,
+          "optparse": 6,
+          "define": 6,
+          "cStringIO": 5,
+          "commit": 5,
+          "StringIO": 5,
+          "admin": 5,
+          "models": 5,
+          "Entry": 5,
+          "subscriptions": 5,
+          "markdown": 5,
+          "ioloop": 5,
+          "simplejson": 4,
+          "uuid": 4,
+          "HttpResponse": 4,
+          "urllib2": 4,
+          "Commit": 4,
+          "mimetypes": 4,
+          "unittest": 4,
+          "copy": 4,
+          "httplib": 4,
+          "Account": 4,
+          "HttpResponseRedirect": 4,
+          "render_to_response": 4,
+          "network": 4,
+          "Subscription": 4,
+          "OptionParser": 4,
+          "pprint": 4,
+          "binascii": 4,
+          "errno": 4,
+          "setuptools": 3,
+          "utils": 3,
+          "sets": 3,
+          "threading": 3,
+          "distutils": 3,
+          "inspect": 3,
+          "md5": 3,
+          "Git": 3,
+          "Tree": 3,
+          "Actor": 3,
+          "iso8601": 3,
+          "gzip": 3,
+          "random": 3,
+          "string": 3,
+          "forms": 3,
+          "django_openid": 3,
+          "login_required": 3,
+          "ragendja": 3,
+          "post_publish": 3,
+          "sgmllib": 3,
+          "types": 3,
+          "htmlentitydefs": 3,
+          "codecs": 3,
+          "socket": 3,
+          "webapp": 2,
+          "timesince": 2,
+          "slugify": 2,
+          "urlfetch": 2,
+          "users": 2,
+          "Http404": 2,
+          "setup": 2,
+          "wx": 2,
+          "json": 2,
+          "use_setuptools": 2,
+          "ez_setup": 2,
+          "InvalidGitRepositoryError": 2,
+          "Blob": 2,
+          "Head": 2,
+          "touch": 2,
+          "Tag": 2,
+          "actor": 2,
+          "errors": 2,
+          "LazyMixin": 2,
+          "tree": 2,
+          "lazy": 2,
+          "blob": 2,
+          "mock": 2,
+          "activity": 2,
+          "filter": 2,
+          "publisher": 2,
+          "TimeZoneField": 2,
+          "EmailAddress": 2,
+          "emailconfirmation": 2,
+          "microblogging": 2,
+          "timezones": 2,
+          "OtherServiceInfo": 2,
+          "ugettext_lazy": 2,
+          "authenticate": 2,
+          "login": 2,
+          "get_default_redirect": 2,
+          "RequestContext": 2,
+          "UserOpenidAssociation": 2,
+          "ugettext": 2,
+          "basic_profiles": 2,
+          "Profile": 2,
+          "pyapml": 2,
+          "permalink": 2,
+          "Signal": 2,
+          "guess_type": 2,
+          "object_list": 2,
+          "create_object": 2,
+          "BeautifulSoup": 2,
+          "cjkcodecs": 2,
+          "traceback": 2,
+          "mx": 2,
+          "UserDict": 2,
+          "tidy": 2,
+          "rfc822": 2,
+          "Tidy": 2,
+          "entitydefs": 2,
+          "iconv_codec": 2,
+          "name2codepoint": 2,
+          "zlib": 2,
+          "chardet": 2,
+          "feedparser": 2,
+          "post_subscribe": 2,
+          "extractor": 2,
+          "unicodedata": 2,
+          "wsgiref": 2,
+          "join": 2,
+          "lexers": 2,
+          "pygments": 2,
+          "Set": 2,
+          "literal": 2,
+          "doctest": 2,
+          "test_markdown2": 2,
+          "norm_html_from_html": 2,
+          "hmac": 2,
+          "calendar": 2,
+          "email": 2,
+          "httpserver": 2,
+          "fcntl": 2,
+          "iostream": 2,
+          "bisect": 2,
+          "web": 2,
+          "run_wsgi_app": 1,
+          "memcache": 1,
+          "feedgenerator": 1,
+          "newforms": 1,
+          "djangoforms": 1,
+          "ho": 1,
+          "Fieldset": 1,
+          "cjson": 1,
+          "friendfeed": 1,
+          "shutil": 1,
+          "pkg_resources": 1,
+          "main": 1,
+          "log": 1,
+          "easy_install": 1,
+          "dashify": 1,
+          "Repo": 1,
+          "Stats": 1,
+          "Diff": 1,
+          "subprocess": 1,
+          "GitCommandError": 1,
+          "diff": 1,
+          "stats": 1,
+          "cmd": 1,
+          "tag": 1,
+          "head": 1,
+          "build_py": 1,
+          "path": 1,
+          "sdist": 1,
+          "asserts": 1,
+          "helper": 1,
+          "ElementTree": 1,
+          "elementtree": 1,
+          "davclient": 1,
+          "httplib2": 1,
+          "gnip": 1,
+          "count": 1,
+          "get_send_mail": 1,
+          "smart_unicode": 1,
+          "friends": 1,
+          "render_to_string": 1,
+          "JoinInvitation": 1,
+          "misc": 1,
+          "PasswordReset": 1,
+          "get_twitter_password": 1,
+          "translation": 1,
+          "patch_vary_headers": 1,
+          "get_language_from_request": 1,
+          "post_save": 1,
+          "OpenIDSignupForm": 1,
+          "RegistrationConsumer": 1,
+          "mark_safe": 1,
+          "other_service": 1,
+          "twitter_verify_credentials": 1,
+          "SignupForm": 1,
+          "twitter_account_raw": 1,
+          "Q": 1,
+          "twitter_account_for_user": 1,
+          "get_host": 1,
+          "gdata": 1,
+          "openAnything": 1,
+          "APMLParser": 1,
+          "registration": 1,
+          "RegistrationProfile": 1,
+          "UploadedFile": 1,
+          "FormWithSets": 1,
+          "UserTraits": 1,
+          "RegistrationForm": 1,
+          "publish_ping": 1,
+          "memoize": 1,
+          "json_response": 1,
+          "EntryForm": 1,
+          "robotparser": 1,
+          "xmlrpclib": 1,
+          "feedfinder": 1,
+          "s": 1,
+          "cache": 1,
+          "subscribe_ping": 1,
+          "taskqueue": 1,
+          "url_to_subscription": 1,
+          "UserRegistrationForm": 1,
+          "urlpatterns": 1,
+          "DownloadURLOpener": 1,
+          "downloader": 1,
+          "PlayListDownloader": 1,
+          "services": 1,
+          "BaseFeedExtractor": 1,
+          "uimodules": 1,
+          "id": 1,
+          "httpclient": 1,
+          "firstname": 1,
+          "MySQLdb": 1,
+          "itertools": 1,
+          "pycurl": 1,
+          "collections": 1,
+          "epoll": 1,
+          "Python": 1,
+          "this": 1,
+          "select": 1,
+          "unknown": 1,
+          "csv": 1,
+          "curses": 1,
+          "with_statement": 1,
+          "__future__": 1,
+          "locale": 1,
+          "Cookie": 1,
+          "stat": 1,
+          "treeprocessors": 1,
+          "etree_loader": 1,
+          "preprocessors": 1,
+          "warnings": 1,
+          "blockprocessors": 1,
+          "blockparser": 1,
+          "odict": 1,
+          "postprocessors": 1,
+          "inlinepatterns": 1,
+          "html4": 1,
+          "DEBUG": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "directeur/blog",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "directeur/django-pdf",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "directeur/django-sorting",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "directeur/ff-o-meter",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "directeur/git-python",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "directeur/gnip-python",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "directeur/pinax",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "directeur/pyapml",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "directeur/socnode",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "directeur/sugoi",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "directeur/tornado",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "directeur/wptex",
+        "files_analyzed": 4,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

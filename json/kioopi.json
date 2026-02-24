@@ -1,0 +1,772 @@
+{
+  "username": "kioopi",
+  "areas": {
+    "OSS": {
+      "score": 0.7046594982078853,
+      "details": {
+        "issue_resolution_rate": 0.26666666666666666,
+        "pr_merge_rate": 1.2903225806451613,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "kioopi/diligent": 0.12186666666666666,
+        "kioopi/ridez": 0.14983333333333335,
+        "kioopi/wedid": 0.3165714285714286,
+        "kioopi/workon": 0.06145142857142857
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6255238489109457,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        6291,
+        29
+      ],
+      "JavaScript": [
+        293776,
+        140
+      ],
+      "CSS": [
+        2869,
+        7
+      ],
+      "CoffeeScript": [
+        0,
+        0
+      ],
+      "Java": [
+        14,
+        0
+      ],
+      "Objective-C": [
+        12,
+        0
+      ],
+      "Lua": [
+        58024,
+        58
+      ],
+      "Shell": [
+        16574,
+        42
+      ],
+      "Makefile": [
+        61,
+        0
+      ],
+      "Racket": [
+        0,
+        0
+      ],
+      "HTML": [
+        8705,
+        9
+      ],
+      "Go": [
+        618,
+        5
+      ],
+      "Elixir": [
+        89537,
+        206
+      ],
+      "Ruby": [
+        28021,
+        30
+      ],
+      "TypeScript": [
+        8397,
+        12
+      ],
+      "PHP": [
+        2725,
+        0
+      ],
+      "ActionScript": [
+        619,
+        0
+      ],
+      "Starlark": [
+        0,
+        0
+      ],
+      "PLpgSQL": [
+        68,
+        0
+      ],
+      "Vim Script": [
+        736,
+        55
+      ],
+      "Dockerfile": [
+        210,
+        0
+      ],
+      "Batchfile": [
+        6,
+        0
+      ]
+    },
+    "language_count": 22,
+    "total_commits": 593,
+    "total_lines": 517263,
+    "top_5_languages": [
+      {
+        "language": "Elixir",
+        "lines": 89537,
+        "commits": 206
+      },
+      {
+        "language": "JavaScript",
+        "lines": 293776,
+        "commits": 140
+      },
+      {
+        "language": "Lua",
+        "lines": 58024,
+        "commits": 58
+      },
+      {
+        "language": "Vim Script",
+        "lines": 736,
+        "commits": 55
+      },
+      {
+        "language": "Shell",
+        "lines": 16574,
+        "commits": 42
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "kioopi",
+    "analysis_date": "2026-02-24T10:25:54.553700",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 294,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 10,
+        "packages": {
+          "<Cordova/CDVPlugin.h>": 5,
+          "<Foundation/Foundation.h>": 5,
+          "<AVFoundation/AVFoundation.h>": 1,
+          "<objc/message.h>": 1,
+          "<objc/runtime.h>": 1,
+          "CDVReachability.h": 1,
+          "<SystemConfiguration/SystemConfiguration.h>": 1,
+          "<netinet/in.h>": 1,
+          "AppDelegate.h": 1,
+          "CULHost.h": 1,
+          "CULPath.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 30,
+        "packages": {
+          "os": 12,
+          "errors": 12,
+          "fmt": 11,
+          "strconv": 11,
+          "strings": 11,
+          "encoding/json": 9,
+          "net/http": 8,
+          "testing": 8,
+          "time": 7,
+          "bytes": 6,
+          "sync": 5,
+          "github.com/astaxie/beego/config": 5,
+          "io/ioutil": 5,
+          "path/filepath": 4,
+          "github.com/astaxie/beego/session": 4,
+          "io": 4,
+          "github.com/astaxie/beego/utils": 3,
+          "github.com/astaxie/beego/context": 3,
+          "reflect": 3,
+          "html/template": 3,
+          "github.com/astaxie/beego/middleware": 2,
+          "github.com/astaxie/beego/cache": 2,
+          "httpport": 2,
+          "runmode": 2,
+          "mysqlport": 2,
+          "autorender": 2,
+          "PI": 2,
+          "copyrequestbody": 2,
+          "appname": 2,
+          "net/url": 2,
+          "github.com/astaxie/beego/toolbox": 1,
+          "net/http/fcgi": 1,
+          "net": 1,
+          "path": 1,
+          "crypto/md5": 1,
+          "encoding/gob": 1,
+          "encoding/hex": 1,
+          "github.com/beego/memcache": 1,
+          "github.com/beego/redigo/redis": 1,
+          "runtime": 1,
+          "github.com/astaxie/beego/logs": 1,
+          "unicode": 1,
+          "bufio": 1,
+          "port": 1,
+          "database": 1,
+          "url": 1,
+          "serviceAPI": 1,
+          "password": 1,
+          "autoconnect": 1,
+          "connectioninfo": 1,
+          "username": 1,
+          "maxconnection": 1,
+          "host": 1,
+          "conns": 1,
+          "github.com/beego/x2j": 1,
+          "github.com/beego/goyaml2": 1,
+          "log": 1,
+          "encoding/base64": 1,
+          "crypto/sha1": 1,
+          "crypto/hmac": 1,
+          "mime": 1,
+          "compress/gzip": 1,
+          "encoding/xml": 1,
+          "compress/flate": 1,
+          "mime/multipart": 1,
+          "github.com/astaxie/beego": 1,
+          "github.com/astaxie/beego/example/beeapi/models": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 11,
+        "packages": {
+          "com.nordnetab": 7,
+          "java.util": 6,
+          "android.content": 6,
+          "org.apache": 5,
+          "org.json": 5,
+          "android.app": 3,
+          "static": 3,
+          "de.appplant": 3,
+          "android.os": 3,
+          "android.net": 3,
+          "android.annotation": 2,
+          "android.text": 2,
+          "android.util": 2,
+          "java.lang": 1,
+          "android.view": 1,
+          "org.xmlpull": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 33,
+        "packages": {
+          "fs": 12,
+          "path": 11,
+          "http": 6,
+          "url": 5,
+          "assert": 5,
+          "cordova": 4,
+          "sys": 3,
+          "vows": 3,
+          "mkpath": 3,
+          "util": 2,
+          "connect": 2,
+          "paperboy": 1,
+          "YOUR": 1,
+          "cgncal": 1,
+          "icalendar": 1,
+          "connect-redis": 1,
+          "1.3.0": 1,
+          "https": 1,
+          "qs": 1,
+          "sass": 1,
+          "less": 1,
+          "coffee-script": 1,
+          "Connect": 1,
+          "sessionvoc-client": 1,
+          "connect-sessionvoc": 1,
+          "should": 1,
+          "disable": 1,
+          "activate": 1,
+          "enable": 1,
+          "child_process": 1,
+          "rimraf": 1,
+          "plist": 1,
+          "node-version-compare": 1,
+          "xml2js": 1,
+          "vm": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 3,
+        "packages": {
+          "pl.pretty": 1,
+          "LGI": 1,
+          "D-Bus": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 10,
+        "packages": {
+          "APPMethodMagic.h": 2,
+          "CDVReachability.h": 2,
+          "CULPlugin.h": 2,
+          "CULHost.h": 2,
+          "CDVInvokedUrlCommand+CULPlugin.h": 2,
+          "CULPath.h": 2,
+          "CDVPluginResult+CULPlugin.h": 2,
+          "<Cordova/CDVAvailability.h>": 1,
+          "Cordova/CDVAvailability.h": 1,
+          "APPBackgroundMode.h": 1,
+          "objc/message.h": 1,
+          "<objc/message.h>": 1,
+          "<objc/runtime.h>": 1,
+          "objc/runtime.h": 1,
+          "CDVConnection.h": 1,
+          "CoreTelephony/CTTelephonyNetworkInfo.h": 1,
+          "<CoreTelephony/CTTelephonyNetworkInfo.h>": 1,
+          "<arpa/inet.h>": 1,
+          "<sys/socket.h>": 1,
+          "netdb.h": 1,
+          "<CoreFoundation/CoreFoundation.h>": 1,
+          "<netinet/in.h>": 1,
+          "netinet/in.h": 1,
+          "arpa/inet.h": 1,
+          "CoreFoundation/CoreFoundation.h": 1,
+          "<netinet6/in6.h>": 1,
+          "<netdb.h>": 1,
+          "netinet6/in6.h": 1,
+          "ifaddrs.h": 1,
+          "<ifaddrs.h>": 1,
+          "sys/socket.h": 1,
+          "AppDelegate+CULPlugin.h": 1,
+          "CULConfigJsonParser.h": 1,
+          "CULConfigXmlParser.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 96,
+        "packages": {
+          "django": 65,
+          "settings": 33,
+          "os": 26,
+          "django_jenkins": 23,
+          "sys": 18,
+          "optparse": 18,
+          "make_option": 18,
+          "models": 16,
+          "datetime": 15,
+          "tastypie": 14,
+          "BaseTask": 12,
+          "User": 10,
+          "db": 9,
+          "TaskListCommand": 9,
+          "userena": 8,
+          "google": 7,
+          "users": 6,
+          "admin": 6,
+          "*": 6,
+          "webapp": 5,
+          "cgi": 5,
+          "template": 5,
+          "time": 5,
+          "south": 5,
+          "ImproperlyConfigured": 5,
+          "HttpResponse": 5,
+          "ugettext_lazy": 5,
+          "util": 4,
+          "tmpl": 4,
+          "run_wsgi_app": 4,
+          "urlfetch": 4,
+          "Videos": 4,
+          "base64": 4,
+          "re": 4,
+          "urllib": 4,
+          "import_module": 4,
+          "SchemaMigration": 4,
+          "forms": 4,
+          "feedparser": 3,
+          "traceback": 3,
+          "StringIO": 3,
+          "__future__": 3,
+          "TestCase": 3,
+          "loginlock": 3,
+          "setup": 3,
+          "setuptools": 3,
+          "ApiKey": 3,
+          "Serializer": 3,
+          "hmac": 3,
+          "ObjectDoesNotExist": 3,
+          "Bundle": 3,
+          "copy": 2,
+          "xml": 2,
+          "urlparse": 2,
+          "subprocess": 2,
+          "signals": 2,
+          "with_statement": 2,
+          "get_app": 2,
+          "fnmatch": 2,
+          "finders": 2,
+          "check_output": 2,
+          "relpath": 2,
+          "render": 2,
+          "timezone": 2,
+          "warnings": 2,
+          "determine_format": 2,
+          "ugettext": 2,
+          "sha1": 2,
+          "oauth_provider": 2,
+          "sha": 2,
+          "uuid": 2,
+          "hashlib": 2,
+          "cache": 2,
+          "ApiFieldError": 2,
+          "fields": 2,
+          "NotFound": 2,
+          "simplejson": 2,
+          "parse": 2,
+          "json": 2,
+          "wsgi": 2,
+          "get_wsgi_application": 2,
+          "execute_from_command_line": 2,
+          "Message": 2,
+          "taskqueue": 1,
+          "cStringIO": 1,
+          "Tidy": 1,
+          "binascii": 1,
+          "cjkcodecs": 1,
+          "rfc822": 1,
+          "string": 1,
+          "UserDict": 1,
+          "types": 1,
+          "urllib2": 1,
+          "iconv_codec": 1,
+          "sgmllib": 1,
+          "parseString": 1,
+          "zlib": 1,
+          "tidy": 1,
+          "pprint": 1,
+          "gzip": 1,
+          "mx": 1,
+          "chardet": 1,
+          "htmlentitydefs": 1,
+          "escape": 1,
+          "twitter_password": 1,
+          "secretsettings": 1,
+          "BaseCommand": 1,
+          "inspect": 1,
+          "CITestSuiteRunner": 1,
+          "XMLGenerator": 1,
+          "groupby": 1,
+          "smart_text": 1,
+          "AttributesImpl": 1,
+          "smart_unicode": 1,
+          "itertools": 1,
+          "patch_for_test_db_setup": 1,
+          "DjangoTestSuiteRunner": 1,
+          "TestSuite": 1,
+          "total_seconds": 1,
+          "Signal": 1,
+          "build_test": 1,
+          "defaultTestLoader": 1,
+          "build_suite": 1,
+          "harvest_lettuces": 1,
+          "lettuce": 1,
+          "LiveServerTestCase": 1,
+          "Runner": 1,
+          "registry": 1,
+          "server": 1,
+          "CalledProcessError": 1,
+          "pygraphviz": 1,
+          "call_command": 1,
+          "codecs": 1,
+          "pep8": 1,
+          "io": 1,
+          "pyflakes": 1,
+          "lint": 1,
+          "pylint": 1,
+          "ParseableTextReporter": 1,
+          "coverage": 1,
+          "version": 1,
+          "__version__": 1,
+          "listeners": 1,
+          "LoginCandidate": 1,
+          "NullCandidate": 1,
+          "ez_setup": 1,
+          "use_setuptools": 1,
+          "trailing_slash": 1,
+          "reverse": 1,
+          "NotRegistered": 1,
+          "OAUTH_PARAMETERS_NAMES": 1,
+          "store": 1,
+          "same_origin": 1,
+          "HttpUnauthorized": 1,
+          "python_digest": 1,
+          "_sanitize_token": 1,
+          "authenticate": 1,
+          "oauth2": 1,
+          "operator": 1,
+          "HttpRequest": 1,
+          "partial": 1,
+          "functools": 1,
+          "Resource": 1,
+          "ModelResource": 1,
+          "resolve": 1,
+          "GEOSGeometry": 1,
+          "unquote": 1,
+          "ApiField": 1,
+          "resources": 1,
+          "GeometryField": 1,
+          "datetime_safe": 1,
+          "dict_strip_unicode_keys": 1,
+          "Decimal": 1,
+          "decimal": 1,
+          "dateutil": 1,
+          "NoArgsCommand": 1,
+          "now": 1,
+          "urlencode": 1,
+          "BadRequest": 1,
+          "patch_cache_control": 1,
+          "is_valid_jsonp_callback_value": 1,
+          "NoReverseMatch": 1,
+          "transaction": 1,
+          "csrf_exempt": 1,
+          "deepcopy": 1,
+          "NoCache": 1,
+          "LOOKUP_SEP": 1,
+          "sets": 1,
+          "ALL": 1,
+          "patterns": 1,
+          "Authentication": 1,
+          "Validation": 1,
+          "mail_admins": 1,
+          "ReadOnlyAuthorization": 1,
+          "Set": 1,
+          "QUERY_TERMS": 1,
+          "http": 1,
+          "logging": 1,
+          "BaseThrottle": 1,
+          "Paginator": 1,
+          "SafeConstructor": 1,
+          "format_datetime": 1,
+          "Reader": 1,
+          "force_unicode": 1,
+          "Element": 1,
+          "UnsupportedFormat": 1,
+          "lxml": 1,
+          "yaml": 1,
+          "pyyaml": 1,
+          "biplist": 1,
+          "TestApiClient": 1,
+          "Consumer": 1,
+          "FakePayload": 1,
+          "ApiAccess": 1,
+          "psycopg2": 1,
+          "MySQLdb": 1,
+          "profiles": 1,
+          "staticfiles_urlpatterns": 1,
+          "direct_to_template": 1,
+          "static": 1,
+          "SignupFormExtra": 1,
+          "SignupForm": 1,
+          "UserenaLanguageBaseProfile": 1,
+          "get_runner": 1,
+          "demo_project": 1,
+          "GuardedModelAdmin": 1,
+          "get_profile_model": 1,
+          "UserAdmin": 1,
+          "UserenaSignup": 1,
+          "guardian": 1,
+          "email_re": 1,
+          "ModelBackend": 1,
+          "gettext_lazy": 1,
+          "widgets": 1,
+          "CommaSeparatedUserField": 1,
+          "Q": 1,
+          "truncate_words": 1,
+          "MessageRecipient": 1,
+          "unicode_literals": 1,
+          "include": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 14,
+        "packages": {
+          "uri": 5,
+          "net/http": 4,
+          "AutoHtml": 2,
+          "rexml/document": 2,
+          "redcarpet": 2,
+          "auto_html": 1,
+          "auto_html/railtie": 1,
+          "#{filter}": 1,
+          "active_support/core_ext/module/attribute_accessors": 1,
+          "AutoHtmlFor::InstanceMethods": 1,
+          "rails": 1,
+          "auto_html/task": 1,
+          "rinku": 1,
+          "action_controller": 1,
+          "cgi": 1,
+          "action_view": 1,
+          "compass-normalize": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "kioopi/appengine-newsflash",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kioopi/auto_html",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "kioopi/beego",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "kioopi/billy",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "kioopi/cologne-js",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "kioopi/connect",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "kioopi/connect-sessionvoc",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "kioopi/cordova-plugin-background-mode",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "kioopi/cordova-plugin-network-information",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "kioopi/cordova-universal-links-plugin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "kioopi/diligent",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "kioopi/django-jenkins",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "kioopi/django-loginlock",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kioopi/django-tastypie",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kioopi/django-userena",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kioopi/djangogirls",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

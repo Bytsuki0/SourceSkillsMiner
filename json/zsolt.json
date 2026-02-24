@@ -1,0 +1,97 @@
+{
+  "username": "zsolt",
+  "areas": {
+    "OSS": {
+      "score": -0.3181307039909568,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.5228039440135649
+      }
+    },
+    "Status": {
+      "score": 0.014862813165401834,
+      "details": {
+        "lines_activity": 0.9225671988114609,
+        "commits_activity": 0.5228039440135649,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "zsolt/retwis-nodejs": 0.4122666666666667
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.17418302729361126,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        2317,
+        15
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 15,
+    "total_lines": 2317,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 2317,
+        "commits": 15
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "zsolt",
+    "analysis_date": "2026-02-23T05:38:47.534871",
+    "total_repos_analyzed": 1,
+    "total_files_analyzed": 3,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "sys": 3,
+          "ejs": 1,
+          "redis": 1,
+          "express": 1,
+          "step": 1,
+          "hashlib": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "zsolt/retwis-nodejs",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

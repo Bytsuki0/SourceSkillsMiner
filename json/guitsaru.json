@@ -1,0 +1,606 @@
+{
+  "username": "guitsaru",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.8235294117647058,
+        "pr_merge_rate": 3.193548387096774,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "guitsaru/code-feather": 0.8357,
+        "guitsaru/draco-scenes": 0.5255,
+        "guitsaru/rack-idempotency": 0.2263,
+        "guitsaru/rbvimeo": 0.11315,
+        "guitsaru/tassadar": 0.3919,
+        "guitsaru/twitch": 0.5859
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.742948717948718,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Elixir": [
+        213231,
+        107
+      ],
+      "Ruby": [
+        41309,
+        292
+      ],
+      "CSS": [
+        6074,
+        14
+      ],
+      "HTML": [
+        12786,
+        22
+      ],
+      "PHP": [
+        86545,
+        55
+      ],
+      "JavaScript": [
+        6891,
+        5
+      ],
+      "C++": [
+        222,
+        0
+      ],
+      "Rust": [
+        4943,
+        22
+      ],
+      "Dockerfile": [
+        23033,
+        4
+      ],
+      "Shell": [
+        84764,
+        61
+      ],
+      "Lua": [
+        34798,
+        25
+      ],
+      "Vim Script": [
+        199,
+        14
+      ],
+      "CoffeeScript": [
+        93,
+        1
+      ],
+      "Puppet": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        4824,
+        1
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 623,
+    "total_lines": 519712,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 41309,
+        "commits": 292
+      },
+      {
+        "language": "Elixir",
+        "lines": 213231,
+        "commits": 107
+      },
+      {
+        "language": "Shell",
+        "lines": 84764,
+        "commits": 61
+      },
+      {
+        "language": "PHP",
+        "lines": 86545,
+        "commits": 55
+      },
+      {
+        "language": "Lua",
+        "lines": 34798,
+        "commits": 25
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "guitsaru",
+    "analysis_date": "2026-02-22T16:14:20.070766",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 349,
+    "languages": {
+      "C++": {
+        "files_scanned": 5,
+        "packages": {
+          "iostream": 3,
+          "<iostream>": 3,
+          "std": 3,
+          "namespace": 3,
+          "<%=": 2,
+          "cppunit/TestResultCollector.h": 2,
+          "<cppunit/TestRunner.h>": 2,
+          "<cppunit/TestResult.h>": 2,
+          "<cppunit/extensions/HelperMacros.h>": 2,
+          "cppunit/TestResult.h": 2,
+          "cppunit/BriefTestProgressListener.h": 2,
+          "cppunit/extensions/HelperMacros.h": 2,
+          "<cppunit/BriefTestProgressListener.h>": 2,
+          "<cppunit/TestResultCollector.h>": 2,
+          "cppunit/TestRunner.h": 2,
+          "cppunit/extensions/TestFactoryRegistry.h": 2,
+          "<cppunit/extensions/TestFactoryRegistry.h>": 2
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "iostream": 2,
+          "<iostream>": 2
+        }
+      },
+      "Elixir": {
+        "files_scanned": 112,
+        "packages": {
+          "Credo.Check": 14,
+          "ExUnit.Case": 12,
+          "Inspect.Algebra": 9,
+          "Credo.Check.Consistency.Collector": 9,
+          "Data.Enumerable": 8,
+          "Cocktail.": 8,
+          "Cocktail.Validation.Shift": 7,
+          "Amnesia": 6,
+          "Amrita.Sweet": 6,
+          "Integer": 6,
+          "Mix.Project": 5,
+          "Mix.Config": 5,
+          "Cocktail.Util": 5,
+          "Credo.Code": 5,
+          "the": 4,
+          "Amrita.Message": 4,
+          "Credo.SourceFile": 4,
+          "Behaviour": 3,
+          "Kernel": 3,
+          "Support": 3,
+          "Cocktail.Schedule": 3,
+          "Cocktail.Validation.": 3,
+          "Credo.Execution": 3,
+          "Credo.Issue": 3,
+          "EEx": 3,
+          "unquote": 2,
+          "Data.Seq": 2,
+          "Amrita.Elixir.Pipeline": 2,
+          "ExUnit.Callbacks": 2,
+          "Amrita.Mocks": 2,
+          "GenServer.Behaviour": 2,
+          "ExUnit.Formatter": 2,
+          "Application": 2,
+          "Credo.Code.Name": 2,
+          "Bitwise": 2,
+          "Data.Queue": 2,
+          "Amnesia.Fragment": 1,
+          "backups.": 1,
+          "Amnesia.Metadata": 1,
+          "all": 1,
+          "Amnesia.Database": 1,
+          "__MODULE__.unquote": 1,
+          "Amnesia.Access": 1,
+          "Exquisite": 1,
+          "Amnesia.Hooks": 1,
+          "Test.Database": 1,
+          "Test.Hooks.Database": 1,
+          "Amrita.Checkers.Simple": 1,
+          "Amrita.Checkers.Helper": 1,
+          "Amrita.Checkers.Collections": 1,
+          "Amrita.Facts": 1,
+          "Amrita.Checkers.Exceptions": 1,
+          "Amrita.Syntax.Describe": 1,
+          "Amrita.Checkers.Messages": 1,
+          "ExUnit.Assertions": 1,
+          "Exception": 1,
+          "Amrita.Mocks.Provided": 1,
+          "for": 1,
+          "Mix.Task": 1,
+          "lib/": 1,
+          "#{Mix.env()}.exs": 1,
+          "`add_recurrence_rule/3`": 1,
+          "Timex": 1,
+          "Cocktail.Validation.TimeOfDay": 1,
+          "Cocktail.TestSupport.DateTimeSigil": 1,
+          "#{Mix.env}.exs": 1,
+          "Credo.Execution.Task.WriteDebugReport": 1,
+          "Supervisor.Spec": 1,
+          "Credo.Code.Scope": 1,
+          "Credo.Severity": 1,
+          "Credo.CLI.ExitStatus": 1,
+          "Credo.CLI.Output.UI": 1,
+          "Credo.Service.SourceFileScopes": 1,
+          "Credo.Execution.ExecutionTiming": 1,
+          "Credo.IssueMeta": 1,
+          "Credo.Check.Params": 1,
+          "Credo.Priority": 1,
+          "Credo.Check.ConfigComment": 1,
+          "Credo.Execution.ExecutionIssues": 1,
+          "Credo.Code.Module": 1,
+          "Ecto.": 1,
+          "single": 1,
+          "Ecto.Multi": 1,
+          "Ecto.Query": 1,
+          "Ecto.Schema": 1,
+          "spaces": 1,
+          "Credo.Check.Consistency.SpaceAroundOperators.SpaceHelper": 1,
+          "Credo.Code.Token": 1,
+          "hard-tabs": 1,
+          "MyApp.External.TwitterAPI": 1,
+          "Set": 1,
+          "Credo.Check.Design.TagHelper": 1,
+          "EEx.Engine": 1,
+          "EEx.Tokenizer": 1,
+          "Agent": 1,
+          "GenServer": 1,
+          "Config": 1,
+          "`Code.fetch_docs/1`": 1,
+          "Data.Dictionary": 1,
+          "Data.Contains": 1,
+          "Data.Sequence": 1,
+          "Data.Dict": 1,
+          "Data.Queue.Simple": 1,
+          "Data.Queue.Standard": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "undefined": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 3,
+        "packages": {
+          "config.lazy": 1,
+          "lazy": 1,
+          "typescript": 1,
+          "telescope": 1,
+          "lazyvim.util": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 2,
+        "packages": {
+          "lib/geshi.php": 1,
+          "$file_name": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 46,
+        "packages": {
+          "draco": 5,
+          "Zif::Serializable": 5,
+          "rubygems": 3,
+          "test/unit": 3,
+          "RubiGen::GeneratorTestHelper": 3,
+          "test_generator_helper.rb": 3,
+          "Serialize": 3,
+          "Zif::Actionable": 3,
+          "spec_helper": 2,
+          "fileutils": 2,
+          "Enumerable": 2,
+          "bundler/setup": 2,
+          "GTK::Geometry": 2,
+          "DirectionalInputHelperMethods": 2,
+          "Layerable": 2,
+          "Tileable": 2,
+          "Zif::Assignable": 2,
+          "bleacher_api/config": 1,
+          "HTTParty": 1,
+          "httparty": 1,
+          "yaml": 1,
+          "rubygems/user_interaction": 1,
+          "#{$root}/lib/bleacher_api": 1,
+          "pp": 1,
+          "#{$root}/lib/bleacher_api/gems": 1,
+          "cplusplus/version": 1,
+          "FileUtils": 1,
+          "req_gem": 1,
+          "clean_dir_man": 1,
+          "parsearg_distclean": 1,
+          "setup_dir_man": 1,
+          "clean_dir_bin": 1,
+          "config_dir_bin": 1,
+          "clean_dir_lib": 1,
+          "parsearg_setup": 1,
+          "config_dir_lib": 1,
+          "config_dir_man": 1,
+          "map": 1,
+          "FileOperations": 1,
+          "setup_dir_conf": 1,
+          "config_dir_data": 1,
+          "parsearg_clean": 1,
+          "rbconfig": 1,
+          "distclean_dir_conf": 1,
+          "distclean_dir_man": 1,
+          "config_dir_conf": 1,
+          "distclean_dir_data": 1,
+          "setup_dir_data": 1,
+          "clean_dir_data": 1,
+          "config": 1,
+          "setup_dir_lib": 1,
+          "HookScriptAPI": 1,
+          "distclean_dir_bin": 1,
+          "help_default": 1,
+          "clean_dir_conf": 1,
+          "parsearg_test": 1,
+          "parsearg_show": 1,
+          "distclean_dir_lib": 1,
+          "rubigen/helpers/generator_test_helper": 1,
+          "rubigen": 1,
+          "benchmark": 1,
+          "lib/draco": 1,
+          "app/components/lines.rb": 1,
+          "app/components/score.rb": 1,
+          "app/lib/draco.rb": 1,
+          "app/systems/handle_miss.rb": 1,
+          "app/systems/render_animations.rb": 1,
+          "app/systems/render_solids.rb": 1,
+          "app/systems/render_sprites.rb": 1,
+          "app/worlds/world.rb": 1,
+          "app/systems/generate_stage.rb": 1,
+          "app/components/collides.rb": 1,
+          "app/systems/render_static_solids.rb": 1,
+          "app/components/ephemeral.rb": 1,
+          "app/entities/background.rb": 1,
+          "app/entities/wind.rb": 1,
+          "app/systems/handle_rotation.rb": 1,
+          "app/components/rendered.rb": 1,
+          "app/entities/scoreboard.rb": 1,
+          "app/components/static_rendered.rb": 1,
+          "app/components/position.rb": 1,
+          "app/components/rotation.rb": 1,
+          "app/entities/hole.rb": 1,
+          "app/systems/render_turn_input.rb": 1,
+          "app/components/turn.rb": 1,
+          "app/components/speed.rb": 1,
+          "app/systems/render_lines.rb": 1,
+          "app/systems/handle_explosion.rb": 1,
+          "app/systems/render_background.rb": 1,
+          "app/systems/update_wind.rb": 1,
+          "app/components/labels.rb": 1,
+          "app/components/explodes.rb": 1,
+          "app/components/background_color.rb": 1,
+          "app/entities/gravity.rb": 1,
+          "app/systems/update_acceleration.rb": 1,
+          "app/entities/gorilla.rb": 1,
+          "app/systems/handle_next_turn.rb": 1,
+          "app/systems/check_win.rb": 1,
+          "app/components/killable.rb": 1,
+          "app/entities/game_over_screen.rb": 1,
+          "app/systems/render_scores.rb": 1,
+          "app/components/sprite.rb": 1,
+          "app/systems/cleanup_destroyed.rb": 1,
+          "app/components/empty.rb": 1,
+          "app/entities/current_turn.rb": 1,
+          "app/components/solids.rb": 1,
+          "app/entities/banana.rb": 1,
+          "app/components/owned.rb": 1,
+          "app/entities/building.rb": 1,
+          "app/systems/render_labels.rb": 1,
+          "app/components/animated.rb": 1,
+          "app/systems/handle_input.rb": 1,
+          "app/systems/handle_input_game_over.rb": 1,
+          "app/components/solid.rb": 1,
+          "app/components/size.rb": 1,
+          "app/systems/accelerate.rb": 1,
+          "app/components/acceleration.rb": 1,
+          "Draco::Events": 1,
+          "draco/events": 1,
+          "Draco::Periodic": 1,
+          "draco/periodic": 1,
+          "Draco::Scenes": 1,
+          "draco/scenes": 1,
+          "Draco::State": 1,
+          "draco/state": 1,
+          "ArgsDeprecated": 1,
+          "AttrRect": 1,
+          "ConsoleDeprecated": 1,
+          "OutputsDeprecated": 1,
+          "s\\": 1,
+          "Traceable": 1,
+          "alignment_enum": 1,
+          "size_enum": 1,
+          "Bitmaskable": 1,
+          "Zif::Traceable": 1,
+          "Serializable": 1,
+          "Zif::Animatable": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 11,
+        "packages": {
+          "std": 9,
+          "serde": 4,
+          "super": 4,
+          "crate": 3,
+          "tinytemplate": 2,
+          "config": 1,
+          "clap": 1,
+          "colored": 1,
+          "directories": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "guitsaru/amnesia",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "guitsaru/amrita",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "guitsaru/bleacher_api",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "guitsaru/cocktail",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "guitsaru/code-feather",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "guitsaru/cplusplus",
+        "files_analyzed": 22,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "guitsaru/credo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "guitsaru/devcon",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "guitsaru/dotfiles",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "guitsaru/draco",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "guitsaru/draco-events",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "guitsaru/draco-periodic",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "guitsaru/draco-scenes",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "guitsaru/draco-state",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "guitsaru/dragonruby-game-toolkit-contrib",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "guitsaru/dragonruby-zif",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "guitsaru/elixir",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "guitsaru/elixir-datastructures",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      }
+    ]
+  }
+}

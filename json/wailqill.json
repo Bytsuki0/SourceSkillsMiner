@@ -1,0 +1,207 @@
+{
+  "username": "wailqill",
+  "areas": {
+    "OSS": {
+      "score": 0.5555555555555556,
+      "details": {
+        "issue_resolution_rate": 0.3333333333333333,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.37885676971072013,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9913620776430032,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "wailqill/jquery-placeholder": 0.22434285714285712
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.533603081316569,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        19533,
+        142
+      ],
+      "Ruby": [
+        4638,
+        45
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 187,
+    "total_lines": 24171,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 19533,
+        "commits": 142
+      },
+      {
+        "language": "Ruby",
+        "lines": 4638,
+        "commits": 45
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "wailqill",
+    "analysis_date": "2026-02-22T21:52:13.156827",
+    "total_repos_analyzed": 16,
+    "total_files_analyzed": 85,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 14,
+        "packages": {
+          "fs": 8,
+          "util": 4,
+          "vm": 4,
+          "sys": 3,
+          "path": 3,
+          "undefined": 2,
+          "jsdom": 2,
+          "jquery": 2,
+          "http": 1,
+          "url": 1,
+          "buffer": 1,
+          "YOUR": 1,
+          "child_process": 1,
+          "events": 1,
+          "identify": 1,
+          "-format": 1,
+          "convert": 1,
+          "websocket-server": 1,
+          "commonjs-module.js": 1,
+          "+": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 9,
+        "packages": {
+          "rubygems": 3,
+          "rspec-rails": 2,
+          "factory_girl_rails": 2,
+          "factory_girl_generator": 2,
+          "wirble": 2,
+          "autotest": 2,
+          "looksee": 2,
+          "awesome_print": 2,
+          "haml-rails": 2,
+          "spork": 2,
+          "json": 1,
+          "pp": 1,
+          "ostruct": 1,
+          "mechanize": 1,
+          "http://data.iana.org/TLD/tlds-alpha-by-domain.txt": 1,
+          "open-uri": 1,
+          "capybara": 1,
+          "database_cleaner": 1,
+          "cucumber-rails": 1,
+          "launchy": 1,
+          "rails/all": 1,
+          "bundler/setup": 1,
+          "chronic": 1,
+          "uri": 1,
+          "cgi": 1,
+          "cucumber/rails": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "wailqill/calcjs",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "wailqill/Cordova",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "wailqill/facebook_chat",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wailqill/form_validation",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wailqill/node-imagemagick",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "wailqill/node-livereload",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "wailqill/rails3-app",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wailqill/solen",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wailqill/specking",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

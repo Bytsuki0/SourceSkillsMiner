@@ -1,0 +1,432 @@
+{
+  "username": "tmak",
+  "areas": {
+    "OSS": {
+      "score": 0.15406596113583482,
+      "details": {
+        "issue_resolution_rate": 0.8333333333333334,
+        "pr_merge_rate": 0.6363636363636364,
+        "commits_activity": 0.26140197200678245
+      }
+    },
+    "Status": {
+      "score": -0.14624483917496556,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.26140197200678245,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.001955280490217315,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        6,
+        0
+      ],
+      "Ruby": [
+        35,
+        1
+      ],
+      "CSS": [
+        2,
+        0
+      ],
+      "JavaScript": [
+        0,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 1,
+    "total_lines": 43,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 35,
+        "commits": 1
+      },
+      {
+        "language": "HTML",
+        "lines": 6,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 2,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 0,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 0,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "tmak",
+    "analysis_date": "2026-02-22T09:24:35.731141",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 235,
+    "languages": {
+      "C#": {
+        "files_scanned": 18,
+        "packages": {
+          "PusherClient.Tests.Utilities": 12,
+          "System.Threading.Tasks": 12,
+          "System.Collections.Generic": 9,
+          "NUnit.Framework": 9,
+          "System.Threading": 6,
+          "System": 5,
+          "System.Diagnostics": 4,
+          "Newtonsoft.Json": 3,
+          "PusherClient": 2,
+          "System.Text": 2,
+          "System.Linq": 2,
+          "System.Reflection": 2,
+          "System.Collections.Concurrent": 2,
+          "Nancy": 1,
+          "PusherServer": 1,
+          "Nancy.Hosting.Self": 1,
+          "System.Configuration": 1,
+          "System.Web": 1,
+          "System.IO": 1,
+          "WebSocket4Net": 1,
+          "System.Security.Cryptography": 1,
+          "Newtonsoft.Json.Linq": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 2,
+        "packages": {
+          "os": 2,
+          "log": 2,
+          "os/exec": 1,
+          "encoding/xml": 1,
+          "path": 1,
+          "path/filepath": 1,
+          "github.com/ghodss/yaml": 1,
+          "math/rand": 1,
+          "syscall": 1,
+          "strings": 1,
+          "fmt": 1,
+          "time": 1,
+          "io/ioutil": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "json": 1,
+          "requests": 1,
+          "locust": 1,
+          "HttpLocust": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 77,
+        "packages": {
+          "abstract_unit": 11,
+          "httpclient": 7,
+          "Model": 6,
+          "uri": 5,
+          "<assert.h>": 3,
+          "HTTParty": 3,
+          "bm_common": 3,
+          "net/http": 3,
+          "openssl": 3,
+          "httpclient/http": 3,
+          "Util": 3,
+          "stringio": 3,
+          "oauthclient": 3,
+          "mail": 3,
+          "active_support/queueing": 3,
+          "action_controller": 3,
+          "delegate": 2,
+          "CollectionAssociation": 2,
+          "bundler/setup": 2,
+          "<boost/algorithm/string.hpp>": 2,
+          "<string>": 2,
+          "namespace": 2,
+          "<vector>": 2,
+          "fileutils": 2,
+          "open-uri": 2,
+          "OpenSSL": 2,
+          "httpclient/cookie": 2,
+          "httpclient/session": 2,
+          "httpclient/ssl_config": 2,
+          "time": 2,
+          "thread": 2,
+          "zlib": 2,
+          "rack/varnish_esi": 2,
+          "minitest/autorun": 2,
+          "rack": 2,
+          "minitest_helper": 2,
+          "active_support/core_ext/module/attr_internal": 2,
+          "active_support/rails": 2,
+          "active_support/core_ext/string/inflections": 2,
+          "active_support/core_ext/module/anonymous": 2,
+          "action_mailer/log_subscriber": 2,
+          "action_mailer": 2,
+          "mailers/base_mailer": 2,
+          "ostruct": 1,
+          "braintree_rails/module_ext": 1,
+          "env": 1,
+          "active_support/core_ext": 1,
+          "braintree_rails/braintree_ext": 1,
+          "braintree_rails/braintree_rails": 1,
+          "braintree_rails/array_ext": 1,
+          "active_support/dependencies": 1,
+          "braintree/exceptions": 1,
+          "active_model": 1,
+          "braintree_rails/exceptions": 1,
+          "active_support/inflector": 1,
+          "braintree": 1,
+          "graphql_playground/rails/engine": 1,
+          "graphql_playground/rails/config": 1,
+          "graphql_playground/rails/version": 1,
+          "graphql_playground/rails": 1,
+          "rails/all": 1,
+          "boot": 1,
+          "application": 1,
+          "<allegro4/allegro4.h>": 1,
+          "lib/cpp/antlr": 1,
+          "org.antlr.runtime.*": 1,
+          "#{etc}/rndc.key": 1,
+          "python": 1,
+          "<boost/version.hpp>": 1,
+          "target": 1,
+          "rbuf_fill_replaced_by_bm": 1,
+          "benchmark": 1,
+          "Config": 1,
+          "rbconfig": 1,
+          "httpclient/auth": 1,
+          "httpclient/util": 1,
+          "httpclient/connection": 1,
+          "digest/sha1": 1,
+          "httpclient/version": 1,
+          "gssapi": 1,
+          "digest/md5": 1,
+          "HTTPClient::Util": 1,
+          "win32/sspi": 1,
+          "net/ntlm": 1,
+          "monitor": 1,
+          "CookieUtils": 1,
+          "it": 1,
+          "=": 1,
+          "contenttype=": 1,
+          "set_mime_type_func": 1,
+          "body=": 1,
+          "status_code": 1,
+          "header": 1,
+          "get_mime_type_func": 1,
+          "code": 1,
+          "body": 1,
+          "contenttype": 1,
+          "http://myproxy:8080": 1,
+          "SocketWrap": 1,
+          "hexdump": 1,
+          "socket": 1,
+          "HTTPClient::Timeout": 1,
+          "httpclient/timeout": 1,
+          "set_crl": 1,
+          "set_trust_ca": 1,
+          "timeout": 1,
+          "bytesize": 1,
+          "cgi": 1,
+          "logger": 1,
+          "rest_client": 1,
+          "rack/varnish_esi_processor": 1,
+          "rack/varnish_esi_version": 1,
+          "webmock/minitest": 1,
+          "webrick": 1,
+          "active_support/lazy_load_hooks": 1,
+          "active_support/core_ext/class": 1,
+          "action_mailer/version": 1,
+          "action_view": 1,
+          "abstract_controller": 1,
+          ":controller_path": 1,
+          "AbstractController::Callbacks": 1,
+          "AbstractController::Layouts": 1,
+          "AbstractController::Translation": 1,
+          "AbstractController::Rendering": 1,
+          "action_mailer/queued_message": 1,
+          "active_support/core_ext/hash/except": 1,
+          "DeliveryMethods": 1,
+          "AbstractController::AssetPaths": 1,
+          ":default_options=": 1,
+          "action_mailer/collector": 1,
+          "AbstractController::Logger": 1,
+          "AbstractController::Helpers": 1,
+          "abstract_controller/collector": 1,
+          ":all": 1,
+          "active_support/core_ext/array/extract_options": 1,
+          "active_support/core_ext/hash/reverse_merge": 1,
+          "AbstractController::Collector": 1,
+          "tmpdir": 1,
+          "rails": 1,
+          "abstract_controller/railties/routes_helpers": 1,
+          "AbstractController::UrlFor": 1,
+          "app.routes.mounted_helpers": 1,
+          "TestHelper": 1,
+          "active_support/test_case": 1,
+          "ActiveSupport::Testing::ConstantLookup": 1,
+          "Behavior": 1,
+          "action_mailer/test_case": 1,
+          "active_support/core_ext/kernel/reporting": 1,
+          "mailers/asset_mailer": 1,
+          "action_dispatch": 1,
+          "set": 1,
+          "active_support/time": 1,
+          "mailers/proc_mailer": 1,
+          "mailers/async_mailer": 1,
+          "ActiveSupport::LogSubscriber::TestHelper": 1,
+          "active_support/log_subscriber/test_helper": 1,
+          "AppRoutes.url_helpers": 1,
+          "action_pack": 1,
+          "active_support/i18n": 1,
+          "sprockets/railtie": 1,
+          "action_mailer/railtie": 1,
+          "active_resource/railtie": 1,
+          "action_controller/railtie": 1,
+          "active_record/railtie": 1,
+          "rubygems": 1,
+          "User": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 5,
+        "packages": {
+          "actions": 5,
+          "fs": 4,
+          "path": 4,
+          "os": 3,
+          "UNITY_HUB_PATH": 2,
+          "semver": 2,
+          "UNITY_EDITOR_PATH": 1,
+          "UNITY_EDITORS": 1,
+          "UNITY_PROJECT_PATH": 1,
+          "yaml": 1,
+          "electron": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "tmak/braintree-rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tmak/charts",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "tmak/graphql_playground-rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tmak/homebrew-versions",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tmak/httpclient",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tmak/pusher-websocket-dotnet",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "tmak/rack-ssi",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tmak/rack-varnish-esi",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tmak/rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tmak/unity-setup",
+        "files_analyzed": 5,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "tmak/word_games",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

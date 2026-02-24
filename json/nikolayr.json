@@ -1,0 +1,137 @@
+{
+  "username": "nikolayr",
+  "areas": {
+    "OSS": {
+      "score": 0.25289722477586296,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8793458371637943
+      }
+    },
+    "Status": {
+      "score": 0.3017847698269349,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8757540778173255,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.18867049865069946,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        2838,
+        55
+      ],
+      "HTML": [
+        1216,
+        24
+      ],
+      "Lua": [
+        48,
+        0
+      ],
+      "Shell": [
+        1,
+        0
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 79,
+    "total_lines": 4103,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 2838,
+        "commits": 55
+      },
+      {
+        "language": "HTML",
+        "lines": 1216,
+        "commits": 24
+      },
+      {
+        "language": "Lua",
+        "lines": 48,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 1,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "nikolayr",
+    "analysis_date": "2026-02-23T06:13:35.241607",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 20,
+    "languages": {
+      "Ruby": {
+        "files_scanned": 7,
+        "packages": {
+          "capybara": 3,
+          "wait_until": 2,
+          "EasyContactsQueryHelper": 1,
+          "CustomFieldsHelper": 1,
+          "QueriesHelper": 1,
+          "AttachmentsHelper": 1,
+          "SortHelper": 1,
+          "ApplicationHelper": 1,
+          "Redmine::SafeAttributes": 1,
+          "custom_fields_controller": 1,
+          "2.6.0": 1,
+          "rspec/expectations": 1,
+          "selenium-webdriver": 1,
+          "capybara/poltergeist": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "nikolayr/easy_contacts",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "nikolayr/regression-tests",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "username": "textgoeshere",
+  "areas": {
+    "OSS": {
+      "score": 0.4444444444444444,
+      "details": {
+        "issue_resolution_rate": 0.75,
+        "pr_merge_rate": 0.4166666666666667,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "textgoeshere/redcmd": 0.5747333333333333
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.504059829059829,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        16971,
+        144
+      ],
+      "Shell": [
+        13,
+        0
+      ],
+      "JavaScript": [
+        12566,
+        20
+      ],
+      "Emacs Lisp": [
+        7175,
+        19
+      ],
+      "Lua": [
+        4782,
+        38
+      ],
+      "Red": [
+        21,
+        0
+      ],
+      "CSS": [
+        22,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 221,
+    "total_lines": 41550,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 16971,
+        "commits": 144
+      },
+      {
+        "language": "Lua",
+        "lines": 4782,
+        "commits": 38
+      },
+      {
+        "language": "JavaScript",
+        "lines": 12566,
+        "commits": 20
+      },
+      {
+        "language": "Emacs Lisp",
+        "lines": 7175,
+        "commits": 19
+      },
+      {
+        "language": "Shell",
+        "lines": 13,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "textgoeshere",
+    "analysis_date": "2026-02-23T10:34:57.174330",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 205,
+    "languages": {
+      "Java": {
+        "files_scanned": 11,
+        "packages": {
+          "ruby": 7,
+          "jenkins.model": 6,
+          "java.util": 5,
+          "org.kohsuke": 4,
+          "hudson.model": 4,
+          "jenkins.ruby": 3,
+          "hudson.util": 3,
+          "org.jruby": 3,
+          "org.jenkinsci": 3,
+          "hudson.Extension": 2,
+          "hudson.Plugin": 2,
+          "hudson.ExtensionComponent": 2,
+          "jenkins.ExtensionComponentSet": 1,
+          "hudson.ExtensionFinder": 1,
+          "jenkins.ExtensionRefreshException": 1,
+          "java.io": 1,
+          "jenkins/plugin/runtime": 1,
+          "bundler/setup": 1,
+          "java.net": 1,
+          "org.apache": 1,
+          "hudson.Util": 1,
+          "com.thoughtworks": 1,
+          "java.lang": 1,
+          "ruby.impl": 1,
+          "org.jvnet": 1,
+          "com.gargoylesoftware": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "nopt": 1,
+          "fs": 1,
+          "clarinet": 1,
+          "streamin": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 111,
+        "packages": {
+          "cucumber/formatter/unicode": 13,
+          "spec_helper": 11,
+          "rubygems": 8,
+          "calculator": 6,
+          "yaml": 5,
+          "active_support": 4,
+          "this": 4,
+          "HoptoadNotifier::Catcher": 4,
+          "Jenkins::Extension": 4,
+          "Jenkins::Plugin::Proxy": 4,
+          "test/unit": 3,
+          "pathname": 3,
+          "net/http": 3,
+          "json": 3,
+          "TestMethods": 3,
+          "Jenkins::Plugin::Wrapper": 3,
+          "Source": 3,
+          "nyan": 3,
+          "optparse": 2,
+          "daemon_kit/generators": 2,
+          "active_support/inflector": 2,
+          "Draper::ViewHelpers": 2,
+          "test_helper": 2,
+          "activesupport": 2,
+          "sinatra": 2,
+          "guard/jasmine_node": 2,
+          "ginger": 2,
+          "nokogiri": 2,
+          "Java.jenkins.ruby.Get": 2,
+          "Shape": 2,
+          "which": 1,
+          "cap_mailer": 1,
+          "CapistranoMailer": 1,
+          "capistrano": 1,
+          "action_mailer": 1,
+          "rubygems/specification": 1,
+          "calculadora": 1,
+          "lommeregner": 1,
+          "basket": 1,
+          "belly": 1,
+          "calculador": 1,
+          "kalkulaator": 1,
+          "laskin": 1,
+          "calculatrice": 1,
+          "eventmachine": 1,
+          "openssl": 1,
+          "logger": 1,
+          "syslog_logger": 1,
+          "mq": 1,
+          "file": 1,
+          "timeout": 1,
+          "ruby-debug": 1,
+          "test/unit/testresult": 1,
+          "capistrano/recipes/deploy/strategy": 1,
+          "capistrano/recipes/deploy/scm": 1,
+          "daemon_kit/generators/base": 1,
+          "thor/group": 1,
+          "Thor::Actions": 1,
+          "Configurable": 1,
+          "daemon_kit": 1,
+          "f": 1,
+          "core_lib": 1,
+          "actor": 1,
+          "zap": 1,
+          ":attributes": 1,
+          ":has_attribute?": 1,
+          "draper/railtie": 1,
+          "Draper::Decoratable": 1,
+          "active_model/naming": 1,
+          "draper/decorator": 1,
+          "active_model/serializers/xml": 1,
+          "draper/factory": 1,
+          "draper/collection_decorator": 1,
+          "active_support/core_ext/hash/reverse_merge": 1,
+          "draper/decorated_association": 1,
+          "draper/undecorate": 1,
+          "draper/finders": 1,
+          "draper/view_context": 1,
+          "draper/helper_support": 1,
+          "action_view": 1,
+          "active_support/core_ext/name_error": 1,
+          "draper/helper_proxy": 1,
+          "draper/version": 1,
+          "draper/view_helpers": 1,
+          "active_support/core_ext/hash/keys": 1,
+          "draper/delegation": 1,
+          "draper/decoratable": 1,
+          "draper/decorates_assigned": 1,
+          "draper/lazy_helpers": 1,
+          "draper/automatic_delegation": 1,
+          "Draper::ViewContext": 1,
+          "active_model/serialization": 1,
+          "active_model/serializers/json": 1,
+          "Enumerable": 1,
+          "Draper::Decoratable::Equality": 1,
+          "draper/decoratable/equality": 1,
+          "Draper::AutomaticDelegation": 1,
+          "ActiveModel::Serializers::JSON": 1,
+          "ActiveModel::Serializers::Xml": 1,
+          "ActiveModel::Serialization": 1,
+          "rails/railtie": 1,
+          "action_controller/test_case": 1,
+          "draper/test_case": 1,
+          "draper/test/rspec_integration": 1,
+          "draper/test/minitest_integration": 1,
+          "Draper::TestCase::Behavior": 1,
+          "Draper::DeviseHelper": 1,
+          "ViewContextTeardown": 1,
+          "Draper::TestCase::ViewContextTeardown": 1,
+          "::Capybara::RSpecMatchers": 1,
+          "Draper::ViewHelpers::ClassMethods": 1,
+          "draper/test/devise_helper": 1,
+          "active_support/test_case": 1,
+          "capybara/rspec/matchers": 1,
+          "Behavior": 1,
+          "draper/view_context/build_strategy": 1,
+          "request_store": 1,
+          "ApplicationHelper": 1,
+          "rails/generators/rails/scaffold_controller/scaffold_controller_generator": 1,
+          "rails/generators": 1,
+          "rails/generators/rails/controller/controller_generator": 1,
+          "generators/mini_test": 1,
+          "application_decorator": 1,
+          "ruby-progressbar": 1,
+          "cucumber/formatter/io": 1,
+          "Io": 1,
+          "cucumber/formatter/console": 1,
+          "cucumber/formatter/ansicolor": 1,
+          "Console": 1,
+          "cucumber/formatter/fuubar": 1,
+          "cucumber/cli/options": 1,
+          "rack/test": 1,
+          "guard/guard": 1,
+          "guard": 1,
+          "guard/ui": 1,
+          "open3": 1,
+          "rspec": 1,
+          "net/https": 1,
+          "uri": 1,
+          "active_record": 1,
+          "action_controller": 1,
+          "mocha": 1,
+          "active_record/base": 1,
+          "action_controller/test_process": 1,
+          "shoulda": 1,
+          "fakeweb": 1,
+          "truncate": 1,
+          "spec": 1,
+          "HTMLHelper": 1,
+          "test/unit/ui/console/testrunner": 1,
+          "digest/sha1": 1,
+          "jenkins/cli/command_proxy": 1,
+          "jenkins/cli/command": 1,
+          "slop": 1,
+          "Jenkins::CLI::Command": 1,
+          "core_ext/exception": 1,
+          "unlink": 1,
+          "shellwords": 1,
+          "jenkins/listeners/run_listener_proxy": 1,
+          "jenkins/listeners/run_listener": 1,
+          "Jenkins::Listeners::RunListener": 1,
+          "jenkins/model/action_proxy": 1,
+          "jenkins/model/environment": 1,
+          "jenkins/model/root_action": 1,
+          "jenkins/model/describable_native": 1,
+          "jenkins/model/descriptor": 1,
+          "jenkins/model/describable": 1,
+          "ClassDisplayName": 1,
+          "jenkins/model/root_action_proxy": 1,
+          "InstanceDisplayName": 1,
+          "jenkins/model/listener": 1,
+          "jenkins/model/build": 1,
+          "jenkins/model/action": 1,
+          "Transience": 1,
+          "jenkins/model/environment_proxy": 1,
+          "jenkins/model/describable_proxy": 1,
+          "::Jenkins::Model": 1,
+          "Java.hudson.model.Action": 1,
+          "jenkins/filepath": 1,
+          "Jenkins::Model::Describable": 1,
+          "DescribeAs": 1,
+          "Describable": 1,
+          "Descriptor": 1,
+          "aruba/cucumber": 1,
+          "bundler/setup": 1,
+          "open-uri": 1,
+          "i18n": 1,
+          "Comparable": 1,
+          "nyan/sprites/star": 1,
+          "nyan/version": 1,
+          "nyan/sprites/cat_head": 1,
+          "nyan/sprites/rainbow": 1,
+          "nyan/flight": 1,
+          "nyan/buffer": 1,
+          "nyan/colour": 1,
+          "nyan/sprites/pop_tart": 1,
+          "nyan/stage": 1,
+          "nyan/sprite": 1,
+          "nyan/sprites/tail": 1,
+          "nyan/shape": 1,
+          "ANSI::Code": 1,
+          "ansi": 1,
+          "rspec/core/formatters/base_text_formatter": 1,
+          "::Nyan::Shape": 1,
+          "bundler": 1,
+          "benchmark": 1,
+          "stringio": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "textgoeshere/capistrano_mailer",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/cucumber",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/daemon-kit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/draper",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/emacs-rails-reloaded",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/fuubar-cucumber",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/getting-started-ruby",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/guard-jasmine-node",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/hoptoad_notifier",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/html_helpers",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/human_key",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/jenkins.rb",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/jsong",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/mulberry-server",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "textgoeshere/nyan",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

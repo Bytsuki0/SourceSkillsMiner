@@ -1,0 +1,609 @@
+{
+  "username": "assaf",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.9375,
+        "pr_merge_rate": 1.3333333333333333,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4871794871794872,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.23076923076923078
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "assaf/ironium": 0.08100454545454545,
+        "assaf/lazybird": 0.5085999999999999,
+        "assaf/node-passbook": 0.11385555555555554,
+        "assaf/node-replay": 0.23745952380952381,
+        "assaf/octolog": 0.1784,
+        "assaf/rack-oauth2-server": 0.21361666666666668,
+        "assaf/scrapi": 0.659,
+        "assaf/uuid": 0.17879354838709677,
+        "assaf/vanity": 0.20187075471698113,
+        "assaf/whisper-to-me": 0.3937333333333333,
+        "assaf/zombie": 0.19364083333333332
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.8217948717948718,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        456222,
+        459
+      ],
+      "JavaScript": [
+        646894,
+        1878
+      ],
+      "PHP": [
+        868,
+        0
+      ],
+      "Makefile": [
+        260,
+        1
+      ],
+      "CoffeeScript": [
+        105020,
+        182
+      ],
+      "CSS": [
+        14700,
+        3
+      ],
+      "Shell": [
+        13,
+        0
+      ],
+      "HTML": [
+        6674,
+        23
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 2546,
+    "total_lines": 1230651,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 646894,
+        "commits": 1878
+      },
+      {
+        "language": "Ruby",
+        "lines": 456222,
+        "commits": 459
+      },
+      {
+        "language": "CoffeeScript",
+        "lines": 105020,
+        "commits": 182
+      },
+      {
+        "language": "HTML",
+        "lines": 6674,
+        "commits": 23
+      },
+      {
+        "language": "CSS",
+        "lines": 14700,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "assaf",
+    "analysis_date": "2026-02-22T14:59:38.050183",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 268,
+    "languages": {
+      "Java": {
+        "files_scanned": 2,
+        "packages": {
+          "org.apache": 2,
+          "com.martiansoftware": 1,
+          "java.io": 1,
+          "org.mortbay": 1,
+          "java.util": 1,
+          "javax.servlet": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 50,
+        "packages": {
+          "assert": 33,
+          "bluebird": 11,
+          "crypto": 9,
+          "fs": 8,
+          "http": 7,
+          "ms": 6,
+          "events": 6,
+          "debug": 5,
+          "stream": 5,
+          "https": 5,
+          "url": 4,
+          "aws-sdk": 3,
+          "child_process": 3,
+          "path": 3,
+          "zlib": 3,
+          "request": 2,
+          "domain": 2,
+          "util": 2,
+          "js-string-escape": 2,
+          "dns": 2,
+          "async": 2,
+          "fivebeans": 1,
+          "iron-cache": 1,
+          "pretty-hrtime": 1,
+          "iron.json": 1,
+          "timekeeper": 1,
+          "net": 1,
+          "follow-redirects": 1,
+          "gulp-util": 1,
+          "del": 1,
+          "gulp": 1,
+          "gulp-exec": 1,
+          "gulp-notify": 1,
+          "gulp-babel": 1,
+          "gulp-eslint": 1,
+          "gulp-sourcemaps": 1,
+          "express": 1,
+          "body-parser": 1,
+          "compression": 1,
+          "connect": 1,
+          "undefined": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "wp-rdf.php": 1,
+          "wp-commentsrss2.php": 1,
+          "wp-rss2.php": 1,
+          "wp-atom.php": 1,
+          "wp-rss.php": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 136,
+        "packages": {
+          "rubygems": 17,
+          "test/unit": 14,
+          "buildr/java": 8,
+          "yaml": 7,
+          "openssl": 7,
+          "net/http": 6,
+          "uri": 5,
+          "buildr/core/project": 5,
+          "erb": 5,
+          "cgi": 5,
+          "logger": 5,
+          "digest/sha1": 5,
+          "rack/oauth2/server": 5,
+          "time": 5,
+          "drb": 5,
+          "stringio": 4,
+          "json": 4,
+          "thread": 4,
+          "buildr/core/common": 4,
+          "Extension": 4,
+          "socket": 4,
+          "pipemaster": 4,
+          "reliable-msg/client": 4,
+          "strscan": 3,
+          "open-uri": 3,
+          "tmpdir": 3,
+          "fileutils": 3,
+          "rake": 3,
+          "buildr/core/util": 3,
+          "tempfile": 3,
+          "rack/oauth2/rails": 3,
+          "test/setup": 3,
+          "reliable-msg/selector": 3,
+          "rexml/document": 2,
+          "rails": 2,
+          "buildr/packaging": 2,
+          "gitflow": 2,
+          "optparse": 2,
+          "buildr/core/environment": 2,
+          "buildr/core/checks": 2,
+          ":<<": 2,
+          "osx/cocoa": 2,
+          "rack": 2,
+          "pipemaster/util": 2,
+          "pipemaster/configurator": 2,
+          "test/test_helper": 2,
+          "rack/oauth2/sinatra": 2,
+          "rack/oauth2/server/errors": 2,
+          "mongo": 2,
+          "rack/oauth2/server/utils": 2,
+          ":id": 2,
+          "jwt": 2,
+          "::Rack::OAuth2::Rails::Helpers": 2,
+          "uuid": 2,
+          "reliable-msg": 2,
+          "net/ldap": 2,
+          "process_checker": 2,
+          "mocha": 2,
+          "material_supplier": 2,
+          "to_s": 2,
+          "json/parser": 1,
+          "json/serializer": 1,
+          ":to_json": 1,
+          ":_bind_inputs": 1,
+          "WebClient": 1,
+          ":bind_output=": 1,
+          "pp": 1,
+          ":bind_input=": 1,
+          ":_set_inputs": 1,
+          "lib/json": 1,
+          "benchmark": 1,
+          "set": 1,
+          "MicroformatParser": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "boot": 1,
+          "lib/to_xml_primitive": 1,
+          "dispatcher": 1,
+          "ANTLR": 1,
+          "org.antlr:antlr:jar:3.0": 1,
+          "buildr/java/cobertura": 1,
+          "drb/drb": 1,
+          "delegate": 1,
+          "buildr/nailgun": 1,
+          "buildr": 1,
+          "buildr/java/emma": 1,
+          "Hibernate": 1,
+          "Buildr::Ant": 1,
+          "net.java.dev.javacc:javacc:jar:4.0": 1,
+          "JavaCC": 1,
+          "jdepend:jdepend:jar:2.9.1": 1,
+          "org.mortbay.jetty:jetty:jar:#{VERSION}": 1,
+          "org.jibx:jibx-bind:jar:#{JIBX_VERSION}": 1,
+          "java/java": 1,
+          "JiBX": 1,
+          "buildr/drb": 1,
+          "org.apache.buildr.BuildrNail": 1,
+          "Server": 1,
+          "Buildr::Util": 1,
+          "rbconfig": 1,
+          "Client": 1,
+          "jruby": 1,
+          "OpenJPA": 1,
+          "org.apache.openjpa:openjpa:jar:#{VERSION}": 1,
+          "XMLBeans": 1,
+          "buildr/java/ant": 1,
+          "Apache": 1,
+          "s": 1,
+          "`git": 1,
+          "FileUtils": 1,
+          "ostruct": 1,
+          "buildr/ide": 1,
+          "buildr/shell": 1,
+          "buildr/core": 1,
+          "buildr/core/shell": 1,
+          "buildr/core/help": 1,
+          "buildr/core/transports": 1,
+          "buildr/core/generate": 1,
+          "buildr/core/compile": 1,
+          "buildr/core/filter": 1,
+          "buildr/core/test": 1,
+          ":nitems": 1,
+          "buildr/core/application": 1,
+          "buildr/core/osx": 1,
+          "buildr/core/build": 1,
+          "highline/import": 1,
+          "Win32/Console/ANSI": 1,
+          "value": 1,
+          ":warn_without_color": 1,
+          "rubygems/source_info_cache": 1,
+          "Buildr::Build": 1,
+          "Spec::Matchers": 1,
+          "Matchers": 1,
+          "Buildr::Checks": 1,
+          "Buildr::Compile": 1,
+          ":maven": 1,
+          ":add": 1,
+          ":erb": 1,
+          "buildr/java/pom": 1,
+          "MyExtension": 1,
+          ":_": 1,
+          "LinesOfCode": 1,
+          "Buildr": 1,
+          "css/annotate": 1,
+          "haml": 1,
+          "sass/engine": 1,
+          "highfive": 1,
+          "webrat": 1,
+          "FiveTagHelper": 1,
+          "Unobtrusive": 1,
+          "highfive/webrat": 1,
+          "action_view/helpers/five_tag_helper": 1,
+          "action_view/helpers/unobtrusive": 1,
+          "necktie/gems": 1,
+          "necktie/application": 1,
+          "necktie/erb": 1,
+          "necktie/files": 1,
+          "necktie/services": 1,
+          "necktie/rush": 1,
+          "syslog": 1,
+          ":execute_without_syslog": 1,
+          "Necktie::Files": 1,
+          "rubygems/dependency_installer": 1,
+          "Necktie::Gems": 1,
+          "Rush": 1,
+          "rush": 1,
+          "pipemaster/socket_helper": 1,
+          "SocketHelper": 1,
+          "pipemaster/worker": 1,
+          "Socket::Constants": 1,
+          "fcntl": 1,
+          "lib": 1,
+          "ruby-debug": 1,
+          "pathname": 1,
+          "pipemaster/server": 1,
+          "pipemaster/client": 1,
+          "rack/oauth2/server/railtie": 1,
+          "rack/oauth2/models/client": 1,
+          "rack/oauth2/models/issuer": 1,
+          "rack/oauth2/models/auth_request": 1,
+          "rack/oauth2/models/access_token": 1,
+          "rack/oauth2/models/access_grant": 1,
+          ":code": 1,
+          ":token": 1,
+          ":identifier": 1,
+          "rack/oauth2/models": 1,
+          "iconv": 1,
+          "rack/oauth2/server/helper": 1,
+          "sinatra/base": 1,
+          "sinatra/version": 1,
+          "rack/oauth2/server/admin": 1,
+          "reliable-msg/queue": 1,
+          "reliable-msg/cli": 1,
+          "reliable-msg/rails": 1,
+          "reliable-msg/topic": 1,
+          "queues": 1,
+          "reliable-msg/queue-manager": 1,
+          "the": 1,
+          "active_record/vendor/mysql": 1,
+          "mysql": 1,
+          "drb/acl": 1,
+          "reliable-msg/message-store": 1,
+          "singleton": 1,
+          "action_controller": 1,
+          "lib/reliable-msg": 1,
+          "activeldap": 1,
+          "activedirectory": 1,
+          "openid": 1,
+          "xmlsimple": 1,
+          "payroll_reporter": 1,
+          "simple-rss": 1,
+          "intranet_reader": 1,
+          "spec": 1,
+          "twitter": 1,
+          "aws/s3": 1,
+          "appscript": 1,
+          "win32ole": 1,
+          "reader": 1,
+          "net/https": 1,
+          "tidy_ffi": 1,
+          "html": 1,
+          "scraper": 1,
+          ":mocked_request_get": 1,
+          "webrick": 1,
+          "Scraper": 1,
+          "webrick/https": 1,
+          "Win32API": 1,
+          "macaddr": 1,
+          "rails/generators": 1,
+          "rails/generators/active_record": 1,
+          "Rails::Generators::Migration": 1,
+          "rails/generators/migration": 1,
+          "vanity/experiment/ab_test": 1,
+          "vanity/metric/active_record": 1,
+          "date": 1,
+          "vanity/connection": 1,
+          "vanity/frameworks": 1,
+          "vanity/playground": 1,
+          "vanity/experiment/base": 1,
+          "vanity/version": 1,
+          "vanity/safe_yaml": 1,
+          "vanity/metric/google_analytics": 1,
+          "vanity/configuration": 1,
+          "vanity/autoconnect": 1,
+          "vanity/adapters/mock_adapter": 1,
+          "vanity/metric/base": 1,
+          "vanity/vanity": 1,
+          "vanity/metric/remote": 1,
+          "vanity/adapters/abstract_adapter": 1,
+          "vanity/adapters": 1,
+          "vanity/templates": 1,
+          "vanity/helpers": 1,
+          "vanity/adapters/#{spec[:adapter]}_adapter": 1,
+          "active_record": 1,
+          "mongodb_connection": 1,
+          "redis/namespace": 1,
+          "redis": 1,
+          "playground_should_autoconnect?": 1,
+          "<p": 1,
+          "Render": 1,
+          "vanity/experiment/bayesian_bandit_score": 1,
+          "vanity/experiment/alternative": 1,
+          "gsl": 1,
+          "digest/md5": 1,
+          "backports/1.9.1/kernel/define_singleton_method": 1,
+          "rubystats": 1,
+          "true_false": 1,
+          "integration": 1,
+          "vanity/experiment/definition": 1,
+          "vanity/frameworks/rails": 1,
+          "Vanity::Rails::Dashboard": 1,
+          "Vanity::Rails::Filters": 1,
+          "Vanity::Rails::Identity": 1,
+          "Vanity::Rails::AddParticipant": 1,
+          "Vanity::Rails::UseVanityMailer": 1,
+          "AddParticipant": 1,
+          "in": 1,
+          "garb": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "assaf/archive-2005",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "assaf/buildr",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "assaf/css-annotate",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "assaf/highfive",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "assaf/ironium",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "assaf/lazybird",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "assaf/necktie",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "assaf/node-passbook",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "assaf/node-replay",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "assaf/octolog",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "assaf/pipemaster",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "assaf/rack-oauth2-server",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "assaf/reliable-msg",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "assaf/ruby-in-practice",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "assaf/scrapi",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "assaf/uuid",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "assaf/vanity",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "username": "z3bi",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 3.096774193548387,
+        "commits_activity": 0.5648802634375365
+      }
+    },
+    "Status": {
+      "score": 0.04282938565298133,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5450133092487028,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.3107073464132453,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        8279,
+        9
+      ],
+      "JavaScript": [
+        45,
+        2
+      ],
+      "Shell": [
+        620,
+        3
+      ],
+      "Ruby": [
+        2,
+        0
+      ],
+      "Objective-C": [
+        1,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 14,
+    "total_lines": 8947,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 8279,
+        "commits": 9
+      },
+      {
+        "language": "Shell",
+        "lines": 620,
+        "commits": 3
+      },
+      {
+        "language": "JavaScript",
+        "lines": 45,
+        "commits": 2
+      },
+      {
+        "language": "Ruby",
+        "lines": 2,
+        "commits": 0
+      },
+      {
+        "language": "Objective-C",
+        "lines": 1,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "z3bi",
+    "analysis_date": "2026-02-23T10:38:23.129558",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 65,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<Foundation/Foundation.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 6,
+        "packages": {
+          "commitlint": 5,
+          ":": 1,
+          "execa": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 33,
+        "packages": {
+          "Foundation": 23,
+          "SwiftUI": 8,
+          "HealthKit": 6,
+          "Combine": 4,
+          "XCTest": 3,
+          "UIKit": 1,
+          "PackageDescription": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "z3bi/bikelog",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "z3bi/commitlint",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "z3bi/Sunlight",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

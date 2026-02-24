@@ -1,0 +1,785 @@
+{
+  "username": "rnaveiras",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.0,
+      "details": {
+        "lines_activity": 0.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.1,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        1365568,
+        261
+      ],
+      "Ruby": [
+        2700,
+        23
+      ],
+      "HCL": [
+        988,
+        12
+      ],
+      "Lua": [
+        2711,
+        3
+      ],
+      "Shell": [
+        7508,
+        0
+      ],
+      "Pkl": [
+        49,
+        0
+      ],
+      "Makefile": [
+        28240,
+        4
+      ],
+      "Dockerfile": [
+        18716,
+        2
+      ],
+      "C++": [
+        42054,
+        2
+      ],
+      "C": [
+        39381,
+        2
+      ],
+      "PHP": [
+        3156,
+        0
+      ],
+      "Java": [
+        1454,
+        0
+      ],
+      "Python": [
+        901,
+        0
+      ],
+      "Perl": [
+        727,
+        0
+      ],
+      "CSS": [
+        4,
+        0
+      ],
+      "Vim Script": [
+        82,
+        4
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 313,
+    "total_lines": 1514239,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 1365568,
+        "commits": 261
+      },
+      {
+        "language": "Ruby",
+        "lines": 2700,
+        "commits": 23
+      },
+      {
+        "language": "HCL",
+        "lines": 988,
+        "commits": 12
+      },
+      {
+        "language": "Makefile",
+        "lines": 28240,
+        "commits": 4
+      },
+      {
+        "language": "Vim Script",
+        "lines": 82,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rnaveiras",
+    "analysis_date": "2026-02-22T04:38:34.898282",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 380,
+    "languages": {
+      "C": {
+        "files_scanned": 6,
+        "packages": {
+          "<bpf/bpf_helpers.h>": 6,
+          "vmlinux.h": 6,
+          "bpf/bpf_helpers.h": 6,
+          "<bpf/bpf_core_read.h>": 2,
+          "bpf/bpf_core_read.h": 2,
+          "maps.bpf.h": 2,
+          "bits.bpf.h": 2,
+          "<vmlinux.h>": 2,
+          "<bpf/bpf_tracing.h>": 1,
+          "bpf/bpf_tracing.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 224,
+        "packages": {
+          "time": 92,
+          "fmt": 90,
+          "net/http": 71,
+          "testing": 59,
+          "strings": 42,
+          "encoding/json": 38,
+          "os": 37,
+          "io/ioutil": 36,
+          "bytes": 35,
+          "context": 34,
+          "sync": 27,
+          "github.com/go-openapi/strfmt": 27,
+          "github.com/prometheus/client_golang/prometheus": 25,
+          "github.com/go-openapi/runtime": 25,
+          "strconv": 25,
+          "errors": 24,
+          "io": 23,
+          "github.com/cloudflare/cfssl/api": 21,
+          "github.com/cloudflare/ebpf_exporter/v2/config": 21,
+          "flag": 20,
+          "github.com/kelseyhightower/confd/log": 17,
+          "net/http/httptest": 15,
+          "golang.org/x/net/context": 15,
+          "net": 14,
+          "github.com/cloudflare/cfssl/errors": 12,
+          "github.com/cloudflare/cfssl/log": 12,
+          "math/rand": 12,
+          "path/filepath": 11,
+          "log": 11,
+          "sort": 10,
+          "net/url": 10,
+          "github.com/go-kit/kit/log/level": 10,
+          "math": 10,
+          "github.com/go-kit/kit/log": 10,
+          "github.com/pkg/errors": 10,
+          "github.com/prometheus/common/model": 9,
+          "github.com/go-openapi/errors": 9,
+          "regexp": 8,
+          "github.com/prometheus/alertmanager/api/v2/models": 8,
+          "github.com/cloudflare/cfssl/helpers": 8,
+          "encoding/base64": 8,
+          "crypto/x509": 8,
+          "path": 8,
+          "github.com/golang/protobuf/proto": 8,
+          "github.com/cloudflare/cfssl/certdb": 7,
+          "crypto/tls": 7,
+          "github.com/cortexproject/cortex/pkg/chunk": 7,
+          "github.com/cloudflare/cfssl/ocsp": 6,
+          "google.golang.org/grpc": 6,
+          "github.com/youtube/doorman/go/client/doorman": 6,
+          "google.golang.org/grpc/codes": 6,
+          "runtime": 5,
+          "reflect": 5,
+          "gopkg.in/alecthomas/kingpin.v2": 5,
+          "bufio": 5,
+          "github.com/cloudflare/ebpf_exporter/v2/util": 5,
+          "sync/atomic": 5,
+          "github.com/prometheus/alertmanager/types": 4,
+          "github.com/prometheus/common/version": 4,
+          "github.com/go-openapi/swag": 4,
+          "math/big": 4,
+          "encoding/hex": 4,
+          "github.com/cloudflare/cfssl/auth": 4,
+          "github.com/cloudflare/cfssl/signer": 4,
+          "github.com/cloudflare/cfssl/config": 4,
+          "github.com/cloudflare/cfssl/csr": 4,
+          "github.com/kelseyhightower/confd/backends": 4,
+          "github.com/prometheus/client_golang/prometheus/promauto": 4,
+          "github.com/prometheus/prometheus/prompb": 4,
+          "github.com/sirupsen/logrus": 4,
+          "github.com/youtube/doorman/go/timeutil": 4,
+          "github.com/youtube/doorman/go/connection": 4,
+          "github.com/rcrowley/go-metrics": 4,
+          "github.com/prometheus/alertmanager/config": 3,
+          "github.com/prometheus/alertmanager/silence": 3,
+          "log/slog": 3,
+          "github.com/prometheus/alertmanager/silence/silencepb": 3,
+          "github.com/stretchr/testify/require": 3,
+          "crypto/rand": 3,
+          "github.com/cloudflare/cfssl/certdb/sql": 3,
+          "crypto/x509/pkix": 3,
+          "github.com/cloudflare/cfssl/certdb/testdb": 3,
+          "encoding/pem": 3,
+          "github.com/cloudflare/cfssl/info": 3,
+          "crypto/md5": 3,
+          "key": 3,
+          "github.com/aws/aws-sdk-go/aws": 3,
+          "gopkg.in/yaml.v2": 3,
+          "os/signal": 3,
+          "syscall": 3,
+          "text/template": 3,
+          "github.com/grafana/cortex-tools/pkg/commands": 3,
+          "github.com/thanos-io/thanos/pkg/discovery/dns": 3,
+          "google.golang.org/grpc/credentials": 3,
+          "github.com/youtube/doorman/go/server/election": 3,
+          "html/template": 3,
+          "google.golang.org/grpc/status": 3,
+          "github.com/prometheus/alertmanager/cluster": 2,
+          "github.com/prometheus/alertmanager/provider": 2,
+          "github.com/prometheus/common/promslog": 2,
+          "github.com/prometheus/common/route": 2,
+          "github.com/prometheus/alertmanager/dispatch": 2,
+          "github.com/prometheus/alertmanager/pkg/labels": 2,
+          "github.com/go-openapi/runtime/middleware": 2,
+          "foo": 2,
+          "github.com/prometheus/common/log": 2,
+          "github.com/cloudflare/cfssl/bundler": 2,
+          "crypto/rsa": 2,
+          "expiry": 2,
+          "crypto": 2,
+          "github.com/cloudflare/cfssl/signer/universal": 2,
+          "github.com/cloudflare/cfssl/signer/local": 2,
+          "password": 2,
+          "token": 2,
+          "github.com/kelseyhightower/confd/backends/env": 2,
+          "github.com/aws/aws-sdk-go/aws/session": 2,
+          "github.com/aws/aws-sdk-go/service/ssm": 2,
+          "github.com/kelseyhightower/confd/resource/template": 2,
+          "github.com/BurntSushi/toml": 2,
+          "github.com/kelseyhightower/memkv": 2,
+          "github.com/grafana/dskit/flagext": 2,
+          "github.com/prometheus/client_golang/prometheus/promhttp": 2,
+          "github.com/weaveworks/common/logging": 2,
+          "text/tabwriter": 2,
+          "github.com/cortexproject/cortex/pkg/chunk/gcp": 2,
+          "github.com/stretchr/testify/assert": 2,
+          "github.com/prometheus/alertmanager/template": 2,
+          "github.com/gorilla/mux": 2,
+          "github.com/grafana/cortex-tools/pkg/rules/rwrulefmt": 2,
+          "github.com/prometheus/prometheus/promql/parser": 2,
+          "github.com/thanos-io/thanos/pkg/extprom": 2,
+          "github.com/cortexproject/cortex/pkg/util/spanlogger": 2,
+          "github.com/prometheus/prometheus/storage/remote": 2,
+          "github.com/cortexproject/cortex/pkg/chunk/cassandra": 2,
+          "cloud.google.com/go/bigtable": 2,
+          "expvar": 2,
+          "github.com/youtube/doorman/go/server/doorman": 2,
+          "github.com/coreos/etcd/client": 2,
+          "google.golang.org/grpc/grpclog": 2,
+          "golang.org/x/sys/unix": 2,
+          "github.com/coreos/go-semver/semver": 2,
+          "go.etcd.io/etcd/api/v3/version": 2,
+          "runtime/debug": 2,
+          "Limit": 1,
+          "Exceeded": 1,
+          "try": 1,
+          "The": 1,
+          "deprecated": 1,
+          "github.com/go-openapi/analysis": 1,
+          "Cache-Control": 1,
+          "github.com/prometheus/alertmanager/matcher/compat": 1,
+          "github.com/prometheus/alertmanager/api/v2/restapi": 1,
+          "github.com/go-openapi/loads": 1,
+          "github.com/rs/cors": 1,
+          "github.com/prometheus/alertmanager/api/v2/restapi/operations": 1,
+          "github.com/prometheus/alertmanager/api/metrics": 1,
+          "test": 1,
+          "2019-01-01T13:00:00+00:00": 1,
+          "with": 1,
+          "unknownSid": 1,
+          "2019-01-01T12:00:00+00:00": 1,
+          "github.com/prometheus/alertmanager/api/v2/client/alert": 1,
+          "github.com/prometheus/alertmanager/api/v2/client/alertgroup": 1,
+          "github.com/prometheus/alertmanager/api/v2/client/silence": 1,
+          "github.com/prometheus/alertmanager/api/v2/client/receiver": 1,
+          "github.com/prometheus/alertmanager/api/v2/client/general": 1,
+          "unknown": 1,
+          "github.com/spf13/cobra": 1,
+          "github.com/aws/aws-sdk-go/aws/credentials": 1,
+          "canceling": 1,
+          "gopkg.in/buildkite/go-buildkite.v2/buildkite": 1,
+          "github.com/jmoiron/sqlx/types": 1,
+          "database/sql": 1,
+          "authority_key_identifier": 1,
+          "revoked_at": 1,
+          "status": 1,
+          "but": 1,
+          "serial_number": 1,
+          "pem": 1,
+          "github.com/cloudflare/cfssl/certinfo": 1,
+          "ordered_list": 1,
+          "github.com/cloudflare/cfssl/crl": 1,
+          "certificate": 1,
+          "ca-key-file": 1,
+          "certificate_request": 1,
+          "ca-file": 1,
+          "sums": 1,
+          "private_key": 1,
+          "crypto/sha1": 1,
+          "signature": 1,
+          "test1": 1,
+          "label": 1,
+          "profile": 1,
+          "test2": 1,
+          "github.com/cloudflare/cfssl/initca": 1,
+          "SHA384": 1,
+          "SHA256": 1,
+          "MD5": 1,
+          "SHA512": 1,
+          "SHA1": 1,
+          "github.com/cloudflare/cfssl/scan": 1,
+          "cert-file": 1,
+          "key-file": 1,
+          "github.com/cloudflare/cfssl/api/signhandler": 1,
+          "signing": 1,
+          "type": 1,
+          "usages": 1,
+          "no-auth": 1,
+          "default": 1,
+          "auth": 1,
+          "auth_key": 1,
+          "profiles": 1,
+          "sample": 1,
+          "auth_keys": 1,
+          "github.com/kelseyhightower/confd/backends/etcdv3": 1,
+          "username": 1,
+          "github.com/kelseyhightower/confd/backends/rancher": 1,
+          "cert": 1,
+          "app-id": 1,
+          "github.com/kelseyhightower/confd/backends/vault": 1,
+          "github.com/kelseyhightower/confd/backends/ssm": 1,
+          "caCert": 1,
+          "github.com/kelseyhightower/confd/backends/file": 1,
+          "user-id": 1,
+          "secret-id": 1,
+          "github.com/kelseyhightower/confd/backends/dynamodb": 1,
+          "github.com/kelseyhightower/confd/backends/redis": 1,
+          "github.com/kelseyhightower/confd/backends/zookeeper": 1,
+          "role-id": 1,
+          "github.com/kelseyhightower/confd/backends/consul": 1,
+          "github.com/hashicorp/consul/api": 1,
+          "github.com/aws/aws-sdk-go/service/dynamodb": 1,
+          "github.com/fsnotify/fsnotify": 1,
+          "github.com/garyburd/redigo/redis": 1,
+          "Will": 1,
+          "github.com/aws/aws-sdk-go/aws/awserr": 1,
+          "user_id": 1,
+          "app_id": 1,
+          "jwt": 1,
+          "secret_id": 1,
+          "role_id": 1,
+          "role": 1,
+          "dynamodb": 1,
+          "ssm": 1,
+          "github.com/aws/aws-sdk-go/private/protocol/json/jsonutil": 1,
+          "os/exec": 1,
+          "github.com/grafana/cortex-tools/pkg/bench": 1,
+          "github.com/grafana/cortex-tools/pkg/version": 1,
+          "github.com/weaveworks/common/server": 1,
+          "github.com/grafana/cortex-tools/pkg/alerting": 1,
+          "github.com/cortexproject/cortex/pkg/chunk/aws": 1,
+          "github.com/cortexproject/cortex/pkg/chunk/azure": 1,
+          "github.com/cortexproject/cortex/pkg/chunk/openstack": 1,
+          "max": 1,
+          "setup": 1,
+          "std": 1,
+          "github.com/gonum/stat": 1,
+          "min": 1,
+          "avg": 1,
+          "k": 1,
+          "%%": 1,
+          "github.com/grafana/cortex-tools/pkg/client": 1,
+          "github.com/grafana-tools/sdk": 1,
+          "github.com/prometheus/prometheus/tsdb": 1,
+          "github.com/prometheus/prometheus/pkg/labels": 1,
+          "github.com/alecthomas/units": 1,
+          "%v\\t%v\\t%v\\t%v\\t%v\\t%v\\t%v\\t%v\\n": 1,
+          "golang.org/x/sync/errgroup": 1,
+          "github.com/prometheus/client_golang/api": 1,
+          "github.com/grafana/dskit/kv/memberlist": 1,
+          "github.com/grafana/dskit/kv/codec": 1,
+          "cortex_": 1,
+          "github.com/grafana/dskit/ring": 1,
+          "hash/adler32": 1,
+          "series_type": 1,
+          "github.com/opentracing-contrib/go-stdlib/nethttp": 1,
+          "github.com/prometheus/common/config": 1,
+          "github.com/gogo/protobuf/proto": 1,
+          "github.com/golang/snappy": 1,
+          "chunk_id": 1,
+          "table": 1,
+          "from_ts": 1,
+          "through": 1,
+          "entries_outside_range_skipped": 1,
+          "entries_scanned": 1,
+          "go.uber.org/atomic": 1,
+          "to_ts": 1,
+          "from": 1,
+          "entries_invalid_found": 1,
+          "golang.org/x/sync/semaphore": 1,
+          "github.com/gocql/gocql": 1,
+          "encoding/binary": 1,
+          "github.com/youtube/doorman/go/ratelimiter": 1,
+          "github.com/pborman/uuid": 1,
+          "github.com/youtube/doorman/go/flagenv": 1,
+          "github.com/youtube/doorman/go/status": 1,
+          "github.com/youtube/doorman/go/configuration": 1,
+          "github.com/ghodss/yaml": 1,
+          "github.com/chzyer/readline": 1,
+          "github.com/google/shlex": 1,
+          "github.com/golang/glog": 1,
+          "Number": 1,
+          "All": 1,
+          "nonexisting_resource": 1,
+          "resource": 1,
+          "html": 1,
+          "github_com_youtube_doorman_to_upper": 1,
+          "unsafe": 1,
+          "github.com/aquasecurity/libbpfgo": 1,
+          "github.com/cloudflare/ebpf_exporter/v2/exporter": 1,
+          "io/fs": 1,
+          "cgroup": 1,
+          "string": 1,
+          "inet_ip": 1,
+          "ksym": 1,
+          "dname": 1,
+          "uint": 1,
+          "majorminor": 1,
+          "static_map": 1,
+          "^bananas$": 1,
+          "$is-banana-even-fruit$": 1,
+          "^tomato$": 1,
+          "github.com/iovisor/gobpf/pkg/ksym": 1,
+          "READWRITE": 1,
+          "WRITE": 1,
+          "READ": 1,
+          "google.golang.org/grpc/metadata": 1,
+          "github.com/grpc-ecosystem/grpc-gateway/runtime": 1,
+          "go.etcd.io/etcd/api/v3/etcdserverpb": 1,
+          "github.com/golang/protobuf/descriptor": 1,
+          "github.com/grpc-ecosystem/grpc-gateway/utilities": 1,
+          "KEY": 1,
+          "ASCEND": 1,
+          "EQUAL": 1,
+          "NOPUT": 1,
+          "NOT_EQUAL": 1,
+          "ENABLE": 1,
+          "CORRUPT": 1,
+          "MOD": 1,
+          "VALIDATE": 1,
+          "GET": 1,
+          "NODELETE": 1,
+          "CANCEL": 1,
+          "LEASE": 1,
+          "ACTIVATE": 1,
+          "NONE": 1,
+          "VERSION": 1,
+          "DESCEND": 1,
+          "CREATE": 1,
+          "NOSPACE": 1,
+          "DEACTIVATE": 1,
+          "GREATER": 1,
+          "LESS": 1,
+          "VALUE": 1,
+          "DELETE": 1,
+          "PUT": 1,
+          "go.etcd.io/etcd/client/pkg/v3/testutil": 1,
+          "go.etcd.io/etcd/client/pkg/v3/srv": 1,
+          "a": 1,
+          "go.etcd.io/etcd/client/v2": 1,
+          "go.etcd.io/etcd/client/pkg/v3/pathutil": 1,
+          "Content-Type": 1,
+          "example.com/hellogopher/subdirs/greetings": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 28,
+        "packages": {
+          "boto3": 13,
+          "os": 11,
+          "time": 8,
+          "sys": 7,
+          "datetime": 5,
+          "argparse": 5,
+          "__future__": 5,
+          "print_function": 5,
+          "numpy": 4,
+          "json": 4,
+          "tensorflow": 4,
+          "requests": 3,
+          "pyspark": 3,
+          "aws_cdk": 3,
+          "shutil": 3,
+          "ClientError": 3,
+          "botocore": 3,
+          "absolute_import": 3,
+          "division": 3,
+          "multiprocessing": 2,
+          "threading": 2,
+          "SparkSession": 2,
+          "keras": 2,
+          "glob": 2,
+          "mxnet": 2,
+          "uuid": 2,
+          "logging": 2,
+          "urllib": 2,
+          "cv2": 2,
+          "traceback": 2,
+          "BaseHTTPRequestHandler": 1,
+          "BaseHTTPServer": 1,
+          "Thread": 1,
+          "backend": 1,
+          "load_batch": 1,
+          "get_file": 1,
+          "Model": 1,
+          "ModelCheckpoint": 1,
+          "load_data": 1,
+          "Input": 1,
+          "download_cifar10": 1,
+          "subprocess": 1,
+          "Popen": 1,
+          "calendar": 1,
+          "RawTextHelpFormatter": 1,
+          "SparkContext": 1,
+          "CdkSpotHistoricNotebookStack": 1,
+          "core": 1,
+          "spot_historic_notebook": 1,
+          "setuptools": 1,
+          "base64": 1,
+          "zipfile": 1,
+          "Event": 1,
+          "mo": 1,
+          "greengrasssdk": 1,
+          "awscam": 1,
+          "random": 1,
+          "queue": 1,
+          "Queue": 1,
+          "functools": 1,
+          "resnet_model": 1,
+          "cPickle": 1,
+          "FloatProgress": 1,
+          "six": 1,
+          "ipywidgets": 1,
+          "IPython": 1,
+          "display": 1,
+          "tarfile": 1,
+          "xrange": 1,
+          "re": 1,
+          "sleep": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 45,
+        "packages": {
+          "spec_helper": 10,
+          "ApiClient": 6,
+          "bunny": 3,
+          "integration/adapters/adapters_helper": 3,
+          "carrierwave": 2,
+          "Eventwire::Subscriber": 2,
+          "amqp": 2,
+          "json": 2,
+          "timeout": 2,
+          "carrierwave/support/uri_filename": 1,
+          "carrierwave/storage/aws_file": 1,
+          "carrierwave/storage/aws": 1,
+          "carrierwave/storage/aws_options": 1,
+          "carrierwave/aws/version": 1,
+          "aws-sdk-s3": 1,
+          "to_file": 1,
+          "copy_options": 1,
+          "carrierwave-aws": 1,
+          "securerandom": 1,
+          "Eventwire::Publisher": 1,
+          "eventwire/subscriber": 1,
+          "eventwire/version": 1,
+          "eventwire/configuration": 1,
+          "eventwire/adapters": 1,
+          "eventwire/middleware": 1,
+          "eventwire/publisher": 1,
+          "mongo": 1,
+          "em-redis": 1,
+          "redis": 1,
+          "amqp/extensions/rabbitmq": 1,
+          "delegate": 1,
+          "bson": 1,
+          "hashie/mash": 1,
+          "msgpack": 1,
+          "rake": 1,
+          "eventwire/tasks": 1,
+          "WebhookValidations": 1,
+          "DeploymentTimeout": 1,
+          "rails/all": 1,
+          "bundler/setup": 1,
+          "yajl/json_gem": 1,
+          "aws-sdk": 1,
+          "resque/plugins/lock_timeout": 1,
+          "heaven": 1,
+          "resque/server": 1,
+          "base64": 1,
+          "active_support/core_ext/hash/indifferent_access": 1,
+          "octokit": 1,
+          "pathname": 1,
+          "fileutils": 1,
+          "open3": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rnaveiras/alertmanager",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rnaveiras/aws-profile",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rnaveiras/aws-spot-labs",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rnaveiras/buildkite_exporter",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rnaveiras/carrierwave-aws",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "rnaveiras/cfssl",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rnaveiras/confd",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rnaveiras/cortex-tools",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rnaveiras/doorman",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rnaveiras/ebpf_exporter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "Go"
+        ]
+      },
+      {
+        "repository": "rnaveiras/etcd",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rnaveiras/eventwire",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "rnaveiras/go-metrics",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rnaveiras/heaven",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "rnaveiras/hellogopher",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rnaveiras/homebrew-cask",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

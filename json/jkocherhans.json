@@ -1,0 +1,111 @@
+{
+  "username": "jkocherhans",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4487179487179487,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.17307692307692307
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.3455128205128205,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        231675,
+        80
+      ],
+      "Python": [
+        22312,
+        56
+      ],
+      "Shell": [
+        34582,
+        61
+      ],
+      "Vim Script": [
+        96430,
+        105
+      ],
+      "Perl": [
+        1247,
+        1
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 303,
+    "total_lines": 386246,
+    "top_5_languages": [
+      {
+        "language": "Vim Script",
+        "lines": 96430,
+        "commits": 105
+      },
+      {
+        "language": "JavaScript",
+        "lines": 231675,
+        "commits": 80
+      },
+      {
+        "language": "Shell",
+        "lines": 34582,
+        "commits": 61
+      },
+      {
+        "language": "Python",
+        "lines": 22312,
+        "commits": 56
+      },
+      {
+        "language": "Perl",
+        "lines": 1247,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "list index out of range",
+    "username": "jkocherhans",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

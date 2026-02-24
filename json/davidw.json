@@ -1,0 +1,593 @@
+{
+  "username": "davidw",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.8571428571428572,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4871794871794872,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.23076923076923078
+      }
+    },
+    "Sentiment": {
+      "score": 0.7142857142857143,
+      "details": {
+        "davidw/boss_db": -0.4215,
+        "davidw/erlexec": 0.39105,
+        "davidw/google-screener": 0.5106,
+        "davidw/hecl": 0.12115714285714287,
+        "davidw/noVNCgem": 0.43188125,
+        "davidw/rebar": 0.25968,
+        "davidw/simile-timeline": -0.40085000000000004
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7503663003663004,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        12,
+        0
+      ],
+      "JavaScript": [
+        201112,
+        50
+      ],
+      "Ruby": [
+        13070,
+        52
+      ],
+      "Erlang": [
+        6906,
+        188
+      ],
+      "Shell": [
+        18,
+        0
+      ],
+      "PHP": [
+        1619,
+        0
+      ],
+      "CSS": [
+        38,
+        2
+      ],
+      "Elixir": [
+        11,
+        0
+      ],
+      "Python": [
+        43,
+        0
+      ],
+      "C": [
+        19125,
+        9
+      ],
+      "HTML": [
+        29,
+        1
+      ],
+      "Perl": [
+        4,
+        0
+      ],
+      "C++": [
+        224,
+        18
+      ],
+      "Tcl": [
+        5359,
+        59
+      ],
+      "Makefile": [
+        12,
+        0
+      ],
+      "Java": [
+        311202,
+        224
+      ],
+      "Clojure": [
+        7,
+        0
+      ],
+      "C#": [
+        5,
+        0
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 603,
+    "total_lines": 558796,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 311202,
+        "commits": 224
+      },
+      {
+        "language": "Erlang",
+        "lines": 6906,
+        "commits": 188
+      },
+      {
+        "language": "Tcl",
+        "lines": 5359,
+        "commits": 59
+      },
+      {
+        "language": "Ruby",
+        "lines": 13070,
+        "commits": 52
+      },
+      {
+        "language": "JavaScript",
+        "lines": 201112,
+        "commits": 50
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "davidw",
+    "analysis_date": "2026-02-22T03:43:05.404103",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 402,
+    "languages": {
+      "C": {
+        "files_scanned": 4,
+        "packages": {
+          "string.h": 3,
+          "<string.h>": 3,
+          "bloom-filter.h": 2,
+          "stdlib.h": 2,
+          "<stdlib.h>": 2,
+          "hash-string.h": 2,
+          "alloc-testing.h": 1,
+          "math.h": 1,
+          "<fcntl.h>": 1,
+          "unistd.h": 1,
+          "version.h": 1,
+          "<errno.h>": 1,
+          "<sys/stat.h>": 1,
+          "<math.h>": 1,
+          "<unistd.h>": 1,
+          "sys/types.h": 1,
+          "ruby/ruby.h": 1,
+          "fcntl.h": 1,
+          "<sys/types.h>": 1,
+          "errno.h": 1,
+          "sys/stat.h": 1,
+          "<ctype.h>": 1,
+          "ctype.h": 1,
+          "dns_sd.h": 1,
+          "<dns_sd.h>": 1,
+          "erl_driver.h": 1,
+          "<erl_interface.h>": 1,
+          "<erl_driver.h>": 1,
+          "erl_interface.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "<fcntl.h>": 2,
+          "namespace": 2,
+          "<sstream>": 2,
+          "ei++.hpp": 2,
+          "unistd.h": 2,
+          "<unistd.h>": 2,
+          "ei": 2,
+          "fcntl.h": 2,
+          "sstream": 2,
+          "<iomanip>": 1,
+          "iomanip": 1,
+          "<sys/resource.h>": 1,
+          "stdlib.h": 1,
+          "<termios.h>": 1,
+          "set": 1,
+          "<sys/prctl.h>": 1,
+          "ei.h": 1,
+          "sys/ioctl.h": 1,
+          "<pwd.h>": 1,
+          "<map>": 1,
+          "<deque>": 1,
+          "<assert.h>": 1,
+          "<signal.h>": 1,
+          "sys/prctl.h": 1,
+          "setjmp.h": 1,
+          "sys/resource.h": 1,
+          "<errno.h>": 1,
+          "<grp.h>": 1,
+          "assert.h": 1,
+          "sys/wait.h": 1,
+          "deque": 1,
+          "<ei.h>": 1,
+          "limits.h": 1,
+          "pwd.h": 1,
+          "sys/types.h": 1,
+          "<sys/ioctl.h>": 1,
+          "map": 1,
+          "<limits.h>": 1,
+          "sys/capability.h": 1,
+          "<stdio.h>": 1,
+          "<sys/capability.h>": 1,
+          "sys/time.h": 1,
+          "signal.h": 1,
+          "<sys/types.h>": 1,
+          "<set>": 1,
+          "<sys/wait.h>": 1,
+          "errno.h": 1,
+          "<setjmp.h>": 1,
+          "<stdlib.h>": 1,
+          "termios.h": 1,
+          "grp.h": 1,
+          "<sys/time.h>": 1,
+          "stdio.h": 1,
+          "<list>": 1,
+          "list": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "stdarg.h": 1,
+          "<sys/resource.h>": 1,
+          "unistd.h": 1,
+          "iostream": 1,
+          "ei.h": 1,
+          "<string>": 1,
+          "<assert.h>": 1,
+          "sys/resource.h": 1,
+          "<string.h>": 1,
+          "assert.h": 1,
+          "string": 1,
+          "<ei.h>": 1,
+          "limits.h": 1,
+          "<unistd.h>": 1,
+          "<limits.h>": 1,
+          "<stdio.h>": 1,
+          "sys/time.h": 1,
+          "algorithm": 1,
+          "string.h": 1,
+          "<iostream>": 1,
+          "<sys/time.h>": 1,
+          "stdio.h": 1,
+          "<algorithm>": 1,
+          "<stdarg.h>": 1
+        }
+      },
+      "Elixir": {
+        "files_scanned": 23,
+        "packages": {
+          "ExUnit.Case": 6,
+          "Mix.Project": 5,
+          "Mix.Config": 4,
+          "Supervisor.Spec": 3,
+          "Application": 3,
+          "Plug.Test": 3,
+          "Plug.Router": 2,
+          "Ecto.Repo": 1,
+          "Supervisor.Behaviour": 1,
+          "unquote": 1,
+          "Plug.Conn": 1
+        }
+      },
+      "Erlang": {
+        "files_scanned": 37,
+        "packages": {
+          "dbus.hrl": 15,
+          "eunit/include/eunit.hrl": 4,
+          "twitter_client.hrl": 4,
+          "dbus_client.hrl": 3,
+          "xmerl/include/xmerl.hrl": 3,
+          "include": 2,
+          "=": 2,
+          "proper/include/proper.hrl": 2,
+          "dbus_introspectable.hrl": 2,
+          "boss_news.hrl": 1,
+          "common_test/include/ct.hrl": 1,
+          "kernel/include/file.hrl": 1,
+          "xmerl.hrl": 1,
+          "->": 1,
+          "dbus_dbus.hrl": 1,
+          "dbus_object_manager.hrl": 1,
+          "procket/include/procket.hrl": 1,
+          "stdlib/include/qlc.hrl": 1,
+          "exec.hrl": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 21,
+        "packages": {
+          "com.chargebee": 21,
+          "java.io": 21,
+          "javax.servlet": 20,
+          "static": 13,
+          "java.util": 11,
+          "java.net": 7,
+          "java.sql": 3,
+          "org.apache": 3,
+          "java.text": 2,
+          "com.stripe": 1,
+          "com.google": 1,
+          "java.beans": 1,
+          "java.awt": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 7,
+        "packages": {
+          "=": 5,
+          "path": 1,
+          "angular": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "cannot": 1,
+          "empty": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "dbus": 1,
+          "gobject": 1,
+          "DBusGMainLoop": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 52,
+        "packages": {
+          "Devise::Controllers::InternalHelpers": 6,
+          "digest/sha1": 4,
+          "spec_helper": 3,
+          "action_view": 2,
+          "active_record": 2,
+          "ActsAsTaggableOn::ActiveRecord::Backports": 2,
+          "rubygems": 2,
+          "set": 2,
+          "graphql": 2,
+          "ruby-prof": 2,
+          "helper": 2,
+          "AuthenticatedSystem": 2,
+          "Devise::Controllers::ScopedViews": 2,
+          "digest/sha2": 2,
+          "acts_as_taggable_on/acts_as_taggable_on/collection": 1,
+          "acts_as_taggable_on/compatibility/active_record_backports": 1,
+          "acts_as_taggable_on/acts_as_taggable_on": 1,
+          "acts_as_taggable_on/acts_as_taggable_on/related": 1,
+          "acts_as_taggable_on/tagging": 1,
+          "acts_as_taggable_on/acts_as_taggable_on/cache": 1,
+          "acts_as_taggable_on/acts_as_tagger": 1,
+          "acts_as_taggable_on/acts_as_taggable_on/ownership": 1,
+          "acts_as_taggable_on/tag": 1,
+          "acts_as_taggable_on/tag_list": 1,
+          "acts_as_taggable_on/tags_helper": 1,
+          "acts_as_taggable_on/acts_as_taggable_on/core": 1,
+          "ActsAsTaggableOn::Taggable::Core": 1,
+          "ActsAsTaggableOn::Taggable::Ownership": 1,
+          "ActsAsTaggableOn::Taggable::Collection": 1,
+          "ActsAsTaggableOn::Taggable::Cache": 1,
+          "ActsAsTaggableOn::Taggable::Related": 1,
+          "ActsAsTaggableOn::Tagger::InstanceMethods": 1,
+          "ILIKE": 1,
+          "rails/generators/migration": 1,
+          "Rails::Generators::Migration": 1,
+          "acts-as-taggable-on": 1,
+          "ActsAsTaggableOn::TagsHelper": 1,
+          "bundler": 1,
+          "benchmark/ips": 1,
+          "benchmark": 1,
+          "BatchLoader::GraphQL": 1,
+          "coveralls": 1,
+          "bundler/setup": 1,
+          "mkmf": 1,
+          "bloom_filter": 1,
+          "bloom-filter": 1,
+          "minitest/spec": 1,
+          "tempfile": 1,
+          "helpers/chartr_helpers": 1,
+          "chartr": 1,
+          "ExceptionNotifiable": 1,
+          "Differ": 1,
+          "hpricot": 1,
+          "maruku": 1,
+          "initializer": 1,
+          "rails": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "boot": 1,
+          "your": 1,
+          "helpers": 1,
+          "scope::Helpers": 1,
+          "warden": 1,
+          "active_support/dependencies": 1,
+          "active_support/core_ext/numeric/time": 1,
+          "devise/modules": 1,
+          "scope::UrlHelpers": 1,
+          "devise/models": 1,
+          "devise/rails": 1,
+          "devise/mapping": 1,
+          "orm_adapter": 1,
+          ":scope_name": 1,
+          "ActionController::Redirecting": 1,
+          "Rails.application.routes.url_helpers": 1,
+          "ActionController::UrlFor": 1,
+          "ActionController::RackDelegation": 1,
+          "action_controller/metal": 1,
+          ":name": 1,
+          "Devise::Models::Authenticatable": 1,
+          "devise/models/authenticatable": 1,
+          "the": 1,
+          "devise/hooks/activatable": 1,
+          "devise/strategies/database_authenticatable": 1,
+          "bcrypt": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "angular": 7,
+          "highcharts": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "davidw/acts-as-taggable-on",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "davidw/angular2-highcharts",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "davidw/batch-loader",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "davidw/bloom-filter",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "davidw/boss_db",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Erlang"
+        ]
+      },
+      {
+        "repository": "davidw/chargebee-samples",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "davidw/chartr",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "davidw/ChicagoBoss",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir",
+          "Erlang"
+        ]
+      },
+      {
+        "repository": "davidw/cowboy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Erlang"
+        ]
+      },
+      {
+        "repository": "davidw/dedawiki",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "davidw/devise",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "davidw/dnssd_erlang",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C",
+          "Erlang"
+        ]
+      },
+      {
+        "repository": "davidw/elixir-reverse-proxy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "davidw/erlang-dbus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Erlang",
+          "Python"
+        ]
+      },
+      {
+        "repository": "davidw/erlang_twitter",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Erlang"
+        ]
+      },
+      {
+        "repository": "davidw/erlexec",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C++",
+          "C++ Header",
+          "Erlang"
+        ]
+      }
+    ]
+  }
+}

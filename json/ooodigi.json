@@ -1,0 +1,154 @@
+{
+  "username": "ooodigi",
+  "areas": {
+    "OSS": {
+      "score": -0.797681139046164,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.303478291430754
+      }
+    },
+    "Status": {
+      "score": -0.11819395955898448,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.303478291430754,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.22896877465128712,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Elixir": [
+        29,
+        1
+      ],
+      "Shell": [
+        9,
+        0
+      ],
+      "Makefile": [
+        2,
+        0
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 1,
+    "total_lines": 40,
+    "top_5_languages": [
+      {
+        "language": "Elixir",
+        "lines": 29,
+        "commits": 1
+      },
+      {
+        "language": "Shell",
+        "lines": 9,
+        "commits": 0
+      },
+      {
+        "language": "Makefile",
+        "lines": 2,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ooodigi",
+    "analysis_date": "2026-02-23T06:11:03.516560",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 12,
+    "languages": {
+      "Elixir": {
+        "files_scanned": 2,
+        "packages": {
+          "Mix.Task": 1,
+          "Mix.Project": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "object": 2,
+          "jquery": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "Session": 2,
+          "traceback": 2,
+          "subprocess": 2,
+          "shutil": 2,
+          "botocore": 2,
+          "boto3": 2,
+          "tempfile": 2,
+          "__future__": 2,
+          "zipfile": 2,
+          "print_function": 2,
+          "os": 2,
+          "shlex": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ooodigi/aws-git-backed-static-website",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ooodigi/aws-lambda-codepipeline-site-generator-hugo",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ooodigi/HugoSample",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ooodigi/nerves_influxdb2_x86_64",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Elixir"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "username": "qnm",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.8823529411764706,
+        "pr_merge_rate": 3.225806451612903,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.25
+      }
+    },
+    "Sentiment": {
+      "score": 0.8,
+      "details": {
+        "qnm/guard-zeus": 0.4926,
+        "qnm/redux-scaffold": 0.6521333333333333,
+        "qnm/rpi-pocketmine": -0.054,
+        "qnm/rs232server": 0.4939,
+        "qnm/rspec-apotomo": 0.1655
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.775,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        442,
+        5
+      ],
+      "Jupyter Notebook": [
+        2068,
+        5
+      ],
+      "JavaScript": [
+        20726,
+        13
+      ],
+      "HTML": [
+        109771,
+        36
+      ],
+      "CSS": [
+        18857,
+        13
+      ],
+      "Shell": [
+        14277,
+        13
+      ],
+      "Vim Script": [
+        84815,
+        83
+      ],
+      "Nix": [
+        24681,
+        288
+      ],
+      "Emacs Lisp": [
+        14720,
+        14
+      ],
+      "Ruby": [
+        168845,
+        119
+      ],
+      "CoffeeScript": [
+        180,
+        0
+      ],
+      "TypeScript": [
+        6119,
+        4
+      ],
+      "Astro": [
+        1806,
+        1
+      ],
+      "PHP": [
+        297,
+        3
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 597,
+    "total_lines": 467604,
+    "top_5_languages": [
+      {
+        "language": "Nix",
+        "lines": 24681,
+        "commits": 288
+      },
+      {
+        "language": "Ruby",
+        "lines": 168845,
+        "commits": 119
+      },
+      {
+        "language": "Vim Script",
+        "lines": 84815,
+        "commits": 83
+      },
+      {
+        "language": "HTML",
+        "lines": 109771,
+        "commits": 36
+      },
+      {
+        "language": "Emacs Lisp",
+        "lines": 14720,
+        "commits": 14
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "qnm",
+    "analysis_date": "2026-02-23T18:20:56.750426",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 221,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 7,
+        "packages": {
+          "undefined": 2,
+          "function": 1,
+          "use": 1,
+          "https:": 1,
+          "react-router-dom": 1,
+          "react-dom": 1,
+          "history": 1,
+          "react": 1,
+          "normalize.css": 1,
+          "7fb2990d51938b98cd97bbc04cd9027c9e4e0e6d21a258a8d9ac10febebdcac64d63025ed50a6ee6aec6b666eaf2549070fbc2250f5d0f31ab0f15fc9896c6df": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 11,
+        "packages": {
+          "react": 11,
+          "styled-components": 9,
+          "prop-types": 5,
+          "react-fontawesome": 2,
+          "query-string": 1,
+          "react-dom": 1,
+          "react-syntax-highlighter": 1,
+          "react-router-dom": 1,
+          "react-markdown": 1,
+          "react-player": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 5,
+        "packages": {
+          "json": 3,
+          "*": 3,
+          "sqlite_utils": 2,
+          "zipfile": 2,
+          "click": 2,
+          "fastai": 2,
+          "nbdev": 2,
+          "List": 1,
+          "re": 1,
+          "typing": 1,
+          "memories": 1,
+          "io": 1,
+          "cli": 1,
+          "pytest": 1,
+          "pathlib": 1,
+          "CliRunner": 1,
+          "claude_to_sqlite": 1,
+          "Image": 1,
+          "PIL": 1,
+          "fastcore": 1,
+          "nbformat": 1,
+          "scipy": 1,
+          "msrest": 1,
+          "CategoricalDtype": 1,
+          "CognitiveServicesCredentials": 1,
+          "hierarchy": 1,
+          "widgets": 1,
+          "sklearn": 1,
+          "ImageSearchClient": 1,
+          "ipywidgets": 1,
+          "graphviz": 1,
+          "azure": 1,
+          "export_graphviz": 1,
+          "pandas": 1,
+          "matplotlib": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 71,
+        "packages": {
+          "spec_helper": 16,
+          "rubygems": 5,
+          "Cassy::Ticket": 4,
+          "bundler": 3,
+          "Lib::Command": 3,
+          "api_cache": 2,
+          "moneta": 2,
+          "rspec": 2,
+          "Consumable": 2,
+          "sprockets/railtie": 2,
+          "action_controller/railtie": 2,
+          "active_record/railtie": 2,
+          "bundler/setup": 2,
+          "devise/orm/active_record": 2,
+          "rspec/autorun": 2,
+          "devise": 2,
+          "DeviseCasAuthenticatable::SingleSignOut::SetSession": 2,
+          "EnumerateIt": 2,
+          "bundler/capistrano": 1,
+          "Nanoc::Helpers::Rendering": 1,
+          "cgi": 1,
+          "yajl/json_gem": 1,
+          "stringio": 1,
+          "Spree::Resources::Helpers": 1,
+          "pp": 1,
+          "digest/sha1": 1,
+          "api_cache/cache": 1,
+          "api_cache/api": 1,
+          "logger": 1,
+          "net/http": 1,
+          "digest/md5": 1,
+          "moneta/memory": 1,
+          "dalli": 1,
+          "moneta/memcache": 1,
+          "webmock/rspec": 1,
+          "Cassy::Utils": 1,
+          "Cassy::CAS": 1,
+          "cassy/generators/views_generator": 1,
+          "cassy/engine": 1,
+          "cassy/authenticators": 1,
+          "cassy/routes": 1,
+          "cassy/authenticators/base": 1,
+          "uri": 1,
+          "net/https": 1,
+          "cassy/models": 1,
+          "cassy/utils": 1,
+          "rails/generators": 1,
+          "tmpdir": 1,
+          "cassy": 1,
+          "f": 1,
+          "crypt-isaac": 1,
+          "default": 1,
+          "action_mailer/railtie": 1,
+          "active_resource/railtie": 1,
+          "coveralls": 1,
+          "rspec/rails": 1,
+          "machinist/active_record": 1,
+          "Warden::Test::Helpers": 1,
+          "devise_cas_authenticatable/routes": 1,
+          "devise_cas_authenticatable/exceptions": 1,
+          "rubycas-client": 1,
+          "devise_cas_authenticatable/single_sign_out/session_store/redis": 1,
+          "devise_cas_authenticatable/single_sign_out": 1,
+          "devise_cas_authenticatable/strategy": 1,
+          "devise_cas_authenticatable/schema": 1,
+          "devise_cas_authenticatable/single_sign_out/session_store/active_record": 1,
+          "devise/schema": 1,
+          "devise/version": 1,
+          "devise_cas_authenticatable/single_sign_out/strategies/base": 1,
+          "devise_cas_authenticatable/single_sign_out/strategies": 1,
+          "devise_cas_authenticatable/single_sign_out/strategies/rails_cache": 1,
+          "DeviseCasAuthenticatable::SingleSignOut::RedisSessionStore": 1,
+          "action_controller/session/redis_session_store": 1,
+          "devise/strategies/base": 1,
+          "devise_cas_authenticatable": 1,
+          "RSpec::Rails::ControllerExampleGroup": 1,
+          "RSpec::Rails::RoutingExampleGroup": 1,
+          "castronaut": 1,
+          "rails/all": 1,
+          "doorkeeper/logout_redirect/version": 1,
+          "pry": 1,
+          "doorkeeper/logout_redirect": 1,
+          "simplecov": 1,
+          "active_support/core_ext/class/attribute": 1,
+          "active_support/core_ext/string/inflections": 1,
+          "enumerate_it": 1,
+          "active_support": 1,
+          "active_support/core_ext/object/to_json": 1,
+          "Command": 1,
+          "ActiveModel::Validations": 1,
+          "rails": 1,
+          "action_view/railtie": 1,
+          "active_job/railtie": 1,
+          "active_model/railtie": 1,
+          "rails/test_unit/railtie": 1,
+          "boot": 1,
+          "application": 1,
+          "fabrication/railtie": 1,
+          "rake": 1,
+          "path_prefixes": 1,
+          "fabricator_paths": 1,
+          "Singleton": 1,
+          "singleton": 1,
+          "rails/generators/base": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "qnm/api.spreecommerce.com",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "qnm/api_cache",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "qnm/cassy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "qnm/chai",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "qnm/claude-to-sqlite",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "qnm/course-v3",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "Python"
+        ]
+      },
+      {
+        "repository": "qnm/devise_cas_authenticatable",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "qnm/doorkeeper-logout_redirect",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "qnm/enumerate_it",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "qnm/event-sourcing-rails-todo-app-demo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "qnm/fabrication",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "qnm/fastbook",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

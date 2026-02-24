@@ -1,0 +1,452 @@
+{
+  "username": "dmitry",
+  "areas": {
+    "OSS": {
+      "score": 0.5185185185185184,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.7777777777777777,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.8,
+      "details": {
+        "dmitry/active_admin": -0.125,
+        "dmitry/attr_accessible_block": 0.5738,
+        "dmitry/has_translations": 0.37109230769230767,
+        "dmitry/proximal_records": 0.3986,
+        "dmitry/yandex_mystem": 0.07646666666666667
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5757834757834758,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        4989016,
+        202
+      ],
+      "HTML": [
+        164280,
+        45
+      ],
+      "CSS": [
+        6031,
+        7
+      ],
+      "JavaScript": [
+        44967,
+        27
+      ],
+      "Python": [
+        5,
+        0
+      ],
+      "Shell": [
+        325,
+        16
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "Perl": [
+        0,
+        0
+      ],
+      "Emacs Lisp": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        1058,
+        3
+      ],
+      "Nginx": [
+        193,
+        7
+      ],
+      "Makefile": [
+        39,
+        5
+      ],
+      "SCSS": [
+        231,
+        0
+      ],
+      "CoffeeScript": [
+        558,
+        0
+      ],
+      "Vue": [
+        3294,
+        0
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 312,
+    "total_lines": 5209997,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 4989016,
+        "commits": 202
+      },
+      {
+        "language": "HTML",
+        "lines": 164280,
+        "commits": 45
+      },
+      {
+        "language": "JavaScript",
+        "lines": 44967,
+        "commits": 27
+      },
+      {
+        "language": "Shell",
+        "lines": 325,
+        "commits": 16
+      },
+      {
+        "language": "CSS",
+        "lines": 6031,
+        "commits": 7
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "dmitry",
+    "analysis_date": "2026-02-22T07:33:43.442669",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 232,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 5,
+        "packages": {
+          "express": 2,
+          "rails": 2,
+          "body-parser": 1,
+          "bluebird": 1,
+          "lodash": 1,
+          "url": 1,
+          "markdown": 1,
+          "fs": 1,
+          "request": 1,
+          "channels": 1,
+          "turbolinks": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 30,
+        "packages": {
+          "bup": 30,
+          "sys": 29,
+          "*": 25,
+          "options": 21,
+          "os": 14,
+          "struct": 7,
+          "git": 6,
+          "stat": 5,
+          "re": 5,
+          "time": 5,
+          "glob": 4,
+          "subprocess": 4,
+          "errno": 3,
+          "math": 3,
+          "tempfile": 2,
+          "getopt": 2,
+          "metadata": 2,
+          "GIT_MODE_TREE": 2,
+          "resource": 2,
+          "hashsplit": 2,
+          "socket": 1,
+          "fcntl": 1,
+          "random": 1,
+          "cProfile": 1,
+          "relpath": 1,
+          "fnmatch": 1,
+          "traceback": 1,
+          "readline": 1,
+          "ctypes": 1,
+          "fuse": 1,
+          "handle_ctrl_c": 1,
+          "_helpers": 1,
+          "signal": 1,
+          "copy": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 52,
+        "packages": {
+          "benchmark": 6,
+          "spec_helper": 5,
+          "rubygems": 4,
+          "Ai4r::Data": 4,
+          "rails": 3,
+          "active_record": 3,
+          "set": 3,
+          "csv": 2,
+          "uri": 2,
+          "active_support": 2,
+          "acts_as_sanitiled": 2,
+          "rspec": 2,
+          "Ai4r::Classifiers": 2,
+          "Ai4r::Data::Parameterizable": 2,
+          "ancestry": 2,
+          "nokogiri": 2,
+          "banzai": 2,
+          "database_cleaner/cucumber": 1,
+          "Warden::Test::Helpers": 1,
+          "RAILS_ROOT": 1,
+          "active_admin": 1,
+          "cucumber/rspec/doubles": 1,
+          "capybara/cucumber": 1,
+          "cucumber/rails": 1,
+          "database_cleaner": 1,
+          "capybara/rails": 1,
+          "capybara/session": 1,
+          "active_flag/railtie": 1,
+          "active_flag/definition": 1,
+          "active_flag/version": 1,
+          "active_flag/value": 1,
+          "ActiveFlag": 1,
+          "test_helper": 1,
+          "minitest/pride": 1,
+          "active_flag": 1,
+          "load_fixtures": 1,
+          "minitest/autorun": 1,
+          "redcloth": 1,
+          "sanitize": 1,
+          "ActsAsSanitiled::InstanceMethods": 1,
+          "acts_as_sanitiled/railtie": 1,
+          "active_support/core_ext": 1,
+          "bacon": 1,
+          "aggregate/resource": 1,
+          "aggregate/schema": 1,
+          "singleton": 1,
+          "aggregate": 1,
+          "rake/testtask": 1,
+          "rdoc/task": 1,
+          "rake": 1,
+          "ai4r": 1,
+          "Ai4r::Clusterers": 1,
+          "sort": 1,
+          "ancestry/has_ancestry": 1,
+          "Ancestry::InstanceMethods": 1,
+          "ancestry/instance_methods": 1,
+          "instance": 1,
+          "ancestry/class_methods": 1,
+          "dynamic": 1,
+          "ancestry/exceptions": 1,
+          "active_support/test_case": 1,
+          "test/unit": 1,
+          "environment": 1,
+          "InstanceMethods": 1,
+          "ActiveModel::AttributeMethods": 1,
+          "ActiveModel::MassAssignmentSecurity": 1,
+          "active_model": 1,
+          "coveralls": 1,
+          "attr_accessible_block": 1,
+          "axlsx": 1,
+          "axlsx/workbook/workbook.rb": 1,
+          "axlsx/content_type/content_type.rb": 1,
+          "axlsx/rels/relationships.rb": 1,
+          "active_support/inflector": 1,
+          "axlsx/stylesheet/styles.rb": 1,
+          "axlsx/doc_props/app.rb": 1,
+          "axlsx/util/ms_off_crypto.rb": 1,
+          "axlsx/drawing/drawing.rb": 1,
+          "axlsx/util/validators.rb": 1,
+          "axlsx/util/simple_typed_list.rb": 1,
+          "axlsx/doc_props/core.rb": 1,
+          "axlsx/util/constants.rb": 1,
+          "time": 1,
+          "axlsx/package.rb": 1,
+          "bigdecimal": 1,
+          "zip/zip": 1,
+          "RMagick": 1,
+          "active_support/core_ext/object/instance_variables": 1,
+          "axlsx/version.rb": 1,
+          "axlsx/content_type/default.rb": 1,
+          "axlsx/content_type/override.rb": 1,
+          "axlsx/drawing/marker.rb": 1,
+          "axlsx/drawing/chart.rb": 1,
+          "axlsx/drawing/line_3D_chart.rb": 1,
+          "axlsx/drawing/series.rb": 1,
+          "axlsx/drawing/pie_series.rb": 1,
+          "axlsx/drawing/one_cell_anchor.rb": 1,
+          "axlsx/drawing/val_axis_data.rb": 1,
+          "axlsx/drawing/bar_series.rb": 1,
+          "axlsx/drawing/axis.rb": 1,
+          "axlsx/drawing/graphic_frame.rb": 1,
+          "axlsx/drawing/view_3D.rb": 1,
+          "axlsx/drawing/scaling.rb": 1,
+          "axlsx/drawing/bar_3D_chart.rb": 1,
+          "axlsx/drawing/cat_axis.rb": 1,
+          "axlsx/drawing/val_axis.rb": 1,
+          "axlsx/drawing/line_series.rb": 1,
+          "axlsx/drawing/picture_locking.rb": 1,
+          "axlsx/drawing/ser_axis.rb": 1,
+          "axlsx/drawing/pic.rb": 1,
+          "axlsx/drawing/cat_axis_data.rb": 1,
+          "axlsx/drawing/pie_3D_chart.rb": 1,
+          "axlsx/drawing/two_cell_anchor.rb": 1,
+          "axlsx/drawing/title.rb": 1,
+          "axlsx/drawing/series_title.rb": 1,
+          "cgi": 1,
+          "json": 1,
+          "net/https": 1,
+          "net/http": 1,
+          "AudioUploader::Attachment": 1,
+          "streamio-ffmpeg": 1,
+          "active_job/railtie": 1,
+          "active_model/railtie": 1,
+          "active_record/railtie": 1,
+          "action_mailer/railtie": 1,
+          "action_cable/engine": 1,
+          "boot": 1,
+          "action_controller/railtie": 1,
+          "rails/test_unit/railtie": 1,
+          "action_view/railtie": 1,
+          "sprockets/railtie": 1,
+          "bundler/setup": 1,
+          "bootsnap/setup": 1,
+          "application": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "dmitry/active_admin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/active_flag",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/acts_as_sanitiled",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/aggregate",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/ai4r",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/algorithms",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/ancestry",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/attr_accessible_block",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/awesome-react",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "dmitry/axlsx",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/banzai",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/bing_translator-gem",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/bukaha_songs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "dmitry/bup",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

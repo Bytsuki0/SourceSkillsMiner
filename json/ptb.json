@@ -1,0 +1,303 @@
+{
+  "username": "ptb",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.1333333333333333,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.4,
+      "details": {
+        "ptb/amory": -0.3738,
+        "ptb/flexgrid": -0.041075,
+        "ptb/mac-setup": 0.5253,
+        "ptb/react": 0.1909,
+        "ptb/style": -0.8741142857142857
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6025641025641026,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        295654,
+        184
+      ],
+      "TypeScript": [
+        15135,
+        11
+      ],
+      "CSS": [
+        200,
+        0
+      ],
+      "HTML": [
+        20549,
+        22
+      ],
+      "Shell": [
+        24,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 217,
+    "total_lines": 331562,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 295654,
+        "commits": 184
+      },
+      {
+        "language": "HTML",
+        "lines": 20549,
+        "commits": 22
+      },
+      {
+        "language": "TypeScript",
+        "lines": 15135,
+        "commits": 11
+      },
+      {
+        "language": "CSS",
+        "lines": 200,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 24,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ptb",
+    "analysis_date": "2026-02-23T16:20:07.301794",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 106,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 76,
+        "packages": {
+          "gulp": 27,
+          "path": 20,
+          "lazypipe": 18,
+          "child_process": 16,
+          ":": 12,
+          "gulp-if": 12,
+          "gulp-load-plugins": 11,
+          "fs": 8,
+          "gulp-indent": 8,
+          "riot": 7,
+          "amory": 7,
+          "webpack-chain": 6,
+          "esm": 5,
+          "gulp-rename": 4,
+          "gulp-htmltidy": 4,
+          "webpack": 4,
+          "fs-extra": 4,
+          "rollup-plugin-replace": 3,
+          "rollup-plugin-node-resolve": 3,
+          "rollup-plugin-commonjs": 3,
+          "gulp-cssnano": 2,
+          "gulp-csslint": 2,
+          "gulp-autoprefixer": 2,
+          "gulp-cssbeautify": 2,
+          "gulp-eslint": 2,
+          "gulp-babel": 2,
+          "gulp-jsbeautifier": 2,
+          "gulp-htmlmin": 2,
+          "gulp-w3cjs": 2,
+          "gulp-hub": 2,
+          "webpack-stream": 2,
+          "browserslist": 2,
+          "streamqueue": 2,
+          "gulp-concat": 2,
+          "gulp-riot": 2,
+          "gulp-sass": 2,
+          "gulp-csscomb": 2,
+          "gulp-sass-lint": 2,
+          "gulp-slim": 2,
+          "gulp-flatmap": 2,
+          "gulp-svgmin": 2,
+          "kexec": 2,
+          "gulp-trimlines": 2,
+          "gulp-inject-string": 2,
+          "gulp-changed-in-place": 2,
+          "actions": 2,
+          "cosmiconfig": 2,
+          "p-each-series": 2,
+          "tapable": 2,
+          "crypto": 2,
+          "object": 1,
+          "__esModule": 1,
+          "undefined": 1,
+          "node-fetch": 1,
+          "mocha": 1,
+          "mockttp": 1,
+          "chai": 1,
+          "chai-fetch": 1,
+          "babel": 1,
+          "clean-webpack-plugin": 1,
+          "readline": 1,
+          "webpack-contrib": 1,
+          "p-map": 1,
+          "loader-utils": 1,
+          "bin-wrapper": 1,
+          "p-pipe": 1,
+          "node-vibrant": 1,
+          "smartcrop-sharp": 1,
+          "exec-buffer": 1,
+          "sqip": 1,
+          "temp-write": 1,
+          "tempy": 1,
+          "sharp": 1,
+          "mini-svg-data-uri": 1,
+          "imagemin-svgo": 1,
+          "lodash.isequal": 1,
+          "lodash.uniqwith": 1,
+          "lodash.mergewith": 1,
+          "node-dir": 1,
+          "html-webpack-plugin": 1,
+          "abc": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ptb/2016.12.15",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/2016.12.17",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/2016.12.18",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/2016.12.19",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/2016.12.21",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/2016.12.25",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/2016.12.26",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/2016.12.29",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/2016.12.30",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/2016.12.31",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/2017.1.5",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/2017.7.4",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/action-wait-for-api",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptb/amory",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

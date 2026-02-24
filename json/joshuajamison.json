@@ -1,0 +1,331 @@
+{
+  "username": "joshuajamison",
+  "areas": {
+    "OSS": {
+      "score": -0.020961244247041155,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.46855813362943827
+      }
+    },
+    "Status": {
+      "score": 0.004679781393984506,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.46855813362943827,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.004070365713264162,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        3866,
+        9
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        1307,
+        1
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 10,
+    "total_lines": 5173,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 3866,
+        "commits": 9
+      },
+      {
+        "language": "Kotlin",
+        "lines": 1307,
+        "commits": 1
+      },
+      {
+        "language": "Shell",
+        "lines": 0,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "joshuajamison",
+    "analysis_date": "2026-02-22T15:56:20.338884",
+    "total_repos_analyzed": 10,
+    "total_files_analyzed": 145,
+    "languages": {
+      "C#": {
+        "files_scanned": 6,
+        "packages": {
+          "System.Windows.Forms": 3,
+          "System.Collections.Generic": 3,
+          "System.Runtime.InteropServices": 3,
+          "System.IO": 2,
+          "System.Drawing": 2,
+          "System.Diagnostics": 2,
+          "System.Threading": 2,
+          "System.Drawing.Imaging": 1,
+          "Microsoft.Win32": 1,
+          "System.ComponentModel": 1,
+          "System.IO.Ports": 1,
+          "System.Collections.ObjectModel": 1,
+          "System.Linq": 1,
+          "System.Threading.Tasks": 1,
+          "System.Runtime.CompilerServices": 1,
+          "System": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 10,
+        "packages": {
+          "row_convert.h": 6,
+          "borders.h": 2,
+          "<algorithm>": 2,
+          "algorithm": 2,
+          "java_objects.h": 2,
+          "java_stream.h": 2,
+          "<cmath>": 1,
+          "cmath": 1,
+          "decoder_heif.h": 1,
+          "decoder_jpeg.h": 1,
+          "decoder_jxl.h": 1,
+          "decoder_png.h": 1,
+          "decoder_webp.h": 1,
+          "android/bitmap.h": 1,
+          "include/lcms2.h": 1,
+          "<include/lcms2.h>": 1,
+          "<jni.h>": 1,
+          "<vector>": 1,
+          "decoders.h": 1,
+          "vector": 1,
+          "jni.h": 1,
+          "<android/bitmap.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 14,
+        "packages": {
+          "decoder_base.h": 5,
+          "log.h": 2,
+          "<memory>": 2,
+          "memory": 2,
+          "<jni.h>": 2,
+          "jni.h": 2,
+          "rect.h": 1,
+          "<include/lcms2.h>": 1,
+          "java_stream.h": 1,
+          "include/lcms2.h": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "borders.h": 1,
+          "<algorithm>": 1,
+          "algorithm": 1,
+          "<libheif/heif_cxx.h>": 1,
+          "<libheif/heif.h>": 1,
+          "libheif/heif.h": 1,
+          "libheif/heif_cxx.h": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "jpeglib.h": 1,
+          "<jxl/resizable_parallel_runner_cxx.h>": 1,
+          "jxl/decode_cxx.h": 1,
+          "jxl/decode.h": 1,
+          "<jxl/decode_cxx.h>": 1,
+          "<jxl/resizable_parallel_runner.h>": 1,
+          "<jxl/decode.h>": 1,
+          "jxl/resizable_parallel_runner.h": 1,
+          "jxl/resizable_parallel_runner_cxx.h": 1,
+          "png.h": 1,
+          "<src/webp/decode.h>": 1,
+          "src/webp/decode.h": 1,
+          "<src/webp/demux.h>": 1,
+          "src/webp/demux.h": 1,
+          "decoder_png.h": 1,
+          "decoder_headers.h": 1,
+          "decoder_jxl.h": 1,
+          "decoder_jpeg.h": 1,
+          "decoder_heif.h": 1,
+          "decoder_webp.h": 1,
+          "<stdlib.h>": 1,
+          "stream.h": 1,
+          "stdlib.h": 1,
+          "android/log.h": 1,
+          "<sys/types.h>": 1,
+          "sys/types.h": 1,
+          "<stdbool.h>": 1,
+          "stdbool.h": 1,
+          "<stdint.h>": 1,
+          "stdint.h": 1,
+          "string.h": 1,
+          "<string.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 74,
+        "packages": {
+          "com.codeundone": 32,
+          "de.innosystec": 30,
+          "android.app": 19,
+          "android.os": 17,
+          "android.content": 16,
+          "java.util": 16,
+          "android.view": 15,
+          "android.widget": 14,
+          "com.squareup": 12,
+          "android.support": 10,
+          "android.util": 9,
+          "java.io": 9,
+          "org.apache": 9,
+          "android.graphics": 7,
+          "static": 6,
+          "gnu.crypto": 4,
+          "android.text": 3,
+          "org.junit": 2,
+          "java.text": 2,
+          "android.annotation": 1,
+          "org.intellij": 1,
+          "org.robolectric": 1,
+          "java.security": 1,
+          "java.nio": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 38,
+        "packages": {
+          "eu.kanade": 30,
+          "tachiyomi.domain": 13,
+          "kotlinx.coroutines": 12,
+          "tachiyomi.core": 12,
+          "com.codeundone": 6,
+          "androidx.compose": 6,
+          "tachiyomi.source": 5,
+          "java.util": 4,
+          "android.content": 4,
+          "tachiyomi.data": 4,
+          "uy.kohesive": 3,
+          "android.graphics": 2,
+          "tachiyomi.decoder": 2,
+          "org.junit": 2,
+          "androidx.core": 2,
+          "java.time": 2,
+          "kotlin.concurrent": 1,
+          "The": 1,
+          "java.io": 1,
+          "androidx.test": 1,
+          "android.os": 1,
+          "androidx.appcompat": 1,
+          "androidx.activity": 1,
+          "class": 1,
+          "androidx.vectordrawable": 1,
+          "android.util": 1,
+          "kotlin.contracts": 1,
+          "tachiyomi.i18n": 1,
+          "dev.icerock": 1,
+          "logcat.LogPriority": 1,
+          "java.lang": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "joshuajamison/AdvancedRecyclerView",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "joshuajamison/Android-soft-keyboard",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "joshuajamison/android-times-square",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "joshuajamison/HueLightPlus",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "joshuajamison/image-decoder",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "joshuajamison/java-unrar",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "joshuajamison/loading-animation-compose",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "joshuajamison/SkinningStylingAnDevCon2",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "joshuajamison/tachiyomi",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      }
+    ]
+  }
+}

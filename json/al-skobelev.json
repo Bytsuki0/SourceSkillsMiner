@@ -1,0 +1,538 @@
+{
+  "username": "al-skobelev",
+  "areas": {
+    "OSS": {
+      "score": 0.7,
+      "details": {
+        "issue_resolution_rate": 0.8,
+        "pr_merge_rate": 0.75,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.3211538461538461,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Objective-C": [
+        24818,
+        53
+      ],
+      "C": [
+        20816,
+        0
+      ],
+      "Shell": [
+        5057,
+        0
+      ],
+      "Ruby": [
+        18,
+        0
+      ],
+      "HTML": [
+        20864,
+        146
+      ],
+      "Java": [
+        160,
+        0
+      ],
+      "Groff": [
+        897,
+        0
+      ],
+      "Makefile": [
+        542,
+        0
+      ],
+      "Logos": [
+        520,
+        0
+      ],
+      "Nu": [
+        10,
+        1
+      ],
+      "Emacs Lisp": [
+        1056,
+        11
+      ],
+      "Assembly": [
+        1,
+        0
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "PHP": [
+        4,
+        0
+      ],
+      "JavaScript": [
+        3,
+        0
+      ],
+      "Perl": [
+        2,
+        0
+      ],
+      "R": [
+        1,
+        0
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 211,
+    "total_lines": 74769,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 20864,
+        "commits": 146
+      },
+      {
+        "language": "Objective-C",
+        "lines": 24818,
+        "commits": 53
+      },
+      {
+        "language": "Emacs Lisp",
+        "lines": 1056,
+        "commits": 11
+      },
+      {
+        "language": "Nu",
+        "lines": 10,
+        "commits": 1
+      },
+      {
+        "language": "C",
+        "lines": 20816,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "al-skobelev",
+    "analysis_date": "2026-02-23T06:33:02.427792",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 171,
+    "languages": {
+      "C": {
+        "files_scanned": 33,
+        "packages": {
+          "string.h": 20,
+          "<string.h>": 20,
+          "stdio.h": 18,
+          "<stdio.h>": 18,
+          "sys/types.h": 12,
+          "<sys/types.h>": 12,
+          "stdlib.h": 12,
+          "<stdlib.h>": 12,
+          "<errno.h>": 11,
+          "errno.h": 11,
+          "sys/param.h": 10,
+          "<sys/param.h>": 10,
+          "<internal.h>": 9,
+          "internal.h": 9,
+          "config.h": 7,
+          "<config.h>": 7,
+          "<unistd.h>": 5,
+          "unistd.h": 5,
+          "<fcntl.h>": 5,
+          "fcntl.h": 5,
+          "<compat.h>": 4,
+          "compat.h": 4,
+          "<pwd.h>": 4,
+          "pwd.h": 4,
+          "sys/stat.h": 3,
+          "<sys/stat.h>": 3,
+          "grp.h": 3,
+          "<grp.h>": 3,
+          "mach_inject.h": 3,
+          "<ffi_common.h>": 3,
+          "<ffi.h>": 3,
+          "ffi_common.h": 3,
+          "ffi.h": 3,
+          "ctype.h": 2,
+          "<ctype.h>": 2,
+          "<netdb.h>": 2,
+          "netdb.h": 2,
+          "<dirent.h>": 2,
+          "dirent.h": 2,
+          "<CoreServices/CoreServices.h>": 2,
+          "<mach-o/dyld.h>": 2,
+          "mach-o/dyld.h": 2,
+          "load_bundle.h": 2,
+          "CoreServices/CoreServices.h": 2,
+          "assert.h": 2,
+          "<assert.h>": 2,
+          "mach_inject_bundle_stub.h": 2,
+          "sys/utsname.h": 1,
+          "<sys/utsname.h>": 1,
+          "<arpa/inet.h>": 1,
+          "<netinet/in.h>": 1,
+          "arpa/inet.h": 1,
+          "sys/socket.h": 1,
+          "<sys/socket.h>": 1,
+          "netinet/in.h": 1,
+          "<stdarg.h>": 1,
+          "stdarg.h": 1,
+          "<varargs.h>": 1,
+          "varargs.h": 1,
+          "stddef.h": 1,
+          "<stddef.h>": 1,
+          "<utime.h>": 1,
+          "utime.h": 1,
+          "<limits.h>": 1,
+          "<time.h>": 1,
+          "time.h": 1,
+          "limits.h": 1,
+          "zlib.h": 1,
+          "signal.h": 1,
+          "<libtar.h>": 1,
+          "<zlib.h>": 1,
+          "libtar.h": 1,
+          "<signal.h>": 1,
+          "<libtar_listhash.h>": 1,
+          "libtar_listhash.h": 1,
+          "<sys/syslimits.h>": 1,
+          "sys/syslimits.h": 1,
+          "mach-o/getsect.h": 1,
+          "<mach-o/arch.h>": 1,
+          "sys/mman.h": 1,
+          "<mach/mach.h>": 1,
+          "<mach-o/getsect.h>": 1,
+          "<sys/errno.h>": 1,
+          "mach-o/arch.h": 1,
+          "mach-o/fat.h": 1,
+          "<mach-o/fat.h>": 1,
+          "sys/errno.h": 1,
+          "mach/mach.h": 1,
+          "<sys/mman.h>": 1,
+          "mach_inject_bundle.h": 1,
+          "<mach/thread_act.h>": 1,
+          "<mach/mach_init.h>": 1,
+          "pthread.h": 1,
+          "<Carbon/Carbon.h>": 1,
+          "<pthread.h>": 1,
+          "mach/mach_init.h": 1,
+          "Carbon/Carbon.h": 1,
+          "mach/thread_act.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 3,
+        "packages": {
+          "CAXException.h": 2,
+          "CAStreamBasicDescription.h": 2,
+          "<AudioToolbox/ExtendedAudioFile.h>": 1,
+          "<AudioToolbox/AudioFile.h>": 1,
+          "AudioToolbox/AudioQueue.h": 1,
+          "<AudioToolbox/AudioQueue.h>": 1,
+          "AudioToolbox/ExtendedAudioFile.h": 1,
+          "AudioToolbox/AudioFile.h": 1,
+          "CFByteOrder.h": 1,
+          "CALogMacros.h": 1,
+          "<CoreFoundation/CFByteOrder.h>": 1,
+          "CAMath.h": 1,
+          "stddef.h": 1,
+          "<stddef.h>": 1,
+          "CoreFoundation/CFByteOrder.h": 1,
+          "<CFByteOrder.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 61,
+        "packages": {
+          "<UIKit/UIKit.h>": 22,
+          "<Foundation/Foundation.h>": 21,
+          "stddef.h": 6,
+          "<stddef.h>": 6,
+          "<SenTestingKit/SenTestingKit.h>": 4,
+          "AFHTTPRequestOperation.h": 4,
+          "string.h": 4,
+          "stdio.h": 4,
+          "<string.h>": 4,
+          "<stdio.h>": 4,
+          "<sys/types.h>": 4,
+          "sys/types.h": 4,
+          "<SystemConfiguration/SystemConfiguration.h>": 3,
+          "<Availability.h>": 3,
+          "<AVFoundation/AVFoundation.h>": 3,
+          "<CoreAudio/CoreAudioTypes.h>": 3,
+          "CoreAudio/CoreAudioTypes.h": 3,
+          "CoreAudioTypes.h": 3,
+          "mach/error.h": 3,
+          "<mach/error.h>": 3,
+          "<limits.h>": 3,
+          "ffitarget.h": 3,
+          "<ffitarget.h>": 3,
+          "limits.h": 3,
+          "fficonfig.h": 3,
+          "AFURLConnectionOperation.h": 2,
+          "CADebugMacros.h": 2,
+          "CoreFoundation/CoreFoundation.h": 2,
+          "<CoreFoundation/CoreFoundation.h>": 2,
+          "CoreFoundation.h": 2,
+          "AudioSession.h": 2,
+          "ConnectionManager.h": 2,
+          "config.h": 2,
+          "sys/stat.h": 2,
+          "<config.h>": 2,
+          "<sys/stat.h>": 2,
+          "<fficonfig.h>": 2,
+          "<alloca.h>": 2,
+          "alloca.h": 2,
+          "<Cocoa/Cocoa.h>": 1,
+          "AFJSONRequestOperation.h": 1,
+          "AFPropertyListRequestOperation.h": 1,
+          "AFHTTPClient.h": 1,
+          "UIImageView+AFNetworking.h": 1,
+          "AFXMLRequestOperation.h": 1,
+          "AFImageRequestOperation.h": 1,
+          "AFNetworkActivityIndicatorManager.h": 1,
+          "pthread.h": 1,
+          "CADebugger.h": 1,
+          "CAHostTimeBase.h": 1,
+          "<pthread.h>": 1,
+          "CADebugPrintf.h": 1,
+          "<CoreAudioTypes.h>": 1,
+          "ctype.h": 1,
+          "<ctype.h>": 1,
+          "ConditionalMacros.h": 1,
+          "<CoreFoundation.h>": 1,
+          "<ConditionalMacros.h>": 1,
+          "<AVFoundation/AVAssetResourceLoader.h>": 1,
+          "<AudioToolbox/AudioToolbox.h>": 1,
+          "<gh-unit/Classes/GHUnit.h>": 1,
+          "fnmatch.h": 1,
+          "<netdb.h>": 1,
+          "sys/sysmacros.h": 1,
+          "glob.h": 1,
+          "<sys/sysmacros.h>": 1,
+          "<varargs.h>": 1,
+          "stdarg.h": 1,
+          "<libgen.h>": 1,
+          "netdb.h": 1,
+          "<sys/mkdev.h>": 1,
+          "<glob.h>": 1,
+          "<fnmatch.h>": 1,
+          "sys/mkdev.h": 1,
+          "libgen.h": 1,
+          "<stdarg.h>": 1,
+          "varargs.h": 1,
+          "<compat.h>": 1,
+          "libtar.h": 1,
+          "compat.h": 1,
+          "<libtar.h>": 1,
+          "<tar.h>": 1,
+          "tar.h": 1,
+          "<libtar_listhash.h>": 1,
+          "libtar_listhash.h": 1,
+          "<netinet/in.h>": 1,
+          "netinet/in.h": 1,
+          "mach/vm_types.h": 1,
+          "<mach/vm_types.h>": 1,
+          "stdlib.h": 1,
+          "<stdlib.h>": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 60,
+        "packages": {
+          "CommonUtils.h": 17,
+          "AppDelegate.h": 13,
+          "<UIKit/UIKit.h>": 9,
+          "UIKit/UIKit.h": 9,
+          "Reachability.h": 6,
+          "MainVC.h": 6,
+          "<arpa/inet.h>": 5,
+          "ifaddrs.h": 5,
+          "arpa/inet.h": 5,
+          "<ifaddrs.h>": 5,
+          "CommonCrypto/CommonDigest.h": 4,
+          "<CommonCrypto/CommonDigest.h>": 4,
+          "netdb.h": 4,
+          "<netinet/in.h>": 4,
+          "sys/socket.h": 4,
+          "<netdb.h>": 4,
+          "<sys/socket.h>": 4,
+          "netinet/in.h": 4,
+          "<netinet6/in6.h>": 4,
+          "netinet6/in6.h": 4,
+          "URLConnectionOperation.h": 4,
+          "Cocoa/Cocoa.h": 4,
+          "<Cocoa/Cocoa.h>": 4,
+          "CoreFoundation/CoreFoundation.h": 3,
+          "<CoreFoundation/CoreFoundation.h>": 3,
+          "DownloaderTests.h": 3,
+          "AFJSONUtilities.h": 3,
+          "AFHTTPRequestOperation.h": 3,
+          "<AVFoundation/AVFoundation.h>": 3,
+          "AVFoundation/AVFoundation.h": 3,
+          "AudioPlayer.h": 3,
+          "Nu/Nu.h": 3,
+          "<Nu/Nu.h>": 3,
+          "AFNetworking.h": 2,
+          "DownloadManager.h": 2,
+          "<AFNetworking.h>": 2,
+          "ABUIGroupsAppDelegate.h": 2,
+          "AddGroupViewController.h": 2,
+          "MySource.h": 2,
+          "APLAppDelegate.h": 2,
+          "APLCustomAVARLDelegate.h": 2,
+          "APLPlayerView.h": 2,
+          "<AudioToolbox/AudioToolbox.h>": 2,
+          "AudioToolbox/AudioToolbox.h": 2,
+          "AudioSession.h": 2,
+          "AudioSessionTest.h": 2,
+          "<mach/mach_time.h>": 2,
+          "mach/mach_time.h": 2,
+          "Foundation/Foundation.h": 1,
+          "<Foundation/Foundation.h>": 1,
+          "SystemConfiguration/SystemConfiguration.h": 1,
+          "AFHTTPClient.h": 1,
+          "<SystemConfiguration/SystemConfiguration.h>": 1,
+          "Availability.h": 1,
+          "<Availability.h>": 1,
+          "<objc/runtime.h>": 1,
+          "objc/runtime.h": 1,
+          "AFImageRequestOperation.h": 1,
+          "AFJSONRequestOperation.h": 1,
+          "libkern/OSAtomic.h": 1,
+          "<libkern/OSAtomic.h>": 1,
+          "AFNetworkActivityIndicatorManager.h": 1,
+          "AFPropertyListRequestOperation.h": 1,
+          "AFURLConnectionOperation.h": 1,
+          "this": 1,
+          "GroupViewController.h": 1,
+          "AQOfflineRenderTestAppDelegate.h": 1,
+          "MyViewController.h": 1,
+          "APLViewController.h": 1,
+          "<MediaPlayer/MediaPlayer.h>": 1,
+          "MediaPlayer/MediaPlayer.h": 1,
+          "AudioManagerTestTests.h": 1,
+          "<CoreAudio/CoreAudioTypes.h>": 1,
+          "CoreAudio/CoreAudioTypes.h": 1,
+          "net/if_dl.h": 1,
+          "<net/if.h>": 1,
+          "ConnectionManager.h": 1,
+          "sys/types.h": 1,
+          "<sys/types.h>": 1,
+          "net/if.h": 1,
+          "<net/if_dl.h>": 1,
+          "<complex.h>": 1,
+          "complex.h": 1,
+          "mach_inject_bundle.h": 1,
+          "<ScreenSaver/ScreenSaverView.h>": 1,
+          "ScreenSaver/ScreenSaverView.h": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "al-skobelev/AFNDownloader",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "al-skobelev/apple-ios-samples",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "al-skobelev/AudioManagerTest",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "al-skobelev/Downloader",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "al-skobelev/libtar",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "al-skobelev/md5test",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "al-skobelev/NSURLDownloader",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "al-skobelev/nu",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      }
+    ]
+  }
+}

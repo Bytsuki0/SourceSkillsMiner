@@ -1,0 +1,65 @@
+{
+  "username": "olifante",
+  "areas": {
+    "OSS": {
+      "score": 0.4642857142857142,
+      "details": {
+        "issue_resolution_rate": 0.625,
+        "pr_merge_rate": 0.5714285714285714,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4487179487179487,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.17307692307692307
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "olifante/FEDwJS-zungebot": -0.1027
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.37825091575091574,
+  "language_usage": {
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": "list index out of range",
+    "username": "olifante",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

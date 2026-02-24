@@ -1,0 +1,443 @@
+{
+  "username": "crux",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.3333333333333333,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "crux/smoothed-z-score": 0.5424666666666667
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5326923076923077,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        16928,
+        222
+      ],
+      "HTML": [
+        13692,
+        93
+      ],
+      "Vim Script": [
+        420,
+        6
+      ],
+      "JavaScript": [
+        6343,
+        27
+      ],
+      "SCSS": [
+        2128,
+        19
+      ],
+      "Java": [
+        1132,
+        10
+      ],
+      "Shell": [
+        3934,
+        20
+      ],
+      "CSS": [
+        1090,
+        1
+      ],
+      "PHP": [
+        9811,
+        2
+      ],
+      "Blade": [
+        2139,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 400,
+    "total_lines": 57617,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 16928,
+        "commits": 222
+      },
+      {
+        "language": "HTML",
+        "lines": 13692,
+        "commits": 93
+      },
+      {
+        "language": "JavaScript",
+        "lines": 6343,
+        "commits": 27
+      },
+      {
+        "language": "Shell",
+        "lines": 3934,
+        "commits": 20
+      },
+      {
+        "language": "SCSS",
+        "lines": 2128,
+        "commits": 19
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "crux",
+    "analysis_date": "2026-02-23T11:33:19.870310",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 134,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "<assert.h>": 1,
+          "<ctype.h>": 1,
+          "stdlib.h": 1,
+          "ctype.h": 1,
+          "<stdlib.h>": 1,
+          "<string.h>": 1,
+          "http11_parser.h": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "assert.h": 1,
+          "string.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "http11_parser.h": 1,
+          "<Foundation/Foundation.h>": 1,
+          "sys/types.h": 1,
+          "<stddef.h>": 1,
+          "stddef.h": 1,
+          "<sys/types.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "bean": 1,
+          "bonzo": 1,
+          "qwery": 1,
+          "reqwest": 1,
+          "all": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 1,
+        "packages": {
+          "CTParser.h": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 28,
+        "packages": {
+          "Spatie\\DataTransferObject\\DataTransferObject": 14,
+          "Spatie\\DataTransferObject\\Caster": 10,
+          "Spatie\\DataTransferObject\\Attributes\\CastWith": 7,
+          "Attribute": 6,
+          "ReflectionProperty": 4,
+          "LogicException": 4,
+          "Exception": 4,
+          "ArrayAccess": 3,
+          "JetBrains\\PhpStorm\\Immutable": 3,
+          "ReflectionClass": 3,
+          "Spatie\\DataTransferObject\\Tests\\TestCase": 3,
+          "ReflectionNamedType": 2,
+          "ReflectionUnionType": 2,
+          "Spatie\\DataTransferObject\\Attributes\\DefaultCast": 2,
+          "Illuminate\\Support\\Collection": 2,
+          "Spatie\\DataTransferObject\\Exceptions\\InvalidCasterClass": 1,
+          "Traversable": 1,
+          "Spatie\\DataTransferObject\\Casters\\DataTransferObjectCaster": 1,
+          "Spatie\\DataTransferObject\\Attributes\\MapTo": 1,
+          "Spatie\\DataTransferObject\\Reflection\\DataTransferObjectClass": 1,
+          "Spatie\\DataTransferObject\\Exceptions\\UnknownProperties": 1,
+          "Spatie\\DataTransferObject\\Attributes\\Strict": 1,
+          "Spatie\\DataTransferObject\\Exceptions\\ValidationException": 1,
+          "ReflectionAttribute": 1,
+          "Spatie\\DataTransferObject\\Attributes\\MapFrom": 1,
+          "ReflectionType": 1,
+          "Spatie\\DataTransferObject\\Validator": 1,
+          "Spatie\\DataTransferObject\\Validation\\ValidationResult": 1,
+          "Spatie\\DataTransferObject\\Tests\\Dummy\\ComplexObjectWithCaster": 1,
+          "Spatie\\DataTransferObject\\Tests\\Dummy\\ComplexObjectCaster": 1,
+          "Spatie\\DataTransferObject\\Tests\\Dummy\\ComplexObject": 1,
+          "Spatie\\DataTransferObject\\Tests\\Stubs\\IntegerEnum": 1,
+          "Spatie\\DataTransferObject\\Tests\\Stubs\\SimpleEnum": 1,
+          "Spatie\\DataTransferObject\\Tests\\Stubs\\StringEnum": 1,
+          "Spatie\\DataTransferObject\\Casters\\EnumCaster": 1,
+          "Iterator": 1,
+          "IteratorAggregate": 1,
+          "ArrayIterator": 1,
+          "ArrayObject": 1,
+          "Spatie\\DataTransferObject\\Casters\\ArrayCaster": 1,
+          "Spatie\\DataTransferObject\\Tests\\Dummy\\WithDefaultValueDto": 1,
+          "Spatie\\DataTransferObject\\Tests\\Dummy\\ComplexDtoWithNullableProperty": 1,
+          "Spatie\\DataTransferObject\\Tests\\Dummy\\ComplexStrictDto": 1,
+          "Spatie\\DataTransferObject\\Tests\\Dummy\\ComplexDtoWithSelf": 1,
+          "Spatie\\DataTransferObject\\Tests\\Dummy\\ComplexDtoWithParent": 1,
+          "Spatie\\DataTransferObject\\Tests\\Dummy\\ComplexDtoWithCastedAttributeHavingCast": 1,
+          "Spatie\\DataTransferObject\\Tests\\Dummy\\BasicDto": 1,
+          "Spatie\\DataTransferObject\\Tests\\Dummy\\ComplexDto": 1,
+          "DateTimeImmutable": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 57,
+        "packages": {
+          "spec_helper": 12,
+          "AsciiTracker": 8,
+          "OAttr": 5,
+          "applix/oattr": 4,
+          "gom/remote": 4,
+          "rubygems": 3,
+          "socket": 3,
+          "fakeweb": 3,
+          "byebug": 2,
+          "tempfile": 2,
+          "rack": 2,
+          "control_tower": 2,
+          "stringio": 2,
+          "open-uri": 2,
+          "json": 2,
+          "gom-core": 2,
+          "Gom::Remote": 2,
+          "gom/sensor_port": 2,
+          "applix/hash": 1,
+          "applix": 1,
+          "asciitracker/record": 1,
+          "asciitracker/exceptions": 1,
+          "asciitracker/slot": 1,
+          "asciitracker/ranges": 1,
+          "asciitracker/hhmm": 1,
+          "asciitracker/parser": 1,
+          "asciitracker/model": 1,
+          "asciitracker/app": 1,
+          "asciitracker/version": 1,
+          "asciitracker/controller": 1,
+          "date": 1,
+          "asciitracker/hash_ext": 1,
+          "Comparable": 1,
+          "asciitracker/rdparser": 1,
+          "Timecard": 1,
+          "asciitracker": 1,
+          "autotest": 1,
+          "minitest/autorun": 1,
+          "autotest/rails": 1,
+          "colours-and-material-boards": 1,
+          "spec/autorun": 1,
+          "spec": 1,
+          "mkmf": 1,
+          "CTParser": 1,
+          "rack/session/abstract/id": 1,
+          "on": 1,
+          ":store": 1,
+          ":fetch": 1,
+          "bacon": 1,
+          "#{$HERE}/echoe/platform": 1,
+          "rake/gempackagetask": 1,
+          "rbconfig": 1,
+          "#{$HERE}/echoe/net": 1,
+          "#{$HERE}/echoe/rubygems": 1,
+          "#{$HERE}/../vendor/rake/lib/rake/contrib/compositepublisher": 1,
+          "highline/import": 1,
+          "#{$HERE}/echoe/extensions": 1,
+          "rake/clean": 1,
+          "#{$HERE}/echoe/client": 1,
+          "spec/rake/spectask": 1,
+          "#{$HERE}/../vendor/rake/lib/rake/contrib/sshpublisher": 1,
+          "rake/testtask": 1,
+          "rake/rdoctask": 1,
+          "rubyforge": 1,
+          "rubygems/specification": 1,
+          "rake": 1,
+          "echoe": 1,
+          "net/https": 1,
+          ":use_ssl=": 1,
+          ":old_validate": 1,
+          "enttec-dmx-usb-pro-tools/rdmx": 1,
+          "nokogiri": 1,
+          "enttec-dmx-usb-pro-tools/version": 1,
+          "enttec-dmx-usb-pro-tools/dmx_node": 1,
+          "serialport": 1,
+          "Enttec": 1,
+          "enttec-dmx-usb-pro-tools": 1,
+          "pathname": 1,
+          "env-path-fix": 1,
+          "test/unit": 1,
+          "glytics/model": 1,
+          "glytics/google_chart_renderer": 1,
+          "yaml": 1,
+          "googlecharts": 1,
+          "gom/core": 1,
+          "gom/core/primitive": 1,
+          "gom/logger": 1,
+          "gom/core/version": 1,
+          "logger": 1,
+          "Gom::Core": 1,
+          "gom/remote/http_server": 1,
+          "gom/remote/connection": 1,
+          "gom/remote/subscription": 1,
+          "gom/remote/daemon": 1,
+          "gom/script/version": 1,
+          "gom/remote/entry": 1,
+          "net/http": 1,
+          "timeout": 1,
+          "::Timeout": 1,
+          "rack/handler/mongrel": 1,
+          "thread": 1,
+          "gom-script": 1,
+          "gom/sensor_ports": 1,
+          "gom/log": 1,
+          "gom/sensor_ports/version": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "crux/applix",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "crux/ascii-tracker",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "crux/autotest-rails",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "crux/colours-and-material-boards",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "crux/ControlTower",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "crux/crux.github.com",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "crux/data-transfer-object",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "crux/echoe",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "crux/enttec-dmx-usb-pro-tools",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "crux/env-path-fix",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "crux/glytics",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "crux/gom-core",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "crux/gom-script",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "crux/gom-sensor-ports",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,614 @@
+{
+  "username": "hfwang",
+  "areas": {
+    "OSS": {
+      "score": 0.9797979797979797,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 1.303030303030303,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "hfwang/ar_protobuf_store": 0.7418,
+        "hfwang/fluent-plugin-google-cloud-storage": 0.30542222222222226,
+        "hfwang/omniauth-paypal-permissions": 0.10462857142857143
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.791103341103341,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        22582,
+        233
+      ],
+      "Java": [
+        25832,
+        9
+      ],
+      "Python": [
+        45139,
+        52
+      ],
+      "Shell": [
+        3410,
+        6
+      ],
+      "JavaScript": [
+        58882,
+        62
+      ],
+      "Perl": [
+        8666,
+        0
+      ],
+      "Go": [
+        625,
+        14
+      ],
+      "Emacs Lisp": [
+        485966,
+        1
+      ],
+      "PHP": [
+        5194,
+        0
+      ],
+      "CSS": [
+        3120,
+        3
+      ],
+      "C++": [
+        514,
+        0
+      ],
+      "C": [
+        237,
+        0
+      ],
+      "Objective-C": [
+        88,
+        0
+      ],
+      "HTML": [
+        1,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "XSLT": [
+        0,
+        0
+      ],
+      "CoffeeScript": [
+        18,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Groovy": [
+        48,
+        2
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 382,
+    "total_lines": 660322,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 22582,
+        "commits": 233
+      },
+      {
+        "language": "JavaScript",
+        "lines": 58882,
+        "commits": 62
+      },
+      {
+        "language": "Python",
+        "lines": 45139,
+        "commits": 52
+      },
+      {
+        "language": "Go",
+        "lines": 625,
+        "commits": 14
+      },
+      {
+        "language": "Java",
+        "lines": 25832,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "hfwang",
+    "analysis_date": "2026-02-22T17:46:35.226364",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 245,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "<includeme.notanhfile>": 1,
+          "includeme.notanhfile": 1,
+          "<subdir/includeme3.h>": 1,
+          "subdir/includeme3.h": 1,
+          "includeme1.h": 1,
+          "<includeme2.h>": 1,
+          "includeme2.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "c++-test.hh": 1,
+          "<c++-test.hh>": 1,
+          "<stdio.h>": 1,
+          "<cmath>": 1,
+          "POA::std": 1,
+          "Namespace1": 1,
+          "namespace": 1,
+          "Lexer::get_test": 1,
+          "namespace1::n_class1": 1,
+          "Test": 1,
+          "cmath": 1,
+          "stdio.h": 1,
+          "CORBA::LEX::get_token": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 29,
+        "packages": {
+          "fmt": 17,
+          "time": 14,
+          "errors": 13,
+          "github.com/GoogleCloudPlatform/cloudsql-proxy/proxy/proxy": 10,
+          "net": 10,
+          "testing": 10,
+          "github.com/GoogleCloudPlatform/cloudsql-proxy/logging": 9,
+          "bytes": 9,
+          "sync": 8,
+          "os": 7,
+          "net/http": 7,
+          "golang.org/x/net/context": 6,
+          "log": 6,
+          "io": 6,
+          "path/filepath": 5,
+          "io/ioutil": 5,
+          "strings": 5,
+          "syscall": 4,
+          "database/sql": 4,
+          "golang.org/x/oauth2": 3,
+          "github.com/GoogleCloudPlatform/cloudsql-proxy/proxy/util": 3,
+          "crypto/tls": 3,
+          "crypto/x509": 3,
+          "context": 3,
+          "flag": 2,
+          "github.com/GoogleCloudPlatform/cloudsql-proxy/proxy/fuse": 2,
+          "github.com/GoogleCloudPlatform/cloudsql-proxy/proxy/certs": 2,
+          "runtime": 2,
+          "math": 2,
+          "crypto/rand": 2,
+          "crypto/rsa": 2,
+          "github.com/GoogleCloudPlatform/cloudsql-proxy/proxy/dialers/mysql": 2,
+          "bazil.org/fuse": 2,
+          "sync/atomic": 2,
+          "golang.org/x/oauth2/google": 2,
+          "os/exec": 2,
+          "os/signal": 1,
+          "active": 1,
+          "github.com/GoogleCloudPlatform/cloudsql-proxy/proxy/limits": 1,
+          "cloud.google.com/go/compute/metadata": 1,
+          "that": 1,
+          "unix": 1,
+          "tcp4": 1,
+          "tcp6": 1,
+          "-instance": 1,
+          "Seting": 1,
+          "and": 1,
+          "dir": 1,
+          "setting": 1,
+          "-dir": 1,
+          "google.golang.org/api/googleapi": 1,
+          "encoding/pem": 1,
+          "github.com/go-sql-driver/mysql": 1,
+          "database/sql/driver": 1,
+          "github.com/lib/pq": 1,
+          "regexp": 1,
+          "bazil.org/fuse/fs": 1,
+          "reflect": 1,
+          "encoding/json": 1,
+          "golang.org/x/crypto/ssh": 1,
+          "bufio": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 96,
+        "packages": {
+          "java.io": 39,
+          "java.util": 37,
+          "com.koushikdutta": 30,
+          "jde.debugger": 25,
+          "java.nio": 19,
+          "java.net": 15,
+          "android.content": 14,
+          "com.amplitude": 14,
+          "com.loopj": 14,
+          "com.google": 13,
+          "org.apache": 12,
+          "org.json": 11,
+          "static": 11,
+          "android.os": 10,
+          "android.util": 8,
+          "com.sun": 8,
+          "java.security": 7,
+          "com.squareup": 7,
+          "javax.net": 7,
+          "org.junit": 7,
+          "org.robolectric": 6,
+          "java.sql": 5,
+          "java.lang": 4,
+          "jnr.unixsocket": 4,
+          "android.location": 3,
+          "android.text": 3,
+          "android.telephony": 2,
+          "java.text": 2,
+          "android.database": 1,
+          "okio.Buffer": 1,
+          "okio.ByteString": 1,
+          "com.mysql": 1,
+          "javax.annotation": 1,
+          "sun.security": 1,
+          "org.joda": 1,
+          "org.mockito": 1,
+          "org.postgresql": 1,
+          "com.beust": 1,
+          "com.example": 1,
+          "javax.servlet": 1,
+          "suspendCount": 1,
+          "javax.swing": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 23,
+        "packages": {
+          "Steve": 22,
+          "Look": 12,
+          "dns": 4,
+          "Test": 4,
+          "Known-bad": 3,
+          "http": 3,
+          "fs": 2,
+          "00-fail.js": 1,
+          "which": 1,
+          "10-example.js": 1,
+          "Ensure": 1,
+          "15-requiremx.js": 1,
+          "on": 1,
+          "15-per-site-blacklist.js": 1,
+          "20-ip.js": 1,
+          "25-subject.js": 1,
+          "27-body-blacklist.js": 1,
+          "30-mandatory.js": 1,
+          "35-name.js": 1,
+          "37-name-blacklist.js": 1,
+          "40-size.js": 1,
+          "42-length.js": 1,
+          "Count": 1,
+          "45-wordcount.js": 1,
+          "50-lotsaurls.js": 1,
+          "50-multilinks.js": 1,
+          "55-anchor-blacklist.js": 1,
+          "60-drone.js": 1,
+          "70-httpbl.js": 1,
+          "75-surbl.js": 1,
+          "80-sfs.js": 1,
+          "85-linksleeve.js": 1,
+          "querystring": 1,
+          "Return": 1,
+          "99-last.js": 1,
+          "cidr_match": 1,
+          "link_extractor": 1,
+          "async": 1,
+          "redis": 1,
+          "path": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 5,
+        "packages": {
+          "sys": 2,
+          "MonkeyRunner": 1,
+          "twiddle_env": 1,
+          "pprint": 1,
+          "com": 1,
+          "cherrypy": 1,
+          "socket": 1,
+          "vendor": 1,
+          "simplejson": 1,
+          "HTTPError": 1,
+          "request": 1,
+          "googleapiclient": 1,
+          "flask": 1,
+          "Flask": 1,
+          "six": 1,
+          "oauth2client": 1,
+          "build": 1,
+          "GoogleCredentials": 1,
+          "datetime": 1,
+          "uuid": 1,
+          "site": 1,
+          "os": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 52,
+        "packages": {
+          "color": 12,
+          "minitest_helper": 10,
+          "spec_helper": 7,
+          "ar_protobuf_store": 6,
+          "Color": 5,
+          "to_greyscale": 4,
+          "minitest/autorun": 3,
+          "fileutils": 3,
+          "ArProtobufStore": 3,
+          "fakeweb": 3,
+          "coinbase": 3,
+          "color/palette": 3,
+          "Color::Palette": 3,
+          "rubygems": 2,
+          "active_record": 2,
+          "helper": 2,
+          "json": 2,
+          "rails": 2,
+          "protocol_buffers": 2,
+          "simplecov": 2,
+          "money": 2,
+          "securerandom": 2,
+          "minitest": 2,
+          "color/css": 2,
+          "Enumerable": 2,
+          "acts_as_list": 1,
+          "acts_as_list/active_record/acts/list": 1,
+          "::ActiveRecord::Acts::List::InstanceMethods": 1,
+          "shared": 1,
+          "bundler/setup": 1,
+          "#{File.dirname(__FILE__)}/../init": 1,
+          "Shared::ZeroBased": 1,
+          "Shared::ListSub": 1,
+          "Shared::List": 1,
+          "Shared::TopAddition": 1,
+          "Shared::ArrayScopeList": 1,
+          "Shared::NoAddition": 1,
+          "adminlte-rails/engine": 1,
+          "adminlte-rails/version": 1,
+          "thor": 1,
+          "Thor::Actions": 1,
+          "httpclient": 1,
+          "byebug": 1,
+          "ar_marshal_store/railtie.rb": 1,
+          "ar_marshal_store": 1,
+          "ar_protobuf_store/version": 1,
+          "ar_protobuf_store/railtie.rb": 1,
+          "protobuf": 1,
+          "protobuf/message/extend": 1,
+          "protobuf/message/service": 1,
+          "protobuf/message/enum": 1,
+          "protobuf/message/message": 1,
+          "rspec": 1,
+          "coinbase/oauth_client": 1,
+          "coinbase/rates": 1,
+          "coinbase/version": 1,
+          "coinbase/client": 1,
+          "monetize": 1,
+          "httparty": 1,
+          "time": 1,
+          "hashie": 1,
+          "multi_json": 1,
+          "HTTParty": 1,
+          "oauth2": 1,
+          "i18n": 1,
+          "normalize_16bit": 1,
+          "normalize_fractional": 1,
+          "color/hsl": 1,
+          "color/cmyk": 1,
+          "color/rgb": 1,
+          "normalize_8bit": 1,
+          "color/yiq": 1,
+          "color/grayscale": 1,
+          "grey": 1,
+          "grey=": 1,
+          "to_grayscale": 1,
+          "lightness": 1,
+          "lightness=": 1,
+          "max_rgb_as_greyscale": 1,
+          "color/rgb/colors": 1,
+          "color/rgb/metallic": 1,
+          "color/palette/adobecolor": 1,
+          "warn": 1,
+          "old_warn": 1,
+          "color/palette/gimp": 1,
+          "color/palette/monocontrast": 1,
+          "constantrecord": 1,
+          "test/unit": 1,
+          "datetimepicker-rails/version": 1,
+          "embedded_localization/nil_friendly_marshal": 1,
+          "embedded_localization/version": 1,
+          "extensions/hash": 1,
+          "InstanceMethods": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "hfwang/acts_as_list",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "hfwang/adminlte-rails",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "hfwang/Amplitude-Android",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "hfwang/android-async-http",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "hfwang/android-monkey-runner-http-api",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hfwang/AndroidAsync",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "hfwang/appengine-bigquery-collector",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hfwang/ar_marshal_store",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "hfwang/ar_protobuf_store",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "hfwang/blogspam.js",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "hfwang/cloud-sql-jdbc-socket-factory",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "hfwang/cloudsql-proxy",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "hfwang/coinbase-ruby",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "hfwang/color",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "hfwang/constantrecord",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "hfwang/datetimepicker-rails",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "hfwang/emacs-config",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "Java"
+        ]
+      },
+      {
+        "repository": "hfwang/embedded_localization",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

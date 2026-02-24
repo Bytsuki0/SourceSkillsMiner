@@ -1,0 +1,366 @@
+{
+  "username": "danielberlinger",
+  "areas": {
+    "OSS": {
+      "score": 0.848642295368309,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.875,
+        "commits_activity": 0.8979634430524635
+      }
+    },
+    "Status": {
+      "score": 0.2913587632374013,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8793458371637943,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "danielberlinger/artifact": 0.6686000000000001,
+        "danielberlinger/rsd": 0.233
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5850002646514276,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        14363,
+        43
+      ],
+      "JavaScript": [
+        668,
+        5
+      ],
+      "Shell": [
+        31,
+        0
+      ],
+      "CoffeeScript": [
+        247,
+        2
+      ],
+      "Go": [
+        169,
+        3
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 53,
+    "total_lines": 15478,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 14363,
+        "commits": 43
+      },
+      {
+        "language": "JavaScript",
+        "lines": 668,
+        "commits": 5
+      },
+      {
+        "language": "Go",
+        "lines": 169,
+        "commits": 3
+      },
+      {
+        "language": "CoffeeScript",
+        "lines": 247,
+        "commits": 2
+      },
+      {
+        "language": "Shell",
+        "lines": 31,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "danielberlinger",
+    "analysis_date": "2026-02-23T15:26:02.110146",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 198,
+    "languages": {
+      "Go": {
+        "files_scanned": 6,
+        "packages": {
+          "baz": 2,
+          "encoding/base64": 2,
+          "strings": 2,
+          "foo": 2,
+          "log": 2,
+          "testing": 2,
+          "net/http": 2,
+          "net/url": 1,
+          "net/http/httputil": 1,
+          "regexp": 1,
+          "os": 1,
+          "fmt": 1,
+          "golang.org/x/net/html": 1,
+          "io/ioutil": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 18,
+        "packages": {
+          "re": 11,
+          "datetime": 5,
+          "typing": 4,
+          "time": 4,
+          "io": 3,
+          "Dict": 2,
+          "xml": 2,
+          "urllib": 2,
+          "html": 2,
+          "base64": 2,
+          "copy": 2,
+          "pathlib": 1,
+          "os": 1,
+          "sys": 1,
+          "feedparser": 1,
+          "Callable": 1,
+          "struct_time": 1,
+          "email": 1,
+          "codecs": 1,
+          "chardet": 1,
+          "cchardet": 1,
+          "optimistic_encoding_detection=False": 1,
+          "zlib": 1,
+          "struct": 1,
+          "gzip": 1,
+          "binascii": 1,
+          "__future__": 1,
+          "generator_stop": 1,
+          "json": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 68,
+        "packages": {
+          "test_helper": 13,
+          "spec_helper": 9,
+          "atomic": 8,
+          "rubygems": 6,
+          "logger": 4,
+          "thread_error_handling_tests": 4,
+          "ThreadErrorHandlingTests": 4,
+          "bundler/setup": 3,
+          "metriks/meter": 3,
+          "ThreadHelper": 3,
+          "rails/all": 2,
+          "digest/sha1": 2,
+          "rspec": 2,
+          "benchmark": 2,
+          "metriks": 2,
+          "red_black_tree": 2,
+          "metriks/registry": 2,
+          "metriks/reporter/proc_title": 2,
+          "metriks/snapshot": 2,
+          "metriks/timer": 2,
+          "metriks/counter": 2,
+          "metriks/histogram": 2,
+          "mocha": 2,
+          "test/unit": 2,
+          "statsd": 2,
+          "socket": 2,
+          "default": 1,
+          "devise/orm/active_record": 1,
+          "Guestlist": 1,
+          "rails/performance_test_help": 1,
+          "rails/test_help": 1,
+          "lib": 1,
+          "RoleRequirementSystem": 1,
+          "HoptoadNotifier::Catcher": 1,
+          "AuthenticatedSystem": 1,
+          "Authentication::ByCookieToken": 1,
+          "Authorization::AasmRoles": 1,
+          "Authentication::ByPassword": 1,
+          "Authentication": 1,
+          "rails": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "#{File.dirname(__FILE__)}/../vendor/gems/capistrano-ext-1.2.1/lib/capistrano/ext/multistage": 1,
+          "boot": 1,
+          "inline_attachment": 1,
+          "metrics/errors": 1,
+          "metrics/version": 1,
+          "multi_json": 1,
+          "metrics/persistence": 1,
+          "metrics/queue": 1,
+          "base64": 1,
+          "metrics/connection": 1,
+          "metrics/collection": 1,
+          "metrics/client": 1,
+          "metrics/middleware/count_requests": 1,
+          "metrics/middleware/retry": 1,
+          "metrics/middleware/expects_status": 1,
+          "faraday": 1,
+          "metrics/persistence/test": 1,
+          "metrics/persistence/direct": 1,
+          ":length": 1,
+          ":clear": 1,
+          ":benchmark": 1,
+          ":flush_queued": 1,
+          "set": 1,
+          "rspec/mocks/standalone": 1,
+          "pry": 1,
+          "librato/metrics": 1,
+          "popen4": 1,
+          "avl_tree": 1,
+          "rbtree": 1,
+          "metriks/uniform_sample": 1,
+          "metriks/exponentially_decaying_sample": 1,
+          "metriks/ewma": 1,
+          "metriks/utilization_timer": 1,
+          "net/https": 1,
+          "riemann/client": 1,
+          "hitimes": 1,
+          "metriks/reporter/graphite": 1,
+          "metriks/reporter/librato_metrics": 1,
+          "metriks/reporter/logger": 1,
+          "metriks/reporter/riemann": 1,
+          "pp": 1,
+          "thread": 1,
+          "turn": 1,
+          "eycap/recipes": 1,
+          "such": 1,
+          "reconciler": 1,
+          "active_record": 1,
+          "first_one": 1,
+          "redis": 1,
+          "second_one": 1,
+          "resque/plugins/statsd": 1,
+          "resque-statsd": 1,
+          "minitest/autorun": 1,
+          "helper": 1,
+          "stringio": 1,
+          "statsd/instrument": 1,
+          "timeout": 1,
+          "system_timer": 1,
+          "statsd-instrument": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "danielberlinger/artifact",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danielberlinger/bling",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danielberlinger/configula",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danielberlinger/elastic_guardian",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "danielberlinger/feedparser",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "danielberlinger/holiday-mailer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danielberlinger/librato-metrics",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danielberlinger/metriks",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danielberlinger/reconciler",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danielberlinger/resque-statsd",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danielberlinger/scraper",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "danielberlinger/statsd",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "danielberlinger/statsd-instrument",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

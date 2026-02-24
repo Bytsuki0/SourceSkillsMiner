@@ -1,0 +1,723 @@
+{
+  "username": "aran",
+  "areas": {
+    "OSS": {
+      "score": 0.5139988379097877,
+      "details": {
+        "issue_resolution_rate": 0.5769230769230769,
+        "pr_merge_rate": 0.875,
+        "commits_activity": 0.8190751799416048
+      }
+    },
+    "Status": {
+      "score": 0.26399883790978773,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8190751799416048,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.24449941895489385,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Dart": [
+        3853,
+        2
+      ],
+      "C++": [
+        4225,
+        4
+      ],
+      "Rust": [
+        1576,
+        1
+      ],
+      "CMake": [
+        3464,
+        2
+      ],
+      "C": [
+        762,
+        0
+      ],
+      "HTML": [
+        729,
+        0
+      ],
+      "Swift": [
+        317,
+        0
+      ],
+      "Kotlin": [
+        23,
+        0
+      ],
+      "Objective-C": [
+        8,
+        0
+      ],
+      "TypeScript": [
+        22190,
+        31
+      ],
+      "JavaScript": [
+        106,
+        0
+      ],
+      "CSS": [
+        43,
+        0
+      ],
+      "Go": [
+        7377,
+        26
+      ],
+      "Python": [
+        2571,
+        5
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 71,
+    "total_lines": 47244,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 22190,
+        "commits": 31
+      },
+      {
+        "language": "Go",
+        "lines": 7377,
+        "commits": 26
+      },
+      {
+        "language": "Python",
+        "lines": 2571,
+        "commits": 5
+      },
+      {
+        "language": "C++",
+        "lines": 4225,
+        "commits": 4
+      },
+      {
+        "language": "Dart",
+        "lines": 3853,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "aran",
+    "analysis_date": "2026-02-23T03:38:56.819618",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 193,
+    "languages": {
+      "C++": {
+        "files_scanned": 12,
+        "packages": {
+          "generated_plugin_registrant.h": 4,
+          "my_application.h": 4,
+          "flutter/generated_plugin_registrant.h": 3,
+          "<flutter_linux/flutter_linux.h>": 2,
+          "flutter_linux/flutter_linux.h": 2,
+          "gdk/gdkx.h": 2,
+          "<gdk/gdkx.h>": 2,
+          "flutter_window.h": 2,
+          "<windows.h>": 2,
+          "windows.h": 2,
+          "utils.h": 2,
+          "<flutter_windows.h>": 2,
+          "flutter_windows.h": 2,
+          "optional": 1,
+          "<optional>": 1,
+          "<flutter/flutter_view_controller.h>": 1,
+          "flutter/flutter_view_controller.h": 1,
+          "flutter/dart_project.h": 1,
+          "<flutter/dart_project.h>": 1,
+          "<io.h>": 1,
+          "<iostream>": 1,
+          "<stdio.h>": 1,
+          "io.h": 1,
+          "iostream": 1,
+          "stdio.h": 1,
+          "<dwmapi.h>": 1,
+          "resource.h": 1,
+          "win32_window.h": 1,
+          "dwmapi.h": 1,
+          "EnableNonClientDpiScaling": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 12,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 2,
+          "<stdbool.h>": 2,
+          "<stdlib.h>": 2,
+          "<stdint.h>": 2,
+          "stdlib.h": 2,
+          "stdbool.h": 2,
+          "stdint.h": 2,
+          "<flutter_linux/flutter_linux.h>": 2,
+          "flutter_linux/flutter_linux.h": 2,
+          "<gtk/gtk.h>": 2,
+          "gtk/gtk.h": 2,
+          "memory": 2,
+          "<memory>": 2,
+          "string": 2,
+          "<string>": 2,
+          "bridge_generated.h": 1,
+          "flutter/plugin_registry.h": 1,
+          "<flutter/plugin_registry.h>": 1,
+          "<flutter/flutter_view_controller.h>": 1,
+          "flutter/flutter_view_controller.h": 1,
+          "flutter/dart_project.h": 1,
+          "<flutter/dart_project.h>": 1,
+          "win32_window.h": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "functional": 1,
+          "<windows.h>": 1,
+          "windows.h": 1,
+          "<functional>": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 24,
+        "packages": {
+          "flutter_rust_bridge": 9,
+          "flutter": 9,
+          "dart:async": 8,
+          "dart:convert": 8,
+          "REPLACE_ME_DART_PACKAGE_NAME": 5,
+          "uuid": 4,
+          "meta": 4,
+          "bridge_definitions.dart": 4,
+          "flutter_test": 4,
+          "flutter_shell_redirect": 4,
+          "bridge_generated.dart": 3,
+          "dart:ffi": 3,
+          "integration_test": 3,
+          "api/simple.dart": 3,
+          "frb_generated.dart": 3,
+          "bridge_generated.io.dart": 2,
+          "dart:io": 2,
+          "provider": 2,
+          "bridge_generated.web.dart": 1,
+          "ffi.dart": 1,
+          "web_socket_channel": 1,
+          "dart:typed_data": 1,
+          "flutters": 1,
+          "http": 1,
+          "shelf": 1,
+          "args": 1,
+          "go_router": 1,
+          "frb_generated.io.dart": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 43,
+        "packages": {
+          "fmt": 23,
+          "github.com/spf13/cobra": 18,
+          "context": 14,
+          "time": 14,
+          "strings": 12,
+          "github.com/ory/x/configx": 12,
+          "os": 11,
+          "github.com/ory/x/cmdx": 11,
+          "github.com/ory/kratos/driver/config": 10,
+          "net/http": 9,
+          "io": 7,
+          "github.com/pkg/errors": 7,
+          "testing": 7,
+          "log/slog": 6,
+          "path/filepath": 6,
+          "github.com/stretchr/testify/require": 6,
+          "github.com/ory/kratos/driver": 6,
+          "net": 5,
+          "github.com/aran/devdomains/internal/network": 4,
+          "bytes": 4,
+          "encoding/hex": 4,
+          "github.com/ory/x/contextx": 4,
+          "github.com/ory/kratos/cmd/cliclient": 4,
+          "github.com/ory/x/flagx": 4,
+          "github.com/ory/kratos/identity": 4,
+          "github.com/ory/kratos/x": 4,
+          "strconv": 3,
+          "encoding/base64": 3,
+          "github.com/miekg/dns": 3,
+          "runtime": 3,
+          "github.com/ory/herodot": 3,
+          "github.com/stretchr/testify/assert": 3,
+          "github.com/ory/kratos/internal": 3,
+          "github.com/urfave/negroni": 3,
+          "github.com/ory/x/reqlog": 3,
+          "golang.org/x/sync/errgroup": 3,
+          "github.com/ory/kratos/hash": 3,
+          "github.com/aran/devdomains/internal/profile": 2,
+          "os/exec": 2,
+          "github.com/aran/devdomains/internal/output": 2,
+          "text/template": 2,
+          "crypto/x509": 2,
+          "crypto/rand": 2,
+          "8.8.8.8:53": 2,
+          "8.8.4.4:53": 2,
+          "1.1.1.1:53": 2,
+          "crypto/tls": 2,
+          "github.com/spf13/pflag": 2,
+          "encoding/json": 2,
+          "github.com/ory/x/otelx": 2,
+          "github.com/ory/graceful": 2,
+          "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp": 2,
+          "github.com/ory/x/healthx": 2,
+          "github.com/ory/x/logrusx": 2,
+          "github.com/inhies/go-bytesize": 2,
+          "github.com/fatih/color": 2,
+          "github.com/ory/kratos/internal/clihelpers": 2,
+          "github.com/ory/kratos/cmd/identities": 2,
+          "github.com/tidwall/gjson": 2,
+          "github.com/aran/devdomains/internal/wireguard": 1,
+          "github.com/aran/devdomains/internal/dns": 1,
+          "syscall": 1,
+          "github.com/aran/devdomains/internal/html": 1,
+          "(e.g.": 1,
+          "dev.example.com:443:8000": 1,
+          "github.com/aran/devdomains/internal/version": 1,
+          "--bind": 1,
+          "external": 1,
+          "internal": 1,
+          "os/signal": 1,
+          "and": 1,
+          "18080:8080).": 1,
+          "--domains": 1,
+          "github.com/aran/devdomains/internal/caddy": 1,
+          "Domain": 1,
+          "externalPort:internalPort...]": 1,
+          "github.com/aran/devdomains/internal/mdns": 1,
+          "github.com/aran/devdomains/internal/cert": 1,
+          "go.step.sm/crypto/keyutil": 1,
+          "crypto/x509/pkix": 1,
+          "math/big": 1,
+          "encoding/pem": 1,
+          "go.step.sm/crypto/pemutil": 1,
+          "crypto": 1,
+          "ips": 1,
+          "result": 1,
+          "domain": 1,
+          "duration_ms": 1,
+          "answers": 1,
+          "html/template": 1,
+          "system_hostname": 1,
+          "github.com/hashicorp/mdns": 1,
+          "service": 1,
+          "port": 1,
+          "ipv4_addresses": 1,
+          "ipv6_addresses": 1,
+          "hostname": 1,
+          "log": 1,
+          "sync": 1,
+          "github.com/google/uuid": 1,
+          "Built": 1,
+          "Version:": 1,
+          "Commit:": 1,
+          "Built:": 1,
+          "wg-server.pub": 1,
+          "wg-server.key": 1,
+          "wg-client.key": 1,
+          "wg-client.pub": 1,
+          "github.com/gtank/cryptopasta": 1,
+          "golang.org/x/crypto/chacha20poly1305": 1,
+          "math": 1,
+          "github.com/ory/kratos/cipher": 1,
+          "encrypted": 1,
+          "net/url": 1,
+          "github.com/hashicorp/go-retryablehttp": 1,
+          "github.com/ory/x/popx": 1,
+          "NewInfoNodeLabelVerificationCode": 1,
+          "NewErrorValidationRecoveryStateFailure": 1,
+          "NewErrorValidationLoginRetrySuccessful": 1,
+          "NewErrorValidationExclusiveMaximum": 1,
+          "NewInfoSelfServiceRegistrationRegisterCode": 1,
+          "NewRecoveryAskForFullAddress": 1,
+          "NewRecoveryEmailSent": 1,
+          "NewInfoLoginReAuth": 1,
+          "NewErrorValidationLoginNoStrategyFound": 1,
+          "go/types": 1,
+          "go/importer": 1,
+          "NewErrorValidationSettingsFlowExpired": 1,
+          "NewErrorValidationMaxLength": 1,
+          "NewInfoLoginMFA": 1,
+          "NewInfoLogin": 1,
+          "NewInfoNodeLoginAndLinkCredential": 1,
+          "go/token": 1,
+          "NewErrorValidationPasswordNewSameAsOld": 1,
+          "NewErrorValidationNoTOTPDevice": 1,
+          "NewErrorValidationInvalidCredentials": 1,
+          "NewErrorValidationPasswordTooManyBreaches": 1,
+          "NewInfoSelfServiceLoginAAL2CodeAddress": 1,
+          "NewInfoSelfServiceLoginContinue": 1,
+          "NewErrorValidationRegistrationCodeInvalidOrAlreadyUsed": 1,
+          "NewInfoSelfServiceSettingsLookupSecretUsed": 1,
+          "NewRecoveryBack": 1,
+          "NewErrorValidationWrongType": 1,
+          "NewInfoRegistrationBack": 1,
+          "NewErrorValidationMinItems": 1,
+          "NewInfoSelfServiceLoginCode": 1,
+          "NewValidationErrorRequired": 1,
+          "NewErrorValidationLookupAlreadyUsed": 1,
+          "NewInfoNodeLabelID": 1,
+          "NewInfoSelfServiceSettingsLookupConfirm": 1,
+          "NewErrorValidationVerificationNoStrategyFound": 1,
+          "NewErrorValidationDuplicateCredentialsOnOIDCLink": 1,
+          "NewInfoSelfServiceSettingsRegisterWebAuthn": 1,
+          "NewVerificationEmailSent": 1,
+          "NewInfoSelfServiceChooseCredentials": 1,
+          "NewErrorValidationRegistrationNoStrategyFound": 1,
+          "NewErrorValidationMinLength": 1,
+          "NewErrorValidationVerificationFlowExpired": 1,
+          "NewInfoSelfServiceSettingsRegisterPasskey": 1,
+          "NewInfoLoginLinkMessage": 1,
+          "NewErrorSystemGeneric": 1,
+          "NewErrorValidationRecoveryNoStrategyFound": 1,
+          "NewErrorValidationPasswordMinLength": 1,
+          "NewInfoLoginLookupLabel": 1,
+          "NewErrorValidationExclusiveMinimum": 1,
+          "NewInfoSelfServiceRemoveWebAuthn": 1,
+          "NewErrorValidationNoLookup": 1,
+          "NewRecoverySuccessful": 1,
+          "NewErrorValidationVerificationStateFailure": 1,
+          "NewInfoNodeLabelSave": 1,
+          "NewInfoRegistration": 1,
+          "NewInfoNodeLabelRegistrationCode": 1,
+          "NewInfoLoginPassword": 1,
+          "NewRecoveryCodeRecoverySelectAddressSent": 1,
+          "NewInfoSelfServiceSettingsLookupSecretsLabel": 1,
+          "NewInfoLoginTOTP": 1,
+          "NewErrorValidationMaxItems": 1,
+          "NewInfoNodeLabelRecoveryCode": 1,
+          "NewInfoSelfServiceSettingsUpdateUnlinkTOTP": 1,
+          "NewErrorValidationNoCodeUser": 1,
+          "NewErrorValidationVerificationCodeInvalidOrAlreadyUsed": 1,
+          "NewInfoNodeInputEmail": 1,
+          "NewInfoNodeLabelVerifyOTP": 1,
+          "NewInfoSelfServiceSettingsDisableLookup": 1,
+          "NewErrorValidationRegistrationFlowExpired": 1,
+          "NewInfoSelfServiceVerificationSuccessful": 1,
+          "NewInfoLoginVerify": 1,
+          "sort": 1,
+          "go/parser": 1,
+          "NewInfoNodeLabelSubmit": 1,
+          "NewErrorValidationVerificationTokenInvalidOrAlreadyUsed": 1,
+          "NewInfoSelfServiceLoginWebAuthn": 1,
+          "github.com/ory/x/clidoc": 1,
+          "NewErrorValidationUniqueItems": 1,
+          "NewCaptchaContainerMessage": 1,
+          "NewInfoSelfServiceSettingsUpdateUnlinkOIDC": 1,
+          "NewErrorValidationLookupInvalid": 1,
+          "NewErrorValidationRegistrationRetrySuccessful": 1,
+          "NewRecoveryAskToChooseAddress": 1,
+          "github.com/ory/kratos/text": 1,
+          "NewInfoLoginTOTPLabel": 1,
+          "NewInfoLoginWebAuthnPasswordless": 1,
+          "NewInfoSelfServiceRemovePasskey": 1,
+          "NewInfoNodeInputPhoneNumber": 1,
+          "NewInfoLoginWithAndLink": 1,
+          "github.com/ory/kratos/cmd": 1,
+          "NewInfoNodeLabelLoginCode": 1,
+          "NewInfoSelfServiceSettingsUpdateSuccess": 1,
+          "NewValidationErrorGeneric": 1,
+          "NewErrorValidationRecoveryFlowExpired": 1,
+          "NewInfoNodeResendOTP": 1,
+          "NewInfoNodeInputPassword": 1,
+          "NewErrorValidationRecoveryCodeInvalidOrAlreadyUsed": 1,
+          "NewErrorValidationMaximum": 1,
+          "NewErrorValidationPasswordPolicyViolationGeneric": 1,
+          "NewErrorValidationTOTPVerifierWrong": 1,
+          "NewErrorValidationPasswordMaxLength": 1,
+          "NewInfoSelfServiceRegistrationRegisterPasskey": 1,
+          "NewErrorValidationMultipleOf": 1,
+          "go/ast": 1,
+          "NewInfoSelfServiceSettingsUpdateLinkOIDC": 1,
+          "NewErrorValidationRecoveryTokenInvalidOrAlreadyUsed": 1,
+          "NewLoginCodeSent": 1,
+          "NewErrorValidationVerificationRetrySuccess": 1,
+          "NewInfoSelfServiceSettingsRegenerateLookup": 1,
+          "NewInfoRegistrationWith": 1,
+          "NewInfoSelfServiceSettingsLookupSecret": 1,
+          "NewInfoNodeLabelGenerated": 1,
+          "NewInfoSelfServiceRegistrationRegisterWebAuthn": 1,
+          "NewErrorValidationAddressUnknown": 1,
+          "NewErrorValidationConst": 1,
+          "NewInfoSelfServiceSettingsRevealLookup": 1,
+          "regexp": 1,
+          "NewErrorCaptchaFailed": 1,
+          "NewErrorValidationSettingsNoStrategyFound": 1,
+          "NewErrorValidationTraitsMismatch": 1,
+          "NewErrorValidationPasswordIdentifierTooSimilar": 1,
+          "NewErrorValidationRecoveryRetrySuccess": 1,
+          "NewVerificationEmailWithCodeSent": 1,
+          "NewRegistrationEmailWithCodeSent": 1,
+          "NewErrorValidationIdentifierMissing": 1,
+          "NewErrorValidationConstGeneric": 1,
+          "NewErrorValidationLoginFlowExpired": 1,
+          "NewInfoSelfServiceLoginPasskey": 1,
+          "NewErrorValidationAccountNotFound": 1,
+          "NewInfoNodeLabelContinue": 1,
+          "NewInfoLoginLookup": 1,
+          "NewInfoSelfServiceSettingsLookupSecretList": 1,
+          "NewInfoRegistrationContinue": 1,
+          "NewErrorValidationDuplicateCredentials": 1,
+          "NewRecoveryAskAnyRecoveryAddress": 1,
+          "NewInfoSelfServiceSettingsTOTPQRCode": 1,
+          "NewErrorValidationSuchNoWebAuthnUser": 1,
+          "NewInfoSelfServiceSettingsTOTPSecretLabel": 1,
+          "NewErrorValidationAddressNotVerified": 1,
+          "NewInfoSelfServiceRegisterWebAuthnDisplayName": 1,
+          "NewErrorValidationDuplicateCredentialsWithHints": 1,
+          "NewInfoLoginWith": 1,
+          "NewInfoSelfServiceSettingsTOTPSecret": 1,
+          "NewErrorValidationInvalidFormat": 1,
+          "NewErrorValidationLoginCodeInvalidOrAlreadyUsed": 1,
+          "NewInfoSelfServiceLoginCodeMFA": 1,
+          "NewInfoLoginAndLink": 1,
+          "NewErrorValidationMinimum": 1,
+          "NewInfoSelfServiceContinueLoginWebAuthn": 1,
+          "NewErrorValidationNoWebAuthnDevice": 1,
+          "NewErrorValidationLoginLinkedCredentialsDoNotMatch": 1,
+          "NewRecoveryEmailWithCodeSent": 1,
+          "github.com/prometheus/client_golang/prometheus/promhttp": 1,
+          "github.com/ory/x/prometheusx": 1,
+          "github.com/phayes/freeport": 1,
+          "status": 1,
+          "request": 1,
+          "method": 1,
+          "github.com/sirupsen/logrus": 1,
+          "name": 1,
+          "remote": 1,
+          "text_status": 1,
+          "took": 1,
+          "github.com/ory/kratos/selfservice/flow/settings": 1,
+          "github.com/ory/kratos/selfservice/errorx": 1,
+          "github.com/ory/x/otelx/semconv": 1,
+          "github.com/ory/analytics-go/v5": 1,
+          "github.com/ory/kratos/x/nosurfx": 1,
+          "github.com/ory/kratos/session": 1,
+          "github.com/ory/kratos/schema": 1,
+          "github.com/ory/kratos/selfservice/flow/verification": 1,
+          "github.com/ory/kratos/selfservice/strategy/link": 1,
+          "github.com/ory/kratos/selfservice/strategy/oidc": 1,
+          "github.com/ory/x/urlx": 1,
+          "github.com/ory/kratos/cmd/courier": 1,
+          "github.com/rs/cors": 1,
+          "github.com/ory/kratos/selfservice/flow/login": 1,
+          "github.com/ory/x/metricsx": 1,
+          "github.com/ory/kratos/selfservice/flow/recovery": 1,
+          "github.com/ory/kratos/selfservice/flow/logout": 1,
+          "github.com/ory/x/networkx": 1,
+          "github.com/ory/kratos/selfservice/flow/registration": 1,
+          "math/rand": 1,
+          "github.com/montanaflynn/stats": 1,
+          "reflect": 1,
+          "github.com/ory/kratos/cmd/hashers/argon2": 1,
+          "github.com/ory/x/sqlcon": 1,
+          "errors": 1,
+          "github.com/ory/x/stringsx": 1,
+          "github.com/ory/x/assertx": 1,
+          "github.com/ory/kratos/internal/testhelpers": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 26,
+        "packages": {
+          "automerge": 13,
+          "vite": 4,
+          "vite-plugin-top-level-await": 4,
+          "vite-plugin-wasm": 4,
+          "path": 4,
+          "html-webpack-plugin": 3,
+          "testing-library": 2,
+          "fs": 2,
+          "craco-wasm": 1,
+          "react": 1,
+          "react-dom": 1,
+          "web-vitals": 1,
+          "webpack-node-externals": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 2,
+        "packages": {
+          "com.example": 2,
+          "io.flutter": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "*": 1,
+          "combinations": 1,
+          "itertools": 1,
+          "string": 1,
+          "z3": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 14,
+        "packages": {
+          "std": 10,
+          "crate": 10,
+          "anyhow": 5,
+          "super": 4,
+          "itertools": 3,
+          "flutter_rust_bridge": 2,
+          "lib_flutter_rust_bridge_codegen": 2,
+          "clap": 2,
+          "serial_test": 2,
+          "log": 2,
+          "serde": 2,
+          "core": 1,
+          "pathdiff": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 12,
+        "packages": {
+          "FlutterMacOS": 8,
+          "Cocoa": 6,
+          "UIKit": 4,
+          "Flutter": 4,
+          "XCTest": 4,
+          "Foundation": 2
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 13,
+        "packages": {
+          "playwright": 7,
+          "anthropic-ai": 3,
+          "next": 2,
+          "Mock": 2,
+          "vitest": 2,
+          "automerge": 1,
+          "sonnet-4.6": 1,
+          "title": 1,
+          "http": 1,
+          "A": 1,
+          "net": 1,
+          "Exercise": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 8,
+        "packages": {
+          "react": 6,
+          "vercel": 1,
+          "next": 1,
+          "anthropic-ai": 1,
+          "react-markdown": 1,
+          "remark-gfm": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "aran/automerge",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "aran/automerge-flutter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Rust",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "aran/custom-inputs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "aran/devdomains",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "aran/flutter-shell-redirect",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "aran/flutter_rust_bridge",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Dart",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "aran/kratos",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "aran/z3-wordle",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

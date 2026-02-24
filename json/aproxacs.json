@@ -1,0 +1,332 @@
+{
+  "username": "aproxacs",
+  "areas": {
+    "OSS": {
+      "score": 0.7724577372725097,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.8,
+        "commits_activity": 0.8586866059087646
+      }
+    },
+    "Status": {
+      "score": 0.25225378547996247,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8399191397584053,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "aproxacs/plotly_test": 0.4939
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.556177880688118,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        2359,
+        43
+      ],
+      "CoffeeScript": [
+        172,
+        3
+      ],
+      "JavaScript": [
+        58618,
+        11
+      ],
+      "Dart": [
+        2091,
+        12
+      ],
+      "C++": [
+        665,
+        3
+      ],
+      "CMake": [
+        532,
+        3
+      ],
+      "Swift": [
+        63,
+        0
+      ],
+      "C": [
+        38,
+        0
+      ],
+      "HTML": [
+        32,
+        0
+      ],
+      "Kotlin": [
+        3,
+        0
+      ],
+      "Objective-C": [
+        1,
+        0
+      ],
+      "TypeScript": [
+        10306,
+        3
+      ],
+      "CSS": [
+        1242,
+        0
+      ],
+      "Shell": [
+        6,
+        0
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 78,
+    "total_lines": 76128,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 2359,
+        "commits": 43
+      },
+      {
+        "language": "Dart",
+        "lines": 2091,
+        "commits": 12
+      },
+      {
+        "language": "JavaScript",
+        "lines": 58618,
+        "commits": 11
+      },
+      {
+        "language": "CoffeeScript",
+        "lines": 172,
+        "commits": 3
+      },
+      {
+        "language": "C++",
+        "lines": 665,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "aproxacs",
+    "analysis_date": "2026-02-24T02:42:04.251591",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 108,
+    "languages": {
+      "C++": {
+        "files_scanned": 3,
+        "packages": {
+          "my_application.h": 2,
+          "url_launcher_linux/url_launcher_plugin.h": 1,
+          "<url_launcher_linux/url_launcher_plugin.h>": 1,
+          "generated_plugin_registrant.h": 1,
+          "flutter/generated_plugin_registrant.h": 1,
+          "gdk/gdkx.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "<gdk/gdkx.h>": 1,
+          "flutter_linux/flutter_linux.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 3,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "<gtk/gtk.h>": 1,
+          "gtk/gtk.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 14,
+        "packages": {
+          "get": 11,
+          "flutter": 8,
+          "attendance_screen.dart": 2,
+          "attendance_history_screen.dart": 2,
+          "path_provider": 2,
+          "file_picker": 1,
+          "student_group_controller.dart": 1,
+          "translations/messages.dart": 1,
+          "screens/home_screen.dart": 1,
+          "url_launcher": 1,
+          "group_detail_screen.dart": 1,
+          "group_list_screen.dart": 1,
+          "intl": 1,
+          "tr_app": 1,
+          "csv": 1,
+          "dart:io": 1,
+          "share_plus": 1,
+          "path": 1,
+          "sqflite": 1,
+          "flutter_test": 1,
+          "class_roster": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 7,
+        "packages": {
+          "undefined": 2,
+          "next": 2,
+          "=": 1,
+          "?ngModel": 1,
+          "select": 1,
+          "ngModel": 1,
+          "underscore": 1,
+          "object": 1,
+          "emotion": 1,
+          "mui": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 1,
+        "packages": {
+          "com.example": 1,
+          "io.flutter": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 3,
+        "packages": {
+          "Mongoid::Timestamps::Created": 1,
+          "Mongoid::Document": 1,
+          "Mongoid::Document::Taggable": 1,
+          "action_controller/railtie": 1,
+          "action_mailer/railtie": 1,
+          "active_resource/railtie": 1,
+          "sprockets/railtie": 1,
+          "rails/test_unit/railtie": 1,
+          "bundler/setup": 1,
+          "rubygems": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 6,
+        "packages": {
+          "FlutterMacOS": 4,
+          "Cocoa": 3,
+          "Flutter": 2,
+          "UIKit": 2,
+          "XCTest": 2,
+          "file_picker": 1,
+          "path_provider_foundation": 1,
+          "Foundation": 1,
+          "url_launcher_macos": 1,
+          "share_plus": 1,
+          "sqflite_darwin": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 19,
+        "packages": {
+          "next": 9,
+          "date-fns": 5,
+          "supabase": 3,
+          "fs": 3,
+          "path": 2,
+          "yaml": 2,
+          "tailwind-merge": 1,
+          "clsx": 1,
+          "mongodb": 1,
+          "os": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 22,
+        "packages": {
+          "next": 12,
+          "react": 12,
+          "radix-ui": 5,
+          "lucide-react": 3,
+          "class-variance-authority": 2,
+          "mui": 2,
+          "react-plotly.js": 1,
+          "emotion": 1,
+          "prop-types": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "aproxacs/bamboo",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "aproxacs/class_roster",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "aproxacs/lost-found",
+        "files_analyzed": 28,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "aproxacs/mockHttpServer",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "aproxacs/plotly_test",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "aproxacs/tomato_sessions",
+        "files_analyzed": 9,
+        "languages_found": [
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

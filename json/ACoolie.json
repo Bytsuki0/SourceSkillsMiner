@@ -1,0 +1,125 @@
+{
+  "username": "ACoolie",
+  "areas": {
+    "OSS": {
+      "score": -0.7553839624170651,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.3669240563744024
+      }
+    },
+    "Status": {
+      "score": -0.14193459717429735,
+      "details": {
+        "lines_activity": 0.9009432786333824,
+        "commits_activity": 0.3669240563744024,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.2243296398978406,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        383,
+        4
+      ],
+      "Ruby": [
+        138,
+        1
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 5,
+    "total_lines": 521,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 383,
+        "commits": 4
+      },
+      {
+        "language": "Ruby",
+        "lines": 138,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ACoolie",
+    "analysis_date": "2026-02-22T19:06:58.280982",
+    "total_repos_analyzed": 1,
+    "total_files_analyzed": 9,
+    "languages": {
+      "C": {
+        "files_scanned": 4,
+        "packages": {
+          "AVC.h": 4
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<libswscale/swscale.h>": 1,
+          "<libavcodec/avcodec.h>": 1,
+          "libavcodec/avcodec.h": 1,
+          "libavformat/avformat.h": 1,
+          "libswscale/swscale.h": 1,
+          "ruby.h": 1,
+          "<ruby.h>": 1,
+          "<libavformat/avformat.h>": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 2,
+        "packages": {
+          "libAVC": 1,
+          "Filter": 1,
+          "Video": 1,
+          "ARGV[0]": 1,
+          "optparse": 1,
+          "AVC": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ACoolie/Frameserver-RB",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

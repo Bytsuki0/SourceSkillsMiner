@@ -1,0 +1,671 @@
+{
+  "username": "rpj",
+  "areas": {
+    "OSS": {
+      "score": 0.7777777777777779,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.1666666666666667,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 0.75,
+      "details": {
+        "rpj/bsky-post-freq-extn": -0.674,
+        "rpj/eeves": 0.0037600000000000003,
+        "rpj/qwit": 0.5776,
+        "rpj/rpi": 0.10922413793103448,
+        "rpj/secdrop": -0.30265000000000003,
+        "rpj/spring83": 0.5794612903225806,
+        "rpj/ugo": 0.20676666666666668,
+        "rpj/zw": 0.1779
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5813034188034188,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        1375,
+        24
+      ],
+      "Perl": [
+        10622,
+        59
+      ],
+      "Python": [
+        20921,
+        106
+      ],
+      "JavaScript": [
+        39880,
+        136
+      ],
+      "TypeScript": [
+        26650,
+        43
+      ],
+      "HTML": [
+        27062,
+        49
+      ],
+      "C": [
+        13814,
+        29
+      ],
+      "CSS": [
+        3066,
+        7
+      ],
+      "Dockerfile": [
+        220,
+        0
+      ],
+      "Shell": [
+        835,
+        22
+      ],
+      "Objective-C": [
+        195847,
+        67
+      ],
+      "C++": [
+        3389,
+        29
+      ],
+      "Makefile": [
+        48,
+        0
+      ],
+      "C#": [
+        130117,
+        12
+      ],
+      "GDScript": [
+        744,
+        1
+      ],
+      "Jsonnet": [
+        0,
+        0
+      ],
+      "Lua": [
+        0,
+        0
+      ],
+      "Ruby": [
+        1547,
+        2
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 586,
+    "total_lines": 476137,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 39880,
+        "commits": 136
+      },
+      {
+        "language": "Python",
+        "lines": 20921,
+        "commits": 106
+      },
+      {
+        "language": "Objective-C",
+        "lines": 195847,
+        "commits": 67
+      },
+      {
+        "language": "Perl",
+        "lines": 10622,
+        "commits": 59
+      },
+      {
+        "language": "HTML",
+        "lines": 27062,
+        "commits": 49
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rpj",
+    "analysis_date": "2026-02-22T11:50:20.219816",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 154,
+    "languages": {
+      "C": {
+        "files_scanned": 22,
+        "packages": {
+          "hash.h": 6,
+          "dtM4AMuxer.h": 5,
+          "<stdio.h>": 3,
+          "stdio.h": 3,
+          "<string.h>": 2,
+          "string.h": 2,
+          "<stdlib.h>": 2,
+          "stdlib.h": 2,
+          "<time.h>": 2,
+          "math.h": 2,
+          "time.h": 2,
+          "<math.h>": 2,
+          "unistd.h": 2,
+          "<unistd.h>": 2,
+          "sps30.h": 2,
+          "playlist.h": 2,
+          "util.h": 2,
+          "socket.h": 2,
+          "arm_neon.h": 1,
+          "float.h": 1,
+          "<immintrin.h>": 1,
+          "<stdatomic.h>": 1,
+          "ggml.h": 1,
+          "<Accelerate/Accelerate.h>": 1,
+          "<stdint.h>": 1,
+          "alloca.h": 1,
+          "altivec.h": 1,
+          "<pthread.h>": 1,
+          "<alloca.h>": 1,
+          "<wasm_simd128.h>": 1,
+          "Accelerate/Accelerate.h": 1,
+          "Windows.h": 1,
+          "<malloc.h>": 1,
+          "<assert.h>": 1,
+          "<errno.h>": 1,
+          "cblas.h": 1,
+          "errno.h": 1,
+          "<Windows.h>": 1,
+          "<cblas.h>": 1,
+          "immintrin.h": 1,
+          "assert.h": 1,
+          "<windows.h>": 1,
+          "pthread.h": 1,
+          "<float.h>": 1,
+          "stdint.h": 1,
+          "stdatomic.h": 1,
+          "wasm_simd128.h": 1,
+          "malloc.h": 1,
+          "<altivec.h>": 1,
+          "windows.h": 1,
+          "<arm_neon.h>": 1,
+          "sys/types.h": 1,
+          "<fcntl.h>": 1,
+          "sys/stat.h": 1,
+          "<sys/stat.h>": 1,
+          "fcntl.h": 1,
+          "<sys/types.h>": 1,
+          "sensirion_common.h": 1,
+          "sps_git_version.h": 1,
+          "sensirion_i2c.h": 1,
+          "sensirion_arch_config.h": 1,
+          "command.h": 1,
+          "ea.h": 1,
+          "list.h": 1,
+          "search.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 4,
+        "packages": {
+          "utils.h": 4,
+          "vector": 3,
+          "<cassert>": 3,
+          "<string>": 3,
+          "string": 3,
+          "fstream": 3,
+          "cassert": 3,
+          "<cstring>": 3,
+          "<fstream>": 3,
+          "<vector>": 3,
+          "cstring": 3,
+          "http.h": 2,
+          "sstream": 2,
+          "<sstream>": 2,
+          "ggml.h": 2,
+          "cstdio": 2,
+          "cmath": 2,
+          "<map>": 2,
+          "map": 2,
+          "<cmath>": 2,
+          "<cstdio>": 2,
+          "regex": 2,
+          "<regex>": 2,
+          "<signal.h>": 1,
+          "signal.h": 1,
+          "Windows.h": 1,
+          "<unistd.h>": 1,
+          "<Windows.h>": 1,
+          "unistd.h": 1,
+          "<mutex>": 1,
+          "thread": 1,
+          "<ctime>": 1,
+          "chrono": 1,
+          "_queue_t": 1,
+          "_map_t": 1,
+          "random": 1,
+          "<random>": 1,
+          "_http_server_starter": 1,
+          "iomanip": 1,
+          "deps/json/single_include/nlohmann/json.hpp": 1,
+          "<iomanip>": 1,
+          "_http_put_prompt_on_queue": 1,
+          "_http_get_prompt_result": 1,
+          "ctime": 1,
+          "mutex": 1,
+          "_http_user_handler": 1,
+          "<thread>": 1,
+          "deps/cpp-httplib/httplib.h": 1,
+          "<chrono>": 1,
+          "alloca.h": 1,
+          "<alloca.h>": 1,
+          "<malloc.h>": 1,
+          "iterator": 1,
+          "iostream": 1,
+          "<iostream>": 1,
+          "math.h": 1,
+          "<math.h>": 1,
+          "malloc.h": 1,
+          "<iterator>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 29,
+        "packages": {
+          "<UIKit/UIKit.h>": 15,
+          "ea.h": 6,
+          "<string.h>": 3,
+          "stdlib.h": 3,
+          "string.h": 3,
+          "unistd.h": 3,
+          "stdio.h": 3,
+          "<stdio.h>": 3,
+          "<stdlib.h>": 3,
+          "<unistd.h>": 3,
+          "search.h": 3,
+          "list.h": 3,
+          "string": 2,
+          "<string>": 2,
+          "<CoreLocation/CoreLocation.h>": 2,
+          "sys/types.h": 2,
+          "<fcntl.h>": 2,
+          "<arpa/inet.h>": 2,
+          "fcntl.h": 2,
+          "arpa/inet.h": 2,
+          "<sys/types.h>": 2,
+          "socket.h": 2,
+          "stddef.h": 1,
+          "stdint.h": 1,
+          "stdbool.h": 1,
+          "<stdint.h>": 1,
+          "<stddef.h>": 1,
+          "<stdbool.h>": 1,
+          "functional": 1,
+          "http_prompt_servicer": 1,
+          "<functional>": 1,
+          "<map>": 1,
+          "token": 1,
+          "map": 1,
+          "vector": 1,
+          "id": 1,
+          "<thread>": 1,
+          "thread": 1,
+          "random": 1,
+          "<random>": 1,
+          "<vector>": 1,
+          "sys/time.h": 1,
+          "<sys/time.h>": 1,
+          "<Cocoa/Cocoa.h>": 1,
+          "sensirion_arch_config.h": 1,
+          "dirent.h": 1,
+          "<signal.h>": 1,
+          "<pthread.h>": 1,
+          "<netinet/in.h>": 1,
+          "signal.h": 1,
+          "<search.h>": 1,
+          "<errno.h>": 1,
+          "id3tag.h": 1,
+          "errno.h": 1,
+          "<time.h>": 1,
+          "sys/socket.h": 1,
+          "time.h": 1,
+          "<sys/stat.h>": 1,
+          "pthread.h": 1,
+          "netdb.h": 1,
+          "netinet/in.h": 1,
+          "<netdb.h>": 1,
+          "<id3tag.h>": 1,
+          "sys/stat.h": 1,
+          "<mad.h>": 1,
+          "mad.h": 1,
+          "<sys/socket.h>": 1,
+          "<dirent.h>": 1,
+          "util.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 6,
+        "packages": {
+          "crypto/ed25519": 5,
+          "fmt": 4,
+          "encoding/hex": 4,
+          "crypto/rand": 3,
+          "time": 3,
+          "io": 3,
+          "context": 3,
+          "io/ioutil": 3,
+          "encoding/binary": 3,
+          "bytes": 2,
+          "os": 2,
+          "net/http": 2,
+          "flag": 2,
+          "errors": 2,
+          "regexp": 2,
+          "runtime": 2,
+          "github.com/pteichman/ahoy/spring83": 1,
+          "github.com/pteichman/ahoy": 1,
+          "A": 1,
+          "log": 1,
+          "strconv": 1,
+          "testing": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 21,
+        "packages": {
+          "chalk": 12,
+          "config": 11,
+          "fs": 9,
+          "inquirer": 6,
+          "moment": 6,
+          "path": 4,
+          "node-fetch": 4,
+          "numeral": 4,
+          "readline": 3,
+          "uuid": 2,
+          "child_process": 2,
+          "os": 2,
+          "yargs": 1,
+          "date-fns": 1,
+          "atproto": 1,
+          "vite": 1,
+          "crxjs": 1,
+          "util": 1,
+          "next": 1,
+          "url": 1,
+          "openid-client": 1,
+          "yaml": 1,
+          "crypto": 1,
+          "querystring": 1,
+          "fastify": 1,
+          "winston": 1,
+          "duration": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 17,
+        "packages": {
+          "DoughAppDelegate.h": 6,
+          "NSString+Utils.h": 4,
+          "WebConnection.h": 4,
+          "DataController.h": 3,
+          "FlipsideViewController.h": 3,
+          "MainView.h": 3,
+          "RootViewController.h": 2,
+          "DrillDownController.h": 2,
+          "FlipsideView.h": 2,
+          "TableController.h": 2,
+          "MainViewController.h": 2,
+          "DockDropAppDelegate.h": 1,
+          "Cocoa/Cocoa.h": 1,
+          "<Cocoa/Cocoa.h>": 1,
+          "<JSON/JSON.h>": 1,
+          "JSON/JSON.h": 1,
+          "CommonCrypto/CommonDigest.h": 1,
+          "<CommonCrypto/CommonDigest.h>": 1,
+          "CoreGraphics/CoreGraphics.h": 1,
+          "<CoreGraphics/CoreGraphics.h>": 1,
+          "UIKit/UIKit.h": 1,
+          "<UIKit/UIKit.h>": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 23,
+        "packages": {
+          "Exporter": 10,
+          "AiMdle::Config": 6,
+          "AiMdle": 4,
+          "AiMdle::Util": 4,
+          "Net::OSCAR": 4,
+          "Dough::Config": 4,
+          "AiMdle::Testing": 2,
+          "AiMdle::Models::InMemory": 2,
+          "AiMdle::Models::Common": 2,
+          "+>./$f": 2,
+          "$s->{file}": 2,
+          "Dough::Log": 2,
+          "Dough::SDB": 2,
+          "Data::Dumper": 2,
+          "$fn": 1,
+          "POSIX": 1,
+          "+>./$tStr.html": 1,
+          "CGI": 1,
+          "Dough::CGI::Process": 1,
+          "JSON::XS": 1,
+          "Digest::SHA": 1,
+          "Dough::CGI": 1,
+          "+>>$self->{file}": 1,
+          "Amazon::SimpleDB::Exception": 1,
+          "Amazon::SimpleDB::Client": 1,
+          "<": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "sys": 2,
+          "json": 1,
+          "numpy": 1,
+          "SentencePieceProcessor": 1,
+          "sentencepiece": 1,
+          "struct": 1,
+          "torch": 1,
+          "signal": 1,
+          "time": 1,
+          "ctypes": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 15,
+        "packages": {
+          "ioredis": 9,
+          "atproto": 4,
+          "next": 4,
+          "inquirer": 4,
+          "fs": 2
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 10,
+        "packages": {
+          "next": 9,
+          "react": 7,
+          "date-fns": 3
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rpj/ahoy",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rpj/aimdle",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "rpj/alpaca.http",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "rpj/app-transaction-log-parser",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "rpj/bot2bot",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rpj/bsky-post-freq-extn",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "rpj/c-ga",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "rpj/c-hash",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "rpj/caddy_logs",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rpj/DockDrop",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "rpj/doodles",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "rpj/dough",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "rpj/doughweb",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "rpj/dtmuxer",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "rpj/eeves",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rpj/embedded-sps",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "rpj/env",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "rpj/epic-audio",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

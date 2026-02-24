@@ -1,0 +1,591 @@
+{
+  "username": "mushtaq",
+  "areas": {
+    "OSS": {
+      "score": 0.6531734132933533,
+      "details": {
+        "issue_resolution_rate": 0.6521739130434783,
+        "pr_merge_rate": 0.8275862068965517,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.25
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.48829335332333834,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Scala": [
+        883848,
+        1377
+      ],
+      "Shell": [
+        2804,
+        6
+      ],
+      "HTML": [
+        5180,
+        11
+      ],
+      "JavaScript": [
+        29830,
+        70
+      ],
+      "Python": [
+        4370,
+        4
+      ],
+      "SuperCollider": [
+        255,
+        0
+      ],
+      "C#": [
+        4537,
+        12
+      ],
+      "CSS": [
+        883,
+        2
+      ],
+      "TypeScript": [
+        34988,
+        36
+      ],
+      "Java": [
+        3613,
+        5
+      ],
+      "Jupyter Notebook": [
+        1332,
+        7
+      ],
+      "Vue": [
+        24519,
+        10
+      ],
+      "Protocol Buffer": [
+        5158,
+        24
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 1564,
+    "total_lines": 1001317,
+    "top_5_languages": [
+      {
+        "language": "Scala",
+        "lines": 883848,
+        "commits": 1377
+      },
+      {
+        "language": "JavaScript",
+        "lines": 29830,
+        "commits": 70
+      },
+      {
+        "language": "TypeScript",
+        "lines": 34988,
+        "commits": 36
+      },
+      {
+        "language": "Protocol Buffer",
+        "lines": 5158,
+        "commits": 24
+      },
+      {
+        "language": "C#",
+        "lines": 4537,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mushtaq",
+    "analysis_date": "2026-02-22T04:09:55.696530",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 269,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "puppeteer": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "sys": 1,
+          "Context": 1,
+          "contextlib": 1,
+          "typing": 1,
+          "requests": 1,
+          "logging": 1,
+          "mcp": 1,
+          "asynccontextmanager": 1,
+          "Any": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 252,
+        "packages": {
+          "scala.concurrent": 117,
+          "akka.actor": 69,
+          "akka.stream": 52,
+          "akka.cluster": 40,
+          "tanukki.akka": 28,
+          "Future}": 24,
+          "akka.http": 23,
+          "akka.util": 22,
+          "Props}": 22,
+          "asocket.core": 21,
+          "org.scalatest": 20,
+          "bank": 20,
+          "app": 20,
+          "scala.util": 19,
+          "io.rsocket": 19,
+          "tmt.app": 18,
+          "scala.collection": 17,
+          "play.api": 17,
+          "com.typesafe": 16,
+          "top": 15,
+          "com.example": 13,
+          "bank.AccountActor": 13,
+          "GetBalance}": 13,
+          "ActorSystem": 13,
+          "tmt.library": 13,
+          "java.util": 11,
+          "akka.pattern": 11,
+          "akka.remote": 11,
+          "bank.PersistentAccount": 11,
+          "Materializer}": 11,
+          "scalatags.Text": 10,
+          "utest._": 10,
+          "duration.Duration": 9,
+          "akka.{Done": 9,
+          "NotUsed}": 9,
+          "akka": 9,
+          "ActorRef": 8,
+          "data": 8,
+          "scala.async": 8,
+          "Json}": 8,
+          "csw.simple": 8,
+          "actorConfigs._": 8,
+          "citi1.api": 8,
+          "Address": 7,
+          "akka.event": 7,
+          "Deposit": 7,
+          "Source}": 7,
+          "akkastore.server": 7,
+          "reactive": 7,
+          "unit.members": 7,
+          "unit.parameters": 7,
+          "cask.util": 7,
+          "castor.Context": 7,
+          "tmt.shared": 7,
+          "example": 7,
+          "akka.Done": 6,
+          "akka.testkit": 6,
+          "ClusterShardingSettings}": 6,
+          "Identify": 6,
+          "Deposit}": 6,
+          "akkastore.api": 6,
+          "concurrent": 6,
+          "java.net": 6,
+          "tmt.io": 6,
+          "java.io": 6,
+          "DowningProvider}": 5,
+          "MultiNodeSpec}": 5,
+          "multiNodeConfig._": 5,
+          "akka.persistence": 5,
+          "converters._": 5,
+          "org.scalatestplus": 5,
+          "org.specs2": 5,
+          "tmt.actors": 5,
+          "AppSettings}": 5,
+          "citi1.server": 5,
+          "Scheduler}": 4,
+          "Success}": 4,
+          "system.dispatcher": 4,
+          "akkastore.common": 4,
+          "OverflowStrategy}": 4,
+          "Promise}": 4,
+          "asocket.borer": 4,
+          "reactor.core": 4,
+          "asocket.simple": 4,
+          "sbt._": 4,
+          "com.github": 4,
+          "boundary.Label": 4,
+          "utils.Config": 4,
+          "parkinglot": 4,
+          "rx._": 4,
+          "parkinglot2": 4,
+          "tmt.clients": 4,
+          "tmt.integration": 4,
+          "code": 4,
+          "Behavior}": 3,
+          "Actor}": 3,
+          "MemberStatus}": 3,
+          "Member}": 3,
+          "MultiNodeClusterSpec}": 3,
+          "scala.io": 3,
+          "Json": 3,
+          "PersistenceQuery}": 3,
+          "async.Async": 3,
+          "akkastore.client": 3,
+          "KillSwitches": 3,
+          "io.grpc": 3,
+          "com.linecorp": 3,
+          "example.armeria": 3,
+          "HelloServiceApi}": 3,
+          "org.reactivestreams": 3,
+          "asocket.ping": 3,
+          "fiberRuntime.boundary": 3,
+          "Failure}": 3,
+          "runtime.suspend": 3,
+          "org.joda": 3,
+          "mushtaq": 3,
+          "reactive2": 3,
+          "utils": 3,
+          "akka.NotUsed": 3,
+          "tmt.common": 3,
+          "citi1.client": 3,
+          "scala.reflect": 2,
+          "ExecutionContextExecutor": 2,
+          "demo.executionContext": 2,
+          "context.dispatcher": 2,
+          "_}": 2,
+          "WordSpec}": 2,
+          "Writes}": 2,
+          "JsValue": 2,
+          "Deposited}": 2,
+          "KillSwitch": 2,
+          "Matchers}": 2,
+          "Sink}": 2,
+          "ActorSystem}": 2,
+          "Route}": 2,
+          "monix.execution": 2,
+          "monix.reactive": 2,
+          "HelloRequest": 2,
+          "monix.eval": 2,
+          "scala.annotation": 2,
+          "FunSuite}": 2,
+          "io.bullet": 2,
+          "Target}": 2,
+          "RSocket}": 2,
+          "scala.compat": 2,
+          "Mono}": 2,
+          "RichSourceTo}": 2,
+          "mutable.ListBuffer": 2,
+          "Success": 2,
+          "reactive.ClientActor": 2,
+          "reactive.CounterActor": 2,
+          "mars": 2,
+          "rx.ops": 2,
+          "Length._": 2,
+          "Weight._": 2,
+          "Temperature._": 2,
+          "io.getquill": 2,
+          "ctx._": 2,
+          "com.opentable": 2,
+          "HikariDataSource}": 2,
+          "com.zaxxer": 2,
+          "Flow}": 2,
+          "FlowGraph.Implicits": 2,
+          "Source": 2,
+          "java.nio": 2,
+          "JsonEntityStreamingSupport}": 2,
+          "de.heikoseeberger": 2,
+          "Payload}": 2,
+          "code.Ord": 2,
+          "ExecutionContextExecutor}": 1,
+          "ExampleUsage._": 1,
+          "ActorLogging": 1,
+          "Scheduler": 1,
+          "CustomDowning._": 1,
+          "FiniteDuration}": 1,
+          "Down}": 1,
+          "akka.ConfigurationException": 1,
+          "MultiNodeSpec": 1,
+          "Outcome": 1,
+          "language.implicitConversions": 1,
+          "EndActor._": 1,
+          "Canceled": 1,
+          "Member.addressOrdering": 1,
+          "MemberStatus": 1,
+          "DefaultJsonProtocol._": 1,
+          "spray.json": 1,
+          "system.executionContext": 1,
+          "JsonFormats._": 1,
+          "Stash}": 1,
+          "SnapshotOffer}": 1,
+          "CreateAccount": 1,
+          "PoisonPill": 1,
+          "ActorSelection": 1,
+          "julienrf.json": 1,
+          "ToEntityMarshaller}": 1,
+          "PlayJsonSupport._": 1,
+          "Reads": 1,
+          "Unmarshaller}": 1,
+          "ValidationRejection}": 1,
+          "Replicator}": 1,
+          "runtime._": 1,
+          "ValueUpdated}": 1,
+          "actorRuntime._": 1,
+          "KVPayload}": 1,
+          "TimeUnit}": 1,
+          "Future": 1,
+          "org.slf4j": 1,
+          "DocServiceFilter}": 1,
+          "ExecutionContext.Implicits": 1,
+          "_root_.munit": 1,
+          "StreamObserver}": 1,
+          "AtomicInteger}": 1,
+          "com.google": 1,
+          "ToPayload}": 1,
+          "Encoder": 1,
+          "RSocketFactory": 1,
+          "SocketAcceptor}": 1,
+          "java.time": 1,
+          "WebsocketClientTransport}": 1,
+          "PayloadSourceFrom}": 1,
+          "Codecs}": 1,
+          "WebsocketServerTransport}": 1,
+          "RichPayloadFrom}": 1,
+          "Codec": 1,
+          "await}": 1,
+          "Async.{Listener": 1,
+          "fiberRuntime.suspend": 1,
+          "Async": 1,
+          "fiberRuntime": 1,
+          "util": 1,
+          "scala.compiletime": 1,
+          "fiberRuntime.util": 1,
+          "runtime": 1,
+          "simpleFutures": 1,
+          "StreamResult": 1,
+          "data.{Book": 1,
+          "JsString": 1,
+          "javax.inject": 1,
+          "controllers": 1,
+          "Person": 1,
+          "Writes": 1,
+          "Inject}": 1,
+          "Data}": 1,
+          "mushtaq.Ord": 1,
+          "mushtaq.StringExtension": 1,
+          "NextCount}": 1,
+          "scala.RuntimeException": 1,
+          "Props": 1,
+          "concurrent.ExecutionContext": 1,
+          "utils.{BlockingConfig": 1,
+          "ExecutionContext}": 1,
+          "Executors}": 1,
+          "util.Try": 1,
+          "Direction._": 1,
+          "collection.JavaConverters": 1,
+          "org.jsoup": 1,
+          "Unsubscribe}": 1,
+          "ConnectionSet}": 1,
+          "Role}": 1,
+          "com.softwaremill": 1,
+          "TickerService}": 1,
+          "tmt.server": 1,
+          "ImageMetadata}": 1,
+          "MetricsTransformations}": 1,
+          "ImageTransformations": 1,
+          "tmt.transformations": 1,
+          "UpgradeToWebsocket}": 1,
+          "LWWMap}": 1,
+          "WriteLocal}": 1,
+          "HttpRequest}": 1,
+          "FlowGraph": 1,
+          "Flow": 1,
+          "Uri}": 1,
+          "Merge}": 1,
+          "MessageEntity": 1,
+          "tmt.marshalling": 1,
+          "ActorConfigs}": 1,
+          "Sink": 1,
+          "BufferedReader}": 1,
+          "HttpResponse}": 1,
+          "HttpEntity": 1,
+          "OFormat}": 1,
+          "RequestEntity": 1,
+          "StatusCodes}": 1,
+          "HttpRequest": 1,
+          "actorSystem.dispatcher": 1,
+          "KeyUpdate": 1,
+          "KillSwitches}": 1,
+          "KeyUpdate}": 1,
+          "Materializer": 1,
+          "SourceQueueWithComplete}": 1,
+          "data.Book": 1,
+          "code.StringExt": 1,
+          "data.Data": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mushtaq/akka-actorbound-ec",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/akka-cluster-custom-downing",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/akka-http-4194",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/akka-http-client-bug",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/akka-kafka-basics",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/akkadb",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/armeria-grpc-monix",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/arris-workshop",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/asocket",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/async",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/autoscout-play",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/bootcamp",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/build",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/bulkdata",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/chimerax-alphafold-mcp",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mushtaq/citi-one",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/citi1",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "mushtaq/citi2",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Scala"
+        ]
+      }
+    ]
+  }
+}

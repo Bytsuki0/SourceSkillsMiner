@@ -1,0 +1,438 @@
+{
+  "username": "consti",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.6666666666666666,
+      "details": {
+        "consti/ebook-wiktionary": 0.57264,
+        "consti/simple_token_authentication": 0.8894,
+        "consti/tupalo-kdtree": -0.28785
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.22948717948717945,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        25278,
+        119
+      ],
+      "JavaScript": [
+        2644,
+        11
+      ],
+      "CSS": [
+        190221,
+        2
+      ],
+      "CoffeeScript": [
+        159,
+        0
+      ],
+      "TypeScript": [
+        1127977,
+        2
+      ],
+      "HTML": [
+        14296,
+        6
+      ],
+      "Shell": [
+        47,
+        5
+      ],
+      "Java": [
+        139,
+        10
+      ],
+      "Groff": [
+        42753,
+        2
+      ],
+      "C": [
+        9290,
+        7
+      ],
+      "C++": [
+        6223,
+        0
+      ],
+      "Makefile": [
+        23,
+        0
+      ],
+      "TeX": [
+        5457,
+        20
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 184,
+    "total_lines": 1424507,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 25278,
+        "commits": 119
+      },
+      {
+        "language": "TeX",
+        "lines": 5457,
+        "commits": 20
+      },
+      {
+        "language": "JavaScript",
+        "lines": 2644,
+        "commits": 11
+      },
+      {
+        "language": "Java",
+        "lines": 139,
+        "commits": 10
+      },
+      {
+        "language": "C",
+        "lines": 9290,
+        "commits": 7
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "consti",
+    "analysis_date": "2026-02-22T16:50:09.173771",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 224,
+    "languages": {
+      "C": {
+        "files_scanned": 4,
+        "packages": {
+          "stdlib.h": 4,
+          "stdio.h": 4,
+          "<stdlib.h>": 4,
+          "<stdio.h>": 4,
+          "<math.h>": 3,
+          "<string.h>": 3,
+          "string.h": 3,
+          "math.h": 3,
+          "<sys/file.h>": 1,
+          "sys/file.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "encoding/json": 1,
+          "net/http": 1,
+          "log": 1,
+          "sync": 1,
+          "time": 1,
+          "github.com/gorilla/websocket": 1,
+          "math": 1,
+          "database/sql": 1,
+          "crypto/rand": 1,
+          "strings": 1,
+          "encoding/hex": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 8,
+        "packages": {
+          "name.starnberger": 8,
+          "java.util": 6,
+          "android.location": 5,
+          "android.os": 3,
+          "android.app": 2,
+          "java.io": 2,
+          "android.view": 2,
+          "android.widget": 2,
+          "android.content": 2,
+          "java.text": 2,
+          "android.sax": 1,
+          "android.util": 1,
+          "android.net": 1,
+          "org.apache": 1,
+          "java.net": 1,
+          "android.graphics": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 17,
+        "packages": {
+          "react-native": 6,
+          "react": 5,
+          "prop-types": 4,
+          "chatwoot-widget:": 3,
+          "#fff": 3,
+          "#25292c": 3,
+          "#FFFF": 3,
+          "react-native-modal": 2,
+          "react-native-webview": 2,
+          "react-native-async-storage": 2,
+          "function\\": 2,
+          "chatwoot": 1,
+          "jQuery": 1,
+          "function": 1,
+          "fs": 1,
+          "undefined": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 5,
+        "packages": {
+          "gnuradio": 4,
+          "gr": 4,
+          "sys": 4,
+          "osmosdr": 4,
+          "digital": 3,
+          "blocks": 3,
+          "window": 2,
+          "argparse": 2,
+          "dvbt": 2,
+          "fft": 2,
+          "os": 2,
+          "dtv": 1,
+          "firdes": 1,
+          "qam": 1,
+          "*": 1,
+          "dvbobjects": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 44,
+        "packages": {
+          "api/spec_helper": 6,
+          "APISpecHelper": 5,
+          "adyen/api/simple_soap_client": 4,
+          "rails/all": 4,
+          "bundler/setup": 4,
+          "adyen": 3,
+          "spec_helper": 3,
+          "default": 3,
+          "net/http": 3,
+          "adyen/api": 2,
+          "adyen/api/payment_service": 2,
+          "adyen/api/xml_querier": 2,
+          "nokogiri": 2,
+          "rexml/document": 2,
+          "rails": 2,
+          "rubygems": 2,
+          "json": 2,
+          "adyen/configuration": 1,
+          "adyen/version": 1,
+          "adyen/formatter": 1,
+          "adyen/railtie": 1,
+          "adyen/encoding": 1,
+          "adyen/form": 1,
+          "adyen/api/payout_service": 1,
+          "adyen/api/recurring_service": 1,
+          "adyen/api/templates/payment_service": 1,
+          "adyen/api/templates/payout_service": 1,
+          "adyen/api/templates/recurring_service": 1,
+          "net/https": 1,
+          "adyen/api/response": 1,
+          "base64": 1,
+          "stringio": 1,
+          "openssl": 1,
+          "zlib": 1,
+          "the": 1,
+          "cgi": 1,
+          "rails/generators/migration": 1,
+          "Rails::Generators::Migration": 1,
+          "rails/generators": 1,
+          "adyen/notification_generator": 1,
+          "date": 1,
+          "old_basic_auth": 1,
+          "old_start": 1,
+          "old_request": 1,
+          "adyen_engine/engine": 1,
+          "configuration_decorator": 1,
+          "adyen_module": 1,
+          "adyen_engine/railtie": 1,
+          "PaymentsController::SpecHelper": 1,
+          "bundler": 1,
+          "ahsg/utilities": 1,
+          "CarrierWave::MiniMagick": 1,
+          "CarrierWave::RMagick": 1,
+          "RMagick": 1,
+          "devise/orm/active_record": 1,
+          "pry": 1,
+          "blockfolio/api_resource": 1,
+          "blockfolio/version": 1,
+          "blockfolio/dashboard": 1,
+          "blockfolio": 1,
+          "digest/md5": 1,
+          "boot": 1,
+          "bootsnap/setup": 1,
+          "application": 1,
+          "Rack::Cache": 1,
+          "Rack::Client::Parser": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "vite": 1,
+          "vitejs": 1,
+          "react": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "react": 2,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "consti/adyen",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "consti/adyen_engine",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "consti/ahsg",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "consti/autostereogram",
+        "files_analyzed": 7,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "consti/betterberg",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "consti/bitdoi-noti",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "consti/blockfolio",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "consti/BozoCrack",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "consti/cblog",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "consti/CBW",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "consti/chatwoot-react-native-widget",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "consti/currency.io",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "consti/currentcondition",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "consti/DC27",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "consti/dice-roller",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

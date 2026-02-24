@@ -1,0 +1,443 @@
+{
+  "username": "dsklyut",
+  "areas": {
+    "OSS": {
+      "score": 0.5902417664510253,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.5789473684210527,
+        "commits_activity": 0.8064152812554853
+      }
+    },
+    "Status": {
+      "score": 0.24075266196228284,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7842059160203473,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "dsklyut/virgo-samples-greenpages": -0.067825
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.25774860710332703,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        68708,
+        60
+      ],
+      "Shell": [
+        319,
+        0
+      ],
+      "Python": [
+        0,
+        0
+      ],
+      "Groovy": [
+        455,
+        1
+      ],
+      "Gosu": [
+        0,
+        0
+      ],
+      "JavaScript": [
+        2611,
+        0
+      ],
+      "CSS": [
+        0,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 61,
+    "total_lines": 72093,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 68708,
+        "commits": 60
+      },
+      {
+        "language": "Groovy",
+        "lines": 455,
+        "commits": 1
+      },
+      {
+        "language": "Shell",
+        "lines": 319,
+        "commits": 0
+      },
+      {
+        "language": "Python",
+        "lines": 0,
+        "commits": 0
+      },
+      {
+        "language": "Gosu",
+        "lines": 0,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "dsklyut",
+    "analysis_date": "2026-02-23T03:28:30.551445",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 285,
+    "languages": {
+      "Java": {
+        "files_scanned": 134,
+        "packages": {
+          "java.util": 64,
+          "java.io": 31,
+          "com.cloudbees": 30,
+          "edu.umd": 28,
+          "nl.topicus": 28,
+          "org.codehaus": 28,
+          "org.apache": 21,
+          "jenkins.scm": 21,
+          "com.dsklyut": 21,
+          "java.net": 19,
+          "org.springframework": 16,
+          "grails.util": 16,
+          "akka.grpc": 14,
+          "static": 12,
+          "org.kohsuke": 12,
+          "org.eclipse": 10,
+          "grails.build": 10,
+          "hudson.model": 9,
+          "com.atlassian": 9,
+          "com.google": 8,
+          "javax.persistence": 8,
+          "hudson.Extension": 7,
+          "akka.actor": 6,
+          "java.lang": 6,
+          "org.junit": 6,
+          "jenkins.plugins": 6,
+          "hudson.util": 6,
+          "org.osgi": 6,
+          "io.grpc": 5,
+          "akka.stream": 5,
+          "hudson.plugins": 5,
+          "hudson.Util": 5,
+          "groovy.lang": 5,
+          "akka.NotUsed": 4,
+          "org.slf4j": 4,
+          "groovy.util": 4,
+          "org.HdrHistogram": 3,
+          "akka.http": 3,
+          "com.sun": 3,
+          "com.typesafe": 3,
+          "jenkins.model": 3,
+          "javax.annotation": 3,
+          "org.jenkinsci": 3,
+          "jenkins.authentication": 3,
+          "com.fasterxml": 3,
+          "net.java": 3,
+          "akka.Done": 2,
+          "java.time": 2,
+          "org.scalatestplus": 2,
+          "hudson.scm": 2,
+          "org.jenkins": 2,
+          "com.damnhandy": 2,
+          "hudson.console": 2,
+          "hudson.RestrictedSince": 2,
+          "javax.servlet": 2,
+          "javax.ws": 2,
+          "java.beans": 2,
+          "javax.sql": 2,
+          "java.sql": 2,
+          "java.security": 1,
+          "java.nio": 1,
+          "javax.net": 1,
+          "hudson.FilePath": 1,
+          "hudson.security": 1,
+          "java.text": 1,
+          "javax.xml": 1,
+          "net.sf": 1,
+          "com.jayway": 1,
+          "it.nl": 1,
+          "org.twdata": 1,
+          "org.h2": 1,
+          "com.mysql": 1,
+          "grails.ant": 1,
+          "gant.Gant": 1,
+          "jline.CompletionHandler": 1,
+          "jline.ConsoleReader": 1,
+          "jline.CursorBuffer": 1,
+          "=": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 8,
+        "packages": {
+          "karma-chrome-launcher": 3,
+          "karma-jasmine": 3,
+          "karma-remap-istanbul": 2,
+          "angular-cli": 2,
+          "jasmine-spec-reporter": 2,
+          "ts-node": 2,
+          "object": 2,
+          "path": 1,
+          "angular-devkit": 1,
+          "karma-jasmine-html-reporter": 1,
+          "karma-coverage-istanbul-reporter": 1,
+          "cordova": 1,
+          "use": 1,
+          "[object": 1,
+          "jquery": 1,
+          "formula": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 4,
+        "packages": {
+          "Irssi": 4,
+          "vars": 4,
+          "strict": 3,
+          "Encode": 1,
+          "Text::CharWidth": 1,
+          "integer": 1,
+          "Irssi::TextUI": 1,
+          "Carp": 1,
+          "POSIX": 1,
+          "<": 1,
+          "Irssi::Irc": 1,
+          ">": 1,
+          "FileHandle": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 4,
+        "packages": {
+          "re": 4,
+          "glob": 4,
+          "sys": 4
+        }
+      },
+      "Ruby": {
+        "files_scanned": 28,
+        "packages": {
+          "formula": 24,
+          "cmd/install": 2,
+          "cmd/outdated": 2,
+          "<string.h>": 2,
+          "config.h": 2,
+          "utils.rb": 1,
+          "keg": 1,
+          "extend/pathname": 1,
+          "xstrrpl.h": 1,
+          "<assert.h>": 1,
+          "aaint.h": 1,
+          "aalib.h": 1,
+          "<stdio.h>": 1,
+          "<stdlib.h>": 1,
+          "<ctype.h>": 1,
+          "<malloc.h>": 1,
+          "<SDL.h>": 1,
+          "<GL/gl.h>": 1,
+          "macs.hpp": 1,
+          "<Carbon/Carbon.h>": 1,
+          "<sys/stat.h>": 1,
+          "lisp.hpp": 1,
+          "<windows.h>": 1,
+          "<signal.h>": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 49,
+        "packages": {
+          "org.samples": 30,
+          "akka.grpc": 16,
+          "akka.actor": 8,
+          "com.google": 8,
+          "akka.dispatch": 6,
+          "scala.collection": 5,
+          "org.openjdk": 4,
+          "protocbridge.Artifact": 4,
+          "java.io": 3,
+          "Logger": 3,
+          "CodeGenerator": 3,
+          "org.scalatest": 3,
+          "akka.stream": 2,
+          "akka.http": 2,
+          "grpc.reflection": 2,
+          "templates.JavaCommon": 2,
+          "protocgen.CodeGenRequest": 2,
+          "MethodDescriptor": 2,
+          "scala.actors": 2,
+          "java.util": 1,
+          "Identity": 1,
+          "scala.concurrent": 1,
+          "akka.NotUsed": 1,
+          "CodeGenerator._": 1,
+          "JavaServerCodeGenerator": 1,
+          "ScalaServerCodeGenerator": 1,
+          "java.net": 1,
+          "JavaInterfaceCodeGenerator": 1,
+          "ScalaTraitCodeGenerator": 1,
+          "ClientPowerApi": 1,
+          "templates.JavaClient": 1,
+          "scala.annotation": 1,
+          "CodeGeneratorResponse": 1,
+          "PowerApiInterface": 1,
+          "templates.JavaServer": 1,
+          "GeneratorParams": 1,
+          "scalapb.compiler": 1,
+          "ops._": 1,
+          "Method._": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 20,
+        "packages": {
+          "angular": 17,
+          "zone.js": 2,
+          "ag-charts-community": 1,
+          "jest-canvas-mock": 1,
+          "protractor": 1,
+          "rxjs": 1,
+          "oidc-client": 1,
+          "core-js": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "dsklyut/ag-grid",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "dsklyut/akka-grpc",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Scala"
+        ]
+      },
+      {
+        "repository": "dsklyut/akka-sample-trading",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "dsklyut/Angular2OidcClient",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "dsklyut/bitbucket-branch-source-plugin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "dsklyut/bitbucket-webhooks-plugin",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "dsklyut/bluECF",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "dsklyut/dotphiles",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "dsklyut/eclipse-ebr",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "dsklyut/ete-2011-virgo",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "dsklyut/gradle-scalatest",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java",
+          "Scala"
+        ]
+      },
+      {
+        "repository": "dsklyut/grails-core",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "dsklyut/grails-spring-security-core",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "dsklyut/homebrew",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

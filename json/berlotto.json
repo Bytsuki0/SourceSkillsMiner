@@ -1,0 +1,766 @@
+{
+  "username": "berlotto",
+  "areas": {
+    "OSS": {
+      "score": 0.4444444444444444,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.6666666666666666,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "berlotto/flask-app-template": 0.21616
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6136752136752137,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        46944,
+        145
+      ],
+      "Elixir": [
+        60,
+        0
+      ],
+      "Go": [
+        75,
+        0
+      ],
+      "PHP": [
+        8519,
+        32
+      ],
+      "JavaScript": [
+        559456,
+        86
+      ],
+      "Scala": [
+        45,
+        0
+      ],
+      "Shell": [
+        174152,
+        18
+      ],
+      "Groovy": [
+        32,
+        0
+      ],
+      "Lua": [
+        28,
+        0
+      ],
+      "Tcl": [
+        26,
+        0
+      ],
+      "Clojure": [
+        23,
+        0
+      ],
+      "Perl": [
+        27,
+        1
+      ],
+      "OCaml": [
+        16,
+        0
+      ],
+      "Haxe": [
+        13,
+        0
+      ],
+      "PowerShell": [
+        12,
+        0
+      ],
+      "CoffeeScript": [
+        12,
+        0
+      ],
+      "Java": [
+        11,
+        0
+      ],
+      "C++": [
+        5,
+        0
+      ],
+      "Ruby": [
+        35,
+        0
+      ],
+      "XQuery": [
+        3,
+        0
+      ],
+      "ColdFusion": [
+        2,
+        0
+      ],
+      "C#": [
+        2,
+        0
+      ],
+      "Astro": [
+        202119,
+        37
+      ],
+      "TypeScript": [
+        36921,
+        14
+      ],
+      "MDX": [
+        30554,
+        14
+      ],
+      "CSS": [
+        50145,
+        61
+      ],
+      "HTML": [
+        132725,
+        13
+      ],
+      "Jupyter Notebook": [
+        943,
+        5
+      ],
+      "Vim Script": [
+        946,
+        1
+      ],
+      "Makefile": [
+        4821,
+        4
+      ],
+      "TeX": [
+        1399,
+        0
+      ],
+      "Protocol Buffer": [
+        0,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "Perl 6": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        5055,
+        6
+      ]
+    },
+    "language_count": 35,
+    "total_commits": 437,
+    "total_lines": 1255126,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 46944,
+        "commits": 145
+      },
+      {
+        "language": "JavaScript",
+        "lines": 559456,
+        "commits": 86
+      },
+      {
+        "language": "CSS",
+        "lines": 50145,
+        "commits": 61
+      },
+      {
+        "language": "Astro",
+        "lines": 202119,
+        "commits": 37
+      },
+      {
+        "language": "PHP",
+        "lines": 8519,
+        "commits": 32
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "berlotto",
+    "analysis_date": "2026-02-22T21:46:42.318046",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 247,
+    "languages": {
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "<iostream>": 1,
+          "std": 1,
+          "iostream": 1,
+          "namespace": 1
+        }
+      },
+      "Elixir": {
+        "files_scanned": 26,
+        "packages": {
+          "ExUnit.Case": 19,
+          "Record": 8,
+          "Enum": 3,
+          "Frank": 3,
+          "Frank.Path": 3,
+          "SudokuSolver": 2,
+          "Bitwise": 2,
+          "String": 1,
+          "Fib": 1,
+          "Fib2": 1,
+          "SudokuBoard": 1,
+          "brute": 1,
+          "display/1": 1,
+          "depth-first": 1,
+          "GenServer": 1,
+          "PrimeFactors": 1,
+          "Supervisor": 1,
+          "IEx": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 4,
+        "packages": {
+          "fmt": 4,
+          "time": 1,
+          "runtime": 1,
+          "sync": 1,
+          "math": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "ace": 1,
+          "dedent": 1,
+          "path": 1,
+          "fs": 1,
+          "inquirer": 1,
+          "t.write(": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 1,
+        "packages": {
+          "strict": 1,
+          "warnings": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 110,
+        "packages": {
+          "os": 23,
+          "sys": 22,
+          "time": 16,
+          "print_function": 13,
+          "__future__": 13,
+          "flask": 12,
+          "collections": 11,
+          "typing": 10,
+          "SQLAlchemy": 10,
+          "datetime": 10,
+          "metodo": 10,
+          "itertools": 10,
+          "make_sentinel": 10,
+          "json": 9,
+          "typeutils": 9,
+          "the": 8,
+          "math": 8,
+          "re": 8,
+          "django": 7,
+          "pandas": 6,
+          "multiprocessing": 6,
+          "celery": 6,
+          "beatx": 6,
+          "setuptools": 5,
+          "sqlalchemy": 5,
+          "current_app": 5,
+          "random": 5,
+          "operator": 5,
+          "bisect": 5,
+          "unittest": 4,
+          "setup": 4,
+          "Queue": 4,
+          "threading": 4,
+          "logging": 4,
+          "traceback": 4,
+          "flaskext": 4,
+          "MemcachedCache": 4,
+          "werkzeug": 4,
+          "hashlib": 4,
+          "Blueprint": 4,
+          "NoResultFound": 4,
+          "pdb": 4,
+          "socket": 4,
+          "pytest": 4,
+          "pickle": 3,
+          "Flask": 3,
+          "urllib": 3,
+          "util": 3,
+          "login_required": 3,
+          "models": 3,
+          "UploadNotAllowed": 3,
+          "IntegrityError": 3,
+          "unicodedata": 3,
+          "asyncio": 3,
+          "shutil": 3,
+          "boltons": 3,
+          "string": 3,
+          "ScheduleEntry": 3,
+          "decimal": 2,
+          "google": 2,
+          "service_account": 2,
+          "pathlib": 2,
+          "Callable": 2,
+          "Union": 2,
+          "Optional": 2,
+          "List": 2,
+          "general": 2,
+          "blog": 2,
+          "Post": 2,
+          "Link": 2,
+          "User": 2,
+          "instagram": 2,
+          "*": 2,
+          "InstagramAPI": 2,
+          "normalize": 2,
+          "requests": 2,
+          "concurrent": 2,
+          "io": 2,
+          "admin": 2,
+          "RLock": 2,
+          "heapq": 2,
+          "cases": 2,
+          "deque": 2,
+          "zip_longest": 2,
+          "izip_longest": 2,
+          "KeysView": 2,
+          "pprint": 2,
+          "zlib": 2,
+          "linecache": 2,
+          "ctypes": 2,
+          "errno": 2,
+          "types": 2,
+          "codecs": 2,
+          "tempfile": 2,
+          "chain": 2,
+          "Scheduler": 2,
+          "urlparse": 2,
+          "ImproperlyConfigured": 2,
+          "crontab": 2,
+          "serializer": 2,
+          "redis": 2,
+          "StrictRedis": 2,
+          "Mock": 2,
+          "token_bytes": 1,
+          "secrets": 1,
+          "Tuple": 1,
+          "getsizeof": 1,
+          "Decimal": 1,
+          "mock": 1,
+          "storage": 1,
+          "basic": 1,
+          "ML": 1,
+          "db_2_api": 1,
+          "CASE:": 1,
+          "Process": 1,
+          "schedule": 1,
+          "Thread": 1,
+          "queue": 1,
+          "CancelJob": 1,
+          "Lock": 1,
+          "Logger": 1,
+          "QueueHandler": 1,
+          "QueueListener": 1,
+          "StreamHandler": 1,
+          "Any": 1,
+          "dill": 1,
+          "to": 1,
+          "auth": 1,
+          "slugfy": 1,
+          "media": 1,
+          "pages": 1,
+          "markdown": 1,
+          "UploadSet": 1,
+          "slug": 1,
+          "evalcontextfilter": 1,
+          "jinja2": 1,
+          "LoginManager": 1,
+          "declarative_base": 1,
+          "create_engine": 1,
+          "scoped_session": 1,
+          "test_settings": 1,
+          "model": 1,
+          "Page": 1,
+          "asyncio_buffered_pipeline": 1,
+          "buffered_pipeline": 1,
+          "bigquery": 1,
+          "Elasticsearch": 1,
+          "elasticsearch": 1,
+          "PIL": 1,
+          "Image": 1,
+          "rmtree": 1,
+          "acessar_elemento": 1,
+          "knapsack": 1,
+          "busca_binaria": 1,
+          "encontrar_elemento": 1,
+          "merge_sort": 1,
+          "bubble_sort": 1,
+          "multiplicar_matrizes": 1,
+          "fibonacci": 1,
+          "permutacoes": 1,
+          "jump_search": 1,
+          "apostas": 1,
+          "TestCase": 1,
+          "render": 1,
+          "patterns": 1,
+          "get_wsgi_application": 1,
+          "execute_from_command_line": 1,
+          "as": 1,
+          "attrgetter": 1,
+          "weakref": 1,
+          "Repr": 1,
+          "reprlib": 1,
+          "signal": 1,
+          "repr": 1,
+          "warn": 1,
+          "warnings": 1,
+          "readline": 1,
+          "Tkinter": 1,
+          "getpass": 1,
+          "tkinter": 1,
+          "expat": 1,
+          "struct": 1,
+          "ssl": 1,
+          "platform": 1,
+          "cpu_count": 1,
+          "xml": 1,
+          "getrlimit": 1,
+          "resource": 1,
+          "sqlite3": 1,
+          "namedtuple": 1,
+          "stat": 1,
+          "fnmatch": 1,
+          "fcntl": 1,
+          "c_wchar_p": 1,
+          "copy2": 1,
+          "DWORD": 1,
+          ":func:`os": 1,
+          "Formatter": 1,
+          "inspect": 1,
+          "functools": 1,
+          "MethodType": 1,
+          "total_ordering": 1,
+          ":func:`gc": 1,
+          "gc": 1,
+          "EncodedFile": 1,
+          "abc": 1,
+          "TemporaryFile": 1,
+          "EINVAL": 1,
+          "BytesIO": 1,
+          "izip": 1,
+          "future_builtins": 1,
+          "Mapping": 1,
+          "filter": 1,
+          "any": 1,
+          "a": 1,
+          "log": 1,
+          "ceil": 1,
+          "mailbox": 1,
+          "iskeyword": 1,
+          "itemgetter": 1,
+          "OrderedDict": 1,
+          "keyword": 1,
+          "heappush": 1,
+          "insort": 1,
+          "listutils": 1,
+          "BList": 1,
+          "MutableSet": 1,
+          "bisect_left": 1,
+          "floor": 1,
+          "htmlentitydefs": 1,
+          "html": 1,
+          "defaultdict": 1,
+          "HTMLParser": 1,
+          "entities": 1,
+          "this": 1,
+          "uuid": 1,
+          "islice": 1,
+          "Sequence": 1,
+          "added": 1,
+          "cgi": 1,
+          "tzinfo": 1,
+          "inet_pton": 1,
+          "modules": 1,
+          "OrderedMultiDict": 1,
+          "pkgutil": 1,
+          "get_module_callables": 1,
+          "sphinx": 1,
+          "sphinx_rtd_theme": 1,
+          "mongoengine": 1,
+          "MongoEngine": 1,
+          "NotUniqueError": 1,
+          "ClienteForm": 1,
+          "forms": 1,
+          "wtforms": 1,
+          "Form": 1,
+          "Document": 1,
+          "feedparser": 1,
+          "aiohttp": 1,
+          "Ollama": 1,
+          "BaseModel": 1,
+          "FAISS": 1,
+          "RecursiveCharacterTextSplitter": 1,
+          "Path": 1,
+          "get_openai_callback": 1,
+          "HuggingFaceEmbeddings": 1,
+          "ThreadPoolExecutor": 1,
+          "pydantic": 1,
+          "langchain": 1,
+          "get_logger": 1,
+          "Client": 1,
+          "pylibmc": 1,
+          "memcache": 1,
+          "encode_schedule": 1,
+          "dummy": 1,
+          "environ": 1,
+          "skip": 1,
+          "import_string": 1,
+          "Celery": 1,
+          "import_module": 1,
+          "importlib": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 25,
+        "packages": {
+          "astro:content": 12,
+          "astro": 7,
+          "~": 6,
+          "config": 3,
+          "utils": 3,
+          "astrojs": 2,
+          "astro:assets": 2,
+          "fs": 1,
+          "js-yaml": 1,
+          "title": 1,
+          "lodash.merge": 1,
+          "path": 1,
+          "url": 1,
+          "img": 1,
+          "unpic": 1,
+          "svg": 1,
+          "SVG}": 1,
+          "TIFF": 1,
+          "webp": 1,
+          "jpg": 1,
+          "png": 1,
+          "tiff": 1,
+          "gif": 1,
+          "JPEG": 1,
+          "GIF": 1,
+          "astrolib": 1,
+          "WEBP": 1,
+          "JPG": 1,
+          "PNG": 1,
+          "limax": 1,
+          "tag": 1,
+          "rehype-autolink-headings": 1,
+          "html-escaper": 1,
+          "hast-util-to-string": 1,
+          "hastscript": 1,
+          "pt-BR": 1,
+          "github-slugger": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 6,
+        "packages": {
+          "astro:content": 4,
+          "config": 3,
+          "utils": 2,
+          "posts": 2,
+          "sm": 1,
+          "components": 1,
+          "react": 1,
+          "fuse.js": 1,
+          "satori": 1,
+          "resvg": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "berlotto/30-days-of-elixir",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "berlotto/algorithm-study",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Elixir",
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/api2db",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/asciiblog",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C++",
+          "Go",
+          "JavaScript",
+          "Perl",
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/asyncio-buffered-pipeline",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/awesome-notebooks",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/background",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/berlotto.github.io",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "berlotto/berlotto.me",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "berlotto/big-o-notation",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/bolao-futebol",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/boltons",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/bootstrap-simple-plus",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "berlotto/cadcli",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/camisetaescoteira",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/capitulo20-source-code",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "berlotto/celery-beatx",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

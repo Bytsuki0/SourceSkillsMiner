@@ -1,0 +1,223 @@
+{
+  "username": "Skee",
+  "areas": {
+    "OSS": {
+      "score": 0.5334915530453526,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.6,
+        "commits_activity": 0.7002373295680288
+      }
+    },
+    "Status": {
+      "score": 0.1591325786863782,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7002373295680288,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "Skee/rnews": 0.2263
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.4231560329329327,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "PHP": [
+        1199,
+        30
+      ],
+      "Shell": [
+        4,
+        0
+      ],
+      "Perl": [
+        197,
+        2
+      ],
+      "CSS": [
+        184,
+        5
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 37,
+    "total_lines": 1584,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 1199,
+        "commits": 30
+      },
+      {
+        "language": "CSS",
+        "lines": 184,
+        "commits": 5
+      },
+      {
+        "language": "Perl",
+        "lines": 197,
+        "commits": 2
+      },
+      {
+        "language": "Shell",
+        "lines": 4,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Skee",
+    "analysis_date": "2026-02-22T20:18:59.984320",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 55,
+    "languages": {
+      "Go": {
+        "files_scanned": 8,
+        "packages": {
+          "fmt": 6,
+          "strings": 5,
+          "net/http": 5,
+          "encoding/json": 4,
+          "os": 4,
+          "text/template": 3,
+          "path": 3,
+          "gorm.io/gorm": 2,
+          "io": 1,
+          "html": 1,
+          "io/ioutil": 1,
+          "os/user": 1,
+          "gorm.io/driver/sqlite": 1,
+          "git.adyanth.site/adyanth/shortpaste": 1,
+          "log": 1,
+          "crypto/sha256": 1,
+          "crypto/subtle": 1,
+          "embed": 1,
+          "gopkg.in/go-playground/validator.v9": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "vue": 3,
+          "vue-material-tabs": 1,
+          "vuetify": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 4,
+        "packages": {
+          "config.php": 2,
+          "publish": 1,
+          "xmas/index.php": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 1,
+        "packages": {
+          "strict": 1,
+          "Encode::Wordlist::PGP": 1,
+          "warnings": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 29,
+        "packages": {
+          "std": 22,
+          "crate": 18,
+          "super": 15,
+          "serde": 12,
+          "reqwest": 9,
+          "utils": 9,
+          "serde_json": 6,
+          "directory": 6,
+          "jmap_client": 5,
+          "prettytable": 5,
+          "mail_parser": 5,
+          "store": 5,
+          "trc": 5,
+          "console": 4,
+          "clap": 3,
+          "ahash": 3,
+          "mail_send": 3,
+          "futures": 2,
+          "tokio": 2,
+          "human_size": 2,
+          "mail_auth": 2,
+          "types": 2,
+          "biscuit": 2,
+          "modules": 1,
+          "pwhash": 1,
+          "indicatif": 1,
+          "rand": 1,
+          "oauth": 1,
+          "ring": 1,
+          "rsa": 1,
+          "x509_parser": 1,
+          "aes_gcm_siv": 1,
+          "mail_builder": 1,
+          "arc_swap": 1,
+          "parking_lot": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Skee/fcrdns-helper",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "Skee/rnews",
+        "files_analyzed": 9,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Skee/shortpaste",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Skee/stalwart",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "username": "wisdomgroup",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.08333333333333334,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "wisdomgroup",
+    "analysis_date": "2026-02-22T13:48:11.353177",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 95,
+    "languages": {
+      "C": {
+        "files_scanned": 11,
+        "packages": {
+          "<tgmath.h>": 6,
+          "tgmath.h": 6,
+          "debug.h": 4,
+          "<stdio.h>": 3,
+          "stdio.h": 3,
+          "body.h": 3,
+          "<stdlib.h>": 3,
+          "<string.h>": 3,
+          "stdlib.h": 3,
+          "string.h": 3,
+          "vector3d.h": 3,
+          "SDL_main.h": 2,
+          "SDL_coords.h": 2,
+          "stdbool.h": 2,
+          "<stdbool.h>": 2,
+          "test_vector3d.h": 2,
+          "saveload.h": 2,
+          "<SDL2/SDL2_gfxPrimitives.h>": 1,
+          "SDL2/SDL2_gfxPrimitives.h": 1,
+          "<SDL2/SDL.h>": 1,
+          "SDL2/SDL.h": 1,
+          "types.h": 1,
+          "constants.h": 1,
+          "color.h": 1,
+          "stdarg.h": 1,
+          "<unistd.h>": 1,
+          "<stdarg.h>": 1,
+          "unistd.h": 1,
+          "SDL/SDL_main.h": 1,
+          "sqlite3.h": 1,
+          "SQL_statements.h": 1,
+          "<sqlite3.h>": 1,
+          "vector2d.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 39,
+        "packages": {
+          "<UIKit/UIKit.h>": 23,
+          "stdio.h": 9,
+          "<stdio.h>": 9,
+          "<Foundation/Foundation.h>": 5,
+          "SLSMoleculeCustomDownloadViewController.h": 4,
+          "<OpenGLES/ES1/gl.h>": 3,
+          "<sqlite3.h>": 3,
+          "SLSMoleculeDownloadViewController.h": 3,
+          "<stdint.h>": 3,
+          "stdint.h": 3,
+          "URLCacheConnection.h": 3,
+          "ResourceLoading.h": 3,
+          "<OpenGLES/ES1/glext.h>": 2,
+          "<OpenGLES/EAGL.h>": 2,
+          "stdbool.h": 2,
+          "<stdbool.h>": 2,
+          "types.h": 2,
+          "<MapKit/MapKit.h>": 2,
+          "LocationsList.h": 2,
+          "SLSMolecule.h": 1,
+          "<QuartzCore/QuartzCore.h>": 1,
+          "SLSMoleculeTableViewController.h": 1,
+          "SLSMoleculeSearchViewController.h": 1,
+          "SLSMoleculeRootViewController.h": 1,
+          "SLSMoleculeDetailViewController.h": 1,
+          "color.h": 1,
+          "constants.h": 1,
+          "vector3d.h": 1,
+          "assert.h": 1,
+          "<assert.h>": 1,
+          "body.h": 1,
+          "<stdlib.h>": 1,
+          "stdlib.h": 1,
+          "stdarg.h": 1,
+          "<stdarg.h>": 1,
+          "VenueDetailTableViewController.h": 1,
+          "TapDetectingImageView.h": 1,
+          "SessionDetailTableViewController.h": 1,
+          "SessionsList.h": 1,
+          "SponsorsList.h": 1,
+          "<CoreLocation/CoreLocation.h>": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 28,
+        "packages": {
+          "SLSMolecule.h": 8,
+          "<QuartzCore/QuartzCore.h>": 4,
+          "QuartzCore/QuartzCore.h": 4,
+          "NSData+Gzip.h": 3,
+          "VCTitleCase.h": 3,
+          "SLSMoleculeRootViewController.h": 3,
+          "SLSMoleculeGLViewController.h": 3,
+          "SLSMoleculeGLView.h": 3,
+          "CacheDefaults.h": 3,
+          "URLs.h": 3,
+          "SLSMolecule+PDB.h": 2,
+          "SLSMoleculeAutorotationOperation.h": 2,
+          "SLSMoleculeDataSourceViewController.h": 2,
+          "SLSMoleculeSearchViewController.h": 2,
+          "SLSMoleculeDownloadViewController.h": 2,
+          "SLSMoleculeTableViewController.h": 2,
+          "SessionDetailViewController.h": 2,
+          "SessionsList.h": 2,
+          "SponsorDetailTableViewController.h": 2,
+          "URLCacheAlert.h": 2,
+          "zlib.h": 1,
+          "<zlib.h>": 1,
+          "SLSCellTextView.h": 1,
+          "SLSMoleculeAppDelegate.h": 1,
+          "SLSMoleculeCustomDownloadViewController.h": 1,
+          "SLSTextViewController.h": 1,
+          "SLSMoleculeDetailViewController.h": 1,
+          "<OpenGLES/EAGLDrawable.h>": 1,
+          "OpenGLES/EAGLDrawable.h": 1,
+          "AboutUsViewController.h": 1,
+          "LocationsList.h": 1,
+          "MapViewController.h": 1,
+          "SessionDetailTableViewController.h": 1,
+          "SessionsTableViewController.h": 1,
+          "SponsorsList.h": 1,
+          "SponsorsTableViewController.h": 1,
+          "TapDetectingImageView.h": 1,
+          "CFNetwork/CFNetwork.h": 1,
+          "<CFNetwork/CFNetwork.h>": 1,
+          "URLCacheConnection.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 6,
+        "packages": {
+          "graphics": 3,
+          "*": 3,
+          "random": 2,
+          "time": 2,
+          "parallel": 2,
+          "tkinter": 1,
+          "an": 1,
+          "Tkinter": 1,
+          "os": 1,
+          "sys": 1,
+          "itertools": 1,
+          "argparse": 1,
+          "zip_longest": 1,
+          "subprocess": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "wisdomgroup/camouflage",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "wisdomgroup/factors",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "wisdomgroup/Molecules",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "wisdomgroup/parallella-course",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "wisdomgroup/trajectory",
+        "files_analyzed": 23,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "wisdomgroup/wcr_iphone",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      }
+    ]
+  }
+}

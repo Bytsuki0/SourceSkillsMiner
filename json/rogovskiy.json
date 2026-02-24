@@ -1,0 +1,424 @@
+{
+  "username": "rogovskiy",
+  "areas": {
+    "OSS": {
+      "score": -0.006128479046794921,
+      "details": {
+        "issue_resolution_rate": 0.8,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6908072814298076
+      }
+    },
+    "Status": {
+      "score": 0.1299633763219088,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.675714295252094,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "rogovskiy/logvue": 0.16319166666666665,
+        "rogovskiy/sonar-scm-perforce": -0.488675
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.20595872431877849,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CSS": [
+        419,
+        0
+      ],
+      "Groovy": [
+        5,
+        0
+      ],
+      "Shell": [
+        3,
+        0
+      ],
+      "Batchfile": [
+        1,
+        0
+      ],
+      "JavaScript": [
+        6694,
+        6
+      ],
+      "TypeScript": [
+        29300,
+        26
+      ],
+      "Rust": [
+        462,
+        0
+      ],
+      "HTML": [
+        295,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 32,
+    "total_lines": 37179,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 29300,
+        "commits": 26
+      },
+      {
+        "language": "JavaScript",
+        "lines": 6694,
+        "commits": 6
+      },
+      {
+        "language": "CSS",
+        "lines": 419,
+        "commits": 0
+      },
+      {
+        "language": "Groovy",
+        "lines": 5,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 3,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rogovskiy",
+    "analysis_date": "2026-02-22T15:30:12.087220",
+    "total_repos_analyzed": 13,
+    "total_files_analyzed": 182,
+    "languages": {
+      "Java": {
+        "files_scanned": 64,
+        "packages": {
+          "java.util": 34,
+          "org.springsource": 30,
+          "java.io": 21,
+          "org.objectweb": 11,
+          "org.sonar": 10,
+          "java.text": 9,
+          "java.lang": 9,
+          "com.perforce": 5,
+          "java.net": 3,
+          "org.slf4j": 3,
+          "javax.annotation": 3,
+          "org.junit": 3,
+          "static": 3,
+          "com.google": 2,
+          "java.security": 2,
+          "org.apache": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 31,
+        "packages": {
+          "path": 11,
+          "react": 7,
+          "webpack": 5,
+          "chalk": 5,
+          "jQuery": 4,
+          "webpack-merge": 4,
+          "fs": 4,
+          "babel": 3,
+          "child_process": 3,
+          "fs-extra": 2,
+          "terser-webpack-plugin": 2,
+          "webpack-bundle-analyzer": 2,
+          "needle": 1,
+          "jszip": 1,
+          "app": 1,
+          "nunjucks": 1,
+          "react-refresh": 1,
+          "pmmmwh": 1,
+          "mini-css-extract-plugin": 1,
+          "css-minimizer-webpack-plugin": 1,
+          "test-file-stub": 1,
+          "detect-port": 1,
+          "rimraf": 1,
+          "electron-notarize": 1,
+          ":": 1,
+          "babel-plugin-dev-expression": 1,
+          "babel-plugin-transform-react-remove-prop-types": 1,
+          "visx": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 33,
+        "packages": {
+          "typing": 23,
+          "os": 19,
+          "json": 18,
+          "Dict": 17,
+          "datetime": 15,
+          "argparse": 14,
+          "sys": 13,
+          "load_dotenv": 13,
+          "dotenv": 13,
+          "services": 12,
+          "traceback": 10,
+          "google": 8,
+          "asyncio": 6,
+          "logging": 6,
+          "re": 6,
+          "IRDocumentService": 5,
+          "extraction_utils": 5,
+          "pathlib": 5,
+          "Path": 5,
+          "cloud_logging_setup": 4,
+          "yfinance": 4,
+          "pandas": 4,
+          "base64": 4,
+          "PlaywrightCrawler": 3,
+          "crawlee": 3,
+          "Optional": 3,
+          "time": 3,
+          "BeautifulSoup": 3,
+          "bs4": 3,
+          "PriceDataService": 3,
+          "extract_text_from_html": 3,
+          "document_text_extractor": 3,
+          "firebase_admin": 3,
+          "credentials": 3,
+          "hashlib": 3,
+          "urljoin": 3,
+          "urllib": 3,
+          "collections": 2,
+          "unittest": 2,
+          "ngrams": 2,
+          "playwright": 2,
+          "tempfile": 2,
+          "setup_cloud_logging": 2,
+          "io": 2,
+          "FinancialDataService": 2,
+          "yfinance_service": 2,
+          "YFinanceService": 2,
+          "AnalystDataService": 2,
+          "extract_kpis3": 2,
+          "List": 2,
+          "load_cached_data": 2,
+          "load_cached_sec_data": 2,
+          "this": 2,
+          "emit_metric": 2,
+          "browser_pool_manager": 2,
+          "BrowserPoolManager": 2,
+          "fileinput": 1,
+          "Counter": 1,
+          "RegexpTokenizer": 1,
+          "nltk": 1,
+          "threading": 1,
+          "TimeoutError": 1,
+          "requests": 1,
+          "StructuredLogHandler": 1,
+          "contextvars": 1,
+          "ContextVar": 1,
+          "pypdf": 1,
+          "BytesIO": 1,
+          "PdfReader": 1,
+          "SECFinancialsService": 1,
+          "analyst": 1,
+          "extract_sec_financials": 1,
+          "UnifiedDataService": 1,
+          "unified_data_service": 1,
+          "get_all_quarters_with_documents": 1,
+          "kpi_extraction_service": 1,
+          "reset_kpi_data": 1,
+          "extract_and_unify_kpis": 1,
+          "raw_kpi_service": 1,
+          "PromptFragmentService": 1,
+          "RawKPIService": 1,
+          "CIKLookupService": 1,
+          "cik_lookup_service": 1,
+          "IncomeStatementStandardizer": 1,
+          "secfsdstools": 1,
+          "CashFlowStandardizer": 1,
+          "BalanceSheetStandardizer": 1,
+          "TickerMetadataService": 1,
+          "income_statement": 1,
+          "fiscal_year": 1,
+          "storage": 1,
+          "CompanySummaryService": 1,
+          "extract_text_from_pdf": 1,
+          "QuarterlyAnalysisService": 1,
+          "kpi_definitions_service": 1,
+          "generate_quarterly_summary": 1,
+          "QuarterlyTextAnalysisService": 1,
+          "KPIDefinitionsService": 1,
+          "LLM": 1,
+          "TimeseriesService": 1,
+          "firebase_cache": 1,
+          "FirebaseCache": 1,
+          "langgraph": 1,
+          "ResourceExhausted": 1,
+          "HTMLReductionService": 1,
+          "MemorySaver": 1,
+          "TypedDict": 1,
+          "StateGraph": 1,
+          "URL": 1,
+          "firestore": 1,
+          "process_single_quarter": 1,
+          "unify_kpis": 1,
+          "pickle": 1,
+          "url": 1,
+          "selector": 1,
+          "Page": 1,
+          "get_gemini_model": 1,
+          "LangGraphWebScraper": 1,
+          "langgraph_scraper": 1,
+          "IRWebsiteCrawler": 1,
+          "ir_crawler": 1,
+          "numpy": 1,
+          "PortfolioService": 1,
+          "ChannelsConfigService": 1,
+          "PubSubMessageService": 1,
+          "refresh_macro_scores": 1,
+          "flask": 1,
+          "uuid": 1,
+          "scan_ir_website": 1,
+          "Flask": 1,
+          "yahoo": 1,
+          "refresh_yahoo_data": 1,
+          "defaultdict": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 2,
+        "packages": {
+          "super": 1,
+          "wasm_bindgen": 1,
+          "wasm_bindgen_test": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 8,
+        "packages": {
+          "react": 8,
+          "semantic-ui-react": 4,
+          "electron": 3,
+          "type": 1,
+          "react-split-pane": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rogovskiy/apexcharts.js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rogovskiy/grails-trait-issue",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rogovskiy/grailsForwardIssue",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rogovskiy/grailsForwardIssue2",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rogovskiy/groovy-core",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rogovskiy/issue10043",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rogovskiy/logvue",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Rust",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "rogovskiy/nr_challenge",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rogovskiy/react-charts",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rogovskiy/sonar-scm-perforce",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rogovskiy/spring-loaded",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rogovskiy/stan",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

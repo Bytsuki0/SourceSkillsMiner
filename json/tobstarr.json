@@ -1,0 +1,508 @@
+{
+  "username": "tobstarr",
+  "areas": {
+    "OSS": {
+      "score": 0.420485063308659,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0857142857142856,
+        "commits_activity": 0.5450133092487028
+      }
+    },
+    "Status": {
+      "score": 0.04282938565298133,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5450133092487028,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "tobstarr/ct2017": 0.663
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.41582861224041007,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        235,
+        1
+      ],
+      "Nginx": [
+        0,
+        0
+      ],
+      "Vim Script": [
+        949,
+        1
+      ],
+      "Go": [
+        710,
+        0
+      ],
+      "Makefile": [
+        31,
+        0
+      ],
+      "Protocol Buffer": [
+        2,
+        0
+      ],
+      "Ruby": [
+        3,
+        0
+      ],
+      "JavaScript": [
+        8,
+        0
+      ],
+      "Elixir": [
+        8,
+        1
+      ],
+      "HTML": [
+        25,
+        4
+      ],
+      "CSS": [
+        0,
+        0
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 7,
+    "total_lines": 1971,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 25,
+        "commits": 4
+      },
+      {
+        "language": "Shell",
+        "lines": 235,
+        "commits": 1
+      },
+      {
+        "language": "Vim Script",
+        "lines": 949,
+        "commits": 1
+      },
+      {
+        "language": "Elixir",
+        "lines": 8,
+        "commits": 1
+      },
+      {
+        "language": "Nginx",
+        "lines": 0,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "tobstarr",
+    "analysis_date": "2026-02-23T01:59:17.062177",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 211,
+    "languages": {
+      "Elixir": {
+        "files_scanned": 63,
+        "packages": {
+          "ExUnit.Case": 15,
+          "ExTwitter.API.Base": 13,
+          "__MODULE__": 12,
+          "Contex.": 12,
+          "Mix.Project": 6,
+          "Contex.Utils": 6,
+          "SweetXml": 6,
+          "Contex.SVG": 5,
+          "Contex.Dataset": 4,
+          "Contex.CategoryColourScale": 4,
+          "Aoc.Boilerplate": 3,
+          "Contex.Axis": 3,
+          "Mix.Config": 3,
+          "Benchfella": 3,
+          "Mix.Task": 2,
+          "Application": 2,
+          "#{Mix.env()}.exs": 2,
+          "ExTwitter.API.Streaming": 2,
+          "Contex.Scale": 1,
+          "ExTwitter.Behaviour": 1,
+          "ExTwitter.Model.SearchResponse": 1,
+          "Logger": 1,
+          "ExTwitter.Model": 1,
+          "Supervisor": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 59,
+        "packages": {
+          "fmt": 32,
+          "os": 29,
+          "log": 19,
+          "path/filepath": 18,
+          "strings": 17,
+          "bytes": 16,
+          "testing": 14,
+          "errors": 10,
+          "io/ioutil": 9,
+          "os/exec": 9,
+          "github.com/coreos/coreos-kubernetes/multi-node/aws/pkg/config": 8,
+          "github.com/spf13/cobra": 8,
+          "text/template": 7,
+          "io": 7,
+          "encoding/json": 6,
+          "go/build": 6,
+          "github.com/coreos/coreos-kubernetes/multi-node/aws/pkg/cluster": 5,
+          "strconv": 5,
+          "time": 5,
+          "crypto/rsa": 5,
+          "net": 4,
+          "net/http": 4,
+          "flag": 4,
+          "regexp": 4,
+          "go/parser": 4,
+          "go/token": 4,
+          "github.com/aws/aws-sdk-go/aws": 3,
+          "github.com/aws/aws-sdk-go/service/kms": 3,
+          "crypto/x509": 3,
+          "C": 3,
+          "E": 3,
+          "D": 3,
+          "runtime": 3,
+          "github.com/aws/aws-sdk-go/aws/session": 2,
+          "github.com/coreos/coreos-cloudinit/config/validate": 2,
+          "encoding/pem": 2,
+          "crypto/rand": 2,
+          "math": 2,
+          "bufio": 2,
+          "github.com/stretchr/testify/assert": 2,
+          "go/ast": 2,
+          "godep": 2,
+          "golang.org/x/tools/go/vcs": 2,
+          "github.com/kr/fs": 2,
+          "reflect": 2,
+          "github.com/aws/aws-sdk-go/service/cloudformation": 1,
+          "text/tabwriter": 1,
+          "sa-east-1": 1,
+          "ap-northeast-1": 1,
+          "ap-southeast-1": 1,
+          "eu-west-1": 1,
+          "alpha": 1,
+          "github.com/coreos/coreos-kubernetes/multi-node/aws/pkg/coreosutil": 1,
+          "us-east-1": 1,
+          "eu-central-1": 1,
+          "ap-southeast-2": 1,
+          "us-west-1": 1,
+          "us-gov-west-1": 1,
+          "us-west-2": 1,
+          "kubernetes.default.svc.cluster.local": 1,
+          "kubernetes": 1,
+          "kubernetes.default.svc": 1,
+          "*.*.compute.internal": 1,
+          "*.ec2.internal": 1,
+          "kubernetes.default": 1,
+          "github.com/coreos/coreos-kubernetes/multi-node/aws/pkg/tlsutil": 1,
+          "compress/gzip": 1,
+          "encoding/base64": 1,
+          "Could": 1,
+          "crypto/x509/pkix": 1,
+          "math/big": 1,
+          "net/http/httputil": 1,
+          "net/url": 1,
+          "github.com/dynport/metrix/metrix": 1,
+          "go/scanner": 1,
+          "github.com/benbjohnson/ego": 1,
+          "GOPATH": 1,
+          "github.com/constabulary/gb/cmd": 1,
+          "sort": 1,
+          "github.com/pmezard/go-difflib/difflib": 1,
+          "GoVersion": 1,
+          "Rev": 1,
+          "Comment": 1,
+          "Deps": 1,
+          "ImportPath": 1,
+          "GodepVersion": 1,
+          "copyleft": 1,
+          "authors": 1,
+          "patent": 1,
+          "unlicense": 1,
+          "licence": 1,
+          "contributors": 1,
+          "legal": 1,
+          "copying": 1,
+          "license": 1,
+          "third-party": 1,
+          "thirdparty": 1,
+          "notice": 1,
+          "copyright": 1,
+          "disclaimer": 1,
+          "builtin": 1,
+          "unicode": 1,
+          "runtime/pprof": 1,
+          "trim": 1,
+          "github.com/kr/pretty": 1,
+          "go/printer": 1,
+          "C/Godeps/_workspace/src/D": 1,
+          "C/Godeps/_workspace/src/E": 1,
+          "[^": 1,
+          "Run": 1,
+          "T": 1,
+          "CS": 1,
+          "P": 1,
+          "path": 1,
+          "A": 1,
+          "B": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 3,
+        "packages": {
+          "io.prometheus": 3,
+          "java.util": 2,
+          "com.amazonaws": 2,
+          "java.io": 2,
+          "org.yaml": 1,
+          "org.eclipse": 1,
+          "static": 1,
+          "org.junit": 1,
+          "org.mockito": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 6,
+        "packages": {
+          "path": 4,
+          "webpack": 3,
+          "fs-extra": 1,
+          "zone.js": 1,
+          "es6-shim": 1,
+          "reflect-metadata": 1,
+          "angular": 1,
+          "ts-helpers": 1,
+          "http": 1,
+          "copy-webpack-plugin": 1,
+          "html-webpack-plugin": 1,
+          "extract-text-webpack-plugin": 1,
+          "webpack-merge": 1,
+          "autoprefixer": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "urllib": 2,
+          "isdir": 2,
+          "mkdir": 2,
+          "zipfile": 2,
+          "xml": 2,
+          "getpass": 2,
+          "json": 2,
+          "datetime": 2,
+          "argv": 2,
+          "sys": 2,
+          "subprocess": 2,
+          "argparse": 2,
+          "call": 2,
+          "os": 2,
+          "parseString": 2,
+          "filename": 1,
+          "remove": 1,
+          "fileinput": 1,
+          "cookielib": 1,
+          "urlencode": 1,
+          "isfile": 1,
+          "stat": 1,
+          "urllib2": 1,
+          "http": 1,
+          "re": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 15,
+        "packages": {
+          "std": 11,
+          "error": 7,
+          "failure": 6,
+          "byteorder": 6,
+          "profile": 5,
+          "itertools": 3,
+          "inflector": 3,
+          "calamine": 3,
+          "proc_macro2": 3,
+          "types": 3,
+          "clap": 2,
+          "base": 2,
+          "util": 2,
+          "super": 2,
+          "garminfit": 1,
+          "quote": 1,
+          "lazy_static": 1,
+          "profile_gen": 1,
+          "garminfit_profile_gen": 1,
+          "test": 1,
+          "chrono": 1,
+          "=": 1,
+          "dyncrc16": 1,
+          "bits": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 20,
+        "packages": {
+          "angular": 16,
+          "i18next": 6,
+          "rxjs": 4,
+          "I18NEXT_SERVICE": 1,
+          "I18NEXT_SCOPE": 1,
+          "I18NEXT_ERROR_HANDLING_STRATEGY": 1,
+          "I18NEXT_NAMESPACE": 1,
+          "I18NEXT_NAMESPACE_RESOLVER": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "tobstarr/angular-i18next",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "tobstarr/aoc",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "tobstarr/cloudwatch_exporter",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "tobstarr/contex",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "tobstarr/coreos-kubernetes",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "tobstarr/corona_who",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "tobstarr/ct2017",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "tobstarr/docktrix",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "tobstarr/ego",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "tobstarr/elixir_lambda",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "tobstarr/elm-webpack-starter",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "tobstarr/extwitter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "tobstarr/garmin-connect-export",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tobstarr/garminfit",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "tobstarr/gb-vendor",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "tobstarr/godep",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

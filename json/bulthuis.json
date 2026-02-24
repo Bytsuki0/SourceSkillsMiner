@@ -1,0 +1,220 @@
+{
+  "username": "bulthuis",
+  "areas": {
+    "OSS": {
+      "score": -0.26716058691144706,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.5992591196328294
+      }
+    },
+    "Status": {
+      "score": 0.09928421039759217,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5912340079040806,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "bulthuis/redmine_stand_up": -0.019066666666666666
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.041969094128463724,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Vim Script": [
+        665,
+        5
+      ],
+      "Shell": [
+        281,
+        2
+      ],
+      "Ruby": [
+        655,
+        7
+      ],
+      "JavaScript": [
+        117,
+        1
+      ],
+      "PHP": [
+        10,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 15,
+    "total_lines": 1728,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 655,
+        "commits": 7
+      },
+      {
+        "language": "Vim Script",
+        "lines": 665,
+        "commits": 5
+      },
+      {
+        "language": "Shell",
+        "lines": 281,
+        "commits": 2
+      },
+      {
+        "language": "JavaScript",
+        "lines": 117,
+        "commits": 1
+      },
+      {
+        "language": "PHP",
+        "lines": 10,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "bulthuis",
+    "analysis_date": "2026-02-23T15:27:30.404442",
+    "total_repos_analyzed": 5,
+    "total_files_analyzed": 37,
+    "languages": {
+      "C#": {
+        "files_scanned": 3,
+        "packages": {
+          "Microsoft.AspNetCore.Builder": 3,
+          "Microsoft.AspNetCore.Hosting": 3,
+          "Microsoft.AspNetCore.Http": 3,
+          "Microsoft.Data.SqlClient": 1,
+          "System.Threading.Tasks": 1,
+          "Npgsql": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "namespace": 2,
+          "<iostream>": 2,
+          "std": 2,
+          "iostream": 2,
+          "<cassert>": 1,
+          "<mariadb/conncpp.hpp>": 1,
+          "mariadb/conncpp.hpp": 1,
+          "cassert": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "os": 1,
+          "fmt": 1,
+          "database/sql": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 6,
+        "packages": {
+          "com.mycompany": 6,
+          "static": 6,
+          "org.junit": 3,
+          "java.sql": 1,
+          "java.net": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "express": 3,
+          "mongodb": 1,
+          "bluebird": 1,
+          "pg-promise": 1,
+          "puppeteer": 1,
+          "process": 1,
+          "fs": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 4,
+        "packages": {
+          "psycopg2": 2,
+          "os": 2,
+          "traceback": 2,
+          "sys": 2,
+          "numpy": 2,
+          "matplotlib": 2
+        }
+      },
+      "Ruby": {
+        "files_scanned": 1,
+        "packages": {
+          "redmine": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 1,
+        "packages": {
+          "postgres": 1,
+          "std": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "express": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "bulthuis/redmine_stand_up",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "bulthuis/templates",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C#",
+          "C++",
+          "Go",
+          "Java",
+          "JavaScript",
+          "Python",
+          "Rust",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

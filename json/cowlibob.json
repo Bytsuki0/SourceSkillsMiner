@@ -1,0 +1,628 @@
+{
+  "username": "cowlibob",
+  "areas": {
+    "OSS": {
+      "score": 0.6057791537667698,
+      "details": {
+        "issue_resolution_rate": 0.8823529411764706,
+        "pr_merge_rate": 0.5263157894736842,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.40644679216345136,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9942855728605616,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "cowlibob/maildown": -0.5267
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.3030564864825553,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        75549,
+        54
+      ],
+      "HTML": [
+        36870,
+        14
+      ],
+      "Swift": [
+        322077,
+        65
+      ],
+      "JavaScript": [
+        64211,
+        17
+      ],
+      "Shell": [
+        3323,
+        0
+      ],
+      "Python": [
+        2471,
+        0
+      ],
+      "CSS": [
+        7357,
+        5
+      ],
+      "SCSS": [
+        3313,
+        2
+      ],
+      "Haml": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        4,
+        0
+      ],
+      "C": [
+        868,
+        3
+      ],
+      "Objective-C": [
+        3,
+        0
+      ],
+      "Lua": [
+        1,
+        0
+      ],
+      "PHP": [
+        1,
+        0
+      ],
+      "Io": [
+        0,
+        0
+      ],
+      "C++": [
+        5089,
+        12
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 172,
+    "total_lines": 521137,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 322077,
+        "commits": 65
+      },
+      {
+        "language": "Ruby",
+        "lines": 75549,
+        "commits": 54
+      },
+      {
+        "language": "JavaScript",
+        "lines": 64211,
+        "commits": 17
+      },
+      {
+        "language": "HTML",
+        "lines": 36870,
+        "commits": 14
+      },
+      {
+        "language": "C++",
+        "lines": 5089,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "cowlibob",
+    "analysis_date": "2026-02-23T21:35:05.390235",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 307,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "icon": 1,
+          "function": 1,
+          "on": 1,
+          "wolfy87-eventemitter": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 130,
+        "packages": {
+          "abstract_unit": 10,
+          "databasedotcom/chatter/record": 9,
+          "base": 8,
+          "spec_helper": 8,
+          "json": 6,
+          "action_controller": 5,
+          "minitest/autorun": 5,
+          "databasedotcom": 5,
+          "rspec": 5,
+          "dragonfly/job/step": 5,
+          "action_view": 4,
+          "associative": 4,
+          "rails": 3,
+          "set": 3,
+          "active_support/core_ext/string/inflections": 3,
+          "armadillo/codegen": 3,
+          "active_support": 3,
+          "pathname": 3,
+          "mail": 3,
+          "active_support/core_ext/module/anonymous": 3,
+          "forwardable": 3,
+          "active_record": 2,
+          "rubygems": 2,
+          "administrate/order": 2,
+          "administrate/page/collection": 2,
+          "net/http": 2,
+          "armadillo/project": 2,
+          "armadillo/certificate": 2,
+          "logger": 2,
+          "date": 2,
+          "blow_or_slow": 2,
+          "test_helper": 2,
+          "Chartjs::ChartHelpers": 2,
+          "chartjs/chart_helpers": 2,
+          "uri": 2,
+          "fileutils": 2,
+          "cgi": 2,
+          "databasedotcom/chatter/photo_methods": 2,
+          "PhotoMethods": 2,
+          "active_support/rails": 2,
+          "active_support/core_ext/module/attr_internal": 2,
+          "action_mailer/log_subscriber": 2,
+          "action_mailer": 2,
+          "mailers/base_mailer": 2,
+          "dragonfly": 2,
+          "dragonfly/file_data_store": 2,
+          "dragonfly/job_endpoint": 2,
+          "base64": 2,
+          "dragonfly/utils": 2,
+          ":child_record_audits": 1,
+          "CollectiveIdea::Acts::Audited::InstanceMethods": 1,
+          "acts_as_audited/audit_sweeper": 1,
+          "acts_as_audited": 1,
+          "acts_as_audited/audit": 1,
+          "multi_rails_init": 1,
+          "active_record/fixtures": 1,
+          "test/unit": 1,
+          "jnunemaker-matchy": 1,
+          "shoulda": 1,
+          "active_record/version": 1,
+          "matchy": 1,
+          "action_controller/test_process": 1,
+          "Pundit": 1,
+          "administrate/engine": 1,
+          "administrate/field/string": 1,
+          "administrate/field/has_one": 1,
+          "administrate/field/boolean": 1,
+          "administrate/field/email": 1,
+          "administrate/field/select": 1,
+          "administrate/field/polymorphic": 1,
+          "administrate/field/belongs_to": 1,
+          "administrate/field/has_many": 1,
+          "administrate/field/number": 1,
+          "Administrate": 1,
+          "administrate/field/text": 1,
+          "administrate/field/date_time": 1,
+          "momentjs-rails": 1,
+          "administrate/page/form": 1,
+          "administrate/search": 1,
+          "administrate/namespace/resource": 1,
+          "administrate/page/show": 1,
+          "jquery-rails": 1,
+          "administrate/resource_resolver": 1,
+          "datetime_picker_rails": 1,
+          "administrate/namespace": 1,
+          "selectize-rails": 1,
+          "sass-rails": 1,
+          "kaminari": 1,
+          "sprockets/railtie": 1,
+          "deferred": 1,
+          "active_support/core_ext/module/delegation": 1,
+          "administrate/field/base": 1,
+          "administrate/field/image": 1,
+          "Userstamp": 1,
+          "Alchemy::Locale": 1,
+          "alchemy/version": 1,
+          "OnPageLayout::CallbacksRunner": 1,
+          "Alchemy::ResourcesHelper": 1,
+          "alchemy/resources_helper": 1,
+          "alchemy/resource": 1,
+          "csv": 1,
+          "Alchemy::Modules": 1,
+          "Alchemy::ControllerActions": 1,
+          "Alchemy::ConfigurationMethods": 1,
+          "Alchemy::SSLProtection": 1,
+          "xcodeproj": 1,
+          "win32/registry": 1,
+          "ffi": 1,
+          "inifile": 1,
+          "win32/dir": 1,
+          "lib": 1,
+          ":original_grep": 1,
+          ":awesome_inspect": 1,
+          ":awesome_print": 1,
+          ":pale": 1,
+          ":black": 1,
+          "shellwords": 1,
+          ":awesome_unboundmethod": 1,
+          "awesome_print/core_ext/logger": 1,
+          "awesome_print/ext/action_view": 1,
+          "awesome_print/ext/active_record": 1,
+          "awesome_print/ext/active_support": 1,
+          "MongoMapper::Document": 1,
+          "MongoMapper::EmbeddedDocument": 1,
+          "mongo_mapper": 1,
+          "awesome_print/ext/mongo_mapper": 1,
+          "blow_or_slow/report": 1,
+          "blow_or_slow/visitor": 1,
+          "blow_or_slow/weather_man": 1,
+          "blow_or_slow/version": 1,
+          "Enumerable": 1,
+          "rest_client": 1,
+          "ephemeral_response": 1,
+          "visitor": 1,
+          "byebug_noop/version": 1,
+          "debugger": 1,
+          "byebug_noop": 1,
+          "chartjs": 1,
+          "chartjs/version": 1,
+          "chartjs/engine": 1,
+          "bigdecimal": 1,
+          "cheatset/#{file}": 1,
+          "cheatset/version": 1,
+          "thor": 1,
+          "sqlite3": 1,
+          "ostruct": 1,
+          "haml": 1,
+          "plist": 1,
+          "sanitize": 1,
+          "rouge": 1,
+          "rouge/plugins/redcarpet": 1,
+          "Rouge::Plugins::Redcarpet": 1,
+          "unindent": 1,
+          "redcarpet": 1,
+          "databasedotcom/sales_force_error": 1,
+          "databasedotcom/flow": 1,
+          "databasedotcom/sobject": 1,
+          "databasedotcom/chatter": 1,
+          "databasedotcom/core_extensions": 1,
+          "databasedotcom/version": 1,
+          "databasedotcom/client": 1,
+          "databasedotcom/collection": 1,
+          "active_support/core_ext": 1,
+          "databasedotcom/chatter/feeds": 1,
+          "databasedotcom/chatter/feed_item": 1,
+          "databasedotcom/chatter/conversation": 1,
+          "databasedotcom/chatter/comment": 1,
+          "databasedotcom/chatter/subscription": 1,
+          "databasedotcom/chatter/like": 1,
+          "databasedotcom/chatter/group_membership": 1,
+          "databasedotcom/chatter/message": 1,
+          "databasedotcom/chatter/filter_feed": 1,
+          "databasedotcom/chatter/group": 1,
+          "databasedotcom/chatter/user": 1,
+          "databasedotcom/chatter/feed": 1,
+          "net/http/post/multipart": 1,
+          "net/https": 1,
+          "databasedotcom/core_extensions/string_extensions": 1,
+          "databasedotcom/sobject/sobject": 1,
+          "deface/actions/insert_top": 1,
+          "deface/actions/insert_after": 1,
+          "deface/applicator": 1,
+          "deface/dsl/loader": 1,
+          "deface/original_validator": 1,
+          "deface/override": 1,
+          "deface/template_helper": 1,
+          "deface/search": 1,
+          "deface/precompiler": 1,
+          "deface/actions/attribute_action": 1,
+          "deface/sources/slim": 1,
+          "deface/actions/action": 1,
+          "deface/parser": 1,
+          "deface/railtie": 1,
+          "deface/actions/element_action": 1,
+          "deface/digest": 1,
+          "deface/sources/text": 1,
+          "deface/matchers/element": 1,
+          "deface/actions/replace_contents": 1,
+          "deface/actions/surround_contents": 1,
+          "deface/sources/source": 1,
+          "deface/actions/remove_from_attributes": 1,
+          "deface/sources/copy": 1,
+          "deface/actions/insert_bottom": 1,
+          "deface/actions/insert_before": 1,
+          "deface/actions/surround_action": 1,
+          "deface/actions/replace": 1,
+          "deface/actions/remove": 1,
+          "deface/actions/surround": 1,
+          "deface/actions/add_to_attributes": 1,
+          "deface/sources/cut": 1,
+          "deface/sources/haml": 1,
+          "deface/sources/template": 1,
+          "deface/errors": 1,
+          "deface/sources/erb": 1,
+          "deface/sources/partial": 1,
+          "deface/environment": 1,
+          "deface/matchers/range": 1,
+          "deface/actions/set_attributes": 1,
+          "deface/dsl/context": 1,
+          "polyglot": 1,
+          "HamlParserMethods": 1,
+          "HamlCompilerMethods": 1,
+          "Applicator": 1,
+          "OriginalValidator": 1,
+          "nokogiri": 1,
+          "active_support/lazy_load_hooks": 1,
+          "action_mailer/version": 1,
+          "active_support/core_ext/class": 1,
+          "abstract_controller": 1,
+          "AbstractController::Callbacks": 1,
+          "AbstractController::Layouts": 1,
+          "AbstractController::Helpers": 1,
+          "AbstractController::Translation": 1,
+          ":default_options=": 1,
+          ":controller_path": 1,
+          "DeliveryMethods": 1,
+          "AbstractController::Logger": 1,
+          "AbstractController::AssetPaths": 1,
+          "active_support/core_ext/hash/except": 1,
+          "action_mailer/collector": 1,
+          "AbstractController::Rendering": 1,
+          ":all": 1,
+          "AbstractController::Collector": 1,
+          "active_support/core_ext/array/extract_options": 1,
+          "active_support/core_ext/hash/reverse_merge": 1,
+          "abstract_controller/collector": 1,
+          "tmpdir": 1,
+          "abstract_controller/railties/routes_helpers": 1,
+          "AbstractController::UrlFor": 1,
+          "app.routes.mounted_helpers": 1,
+          "active_support/test_case": 1,
+          "Behavior": 1,
+          "TestHelper": 1,
+          "ActiveSupport::Testing::ConstantLookup": 1,
+          "active_support/testing/autorun": 1,
+          "active_support/core_ext/kernel/reporting": 1,
+          "action_mailer/test_case": 1,
+          "mailers/asset_mailer": 1,
+          "active_support/time": 1,
+          "mailers/proc_mailer": 1,
+          "action_dispatch": 1,
+          "active_support/log_subscriber/test_helper": 1,
+          "ActiveSupport::LogSubscriber::TestHelper": 1,
+          "AppRoutes.url_helpers": 1,
+          "action_pack": 1,
+          "active_support/i18n": 1,
+          "ActiveSupport::Configurable": 1,
+          "send_action": 1,
+          "erubis": 1,
+          "active_support/descendants_tracker": 1,
+          "active_support/configurable": 1,
+          "ActiveSupport::Callbacks": 1,
+          "reload!": 1,
+          "pry": 1,
+          "bundler/setup": 1,
+          "dragonfly/model": 1,
+          "dragonfly/middleware": 1,
+          "rbconfig": 1,
+          "dragonfly/railtie": 1,
+          "dragonfly/app": 1,
+          "dragonfly/image_magick/plugin": 1,
+          "dragonfly/model/validations": 1,
+          "dragonfly/memory_data_store": 1,
+          "dragonfly/core_ext/array": 1,
+          "dragonfly/version": 1,
+          "dragonfly/core_ext/hash": 1,
+          "dragonfly/core_ext/object": 1,
+          "create": 1,
+          "dragonfly/routed_endpoint": 1,
+          "dragonfly/configurable": 1,
+          "app.job_methods": 1,
+          "dragonfly/shell": 1,
+          "rack": 1,
+          "dragonfly/register": 1,
+          "dragonfly/server": 1,
+          "dragonfly/job": 1,
+          "dragonfly/temp_object": 1,
+          "dragonfly/has_filename": 1,
+          "HasFilename": 1,
+          "yaml": 1,
+          "dragonfly/hash_with_css_style_keys": 1,
+          "dragonfly/image_magick/processors/encode": 1,
+          "dragonfly/image_magick/processors/thumb": 1,
+          "dragonfly/image_magick/generators/plain": 1,
+          "dragonfly/image_magick/analysers/image_properties": 1,
+          "dragonfly/image_magick/generators/convert": 1,
+          "dragonfly/image_magick/generators/plasma": 1,
+          "dragonfly/image_magick/processors/convert": 1,
+          "dragonfly/image_magick/generators/text": 1,
+          "dragonfly/job/fetch": 1,
+          "dragonfly/serializer": 1,
+          "dragonfly/content": 1,
+          "dragonfly/job/generate": 1,
+          "dragonfly/job/process": 1,
+          "dragonfly/job/fetch_url": 1,
+          "digest/sha1": 1,
+          "dragonfly/url_attributes": 1,
+          "dragonfly/job/fetch_file": 1,
+          "addressable/uri": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 29,
+        "packages": {
+          "SwiftUI": 17,
+          "Foundation": 12,
+          "UIKit": 7,
+          "Combine": 6,
+          "AVFoundation": 2,
+          "ImageIO": 1,
+          "UniformTypeIdentifiers": 1,
+          "AudioToolbox": 1,
+          "GameKit": 1,
+          "Speech": 1,
+          "SpriteKit": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "cowlibob/acts_as_audited",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/administrate",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/administrate-field-image",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/alchemy_cms",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/anagram_trainer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "cowlibob/armadillo",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/awesome_print",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/blow_or_slow",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/bundler-site",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "cowlibob/byebug_noop",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/chartjs-ror",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/cheatset",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/cowlibob.github.io",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "cowlibob/databasedotcom",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/deface-old",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/docrails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "cowlibob/dragonfly",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

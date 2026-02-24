@@ -1,0 +1,161 @@
+{
+  "username": "dhennessy",
+  "areas": {
+    "OSS": {
+      "score": 0.8679549114331722,
+      "details": {
+        "issue_resolution_rate": 0.8888888888888888,
+        "pr_merge_rate": 0.9130434782608695,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.35931231325150215,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9812761621849454,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "dhennessy/BugHub": 0.18579411764705883,
+        "dhennessy/FCModel": 0.4404,
+        "dhennessy/PAPasscode": 0.39017,
+        "dhennessy/PAPreferences": 0.3768033333333333,
+        "dhennessy/WashTimer": 0.1591
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6568168061711686,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        58103,
+        98
+      ],
+      "Rust": [
+        33681,
+        18
+      ],
+      "Python": [
+        27202,
+        2
+      ],
+      "Makefile": [
+        483,
+        0
+      ],
+      "HTML": [
+        69217,
+        3
+      ],
+      "CSS": [
+        3922,
+        0
+      ],
+      "JavaScript": [
+        11304,
+        0
+      ],
+      "Ruby": [
+        1122,
+        8
+      ],
+      "Objective-C": [
+        167134,
+        56
+      ],
+      "Arduino": [
+        507849,
+        4
+      ],
+      "C": [
+        14581,
+        0
+      ],
+      "Shell": [
+        1034,
+        0
+      ],
+      "Awk": [
+        33,
+        0
+      ],
+      "C++": [
+        29698,
+        1
+      ],
+      "Batchfile": [
+        15,
+        0
+      ],
+      "Objective-C++": [
+        29,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 190,
+    "total_lines": 925407,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 58103,
+        "commits": 98
+      },
+      {
+        "language": "Objective-C",
+        "lines": 167134,
+        "commits": 56
+      },
+      {
+        "language": "Rust",
+        "lines": 33681,
+        "commits": 18
+      },
+      {
+        "language": "Ruby",
+        "lines": 1122,
+        "commits": 8
+      },
+      {
+        "language": "Arduino",
+        "lines": 507849,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/dhennessy/adventofcode2024/contents/aoc2024/02.py (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7d3b2808fd70>, 'Connection to api.github.com timed out. (connect timeout=None)'))",
+    "username": "dhennessy",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "username": "crei0",
+  "areas": {
+    "OSS": {
+      "score": 0.6808941139408331,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.8546745042445831
+      }
+    },
+    "Status": {
+      "score": 0.2735521917354473,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8526359799108632,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.2386115764190701,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CSS": [
+        5455,
+        9
+      ],
+      "Nunjucks": [
+        1786,
+        3
+      ],
+      "JavaScript": [
+        34712,
+        14
+      ],
+      "TypeScript": [
+        11110,
+        3
+      ],
+      "Svelte": [
+        3683,
+        1
+      ],
+      "HTML": [
+        4961,
+        14
+      ],
+      "GDScript": [
+        33137,
+        28
+      ],
+      "Python": [
+        6512,
+        2
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 74,
+    "total_lines": 101356,
+    "top_5_languages": [
+      {
+        "language": "GDScript",
+        "lines": 33137,
+        "commits": 28
+      },
+      {
+        "language": "JavaScript",
+        "lines": 34712,
+        "commits": 14
+      },
+      {
+        "language": "HTML",
+        "lines": 4961,
+        "commits": 14
+      },
+      {
+        "language": "CSS",
+        "lines": 5455,
+        "commits": 9
+      },
+      {
+        "language": "Nunjucks",
+        "lines": 1786,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "crei0",
+    "analysis_date": "2026-02-22T15:23:57.592117",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 173,
+    "languages": {
+      "C#": {
+        "files_scanned": 10,
+        "packages": {
+          "System.Runtime.InteropServices": 6,
+          "System": 6,
+          "static": 5,
+          "System.ComponentModel": 3,
+          "System.IO": 2,
+          "System.Windows": 2,
+          "System.Threading": 1,
+          "Microsoft.Win32.SafeHandles": 1,
+          "System.Linq": 1,
+          "System.Threading.Tasks": 1,
+          "System.Windows.Input": 1,
+          "System.Windows.Controls": 1,
+          "System.Runtime.CompilerServices": 1,
+          "System.Resources": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 37,
+        "packages": {
+          "Generation/FunctionCodeGenerator.hpp": 10,
+          "Types/TypeExpectation.hpp": 9,
+          "Compiler.hpp": 9,
+          "MemoryFlowAnalysis/MFFunctionAnalyser.hpp": 8,
+          "Generation/CallCodeGenerator.hpp": 7,
+          "Analysis/FunctionAnalyser.hpp": 6,
+          "Types/Class.hpp": 6,
+          "ASTInitialization.hpp": 4,
+          "ASTTypeExpr.hpp": 4,
+          "Functions/Function.hpp": 4,
+          "Scoping/SemanticScoper.hpp": 4,
+          "core/debugger/script_debugger.h": 4,
+          "core/os/os.h": 4,
+          "ASTLiterals.hpp": 3,
+          "Types/ValueType.hpp": 3,
+          "Types/Protocol.hpp": 3,
+          "CompilerError.hpp": 3,
+          "Analysis/ExpressionAnalyser.hpp": 3,
+          "Types/TypeDefinition.hpp": 3,
+          "Generation/RunTimeHelper.hpp": 3,
+          "ASTMethod.hpp": 3,
+          "Emojis.h": 3,
+          "Types/Enum.hpp": 3,
+          "Generation/TypeDescriptionGenerator.hpp": 3,
+          "core/variant/typed_array.h": 3,
+          "core/config/project_settings.h": 3,
+          "core/os/keyboard.h": 3,
+          "core/io/marshalls.h": 3,
+          "core/debugger/engine_debugger.h": 3,
+          "ASTBinaryOperator.hpp": 2,
+          "ASTCast.hpp": 2,
+          "Types/TypeContext.hpp": 2,
+          "ASTClosure.hpp": 2,
+          "ASTVariables.hpp": 2,
+          "ASTControlFlow.hpp": 2,
+          "ASTExpr.hpp": 2,
+          "ASTType.hpp": 2,
+          "core/version.h": 2,
+          "core/object/script_language.h": 2,
+          "core/crypto/crypto_core.h": 2,
+          "stdafx.h": 2,
+          "Generation/ProtocolsTableGenerator.hpp": 1,
+          "ASTBoxing.hpp": 1,
+          "Generation/RunTimeTypeInfoFlags.hpp": 1,
+          "Functions/FunctionType.hpp": 1,
+          "Analysis/ThunkBuilder.hpp": 1,
+          "Analysis/SemanticAnalyser.hpp": 1,
+          "<llvm/Support/raw_ostream.h>": 1,
+          "Generation/ClosureCodeGenerator.hpp": 1,
+          "llvm/Support/raw_ostream.h": 1,
+          "llvm/IR/Value.h": 1,
+          "<llvm/IR/Value.h>": 1,
+          "ASTConditionalAssignment.hpp": 1,
+          "AST/ASTNode.hpp": 1,
+          "llvm/IR/MDBuilder.h": 1,
+          "<llvm/IR/Metadata.h>": 1,
+          "llvm/IR/Metadata.h": 1,
+          "<llvm/IR/MDBuilder.h>": 1,
+          "Functions/Initializer.hpp": 1,
+          "Functions/CallType.h": 1,
+          "Parsing/AbstractParser.hpp": 1,
+          "Types/CommonTypeFinder.hpp": 1,
+          "Package/Package.hpp": 1,
+          "Generation/StringPool.hpp": 1,
+          "ASTMemory.hpp": 1,
+          "core/authors.gen.h": 1,
+          "core/donors.gen.h": 1,
+          "servers/rendering/rendering_device.h": 1,
+          "core/license.gen.h": 1,
+          "engine.h": 1,
+          "core/input/input_map.h": 1,
+          "core/variant/variant_parser.h": 1,
+          "project_settings.h": 1,
+          "core/io/file_access.h": 1,
+          "core/templates/rb_set.h": 1,
+          "core/core_bind.h": 1,
+          "core/io/dir_access.h": 1,
+          "core/io/config_file.h": 1,
+          "core/io/resource_uid.h": 1,
+          "modules/modules_enabled.gen.h": 1,
+          "core/io/file_access_pack.h": 1,
+          "core/math/geometry_2d.h": 1,
+          "core/io/file_access_compressed.h": 1,
+          "core/math/geometry_3d.h": 1,
+          "core_bind.h": 1,
+          "core/os/thread_safe.h": 1,
+          "core/io/file_access_encrypted.h": 1,
+          "core_bind.compat.inc": 1,
+          "core/templates/hash_set.h": 1,
+          "core_constants.h": 1,
+          "core/variant/variant.h": 1,
+          "core/object/class_db.h": 1,
+          "core/input/input_event.h": 1,
+          "core_globals.h": 1,
+          "core_string_names.h": 1,
+          "core/crypto/aes_context.h": 1,
+          "crypto.h": 1,
+          "core/io/compression.h": 1,
+          "core/config/engine.h": 1,
+          "core/io/certs_compressed.gen.h": 1,
+          "mbedtls/entropy.h": 1,
+          "mbedtls/base64.h": 1,
+          "mbedtls/ctr_drbg.h": 1,
+          "mbedtls/sha1.h": 1,
+          "<mbedtls/entropy.h>": 1,
+          "mbedtls/sha256.h": 1,
+          "<mbedtls/base64.h>": 1,
+          "<mbedtls/ctr_drbg.h>": 1,
+          "mbedtls/aes.h": 1,
+          "<mbedtls/md5.h>": 1,
+          "crypto_core.h": 1,
+          "mbedtls/md5.h": 1,
+          "<mbedtls/sha256.h>": 1,
+          "<mbedtls/compat-2.x.h>": 1,
+          "<mbedtls/sha1.h>": 1,
+          "<mbedtls/aes.h>": 1,
+          "mbedtls/compat-2.x.h": 1,
+          "hashing_context.h": 1,
+          "debugger_marshalls.h": 1,
+          "core/debugger/remote_debugger_peer.h": 1,
+          "engine_debugger.h": 1,
+          "core/debugger/remote_debugger.h": 1,
+          "core/debugger/local_debugger.h": 1,
+          "engine_profiler.h": 1,
+          "local_debugger.h": 1,
+          "core/io/resource_loader.h": 1,
+          "core/input/input.h": 1,
+          "core/debugger/engine_profiler.h": 1,
+          "remote_debugger.h": 1,
+          "core/math/expression.h": 1,
+          "servers/display_server.h": 1,
+          "core/debugger/debugger_marshalls.h": 1,
+          "json/assertions.h": 1,
+          "utility": 1,
+          "math.h": 1,
+          "<cstring>": 1,
+          "json/reader.h": 1,
+          "<json/writer.h>": 1,
+          "set": 1,
+          "<json/assertions.h>": 1,
+          "json/json.h": 1,
+          "<cstddef>": 1,
+          "clocale": 1,
+          "memory": 1,
+          "cstring": 1,
+          "json_valueiterator.inl": 1,
+          "algorithm": 1,
+          "limits": 1,
+          "<iomanip>": 1,
+          "<utility>": 1,
+          "<algorithm>": 1,
+          "<float.h>": 1,
+          "json_tool.h": 1,
+          "float.h": 1,
+          "<json/reader.h>": 1,
+          "sstream": 1,
+          "<set>": 1,
+          "<cpptl/conststring.h>": 1,
+          "cmath": 1,
+          "<math.h>": 1,
+          "<istream>": 1,
+          "istream": 1,
+          "<cstdio>": 1,
+          "iomanip": 1,
+          "<clocale>": 1,
+          "<cmath>": 1,
+          "cstdio": 1,
+          "<memory>": 1,
+          "<json/value.h>": 1,
+          "<limits>": 1,
+          "cstddef": 1,
+          "<cassert>": 1,
+          "<sstream>": 1,
+          "cassert": 1,
+          "cpptl/conststring.h": 1,
+          "<ieeefp.h>": 1,
+          "json/writer.h": 1,
+          "ieeefp.h": 1,
+          "json/value.h": 1,
+          "process.h": 1,
+          "<process.h>": 1,
+          "<Windows.h>": 1,
+          "Windows.h": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 11,
+        "packages": {
+          "<utility>": 7,
+          "utility": 7,
+          "ASTExpr.hpp": 6,
+          "MemoryFlowAnalysis/MFHeapAllocates.hpp": 3,
+          "ASTUnary.hpp": 2,
+          "Scoping/Variable.hpp": 2,
+          "<memory>": 2,
+          "memory": 2,
+          "Parsing/OperatorHelper.hpp": 1,
+          "ASTMethod.hpp": 1,
+          "MemoryFlowAnalysis/MFFunctionAnalyser.hpp": 1,
+          "ASTBoxing::ASTBoxing": 1,
+          "ASTDereference::ASTDereference": 1,
+          "ASTToBox::ASTToBox": 1,
+          "ASTBoxing.hpp": 1,
+          "Scoping/CapturingSemanticScoper.hpp": 1,
+          "ASTStatement::ASTStatement": 1,
+          "ASTStatements.hpp": 1,
+          "ASTNode.hpp": 1,
+          "llvm::Value": 1,
+          "Types/Type.hpp": 1,
+          "MemoryFlowAnalysis/MFFlowCategory.hpp": 1,
+          "Functions/Mood.hpp": 1,
+          "ASTExpr::ASTExpr": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "ASTVariables.hpp": 1,
+          "Functions/CallType.h": 1,
+          "map": 1,
+          "<map>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 20,
+        "packages": {
+          "core/object/ref_counted.h": 5,
+          "core/object/script_language.h": 3,
+          "core/string/string_name.h": 3,
+          "core/templates/list.h": 2,
+          "core/templates/vector.h": 2,
+          "core/string/ustring.h": 2,
+          "core/io/resource_loader.h": 2,
+          "core/io/resource_saver.h": 2,
+          "<stdint.h>": 2,
+          "allocator.h": 2,
+          "<stddef.h>": 2,
+          "config.h": 2,
+          "cpptl/config.h": 2,
+          "stddef.h": 2,
+          "<cpptl/config.h>": 2,
+          "stdint.h": 2,
+          "version.h": 2,
+          "<string>": 2,
+          "string": 2,
+          "core/os/main_loop.h": 1,
+          "core/object/class_db.h": 1,
+          "core/debugger/engine_profiler.h": 1,
+          "core/os/os.h": 1,
+          "core/templates/safe_refcount.h": 1,
+          "core/os/thread.h": 1,
+          "core/os/semaphore.h": 1,
+          "core/templates/hash_set.h": 1,
+          "core/crypto/crypto_core.h": 1,
+          "core/crypto/hashing_context.h": 1,
+          "core/io/resource.h": 1,
+          "core/input/shortcut.h": 1,
+          "core/templates/hash_map.h": 1,
+          "core/variant/array.h": 1,
+          "core/variant/variant.h": 1,
+          "core/object/gdvirtual.gen.inc": 1,
+          "core/debugger/engine_debugger.h": 1,
+          "conmsgl1.h": 1,
+          "<unordered_map>": 1,
+          "conmsgl3.h": 1,
+          "conmsgl2.h": 1,
+          "unordered_map": 1,
+          "winconp.h": 1,
+          "<winconp.h>": 1,
+          "<wincontypes.h>": 1,
+          "<poppack.h>": 1,
+          "pshpack2.h": 1,
+          "<pshpack2.h>": 1,
+          "poppack.h": 1,
+          "wincontypes.h": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "<cpptl/forwards.h>": 1,
+          "features.h": 1,
+          "deque": 1,
+          "namespace": 1,
+          "forwards.h": 1,
+          "<deque>": 1,
+          "<iosfwd>": 1,
+          "cpptl/smallmap.h": 1,
+          "<stack>": 1,
+          "sstream": 1,
+          "ostream": 1,
+          "map": 1,
+          "value.h": 1,
+          "istream": 1,
+          "stack": 1,
+          "<istream>": 1,
+          "iosfwd": 1,
+          "stdlib.h": 1,
+          "<ostream>": 1,
+          "exception": 1,
+          "<sstream>": 1,
+          "<cpptl/smallmap.h>": 1,
+          "cpptl/forwards.h": 1,
+          "<exception>": 1,
+          "<stdlib.h>": 1,
+          "<map>": 1,
+          "tchar.h": 1,
+          "targetver.h": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "<tchar.h>": 1,
+          "<SDKDDKVer.h>": 1,
+          "SDKDDKVer.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 20,
+        "packages": {
+          "react": 10,
+          "testing-library": 6,
+          "enzyme": 6,
+          "express": 5,
+          "bootstrap": 2,
+          "react-dom": 2,
+          "enzyme-adapter-react-16": 2,
+          "luxon": 1,
+          "zod-validation-error": 1,
+          "zod": 1,
+          "11ty": 1,
+          "cors": 1,
+          "morgan": 1,
+          "path": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 4,
+        "packages": {
+          "react": 4,
+          "prop-types": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 20,
+        "packages": {
+          "Linter": 19,
+          "lint": 19,
+          "os": 4,
+          "sublimelint": 3,
+          "sys": 2,
+          "json": 2,
+          "find": 2,
+          "collections": 1,
+          "zlib": 1,
+          "OrderedDict": 1,
+          "NSAppleScript": 1,
+          "platform": 1,
+          "Foundation": 1,
+          "LaunchServices": 1,
+          "objc": 1,
+          "subprocess": 1,
+          "-I": 1,
+          "tempfile": 1,
+          "sublime": 1,
+          "which": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 20,
+        "packages": {
+          "angular": 20,
+          "node:path": 1,
+          "express": 1,
+          "node:url": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "builder.io": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "crei0/2020-DEV-024",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "crei0/andreguedes-website",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "crei0/basic-web-app-multiple-ways",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "crei0/emojicode",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "crei0/godot",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "crei0/terminal",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "crei0/tic-tac-toe-react",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "crei0/toolbelt",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

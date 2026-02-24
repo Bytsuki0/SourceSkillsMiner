@@ -1,0 +1,579 @@
+{
+  "username": "monkeydom",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 2.090909090909091,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5897435897435899,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.38461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.8,
+      "details": {
+        "monkeydom/code-illustration": 0.04774999999999999,
+        "monkeydom/sightsnap": 0.16565000000000002,
+        "monkeydom/TCMDebugButtonsView": 0.4926,
+        "monkeydom/TCMPortMapper": -0.20095,
+        "monkeydom/TCMXMLWriter": 0.16419999999999998
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7974358974358975,
+  "language_usage": {
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "monkeydom",
+    "analysis_date": "2026-02-22T10:04:36.986121",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 328,
+    "languages": {
+      "C": {
+        "files_scanned": 7,
+        "packages": {
+          "stdint.h": 4,
+          "<stdint.h>": 4,
+          "windows.h": 2,
+          "<windows.h>": 2,
+          "<CoreFoundation/CFPlugInCOM.h>": 1,
+          "QuickLook/QuickLook.h": 1,
+          "<CoreFoundation/CoreFoundation.h>": 1,
+          "<CoreServices/CoreServices.h>": 1,
+          "CoreServices/CoreServices.h": 1,
+          "<QuickLook/QuickLook.h>": 1,
+          "CoreFoundation/CoreFoundation.h": 1,
+          "CoreFoundation/CFPlugInCOM.h": 1,
+          "foo.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 6,
+        "packages": {
+          "<iostream>": 4,
+          "iostream": 4,
+          "cpptoml.h": 4,
+          "stdint.h": 1,
+          "<stdint.h>": 1,
+          "SDL.h": 1,
+          "<stdarg.h>": 1,
+          "DPInput.h": 1,
+          "pa/portaudio.h": 1,
+          "tools.h": 1,
+          "stdio.h": 1,
+          "ddrawkit.h": 1,
+          "stdlib.h": 1,
+          "fileselector.h": 1,
+          "<stdlib.h>": 1,
+          "time.h": 1,
+          "stdarg.h": 1,
+          "<math.h>": 1,
+          "<stdio.h>": 1,
+          "<time.h>": 1,
+          "math.h": 1,
+          "sdlkit.h": 1,
+          "<cpptoml.h>": 1,
+          "<cstdint>": 1,
+          "cstdint": 1,
+          "cassert": 1,
+          "<cassert>": 1,
+          "<limits>": 1,
+          "limits": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 57,
+        "packages": {
+          "<Foundation/Foundation.h>": 26,
+          "AsterismDefines.h": 15,
+          "<Cocoa/Cocoa.h>": 12,
+          "<UIKit/UIKit.h>": 9,
+          "AKDevTools.h": 2,
+          "AKBehaviorNode.h": 2,
+          "Sound.h": 2,
+          "TCMXMLWriter.h": 1,
+          "DIGSFileProcessor.h": 1,
+          "AKDatabaseNode.h": 1,
+          "<AudioToolbox/AudioToolbox.h>": 1,
+          "MovableView.h": 1,
+          "<Foundation/NSValue.h>": 1,
+          "<Foundation/NSObjCRuntime.h>": 1,
+          "Playback.h": 1,
+          "<OpenAL/al.h>": 1,
+          "<OpenAL/alc.h>": 1,
+          "Sound+legacyAccessors.h": 1,
+          "windows.h": 1,
+          "<windows.h>": 1,
+          "SDL.h": 1,
+          "<malloc.h>": 1,
+          "stdio.h": 1,
+          "gtk/gtk.h": 1,
+          "<string.h>": 1,
+          "malloc.h": 1,
+          "<gtk/gtk.h>": 1,
+          "<stdio.h>": 1,
+          "string.h": 1,
+          "<AppKit/AppKit.h>": 1,
+          "<cstdint>": 1,
+          "string_to_base_map": 1,
+          "iomanip": 1,
+          "<memory>": 1,
+          "enabler": 1,
+          "std::setw": 1,
+          "<fstream>": 1,
+          "value_type": 1,
+          "<cstring>": 1,
+          "cassert": 1,
+          "fstream": 1,
+          "stdexcept": 1,
+          "<cassert>": 1,
+          "<map>": 1,
+          "<iomanip>": 1,
+          "const_iterator": 1,
+          "cstdint": 1,
+          "type": 1,
+          "return_type": 1,
+          "unordered_map": 1,
+          "memory": 1,
+          "<string>": 1,
+          "<clocale>": 1,
+          "<unordered_map>": 1,
+          "<vector>": 1,
+          "algorithm": 1,
+          "value_acceptor": 1,
+          "iterator": 1,
+          "<sstream>": 1,
+          "size_type": 1,
+          "cstring": 1,
+          "clocale": 1,
+          "<algorithm>": 1,
+          "sstream": 1,
+          "vector": 1,
+          "<stdexcept>": 1,
+          "map": 1,
+          "string": 1
+        }
+      },
+      "Elixir": {
+        "files_scanned": 18,
+        "packages": {
+          "ExUnit.Case": 10,
+          "#{Mix.env()}.exs": 4,
+          "Mix.Config": 4,
+          "Mix.Project": 4,
+          "Day1": 1,
+          "Day2": 1,
+          "Day3": 1,
+          "Day4": 1,
+          "Day5": 1,
+          "Day7": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 20,
+        "packages": {
+          "dom101": 13,
+          "onmount": 11,
+          "a": 1,
+          "prismjs": 1,
+          "isotope-layout": 1,
+          "jquery": 1,
+          "critical": 1,
+          "path": 1,
+          "webpack": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 60,
+        "packages": {
+          "DIGSLog.h": 9,
+          "AKDatabase.h": 6,
+          "AKProtocolNode.h": 6,
+          "AKClassNode.h": 5,
+          "AKGroupNode.h": 4,
+          "CurrencyManager.h": 4,
+          "<Cocoa/Cocoa.h>": 4,
+          "Cocoa/Cocoa.h": 4,
+          "AKMacDevTools.h": 3,
+          "AKIPhoneDevTools.h": 3,
+          "AKFileSection.h": 3,
+          "AKMethodNode.h": 3,
+          "NSString+AppKiDo.h": 3,
+          "App.h": 3,
+          "AppIconManager.h": 3,
+          "Country.h": 3,
+          "common.h": 3,
+          "AKDocSetIndex.h": 2,
+          "AKSortUtils.h": 2,
+          "AKFileSectionCache.h": 2,
+          "AKGlobalsNode.h": 2,
+          "AKFileUtils.h": 2,
+          "AKCollectionOfNodes.h": 2,
+          "AKCategoryNode.h": 2,
+          "Day.h": 2,
+          "CountriesController.h": 2,
+          "RootViewController.h": 2,
+          "ReportManager.h": 2,
+          "CountryCell.h": 2,
+          "Entry.h": 2,
+          "DDNumber.h": 2,
+          "QuickLook/QuickLook.h": 2,
+          "<CoreFoundation/CoreFoundation.h>": 2,
+          "Foundation/Foundation.h": 2,
+          "<CoreServices/CoreServices.h>": 2,
+          "CoreServices/CoreServices.h": 2,
+          "<QuickLook/QuickLook.h>": 2,
+          "CoreFoundation/CoreFoundation.h": 2,
+          "<Foundation/Foundation.h>": 2,
+          "Sound.h": 2,
+          "Playback.h": 2,
+          "RBLAsynchronousCompletionThingy.h": 2,
+          "OMColorFrameView.h": 2,
+          "OMPlainColorWell.h": 2,
+          "AKTabChain.h": 1,
+          "AKApplication.h": 1,
+          "AKObjCHeaderParser.h": 1,
+          "AKFrameworkConstants.h": 1,
+          "AKDevToolsUtils.h": 1,
+          "AKCocoaFunctionsDocParser.h": 1,
+          "AKPrefUtils.h": 1,
+          "AKCocoaGlobalsDocParser.h": 1,
+          "AKCocoaBehaviorDocParser.h": 1,
+          "AKMemberNode.h": 1,
+          "AKDatabaseXMLExporter.h": 1,
+          "<AppKit/NSFileWrapper.h>": 1,
+          "AppKit/NSFileWrapper.h": 1,
+          "AKParser.h": 1,
+          "AKRandomSearch.h": 1,
+          "AKClassTopic.h": 1,
+          "AKDocLocator.h": 1,
+          "AKSubtopic.h": 1,
+          "AKSearchQuery.h": 1,
+          "AKFunctionsTopic.h": 1,
+          "AKProtocolTopic.h": 1,
+          "AKGlobalsTopic.h": 1,
+          "AKDevTools.h": 1,
+          "AKSDKVersion.h": 1,
+          "AKSQLTemplate.h": 1,
+          "FMDatabase.h": 1,
+          "AKPropertyNode.h": 1,
+          "AKBehaviorNode.h": 1,
+          "AKNotificationNode.h": 1,
+          "DayCell.h": 1,
+          "AbstractDayOrWeekController.h": 1,
+          "Review.h": 1,
+          "AppCell.h": 1,
+          "UIDevice+iPad.h": 1,
+          "AppSalesMobileAppDelegate.h": 1,
+          "PadRootViewController.h": 1,
+          "sys/socket.h": 1,
+          "netdb.h": 1,
+          "netinet/in.h": 1,
+          "<sys/socket.h>": 1,
+          "<netdb.h>": 1,
+          "arpa/inet.h": 1,
+          "<CFNetwork/CFNetwork.h>": 1,
+          "AsyncSocket.h": 1,
+          "<arpa/inet.h>": 1,
+          "CFNetwork/CFNetwork.h": 1,
+          "<netinet/in.h>": 1,
+          "CalculatorView.h": 1,
+          "ProductCell.h": 1,
+          "EntriesController.h": 1,
+          "CurrencySelectionDialog.h": 1,
+          "<CommonCrypto/CommonDigest.h>": 1,
+          "SSCrypto.h": 1,
+          "DDData.h": 1,
+          "CommonCrypto/CommonDigest.h": 1,
+          "DDRange.h": 1,
+          "ASTAll.h": 1,
+          "ASTAny.h": 1,
+          "ASTDefaults.h": 1,
+          "ASTDifference.h": 1,
+          "ASTEach.h": 1,
+          "ASTEmpty.h": 1,
+          "ASTExtend.h": 1,
+          "ASTFilter.h": 1,
+          "ASTFind.h": 1,
+          "ASTFlatten.h": 1,
+          "ASTGroupBy.h": 1,
+          "ASTHead.h": 1,
+          "ASTIndexBy.h": 1,
+          "ASTReduce.h": 1,
+          "ASTIndexOf.h": 1,
+          "ASTIntersection.h": 1,
+          "WebKit/WebKit.h": 1,
+          "<WebKit/WebKit.h>": 1,
+          "CfxrDocument.h": 1,
+          "SCSortedArrayController.h": 1,
+          "Sound+legacyAccessors.h": 1,
+          "RBLAppDelegate.h": 1,
+          "OMColorHelper.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "enum": 1,
+          "argparse": 1,
+          "annotations": 1,
+          "FileType": 1,
+          "BeautifulSoup": 1,
+          "bs4": 1,
+          "__future__": 1,
+          "sys": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 118,
+        "packages": {
+          "std": 76,
+          "crate": 32,
+          "color_eyre": 16,
+          "super": 15,
+          "tracing_error": 11,
+          "tracing_subscriber": 10,
+          "ansi_term": 8,
+          "bat": 7,
+          "tracing": 7,
+          "indoc": 6,
+          "thiserror": 6,
+          "astro_dnssd": 4,
+          "log": 4,
+          "syntect": 4,
+          "eyre": 4,
+          "owo_colors": 4,
+          "indenter": 4,
+          "cpal": 3,
+          "crossterm": 3,
+          "ratatui": 3,
+          "env_logger": 3,
+          "winapi": 3,
+          "clircle": 3,
+          "nu_ansi_term": 3,
+          "proc_macro": 3,
+          "backtrace": 3,
+          "inquire": 2,
+          "crossbeam": 2,
+          "anyhow": 2,
+          "hound": 2,
+          "serde": 2,
+          "tempfile": 2,
+          "once_cell": 2,
+          "serde_derive": 2,
+          "arbitrary_int": 2,
+          "bitbybit": 2,
+          "quote": 2,
+          "syn": 2,
+          "proc_macro2": 2,
+          "fmt": 2,
+          "SeatState": 1,
+          "Direction": 1,
+          "clap": 1,
+          "record": 1,
+          "monitor": 1,
+          "playback": 1,
+          "dasp_interpolate": 1,
+          "dasp_signal": 1,
+          "widestring": 1,
+          "lazy_theme_set": 1,
+          "serialized_syntax_set": 1,
+          "path_abs": 1,
+          "semver": 1,
+          "acknowledgements": 1,
+          "walkdir": 1,
+          "regex": 1,
+          "git2": 1,
+          "content_inspector": 1,
+          "serial_test": 1,
+          "execute": 1,
+          "itertools": 1,
+          "self": 1,
+          "shell_words": 1,
+          "gpui": 1,
+          "smol": 1,
+          "cc_test": 1,
+          "cc": 1,
+          "section": 1,
+          "url": 1,
+          "ansi_parser": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "monkeydom/adventofcode-2018-elixir",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "monkeydom/adventofcode-2020-rust",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "monkeydom/appkido",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "monkeydom/AppSales-Mobile",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "monkeydom/asak",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "monkeydom/Asterism",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "monkeydom/astro-dnssd",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "monkeydom/bat",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "monkeydom/BetterSVGQL",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "monkeydom/bitfield",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "monkeydom/br0wse",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "monkeydom/cc-rs-silicon",
+        "files_analyzed": 22,
+        "languages_found": [
+          "C",
+          "C++",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "monkeydom/cfxr",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "monkeydom/cheatsheets",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "monkeydom/code-illustration",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "monkeydom/color-eyre",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "monkeydom/ColorSense-for-Xcode",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "monkeydom/cpptoml",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

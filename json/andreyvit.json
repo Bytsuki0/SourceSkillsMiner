@@ -1,0 +1,503 @@
+{
+  "username": "andreyvit",
+  "areas": {
+    "OSS": {
+      "score": 0.5066666666666666,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.76,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5384615384615385,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.3076923076923077
+      }
+    },
+    "Sentiment": {
+      "score": 0.9473684210526315,
+      "details": {
+        "andreyvit/aidev": 0.21687499999999998,
+        "andreyvit/apitree.js": 0.24232857142857142,
+        "andreyvit/dreamopt.js": 0.1866,
+        "andreyvit/find-fsevents-bugs": 0.22302,
+        "andreyvit/FSEventsFix": 0.6476,
+        "andreyvit/fsmonitor.js": 0.21924545454545455,
+        "andreyvit/git-subdir": 0.6739499999999999,
+        "andreyvit/json-diff": 0.16376410256410256,
+        "andreyvit/kilim-osgi": 0.4588,
+        "andreyvit/ModalMoviePlayerViewController": 0.2023,
+        "andreyvit/OCISL": 0.7351,
+        "andreyvit/plist-to-json": 0.285975,
+        "andreyvit/rewebsocket": 0.7003,
+        "andreyvit/ScrollingMadness": 0.545725,
+        "andreyvit/SkypePushToTalk": 0.03469999999999995,
+        "andreyvit/SoloComponents-iOS": 0.3600689655172414,
+        "andreyvit/Sublimacs": 0.4926,
+        "andreyvit/telegramapi": 0.5994,
+        "andreyvit/tinyjson": -0.7366
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6981241565452092,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        25928,
+        32
+      ],
+      "Go": [
+        284014,
+        753
+      ],
+      "Shell": [
+        24200,
+        107
+      ],
+      "Makefile": [
+        1476,
+        2
+      ],
+      "C": [
+        44765,
+        103
+      ],
+      "CoffeeScript": [
+        317597,
+        361
+      ],
+      "C++": [
+        26889,
+        24
+      ],
+      "Arduino": [
+        15234,
+        2
+      ],
+      "Processing": [
+        503,
+        0
+      ],
+      "Swift": [
+        31070,
+        141
+      ],
+      "XML": [
+        1179,
+        1
+      ],
+      "Objective-C": [
+        35412,
+        137
+      ],
+      "Ruby": [
+        36046,
+        256
+      ],
+      "JavaScript": [
+        145576,
+        165
+      ],
+      "Python": [
+        183735,
+        445
+      ],
+      "Emacs Lisp": [
+        101527,
+        216
+      ],
+      "Rich Text Format": [
+        3720,
+        7
+      ],
+      "Lua": [
+        1591,
+        3
+      ],
+      "Sieve": [
+        924,
+        1
+      ],
+      "Perl": [
+        3100,
+        0
+      ],
+      "TypeScript": [
+        43,
+        0
+      ],
+      "Nginx": [
+        65,
+        3
+      ],
+      "CSS": [
+        23069,
+        56
+      ],
+      "Java": [
+        948836,
+        694
+      ],
+      "AppleScript": [
+        30,
+        3
+      ],
+      "Assembly": [
+        0,
+        0
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "PHP": [
+        12870,
+        29
+      ],
+      "Vim Script": [
+        3552,
+        3
+      ]
+    },
+    "language_count": 29,
+    "total_commits": 3544,
+    "total_lines": 2272951,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 284014,
+        "commits": 753
+      },
+      {
+        "language": "Java",
+        "lines": 948836,
+        "commits": 694
+      },
+      {
+        "language": "Python",
+        "lines": 183735,
+        "commits": 445
+      },
+      {
+        "language": "CoffeeScript",
+        "lines": 317597,
+        "commits": 361
+      },
+      {
+        "language": "Ruby",
+        "lines": 36046,
+        "commits": 256
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "andreyvit",
+    "analysis_date": "2026-02-24T00:02:24.156766",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 123,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "stdint.h": 1,
+          "stdlib.h": 1,
+          "stdio.h": 1,
+          "<stdio.h>": 1,
+          "inttypes.h": 1,
+          "<inttypes.h>": 1,
+          "<stdint.h>": 1,
+          "<stdlib.h>": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 6,
+        "packages": {
+          "Arduino.h": 3,
+          "<Arduino.h>": 2,
+          "TM1637.h": 2,
+          "Bounce2.h": 1,
+          "WProgram.h": 1,
+          "ESP8266Ultrasonic.h": 1,
+          "Firmata.h": 1,
+          "stdlib.h": 1,
+          "string.h": 1,
+          "<string.h>": 1,
+          "HardwareSerial.h": 1,
+          "<stdlib.h>": 1,
+          "SerialFirmata.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 27,
+        "packages": {
+          "inttypes.h": 5,
+          "Arduino.h": 5,
+          "<inttypes.h>": 5,
+          "<Foundation/Foundation.h>": 4,
+          "<Arduino.h>": 3,
+          "BLEPeripheral.h": 2,
+          "<CurieBLE.h>": 2,
+          "<SPI.h>": 2,
+          "SPI.h": 2,
+          "<BLEPeripheral.h>": 2,
+          "CurieBLE.h": 2,
+          "Firmata.h": 2,
+          "<Firmata.h>": 2,
+          "WiFiStream.h": 2,
+          "<Cocoa/Cocoa.h>": 2,
+          "timer.h": 1,
+          "the": 1,
+          "WProgram.h": 1,
+          "8": 1,
+          "offsets": 1,
+          "Boards.h": 1,
+          "utility/BLEStream.h": 1,
+          "<Ethernet.h>": 1,
+          "Bridge.h": 1,
+          "YunClient.h": 1,
+          "Ethernet.h": 1,
+          "<YunClient.h>": 1,
+          "<Bridge.h>": 1,
+          "ESP8266WiFi.h": 1,
+          "<WiFi.h>": 1,
+          "<ESP8266WiFi.h>": 1,
+          "utility/WiFiServerStream.h": 1,
+          "WiFi.h": 1,
+          "WiFi101.h": 1,
+          "utility/WiFiClientStream.h": 1,
+          "<WiFi101.h>": 1,
+          "Print::write": 1,
+          "Stream.h": 1,
+          "firmataDebug.h": 1,
+          "<Stream.h>": 1,
+          "FirmataFeature.h": 1,
+          "<SoftwareSerial.h>": 1,
+          "SoftwareSerial.h": 1,
+          "<UIKit/UIKit.h>": 1,
+          "NSDictionary+ATExpressiveCollections.h": 1,
+          "NSArray+ATExpressiveCollections.h": 1,
+          "ATPathSpec.h": 1,
+          "<ATVersionKit/LRVersion.h>": 1,
+          "<ATVersionKit/LRVersionSet.h>": 1,
+          "<ATVersionKit/LRSemanticVersion.h>": 1,
+          "<ATVersionKit/LRVersionSpace.h>": 1,
+          "<ATVersionKit/LRVersionRange.h>": 1,
+          "<ATVersionKit/LRSemanticVersionSpace.h>": 1,
+          "LRVersion.h": 1,
+          "LRVersionSpace.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 28,
+        "packages": {
+          "fmt": 13,
+          "time": 8,
+          "strings": 8,
+          "os": 6,
+          "path/filepath": 6,
+          "github.com/andreyvit/binaryio": 6,
+          "encoding/hex": 5,
+          "testing": 5,
+          "log": 4,
+          "errors": 4,
+          "bytes": 3,
+          "math": 3,
+          "io/ioutil": 2,
+          "net/http": 2,
+          "flag": 2,
+          "context": 2,
+          "io": 2,
+          "github.com/andreyvit/assert": 2,
+          "io/fs": 2,
+          "math/big": 2,
+          "syscall": 1,
+          "os/signal": 1,
+          "golang.org/x/oauth2/google": 1,
+          "html/template": 1,
+          "html": 1,
+          "sort": 1,
+          "formatText": 1,
+          "crypto/md5": 1,
+          "gopkg.in/Iwark/spreadsheet.v2": 1,
+          "~*": 1,
+          "modd*.conf": 1,
+          "go.sum": 1,
+          "node_modules/": 1,
+          "*.go": 1,
+          "frontend/*.js": 1,
+          "os/exec": 1,
+          "unicode/utf8": 1,
+          "github.com/andreyvit/openai": 1,
+          "[]string": 1,
+          "github.com/andreyvit/aidev/internal/clipboard": 1,
+          "reflect": 1,
+          "os/user": 1,
+          "encoding/binary": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "errto": 1,
+          "assert": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 22,
+        "packages": {
+          "ATExpressiveCollections.h": 7,
+          "<XCTest/XCTest.h>": 6,
+          "XCTest/XCTest.h": 6,
+          "LRVersion.h": 3,
+          "LRVersionRange.h": 3,
+          "ATPathSpec.h": 2,
+          "LRSemanticVersion.h": 2,
+          "LRSemanticVersionSpace.h": 2,
+          "LRVersionSet.h": 2,
+          "NSArray+ATExpressiveCollections.h": 1,
+          "NSDictionary+ATExpressiveCollections.h": 1,
+          "ATPathSpecPrivate.h": 1,
+          "LRVersionSpace.h": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 20,
+        "packages": {
+          "Foundation": 16,
+          "XCTest": 5,
+          "UIKit": 3,
+          "Cocoa": 2,
+          "ATCocoaLabs": 1,
+          "ATVersionKit": 1,
+          "os.log": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "andreyvit/abdirectory",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "andreyvit/aidev",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "andreyvit/aoc",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "andreyvit/arduino-projects",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "andreyvit/assert",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "andreyvit/ATCocoaLabs",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "andreyvit/ATExpressiveCollections",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "andreyvit/ATPathSpec",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "andreyvit/ATVersionKit",
+        "files_analyzed": 19,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "andreyvit/autoesc.js",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "andreyvit/basedirs",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "andreyvit/binaryio",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "andreyvit/building-blocks-appleos",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

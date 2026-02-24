@@ -1,0 +1,577 @@
+{
+  "username": "civrot",
+  "areas": {
+    "OSS": {
+      "score": 0.8154761904761905,
+      "details": {
+        "issue_resolution_rate": 0.9375,
+        "pr_merge_rate": 0.7857142857142857,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "civrot/netlify-feature-tour": 0.224175,
+        "civrot/todo_txt_actions": 0.2392
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6596382783882784,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        70845,
+        41
+      ],
+      "Shell": [
+        1292,
+        63
+      ],
+      "Vim Script": [
+        492,
+        25
+      ],
+      "Python": [
+        57,
+        3
+      ],
+      "Ruby": [
+        187915,
+        124
+      ],
+      "CSS": [
+        11802,
+        7
+      ],
+      "CoffeeScript": [
+        635,
+        0
+      ],
+      "JavaScript": [
+        4681,
+        14
+      ],
+      "Makefile": [
+        1,
+        0
+      ],
+      "Astro": [
+        1290,
+        0
+      ],
+      "Batchfile": [
+        120,
+        0
+      ],
+      "PHP": [
+        3897,
+        19
+      ],
+      "Blade": [
+        75,
+        0
+      ],
+      "Dockerfile": [
+        14,
+        0
+      ],
+      "Handlebars": [
+        460,
+        6
+      ],
+      "SCSS": [
+        138,
+        1
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 303,
+    "total_lines": 283714,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 187915,
+        "commits": 124
+      },
+      {
+        "language": "Shell",
+        "lines": 1292,
+        "commits": 63
+      },
+      {
+        "language": "HTML",
+        "lines": 70845,
+        "commits": 41
+      },
+      {
+        "language": "Vim Script",
+        "lines": 492,
+        "commits": 25
+      },
+      {
+        "language": "PHP",
+        "lines": 3897,
+        "commits": 19
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "civrot",
+    "analysis_date": "2026-02-22T12:07:45.610307",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 300,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 62,
+        "packages": {
+          "glimmer": 23,
+          "ember-handlebars": 19,
+          "ember": 18,
+          "ember-views": 9,
+          "clubhouse": 9,
+          "ember-changeset-validations": 6,
+          "fs": 5,
+          "path": 4,
+          "jquery": 4,
+          "child_process": 3,
+          "object": 3,
+          "ember-runtime": 2,
+          "ember-data": 2,
+          "moment": 2,
+          "crypto": 1,
+          "file-4": 1,
+          "the": 1,
+          "metamorph": 1,
+          "function": 1,
+          "[object": 1,
+          "aws-sdk": 1,
+          "index": 1,
+          "eslint-plugin-node": 1,
+          "ember-inflector": 1,
+          "ember-simple-auth": 1,
+          "ember-test-friendly-error-handler": 1,
+          "ember-ajax": 1,
+          "rsvp": 1,
+          "ember-load-initializers": 1,
+          "ember-resolver": 1,
+          "ember-changeset": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "preact": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 30,
+        "packages": {
+          "Illuminate\\Console\\Command": 10,
+          "App\\Models\\Person": 10,
+          "App\\Http\\Controllers\\ApiController": 10,
+          "Illuminate\\Http\\Request": 9,
+          "Illuminate\\Support\\Facades\\DB": 7,
+          "App\\Models\\Role": 7,
+          "Carbon\\Carbon": 6,
+          "App\\Models\\ActionLog": 4,
+          "App\\Models\\ErrorLog": 4,
+          "App\\Helpers\\SqlHelper": 4,
+          "Illuminate\\Support\\Facades\\Auth": 4,
+          "App\\Models\\Setting": 3,
+          "App\\Models\\TaskLog": 2,
+          "App\\Models\\Broadcast": 2,
+          "App\\Lib\\RedactDatabase": 2,
+          "App\\Models\\PersonPhoto": 2,
+          "Illuminate\\Support\\Facades\\Mail": 2,
+          "Exception": 2,
+          "App\\Models\\AccessDocument": 2,
+          "App\\Models\\Position": 2,
+          "App\\Models\\PersonPosition": 2,
+          "App\\Models\\AccessDocumentChanges": 2,
+          "App\\Models\\AlertPerson": 2,
+          "App\\Models\\Alert": 2,
+          "App\\Http\\Controllers\\Controller": 2,
+          "Illuminate\\Database\\Eloquent\\Collection": 2,
+          "Illuminate\\Http\\JsonResponse": 2,
+          "App\\Models\\AssetPerson": 2,
+          "App\\Models\\Asset": 2,
+          "GuzzleHttp": 2,
+          "App\\Models\\Bmid": 2,
+          "App\\Models\\PersonStatus": 1,
+          "App\\Mail\\DailyReportMail": 1,
+          "App\\Lib\\Docebo": 1,
+          "App\\Models\\Motd": 1,
+          "App\\Mail\\PhotoPendingMail": 1,
+          "App\\Mail\\VehiclePendingMail": 1,
+          "App\\Models\\Vehicle": 1,
+          "Illuminate\\Support\\Facades\\Storage": 1,
+          "Intervention\\Image\\ImageManagerStatic": 1,
+          "App\\Models\\LambasePhoto": 1,
+          "App\\Mail\\TestMail": 1,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "routes/console.php": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "App\\Http\\RestApi": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "Throwable": 1,
+          "Illuminate\\Support\\Str": 1,
+          "\\Symfony\\Component\\Console\\Exception\\RuntimeException": 1,
+          "App\\Models\\Timesheet": 1,
+          "App\\Models\\Slot": 1,
+          "App\\Models\\PersonSlot": 1,
+          "App\\Models\\AccessDocumentDelivery": 1,
+          "App\\Http\\RestApi\\SerializeRecord": 1,
+          "App\\Http\\RestApi\\DeserializeRecord": 1,
+          "App\\Models\\AssetAttachment": 1,
+          "Illuminate\\Auth\\Access\\AuthorizationException": 1,
+          "InvalidArgumentException": 1,
+          "App\\Mail\\ResetPassword": 1,
+          "GuzzleHttp\\Exception\\RequestException": 1,
+          "Okta\\JwtVerifier\\JwtVerifierBuilder": 1,
+          "App\\Lib\\LambaseBMID": 1,
+          "Illuminate\\Validation\\Rule": 1,
+          "App\\Models\\BroadcastMessage": 1,
+          "App\\Models\\RadioEligible": 1,
+          "App\\Models\\PersonEvent": 1,
+          "Illuminate\\Database\\QueryException": 1,
+          "App\\Models\\Clubhouse1Log": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 1,
+        "packages": {
+          "strict": 1,
+          "Digest::MD5": 1,
+          "warnings": 1,
+          "LWP::Simple": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "sys": 1,
+          "json": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 83,
+        "packages": {
+          "fileutils": 14,
+          "cask/artifact/moved": 12,
+          "rubygems": 12,
+          "yaml": 9,
+          "sequel": 7,
+          "ScoringStrategies": 7,
+          "cask/artifact/abstract_artifact": 5,
+          "HashValidator": 5,
+          "extend/hash_validator": 5,
+          "Authority::Abilities": 5,
+          "json": 4,
+          "Comparable": 4,
+          "uri": 4,
+          "pathname": 3,
+          "Convertible": 3,
+          "global": 2,
+          "utils/user": 2,
+          "cask/artifact/abstract_flight_block": 2,
+          "optparse": 2,
+          "maruku": 2,
+          "time": 2,
+          "Enumerable": 1,
+          "to_a": 1,
+          "to_s": 1,
+          "help": 1,
+          "utils/gems": 1,
+          "keg": 1,
+          "build_options": 1,
+          "fcntl": 1,
+          "socket": 1,
+          "cxxstdlib": 1,
+          "debrew": 1,
+          "extend/ENV": 1,
+          "build-bottle": 1,
+          "devel": 1,
+          "HEAD": 1,
+          "with-#{name}": 1,
+          "universal": 1,
+          "c++11": 1,
+          "cask/exceptions": 1,
+          "cask/auditor": 1,
+          "cask/artifact": 1,
+          "cask/cask_dependencies": 1,
+          "cask/staged": 1,
+          "cask/pkg": 1,
+          "cask/macos": 1,
+          "cask/checkable": 1,
+          "cask/cask_loader": 1,
+          "cask/audit": 1,
+          "cask/caskroom": 1,
+          "cask/topological_hash": 1,
+          "cask/cache": 1,
+          "cask/cask": 1,
+          "cask/verify": 1,
+          "hardware": 1,
+          "cask/utils": 1,
+          "cask/installer": 1,
+          "cask/cmd": 1,
+          "cask/artifact/prefpane": 1,
+          "cask/artifact/screen_saver": 1,
+          "cask/artifact/zap": 1,
+          "cask/artifact/vst_plugin": 1,
+          "cask/artifact/internet_plugin": 1,
+          "cask/artifact/postflight_block": 1,
+          "cask/artifact/input_method": 1,
+          "cask/artifact/vst3_plugin": 1,
+          "cask/artifact/preflight_block": 1,
+          "cask/artifact/installer": 1,
+          "cask/artifact/artifact": 1,
+          "cask/artifact/pkg": 1,
+          "cask/artifact/stage_only": 1,
+          "cask/artifact/colorpicker": 1,
+          "cask/artifact/service": 1,
+          "cask/artifact/uninstall": 1,
+          "cask/artifact/font": 1,
+          "cask/artifact/suite": 1,
+          "cask/artifact/dictionary": 1,
+          "cask/artifact/binary": 1,
+          "cask/artifact/audio_unit_plugin": 1,
+          "cask/artifact/app": 1,
+          "cask/artifact/qlplugin": 1,
+          "timeout": 1,
+          "cask/artifact/symlinked": 1,
+          "cask/artifact/relocated": 1,
+          "plist": 1,
+          "config": 1,
+          "minitest/autorun": 1,
+          "spec_helper": 1,
+          "test/unit": 1,
+          "Test::Unit::Assertions": 1,
+          "rr": 1,
+          "jekyll/generator": 1,
+          "jekyll/core_ext": 1,
+          "jekyll/tags": 1,
+          "albino": 1,
+          "jekyll/errors": 1,
+          "jekyll/generators": 1,
+          "jekyll/filters": 1,
+          "jekyll/plugin": 1,
+          "jekyll/converter": 1,
+          "jekyll/post": 1,
+          "jekyll/layout": 1,
+          "English": 1,
+          "f": 1,
+          "jekyll/page": 1,
+          "jekyll/convertible": 1,
+          "liquid": 1,
+          "jekyll/static_file": 1,
+          "jekyll/site": 1,
+          "jekyll/converters": 1,
+          "maruku/ext/div": 1,
+          "kramdown": 1,
+          "redcarpet": 1,
+          "rdiscount": 1,
+          "maruku/ext/math": 1,
+          "redcloth": 1,
+          "set": 1,
+          "fastercsv": 1,
+          "csv.rb": 1,
+          "net/http": 1,
+          "jekyll": 1,
+          "date": 1,
+          "iconv": 1,
+          "nokogiri": 1,
+          "CGI": 1,
+          "open-uri": 1,
+          "hpricot": 1,
+          "redis": 1,
+          "webrick": 1,
+          "geocoder": 1,
+          "em-websocket": 1,
+          "erb": 1,
+          "delegate": 1,
+          "ruby_parser": 1,
+          "digest/md5": 1,
+          "forwardable": 1,
+          "flay": 1,
+          "flog": 1,
+          "enumerator": 1,
+          "rest-client": 1,
+          "netsuite-rest-client": 1,
+          "rspec": 1,
+          "parity/usage": 1,
+          "parity/environment": 1,
+          "parity/version": 1,
+          "open3": 1,
+          ":restore_from": 1,
+          "parity/backup": 1,
+          "Authority::UserAbilities": 1,
+          ":states": 1,
+          "Observable": 1,
+          "campsite": 1,
+          "search": 1,
+          "facility": 1,
+          "httparty": 1,
+          "organization": 1,
+          "recarea": 1,
+          "HTTParty": 1,
+          "RIDB::Search": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "civrot/atom",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "civrot/brew",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "civrot/db-rotator",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "civrot/ember.js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "civrot/guides",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "civrot/jekyll",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Perl",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "civrot/learnjs",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "civrot/map-o-matic",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "civrot/metric_fu",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "civrot/netlify-feature-tour",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "civrot/netsuite-rest-client",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "civrot/parity",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "civrot/puzzledpint.com",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "civrot/ranger-clubhouse-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "civrot/ranger-clubhouse-web",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "civrot/ruby-patterns",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "civrot/ruby-ridb",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

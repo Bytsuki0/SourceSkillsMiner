@@ -1,0 +1,632 @@
+{
+  "username": "rincewind",
+  "areas": {
+    "OSS": {
+      "score": 0.3276768656648963,
+      "details": {
+        "issue_resolution_rate": 0.5357142857142857,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.9558010127830587
+      }
+    },
+    "Status": {
+      "score": 0.33993437408593197,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9522092534365901,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "rincewind/kioskbackend": -0.047146428571428575
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.2669028099377071,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        35382,
+        74
+      ],
+      "Prolog": [
+        0,
+        0
+      ],
+      "Emacs Lisp": [
+        10,
+        1
+      ],
+      "HTML": [
+        8496,
+        22
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "JavaScript": [
+        2149,
+        9
+      ],
+      "CSS": [
+        10735,
+        11
+      ],
+      "Elm": [
+        3794,
+        1
+      ],
+      "Nu": [
+        12674,
+        10
+      ],
+      "Yacc": [
+        1541,
+        1
+      ],
+      "Game Maker Language": [
+        35,
+        0
+      ],
+      "CoffeeScript": [
+        0,
+        0
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        42,
+        0
+      ],
+      "Shell": [
+        16,
+        0
+      ],
+      "Objective-C": [
+        172,
+        8
+      ],
+      "C": [
+        3,
+        0
+      ],
+      "Assembly": [
+        0,
+        0
+      ],
+      "C++": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        0
+      ],
+      "Java": [
+        545,
+        2
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 139,
+    "total_lines": 75594,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 35382,
+        "commits": 74
+      },
+      {
+        "language": "HTML",
+        "lines": 8496,
+        "commits": 22
+      },
+      {
+        "language": "CSS",
+        "lines": 10735,
+        "commits": 11
+      },
+      {
+        "language": "Nu",
+        "lines": 12674,
+        "commits": 10
+      },
+      {
+        "language": "JavaScript",
+        "lines": 2149,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rincewind",
+    "analysis_date": "2026-02-24T08:00:44.254194",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 176,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 20,
+        "packages": {
+          "<Cocoa/Cocoa.h>": 15,
+          "<UIKit/UIKit.h>": 4,
+          "PBViewController.h": 3,
+          "PBGitRepository.h": 2,
+          "PBChangedFile.h": 1,
+          "PBGitCommitController.h": 1,
+          "DBPrefsWindowController.h": 1,
+          "PBCommitList.h": 1,
+          "PBGitRef.h": 1,
+          "PBGitCommit.h": 1,
+          "PBGitHistoryController.h": 1,
+          "PBRefContextDelegate.h": 1,
+          "PBGitWindowController.h": 1,
+          "<stdbool.h>": 1,
+          "stdbool.h": 1,
+          "<QuartzCore/QuartzCore.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 12,
+        "packages": {
+          "path": 3,
+          "undefined": 3,
+          "gulp-rename": 2,
+          "gulp": 2,
+          "gulp-uglify": 2,
+          "yeoman-generator": 2,
+          "gulp-cssmin": 1,
+          "jQuery": 1,
+          "util": 1,
+          "chalk": 1,
+          "vinyl-source-stream": 1,
+          "gulp-util": 1,
+          "gulp-jshint": 1,
+          "gulp-if": 1,
+          "gulp-rimraf": 1,
+          "gulp-minify-css": 1,
+          "gulp-connect": 1,
+          "gulp-concat": 1,
+          "es6ify": 1,
+          "main-bower-files": 1,
+          "gulp-streamify": 1,
+          "gulp-minify-html": 1,
+          "watchify": 1,
+          "gulp-processhtml": 1,
+          "browserify": 1,
+          "assert": 1,
+          "!": 1,
+          "=": 1,
+          "&lt;": 1,
+          "object": 1,
+          "Wrong": 1,
+          "phaser": 1,
+          "copy-webpack-plugin": 1,
+          "zip-webpack-plugin": 1,
+          "webpack": 1,
+          "src": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 19,
+        "packages": {
+          "PBGitDefaults.h": 8,
+          "PBGitRepository.h": 6,
+          "PBGitHistoryController.h": 4,
+          "PBGitRevisionCell.h": 3,
+          "PBGitBinary.h": 3,
+          "PBGitCommit.h": 3,
+          "PBDiffWindowController.h": 3,
+          "PBGitCommitController.h": 3,
+          "PBHistorySearchController.h": 3,
+          "PBGitSidebarController.h": 3,
+          "PBServicesController.h": 2,
+          "PBPrefsWindowController.h": 2,
+          "PBGitWindowController.h": 2,
+          "OpenRecentController.h": 2,
+          "ObjectiveGit/GTRepository.h": 2,
+          "PBChangedFile.h": 2,
+          "PBGitIndex.h": 2,
+          "<ObjectiveGit/GTRepository.h>": 2,
+          "PBGitRepositoryWatcher.h": 2,
+          "PBCommitList.h": 2,
+          "PBGitRevList.h": 2,
+          "PBCreateBranchSheet.h": 2,
+          "PBGitRevSpecifier.h": 2,
+          "PBAddRemoteSheet.h": 2,
+          "PBCreateTagSheet.h": 2,
+          "PBRefController.h": 2,
+          "PBEasyPipe.h": 2,
+          "UIColor-Expanded.h": 2,
+          "MAConfirmButton.h": 2,
+          "SampleViewController.h": 2,
+          "PBCloneRepositoryPanel.h": 1,
+          "ApplicationController.h": 1,
+          "<Sparkle/SUUpdater.h>": 1,
+          "PBGitXProtocol.h": 1,
+          "Sparkle/SUUpdater.h": 1,
+          "PBNSURLPathUserDefaultsTransfomer.h": 1,
+          "DBPrefsWindowController.h": 1,
+          "ObjectiveGit/GTConfiguration.h": 1,
+          "PBWebChangesController.h": 1,
+          "NSFileHandleExt.h": 1,
+          "PBCommitMessageView.h": 1,
+          "PBNiceSplitView.h": 1,
+          "<ObjectiveGit/GTConfiguration.h>": 1,
+          "PBGitGrapher.h": 1,
+          "PBWebHistoryController.h": 1,
+          "PBCollapsibleSplitView.h": 1,
+          "PBGitTree.h": 1,
+          "PBQLTextView.h": 1,
+          "PBGitRef.h": 1,
+          "CWQuickLook.h": 1,
+          "GLFileView.h": 1,
+          "PBGitGradientBarView.h": 1,
+          "PBGitHistoryList.h": 1,
+          "PBGitIndexController.h": 1,
+          "PBSourceViewCell.h": 1,
+          "PBSourceViewItems.h": 1,
+          "NSOutlineViewExt.h": 1,
+          "PBGitXMessageSheet.h": 1,
+          "Terminal.h": 1,
+          "PBCommitHookFailedSheet.h": 1,
+          "RJModalRepoSheet.h": 1,
+          "QuartzCore/CoreAnimation.h": 1,
+          "<QuartzCore/CoreAnimation.h>": 1,
+          "PBRefMenuItem.h": 1,
+          "GitRepoFinder.h": 1,
+          "PBRepositoryDocumentController.h": 1,
+          "SampleAppDelegate.h": 1,
+          "this": 1,
+          "UIKit/UIKit.h": 1,
+          "<UIKit/UIKit.h>": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 100,
+        "packages": {
+          "django": 74,
+          "migrations": 25,
+          "models": 22,
+          "settings": 19,
+          "datetime": 15,
+          "os": 15,
+          "funcparserlib": 13,
+          "ugettext_lazy": 11,
+          "articles": 10,
+          "podcasting": 9,
+          "Article": 9,
+          "__future__": 8,
+          "unicode_literals": 8,
+          "logging": 7,
+          "admin": 7,
+          "sys": 6,
+          "gettext_lazy": 5,
+          "feincms": 5,
+          "nose": 5,
+          "re": 5,
+          "south": 4,
+          "SchemaMigration": 4,
+          "db": 4,
+          "Site": 4,
+          "Q": 4,
+          "autoslug": 4,
+          "eq_": 4,
+          "SyntaxError": 4,
+          "display": 4,
+          "json": 3,
+          "setuptools": 3,
+          "setup": 3,
+          "can_tweet": 3,
+          "imagekit": 3,
+          "reverse": 3,
+          "now": 3,
+          "taggit": 3,
+          "TestCase": 3,
+          "configurations": 3,
+          "warnings": 3,
+          "patterns": 3,
+          "Category": 3,
+          "template": 3,
+          "make_tokenizer": 3,
+          "pprint": 3,
+          "requests": 2,
+          "GitlabIssuesHelper": 2,
+          "helpers": 2,
+          "Show": 2,
+          "Enclosure": 2,
+          "photologue": 2,
+          "get_object_or_404": 2,
+          "licenses": 2,
+          "sorl": 2,
+          "easy_thumbnails": 2,
+          "forms": 2,
+          "AutoSlugField": 2,
+          "License": 2,
+          "TaggableManager": 2,
+          "ImproperlyConfigured": 2,
+          "url": 2,
+          "include": 2,
+          "re_path": 2,
+          "dotenv": 2,
+          "execute_from_command_line": 2,
+          "get_wsgi_application": 2,
+          "render_to_string": 2,
+          "get_callable": 2,
+          "views": 2,
+          "parse_tokens": 2,
+          "*": 2,
+          "pformat": 2,
+          "collections": 2,
+          "const": 2,
+          "Token": 2,
+          "mandrill": 2,
+          "Mandrill": 2,
+          "ImageSlide": 2,
+          "timedelta": 2,
+          "RefreshError": 2,
+          "build": 2,
+          "timezone": 2,
+          "googleapiclient": 2,
+          "SocialToken": 2,
+          "Credentials": 2,
+          "google": 2,
+          "allauth": 2,
+          "an": 1,
+          "get_exception_reporter_filter": 1,
+          "task_log_gitlab_issue_reopen": 1,
+          "task_log_gitlab_issue_open": 1,
+          "tasks": 1,
+          "api": 1,
+          "History": 1,
+          "hashlib": 1,
+          "celery": 1,
+          "task": 1,
+          "find_packages": 1,
+          "distutils": 1,
+          "AdminThumbnail": 1,
+          "appconf": 1,
+          "AppConf": 1,
+          "get_current_site": 1,
+          "rfc2822_date": 1,
+          "Feed": 1,
+          "RedirectView": 1,
+          "ObjectDoesNotExist": 1,
+          "CustomAdminThumbnailWidget": 1,
+          "QuerySet": 1,
+          "EpisodeQuerySet": 1,
+          "urllib2": 1,
+          "lists": 1,
+          "EmbedVideoField": 1,
+          "ResizeToFill": 1,
+          "ThumbnailerImageField": 1,
+          "ImageField": 1,
+          "embed_video": 1,
+          "Photo": 1,
+          "urllib": 1,
+          "urlopen": 1,
+          "UUIDField": 1,
+          "twitter": 1,
+          "ImageSpecField": 1,
+          "slugify": 1,
+          "User": 1,
+          "factory": 1,
+          "Configuration": 1,
+          "ArticleManager": 1,
+          "ActiveAwareContentManagerMixin": 1,
+          "Base": 1,
+          "ItemEditor": 1,
+          "ItemEditorForm": 1,
+          "AdminRadioSelect": 1,
+          "denormalized": 1,
+          "editor": 1,
+          "denorm": 1,
+          "mptt": 1,
+          "HttpResponseRedirect": 1,
+          "ArticleDetail": 1,
+          "site": 1,
+          "FieldDoesNotExist": 1,
+          "indexes": 1,
+          "haystack": 1,
+          "DetailView": 1,
+          "setuplib": 1,
+          "get_version": 1,
+          "pretty_tree": 1,
+          "unarg": 1,
+          "namedtuple": 1,
+          "parse": 1,
+          "dot": 1,
+          "VERBOSE": 1,
+          "common": 1,
+          "skip": 1,
+          "MULTILINE": 1,
+          "Spec": 1,
+          "warn": 1,
+          "ok_": 1,
+          "a": 1,
+          "Flask": 1,
+          "uuid4": 1,
+          "SQLAlchemy": 1,
+          "uuid": 1,
+          "CORS": 1,
+          "flask": 1,
+          "backends": 1,
+          "smtplib": 1,
+          "netrc": 1,
+          "email": 1,
+          "MIMEMultipart": 1,
+          "MIMEText": 1,
+          "COMMASPACE": 1,
+          "MIMEApplication": 1,
+          "AppConfig": 1,
+          "load_events": 1,
+          "BaseCommand": 1,
+          "DisplayConfiguration": 1,
+          "staff_member_required": 1,
+          "HttpError": 1,
+          "Request": 1,
+          "cache": 1,
+          "login_required": 1,
+          "itertools": 1,
+          "mail_admins": 1,
+          "render": 1,
+          "time": 1,
+          "bs4": 1,
+          "xframe_options_sameorigin": 1,
+          "BeautifulSoup": 1,
+          "messages": 1,
+          "HttpResponse": 1,
+          "ModelForm": 1,
+          "locale": 1,
+          "cache_page": 1,
+          "get_asgi_application": 1,
+          "Path": 1,
+          "pathlib": 1,
+          "static": 1,
+          "cache_control": 1,
+          "path": 1,
+          "serve": 1,
+          "show_presentation": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 1,
+        "packages": {
+          "sinatra": 1,
+          "json": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rincewind/bxslider-4",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rincewind/django-gitlab-logging",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rincewind/django-podcasting",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rincewind/django-project-template",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rincewind/feincms-articles",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rincewind/funcparserlib",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rincewind/fwdform",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rincewind/generator-phaser-browserify-es6",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rincewind/gitx",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "rincewind/glfw3-chicken",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "rincewind/jquery-pjax",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "rincewind/kioskbackend",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "rincewind/ld42",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rincewind/MAConfirmButton",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "username": "mcandre",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 2.7,
+        "commits_activity": 0.8914041151072508
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.6176470588235294,
+      "details": {
+        "mcandre/accio": 0.2647,
+        "mcandre/buttery": -0.11976666666666667,
+        "mcandre/cclean": 0.01631666666666667,
+        "mcandre/chandler": 0.0304,
+        "mcandre/cheatsheets": -0.012158823529411764,
+        "mcandre/cicada": 0.06107692307692307,
+        "mcandre/cl-quickcheck": 0.62135,
+        "mcandre/cluckcheck": -0.22743333333333335,
+        "mcandre/cop": -0.09356666666666665,
+        "mcandre/crit": -0.14171,
+        "mcandre/dale": -0.296,
+        "mcandre/dotfiles": -0.036963333333333334,
+        "mcandre/factcheck": 0.8122,
+        "mcandre/flcl": -0.2263,
+        "mcandre/fluke": 0.09035000000000001,
+        "mcandre/genetics": 0.022400000000000003,
+        "mcandre/gilgamesh-applet": 0.2990133333333333,
+        "mcandre/go-rotate": 0.13996666666666666,
+        "mcandre/harmonica": 0.019416666666666662,
+        "mcandre/hello-docker-freebsd": 0.2732,
+        "mcandre/ji": 0.0658375,
+        "mcandre/kick": -0.24617999999999998,
+        "mcandre/linters": 0.27890322580645166,
+        "mcandre/mage-extras": 0.2566333333333333,
+        "mcandre/nano-win": 0.07562727272727271,
+        "mcandre/nile": -0.28934,
+        "mcandre/octane": 0.03807142857142857,
+        "mcandre/packer": -0.45071428571428573,
+        "mcandre/packer-templates": 0.09366666666666666,
+        "mcandre/periscope": 0.29635,
+        "mcandre/raspberry-pi-os": -0.22585000000000002,
+        "mcandre/rez": -0.00739,
+        "mcandre/rockhopper": 0.16226153846153846,
+        "mcandre/rouge": 0.04148888888888888
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6005656108597285,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        57,
+        23
+      ],
+      "Makefile": [
+        2029,
+        20
+      ],
+      "Dockerfile": [
+        1730,
+        11
+      ],
+      "Rust": [
+        2097,
+        99
+      ],
+      "Shell": [
+        13660,
+        121
+      ],
+      "Batchfile": [
+        80,
+        0
+      ],
+      "Emacs Lisp": [
+        5795,
+        30
+      ],
+      "Vim Script": [
+        1085,
+        5
+      ],
+      "PowerShell": [
+        110,
+        0
+      ],
+      "AutoHotkey": [
+        107,
+        0
+      ],
+      "Python": [
+        85,
+        0
+      ],
+      "JavaScript": [
+        8,
+        4
+      ],
+      "Jinja": [
+        1660,
+        8
+      ],
+      "AppleScript": [
+        0,
+        0
+      ],
+      "CMake": [
+        0,
+        0
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 321,
+    "total_lines": 28503,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 13660,
+        "commits": 121
+      },
+      {
+        "language": "Rust",
+        "lines": 2097,
+        "commits": 99
+      },
+      {
+        "language": "Emacs Lisp",
+        "lines": 5795,
+        "commits": 30
+      },
+      {
+        "language": "Go",
+        "lines": 57,
+        "commits": 23
+      },
+      {
+        "language": "Makefile",
+        "lines": 2029,
+        "commits": 20
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mcandre",
+    "analysis_date": "2026-02-23T10:16:23.533089",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 70,
+    "languages": {
+      "C": {
+        "files_scanned": 3,
+        "packages": {
+          "stdlib.h": 2,
+          "libintl.h": 2,
+          "<stdlib.h>": 2,
+          "<libintl.h>": 2,
+          "stdio.h": 2,
+          "<setjmp.h>": 1,
+          "string.h": 1,
+          "<string.h>": 1,
+          "setjmp.h": 1,
+          "<alloca.h>": 1,
+          "alloca.h": 1,
+          "<malloc.h>": 1,
+          "malloc.h": 1,
+          "<stddef.h>": 1,
+          "stddef.h": 1,
+          "<stdio.h>": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 4,
+        "packages": {
+          "<string>": 3,
+          "iostream": 3,
+          "<iostream>": 3,
+          "string": 3,
+          "location.hh": 2,
+          "<cstdlib>": 1,
+          "Valluvial__Syms.h": 1,
+          "Valluvial.h": 1,
+          "cstdlib": 1,
+          "@basename(]b4_spec_defines_file[@)": 1,
+          "deque": 1,
+          "libintl.h": 1,
+          "<libintl.h>": 1,
+          "<deque>": 1,
+          "stack.hh": 1,
+          "algorithm": 1,
+          "<algorithm>": 1,
+          "position.hh": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 13,
+        "packages": {
+          "fmt": 8,
+          "os": 6,
+          "github.com/mcandre/buttery": 4,
+          "log": 2,
+          "github.com/mcandre/accio": 2,
+          "flag": 2,
+          "errors": 2,
+          "strings": 2,
+          "github.com/magefile/mage/mg": 2,
+          "reflect": 2,
+          "image": 2,
+          "testing": 2,
+          "image/color": 2,
+          "image/gif": 2,
+          "strconv": 2,
+          "github.com/davecgh/go-spew/spew": 1,
+          "gopkg.in/yaml.v3": 1,
+          "path": 1,
+          "os/exec": 1,
+          "github.com/mcandre/mage-extras": 1,
+          "math/rand": 1,
+          "github.com/andybons/gogif": 1,
+          "math": 1,
+          "github.com/anthonynsimon/bild/transform": 1,
+          "image/draw": 1,
+          "-a": 1,
+          "-t": 1,
+          "-C": 1,
+          "-czf": 1,
+          "--push": 1,
+          "--load": 1,
+          "path/filepath": 1
+        }
+      },
+      "Haskell": {
+        "files_scanned": 1,
+        "packages": {
+          "Database.HSparql.Connection": 1,
+          "Data.RDF": 1,
+          "Data.RDF.TriplesGraph": 1,
+          "Database.HSparql.QueryGenerator": 1,
+          "Data.Text": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 9,
+        "packages": {
+          "os": 8,
+          "re": 4,
+          "pickle": 3,
+          "sys": 3,
+          "lookup": 3,
+          "glob": 1,
+          "run": 1,
+          "fnmatch": 1,
+          "invoke": 1,
+          "references": 1,
+          "combine": 1,
+          "analyse": 1,
+          "defines": 1,
+          "callconfig": 1,
+          "platform": 1,
+          "distutils": 1,
+          "setup": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 31,
+        "packages": {
+          "crate": 23,
+          "core": 18,
+          "bitflags": 12,
+          "apfs_derive": 11,
+          "std": 8,
+          "num_enum": 5,
+          "serde": 4,
+          "base64": 2,
+          "clap": 2,
+          "anyhow": 2,
+          "proc_macro2": 1,
+          "proc_macro": 1,
+          "quote": 1,
+          "indoc": 1,
+          "syn": 1,
+          "alloc": 1,
+          "bytes": 1,
+          "x509_certificate": 1,
+          "rsa": 1,
+          "rand": 1,
+          "app_store_connect": 1,
+          "getopts": 1,
+          "cclean": 1,
+          "die": 1,
+          "lazy_static": 1,
+          "tinyrick_extras": 1,
+          "tinyrick": 1,
+          "toml": 1,
+          "normalize_path": 1,
+          "tar": 1,
+          "fancy_regex": 1,
+          "walkdir": 1,
+          "flate2": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mcandre/accio",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mcandre/alluvial",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "mcandre/ansible-curl",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mcandre/apple-platform-rs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "mcandre/bison-win",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C",
+          "C++"
+        ]
+      },
+      {
+        "repository": "mcandre/bloodline",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Haskell"
+        ]
+      },
+      {
+        "repository": "mcandre/buttery",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mcandre/callcatcher",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mcandre/cclean",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "mcandre/chandler",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Rust"
+        ]
+      }
+    ]
+  }
+}

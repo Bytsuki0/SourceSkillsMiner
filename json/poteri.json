@@ -1,0 +1,194 @@
+{
+  "username": "poteri",
+  "areas": {
+    "OSS": {
+      "score": -0.7916538881189513,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.18181818181818182,
+        "commits_activity": 0.13070098600339122
+      }
+    },
+    "Status": {
+      "score": -0.23337882984389302,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.13070098600339122,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.25625817949071106,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        13,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 0,
+    "total_lines": 13,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 13,
+        "commits": 0
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 0,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 0,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "poteri",
+    "analysis_date": "2026-02-24T00:04:07.759694",
+    "total_repos_analyzed": 3,
+    "total_files_analyzed": 18,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 6,
+        "packages": {
+          "gulp": 3,
+          "gulp-load-plugins": 2,
+          "vinyl-fs": 2,
+          "q": 1,
+          "require-dir": 1,
+          "yargs": 1,
+          "path": 1,
+          "nsconfig": 1,
+          "vinyl": 1,
+          "through2": 1,
+          "request": 1,
+          "fs": 1,
+          "should": 1,
+          "del": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 11,
+        "packages": {
+          "datetime": 6,
+          "sys": 4,
+          "timedelta": 3,
+          "celery": 3,
+          "scipy": 3,
+          "pandas": 3,
+          "numpy": 3,
+          "pickle": 3,
+          "walk": 3,
+          "yfinance": 3,
+          "random": 3,
+          "requests": 3,
+          "collections": 3,
+          "ta": 3,
+          "json": 3,
+          "warnings": 3,
+          "os": 3,
+          "math": 3,
+          "linregress": 3,
+          "RedisScheduler": 2,
+          "app": 2,
+          "redisbeat": 2,
+          "tasks": 2,
+          "Celery": 2,
+          "time": 2,
+          "matplotlib": 2,
+          "__future__": 1,
+          "absolute_import": 1,
+          "mktime": 1,
+          "urllib": 1,
+          "get_logger": 1,
+          "LockError": 1,
+          "traceback": 1,
+          "urlparse": 1,
+          "StrictRedis": 1,
+          "redis": 1,
+          "functools": 1,
+          "current_app": 1,
+          "Sentinel": 1,
+          "Scheduler": 1,
+          "partial": 1,
+          "jsonpickle": 1,
+          "distutils": 1,
+          "find_packages": 1,
+          "setuptools": 1,
+          "setup": 1,
+          "TAEngine": 1,
+          "tqdm": 1,
+          "feature_generator": 1,
+          "argparse": 1,
+          "IsolationForest": 1,
+          "data_loader": 1,
+          "sklearn": 1,
+          "DataEngine": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "poteri/nscabinet",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "poteri/redisbeat",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "poteri/surpriver",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

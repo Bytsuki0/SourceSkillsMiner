@@ -1,0 +1,236 @@
+{
+  "username": "greatseth",
+  "areas": {
+    "OSS": {
+      "score": 0.4444444444444444,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.6666666666666666,
+      "details": {
+        "greatseth/mediainfo": 0.16071666666666667,
+        "greatseth/shoes-widgets": -0.1441,
+        "greatseth/tic-tac-toe": 0.4824
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.48034188034188036,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        14028,
+        184
+      ],
+      "JavaScript": [
+        60872,
+        166
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 350,
+    "total_lines": 74900,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 14028,
+        "commits": 184
+      },
+      {
+        "language": "JavaScript",
+        "lines": 60872,
+        "commits": 166
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "greatseth",
+    "analysis_date": "2026-02-22T18:39:23.512090",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 101,
+    "languages": {
+      "Python": {
+        "files_scanned": 26,
+        "packages": {
+          "pupa": 22,
+          "re": 14,
+          "lxml": 14,
+          "Scraper": 13,
+          "openstates": 9,
+          "datetime": 9,
+          "pytz": 7,
+          "Jurisdiction": 5,
+          "LXMLMixin": 5,
+          "requests": 5,
+          "html": 4,
+          "url_xpath": 3,
+          "Person": 3,
+          "csv": 2,
+          "os": 2,
+          "operator": 2,
+          "urllib3": 1,
+          "scrapelib": 1,
+          "HTMLParser": 1,
+          "urllib": 1,
+          "StringIO": 1,
+          "io": 1,
+          "json": 1,
+          "true": 1,
+          "false": 1,
+          "ipdb": 1,
+          "timezone": 1,
+          "Event": 1,
+          "Rule": 1,
+          "sqlalchemy": 1,
+          "create_engine": 1,
+          "itertools": 1,
+          "sessionmaker": 1,
+          "etree": 1,
+          "ScrapeError": 1,
+          "methodcaller": 1,
+          "logging": 1,
+          "into": 1,
+          "join": 1,
+          "functools": 1,
+          "MySQLdb": 1,
+          "warnings": 1,
+          "partial": 1,
+          "glob": 1,
+          "collections": 1,
+          "namedtuple": 1,
+          "subprocess": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 20,
+        "packages": {
+          "rubygems": 4,
+          "sets": 3,
+          "digest/md5": 3,
+          "bundler": 3,
+          "pingback": 3,
+          "sinatra": 3,
+          "mediainfo/tracks": 2,
+          "mediainfo/errors": 2,
+          "json": 2,
+          "cgi": 2,
+          "test_helper": 2,
+          "albino": 2,
+          "net/http": 1,
+          "xml_parser": 1,
+          "mediainfo/string": 1,
+          "forwardable": 1,
+          "open3": 1,
+          "time": 1,
+          "yaml": 1,
+          "aws-sdk-s3": 1,
+          "bundler/setup": 1,
+          "spec_shared_examples": 1,
+          "spec_shared_contexts": 1,
+          "mediainfo": 1,
+          "pry": 1,
+          "lib/colors": 1,
+          "Colors": 1,
+          "mojombo-grit": 1,
+          "dm-sqlite-adapter": 1,
+          "dm-migrations": 1,
+          "DataMapper::Resource": 1,
+          "dm-postgres-adapter": 1,
+          "dm-core": 1,
+          "dm-validations": 1,
+          "httparty": 1,
+          "HTTParty": 1,
+          "active_support": 1,
+          "rack/test": 1,
+          "bson": 1,
+          "Rack::Test::Methods": 1,
+          "pingbacker": 1,
+          "redgreen": 1,
+          "test/unit": 1,
+          "open4": 1,
+          "mocha": 1,
+          "test/spec": 1,
+          "walter/sinatra_reloader": 1,
+          "walter/grit_extensions": 1,
+          "grit": 1,
+          "haml": 1,
+          "walter/string_extensions": 1,
+          "Sinatra::Reloader": 1,
+          "rack/reloader": 1,
+          "iconv": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "greatseth/mediainfo",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "greatseth/nitgit",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "greatseth/openstates",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "greatseth/pingbacker",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "greatseth/walter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

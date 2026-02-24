@@ -1,0 +1,74 @@
+{
+  "username": "teg",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.967741935483871,
+        "pr_merge_rate": 12.733333333333333,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.6666666666666667,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.5
+      }
+    },
+    "Sentiment": {
+      "score": 0.8,
+      "details": {
+        "teg/arch-install-scripts": 0.21108,
+        "teg/bus1": -0.012340000000000014,
+        "teg/cockpit-composer": 0.374225,
+        "teg/dbus-broker": -0.00978333333333333,
+        "teg/firmwared": 0.34125714285714287,
+        "teg/initscripts-arch": 0.46715,
+        "teg/initscripts-systemd": 0.19755625,
+        "teg/mkinitcpio": 0.0772,
+        "teg/rust-patch-monitor": 0.40630000000000005,
+        "teg/systemd": 0.22802999999999998
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.8166666666666667,
+  "language_usage": {
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+    "username": "teg",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}
