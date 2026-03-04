@@ -1,0 +1,157 @@
+{
+  "username": "coroneos",
+  "areas": {
+    "OSS": {
+      "score": 0.8370862766653042,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7556294149979564
+      }
+    },
+    "Status": {
+      "score": 0.21465077915800745,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7450530918139343,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.2629342639558279,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        509,
+        17
+      ],
+      "Rust": [
+        2184,
+        23
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 40,
+    "total_lines": 2693,
+    "top_5_languages": [
+      {
+        "language": "Rust",
+        "lines": 2184,
+        "commits": 23
+      },
+      {
+        "language": "Python",
+        "lines": 509,
+        "commits": 17
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "coroneos",
+    "analysis_date": "2026-02-23T17:17:40.858531",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 50,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 18,
+        "packages": {
+          "assert": 12,
+          "path": 4,
+          "fs": 4,
+          "buffer": 2,
+          "readline": 1,
+          "child_process": 1,
+          "http": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 6,
+        "packages": {
+          "pygame": 6,
+          "constants": 5,
+          "*": 4,
+          "circleshape": 3,
+          "CircleShape": 3,
+          "random": 2,
+          "Asteroid": 2,
+          "asteroid": 2,
+          "shot": 2,
+          "Shot": 2,
+          "ASTEROID_MIN_RADIUS": 1,
+          "asteroidfield": 1,
+          "Player": 1,
+          "sys": 1,
+          "player": 1,
+          "AsteroidField": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 3,
+        "packages": {
+          "std": 3,
+          "rand": 2,
+          "DeathCallback": 1,
+          "tcod": 1,
+          "PlayerAction": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "coroneos/asteroids",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "coroneos/node",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "coroneos/roguelike",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "coroneos/rust-book",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Rust"
+        ]
+      }
+    ]
+  }
+}

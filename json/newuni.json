@@ -1,0 +1,356 @@
+{
+  "username": "newuni",
+  "areas": {
+    "OSS": {
+      "score": 0.9583333333333333,
+      "details": {
+        "issue_resolution_rate": 0.9375,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.35897435897435903,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "newuni/nimbus-automata": 0.28939166666666666
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6293269230769231,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        24284,
+        98
+      ],
+      "TypeScript": [
+        1439,
+        17
+      ],
+      "CSS": [
+        51,
+        0
+      ],
+      "JavaScript": [
+        3113,
+        15
+      ],
+      "HTML": [
+        3045,
+        8
+      ],
+      "Shell": [
+        28451,
+        61
+      ],
+      "Dockerfile": [
+        160,
+        0
+      ],
+      "Blade": [
+        6880,
+        5
+      ],
+      "PHP": [
+        4936,
+        4
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 208,
+    "total_lines": 72359,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 24284,
+        "commits": 98
+      },
+      {
+        "language": "Shell",
+        "lines": 28451,
+        "commits": 61
+      },
+      {
+        "language": "TypeScript",
+        "lines": 1439,
+        "commits": 17
+      },
+      {
+        "language": "JavaScript",
+        "lines": 3113,
+        "commits": 15
+      },
+      {
+        "language": "HTML",
+        "lines": 3045,
+        "commits": 8
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "newuni",
+    "analysis_date": "2026-02-24T01:47:08.604178",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 105,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 17,
+        "packages": {
+          "pcsc": 5,
+          "util": 4,
+          "smartcard": 3,
+          "vitest": 3,
+          "responseAPDU": 2,
+          "card": 2,
+          "chrome": 2,
+          "path": 2,
+          "fs": 2,
+          "os": 2,
+          "atr": 1,
+          "cardchannel": 1,
+          "observer-service": 1,
+          "unload": 1,
+          "resource:": 1,
+          "api-utils": 1,
+          "cardterminal": 1,
+          "self": 1,
+          "eslint-plugin-react-refresh": 1,
+          "typescript-eslint": 1,
+          "eslint-plugin-react-hooks": 1,
+          "globals": 1,
+          "eslint": 1,
+          "axios": 1,
+          "commander": 1,
+          "readline": 1,
+          "url": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 17,
+        "packages": {
+          "Illuminate\\Support\\Str": 5,
+          "Illuminate\\Database\\Migrations\\Migration": 5,
+          "Illuminate\\Support\\Facades\\Schema": 5,
+          "Illuminate\\Database\\Schema\\Blueprint": 5,
+          "Illuminate\\Http\\Request": 2,
+          "Illuminate\\Foundation\\Application": 2,
+          "App\\Models\\Paste": 1,
+          "Illuminate\\Database\\Eloquent\\Model": 1,
+          "HasFactory": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 1,
+          "Illuminate\\Support\\ServiceProvider": 1,
+          "Illuminate\\Foundation\\Configuration\\Exceptions": 1,
+          "Illuminate\\Foundation\\Configuration\\Middleware": 1,
+          "Monolog\\Handler\\SyslogUdpHandler": 1,
+          "Monolog\\Handler\\StreamHandler": 1,
+          "Monolog\\Handler\\NullHandler": 1,
+          "Monolog\\Processor\\PsrLogMessageProcessor": 1,
+          "Illuminate\\Support\\Facades\\Hash": 1,
+          "Illuminate\\Database\\Eloquent\\Factories\\Factory": 1,
+          "Illuminate\\Database\\Console\\Seeds\\WithoutModelEvents": 1,
+          "WithoutModelEvents": 1,
+          "Illuminate\\Database\\Seeder": 1,
+          "App\\Models\\User": 1,
+          "$maintenance": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 32,
+        "packages": {
+          "os": 18,
+          "json": 14,
+          "url_reputation": 14,
+          "urllib": 11,
+          "unittest": 11,
+          "typing": 8,
+          "sys": 7,
+          "time": 7,
+          "patch": 7,
+          "argparse": 6,
+          "__future__": 6,
+          "annotations": 6,
+          "pathlib": 5,
+          "Path": 5,
+          "asyncio": 5,
+          "io": 5,
+          "Any": 5,
+          "urlparse": 4,
+          "StringIO": 4,
+          "EnrichmentContext": 4,
+          "Optional": 3,
+          "dataclasses": 3,
+          "dataclass": 3,
+          "tempfile": 3,
+          "main": 3,
+          "socket": 3,
+          "MagicMock": 3,
+          "re": 2,
+          "httpx": 2,
+          "concurrent": 2,
+          "subprocess": 2,
+          "ThreadPoolExecutor": 2,
+          "importlib": 2,
+          "Provider": 2,
+          "check_url_reputation": 2,
+          "types": 2,
+          "SimpleNamespace": 2,
+          "difflib": 1,
+          "math": 1,
+          "collections": 1,
+          "Counter": 1,
+          "FastAPI": 1,
+          "FileResponse": 1,
+          "CORSMiddleware": 1,
+          "BaseModel": 1,
+          "StaticFiles": 1,
+          "fastapi": 1,
+          "pydantic": 1,
+          "uvicorn": 1,
+          "fitz": 1,
+          "pymupdf4llm": 1,
+          "fnmatch": 1,
+          "shutil": 1,
+          "unicodedata": 1,
+          "contextlib": 1,
+          "html": 1,
+          "normalize": 1,
+          "pdf_to_md": 1,
+          "sources": 1,
+          "source": 1,
+          "abuseipdb": 1,
+          "datetime": 1,
+          "SqliteCache": 1,
+          "tracemalloc": 1,
+          "gc": 1,
+          "random": 1,
+          "matplotlib": 1,
+          "csv": 1,
+          "base64": 1,
+          "pytest": 1,
+          "check_urls_batch": 1,
+          "check_urls_from_file": 1,
+          "Cache": 1,
+          "parse_interval_seconds": 1,
+          "AsnGeoEnricher": 1,
+          "RedirectsEnricher": 1,
+          "EnrichmentRegistry": 1,
+          "Enricher": 1,
+          "enrich_domain": 1,
+          "ScreenshotEnricher": 1,
+          "SslCertEnricher": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "react": 1,
+          "child_process": 1,
+          "vite": 1,
+          "vitejs": 1,
+          "tailwindcss": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 4,
+        "packages": {
+          "react": 4,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "newuni/jscard",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "newuni/magi-functional-search",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "newuni/nimbus-automata",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "newuni/nolakoa-naiz-ni",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "newuni/pdf-to-md",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "newuni/snippy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "newuni/url-reputation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "newuni/vito-cli",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "username": "davosian",
+  "areas": {
+    "OSS": {
+      "score": 0.7434358010940567,
+      "details": {
+        "issue_resolution_rate": 0.9444444444444444,
+        "pr_merge_rate": 0.75,
+        "commits_activity": 0.9207092571966408
+      }
+    },
+    "Status": {
+      "score": 0.31506613981069753,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9149069020237386,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "davosian/swissweather": -0.2879714285714286
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.36462548522618854,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        5477,
+        14
+      ],
+      "Vim Script": [
+        47,
+        2
+      ],
+      "HTML": [
+        281,
+        2
+      ],
+      "Dockerfile": [
+        90,
+        1
+      ],
+      "HCL": [
+        15819,
+        72
+      ],
+      "Smarty": [
+        1252,
+        5
+      ],
+      "PowerShell": [
+        3,
+        0
+      ],
+      "Python": [
+        562,
+        10
+      ],
+      "TypeScript": [
+        365,
+        3
+      ],
+      "CSS": [
+        27,
+        0
+      ],
+      "Less": [
+        18,
+        0
+      ],
+      "JavaScript": [
+        3,
+        0
+      ],
+      "Java": [
+        75,
+        1
+      ],
+      "Jinja": [
+        1244,
+        0
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 110,
+    "total_lines": 25263,
+    "top_5_languages": [
+      {
+        "language": "HCL",
+        "lines": 15819,
+        "commits": 72
+      },
+      {
+        "language": "Shell",
+        "lines": 5477,
+        "commits": 14
+      },
+      {
+        "language": "Python",
+        "lines": 562,
+        "commits": 10
+      },
+      {
+        "language": "Smarty",
+        "lines": 1252,
+        "commits": 5
+      },
+      {
+        "language": "TypeScript",
+        "lines": 365,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "davosian",
+    "analysis_date": "2026-02-23T19:45:44.121788",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 52,
+    "languages": {
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "fmt": 1,
+          "net/http": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 23,
+        "packages": {
+          "react": 21,
+          "prop-types": 12,
+          "gatsby": 8,
+          "react-helmet": 4,
+          "lodash": 3,
+          "gatsby-link": 3,
+          "path": 1,
+          "gatsby-remark-relative-images": 1,
+          "gatsby-source-filesystem": 1,
+          "netlify-cms": 1,
+          "gatsby-image": 1,
+          "uuid": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 20,
+        "packages": {
+          "os": 8,
+          "logging": 7,
+          "sys": 6,
+          "json": 5,
+          "requests": 5,
+          "Path": 4,
+          "pathlib": 4,
+          "pytest": 3,
+          "flask": 3,
+          "io": 2,
+          "string": 2,
+          "time": 2,
+          "argparse": 2,
+          "datetime": 2,
+          "Flask": 2,
+          "ebooklib": 1,
+          "html": 1,
+          "epub": 1,
+          "Image": 1,
+          "cairosvg": 1,
+          "fontTools": 1,
+          "skimage": 1,
+          "BoundsPen": 1,
+          "numpy": 1,
+          "defaultdict": 1,
+          "Pool": 1,
+          "svgpathtools": 1,
+          "parse_path": 1,
+          "collections": 1,
+          "Transform": 1,
+          "Counter": 1,
+          "imagehash": 1,
+          "multiprocessing": 1,
+          "PIL": 1,
+          "SVGPathPen": 1,
+          "TransformPen": 1,
+          "structural_similarity": 1,
+          "TTFont": 1,
+          "tqdm": 1,
+          "KindleDownloader": 1,
+          "downloader": 1,
+          "tarfile": 1,
+          "subprocess": 1,
+          "paramiko": 1,
+          "HTTPServer": 1,
+          "BaseHTTPServer": 1,
+          "optparse": 1,
+          "OptionParser": 1,
+          "BeautifulSoup": 1,
+          "bs4": 1,
+          "voluptuous": 1,
+          "homeassistant": 1,
+          "pyHS100": 1,
+          "SmartPlug": 1,
+          "SmartDeviceException": 1,
+          "shutil": 1,
+          "invoke": 1,
+          "task": 1,
+          "urllib": 1,
+          "Password": 1,
+          "DesiredCapabilities": 1,
+          "webdriver": 1,
+          "LOGGER": 1,
+          "Options": 1,
+          "selenium": 1,
+          "fitdecode": 1,
+          "concurrent": 1,
+          "secrets": 1,
+          "random": 1,
+          "crypt": 1,
+          "choice": 1,
+          "SystemRandom": 1,
+          "getpass": 1,
+          "app": 1,
+          "Blueprint": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "davosian/amazon_book_downloader",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "davosian/casa",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "davosian/garmin-fit-to-heatmap-js",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "davosian/gatsby-starter-netlify-cms",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "davosian/home-lab",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "davosian/k3d-demo",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "davosian/kubernetes-course",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "username": "phillipoertel",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "phillipoertel/asino": 0.2263,
+        "phillipoertel/outbanker": 0.4019
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.3628205128205128,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        13009,
+        224
+      ],
+      "Shell": [
+        13,
+        0
+      ],
+      "JavaScript": [
+        17363,
+        32
+      ],
+      "Arduino": [
+        129,
+        2
+      ],
+      "CSS": [
+        35,
+        0
+      ],
+      "HTML": [
+        1821,
+        1
+      ],
+      "Gherkin": [
+        10,
+        0
+      ],
+      "Lua": [
+        158,
+        12
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 271,
+    "total_lines": 32538,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 13009,
+        "commits": 224
+      },
+      {
+        "language": "JavaScript",
+        "lines": 17363,
+        "commits": 32
+      },
+      {
+        "language": "Lua",
+        "lines": 158,
+        "commits": 12
+      },
+      {
+        "language": "Arduino",
+        "lines": 129,
+        "commits": 2
+      },
+      {
+        "language": "HTML",
+        "lines": 1821,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "phillipoertel",
+    "analysis_date": "2026-02-22T17:28:24.505646",
+    "total_repos_analyzed": 19,
+    "total_files_analyzed": 177,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "fs": 2,
+          ").prop(": 1,
+          "Saldomat": 1,
+          "Outbank": 1,
+          "HBCI": 1,
+          "to": 1,
+          "this": 1,
+          "=": 1,
+          "`#js:Ember.run.begin": 1,
+          "a": 1,
+          "system": 1,
+          "undefined": 1,
+          "(Required": 1,
+          "the": 1,
+          "file": 1,
+          "of": 1,
+          "`#js:Ember.run.end": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 69,
+        "packages": {
+          "spec_helper": 13,
+          "hibiscus/resource": 9,
+          "test_helper": 7,
+          "AllTweetsMustDie": 5,
+          "hibiscus/account": 5,
+          "Singleton": 4,
+          "hibiscus/statement_line": 4,
+          "rest_client": 3,
+          "json": 3,
+          "TweetFixtureProvider": 3,
+          "ostruct": 3,
+          "hibiscus/money_string_parser": 3,
+          "hibiscus/account/mapper": 3,
+          "ActiveModel::Validations": 3,
+          "rubygems": 2,
+          "ArgumentValidator": 2,
+          "time": 2,
+          "rails/all": 2,
+          "bundler/setup": 2,
+          "support/fake_classes/uri": 2,
+          "pathname": 2,
+          "hibiscus/client": 2,
+          "hibiscus/client/config": 2,
+          "hibiscus/account/validator": 2,
+          "money": 2,
+          "active_model": 2,
+          "hibiscus/statement_line/mapper": 2,
+          "hibiscus/statement_line/validator": 2,
+          "digest/md5": 2,
+          "MoneyStringParser": 2,
+          "csv": 2,
+          "minitest/autorun": 2,
+          "tweet_killer": 1,
+          "twitter": 1,
+          "AllTweetsMustDie::ArgumentValidator": 1,
+          "redgreen": 1,
+          "test/unit": 1,
+          "mocha": 1,
+          "rspec/autorun": 1,
+          "rspec/rails": 1,
+          "foo": 1,
+          "dragonfly": 1,
+          "eemails/runner": 1,
+          "eemails/email": 1,
+          "mail": 1,
+          "nokogiri": 1,
+          "elasticsearch": 1,
+          "octokit": 1,
+          "harvested": 1,
+          "config": 1,
+          "task_info": 1,
+          "github": 1,
+          "time_entry": 1,
+          "harvest/api_client": 1,
+          "hibiscus/transfer": 1,
+          "hibiscus/jobs": 1,
+          "singleton": 1,
+          "httparty": 1,
+          "moneymoney-ruby/statement_line": 1,
+          "moneymoney-ruby/money_string_parser": 1,
+          "moneymoney-ruby/statement_lines": 1,
+          "moneymoney-ruby/version": 1,
+          "::MoneyMoney::MoneyStringParser": 1,
+          "moneymoney-ruby": 1,
+          "outbanker/statement_line": 1,
+          "outbanker/statement_lines": 1,
+          "outbanker/money_string_parser": 1,
+          "outbanker/version": 1,
+          "::Outbanker::MoneyStringParser": 1,
+          "outbanker": 1,
+          "active_support": 1,
+          "active_support/core_ext": 1,
+          "rollbar/rails": 1,
+          "lograge": 1,
+          "rbsavvy/logger": 1,
+          "rails_serve_static_assets": 1,
+          "rbsavvy/railtie": 1,
+          "dotenv": 1,
+          "mutations": 1,
+          "rbsavvy/database_transactions": 1,
+          "rbsavvy/form": 1,
+          "rollbar": 1,
+          "rbsavvy_commons": 1,
+          "rails/test_help": 1,
+          "haml": 1,
+          "tile_renderer/template_data/with_image": 1,
+          "tile_renderer/renderer": 1,
+          "tile_renderer/template_data/with_html_text": 1,
+          "tile_renderer/template_data/with_link": 1,
+          "tile_renderer/template_data/default": 1,
+          "tile_renderer/template_data": 1,
+          "forwardable": 1,
+          "lib/tile_renderer": 1,
+          "rspec/given": 1,
+          "rspec_tag_matchers": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "phillipoertel/all_tweets_must_die",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "phillipoertel/ar_object_callbacks",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "phillipoertel/asino",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "phillipoertel/coding_exercises",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "phillipoertel/dragonfly_rack",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "phillipoertel/eemails",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "phillipoertel/ember-carshare",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "phillipoertel/harvest_issue_infos",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "phillipoertel/hibiscus-ruby",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "phillipoertel/moneymoney-ruby",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "phillipoertel/outbanker",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "phillipoertel/rbsavvy_commons",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "phillipoertel/tile_renderer",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

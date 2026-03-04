@@ -1,0 +1,541 @@
+{
+  "username": "namxam",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 2.4705882352941178,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.35189942024912946,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9893875919121558,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "namxam/architect4r": -0.031700000000000006
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.38797485506228235,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        17517,
+        130
+      ],
+      "Elixir": [
+        838,
+        9
+      ],
+      "Shell": [
+        6,
+        0
+      ],
+      "Dockerfile": [
+        5,
+        0
+      ],
+      "Makefile": [
+        3,
+        0
+      ],
+      "CSS": [
+        182,
+        0
+      ],
+      "CoffeeScript": [
+        0,
+        0
+      ],
+      "JavaScript": [
+        1660,
+        18
+      ],
+      "Objective-C": [
+        385,
+        0
+      ],
+      "PHP": [
+        3,
+        0
+      ],
+      "HTML": [
+        1688,
+        20
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "Java": [
+        21,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 177,
+    "total_lines": 22308,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 17517,
+        "commits": 130
+      },
+      {
+        "language": "HTML",
+        "lines": 1688,
+        "commits": 20
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1660,
+        "commits": 18
+      },
+      {
+        "language": "Elixir",
+        "lines": 838,
+        "commits": 9
+      },
+      {
+        "language": "Shell",
+        "lines": 6,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "namxam",
+    "analysis_date": "2026-02-24T05:52:00.978178",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 275,
+    "languages": {
+      "Elixir": {
+        "files_scanned": 56,
+        "packages": {
+          "Mix.Task": 7,
+          "FinTex.Command.AbstractCommand": 7,
+          "AbstractCommand": 7,
+          "ExUnit.Case": 6,
+          "FinTex.Model.Dialog": 6,
+          "FinTex.Command.Sequencer": 5,
+          "FinTex.Segment.HNHBS": 5,
+          "FinTex.Segment.HNHBK": 5,
+          "Utils.Notebooks": 4,
+          "Mix.Project": 4,
+          "FinTex.Segment.HNSHA": 4,
+          "FinTex.Segment.HNSHK": 4,
+          "Chat.Config": 3,
+          "Chat.Views": 3,
+          "FinTex.Segment.HKEND": 3,
+          "FinTex.Command.Synchronization": 3,
+          "Application": 2,
+          "Bt.": 2,
+          "Logger": 2,
+          "FinTex.Segment.HKVVB": 2,
+          "FinTex.Segment.HKIDN": 2,
+          "FinTex.Data.AccountHandler": 2,
+          "FinTex.Parser.Lexer": 2,
+          "FinTex.Model.ChallengeResponder": 2,
+          "FinTex.Model.Credentials": 2,
+          "FinTex.Model.Bank": 2,
+          "FinTex.Model.Challenge": 2,
+          "FinTex.User.FinPayment": 2,
+          "FinTex.User.FinAccount": 2,
+          "FinTex.Model.Account": 2,
+          "Timex": 2,
+          "Mix.Tasks.Bc.UpdateReadmeOutline": 1,
+          "Bt.Parser": 1,
+          "GenServer": 1,
+          "ExCLI.DSL": 1,
+          "Bt.Map": 1,
+          "Phoenix.Config.App": 1,
+          "Phoenix.Controller": 1,
+          "Phoenix.Router": 1,
+          "Supervisor": 1,
+          "Phoenix.View": 1,
+          "unquote": 1,
+          "templates": 1,
+          "Application.Behaviour": 1,
+          "Supervisor.Behaviour": 1,
+          "lib/": 1,
+          "Mix.Config": 1,
+          "FinTex.Service.AggregatedService": 1,
+          "MT940.CustomerStatementMessage": 1,
+          "FinTex.Model.Transaction": 1,
+          "MT940": 1,
+          "FinTex.Segment.HKKAZ": 1,
+          "FinTex.Segment.HKSYN": 1,
+          "FinTex.Segment.HKTAN": 1,
+          "FinTex.User.FinTANScheme": 1,
+          "FinTex.Segment.HITAN": 1,
+          "FinTex.Segment.HKCCS": 1,
+          "FinTex.Connection.HTTPClient": 1,
+          "Supervisor.Spec": 1,
+          "FinTex.Connection.HTTPBody": 1,
+          "Record": 1,
+          "FinTex.Service.Accounts": 1,
+          "FinTex.Service.SEPAInfo": 1,
+          "FinTex.Service.TANMedia": 1,
+          "FinTex.Mixfile": 1,
+          "FinTex.Model.Response": 1,
+          "FinTex.Parser.TypeConverter": 1,
+          "FinTex.Parser.Serializer": 1,
+          "ExActor.Strict": 1,
+          "FinTex.Command.InitiatePayment": 1,
+          "FinTex.Command.GetAccountsInfo": 1,
+          "FinTex.Command.FinPing": 1,
+          "FinTex.Command.Initialize": 1,
+          "FinTex.Command.GetTransactions": 1,
+          "FinTex.Model.Payment": 1,
+          "FinTex.User.FinCredentials": 1,
+          "FinTex.User.FinChallengeResponder": 1,
+          "FinTex.User.FinBank": 1,
+          "FinTex.Helper.Conversion": 1,
+          "Bitwise": 1,
+          "FinTex.Config.Identifier": 1,
+          "FinTex.Model.TANScheme": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 97,
+        "packages": {
+          "spec_helper": 18,
+          "logger": 10,
+          "InstanceMethods": 7,
+          "pry": 7,
+          "elasticsearch/model": 7,
+          "Elasticsearch::Model": 6,
+          "active_record": 5,
+          "ansi/core": 5,
+          "Enumerable": 4,
+          "json": 3,
+          "the": 3,
+          "Elasticsearch::Model::Callbacks": 3,
+          "Base": 3,
+          "faraday": 3,
+          "active_model": 2,
+          "active_support": 2,
+          "Architect4r::Model::Connection": 2,
+          "Architect4r::Model::Persistency": 2,
+          "Architect4r::Model::Callbacks": 2,
+          "digest/md5": 2,
+          "digest/sha1": 2,
+          "digest/sha2": 2,
+          ":t": 2,
+          "Backup::CommandHelper": 2,
+          "elasticsearch/model/callbacks": 2,
+          "benchmark": 2,
+          "test_helper": 2,
+          "globalize": 2,
+          "Globalize::ActiveRecord::Exceptions": 2,
+          "architect4r/server": 1,
+          "architect4r/model/queries": 1,
+          "architect4r/model/relationship": 1,
+          "architect4r/generic_node": 1,
+          "architect4r/has_node": 1,
+          "architect4r/model/callbacks": 1,
+          "architect4r/core/configuration": 1,
+          "architect4r/core/node_methods": 1,
+          "architect4r/model/persistency": 1,
+          "architect4r/model/relationships": 1,
+          "architect4r/version": 1,
+          "architect4r/model/validations": 1,
+          "architect4r/core/cypher_methods": 1,
+          "architect4r/model/links_query_interface": 1,
+          "architect4r/core/relationship_methods": 1,
+          "architect4r/model/connection": 1,
+          "architect4r/model/node": 1,
+          "active_support/core_ext": 1,
+          "architect4r/model/properties": 1,
+          "default": 1,
+          "::CarrierWave::Validations::ActiveModel": 1,
+          "carrierwave": 1,
+          "architect4r": 1,
+          "carrierwave/validations/active_model": 1,
+          "::CarrierWave::Mount": 1,
+          "ActiveModel::Validations::Callbacks": 1,
+          "Architect4r::Model::Queries": 1,
+          ":eql?": 1,
+          "Architect4r::Model::Relationships": 1,
+          ":to_param": 1,
+          ":new_record?": 1,
+          ":to_key": 1,
+          ":attributes=": 1,
+          ":find_by_id": 1,
+          ":find_by_id!": 1,
+          "ActiveModel::Validations": 1,
+          "Architect4r::Core::NodeMethods": 1,
+          "Architect4r::Core::RelationshipMethods": 1,
+          "Architect4r::Core::CypherMethods": 1,
+          "typhoeus": 1,
+          "controller_adapters/sinatra_adapter": 1,
+          "controller_adapters/merb_adapter": 1,
+          "controller_adapters/rails_adapter": 1,
+          "AUTHLOGIC_PATH": 1,
+          "openssl": 1,
+          "bcrypt": 1,
+          "authlogic/i18n/translator": 1,
+          "hirb": 1,
+          "backup/environment/rails_configuration": 1,
+          "backup/configuration/helpers": 1,
+          "config": 1,
+          "backup/configuration/smtp": 1,
+          "Backup::Configuration::Helpers": 1,
+          "backup/configuration/mail": 1,
+          "backup/configuration/adapter_options": 1,
+          "backup/configuration/adapter": 1,
+          "backup/environment/unix_configuration": 1,
+          "backup/configuration/attributes": 1,
+          "backup/core_ext/object": 1,
+          "backup/configuration/storage": 1,
+          "backup/mail/base": 1,
+          "Backup::Environment::Base": 1,
+          "backup/configuration/base": 1,
+          "backup/environment/base": 1,
+          "backup/command_helper": 1,
+          "tempfile": 1,
+          "cloudfiles": 1,
+          "dropbox": 1,
+          "fog": 1,
+          "pony": 1,
+          "fileutils": 1,
+          "yaml": 1,
+          "ftools": 1,
+          "carmen/action_view_helpers": 1,
+          "carmen": 1,
+          "test/unit": 1,
+          "action_controller": 1,
+          "ActionView::Helpers::FormOptionsHelper": 1,
+          "rubygems": 1,
+          "mocha": 1,
+          "action_view": 1,
+          "action_view/test_case": 1,
+          "chartjs/rails": 1,
+          "chartjs/rails/engine": 1,
+          "chartjs/rails/railtie": 1,
+          "net/http": 1,
+          "net/https": 1,
+          "rails": 1,
+          "kaminari": 1,
+          "Indexing": 1,
+          "couchbase/model": 1,
+          "active_support/all": 1,
+          "dm-active_model": 1,
+          "data_mapper": 1,
+          "DataMapper::Resource": 1,
+          "Mongoid::Document": 1,
+          "mongoid": 1,
+          "ActiveModel::Serializers::JSON": 1,
+          "JSON": 1,
+          "ohm": 1,
+          "ripple": 1,
+          "Ripple::Document": 1,
+          "elasticsearch/model/adapters/mongoid": 1,
+          "Elasticsearch::Model::Naming::InstanceMethods": 1,
+          "elasticsearch/model/naming": 1,
+          "elasticsearch": 1,
+          "elasticsearch/model/response/results": 1,
+          "active_support/core_ext/module/delegation": 1,
+          "Elasticsearch::Model::Importing::ClassMethods": 1,
+          "elasticsearch/model/client": 1,
+          "elasticsearch/model/adapters/active_record": 1,
+          "elasticsearch/model/response/pagination": 1,
+          "Elasticsearch::Model::Indexing::ClassMethods": 1,
+          "Elasticsearch::Model::Naming::ClassMethods": 1,
+          "elasticsearch/model/response/records": 1,
+          "Elasticsearch::Model::Client::InstanceMethods": 1,
+          "Adapter.from_class": 1,
+          "elasticsearch/model/version": 1,
+          "elasticsearch/model/response/result": 1,
+          "Elasticsearch::Model::Client::ClassMethods": 1,
+          "elasticsearch/model/indexing": 1,
+          "elasticsearch/model/searching": 1,
+          "elasticsearch/model/response/base": 1,
+          "Elasticsearch::Model::Proxy": 1,
+          "elasticsearch/model/adapter": 1,
+          "elasticsearch/model/proxy": 1,
+          "elasticsearch/model/adapters/default": 1,
+          "Elasticsearch::Model::Searching::ClassMethods": 1,
+          "Elasticsearch::Model::Indexing::InstanceMethods": 1,
+          "elasticsearch/model/importing": 1,
+          "elasticsearch/model/response": 1,
+          "Elasticsearch::Model::Serializing::InstanceMethods": 1,
+          "hashie": 1,
+          "elasticsearch/model/serializing": 1,
+          "elasticsearch/model/ext/active_record": 1,
+          "all": 1,
+          "metaclass": 1,
+          "flechtwerk/version": 1,
+          "flechtwerk/neo4j_response_handler": 1,
+          "flechtwerk/exceptions": 1,
+          "faraday_middleware": 1,
+          "minitest/pride": 1,
+          "minitest/autorun": 1,
+          "rack/utils": 1,
+          "gini-api/document": 1,
+          "gini-api/document/layout": 1,
+          "gini-api/error": 1,
+          "gini-api/client": 1,
+          "gini-api/document/extractions": 1,
+          "gini-api/version": 1,
+          "gini-api/oauth": 1,
+          "gini-api/documentset": 1,
+          "uri": 1,
+          "oauth2": 1,
+          "rspec": 1,
+          "rspec/mocks": 1,
+          "coveralls": 1,
+          "gini-api": 1,
+          "simplecov-rcov": 1,
+          "webmock/rspec": 1,
+          "simplecov": 1,
+          "patches/active_record/xml_attribute_serializer": 1,
+          "patches/active_record/query_method": 1,
+          "with_locale": 1,
+          "vestal_versions": 1,
+          "Globalize::Versioning::VestalVersions": 1,
+          "active_record/attribute_methods/query": 1,
+          "active_record/serializers/xml_serializer": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "namxam/architect4r",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "namxam/authlogic",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "namxam/backup",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "namxam/beta_curriculum",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "namxam/bluetoothctl",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "namxam/carmen",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "namxam/chartjs-rails-gem",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "namxam/chat",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "namxam/elasticsearch-rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "namxam/euler_elixir",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "namxam/fintex",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "namxam/flechtwerk",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "namxam/ga_events",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "namxam/gini-api-ruby",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "namxam/globalize3",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

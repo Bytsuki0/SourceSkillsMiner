@@ -1,0 +1,640 @@
+{
+  "username": "briandeweese",
+  "areas": {
+    "OSS": {
+      "score": 0.3595415488302076,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.625,
+        "commits_activity": 0.4143123232453116
+      }
+    },
+    "Status": {
+      "score": -0.04430460501594613,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.4143123232453116,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.07880923595356537,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Objective-C": [
+        2901,
+        4
+      ],
+      "Shell": [
+        50,
+        0
+      ],
+      "Ruby": [
+        8,
+        0
+      ],
+      "C": [
+        84,
+        1
+      ],
+      "C++": [
+        2,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 5,
+    "total_lines": 3045,
+    "top_5_languages": [
+      {
+        "language": "Objective-C",
+        "lines": 2901,
+        "commits": 4
+      },
+      {
+        "language": "C",
+        "lines": 84,
+        "commits": 1
+      },
+      {
+        "language": "Shell",
+        "lines": 50,
+        "commits": 0
+      },
+      {
+        "language": "Ruby",
+        "lines": 8,
+        "commits": 0
+      },
+      {
+        "language": "C++",
+        "lines": 2,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "briandeweese",
+    "analysis_date": "2026-02-23T17:29:12.036251",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 343,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "stdio.h": 1,
+          "<signal.h>": 1,
+          "lua.h": 1,
+          "lauxlib.h": 1,
+          "<stdio.h>": 1,
+          "lualib.h": 1,
+          "stdlib.h": 1,
+          "signal.h": 1,
+          "<stdlib.h>": 1,
+          "<string.h>": 1,
+          "string.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 10,
+        "packages": {
+          "Object.h": 2,
+          "Reference.h": 2,
+          "<map>": 1,
+          "sys/stat.h": 1,
+          "<fstream>": 1,
+          "namespace": 1,
+          "std": 1,
+          "<sys/stat.h>": 1,
+          "map": 1,
+          "<sstream>": 1,
+          "fstream": 1,
+          "sstream": 1,
+          "Exception.h": 1,
+          "cstring": 1,
+          "Matrix.h": 1,
+          "<cmath>": 1,
+          "cmath": 1,
+          "<cstring>": 1,
+          "MemoryData.h": 1,
+          "Vector.h": 1,
+          "StringMap.h": 1,
+          "<SDL_thread.h>": 1,
+          "SDL_mutex.h": 1,
+          "<iostream>": 1,
+          "<SDL_mutex.h>": 1,
+          "iostream": 1,
+          "SDL_thread.h": 1,
+          "runtime.h": 1,
+          "Module.h": 1,
+          "utf8.h": 1,
+          "wrap_Data.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 160,
+        "packages": {
+          "<Foundation/Foundation.h>": 53,
+          "<UIKit/UIKit.h>": 45,
+          "<Cocoa/Cocoa.h>": 38,
+          "GRMustacheAvailabilityMacros.h": 10,
+          "<CoreText/CoreText.h>": 6,
+          "CDCircle.h": 5,
+          "<Availability.h>": 4,
+          "AFURLRequestSerialization.h": 3,
+          "<SystemConfiguration/SystemConfiguration.h>": 3,
+          "AFSecurityPolicy.h": 3,
+          "AFURLResponseSerialization.h": 3,
+          "MGSFragariaPreferences.h": 3,
+          "MGSFragariaPrefsViewController.h": 3,
+          "GRMustache.h": 3,
+          "GRMustacheTemplateDelegate.h": 3,
+          "JMSliderComponent.h": 3,
+          "Exception.h": 3,
+          "runtime.h": 3,
+          "AFURLConnectionOperation.h": 2,
+          "AFNetworkReachabilityManager.h": 2,
+          "AFHTTPRequestOperation.h": 2,
+          "<CoreServices/CoreServices.h>": 2,
+          "<MobileCoreServices/MobileCoreServices.h>": 2,
+          "AFURLSessionManager.h": 2,
+          "CDCircleThumb.h": 2,
+          "CDIconView.h": 2,
+          "<CoreGraphics/CoreGraphics.h>": 2,
+          "GRMustacheInvocation.h": 2,
+          "GRMustacheSection.h": 2,
+          "GRMustacheTemplate.h": 2,
+          "GRMustacheVersion.h": 2,
+          "GRMustacheTemplateRepository.h": 2,
+          "GRMustacheFilter.h": 2,
+          "GRMustacheError.h": 2,
+          "GRMustacheHelper.h": 2,
+          "SBJsonBase.h": 2,
+          "config.h": 2,
+          "Object.h": 2,
+          "Data.h": 2,
+          "SCAccount.h": 2,
+          "SCSoundCloud.h": 2,
+          "SUUnarchiver.h": 2,
+          "SUVersionComparisonProtocol.h": 2,
+          "<ABMSoundCloudAPI/SoundCloudPort.h>": 1,
+          "AFHTTPSessionManager.h": 1,
+          "AFHTTPRequestOperationManager.h": 1,
+          "<Security/Security.h>": 1,
+          "<QuartzCore/QuartzCore.h>": 1,
+          "SCAddConnectionViewControllerDelegate.h": 1,
+          "SCTextField.h": 1,
+          "ICUPattern.h": 1,
+          "MGSTextMenuController.h": 1,
+          "NSStringICUAdditions.h": 1,
+          "MGSGlyphGenerator.h": 1,
+          "SMLLayoutManager.h": 1,
+          "SMLStandardHeader.h": 1,
+          "SMLLineNumbers.h": 1,
+          "MGSExtraInterfaceController.h": 1,
+          "SMLTextPerformer.h": 1,
+          "NSScanner+Fragaria.h": 1,
+          "SMLTextView.h": 1,
+          "SMLSyntaxColouring.h": 1,
+          "SMLGutterTextView.h": 1,
+          "MGSSyntaxController.h": 1,
+          "MGSPreferencesController.h": 1,
+          "ICUMatcher.h": 1,
+          "SMLBasicPerformer.h": 1,
+          "MGSFragariaFontsAndColoursPrefsViewController.h": 1,
+          "MGSFragariaTextEditingPrefsViewController.h": 1,
+          "DBPrefsWindowController.h": 1,
+          "OutlineViewDelegate.h": 1,
+          "<JSON/NSString+SBJSON.h>": 1,
+          "SBJsonParser.h": 1,
+          "SBJsonWriter.h": 1,
+          "<JSON/SBJsonParser.h>": 1,
+          "<JSON/SBJsonWriter.h>": 1,
+          "NSObject+SBJSON.h": 1,
+          "NSString+SBJSON.h": 1,
+          "<JSON/NSObject+SBJSON.h>": 1,
+          "JMSlider.h": 1,
+          "JMSliderConstants.h": 1,
+          "SDL/SDL.h": 1,
+          "cstdio": 1,
+          "<exception>": 1,
+          "<cstdarg>": 1,
+          "<cstdio>": 1,
+          "cstdarg": 1,
+          "exception": 1,
+          "math.h": 1,
+          "Matrix.h": 1,
+          "<cmath>": 1,
+          "cmath": 1,
+          "types.h": 1,
+          "lauxlib.h": 1,
+          "lua.h": 1,
+          "<lua.h>": 1,
+          "lualib.h": 1,
+          "<lauxlib.h>": 1,
+          "<lualib.h>": 1,
+          "<bitset>": 1,
+          "bitset": 1,
+          "string": 1,
+          "<windows.h>": 1,
+          "windows.h": 1,
+          "<string>": 1,
+          "NSAttributedString+HTML.h": 1,
+          "DTCoreTextLayouter.h": 1,
+          "DTCoreTextGlyphRun.h": 1,
+          "DTCoreTextLayoutFrame.h": 1,
+          "DTCoreTextLayoutLine.h": 1,
+          "SCConstants.h": 1,
+          "SCRequest.h": 1,
+          "<SoundCloudAPI/SCSoundCloudAPI.h>": 1,
+          "SCSoundCloudAPI.h": 1,
+          "SUWindowController.h": 1,
+          "SUBasicUpdateDriver.h": 1,
+          "SUUpdateDriver.h": 1,
+          "<fts.h>": 1,
+          "fts.h": 1,
+          "SUUpdater.h": 1,
+          "SUAppcastItem.h": 1,
+          "SUAppcast.h": 1,
+          "Foundation/Foundation.h": 1,
+          "UKSyntaxColoredTextDocument.h": 1,
+          "UKTextDocGotoBox.h": 1,
+          "UKSyntaxColoredTextViewController.h": 1,
+          "go": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 151,
+        "packages": {
+          "<QuartzCore/QuartzCore.h>": 11,
+          "QuartzCore/QuartzCore.h": 11,
+          "<UIKit/UIKit.h>": 9,
+          "UIKit/UIKit.h": 9,
+          "Document.h": 9,
+          "CDCircleOverlayView.h": 7,
+          "ABMSoundCloudAPISingleton.h": 6,
+          "<Foundation/Foundation.h>": 6,
+          "Foundation/Foundation.h": 6,
+          "CDCircle.h": 6,
+          "CDCircleThumb.h": 6,
+          "Common.h": 6,
+          "SCConstants.h": 6,
+          "MGSFragariaFramework.h": 6,
+          "SULog.h": 6,
+          "SUConstants.h": 6,
+          "SUHost.h": 6,
+          "Cocoa/Cocoa.h": 5,
+          "<Cocoa/Cocoa.h>": 5,
+          "JMSlider.h": 5,
+          "NXOAuth2.h": 5,
+          "SUBinaryDeltaCommon.h": 5,
+          "CDCircleGestureRecognizer.h": 4,
+          "<CommonCrypto/CommonDigest.h>": 4,
+          "CommonCrypto/CommonDigest.h": 4,
+          "SCRequest.h": 4,
+          "SCAccount.h": 4,
+          "SCBundle.h": 4,
+          "MGSFragaria.h": 4,
+          "GRMustache.h": 4,
+          "NodeObject.h": 4,
+          "UIView+Positioning.h": 4,
+          "DTTextAttachment.h": 4,
+          "DTAttributedTextContentView.h": 4,
+          "UIColor+HTML.h": 4,
+          "SCAccount+Private.h": 4,
+          "SUUpdater.h": 4,
+          "SUVersionComparisonProtocol.h": 4,
+          "SUAppcast.h": 4,
+          "SUAppcastItem.h": 4,
+          "ABMSongDetailViewController.h": 3,
+          "NSData+SoundCloudUI.h": 3,
+          "NSString+SoundCloudUI.h": 3,
+          "UIColor+SoundCloudUI.h": 3,
+          "SBJsonParser.h": 3,
+          "JSON.h": 3,
+          "UIView+Size.h": 3,
+          "<sys/param.h>": 3,
+          "sys/param.h": 3,
+          "DTAttributedTextView.h": 3,
+          "DTCoreTextFontDescriptor.h": 3,
+          "DTCoreTextLayoutLine.h": 3,
+          "NSAttributedString+HTML.h": 3,
+          "NTSynchronousTask.h": 3,
+          "stdio.h": 3,
+          "<stdio.h>": 3,
+          "SUBinaryDeltaApply.h": 3,
+          "NSArray+Color.h": 3,
+          "UKSyntaxColoredTextViewController.h": 3,
+          "ABMAppDelegate.h": 2,
+          "ABMPlayListSongsTableViewController.h": 2,
+          "AFHTTPRequestOperation.h": 2,
+          "Availability.h": 2,
+          "<Security/Security.h>": 2,
+          "Security/Security.h": 2,
+          "<Availability.h>": 2,
+          "netdb.h": 2,
+          "ifaddrs.h": 2,
+          "<arpa/inet.h>": 2,
+          "<netdb.h>": 2,
+          "<netinet6/in6.h>": 2,
+          "<netinet/in.h>": 2,
+          "arpa/inet.h": 2,
+          "netinet/in.h": 2,
+          "<ifaddrs.h>": 2,
+          "netinet6/in6.h": 2,
+          "<AudioToolbox/AudioServices.h>": 2,
+          "AudioToolbox/AudioServices.h": 2,
+          "UIKit/UIGestureRecognizerSubclass.h": 2,
+          "<UIKit/UIGestureRecognizerSubclass.h>": 2,
+          "CDIconView.h": 2,
+          "WheelDemoAppDelegate.h": 2,
+          "WheelDemoViewController.h": 2,
+          "QuartzCore+SoundCloudUI.h": 2,
+          "FRAFontTransformer.h": 2,
+          "ICUPattern.h": 2,
+          "unicode/uregex.h": 2,
+          "NSStringICUAdditions.h": 2,
+          "<unicode/uregex.h>": 2,
+          "<unicode/ustring.h>": 2,
+          "ICUMatcher.h": 2,
+          "unicode/ustring.h": 2,
+          "PositionFilter.h": 2,
+          "Person.h": 2,
+          "AppDelegate.h": 2,
+          "Article.h": 2,
+          "OpenURLWC.h": 2,
+          "PreferencesWC.h": 2,
+          "DocumentWC.h": 2,
+          "TextViewVC.h": 2,
+          "OutlineViewVC.h": 2,
+          "OutlineView.h": 2,
+          "OutlineViewDelegate.h": 2,
+          "SBJsonWriter.h": 2,
+          "DemoViewController.h": 2,
+          "CenteredTableViewController.h": 2,
+          "UIView+JMNoise.h": 2,
+          "DemoAppDelegate.h": 2,
+          "stdlib.h": 2,
+          "<stdlib.h>": 2,
+          "JMCenterView.h": 2,
+          "JMSideView.h": 2,
+          "JMSliderTrack.h": 2,
+          "<unistd.h>": 2,
+          "unistd.h": 2,
+          "CGUtils.h": 2,
+          "NSString+HTML.h": 2,
+          "DTCoreTextGlyphRun.h": 2,
+          "DTCoreTextLayouter.h": 2,
+          "DTLinkButton.h": 2,
+          "DemoSnippetsViewController.h": 2,
+          "DemoTextViewController.h": 2,
+          "OBSlider.h": 2,
+          "AppController.h": 2,
+          "OBSliderDemoViewController.h": 2,
+          "SCSoundCloud.h": 2,
+          "SCSoundCloud+Private.h": 2,
+          "SUAutomaticUpdateAlert.h": 2,
+          "SUInstaller.h": 2,
+          "SUDSAVerifier.h": 2,
+          "SUPlainInstaller.h": 2,
+          "xar/xar.h": 2,
+          "<xar/xar.h>": 2,
+          "<sys/mman.h>": 2,
+          "sys/stat.h": 2,
+          "<fcntl.h>": 2,
+          "fcntl.h": 2,
+          "<sys/stat.h>": 2,
+          "sys/mman.h": 2,
+          "SUUnarchiver_Private.h": 2,
+          "UICircularSlider.h": 2,
+          "UICircularSliderViewController.h": 2,
+          "UICircularSliderAppDelegate.h": 2,
+          "NSMenu+DeepSearch.h": 2,
+          "NSScanner+SkipUpToCharset.h": 2,
+          "ABMConnectViewController.h": 1,
+          "ABMMainTabBarViewController.h": 1,
+          "ABMPlayListsViewController.h": 1,
+          "ABMSearchSongsViewController.h": 1,
+          "AFHTTPRequestOperationManager.h": 1,
+          "AFHTTPSessionManager.h": 1,
+          "AFURLRequestSerialization.h": 1,
+          "AFURLResponseSerialization.h": 1,
+          "AFNetworkReachabilityManager.h": 1,
+          "AFSecurityPolicy.h": 1,
+          "AssertMacros.h": 1,
+          "<AssertMacros.h>": 1,
+          "AFURLConnectionOperation.h": 1,
+          "UIDevice+SoundCloudUI.h": 1,
+          "UIImage+SoundCloudUI.h": 1,
+          "UIView+SoundCloudUI.h": 1,
+          "UIViewController+SoundCloudUI.h": 1,
+          "SCAddConnectionViewController.h": 1,
+          "SCAlertView.h": 1,
+          "SCLoginViewController.h": 1,
+          "SCConnectToSoundCloudTitleView.h": 1,
+          "SCGradientButton.h": 1,
+          "SCCoverImageButton.h": 1,
+          "SCCredentialsView.h": 1,
+          "SCLoginView.h": 1,
+          "DBPrefsWindowController.h": 1,
+          "MGSPreferencesController.h": 1,
+          "MGSFragaria/MGSFragaria.h": 1,
+          "FragariaAppDelegate.h": 1,
+          "<MGSFragaria/MGSFragaria.h>": 1,
+          "MGSFragariaPreferences.h": 1,
+          "MGSFragariaPrefsViewController.h": 1,
+          "MGSFragariaTextEditingPrefsViewController.h": 1,
+          "MGSGlyphGenerator.h": 1,
+          "GRAppDelegate.h": 1,
+          "NSObject+SBJSON.h": 1,
+          "NSString+SBJSON.h": 1,
+          "SBJsonBase.h": 1,
+          "JMSliderComponent.h": 1,
+          "SDLMain.h": 1,
+          "DTCoreTextLayoutFrame.h": 1,
+          "MediaPlayer/MediaPlayer.h": 1,
+          "<MediaPlayer/MediaPlayer.h>": 1,
+          "NSScanner+HTML.h": 1,
+          "NSAttributedStringRunDelegates.h": 1,
+          "CoreText/CoreText.h": 1,
+          "<CoreText/CoreText.h>": 1,
+          "NSAttributedStringHTMLTest.h": 1,
+          "SUAutomaticUpdateDriver.h": 1,
+          "SUUpdater_Private.h": 1,
+          "SUStandardVersionComparator.h": 1,
+          "SUUnarchiver.h": 1,
+          "SUBasicUpdateDriver.h": 1,
+          "SUPlainInstallerInternals.h": 1,
+          "<bspatch.h>": 1,
+          "bspatch.h": 1,
+          "string.h": 1,
+          "<string.h>": 1,
+          "<libgen.h>": 1,
+          "libgen.h": 1,
+          "<fts.h>": 1,
+          "fts.h": 1,
+          "SUBinaryDeltaUnarchiver.h": 1,
+          "Security/cssm.h": 1,
+          "<Security/cssm.h>": 1,
+          "CoreServices/CoreServices.h": 1,
+          "SUDiskImageUnarchiver.h": 1,
+          "<CoreServices/CoreServices.h>": 1,
+          "SUSystemProfiler.h": 1,
+          "sys/mount.h": 1,
+          "<sys/mount.h>": 1,
+          "SUPackageInstaller.h": 1,
+          "UKMultiSyntaxColoredTextDocument.h": 1,
+          "UKSCTDColorWellPrefsController.h": 1,
+          "UKSCTDGradientBar.h": 1,
+          "UKSCTDUserIdentifiersPrefsController.h": 1,
+          "UKSyntaxColoredTextDocument.h": 1,
+          "UKHelperMacros.h": 1,
+          "UKTextDocGoToBox.h": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "briandeweese/ABMSoundCloudAPI",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/CDPieMenu",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/CocoaSoundCloudUI",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/Fragaria",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/GRMustache",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/Jason",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/JMSlider",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/love",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/NSAttributedString-Additions-for-HTML",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/OBSlider",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/SoundCloudCocoaAPIWonder",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/Sparkle",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/UICircularSlider",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "briandeweese/UKSyntaxColoredTextDocument",
+        "files_analyzed": 22,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      }
+    ]
+  }
+}

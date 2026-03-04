@@ -1,0 +1,551 @@
+{
+  "username": "jballanc",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.9411764705882353,
+        "pr_merge_rate": 1.8484848484848484,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5128205128205128,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.2692307692307692
+      }
+    },
+    "Sentiment": {
+      "score": 0.75,
+      "details": {
+        "jballanc/jruby": -0.399675,
+        "jballanc/openmicroscopy": 0.255275,
+        "jballanc/openstates": 0.1301,
+        "jballanc/shoes-tmbundle": 0.004859999999999998
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7157051282051282,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        6198446,
+        98
+      ],
+      "Lua": [
+        26068,
+        79
+      ],
+      "Scheme": [
+        1556,
+        14
+      ],
+      "Makefile": [
+        15986,
+        30
+      ],
+      "C": [
+        2336,
+        10
+      ],
+      "Clojure": [
+        1958,
+        21
+      ],
+      "Objective-C": [
+        1913,
+        23
+      ],
+      "Vim Script": [
+        3290,
+        3
+      ],
+      "Emacs Lisp": [
+        158,
+        0
+      ],
+      "Erlang": [
+        14,
+        0
+      ],
+      "Julia": [
+        3258,
+        3
+      ],
+      "Shell": [
+        2494,
+        18
+      ],
+      "Fennel": [
+        602,
+        0
+      ],
+      "JavaScript": [
+        366,
+        0
+      ],
+      "HTML": [
+        167,
+        0
+      ],
+      "Python": [
+        479,
+        11
+      ],
+      "CSS": [
+        19,
+        0
+      ],
+      "C++": [
+        29,
+        0
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "Scilab": [
+        0,
+        0
+      ],
+      "Perl": [
+        1,
+        0
+      ],
+      "Prolog": [
+        1,
+        0
+      ],
+      "C#": [
+        0,
+        0
+      ],
+      "Rust": [
+        0,
+        0
+      ],
+      "Assembly": [
+        0,
+        0
+      ],
+      "ASP": [
+        333,
+        8
+      ],
+      "Java": [
+        1,
+        0
+      ],
+      "Roff": [
+        0,
+        0
+      ],
+      "Groovy": [
+        0,
+        0
+      ],
+      "FreeMarker": [
+        0,
+        0
+      ],
+      "Batchfile": [
+        3,
+        0
+      ]
+    },
+    "language_count": 31,
+    "total_commits": 318,
+    "total_lines": 6259478,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 6198446,
+        "commits": 98
+      },
+      {
+        "language": "Lua",
+        "lines": 26068,
+        "commits": 79
+      },
+      {
+        "language": "Makefile",
+        "lines": 15986,
+        "commits": 30
+      },
+      {
+        "language": "Objective-C",
+        "lines": 1913,
+        "commits": 23
+      },
+      {
+        "language": "Clojure",
+        "lines": 1958,
+        "commits": 21
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jballanc",
+    "analysis_date": "2026-02-22T23:17:21.951689",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 147,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "stdlib.h": 1,
+          "<stdio.h>": 1,
+          "<stdlib.h>": 1,
+          "<luajit-2.0/lua.h>": 1,
+          "<getopt.h>": 1,
+          "stdio.h": 1,
+          "<luajit-2.0/lualib.h>": 1,
+          "luajit-2.0/lauxlib.h": 1,
+          "luajit-2.0/lualib.h": 1,
+          "luajit-2.0/lua.h": 1,
+          "getopt.h": 1,
+          "<luajit-2.0/lauxlib.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 6,
+        "packages": {
+          "BlockTypedefs.h": 5,
+          "<Foundation/Foundation.h>": 5,
+          "NSDictionary+ConcurrentCollectionOperations.h": 1,
+          "NSOrderedSet+ConcurrentCollectionOperations.h": 1,
+          "NSMapTable+ConcurrentCollectionOperations.h": 1,
+          "NSArray+ConcurrentCollectionOperations.h": 1,
+          "NSSet+ConcurrentCollectionOperations.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 3,
+        "packages": {
+          "buddy.impl": 2,
+          "buddy.exceptions": 1,
+          "java.io": 1,
+          "java.security": 1,
+          "javax.crypto": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "fs": 1,
+          "my.Class": 1,
+          "path": 1,
+          "goog.ui.Component": 1,
+          "preamble1": 1,
+          "preamble2": 1,
+          "function": 1
+        }
+      },
+      "Julia": {
+        "files_scanned": 1,
+        "packages": {
+          "Pkg": 1,
+          "SymbolServer": 1,
+          "LanguageServer": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 5,
+        "packages": {
+          "luaunit": 2,
+          "in": 1,
+          "define": 1,
+          "%space*": 1,
+          "define-syntax": 1,
+          "<-": 1,
+          "the": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 7,
+        "packages": {
+          "libkern/OSAtomic.h": 5,
+          "<libkern/OSAtomic.h>": 5,
+          "ConcurrentCollectionOperations.h": 2,
+          "<SenTestingKit/SenTestingKit.h>": 2,
+          "SenTestingKit/SenTestingKit.h": 2,
+          "NSArray+ConcurrentCollectionOperations.h": 1,
+          "NSDictionary+ConcurrentCollectionOperations.h": 1,
+          "NSMapTable+ConcurrentCollectionOperations.h": 1,
+          "NSOrderedSet+ConcurrentCollectionOperations.h": 1,
+          "NSSet+ConcurrentCollectionOperations.h": 1,
+          "objc/runtime.h": 1,
+          "<objc/runtime.h>": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 59,
+        "packages": {
+          "test_helper": 14,
+          "bundler/cli/common": 5,
+          "minitest/autorun": 5,
+          "fileutils": 4,
+          "ActiveModel::SerializerSupport": 3,
+          "rubygems": 3,
+          "bundler/cli/clean": 3,
+          "dispatch": 3,
+          "DuckSauce": 3,
+          "minitest/unit": 3,
+          "set": 2,
+          "pathname": 2,
+          "bundler/setup": 2,
+          "bundler/rubygems_ext": 2,
+          "bundler/cli/install": 2,
+          "bundler": 2,
+          "benchmark": 2,
+          "ducksauce/ducktype": 2,
+          "ducksauce/converter": 2,
+          "ducksauce": 2,
+          "sinatra/base": 2,
+          "uri": 2,
+          "httpclient": 2,
+          "Rack::Test::Methods": 2,
+          "rack/test": 2,
+          "ActionController::Renderers": 1,
+          "inspect": 1,
+          "active_support/core_ext/module/anonymous": 1,
+          "plural_key": 1,
+          "serialize_many": 1,
+          "active_support/core_ext/class/attribute": 1,
+          ":read_attribute_for_serialization": 1,
+          "active_support": 1,
+          "::ActionController::Serialization": 1,
+          "action_controller": 1,
+          "active_model": 1,
+          "active_support/core_ext/string/inflections": 1,
+          "active_model/serializer": 1,
+          "action_controller/serialization": 1,
+          "=>": 1,
+          "generators/serializer/serializer_generator": 1,
+          "rails": 1,
+          "active_support/json": 1,
+          "pry": 1,
+          "active_model_serializers": 1,
+          "simplecov": 1,
+          "test/unit": 1,
+          "alps/map": 1,
+          "alps/ski_lodge": 1,
+          "alps/mountain": 1,
+          "alps/skier": 1,
+          "bundler/gem_path_manipulation": 1,
+          "rbconfig": 1,
+          "bundler/rubygems_integration": 1,
+          "bundler/current_ruby": 1,
+          "bundler/constants": 1,
+          "bundler/version": 1,
+          "bundler/deployment": 1,
+          "capistrano/version": 1,
+          "bundler/cli/cache": 1,
+          "bundler/cli/exec": 1,
+          "bundler/cli/show": 1,
+          "bundler/cli/init": 1,
+          "bundler/cli/package": 1,
+          "bundler/cli/viz": 1,
+          "bundler/cli/check": 1,
+          "bundler/cli/binstubs": 1,
+          "bundler/cli/platform": 1,
+          "bundler/cli/console": 1,
+          "bundler/cli/gem": 1,
+          "bundler/cli/config": 1,
+          "bundler/cli/outdated": 1,
+          "bundler/cli/open": 1,
+          "bundler/cli/update": 1,
+          "bundler/vendored_thor": 1,
+          "bundler/cli/inject": 1,
+          "Thor::Actions": 1,
+          "bundler/similarity_detector": 1,
+          "preferred": 1,
+          "irb": 1,
+          "graphviz": 1,
+          "digest/sha1": 1,
+          "GemHelpers": 1,
+          "eql?": 1,
+          "rubygems/dependency": 1,
+          ">=": 1,
+          "bundler/shared_helpers": 1,
+          "bundler/ruby_dsl": 1,
+          "bundler/dependency": 1,
+          "RubyDsl": 1,
+          "Dispatch": 1,
+          "dispatch/proxy": 1,
+          "dispatch/job": 1,
+          "dispatch/queue": 1,
+          "dispatch/enumerable": 1,
+          "dispatch/source": 1,
+          "delegate": 1,
+          "bundle[0..-8]": 1,
+          "ducksauce/version": 1,
+          "DuckSauce::DuckType": 1,
+          "evolver/environment": 1,
+          "evolver/polymerase": 1,
+          "evolver/genome": 1,
+          "evolver/constants": 1,
+          "evolver/organism": 1,
+          "hostess": 1,
+          "builder": 1,
+          "rubygems/indexer": 1,
+          "digest/md5": 1,
+          "geminabox/version": 1,
+          "rubygems/builder": 1,
+          "rss/atom": 1,
+          "Hostess": 1,
+          "geminabox/gem_version": 1,
+          "Enumerable": 1,
+          "yaml": 1,
+          "rubygems/command": 1,
+          "rubygems/command_manager": 1,
+          "Rack::Auth::Basic": 1,
+          "integration/pushing_gems/basic_test": 1,
+          "test_support/gem_factory": 1,
+          "geminabox": 1,
+          "test_support/geminabox_test_case": 1,
+          "socket": 1,
+          "tempfile": 1,
+          "rack": 1,
+          "timeout": 1,
+          "webrick/https": 1,
+          "rack/auth/abstract/handler": 1,
+          "rack/auth/abstract/request": 1,
+          "webrick": 1,
+          "logger": 1,
+          "guard": 1,
+          "guard/bacon/version": 1,
+          "guard/guard": 1,
+          "bacon": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jballanc/active_model_serializers",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jballanc/alps",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jballanc/aydede",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C",
+          "Lua"
+        ]
+      },
+      {
+        "repository": "jballanc/buddy",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jballanc/bundler",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jballanc/clojurescript",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jballanc/ConcurrentCollectionOperations",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "jballanc/Dispatch",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jballanc/ducksauce",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jballanc/edge",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jballanc/eglot-jl",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Julia"
+        ]
+      },
+      {
+        "repository": "jballanc/Evolver",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jballanc/geminabox",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jballanc/guard-bacon",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

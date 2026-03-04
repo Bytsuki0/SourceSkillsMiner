@@ -1,0 +1,238 @@
+{
+  "username": "miyamuko",
+  "areas": {
+    "OSS": {
+      "score": 0.4921985815602836,
+      "details": {
+        "issue_resolution_rate": 0.6382978723404256,
+        "pr_merge_rate": 0.6,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "miyamuko/xl-json": -0.04228571428571428
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.37881887615930165,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        13294,
+        39
+      ],
+      "Shell": [
+        1221,
+        3
+      ],
+      "C++": [
+        28937,
+        88
+      ],
+      "Common Lisp": [
+        0,
+        0
+      ],
+      "Perl": [
+        14862,
+        9
+      ],
+      "Java": [
+        0,
+        0
+      ],
+      "Ruby": [
+        30716,
+        120
+      ],
+      "JavaScript": [
+        149,
+        4
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 263,
+    "total_lines": 89179,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 30716,
+        "commits": 120
+      },
+      {
+        "language": "C++",
+        "lines": 28937,
+        "commits": 88
+      },
+      {
+        "language": "C",
+        "lines": 13294,
+        "commits": 39
+      },
+      {
+        "language": "Perl",
+        "lines": 14862,
+        "commits": 9
+      },
+      {
+        "language": "JavaScript",
+        "lines": 149,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "miyamuko",
+    "analysis_date": "2026-02-24T07:42:19.229814",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 31,
+    "languages": {
+      "C": {
+        "files_scanned": 15,
+        "packages": {
+          "config.h": 15,
+          "<config.h>": 15,
+          "stdlib.h": 5,
+          "<stdlib.h>": 5,
+          "<errno.h>": 3,
+          "errno.h": 3,
+          "string.h": 3,
+          "<string.h>": 3,
+          "unistd.h": 2,
+          "<unistd.h>": 2,
+          "<sys/socket.h>": 2,
+          "sys/socket.h": 2,
+          "math.h": 2,
+          "<math.h>": 2,
+          "areadlink.h": 2,
+          "w32sock.h": 1,
+          "fcntl.h": 1,
+          "msvc-nothrow.h": 1,
+          "<fcntl.h>": 1,
+          "binary-io.h": 1,
+          "acl-internal.h": 1,
+          "blockinput.h": 1,
+          "<stdio.h>": 1,
+          "alloca.h": 1,
+          "<alloca.h>": 1,
+          "the": 1,
+          "stdio.h": 1,
+          "lisp.h": 1,
+          "allocator.h": 1,
+          "dirent.h": 1,
+          "<dirent.h>": 1,
+          "amemxfrm.h": 1,
+          "inttostr.h": 1,
+          "arcfour.h": 1,
+          "arctwo.h": 1,
+          "bitrotate.h": 1,
+          "limits.h": 1,
+          "<stdint.h>": 1,
+          "stdint.h": 1,
+          "<limits.h>": 1,
+          "careadlinkat.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 11,
+        "packages": {
+          "stddef.h": 7,
+          "<stddef.h>": 7,
+          "<sys/types.h>": 2,
+          "sys/types.h": 2,
+          "stdint.h": 2,
+          "<stdint.h>": 2,
+          "features.h": 1,
+          "<features.h>": 1,
+          "if": 1,
+          "<stdbool.h>": 1,
+          "aclv.h": 1,
+          "stdlib.h": 1,
+          "sys/acl.h": 1,
+          "stdbool.h": 1,
+          "<sys/acl.h>": 1,
+          "<errno.h>": 1,
+          "acl/libacl.h": 1,
+          "<stdlib.h>": 1,
+          "error.h": 1,
+          "<aclv.h>": 1,
+          "acl.h": 1,
+          "<acl/libacl.h>": 1,
+          "<limits.h>": 1,
+          "errno.h": 1,
+          "limits.h": 1,
+          "quote.h": 1,
+          "sys/stat.h": 1,
+          "<sys/stat.h>": 1,
+          "<malloc.h>": 1,
+          "of": 1,
+          "malloc.h": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 1,
+        "packages": {
+          "File::Basename": 1,
+          "Digest::MD5": 1,
+          "File::Temp": 1,
+          "Getopt::Std": 1,
+          "HTTP::Cookies": 1,
+          "strict": 1,
+          "LWP::UserAgent": 1,
+          "Crypt::SSLeay": 1,
+          "HTTP::Request::Common": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "miyamuko/git-merge-changelog-for-windows",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "miyamuko/hatena-diary",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      }
+    ]
+  }
+}

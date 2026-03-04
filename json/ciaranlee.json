@@ -1,0 +1,528 @@
+{
+  "username": "ciaranlee",
+  "areas": {
+    "OSS": {
+      "score": 0.651123185274743,
+      "details": {
+        "issue_resolution_rate": 0.9090909090909091,
+        "pr_merge_rate": 0.6153846153846154,
+        "commits_activity": 0.9522092534365901
+      }
+    },
+    "Status": {
+      "score": 0.3647669868043517,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9509966340526814,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "ciaranlee/geoip_sinatra": 0.7088
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6039725430197737,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CSS": [
+        766,
+        8
+      ],
+      "HTML": [
+        365,
+        4
+      ],
+      "Ruby": [
+        13614,
+        104
+      ],
+      "JavaScript": [
+        6605,
+        22
+      ],
+      "Vim Script": [
+        3837,
+        5
+      ],
+      "Shell": [
+        8,
+        0
+      ],
+      "CoffeeScript": [
+        37,
+        0
+      ],
+      "C": [
+        4,
+        0
+      ],
+      "Perl": [
+        0,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 143,
+    "total_lines": 25236,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 13614,
+        "commits": 104
+      },
+      {
+        "language": "JavaScript",
+        "lines": 6605,
+        "commits": 22
+      },
+      {
+        "language": "CSS",
+        "lines": 766,
+        "commits": 8
+      },
+      {
+        "language": "Vim Script",
+        "lines": 3837,
+        "commits": 5
+      },
+      {
+        "language": "HTML",
+        "lines": 365,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ciaranlee",
+    "analysis_date": "2026-02-22T14:15:08.337990",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 360,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 23,
+        "packages": {
+          "util": 8,
+          "assert": 8,
+          "stream": 5,
+          "utest": 4,
+          "dgram": 3,
+          "net": 3,
+          "events": 2,
+          "buffy": 2,
+          ");a.addRule(": 1,
+          "input[name][required]:not([disabled]),textarea[name][required]:not([disabled])": 1,
+          "http": 1,
+          "repl": 1,
+          "vm": 1,
+          "child_process": 1,
+          "path": 1,
+          "fs": 1,
+          "urun": 1,
+          "sinon": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 13,
+        "packages": {
+          "phplib/base.php": 10,
+          "phplib/nav.php": 5,
+          "phplib/header.php": 5,
+          "phplib/footer.php": 5,
+          "lib": 1,
+          "week_report.php": 1,
+          "year_report.php": 1,
+          "pagination.class.php": 1,
+          "phplib/report.php": 1,
+          "irccat.php": 1,
+          "oncall.php": 1,
+          "config.php": 1,
+          "{$provider_config[": 1,
+          "pagination_render.inc.php": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 125,
+        "packages": {
+          "MongoMapper::Document": 12,
+          "mongo_mapper": 12,
+          "abstract_unit": 10,
+          "pp": 9,
+          "rubygems": 6,
+          "test_helper": 5,
+          "Aws::Record": 5,
+          "rack": 5,
+          "sinatra": 5,
+          "cgi": 4,
+          "date": 4,
+          "json": 4,
+          "test/test_helper": 4,
+          "action_controller": 4,
+          "ActiveMerchant::Billing::Integrations": 3,
+          "active_support/core_ext/string/inflections": 3,
+          "spec_helper": 3,
+          "set": 3,
+          "rails": 3,
+          "mail": 3,
+          "net/http": 2,
+          "active_merchant/billing/response": 2,
+          "Validateable": 2,
+          "BeanstreamCore": 2,
+          "securerandom": 2,
+          "active_record/railtie": 2,
+          "action_controller/railtie": 2,
+          "action_mailer/railtie": 2,
+          "bundler/setup": 2,
+          "sinatra/reloader": 2,
+          "bundler": 2,
+          "newrelic_rpm": 2,
+          "Rack::Test::Methods": 2,
+          "rspec": 2,
+          "rack/test": 2,
+          "Devise::Controllers::ScopedViews": 2,
+          "Devise::Controllers::StoreLocation": 2,
+          "Devise::Controllers::SignInOut": 2,
+          "uri": 2,
+          "Rails.application.routes.url_helpers": 2,
+          "Rails.application.routes.mounted_helpers": 2,
+          "marginalia/railtie": 2,
+          "marginalia": 2,
+          "Plugins::EmbeddedCallbacks": 2,
+          "Plugins::Associations": 2,
+          "Plugins::Persistence": 2,
+          "Plugins::ActiveModel": 2,
+          "Plugins::Caching": 2,
+          "Plugins::Validations": 2,
+          "Plugins::Serialization": 2,
+          "Plugins::Equality": 2,
+          "Plugins::Rails": 2,
+          "Plugins::Timestamps": 2,
+          "Plugins::Inspect": 2,
+          "Plugins::Keys": 2,
+          "Plugins::Accessible": 2,
+          "Plugins::Protected": 2,
+          "Plugins::Logger": 2,
+          "Plugins::Sci": 2,
+          "Plugins::Clone": 2,
+          "active_support/core_ext/module/attr_internal": 2,
+          "active_support/rails": 2,
+          "action_mailer/log_subscriber": 2,
+          "active_support/core_ext/module/anonymous": 2,
+          "action_mailer": 2,
+          "action_view": 2,
+          "mailers/base_mailer": 2,
+          "active_merchant": 1,
+          "active_merchant/billing/integrations/action_view_helper": 1,
+          "builder": 1,
+          "active_support/core_ext/class/attribute_accessors": 1,
+          "active_support/core_ext/kernel/requires": 1,
+          "active_support/core_ext/class/delegating_attributes": 1,
+          "active_support/core_ext/hash/indifferent_access": 1,
+          "active_support/core_ext/class/inheritable_attributes": 1,
+          "active_merchant/billing": 1,
+          "active_support/core_ext/module/attribute_accessors": 1,
+          "rexml/document": 1,
+          "active_merchant/version": 1,
+          "active_merchant/common": 1,
+          "active_support": 1,
+          "active_merchant/billing/gateways": 1,
+          "active_merchant/billing/credit_card": 1,
+          "active_merchant/billing/credit_card_formatting": 1,
+          "active_merchant/billing/credit_card_methods": 1,
+          "active_merchant/billing/cvv_result": 1,
+          "active_merchant/billing/avs_result": 1,
+          "active_merchant/billing/base": 1,
+          "active_merchant/billing/check": 1,
+          "time": 1,
+          "CreditCardMethods": 1,
+          "active_merchant/billing/expiry_date": 1,
+          "CreditCardFormatting": 1,
+          "PostsData": 1,
+          "RequiresParameters": 1,
+          "net/https": 1,
+          "Utils": 1,
+          "aws-sdk-core": 1,
+          "aws-record": 1,
+          "aws-sdk-resources": 1,
+          "marshalers": 1,
+          "Enumerable": 1,
+          "rspec/autorun": 1,
+          "rspec/rails": 1,
+          "nokogiri": 1,
+          "em-synchrony/em-http": 1,
+          "em-synchrony": 1,
+          "fakeweb": 1,
+          ":scope_name": 1,
+          "Devise::Mailers::Helpers": 1,
+          "devise/mapping": 1,
+          "helpers": 1,
+          "responders": 1,
+          "devise/models": 1,
+          "warden": 1,
+          "devise/modules": 1,
+          "scope::UrlHelpers": 1,
+          "active_support/dependencies": 1,
+          "devise/rails": 1,
+          "scope::Helpers": 1,
+          "active_support/core_ext/numeric/time": 1,
+          "orm_adapter": 1,
+          "bcrypt": 1,
+          "ActionController::UrlFor": 1,
+          "ActionController::RackDelegation": 1,
+          "ActionController::Redirecting": 1,
+          "action_controller/metal": 1,
+          "Devise::Controllers::Rememberable": 1,
+          ":name": 1,
+          "the": 1,
+          "mod": 1,
+          "devise/models/authenticatable": 1,
+          "Devise::Models::Authenticatable": 1,
+          "Devise::Controllers::InternalHelpers": 1,
+          "devise_invitable": 1,
+          "devise_invitable/rails": 1,
+          "devise_invitable/routes": 1,
+          "devise_invitable/schema": 1,
+          "devise_invitable/mailer": 1,
+          "devise": 1,
+          "test/integration_tests_helper": 1,
+          "test/model_tests_helper": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "boot": 1,
+          "geoip": 1,
+          "rack/contrib/jsonp": 1,
+          "Rack::JSONP": 1,
+          "csv": 1,
+          "default": 1,
+          "sprockets/railtie": 1,
+          "active_resource/railtie": 1,
+          "devise/orm/active_record": 1,
+          "marginalia/comment": 1,
+          "socket": 1,
+          "Marginalia::ActiveRecordInstrumentation": 1,
+          "rails/railtie": 1,
+          "mocha/test_unit": 1,
+          "active_record": 1,
+          "test/unit": 1,
+          "logger": 1,
+          "MongoMapper::EmbeddedDocument": 1,
+          "mongo_mapper/plugins/associations/proxy": 1,
+          "extension": 1,
+          "mongo_mapper/railtie": 1,
+          "plucky": 1,
+          "active_support/core_ext": 1,
+          "active_model": 1,
+          "Plugins::Callbacks": 1,
+          "Plugins::Document": 1,
+          "Plugins::Dirty": 1,
+          "Plugins::Scopes": 1,
+          "Plugins::Querying": 1,
+          "Plugins::Modifiers": 1,
+          "Plugins::DynamicQuerying": 1,
+          "Plugins::Indexes": 1,
+          "Plugins::Safe": 1,
+          "Plugins::Pagination": 1,
+          "Plugins::Userstamps": 1,
+          "Plugins::EmbeddedDocument": 1,
+          "MongoMapper::Extensions::NilClass": 1,
+          "MongoMapper::Extensions::Object": 1,
+          "to_str": 1,
+          "ipaddr": 1,
+          "csshttprequest": 1,
+          "thread": 1,
+          "Rack::Utils": 1,
+          "i18n": 1,
+          "net/smtp": 1,
+          "erb": 1,
+          "tmail": 1,
+          "strscan": 1,
+          "json/pure": 1,
+          "ruby-prof": 1,
+          "fileutils": 1,
+          "[]=": 1,
+          ":to_path": 1,
+          "rack/file": 1,
+          "action_mailer/version": 1,
+          "active_support/lazy_load_hooks": 1,
+          "abstract_controller": 1,
+          "active_support/core_ext/class": 1,
+          ":controller_path": 1,
+          "AbstractController::Helpers": 1,
+          "Previews": 1,
+          "AbstractController::Callbacks": 1,
+          "active_support/core_ext/hash/except": 1,
+          "AbstractController::Rendering": 1,
+          "DeliveryMethods": 1,
+          "AbstractController::Logger": 1,
+          "AbstractController::Translation": 1,
+          "action_mailer/collector": 1,
+          "AbstractController::AssetPaths": 1,
+          "ActionView::Layouts": 1,
+          ":default_options=": 1,
+          "abstract_controller/collector": 1,
+          "AbstractController::Collector": 1,
+          "active_support/core_ext/hash/reverse_merge": 1,
+          "active_support/core_ext/array/extract_options": 1,
+          ":all": 1,
+          "tmpdir": 1,
+          "active_support/log_subscriber": 1,
+          "active_support/descendants_tracker": 1,
+          "abstract_controller/railties/routes_helpers": 1,
+          "AbstractController::UrlFor": 1,
+          "app.routes.mounted_helpers": 1,
+          "active_support/test_case": 1,
+          "ActiveSupport::Testing::ConstantLookup": 1,
+          "Behavior": 1,
+          "TestHelper": 1,
+          "gem_version": 1,
+          "active_support/core_ext/kernel/reporting": 1,
+          "active_support/testing/autorun": 1,
+          "action_mailer/test_case": 1,
+          "action_dispatch": 1,
+          "mailers/asset_mailer": 1,
+          "mailers/proc_mailer": 1,
+          "active_support/time": 1,
+          "active_support/log_subscriber/test_helper": 1,
+          "ActiveSupport::LogSubscriber::TestHelper": 1,
+          "AppRoutes.url_helpers": 1,
+          "action_pack": 1,
+          "active_support/i18n": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ciaranlee/active_merchant",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/aws-sdk-ruby-record",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/coiner",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/dart",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/devise",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/devise_invitable",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/geoip_sinatra",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/irishproperty",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/jquery-ujs",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/marginalia",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/mongomapper",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/node-ar-drone",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ciaranlee/opsweekly",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "ciaranlee/rack-contrib",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ciaranlee/rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

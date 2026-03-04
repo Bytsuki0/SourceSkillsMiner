@@ -1,0 +1,475 @@
+{
+  "username": "melchiorb",
+  "areas": {
+    "OSS": {
+      "score": 0.4706255437142799,
+      "details": {
+        "issue_resolution_rate": 0.875,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.83093831557142
+      }
+    },
+    "Status": {
+      "score": 0.25908708217581844,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.83093831557142,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "melchiorb/indesign-scripts": 0.7906
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.48242815647252457,
+  "language_usage": {
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "melchiorb",
+    "analysis_date": "2026-02-24T07:17:53.347197",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 190,
+    "languages": {
+      "Go": {
+        "files_scanned": 5,
+        "packages": {
+          "strings": 4,
+          "log": 3,
+          "net/http": 3,
+          "encoding/json": 2,
+          "fmt": 2,
+          "net/url": 2,
+          "open": 1,
+          "io/ioutil": 1,
+          "time": 1,
+          "os": 1,
+          ":=": 1,
+          "path/filepath": 1,
+          "github.com/Knetic/govaluate": 1,
+          "W": 1,
+          "strconv": 1,
+          "regexp": 1,
+          "M": 1,
+          "D": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "globals": 1,
+          "eslint": 1,
+          "eslint-plugin-react-refresh": 1,
+          "eslint-plugin-react-hooks": 1,
+          "vite": 1,
+          "vitejs": 1,
+          "gulp-plumber": 1,
+          "gulp-concat": 1,
+          "gulp-watch": 1,
+          "gulp-gzip": 1,
+          "gulp-minify": 1,
+          "gulp-sass": 1,
+          "gulp-notify": 1,
+          "gulp-imagemin": 1,
+          "gulp-cached": 1,
+          "gulp-minify-css": 1,
+          "gulp-livereload": 1,
+          "gulp-rename": 1,
+          "gulp-util": 1,
+          "gulp": 1,
+          "gulp-responsive": 1,
+          "jquery": 1,
+          "jQuery": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 7,
+        "packages": {
+          "react": 6,
+          "react-markdown": 4,
+          "react-dom": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 1,
+        "packages": {
+          "ai.openclaw": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 66,
+        "packages": {
+          "annotations": 33,
+          "__future__": 33,
+          "pathlib": 28,
+          "Path": 28,
+          "typing": 26,
+          "gru": 25,
+          "json": 25,
+          "os": 23,
+          "logging": 22,
+          "sys": 18,
+          "argparse": 16,
+          "TYPE_CHECKING": 14,
+          "re": 14,
+          "datetime": 13,
+          "dataset": 13,
+          "dataclass": 11,
+          "dataclasses": 11,
+          "collections": 10,
+          "asyncio": 9,
+          "transformers": 9,
+          "torch": 8,
+          "peft": 8,
+          "Action": 7,
+          "random": 7,
+          "huggingface_hub": 7,
+          "normalize_output_items": 7,
+          "subprocess": 6,
+          "AutoModelForCausalLM": 6,
+          "PeftModel": 6,
+          "Any": 5,
+          "urllib": 5,
+          "Counter": 5,
+          "reward": 5,
+          "Browser": 4,
+          "uuid": 4,
+          "Database": 4,
+          "playwright": 4,
+          "ProactiveEngine": 4,
+          "List": 4,
+          "HfApi": 4,
+          "load_dataset": 4,
+          "datasets": 4,
+          "score_expansion_detailed": 4,
+          "enum": 3,
+          "Enum": 3,
+          "ABC": 3,
+          "abc": 3,
+          "MemoryStore": 3,
+          "get_registry": 3,
+          "Config": 3,
+          "async_playwright": 3,
+          "AutoTokenizer": 3,
+          "login": 3,
+          "trl": 3,
+          "LoraConfig": 3,
+          "bpy": 2,
+          "Callable": 2,
+          "time": 2,
+          "base64": 2,
+          "MIMEText": 2,
+          "email": 2,
+          "GoogleConnector": 2,
+          "ClaudeClient": 2,
+          "get_auth_manager": 2,
+          "Orchestrator": 2,
+          "anthropic": 2,
+          "dotenv": 2,
+          "load_dotenv": 2,
+          "httpx": 2,
+          "PIL": 2,
+          "Image": 2,
+          "defaultdict": 2,
+          "FastAPI": 2,
+          "fastapi": 2,
+          "requests": 2,
+          "tempfile": 2,
+          "glob": 2,
+          "Iterable": 2,
+          "statistics": 2,
+          "importlib": 2,
+          "example": 2,
+          "csv": 2,
+          "io": 2,
+          "eval_common": 2,
+          "QMDRewardFunction": 2,
+          "GRPOTrainer": 2,
+          "SFTTrainer": 2,
+          "ActionRegistry": 1,
+          "ubereats": 1,
+          "Playwright": 1,
+          "contextlib": 1,
+          "ActionContext": 1,
+          "dateutil": 1,
+          "parser": 1,
+          "Client": 1,
+          "twilio": 1,
+          "and": 1,
+          "get_google_connector": 1,
+          "get_search_chain": 1,
+          "aiohttp": 1,
+          "set_orchestrator": 1,
+          "set_memory_store": 1,
+          "execute_tool": 1,
+          "set_proactive_engine": 1,
+          "AsyncIterator": 1,
+          "PERSONAS": 1,
+          "ActionExecutor": 1,
+          "(required)": 1,
+          "click": 1,
+          "CryptoManager": 1,
+          "googleapiclient": 1,
+          "google": 1,
+          "Request": 1,
+          "google_auth_oauthlib": 1,
+          "build": 1,
+          "TriggerType": 1,
+          "Credentials": 1,
+          "InstalledAppFlow": 1,
+          "direct": 1,
+          "watched": 1,
+          "@mentions": 1,
+          "AESGCM": 1,
+          "hashes": 1,
+          "PBKDF2HMAC": 1,
+          "cryptography": 1,
+          "secrets": 1,
+          "svglib": 1,
+          "renderPM": 1,
+          "reportlab": 1,
+          "svg2rlg": 1,
+          "kidiff": 1,
+          "diff_images": 1,
+          "pydantic": 1,
+          "uvicorn": 1,
+          "BaseModel": 1,
+          "StreamingResponse": 1,
+          "CORSMiddleware": 1,
+          "Optional": 1,
+          "VALID_OUTPUT_TYPES": 1,
+          "AutoConfig": 1,
+          "parse_output_text": 1,
+          "SearchType": 1,
+          "example_from_json": 1,
+          "output_items_to_text": 1,
+          "run_eval": 1,
+          "yaml": 1,
+          "shutil": 1,
+          "trackio": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 25,
+        "packages": {
+          "Foundation": 24,
+          "Commander": 13,
+          "Swabble": 8,
+          "Speech": 4,
+          "AVFoundation": 3,
+          "CoreMedia": 2,
+          "SwabbleKit": 2,
+          "Testing": 2,
+          "PackageDescription": 1,
+          "NaturalLanguage": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 48,
+        "packages": {
+          "path": 16,
+          "fs": 15,
+          "mariozechner": 11,
+          "type": 8,
+          "pino": 5,
+          "vitest": 5,
+          "os": 4,
+          "sinclair": 4,
+          "anthropic-ai": 3,
+          "cron-parser": 3,
+          "Day": 2,
+          "LastPeg": 2,
+          "Market": 2,
+          "ParticipateDoNotInitiate": 2,
+          "Buy": 2,
+          "child_process": 2,
+          "makeWASocket": 2,
+          "url": 2,
+          "google": 2,
+          "crypto": 1,
+          "request": 1,
+          "1m": 1,
+          "OneCancelsTheOther": 1,
+          "express": 1,
+          "midiNoteEvent": 1,
+          "toggle": 1,
+          "tuningChange": 1,
+          "events": 1,
+          "fretboardLabelChange": 1,
+          "modeChange": 1,
+          "scaleChange": 1,
+          "stateChange": 1,
+          "chordIntervalChange": 1,
+          "tonicChange": 1,
+          "scaleFamilyChange": 1,
+          "leftHandedChange": 1,
+          "flipNutChange": 1,
+          "setCToNoonEvent": 1,
+          "chordChange": 1,
+          "zod": 1,
+          "family-chat": 1,
+          "Andy": 1,
+          "10485760": 1,
+          "main": 1,
+          "i": 1,
+          "groups": 1,
+          "store": 1,
+          "nanoclaw-agent:latest": 1,
+          "300000": 1,
+          "data": 1,
+          "better-sqlite3": 1,
+          "last_run": 1,
+          "prompt": 1,
+          "whiskeysockets": 1,
+          "qrcode-terminal": 1,
+          "off": 1,
+          "canvas": 1,
+          "readline": 1,
+          "node:fs": 1,
+          "node:path": 1,
+          "node:os": 1,
+          "cost": 1,
+          "proxy-agent": 1,
+          "bedrock-converse-stream": 1,
+          "smithy": 1,
+          "anthropic-messages": 1,
+          "openai": 1,
+          "azure-openai-responses": 1,
+          "google-gemini-cli": 1,
+          "THINKING_LEVEL_UNSPECIFIED": 1,
+          "thought": 1,
+          "bun:sqlite": 1,
+          "bun:test": 1,
+          "yaml": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "melchiorb/bitmexbot",
+        "files_analyzed": 8,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "melchiorb/blender-scripts",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "melchiorb/cryptowatcher",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "melchiorb/gru",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "melchiorb/gtr-cof",
+        "files_analyzed": 17,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "melchiorb/kidiff",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "melchiorb/llm-council",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "Python"
+        ]
+      },
+      {
+        "repository": "melchiorb/markitdown-api",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "melchiorb/nanoclaw",
+        "files_analyzed": 11,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "melchiorb/openclaw",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin",
+          "Swift",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "melchiorb/pedalplayground",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "melchiorb/pi-mono",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "melchiorb/qmd",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

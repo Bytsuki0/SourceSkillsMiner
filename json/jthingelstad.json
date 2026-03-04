@@ -1,0 +1,325 @@
+{
+  "username": "jthingelstad",
+  "areas": {
+    "OSS": {
+      "score": 0.7777777777777779,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.1666666666666667,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5769230769230769,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.36538461538461536
+      }
+    },
+    "Sentiment": {
+      "score": 0.8333333333333334,
+      "details": {
+        "jthingelstad/filament": 0.4436,
+        "jthingelstad/foreground": 0.23490263157894736,
+        "jthingelstad/POAP2RSS": 0.49046666666666666,
+        "jthingelstad/q2a-number-captcha": 0.8147,
+        "jthingelstad/thingles.github.io": -0.11750000000000001,
+        "jthingelstad/wiki-farm": 0.1941
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.747008547008547,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        4177,
+        13
+      ],
+      "CSS": [
+        24894,
+        154
+      ],
+      "Nunjucks": [
+        5329,
+        48
+      ],
+      "PHP": [
+        3334,
+        47
+      ],
+      "HTML": [
+        40779,
+        208
+      ],
+      "Python": [
+        1957,
+        33
+      ],
+      "Shell": [
+        909,
+        6
+      ],
+      "Ruby": [
+        3662,
+        18
+      ],
+      "Makefile": [
+        327,
+        1
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 528,
+    "total_lines": 85368,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 40779,
+        "commits": 208
+      },
+      {
+        "language": "CSS",
+        "lines": 24894,
+        "commits": 154
+      },
+      {
+        "language": "Nunjucks",
+        "lines": 5329,
+        "commits": 48
+      },
+      {
+        "language": "PHP",
+        "lines": 3334,
+        "commits": 47
+      },
+      {
+        "language": "Python",
+        "lines": 1957,
+        "commits": 33
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jthingelstad",
+    "analysis_date": "2026-02-23T19:56:33.779020",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 68,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 8,
+        "packages": {
+          ":": 4,
+          "_includes": 3,
+          "html-minifier-terser": 1,
+          "crypto": 1,
+          "path": 1,
+          "fs": 1,
+          "required": 1,
+          "node:crypto": 1,
+          "node:fs": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 3,
+        "packages": {
+          "Numbers/Words.php": 3,
+          "$IP/skins/Vector/Vector.php": 1,
+          "$IP/extensions/ConfirmEdit/ConfirmEdit.php": 1,
+          "$IP/extensions/CSS/CSS.php": 1,
+          "$IP/extensions/ContactPage/ContactPage.php": 1,
+          "$IP/extensions/Number2Words/Number2Words.php": 1,
+          "$IP/extensions/ParseURL/ParseURL.php": 1,
+          "$IP/extensions/MyVariables/MyVariables.php": 1,
+          "$IP/extensions/Scribunto/Scribunto.php": 1,
+          "$IP/extensions/ParserHooks/ParserHooks.php": 1,
+          "{$IP}/extensions/CategoryTree/CategoryTree.php": 1,
+          "$IP/extensions/pChart4mw/pChart4mw.php": 1,
+          "$IP/extensions/ConfirmEdit/QuestyCaptcha.php": 1,
+          "$IP/extensions/SemanticForms/SemanticForms.php": 1,
+          "$IP/extensions/ApprovedRevs/ApprovedRevs.php": 1,
+          "$IP/extensions/CleanChanges/CleanChanges.php": 1,
+          "$IP/extensions/SemanticFormsInputs/SemanticFormsInputs.php": 1,
+          "$IP/extensions/cldr/cldr.php": 1,
+          "$IP/extensions/ExternalData/ExternalData.php": 1,
+          "$IP/extensions/BlockandNuke/BlockandNuke.php": 1,
+          "$IP/extensions/RegexFun/RegexFun.php": 1,
+          "$IP/extensions/Interwiki/Interwiki.php": 1,
+          "$IP/extensions/DataTransfer/DataTransfer.php": 1,
+          "$IP/extensions/DynamicPageList/DynamicPageList.php": 1,
+          "$IP/extensions/Cite/Cite.php": 1,
+          "$IP/extensions/Renameuser/Renameuser.php": 1,
+          "$IP/extensions/Variables/Variables.php": 1,
+          "$IP/extensions/Poem/Poem.php": 1,
+          "$IP/extensions/NewUserMessage/NewUserMessage.php": 1,
+          "$IP/extensions/UrlGetParameters/UrlGetParameters.php": 1,
+          "$IP/extensions/ApiSandbox/ApiSandbox.php": 1,
+          "$IP/extensions/Echo/Echo.php": 1,
+          "$IP/extensions/Math/Math.php": 1,
+          "$IP/extensions/Babel/Babel.php": 1,
+          "$IP/extensions/Gadgets/Gadgets.php": 1,
+          "$IP/extensions/CodeEditor/CodeEditor.php": 1,
+          "$IP/extensions/InputBox/InputBox.php": 1,
+          "$IP/extensions/CreativeCommonsRdf/CreativeCommonsRdf.php": 1,
+          "$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector.php": 1,
+          "$IP/extensions/LocalisationUpdate/LocalisationUpdate.php": 1,
+          "$IP/extensions/UserMerge/UserMerge.php": 1,
+          "$IP/extensions/AdminLinks/AdminLinks.php": 1,
+          "$my_secrets": 1,
+          "$IP/extensions/HashTables/HashTables.php": 1,
+          "$IP/extensions/SemanticRating/SemanticRating.php": 1,
+          "$IP/extensions/I18nTags/I18nTags.php": 1,
+          "$IP/extensions/SemanticExtraSpecialProperties/SemanticExtraSpecialProperties.php": 1,
+          "$IP/extensions/Widgets/Widgets.php": 1,
+          "$IP/extensions/PdfHandler/PdfHandler.php": 1,
+          "$IP/extensions/Disambiguator/Disambiguator.php": 1,
+          "$IP/extensions/SemanticCompoundQueries/SemanticCompoundQueries.php": 1,
+          "$IP/extensions/Arrays/Arrays.php": 1,
+          "$IP/extensions/ParserFunctions/ParserFunctions.php": 1,
+          "$IP/extensions/Translate/Translate.php": 1,
+          "$IP/extensions/Loops/Loops.php": 1,
+          "$IP/extensions/SubPageList/SubPageList.php": 1,
+          "$IP/extensions/HeaderTabs/HeaderTabs.php": 1,
+          "$IP/extensions/MagicNoCache/MagicNoCache.php": 1,
+          "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php": 1,
+          "$IP/extensions/Thanks/Thanks.php": 1,
+          "$IP/extensions/Nuke/Nuke.php": 1,
+          "$IP/extensions/WikiEditor/WikiEditor.php": 1,
+          "$IP/extensions/ReplaceText/ReplaceText.php": 1,
+          "$my_config": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "os": 2,
+          "datetime": 2,
+          "urllib": 2,
+          "json": 2,
+          "Dict": 1,
+          "xml": 1,
+          "boto3": 1,
+          "minidom": 1,
+          "logging": 1,
+          "requests": 1,
+          "typing": 1,
+          "Element": 1,
+          "ClientError": 1,
+          "CDATA": 1,
+          "formatdate": 1,
+          "email": 1,
+          "time": 1,
+          "html": 1,
+          "botocore": 1,
+          "sys": 1,
+          "csv": 1,
+          "pathlib": 1,
+          "Path": 1,
+          "io": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 3,
+        "packages": {
+          "next": 3,
+          "lz-string": 1,
+          "rss-parser": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "next": 1,
+          "vercel": 1,
+          "react": 1,
+          "lz-string": 1,
+          "source": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jthingelstad/escape.thingelstad.com",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jthingelstad/foreground",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jthingelstad/Number2Words",
+        "files_analyzed": 1,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "jthingelstad/POAP2RSS",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jthingelstad/poapkings.com",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jthingelstad/q2a-number-captcha",
+        "files_analyzed": 3,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "jthingelstad/rssrssrssrss",
+        "files_analyzed": 6,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "jthingelstad/wiki-farm",
+        "files_analyzed": 11,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

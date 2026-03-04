@@ -1,0 +1,138 @@
+{
+  "username": "tomill",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.967741935483871,
+        "pr_merge_rate": 1.4516129032258065,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.9,
+      "details": {
+        "tomill/Acme-Ikamusume": 0.6325,
+        "tomill/DBIx-Simple-Inject": 0.17608,
+        "tomill/Email-Address-Loose": 0.3818,
+        "tomill/Encode-UTF8Mac": 0.07955,
+        "tomill/Imager-Filter-Bakumatsu": -0.8711,
+        "tomill/lougo": 0.2294,
+        "tomill/maji": 0.8442,
+        "tomill/Template-Semantic": 0.23592222222222223,
+        "tomill/wow-KotmoguDebuff": 0.39316,
+        "tomill/wow-Telepath": 0.445575
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7275641025641026,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Perl": [
+        270246,
+        311
+      ],
+      "Makefile": [
+        3024,
+        1
+      ],
+      "Go": [
+        14798,
+        55
+      ],
+      "Perl 6": [
+        469,
+        1
+      ],
+      "PHP": [
+        10276,
+        23
+      ],
+      "Prolog": [
+        3594,
+        7
+      ],
+      "HTML": [
+        149,
+        1
+      ],
+      "Lua": [
+        117051,
+        144
+      ],
+      "TeX": [
+        8,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 543,
+    "total_lines": 419615,
+    "top_5_languages": [
+      {
+        "language": "Perl",
+        "lines": 270246,
+        "commits": 311
+      },
+      {
+        "language": "Lua",
+        "lines": 117051,
+        "commits": 144
+      },
+      {
+        "language": "Go",
+        "lines": 14798,
+        "commits": 55
+      },
+      {
+        "language": "PHP",
+        "lines": 10276,
+        "commits": 23
+      },
+      {
+        "language": "Prolog",
+        "lines": 3594,
+        "commits": 7
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "list index out of range",
+    "username": "tomill",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

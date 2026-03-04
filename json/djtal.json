@@ -1,0 +1,474 @@
+{
+  "username": "djtal",
+  "areas": {
+    "OSS": {
+      "score": 0.4967061923583662,
+      "details": {
+        "issue_resolution_rate": 0.6086956521739131,
+        "pr_merge_rate": 0.6363636363636364,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5641025641025641,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.34615384615384615
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "djtal/dojo_rules": -0.00044999999999995044,
+        "djtal/googlecharts": 0.3182
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5402021891152325,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        767476,
+        208
+      ],
+      "Elixir": [
+        1144,
+        5
+      ],
+      "Ruby": [
+        591546,
+        456
+      ],
+      "Shell": [
+        19877,
+        208
+      ],
+      "Handlebars": [
+        139,
+        1
+      ],
+      "HTML": [
+        11165,
+        5
+      ],
+      "CSS": [
+        744727,
+        285
+      ],
+      "CoffeeScript": [
+        730812,
+        15
+      ],
+      "Vim Script": [
+        68493,
+        98
+      ],
+      "Lua": [
+        3132,
+        42
+      ],
+      "Python": [
+        1981,
+        26
+      ],
+      "Less": [
+        148,
+        2
+      ],
+      "PHP": [
+        226,
+        0
+      ],
+      "Objective-C": [
+        18581,
+        24
+      ],
+      "C": [
+        27,
+        0
+      ],
+      "HCL": [
+        146,
+        3
+      ],
+      "Go": [
+        623,
+        8
+      ],
+      "Perl": [
+        5458,
+        3
+      ],
+      "Rust": [
+        1183,
+        4
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 1393,
+    "total_lines": 2966884,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 591546,
+        "commits": 456
+      },
+      {
+        "language": "CSS",
+        "lines": 744727,
+        "commits": 285
+      },
+      {
+        "language": "JavaScript",
+        "lines": 767476,
+        "commits": 208
+      },
+      {
+        "language": "Shell",
+        "lines": 19877,
+        "commits": 208
+      },
+      {
+        "language": "Vim Script",
+        "lines": 68493,
+        "commits": 98
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "djtal",
+    "analysis_date": "2026-02-23T11:02:01.150159",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 251,
+    "languages": {
+      "Elixir": {
+        "files_scanned": 25,
+        "packages": {
+          "Peepchat.Web": 7,
+          "Peepchat.User": 6,
+          "Peepchat.Repo": 5,
+          "Mix.Config": 4,
+          "Ecto.Query": 4,
+          "do": 3,
+          "Ecto.Changeset": 3,
+          "Ecto": 3,
+          "ExUnit.CaseTemplate": 3,
+          "Peepchat.ConnCase": 2,
+          "Peepchat.ModelCase": 2,
+          "conveniences": 2,
+          "#{Mix.env}.exs": 1,
+          "environment": 1,
+          "prod.secret.exs": 1,
+          "Supervisor.Spec": 1,
+          "Application": 1,
+          "Phoenix.Endpoint": 1,
+          "Ecto.Repo": 1,
+          "Mix.Project": 1,
+          "Ecto.Migration": 1,
+          "Phoenix.ChannelTest": 1,
+          "Peepchat.Router.Helpers": 1,
+          "Phoenix.ConnTest": 1,
+          "Phoenix.Socket": 1,
+          "Logger": 1,
+          "Comeonin.Bcrypt": 1,
+          "Peepchat.Gettext": 1,
+          "Gettext": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 90,
+        "packages": {
+          "ember": 35,
+          "dom101": 13,
+          "onmount": 11,
+          "ember-qunit": 8,
+          "ember-data": 6,
+          "express": 4,
+          "for": 4,
+          "jquery": 3,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 3,
+          "t.write(": 3,
+          ")).appendTo(t.documentElement)": 3,
+          "[DS.JSONSerializer]": 3,
+          "DS.Model's": 3,
+          "default": 3,
+          "=": 3,
+          "handlebars": 3,
+          "ember-cli": 2,
+          "path": 2,
+          "a": 2,
+          "]": 2,
+          "Ember's": 2,
+          "__esModule": 1,
+          "undefined": 1,
+          "bower_components": 1,
+          "serve-favicon": 1,
+          "morgan": 1,
+          "cookie-parser": 1,
+          "body-parser": 1,
+          "prismjs": 1,
+          "isotope-layout": 1,
+          "critical": 1,
+          "webpack": 1,
+          "nova-colors": 1,
+          "electron": 1,
+          "k);return": 1,
+          "b(": 1,
+          "b": 1,
+          "function(a": 1,
+          "d": 1,
+          "f){": 1,
+          "e": 1,
+          "function(a){": 1,
+          "===i[l]?g={}:c(d(i[l])));var": 1,
+          "c": 1,
+          "r){": 1,
+          "===o[c]?s.push(u={}):s.push(t(o[c]));var": 1,
+          "function(){": 1,
+          "t){": 1,
+          "t": 1,
+          "function(e": 1,
+          "function": 1,
+          "s);return": 1,
+          "something": 1,
+          "`addClass": 1,
+          "of": 1,
+          "(Required": 1,
+          "replace": 1,
+          "the": 1,
+          "in": 1,
+          "this": 1,
+          "to": 1,
+          "gzip-js": 1,
+          "fs": 1,
+          "testswarm": 1,
+          "object": 1,
+          "broccoli-merge-trees": 1,
+          "app": 1,
+          "broccoli-static-compiler": 1,
+          "vendor": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 8,
+        "packages": {
+          "lazy": 1,
+          "nvim-web-devicons": 1,
+          "gitsigns": 1,
+          "inc_rename": 1,
+          "ufo": 1,
+          "trouble": 1,
+          "luasnip": 1,
+          "=": 1,
+          "luasnip.loaders": 1,
+          "lualine": 1,
+          "statuscol": 1,
+          "nvim-ts-autotag": 1,
+          "nvim-treesitter.configs": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 37,
+        "packages": {
+          "spec_helper": 4,
+          "test_helper": 4,
+          "rubygems": 3,
+          "action_controller": 2,
+          "action_dispatch": 2,
+          "kiba-common/dsl_extensions/show_me": 2,
+          "kiba": 2,
+          "awesome_print": 2,
+          "sequel": 2,
+          "active_support": 2,
+          "es_easy_query": 2,
+          "apivore/rspec_helpers": 1,
+          "apivore/swagger": 1,
+          "json-schema": 1,
+          "apivore/rspec_matchers": 1,
+          "apivore/swagger_checker": 1,
+          "rspec": 1,
+          "apivore/all_routes_tested_validator": 1,
+          "apivore/validator": 1,
+          "apivore/custom_schema_validator": 1,
+          "rspec/expectations": 1,
+          "net/http": 1,
+          "hashie": 1,
+          "apivore/fragment": 1,
+          "::ActionDispatch::Integration::Runner": 1,
+          "Apivore::RspecMatchers": 1,
+          "Apivore::RspecHelpers": 1,
+          "rails": 1,
+          "active_support/all": 1,
+          "Rails.application.routes.url_helpers": 1,
+          "fixtures/application.rb": 1,
+          "fixtures/controllers.rb": 1,
+          "apivore": 1,
+          "rspec/rails": 1,
+          "oj": 1,
+          "bg_stats_app/version": 1,
+          "http": 1,
+          "nokogiri": 1,
+          "optparse": 1,
+          "jbuilder": 1,
+          "bg/stats/app": 1,
+          "date": 1,
+          "CalendarHelper": 1,
+          "flexmock/test_unit": 1,
+          "fileutils": 1,
+          "Inflector": 1,
+          "test/unit": 1,
+          "ActionController::Assertions::SelectorAssertions": 1,
+          "hpricot": 1,
+          "open-uri": 1,
+          "default": 1,
+          "rails/all": 1,
+          "bundler/setup": 1,
+          "devise/orm/active_record": 1,
+          "rails/performance_test_help": 1,
+          "rails/test_help": 1,
+          ":subject_search_v1": 1,
+          "es_easy_query/version": 1,
+          "es_easy_query/railtie": 1,
+          "es_easy_query/query/composed": 1,
+          "es_easy_query/query/base": 1,
+          "es_easy_query/executor": 1,
+          "es_easy_query/setting": 1,
+          "EsEasyQuery::Query::Composed": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "djtal/api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "djtal/apivore",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "djtal/bg-stats-app",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "djtal/book-list",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "djtal/book-list-api",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "djtal/calendar_helper",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "djtal/cheatsheets",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "djtal/confiture",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "djtal/djtal.github.io",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "djtal/djtalme",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "djtal/dotfiles",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "Lua"
+        ]
+      },
+      {
+        "repository": "djtal/electron-quick-start",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "djtal/ember-todo",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "djtal/emberlink",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "djtal/es_easy_query",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

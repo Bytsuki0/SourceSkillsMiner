@@ -1,0 +1,282 @@
+{
+  "username": "mayoral",
+  "areas": {
+    "OSS": {
+      "score": -0.4539498800389301,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8190751799416048
+      }
+    },
+    "Status": {
+      "score": 0.24098021325538976,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8037780121907769,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "mayoral/telegrammer": 0.2717735294117647,
+        "mayoral/vote_fu": 0.8895
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.29675758330411495,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        3675,
+        60
+      ],
+      "Lua": [
+        887,
+        10
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 70,
+    "total_lines": 4562,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 3675,
+        "commits": 60
+      },
+      {
+        "language": "Lua",
+        "lines": 887,
+        "commits": 10
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mayoral",
+    "analysis_date": "2026-02-24T00:49:57.248501",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 117,
+    "languages": {
+      "Lua": {
+        "files_scanned": 3,
+        "packages": {
+          "config.lazy": 1,
+          "lazy": 1,
+          "typescript": 1,
+          "lazyvim.util": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 28,
+        "packages": {
+          "rubygems": 4,
+          "test_helper": 4,
+          "test/unit": 3,
+          "xmlsimple": 2,
+          "acts_as_unvlogable/string_base": 1,
+          "bundler/setup": 1,
+          "iconv": 1,
+          "youtube_it": 1,
+          "acts_as_unvlogable/string_extend": 1,
+          "acts_as_unvlogable/flickr": 1,
+          "hpricot": 1,
+          "acts_as_unvlogable/object_base": 1,
+          "digest/md5": 1,
+          "net/http": 1,
+          "cgi": 1,
+          "shoulda": 1,
+          "acts_as_unvlogable": 1,
+          "active_support/concern": 1,
+          "active_support/cache": 1,
+          "Caching": 1,
+          "Cell": 1,
+          "abstract_controller": 1,
+          "AbstractController": 1,
+          "Rendering": 1,
+          "Cell::Base.url_helpers": 1,
+          "Metal": 1,
+          "ActionController::RequestForgeryProtection": 1,
+          "controller._helpers": 1,
+          "AssertSelect": 1,
+          "TestMethods": 1,
+          "their": 1,
+          "cells/rails": 1,
+          "action_controller": 1,
+          "app.routes.url_helpers": 1,
+          "cell/rails": 1,
+          "cell": 1,
+          "cell/test_case": 1,
+          "rails/railtie": 1,
+          "::Cells::Rails::ActionController": 1,
+          "::Cells::Rails::ActionView": 1,
+          "rails/generators/named_base": 1,
+          "rails/generators": 1,
+          "generators/cells/cell_generator": 1,
+          "Cell::TestCase::TestMethods": 1,
+          "action_controller/railtie": 1,
+          "cells": 1,
+          "action_view/railtie": 1,
+          "active_model/railtie": 1,
+          "action_mailer/railtie": 1,
+          "active_record/railtie": 1,
+          "bundler": 1,
+          "foreign_keys/command_recorder": 1,
+          "foreign_keys/schema_dumper": 1,
+          "foreign_keys/mysql_adapter": 1,
+          "foreign_keys/postgresql_adapter": 1,
+          "foreign_keys/schema_statements": 1,
+          "active_support": 1,
+          "digest/sha1": 1,
+          "active_support/core_ext/blank": 1,
+          "ruby-debug": 1,
+          "activesupport": 1,
+          "rack/jsonp/method_override": 1,
+          "rack/jsonp/callback": 1,
+          "rack/jsonp/utils/version": 1,
+          "telegrammer/bot": 1,
+          "telegrammer/data_types/video": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_cached_document": 1,
+          "telegrammer/data_types/base": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_article": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_video": 1,
+          "telegrammer/data_types/group_chat": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_cached_audio": 1,
+          "telegrammer/data_types/reply_keyboard_markup": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_cached_voice": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_voice": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_audio": 1,
+          "telegrammer/data_types/location": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_cached_gif": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_document": 1,
+          "telegrammer/data_types/reply_keyboard_hide": 1,
+          "telegrammer/data_types/sticker": 1,
+          "telegrammer/data_types/chosen_inline_result": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_photo": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_venue": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_cached_mpeg4_gif": 1,
+          "telegrammer/api_response": 1,
+          "telegrammer/data_types/update": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_gif": 1,
+          "telegrammer/version": 1,
+          "telegrammer/data_types/voice": 1,
+          "telegrammer/data_types/inline_keyboard_button": 1,
+          "telegrammer/data_types/inline_keyboard_markup": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_cached_sticker": 1,
+          "telegrammer/data_types/inline_query": 1,
+          "telegrammer/data_types/document": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_contact": 1,
+          "httpclient": 1,
+          "telegrammer/data_types/user_profile_photos": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_cached_video": 1,
+          "telegrammer/data_types/photo_size": 1,
+          "telegrammer/data_types/force_reply": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_mpeg4_gif": 1,
+          "telegrammer/data_types/user": 1,
+          "telegrammer/data_types/file": 1,
+          "virtus": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_location": 1,
+          "telegrammer/data_types/contact": 1,
+          "telegrammer/data_types/chat": 1,
+          "multi_json": 1,
+          "telegrammer/data_types/audio": 1,
+          "telegrammer/data_types/inline_query_result/inline_query_result_cached_photo": 1,
+          "telegrammer/data_types/message": 1,
+          "telegrammer/data_types/photo_array": 1,
+          "Virtus.model": 1,
+          "AuthenticatedSystem": 1,
+          "vote_fu": 1,
+          "Juixe::Acts::Voteable::InstanceMethods": 1,
+          "PeteOnRails::Acts::Voter::InstanceMethods": 1,
+          "PeteOnRails::VoteFu::Karma::InstanceMethods": 1,
+          "models/vote.rb": 1,
+          "has_karma": 1,
+          "acts_as_voteable": 1,
+          "acts_as_voter": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mayoral/acts_as_unvlogable",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mayoral/cells",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mayoral/foreign_keys",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mayoral/neovim",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "mayoral/permalink_fu",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mayoral/rack-jsonp-utils",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mayoral/telegrammer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mayoral/vote_fu",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

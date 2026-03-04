@@ -1,0 +1,567 @@
+{
+  "username": "jodosha",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 30.866666666666667,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.8235294117647058,
+      "details": {
+        "jodosha/activerecord-pessimistic-locking": -0.44933333333333336,
+        "jodosha/collaborators": 0.4199,
+        "jodosha/hanami-api-amazon-aws-lambda": 0.09476,
+        "jodosha/hanami-fabrication": 0.12040000000000001,
+        "jodosha/hanoi": -0.14850000000000002,
+        "jodosha/lotus-api-example": 0.4199,
+        "jodosha/minegems": 0.30186666666666667,
+        "jodosha/more_paginate": 0.34,
+        "jodosha/rails": 0.3182,
+        "jodosha/rails-i18n-js": 0.1531,
+        "jodosha/redis-rb": 0.039599999999999996,
+        "jodosha/reeder": 0.13996666666666666,
+        "jodosha/rubysocialclub": -0.06181818181818182,
+        "jodosha/rubysocialclubrome": 0.024616666666666665,
+        "jodosha/soundeck": 0.1790875,
+        "jodosha/vim-godebug": 0.2495263157894737,
+        "jodosha/website": 0.37513
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7520361990950226,
+  "language_usage": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/jodosha/attractor/stats/contributors (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7937314e6cc0>, 'Connection to api.github.com timed out. (connect timeout=None)'))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jodosha",
+    "analysis_date": "2026-02-22T06:42:10.959951",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 321,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "<unistd.h>": 1,
+          "unistd.h": 1,
+          "stdlib.h": 1,
+          "time.h": 1,
+          "<time.h>": 1,
+          "<stdlib.h>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 2,
+        "packages": {
+          "fmt": 2,
+          "os": 1,
+          "net/http": 1,
+          "regexp": 1,
+          "io/ioutil": 1,
+          "strings": 1,
+          "github.com/asciimoo/colly": 1,
+          "github.com/fatih/color": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 9,
+        "packages": {
+          "events": 3,
+          "worker_threads": 2,
+          "stream": 2,
+          "use": 1,
+          "):a.display=": 1,
+          "abc": 1,
+          "[object": 1,
+          "undefined": 1,
+          "rails": 1,
+          "turbolinks": 1,
+          "toFormData": 1,
+          "node:https": 1,
+          "punycode": 1,
+          "http2": 1,
+          "fs": 1,
+          "tls": 1,
+          "node:stream": 1,
+          "buffer": 1,
+          "crypto": 1,
+          "node:path": 1,
+          "constants": 1,
+          "tty": 1,
+          "url": 1,
+          "net": 1,
+          "domain": 1,
+          "module": 1,
+          "dns": 1,
+          "node:util": 1,
+          "assert": 1,
+          "child_process": 1,
+          "zlib": 1,
+          "util": 1,
+          "https": 1,
+          "vm": 1,
+          "node:buffer": 1,
+          "string_decoder": 1,
+          "node:url": 1,
+          "node:zlib": 1,
+          "os": 1,
+          "node:http": 1,
+          "process": 1,
+          "querystring": 1,
+          "node:net": 1,
+          "path": 1,
+          "http": 1,
+          "node:fs": 1,
+          "pino-abstract-transport": 1,
+          "real-require": 1,
+          "1.6.0.3": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 140,
+        "packages": {
+          "spec_helper": 14,
+          "Util": 11,
+          "inspect": 11,
+          "rubygems": 9,
+          "InSite": 8,
+          "json": 7,
+          "fileutils": 6,
+          "InstanceMethods": 6,
+          "uri": 6,
+          "set": 5,
+          "pathname": 5,
+          "bundler/setup": 4,
+          "bundler": 4,
+          "digest/sha1": 4,
+          "simplecov": 4,
+          "zlib": 3,
+          "activesp": 3,
+          "pp": 3,
+          "Enumerable": 3,
+          "test/unit": 3,
+          "thor": 3,
+          "rbconfig": 3,
+          "rubygems/user_interaction": 3,
+          "GemHelpers": 3,
+          "rubygems/spec_fetcher": 3,
+          "ActiveRecord::Associations": 3,
+          "securerandom": 2,
+          "yaml": 2,
+          "assets_packager": 2,
+          "psych": 2,
+          "forwardable": 2,
+          "rack": 2,
+          "digest/md5": 2,
+          "digest/sha2": 2,
+          "better_errors/repl/shared_examples": 2,
+          "bundler/rubygems_integration": 2,
+          "bundler/rubygems_ext": 2,
+          "bundler/shared_helpers": 2,
+          "rubygems/installer": 2,
+          "erb": 2,
+          "MatchPlatform": 2,
+          "open3": 2,
+          "cached_models": 2,
+          "net/http": 2,
+          "version": 2,
+          "codeowners": 2,
+          "active_job/railtie": 1,
+          "active_record/railtie": 1,
+          "rails": 1,
+          "action_view/railtie": 1,
+          "rails/test_unit/railtie": 1,
+          "boot": 1,
+          "active_model/railtie": 1,
+          "action_controller/railtie": 1,
+          "application": 1,
+          "activesp/persistent_caching": 1,
+          "activesp/connection": 1,
+          "activesp/util": 1,
+          "time": 1,
+          "activesp/user": 1,
+          "activesp/site": 1,
+          "activesp/file": 1,
+          "activesp/item": 1,
+          "activesp/associations": 1,
+          "activesp/role": 1,
+          "activesp/permission_set": 1,
+          "activesp/url": 1,
+          "activesp/field": 1,
+          "nokogiri": 1,
+          "activesp/base": 1,
+          "activesp/ghost_field": 1,
+          "activesp/caching": 1,
+          "activesp/folder": 1,
+          "activesp/errors": 1,
+          "activesp/root": 1,
+          "activesp/group": 1,
+          "activesp/list": 1,
+          "activesp/content_type": 1,
+          "net/ntlm_http": 1,
+          "savon": 1,
+          "PersistentCachingConfig": 1,
+          "Root": 1,
+          "acts_as_resource": 1,
+          "Labs23::Acts::Resource": 1,
+          "Labs23::Acts::Resource::InstanceMethods": 1,
+          "test_help": 1,
+          "active_resource/http_mock": 1,
+          "attractor/ruby": 1,
+          "aruba/cucumber": 1,
+          "attractor/duration_parser": 1,
+          "attractor/calculators/base_calculator": 1,
+          "attractor/detectors/base_detector": 1,
+          "attractor/reporters/base_reporter": 1,
+          "attractor/gem_names": 1,
+          "attractor/watcher": 1,
+          "attractor/cache": 1,
+          "attractor/version": 1,
+          "attractor/#{gem_name}": 1,
+          "file": 1,
+          "attractor/suggester": 1,
+          "Singleton": 1,
+          "churn/calculator": 1,
+          "attractor/value": 1,
+          "attractor": 1,
+          "tilt": 1,
+          "launchy": 1,
+          "descriptive_statistics/safe": 1,
+          "rack/livereload": 1,
+          "sinatra/base": 1,
+          "listen": 1,
+          "gem/with/gemspec/version": 1,
+          "active_record": 1,
+          "openssl": 1,
+          "bcrypt": 1,
+          ":t": 1,
+          "authlogic/i18n/translator": 1,
+          "better_errors/raised_exception": 1,
+          "better_errors/version": 1,
+          "better_errors/repl": 1,
+          "better_errors/middleware": 1,
+          "better_errors/rails": 1,
+          "better_errors/stack_frame": 1,
+          "coderay": 1,
+          "better_errors/exception_extension": 1,
+          "better_errors/code_formatter": 1,
+          "erubi": 1,
+          "binding_of_caller": 1,
+          "better_errors/error_page": 1,
+          "better_errors/code_formatter/text": 1,
+          "better_errors/code_formatter/html": 1,
+          "cgi": 1,
+          "ipaddr": 1,
+          "pry": 1,
+          "fiber": 1,
+          "rspec/its": 1,
+          "better_errors/repl/basic": 1,
+          "coveralls": 1,
+          "hanami/helpers": 1,
+          "MyAuthentication": 1,
+          "hanami/assets": 1,
+          "Hanami::Helpers": 1,
+          "Web::Assets::Helpers": 1,
+          "Web::Layout": 1,
+          "hanami/model": 1,
+          "hanami/setup": 1,
+          "capybara": 1,
+          "capybara/rspec": 1,
+          "bundler/version": 1,
+          "bundler/deployment": 1,
+          "Thor::Actions": 1,
+          "rubygems/config_file": 1,
+          "bundler/vendored_thor": 1,
+          "irb": 1,
+          "rubygems/dependency": 1,
+          "bundler/dependency": 1,
+          "Rake::DSL": 1,
+          "bundler/gem_helper": 1,
+          "graphviz": 1,
+          "[]": 1,
+          "rubygems/dependency_installer": 1,
+          "strscan": 1,
+          "eql?": 1,
+          "rubygems/specification": 1,
+          "Bundler::MatchPlatform": 1,
+          "rubygems_require": 1,
+          "require": 1,
+          "gems": 1,
+          "SharedHelpers": 1,
+          "==": 1,
+          "rubygems/format": 1,
+          "specs": 1,
+          "tsort": 1,
+          "TSort": 1,
+          "thor/actions": 1,
+          "views.home.index": 1,
+          "hanami/action": 1,
+          "hook": 1,
+          "#{path}/active_record/base": 1,
+          "#{path}/active_record/associations": 1,
+          "activesupport": 1,
+          "HookScriptAPI": 1,
+          "config_dir_man": 1,
+          "parsearg_clean": 1,
+          "clean_dir_data": 1,
+          "config": 1,
+          "distclean_dir_lib": 1,
+          "distclean_dir_bin": 1,
+          "distclean_dir_man": 1,
+          "setup_dir_lib": 1,
+          "clean_dir_man": 1,
+          "FileOperations": 1,
+          "clean_dir_bin": 1,
+          "config_dir_bin": 1,
+          "setup_dir_data": 1,
+          "parsearg_show": 1,
+          "config_dir_lib": 1,
+          "clean_dir_conf": 1,
+          "parsearg_distclean": 1,
+          "config_dir_data": 1,
+          "setup_dir_man": 1,
+          "clean_dir_lib": 1,
+          "distclean_dir_conf": 1,
+          "parsearg_setup": 1,
+          "help_default": 1,
+          "parsearg_test": 1,
+          "map": 1,
+          "distclean_dir_data": 1,
+          "setup_dir_conf": 1,
+          "config_dir_conf": 1,
+          "active_record/associations/has_many_association": 1,
+          "mocha": 1,
+          "RAILS_ROOT": 1,
+          "post": 1,
+          "active_record/fixtures": 1,
+          "WillPaginate": 1,
+          "ActiveRecord::TestFixtures": 1,
+          "author": 1,
+          "memcache": 1,
+          "cash": 1,
+          "Click::Controller": 1,
+          "Click::Observer::Controller": 1,
+          "Click::Observer::View": 1,
+          "click_to_globalize": 1,
+          "ActiveSupport::Deprecation": 1,
+          "FileUtils": 1,
+          "win32ole": 1,
+          "send": 1,
+          "rake/tasklib": 1,
+          "thread": 1,
+          "webrick": 1,
+          "active_support/test_case": 1,
+          "action_view/test_case": 1,
+          "Click::Observer": 1,
+          "codecov/uploader": 1,
+          "codecov/formatter": 1,
+          "configuration": 1,
+          "mocha/minitest": 1,
+          "webmock/minitest": 1,
+          "minitest/autorun": 1,
+          "helper": 1,
+          "codeowners/list_contributors": 1,
+          "codeowners/guess": 1,
+          "codeowners/result": 1,
+          "codeowners/list_owners": 1,
+          "codeowners/import/client": 1,
+          "codeowners/storage": 1,
+          "codeowners/import/organization": 1,
+          "codeowners/version": 1,
+          "dry/cli": 1,
+          "shellwords": 1,
+          "codeowners/git/contributors": 1,
+          "English": 1,
+          "codeowners/git/contributor": 1,
+          "excon": 1,
+          "codeowners/git": 1,
+          "tempfile": 1,
+          "codeowners/storage/data": 1,
+          "codeowners/storage/collection": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "probot": 5,
+          "rollup": 2,
+          "vercel": 1,
+          "rollup-plugin-esbuild": 1,
+          "chatgpt": 1,
+          "nock": 1,
+          "fs": 1,
+          "path": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jodosha/activerecord-pessimistic-locking",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/activesp",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/acts-as-resource",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/assets_packager",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/attractor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/authlogic",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/baugo",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "jodosha/better_errors",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/bookshelf",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/brokenurl",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "jodosha/bundler",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/cabin",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/cached-models",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/cash",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/ChatGPT-CodeReview",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C",
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "jodosha/click-to-globalize",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/codecov-ruby",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jodosha/codeowners",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

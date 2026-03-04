@@ -1,0 +1,690 @@
+{
+  "username": "calvin",
+  "areas": {
+    "OSS": {
+      "score": 0.5936181632992636,
+      "details": {
+        "issue_resolution_rate": 0.7857142857142857,
+        "pr_merge_rate": 0.7692307692307693,
+        "commits_activity": 0.8354821900038406
+      }
+    },
+    "Status": {
+      "score": 0.24158126519832068,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8239103593359426,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.25879985712439607,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        96,
+        12
+      ],
+      "JavaScript": [
+        121,
+        1
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Python": [
+        310,
+        24
+      ],
+      "CSS": [
+        46,
+        5
+      ],
+      "Objective-C": [
+        199,
+        3
+      ],
+      "Shell": [
+        7,
+        0
+      ],
+      "Ruby": [
+        2,
+        0
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "PHP": [
+        134,
+        4
+      ],
+      "Vim Script": [
+        1064,
+        21
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 70,
+    "total_lines": 1979,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 310,
+        "commits": 24
+      },
+      {
+        "language": "Vim Script",
+        "lines": 1064,
+        "commits": 21
+      },
+      {
+        "language": "HTML",
+        "lines": 96,
+        "commits": 12
+      },
+      {
+        "language": "CSS",
+        "lines": 46,
+        "commits": 5
+      },
+      {
+        "language": "PHP",
+        "lines": 134,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "calvin",
+    "analysis_date": "2026-02-23T01:39:40.827172",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 269,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 7,
+        "packages": {
+          "RBBomUtil.h": 4,
+          "RBBomRenderable.h": 2,
+          "RBBomNodeInfo.h": 2,
+          "RBBomLocation.h": 2,
+          "RBBomRendererContext.h": 2,
+          "RBBomDataReader.h": 1,
+          "RBBomExceptionCaseController.h": 1,
+          "<Foundation/Foundation.h>": 1,
+          "RBBomImageRenderable.h": 1,
+          "RBBomNodeManager.h": 1,
+          "RBBomNodeRange.h": 1,
+          "RBBomLayoutManager.h": 1,
+          "RBBomRenderer.h": 1,
+          "RBBomTextRenderable.h": 1,
+          "RBBomSelectable.h": 1,
+          "RBBomAttribute.h": 1,
+          "<CoreGraphics/CoreGraphics.h>": 1,
+          "RBBomNode.h": 1,
+          "RBBomTagNode.h": 1,
+          "RBBomParser.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 21,
+        "packages": {
+          "com.ridi": 21,
+          "android.graphics": 5,
+          "android.util": 4,
+          "java.io": 3,
+          "java.util": 3,
+          "android.text": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "chai": 1,
+          "fs": 1,
+          "path": 1,
+          "object": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 14,
+        "packages": {
+          "RBBomTagNode.h": 5,
+          "RBBomNodeInfo.h": 4,
+          "RBBomNodeManager.h": 3,
+          "RBBomStringBuilder.h": 3,
+          "RBBomAttribute.h": 2,
+          "RBBomDataReader.h": 2,
+          "RBBomRenderer.h": 2,
+          "RBBomRendererContext.h": 2,
+          "RBBomNodeRange.h": 2,
+          "RBBomExceptionCaseController.h": 1,
+          "RBBomImageRenderable.h": 1,
+          "RBBomLayoutManager.h": 1,
+          "RBBomLocation.h": 1,
+          "RBBomNode.h": 1,
+          "RBBomParser.h": 1,
+          "RBBomRenderable.h": 1,
+          "RBBomSelectable.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 165,
+        "packages": {
+          "django": 71,
+          "__future__": 54,
+          "unicode_literals": 43,
+          "logging": 27,
+          "datetime": 25,
+          "os": 25,
+          "flexget": 25,
+          "sys": 20,
+          "six": 18,
+          "google": 15,
+          "re": 14,
+          "settings": 14,
+          "warnings": 14,
+          "models": 14,
+          "event": 14,
+          "requests": 13,
+          "absolute_import": 13,
+          "json": 11,
+          "sqlalchemy": 11,
+          "functools": 9,
+          "collections": 9,
+          "time": 9,
+          "options": 9,
+          "console": 8,
+          "threading": 7,
+          "oauth2_provider": 7,
+          "taggit": 7,
+          "ImproperlyConfigured": 6,
+          "timezone": 6,
+          "random": 6,
+          "argparse": 6,
+          "galkwiapp": 6,
+          "exceptions": 6,
+          "eq_": 5,
+          "nose": 5,
+          "bleach": 5,
+          "setup": 5,
+          "admin": 5,
+          "email": 5,
+          "utc": 5,
+          "base64": 5,
+          "SchemaMigration": 5,
+          "south": 5,
+          "db": 5,
+          "pkg_resources": 5,
+          "relation": 5,
+          "db_schema": 5,
+          "abc": 5,
+          "html5lib": 4,
+          "urllib": 4,
+          "setuptools": 4,
+          "TestCase": 4,
+          "get_user_model": 4,
+          "User": 4,
+          "oauthlib": 4,
+          "forms": 4,
+          "ugettext_lazy": 4,
+          "fire_event": 4,
+          "with_session": 4,
+          "manager": 4,
+          "copy": 4,
+          "Entry": 4,
+          "ForeignKey": 4,
+          "*": 4,
+          "general_helpers": 4,
+          "xml": 3,
+          "clean": 3,
+          "importlib": 3,
+          "CaseInsensitiveDict": 3,
+          "b64encode": 3,
+          "urlencode": 3,
+          "ValidationError": 3,
+          "get_application_model": 3,
+          "ContentType": 3,
+          "codecs": 3,
+          "shutil": 3,
+          "table_schema": 3,
+          "Column": 3,
+          "string": 3,
+          "yaml": 3,
+          "socket": 3,
+          "urllib2": 3,
+          "difflib": 3,
+          "Table": 3,
+          "Session": 3,
+          "timeout": 3,
+          "grpc": 3,
+          "retry": 3,
+          "client_info": 3,
+          "HTMLTokenizer": 2,
+          "in_": 2,
+          "partial": 2,
+          "apps": 2,
+          "AppRegistryNotReady": 2,
+          "BaseEmailBackend": 2,
+          "make_msgid": 2,
+          "AnymailAPIError": 2,
+          "anymail": 2,
+          "HTTPError": 2,
+          "traceback": 2,
+          "url": 2,
+          "mimetypes": 2,
+          "sanitize_address": 2,
+          "MIMEBase": 2,
+          "hmac": 2,
+          "constant_time_compare": 2,
+          "hashlib": 2,
+          "mail": 2,
+          "unittest": 2,
+          "DjangoTestSuiteRunner": 2,
+          "path": 2,
+          "urlparse": 2,
+          "Server": 2,
+          "wraps": 2,
+          "rest_framework": 2,
+          "HttpResponseRedirect": 2,
+          "authenticate": 2,
+          "oauth2_settings": 2,
+          "reverse": 2,
+          "Tag": 2,
+          "parse_tags": 2,
+          "all": 2,
+          "TaggedItem": 2,
+          "TaggableManager": 2,
+          "get_object_or_404": 2,
+          "parse_timedelta": 2,
+          "qualities": 2,
+          "Base": 2,
+          "contextlib": 2,
+          "config_schema": 2,
+          "OperationalError": 2,
+          "SimplePersistence": 2,
+          "ArgumentParser": 2,
+          "RequestException": 2,
+          "plugins": 2,
+          "text_date_synonym": 2,
+          "URLError": 2,
+          "posixpath": 2,
+          "table_add_column": 2,
+          "SUPPRESS": 2,
+          "Permission": 2,
+          "BaseCommand": 2,
+          "operations_pb2": 2,
+          "datetime_helpers": 2,
+          "HTMLSanitizer": 1,
+          "HTMLSerializer": 1,
+          "types": 1,
+          "decimal": 1,
+          "Decimal": 1,
+          "escape": 1,
+          "HTMLSanitizerMixin": 1,
+          "tokenTypes": 1,
+          "quote_plus": 1,
+          "linkify": 1,
+          "OrderedDict": 1,
+          "configure_logging": 1,
+          "get_version": 1,
+          "import_module": 1,
+          "upath": 1,
+          "module_has_submodule": 1,
+          "lru_cache": 1,
+          "Counter": 1,
+          "RemovedInDjango20Warning": 1,
+          "LazyObject": 1,
+          "global_settings": 1,
+          "render": 1,
+          "date": 1,
+          "is_naive": 1,
+          "and": 1,
+          "urljoin": 1,
+          "quote": 1,
+          "SparkPost": 1,
+          "sparkpost": 1,
+          "AnymailRecipientStatus": 1,
+          "format_exception_only": 1,
+          "EmailMessage": 1,
+          "of": 1,
+          "MIMEImage": 1,
+          "unquote": 1,
+          "Signal": 1,
+          "Mapping": 1,
+          "urlsplit": 1,
+          "Promise": 1,
+          "formatdate": 1,
+          "mktime": 1,
+          "force_text": 1,
+          "HttpResponse": 1,
+          "View": 1,
+          "method_decorator": 1,
+          "csrf_exempt": 1,
+          "parse_datetime": 1,
+          "sphinx_rtd_theme": 1,
+          "get_runner": 1,
+          "SimpleTestCase": 1,
+          "patch": 1,
+          "mock": 1,
+          "Client": 1,
+          "parseaddr": 1,
+          "mailjet_rest": 1,
+          "django_mailjet": 1,
+          "MailjetError": 1,
+          "override_settings": 1,
+          "DiscoverRunner": 1,
+          "nodes": 1,
+          "docutils": 1,
+          "get_model": 1,
+          "HttpResponseForbidden": 1,
+          "BaseAuthentication": 1,
+          "BasePermission": 1,
+          "UNICODE_ASCII_CHARACTER_SET": 1,
+          "generate_client_id": 1,
+          "patch_vary_headers": 1,
+          "python_2_unicode_compatible": 1,
+          "oauth2": 1,
+          "ObjectDoesNotExist": 1,
+          "timedelta": 1,
+          "RequestValidator": 1,
+          "binascii": 1,
+          "datetime_utils": 1,
+          "AbstractApplication": 1,
+          "ugettext": 1,
+          "GenericRelation": 1,
+          "TagField": 1,
+          "capfirst": 1,
+          "ManyToManyRel": 1,
+          "require_instance_manager": 1,
+          "RelatedObject": 1,
+          "slugify": 1,
+          "GenericForeignKey": 1,
+          "using": 1,
+          "router": 1,
+          "Food": 1,
+          "connection": 1,
+          "force_unicode": 1,
+          "ListView": 1,
+          "_winreg": 1,
+          "struct": 1,
+          "imp": 1,
+          "configparser": 1,
+          "virtualenv": 1,
+          "distutils": 1,
+          "config-%s": 1,
+          "lib-dynload": 1,
+          "optparse": 1,
+          "ConfigParser": 1,
+          "site": 1,
+          "glob": 1,
+          "tarfile": 1,
+          "ctypes": 1,
+          "errno": 1,
+          "winreg": 1,
+          "Set": 1,
+          "tempfile": 1,
+          "zlib": 1,
+          "strtobool": 1,
+          "sysconfig": 1,
+          "_weakrefset": 1,
+          "subprocess": 1,
+          "_abcoll": 1,
+          "sets": 1,
+          "__version__": 1,
+          "Manager": 1,
+          "cProfile": 1,
+          "logger": 1,
+          "profile": 1,
+          "jsonschema": 1,
+          "str_types": 1,
+          "defaultdict": 1,
+          "schema": 1,
+          "PluginError": 1,
+          "render_from_entry": 1,
+          "get_parser": 1,
+          "rpyc": 1,
+          "ThreadedServer": 1,
+          "uuid": 1,
+          "io_encoding": 1,
+          "signal": 1,
+          "config_changed": 1,
+          "declarative_base": 1,
+          "sessionmaker": 1,
+          "IPCClient": 1,
+          "Task": 1,
+          "webui": 1,
+          "TaskQueue": 1,
+          "fnmatch": 1,
+          "CoreArgumentParser": 1,
+          "contextmanager": 1,
+          "pid_exists": 1,
+          "atexit": 1,
+          "ContextSession": 1,
+          "_VersionAction": 1,
+          "cgitb": 1,
+          "BadStatusLine": 1,
+          "ifilter": 1,
+          ":func:`get_plugins`": 1,
+          "add_event_handler": 1,
+          "httplib": 1,
+          "itertools": 1,
+          "internet": 1,
+          "get_plugin_by_name": 1,
+          "tmdb3": 1,
+          "plugin": 1,
+          "normalize_series_name": 1,
+          "SequenceMatcher": 1,
+          "ParseError": 1,
+          "decode_html": 1,
+          "ExpatError": 1,
+          "tvrage": 1,
+          "TvrageError": 1,
+          "pipe_list_synonym": 1,
+          "reset_schema": 1,
+          "Executable": 1,
+          "compiles": 1,
+          "Query": 1,
+          "QueueError": 1,
+          "DependencyError": 1,
+          "select": 1,
+          "ProgressBar": 1,
+          "progressbar": 1,
+          "Movie": 1,
+          "log_query_count": 1,
+          "joinedload_all": 1,
+          "Connection": 1,
+          "get_plugins": 1,
+          "AppConfig": 1,
+          "validators": 1,
+          "transaction": 1,
+          "sax": 1,
+          "migrations": 1,
+          "social_core": 1,
+          "redirect": 1,
+          "static": 1,
+          "views": 1,
+          "IntegrityError": 1,
+          "MiddlewareMixin": 1,
+          "social_django": 1,
+          "galkwisite": 1,
+          "include": 1,
+          "get_wsgi_application": 1,
+          "execute_from_command_line": 1,
+          "shlex": 1,
+          "pkgutil": 1,
+          "get_distribution": 1,
+          "queue": 1,
+          "selectors": 1,
+          "platform": 1,
+          "calendar": 1,
+          "timestamp_pb2": 1,
+          "pytz": 1,
+          "http_client": 1,
+          "Future": 1,
+          "concurrent": 1,
+          "_helpers": 1,
+          "base": 1,
+          "config": 1,
+          "routing_header": 1,
+          "method": 1,
+          "grpc_helpers": 1,
+          "grpc_gcp": 1,
+          "json_format": 1,
+          "polling": 1,
+          "protobuf_helpers": 1,
+          "code_pb2": 1,
+          "OperationsClient": 1,
+          "operations_client_config": 1,
+          "gapic_v1": 1,
+          "page_iterator": 1,
+          "field_mask_pb2": 1,
+          "inspect": 1,
+          "message": 1,
+          "wrappers_pb2": 1,
+          "nox": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 8,
+        "packages": {
+          "fs": 2,
+          "path": 2,
+          "comment-json": 1,
+          "3d-bin-packing": 1,
+          "samchon": 1,
+          "ably": 1,
+          "abs": 1,
+          "absolute": 1,
+          "accepts": 1,
+          "mime-types": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "calvin/bleach",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "calvin/bomengine-android",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "calvin/bomengine-ios",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "calvin/decitectural",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "calvin/DefinitelyTyped",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "calvin/django",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "calvin/django-anymail",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "calvin/django-mailjet",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "calvin/django-oauth-toolkit",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "calvin/django-taggit",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "calvin/Flexget",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "calvin/galkwi",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "calvin/google-cloud-python",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

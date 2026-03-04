@@ -1,0 +1,570 @@
+{
+  "username": "siannopollo",
+  "areas": {
+    "OSS": {
+      "score": 0.6456876456876457,
+      "details": {
+        "issue_resolution_rate": 0.9230769230769231,
+        "pr_merge_rate": 0.5454545454545454,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "siannopollo/ruby-blue-atom": 0.8966
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6107808857808857,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        34781,
+        145
+      ],
+      "CoffeeScript": [
+        134,
+        3
+      ],
+      "CSS": [
+        4194,
+        63
+      ],
+      "JavaScript": [
+        20693,
+        62
+      ],
+      "HTML": [
+        488,
+        2
+      ],
+      "Emacs Lisp": [
+        0,
+        0
+      ],
+      "Shell": [
+        285,
+        3
+      ],
+      "Objective-C": [
+        30577,
+        36
+      ],
+      "C": [
+        852,
+        0
+      ],
+      "AppleScript": [
+        119,
+        1
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 315,
+    "total_lines": 92123,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 34781,
+        "commits": 145
+      },
+      {
+        "language": "CSS",
+        "lines": 4194,
+        "commits": 63
+      },
+      {
+        "language": "JavaScript",
+        "lines": 20693,
+        "commits": 62
+      },
+      {
+        "language": "Objective-C",
+        "lines": 30577,
+        "commits": 36
+      },
+      {
+        "language": "CoffeeScript",
+        "lines": 134,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "siannopollo",
+    "analysis_date": "2026-02-24T01:41:59.869681",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 309,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 9,
+        "packages": {
+          "<Foundation/Foundation.h>": 6,
+          "<SenTestingKit/SenTestingKit.h>": 2,
+          "NSString+Ruby.h": 1,
+          "GoogleChartAxis.h": 1,
+          "GoogleChartLegend.h": 1,
+          "<UIKit/UIKit.h>": 1,
+          "GTMSenTestCase.h": 1,
+          "<TargetConditionals.h>": 1,
+          "TargetConditionals.h": 1,
+          "GTMDefines.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "fs": 3,
+          "crypto": 3,
+          "function": 2,
+          "path": 2,
+          "all": 1,
+          "http": 1,
+          "net": 1,
+          "ws": 1,
+          "https": 1,
+          "__growWasmMemory": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 11,
+        "packages": {
+          "UIKit/UIKit.h": 3,
+          "<UIKit/UIKit.h>": 3,
+          "GoogleChartAxis.h": 2,
+          "GoogleChart.h": 2,
+          "GoogleChartLegend.h": 2,
+          "GTMSenTestCase.h": 2,
+          "GTMDefines.h": 2,
+          "NSString+Ruby.h": 1,
+          "NSString_RubyTests.h": 1,
+          "objective_chartsAppDelegate.h": 1,
+          "GoogleChartTest.h": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "<objc/runtime.h>": 1,
+          "objc/runtime.h": 1,
+          "GTMIPhoneUnitTestDelegate.h": 1,
+          "<stdarg.h>": 1,
+          "stdarg.h": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 151,
+        "packages": {
+          "Lob": 28,
+          "despamilator/filter_base": 13,
+          "uri": 10,
+          "rubygems": 9,
+          "yaml": 9,
+          "cgi": 8,
+          "pathname": 6,
+          "fileutils": 6,
+          "spec_helper": 6,
+          "openssl": 5,
+          "strscan": 5,
+          "digest/md5": 4,
+          "capistrano/errors": 4,
+          "active_support": 3,
+          "ftools": 3,
+          "ActiveMerchant::Shipping": 3,
+          "test/unit": 3,
+          "spec": 3,
+          "pp": 3,
+          "test_helper": 3,
+          "haml/engine": 3,
+          "Haml::Util": 3,
+          "sass/script/literal": 3,
+          "active_shipping": 2,
+          "net/https": 2,
+          "RequiresParameters": 2,
+          "Quantified": 2,
+          "mocha": 2,
+          "AmazonProducts::Retrieval": 2,
+          "haml": 2,
+          "rexml/document": 2,
+          "capistrano/configuration": 2,
+          "optparse": 2,
+          "Enumerable": 2,
+          "benchmark": 2,
+          "enumerator": 2,
+          "the": 2,
+          "erb": 2,
+          "carmen/querying": 2,
+          "carmen/region": 2,
+          "carmen": 2,
+          "carmen/action_view_helpers": 2,
+          "exception_notifier_helper": 2,
+          "ipaddr": 2,
+          "timeout": 2,
+          "base64": 2,
+          "haml/util": 2,
+          "Haml::Helpers": 2,
+          "haml/helpers/action_view_mods": 2,
+          "haml/shared": 2,
+          "sass/engine": 2,
+          "sass/tree/node": 2,
+          "init": 2,
+          "models/address_editable": 2,
+          "api/addresses_api": 2,
+          "models/address": 2,
+          "active_shipping/shipping/rate_estimate": 1,
+          "active_shipping/lib/requires_parameters": 1,
+          "active_shipping/shipping/location": 1,
+          "activesupport": 1,
+          "vendor/quantified/lib/quantified": 1,
+          "active_shipping/lib/error": 1,
+          "active_shipping/lib/posts_data": 1,
+          "active_shipping/shipping/tracking_response": 1,
+          "active_shipping/shipping/rate_response": 1,
+          "active_shipping/shipping/carriers": 1,
+          "quantified/mass": 1,
+          "active_shipping/shipping/shipment_event": 1,
+          "active_shipping/lib/country": 1,
+          "quantified/length": 1,
+          "active_shipping/shipping/response": 1,
+          "vendor/xml_node/lib/xml_node": 1,
+          "active_shipping/shipping/carrier": 1,
+          "active_shipping/shipping/base": 1,
+          "active_shipping/shipping/package": 1,
+          "PostsData": 1,
+          "active_shipping/shipping/carriers/fedex": 1,
+          "active_shipping/shipping/carriers/bogus_carrier": 1,
+          "active_shipping/shipping/carriers/shipwire": 1,
+          "active_shipping/shipping/carriers/ups": 1,
+          "active_shipping/shipping/carriers/usps": 1,
+          "builder": 1,
+          "ruby-debug": 1,
+          "ajaxful_rating": 1,
+          "ajaxful_rating_model": 1,
+          "ajaxful_rating_helper": 1,
+          "AjaxfulRating::Helper": 1,
+          "a": 1,
+          "AjaxfulRating::InstanceMethods": 1,
+          "AjaxfulRating": 1,
+          "amazon_products": 1,
+          "amazon/aws": 1,
+          "amazon/aws/search": 1,
+          "Amazon::AWS": 1,
+          "Amazon::AWS::Search": 1,
+          "amazon_products/search": 1,
+          "amazon_products/lookup": 1,
+          "amazon_products/product": 1,
+          "f": 1,
+          "rubypants": 1,
+          "capistrano/extensions": 1,
+          "capistrano/fix_rake_deprecated_dsl": 1,
+          "capistrano/ext/string": 1,
+          "capistrano": 1,
+          "capistrano/cli/execute": 1,
+          "capistrano/cli/options": 1,
+          "capistrano/cli/help": 1,
+          "Execute": 1,
+          "capistrano/cli/ui": 1,
+          "Help": 1,
+          "capistrano/version": 1,
+          "highline": 1,
+          "capistrano/processable": 1,
+          "Processable": 1,
+          "capistrano/configuration/roles": 1,
+          "capistrano/configuration/namespaces": 1,
+          "defer": 1,
+          "capistrano/configuration/actions/invocation": 1,
+          "capistrano/configuration/loading": 1,
+          "capistrano/configuration/connections": 1,
+          "capistrano/configuration/alias_task": 1,
+          "Actions::FileTransfer": 1,
+          "capistrano/configuration/variables": 1,
+          "capistrano/configuration/callbacks": 1,
+          "capistrano/configuration/servers": 1,
+          "capistrano/configuration/actions/file_transfer": 1,
+          "AliasTask": 1,
+          "capistrano/configuration/actions/inspect": 1,
+          "Callbacks": 1,
+          "capistrano/configuration/execution": 1,
+          "capistrano/logger": 1,
+          "capistrano/transfer": 1,
+          "capistrano/command": 1,
+          "capistrano/callback": 1,
+          "capistrano/ssh": 1,
+          "net/ssh/gateway": 1,
+          "Capistrano::Configuration::AliasTask": 1,
+          "Capistrano::Configuration::Namespaces": 1,
+          "capistrano/task_definition": 1,
+          "capistrano/role": 1,
+          "capistrano/server_definition": 1,
+          "thread": 1,
+          ":[]=": 1,
+          "capistrano/recipes/deploy/scm": 1,
+          "capistrano/recipes/deploy/strategy": 1,
+          "carmen/i18n": 1,
+          "carmen/country": 1,
+          "carmen/world": 1,
+          "forwardable": 1,
+          "rails": 1,
+          "carmen/region_collection": 1,
+          "Querying": 1,
+          "singleton": 1,
+          "Singleton": 1,
+          "carmen/railtie": 1,
+          "nokogiri": 1,
+          "minitest/autorun": 1,
+          "minitest/spec": 1,
+          "action_view/test_case": 1,
+          "action_view": 1,
+          "action_controller": 1,
+          "ActionView::Helpers::FormOptionsHelper": 1,
+          "despamilator/filter": 1,
+          "filter_file": 1,
+          "zlib": 1,
+          "action_mailer": 1,
+          "exception_notifier": 1,
+          "exception_notifiable": 1,
+          "ExceptionNotifierHelper": 1,
+          "geokit/geocoders": 1,
+          "geokit/mappable": 1,
+          "geokit/polygon": 1,
+          "geokit/geo_loc": 1,
+          "geokit/lat_lng": 1,
+          "geokit/bounds": 1,
+          "geokit/core_ext": 1,
+          "logger": 1,
+          "geokit/net_adapter/net_http": 1,
+          "geokit/net_adapter/typhoeus": 1,
+          "geocoders/base_ip": 1,
+          "net/http": 1,
+          "multi_geocoder": 1,
+          "json": 1,
+          "inflectors": 1,
+          "Mappable": 1,
+          "lib": 1,
+          "haml/precompiler": 1,
+          "haml/buffer": 1,
+          "Precompiler": 1,
+          "haml/filters": 1,
+          "haml/error": 1,
+          "haml/helpers": 1,
+          "haml/html": 1,
+          "sass/repl": 1,
+          "sass": 1,
+          "sass/css": 1,
+          "stringio": 1,
+          "Haml::Filters::Base": 1,
+          "Base": 1,
+          "@required": 1,
+          "haml/helpers/action_view_extensions": 1,
+          "ActionViewExtensions": 1,
+          "hpricot": 1,
+          "<!--#{conditional}": 1,
+          "haml/template/plugin": 1,
+          "haml/template/patch": 1,
+          "ActionView::TemplateHandlers::Compilable": 1,
+          "set": 1,
+          "sass/plugin": 1,
+          "sass/tree/if_node": 1,
+          "sass/tree/while_node": 1,
+          "sass/script": 1,
+          "sass/tree/mixin_def_node": 1,
+          "sass/tree/file_node": 1,
+          "sass/tree/comment_node": 1,
+          "MIXIN_DEFINITION_CHAR": 1,
+          "sass/tree/for_node": 1,
+          "sass/error": 1,
+          "sass/tree/directive_node": 1,
+          "sass/tree/variable_node": 1,
+          "sass/tree/attr_node": 1,
+          "sass/environment": 1,
+          "sass/tree/mixin_node": 1,
+          "sass/tree/rule_node": 1,
+          "sass/tree/debug_node": 1,
+          "sass/plugin/rails": 1,
+          "sass/plugin/merb": 1,
+          "readline": 1,
+          "sass/script/funcall": 1,
+          "sass/script/variable": 1,
+          "sass/script/operation": 1,
+          "sass/script/parser": 1,
+          "joshua_son_of_nun/board": 1,
+          "joshua_son_of_nun/strategy/base": 1,
+          "joshua_son_of_nun/space": 1,
+          "joshua_son_of_nun/strategy/random": 1,
+          "joshua_son_of_nun/strategy/diagonal": 1,
+          "joshua_son_of_nun/ship": 1,
+          "joshua_son_of_nun/player": 1,
+          "joshua_son_of_nun/strategy/targeting_reaction": 1,
+          "joshua_son_of_nun/strategy/knight": 1,
+          "models/bank_account_writable": 1,
+          "models/bank_account": 1,
+          "api/bank_accounts_api": 1,
+          "models/billing_group_editable": 1,
+          "api/billing_groups_api": 1,
+          "models/billing_group": 1,
+          "lob": 1,
+          "OpenSSL": 1,
+          "getoptlong": 1,
+          "MonitorMixin": 1,
+          "socket": 1,
+          "monitor": 1,
+          "SSL": 1,
+          "mail": 1,
+          "size": 1,
+          "net/protocol": 1,
+          "all": 1,
+          "each": 1,
+          "delete!": 1,
+          "active?": 1,
+          "uidl": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "siannopollo/active_shipping",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/ajaxful-rating",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/amazon_products",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/blog",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/capistrano",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/carmen",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/CryptoNoter",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "siannopollo/despamilator",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/exception_notification",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/geokit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/haml",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/joshua_son_of_nun",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/lob-ruby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/mail_fetcher",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "siannopollo/NSString-Ruby",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "siannopollo/objective_charts",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      }
+    ]
+  }
+}

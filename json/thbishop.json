@@ -1,0 +1,863 @@
+{
+  "username": "thbishop",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.8108108108108109,
+        "pr_merge_rate": 1.3,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4871794871794872,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.23076923076923078
+      }
+    },
+    "Sentiment": {
+      "score": 0.6,
+      "details": {
+        "thbishop/chef": -0.0062,
+        "thbishop/fission": 0.4519933333333333,
+        "thbishop/github-commit-status": -0.37565,
+        "thbishop/knife-solo_data_bag": 0.26747000000000004,
+        "thbishop/mmfa": 0.16075
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7217948717948718,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        200245,
+        131
+      ],
+      "Shell": [
+        120143,
+        152
+      ],
+      "Makefile": [
+        13553,
+        9
+      ],
+      "Ruby": [
+        169467,
+        458
+      ],
+      "JavaScript": [
+        241659,
+        17
+      ],
+      "Lua": [
+        93522,
+        203
+      ],
+      "Erlang": [
+        1044,
+        31
+      ],
+      "HTML": [
+        490,
+        11
+      ],
+      "CSS": [
+        269,
+        3
+      ],
+      "CoffeeScript": [
+        23,
+        0
+      ],
+      "Scala": [
+        74395,
+        2
+      ],
+      "Prolog": [
+        143,
+        1
+      ],
+      "Perl": [
+        13,
+        0
+      ],
+      "Python": [
+        415245,
+        0
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 1018,
+    "total_lines": 1330211,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 169467,
+        "commits": 458
+      },
+      {
+        "language": "Lua",
+        "lines": 93522,
+        "commits": 203
+      },
+      {
+        "language": "Shell",
+        "lines": 120143,
+        "commits": 152
+      },
+      {
+        "language": "Go",
+        "lines": 200245,
+        "commits": 131
+      },
+      {
+        "language": "Erlang",
+        "lines": 1044,
+        "commits": 31
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "thbishop",
+    "analysis_date": "2026-02-22T06:16:42.571710",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 365,
+    "languages": {
+      "Erlang": {
+        "files_scanned": 1,
+        "packages": {
+          "etest/include/etest.hrl": 1,
+          "etest_http/include/etest_http.hrl": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 58,
+        "packages": {
+          "fmt": 40,
+          "strings": 20,
+          "testing": 19,
+          "os": 14,
+          "reflect": 13,
+          "context": 12,
+          "errors": 11,
+          "io": 10,
+          "github.com/spf13/cobra": 9,
+          "net/http": 9,
+          "bytes": 8,
+          "github.com/cello-proj/cello/cli/internal/api": 7,
+          "sort": 6,
+          "encoding/json": 6,
+          "github.com/stretchr/testify/assert": 6,
+          "github.com/cello-proj/cello/internal/types": 6,
+          "path/filepath": 5,
+          "time": 5,
+          "io/ioutil": 4,
+          "runtime": 4,
+          "unicode/utf8": 4,
+          "strconv": 4,
+          "github.com/cello-proj/cello/internal/requests": 4,
+          "github.com/cello-proj/cello/internal/responses": 4,
+          "net/http/httptest": 4,
+          "github.com/cello-proj/cello/internal/validations": 4,
+          "path": 3,
+          "bufio": 3,
+          "github.com/cello-proj/cello/service/internal/env": 3,
+          "os/exec": 2,
+          "unsafe": 2,
+          "--verbose": 2,
+          "required": 2,
+          "The": 2,
+          "execute": 2,
+          "execute_container_image_uri": 2,
+          "regexp": 2,
+          "gopkg.in/yaml.v2": 2,
+          "github.com/gorilla/mux": 2,
+          "github.com/cello-proj/cello/service/internal/credentials": 2,
+          "github.com/go-kit/log": 2,
+          "github.com/cello-proj/cello/service/internal/db": 2,
+          "github.com/cello-proj/cello/service/internal/workflow": 2,
+          "role_id": 2,
+          "role_arns": 2,
+          "policy_document": 2,
+          "policy_arns": 2,
+          "secret_id_accessor": 2,
+          "secret_id": 2,
+          "credential_type": 2,
+          "block-device-mapping": 2,
+          "root": 2,
+          "meta-data": 2,
+          "user-data": 2,
+          "ami-id": 2,
+          "--debug": 1,
+          "--version": 1,
+          "hello": 1,
+          "rm": 1,
+          "add-multi": 1,
+          "add": 1,
+          "--required": 1,
+          "rename": 1,
+          "0": 1,
+          "3": 1,
+          "1.2": 1,
+          "-3.4": 1,
+          "-2": 1,
+          "true": 1,
+          "-2]": 1,
+          "1": 1,
+          "2": 1,
+          "1088": 1,
+          "false": 1,
+          "5.2": 1,
+          "1h2m4s": 1,
+          "5": 1,
+          "[-3": 1,
+          "4": 1,
+          "-16bf": 1,
+          "-1": 1,
+          "{-2:4.5}": 1,
+          "string": 1,
+          "-n": 1,
+          "--offset=5": 1,
+          "10": 1,
+          "-p": 1,
+          "-s": 1,
+          "remaining2": 1,
+          "remaining1": 1,
+          "--filename": 1,
+          "--intmap": 1,
+          "--ptrslice": 1,
+          "-vv": 1,
+          "id": 1,
+          "Add": 1,
+          "github.com/thbishop/aws-creds/Godeps/_workspace/src/github.com/jessevdk/go-flags": 1,
+          "Remove": 1,
+          "short": 1,
+          "not": 1,
+          "-v": 1,
+          "--testing": 1,
+          "for": 1,
+          "%s:%d:": 1,
+          "from": 1,
+          "github.com/cello-proj/cello/cli/internal/helpers": 1,
+          "crypto/tls": 1,
+          "7fa96067f580a20c3908f5b872377181091ffaec": 1,
+          "project1": 1,
+          "AWS_REGION": 1,
+          "line": 1,
+          "target1": 1,
+          "CODE_URI": 1,
+          "VAULT_ADDR": 1,
+          "github.com/cello-proj/cello/cli/cmd": 1,
+          "other": 1,
+          "FOO": 1,
+          "init": 1,
+          "pre_container_image_uri": 1,
+          "arn:aws:iam::012345678901:policy/test-policy-3": 1,
+          "arn:aws:iam::012345678901:policy/test-policy-5": 1,
+          "arn:aws:iam::012345678901:policy/test-policy-2": 1,
+          "not-an-arn": 1,
+          "arn:aws:iam::012345678901:policy/test-policy-1": 1,
+          "arn:aws:iam::012345678901:policy/test-policy-6": 1,
+          "arn:aws:iam::012345678901:policy/test-policy-4": 1,
+          "github.com/distribution/distribution/reference": 1,
+          "alphanumunderscore": 1,
+          "github.com/asaskevich/govalidator": 1,
+          "github.com/aws/aws-sdk-go/aws/arn": 1,
+          "text/template": 1,
+          "github.com/cello-proj/cello/service/internal/git": 1,
+          "github.com/go-kit/log/level": 1,
+          "token_max_ttl": 1,
+          "force": 1,
+          "token_policies": 1,
+          "secret_id_ttl": 1,
+          "token_no_default_policy": 1,
+          "token_num_uses": 1,
+          "github.com/google/go-cmp/cmp": 1,
+          "creation_time": 1,
+          "keys": 1,
+          "expiration_time": 1,
+          "github.com/upper/db/v4": 1,
+          "github.com/upper/db/v4/adapter/postgresql": 1,
+          "0=foo_key": 1,
+          "public-keys": 1,
+          "openssh-key": 1,
+          "ami": 1,
+          "ephemeral0": 1,
+          "hostname": 1,
+          "ephemeral1": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 13,
+        "packages": {
+          "user.core": 2,
+          "user.lazy": 2,
+          "user.lsp": 1,
+          "user.core.keymaps": 1,
+          "user.core.keymap_utils": 1,
+          "user.core.functions": 1,
+          "user.core.options": 1,
+          "lazy": 1,
+          "lazydev": 1,
+          "luasnip.loaders.from_vscode": 1,
+          "diffview": 1,
+          "dressing": 1,
+          "conform": 1,
+          "neogit": 1,
+          "telescope": 1,
+          "nvim-treesitter.configs": 1,
+          "nvim-treesitter.install": 1,
+          "which-key": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 26,
+        "packages": {
+          "awscli": 21,
+          "botocore": 14,
+          "logging": 14,
+          "os": 11,
+          "sys": 10,
+          "six": 7,
+          "CustomArgument": 4,
+          "json": 4,
+          "exceptions": 4,
+          "BasicCommand": 4,
+          "xform_name": 3,
+          "zipfile": 3,
+          "CLICommand": 2,
+          "shlex": 2,
+          "emit_top_level_args_parsed_event": 2,
+          "is_json_value_header": 2,
+          "OrderedDict": 2,
+          "SCALAR_TYPES": 2,
+          "get_paramfile": 2,
+          "find_service_and_method_in_event_name": 2,
+          "write_exception": 2,
+          "urlparse": 2,
+          "copy": 2,
+          "utils": 2,
+          "contextlib": 2,
+          "yaml_dump": 2,
+          "Config": 2,
+          "S3Uploader": 2,
+          "time": 2,
+          "main": 1,
+          "raw_config_parse": 1,
+          "compat_shell_quote": 1,
+          "subprocess": 1,
+          "get_close_matches": 1,
+          "difflib": 1,
+          "argparse": 1,
+          "shorthand": 1,
+          "PARAMFILE_DISABLED": 1,
+          "unpack_cli_arg": 1,
+          "model": 1,
+          "SchemaTransformer": 1,
+          "first_non_none_response": 1,
+          "TopicTagDB": 1,
+          "ParamShorthandDocGen": 1,
+          "StringShape": 1,
+          "DOC_EVENTS": 1,
+          "OperationHelpCommand": 1,
+          "load_plugins": 1,
+          "UnknownArgumentError": 1,
+          "ArgTableArgParser": 1,
+          "USAGE": 1,
+          "unpack_argument": 1,
+          "signal": 1,
+          "get_formatter": 1,
+          "copy_kwargs": 1,
+          "CLIArgument": 1,
+          "required": 1,
+          "__version__": 1,
+          "ProviderHelpCommand": 1,
+          "BooleanArgument": 1,
+          "ListArgument": 1,
+          "NoRegionError": 1,
+          "MainArgParser": 1,
+          "ServiceHelpCommand": 1,
+          "import": 1,
+          "get_stderr_text_writer": 1,
+          "EnvironmentVariables": 1,
+          "ServiceArgParser": 1,
+          "get_global_history_recorder": 1,
+          "HierarchicalEmitter": 1,
+          "NoCredentialsError": 1,
+          "sqlite3": 1,
+          "urllib": 1,
+          "codecs": 1,
+          "locale": 1,
+          "msvcrt": 1,
+          "io": 1,
+          "urllib2": 1,
+          "platform": 1,
+          "URLError": 1,
+          "zlib": 1,
+          "from": 1,
+          "a": 1,
+          "jmespath": 1,
+          "ProfileNotFound": 1,
+          "JSONFileCache": 1,
+          "closing": 1,
+          "OverrideRequiredArgsArgument": 1,
+          "ParamError": 1,
+          "DeployCommand": 1,
+          "PackageCommand": 1,
+          "uuid": 1,
+          "tempfile": 1,
+          "contextmanager": 1,
+          "shutil": 1,
+          "yaml_parse": 1,
+          "Deployer": 1,
+          "previous": 1,
+          "get_stdout_text_writer": 1,
+          "datetime": 1,
+          "mktempfile": 1,
+          "collections": 1,
+          "Template": 1,
+          "ScalarNode": 1,
+          "yaml": 1,
+          "random": 1,
+          "validate_mutually_exclusive_handler": 1,
+          "CloudFrontSigner": 1,
+          "parse_to_aware_datetime": 1,
+          "rsa": 1,
+          "FlattenArguments": 1,
+          "s3_bucket_exists": 1,
+          "ClientError": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 90,
+        "packages": {
+          "chef": 11,
+          "Chef::Mixin::Checksum": 10,
+          "fileutils": 5,
+          "test/test_helper": 5,
+          "rubygems": 4,
+          "yajl": 4,
+          "optparse": 4,
+          "Configurable": 4,
+          "helper": 3,
+          "chef/cookbook_loader": 3,
+          "chef/api_client": 3,
+          "chef/data_bag": 3,
+          "chef/sandbox": 3,
+          "emeril/git_tagger": 3,
+          "emeril/publisher": 3,
+          "emeril/category": 3,
+          "emeril/metadata_chopper": 3,
+          "chef/knife": 3,
+          "fluent/env": 3,
+          "socket": 3,
+          "Merb::TarballHelper": 2,
+          "chef/data_bag_item": 2,
+          "chef/role": 2,
+          "chef/checksum": 2,
+          "Chef::Mixin::FindPreferredFile": 2,
+          "redis::_server_service": 2,
+          "redis::_server_config": 2,
+          "redis::_user": 2,
+          "redis::_group": 2,
+          "test/model_tests_helper": 2,
+          "File.join": 2,
+          "emeril/releaser": 2,
+          "json": 2,
+          "Logging": 2,
+          "emeril/logging": 2,
+          "tmpdir": 2,
+          "emeril": 2,
+          "fission/command_helpers": 2,
+          "MonitorMixin": 2,
+          "thread": 2,
+          "msgpack": 2,
+          "monitor": 2,
+          "drb/drb": 2,
+          "fluent/version": 2,
+          "fluent/log": 2,
+          "Enumerable": 2,
+          "uri": 2,
+          "Singleton": 2,
+          "singleton": 2,
+          "boom/core_ext/symbol": 1,
+          "boom/command": 1,
+          "boom/item": 1,
+          "boom/storage": 1,
+          "boom/list": 1,
+          "boom/clipboard": 1,
+          "redgreen": 1,
+          "test/unit": 1,
+          "mocha": 1,
+          "boom": 1,
+          "faye": 1,
+          "chef/mixin/checksum": 1,
+          "mixlib/authentication/signatureverification": 1,
+          "chef/cookbook/metadata": 1,
+          "its": 1,
+          "chef/solr/query": 1,
+          "chef/cache/checksum": 1,
+          "chef/exceptions": 1,
+          "bunny": 1,
+          "merb-param-protection": 1,
+          "uuidtools": 1,
+          "openssl": 1,
+          "chef/cookbook_version": 1,
+          "merb-helpers": 1,
+          "chef/webui_user": 1,
+          "mixlib/authentication": 1,
+          "merb-assets": 1,
+          "ohai": 1,
+          "chef/certificate": 1,
+          "Rack::ContentLength": 1,
+          "models/sandbox_file": 1,
+          "MiniTest::Chef::Assertions": 1,
+          "chef/mixin/shell_out": 1,
+          "Chef::Mixin::ShellOut": 1,
+          "MiniTest::Chef::Context": 1,
+          "MiniTest::Chef::Resources": 1,
+          "yum::epel": 1,
+          "build-essential": 1,
+          "runit": 1,
+          "redis::server": 1,
+          "redis::server_source": 1,
+          "redis::server_package": 1,
+          "redis::_server_install_from_package": 1,
+          "redis::_server_init": 1,
+          "redis::_server_runit": 1,
+          "redis::_server_install_from_source": 1,
+          "rails/all": 1,
+          "bundler": 1,
+          "Active": 1,
+          "Devise::Controllers::InternalHelpers": 1,
+          "devise_invitable/schema": 1,
+          "devise_invitable/controllers/helpers": 1,
+          "devise_invitable/controllers/url_helpers": 1,
+          "devise_invitable/rails": 1,
+          "devise_invitable/mailer": 1,
+          "devise": 1,
+          "devise_invitable/routes": 1,
+          "devise/mailer": 1,
+          "rails/generators/active_record": 1,
+          "generators/devise/views_generator": 1,
+          "generators/devise/orm_helpers": 1,
+          "rails/generators": 1,
+          "generators/devise_invitable/devise_invitable_generator": 1,
+          "test/integration_tests_helper": 1,
+          "File.expand_path": 1,
+          "emeril/version": 1,
+          "net/http": 1,
+          "chef/knife/cookbook_site_share": 1,
+          "chef/cookbook_site_streaming_uploader": 1,
+          "chef/cookbook_uploader": 1,
+          "chef/knife/core/ui": 1,
+          "emeril/rake_tasks": 1,
+          "rake/tasklib": 1,
+          "emeril/thor_tasks": 1,
+          "thor": 1,
+          "vcr": 1,
+          "logger": 1,
+          "chef/config": 1,
+          "simplecov": 1,
+          "mocha/setup": 1,
+          "minitest": 1,
+          "fakefs/safe": 1,
+          "minitest/autorun": 1,
+          "fission/command_line_parser": 1,
+          "fission/vm": 1,
+          "fission/action/snapshot/deleter": 1,
+          "fission/action/vm/starter": 1,
+          "fission/core_ext/class": 1,
+          "fission/core_ext/file": 1,
+          "fission/command": 1,
+          "fission/core_ext/object": 1,
+          "fission/action/snapshot/reverter": 1,
+          "fission/config": 1,
+          "fission/version": 1,
+          "fission/fusion": 1,
+          "fission/action/snapshot/creator": 1,
+          "fission/command/clone": 1,
+          "fission/action/shell_executor": 1,
+          "fission/action/snapshot/lister": 1,
+          "fission/lease": 1,
+          "fission/vm_configuration": 1,
+          "fission/action/vm/suspender": 1,
+          "fission/cli": 1,
+          "fission/command/snapshot_revert": 1,
+          "yaml": 1,
+          "fission/command/snapshot_create": 1,
+          "fission/action/vm/stopper": 1,
+          "fission/command/info": 1,
+          "fission/ui": 1,
+          "fission/command/snapshot_list": 1,
+          "fission/metadata": 1,
+          "fission/action/vm/lister": 1,
+          "fission/command/start": 1,
+          "fission/command/status": 1,
+          "fission/action/vm/cloner": 1,
+          "fission/response": 1,
+          "fission/action/vm/deleter": 1,
+          "fission/command/snapshot_delete": 1,
+          "fission/command/delete": 1,
+          "ostruct": 1,
+          "fission/command/suspend": 1,
+          "fission/command/stop": 1,
+          "forwardable": 1,
+          "Fission::CommandHelpers": 1,
+          "queue_limit": 1,
+          "chunk_limit=": 1,
+          "queue_limit=": 1,
+          "chunk_limit": 1,
+          "Fluent": 1,
+          "irb": 1,
+          "fluent/load": 1,
+          "fluent/supervisor": 1,
+          "open-uri": 1,
+          "fluent/mixin": 1,
+          "fluent/input": 1,
+          "fluent/status": 1,
+          "time": 1,
+          "fluent/parser": 1,
+          "fluent/config": 1,
+          "cool.io/eventmachine": 1,
+          "fluent/output": 1,
+          "fluent/buffer": 1,
+          "stringio": 1,
+          "fluent/event": 1,
+          "cool.io": 1,
+          "fluent/match": 1,
+          "fluent/engine": 1,
+          "fluent/plugin": 1,
+          "fluent/process": 1,
+          "INFO": 1,
+          "WARN": 1,
+          "DEBUG": 1,
+          "TRACE": 1,
+          "FATAL": 1,
+          "ERROR": 1,
+          "RecordFilterMixin": 1,
+          "timeout": 1,
+          "csv": 1,
+          "file": 1,
+          "files.sort.last": 1,
+          "files.first": 1,
+          "zlib": 1,
+          "drb/unix": 1,
+          "http/parser": 1,
+          "webrick/httputils": 1,
+          "DetachMultiProcessMixin": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 28,
+        "packages": {
+          "std": 25,
+          "super": 24,
+          "sys_util": 13,
+          "futures": 10,
+          "vmm": 10,
+          "hyper": 10,
+          "logger": 10,
+          "request": 8,
+          "net_util": 7,
+          "memory_model": 7,
+          "serde_json": 6,
+          "self": 4,
+          "rate_limiter": 4,
+          "virtio_sys": 4,
+          "byteorder": 4,
+          "epoll": 4,
+          "mmds": 3,
+          "fc_util": 3,
+          "http_service": 3,
+          "cpu_leaf": 3,
+          "kvm": 3,
+          "kvm_sys": 3,
+          "BusDevice": 3,
+          "libc": 3,
+          "vhost_backend": 3,
+          "dumbo": 2,
+          "net_sys": 2,
+          "vhost_sys": 2,
+          "virtio": 2,
+          "serde": 1,
+          "tokio_uds": 1,
+          "tokio_core": 1,
+          "chrono": 1,
+          "serde_derive": 1,
+          "devices": 1,
+          "kernel": 1,
+          "x86_64": 1,
+          "brand_string": 1,
+          "tempfile": 1,
+          "EpollHandler": 1,
+          "DeviceEventT": 1,
+          "bitflags": 1,
+          "rand": 1,
+          "tcp": 1,
+          "pdu": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "aws-cdk": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "thbishop/aws-cli",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thbishop/aws-creds",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "thbishop/boom",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "thbishop/boundary_streaming_api_client_example",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "thbishop/cello",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "thbishop/chef",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "thbishop/chef-redis",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "thbishop/code-paste",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "thbishop/devise_invitable",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "thbishop/dotfiles",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "thbishop/ec2_metadata_dump",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "thbishop/ec2_metadata_mock-erlang",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Erlang"
+        ]
+      },
+      {
+        "repository": "thbishop/ec2_metadata_mock-go",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "thbishop/email_address_validator",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "thbishop/emeril",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "thbishop/firecracker",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "thbishop/fission",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "thbishop/fluentd",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

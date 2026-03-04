@@ -1,0 +1,532 @@
+{
+  "username": "mpfilbin",
+  "areas": {
+    "OSS": {
+      "score": 0.7311827956989247,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.096774193548387,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.37053778355675737,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9981143676428283,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "mpfilbin/azimuthjs": 0.8981666666666667,
+        "mpfilbin/Chronos": 0.17715,
+        "mpfilbin/git-mcp": 0.17960666666666664,
+        "mpfilbin/obsidian-countdown": 0.28552727272727274,
+        "mpfilbin/obsidian-vault-manager": 0.03480666666666667,
+        "mpfilbin/personal-site": 0.1459421052631579
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5754301448139205,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        1339,
+        3
+      ],
+      "Ruby": [
+        8035,
+        62
+      ],
+      "Shell": [
+        5715,
+        0
+      ],
+      "PHP": [
+        125020,
+        14
+      ],
+      "Perl": [
+        3618,
+        0
+      ],
+      "Racket": [
+        1778,
+        0
+      ],
+      "C#": [
+        5164,
+        0
+      ],
+      "JavaScript": [
+        144782,
+        62
+      ],
+      "CSS": [
+        6129,
+        0
+      ],
+      "Python": [
+        37478,
+        5
+      ],
+      "Go": [
+        6219,
+        11
+      ],
+      "CoffeeScript": [
+        2,
+        0
+      ],
+      "HTML": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        67429,
+        21
+      ],
+      "Makefile": [
+        285,
+        0
+      ],
+      "Dockerfile": [
+        37,
+        3
+      ],
+      "Gherkin": [
+        267,
+        0
+      ],
+      "MDX": [
+        4561,
+        1
+      ],
+      "SCSS": [
+        1933,
+        0
+      ],
+      "Vue": [
+        8507,
+        1
+      ],
+      "PowerShell": [
+        11817,
+        1
+      ],
+      "ASP": [
+        10,
+        0
+      ]
+    },
+    "language_count": 22,
+    "total_commits": 184,
+    "total_lines": 440125,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 8035,
+        "commits": 62
+      },
+      {
+        "language": "JavaScript",
+        "lines": 144782,
+        "commits": 62
+      },
+      {
+        "language": "TypeScript",
+        "lines": 67429,
+        "commits": 21
+      },
+      {
+        "language": "PHP",
+        "lines": 125020,
+        "commits": 14
+      },
+      {
+        "language": "Go",
+        "lines": 6219,
+        "commits": 11
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mpfilbin",
+    "analysis_date": "2026-02-23T02:10:41.389558",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 289,
+    "languages": {
+      "C#": {
+        "files_scanned": 4,
+        "packages": {
+          "System.Runtime.InteropServices": 2,
+          "System.Runtime.CompilerServices": 2,
+          "System.Collections.Generic": 2,
+          "System.Linq": 2,
+          "NUnit.Framework": 1,
+          "System.Text": 1,
+          "System.Threading.Tasks": 1,
+          "System": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 27,
+        "packages": {
+          "fmt": 14,
+          "strings": 13,
+          "os": 11,
+          "commenteer/internal/parser": 6,
+          "github.com/fatih/color": 5,
+          "path/filepath": 4,
+          "time": 4,
+          "encoding/json": 3,
+          "net/http": 3,
+          "github.com/spf13/cobra": 2,
+          "regexp": 2,
+          "testing": 2,
+          "net/url": 2,
+          "net/http/httptest": 2,
+          "sync": 2,
+          "ts": 1,
+          "csharp": 1,
+          "golang": 1,
+          "commenteer/internal/categorizer": 1,
+          "code": 1,
+          "python": 1,
+          "regular": 1,
+          "go": 1,
+          "url": 1,
+          "cs": 1,
+          "typescript": 1,
+          "commenteer/internal/editor": 1,
+          "doc": 1,
+          "commenteer/internal/ui": 1,
+          "todo": 1,
+          "py": 1,
+          "java": 1,
+          "commenteer/internal/scanner": 1,
+          "io": 1,
+          "sort": 1,
+          "go/token": 1,
+          "go/ast": 1,
+          "crypto/sha256": 1,
+          "obj": 1,
+          "__pycache__": 1,
+          "vendor": 1,
+          "dist": 1,
+          "build": 1,
+          "bin": 1,
+          "target": 1,
+          "node_modules": 1,
+          "Skip": 1,
+          "Quit": 1,
+          "Delete": 1,
+          "Keep": 1,
+          "github.com/manifoldco/promptui": 1,
+          "commenteer/cmd": 1,
+          "62+j0x1/W8bCgSgF3YggMtf+AfOqb28xuOXvKvTXBs8iDZDwQci9cGBiNdHvHHyywclJeKIhPWoftStSNJdf5g==": 1,
+          "os/signal": 1,
+          "log": 1,
+          "github.com/mpfilbin/go-password-hasher/password": 1,
+          "strconv": 1,
+          "context": 1,
+          "github.com/mpfilbin/go-password-hasher/persistence": 1,
+          "github.com/mpfilbin/go-password-hasher/http/server": 1,
+          "encoding/base64": 1,
+          "crypto/sha512": 1,
+          "math/rand": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 52,
+        "packages": {
+          "java.util": 24,
+          "adventofcode": 21,
+          "com.filbin": 18,
+          "static": 5,
+          "org.testng": 5,
+          "algo": 4,
+          "algo.dp": 4,
+          "java.math": 2,
+          "org.junit": 2,
+          "java.io": 1,
+          "problems.utils": 1,
+          "junit.framework": 1,
+          "com.example": 1,
+          "org.mozilla": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 39,
+        "packages": {
+          "lodash": 14,
+          "path": 8,
+          "ngModel": 7,
+          "fs": 4,
+          "assert": 2,
+          "util": 2,
+          "tap": 2,
+          "underscore": 2,
+          "request": 2,
+          "bluebird": 2,
+          "vue": 2,
+          "testacular": 1,
+          "?ngModel": 1,
+          "error": 1,
+          "mock-fs": 1,
+          "nock": 1,
+          "socket.io": 1,
+          "dox": 1,
+          "walk": 1,
+          "child_process": 1,
+          "jade": 1,
+          "gravatar": 1,
+          "core-js": 1,
+          "ParsingErr": 1,
+          "ApiError": 1,
+          "ConfigurationError": 1,
+          "BaseError": 1,
+          "hapi": 1,
+          "joi": 1,
+          "webpack": 1,
+          "some-package": 1,
+          "esbuild": 1,
+          "eslint": 1,
+          "eslint-config-prettier": 1,
+          "eslint-plugin-prettier": 1,
+          "typescript-eslint": 1,
+          "jest": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "test_case.php": 1,
+          "unit_tester.php": 1,
+          "socket.php": 1,
+          "mock_objects.php": 1,
+          "invoker.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "inspect": 2,
+          "unittest": 2,
+          "List": 1,
+          "typing": 1,
+          "json": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 40,
+        "packages": {
+          "Conductor::Kernel": 8,
+          "Conductor::Commands": 7,
+          "Conductor::Applications": 4,
+          "Conductor::Parsers": 3,
+          "Conductor::Errors": 3,
+          "base": 3,
+          "minitest/autorun": 2,
+          "conductor/commands/command_factory": 2,
+          "Enumerable": 2,
+          "Conductor::Logging": 2,
+          "open3": 2,
+          "rspec": 2,
+          "json": 1,
+          "ambient-weather-sdk/version": 1,
+          "test_helper": 1,
+          "ambient-weather-sdk/v1/resources/device": 1,
+          "ambient-weather-sdk/v1/resources/reading": 1,
+          "ambient_weather_sdk": 1,
+          "services/v1/api": 1,
+          "Chronos::Time::V1": 1,
+          "grape-entity": 1,
+          "chronic": 1,
+          "Conductor::CLI": 1,
+          "cli": 1,
+          "conductor/parsers/options_parser": 1,
+          "version": 1,
+          "interface": 1,
+          "logger": 1,
+          "optparse": 1,
+          "yaml": 1,
+          "sinatra/base": 1,
+          "sinatra/config_file": 1,
+          "Estimator::Models": 1,
+          "bigdecimal": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 22,
+        "packages": {
+          "ramda": 9,
+          "jest": 6,
+          "koa": 5,
+          "type": 2,
+          "purify-ts": 1,
+          "path": 1,
+          "files": 1,
+          "commit": 1,
+          "branchName": 1,
+          "message": 1,
+          "ref": 1,
+          "branch": 1,
+          "name": 1,
+          "url": 1,
+          "modelcontextprotocol": 1,
+          "simple-git": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mpfilbin/AlgoDS-Java",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "mpfilbin/algorithms-practices",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "mpfilbin/AmbientWeatherRubySDK",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mpfilbin/azimuthjs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mpfilbin/Bottr",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mpfilbin/Chronos",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mpfilbin/code-katas",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "Java",
+          "JavaScript",
+          "PHP",
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mpfilbin/commenteer",
+        "files_analyzed": 22,
+        "languages_found": [
+          "C#",
+          "Go",
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "mpfilbin/conductor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mpfilbin/custom-errors",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mpfilbin/docco-husky",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mpfilbin/drydock",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mpfilbin/Estimator",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mpfilbin/functional-koa",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "mpfilbin/git-mcp",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "mpfilbin/go-password-hasher",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

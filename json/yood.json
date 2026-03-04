@@ -1,0 +1,102 @@
+{
+  "username": "yood",
+  "areas": {
+    "OSS": {
+      "score": 0.08932578582761996,
+      "details": {
+        "issue_resolution_rate": 0.6363636363636364,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.4976250423777936
+      }
+    },
+    "Status": {
+      "score": 0.01123720773904191,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.4976250423777936,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.07514074839166547,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Objective-C": [
+        30,
+        6
+      ],
+      "JavaScript": [
+        29837,
+        2
+      ],
+      "CSS": [
+        9436,
+        0
+      ],
+      "C": [
+        1,
+        0
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 8,
+    "total_lines": 39304,
+    "top_5_languages": [
+      {
+        "language": "Objective-C",
+        "lines": 30,
+        "commits": 6
+      },
+      {
+        "language": "JavaScript",
+        "lines": 29837,
+        "commits": 2
+      },
+      {
+        "language": "CSS",
+        "lines": 9436,
+        "commits": 0
+      },
+      {
+        "language": "C",
+        "lines": 1,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "list index out of range",
+    "username": "yood",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

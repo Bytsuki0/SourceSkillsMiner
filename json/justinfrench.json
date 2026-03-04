@@ -1,0 +1,141 @@
+{
+  "username": "justinfrench",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.8333333333333334,
+        "pr_merge_rate": 2.032258064516129,
+        "commits_activity": 0.8526359799108632
+      }
+    },
+    "Status": {
+      "score": 0.29643029788886865,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8484916006794567,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.42410757447221714,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        3271,
+        63
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 63,
+    "total_lines": 3271,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 3271,
+        "commits": 63
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "justinfrench",
+    "analysis_date": "2026-02-23T01:09:14.445654",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 40,
+    "languages": {
+      "Ruby": {
+        "files_scanned": 19,
+        "packages": {
+          "test_helper": 6,
+          "TestHelper": 6,
+          "rubygems": 4,
+          "test/unit": 2,
+          "active_support": 2,
+          "active_support/test_case": 2,
+          "rails": 2,
+          "day": 1,
+          "month": 1,
+          "year": 1,
+          "active_record_in_date_range_scope_extension": 1,
+          "active_time": 1,
+          "ActiveTimeActiveRecordExtensions": 1,
+          "shoulda": 1,
+          "active_record": 1,
+          "File.join": 1,
+          "hook": 1,
+          "nestive/engine": 1,
+          "Nestive::LayoutHelper": 1,
+          "spec_helper": 1,
+          "bundler/setup": 1,
+          "rspec/rails": 1,
+          "combustion": 1,
+          "active_support/all": 1,
+          "publicious/mime_types": 1,
+          "logger": 1,
+          "publicious/railtie": 1,
+          "rack/test": 1,
+          "action_controller": 1,
+          "Rack::Test::Methods": 1,
+          "publicious": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "justinfrench/activetime",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "justinfrench/lovely-layouts",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "justinfrench/nestive",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "justinfrench/publicious",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

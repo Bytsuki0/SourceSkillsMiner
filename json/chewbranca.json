@@ -1,0 +1,68 @@
+{
+  "username": "chewbranca",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.8181818181818182,
+        "pr_merge_rate": 1.829268292682927,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.6153846153846154,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.4230769230769231
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "chewbranca/backbone-boilerplate": 0.35105,
+        "chewbranca/kore": 0.11468000000000003,
+        "chewbranca/masteringnode": 0.10349999999999998,
+        "chewbranca/pfeed": 0.296
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.8538461538461539,
+  "language_usage": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/chewbranca/altered_beast/stats/contributors (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7e82601b5910>, 'Connection to api.github.com timed out. (connect timeout=None)'))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": "list index out of range",
+    "username": "chewbranca",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

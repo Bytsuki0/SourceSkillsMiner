@@ -1,0 +1,409 @@
+{
+  "username": "HarryGuerrilla",
+  "areas": {
+    "OSS": {
+      "score": 0.5333333333333332,
+      "details": {
+        "issue_resolution_rate": 0.3,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4358974358974359,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.3423076923076923,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        88871,
+        191
+      ],
+      "HTML": [
+        788,
+        6
+      ],
+      "CSS": [
+        389,
+        6
+      ],
+      "Emacs Lisp": [
+        2349793,
+        150
+      ],
+      "Makefile": [
+        12405,
+        0
+      ],
+      "C++": [
+        6663,
+        0
+      ],
+      "Python": [
+        26820,
+        56
+      ],
+      "Shell": [
+        5060,
+        29
+      ],
+      "C": [
+        2106,
+        0
+      ],
+      "Perl": [
+        638,
+        0
+      ],
+      "Fortran": [
+        401,
+        0
+      ],
+      "Java": [
+        7698,
+        54
+      ],
+      "Hack": [
+        214,
+        0
+      ],
+      "Standard ML": [
+        63,
+        0
+      ],
+      "Ruby": [
+        147965,
+        16
+      ],
+      "KiCad Layout": [
+        496,
+        11
+      ],
+      "Lua": [
+        2262,
+        2
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 521,
+    "total_lines": 2652632,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 88871,
+        "commits": 191
+      },
+      {
+        "language": "Emacs Lisp",
+        "lines": 2349793,
+        "commits": 150
+      },
+      {
+        "language": "Python",
+        "lines": 26820,
+        "commits": 56
+      },
+      {
+        "language": "Java",
+        "lines": 7698,
+        "commits": 54
+      },
+      {
+        "language": "Shell",
+        "lines": 5060,
+        "commits": 29
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "HarryGuerrilla",
+    "analysis_date": "2026-02-22T22:12:55.854096",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 138,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "subdir/includeme3.h": 1,
+          "<includeme.notanhfile>": 1,
+          "includeme2.h": 1,
+          "includeme1.h": 1,
+          "<cmath>": 1,
+          "<subdir/includeme3.h>": 1,
+          "includeme.notanhfile": 1,
+          "stdlib.h": 1,
+          "cmath": 1,
+          "<includeme2.h>": 1,
+          "<stdlib.h>": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 7,
+        "packages": {
+          "namespace": 3,
+          "testdoublens.hpp": 2,
+          "<stdio.h>": 1,
+          "<cmath>": 1,
+          "CORBA::LEX::get_token": 1,
+          "namespace1::n_class1": 1,
+          "Test": 1,
+          "Lexer::get_test": 1,
+          "<c++-test.hh>": 1,
+          "c++-test.hh": 1,
+          "stdio.h": 1,
+          "cmath": 1,
+          "Namespace1": 1,
+          "POA::std": 1,
+          "testsubclass.hh": 1,
+          "NS": 1,
+          "std": 1,
+          "somestuff": 1,
+          "<adstdio.h>": 1,
+          "somestuff::OneClass": 1,
+          "bread_name": 1,
+          "adstdio.h": 1,
+          "alias_for_outerinner": 1,
+          "alias_for_somestuff": 1,
+          "something::cantbe::Found": 1,
+          "<testusing.hh>": 1,
+          "testusing.hh": 1,
+          "moose::MyClass": 1,
+          "otherstuff": 1,
+          "togglemoose": 1,
+          "outerinner": 1,
+          "morestuff": 1,
+          "evenmorestuff": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 10,
+        "packages": {
+          "java.util": 8,
+          "javax.swing": 3,
+          "java.awt": 3,
+          "tests.testjavacomp": 1,
+          "java.io": 1,
+          "java.net": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 27,
+        "packages": {
+          "react": 10,
+          "react-redux": 5,
+          "react-bootstrap": 5,
+          "redux": 3,
+          "express": 3,
+          "util": 3,
+          "bonescript": 3,
+          "react-router": 2,
+          "react-dom": 2,
+          "react-router-redux": 2,
+          "async": 2,
+          "classnames": 1,
+          "BeerXML": 1,
+          "firebase": 1,
+          "react-simple-file-input": 1,
+          "SHOW_IMPORT_DIALOG": 1,
+          "CLOSE_IMPORT_DIALOG": 1,
+          "x2js": 1,
+          "redux-mock-store": 1,
+          "enzyme": 1,
+          "SELECT_RECIPE": 1,
+          "ADD_RECIPE": 1,
+          "GET_ALL_RECIPE_NAMES": 1,
+          "js-quantities": 1,
+          "redux-thunk": 1,
+          "body-parser": 1,
+          "express-session": 1,
+          "connect-flash": 1,
+          "stylus": 1,
+          "cookie-parser": 1,
+          "express-validator": 1,
+          "events": 1,
+          "morgan": 1,
+          "static-favicon": 1,
+          "path": 1,
+          "fs": 1,
+          "sqlite3": 1,
+          "redis": 1,
+          "mathjs": 1,
+          "jQuery": 1,
+          "the": 1,
+          "mcp9808": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 2,
+        "packages": {
+          "naughty": 2,
+          "menubar": 2,
+          "awful.autofocus": 2,
+          "awful": 2,
+          "awful.rules": 2,
+          "beautiful": 2,
+          "debian.menu": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 9,
+        "packages": {
+          "os": 6,
+          "sys": 4,
+          "time": 3,
+          "urllib": 2,
+          "getopt": 2,
+          "Image": 2,
+          "json": 2,
+          "re": 1,
+          "pickle": 1,
+          "html": 1,
+          "with_statement": 1,
+          "contextlib": 1,
+          "htmllib": 1,
+          "cPickle": 1,
+          "optparse": 1,
+          "closing": 1,
+          "formatter": 1,
+          "urlparse": 1,
+          "join": 1,
+          "__future__": 1,
+          "pymacs": 1,
+          "Let": 1,
+          "traceback": 1,
+          "signal": 1,
+          "StringIO": 1,
+          "termios": 1,
+          "Set": 1,
+          "sets": 1,
+          "pdb": 1,
+          "__builtin__": 1,
+          "distutils": 1,
+          "setup": 1,
+          "PIL": 1,
+          "datetime": 1,
+          "include": 1,
+          "canvas": 1,
+          "letter": 1,
+          "landscape": 1,
+          "inch": 1,
+          "*": 1,
+          "pdfmetrics": 1,
+          "reportlab": 1,
+          "getSampleStyleSheet": 1,
+          "ImageReader": 1,
+          "requests": 1,
+          "SimpleDocTemplate": 1,
+          "decks": 1,
+          "TTFont": 1,
+          "renderPM": 1,
+          "date": 1,
+          "white": 1,
+          "pandas": 1,
+          "glob": 1,
+          "ImageDraw": 1,
+          "ImageFont": 1,
+          "urllib2": 1,
+          "Adafruit_SSD1306": 1,
+          "Adafruit_GPIO": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 4,
+        "packages": {
+          "PaperclipSupport": 2,
+          "AuthenticationSystem": 1,
+          "mailer": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "HarryGuerrilla/BeerMacher",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "HarryGuerrilla/emacs-starter-kit",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C",
+          "C++",
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "HarryGuerrilla/HOA-community-site-based-on-el-dorado",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "HarryGuerrilla/keyforge_deck_insert",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "HarryGuerrilla/LA-City-College-CSIT-142-",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "HarryGuerrilla/tempcontroller",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "HarryGuerrilla/UbuntuAwesome",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Lua"
+        ]
+      }
+    ]
+  }
+}

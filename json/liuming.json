@@ -1,0 +1,125 @@
+{
+  "username": "liuming",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "liuming/json_logic_elixir": 0.25708484848484847
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.3096153846153846,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        4066,
+        130
+      ],
+      "Shell": [
+        41,
+        0
+      ],
+      "JavaScript": [
+        866,
+        16
+      ],
+      "Elixir": [
+        1515,
+        40
+      ],
+      "Makefile": [
+        140,
+        4
+      ],
+      "HTML": [
+        0,
+        0
+      ],
+      "CSS": [
+        0,
+        0
+      ],
+      "CoffeeScript": [
+        0,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 190,
+    "total_lines": 6628,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 4066,
+        "commits": 130
+      },
+      {
+        "language": "Elixir",
+        "lines": 1515,
+        "commits": 40
+      },
+      {
+        "language": "JavaScript",
+        "lines": 866,
+        "commits": 16
+      },
+      {
+        "language": "Makefile",
+        "lines": 140,
+        "commits": 4
+      },
+      {
+        "language": "Shell",
+        "lines": 41,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/liuming/redis-objects-custom_id/git/trees/master?recursive=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7c3264368110>, 'Connection to api.github.com timed out. (connect timeout=None)'))",
+    "username": "liuming",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

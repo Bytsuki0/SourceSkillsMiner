@@ -1,0 +1,310 @@
+{
+  "username": "tpiekos",
+  "areas": {
+    "OSS": {
+      "score": -0.4174514478071184,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.6666666666666666,
+        "commits_activity": 0.2071561616226558
+      }
+    },
+    "Status": {
+      "score": -0.1824087127643833,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.2071561616226558,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.14996504014287543,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        19,
+        1
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 1,
+    "total_lines": 19,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 19,
+        "commits": 1
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 0,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "tpiekos",
+    "analysis_date": "2026-02-22T15:14:37.398103",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 126,
+    "languages": {
+      "Ruby": {
+        "files_scanned": 86,
+        "packages": {
+          "guard": 10,
+          "guard/config": 8,
+          "guard/ui": 7,
+          "pry": 7,
+          "test_helper": 5,
+          "set": 5,
+          "uri": 4,
+          "guard/interactor": 4,
+          "guard/notifier": 4,
+          "guard/guardfile/evaluator": 4,
+          "thor/group": 3,
+          "ActiveMerchant::Billing::Integrations": 3,
+          "GemHelpers": 3,
+          "MatchPlatform": 3,
+          "ListRenderingStrategy": 3,
+          "capybara": 3,
+          "Thor::Actions": 2,
+          "net/http": 2,
+          "active_support/core_ext/string/inflections": 2,
+          "active_support": 2,
+          "active_merchant/billing/response": 2,
+          "Validateable": 2,
+          "date": 2,
+          "bundler/rubygems_ext": 2,
+          "thor": 2,
+          "rubygems/spec_fetcher": 2,
+          "frosting/presentation": 2,
+          "listen": 2,
+          "guard/dsl_describer": 2,
+          "guard/guardfile/generator": 2,
+          "guard/internals/state": 2,
+          "ostruct": 2,
+          "guard/dsl": 2,
+          "active_support/core_ext": 2,
+          "navigatrix/view_helpers": 2,
+          "navigatrix/rendering/strategies/list": 2,
+          "active_merchant": 1,
+          "active_merchant/billing/integrations/action_view_helper": 1,
+          "securerandom": 1,
+          "cgi": 1,
+          "base64": 1,
+          "active_support/core_ext/class/attribute": 1,
+          "active_support/core_ext/object/conversions": 1,
+          "active_support/core_ext/hash/indifferent_access": 1,
+          "active_support/core_ext/class/delegating_attributes": 1,
+          "active_support/core_ext/module/attribute_accessors": 1,
+          "active_support/base64": 1,
+          "active_utils": 1,
+          "active_merchant/version": 1,
+          "active_support/core_ext/hash/conversions": 1,
+          "rexml/document": 1,
+          "builder": 1,
+          "active_support/core_ext/class/attribute_accessors": 1,
+          "active_merchant/billing": 1,
+          "active_merchant/billing/credit_card_formatting": 1,
+          "active_merchant/billing/base": 1,
+          "active_merchant/billing/check": 1,
+          "active_merchant/billing/gateways": 1,
+          "active_merchant/billing/credit_card": 1,
+          "active_merchant/billing/avs_result": 1,
+          "active_merchant/billing/credit_card_methods": 1,
+          "active_merchant/billing/cvv_result": 1,
+          "CreditCardMethods": 1,
+          "time": 1,
+          "active_merchant/billing/expiry_date": 1,
+          "Utils": 1,
+          "net/https": 1,
+          "RequiresParameters": 1,
+          "CreditCardFormatting": 1,
+          "PostsData": 1,
+          "json": 1,
+          "rbconfig": 1,
+          "fileutils": 1,
+          "bundler/version": 1,
+          "bundler/rubygems_integration": 1,
+          "pathname": 1,
+          "bundler/gem_path_manipulation": 1,
+          "bundler/deployment": 1,
+          "irb": 1,
+          "rubygems/user_interaction": 1,
+          "bundler/similarity_detector": 1,
+          "bundler/vendored_thor": 1,
+          "rubygems/config_file": 1,
+          "digest/sha1": 1,
+          "eql?": 1,
+          "rubygems/dependency": 1,
+          "bundler/shared_helpers": 1,
+          "RubyDsl": 1,
+          "bundler/dependency": 1,
+          "openssl": 1,
+          "bundler/vendored_persistent": 1,
+          "Rake::DSL": 1,
+          "bundler": 1,
+          "rubygems/installer": 1,
+          "bundler/gem_helper": 1,
+          "graphviz": 1,
+          "Enumerable": 1,
+          "[]": 1,
+          "erb": 1,
+          "rubygems/dependency_installer": 1,
+          "strscan": 1,
+          "bundler/gem_helpers": 1,
+          "yaml": 1,
+          "psych": 1,
+          "frosting/version": 1,
+          "frosting/integration/rails": 1,
+          "frosting/base_presenter": 1,
+          "Presentation": 1,
+          ":view_context": 1,
+          ":h": 1,
+          "delegate": 1,
+          "frosting/repository": 1,
+          "Frosting::Presentation": 1,
+          "aruba/cucumber": 1,
+          "aruba/in_process": 1,
+          "aruba/spawn_process": 1,
+          "guard/aruba_adapter": 1,
+          "aruba": 1,
+          "Internals::Helpers": 1,
+          "guard/deprecated/guard": 1,
+          "guard/internals/traps": 1,
+          "guard/internals/debugging": 1,
+          "guard/internals/helpers": 1,
+          "thread": 1,
+          "guard/internals/queue": 1,
+          "guard/cli": 1,
+          "guard/cli/environments/evaluate_only": 1,
+          "guard/version": 1,
+          "guard/cli/environments/valid": 1,
+          "guard/commander": 1,
+          "guard/cli/environments/bundler": 1,
+          "guard/runner": 1,
+          "nenv": 1,
+          "guard/internals/session": 1,
+          "guard/deprecated/dsl": 1,
+          "guard/watcher": 1,
+          "filter": 1,
+          "filter!": 1,
+          "formatador": 1,
+          "guard/deprecated/guardfile": 1,
+          "guard/deprecated/evaluator": 1,
+          "guard/dsl_reader": 1,
+          "guard/plugin": 1,
+          "guard/options": 1,
+          "guard/plugin_util": 1,
+          "guard/jobs/pry_wrapper": 1,
+          "guard/jobs/sleep": 1,
+          "navigatrix/item": 1,
+          "navigatrix/renderer": 1,
+          "navigatrix/integration/sinatra": 1,
+          "navigatrix/item_collection": 1,
+          "navigatrix/integration/rails": 1,
+          "navigatrix/version": 1,
+          "forwardable": 1,
+          "navigatrix/configuration": 1,
+          "navigatrix/rendering/strategies/bootstrap/navbar": 1,
+          "navigatrix/rendering/strategies/bootstrap/tabs": 1,
+          "navigatrix/rendering/context": 1,
+          "ActionView::Helpers::TagHelper": 1,
+          "action_view": 1,
+          "ActionView::Helpers::UrlHelper": 1,
+          "CrudDefinitions": 1,
+          "resourceful_controller/url_definitions": 1,
+          "QueryDefinitions": 1,
+          "resourceful_controller/resource_identification": 1,
+          "resourceful_controller/crud_definitions": 1,
+          "ActiveSupport": 1,
+          "ResourceIdentification": 1,
+          "UrlDefinitions": 1,
+          "resourceful_controller/query_definitions": 1,
+          "default_#{query_method}": 1,
+          "RSpec::Rails::ControllerExampleGroup": 1,
+          "ResourcefulController": 1,
+          "action_controller": 1,
+          "resourceful_controller": 1,
+          "rails": 1,
+          "rspec/rails": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "tpiekos/active_merchant",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tpiekos/bundler",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tpiekos/frosting",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tpiekos/guard",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tpiekos/navigatrix",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tpiekos/Resourceful-Controller",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

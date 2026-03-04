@@ -1,0 +1,438 @@
+{
+  "username": "joeunrue",
+  "areas": {
+    "OSS": {
+      "score": 0.6457054224196255,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.46855813362943827
+      }
+    },
+    "Status": {
+      "score": -0.00814073142652838,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.46855813362943827,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.15939117274827427,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        555,
+        4
+      ],
+      "JavaScript": [
+        2,
+        0
+      ],
+      "Go": [
+        5,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "HTML": [
+        537,
+        1
+      ],
+      "Shell": [
+        21,
+        0
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 5,
+    "total_lines": 1120,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 555,
+        "commits": 4
+      },
+      {
+        "language": "HTML",
+        "lines": 537,
+        "commits": 1
+      },
+      {
+        "language": "JavaScript",
+        "lines": 2,
+        "commits": 0
+      },
+      {
+        "language": "Go",
+        "lines": 5,
+        "commits": 0
+      },
+      {
+        "language": "Makefile",
+        "lines": 0,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "joeunrue",
+    "analysis_date": "2026-02-23T21:13:15.500986",
+    "total_repos_analyzed": 17,
+    "total_files_analyzed": 132,
+    "languages": {
+      "C#": {
+        "files_scanned": 1,
+        "packages": {
+          "StackExchange.Redis": 1,
+          "System.Net": 1,
+          "System.Data.Common": 1,
+          "Newtonsoft.Json": 1,
+          "System": 1,
+          "Npgsql": 1,
+          "System.Net.Sockets": 1,
+          "System.Threading": 1,
+          "System.Linq": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 21,
+        "packages": {
+          "infracost/pkg/resource": 15,
+          "github.com/shopspring/decimal": 13,
+          "fmt": 9,
+          "github.com/tidwall/gjson": 5,
+          "infracost/pkg/config": 4,
+          "infracost/pkg/costs": 3,
+          "os": 3,
+          "encoding/json": 3,
+          "bytes": 3,
+          "github.com/fatih/color": 2,
+          "math": 2,
+          "strconv": 2,
+          "sort": 2,
+          "testing": 2,
+          "github.com/google/go-cmp/cmp": 2,
+          "io/ioutil": 2,
+          "bufio": 2,
+          "strings": 2,
+          "github.com/urfave/cli/v2": 1,
+          "infracost/pkg/output": 1,
+          "infracost/pkg/parsers/terraform": 1,
+          "log": 1,
+          "github.com/kelseyhightower/envconfig": 1,
+          "github.com/joho/godotenv": 1,
+          "github.com/sirupsen/logrus": 1,
+          "net/http": 1,
+          "github.com/olekukonko/tablewriter": 1,
+          "OVERALL": 1,
+          "Total": 1,
+          "os/exec": 1,
+          "regexp": 1,
+          "infracost/internal/terraform/aws": 1,
+          "hour": 1,
+          "month": 1,
+          "github.com/google/go-cmp/cmp/cmpopts": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 1,
+        "packages": {
+          "worker": 1,
+          "redis.clients": 1,
+          "java.sql": 1,
+          "org.json": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "express": 1,
+          "socket.io": 1,
+          "pg": 1,
+          "cookie-parser": 1,
+          "http": 1,
+          "body-parser": 1,
+          "method-override": 1,
+          "async": 1,
+          "path": 1,
+          "system": 1,
+          "webpage": 1,
+          "^": 1,
+          "ms": 1,
+          "XMLHttpRequest": 1,
+          "engine.io-parser": 1,
+          "undefined": 1,
+          "object": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 5,
+        "packages": {
+          "os": 4,
+          "json": 2,
+          "Flask": 2,
+          "flask": 2,
+          "time": 1,
+          "WebDriverWait": 1,
+          "webdriver": 1,
+          "By": 1,
+          "selenium": 1,
+          "pytest": 1,
+          "socket": 1,
+          "random": 1,
+          "Redis": 1,
+          "redis": 1,
+          "app": 1,
+          "slack": 1,
+          "urllib": 1,
+          "unquote_plus": 1,
+          "requests": 1,
+          "models": 1,
+          "Memegen": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 38,
+        "packages": {
+          "spec_helper": 8,
+          "Sidekiq::Worker": 7,
+          "json": 2,
+          "timecop": 2,
+          "sidekiq/throttler": 2,
+          "Singleton": 2,
+          "best_in_place/check_version": 1,
+          "best_in_place/helper": 1,
+          "best_in_place/display_methods": 1,
+          "best_in_place/railtie": 1,
+          "best_in_place/controller_extensions": 1,
+          "action_view": 1,
+          "best_in_place/utils": 1,
+          "best_in_place/engine": 1,
+          "ActionView::Helpers::JavaScriptHelper": 1,
+          "rspec/expectations": 1,
+          "rspec/rails": 1,
+          "coveralls": 1,
+          "nokogiri": 1,
+          "rails/all": 1,
+          "mongo": 1,
+          "open-uri": 1,
+          "date": 1,
+          "activesupport": 1,
+          "aws-sdk-ecs": 1,
+          "ruby-debug": 1,
+          "yard": 1,
+          "ffi": 1,
+          "aws-sdk-cloudwatchlogs": 1,
+          "rspec-core": 1,
+          "yajl-ruby": 1,
+          "jruby-openssl": 1,
+          "rubydns": 1,
+          "byebug": 1,
+          "aws-sdk-ec2": 1,
+          "ice_nine": 1,
+          "celluloid": 1,
+          "dotenv": 1,
+          "rspec-retry": 1,
+          "rfc": 1,
+          "rspec-mocks-diag": 1,
+          "aws-sdk-core": 1,
+          "rake": 1,
+          "rspec-expectations": 1,
+          "timeout-interrupt": 1,
+          "fuubar": 1,
+          "ruby-prof": 1,
+          "concurrent-ruby": 1,
+          "aws-sdk-iam": 1,
+          "paint": 1,
+          "logger": 1,
+          "securerandom": 1,
+          "mongo/error": 1,
+          "mongo/background_thread": 1,
+          "mongo/event": 1,
+          "mongo/grid": 1,
+          "mongo/socket": 1,
+          "mongo/cluster": 1,
+          "mongo/server_selector": 1,
+          "mongo/crypt": 1,
+          "stringio": 1,
+          "mongo/server": 1,
+          "mongo/uri": 1,
+          "mongo/id": 1,
+          "mongo/client_encryption": 1,
+          "mongo/logger": 1,
+          "bson": 1,
+          "rbconfig": 1,
+          "mongo/retryable": 1,
+          "mongo/options": 1,
+          "uri": 1,
+          "socket": 1,
+          "mongo/bson": 1,
+          "mongo/client": 1,
+          "mongo/semaphore": 1,
+          "mongo/database": 1,
+          "mongo/dbref": 1,
+          "mongo/session": 1,
+          "base64": 1,
+          "openssl": 1,
+          "resolv": 1,
+          "timeout": 1,
+          "mongo/cursor": 1,
+          "set": 1,
+          "mongo/lint": 1,
+          "mongo/address": 1,
+          "mongo/topology_version": 1,
+          "ipaddr": 1,
+          "mongo/srv": 1,
+          "mongo/auth": 1,
+          "mongo/cluster_time": 1,
+          "mongo/collection": 1,
+          "mongo/protocol": 1,
+          "mongo/write_concern": 1,
+          "mongo/index": 1,
+          "mongo/version": 1,
+          "mongo/loggable": 1,
+          "mongo/timeout": 1,
+          "mongo/monitoring": 1,
+          "zlib": 1,
+          "mongo/operation": 1,
+          "forwardable": 1,
+          "bson/active_support": 1,
+          "mongo/address/ipv6": 1,
+          "mongo/address/ipv4": 1,
+          "mongo/address/unix": 1,
+          "mongo/address/validator": 1,
+          "mongo/auth/ldap": 1,
+          "mongo/auth/gssapi": 1,
+          "mongo/auth/conversation_base": 1,
+          "mongo/auth/aws": 1,
+          "mongo/auth/roles": 1,
+          "mongo/auth/credential_cache": 1,
+          "mongo/auth/sasl_conversation_base": 1,
+          "mongo/auth/x509": 1,
+          "mongo/auth/scram256": 1,
+          "mongo/auth/stringprep": 1,
+          "mongo/auth/scram": 1,
+          "mongo/auth/user": 1,
+          "mongo/auth/scram_conversation_base": 1,
+          "mongo/auth/base": 1,
+          "mongo/auth/cr": 1,
+          "mongo/auth/aws/request": 1,
+          "mongo/auth/aws/credentials_retriever": 1,
+          "mongo/auth/aws/conversation": 1,
+          "mongo/auth/cr/conversation": 1,
+          "mongo/auth/gssapi/conversation": 1,
+          "mongo_kerberos": 1,
+          "cloudapp_api": 1,
+          "rubygems": 1,
+          "sidekiq/throttler/storage/memory": 1,
+          "sidekiq/throttler/storage/redis": 1,
+          "singleton": 1,
+          "sidekiq/throttler/version": 1,
+          "active_support/core_ext/numeric/time": 1,
+          "sidekiq/throttler/rate_limit": 1,
+          "sidekiq": 1,
+          "incrementing": 1,
+          "rspec": 1,
+          "simplecov": 1,
+          "sidekiq/redis_connection": 1,
+          "rspec-redis_helper": 1,
+          "sidekiq/util": 1,
+          "the_role_management_panel": 1,
+          "the_role_api": 1,
+          "the_role/version": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "joeunrue/best_in_place",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "joeunrue/example-voting-app",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C#",
+          "Java",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "joeunrue/infracost",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "joeunrue/mongo-ruby-driver",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "joeunrue/oh-my-zsh",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "joeunrue/sidekiq-throttler",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "joeunrue/slack-meme",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "joeunrue/the_role",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

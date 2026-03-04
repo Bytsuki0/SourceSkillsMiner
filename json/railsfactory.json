@@ -1,0 +1,277 @@
+{
+  "username": "railsfactory",
+  "areas": {
+    "OSS": {
+      "score": -0.2461993426644058,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.13070098600339122
+      }
+    },
+    "Status": {
+      "score": -0.23337882984389302,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.13070098600339122,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "railsfactory/crux": 0.21645,
+        "railsfactory/dropbox": 0.257
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.18010545687292528,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        1,
+        1
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 1,
+    "total_lines": 1,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 1,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "railsfactory",
+    "analysis_date": "2026-02-23T21:46:36.353115",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 395,
+    "languages": {
+      "Ruby": {
+        "files_scanned": 101,
+        "packages": {
+          "axlsx": 25,
+          "spree/core/action_callbacks": 16,
+          "Admin::BaseHelper": 8,
+          "spree_core": 6,
+          "rspec/rails": 6,
+          "SpreeBase": 5,
+          "date": 3,
+          "bubble-wrap/loader": 3,
+          "bubble-wrap": 3,
+          "default": 2,
+          "bundler/setup": 2,
+          "bubble-wrap/version": 2,
+          "mocha-on-bacon": 2,
+          "Spree::Core::ControllerHelpers": 2,
+          "httparty": 1,
+          "rails/all": 1,
+          "rubygems": 1,
+          "devise/orm/active_record": 1,
+          "nokogiri": 1,
+          "mimemagic": 1,
+          "axlsx/util/accessors.rb": 1,
+          "zip": 1,
+          "axlsx/util/options_parser": 1,
+          "htmlentities": 1,
+          "axlsx/workbook/workbook.rb": 1,
+          "bigdecimal": 1,
+          "axlsx/drawing/drawing.rb": 1,
+          "axlsx/version.rb": 1,
+          "axlsx/doc_props/app.rb": 1,
+          "time": 1,
+          "axlsx/util/string": 1,
+          "axlsx/stylesheet/styles.rb": 1,
+          "axlsx/rels/relationships.rb": 1,
+          "axlsx/package.rb": 1,
+          "axlsx/util/mime_type_utils": 1,
+          "axlsx/content_type/content_type.rb": 1,
+          "axlsx/util/validators.rb": 1,
+          "axlsx/util/serialized_attributes": 1,
+          "axlsx/util/simple_typed_list.rb": 1,
+          "axlsx/util/constants.rb": 1,
+          "axlsx/doc_props/core.rb": 1,
+          ":ContentType=": 1,
+          "Axlsx::OptionsParser": 1,
+          ":ContentType": 1,
+          "axlsx/content_type/override.rb": 1,
+          "axlsx/content_type/abstract_content_type.rb": 1,
+          "axlsx/content_type/default.rb": 1,
+          ":Extension=": 1,
+          ":Extension": 1,
+          "bolt/config_helper": 1,
+          "Bolt::ConfigHelper": 1,
+          "Bolt::BoltHelper": 1,
+          "authlogic": 1,
+          "Paperclip::Storage::S3": 1,
+          "bolt/bolt_helper": 1,
+          "bubble-wrap/ext/motion_project_config": 1,
+          "bubble-wrap/ext/motion_project_app": 1,
+          ":setup": 1,
+          ":setup_without_bubblewrap": 1,
+          "bubble-wrap/requirement": 1,
+          "bubble-wrap/ext": 1,
+          "bubble-wrap/requirement/path_manipulation": 1,
+          "PathManipulation": 1,
+          "BW::KVO": 1,
+          "spree_core/action_callbacks": 1,
+          "will_paginate/array": 1,
+          "SpreeRespondWith": 1,
+          "ActiveMerchant::Billing": 1,
+          "Spree::CurrentOrder": 1,
+          "crux_digital_hooks": 1,
+          "crux_faq_hooks": 1,
+          "crux_i18n_hooks": 1,
+          "ReviewsHelper": 1,
+          "non-approved": 1,
+          "crux_reviews_hooks": 1,
+          "crux_share_hooks": 1,
+          "PreferenceAccess": 1,
+          "crux_theme_hooks": 1,
+          "ActsAsCommentable::Comment": 1,
+          "sprockets/railtie": 1,
+          "boot": 1,
+          "active_record/railtie": 1,
+          "active_job/railtie": 1,
+          "rails": 1,
+          "rails/test_unit/railtie": 1,
+          "action_controller/railtie": 1,
+          "action_mailer/railtie": 1,
+          "action_view/railtie": 1,
+          "active_model/railtie": 1,
+          "action_cable/engine": 1,
+          "application": 1,
+          "Greetings": 1,
+          "Spree::Search": 1,
+          "Spree::Base": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "railsfactory/api_documentation_cms",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/axlsx",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/bolt",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/BubbleWrap",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/crux",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/crux_digital",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/crux_faq",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/crux_i18n",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/crux_reviews",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/crux_share",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/crux_theme",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/dropbox",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/railsgirls",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "railsfactory/spree-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

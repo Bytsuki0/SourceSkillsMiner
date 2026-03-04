@@ -1,0 +1,513 @@
+{
+  "username": "struan",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 20.91111111111111,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "struan/everypolitician-data": 0.2748,
+        "struan/webservice-validator-html-w3c": 0.027325000000000002
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6461538461538462,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Perl": [
+        11597,
+        217
+      ],
+      "Shell": [
+        21,
+        0
+      ],
+      "JavaScript": [
+        3408,
+        58
+      ],
+      "Python": [
+        81,
+        4
+      ],
+      "CSS": [
+        153,
+        2
+      ],
+      "Perl 6": [
+        2322,
+        36
+      ],
+      "HTML": [
+        50,
+        0
+      ],
+      "Ruby": [
+        631,
+        12
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 329,
+    "total_lines": 18263,
+    "top_5_languages": [
+      {
+        "language": "Perl",
+        "lines": 11597,
+        "commits": 217
+      },
+      {
+        "language": "JavaScript",
+        "lines": 3408,
+        "commits": 58
+      },
+      {
+        "language": "Perl 6",
+        "lines": 2322,
+        "commits": 36
+      },
+      {
+        "language": "Ruby",
+        "lines": 631,
+        "commits": 12
+      },
+      {
+        "language": "Python",
+        "lines": 81,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "struan",
+    "analysis_date": "2026-02-23T06:28:43.384526",
+    "total_repos_analyzed": 17,
+    "total_files_analyzed": 174,
+    "languages": {
+      "PHP": {
+        "files_scanned": 12,
+        "packages": {
+          "include/init.php": 12
+        }
+      },
+      "Perl": {
+        "files_scanned": 51,
+        "packages": {
+          "Modern::Perl": 24,
+          "strict": 23,
+          "warnings": 19,
+          "Data::Dump": 17,
+          "Find::Lib": 17,
+          "MetaCPAN": 12,
+          "base": 10,
+          "WWW::Mechanize::Cached": 5,
+          "Moose": 5,
+          "Carp": 4,
+          "LWP::UserAgent": 4,
+          "HTML::FormatText::WithLinks": 4,
+          "LWP::Simple": 4,
+          "Try::Tiny": 3,
+          "Archive::Tar::Wrapper": 3,
+          "feedme::Exception": 3,
+          "Encode": 3,
+          "XML::Feed": 3,
+          "utf8": 3,
+          "List::Util": 2,
+          "Path::Class::File": 2,
+          "Every": 2,
+          "MetaCPAN::Dist": 2,
+          "IO::Uncompress::AnyInflate": 2,
+          "ElasticSearch": 2,
+          "Archive::Tar": 2,
+          "MooseX::Getopt": 2,
+          "IO::File": 2,
+          "WWW::Mechanize": 2,
+          "Moose::Role": 2,
+          "File::Path": 2,
+          "Dancer": 2,
+          "feedme::Util": 2,
+          "HTTP::Headers": 2,
+          "DBIx::Class::Core": 2,
+          "Getopt::Long": 2,
+          "vars": 2,
+          "5": 2,
+          "5.010": 2,
+          "HTML::TableExtract": 2,
+          "constant": 2,
+          "WebService::Validator::HTML::W3C": 2,
+          "Data::Dumper": 1,
+          "JSON::XS": 1,
+          "HTML::TokeParser::Simple": 1,
+          "JSON::Any": 1,
+          "MetaCPAN::Author": 1,
+          "Parse::CSV": 1,
+          "Time::HiRes": 1,
+          "MetaCPAN::PerlMongers": 1,
+          "File::stat": 1,
+          "File::Copy::Recursive": 1,
+          "Getopt::Long::Descriptive": 1,
+          "MetaCPAN::Schema": 1,
+          "DateTime::Format::Epoch::Unix": 1,
+          "CPAN::DistnameInfo": 1,
+          "Scalar::Util": 1,
+          "JSON::DWIW": 1,
+          "Gravatar::URL": 1,
+          "Hash::Merge": 1,
+          "File::Slurp": 1,
+          "Pod::POM": 1,
+          "Devel::SimpleTrace": 1,
+          "MetaCPAN::Pod::XHTML": 1,
+          "YAML": 1,
+          "Pod::Text": 1,
+          "XML::Simple": 1,
+          "HTML::Entities": 1,
+          "DBI": 1,
+          "Path::Class": 1,
+          "File::Copy": 1,
+          "parent": 1,
+          "schema": 1,
+          ":syntax": 1,
+          "Dancer::Plugin::DBIC": 1,
+          "Exception::Class": 1,
+          "Exception::Class::Base": 1,
+          "feedme::UserAgent": 1,
+          "HTTP::Request": 1,
+          "HTML::ResolveLink": 1,
+          "Digest::MD5": 1,
+          "Text::WordDiff": 1,
+          "DBIx::Class::Schema": 1,
+          "DBIx::Class::ResultSet": 1,
+          ">": 1,
+          "Fcntl": 1,
+          "File::Spec::Functions": 1,
+          "Cwd": 1,
+          ":script": 1,
+          "feedme::Schema": 1,
+          "feedme::Parse": 1,
+          "feedme::Fetch": 1,
+          "FindBin": 1,
+          "feedme::Process": 1,
+          "Roman": 1,
+          "HTML::TreeBuilder": 1,
+          "URI::WithBase": 1,
+          "TODO.txt": 1,
+          "Git": 1,
+          ">TODO.txt": 1,
+          "WWW::Shorten": 1,
+          "http://www.primelocation.com/for-sale/property/fife/st-andrews/newest/?page_size=50": 1,
+          "TinyURL": 1,
+          "http://www.f-kspc.co.uk/": 1,
+          "Web::Scraper": 1,
+          "URI": 1,
+          "XML::Atom::Entry": 1,
+          "http://search.savills.com/rss/property-for-sale/scotland/fife/ky16/gbp": 1,
+          "http://www.f-kspc.co.uk/propertiesforsale/": 1,
+          "XML::Atom::Feed": 1,
+          "$ENV{": 1,
+          "MIME::Lite": 1,
+          "Config::Simple": 1,
+          "AppConfig": 1,
+          "WebService::Validator::HTML::W3C::Warning": 1,
+          "POST": 1,
+          "WebService::Validator::HTML::W3C::Error": 1,
+          "HTTP::Request::Common": 1,
+          "URI::Escape": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 48,
+        "packages": {
+          "settings": 26,
+          "pipeline": 24,
+          "django": 19,
+          "os": 16,
+          "staticfiles_storage": 9,
+          "SubProcessCompressor": 7,
+          "shorturls": 7,
+          "SubProcessCompiler": 6,
+          "*": 6,
+          "template": 5,
+          "google": 4,
+          "pkg_resources": 3,
+          "subprocess": 3,
+          "dirname": 3,
+          "CompressorBase": 3,
+          "fearcon": 3,
+          "webapp": 3,
+          "wsgiref": 3,
+          "users": 3,
+          "get_distribution": 2,
+          "collections": 2,
+          "finders": 2,
+          "shutil": 2,
+          "to_class": 2,
+          "ContentFile": 2,
+          "tempfile": 2,
+          "itertools": 2,
+          "re": 2,
+          "smart_bytes": 2,
+          "setup": 2,
+          "baseconv": 2,
+          "default_converter": 2,
+          "urlparse": 2,
+          "models": 2,
+          "TestCase": 2,
+          "urllib": 2,
+          "OrderedDict": 1,
+          "PipelineFinder": 1,
+          "CompilerError": 1,
+          "NamedTemporaryFile": 1,
+          "concurrent": 1,
+          "futures": 1,
+          "multiprocessing": 1,
+          "takewhile": 1,
+          "base64": 1,
+          "CompressorError": 1,
+          "posixpath": 1,
+          "css_html_js_minify": 1,
+          "css_minify": 1,
+          "js_minify": 1,
+          "temp": 1,
+          "jsmin": 1,
+          "minify": 1,
+          "slimit": 1,
+          "__future__": 1,
+          "unicode_literals": 1,
+          "receiver": 1,
+          "MutableMapping": 1,
+          "setting_changed": 1,
+          "shlex": 1,
+          "normpath": 1,
+          "safe_join": 1,
+          "chain": 1,
+          "BaseFinder": 1,
+          "cached_property": 1,
+          "PipelineFormMedia": 1,
+          "forms": 1,
+          "fnmatch": 1,
+          "Extension": 1,
+          "jinja2": 1,
+          "nodes": 1,
+          "get_finders": 1,
+          "Packager": 1,
+          "Manifest": 1,
+          "manifesto": 1,
+          "MiddlewareNotUsed": 1,
+          "DjangoUnicodeDecodeError": 1,
+          "MiddlewareMixin": 1,
+          "strip_spaces_between_tags": 1,
+          "Compiler": 1,
+          "glob": 1,
+          "PackageNotFound": 1,
+          "css_compressed": 1,
+          "find": 1,
+          "Compressor": 1,
+          "sys": 1,
+          "zc": 1,
+          "the": 1,
+          "urllib2": 1,
+          "setuptools": 1,
+          "ImproperlyConfigured": 1,
+          "import_module": 1,
+          "doctest": 1,
+          "mark_safe": 1,
+          "urlresolvers": 1,
+          "unittest": 1,
+          "Animal": 1,
+          "base62": 1,
+          "HttpResponsePermanentRedirect": 1,
+          "Site": 1,
+          "get_object_or_404": 1,
+          "db": 1,
+          "quote_plus": 1,
+          "unquote": 1,
+          "PyObjCTools": 1,
+          "AppKit": 1,
+          "Foundation": 1,
+          "objc": 1,
+          "config": 1,
+          "py2app": 1,
+          "distutils": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 6,
+        "packages": {
+          "pry": 4,
+          "scraperwiki": 4,
+          "nokogiri": 3,
+          "open-uri": 3,
+          "open-uri/cached": 2,
+          "json": 2,
+          "date": 2,
+          "csv": 1,
+          "pathname": 1,
+          "tmpdir": 1,
+          "fileutils": 1,
+          "lib/git": 1,
+          "rake/testtask": 1,
+          "cgi": 1,
+          "colorize": 1,
+          "capybara": 1,
+          "capybara/dsl": 1,
+          "capybara/poltergeist": 1,
+          "Capybara::DSL": 1,
+          "scraped_page_archive/capybara": 1,
+          "scraped": 1,
+          "pp": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "struan/burkina-faso-national-assembly",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "struan/cpan-api",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "struan/django-pipeline",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "struan/django-shorturls",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "struan/everypolitician-data",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "struan/fearcon",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "struan/feedme",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "struan/html-formattext-withlinks",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "struan/kenya-mzalendo",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "struan/Mail.app-AutoFromPicker-plugin",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "struan/myanmar_house_of_representatives",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "struan/nigerian_state_governors",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "struan/open311.github.io",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "struan/parallel-ogram",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "struan/scripts",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "struan/webservice-validator-html-w3c",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Perl"
+        ]
+      }
+    ]
+  }
+}

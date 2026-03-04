@@ -1,0 +1,622 @@
+{
+  "username": "pkqk",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.8571428571428571,
+        "pr_merge_rate": 10.266666666666667,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5557692307692308,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        19765,
+        203
+      ],
+      "Ruby": [
+        19297,
+        129
+      ],
+      "HTML": [
+        12140,
+        133
+      ],
+      "Go": [
+        31367,
+        156
+      ],
+      "Dockerfile": [
+        38,
+        0
+      ],
+      "CSS": [
+        9644,
+        7
+      ],
+      "Shell": [
+        95231,
+        214
+      ],
+      "JavaScript": [
+        18862,
+        28
+      ],
+      "Vim Script": [
+        22467,
+        50
+      ],
+      "Emacs Lisp": [
+        31,
+        9
+      ],
+      "Perl": [
+        368,
+        0
+      ],
+      "Makefile": [
+        76,
+        2
+      ],
+      "CoffeeScript": [
+        22,
+        0
+      ],
+      "Objective-C": [
+        2,
+        0
+      ],
+      "SCSS": [
+        3972,
+        126
+      ],
+      "Assembly": [
+        62,
+        1
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 1058,
+    "total_lines": 233344,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 95231,
+        "commits": 214
+      },
+      {
+        "language": "Python",
+        "lines": 19765,
+        "commits": 203
+      },
+      {
+        "language": "Go",
+        "lines": 31367,
+        "commits": 156
+      },
+      {
+        "language": "HTML",
+        "lines": 12140,
+        "commits": 133
+      },
+      {
+        "language": "Ruby",
+        "lines": 19297,
+        "commits": 129
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "pkqk",
+    "analysis_date": "2026-02-23T00:24:14.631160",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 105,
+    "languages": {
+      "Go": {
+        "files_scanned": 58,
+        "packages": {
+          "context": 38,
+          "fmt": 32,
+          "github.com/spf13/cobra": 25,
+          "github.com/docker/cli/cli/command": 25,
+          "github.com/docker/compose/v5/pkg/compose": 22,
+          "strings": 21,
+          "github.com/docker/compose/v5/pkg/api": 21,
+          "os": 18,
+          "testing": 14,
+          "time": 14,
+          "net/http": 14,
+          "encoding/json": 13,
+          "errors": 13,
+          "github.com/vektah/gqlparser/v2/ast": 12,
+          "io": 10,
+          "github.com/stretchr/testify/require": 9,
+          "github.com/compose-spec/compose-go/v2/types": 8,
+          "name": 7,
+          "github.com/docker/compose/v5/cmd/formatter": 7,
+          "github.com/vektah/gqlparser/v2/gqlerror": 6,
+          "sort": 6,
+          "github.com/stretchr/testify/assert": 6,
+          "github.com/vektah/gqlparser/v2": 6,
+          "bytes": 6,
+          "id": 5,
+          "service": 5,
+          "strconv": 5,
+          "github.com/sirupsen/logrus": 5,
+          "github.com/spf13/pflag": 5,
+          "go.opentelemetry.io/otel/trace": 4,
+          "go.opentelemetry.io/otel": 4,
+          "log": 4,
+          "github.com/99designs/gqlgen/graphql": 4,
+          "github.com/compose-spec/compose-go/v2/cli": 4,
+          "slices": 4,
+          "go.opentelemetry.io/otel/codes": 3,
+          "data": 3,
+          "net/http/httptest": 3,
+          "path/filepath": 3,
+          "version": 3,
+          "sync": 3,
+          "gizmos": 3,
+          "_bramble__typename": 3,
+          "_bramble_id": 3,
+          "foo": 3,
+          "github.com/docker/compose/v5/internal/tracing": 3,
+          "github.com/docker/compose/v5/cmd/display": 3,
+          "github.com/docker/compose/v5/pkg/utils": 3,
+          "github.com/docker/cli/cli": 3,
+          "movies": 2,
+          "query": 2,
+          "title": 2,
+          "release": 2,
+          "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp": 2,
+          "test": 2,
+          "github.com/go-faker/faker/v4": 2,
+          "github.com/99designs/gqlgen/graphql/handler": 2,
+          "github.com/graph-gophers/graphql-go/relay": 2,
+          "github.com/graph-gophers/graphql-go": 2,
+          "go.opentelemetry.io/otel/attribute": 2,
+          "golang.org/x/sync/errgroup": 2,
+          "selectionSet": 2,
+          "owner": 2,
+          "type": 2,
+          "go.opentelemetry.io/otel/trace/noop": 2,
+          "movie": 2,
+          "gizmo": 2,
+          "gadgets": 2,
+          "__typename": 2,
+          "bar": 2,
+          "github.com/vektah/gqlparser/v2/formatter": 2,
+          "schema": 2,
+          "gotest.tools/v3/assert": 2,
+          "github.com/docker/docker/pkg/stringid": 2,
+          "github.com/docker/go-units": 2,
+          "github.com/docker/cli/opts": 2,
+          "github.com/compose-spec/compose-go/v2/template": 2,
+          "permissions": 1,
+          "field": 1,
+          "a": 1,
+          "movieSearch": 1,
+          "b": 1,
+          "movieByTitle": 1,
+          "d": 1,
+          "one": 1,
+          "two": 1,
+          "someone": 1,
+          "nested_role": 1,
+          "mutation": 1,
+          "subscription": 1,
+          "three": 1,
+          "somethingRandom": 1,
+          "c": 1,
+          "github.com/prometheus/client_golang/prometheus": 1,
+          "math": 1,
+          "close": 1,
+          "net/http/cookiejar": 1,
+          "net/url": 1,
+          "root": 1,
+          "github.com/movio/bramble": 1,
+          "github.com/fsnotify/fsnotify": 1,
+          ":8083": 1,
+          "http://127.0.0.1:8084/plugin": 1,
+          "127.0.0.1:8084": 1,
+          "0.0.0.0:8082": 1,
+          ":8084": 1,
+          ":8082": 1,
+          "http://localhost:8083/plugin": 1,
+          "My-Header-2": 1,
+          "=": 1,
+          "include": 1,
+          "sync/atomic": 1,
+          "{": 1,
+          "format": 1,
+          "__schema": 1,
+          "args": 1,
+          "enumValues": 1,
+          "queryType": 1,
+          "deprecationReason": 1,
+          "subscriptionType": 1,
+          "mutationType": 1,
+          "kind": 1,
+          "defaultValue": 1,
+          "ofType": 1,
+          "errors:": 1,
+          "n": 1,
+          "description": 1,
+          "desc": 1,
+          "__type": 1,
+          "isDeprecated": 1,
+          "possibleTypes": 1,
+          "directives": 1,
+          "fields": 1,
+          "inputFields": 1,
+          "category": 1,
+          "details": 1,
+          "critters": 1,
+          "gizmoA": 1,
+          "color": 1,
+          "fullName": 1,
+          "gizmoB": 1,
+          "snapshots": 1,
+          "allCats": 1,
+          "person": 1,
+          "serviceName": 1,
+          "includeTitle": 1,
+          "foos": 1,
+          "wizzle": 1,
+          "bazingaFactor": 1,
+          "pet": 1,
+          "_%d": 1,
+          "cats": 1,
+          "path": 1,
+          "q": 1,
+          "code": 1,
+          "_1": 1,
+          "_0": 1,
+          "skipTitle": 1,
+          "age": 1,
+          "country": 1,
+          "snapshot": 1,
+          "searchCat": 1,
+          "extensions": 1,
+          "message": 1,
+          "_result": 1,
+          "agents": 1,
+          "randomMovie": 1,
+          "compTitles": 1,
+          "speed": 1,
+          "handler": 1,
+          "expected": 1,
+          "_2": 1,
+          "cinema": 1,
+          "tastyGizmos": 1,
+          "skipGizmo": 1,
+          "namespace": 1,
+          "ns": 1,
+          "animals": 1,
+          "randomMovies": 1,
+          "includeGizmo": 1,
+          "director": 1,
+          "selectedTransport": 1,
+          "updateTitle": 1,
+          "slowField": 1,
+          "baz": 1,
+          "selectionPath": 1,
+          "failed": 1,
+          "otherMovie": 1,
+          "somePerson": 1,
+          "regexp": 1,
+          "intList": 1,
+          "subObject": 1,
+          "genre": 1,
+          "f": 1,
+          "e": 1,
+          "genreList": 1,
+          "stringList": 1,
+          "github.com/99designs/gqlgen/graphql/handler/extension": 1,
+          "github.com/99designs/gqlgen/graphql/handler/transport": 1,
+          "all": 1,
+          "variables": 1,
+          "plan": 1,
+          "cli/": 1,
+          "reflect": 1,
+          "__completeNoDesc": 1,
+          "--tlsverify": 1,
+          "--tlskey": 1,
+          "--tls": 1,
+          "--debug": 1,
+          "--tlscacert": 1,
+          "--host": 1,
+          "--context": 1,
+          "__complete": 1,
+          "--verbose": 1,
+          "--log-level": 1,
+          "github.com/docker/compose/v5/cmd/compose": 1,
+          "--tlscert": 1,
+          "os/exec": 1,
+          "experimentalCLI": 1,
+          "IMAGE": 1,
+          "github.com/docker/docker/api/types/image": 1,
+          "github.com/docker/compose/v5/pkg/bridge": 1,
+          "github.com/distribution/reference": 1,
+          "github.com/docker/cli/pkg/kvfile": 1,
+          "commandConn.CloseRead:": 1,
+          "project-directory": 1,
+          "project-name": 1,
+          "github.com/compose-spec/compose-go/v2/loader": 1,
+          "profile": 1,
+          "syscall": 1,
+          "github.com/compose-spec/compose-go/v2/dotenv": 1,
+          "github.com/morikuni/aec": 1,
+          "github.com/docker/compose/v5/pkg/remote": 1,
+          "github.com/docker/buildx/util/logutil": 1,
+          "commandConn.CloseWrite:": 1,
+          "github.com/docker/cli/cli-plugins/metadata": 1,
+          "file": 1,
+          "os/signal": 1,
+          "progress": 1,
+          "zot": 1,
+          "qix": 1,
+          "go.yaml.in/yaml/v4": 1,
+          "attributes": 1,
+          "action": 1,
+          "github.com/containerd/platforms": 1,
+          "maps": 1,
+          "CONTAINER": 1,
+          "github.com/docker/compose/v5/cmd/prompt": 1,
+          "no": 1,
+          "text/tabwriter": 1,
+          "yes": 1,
+          "github.com/docker/cli/cli/streams": 1,
+          "docker-compose.yaml": 1,
+          "Do": 1,
+          "oci://registry.example.com/stack:latest": 1,
+          "git://github.com/user/repo.git": 1,
+          "linux/arm64": 1,
+          "Your": 1,
+          "alice/32": 1,
+          "VARIABLE": 1,
+          "linux/amd64": 1,
+          "-": 1,
+          "\\nRemote": 1,
+          "github.com/docker/compose/v5/pkg/mocks": 1,
+          "API_KEY": 1,
+          "DEBUG": 1,
+          "TEST_VAR": 1,
+          "\\nExpected:\\n%s\\nGot:\\n%s": 1,
+          "DOCKER_DEFAULT_PLATFORM": 1,
+          "go.uber.org/mock/gomock": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "express": 1,
+          "fs": 1,
+          "graphql": 1,
+          "express-graphql": 1,
+          "webpage": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 15,
+        "packages": {
+          "unicode_literals": 8,
+          "__future__": 8,
+          "os": 7,
+          "time": 5,
+          "sys": 5,
+          "data": 4,
+          "json": 4,
+          "logging": 3,
+          "config": 2,
+          "functools": 2,
+          "requests": 2,
+          "partial": 2,
+          "client": 2,
+          "datetime": 2,
+          "csv": 2,
+          "Flask": 2,
+          "flask": 2,
+          "StringIO": 2,
+          "urllib": 2,
+          "urlopen": 2,
+          "django": 2,
+          "urlparse": 1,
+          "splitext": 1,
+          "random": 1,
+          "OAuth1": 1,
+          "multiprocessing": 1,
+          "ConfigParser": 1,
+          "configparser": 1,
+          "calendar": 1,
+          "redis": 1,
+          "rfc822": 1,
+          "couchdb": 1,
+          "flexmock": 1,
+          "nose": 1,
+          "*": 1,
+          "collect": 1,
+          "output": 1,
+          "yougov_idmap": 1,
+          "datastore_file_stub": 1,
+          "mail_stub": 1,
+          "apiproxy_stub_map": 1,
+          "urlfetch_stub": 1,
+          "to": 1,
+          "google": 1,
+          "user_service_stub": 1,
+          "geojson": 1,
+          "GoogleMapLayer": 1,
+          "ZipFile": 1,
+          "defaultdict": 1,
+          "zipfile": 1,
+          "xml": 1,
+          "collections": 1,
+          "PIL": 1,
+          "Image": 1,
+          "markdown": 1,
+          "mark_safe": 1,
+          "yaml": 1,
+          "Http404": 1,
+          "codecs": 1,
+          "HttpResponseNotFound": 1,
+          "render_to_response": 1,
+          "http_date": 1,
+          "distutils": 1,
+          "setup": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 10,
+        "packages": {
+          "spec": 2,
+          "erb": 2,
+          "spec_helper": 2,
+          "activesupport": 1,
+          "etc": 1,
+          "auto_tagger": 1,
+          "-Shead=true": 1,
+          "rr": 1,
+          "bundler/setup": 1,
+          "checkout": 1,
+          "net/http": 1,
+          "cruise_prodder": 1,
+          "sinatra/base": 1,
+          "iconv": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "pkqk/adaptive-panel-collection",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "pkqk/app_engine_shell",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "pkqk/argonaut",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "pkqk/auto_tagger",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pkqk/benday",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "pkqk/bill_calculator",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pkqk/bramble",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pkqk/butt.domains",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pkqk/cake-dev-test",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pkqk/compose",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "pkqk/cruise-prodder",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pkqk/decoder-ring",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pkqk/django-bland",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

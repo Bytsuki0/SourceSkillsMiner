@@ -1,0 +1,130 @@
+{
+  "username": "bluebit",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.08333333333333334,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "bluebit",
+    "analysis_date": "2026-02-24T07:27:18.667578",
+    "total_repos_analyzed": 3,
+    "total_files_analyzed": 9,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "blockers.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "stdio.h": 1,
+          "unistd.h": 1,
+          "<time.h>": 1,
+          "curses.h": 1,
+          "pthread.h": 1,
+          "stdlib.h": 1,
+          "<pthread.h>": 1,
+          "time.h": 1,
+          "<unistd.h>": 1,
+          "<curses.h>": 1,
+          "<stdlib.h>": 1,
+          "<stdio.h>": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 6,
+        "packages": {
+          "django": 5,
+          "firewall": 3,
+          "Firewall": 3,
+          "datetime": 2,
+          "FirewallForm": 1,
+          "admin": 1,
+          "forms": 1,
+          "HttpResponseRedirect": 1,
+          "models": 1,
+          "TestCase": 1,
+          "json": 1,
+          "urllib2": 1,
+          "hashlib": 1,
+          "time": 1,
+          "webbrowser": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "bluebit/Blocker",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "bluebit/django-firewall",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bluebit/pybook",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

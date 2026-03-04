@@ -1,0 +1,440 @@
+{
+  "username": "jui",
+  "areas": {
+    "OSS": {
+      "score": 0.19333884746216623,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7900082711932495
+      }
+    },
+    "Status": {
+      "score": 0.20907650413875678,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7751532177465966,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "jui/mustachex": 0.2263
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.40060383790023074,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Elixir": [
+        2793,
+        54
+      ],
+      "JavaScript": [
+        27,
+        1
+      ],
+      "Erlang": [
+        3,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "Swift": [
+        252,
+        1
+      ],
+      "Python": [
+        1,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Metal": [
+        0,
+        0
+      ],
+      "Ruby": [
+        260,
+        2
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 58,
+    "total_lines": 3336,
+    "top_5_languages": [
+      {
+        "language": "Elixir",
+        "lines": 2793,
+        "commits": 54
+      },
+      {
+        "language": "Ruby",
+        "lines": 260,
+        "commits": 2
+      },
+      {
+        "language": "JavaScript",
+        "lines": 27,
+        "commits": 1
+      },
+      {
+        "language": "Swift",
+        "lines": 252,
+        "commits": 1
+      },
+      {
+        "language": "Erlang",
+        "lines": 3,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jui",
+    "analysis_date": "2026-02-22T14:41:17.589551",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 212,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "string.h": 2,
+          "<sys/un.h>": 2,
+          "<sys/types.h>": 2,
+          "fcntl.h": 2,
+          "<sys/socket.h>": 2,
+          "sys/un.h": 2,
+          "errno.h": 2,
+          "srv.h": 2,
+          "<string.h>": 2,
+          "sys/socket.h": 2,
+          "<unistd.h>": 2,
+          "sys/types.h": 2,
+          "<errno.h>": 2,
+          "<fcntl.h>": 2,
+          "unistd.h": 2,
+          "sys/uio.h": 1,
+          "<stdatomic.h>": 1,
+          "<erl_nif.h>": 1,
+          "netinet/in.h": 1,
+          "<stdbool.h>": 1,
+          "erl_nif.h": 1,
+          "<netdb.h>": 1,
+          "stdbool.h": 1,
+          "stdatomic.h": 1,
+          "erl_driver.h": 1,
+          "<sys/uio.h>": 1,
+          "netdb.h": 1,
+          "<netinet/in.h>": 1,
+          "<erl_driver.h>": 1,
+          "stdint.h": 1,
+          "<stdint.h>": 1,
+          "linux/netlink.h": 1,
+          "<sys/stat.h>": 1,
+          "arpa/inet.h": 1,
+          "<net/if_utun.h>": 1,
+          "stdio.h": 1,
+          "<stdlib.h>": 1,
+          "<arpa/inet.h>": 1,
+          "<linux/netlink.h>": 1,
+          "linux/rtnetlink.h": 1,
+          "<linux/if.h>": 1,
+          "net/if_utun.h": 1,
+          "stdlib.h": 1,
+          "<stdio.h>": 1,
+          "<sys/ioctl.h>": 1,
+          "<sys/sys_domain.h>": 1,
+          "linux/if.h": 1,
+          "sys/kern_control.h": 1,
+          "<signal.h>": 1,
+          "<linux/if_tun.h>": 1,
+          "<linux/rtnetlink.h>": 1,
+          "sys/ioctl.h": 1,
+          "signal.h": 1,
+          "<linux/ipv6.h>": 1,
+          "linux/ipv6.h": 1,
+          "linux/if_tun.h": 1,
+          "sys/sys_domain.h": 1,
+          "<sys/kern_control.h>": 1,
+          "sys/stat.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "stddef.h": 1,
+          "net/if.h": 1,
+          "sys/socket.h": 1,
+          "<sys/socket.h>": 1,
+          "<stddef.h>": 1,
+          "<net/if.h>": 1
+        }
+      },
+      "Elixir": {
+        "files_scanned": 69,
+        "packages": {
+          "ExUnit.Case": 20,
+          "Ecto.Model": 7,
+          "Mix.Project": 7,
+          "Ecto.Query": 6,
+          "Ecto.Adapters.Postgres": 6,
+          "Exredis": 6,
+          "Ecto.Repo": 5,
+          "Ecto.Integration.Postgres.Case": 5,
+          "Behaviour": 5,
+          "Ecto.Query.QueryExpr": 5,
+          "Ecto.Query.Util": 5,
+          "Exredis.Api": 4,
+          "Mix.Config": 4,
+          "Mailer.Email.Plain": 4,
+          "Mailer.Email.Multipart": 4,
+          "GenServer": 3,
+          "Inspect.Algebra": 3,
+          "Ecto.Associations": 3,
+          "Mix.Task": 3,
+          "Plug.Conn": 3,
+          "Application": 2,
+          "Supervisor.Spec": 2,
+          "Ecto.Migration": 2,
+          "unquote": 2,
+          "Ecto.Adapters.Postgres.Worker": 2,
+          "Ecto.Adapters.Mysql.Error": 2,
+          "Ecto.Associations.Assoc": 2,
+          "Ecto.Adapters.Mysql.Result": 2,
+          "Ecto.Adapters.Mysql.OkPacket": 2,
+          "Ecto.Query.JoinExpr": 2,
+          "Ecto.Reflections.BelongsTo": 2,
+          "Exredis.Script": 2,
+          "Exredis.Sub": 2,
+          "Plug.Router": 2,
+          "ExUnit.CaptureIO": 1,
+          "Support.FileHelpers": 1,
+          "Ecto.Migrator": 1,
+          "Ecto.Associations.Preloader": 1,
+          "Ecto.Integration.Postgres.UUIDPrimaryKey": 1,
+          "TestRepo": 1,
+          "Ecto.Integration.Postgres.TestRepo": 1,
+          "Ecto.Integration.Postgres.Post": 1,
+          "Ecto.Integration.Postgres.Comment": 1,
+          "Ecto.Integration.Postgres.User": 1,
+          "Ecto.Integration.Postgres.Barebone": 1,
+          "Ecto.Integration.Postgres.Permalink": 1,
+          "ExUnit.CaseTemplate": 1,
+          "Ecto.Integration.Postgres.AssignedPrimaryKey": 1,
+          "Ecto.Integration.Postgres.Custom": 1,
+          "Ecto.Query.Typespec": 1,
+          "do": 1,
+          "Ecto.Adapters.Mysql.SQL": 1,
+          "Ecto.Adapters.Mysql.Worker": 1,
+          "Ecto.Adapters.Postgres.SQL": 1,
+          "Postgrex.TypeInfo": 1,
+          "Ecto.Reflections.HasOne": 1,
+          "Ecto.Reflections.HasMany": 1,
+          "Exredis.Api.Helper": 1,
+          "Supervisor": 1,
+          "#{Mix.env}.exs": 1,
+          "Mailer.Email.HTML": 1,
+          "Logger": 1,
+          "Plug.Test": 1,
+          "the": 1,
+          "Tundra.DynamicSupervisor": 1,
+          "TypedStruct": 1
+        }
+      },
+      "Erlang": {
+        "files_scanned": 12,
+        "packages": {
+          "eunit/include/eunit.hrl": 8,
+          "http.hrl": 5,
+          "kernel/include/file.hrl": 1,
+          "common_test/include/ct.hrl": 1,
+          "proper/include/proper.hrl": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 2,
+        "packages": {
+          "com.digia": 2,
+          "org.appcelerator": 2,
+          "java.net": 1,
+          "java.io": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "com.digia.tcp": 2,
+          "object": 2,
+          "path": 2,
+          "=": 2,
+          "file": 2,
+          "hasKey": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 5,
+        "packages": {
+          "os": 5,
+          "sys": 5,
+          "twisted": 1,
+          "subprocess": 1,
+          "autobahntestsuite": 1,
+          "reactor": 1,
+          "log": 1,
+          "FuzzingClientFactory": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 2,
+        "packages": {
+          "umlr": 1,
+          "diagram_graph.rb": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 30,
+        "packages": {
+          "SwiftUI": 15,
+          "Foundation": 11,
+          "AVFoundation": 7,
+          "Collections": 6,
+          "ReplayKit": 3,
+          "CoreMedia": 2,
+          "VideoToolbox": 2,
+          "CoreFoundation": 2,
+          "WatchConnectivity": 2,
+          "AVKit": 1,
+          "Network": 1,
+          "MapKit": 1,
+          "UIKit": 1,
+          "HealthKit": 1,
+          "WrappingHStack": 1,
+          "WidgetKit": 1,
+          "CoreImage": 1,
+          "CoreBluetooth": 1,
+          "CrcSwift": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jui/appcelerator-android-tcpsocket",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jui/cowboy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Erlang",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jui/ecto",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "jui/elixir-mustache",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "jui/exredis",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "jui/mailer",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "jui/moblin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "jui/mustachex",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "jui/plug_basic_auth",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "jui/superbridge",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jui/tundra",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Elixir"
+        ]
+      },
+      {
+        "repository": "jui/umlr",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

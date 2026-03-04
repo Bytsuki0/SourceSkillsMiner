@@ -1,0 +1,563 @@
+{
+  "username": "ccthiel",
+  "areas": {
+    "OSS": {
+      "score": 0.43949028240242827,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.625,
+        "commits_activity": 0.5342354236036423
+      }
+    },
+    "Status": {
+      "score": 0.0356441285562743,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5342354236036423,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.11878360273967564,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Lua": [
+        750,
+        2
+      ],
+      "XSLT": [
+        1819843,
+        12
+      ],
+      "HTML": [
+        72238,
+        0
+      ],
+      "CSS": [
+        67179,
+        0
+      ],
+      "Python": [
+        51160,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 14,
+    "total_lines": 2011170,
+    "top_5_languages": [
+      {
+        "language": "XSLT",
+        "lines": 1819843,
+        "commits": 12
+      },
+      {
+        "language": "Lua",
+        "lines": 750,
+        "commits": 2
+      },
+      {
+        "language": "HTML",
+        "lines": 72238,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 67179,
+        "commits": 0
+      },
+      {
+        "language": "Python",
+        "lines": 51160,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ccthiel",
+    "analysis_date": "2026-02-23T11:54:59.603803",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 219,
+    "languages": {
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "<iostream>": 1,
+          "iostream": 1,
+          "fixed": 1,
+          "<stdio.h>": 1,
+          "<stdlib.h>": 1,
+          "lodepng.h": 1,
+          "stdlib.h": 1,
+          "<limits.h>": 1,
+          "stdio.h": 1,
+          "RGB": 1,
+          "limits.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 16,
+        "packages": {
+          "llimits.h": 6,
+          "lobject.h": 6,
+          "lua.h": 5,
+          "lstate.h": 4,
+          "stddef.h": 3,
+          "<stddef.h>": 3,
+          "lzio.h": 3,
+          "<limits.h>": 2,
+          "limits.h": 2,
+          "string": 1,
+          "vector": 1,
+          "lodepng_inspect": 1,
+          "lodepng.h": 1,
+          "iostream": 1,
+          "<vector>": 1,
+          "<string>": 1,
+          "it": 1,
+          "<string.h>": 1,
+          "regular": 1,
+          "these": 1,
+          "string.h": 1,
+          "a": 1,
+          "custom": 1,
+          "<iostream>": 1,
+          "lodepng_chunk_append": 1,
+          "windows.h": 1,
+          "<stdlib.h>": 1,
+          "pthread.h": 1,
+          "stdlib.h": 1,
+          "<windows.h>": 1,
+          "<pthread.h>": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "llex.h": 1,
+          "lopcodes.h": 1,
+          "lparser.h": 1,
+          "ctype.h": 1,
+          "<ctype.h>": 1,
+          "stdarg.h": 1,
+          "<stdarg.h>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 95,
+        "packages": {
+          "fmt": 60,
+          "io": 43,
+          "os": 41,
+          "strings": 22,
+          "time": 20,
+          "testing": 20,
+          "path/filepath": 19,
+          "bytes": 17,
+          "github.com/pkg/errors": 16,
+          "io/ioutil": 13,
+          "google.golang.org/api/drive/v3": 13,
+          "errors": 12,
+          "github.com/ahmetb/kubectx/internal/printer": 12,
+          "unsafe": 11,
+          "sort": 11,
+          "github.com/ahmetb/kubectx/internal/kubeconfig": 11,
+          "github.com/boltdb/bolt": 9,
+          "github.com/ahmetb/kubectx/internal/cmdutil": 9,
+          "runtime": 7,
+          "encoding/binary": 7,
+          "text/tabwriter": 7,
+          "google.golang.org/api/googleapi": 7,
+          "strconv": 6,
+          "encoding/json": 5,
+          "net/http": 5,
+          "flag": 4,
+          "sync": 4,
+          "math/rand": 4,
+          "syscall": 4,
+          "github.com/ahmetb/kubectx/internal/env": 4,
+          "golang.org/x/net/context": 3,
+          "github.com/google/go-cmp/cmp": 3,
+          "github.com/tommyblue/smugmug-backup": 3,
+          "html/template": 3,
+          "hash/fnv": 2,
+          "reflect": 2,
+          "testing/quick": 2,
+          "regexp": 2,
+          "golang.org/x/oauth2": 2,
+          "mime": 2,
+          "os/exec": 2,
+          "github.com/fatih/color": 2,
+          "github.com/ahmetb/kubectx/internal/testutil": 2,
+          "context": 2,
+          "github.com/spf13/viper": 2,
+          "github.com/odeke-em/drive/src/dcrypto": 1,
+          "github.com/odeke-em/drive/config": 1,
+          "github.com/odeke-em/drive/src": 1,
+          "github.com/odeke-em/command": 1,
+          "os/signal": 1,
+          "github.com/odeke-em/drive/gen": 1,
+          "golang.org/x/oauth2/jwt": 1,
+          "path": 1,
+          "log": 1,
+          "net/http/httptest": 1,
+          "unicode": 1,
+          "unicode/utf8": 1,
+          "bolt": 1,
+          "runtime/pprof": 1,
+          "\\tTotal": 1,
+          "Tree": 1,
+          "\\tNumber": 1,
+          "\\tBytes": 1,
+          "github.com/boltdb/bolt/cmd/bolt": 1,
+          "Bucket": 1,
+          "Page": 1,
+          "runtime/debug": 1,
+          "golang.org/x/oauth2/google": 1,
+          "github.com/prasmussen/gdrive/drive": 1,
+          "application/vnd.google-apps.form": 1,
+          "application/vnd.google-apps.presentation": 1,
+          "application/vnd.google-apps.script": 1,
+          "application/vnd.google-apps.spreadsheet": 1,
+          "application/vnd.google-apps.drawing": 1,
+          "application/vnd.google-apps.document": 1,
+          "github.com/soniakeys/graph": 1,
+          "github.com/sabhiram/go-gitignore": 1,
+          "facette.io/natsort": 1,
+          "k8s.io/client-go/tools/clientcmd": 1,
+          "k8s.io/client-go/kubernetes": 1,
+          "namespace": 1,
+          "A=B": 1,
+          "PATH=/foo:/bar:/bin": 1,
+          "KUBECTX_CURRENT_FGCOLOR=1": 1,
+          "KUBECTX_CURRENT_BGCOLOR=2": 1,
+          "github.com/arl/statsviz": 1,
+          "ArchivedMD5": 1,
+          "ImageKey": 1,
+          "FileName": 1,
+          "UploadKey": 1,
+          "crypto/rand": 1,
+          "oauth_timestamp": 1,
+          "sync/atomic": 1,
+          "encoding/base64": 1,
+          "oauth_version": 1,
+          "crypto/sha1": 1,
+          "oauth_callback": 1,
+          "crypto/hmac": 1,
+          "oauth_signature": 1,
+          "oauth_verifier": 1,
+          "oauth_session_handle": 1,
+          "oauth_consumer_key": 1,
+          "oauth_signature_method": 1,
+          "oauth_token": 1,
+          "oauth_nonce": 1,
+          "net/url": 1,
+          "github.com/tommyblue/smugmug-backup/testutil": 1,
+          "github.com/sirupsen/logrus": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 5,
+        "packages": {
+          "path": 3,
+          "fs": 3,
+          "minimist": 3,
+          "webpack": 2,
+          "terser-webpack-plugin": 1,
+          "tslint-webpack-plugin": 1,
+          "merge-options": 1,
+          "ankitbko.vscode-pull-request-azdo": 1,
+          "ankitbko.vscode-pull-request-azdo-insiders": 1,
+          "graphql-tag": 1,
+          "util": 1,
+          "svg-inline-loader": 1,
+          "mkdirp": 1,
+          "glob": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 30,
+        "packages": {
+          "cz.frantisekmasa": 28,
+          "com.google": 12,
+          "cz.muni": 8,
+          "kotlinx.coroutines": 8,
+          "androidx.compose": 6,
+          "io.github": 4,
+          "androidx.appcompat": 2,
+          "androidx.activity": 2,
+          "org.kodein": 2,
+          "org.junit": 1,
+          "androidx.test": 1,
+          "android.app": 1,
+          "android.os": 1,
+          "cafe.adriel": 1,
+          "io.ktor": 1,
+          "android.net": 1,
+          "android.content": 1,
+          "org.jetbrains": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 1,
+        "packages": {
+          "=": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 2,
+        "packages": {
+          "warnings": 2,
+          "strict": 2,
+          "File::Copy": 1,
+          "File::Basename": 1,
+          "Digest::SHA": 1,
+          "IO::Uncompress::Gunzip": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 27,
+        "packages": {
+          "sys": 15,
+          "os": 14,
+          "argparse": 8,
+          "json": 6,
+          "re": 5,
+          "uuid": 5,
+          "numpy": 5,
+          "requests": 4,
+          "subprocess": 3,
+          "rauth": 3,
+          "urllib": 3,
+          "common": 3,
+          "unittest": 3,
+          "VLite": 3,
+          "main": 3,
+          "platform": 2,
+          "logging": 2,
+          "datetime": 2,
+          "xml": 2,
+          "PyPDF2": 2,
+          "OAuth1Session": 2,
+          "API_ORIGIN": 2,
+          "bottle": 2,
+          "tqdm": 2,
+          "Path": 2,
+          "pathlib": 2,
+          "typing": 2,
+          "load_file": 2,
+          "SentenceTransformer": 2,
+          "Stats": 2,
+          "cProfile": 2,
+          "pstats": 2,
+          "sentence_transformers": 2,
+          "transformers": 2,
+          "ycm_core": 1,
+          "include": 1,
+          "hmac": 1,
+          "hashlib": 1,
+          "glob": 1,
+          "fnmatch": 1,
+          "enum": 1,
+          "shutil": 1,
+          "basename": 1,
+          "dfhack": 1,
+          "sphinx": 1,
+          "shlex": 1,
+          "write_file_if_changed": 1,
+          "text": 1,
+          "urllib3": 1,
+          "extract_text": 1,
+          "pdfminer": 1,
+          "PdfReader": 1,
+          "OAuth1Service": 1,
+          "urlsplit": 1,
+          "redirect": 1,
+          "get_service": 1,
+          "webutil": 1,
+          "html": 1,
+          "*": 1,
+          "that": 1,
+          "urlparse": 1,
+          "request": 1,
+          "colored": 1,
+          "fg": 1,
+          "bs4": 1,
+          "BeautifulSoup": 1,
+          "uvtt2fgu": 1,
+          "Image": 1,
+          "BytesIO": 1,
+          "PIL": 1,
+          "errno": 1,
+          "configparser": 1,
+          "io": 1,
+          "minidom": 1,
+          "base64": 1,
+          "getenv": 1,
+          "Optional": 1,
+          "sin": 1,
+          "math": 1,
+          "setuptools": 1,
+          "setup": 1,
+          "time": 1,
+          "vlite": 1,
+          "chromadb": 1,
+          "pandas": 1,
+          "embedding_functions": 1,
+          "qdrant_client": 1,
+          "Distance": 1,
+          "QdrantClient": 1,
+          "pinecone": 1,
+          "model": 1,
+          "EmbeddingModel": 1,
+          "pickle": 1,
+          "matplotlib": 1,
+          "utils": 1,
+          "uuid4": 1,
+          "torch": 1,
+          "AutoModel": 1,
+          "pysbd": 1,
+          "List": 1,
+          "itertools": 1,
+          "regex": 1,
+          "AutoTokenizer": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 19,
+        "packages": {
+          "vscode": 14,
+          "azure-devops-node-api": 7,
+          "path": 4,
+          "remotes": 2,
+          "No": 2,
+          "uninitialized": 1,
+          "graphql": 1,
+          "util": 1,
+          "octokit": 1,
+          "typed-rest-client": 1,
+          "ReposManagerStateContext": 1,
+          "Squash": 1,
+          "github-pr-owner-number": 1,
+          "fast-deep-equal": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ccthiel/cpp-simple",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "ccthiel/dfhack",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Lua",
+          "Perl",
+          "Python"
+        ]
+      },
+      {
+        "repository": "ccthiel/drive",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ccthiel/gdrive",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ccthiel/kubectx",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ccthiel/onlineaccess",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ccthiel/smugmug-backup",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "ccthiel/SmugMug-Downloader",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ccthiel/uvtt2fgu",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ccthiel/vlite",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ccthiel/vscode-pull-request-azdo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "ccthiel/wfrp-master",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      }
+    ]
+  }
+}

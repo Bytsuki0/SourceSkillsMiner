@@ -1,0 +1,204 @@
+{
+  "username": "ayekay42",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.08333333333333334,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ayekay42",
+    "analysis_date": "2026-02-22T14:50:48.400247",
+    "total_repos_analyzed": 2,
+    "total_files_analyzed": 57,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 29,
+        "packages": {
+          "<Foundation/Foundation.h>": 18,
+          "<UIKit/UIKit.h>": 10,
+          "PFConstants.h": 9,
+          "PFUser.h": 6,
+          "PFObject.h": 6,
+          "PFSubclassing.h": 3,
+          "PFQuery.h": 3,
+          "PFFile.h": 2,
+          "this": 2,
+          "PFTableViewCell.h": 2,
+          "<CoreGraphics/CoreGraphics.h>": 1,
+          "<Cocoa/Cocoa.h>": 1,
+          "<FacebookSDK/FBSession.h>": 1,
+          "<CoreLocation/CoreLocation.h>": 1,
+          "PFLogInView.h": 1,
+          "PFSignUpViewController.h": 1,
+          "relationForKey": 1,
+          "PFACL.h": 1,
+          "PFQueryTableViewController.h": 1,
+          "<StoreKit/StoreKit.h>": 1,
+          "<AudioToolbox/AudioToolbox.h>": 1,
+          "PFGeoPoint.h": 1,
+          "PF_EGORefreshTableHeaderView.h": 1,
+          "PFSignUpView.h": 1,
+          "PFImageView.h": 1,
+          "PF_Twitter.h": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 1,
+        "packages": {
+          "MBProgressHUD.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 26,
+        "packages": {
+          "flask": 10,
+          "os": 8,
+          "werkzeug": 7,
+          "Flask": 6,
+          "functools": 5,
+          "sys": 5,
+          "pytest": 4,
+          "yourapplication": 4,
+          "update_wrapper": 4,
+          "datetime": 3,
+          "inspect": 3,
+          "setup": 3,
+          "setuptools": 3,
+          "warnings": 3,
+          "__future__": 2,
+          "time": 2,
+          "pkg_resources": 2,
+          "print_function": 2,
+          "re": 2,
+          "jinja2": 2,
+          "Blueprint": 2,
+          "dbapi2": 2,
+          "sqlite3": 2,
+          "flaskr": 2,
+          "init_db": 2,
+          "tempfile": 2,
+          "app": 2,
+          "Lock": 2,
+          "threading": 2,
+          "run_simple": 2,
+          "warn": 2,
+          "sphinx": 1,
+          "simple_page": 1,
+          "TemplateNotFound": 1,
+          "blueprintexample": 1,
+          "find_modules": 1,
+          "create_app": 1,
+          "md5": 1,
+          "check_password_hash": 1,
+          "hashlib": 1,
+          "minitwit": 1,
+          "redirect": 1,
+          "abort": 1,
+          "Markup": 1,
+          "for": 1,
+          "getargspec": 1,
+          "io": 1,
+          "StringIO": 1,
+          "cStringIO": 1,
+          "getfullargspec": 1,
+          "BuildError": 1,
+          "itertools": 1,
+          "Headers": 1,
+          "timedelta": 1,
+          "load_dotenv": 1,
+          "name": 1,
+          "make_test_environ_builder": 1,
+          "chain": 1,
+          "OPTIONS": 1,
+          "BadRequest": 1,
+          "required_methods": 1,
+          "FlaskClient": 1,
+          ":meth:`register_error_handler`": 1,
+          "a": 1,
+          "operator": 1,
+          "attrgetter": 1,
+          "code": 1,
+          "_app_ctx_stack": 1,
+          "traceback": 1,
+          "path": 1,
+          "ast": 1,
+          "click": 1,
+          "dotenv": 1,
+          "import_string": 1,
+          "errno": 1,
+          "types": 1,
+          "default_config": 1,
+          "the": 1,
+          ":meth:`from_object`": 1,
+          "copy_current_request_context": 1,
+          "gevent": 1,
+          "HTTPException": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ayekay42/flask",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ayekay42/stripe-ios",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      }
+    ]
+  }
+}

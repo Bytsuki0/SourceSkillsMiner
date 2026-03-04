@@ -1,0 +1,661 @@
+{
+  "username": "steder",
+  "areas": {
+    "OSS": {
+      "score": 0.8965141612200436,
+      "details": {
+        "issue_resolution_rate": 0.20588235294117646,
+        "pr_merge_rate": 1.6388888888888888,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "steder/aws-snippets": 0.35472857142857145,
+        "steder/DeepSeek-V3": 0.7229,
+        "steder/DeepSeek-VL2": 0.8152,
+        "steder/fantasy": 0.9549,
+        "steder/foosball.io": 0.23331538461538462,
+        "steder/giraffe": 0.08987173913043478,
+        "steder/goose": 0.16180833333333333,
+        "steder/gophernaut": 0.4926,
+        "steder/pundler": 0.22351315789473683,
+        "steder/snippets": 0.8152,
+        "steder/spinneret": 0.17412,
+        "steder/txtemplate": 0.35074,
+        "steder/words": 0.296,
+        "steder/zilla": 0.565
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.720282386458857,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        2766,
+        12
+      ],
+      "Python": [
+        451097,
+        391
+      ],
+      "HTML": [
+        147735,
+        59
+      ],
+      "Shell": [
+        4652,
+        8
+      ],
+      "Makefile": [
+        1348,
+        3
+      ],
+      "Ruby": [
+        5996,
+        10
+      ],
+      "Go": [
+        2332,
+        63
+      ],
+      "JavaScript": [
+        303678,
+        76
+      ],
+      "Perl": [
+        658,
+        0
+      ],
+      "CSS": [
+        118351,
+        28
+      ],
+      "Dockerfile": [
+        285,
+        2
+      ],
+      "TypeScript": [
+        192,
+        1
+      ],
+      "Haskell": [
+        518,
+        19
+      ],
+      "C": [
+        2232,
+        0
+      ],
+      "Fortran": [
+        0,
+        0
+      ],
+      "Emacs Lisp": [
+        91773,
+        4
+      ],
+      "Vim Script": [
+        310,
+        0
+      ],
+      "ApacheConf": [
+        273,
+        0
+      ],
+      "Diff": [
+        80,
+        0
+      ],
+      "TeX": [
+        26,
+        0
+      ],
+      "Prolog": [
+        2,
+        0
+      ],
+      "Procfile": [
+        20,
+        0
+      ],
+      "Rust": [
+        1208,
+        4
+      ],
+      "Objective-C": [
+        1392,
+        7
+      ],
+      "Puppet": [
+        26,
+        0
+      ]
+    },
+    "language_count": 25,
+    "total_commits": 687,
+    "total_lines": 1136950,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 451097,
+        "commits": 391
+      },
+      {
+        "language": "JavaScript",
+        "lines": 303678,
+        "commits": 76
+      },
+      {
+        "language": "Go",
+        "lines": 2332,
+        "commits": 63
+      },
+      {
+        "language": "HTML",
+        "lines": 147735,
+        "commits": 59
+      },
+      {
+        "language": "CSS",
+        "lines": 118351,
+        "commits": 28
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "steder",
+    "analysis_date": "2026-02-24T09:04:21.968311",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 127,
+    "languages": {
+      "Go": {
+        "files_scanned": 7,
+        "packages": {
+          "fmt": 6,
+          "os": 5,
+          "io": 3,
+          "strings": 3,
+          "net": 2,
+          "io/ioutil": 2,
+          "net/http": 1,
+          "time": 1,
+          "log": 1,
+          "github.com/davecgh/go-spew/spew": 1,
+          "math": 1,
+          "bytes": 1,
+          "encoding/json": 1,
+          "testing": 1,
+          "grep": 1,
+          "regexp": 1,
+          "bufio": 1,
+          "\\n": 1,
+          "sort": 1,
+          "code.google.com/p/go-sqlite/go1/sqlite3": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 94,
+        "packages": {
+          "typing": 30,
+          "os": 23,
+          "logging": 17,
+          "django": 17,
+          "json": 16,
+          "sys": 15,
+          "Any": 13,
+          "torch": 13,
+          "collections": 10,
+          "datetime": 10,
+          "__future__": 10,
+          "argparse": 9,
+          "transformers": 9,
+          "time": 8,
+          "bedrock_agentcore": 8,
+          "boto3": 8,
+          "migrations": 8,
+          "botocore": 7,
+          "dataclasses": 7,
+          "rest_framework": 7,
+          "sqlalchemy": 7,
+          "flask": 6,
+          "dataclass": 6,
+          "uuid": 6,
+          "math": 6,
+          "PIL": 6,
+          "deepseek_vl2": 6,
+          "pytest": 6,
+          "create_engine": 6,
+          "urllib": 5,
+          "boto": 5,
+          "re": 5,
+          "requests": 5,
+          "ArgumentParser": 5,
+          "List": 5,
+          "Image": 5,
+          "example": 5,
+          "unicode_literals": 5,
+          "text": 5,
+          "Optional": 4,
+          "Config": 4,
+          "functools": 4,
+          "ClientError": 4,
+          "copy": 4,
+          "Dict": 4,
+          "glob": 4,
+          "models": 4,
+          "reverse": 4,
+          "pprint": 3,
+          "warnings": 3,
+          "enum": 3,
+          "base64": 3,
+          "random": 3,
+          "Flask": 3,
+          "safetensors": 3,
+          "gradio": 3,
+          "io": 3,
+          "rest_framework_json_api": 3,
+          "utils": 3,
+          "serializers": 3,
+          "unittest": 3,
+          "itertools": 3,
+          "neopixel": 2,
+          "board": 2,
+          "audioio": 2,
+          "parse": 2,
+          "redis": 2,
+          "AutoScaleConnection": 2,
+          "pathlib": 2,
+          "subprocess": 2,
+          "Path": 2,
+          "asyncio": 2,
+          "DEFAULT_REGION": 2,
+          "typing_extensions": 2,
+          "concurrent": 2,
+          "wraps": 2,
+          "event": 2,
+          "parent": 2,
+          "BaseModel": 2,
+          "pydantic": 2,
+          "Enum": 2,
+          "strands": 2,
+          "threading": 2,
+          "pdb": 2,
+          "urllib2": 2,
+          "gzip": 2,
+          "tqdm": 2,
+          "kernel": 2,
+          "Tuple": 2,
+          "nn": 2,
+          "PretrainedConfig": 2,
+          "numpy": 2,
+          "flash_attn": 2,
+          "einops": 2,
+          "annotations": 2,
+          "DeepseekVLV2Processor": 2,
+          "AutoModelForCausalLM": 2,
+          "DeepseekVLV2ForCausalLM": 2,
+          "Response": 2,
+          "mock": 2,
+          "memoize_to_disk": 2,
+          "jinja2": 2,
+          "Decimal": 2,
+          "decimal": 2,
+          "Template": 2,
+          "jsonify": 2,
+          "request": 2,
+          "render_template": 2,
+          "setup": 2,
+          "setuptools": 2,
+          "division": 2,
+          "absolute_import": 2,
+          "print_function": 2,
+          "fabric": 2,
+          "cd": 2,
+          "OrderedDict": 2,
+          "HTTPError": 2,
+          "wand": 2,
+          "fastapi": 2,
+          "Color": 2,
+          "digitalio": 1,
+          "Evaluator": 1,
+          "convert_strands_to_adot": 1,
+          "strands_evals": 1,
+          "TypeVar": 1,
+          "EvaluationData": 1,
+          "BedrockAgentCoreContext": 1,
+          "IdentityClient": 1,
+          "contextvars": 1,
+          "add_*_strategy_and_wait": 1,
+          "events": 1,
+          "strategy": 1,
+          "SessionMessage": 1,
+          "Agent": 1,
+          "HookRegistry": 1,
+          "ThreadPoolExecutor": 1,
+          "TYPE_CHECKING": 1,
+          "MemoryClient": 1,
+          "Message": 1,
+          "SessionException": 1,
+          "Session": 1,
+          "override": 1,
+          "SessionRepository": 1,
+          "RepositorySessionManager": 1,
+          "MessageAddedEvent": 1,
+          "RetrievalConfig": 1,
+          "AWSRequest": 1,
+          "secrets": 1,
+          "quote": 1,
+          "SigV4Auth": 1,
+          "networkx": 1,
+          "ast": 1,
+          "pyplot": 1,
+          "matplotlib": 1,
+          "sleekxmpp": 1,
+          "ClientXMPP": 1,
+          "settings": 1,
+          "ssl": 1,
+          "WebSocketServerProtocol": 1,
+          "log": 1,
+          "twisted": 1,
+          "WSGIResource": 1,
+          "Site": 1,
+          "reactor": 1,
+          "WebSocketServerFactory": 1,
+          "autobahn": 1,
+          "listenWS": 1,
+          "StringIO": 1,
+          "dateutil": 1,
+          "shutil": 1,
+          "safe_open": 1,
+          "weight_dequant": 1,
+          "load_file": 1,
+          "Transformer": 1,
+          "load_model": 1,
+          "model": 1,
+          "AutoTokenizer": 1,
+          "triton": 1,
+          "act_quant": 1,
+          "IntEnum": 1,
+          "_prepare_4d_causal_attention_mask": 1,
+          "Cache": 1,
+          "BCEWithLogitsLoss": 1,
+          "ACT2FN": 1,
+          "PreTrainedModel": 1,
+          "implements": 1,
+          "it": 1,
+          "flash_attn_func": 1,
+          "repeat": 1,
+          "index_first_axis": 1,
+          "is_torch_fx_available": 1,
+          "ipdb": 1,
+          "attrdict": 1,
+          "AttrDict": 1,
+          "rearrange": 1,
+          "ModelOutput": 1,
+          "gc": 1,
+          "torchvision": 1,
+          "LlamaTokenizerFast": 1,
+          "pad_sequence": 1,
+          "ProcessorMixin": 1,
+          "flash_attn_qkvpacked_func": 1,
+          "Final": 1,
+          "is_flash_attn_2_available": 1,
+          "memory_efficient_attention": 1,
+          "xformers": 1,
+          "partial": 1,
+          "named_apply": 1,
+          "timm": 1,
+          "convert_asis": 1,
+          "gr": 1,
+          "pygments": 1,
+          "highlight": 1,
+          "mdtex2html": 1,
+          "ClassNotFound": 1,
+          "html": 1,
+          "markdown": 1,
+          "HtmlFormatter": 1,
+          "instance": 1,
+          "Thread": 1,
+          "Conversation": 1,
+          "joblib": 1,
+          "parse_ref_bbox": 1,
+          "SeparatorStyle": 1,
+          "reload_javascript": 1,
+          "VERSION": 1,
+          "shlex": 1,
+          "main": 1,
+          "sphinx": 1,
+          "sphinx_rtd_theme": 1,
+          "PostSerializer": 1,
+          "IdentitySerializer": 1,
+          "generics": 1,
+          "action": 1,
+          "encoding": 1,
+          "factory": 1,
+          "faker": 1,
+          "Factory": 1,
+          "ContentType": 1,
+          "GenericForeignKey": 1,
+          "polymorphic": 1,
+          "PolymorphicModel": 1,
+          "relations": 1,
+          "comments": 1,
+          "fields": 1,
+          "APITestCase": 1,
+          "get_user_model": 1,
+          "register": 1,
+          "APIClient": 1,
+          "pytest_factoryboy": 1,
+          "type": 1,
+          "included": 1,
+          "deepcopy": 1,
+          "status": 1,
+          "CORS": 1,
+          "werkzeug": 1,
+          "make_ssl_devcert": 1,
+          "checker": 1,
+          "_ast": 1,
+          "atexit": 1,
+          "pyflakes": 1,
+          "Environment": 1,
+          "Migrate": 1,
+          "SQLAlchemy": 1,
+          "Manager": 1,
+          "with_statement": 1,
+          "context": 1,
+          "fileConfig": 1,
+          "engine_from_config": 1,
+          "current_app": 1,
+          "alembic": 1,
+          "LiveServerTestCase": 1,
+          "tempfile": 1,
+          "app": 1,
+          "Game": 1,
+          "foosball": 1,
+          "selenium": 1,
+          "webdriver": 1,
+          "mapper": 1,
+          "multiprocessing": 1,
+          "put": 1,
+          "hammock": 1,
+          "virtualenv": 1,
+          "service": 1,
+          "sed": 1,
+          "join": 1,
+          "fabtools": 1,
+          "contextlib": 1,
+          "namedtuple": 1,
+          "tinys3": 1,
+          "StaticFiles": 1,
+          "Font": 1,
+          "asynccontextmanager": 1,
+          "BytesIO": 1,
+          "hashlib": 1,
+          "Jinja2Templates": 1,
+          "FastAPI": 1,
+          "hmac": 1,
+          "uvicorn": 1,
+          "giraffe": 1,
+          "Drawing": 1,
+          "TestClient": 1,
+          "HTTPException": 1,
+          "MissingDelegateError": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "steder/arduino-sandbox",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/aws-snippets",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/bedrock-agentcore-sdk-python",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/blueprint",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/captains-log",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "steder/carty",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/chatterbox",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/Command-Line-MLB-Box-Score",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/DeepSeek-V3",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/DeepSeek-VL2",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/django-rest-framework-json-api",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/fantasy",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/flakypy",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/foosball.io",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/foreignkey-constrainer",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/giraffe",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "steder/go-sandbox",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

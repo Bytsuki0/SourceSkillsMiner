@@ -1,0 +1,737 @@
+{
+  "username": "wagner",
+  "areas": {
+    "OSS": {
+      "score": 0.8531453852371769,
+      "details": {
+        "issue_resolution_rate": 0.9,
+        "pr_merge_rate": 1.0333333333333334,
+        "commits_activity": 0.8463847445224318
+      }
+    },
+    "Status": {
+      "score": 0.2707892722478429,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8484916006794567,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "wagner/dns-ruby-com-br": 0.15996296296296297
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.630983664371255,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        22336,
+        14
+      ],
+      "HTML": [
+        5537,
+        11
+      ],
+      "HCL": [
+        262,
+        8
+      ],
+      "Python": [
+        439,
+        36
+      ],
+      "C++": [
+        117,
+        1
+      ],
+      "Shell": [
+        868,
+        1
+      ],
+      "Dockerfile": [
+        164,
+        0
+      ],
+      "C": [
+        129,
+        0
+      ],
+      "Rust": [
+        6,
+        0
+      ],
+      "CSS": [
+        6041,
+        7
+      ],
+      "JavaScript": [
+        5275,
+        6
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 84,
+    "total_lines": 41174,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 439,
+        "commits": 36
+      },
+      {
+        "language": "Ruby",
+        "lines": 22336,
+        "commits": 14
+      },
+      {
+        "language": "HTML",
+        "lines": 5537,
+        "commits": 11
+      },
+      {
+        "language": "HCL",
+        "lines": 262,
+        "commits": 8
+      },
+      {
+        "language": "CSS",
+        "lines": 6041,
+        "commits": 7
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "wagner",
+    "analysis_date": "2026-02-23T19:26:47.144184",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 314,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "esphome.h": 1,
+          "namespace": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 6,
+        "packages": {
+          "__esModule": 2,
+          "object": 2,
+          "theme": 1,
+          "react": 1,
+          "actions": 1,
+          "fs": 1,
+          "url": 1,
+          "rails": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "docusaurus": 1,
+          "react": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 26,
+        "packages": {
+          "typing": 19,
+          "frigate": 11,
+          "pydantic": 10,
+          "Any": 9,
+          "logging": 8,
+          "os": 8,
+          "BaseModel": 8,
+          "datetime": 7,
+          "json": 6,
+          "homeassistant": 5,
+          "Optional": 5,
+          "sys": 4,
+          "__future__": 4,
+          "find_config_file": 4,
+          "ruamel": 4,
+          "asyncio": 4,
+          "HomeAssistant": 4,
+          "voluptuous": 3,
+          "re": 3,
+          "multiprocessing": 3,
+          "Path": 3,
+          "pathlib": 3,
+          "FrigateConfig": 3,
+          "Tags": 3,
+          "fastapi": 3,
+          "JSONResponse": 3,
+          "APIRouter": 3,
+          "peewee": 3,
+          "ConfigEntry": 3,
+          "annotations": 3,
+          "numpy": 2,
+          "cv2": 2,
+          "YAML": 2,
+          "ValidationError": 2,
+          "Union": 2,
+          "argparse": 2,
+          "Event": 2,
+          "time": 2,
+          "List": 2,
+          "DoesNotExist": 2,
+          "SkipJsonSchema": 2,
+          "zoneinfo": 2,
+          "aiohttp": 2,
+          "requests": 1,
+          "Entity": 1,
+          "METRIC_SYSTEM": 1,
+          "SensorDeviceClass": 1,
+          "noaa_coops": 1,
+          "timezone": 1,
+          "math": 1,
+          "PLATFORM_SCHEMA": 1,
+          "print_function": 1,
+          "statistics": 1,
+          "FrigateProcess": 1,
+          "mean": 1,
+          "DetectorTypeEnum": 1,
+          "create_mask": 1,
+          "ImprovedMotionDetector": 1,
+          "MotionConfig": 1,
+          "openvino": 1,
+          "mo": 1,
+          "parse_preset_hardware_acceleration_encode": 1,
+          "rknn": 1,
+          "RKNN": 1,
+          "yaml": 1,
+          "signal": 1,
+          "FrigateApp": 1,
+          "faulthandler": 1,
+          "threading": 1,
+          "setup_logging": 1,
+          "AppTimelineHourlyQueryParameters": 1,
+          "traceback": 1,
+          "reduce": 1,
+          "jsonable_encoder": 1,
+          "get_metrics": 1,
+          "Depends": 1,
+          "functools": 1,
+          "io": 1,
+          "markupsafe": 1,
+          "escape": 1,
+          "copy": 1,
+          "urllib": 1,
+          "AppConfigSetBody": 1,
+          "aiofiles": 1,
+          "VERSION": 1,
+          "SQL": 1,
+          "StringIO": 1,
+          "get_tz_modifiers": 1,
+          "CONFIG_DIR": 1,
+          "AuthConfig": 1,
+          "Limiter": 1,
+          "base64": 1,
+          "slowapi": 1,
+          "ipaddress": 1,
+          "hashlib": 1,
+          "User": 1,
+          "secrets": 1,
+          "jwt": 1,
+          "this": 1,
+          "joserfc": 1,
+          "DetectConfig": 1,
+          "playhouse": 1,
+          "shutil": 1,
+          "GenericResponse": 1,
+          "get_event_snapshot": 1,
+          "require_role": 1,
+          "pathvalidate": 1,
+          "model_to_dict": 1,
+          "string": 1,
+          "sanitize_filename": 1,
+          "random": 1,
+          "CLIPS_DIR": 1,
+          "EmbeddingsContext": 1,
+          "ObjectClassificationType": 1,
+          "Enum": 1,
+          "enum": 1,
+          "RegenerateDescriptionEnum": 1,
+          "SeverityEnum": 1,
+          "Dict": 1,
+          "TriggerType": 1,
+          "Platform": 1,
+          "ButtonEntity": 1,
+          "DeviceInfo": 1,
+          "AddEntitiesCallback": 1,
+          "config_entries": 1,
+          "available_timezones": 1,
+          "FlowResult": 1,
+          "ZoneInfo": 1,
+          "WSMsgType": 1,
+          "device_registry": 1,
+          "onetimepass": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 114,
+        "packages": {
+          "gsl": 30,
+          "test_helper": 10,
+          "Command::Collection": 9,
+          "bench_press": 5,
+          "Math": 5,
+          "Command::DSL": 5,
+          "distribution": 4,
+          "active_support": 4,
+          "yaml": 3,
+          "i18n/tasks/command/dsl": 3,
+          "json": 3,
+          "httparty": 3,
+          "Constants": 3,
+          "GSL::Blas": 3,
+          "active_record": 2,
+          "i18n": 2,
+          "::I18n::Tasks::Logging": 2,
+          "i18n/tasks/command/collection": 2,
+          "i18n/tasks/command/option_parsers/enum": 2,
+          "time": 2,
+          "slack_notifier": 2,
+          "net/http": 2,
+          "ActiveSupport::Rescuable": 2,
+          "active_support/rescuable": 2,
+          "Callbacks": 2,
+          "active_support/callbacks": 2,
+          "ActiveSupport::Callbacks": 2,
+          "GSL::CONST::NUM": 2,
+          "GSL::CONST::CGSM": 2,
+          "GSL::CONST::MKSA": 2,
+          "active_record/result": 1,
+          "active_record/connection_adapters/column": 1,
+          "active_record/connection_adapters/abstract_adapter": 1,
+          "arel/visitors/amazon_timestream": 1,
+          "active_record/connection_adapters/amazon_timestream/schema_statements": 1,
+          "aws-sdk-timestreamquery": 1,
+          "AmazonTimestream::DatabaseStatements": 1,
+          "active_record/connection_adapters/amazon_timestream/quoting": 1,
+          "active_record/connection_adapters/amazon_timestream/database_statements": 1,
+          "aws-sdk-core": 1,
+          "AmazonTimestream::Quoting": 1,
+          "AmazonTimestream::SchemaStatements": 1,
+          "active_record/connection_adapters/amazon_timestream_adapter": 1,
+          "arel/visitors": 1,
+          "pathname": 1,
+          "bundler": 1,
+          "rubygems": 1,
+          "pp": 1,
+          "rubygems/remote_fetcher": 1,
+          "tempfile": 1,
+          "rubygems/name_tuple": 1,
+          "simplecov": 1,
+          "statsample": 1,
+          "benchmark": 1,
+          "bigdecimal": 1,
+          "library.to_s": 1,
+          "distribution/math_extension": 1,
+          "distribution/beta": 1,
+          "distribution/gamma": 1,
+          "distribution/exponential": 1,
+          "distribution/chisquare": 1,
+          "distribution/bivariatenormal": 1,
+          "distribution/t": 1,
+          "distribution/shorthand": 1,
+          "distribution/lognormal": 1,
+          "distribution/hypergeometric": 1,
+          "distribution/version": 1,
+          "distribution/f": 1,
+          "distribution/binomial": 1,
+          "distribution/distributable": 1,
+          "distribution/poisson": 1,
+          "commons-math-2.2.jar": 1,
+          "distribution/normal": 1,
+          "distribution/weibull": 1,
+          "distribution/logistic": 1,
+          "distribution/beta/java": 1,
+          "distribution/beta/ruby": 1,
+          "distribution/beta/gsl": 1,
+          "distribution/binomial/gsl": 1,
+          "distribution/binomial/java": 1,
+          "distribution/binomial/ruby": 1,
+          "distribution/bivariatenormal/java": 1,
+          "distribution/bivariatenormal/ruby": 1,
+          "distribution/bivariatenormal/gsl": 1,
+          "distribution/chisquare/statistics2": 1,
+          "distribution/chisquare/ruby": 1,
+          "distribution/chisquare/gsl": 1,
+          "distribution/chisquare/java": 1,
+          "distribution/exponential/gsl": 1,
+          "distribution/exponential/ruby": 1,
+          "distribution/f/gsl": 1,
+          "distribution/f/statistics2": 1,
+          "distribution/f/java": 1,
+          "distribution/f/ruby": 1,
+          "groupdate/adapters/mysql_adapter": 1,
+          "active_support/core_ext/module/attribute_accessors": 1,
+          "groupdate/adapters/timestream_adapter": 1,
+          "groupdate/enumerable": 1,
+          "groupdate/series_builder": 1,
+          "active_support/time": 1,
+          "groupdate/adapters/postgresql_adapter": 1,
+          "groupdate/adapters/sqlite_adapter": 1,
+          "groupdate/magic": 1,
+          "groupdate/active_record": 1,
+          "groupdate/version": 1,
+          "groupdate/adapters/base_adapter": 1,
+          "groupdate/query_methods": 1,
+          "groupdate/relation": 1,
+          "active_support/concern": 1,
+          "support/activerecord": 1,
+          "logger": 1,
+          "minitest/pride": 1,
+          "ostruct": 1,
+          "adapters/#{adapter}": 1,
+          "minitest/autorun": 1,
+          "bundler/setup": 1,
+          "date": 1,
+          "Holidays": 1,
+          "holidays/#{prefix}": 1,
+          "holidays/north_america": 1,
+          "digest/md5": 1,
+          "holidays/#{r.to_s}": 1,
+          "erubi": 1,
+          "active_support/core_ext/array/access": 1,
+          "active_support/core_ext/hash": 1,
+          "active_support/core_ext/array/extract_options": 1,
+          "active_support/core_ext/module/delegation": 1,
+          "active_support/inflector": 1,
+          "i18n/tasks/base_task": 1,
+          "rainbow": 1,
+          "ruby-progressbar": 1,
+          "active_support/core_ext/object/blank": 1,
+          "i18n/tasks/version": 1,
+          "active_support/core_ext/object/try": 1,
+          "Configuration": 1,
+          "i18n/tasks/command_error": 1,
+          "KeyPatternMatching": 1,
+          "i18n/tasks/unused_keys": 1,
+          "i18n/tasks/stats": 1,
+          "i18n/tasks/references": 1,
+          "i18n/tasks/locale_pathname": 1,
+          "MissingKeys": 1,
+          "Data": 1,
+          "Interpolations": 1,
+          "i18n/tasks/missing_keys": 1,
+          "Logging": 1,
+          "i18n/tasks/ignore_keys": 1,
+          "i18n/tasks/string_interpolation": 1,
+          "i18n/tasks/configuration": 1,
+          "i18n/tasks/plural_keys": 1,
+          "i18n/tasks/logging": 1,
+          "i18n/tasks/used_keys": 1,
+          "References": 1,
+          "HtmlKeys": 1,
+          "Stats": 1,
+          "i18n/tasks/data": 1,
+          "i18n/tasks/prune": 1,
+          "i18n/tasks/html_keys": 1,
+          "i18n/tasks/interpolations": 1,
+          "i18n/tasks/translation": 1,
+          "i18n/tasks/split_key": 1,
+          "UsedKeys": 1,
+          "IgnoreKeys": 1,
+          "Prune": 1,
+          "SplitKey": 1,
+          "i18n/tasks/key_pattern_matching": 1,
+          "i18n/tasks/locale_list": 1,
+          "Translation": 1,
+          "UnusedKeys": 1,
+          "PluralKeys": 1,
+          "i18n/tasks/commands": 1,
+          "i18n/tasks": 1,
+          "dotenv": 1,
+          "optparse": 1,
+          "i18n/tasks/command/options/data": 1,
+          "Command::Options::Common": 1,
+          "Command::Options::Locales": 1,
+          "Command::Options::Data": 1,
+          "i18n/tasks/command/options/locales": 1,
+          "i18n/tasks/command/options/common": 1,
+          "i18n/tasks/cli": 1,
+          "i18n/tasks/reports/terminal": 1,
+          "i18n/tasks/console_context": 1,
+          "::I18n::Tasks::Command::Collection": 1,
+          "I18n::Tasks::KeyPatternMatching": 1,
+          "i18n/tasks/command/option_parsers/locale": 1,
+          "i18n/tasks/command/commands/missing": 1,
+          "i18n/tasks/command/commands/health": 1,
+          "Command::Commands::CheckPrism": 1,
+          "Command::Commands::Prune": 1,
+          "highline/import": 1,
+          "Command::Commands::Data": 1,
+          "i18n/tasks/command/commands/meta": 1,
+          "Command::Commands::Missing": 1,
+          "i18n/tasks/command/commands/check_prism": 1,
+          "Command::Commands::Interpolations": 1,
+          "i18n/tasks/command/commands/data": 1,
+          "i18n/tasks/command/commands/prune": 1,
+          "Command::Commands::EqBase": 1,
+          "Command::Commands::Meta": 1,
+          "i18n/tasks/command/commands/usages": 1,
+          "Command::Commands::Usages": 1,
+          "Command::Commands::Tree": 1,
+          "i18n/tasks/command/commander": 1,
+          "i18n/tasks/command/commands/eq_base": 1,
+          "i18n/tasks/command/commands/tree": 1,
+          "Command::Commands::Health": 1,
+          "i18n/tasks/command/commands/interpolations": 1,
+          "i18n/tasks/concurrent/cached_value": 1,
+          "irb/ext/multi-irb": 1,
+          "irb": 1,
+          "i18n/tasks/data/file_system": 1,
+          "feedjira": 1,
+          "agent_integrations/segment": 1,
+          "agent_integrations/agent": 1,
+          "agent_integrations/external_request_segment": 1,
+          "agent_integrations/datastore_segment": 1,
+          "proto/infinite_tracing_pb": 1,
+          "proto/infinite_tracing_services_pb": 1,
+          "grpc": 1,
+          "google/protobuf": 1,
+          "GRPC::GenericService": 1,
+          "Enumerable": 1,
+          ":flush_queue": 1,
+          "infinite_tracing/channel": 1,
+          "infinite_tracing/suspended_streaming_buffer": 1,
+          "infinite_tracing/agent_integrations": 1,
+          "infinite_tracing/client": 1,
+          "infinite_tracing/proto": 1,
+          "infinite_tracing/connection": 1,
+          "infinite_tracing/transformer": 1,
+          "infinite_tracing/version": 1,
+          "infinite_tracing/record_status_handler": 1,
+          "infinite_tracing/streaming_buffer": 1,
+          "uri": 1,
+          "infinite_tracing/worker": 1,
+          "infinite_tracing/config": 1,
+          "newrelic_rpm": 1,
+          "infinite_tracing/constants": 1,
+          "mkmf": 1,
+          "rb_sys/mkmf": 1,
+          "socket": 1,
+          "action_cable/version": 1,
+          "zeitwerk": 1,
+          "action_cable/deprecator": 1,
+          "active_support/rails": 1,
+          "active_support/parameter_filter": 1,
+          "Naming": 1,
+          "Streams": 1,
+          "PeriodicTimers": 1,
+          "Broadcasting": 1,
+          "active_support/core_ext/object/to_param": 1,
+          "ActiveSupport::Testing::ConstantLookup": 1,
+          "stop_periodic_timers": 1,
+          "active_support/test_case": 1,
+          "Behavior": 1,
+          "active_support/core_ext/hash/indifferent_access": 1,
+          "ActionCable::TestHelper": 1,
+          "action_dispatch": 1,
+          "Identification": 1,
+          "Authorization": 1,
+          "InternalChannel": 1,
+          "=": 1,
+          "websocket/driver": 1,
+          "digest": 1,
+          "GSL": 1,
+          "curses": 1,
+          "GSL::Dirac": 1,
+          "GSL::Eigen": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 28,
+        "packages": {
+          "crate": 26,
+          "polars": 21,
+          "magnus": 21,
+          "polars_core": 8,
+          "std": 8,
+          "super": 2,
+          "smartstring": 1,
+          "conversion": 1,
+          "lazygroupby": 1,
+          "series": 1,
+          "lazyframe": 1,
+          "error": 1,
+          "expr": 1,
+          "functions": 1,
+          "jemallocator": 1,
+          "mimalloc": 1,
+          "batched_csv": 1,
+          "dataframe": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 33,
+        "packages": {
+          "homebridge": 27,
+          "axios": 3,
+          "docusaurus": 2,
+          "actions": 2,
+          "docusaurus-plugin-openapi-docs": 1,
+          "node:path": 1,
+          "https:": 1,
+          "HomeBridgeSmartThings": 1,
+          "homebridge-smartthings-ik": 1,
+          "path": 1,
+          "markdown-table": 1,
+          "aki77": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "wagner/activerecord-amazon-timestream-adapter",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wagner/catalog",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wagner/distribution",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wagner/esphome-modular-lvgl-buttons",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "wagner/esphome-tuya_pir",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "wagner/frigate-1",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "wagner/groupdate",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wagner/holidays",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wagner/homebridge-smartthings",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "wagner/i18n-tasks",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wagner/Matter-Time-Sync",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "wagner/newrelic-ruby-agent",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "Ruby",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "wagner/polars-ruby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "wagner/rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wagner/rails-fingerprinter",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "wagner/rb-gsl",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

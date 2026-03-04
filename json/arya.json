@@ -1,0 +1,247 @@
+{
+  "username": "arya",
+  "areas": {
+    "OSS": {
+      "score": 0.5711274838407354,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.856691225761103
+      }
+    },
+    "Status": {
+      "score": 0.3275377402509918,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.856691225761103,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "arya/pandemic": 0.2202
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5746663060229318,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        5893,
+        93
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 93,
+    "total_lines": 5893,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 5893,
+        "commits": 93
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "arya",
+    "analysis_date": "2026-02-23T06:36:38.263830",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 91,
+    "languages": {
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "util/delay.h": 1,
+          "<avr/pgmspace.h>": 1,
+          "<util/delay.h>": 1,
+          "Adafruit_SSD1306.h": 1,
+          "<stdlib.h>": 1,
+          "<Wire.h>": 1,
+          "Wire.h": 1,
+          "stdlib.h": 1,
+          "Adafruit_GFX.h": 1,
+          "avr/pgmspace.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<SPI.h>": 1,
+          "WProgram.h": 1,
+          "Arduino.h": 1,
+          "<Adafruit_GFX.h>": 1,
+          "SPI.h": 1,
+          "Adafruit_GFX.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 27,
+        "packages": {
+          "fmt": 14,
+          "time": 13,
+          "testing": 9,
+          "github.com/stretchr/testify/assert": 7,
+          "os": 6,
+          "sync": 6,
+          "strings": 6,
+          "log": 5,
+          "context": 5,
+          "bytes": 5,
+          "net": 4,
+          "github.com/mixpanel/obs/metrics": 4,
+          "github.com/mixpanel/obs/logging": 3,
+          "runtime": 3,
+          "io": 3,
+          "syscall": 2,
+          "github.com/mixpanel/obs/tracing": 2,
+          "google.golang.org/grpc": 2,
+          "github.com/opentracing/opentracing-go/ext": 2,
+          "encoding/json": 2,
+          "errors": 2,
+          "strconv": 1,
+          "github.com/mixpanel/obs": 1,
+          "container_name": 1,
+          "k8s.io/client-go/rest": 1,
+          "k8s.io/client-go/pkg/api/v1": 1,
+          "pod_name": 1,
+          "pod_namespace": 1,
+          "k8s.io/client-go/kubernetes": 1,
+          "os/signal": 1,
+          "github.com/mixpanel/obs/closesig": 1,
+          "lineNumber": 1,
+          "reportLocation": 1,
+          "filePath": 1,
+          "functionName": 1,
+          "service": 1,
+          "google.golang.org/grpc/metadata": 1,
+          "sort": 1,
+          "io/ioutil": 1,
+          "log/syslog": 1,
+          "a": 1,
+          "math/rand": 1,
+          "scope.latency_us": 1,
+          "b": 1,
+          "math": 1,
+          "regexp": 1,
+          "github.com/mixpanel/obs/util": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          ":": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 19,
+        "packages": {
+          "test_helper": 9,
+          "TestHelper": 7,
+          "Util": 6,
+          "pandemic": 3,
+          "rubygems": 3,
+          "Pandemize": 2,
+          "json": 2,
+          "pp": 1,
+          "pandemic/server_side/server": 1,
+          "pandemic/server_side/request": 1,
+          "monitor": 1,
+          "yaml": 1,
+          "pandemic/mutex_counter": 1,
+          "pandemic/client_side/cluster_connection": 1,
+          "socket": 1,
+          "pandemic/connection_pool": 1,
+          "optparse": 1,
+          "pandemic/server_side/handler": 1,
+          "pandemic/server_side/processor": 1,
+          "digest/md5": 1,
+          "pandemic/server_side/client": 1,
+          "pandemic/requests_per_second": 1,
+          "logger": 1,
+          "fastthread": 1,
+          "pandemic/util": 1,
+          "pandemic/client_side/pandemize": 1,
+          "thread": 1,
+          "pandemic/client_side/config": 1,
+          "pandemic/client_side/connection": 1,
+          "pandemic/server_side/config": 1,
+          "pandemic/server_side/peer": 1,
+          "pandemic/client_side/connection_proxy": 1,
+          "mocha": 1,
+          "shoulda": 1,
+          "test/unit": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 6,
+        "packages": {
+          "type": 3,
+          "top": 2,
+          "viewport": 1,
+          "absolute": 1,
+          "width": 1,
+          "start": 1,
+          "x": 1,
+          "reference": 1,
+          "floating-ui": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "arya/Adafruit_SSD1306",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "arya/floating-ui",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "arya/obs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "arya/pandemic",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

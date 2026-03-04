@@ -1,0 +1,117 @@
+{
+  "username": "unpush",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7692307692307692,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.6538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "unpush/p2-php": 0.2263
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6256410256410256,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Vim Script": [
+        14,
+        2
+      ],
+      "JavaScript": [
+        23157,
+        66
+      ],
+      "PHP": [
+        72674,
+        161
+      ],
+      "Perl": [
+        57,
+        0
+      ],
+      "HTML": [
+        51,
+        0
+      ],
+      "CSS": [
+        13,
+        0
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 229,
+    "total_lines": 95966,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 72674,
+        "commits": 161
+      },
+      {
+        "language": "JavaScript",
+        "lines": 23157,
+        "commits": 66
+      },
+      {
+        "language": "Vim Script",
+        "lines": 14,
+        "commits": 2
+      },
+      {
+        "language": "Perl",
+        "lines": 57,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 51,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "list index out of range",
+    "username": "unpush",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "username": "postpostmodern",
+  "areas": {
+    "OSS": {
+      "score": 0.3069906770859221,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.960486015628883
+      }
+    },
+    "Status": {
+      "score": 0.3454522155474604,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.960486015628883,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "postpostmodern/gitup": 0.18704285714285712,
+        "postpostmodern/phooey": 0.2672833333333333,
+        "postpostmodern/sass-generator-tmbundle": 0.5559000000000001,
+        "postpostmodern/sass-textmate-bundle": 0.1179
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.4631107231583456,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        2157,
+        33
+      ],
+      "HTML": [
+        624,
+        3
+      ],
+      "JavaScript": [
+        4230,
+        5
+      ],
+      "Ruby": [
+        5217,
+        65
+      ],
+      "PHP": [
+        17651,
+        52
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 158,
+    "total_lines": 29879,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 5217,
+        "commits": 65
+      },
+      {
+        "language": "PHP",
+        "lines": 17651,
+        "commits": 52
+      },
+      {
+        "language": "Shell",
+        "lines": 2157,
+        "commits": 33
+      },
+      {
+        "language": "JavaScript",
+        "lines": 4230,
+        "commits": 5
+      },
+      {
+        "language": "HTML",
+        "lines": 624,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "postpostmodern",
+    "analysis_date": "2026-02-23T06:20:00.738783",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 202,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 8,
+        "packages": {
+          "rails": 3,
+          "fs": 2,
+          "__esModule": 2,
+          "object": 2,
+          "turbolinks": 1,
+          "trix": 1,
+          "channels": 1,
+          "1.1.6": 1,
+          "file": 1,
+          "undefined": 1,
+          "system": 1,
+          "url": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 9,
+        "packages": {
+          "smartypants.php": 3,
+          "markdown.php": 2,
+          "spyc.php": 1,
+          "phooey/system/inc/spyc.php": 1,
+          "PostPostMailer.class.php": 1,
+          "lib/": 1,
+          "stp.php": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 72,
+        "packages": {
+          "AuthenticatedTestHelper": 11,
+          "<%=": 7,
+          "ControllerMocks": 6,
+          "active_support": 3,
+          "active_support/core_ext/string/inflections": 3,
+          "Callbacks": 3,
+          "ActiveSupport::Callbacks": 3,
+          "openai": 3,
+          "ActiveSupport::Rescuable": 3,
+          "resourceful/builder": 3,
+          "AuthenticatedSystem": 3,
+          "active_support/rails": 2,
+          "yaml": 2,
+          "abstract_controller": 2,
+          "AbstractController::Translation": 2,
+          "AbstractController::AssetPaths": 2,
+          "AbstractController::Callbacks": 2,
+          "AbstractController::Helpers": 2,
+          "ActionView::Layouts": 2,
+          "AbstractController::Caching": 2,
+          "AbstractController::Rendering": 2,
+          "base": 2,
+          "active_agent/action_prompt/action": 2,
+          "response": 2,
+          "open_ai_provider": 2,
+          "base64": 2,
+          "BootstrapForm::Helper": 2,
+          "colorize": 2,
+          "http_accept_language": 2,
+          "active_support/rescuable": 2,
+          "active_support/callbacks": 2,
+          "json": 2,
+          "digest/sha1": 2,
+          "ApplicationHelper": 2,
+          "rubygems": 2,
+          "active_support/core_ext/module/attr_internal": 1,
+          "active_agent/railtie": 1,
+          "active_support/lazy_load_hooks": 1,
+          "active_agent/generation_provider": 1,
+          "active_agent/deprecator": 1,
+          "active_support/core_ext/class": 1,
+          "active_agent/version": 1,
+          "AbstractController::Layouts": 1,
+          "GenerationProvider": 1,
+          "GenerationMethods": 1,
+          "Previews": 1,
+          "active_agent/rescuable": 1,
+          "active_agent/collector": 1,
+          "active_support/core_ext/module/anonymous": 1,
+          "active_support/core_ext/hash/except": 1,
+          "AbstractController::Logger": 1,
+          "Parameterized": 1,
+          "QueuedGeneration": 1,
+          "FormBuilder": 1,
+          "Rescuable": 1,
+          "message": 1,
+          "active_agent/prompt_helper": 1,
+          "active_agent/action_prompt/base": 1,
+          "active_support/core_ext/hash/reverse_merge": 1,
+          "AbstractController::Collector": 1,
+          "active_support/core_ext/array/extract_options": 1,
+          "abstract_controller/collector": 1,
+          "delegate": 1,
+          "active_job": 1,
+          "tmpdir": 1,
+          "action_prompt": 1,
+          "active_agent/generation_provider/#{config[": 1,
+          "anthropic": 1,
+          "Base64": 1,
+          "active_support/descendants_tracker": 1,
+          "active_agent": 1,
+          "ActiveAgent::TestCase::ClearTestDeliveries": 1,
+          "AbstractController::UrlFor": 1,
+          "app.routes.mounted_helpers": 1,
+          "ActiveAgent::TestHelper": 1,
+          "rails": 1,
+          "active_job/railtie": 1,
+          "abstract_controller/railties/routes_helpers": 1,
+          "test_helper": 1,
+          "boot": 1,
+          "bootstrap_form": 1,
+          "rails/all": 1,
+          "bundler/setup": 1,
+          "application": 1,
+          "git_branch": 1,
+          "time": 1,
+          "HttpAcceptLanguage": 1,
+          "test/unit": 1,
+          "resourceful/maker": 1,
+          "resourceful/default/callbacks": 1,
+          "resourceful/default/accessors": 1,
+          "Resourceful::Default::URLs": 1,
+          "Resourceful::Default::Responses": 1,
+          "resourceful/default/urls": 1,
+          "resourceful/default/responses": 1,
+          "Resourceful::Default::Callbacks": 1,
+          "Resourceful::Default::Accessors": 1,
+          "build": 1,
+          "resourceful/serialize": 1,
+          "resourceful/response": 1,
+          "resourceful/default/actions": 1,
+          "Resourceful::Base": 1,
+          "resourceful/base": 1,
+          "action_controller/url_rewriter": 1,
+          "net/http": 1,
+          "socket": 1,
+          "action_cable/deprecator": 1,
+          "action_cable/version": 1,
+          "zeitwerk": 1,
+          "Naming": 1,
+          "PeriodicTimers": 1,
+          "Broadcasting": 1,
+          "Streams": 1,
+          "active_support/parameter_filter": 1,
+          "active_support/core_ext/object/to_param": 1,
+          "ActionCable::TestHelper": 1,
+          "stop_periodic_timers": 1,
+          "active_support/core_ext/hash/indifferent_access": 1,
+          "Behavior": 1,
+          "active_support/test_case": 1,
+          "ActiveSupport::Testing::ConstantLookup": 1,
+          "InternalChannel": 1,
+          "Identification": 1,
+          "action_dispatch": 1,
+          "Authorization": 1,
+          "=": 1,
+          "websocket/driver": 1,
+          "Authentication::ByCookieToken": 1,
+          "Authentication::ByPassword": 1,
+          "Authorization::StatefulRoles<%": 1,
+          "Authentication": 1,
+          "file": 1,
+          "spec/rails/story_adapter": 1,
+          "spec/story": 1,
+          "ToFooFromStory": 1,
+          "ActionMailer::Quoting": 1,
+          "spec/rails/matchers/views": 1,
+          "spec/rails/matchers/validations": 1,
+          "spec/rails/matchers/observers": 1,
+          "spec/rails/matchers/associations": 1,
+          "packer.rb": 1,
+          "sass": 1,
+          "activeresource": 1,
+          "async/websocket/client": 1,
+          "async": 1,
+          "async/http/endpoint": 1,
+          "faraday": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "vue": 1,
+          "virtual:group-icons.css": 1,
+          "vitepress": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "postpostmodern/activeagent",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "postpostmodern/bootstrap_form",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "postpostmodern/CircaTweet",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "postpostmodern/git-branch-report",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "postpostmodern/http_accept_language",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "postpostmodern/logbook",
+        "files_analyzed": 4,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "postpostmodern/make_resourceful",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "postpostmodern/phooey",
+        "files_analyzed": 22,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "postpostmodern/rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "postpostmodern/restful-authentication",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "postpostmodern/rspec-on-rails-matchers",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "postpostmodern/sass-generator-tmbundle",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "postpostmodern/slicehost-dns",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "postpostmodern/socket2me",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

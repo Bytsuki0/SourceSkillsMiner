@@ -1,0 +1,511 @@
+{
+  "username": "jlecour",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 2.1219512195121952,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.6,
+      "details": {
+        "jlecour/capistrano-sidekiq": -0.16728,
+        "jlecour/geokit-rails": 0.28313333333333335,
+        "jlecour/git-ruby-syntax-check": -0.4767,
+        "jlecour/rrdbeat": 0.027150000000000007,
+        "jlecour/ssl-gandi-nginx-debian": 0.14944339622641512
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6525641025641026,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        1349269,
+        139
+      ],
+      "Shell": [
+        1120,
+        26
+      ],
+      "JavaScript": [
+        151535,
+        62
+      ],
+      "Vim Script": [
+        1928,
+        43
+      ],
+      "HTML": [
+        3,
+        0
+      ],
+      "CSS": [
+        12,
+        0
+      ],
+      "Erlang": [
+        24,
+        2
+      ],
+      "Elixir": [
+        890,
+        1
+      ],
+      "Go": [
+        496,
+        2
+      ],
+      "Makefile": [
+        357,
+        2
+      ],
+      "Python": [
+        159,
+        0
+      ],
+      "C": [
+        91,
+        3
+      ],
+      "Roff": [
+        24,
+        0
+      ],
+      "Perl": [
+        10,
+        0
+      ],
+      "Objective-C": [
+        7,
+        0
+      ],
+      "AppleScript": [
+        0,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 280,
+    "total_lines": 1505925,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 1349269,
+        "commits": 139
+      },
+      {
+        "language": "JavaScript",
+        "lines": 151535,
+        "commits": 62
+      },
+      {
+        "language": "Vim Script",
+        "lines": 1928,
+        "commits": 43
+      },
+      {
+        "language": "Shell",
+        "lines": 1120,
+        "commits": 26
+      },
+      {
+        "language": "C",
+        "lines": 91,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jlecour",
+    "analysis_date": "2026-02-22T12:38:19.035066",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 266,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "pair.h": 2,
+          "ruby.h": 1,
+          "<ctype.h>": 1,
+          "ctype.h": 1,
+          "common.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "ruby.h": 1,
+          "common.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "underscore": 1,
+          "0.9.1": 1,
+          "mustache.js": 1,
+          "0.5.0-dev": 1,
+          "{{": 1,
+          "undefined": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 126,
+        "packages": {
+          "brakeman/checks/base_check": 22,
+          "test/unit": 15,
+          "test_helper": 11,
+          "rubygems": 10,
+          "Amatch": 8,
+          "amatch": 8,
+          "InstanceMethods": 6,
+          "set": 5,
+          "active_support": 4,
+          "active_record": 4,
+          "yaml": 3,
+          "fileutils": 3,
+          "ActiveModel::SerializerSupport": 3,
+          "rails": 3,
+          "bundler/setup": 3,
+          "brakeman/processors/lib/processor_helper": 3,
+          "brakeman/checks/check_cross_site_scripting": 3,
+          "carrierwave": 3,
+          "benchmark": 2,
+          "active_support/core_ext/class/attribute": 2,
+          ":read_attribute_for_serialization": 2,
+          "active_model": 2,
+          "action_controller": 2,
+          "test_fakes": 2,
+          "rbconfig": 2,
+          "amatch_ext": 2,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 2,
+          "initializer": 2,
+          "boot": 2,
+          "brakeman/differ": 2,
+          "brakeman/util": 2,
+          "breadcrumbs_on_rails": 2,
+          "net/http": 2,
+          "carrierwave/storage/ftp": 2,
+          "carrierwave/storage/sftp": 2,
+          "spec_helper": 2,
+          "chronic": 2,
+          "file": 2,
+          "etl/http_tools": 1,
+          "csv": 1,
+          "etl/builder": 1,
+          "faster_csv": 1,
+          "etl/version": 1,
+          "etl/engine": 1,
+          "etl/parser": 1,
+          "etl/core_ext": 1,
+          "etl/row": 1,
+          "erb": 1,
+          "feature": 1,
+          "etl/batch": 1,
+          "rexml/rexml": 1,
+          "etl/control": 1,
+          "etl/util": 1,
+          "adapter_extensions": 1,
+          "etl/processor": 1,
+          "etl/screen": 1,
+          "etl/transform": 1,
+          "etl/generator": 1,
+          "logger": 1,
+          "etl/batch/directives": 1,
+          "etl/batch/batch": 1,
+          "etl/builder/time_dimension_builder": 1,
+          "etl/builder/date_dimension_builder": 1,
+          "getoptlong": 1,
+          "etl/control/source": 1,
+          "etl/control/control": 1,
+          "etl/control/destination": 1,
+          "Test::Unit::Assertions": 1,
+          "test/unit/assertions": 1,
+          "Enumerable": 1,
+          "etl/core_ext/time": 1,
+          "ETL::CoreExtensions::Time::Calculations": 1,
+          "etl/execution": 1,
+          "config/environment": 1,
+          "ETL::Util": 1,
+          "etl/execution/base": 1,
+          "etl/execution/job": 1,
+          "etl/execution/migration": 1,
+          "etl/execution/batch": 1,
+          "ActionController::Renderers": 1,
+          "active_support/core_ext/module/anonymous": 1,
+          "plural_key": 1,
+          "inspect": 1,
+          "active_model/serializer": 1,
+          "::ActionController::Serialization": 1,
+          "action_controller/serialization": 1,
+          "active_support/notifications": 1,
+          "generators/resource_override": 1,
+          "app.routes.url_helpers": 1,
+          "active_model/array_serializer": 1,
+          "active_support/core_ext/string/inflections": 1,
+          "active_model/serializer/associations": 1,
+          "rails/generators": 1,
+          "rails/generators/rails/resource/resource_generator": 1,
+          "=>": 1,
+          "generators/serializer/serializer_generator": 1,
+          "pathname": 1,
+          "ActiveModel::ArraySerializerSupport": 1,
+          "pry": 1,
+          "active_model_serializers": 1,
+          "active_support/json": 1,
+          "simplecov": 1,
+          "#{File.dirname(__FILE__)}/lib/acts-as-dag": 1,
+          "dag/poly_columns": 1,
+          "dag/edges": 1,
+          "dag/columns": 1,
+          "dag/polymorphic": 1,
+          "dag/dag": 1,
+          "dag/standard": 1,
+          "dag/validators": 1,
+          "Standard": 1,
+          "ActiveModel::Validations": 1,
+          "Columns": 1,
+          "Polymorphic": 1,
+          "PolyColumns": 1,
+          "Edges": 1,
+          "activerecord": 1,
+          "ActiveRecord::ConnectionAdapters": 1,
+          "#{ENV[": 1,
+          "flexmock/test_unit": 1,
+          "pp": 1,
+          "connection/#{db}/connection": 1,
+          "mkmf": 1,
+          "FileUtils::Verbose": 1,
+          "Config": 1,
+          "amatch/rude": 1,
+          "::Amatch::StringMethods": 1,
+          "test_levenshtein": 1,
+          "Active": 1,
+          "performance_test_help": 1,
+          "test_help": 1,
+          "openssl": 1,
+          "bcrypt": 1,
+          "digest/md5": 1,
+          "digest/sha1": 1,
+          "digest/sha2": 1,
+          "authlogic/i18n/translator": 1,
+          ":t": 1,
+          "boolean/version": 1,
+          "boolean": 1,
+          "terminal-table": 1,
+          "multi_json": 1,
+          "name": 1,
+          "brakeman/scanner": 1,
+          "brakeman/report/ignore/config": 1,
+          "brakeman/report/ignore/interactive": 1,
+          "brakeman/rescanner": 1,
+          "f.match": 1,
+          "f": 1,
+          "thread": 1,
+          "Brakeman::Util": 1,
+          "brakeman/processors/output_processor": 1,
+          "brakeman/warning": 1,
+          "Brakeman::ProcessorHelper": 1,
+          "brakeman/processors/lib/find_call": 1,
+          "breadcrumbs_on_rails/breadcrumbs": 1,
+          "breadcrumbs_on_rails/railtie": 1,
+          "breadcrumbs_on_rails/version": 1,
+          "breadcrumbs_on_rails/action_controller": 1,
+          "BreadcrumbsOnRails::ActionController": 1,
+          "mocha": 1,
+          "rails/railtie": 1,
+          "tasks/capistrano2": 1,
+          "carrierwave/storage/ftp/ex_ftp": 1,
+          "net/ftp": 1,
+          "net/sftp": 1,
+          "carrierwave/storage/ftp/ex_sftp": 1,
+          "rspec": 1,
+          "tempfile": 1,
+          "chronic/repeaters/repeater_weekday": 1,
+          "chronic/time_zone": 1,
+          "chronic/repeaters/repeater_day": 1,
+          "chronic/repeaters/repeater_minute": 1,
+          "chronic/repeaters/repeater_fortnight": 1,
+          "time": 1,
+          "chronic/handlers": 1,
+          "chronic/chronic": 1,
+          "chronic/separator": 1,
+          "chronic/repeaters/repeater_second": 1,
+          "chronic/repeaters/repeater_day_name": 1,
+          "chronic/repeaters/repeater_week": 1,
+          "chronic/repeaters/repeater_season_name": 1,
+          "chronic/repeaters/repeater_weekend": 1,
+          "numerizer/numerizer": 1,
+          "chronic/grabber": 1,
+          "chronic/repeaters/repeater_year": 1,
+          "chronic/pointer": 1,
+          "chronic/scalar": 1,
+          "chronic/repeaters/repeater_season": 1,
+          "chronic/ordinal": 1,
+          "chronic/repeaters/repeater_month": 1,
+          "chronic/repeaters/repeater_month_name": 1,
+          "chronic/repeaters/repeater_hour": 1,
+          "chronic/repeater": 1,
+          "chronic/repeaters/repeater_day_portion": 1,
+          "chronic/repeaters/repeater_time": 1,
+          "chronic/repeaters/repeater_season.rb": 1,
+          "strscan": 1,
+          "formula": 1,
+          "ck_fu": 1,
+          "Umlatte": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jlecour/activewarehouse-etl",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/active_model_serializers",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/acts-as-dag",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/adapter_extensions",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/amatch",
+        "files_analyzed": 18,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/authlogic",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/bigdesk",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jlecour/boolean",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/brakeman",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/breadcrumbs_on_rails",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/capistrano-sidekiq",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/carrierwave-ftp",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/chronic",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/chruby",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jlecour/ck_fu",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

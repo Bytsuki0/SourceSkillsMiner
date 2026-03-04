@@ -1,0 +1,452 @@
+{
+  "username": "schlu",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.6666666666666667,
+        "commits_activity": 0.9942855728605616
+      }
+    },
+    "Status": {
+      "score": 0.3653798179247343,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9903774191947936,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "schlu/Ipa-Reader": 0.2680166666666667
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6413449544811836,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        71841,
+        10
+      ],
+      "JavaScript": [
+        33384,
+        9
+      ],
+      "CSS": [
+        11220,
+        12
+      ],
+      "Swift": [
+        2255,
+        5
+      ],
+      "Objective-C": [
+        73818,
+        60
+      ],
+      "C": [
+        172,
+        0
+      ],
+      "Ruby": [
+        70223,
+        69
+      ],
+      "HTML": [
+        7305,
+        12
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 177,
+    "total_lines": 270218,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 70223,
+        "commits": 69
+      },
+      {
+        "language": "Objective-C",
+        "lines": 73818,
+        "commits": 60
+      },
+      {
+        "language": "CSS",
+        "lines": 11220,
+        "commits": 12
+      },
+      {
+        "language": "HTML",
+        "lines": 7305,
+        "commits": 12
+      },
+      {
+        "language": "TypeScript",
+        "lines": 71841,
+        "commits": 10
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "schlu",
+    "analysis_date": "2026-02-22T23:34:54.604629",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 266,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 30,
+        "packages": {
+          "<Cocoa/Cocoa.h>": 11,
+          "<Foundation/Foundation.h>": 7,
+          "<UIKit/UIKit.h>": 4,
+          "NDSSampleOperationBase.h": 4,
+          "NDSGraphOperationBase.h": 2,
+          "FMPSDStream.h": 2,
+          "sqlite3.h": 2,
+          "<ApplicationServices/ApplicationServices.h>": 1,
+          "FMPSDLayer.h": 1,
+          "<Accelerate/Accelerate.h>": 1,
+          "<QuartzCore/QuartzCore.h>": 1,
+          "FMPSDDescriptor.h": 1,
+          "<SQLite/SQLite-Bridging.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 11,
+        "packages": {
+          "gatsby": 6,
+          "react": 5,
+          "tailwindcss": 2,
+          "404:": 1,
+          "gatsby-plugin-image": 1,
+          "Using": 1,
+          "1.6.0": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 35,
+        "packages": {
+          "FMPSD.h": 11,
+          "PFRTextPart.h": 4,
+          "FMPSDTextEngineParser.h": 4,
+          "NDSOperationGraph.h": 3,
+          "XCTest/XCTest.h": 3,
+          "<XCTest/XCTest.h>": 3,
+          "PFRPSD.h": 3,
+          "PFRPSDLayer.h": 3,
+          "CrashLog.h": 2,
+          "<Cocoa/Cocoa.h>": 2,
+          "Cocoa/Cocoa.h": 2,
+          "NDSAppDelegate.h": 2,
+          "NDSOperationFoo.h": 2,
+          "NDSOperationBaz.h": 2,
+          "NDSOperationBar.h": 2,
+          "NDSOperationZap.h": 2,
+          "UIKit/UIKit.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "PFRDropView.h": 2,
+          "PFRPSDOutputController.h": 2,
+          "QuartzCore/QuartzCore.h": 2,
+          "FMPSDStream.h": 2,
+          "<QuartzCore/QuartzCore.h>": 2,
+          "FMPSDCIFilters.h": 2,
+          "FMPSDUtils.h": 2,
+          "TMPAppDelegate.h": 2,
+          "InstaPaperLib.h": 1,
+          "CrashLogFinderAppDelegate.h": 1,
+          "NDSGraphOperationBase.h": 1,
+          "NDSViewController.h": 1,
+          "NDSSampleOperationBase.h": 1,
+          "PFRAppDelegate.h": 1,
+          "FMPSDDescriptor.h": 1,
+          "Accelerate/Accelerate.h": 1,
+          "<Accelerate/Accelerate.h>": 1,
+          "FMPSDLayer.h": 1,
+          "fts3_tokenizer.h": 1,
+          "sqlite3.h": 1,
+          "SQLite-Bridging.h": 1,
+          "TMPViewController.h": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 39,
+        "packages": {
+          "rubygems": 10,
+          "Rush::Commands": 4,
+          "test/unit": 3,
+          "fileutils": 3,
+          "test_helper": 3,
+          "thread": 2,
+          "Rush::HeadTail": 2,
+          "rush/shell": 2,
+          "yaml": 2,
+          "Enumerable": 2,
+          "rush": 2,
+          "sinatra": 1,
+          "json": 1,
+          "zip": 1,
+          "cfpropertylist": 1,
+          "zlib": 1,
+          "File.join": 1,
+          "File.expand_path": 1,
+          "rails": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "boot": 1,
+          "Active": 1,
+          "dispatcher": 1,
+          "performance_test_help": 1,
+          "test_help": 1,
+          "rush/access": 1,
+          "rush/ssh_tunnel": 1,
+          "rush/box": 1,
+          "rush/local": 1,
+          "rush/entry": 1,
+          "rush/exceptions": 1,
+          "rush/process_set": 1,
+          "rush/string_ext": 1,
+          "rush/array_ext": 1,
+          "rush/find_by": 1,
+          "rush/fixnum_ext": 1,
+          "rush/head_tail": 1,
+          "rush/config": 1,
+          "rush/commands": 1,
+          "rush/file": 1,
+          "rush/dir": 1,
+          "rush/process": 1,
+          "rush/embeddable_shell": 1,
+          "rush/search_results": 1,
+          "rush/remote": 1,
+          "Rush::FindBy": 1,
+          "win32ole": 1,
+          "session": 1,
+          "etc": 1,
+          "net/http": 1,
+          "mongrel": 1,
+          "base64": 1,
+          "readline": 1,
+          "spec": 1,
+          "rushmate/user_input": 1,
+          "TM_SUPPORT_PATH": 1,
+          "rushmate/command": 1,
+          "rushmate/exit": 1,
+          "rushmate/textmate_helper": 1,
+          "TextmateHelper": 1,
+          ":tm_project_directory?": 1,
+          ":tm_current_word": 1,
+          ":tm_project_directory": 1,
+          ":tm_current_line": 1,
+          ":tm_selected_text": 1,
+          "mocha": 1,
+          "rushmate": 1,
+          "rbconfig": 1,
+          "rake/tasklib": 1,
+          "webrick": 1,
+          "test_running_validator": 1,
+          "minitest/autorun": 1,
+          "cocoapods/validator": 1,
+          "cocoapods": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 59,
+        "packages": {
+          "UIKit": 29,
+          "AppKit": 27,
+          "Foundation": 15,
+          "XCTest": 13,
+          "SQLite": 7,
+          "CSQLite": 3,
+          "sqlite3": 3,
+          "class": 3,
+          "PlaygroundSupport": 2,
+          "whisper_cpp": 2,
+          "Dispatch": 1,
+          "var": 1,
+          "func": 1,
+          "PackageDescription": 1,
+          "FoundationNetworking": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "gatsby": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "react": 2,
+          "gatsby": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "schlu/2limes_web",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "schlu/advent_of_code",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "schlu/gps_logger",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "schlu/hlee_web",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "schlu/instaPaperLib",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "schlu/Ipa-Reader",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "schlu/iphone4r",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "schlu/iPhoneCrashLogFinder",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "schlu/NDSOperationGraph",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "schlu/nicholasschlueter.com",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "schlu/PSD-Font-Reader",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "schlu/rush",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "schlu/rushmate",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "schlu/simpltryjs",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "schlu/SQLite.swift",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Ruby",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "schlu/SwiftSVG",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "schlu/SwiftWhisper",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "schlu/TemplateImageTest",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      }
+    ]
+  }
+}

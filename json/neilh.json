@@ -1,0 +1,259 @@
+{
+  "username": "neilh",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.3333333333333333,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.16666666666666669,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "neilh",
+    "analysis_date": "2026-02-22T14:21:28.960080",
+    "total_repos_analyzed": 11,
+    "total_files_analyzed": 105,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 5,
+        "packages": {
+          "gulp": 1,
+          "gulp-if": 1,
+          "gulp-eslint": 1,
+          "gulp-rename": 1,
+          "gulp-uglify": 1,
+          "drool": 1,
+          "assert": 1,
+          "path": 1,
+          "crypto-js": 1,
+          "ws": 1,
+          "body-parser": 1,
+          "express": 1,
+          "jQuery": 1,
+          "border=1>": 1,
+          ").attr(": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 79,
+        "packages": {
+          "django": 27,
+          "six": 20,
+          "migrations": 15,
+          "ethereum": 11,
+          "os": 10,
+          "unittest": 10,
+          "logging": 10,
+          "invoicing": 9,
+          "tester": 9,
+          "utils": 8,
+          "viper": 8,
+          "Invoice": 7,
+          "sys": 7,
+          "struct": 7,
+          "re": 6,
+          "io": 6,
+          "compiler": 6,
+          "pytest": 6,
+          "models": 5,
+          "__future__": 5,
+          "unicode_literals": 5,
+          "BytesIO": 5,
+          "settings": 3,
+          "hashlib": 3,
+          "pdfminer": 3,
+          "tests": 3,
+          "assert_tx_failed": 3,
+          "json": 2,
+          "admin": 2,
+          "ugettext_lazy": 2,
+          "django_countries": 2,
+          "jsonfield": 2,
+          "model_utils": 2,
+          "chardet": 2,
+          "setup": 2,
+          "setuptools": 2,
+          "nose": 2,
+          "SkipTest": 2,
+          "*": 2,
+          "assert_equal": 2,
+          "time": 2,
+          "MagicMock": 2,
+          "optimizer": 2,
+          "PyEthereumTestCase": 2,
+          "normpath": 1,
+          "reverse_lazy": 1,
+          "decimal": 1,
+          "Decimal": 1,
+          "patterns": 1,
+          "get_wsgi_application": 1,
+          "execute_from_command_line": 1,
+          "Coalesce": 1,
+          "F": 1,
+          "mark_safe": 1,
+          "ValidationError": 1,
+          "forms": 1,
+          "south": 1,
+          "add_introspection_rules": 1,
+          "loader": 1,
+          "HttpResponse": 1,
+          "django_iban": 1,
+          "pygame": 1,
+          "array": 1,
+          "cPickle": 1,
+          "gzip": 1,
+          "pickle": 1,
+          "ImageChops": 1,
+          "Image": 1,
+          "PIL": 1,
+          "sortedcontainers": 1,
+          "SortedListWithKey": 1,
+          "collections": 1,
+          "AES": 1,
+          "Crypto": 1,
+          "SHA256": 1,
+          "md5": 1,
+          "ARC4": 1,
+          "zlib": 1,
+          "binascii": 1,
+          "flask": 1,
+          "Flask": 1,
+          "bot": 1,
+          "SlackClient": 1,
+          "team_join": 1,
+          "message": 1,
+          "slackclient": 1,
+          "JSON": 1,
+          "yaml": 1,
+          "recommonmark": 1,
+          "CommonMarkParser": 1,
+          "rlp_decoder": 1,
+          "transactions": 1,
+          "rlp_decoder_bytes": 1,
+          "rlp": 1,
+          "LogRecorder": 1,
+          "tester2": 1,
+          "MemoryPositions": 1,
+          "LLLnode": 1,
+          "erc20_tests_2": 1,
+          "erc20_tests_1": 1,
+          "test": 1,
+          "subprocess": 1,
+          "basename": 1,
+          "glob": 1,
+          "get_logger": 1,
+          "ValueOutOfBounds": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "neilh/django-invoicing",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "neilh/jquery-scrollspy",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "neilh/naivechain",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "neilh/pdfminer.six",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "neilh/pynaivechain",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "neilh/Slack-Python-Onboarding-Tutorial",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "neilh/The_Power_of_the_blockchain",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "neilh/TrelloScrum",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "neilh/viper",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

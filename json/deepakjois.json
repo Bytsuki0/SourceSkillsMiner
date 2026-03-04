@@ -1,0 +1,684 @@
+{
+  "username": "deepakjois",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 3.838709677419355,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.6666666666666667,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.5
+      }
+    },
+    "Sentiment": {
+      "score": 0.9230769230769231,
+      "details": {
+        "deepakjois/blaze-svg": 0.20125365853658536,
+        "deepakjois/debugjois.dev": -0.19923888888888888,
+        "deepakjois/dhun": 0.42370384615384615,
+        "deepakjois/gchartrb": 0.5886,
+        "deepakjois/gomp3": 0.0937,
+        "deepakjois/hs-gchart": 0.3775,
+        "deepakjois/hs-logo": 0.13701666666666668,
+        "deepakjois/hs-twitterarchiver": 0.37129999999999996,
+        "deepakjois/luapackageloader": 0.37198333333333333,
+        "deepakjois/luatex-harfbuzz": 0.23782068965517242,
+        "deepakjois/node-detect-content-type": 0.5071,
+        "deepakjois/website": 0.01793846153846154,
+        "deepakjois/writing": 0.5660999999999999
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.8474358974358975,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        12897,
+        28
+      ],
+      "Go": [
+        50248,
+        3288
+      ],
+      "Shell": [
+        2651,
+        42
+      ],
+      "Java": [
+        13027,
+        15
+      ],
+      "HTML": [
+        61339,
+        574
+      ],
+      "Haskell": [
+        93158,
+        419
+      ],
+      "Dockerfile": [
+        155,
+        1
+      ],
+      "R": [
+        145,
+        4
+      ],
+      "CSS": [
+        126236,
+        478
+      ],
+      "JavaScript": [
+        59893,
+        162
+      ],
+      "Ruby": [
+        10416,
+        93
+      ],
+      "C": [
+        1718,
+        20
+      ],
+      "Vim Script": [
+        14653,
+        129
+      ],
+      "Lua": [
+        45608,
+        75
+      ],
+      "Makefile": [
+        2037,
+        6
+      ],
+      "TeX": [
+        256674,
+        125
+      ],
+      "PHP": [
+        37377,
+        1
+      ],
+      "TypeScript": [
+        32164,
+        25
+      ],
+      "HCL": [
+        269,
+        0
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 5485,
+    "total_lines": 820665,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 50248,
+        "commits": 3288
+      },
+      {
+        "language": "HTML",
+        "lines": 61339,
+        "commits": 574
+      },
+      {
+        "language": "CSS",
+        "lines": 126236,
+        "commits": 478
+      },
+      {
+        "language": "Haskell",
+        "lines": 93158,
+        "commits": 419
+      },
+      {
+        "language": "JavaScript",
+        "lines": 59893,
+        "commits": 162
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "deepakjois",
+    "analysis_date": "2026-02-23T17:46:54.934906",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 221,
+    "languages": {
+      "C": {
+        "files_scanned": 18,
+        "packages": {
+          "assert.h": 13,
+          "<assert.h>": 13,
+          "stdlib.h": 11,
+          "<string.h>": 11,
+          "string.h": 11,
+          "<stdlib.h>": 11,
+          "stdio.h": 11,
+          "<stdio.h>": 11,
+          "cmark.h": 9,
+          "config.h": 9,
+          "node.h": 9,
+          "buffer.h": 8,
+          "houdini.h": 7,
+          "utf8.h": 6,
+          "cmark_ctype.h": 5,
+          "scanners.h": 5,
+          "render.h": 3,
+          "dhun.h": 3,
+          "parser.h": 2,
+          "references.h": 2,
+          "inlines.h": 2,
+          "stdint.h": 2,
+          "<stdint.h>": 2,
+          "lrotable.h": 1,
+          "the": 1,
+          "lrodefs.h": 1,
+          "lauxlib.h": 1,
+          "lua.h": 1,
+          "<stdarg.h>": 1,
+          "stdarg.h": 1,
+          "memory.h": 1,
+          "limits.h": 1,
+          "<limits.h>": 1,
+          "entities.inc": 1,
+          "iterator.h": 1,
+          "rubysig.h": 1,
+          "pthread.h": 1,
+          "<pthread.h>": 1,
+          "ruby.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 11,
+        "packages": {
+          "stdio.h": 6,
+          "<stdio.h>": 6,
+          "cmark.h": 4,
+          "string.h": 4,
+          "<string.h>": 4,
+          "buffer.h": 4,
+          "stdint.h": 3,
+          "<stdint.h>": 3,
+          "memory.h": 3,
+          "<stdarg.h>": 2,
+          "stdarg.h": 2,
+          "stddef.h": 2,
+          "<stddef.h>": 2,
+          "config.h": 2,
+          "<time.h>": 1,
+          "time.h": 1,
+          "limits.h": 1,
+          "<limits.h>": 1,
+          "stdlib.h": 1,
+          "<assert.h>": 1,
+          "<stdlib.h>": 1,
+          "assert.h": 1,
+          "cmark_ctype.h": 1,
+          "<cmark_export.h>": 1,
+          "<cmark_version.h>": 1,
+          "cmark_version.h": 1,
+          "cmark_export.h": 1,
+          "stdbool.h": 1,
+          "<stdbool.h>": 1,
+          "chunk.h": 1,
+          "node.h": 1,
+          "CoreServices/CoreServices.h": 1,
+          "<AudioToolbox/AudioToolbox.h>": 1,
+          "<CoreServices/CoreServices.h>": 1,
+          "<CoreAudio/CoreAudioTypes.h>": 1,
+          "CoreAudio/CoreAudioTypes.h": 1,
+          "AudioToolbox/AudioToolbox.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 38,
+        "packages": {
+          "fmt": 26,
+          "github.com/dgraph-io/badger/y": 21,
+          "os": 17,
+          "bytes": 13,
+          "sync": 12,
+          "github.com/pkg/errors": 12,
+          "sort": 11,
+          "time": 11,
+          "path/filepath": 10,
+          "math/rand": 9,
+          "io/ioutil": 8,
+          "math": 8,
+          "sync/atomic": 8,
+          "strings": 7,
+          "github.com/dgraph-io/badger/table": 7,
+          "testing": 7,
+          "io": 7,
+          "strconv": 6,
+          "github.com/stretchr/testify/require": 6,
+          "encoding/binary": 6,
+          "golang.org/x/net/trace": 5,
+          "log": 5,
+          "github.com/dgraph-io/badger/options": 4,
+          "Invalid": 3,
+          "github.com/dgraph-io/badger/protos": 3,
+          "hash/crc32": 3,
+          "github.com/yuin/goldmark": 3,
+          "github.com/yuin/goldmark/parser": 3,
+          "github.com/dgraph-io/badger": 2,
+          "container/heap": 2,
+          "%d": 2,
+          "regexp": 2,
+          "Cannot": 2,
+          "encoding/hex": 2,
+          "bufio": 2,
+          "unsafe": 2,
+          "github.com/AndreasBriese/bbloom": 2,
+          "path": 2,
+          "github.com/bitfield/script": 2,
+          "github.com/yuin/goldmark/ast": 2,
+          "github.com/yuin/goldmark/text": 2,
+          "github.com/yuin/goldmark/util": 2,
+          "github.com/yuin/goldmark/renderer": 2,
+          "if": 1,
+          "flag": 1,
+          "The": 1,
+          "github.com/dgraph-io/badger/skl": 1,
+          "expvar": 1,
+          "val1": 1,
+          "val3": 1,
+          "actual:": 1,
+          "val2": 1,
+          "Another": 1,
+          "%09d": 1,
+          "wanted=%q": 1,
+          "Value.*exceeded": 1,
+          "should": 1,
+          "item": 1,
+          "v%05d_%08d": 1,
+          "answer": 1,
+          "k%05d_%08d": 1,
+          "Key.*exceeded": 1,
+          "golang.org/x/sys/unix": 1,
+          "syscall": 1,
+          "Value": 1,
+          "testval": 1,
+          "CREATE": 1,
+          "DELETE": 1,
+          "github.com/golang/protobuf/proto": 1,
+          "toWrite:%d": 1,
+          "Arena": 1,
+          "require.Nil": 1,
+          "09985": 1,
+          "05555": 1,
+          "00042": 1,
+          "05565": 1,
+          "09995": 1,
+          "01000": 1,
+          "01010": 1,
+          "00005": 1,
+          "01990": 1,
+          "00072": 1,
+          "00015": 1,
+          "00062": 1,
+          "05545": 1,
+          "0": 1,
+          "key": 1,
+          "keyc0000": 1,
+          "a2": 1,
+          "keyb0000": 1,
+          "k1": 1,
+          "keyb9999": 1,
+          "keya9999": 1,
+          "9999": 1,
+          "a1": 1,
+          "keya0000": 1,
+          "k2": 1,
+          "A": 1,
+          "keyc9999": 1,
+          "Expected": 1,
+          "v=%d": 1,
+          "readts=%d": 1,
+          "valversion=9": 1,
+          "val=8": 1,
+          "valversion=%d": 1,
+          "i=%d": 1,
+          "answer2": 1,
+          "Intra:": 1,
+          "Inter:": 1,
+          "Size": 1,
+          "key003": 1,
+          "key%03d": 1,
+          "key%d": 1,
+          "Error": 1,
+          "key000": 1,
+          "key002": 1,
+          "value%d": 1,
+          "key001": 1,
+          "Directory": 1,
+          "github.com/spf13/cobra": 1,
+          "github.com/deepakjois/badgerpp/cmd": 1,
+          "go.abhg.dev/goldmark/hashtag": 1,
+          "html/template": 1,
+          "github.com/otiai10/copy": 1,
+          "github.com/gorilla/feeds": 1,
+          "github.com/yuin/goldmark/extension": 1,
+          "encoding/json": 1,
+          "net/http": 1,
+          "github.com/resend/resend-go/v2": 1,
+          "github.com/alecthomas/kong": 1,
+          "net/url": 1,
+          "github.com/matthalp/go-meridian/cet": 1,
+          "github.com/aws/aws-sdk-go-v2/config": 1,
+          "context": 1,
+          "github.com/aws/aws-sdk-go-v2/service/s3": 1,
+          "github.com/aws/aws-sdk-go-v2/aws": 1,
+          "io/fs": 1,
+          "crypto/md5": 1,
+          "mime": 1
+        }
+      },
+      "Haskell": {
+        "files_scanned": 12,
+        "packages": {
+          "qualified": 3,
+          "Text.Blaze": 2,
+          "Text.Blaze.Internal": 2,
+          "Prelude": 2,
+          "Data.Set": 2,
+          "Data.Char": 2,
+          "Distribution.Simple": 1,
+          "Text.Blaze.Svg11.Attributes": 1,
+          "Text.Blaze.Svg.Renderer.String": 1,
+          "Text.Blaze.Svg11": 1,
+          "Text.Blaze.Svg.Internal": 1,
+          "Control.Monad.State": 1,
+          "Data.Monoid": 1,
+          "Text.Blaze.Renderer.Pretty": 1,
+          "Text.Blaze.Renderer.String": 1,
+          "Text.Blaze.Renderer.Text": 1,
+          "Text.Blaze.Renderer.Utf8": 1,
+          "use": 1,
+          "::": 1,
+          "Text.Blaze.Svg": 1,
+          "requiredFeatures": 1,
+          "requiredExtensions": 1,
+          "System.Directory": 1,
+          "Control.Arrow": 1,
+          "Data.Ord": 1,
+          "Data.List": 1,
+          "Util.Sanitize": 1,
+          "Data.Map": 1,
+          "System.FilePath": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 7,
+        "packages": {
+          "org.unicode": 7,
+          "java.util": 3,
+          "java.io": 2
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 23,
+        "packages": {
+          "react": 18,
+          "prop-types": 8,
+          "gatsby-link": 5,
+          "lodash": 3,
+          "react-icons": 3,
+          "react-dom": 2,
+          "react-typography": 2,
+          "typography": 2,
+          "request": 2,
+          "fs": 2,
+          "types": 1,
+          "react-addons-css-transition-group": 1,
+          "react-router-dom": 1,
+          "mkdirp": 1,
+          "progress": 1,
+          "mousetrap": 1,
+          "react-modal": 1,
+          "!file-loader!..": 1,
+          "typeface-space-mono": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 24,
+        "packages": {
+          "sys": 23,
+          "itertools": 9,
+          "functools": 7,
+          "product": 7,
+          "reduce": 5,
+          "collections": 3,
+          "glob": 3,
+          "os": 3,
+          "re": 3,
+          "queue": 2,
+          "defaultdict": 2,
+          "operator": 2,
+          "csv": 2,
+          "subprocess": 2,
+          "=": 1,
+          "tee": 1,
+          "Counter": 1,
+          "sub": 1,
+          "heapq": 1,
+          "heappop": 1,
+          "mul": 1,
+          "chain": 1,
+          "cache": 1,
+          "random": 1,
+          "yaml": 1,
+          "genanki": 1
+        }
+      },
+      "R": {
+        "files_scanned": 1,
+        "packages": {
+          "dplyr": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 37,
+        "packages": {
+          "DataArray": 9,
+          "Color": 9,
+          "Fills": 9,
+          "Legend": 7,
+          "Markers": 6,
+          "Grid": 6,
+          "Axis": 6,
+          "#{File.dirname(__FILE__)}/../helper": 6,
+          "json": 5,
+          "test_helper": 5,
+          "ostruct": 4,
+          "rubygems": 3,
+          "singleton": 2,
+          "Singleton": 2,
+          "mp3info": 2,
+          "dhun_ext": 2,
+          "mkmf": 1,
+          "socket": 1,
+          "eventmachine": 1,
+          "Growl": 1,
+          "growl": 1,
+          "Thor::Actions": 1,
+          "thor": 1,
+          "Dhun::Client": 1,
+          "daemons": 1,
+          "dhun": 1,
+          "riot": 1,
+          "rr": 1,
+          "gchartrb": 1,
+          "uri": 1,
+          "open-uri": 1,
+          "Label": 1,
+          "BarChartHelper": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 1,
+        "packages": {
+          "std": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 7,
+        "packages": {
+          "astro": 3,
+          "astro:content": 3,
+          "astrojs": 2,
+          "fs": 1,
+          "remark-unwrap-images": 1,
+          "satori-html": 1,
+          "resvg": 1,
+          "satori": 1,
+          "post": 1,
+          "tailwindcss": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "deepakjois/advent-of-code-2021",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "deepakjois/badger",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "deepakjois/badgerpp",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "deepakjois/BidiReferenceJava",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "deepakjois/blaze-svg",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Haskell"
+        ]
+      },
+      {
+        "repository": "deepakjois/blog",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "deepakjois/book",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "deepakjois/cmark-lua",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "deepakjois/Coursera-GettingCleaningData-PeerAssessment",
+        "files_analyzed": 1,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "deepakjois/debugjois.dev",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "deepakjois/deepakjois.com",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "deepakjois/dhun",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "deepakjois/gatsby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "deepakjois/gchartrb",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "deepakjois/glossika-to-anki",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

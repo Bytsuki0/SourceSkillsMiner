@@ -1,0 +1,897 @@
+{
+  "username": "losinggeneration",
+  "areas": {
+    "OSS": {
+      "score": 0.7289562289562288,
+      "details": {
+        "issue_resolution_rate": 0.4722222222222222,
+        "pr_merge_rate": 1.121212121212121,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4358974358974359,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Sentiment": {
+      "score": 0.8571428571428571,
+      "details": {
+        "losinggeneration/moonscript": 0.886,
+        "losinggeneration/nsq": 0.21075,
+        "losinggeneration/oh-my-zsh": -0.8032,
+        "losinggeneration/openshift-lapis-cartridge": 0.37072105263157895,
+        "losinggeneration/openshift-openresty-cartridge": 0.010349999999999998,
+        "losinggeneration/radiustar": 0.8689,
+        "losinggeneration/Torque3D": 0.42988571428571426
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7054991304991305,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        108323,
+        289
+      ],
+      "Dockerfile": [
+        116,
+        1
+      ],
+      "Shell": [
+        303983,
+        205
+      ],
+      "Linker Script": [
+        109140,
+        39
+      ],
+      "C": [
+        127271,
+        120
+      ],
+      "Lua": [
+        39360,
+        255
+      ],
+      "Perl": [
+        36,
+        0
+      ],
+      "MoonScript": [
+        21764,
+        413
+      ],
+      "CoffeeScript": [
+        21,
+        1
+      ],
+      "CSS": [
+        148,
+        3
+      ],
+      "PHP": [
+        146,
+        0
+      ],
+      "JavaScript": [
+        4374,
+        1
+      ],
+      "HTML": [
+        55263,
+        21
+      ],
+      "Odin": [
+        2852,
+        7
+      ],
+      "TypeScript": [
+        2691,
+        1
+      ],
+      "C++": [
+        30531,
+        173
+      ],
+      "Objective-C": [
+        705,
+        0
+      ],
+      "Makefile": [
+        298,
+        1
+      ],
+      "GLSL": [
+        509,
+        0
+      ],
+      "CMake": [
+        644,
+        6
+      ],
+      "Objective-C++": [
+        6,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "Assembly": [
+        462,
+        1
+      ],
+      "Roff": [
+        0,
+        0
+      ],
+      "XC": [
+        0,
+        0
+      ],
+      "Python": [
+        1,
+        0
+      ],
+      "Awk": [
+        0,
+        0
+      ],
+      "Java": [
+        5,
+        0
+      ],
+      "Ada": [
+        0,
+        0
+      ],
+      "C#": [
+        1240,
+        3
+      ],
+      "Pascal": [
+        0,
+        0
+      ],
+      "Prolog": [
+        0,
+        0
+      ],
+      "Ruby": [
+        4,
+        1
+      ],
+      "Smalltalk": [
+        1,
+        0
+      ],
+      "Racket": [
+        0,
+        0
+      ],
+      "Emacs Lisp": [
+        0,
+        0
+      ],
+      "eC": [
+        0,
+        0
+      ],
+      "Erlang": [
+        0,
+        0
+      ],
+      "Scheme": [
+        0,
+        0
+      ],
+      "R": [
+        0,
+        0
+      ],
+      "Nemerle": [
+        2,
+        0
+      ],
+      "Component Pascal": [
+        34,
+        0
+      ],
+      "Vim Script": [
+        13692,
+        131
+      ]
+    },
+    "language_count": 43,
+    "total_commits": 1672,
+    "total_lines": 823622,
+    "top_5_languages": [
+      {
+        "language": "MoonScript",
+        "lines": 21764,
+        "commits": 413
+      },
+      {
+        "language": "Go",
+        "lines": 108323,
+        "commits": 289
+      },
+      {
+        "language": "Lua",
+        "lines": 39360,
+        "commits": 255
+      },
+      {
+        "language": "Shell",
+        "lines": 303983,
+        "commits": 205
+      },
+      {
+        "language": "C++",
+        "lines": 30531,
+        "commits": 173
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "losinggeneration",
+    "analysis_date": "2026-02-22T20:06:11.520516",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 243,
+    "languages": {
+      "C": {
+        "files_scanned": 31,
+        "packages": {
+          "<string.h>": 20,
+          "string.h": 20,
+          "<stdio.h>": 20,
+          "stdio.h": 20,
+          "<stdlib.h>": 19,
+          "stdlib.h": 19,
+          "<stdint.h>": 16,
+          "stdint.h": 16,
+          "lauxlib.h": 12,
+          "lua.h": 12,
+          "<lauxlib.h>": 12,
+          "<lua.h>": 12,
+          "<lualib.h>": 11,
+          "lualib.h": 11,
+          "types.h": 10,
+          "alpm.h": 9,
+          "<alpm.h>": 9,
+          "<alpm_list.h>": 8,
+          "alpm_list.h": 8,
+          "unistd.h": 6,
+          "<unistd.h>": 6,
+          "<assert.h>": 5,
+          "assert.h": 5,
+          "errno.h": 4,
+          "signal.h": 4,
+          "<errno.h>": 4,
+          "<signal.h>": 4,
+          "callback.h": 4,
+          "<time.h>": 4,
+          "time.h": 4,
+          "serialdevice.h": 4,
+          "system.h": 4,
+          "<termios.h>": 3,
+          "fcntl.h": 3,
+          "sys/types.h": 3,
+          "stdarg.h": 3,
+          "<sys/types.h>": 3,
+          "<fcntl.h>": 3,
+          "<stdarg.h>": 3,
+          "termios.h": 3,
+          "lualpm.h": 3,
+          "stdbool.h": 3,
+          "<stdbool.h>": 3,
+          "<SDL2/SDL.h>": 3,
+          "SDL2/SDL.h": 3,
+          "6847.h": 3,
+          "<limits.h>": 2,
+          "ctype.h": 2,
+          "<sys/stat.h>": 2,
+          "sys/stat.h": 2,
+          "<ctype.h>": 2,
+          "limits.h": 2,
+          "16x50.h": 2,
+          "ttycon.h": 2,
+          "tms9918a_render.h": 2,
+          "sdcard.h": 2,
+          "tms9918a.h": 2,
+          "joystick.h": 2,
+          "6551.h": 2,
+          "6522.h": 2,
+          "6847_render.h": 2,
+          "sys/prctl.h": 1,
+          "<sys/ioctl.h>": 1,
+          "sys/time.h": 1,
+          "wchar.h": 1,
+          "dirent.h": 1,
+          "<dirent.h>": 1,
+          "<sys/utsname.h>": 1,
+          "sys/ioctl.h": 1,
+          "<sys/prctl.h>": 1,
+          "<libintl.h>": 1,
+          "<pwd.h>": 1,
+          "<wchar.h>": 1,
+          "libintl.h": 1,
+          "<locale.h>": 1,
+          "<sys/time.h>": 1,
+          "sys/utsname.h": 1,
+          "locale.h": 1,
+          "pwd.h": 1,
+          "1802.h": 1,
+          "<sys/select.h>": 1,
+          "sys/select.h": 1,
+          "libz80/z80.h": 1,
+          "z80dis.h": 1,
+          "58174.h": 1,
+          "6502.h": 1,
+          "config-6502.h": 1,
+          "<glob.h>": 1,
+          "poll.h": 1,
+          "<SDL2/SDL_timer.h>": 1,
+          "SDL2/SDL_timer.h": 1,
+          "fake65c02.h": 1,
+          "glob.h": 1,
+          "<poll.h>": 1,
+          "the": 1,
+          "6800.h": 1,
+          "6821.h": 1,
+          "68230.h": 1,
+          "6840.h": 1,
+          "6847font.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 3,
+        "packages": {
+          "Platform.h": 2,
+          "<wx/popupwin.h>": 2,
+          "wx/wxscintilla.h": 2,
+          "wx/popupwin.h": 2,
+          "PlatWX.h": 2,
+          "<wx/tokenzr.h>": 1,
+          "wx/mstream.h": 1,
+          "wx/encconv.h": 1,
+          "wx/tokenzr.h": 1,
+          "ctype.h": 1,
+          "<wx/encconv.h>": 1,
+          "<wx/listctrl.h>": 1,
+          "wx/wx.h": 1,
+          "<wx/wx.h>": 1,
+          "<wx/mstream.h>": 1,
+          "<wx/imaglist.h>": 1,
+          "<wx/image.h>": 1,
+          "<ctype.h>": 1,
+          "wx/imaglist.h": 1,
+          "wx/listctrl.h": 1,
+          "wx/image.h": 1,
+          "UniConversion.h": 1,
+          "wx/dcbuffer.h": 1,
+          "ScintillaWX.h": 1,
+          "<wx/textbuf.h>": 1,
+          "wx/textbuf.h": 1,
+          "wx/msw/private.h": 1,
+          "<wx/dcbuffer.h>": 1,
+          "<wx/msw/private.h>": 1,
+          "AutoComplete.h": 1,
+          "stdio.h": 1,
+          "<string.h>": 1,
+          "namespace": 1,
+          "PropSet.h": 1,
+          "<stdlib.h>": 1,
+          "string.h": 1,
+          "<stdio.h>": 1,
+          "stdlib.h": 1,
+          "Scintilla": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "lua.h": 1,
+          "lualib.h": 1,
+          "lauxlib.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 24,
+        "packages": {
+          "lua.h": 5,
+          "stdio.h": 5,
+          "<stdio.h>": 5,
+          "<lua.h>": 3,
+          "<stddef.h>": 3,
+          "stddef.h": 3,
+          "<string.h>": 3,
+          "string.h": 3,
+          "<stdlib.h>": 3,
+          "stdlib.h": 3,
+          "fmod.h": 3,
+          "types.h": 2,
+          "lauxlib.h": 2,
+          "<lauxlib.h>": 2,
+          "<lualib.h>": 2,
+          "lualib.h": 2,
+          "Updater.h": 2,
+          "stdarg.h": 2,
+          "<stdarg.h>": 2,
+          "math.h": 2,
+          "unistd.h": 2,
+          "<unistd.h>": 2,
+          "<assert.h>": 2,
+          "<math.h>": 2,
+          "assert.h": 2,
+          "ctype.h": 2,
+          "<ctype.h>": 2,
+          "<wx/dnd.h>": 2,
+          "wx/wx.h": 2,
+          "wx/dnd.h": 2,
+          "<wx/wx.h>": 2,
+          "this": 2,
+          "config.h": 1,
+          "sys/cdefs.h": 1,
+          "<config.h>": 1,
+          "<arch/irq.h>": 1,
+          "kos/cond.h": 1,
+          "kos/once.h": 1,
+          "<time.h>": 1,
+          "kos/thread.h": 1,
+          "stdbool.h": 1,
+          "time.h": 1,
+          "<kos/once.h>": 1,
+          "<pthread.h>": 1,
+          "<kos/cond.h>": 1,
+          "<kos/mutex.h>": 1,
+          "<stdbool.h>": 1,
+          "<kos/tls.h>": 1,
+          "arch/irq.h": 1,
+          "kos/mutex.h": 1,
+          "<sys/cdefs.h>": 1,
+          "<kos/thread.h>": 1,
+          "kos/tls.h": 1,
+          "pthread.h": 1,
+          "alpm.h": 1,
+          "<alpm_list.h>": 1,
+          "alpm_list.h": 1,
+          "<alpm.h>": 1,
+          "<objbase.h>": 1,
+          "objbase.h": 1,
+          "<pshpack4.h>": 1,
+          "<poppack.h>": 1,
+          "pshpack4.h": 1,
+          "poppack.h": 1,
+          "luaconf.h": 1,
+          "LUA_USER_H": 1,
+          "<limits.h>": 1,
+          "readline/history.h": 1,
+          "<io.h>": 1,
+          "readline/readline.h": 1,
+          "<readline/history.h>": 1,
+          "io.h": 1,
+          "<readline/readline.h>": 1,
+          "limits.h": 1,
+          "<string>": 1,
+          "<iostream>": 1,
+          "<sstream>": 1,
+          "iostream": 1,
+          "string": 1,
+          "tinystr.h": 1,
+          "sstream": 1,
+          "Decoration.h": 1,
+          "Editor.h": 1,
+          "Platform.h": 1,
+          "Partitioning.h": 1,
+          "CellBuffer.h": 1,
+          "Scintilla.h": 1,
+          "PropSet.h": 1,
+          "<wx/clipbrd.h>": 1,
+          "CharClassify.h": 1,
+          "SciLexer.h": 1,
+          "RunStyles.h": 1,
+          "Style.h": 1,
+          "<wx/dataobj.h>": 1,
+          "KeyWords.h": 1,
+          "wx/dataobj.h": 1,
+          "wx/clipbrd.h": 1,
+          "Accessor.h": 1,
+          "XPM.h": 1,
+          "Indicator.h": 1,
+          "RESearch.h": 1,
+          "ContractionState.h": 1,
+          "Document.h": 1,
+          "ViewStyle.h": 1,
+          "KeyMap.h": 1,
+          "AutoComplete.h": 1,
+          "SplitVector.h": 1,
+          "SVector.h": 1,
+          "LineMarker.h": 1,
+          "PositionCache.h": 1,
+          "CallTip.h": 1,
+          "ScintillaBase.h": 1,
+          "SString.h": 1,
+          "<BaseTsd.h>": 1,
+          "BaseTsd.h": 1,
+          "low": 1,
+          "sys/types.h": 1,
+          "<termios.h>": 1,
+          "sys/time.h": 1,
+          "<sys/time.h>": 1,
+          "termios.h": 1,
+          "<sys/types.h>": 1,
+          "System::setAdvancedSettings": 1,
+          "System::setSoftwareFormat": 1,
+          "fmod_dsp.h": 1,
+          "System::getDSPClock": 1,
+          "FMOD_REVERB_CHANNELFLAGS_ENVIRONMENT0": 1,
+          "fmod_codec.h": 1,
+          "fmod_memoryinfo.h": 1,
+          "FMOD_64BIT_ADD": 1,
+          "a": 1,
+          "index": 1,
+          "event_memorybits": 1,
+          "memorybits": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 66,
+        "packages": {
+          "fmt": 32,
+          "strings": 19,
+          "os": 18,
+          "io": 18,
+          "testing": 16,
+          "net/http": 15,
+          "time": 15,
+          "errors": 14,
+          "C": 14,
+          "io/ioutil": 12,
+          "encoding/json": 10,
+          "log": 9,
+          "bytes": 9,
+          "github.com/go-martini/martini": 8,
+          "strconv": 8,
+          "github.com/MobRulesGames/fmod/base": 8,
+          "net/http/httptest": 7,
+          "syscall": 6,
+          "os/exec": 6,
+          "path": 6,
+          "unsafe": 6,
+          "runtime": 5,
+          "net": 5,
+          "sync": 4,
+          "path/filepath": 4,
+          "mime/multipart": 4,
+          "github.com/dotcloud/docker/rcli": 4,
+          "bufio": 4,
+          "context": 3,
+          "os/signal": 3,
+          "flag": 3,
+          "reflect": 3,
+          "math/rand": 3,
+          "github.com/dotcloud/docker/term": 3,
+          "github.com/pkg/errors": 2,
+          "github.com/orfjackal/gospec/src/gospec": 2,
+          "math/big": 2,
+          "github.com/MobRulesGames/cmwc/core": 2,
+          "encoding/binary": 2,
+          "sort": 2,
+          "name": 1,
+          "github.com/losinggeneration/geojson": 1,
+          "id": 1,
+          "this": 1,
+          "encoding/xml": 1,
+          "html/template": 1,
+          "embed": 1,
+          "github.com/gempir/go-twitch-irc/v4": 1,
+          "BATYBOT_TWITCH_CLIENT_ID": 1,
+          "BATYBOT_LOG_LEVEL": 1,
+          "user:write:chat": 1,
+          "BATYBOT_OAUTH_PORT": 1,
+          "BATYBOT_BOT_VERIFIED": 1,
+          "bits:read": 1,
+          "whispers:edit": 1,
+          "github.com/knadh/koanf/providers/file": 1,
+          "moderator:read:followers": 1,
+          "BATYBOT_TWITCH_CLIENT_SECRET": 1,
+          "BATYBOT_TWITCH_BROADCASTER": 1,
+          "github.com/knadh/koanf/v2": 1,
+          "github.com/knadh/koanf/providers/env": 1,
+          "user:bot": 1,
+          "channel:read:subscriptions": 1,
+          "channel:bot": 1,
+          "user:read:chat": 1,
+          "github.com/knadh/koanf/providers/structs": 1,
+          "BATYBOT_TWITCH_CHANNEL": 1,
+          "whispers:read": 1,
+          "github.com/knadh/koanf/parsers/yaml": 1,
+          "BATYBOT_TWITCH_USER": 1,
+          "BATYBOT_VIRTUAL_HOST": 1,
+          "chat:read": 1,
+          "chat:edit": 1,
+          "moderator_user_id": 1,
+          "broadcaster_user_id": 1,
+          "user_id": 1,
+          "github.com/sirupsen/logrus": 1,
+          "RequiredError": 1,
+          "errorful": 1,
+          "successful": 1,
+          "github.com/MobRulesGames/stringz": 1,
+          "encoding/gob": 1,
+          "github.com/MobRulesGames/cmwc": 1,
+          "encoding/base64": 1,
+          "commit": 1,
+          "export": 1,
+          "diff": 1,
+          "ps": 1,
+          "unicode": 1,
+          "Inspect": 1,
+          "github.com/dotcloud/docker/auth": 1,
+          "net/url": 1,
+          "Export": 1,
+          "Impossible": 1,
+          "Create": 1,
+          "text/tabwriter": 1,
+          "-n": 1,
+          "-e": 1,
+          "-f": 1,
+          "--": 1,
+          "github.com/kr/pty": 1,
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin": 1,
+          "i=1;": 1,
+          "HOME=/": 1,
+          "regexp": 1,
+          "github.com/dotcloud/docker": 1,
+          "archive/tar": 1,
+          "crypto/rand": 1,
+          "encoding/hex": 1,
+          "text/template": 1,
+          "getMemorySwap": 1,
+          "-j": 1,
+          "!": 1,
+          "github.com/losinggeneration/forsp-go/forsp": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 10,
+        "packages": {
+          "fengari": 3,
+          "undefined": 2,
+          "fengari-web": 2,
+          "webpack": 2,
+          "jQuery": 1,
+          "+": 1,
+          "loader-utils": 1,
+          "schema-utils": 1,
+          "morethings": 1,
+          "static": 1,
+          "memory-fs": 1,
+          "path": 1,
+          "local": 1,
+          "esbuild": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 2,
+        "packages": {
+          "pl": 1,
+          "busted.languages.en": 1,
+          "luassert.languages.": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "string": 2,
+          "sys": 2,
+          "os": 2,
+          "Face": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 19,
+        "packages": {
+          "com.yammer": 19,
+          "javax.ws": 11,
+          "com.sun": 10,
+          "org.scalatest": 7,
+          "com.fasterxml": 2,
+          "mutable}": 2,
+          "Type}": 2,
+          "collection.{immutable": 2,
+          "collection": 2,
+          "java.lang": 2,
+          "org.mockito": 2,
+          "config.Configuration": 1,
+          "Environment}": 1,
+          "scala.collection": 1,
+          "ExtractorContainerException}": 1,
+          "MultivaluedParameterExtractor}": 1,
+          "MultivaluedParameterExtractorFactory": 1,
+          "collection.generic": 1,
+          "ComponentContext}": 1,
+          "InjectableProvider}": 1,
+          "ComponentScope": 1,
+          "HttpContext}": 1,
+          "ComponentContext": 1,
+          "ComponentScope}": 1,
+          "ExtendedUriInfo}": 1,
+          "ScalaCollectionsQueryParamInjectableProvider}": 1,
+          "JerseyTest}": 1,
+          "QueryParam}": 1,
+          "Produces": 1,
+          "GET": 1,
+          "junit.framework": 1,
+          "AppDescriptor": 1,
+          "org.junit": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "vscode": 2,
+          "fs": 1,
+          "path": 1,
+          "assert": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "losinggeneration/2017-talks",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "losinggeneration/batybot",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "losinggeneration/binding",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "losinggeneration/buildcross",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "losinggeneration/busted",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "losinggeneration/clyde",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "losinggeneration/cmwc",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "losinggeneration/compohub",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "losinggeneration/decoda",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C++ Header",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "losinggeneration/docker",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "losinggeneration/dropwizard-scala",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "losinggeneration/EmulatorKit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "losinggeneration/fengari-loader",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "losinggeneration/fengari-loader-lua-example",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "losinggeneration/fmod",
+        "files_analyzed": 23,
+        "languages_found": [
+          "C/C++ Header",
+          "Go"
+        ]
+      },
+      {
+        "repository": "losinggeneration/forsp-go",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "losinggeneration/forth-lsp-vscode",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

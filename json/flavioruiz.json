@@ -1,0 +1,587 @@
+{
+  "username": "flavioruiz",
+  "areas": {
+    "OSS": {
+      "score": -0.2523543434213551,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.6214684848679674
+      }
+    },
+    "Status": {
+      "score": 0.09379950273249116,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6214684848679674,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.039638710172215985,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        3866,
+        19
+      ],
+      "JavaScript": [
+        198,
+        0
+      ],
+      "CSS": [
+        729,
+        2
+      ],
+      "HTML": [
+        3,
+        0
+      ],
+      "Shell": [
+        183,
+        0
+      ],
+      "CoffeeScript": [
+        16,
+        0
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 21,
+    "total_lines": 4995,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 3866,
+        "commits": 19
+      },
+      {
+        "language": "CSS",
+        "lines": 729,
+        "commits": 2
+      },
+      {
+        "language": "JavaScript",
+        "lines": 198,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 3,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 183,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "flavioruiz",
+    "analysis_date": "2026-02-23T02:25:57.708542",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 378,
+    "languages": {
+      "Java": {
+        "files_scanned": 27,
+        "packages": {
+          "com.cloud": 27,
+          "java.util": 16,
+          "org.apache": 12,
+          "javax.naming": 10,
+          "javax.ejb": 6,
+          "java.io": 5,
+          "java.net": 5,
+          "javax.persistence": 4,
+          "java.security": 2,
+          "java.math": 1,
+          "java.sql": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 9,
+        "packages": {
+          "q": 5,
+          "url": 3,
+          "request": 3,
+          "chai": 3,
+          "chai-as-promised": 3,
+          "path": 2,
+          "through": 2,
+          "duplexer": 2,
+          "split": 2,
+          "underscore": 2,
+          "all": 1,
+          "cookie-parser": 1,
+          "express": 1,
+          "static-favicon": 1,
+          "body-parser": 1,
+          "morgan": 1,
+          "http": 1,
+          "child_process": 1,
+          "fs": 1,
+          "crypto": 1,
+          "markdown-pdf": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 33,
+        "packages": {
+          "bup": 30,
+          "sys": 30,
+          "*": 27,
+          "options": 23,
+          "os": 13,
+          "struct": 7,
+          "stat": 6,
+          "time": 6,
+          "git": 5,
+          "glob": 4,
+          "subprocess": 4,
+          "random": 3,
+          "re": 3,
+          "math": 3,
+          "tempfile": 2,
+          "getopt": 2,
+          "GIT_MODE_TREE": 2,
+          "resource": 2,
+          "hashsplit": 2,
+          "fcntl": 1,
+          "socket": 1,
+          "cProfile": 1,
+          "ctypes": 1,
+          "readline": 1,
+          "traceback": 1,
+          "fnmatch": 1,
+          "fuse": 1,
+          "errno": 1,
+          "handle_ctrl_c": 1,
+          "metadata": 1,
+          "_helpers": 1,
+          "signal": 1,
+          "tornado": 1,
+          "urllib": 1,
+          "mimetypes": 1,
+          "posixpath": 1,
+          "matplotlib": 1,
+          "datetime": 1,
+          "optparse": 1,
+          "OptionParser": 1,
+          "configGenerator": 1,
+          "cloudstackAPI": 1,
+          "unittest": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 82,
+        "packages": {
+          "rubygems": 11,
+          "bitcoin": 9,
+          "json": 5,
+          "fileutils": 3,
+          "bundler": 3,
+          "openssl": 3,
+          "lib/beatmap": 3,
+          "rspec": 3,
+          "eventmachine": 3,
+          "socket": 3,
+          "scrypt": 3,
+          "spec_helper": 3,
+          "uri": 2,
+          "capybara/cucumber": 2,
+          "active_admin/arbre/html/element": 2,
+          "Virtus.model": 2,
+          "azure/signature": 2,
+          "beatmap/lookup": 2,
+          "beatmap/site/rovi": 2,
+          "HTTParty": 2,
+          "httparty": 2,
+          "rspec/mocks": 2,
+          "mocha": 2,
+          "digest/sha2": 2,
+          "yaml": 2,
+          "Helpers": 2,
+          "file": 2,
+          "rest_client": 2,
+          "helper": 2,
+          "DO::Utils": 2,
+          "cgi": 1,
+          "capybara/rails": 1,
+          "database_cleaner": 1,
+          "RAILS_ROOT": 1,
+          "capybara/session": 1,
+          "database_cleaner/cucumber": 1,
+          "cucumber/rails": 1,
+          "active_support/i18n": 1,
+          "active_admin/comments": 1,
+          "kaminari": 1,
+          "active_admin/arbre": 1,
+          "meta_search": 1,
+          "devise": 1,
+          "active_admin/engine": 1,
+          "sass": 1,
+          "Settings": 1,
+          "active_admin/sass/css_loader": 1,
+          "AssetRegistration": 1,
+          "their": 1,
+          "active_admin/sass/helpers": 1,
+          "active_admin/helpers/settings": 1,
+          "active_admin/router": 1,
+          "sass/plugin": 1,
+          "active_admin/arbre/html/document": 1,
+          "action_view": 1,
+          "active_admin/arbre/html/class_list": 1,
+          "active_admin/arbre/html/attributes": 1,
+          "active_admin/arbre/html/html5_elements": 1,
+          "active_admin/arbre/builder": 1,
+          "active_admin/arbre/html/tag": 1,
+          "active_admin/arbre/context": 1,
+          "active_admin/arbre/html/collection": 1,
+          "active_admin/arbre/core_extensions": 1,
+          "active_admin/arbre/html/text_node": 1,
+          "Arbre::Builder": 1,
+          "this": 1,
+          ":bytesize": 1,
+          "athena_health/endpoints/providers": 1,
+          "athena_health/endpoints/insurance_packages": 1,
+          "athena_health/question": 1,
+          "athena_health/event": 1,
+          "athena_health/endpoints/configurations": 1,
+          "athena_health/facility": 1,
+          "athena_health/user_medication_sig": 1,
+          "athena_health/patient": 1,
+          "athena_health/base_collection": 1,
+          "athena_health/analyte_collection": 1,
+          "athena_health/endpoints/departments": 1,
+          "athena_health/balance": 1,
+          "athena_health/patient_problem_collection": 1,
+          "athena_health/note": 1,
+          "athena_health/endpoints/patients": 1,
+          "athena_health/department_collection": 1,
+          "athena_health/user_medication_event": 1,
+          "athena_health/order": 1,
+          "athena_health/prescription": 1,
+          "athena_health/user_medication": 1,
+          "athena_health/endpoints/encounters": 1,
+          "athena_health/note_collection": 1,
+          "athena_health/document_collection": 1,
+          "athena_health/pharmacy": 1,
+          "athena_health/insurance_collection": 1,
+          "athena_health/user_medication_collection": 1,
+          "athena_health/lab_result": 1,
+          "athena_health/department": 1,
+          "athena_health/patient_collection": 1,
+          "athena_health/practice": 1,
+          "athena_health/lab_result_collection": 1,
+          "athena_health/medication": 1,
+          "athena_health/reaction": 1,
+          "athena_health/analyte": 1,
+          "athena_health/provider_collection": 1,
+          "athena_health/encounter_collection": 1,
+          "athena_health/prescription_collection": 1,
+          "athena_health/patient_appointment_reason": 1,
+          "athena_health/encounter_summary": 1,
+          "athena_health/patient_problem": 1,
+          "athena_health/appointment_type_collection": 1,
+          "athena_health/user_allergy_collection": 1,
+          "athena_health/endpoints/appointments": 1,
+          "athena_health/encounter": 1,
+          "athena_health/social_history": 1,
+          "athena_health/practice_collection": 1,
+          "athena_health/appointment_reminder": 1,
+          "virtus": 1,
+          "athena_health/base_model": 1,
+          "athena_health/provider": 1,
+          "athena_health/document": 1,
+          "athena_health/laboratory": 1,
+          "athena_health/question_collection": 1,
+          "athena_health/appointment": 1,
+          "athena_health/order_collection": 1,
+          "athena_health/template": 1,
+          "athena_health/connection": 1,
+          "athena_health/endpoints/practices": 1,
+          "athena_health/insurance": 1,
+          "athena_health/user_allergy": 1,
+          "typhoeus": 1,
+          "athena_health/appointment_collection": 1,
+          "athena_health/error": 1,
+          "athena_health/insurance_package": 1,
+          "athena_health/client": 1,
+          "athena_health/allergy": 1,
+          "athena_health/appointment_reminder_collection": 1,
+          "athena_health/version": 1,
+          "athena_health/insurance_package_collection": 1,
+          "athena_health/appointment_type": 1,
+          "athena_health/patient_appointment_reason_collection": 1,
+          "athena_health/pharmacy_collection": 1,
+          "Endpoints::Encounters": 1,
+          "Endpoints::Departments": 1,
+          "Endpoints::Practices": 1,
+          "Endpoints::Providers": 1,
+          "Endpoints::InsurancePackages": 1,
+          "Endpoints::Patients": 1,
+          "Endpoints::Appointments": 1,
+          "Endpoints::Configurations": 1,
+          "url": 1,
+          "time": 1,
+          "addressable": 1,
+          "canonical_url": 1,
+          "queue_signature": 1,
+          "file_signature": 1,
+          "base64": 1,
+          "test-unit": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "initializer": 1,
+          "rails": 1,
+          "thread": 1,
+          "boot": 1,
+          "Active": 1,
+          "beatmap/site/itunes": 1,
+          "digest/md5": 1,
+          "wrong": 1,
+          "open-uri": 1,
+          "bitcoin/connection": 1,
+          "securerandom": 1,
+          "Bitcoin::BinaryExtensions": 1,
+          "name.to_s": 1,
+          ":address_checksum?": 1,
+          "digest/rmd160": 1,
+          ":tx": 1,
+          ":blk": 1,
+          "ConnectionHandler": 1,
+          "monitor": 1,
+          "helpers.rb": 1,
+          "tree_view.rb": 1,
+          "addr_view.rb": 1,
+          "em_gtk.rb": 1,
+          "conn_view.rb": 1,
+          "tx_view.rb": 1,
+          "private": 1,
+          "benchmark": 1,
+          "TimeLogger": 1,
+          ":get_name": 1,
+          "aruba/cucumber": 1,
+          "optparse": 1,
+          "erb": 1,
+          "blueprint": 1,
+          "blueprint/validator": 1,
+          "blueprint/blueprint": 1,
+          "forwardable": 1,
+          "Enumerable": 1,
+          "sample_response": 1,
+          "pp": 1,
+          "constant_contact/base_resource": 1,
+          "constant_contact": 1,
+          "constant_contact/activity": 1,
+          "constant_contact/contact": 1,
+          "constant_contact/contact_list": 1,
+          "constant-contact-ruby": 1,
+          "fakeweb": 1,
+          "test/unit": 1,
+          "contact": 1,
+          "Authentication": 1,
+          "default": 1,
+          "rails/all": 1,
+          "rails_generator/commands": 1,
+          "rails_generator": 1,
+          "spec/rails": 1,
+          "spec": 1,
+          "#{dir}/desert/manager": 1,
+          "#{dir}/desert/plugin": 1,
+          "#{dir}/desert/plugin_migrations": 1,
+          "active_support": 1,
+          "#{dir}/desert/rails": 1,
+          "#{dir}/desert/supported_rails_versions": 1,
+          "#{dir}/desert/ruby": 1,
+          "action_mailer": 1,
+          "#{dir}/desert/version_checker": 1,
+          "#{dir}/desert/plugin_templates": 1,
+          "active_record": 1,
+          "action_controller": 1,
+          "#{dir}/plugin_migrations/1.2/migrator": 1,
+          "#{dir}/plugin_migrations/migrator": 1,
+          "#{dir}/plugin_migrations/1.2/extensions/schema_statements": 1,
+          "#{dir}/plugin_migrations/2.1/migrator": 1,
+          "#{dir}/plugin_migrations/2.1/extensions/schema_statements": 1,
+          "#{dir}/plugin_templates/2.0.0/action_mailer": 1,
+          "#{dir}/plugin_templates/2.2.0/action_mailer": 1,
+          "#{dir}/plugin_templates/action_controller": 1,
+          "#{dir}/plugin_templates/1.2.0/action_mailer": 1,
+          "#{dir}/plugin_templates/action_view": 1,
+          "#{dir}/plugin_templates/1.99.0/action_mailer": 1,
+          "#{dir}/1.2.0/action_view": 1,
+          "#{dir}/2.0.2/action_view": 1,
+          "#{dir}/2.2.0/action_view": 1,
+          "#{dir}/1.99.0/action_view": 1,
+          "#{dir}/2.1.0/action_view": 1,
+          "#{dir}/rails/route_set": 1,
+          "#{dir}/rails/2.0.0/plugin": 1,
+          "#{dir}/rails/1.2.0/initializer": 1,
+          "#{dir}/rails/dependencies": 1,
+          "#{dir}/rails/migration": 1,
+          "Rake::DSL": 1,
+          "rake": 1,
+          "rake/dsl_definition": 1,
+          ":up": 1,
+          ":gsub": 1,
+          "net/sftp": 1,
+          ":get": 1,
+          "net/ssh": 1,
+          "do": 1,
+          "bundler/setup": 1,
+          ":update": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "flavioruiz/active_admin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/athena_health",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/azure-signature",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/beatbox",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/beatmap.api",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/bitcoin-ruby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/blueprint-css",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/bup",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "flavioruiz/chargebee-ruby",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/CloudStack",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "flavioruiz/constant-contact-ruby",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/deck.js",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "flavioruiz/demo.activeadmin.info",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/desert",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/do",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/fat_free_crm",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "flavioruiz/gitprint.com",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

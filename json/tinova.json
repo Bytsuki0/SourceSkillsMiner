@@ -1,0 +1,563 @@
+{
+  "username": "tinova",
+  "areas": {
+    "OSS": {
+      "score": 0.6451612903225807,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.967741935483871,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5128205128205128,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.2692307692307692
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "tinova/one-tools": 0.45160999999999996
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7394954507857734,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        61888,
+        119
+      ],
+      "Shell": [
+        4410,
+        8
+      ],
+      "Python": [
+        113894,
+        236
+      ],
+      "HTML": [
+        117124,
+        239
+      ],
+      "Makefile": [
+        61363,
+        125
+      ],
+      "CSS": [
+        16626,
+        33
+      ],
+      "Batchfile": [
+        5,
+        0
+      ],
+      "Go": [
+        174,
+        2
+      ],
+      "Vim Script": [
+        3,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 762,
+    "total_lines": 375487,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 117124,
+        "commits": 239
+      },
+      {
+        "language": "Python",
+        "lines": 113894,
+        "commits": 236
+      },
+      {
+        "language": "Makefile",
+        "lines": 61363,
+        "commits": 125
+      },
+      {
+        "language": "Ruby",
+        "lines": 61888,
+        "commits": 119
+      },
+      {
+        "language": "CSS",
+        "lines": 16626,
+        "commits": 33
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "tinova",
+    "analysis_date": "2026-02-22T09:29:55.531122",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 147,
+    "languages": {
+      "C": {
+        "files_scanned": 21,
+        "packages": {
+          "cache.h": 19,
+          "parse-options.h": 7,
+          "builtin.h": 7,
+          "commit.h": 6,
+          "diff.h": 5,
+          "blob.h": 4,
+          "archive.h": 4,
+          "revision.h": 4,
+          "run-command.h": 3,
+          "utf8.h": 3,
+          "dir.h": 3,
+          "refs.h": 3,
+          "quote.h": 3,
+          "cache-tree.h": 3,
+          "string-list.h": 3,
+          "tag.h": 2,
+          "streaming.h": 2,
+          "tree-walk.h": 2,
+          "attr.h": 2,
+          "argv-array.h": 2,
+          "exec_cmd.h": 2,
+          "bisect.h": 2,
+          "branch.h": 2,
+          "remote.h": 2,
+          "diffcore.h": 2,
+          "xdiff-interface.h": 2,
+          "tree.h": 1,
+          "object.h": 1,
+          "tar.h": 1,
+          "unpack-trees.h": 1,
+          "strbuf.h": 1,
+          "log-tree.h": 1,
+          "list-objects.h": 1,
+          "sha1-array.h": 1,
+          "sha1-lookup.h": 1,
+          "sha1.h": 1,
+          "pathspec.h": 1,
+          "bulk-checkin.h": 1,
+          "git-compat-util.h": 1,
+          "delta.h": 1,
+          "ll-merge.h": 1,
+          "rerere.h": 1,
+          "sideband.h": 1,
+          "pkt-line.h": 1,
+          "transport.h": 1,
+          "mailmap.h": 1,
+          "userdiff.h": 1,
+          "column.h": 1,
+          "color.h": 1,
+          "wt-status.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 31,
+        "packages": {
+          "<string>": 11,
+          "string": 11,
+          "PoolObjectSQL.h": 7,
+          "set": 4,
+          "<set>": 4,
+          "map": 4,
+          "<map>": 4,
+          "Template.h": 4,
+          "ObjectCollection.h": 4,
+          "Listener.h": 3,
+          "vector": 3,
+          "<vector>": 3,
+          "OneDB.h": 3,
+          "PoolSQL.h": 3,
+          "git-compat-util.h": 2,
+          "AuthRequest.h": 2,
+          "AddressRange.h": 2,
+          "<sstream>": 2,
+          "sstream": 2,
+          "NebulaUtil.h": 2,
+          "NebulaLog.h": 2,
+          "SyncRequest.h": 2,
+          "Attribute.h": 2,
+          "<mutex>": 2,
+          "mutex": 2,
+          "object.h": 1,
+          "notes.h": 1,
+          "commit.h": 1,
+          "cache.h": 1,
+          "strbuf.h": 1,
+          "libxml/tree.h": 1,
+          "<libxml/tree.h>": 1,
+          "AddressRangePool.h": 1,
+          "VirtualNetworkTemplate.h": 1,
+          "<algorithm>": 1,
+          "algorithm": 1,
+          "ProtocolMessages.h": 1,
+          "DriverManager.h": 1,
+          "<time.h>": 1,
+          "time.h": 1,
+          "=": 1,
+          "PoolObjectAuth.h": 1,
+          "bitset": 1,
+          "<bitset>": 1,
+          "SSLUtil.h": 1,
+          "Callbackable.h": 1,
+          "xmlrpc-c/base.hpp": 1,
+          "xmlrpc-c/girerr.hpp": 1,
+          "<xmlrpc-c/girerr.hpp>": 1,
+          "<xmlrpc-c/base.hpp>": 1,
+          "<xmlrpc-c/client_simple.hpp>": 1,
+          "xmlrpc-c/client_simple.hpp": 1,
+          "ClusterTemplate.h": 1,
+          "BitMap.h": 1,
+          "Cluster.h": 1,
+          "Clusterable.h": 1,
+          "DatastoreTemplate.h": 1,
+          "Image.h": 1,
+          "Datastore.h": 1,
+          "Quotas.h": 1,
+          "DocumentTemplate.h": 1,
+          "Document.h": 1,
+          "sys/wait.h": 1,
+          "<string.h>": 1,
+          "StreamManager.h": 1,
+          "sys/types.h": 1,
+          "atomic": 1,
+          "<unistd.h>": 1,
+          "thread": 1,
+          "unistd.h": 1,
+          "<sys/wait.h>": 1,
+          "<sys/types.h>": 1,
+          "<atomic>": 1,
+          "message_t": 1,
+          "fcntl.h": 1,
+          "<fcntl.h>": 1,
+          "<thread>": 1,
+          "string.h": 1,
+          "Driver.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 52,
+        "packages": {
+          "fmt": 33,
+          "github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema": 25,
+          "strconv": 24,
+          "context": 22,
+          "github.com/hashicorp/terraform-plugin-sdk/v2/diag": 18,
+          "id": 17,
+          "tags": 15,
+          "name": 15,
+          "time": 14,
+          "strings": 11,
+          "log": 9,
+          "encoding/json": 7,
+          "github.com/OpenNebula/one/src/oca/go/src/goca/schemas/shared": 6,
+          "errors": 5,
+          "os": 5,
+          "github.com/OpenNebula/one/src/oca/go/src/goca": 5,
+          "io/ioutil": 4,
+          "github.com/op/go-logging": 4,
+          "memory": 4,
+          "cpu": 4,
+          "net/http": 3,
+          "database/sql": 3,
+          "github.com/OpenNebula/one/src/oca/go/src/goca/schemas/vm": 3,
+          "github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource": 3,
+          "open": 2,
+          "crypto/sha512": 2,
+          "encoding/hex": 2,
+          "github.com/urfave/cli": 2,
+          "runtime": 2,
+          "path": 2,
+          "os/user": 2,
+          "path/filepath": 2,
+          "github.com/michael1011/lightningtip/version": 2,
+          "github.com/michael1011/lightningtip/database": 2,
+          "crypto/tls": 2,
+          "disk": 2,
+          "vmgroup": 2,
+          "nic": 2,
+          "vcpu": 2,
+          "endpoint": 2,
+          "images": 2,
+          "vms": 2,
+          "size": 2,
+          "running_vms": 2,
+          "running_cpu": 2,
+          "leases": 2,
+          "running_memory": 2,
+          "system_disk_size": 2,
+          "reflect": 2,
+          "crypto/hmac": 1,
+          "net/http/httputil": 1,
+          "net/url": 1,
+          "github.com/jyap808/go-poloniex": 1,
+          "open,string": 1,
+          "start": 1,
+          "currencyPair": 1,
+          "end": 1,
+          "amount": 1,
+          "public?command=returnChartData&currencyPair=%s&period=%d&start=%d&end=%d": 1,
+          "github.com/shopspring/decimal": 1,
+          "github.com/lightningnetwork/lnd/lnrpc": 1,
+          "io": 1,
+          "google.golang.org/grpc/credentials": 1,
+          "google.golang.org/grpc/metadata": 1,
+          "google.golang.org/grpc": 1,
+          "totalling": 1,
+          "github.com/michael1011/lightningtip/backends": 1,
+          "github.com/michael1011/lightningtip/notifications": 1,
+          "github.com/donovanhide/eventsource": 1,
+          "os/exec": 1,
+          "net": 1,
+          "net/smtp": 1,
+          "github.com/OpenNebula/terraform-provider-opennebula/opennebula": 1,
+          "github.com/hashicorp/terraform-plugin-sdk/v2/plugin": 1,
+          "admins": 1,
+          "has_cpu": 1,
+          "has_vcpu": 1,
+          "has_memory": 1,
+          "register_date": 1,
+          "sort_on": 1,
+          "vmgroup_id": 1,
+          "name_regex": 1,
+          "role": 1,
+          "sort": 1,
+          "order": 1,
+          "templates": 1,
+          "regexp": 1,
+          "primary_group": 1,
+          "groups": 1,
+          "mtu": 1,
+          "image_quotas": 1,
+          "vm_quotas": 1,
+          "network_quotas": 1,
+          "datastore_quotas": 1,
+          "github.com/OpenNebula/one/src/oca/go/src/goca/errors": 1,
+          "github.com/OpenNebula/one/src/oca/go/src/goca/schemas/template": 1,
+          "waiting": 1,
+          "github.com/hashicorp/go-version": 1,
+          "6.4.0": 1,
+          "Virtual": 1,
+          "sync": 1,
+          "opennebula_datastore": 1,
+          "opennebula_marketplace": 1,
+          "opennebula_virtual_router_instance_template": 1,
+          "opennebula_host": 1,
+          "opennebula_virtual_router": 1,
+          "default_tags": 1,
+          "opennebula_virtual_router_instance": 1,
+          "opennebula_user": 1,
+          "opennebula_zone": 1,
+          "opennebula_virtual_data_center": 1,
+          "opennebula_marketplace_appliance": 1,
+          "opennebula_user_quotas": 1,
+          "username": 1,
+          "opennebula_service_template": 1,
+          "opennebula_image": 1,
+          "password": 1,
+          "opennebula_templates": 1,
+          "opennebula_template": 1,
+          "opennebula_service": 1,
+          "flow_endpoint": 1,
+          "opennebula_group_quotas": 1,
+          "opennebula_group_admins": 1,
+          "opennebula_virtual_machine": 1,
+          "opennebula_acl": 1,
+          "opennebula_virtual_machine_group": 1,
+          "opennebula_virtual_network": 1,
+          "opennebula_virtual_router_nic": 1,
+          "opennebula_cluster": 1,
+          "opennebula_security_group": 1,
+          "opennebula_virtual_network_address_range": 1,
+          "insecure": 1,
+          "opennebula_group": 1,
+          "testing": 1,
+          "opennebula": 1,
+          "datastore": 1,
+          "vm": 1,
+          "image": 1,
+          "network": 1,
+          "type": 1,
+          "user": 1,
+          "github.com/OpenNebula/one/src/oca/go/src/goca/schemas/acl": 1,
+          "rights": 1,
+          "zone": 1,
+          "resource": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 4,
+        "packages": {
+          "yaml": 3,
+          "sys": 3,
+          "os": 2,
+          "sphinx_rtd_theme": 2,
+          "time": 2,
+          "Image": 1,
+          "board": 1,
+          "SCL": 1,
+          "adafruit_ssd1306": 1,
+          "PIL": 1,
+          "subprocess": 1,
+          "busio": 1,
+          "lib": 1,
+          "requests": 1,
+          "json": 1,
+          "pair": 1,
+          "draw": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 12,
+        "packages": {
+          "pp": 6,
+          "json": 3,
+          "yaml": 2,
+          "optparse": 2,
+          "federatedsdn_version": 2,
+          "rubygems": 2,
+          "erb": 2,
+          "csv": 1,
+          "net/https": 1,
+          "uri": 1,
+          "parser": 1,
+          "models": 1,
+          "sinatra": 1,
+          "federatedsdn": 1,
+          "open3": 1,
+          "stringio": 1,
+          "command_manager": 1,
+          "base64": 1,
+          "sequel": 1,
+          "models/tenant_pool": 1,
+          "models/site_pool": 1,
+          "init": 1,
+          "models/netsegment_pool": 1,
+          "models/pool": 1,
+          "models/fednet_pool": 1,
+          "net/http": 1,
+          "OpenNebula": 1,
+          "opennebula": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 2,
+        "packages": {
+          "super": 2,
+          "xmlrpc": 1,
+          "crate": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "tinova/beacon-federated-network-manager",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tinova/docs",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tinova/docs-pro",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tinova/git",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "tinova/go-poloniex",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "tinova/lightningtip",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "tinova/one",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "tinova/one-tools",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "tinova/roca",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "tinova/terraform-provider-opennebula",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "tinova/tickito",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

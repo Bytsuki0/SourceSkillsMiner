@@ -1,0 +1,793 @@
+{
+  "username": "psederberg",
+  "areas": {
+    "OSS": {
+      "score": 0.6296296296296295,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.7777777777777778,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.35676638176638176,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        39958,
+        235
+      ],
+      "CSS": [
+        498,
+        3
+      ],
+      "TeX": [
+        9,
+        0
+      ],
+      "HTML": [
+        6,
+        0
+      ],
+      "Shell": [
+        3,
+        0
+      ],
+      "JavaScript": [
+        0,
+        0
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "C": [
+        22402,
+        101
+      ],
+      "MATLAB": [
+        133,
+        0
+      ],
+      "C++": [
+        119,
+        1
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 340,
+    "total_lines": 63128,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 39958,
+        "commits": 235
+      },
+      {
+        "language": "C",
+        "lines": 22402,
+        "commits": 101
+      },
+      {
+        "language": "CSS",
+        "lines": 498,
+        "commits": 3
+      },
+      {
+        "language": "C++",
+        "lines": 119,
+        "commits": 1
+      },
+      {
+        "language": "TeX",
+        "lines": 9,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "psederberg",
+    "analysis_date": "2026-02-22T20:16:00.259338",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 411,
+    "languages": {
+      "C": {
+        "files_scanned": 5,
+        "packages": {
+          "edflib.h": 3,
+          "Python.h": 3,
+          "edfwrap.h": 2,
+          "stdio.h": 2,
+          "stdlib.h": 2,
+          "<Python.h>": 2,
+          "structmember.h": 2,
+          "traceback.h": 1,
+          "<stddef.h>": 1,
+          "stddef.h": 1,
+          "<math.h>": 1,
+          "frameobject.h": 1,
+          "numpy/arrayobject.h": 1,
+          "complex": 1,
+          "compile.h": 1,
+          "complex.h": 1,
+          "<complex>": 1,
+          "numpy/ufuncobject.h": 1,
+          "math.h": 1,
+          "<complex.h>": 1,
+          "<stdlib.h>": 1,
+          "<stdio.h>": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "float.h": 1,
+          "<ctype.h>": 1,
+          "<math.h>": 1,
+          "stdarg.h": 1,
+          "<string.h>": 1,
+          "ctype.h": 1,
+          "<stdarg.h>": 1,
+          "svm.h": 1,
+          "stdio.h": 1,
+          "<stdlib.h>": 1,
+          "<float.h>": 1,
+          "math.h": 1,
+          "<stdio.h>": 1,
+          "string.h": 1,
+          "stdlib.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "<string.h>": 1,
+          "<time.h>": 1,
+          "the": 1,
+          "stdio.h": 1,
+          "<stdlib.h>": 1,
+          "time.h": 1,
+          "<stdio.h>": 1,
+          "string.h": 1,
+          "stdlib.h": 1,
+          "edflib.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 325,
+        "packages": {
+          "numpy": 151,
+          "matplotlib": 64,
+          "os": 54,
+          "__future__": 41,
+          "print_function": 33,
+          "scipy": 32,
+          "division": 32,
+          "sys": 32,
+          "*": 31,
+          "seaborn": 30,
+          "absolute_import": 30,
+          "mvpa2": 29,
+          "re": 23,
+          "baxcat": 23,
+          "PyQt4": 23,
+          "kivy": 22,
+          "kernel_exp_family": 21,
+          "pandas": 19,
+          "daft": 19,
+          "rc": 17,
+          "App": 17,
+          "libopensesame": 16,
+          "kernel_hmc": 15,
+          "pytest": 14,
+          "math": 12,
+          "libqnotero": 12,
+          "Engine": 11,
+          "Log": 11,
+          "openexp": 11,
+          "shlex": 11,
+          "QtCore": 11,
+          "item": 10,
+          "ezplot": 10,
+          "figure": 10,
+          "time": 9,
+          "reggie": 9,
+          "copy": 8,
+          "setup": 8,
+          "sphinx": 8,
+          "Qt": 8,
+          "pylab": 8,
+          "Builder": 7,
+          "libqtopensesame": 7,
+          "fitbit": 7,
+          "random": 6,
+          "KernelExpLiteGaussian": 6,
+          "pybo": 6,
+          "KernelExpFiniteGaussian": 6,
+          "Button": 6,
+          "shutil": 6,
+          "cfg": 6,
+          "ndimage": 6,
+          "tempfile": 5,
+          "distutils": 5,
+          "assert_array_shape": 5,
+          "IsotropicZeroMeanGaussian": 5,
+          "glob": 5,
+          "dimarray": 5,
+          "ptsa": 5,
+          "make_gp": 5,
+          "with_statement": 5,
+          "getConfig": 5,
+          "approx": 4,
+          "itertools": 4,
+          "json": 4,
+          "subprocess": 4,
+          "setuptools": 4,
+          "abstractmethod": 4,
+          "abc": 4,
+          "BayesOptSearch": 4,
+          "visualise_fit_2d": 4,
+          "urllib": 4,
+          "mini_mcmc": 4,
+          "visualise_trace": 4,
+          "Banana": 4,
+          "a": 4,
+          "Image": 4,
+          "BoxLayout": 4,
+          "textwrap": 4,
+          "AttrArray": 4,
+          "TestCase": 4,
+          "cPickle": 4,
+          "inspect": 4,
+          "basewrapper": 4,
+          "BaseWrapper": 4,
+          "TextBox": 4,
+          "unittest": 4,
+          "Default": 4,
+          "logging": 3,
+          "Pool": 3,
+          "multiprocessing": 3,
+          "log": 3,
+          "pflip": 3,
+          "pi": 3,
+          "DataGenerator": 3,
+          "norm": 3,
+          "pdb": 3,
+          "choldate": 3,
+          "cholupdate": 3,
+          "EstimatorBase": 3,
+          "gaussian_kernel": 3,
+          "inits": 3,
+          "KernelExpLiteGaussianLowRank": 3,
+          "KernelExpLiteGaussianAdaptive": 3,
+          "standard_sqrt_schedule": 3,
+          "Clock": 3,
+          "FloatLayout": 3,
+          "functools": 3,
+          "traceback": 3,
+          "the": 3,
+          "warnings": 3,
+          "pydoc": 3,
+          "TimeSeries": 3,
+          "io": 3,
+          "solve_bayesopt": 3,
+          "pl": 3,
+          "pynamite": 3,
+          "global_play": 3,
+          "play": 3,
+          "requests_oauthlib": 3,
+          "oauthlib": 3,
+          "mock": 3,
+          "Fitbit": 3,
+          "libzotero": 3,
+          "as_strided": 3,
+          "data_utils": 2,
+          "model_utils": 2,
+          "metrics": 2,
+          "exp": 2,
+          "BCState": 2,
+          "cos": 2,
+          "inftest_plot": 2,
+          "csd": 2,
+          "SquaredError": 2,
+          "NamedTemporaryFile": 2,
+          "nng": 2,
+          "optimize": 2,
+          "logsumexp": 2,
+          "rff_feature_map": 2,
+          "bicgstab": 2,
+          "LinearOperator": 2,
+          "pdf_grid": 2,
+          "assert_positive_int": 2,
+          "logger": 2,
+          "KMC": 2,
+          "KMCStatic": 2,
+          "sample_gaussian": 2,
+          "assert_implements_log_pdf_and_grad": 2,
+          "ProposalBase": 2,
+          "hashlib": 2,
+          "Factory": 2,
+          "pygments": 2,
+          "dirname": 2,
+          "Widget": 2,
+          "jnius": 2,
+          "Animation": 2,
+          "autoclass": 2,
+          "StringProperty": 2,
+          "partial": 2,
+          "PIL": 2,
+          "asyncio": 2,
+          "async_runTouchApp": 2,
+          "trio": 2,
+          "SoundLoader": 2,
+          "Color": 2,
+          "imp": 2,
+          "exceptions": 2,
+          "icons_rc": 2,
+          "DimArray": 2,
+          "attrarray": 2,
+          "StringIO": 2,
+          "ArrayWrapper": 2,
+          "phase_pow_multi": 2,
+          "Dim": 2,
+          "wavelet": 2,
+          "timeseries": 2,
+          "collections": 2,
+          "recommenders": 2,
+          "policies": 2,
+          "solvers": 2,
+          "action": 2,
+          "cairo": 2,
+          "base64": 2,
+          "TokenExpiredError": 2,
+          "datetime": 2,
+          "requests": 2,
+          "webbrowser": 2,
+          "threading": 2,
+          "QIcon": 2,
+          "enthought": 2,
+          "mlab": 2,
+          "GMM": 2,
+          "scikits": 2,
+          "docutils": 2,
+          "directives": 2,
+          "plot_utils": 1,
+          "cpickle": 1,
+          "pickle": 1,
+          "Accuracy": 1,
+          "multivariate_normal": 1,
+          "sin": 1,
+          "pearsonr": 1,
+          "inftest_bar": 1,
+          "chisquare": 1,
+          "ks_2samp": 1,
+          "Geweke": 1,
+          "c_1": 1,
+          "ipyparallel": 1,
+          "freeze": 1,
+          "quad": 1,
+          "dirichlet": 1,
+          "Ellipse": 1,
+          "Rectangle": 1,
+          "FancyArrow": 1,
+          "check_call": 1,
+          "Extension": 1,
+          "XVal": 1,
+          "compute_b": 1,
+          "rff_feature_map_grad2_d": 1,
+          "log_weights_to_lmbdas": 1,
+          "log_sum_exp": 1,
+          "rff_feature_map_comp_hessian_theano": 1,
+          "gaussian_kernel_dx_i_dx_i_dx_j": 1,
+          "SE_dx_dx_dy": 1,
+          "gaussian_kernel_hessians": 1,
+          "gaussian_kernel_hessian_theano": 1,
+          "incomplete_cholesky_gaussian": 1,
+          "Mean": 1,
+          "ground_truth": 1,
+          "KernelExpFullGaussian": 1,
+          "plot_bayesopt_model_1d": 1,
+          "theano": 1,
+          "function": 1,
+          "qmult": 1,
+          "solve_triangular": 1,
+          "log_gaussian_pdf": 1,
+          "sha1sum": 1,
+          "modshogun": 1,
+          "shogun": 1,
+          "GlassPosterior": 1,
+          "AdaptiveMetropolis": 1,
+          "StandardMetropolis": 1,
+          "visualise_trajectory": 1,
+          "autocorr": 1,
+          "leapfrog_no_storing": 1,
+          "GaussianBase": 1,
+          "HMCBase": 1,
+          "cdist": 1,
+          "ddsfile": 1,
+          "gallery": 1,
+          "sphinx_rtd_theme": 1,
+          "autobuild": 1,
+          "setupconfig": 1,
+          "Documenter": 1,
+          "_": 1,
+          "Style": 1,
+          "Keyword": 1,
+          "types": 1,
+          "highlight": 1,
+          "KivyLexer": 1,
+          "MethodDocumenter": 1,
+          "Matrix": 1,
+          "objloader": 1,
+          "glEnable": 1,
+          "Window": 1,
+          "resource_find": 1,
+          "ObjFile": 1,
+          "RenderContext": 1,
+          "ObjectProperty": 1,
+          "Popup": 1,
+          "NumericProperty": 1,
+          "Vector": 1,
+          "floor": 1,
+          "Scatter": 1,
+          "android": 1,
+          "exists": 1,
+          "activity": 1,
+          "choice": 1,
+          "ConfigParserProperty": 1,
+          "version_info": 1,
+          "Slider": 1,
+          "Label": 1,
+          "tarfile": 1,
+          "sketchpad": 1,
+          "canvas": 1,
+          "Tkinter": 1,
+          "optparse": 1,
+          "plugin": 1,
+          "notification_dialog_ui": 1,
+          "serial": 1,
+          "statement": 1,
+          "AudioQueue": 1,
+          "pyffmpeg": 1,
+          "cv": 1,
+          "pyaudio": 1,
+          "pyffmpeg_numpybindings": 1,
+          "OpenGL": 1,
+          "audioqueue": 1,
+          "QRect": 1,
+          "QTextFormat": 1,
+          "QTextEdit": 1,
+          "QFrame": 1,
+          "replace_dialog_ui": 1,
+          "QHBoxLayout": 1,
+          "QWidget": 1,
+          "QVariant": 1,
+          "QPainter": 1,
+          "QPlainTextEdit": 1,
+          "QtGui": 1,
+          "pandocfilters": 1,
+          "toJSONFilter": 1,
+          "h5py": 1,
+          "random_sample": 1,
+          "warn": 1,
+          "NumpyDocString": 1,
+          "docscrape": 1,
+          "get_doc_object": 1,
+          "docscrape_sphinx": 1,
+          "createEventsFromMatFile": 1,
+          "pyeeg": 1,
+          "EdfWrapper": 1,
+          "topoplot": 1,
+          "loadtxt": 1,
+          "NumpyTest": 1,
+          "unwrap": 1,
+          "arraywrapper": 1,
+          "events": 1,
+          "Events": 1,
+          "csv": 1,
+          "ConfigParser": 1,
+          "SafeConfigParser": 1,
+          "edf": 1,
+          "read_samplerate": 1,
+          "read_samples": 1,
+          "mvpa": 1,
+          "convolve1d": 1,
+          "nibabel": 1,
+          "spdiags": 1,
+          "toeplitz": 1,
+          "fmri_dataset": 1,
+          "BetaBernoulli": 1,
+          "InteractiveQuery": 1,
+          "SubprocessQuery": 1,
+          "nlopt": 1,
+          "plot_err_line": 1,
+          "kNN": 1,
+          "Axes3D": 1,
+          "mdp": 1,
+          "mpl_toolkits": 1,
+          "gzip": 1,
+          "SVDMapper": 1,
+          "noisy_2d_fx": 1,
+          "ICAMapper": 1,
+          "CrossValidation": 1,
+          "sphere_searchlight": 1,
+          "mean_sample": 1,
+          "datasets": 1,
+          "LinearCSVMC": 1,
+          "OddEvenPartitioner": 1,
+          "enter": 1,
+          "fadein": 1,
+          "pangocairo": 1,
+          "Set": 1,
+          "gdk": 1,
+          "gobject": 1,
+          "actor": 1,
+          "gtk": 1,
+          "urlencode": 1,
+          "curry": 1,
+          "OAuth1": 1,
+          "urldecode": 1,
+          "DeleteError": 1,
+          "OAuth1Session": 1,
+          "pprint": 1,
+          "FitbitOauthClient": 1,
+          "FitbitOauth2Client": 1,
+          "MismatchingStateError": 1,
+          "b64encode": 1,
+          "cherrypy": 1,
+          "OAuth2Session": 1,
+          "requirements/test": 1,
+          "requirements/base": 1,
+          "QnoteroException": 1,
+          "Thread": 1,
+          "socket": 1,
+          "SIGNAL": 1,
+          "QDialog": 1,
+          "Ui_Preferences": 1,
+          "valid_location": 1,
+          "pkgutil": 1,
+          "LibZotero": 1,
+          "QnoteroItem": 1,
+          "SysTray": 1,
+          "Preferences": 1,
+          "QMainWindow": 1,
+          "saveConfig": 1,
+          "Ui_Qnotero": 1,
+          "GnoteProvider": 1,
+          "QnoteroItemDelegate": 1,
+          "QSettings": 1,
+          "QListWidgetItem": 1,
+          "cache": 1,
+          "QStyledItemDelegate": 1,
+          "QLineEdit": 1,
+          "QListWidget": 1,
+          "qnoteroQuery": 1,
+          "QnoteroQuery": 1,
+          "QnoteroResults": 1,
+          "qnoteroResults": 1,
+          "QSystemTrayIcon": 1,
+          "Levenshtein": 1,
+          "sqlite3": 1,
+          "zoteroItem": 1,
+          "zotero_item": 1,
+          "py2exe": 1,
+          "Qnotero": 1,
+          "OrderedDict": 1,
+          "tabulate": 1,
+          "SE": 1,
+          "Mayavi": 1,
+          "mandel": 1,
+          "myobject": 1,
+          "get_python_inc": 1,
+          "Configuration": 1,
+          "get_numpy_include_dirs": 1,
+          "join": 1,
+          "stride_tricks": 1,
+          "product": 1,
+          "signal": 1,
+          "image_source_canny": 1,
+          "canny": 1,
+          "sphinx_bootstrap_theme": 1,
+          "Comment": 1,
+          "Lexer": 1,
+          "highlighting": 1,
+          "ast": 1,
+          "Directive": 1,
+          "ProfileDir": 1,
+          "Config": 1,
+          "PY3": 1,
+          "md5": 1,
+          "nodes": 1,
+          "IPython": 1,
+          "unicode_literals": 1,
+          "zip": 1,
+          "jinja2": 1,
+          "six": 1,
+          "relpath": 1,
+          "_pylab_helpers": 1,
+          "jinja": 1,
+          "xrange": 1,
+          "cStringIO": 1,
+          "token": 1,
+          "tokenize": 1,
+          "image": 1,
+          "kendalltau": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "psederberg/autokey-emacs-config",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/autokey-emacs-osx",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/baxcat_cxx",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/daft",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/kernel_exp_family",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/kernel_hmc",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/kivy",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/OpenSesame",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/pandoc-wrapfig",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/ptsa",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/pybetaseries",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/pybo",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/PyMVPA",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/pynamite",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/python-fitbit",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/qnotero",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/reggie",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/scipy-lecture-notes",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "psederberg/seaborn",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

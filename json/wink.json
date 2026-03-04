@@ -1,0 +1,142 @@
+{
+  "username": "wink",
+  "areas": {
+    "OSS": {
+      "score": 0.5876918811490532,
+      "details": {
+        "issue_resolution_rate": 0.8,
+        "pr_merge_rate": 0.6470588235294118,
+        "commits_activity": 0.9344789981941681
+      }
+    },
+    "Status": {
+      "score": 0.31260943731102686,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.930452617505002,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "wink/heroku_san": 0.34,
+        "wink/money-tree": 0.2772
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5750753296150201,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        486725,
+        119
+      ],
+      "JavaScript": [
+        2094267,
+        12
+      ],
+      "Shell": [
+        6709,
+        0
+      ],
+      "C": [
+        563799,
+        1
+      ],
+      "Perl": [
+        149570,
+        0
+      ],
+      "C++": [
+        21000,
+        0
+      ],
+      "Assembly": [
+        14131,
+        0
+      ],
+      "Prolog": [
+        5264,
+        0
+      ],
+      "Objective-C": [
+        237,
+        0
+      ],
+      "eC": [
+        216,
+        0
+      ],
+      "Scheme": [
+        181,
+        0
+      ],
+      "Emacs Lisp": [
+        69,
+        0
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 132,
+    "total_lines": 3342168,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 486725,
+        "commits": 119
+      },
+      {
+        "language": "JavaScript",
+        "lines": 2094267,
+        "commits": 12
+      },
+      {
+        "language": "C",
+        "lines": 563799,
+        "commits": 1
+      },
+      {
+        "language": "Shell",
+        "lines": 6709,
+        "commits": 0
+      },
+      {
+        "language": "Perl",
+        "lines": 149570,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "list index out of range",
+    "username": "wink",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

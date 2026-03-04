@@ -1,0 +1,442 @@
+{
+  "username": "franck",
+  "areas": {
+    "OSS": {
+      "score": 0.8148148148148149,
+      "details": {
+        "issue_resolution_rate": 0.8333333333333334,
+        "pr_merge_rate": 0.8888888888888888,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 0.6666666666666666,
+      "details": {
+        "franck/brevo-rails": 0.2174125,
+        "franck/globalize2": 0.039599999999999996,
+        "franck/observ": -0.29470999999999997
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5761396011396012,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        352180,
+        160
+      ],
+      "Ruby": [
+        1860756,
+        235
+      ],
+      "CSS": [
+        61021,
+        14
+      ],
+      "CoffeeScript": [
+        26928,
+        0
+      ],
+      "Shell": [
+        177093,
+        55
+      ],
+      "HTML": [
+        199213,
+        26
+      ],
+      "PHP": [
+        870273,
+        11
+      ],
+      "Lua": [
+        296875,
+        81
+      ],
+      "Go Template": [
+        3570,
+        0
+      ],
+      "Dockerfile": [
+        7012,
+        0
+      ],
+      "Vim Script": [
+        127187,
+        38
+      ],
+      "Perl": [
+        78307,
+        27
+      ],
+      "Vim Snippet": [
+        1007,
+        0
+      ],
+      "SCSS": [
+        88873,
+        9
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 656,
+    "total_lines": 4150295,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 1860756,
+        "commits": 235
+      },
+      {
+        "language": "JavaScript",
+        "lines": 352180,
+        "commits": 160
+      },
+      {
+        "language": "Lua",
+        "lines": 296875,
+        "commits": 81
+      },
+      {
+        "language": "Shell",
+        "lines": 177093,
+        "commits": 55
+      },
+      {
+        "language": "Vim Script",
+        "lines": 127187,
+        "commits": 38
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "franck",
+    "analysis_date": "2026-02-22T05:18:55.360469",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 275,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "click": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 12,
+        "packages": {
+          "config.lazy": 2,
+          "lazy": 2,
+          "config.folding": 1,
+          "config.opt": 1,
+          "config.bepo": 1,
+          "config.promote_let": 1,
+          "=": 1,
+          "mini.pairs": 1,
+          "mini.starter": 1,
+          "oil": 1,
+          "nvim-surround": 1,
+          "config.telescope.multigrep": 1,
+          "telescope": 1,
+          "nvim-treesitter.configs": 1,
+          "test_helper": 1,
+          "rails_helper": 1,
+          "lazyvim.util": 1,
+          "typescript": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 13,
+        "packages": {
+          "admin-header.php": 5,
+          "wp-admin/includes/admin.php": 3,
+          "wp-load.php": 2,
+          "admin.php": 2,
+          "admin-footer.php": 2,
+          "wp-settings.php": 1,
+          "wp-admin/includes/nav-menu.php": 1,
+          "wp-admin/includes/dashboard.php": 1,
+          "wp-admin/import/livejournal.php": 1,
+          "wp-admin/includes/image-edit.php": 1,
+          "wp-admin/options-head.php": 1,
+          "wp-admin/menu-header.php": 1,
+          "wp-admin/import/$importer.php": 1,
+          "wp-admin/admin-footer.php": 1,
+          "wp-admin/admin-header.php": 1,
+          "wp-admin/menu.php": 1,
+          "wp-admin/includes/upgrade.php": 1,
+          "wp-admin/includes/file.php": 1,
+          "wp-admin/includes/image.php": 1,
+          "wp-admin/includes/post.php": 1,
+          "wp-admin/includes/ms-deprecated.php": 1,
+          "wp-admin/includes/comment.php": 1,
+          "wp-admin/includes/media.php": 1,
+          "wp-admin/includes/taxonomy.php": 1,
+          "wp-admin/includes/theme.php": 1,
+          "wp-admin/includes/deprecated.php": 1,
+          "wp-admin/includes/ms.php": 1,
+          "wp-admin/includes/bookmark.php": 1,
+          "wp-admin/includes/import.php": 1,
+          "wp-admin/includes/misc.php": 1,
+          "wp-admin/includes/plugin.php": 1,
+          "wp-admin/includes/template.php": 1,
+          "wp-admin/includes/user.php": 1,
+          "wp-admin/includes/update.php": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 70,
+        "packages": {
+          "test_helper": 9,
+          "rubygems": 6,
+          "test/unit": 6,
+          "spec_helper": 5,
+          "bundler/setup": 4,
+          "Singleton": 3,
+          "action_controller/test_process": 3,
+          "mocha": 3,
+          "rails/all": 3,
+          "acl9": 2,
+          "action_controller": 2,
+          "active_record": 2,
+          "ActionView::Helpers::TagHelper": 2,
+          "ActionView::Helpers::AssetTagHelper": 2,
+          "Synthesis::AssetPackageHelper": 2,
+          "Comparable": 2,
+          "rack/oauth2": 2,
+          "csv": 2,
+          "brevo_rails": 2,
+          "uri": 2,
+          "bundler/capistrano": 2,
+          "capistrano/ext/multistage": 2,
+          "rvm/capistrano": 2,
+          "controller_extensions": 1,
+          "action": 1,
+          "anyone": 1,
+          "everyone": 1,
+          "to_s": 1,
+          "everybody": 1,
+          "dsl_base": 1,
+          "Acl9::ModelExtensions::Subject": 1,
+          "Acl9::ModelExtensions::Object": 1,
+          "model_extensions": 1,
+          ":accepts_role_by?": 1,
+          ":has_role_for?": 1,
+          "BaseTests": 1,
+          "support/controllers": 1,
+          "ShouldRespondToAcl": 1,
+          "ACLQueryMixin": 1,
+          "ostruct": 1,
+          "Noone": 1,
+          "Acl9Helpers": 1,
+          "Hamlet": 1,
+          "NotLoggedIn": 1,
+          "SomeHelper": 1,
+          "support/models": 1,
+          "TrueFalse": 1,
+          "matchy": 1,
+          "context": 1,
+          "jnunemaker-matchy": 1,
+          "active_support": 1,
+          "jeremymcanally-context": 1,
+          "active-campaign-rails/version": 1,
+          "active-campaign-rails/client": 1,
+          "ActiveCampaign::Client": 1,
+          "active-campaign-rails": 1,
+          "synthesis/asset_package_helper": 1,
+          "Synthesis": 1,
+          "InstanceMethods": 1,
+          "Columns": 1,
+          "CollectiveIdea::NamedScope": 1,
+          "awesome_nested_set/named_scope": 1,
+          "awesome_nested_set": 1,
+          "CollectiveIdea::Acts::NestedSet::Helper": 1,
+          "awesome_nested_set/helper": 1,
+          "CollectiveIdea::Acts::NestedSet": 1,
+          "awesome_nested_set/compatability": 1,
+          "Helper": 1,
+          "action_view": 1,
+          "multi_rails_init": 1,
+          "active_record/fixtures": 1,
+          "ActionView::Helpers::TextHelper": 1,
+          "PublicHelper": 1,
+          "delegate": 1,
+          "ActiveModel::Conversion": 1,
+          "ActiveModel::Validations": 1,
+          "Virtus": 1,
+          "brevo_rails/mail": 1,
+          "brevo_rails/version": 1,
+          "brevo": 1,
+          "brevo_rails/action_mailer": 1,
+          "action_mailer/delivery_method": 1,
+          "action_mailer/railtie": 1,
+          "active_support/core_ext/hash/keys": 1,
+          "base64": 1,
+          "brevo_rails/action_mailer/delivery_method": 1,
+          "mail": 1,
+          "compass-rails": 1,
+          "chosen-rails/engine3": 1,
+          "chosen-rails/engine": 1,
+          "chosen-rails/railtie": 1,
+          "chosen-rails/version": 1,
+          "thor": 1,
+          "Thor::Actions": 1,
+          "json": 1,
+          "default": 1,
+          "devise/orm/active_record": 1,
+          "zeus/rails": 1,
+          "Rack::Utils": 1,
+          "redcarpet": 1,
+          "erb": 1,
+          "sinatra/base": 1,
+          "DataMapper::Resource": 1,
+          "rack/test": 1,
+          "CopyAppSetup": 1,
+          "Rack::Test::Methods": 1,
+          "mocha/setup": 1,
+          "copy": 1,
+          "turn": 1,
+          "haml": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "franck/acl9",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/active-campaign-rails",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/asset_packager",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/awesome_nested_set",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/barbier",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/bestpractices",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/blogoliv",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "franck/brevo-rails",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/chezmoi-config",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "franck/chosen-rails",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/clubdetri",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/copy",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/courbedepoids",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/cpville",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "franck/dd",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

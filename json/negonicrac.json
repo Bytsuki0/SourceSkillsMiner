@@ -1,0 +1,127 @@
+{
+  "username": "negonicrac",
+  "areas": {
+    "OSS": {
+      "score": 0.7968333898370581,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.7,
+        "commits_activity": 0.9952500847555872
+      }
+    },
+    "Status": {
+      "score": 0.3913985702035869,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9717132399207649,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.3970579900101613,
+  "language_usage": {
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "negonicrac",
+    "analysis_date": "2026-02-22T22:22:01.956856",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 40,
+    "languages": {
+      "Ruby": {
+        "files_scanned": 28,
+        "packages": {
+          "rails/generators/named_base": 4,
+          "rails/generators/migration": 3,
+          "generators/data_mapper": 3,
+          "generators/mustache": 3,
+          "generators/shoulda": 3,
+          "test_helper": 3,
+          "rails/generators/active_model": 2,
+          "generators/helpers/migration_helper": 2,
+          "Rails::Generators::Migration": 2,
+          "righthand/helpers": 1,
+          "Righthand::Helpers::AuthorHelpers": 1,
+          "righthand/monkeypatches/blog_article": 1,
+          "Righthand::Helpers::DateHelpers": 1,
+          "Righthand::Helpers::MetatagHelpers": 1,
+          "righthand/html": 1,
+          "generators/active_model": 1,
+          "ActiveModel::Validations": 1,
+          "ActiveModel::Serialization": 1,
+          "Rails3Generators::MigrationHelper": 1,
+          "DataMapper::Resource": 1,
+          "DataMapper::Observer": 1,
+          "rails/generators/#{orm}": 1,
+          "generators/koala": 1,
+          "mustache_rails": 1,
+          "ActionView::Template::Handlers::Compilable": 1,
+          "mustache": 1,
+          "rails/generators/erb/scaffold/scaffold_generator": 1,
+          "Rails::Generators::ResourceHelpers": 1,
+          "rails/generators": 1,
+          "righthand/version": 1,
+          "righthand/helpers/metatag_helpers": 1,
+          "righthand/helpers/date_helpers": 1,
+          "righthand/helpers/author_helpers": 1,
+          "oembed": 1,
+          "redcarpet": 1,
+          "Redcarpet::Render::SmartyPants": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "negonicrac/negonicrac",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "negonicrac/rails3-generators",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "negonicrac/righthand",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

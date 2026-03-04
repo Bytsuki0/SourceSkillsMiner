@@ -1,0 +1,366 @@
+{
+  "username": "evandrodutra",
+  "areas": {
+    "OSS": {
+      "score": -0.0077383058384200565,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.9883925412423699
+      }
+    },
+    "Status": {
+      "score": 0.3492246858063419,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9853754902479746,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "evandrodutra/omnicontacts": 0.2263
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.43537159499198047,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        197364,
+        92
+      ],
+      "Shell": [
+        2707,
+        43
+      ],
+      "HTML": [
+        4665,
+        5
+      ],
+      "Dockerfile": [
+        352,
+        16
+      ],
+      "JavaScript": [
+        8817,
+        12
+      ],
+      "CSS": [
+        202,
+        0
+      ],
+      "Makefile": [
+        169,
+        4
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 172,
+    "total_lines": 214276,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 197364,
+        "commits": 92
+      },
+      {
+        "language": "Shell",
+        "lines": 2707,
+        "commits": 43
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 352,
+        "commits": 16
+      },
+      {
+        "language": "JavaScript",
+        "lines": 8817,
+        "commits": 12
+      },
+      {
+        "language": "HTML",
+        "lines": 4665,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "evandrodutra",
+    "analysis_date": "2026-02-22T22:06:45.105023",
+    "total_repos_analyzed": 18,
+    "total_files_analyzed": 274,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 26,
+        "packages": {
+          "react": 8,
+          "react-apollo": 6,
+          "graphql-tag": 5,
+          "webpack": 4,
+          "autoprefixer": 4,
+          "html-webpack-plugin": 4,
+          "components": 4,
+          "react-router-dom": 3,
+          "path": 2,
+          "extract-text-webpack-plugin": 2,
+          "stylesheets": 2,
+          "test-file-stub": 2,
+          "production": 2,
+          "fs": 1,
+          "request": 1,
+          "react-router": 1,
+          "auth-token": 1,
+          "apollo-link": 1,
+          "apollo-client": 1,
+          "apollo-link-ws": 1,
+          "apollo-utilities": 1,
+          "apollo-cache-inmemory": 1,
+          "apollo-link-http": 1,
+          "react-dom": 1,
+          "apollo-link-context": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 75,
+        "packages": {
+          "spec_helper": 25,
+          "rails_helper": 11,
+          "bundler/setup": 6,
+          "json": 5,
+          "boot": 5,
+          "application": 5,
+          "omnicontacts/parse_utils": 5,
+          "ParseUtils": 4,
+          "omnicontacts/middleware/oauth2": 4,
+          "active_record/railtie": 3,
+          "rails": 3,
+          "action_controller/railtie": 3,
+          "active_model/railtie": 3,
+          "bootsnap/setup": 3,
+          "omnicontacts/http_utils": 3,
+          "omnicontacts/middleware/base_oauth": 3,
+          "yaml": 2,
+          "rails/all": 2,
+          "HTTPUtils": 2,
+          "omnicontacts": 2,
+          "cgi": 2,
+          "omnicontacts/middleware/oauth1": 2,
+          "omnicontacts/authorization/oauth1": 2,
+          "omnicontacts/authorization/oauth2": 2,
+          "action_view/railtie": 2,
+          "active_support/core_ext/integer/time": 2,
+          "rspec/rails": 2,
+          "hashdiff": 1,
+          "campaign_inspector/campaign": 1,
+          "campaign_inspector/version": 1,
+          "typhoeus": 1,
+          "campaign_inspector/get_campaigns_client": 1,
+          "campaign_inspector/comparator": 1,
+          "campaign_inspector": 1,
+          "zlib": 1,
+          "rubygems/package": 1,
+          "fleet_manager/version": 1,
+          "fleet_manager/calculator": 1,
+          "fleet_manager/validator": 1,
+          "slop/array_option": 1,
+          "slop": 1,
+          "fleet_manager": 1,
+          "base64": 1,
+          "middleware": 1,
+          "net/https": 1,
+          "net/http": 1,
+          "openssl": 1,
+          "singleton": 1,
+          "Singleton": 1,
+          "Authorization::OAuth1": 1,
+          ":redirect_path": 1,
+          "Authorization::OAuth2": 1,
+          "OmniContacts::Authorization::OAuth1": 1,
+          "OmniContacts::Authorization::OAuth2": 1,
+          "omnicontacts/importer/facebook": 1,
+          "omnicontacts/importer/gmail": 1,
+          "omnicontacts/importer/hotmail": 1,
+          "omnicontacts/importer/yahoo": 1,
+          "omnicontacts/integration_test": 1,
+          "OmniContacts::ParseUtils": 1,
+          "rack/test": 1,
+          "rspec": 1,
+          "simplecov": 1,
+          "simulator/robot": 1,
+          "simulator/interpreter": 1,
+          "simulator/simulator": 1,
+          "simulator/table": 1,
+          "simulator/command_parser": 1,
+          "simulator/client": 1,
+          "matrix": 1,
+          "active_job/railtie": 1,
+          "active_storage/engine": 1,
+          "rails/test_unit/railtie": 1,
+          "Rack::Test::Methods": 1,
+          "troy/hacks": 1,
+          "redcarpet": 1,
+          "builder": 1,
+          "troy/context": 1,
+          "rouge": 1,
+          "troy/site": 1,
+          "fileutils": 1,
+          "troy/xml": 1,
+          "rack": 1,
+          "ostruct": 1,
+          "thor": 1,
+          "sass": 1,
+          "html_press": 1,
+          "troy/helpers": 1,
+          "troy/server": 1,
+          "troy/cli": 1,
+          "uglifier": 1,
+          "troy/generator": 1,
+          "troy/embedded_ruby": 1,
+          "i18n": 1,
+          "troy/extension_matcher": 1,
+          "troy/configuration": 1,
+          "troy/markdown": 1,
+          "rouge/plugins/redcarpet": 1,
+          "troy/meta": 1,
+          "pathname": 1,
+          "troy/page": 1,
+          "troy/version": 1,
+          "thor/group": 1,
+          "forwardable": 1,
+          "sprockets": 1,
+          "Thor::Actions": 1,
+          "Redcarpet::Render::SmartyPants": 1,
+          "Rouge": 1,
+          "::Rouge::Plugins::Redcarpet": 1,
+          "file": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "evandrodutra/awesome-berlin",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "evandrodutra/campaign-inspector",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evandrodutra/contracts",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evandrodutra/cran-indexer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evandrodutra/fleet_manager",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evandrodutra/gambrinus",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "evandrodutra/graphql-example",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "evandrodutra/node-skeleton",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "evandrodutra/omnicontacts",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evandrodutra/robot_simulator",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evandrodutra/ruby-dev-cls-1",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evandrodutra/ruby-dev-cls-2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evandrodutra/shorty",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evandrodutra/troy",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

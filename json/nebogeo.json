@@ -1,0 +1,641 @@
+{
+  "username": "nebogeo",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5128205128205128,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.2692307692307692
+      }
+    },
+    "Sentiment": {
+      "score": 0.8888888888888888,
+      "details": {
+        "nebogeo/bumper-crop": -0.0172,
+        "nebogeo/crab-game": 0.27136,
+        "nebogeo/creative-kids-coding-cornwall": 0.3186333333333333,
+        "nebogeo/cricket-tales": 0.1433,
+        "nebogeo/dazzlebug": 0.32223999999999997,
+        "nebogeo/fluxus": 0.09196666666666665,
+        "nebogeo/littlej": 0.08361666666666667,
+        "nebogeo/symbai": 0.061924999999999994,
+        "nebogeo/where-is-that-nest": 0.371725
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7170940170940171,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Scheme": [
+        288681,
+        640
+      ],
+      "C++": [
+        459589,
+        517
+      ],
+      "C": [
+        1140069,
+        202
+      ],
+      "Java": [
+        242951,
+        67
+      ],
+      "PHP": [
+        1713009,
+        212
+      ],
+      "JavaScript": [
+        339993,
+        231
+      ],
+      "Clojure": [
+        97474,
+        3
+      ],
+      "Pure Data": [
+        13373,
+        4
+      ],
+      "Racket": [
+        23539,
+        42
+      ],
+      "Shell": [
+        11488,
+        12
+      ],
+      "SuperCollider": [
+        135839,
+        24
+      ],
+      "Python": [
+        178777,
+        216
+      ],
+      "HTML": [
+        32840,
+        138
+      ],
+      "CSS": [
+        25133,
+        104
+      ],
+      "Perl": [
+        1601,
+        0
+      ],
+      "GLSL": [
+        2930,
+        2
+      ],
+      "Haxe": [
+        257557,
+        1
+      ],
+      "Makefile": [
+        8119,
+        3
+      ],
+      "QMake": [
+        655,
+        0
+      ],
+      "VCL": [
+        236,
+        0
+      ],
+      "M4": [
+        280,
+        0
+      ],
+      "Objective-C": [
+        11502,
+        0
+      ],
+      "Ruby": [
+        151,
+        1
+      ],
+      "MATLAB": [
+        636,
+        0
+      ],
+      "Elixir": [
+        114,
+        0
+      ],
+      "Gnuplot": [
+        30,
+        0
+      ],
+      "Haskell": [
+        2025,
+        3
+      ],
+      "Jupyter Notebook": [
+        1978,
+        3
+      ],
+      "PureScript": [
+        590,
+        0
+      ],
+      "Assembly": [
+        10834,
+        2
+      ],
+      "Visual Basic": [
+        6298,
+        1
+      ]
+    },
+    "language_count": 31,
+    "total_commits": 2428,
+    "total_lines": 5008291,
+    "top_5_languages": [
+      {
+        "language": "Scheme",
+        "lines": 288681,
+        "commits": 640
+      },
+      {
+        "language": "C++",
+        "lines": 459589,
+        "commits": 517
+      },
+      {
+        "language": "JavaScript",
+        "lines": 339993,
+        "commits": 231
+      },
+      {
+        "language": "Python",
+        "lines": 178777,
+        "commits": 216
+      },
+      {
+        "language": "PHP",
+        "lines": 1713009,
+        "commits": 212
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "nebogeo",
+    "analysis_date": "2026-02-24T00:27:15.397985",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 230,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "earlobes.h": 2,
+          "<android/asset_manager.h>": 2,
+          "<android/asset_manager_jni.h>": 2,
+          "<string.h>": 2,
+          "<SLES/OpenSLES.h>": 2,
+          "android/asset_manager_jni.h": 2,
+          "<SLES/OpenSLES_Android.h>": 2,
+          "SLES/OpenSLES_Android.h": 2,
+          "<assert.h>": 2,
+          "<sys/types.h>": 2,
+          "android/log.h": 2,
+          "<android/log.h>": 2,
+          "jni.h": 2,
+          "assert.h": 2,
+          "string.h": 2,
+          "SLES/OpenSLES.h": 2,
+          "android/asset_manager.h": 2,
+          "<pthread.h>": 2,
+          "sys/types.h": 2,
+          "pthread.h": 2,
+          "<jni.h>": 2
+        }
+      },
+      "C++": {
+        "files_scanned": 24,
+        "packages": {
+          "<stdio.h>": 12,
+          "stdio.h": 12,
+          "math.h": 8,
+          "<math.h>": 8,
+          "machine.h": 5,
+          "<stdlib.h>": 5,
+          "stdlib.h": 5,
+          "namespace": 4,
+          "Modules.h": 4,
+          "<nds.h>": 3,
+          "nds.h": 3,
+          "cursor.h": 2,
+          "pointer.h": 2,
+          "list.h": 2,
+          "tiles_pcx.h": 2,
+          "machine_view.h": 2,
+          "numbers_pcx.h": 2,
+          "sound.h": 2,
+          "soundbank.h": 2,
+          "thread.h": 2,
+          "thread_view.h": 2,
+          "sprites.h": 2,
+          "tuning.h": 2,
+          "Allocator.h": 2,
+          "std": 2,
+          "<string.h>": 2,
+          "Types.h": 2,
+          "string.h": 2,
+          "Sample.h": 2,
+          "spiralcore": 2,
+          "earlobes.h": 2,
+          "ARToolKitPlus/CameraAdvImpl.h": 2,
+          "<ARToolKitPlus/CameraAdvImpl.h>": 2,
+          "<ARToolKitPlus/CameraImpl.h>": 2,
+          "ARToolKitPlus/CameraImpl.h": 2,
+          "sprites_pcx.h": 1,
+          "<unistd.h>": 1,
+          "soundbank_bin.h": 1,
+          "unistd.h": 1,
+          "qrz_instruments.h": 1,
+          "<maxmod9.h>": 1,
+          "maxmod9.h": 1,
+          "sprite.h": 1,
+          "ARToolKitPlus/CameraFactory.h": 1,
+          "<ARToolKitPlus/CameraFactory.h>": 1,
+          "ARToolKitPlus/byteSwap.h": 1,
+          "<ARToolKitPlus/byteSwap.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 43,
+        "packages": {
+          "<nds.h>": 9,
+          "nds.h": 9,
+          "stdlib.h": 7,
+          "<stdlib.h>": 7,
+          "<stdio.h>": 7,
+          "stdio.h": 7,
+          "<ARToolKitPlus/Logger.h>": 7,
+          "ARToolKitPlus/Logger.h": 7,
+          "<ARToolKitPlus/config.h>": 6,
+          "ARToolKitPlus/config.h": 6,
+          "ARToolKitPlus/Camera.h": 5,
+          "<ARToolKitPlus/Camera.h>": 5,
+          "machine.h": 4,
+          "namespace": 4,
+          "Types.h": 4,
+          "<ARToolKitPlus/param.h>": 4,
+          "ARToolKitPlus/param.h": 4,
+          "sprites.h": 3,
+          "math.h": 3,
+          "<math.h>": 3,
+          "windows.h": 3,
+          "<windows.h>": 3,
+          "ARToolKitPlus/ar.h": 3,
+          "<ARToolKitPlus/ar.h>": 3,
+          "ARToolKitPlus/Tracker.h": 3,
+          "<ARToolKitPlus/Tracker.h>": 3,
+          "sound.h": 2,
+          "types.h": 2,
+          "sprite.h": 2,
+          "list.h": 2,
+          "Sample.h": 2,
+          "limits.h": 2,
+          "<limits.h>": 2,
+          "Allocator.h": 2,
+          "<memory.h>": 2,
+          "assert.h": 2,
+          "<assert.h>": 2,
+          "memory.h": 2,
+          "ARToolKitPlus/arMulti.h": 2,
+          "<ARToolKitPlus/arMulti.h>": 2,
+          "<ARToolKitPlus/TrackerImpl.h>": 2,
+          "ARToolKitPlus/TrackerImpl.h": 2,
+          "pointer.h": 1,
+          "thread.h": 1,
+          "qrz.h": 1,
+          "<maxmod9.h>": 1,
+          "maxmod9.h": 1,
+          "qrz_instruments.h": 1,
+          "tuning.h": 1,
+          "instructions.h": 1,
+          "<stdarg.h>": 1,
+          "stdarg.h": 1,
+          "<string.h>": 1,
+          "string.h": 1,
+          "ARToolKitPlus.h": 1,
+          "MemoryManager.h": 1,
+          "ARToolKitPlus/extra/Profiler.h": 1,
+          "<ARToolKitPlus/extra/Profiler.h>": 1,
+          "<ARToolKitPlus/ARToolKitPlus.h>": 1,
+          "ARToolKitPlus/ARToolKitPlus.h": 1,
+          "ARToolKitPlus/MemoryManager.h": 1,
+          "<ARToolKitPlus/MemoryManager.h>": 1,
+          "ARToolKitPlus/CameraFactory.h": 1,
+          "ARToolKitPlus/extra/BCH.h": 1,
+          "<ARToolKitPlus/extra/BCH.h>": 1,
+          "ARToolKitPlus/matrix.h": 1,
+          "<ARToolKitPlus/CameraFactory.h>": 1,
+          "<ARToolKitPlus/matrix.h>": 1,
+          "<ARToolKitPlus/TrackerMultiMarker.h>": 1,
+          "ARToolKitPlus/TrackerMultiMarker.h": 1,
+          "<ARToolKitPlus/TrackerSingleMarker.h>": 1,
+          "ARToolKitPlus/TrackerSingleMarker.h": 1,
+          "<malloc.h>": 1,
+          "malloc.h": 1,
+          "config.h": 1,
+          "<config.h>": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "gpp.h": 1,
+          "<gpp.h>": 1,
+          "<ARToolKitPlus/vector.h>": 1,
+          "ARToolKitPlus/vector.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 45,
+        "packages": {
+          "android.content": 34,
+          "foam.doris": 30,
+          "android.view": 25,
+          "java.util": 22,
+          "android.app": 21,
+          "android.widget": 21,
+          "android.os": 20,
+          "android.util": 15,
+          "android.graphics": 14,
+          "com.google": 11,
+          "foam.zizim": 9,
+          "android.text": 8,
+          "android.net": 7,
+          "java.io": 5,
+          "android.support": 5,
+          "foam.nebogeo": 3,
+          "android.location": 3,
+          "android.database": 3,
+          "foam.bumpercrop": 3,
+          "android.webkit": 2,
+          "java.lang": 2,
+          "android.hardware": 1,
+          "android.provider": 1,
+          "org.xml": 1,
+          "javax.xml": 1,
+          "java.net": 1,
+          "foam.starwisp": 1,
+          "org.json": 1,
+          "android.preference": 1,
+          "com.commonsware": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 10,
+        "packages": {
+          "t.write(": 4,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 4,
+          ")).appendTo(t.documentElement)": 4,
+          "horizontal": 3,
+          ").appendTo(a))": 2,
+          "o.opacity&&(this.helper.css(": 2,
+          "jQuery": 1,
+          "object": 1,
+          "=": 1,
+          "the": 1,
+          "vertical": 1,
+          "function": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 47,
+        "packages": {
+          "*": 28,
+          "dbscode_minecraft": 20,
+          "os": 10,
+          "sys": 9,
+          "django": 9,
+          "PIL": 8,
+          "Image": 8,
+          "random": 7,
+          "math": 6,
+          "numpy": 4,
+          "xlrd": 4,
+          "time": 4,
+          "crickets": 4,
+          "pyplot": 3,
+          "matplotlib": 3,
+          "quipulib": 3,
+          "operator": 3,
+          "ImageDraw": 3,
+          "datetime": 3,
+          "entropy": 2,
+          "admin": 2,
+          "patterns": 2,
+          "User": 2,
+          "urllib": 1,
+          "division": 1,
+          "__future__": 1,
+          "quipu2dot": 1,
+          "block": 1,
+          "Vec3": 1,
+          "vec3": 1,
+          "minecraft": 1,
+          "settings": 1,
+          "get_wsgi_application": 1,
+          "Max": 1,
+          "randint": 1,
+          "models": 1,
+          "common": 1,
+          "TestCase": 1,
+          "include": 1,
+          "views": 1,
+          "generic": 1,
+          "json": 1,
+          "HttpResponseRedirect": 1,
+          "locale": 1,
+          "authenticate": 1,
+          "Context": 1,
+          "itertools": 1,
+          "get_object_or_404": 1,
+          "serializers": 1,
+          "ModelForm": 1,
+          "reverse": 1,
+          "ugettext_lazy": 1,
+          "mimetypes": 1,
+          "forms": 1,
+          "chain": 1,
+          "Count": 1,
+          "csv": 1,
+          "execute_from_command_line": 1,
+          "urllib2": 1,
+          "psutil": 1,
+          "a2b_base64": 1,
+          "binascii": 1,
+          "sqlite3": 1,
+          "tweepy": 1,
+          "string_maker": 1,
+          "xmlrpclib": 1,
+          "rnd_gen": 1,
+          "RPi": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "nebogeo/betablocker-ds",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "nebogeo/bikemesh-promixity-synth",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "Java"
+        ]
+      },
+      {
+        "repository": "nebogeo/borrowed-scenery",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "nebogeo/bumper-crop",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "nebogeo/coding-with-knots",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "nebogeo/crab-game",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "nebogeo/creative-kids-coding-cornwall",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "nebogeo/cricket-tales",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "nebogeo/dazzlebug",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "nebogeo/doris",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "nebogeo/earlobes",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "Java"
+        ]
+      },
+      {
+        "repository": "nebogeo/egglab",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "nebogeo/fluxus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "nebogeo/germinationx",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "nebogeo/hungry-birds-2",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "nebogeo/invisible",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

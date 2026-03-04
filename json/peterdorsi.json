@@ -1,0 +1,224 @@
+{
+  "username": "peterdorsi",
+  "areas": {
+    "OSS": {
+      "score": 0.13038749962728513,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.6955812494409277
+      }
+    },
+    "Status": {
+      "score": 0.14958055929529346,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6859093004814018,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "peterdorsi/skrilla-theme": 0.07543333333333334
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.36999201473064464,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        22672,
+        9
+      ],
+      "Shell": [
+        614,
+        4
+      ],
+      "Batchfile": [
+        4,
+        0
+      ],
+      "HTML": [
+        169,
+        0
+      ],
+      "Python": [
+        4,
+        0
+      ],
+      "CSS": [
+        51645,
+        14
+      ],
+      "C#": [
+        740,
+        6
+      ],
+      "Vue": [
+        584,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 33,
+    "total_lines": 76432,
+    "top_5_languages": [
+      {
+        "language": "CSS",
+        "lines": 51645,
+        "commits": 14
+      },
+      {
+        "language": "JavaScript",
+        "lines": 22672,
+        "commits": 9
+      },
+      {
+        "language": "C#",
+        "lines": 740,
+        "commits": 6
+      },
+      {
+        "language": "Shell",
+        "lines": 614,
+        "commits": 4
+      },
+      {
+        "language": "Batchfile",
+        "lines": 4,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "peterdorsi",
+    "analysis_date": "2026-02-22T15:06:21.924600",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 44,
+    "languages": {
+      "C#": {
+        "files_scanned": 6,
+        "packages": {
+          "System.Collections": 6,
+          "UnityEngine": 6
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 21,
+        "packages": {
+          "path": 5,
+          "webpack": 4,
+          "vue": 4,
+          "lodash": 4,
+          "express": 3,
+          "tailwindcss": 2,
+          "extract-text-webpack-plugin": 2,
+          "webpack-merge": 2,
+          "html-webpack-plugin": 2,
+          "vue-router": 2,
+          "precss": 1,
+          "autoprefixer": 1,
+          "eslint-friendly-formatter": 1,
+          "webpack-md5-hash": 1,
+          "vue-resource": 1,
+          "express-validation": 1,
+          "joi": 1,
+          "multer": 1,
+          "body-parser": 1,
+          "cookie-parser": 1,
+          "http-proxy-middleware": 1,
+          "webpack-dev-middleware": 1,
+          "webpack-hot-middleware": 1,
+          "config": 1,
+          "stage": 1,
+          "production": 1,
+          "development": 1,
+          "bunyan": 1,
+          "connect-history-api-fallback": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 4,
+        "packages": {
+          "react-emotion": 4,
+          "react": 2,
+          "gatsby-plugin-google-analytics": 2,
+          "gatsby-image": 1,
+          "react-helmet": 1,
+          "prop-types": 1,
+          "gatsby": 1,
+          "typeface-montserrat": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "google": 1,
+          "vendor": 1,
+          "flask": 1,
+          "requests": 1,
+          "requests_toolbelt": 1,
+          "Flask": 1,
+          "flask_sslify": 1,
+          "json": 1,
+          "SSLify": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "peterdorsi/made-with-angular",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "peterdorsi/peterdorsi",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "peterdorsi/unity-spaceinvaders",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "peterdorsi/WantsThis",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "username": "brunojm",
+  "areas": {
+    "OSS": {
+      "score": 0.2113050183748919,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.8888888888888888,
+        "commits_activity": 0.26140197200678245
+      }
+    },
+    "Status": {
+      "score": -0.14624483917496556,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.26140197200678245,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.11626504479998159,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        22,
+        3
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 3,
+    "total_lines": 22,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 22,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "brunojm",
+    "analysis_date": "2026-02-22T22:54:31.178770",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 56,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "fs": 2,
+          "url": 1,
+          "path": 1,
+          "node-fetch": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 48,
+        "packages": {
+          "mendeley": 22,
+          "datetime": 18,
+          "gazette": 17,
+          "date": 11,
+          "scrapy": 8,
+          "os": 6,
+          "arrow": 6,
+          "json": 5,
+          "SessionResponseObject": 5,
+          "Gazette": 5,
+          "future": 4,
+          "re": 4,
+          "sqlalchemy": 4,
+          "BaseDiofSpider": 4,
+          "BaseGazetteSpider": 4,
+          "Annotation": 3,
+          "ListResource": 3,
+          "*": 3,
+          "sessionmaker": 3,
+          "BaseDoemSpider": 3,
+          "sys": 2,
+          "urlsplit": 2,
+          "OAuth2Session": 2,
+          "MendeleySession": 2,
+          "oauthlib": 2,
+          "requests_oauthlib": 2,
+          "ResponseObject": 2,
+          "LazyResponseObject": 2,
+          "BaseDocument": 2,
+          "File": 2,
+          "Profile": 2,
+          "GetByIdResource": 2,
+          "add_query_params": 2,
+          "MendeleyException": 2,
+          "DocumentsBase": 2,
+          "pkg_resources": 2,
+          "declarative_base": 2,
+          "signals": 2,
+          "BaseSigpubSpider": 2,
+          "random": 1,
+          "MendeleyClientCredentialsAuthenticator": 1,
+          "string": 1,
+          "MobileApplicationClient": 1,
+          "HTTPBasicAuth": 1,
+          "bytes": 1,
+          "requests": 1,
+          "BoundingBox": 1,
+          "Person": 1,
+          "mimetypes": 1,
+          "basename": 1,
+          "guess_type": 1,
+          "Photo": 1,
+          "Discipline": 1,
+          "memoized_property": 1,
+          "Page": 1,
+          "iteritems": 1,
+          "Group": 1,
+          "TrashAllDocument": 1,
+          "MendeleyApiException": 1,
+          "TokenExpiredError": 1,
+          "urljoin": 1,
+          "platform": 1,
+          "__version__": 1,
+          "setup": 1,
+          "setuptools": 1,
+          "Mendeley": 1,
+          "YamlFileSerializer": 1,
+          "time": 1,
+          "vcr": 1,
+          "test": 1,
+          "yaml": 1,
+          "ScrapyCommand": 1,
+          "UsageError": 1,
+          "get_enabled_spiders": 1,
+          "relationship": 1,
+          "csv": 1,
+          "logging": 1,
+          "JSON": 1,
+          "SendDiscordMessage": 1,
+          "create_engine": 1,
+          "Monitor": 1,
+          "spidermon": 1,
+          "JobStats": 1,
+          "FilesPipeline": 1,
+          "project": 1,
+          "spiderloader": 1,
+          "boto3": 1,
+          "ItemAdapter": 1,
+          "DropItem": 1,
+          "SQLAlchemyError": 1,
+          "itemadapter": 1,
+          "Settings": 1,
+          "filetype": 1,
+          "Request": 1,
+          "Path": 1,
+          "pathlib": 1,
+          "NO_CALLBACK": 1,
+          "decouple": 1,
+          "config": 1,
+          "urllib": 1,
+          "parse_qs": 1,
+          "FormRequest": 1,
+          "get_date_from_text": 1,
+          "dateparser": 1,
+          "BaseAdiariosV1Spider": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "brunojm/marketplace",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "brunojm/mendeley-python-sdk",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "brunojm/querido-diario",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

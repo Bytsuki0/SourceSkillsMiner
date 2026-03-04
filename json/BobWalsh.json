@@ -1,0 +1,358 @@
+{
+  "username": "BobWalsh",
+  "areas": {
+    "OSS": {
+      "score": 0.6222222222222222,
+      "details": {
+        "issue_resolution_rate": 0.8333333333333334,
+        "pr_merge_rate": 0.6,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "BobWalsh/green-things": 0.4939
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6017094017094017,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        76725,
+        37
+      ],
+      "HTML": [
+        111881,
+        43
+      ],
+      "JavaScript": [
+        164572,
+        66
+      ],
+      "CSS": [
+        442411,
+        41
+      ],
+      "SCSS": [
+        1178,
+        0
+      ],
+      "Dockerfile": [
+        2,
+        0
+      ],
+      "Shell": [
+        1236,
+        0
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "Nix": [
+        35,
+        0
+      ],
+      "Vue": [
+        83148,
+        28
+      ],
+      "TypeScript": [
+        2194,
+        0
+      ],
+      "Makefile": [
+        3,
+        0
+      ],
+      "Python": [
+        1,
+        0
+      ],
+      "PHP": [
+        27,
+        2
+      ],
+      "CoffeeScript": [
+        40,
+        0
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 217,
+    "total_lines": 883453,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 164572,
+        "commits": 66
+      },
+      {
+        "language": "HTML",
+        "lines": 111881,
+        "commits": 43
+      },
+      {
+        "language": "CSS",
+        "lines": 442411,
+        "commits": 41
+      },
+      {
+        "language": "Ruby",
+        "lines": 76725,
+        "commits": 37
+      },
+      {
+        "language": "Vue",
+        "lines": 83148,
+        "commits": 28
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "BobWalsh",
+    "analysis_date": "2026-02-22T08:37:47.894995",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 264,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 66,
+        "packages": {
+          "lodash": 20,
+          "react": 15,
+          "vue": 11,
+          "~": 5,
+          "hotwired": 4,
+          "path": 4,
+          "fs": 4,
+          "rails": 3,
+          "undefined": 3,
+          "express": 3,
+          "controllers": 2,
+          "fs-extra": 2,
+          "moment-strftime": 2,
+          "gatsby": 2,
+          "fullhuman": 2,
+          "assets": 2,
+          "responsive-loader": 2,
+          "url-parse": 2,
+          "glob": 2,
+          "vue-disqus": 2,
+          "opti-image": 2,
+          "jQuery": 2,
+          "jquery": 2,
+          "flockos": 2,
+          "trix": 1,
+          "tailwind.config": 1,
+          "node-sass": 1,
+          "node-sass-utils": 1,
+          "gatsby-source-filesystem": 1,
+          "js-yaml": 1,
+          "react-helmet": 1,
+          "prop-types": 1,
+          "classnames": 1,
+          "react-html-parser": 1,
+          "react-script-tag": 1,
+          "marked": 1,
+          "hapi": 1,
+          "inert": 1,
+          "good": 1,
+          "gulp": 1,
+          "autoprefixer": 1,
+          "cssnano": 1,
+          "gulp-postcss": 1,
+          "postcss-import": 1,
+          "cross-spawn": 1,
+          "tailwindcss": 1,
+          "startServer": 1,
+          "browser-sync": 1,
+          "vuetify": 1,
+          "about": 1,
+          "vue-router": 1,
+          "turbolinks": 1,
+          "channels": 1,
+          "mustache": 1,
+          "util": 1,
+          "body-parser": 1,
+          "mongodb": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 20,
+        "packages": {
+          "rails/all": 4,
+          "bundler/setup": 4,
+          "active_support/core_ext/integer/time": 3,
+          "SetCurrentRequestDetails": 2,
+          "boot": 2,
+          "bootsnap/setup": 2,
+          "application": 2,
+          "generic": 1,
+          "HTTParty": 1,
+          "rails/test_help": 1,
+          "Secured": 1,
+          "dotenv": 1,
+          "net/https": 1,
+          "open-uri": 1,
+          "original_use_ssl=": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "BobWalsh/1plus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "BobWalsh/2022-hotwire-examples",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "BobWalsh/20minsite",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "BobWalsh/adorable-47hats",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "BobWalsh/amp-laterpay-reference-service",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "BobWalsh/another-tailwind-jekyll",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "BobWalsh/auth0-rubyonrails-sample",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "BobWalsh/awake-template",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "BobWalsh/awake-template-1",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "BobWalsh/beautify-with-vuetify",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "BobWalsh/bulma",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "BobWalsh/butter-gridsome",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "BobWalsh/Clifford-testwednesday",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "BobWalsh/dockerizing-ruby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "BobWalsh/flockcode1",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "BobWalsh/flockmom",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "BobWalsh/flocktest1",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

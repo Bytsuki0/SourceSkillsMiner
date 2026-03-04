@@ -1,0 +1,204 @@
+{
+  "username": "menno",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "menno/cloudfront_asset_host": 0.5464888888888889
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.16666666666666666,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "menno",
+    "analysis_date": "2026-02-24T05:27:28.053225",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 79,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 16,
+        "packages": {
+          "three": 6,
+          "three-orbit-viewer": 5,
+          "object-assign": 4,
+          "redux": 2,
+          "load-bmfont": 2,
+          "bitmap": 2,
+          "sun-tzu-quotes": 2,
+          "react-on-rails": 1,
+          "HELLO_WORLD_NAME_UPDATE": 1,
+          "connected": 1,
+          "react-redux": 1,
+          "quad-indices": 1,
+          "layout-bmfont-text": 1,
+          "nice-color-palettes": 1,
+          "array-shuffle": 1,
+          "bluebird": 1,
+          "three-vignette-background": 1,
+          "glslify": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 3,
+        "packages": {
+          "react": 3,
+          "prop-types": 2,
+          "react-redux": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 24,
+        "packages": {
+          "rails/generators": 6,
+          "generator_helper": 5,
+          "GeneratorHelper": 5,
+          "test_helper": 3,
+          "tempfile": 2,
+          "set": 2,
+          "spec_helper": 2,
+          "generator_messages": 2,
+          "digest/md5": 1,
+          "cloudfront_asset_host/asset_tag_helper_ext": 1,
+          "right_aws": 1,
+          "test/unit": 1,
+          "bundler": 1,
+          "shoulda": 1,
+          "mocha": 1,
+          "action_controller": 1,
+          "active_support": 1,
+          "rubygems": 1,
+          "device_detector/client_hint": 1,
+          "device_detector/version": 1,
+          "device_detector/vendor_fragment": 1,
+          "device_detector/client": 1,
+          "device_detector/memory_cache": 1,
+          "device_detector/parser": 1,
+          "device_detector/bot": 1,
+          "device_detector/device": 1,
+          "device_detector/metadata_extractor": 1,
+          "yaml": 1,
+          "device_detector/model_extractor": 1,
+          "device_detector/browser": 1,
+          "device_detector/os": 1,
+          "device_detector/name_extractor": 1,
+          "device_detector/version_extractor": 1,
+          "minitest/autorun": 1,
+          "byebug": 1,
+          "device_detector": 1,
+          "minitest/spec": 1,
+          "ReactOnRails::Helper": 1,
+          "defined_app_const_base?": 1,
+          "rainbow": 1,
+          "simplecov_helper": 1,
+          "capybara/rspec": 1,
+          "capybara/rails": 1,
+          "rspec/rails": 1,
+          "simplecov": 1,
+          "react_on_rails/test_helper/webpack_assets_compiler": 1,
+          "react_on_rails/react_component/render_options": 1,
+          "react_on_rails/engine": 1,
+          "react_on_rails/controller": 1,
+          "react_on_rails/version_checker": 1,
+          "react_on_rails/error": 1,
+          "react_on_rails/prerender_error": 1,
+          "react_on_rails/test_helper": 1,
+          "rails": 1,
+          "react_on_rails/webpacker_utils": 1,
+          "react_on_rails/server_rendering_js_code": 1,
+          "react_on_rails/json_parse_error": 1,
+          "react_on_rails/helper": 1,
+          "react_on_rails/utils": 1,
+          "react_on_rails/test_helper/ensure_assets_compiled": 1,
+          "react_on_rails/locales/to_json": 1,
+          "react_on_rails/version": 1,
+          "react_on_rails/packs_generator": 1,
+          "react_on_rails/configuration": 1,
+          "react_on_rails/locales/to_js": 1,
+          "react_on_rails/test_helper/webpack_assets_status_checker": 1,
+          "react_on_rails/server_rendering_pool": 1,
+          "react_on_rails/locales/base": 1,
+          "react_on_rails/version_syntax_converter": 1,
+          "react_on_rails/git_utils": 1,
+          "rails/railtie": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "menno/cloudfront_asset_host",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "menno/device_detector",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "menno/react_on_rails",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "menno/three-bmfont-text",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

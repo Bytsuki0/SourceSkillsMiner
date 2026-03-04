@@ -1,0 +1,426 @@
+{
+  "username": "alistairholt",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.11282051282051281,
+  "language_usage": {
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "alistairholt",
+    "analysis_date": "2026-02-22T10:44:33.961040",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 291,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 30,
+        "packages": {
+          "react": 20,
+          "classnames": 4,
+          "path": 3,
+          "fs": 3,
+          "chalk": 3,
+          "webpack-merge": 2,
+          "shelljs": 2,
+          "fs-extra": 2,
+          "vue": 1,
+          "axios": 1,
+          "highlight.js": 1,
+          "vue-progressbar": 1,
+          "vue-analytics": 1,
+          "bluebird": 1,
+          "expo-module-scripts": 1,
+          "front-matter": 1,
+          "filepath": 1,
+          "rimraf": 1,
+          "glob-promise": 1,
+          "babel-register": 1,
+          "babel-polyfill": 1,
+          "commander": 1,
+          "glob": 1,
+          "tree-node-cli": 1,
+          "url": 1,
+          "remarkable": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 96,
+        "packages": {
+          "spec_helper": 13,
+          "createsend": 9,
+          "json": 8,
+          "Devise::Controllers::InternalHelpers": 6,
+          "test_helper": 5,
+          "rubygems": 4,
+          "test/unit": 4,
+          "ActiveMerchant::Billing::Integrations": 3,
+          "date": 3,
+          "attachinary/utils": 3,
+          "CanCan::Ability": 3,
+          "digest/sha1": 3,
+          "net/http": 2,
+          "cgi": 2,
+          "securerandom": 2,
+          "active_merchant/billing/response": 2,
+          "Validateable": 2,
+          "time": 2,
+          "BeanstreamCore": 2,
+          "file_mixin": 2,
+          "base_extension": 2,
+          "Base": 2,
+          "FileMixin": 2,
+          "Mongoid::Document": 2,
+          "CanCan::ModelAdditions::ClassMethods": 2,
+          "streamio-ffmpeg": 2,
+          "chronic": 2,
+          "strscan": 2,
+          "HTTParty": 2,
+          "uri": 2,
+          "httparty": 2,
+          "mocha": 2,
+          "Devise::Controllers::SharedHelpers": 2,
+          "Devise::Controllers::ScopedViews": 2,
+          "digest/sha2": 2,
+          "active_merchant/billing/integrations/action_view_helper": 1,
+          "active_merchant": 1,
+          "active_support/core_ext/hash/indifferent_access": 1,
+          "active_support/core_ext/hash/conversions": 1,
+          "active_support": 1,
+          "active_support/core_ext/class/delegating_attributes": 1,
+          "active_merchant/billing": 1,
+          "builder": 1,
+          "active_support/core_ext/class/attribute": 1,
+          "rexml/document": 1,
+          "active_support/core_ext/string/inflections": 1,
+          "active_support/core_ext/class/attribute_accessors": 1,
+          "active_support/core_ext/module/attribute_accessors": 1,
+          "active_support/base64": 1,
+          "active_merchant/version": 1,
+          "active_utils": 1,
+          "active_merchant/billing/credit_card_methods": 1,
+          "active_merchant/billing/avs_result": 1,
+          "active_merchant/billing/check": 1,
+          "active_merchant/billing/gateways": 1,
+          "active_merchant/billing/credit_card_formatting": 1,
+          "active_merchant/billing/base": 1,
+          "active_merchant/billing/cvv_result": 1,
+          "active_merchant/billing/credit_card": 1,
+          "CreditCardMethods": 1,
+          "active_merchant/billing/expiry_date": 1,
+          "net/https": 1,
+          "PostsData": 1,
+          "Utils": 1,
+          "RequiresParameters": 1,
+          "CreditCardFormatting": 1,
+          "attachinary/engine": 1,
+          "attachinary/simple_form": 1,
+          "attachinary/view_helpers": 1,
+          "ViewHelpers": 1,
+          "attachinary/form_builder": 1,
+          "active_record/file": 1,
+          "active_record/extension": 1,
+          "mongoid/file": 1,
+          "mongoid/extension": 1,
+          "::Mongoid::Document": 1,
+          "::Mongoid::Timestamps": 1,
+          "mime/types": 1,
+          "Mongoid::Timestamps": 1,
+          "#{ATTACHINARY_ORM}/railtie": 1,
+          "attachinary": 1,
+          "rails/all": 1,
+          "bundler": 1,
+          "better-scaffold/version": 1,
+          "rails/generators/resource_helpers": 1,
+          "ResourceHelpers": 1,
+          "flexmock/test_unit": 1,
+          "ActionController::Assertions::SelectorAssertions": 1,
+          "fileutils": 1,
+          "CalendarHelper": 1,
+          "Inflector": 1,
+          "cancan": 1,
+          "cancan/model_adapters/default_adapter": 1,
+          "cancan/exceptions": 1,
+          "cancan/model_adapters/active_record_adapter": 1,
+          "cancan/inherited_resource": 1,
+          "cancan/model_adapters/mongoid_adapter": 1,
+          "cancan/rule": 1,
+          "cancan/controller_additions": 1,
+          "cancan/model_adapters/data_mapper_adapter": 1,
+          "cancan/model_adapters/abstract_adapter": 1,
+          "cancan/model_additions": 1,
+          "cancan/ability": 1,
+          "cancan/controller_resource": 1,
+          "CanCan::ControllerAdditions": 1,
+          "CanCan::ModelAdditions": 1,
+          "DataMapper::Resource": 1,
+          "active_support/all": 1,
+          "supermodel": 1,
+          "cancan/matchers": 1,
+          "bundler/setup": 1,
+          "matchers": 1,
+          "carrierwave/video/ffmpeg_theora": 1,
+          "carrierwave": 1,
+          "carrierwave/video/ffmpeg_options": 1,
+          "CarrierWave::Video": 1,
+          "carrierwave/video": 1,
+          "benchmark": 1,
+          "chronic/numerizer/numerizer": 1,
+          "chronic/repeaters/repeater_year": 1,
+          "chronic/grabber": 1,
+          "chronic/repeaters/repeater_week": 1,
+          "chronic/time_zone": 1,
+          "chronic/repeaters/repeater_hour": 1,
+          "chronic/repeaters/repeater_minute": 1,
+          "chronic/repeaters/repeater_month": 1,
+          "chronic/separator": 1,
+          "chronic/repeaters/repeater_season_name": 1,
+          "chronic/repeaters/repeater_day_name": 1,
+          "chronic/pointer": 1,
+          "chronic/repeaters/repeater_weekday": 1,
+          "chronic/ordinal": 1,
+          "chronic/repeaters/repeater_month_name": 1,
+          "chronic/repeaters/repeater_day": 1,
+          "chronic/repeater": 1,
+          "chronic/repeaters/repeater_season": 1,
+          "chronic/repeaters/repeater_second": 1,
+          "chronic/handlers": 1,
+          "chronic/repeaters/repeater_day_portion": 1,
+          "chronic/repeaters/repeater_fortnight": 1,
+          "chronic/scalar": 1,
+          "chronic/repeaters/repeater_weekend": 1,
+          "chronic/repeaters/repeater_time": 1,
+          "chronic/chronic": 1,
+          "chronic/repeaters/repeater_season.rb": 1,
+          "File.join": 1,
+          "numerizer": 1,
+          "chronic_duration": 1,
+          "createsend/list": 1,
+          "createsend/person": 1,
+          "createsend/version": 1,
+          "createsend/campaign": 1,
+          "createsend/template": 1,
+          "createsend/client": 1,
+          "createsend/segment": 1,
+          "createsend/subscriber": 1,
+          "createsend/administrator": 1,
+          "hashie": 1,
+          "pathname": 1,
+          "matchy": 1,
+          "shoulda": 1,
+          "fakeweb": 1,
+          "example+1@example": 1,
+          "@list_id": 1,
+          "Invalid": 1,
+          "multi_json": 1,
+          "ostruct": 1,
+          "Devise::Mailers::Helpers": 1,
+          "helpers": 1,
+          "orm_adapter": 1,
+          "active_support/core_ext/numeric/time": 1,
+          "devise/mapping": 1,
+          "set": 1,
+          "devise/rails": 1,
+          "devise/models": 1,
+          "scope::UrlHelpers": 1,
+          "warden": 1,
+          "active_support/dependencies": 1,
+          "scope::Helpers": 1,
+          "rails": 1,
+          "devise/modules": 1,
+          ":scope_name": 1,
+          "Devise::Controllers::Rememberable": 1,
+          "ActionController::Redirecting": 1,
+          "action_controller/metal": 1,
+          "Rails.application.routes.url_helpers": 1,
+          "ActionController::RackDelegation": 1,
+          "ActionController::UrlFor": 1,
+          ":name": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 12,
+        "packages": {
+          "bunshi": 6,
+          "jotai": 4,
+          "vite": 2,
+          "vitejs": 2,
+          "expo": 2,
+          "fs": 2,
+          "vue": 1,
+          "path": 1,
+          "expo.modules.notifications.service.ExpoFirebaseMessagingService": 1,
+          ":": 1,
+          "com.intercom.reactnative.IntercomModule": 1,
+          "com.google.firebase.messaging.RemoteMessage": 1,
+          "AppDelegate.h": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 12,
+        "packages": {
+          "react": 10,
+          "jotai": 4,
+          "testing-library": 4,
+          "user@example.com": 2,
+          "bunshi": 1,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "alistairholt/active_merchant",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "alistairholt/attachinary",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "alistairholt/better-scaffold",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "alistairholt/buefy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "alistairholt/bunshi",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "alistairholt/calendar_helper",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "alistairholt/cancan",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "alistairholt/carrierwave-video",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "alistairholt/chronic",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "alistairholt/chronic_duration",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "alistairholt/config-plugin-react-native-intercom",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "alistairholt/createsend-ruby",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "alistairholt/defensio-ruby",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "alistairholt/devise",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "alistairholt/Docusaurus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

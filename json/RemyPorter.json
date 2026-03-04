@@ -1,0 +1,65 @@
+{
+  "username": "RemyPorter",
+  "areas": {
+    "OSS": {
+      "score": 0.7446236559139785,
+      "details": {
+        "issue_resolution_rate": 0.7419354838709677,
+        "pr_merge_rate": 0.875,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "RemyPorter/StupidSiteGenerator": 0.0772
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5323097601323408,
+  "language_usage": {
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=None)",
+    "username": "RemyPorter",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

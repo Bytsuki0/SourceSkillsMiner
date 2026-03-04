@@ -1,0 +1,589 @@
+{
+  "username": "phaero",
+  "areas": {
+    "OSS": {
+      "score": -0.1846257775191329,
+      "details": {
+        "issue_resolution_rate": 0.3333333333333333,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8897280003879673
+      }
+    },
+    "Status": {
+      "score": 0.28433226100705533,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8880368530490446,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.02492662087198061,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        231101,
+        70
+      ],
+      "C++": [
+        119023,
+        11
+      ],
+      "Shell": [
+        847,
+        5
+      ],
+      "Go": [
+        20,
+        0
+      ],
+      "Objective-C": [
+        3942,
+        0
+      ],
+      "Python": [
+        3817,
+        7
+      ],
+      "Perl": [
+        1180,
+        0
+      ],
+      "Common Lisp": [
+        940,
+        0
+      ],
+      "Tcl": [
+        574,
+        0
+      ],
+      "Rebol": [
+        501,
+        0
+      ],
+      "Fortran": [
+        405,
+        0
+      ],
+      "PHP": [
+        313,
+        0
+      ],
+      "Lua": [
+        281,
+        0
+      ],
+      "VHDL": [
+        225,
+        0
+      ],
+      "D": [
+        213,
+        0
+      ],
+      "Vala": [
+        192,
+        0
+      ],
+      "C#": [
+        173,
+        0
+      ],
+      "Assembly": [
+        138,
+        0
+      ],
+      "Java": [
+        136,
+        0
+      ],
+      "MATLAB": [
+        113,
+        0
+      ],
+      "Component Pascal": [
+        5,
+        0
+      ],
+      "Ruby": [
+        5,
+        0
+      ],
+      "Vim Script": [
+        14177,
+        8
+      ]
+    },
+    "language_count": 23,
+    "total_commits": 101,
+    "total_lines": 378321,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 231101,
+        "commits": 70
+      },
+      {
+        "language": "C++",
+        "lines": 119023,
+        "commits": 11
+      },
+      {
+        "language": "Vim Script",
+        "lines": 14177,
+        "commits": 8
+      },
+      {
+        "language": "Python",
+        "lines": 3817,
+        "commits": 7
+      },
+      {
+        "language": "Shell",
+        "lines": 847,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "phaero",
+    "analysis_date": "2026-02-22T11:07:59.082982",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 184,
+    "languages": {
+      "C": {
+        "files_scanned": 24,
+        "packages": {
+          "stdio.h": 10,
+          "<stdio.h>": 10,
+          "buffer.h": 6,
+          "string.h": 6,
+          "<string.h>": 6,
+          "stdlib.h": 4,
+          "<stdlib.h>": 4,
+          "<stest.h>": 4,
+          "stest.h": 4,
+          "glib/gprintf.h": 4,
+          "stdout_result.h": 4,
+          "<glib/gprintf.h>": 4,
+          "xml_result.h": 4,
+          "update_statistics.h": 4,
+          "<glib/gstdio.h>": 4,
+          "glib/gstdio.h": 4,
+          "signal.h": 3,
+          "<signal.h>": 3,
+          "support.h": 3,
+          "ui_utils.h": 3,
+          "utils.h": 3,
+          "geany.h": 3,
+          "<curses.h>": 2,
+          "curses.h": 2,
+          "stest_internal.h": 2,
+          "<stdarg.h>": 2,
+          "<sys/time.h>": 2,
+          "sys/time.h": 2,
+          "stdarg.h": 2,
+          "about.h": 2,
+          "main.h": 2,
+          "prefs.h": 2,
+          "dialogs.h": 2,
+          "<unistd.h>": 2,
+          "build.h": 2,
+          "unistd.h": 2,
+          "filetypes.h": 2,
+          "vte.h": 2,
+          "keybindings.h": 2,
+          "toolbar.h": 2,
+          "document.h": 2,
+          "project.h": 2,
+          "msgwindow.h": 2,
+          "editor.h": 2,
+          "gmodule.h": 1,
+          "<gmodule.h>": 1,
+          "glib.h": 1,
+          "<glib.h>": 1,
+          "gb.c": 1,
+          "geanywraplabel.h": 1,
+          "<errno.h>": 1,
+          "sys/types.h": 1,
+          "<sys/types.h>": 1,
+          "geanymenubuttonaction.h": 1,
+          "<sys/wait.h>": 1,
+          "<sys/stat.h>": 1,
+          "errno.h": 1,
+          "sys/stat.h": 1,
+          "sys/wait.h": 1,
+          "tools.h": 1,
+          "callbacks.h": 1,
+          "keyfile.h": 1,
+          "encodings.h": 1,
+          "time.h": 1,
+          "search.h": 1,
+          "documentprivate.h": 1,
+          "printing.h": 1,
+          "gdk/gdkkeysyms.h": 1,
+          "navqueue.h": 1,
+          "<time.h>": 1,
+          "sciwrappers.h": 1,
+          "pluginutils.h": 1,
+          "plugins.h": 1,
+          "socket.h": 1,
+          "sidebar.h": 1,
+          "symbols.h": 1,
+          "log.h": 1,
+          "<gdk/gdkkeysyms.h>": 1,
+          "templates.h": 1,
+          "webview.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 3,
+        "packages": {
+          "cppverify.h": 1,
+          "fileloader.h": 1,
+          "<sys/stat.h>": 1,
+          "unistd.h": 1,
+          "<string>": 1,
+          "sys/types.h": 1,
+          "string": 1,
+          "<sys/types.h>": 1,
+          "<unistd.h>": 1,
+          "sys/stat.h": 1,
+          "iostream": 1,
+          "<iostream>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 41,
+        "packages": {
+          "openssl/opensslconf.h": 10,
+          "<openssl/e_os2.h>": 10,
+          "openssl/e_os2.h": 10,
+          "stddef.h": 8,
+          "<stddef.h>": 8,
+          "<openssl/opensslconf.h>": 7,
+          "stest_internal.h": 6,
+          "<openssl/x509.h>": 5,
+          "openssl/x509.h": 5,
+          "openssl/safestack.h": 5,
+          "<openssl/safestack.h>": 5,
+          "stdint.h": 4,
+          "<stdint.h>": 4,
+          "openssl/ossl_typ.h": 4,
+          "<openssl/bio.h>": 4,
+          "openssl/bio.h": 4,
+          "<openssl/ossl_typ.h>": 4,
+          "openssl/lhash.h": 3,
+          "openssl/stack.h": 3,
+          "<openssl/stack.h>": 3,
+          "<openssl/lhash.h>": 3,
+          "openssl/symhacks.h": 3,
+          "<openssl/symhacks.h>": 3,
+          "<openssl/crypto.h>": 3,
+          "openssl/crypto.h": 3,
+          "<openssl/opensslconf.h>/*": 3,
+          "glib.h": 2,
+          "<inttypes.h>": 2,
+          "stdbool.h": 2,
+          "<glib.h>": 2,
+          "inttypes.h": 2,
+          "stest.h": 2,
+          "<stdbool.h>": 2,
+          "openssl/asn1.h": 2,
+          "<openssl/asn1.h>": 2,
+          "<openssl/evp.h>": 2,
+          "openssl/evp.h": 2,
+          "sys/types.h": 2,
+          "<sys/types.h>": 2,
+          "<openssl/dsa.h>": 2,
+          "<openssl/rsa.h>": 2,
+          "openssl/dsa.h": 2,
+          "openssl/bn.h": 2,
+          "openssl/rsa.h": 2,
+          "openssl/dh.h": 2,
+          "<openssl/dh.h>": 2,
+          "<openssl/bn.h>": 2,
+          "<openssl/x509v3.h>": 2,
+          "openssl/x509v3.h": 2,
+          "<fstream>": 1,
+          "<string>": 1,
+          "string": 1,
+          "fstream": 1,
+          "openssl/conf.h": 1,
+          "<openssl/conf.h>": 1,
+          "<openssl/des_old.h>": 1,
+          "openssl/des_old.h": 1,
+          "<openssl/ui_compat.h>": 1,
+          "openssl/ui_compat.h": 1,
+          "openssl/ecdh.h": 1,
+          "<openssl/ui.h>": 1,
+          "openssl/err.h": 1,
+          "<openssl/ecdsa.h>": 1,
+          "<openssl/err.h>": 1,
+          "openssl/ecdsa.h": 1,
+          "<openssl/rand.h>": 1,
+          "<openssl/ecdh.h>": 1,
+          "openssl/ui.h": 1,
+          "openssl/rand.h": 1,
+          "<openssl/des.h>": 1,
+          "openssl/des.h": 1,
+          "<stdlib.h>": 1,
+          "stdlib.h": 1,
+          "windows.h": 1,
+          "<windows.h>": 1,
+          "string.h": 1,
+          "<string.h>": 1,
+          "stdio.h": 1,
+          "<stdio.h>": 1,
+          "<openssl/buffer.h>": 1,
+          "openssl/buffer.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 2,
+        "packages": {
+          "os": 2,
+          "flag": 1,
+          "fmt": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "undefined": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 2,
+        "packages": {
+          "lspconfig": 1,
+          "mason-lspconfig": 1,
+          "🌙": 1,
+          "mini.surround": 1,
+          "=": 1,
+          "conform": 1,
+          "telescope": 1,
+          "mason-tool-installer": 1,
+          "mini.ai": 1,
+          "lazy": 1,
+          "tokyonight": 1,
+          "telescope.themes": 1,
+          "dap": 1,
+          "dap-go": 1,
+          "dapui": 1,
+          "mason-nvim-dap": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 4,
+        "packages": {
+          "strict": 4,
+          "warnings": 4,
+          "Getopt::Std": 1,
+          "utf8": 1,
+          "encoding": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 24,
+        "packages": {
+          "os": 12,
+          "logging": 11,
+          "sys": 9,
+          "vim": 8,
+          "pyvim": 6,
+          "vtmpl": 5,
+          "codecs": 4,
+          "random": 3,
+          "*": 3,
+          "re": 3,
+          "setup": 3,
+          "setuptools": 3,
+          "base64": 2,
+          "datetime": 2,
+          "traceback": 2,
+          "commands": 2,
+          "wallpaperchangerconfig": 2,
+          "mimetypes": 2,
+          "optparse": 2,
+          "OptionParser": 2,
+          "time": 1,
+          "StringIO": 1,
+          "pyglet": 1,
+          "key": 1,
+          "math": 1,
+          "inspect": 1,
+          "imp": 1,
+          "types": 1,
+          "w": 1,
+          "%s~": 1,
+          "gconf": 1,
+          "listdir": 1,
+          "basename": 1,
+          "Image": 1,
+          "ConfigParser": 1,
+          "BaseDirectory": 1,
+          "SafeConfigParser": 1,
+          "xdg": 1,
+          "sqlite3": 1,
+          "config": 1,
+          "load_config": 1,
+          "wputils": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 33,
+        "packages": {
+          "state": 14,
+          "std": 14,
+          "edit": 12,
+          "io": 9,
+          "web_view": 7,
+          "orbclient": 6,
+          "self": 2,
+          "ffi": 2,
+          "caret": 1,
+          "core": 1,
+          "serde_derive": 1,
+          "Cmd": 1,
+          "serde_json": 1,
+          "webview_sys": 1,
+          "boxfnonce": 1,
+          "urlencoding": 1,
+          "cc": 1,
+          "pkg_config": 1,
+          "bitflags": 1,
+          "=": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "phaero/cppverify",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "phaero/gvi",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "phaero/Minecraft",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "phaero/nvim",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "phaero/sodium",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "phaero/stest",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "phaero/svi",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "Perl",
+          "Python"
+        ]
+      },
+      {
+        "repository": "phaero/svi_old_test",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "phaero/synergy-stable-builds",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "phaero/tools",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "phaero/vimconf",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "phaero/web-view",
+        "files_analyzed": 18,
+        "languages_found": [
+          "C",
+          "JavaScript",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "phaero/wp",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

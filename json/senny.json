@@ -1,0 +1,461 @@
+{
+  "username": "senny",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 10.696969696969697,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5641025641025641,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.34615384615384615
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "senny/asdf-postgres-app": 0.20761666666666667,
+        "senny/backyard": 0.2735666666666667,
+        "senny/cabbage": 0.0790090909090909,
+        "senny/cabbage-contrib": 0.38838181818181816,
+        "senny/capybara": 0.022016666666666684,
+        "senny/corner_stones": 0.12866060606060606,
+        "senny/emacs-configs": 0.5106,
+        "senny/emacs-eclim": 0.23588101265822783,
+        "senny/git-workshop-example": 0.07024999999999999,
+        "senny/gitlabhq": 0.1959212121212121,
+        "senny/pdfjs_viewer-rails": 0.15455833333333333,
+        "senny/phoenix_pubsub_redis": 0.22376666666666667,
+        "senny/rails": 0.15283666666666665,
+        "senny/rbenv.el": 0.17455588235294117,
+        "senny/rvm.el": 0.09912631578947369,
+        "senny/sablon": 0.15139242424242425,
+        "senny/snakeunit": 0.6055,
+        "senny/theme-roller.el": 0.38847499999999996,
+        "senny/virtus": 0.546
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.841025641025641,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        416745,
+        140
+      ],
+      "Ruby": [
+        130971,
+        674
+      ],
+      "Emacs Lisp": [
+        4103741,
+        1027
+      ],
+      "PowerShell": [
+        730,
+        3
+      ],
+      "Python": [
+        1252,
+        19
+      ],
+      "JavaScript": [
+        131783,
+        26
+      ],
+      "Java": [
+        9,
+        1
+      ],
+      "Scala": [
+        2,
+        0
+      ],
+      "Clojure": [
+        0,
+        0
+      ],
+      "HTML": [
+        31012,
+        5
+      ],
+      "PHP": [
+        0,
+        0
+      ],
+      "CSS": [
+        9848,
+        7
+      ],
+      "CoffeeScript": [
+        17,
+        0
+      ],
+      "SCSS": [
+        124,
+        0
+      ],
+      "Groff": [
+        5,
+        0
+      ],
+      "Roff": [
+        74,
+        2
+      ],
+      "Makefile": [
+        4,
+        0
+      ],
+      "Perl": [
+        3,
+        0
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 1904,
+    "total_lines": 4826320,
+    "top_5_languages": [
+      {
+        "language": "Emacs Lisp",
+        "lines": 4103741,
+        "commits": 1027
+      },
+      {
+        "language": "Ruby",
+        "lines": 130971,
+        "commits": 674
+      },
+      {
+        "language": "Shell",
+        "lines": 416745,
+        "commits": 140
+      },
+      {
+        "language": "JavaScript",
+        "lines": 131783,
+        "commits": 26
+      },
+      {
+        "language": "Python",
+        "lines": 1252,
+        "commits": 19
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "senny",
+    "analysis_date": "2026-02-24T06:52:16.891619",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 254,
+    "languages": {
+      "Java": {
+        "files_scanned": 30,
+        "packages": {
+          "cuke4duke.internal": 13,
+          "cuke4duke": 13,
+          "java.util": 11,
+          "java.lang": 9,
+          "org.jruby": 7,
+          "java.io": 6,
+          "org.apache": 6,
+          "cuke4duke.ant": 5,
+          "groovy.lang": 4,
+          "cuke4duke.mojo": 3,
+          "clojure.lang": 3,
+          "ioke.lang": 2,
+          "org.codehaus": 1,
+          "org.junit": 1,
+          "static": 1,
+          "cuke4duke.GroovyDsl": 1,
+          "cuke4duke.Table": 1,
+          "cuke4duke.PyString": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 124,
+        "packages": {
+          "spec_helper": 13,
+          "helper": 12,
+          "cod": 11,
+          "integration/spec_helper": 9,
+          "capybara": 5,
+          "Capybara::DSL": 5,
+          "rubygems": 5,
+          "active_job/retry/errors": 4,
+          "capybara/dsl": 4,
+          "corner_stones/table": 4,
+          "active_support/deprecation": 3,
+          "backyard": 3,
+          "timeout": 3,
+          "nokogiri": 3,
+          "net/http": 3,
+          "example_scaffold": 3,
+          "active_job/retry/constant_backoff_strategy": 2,
+          "active_job/retry": 2,
+          "active_support/core_ext/module/aliasing": 2,
+          "bundler/setup": 2,
+          "active_record": 2,
+          "factory_girl": 2,
+          "models": 2,
+          "cgi": 2,
+          "Capybara::Node::Matchers": 2,
+          "Capybara::Node::Finders": 2,
+          "capybara/util/timeout": 2,
+          "capybara/spec/test_app": 2,
+          "thread": 2,
+          "protocol_buffers": 2,
+          "stringio": 2,
+          "Callbacks": 2,
+          "corner_stones/syntax": 2,
+          "corner_stones/form": 2,
+          "corner_stones/tabs": 2,
+          "corner_stones/table_form": 2,
+          "corner_stones/flash_messages": 2,
+          "corner_stones/definition_list": 2,
+          "corner_stones/form/disabled": 2,
+          "corner_stones/form/with_inline_errors": 2,
+          "CornerStones::Syntax": 2,
+          "corner_stones/table/deletable_rows": 2,
+          "corner_stones/table/selectable_rows": 2,
+          "corner_stones/tabs/active_tracking": 2,
+          "DataMapper::Resource": 2,
+          "dm-core": 2,
+          "spec": 2,
+          "dumpster/csv": 2,
+          "dumpster/model/generic": 2,
+          "dumpster/excel": 2,
+          "dumpster": 2,
+          "active_job": 1,
+          "active_job/retry/deserialize_monkey_patch": 1,
+          "active_job/retry/version": 1,
+          "active_job/retry/variable_backoff_strategy": 1,
+          "active_support": 1,
+          "active_support/core_ext": 1,
+          "active_job/retry/exponential_backoff_strategy": 1,
+          "active_job/retry/constant_options_validator": 1,
+          "active_job/retry/exponential_options_validator": 1,
+          "active_job/retry/variable_options_validator": 1,
+          "ActiveJob::Retry": 1,
+          "rspec/its": 1,
+          "support/backburner/inline": 1,
+          "qu-immediate": 1,
+          "support/que/inline": 1,
+          "support/queue_classic/inline": 1,
+          "sidekiq/testing/inline": 1,
+          "support/sneakers/inline": 1,
+          "sucker_punch/testing/inline": 1,
+          "active_record/deprecated_finders/relation": 1,
+          "active_record/deprecated_finders/association_builder": 1,
+          "active_record/deprecated_finders/collection_proxy": 1,
+          "active_support/lazy_load_hooks": 1,
+          "active_record/deprecated_finders/base": 1,
+          "active_record/deprecated_finders/version": 1,
+          "active_record/deprecated_finders/dynamic_matchers": 1,
+          "Module.new": 1,
+          "active_record/associations/builder/association": 1,
+          "InterceptDynamicInstantiators": 1,
+          "ActiveRecord::Delegation::ClassSpecificRelation": 1,
+          "FindByDeprecationWarning": 1,
+          "DeprecationWarning": 1,
+          "Finder": 1,
+          "DeprecatedFinder": 1,
+          "active_record/relation": 1,
+          "DeprecatedMethods": 1,
+          "active_support/testing/deprecation": 1,
+          "minitest/autorun": 1,
+          "active_record/deprecated_finders": 1,
+          "ActiveSupport::Testing::Deprecation": 1,
+          "minitest/spec": 1,
+          "backyard/cucumber": 1,
+          "rspec/expectations": 1,
+          "bundler": 1,
+          "backyard/configuration": 1,
+          "backyard/session": 1,
+          "backyard/adapter": 1,
+          "backyard/model_store": 1,
+          "Backyard::Session": 1,
+          "backyard/adapter/factory_girl": 1,
+          "rack/handler/webrick": 1,
+          "rack/handler/thin": 1,
+          "xpath": 1,
+          "celerity": 1,
+          "culerity": 1,
+          "::Rack::Test::Methods": 1,
+          "rack/utils": 1,
+          "mime/types": 1,
+          "rack/test": 1,
+          ":checked?": 1,
+          "selenium-webdriver": 1,
+          "Capybara": 1,
+          "Capybara::Node::Actions": 1,
+          "Rails::Rack::Static": 1,
+          "rack": 1,
+          "uri": 1,
+          "capybara/util/save_and_open_page": 1,
+          "get": 1,
+          "put": 1,
+          "pp": 1,
+          "cod/protocol_buffers_serializer": 1,
+          "protocol_buffers/compiler": 1,
+          "cod/pipe": 1,
+          "cod/socket_server": 1,
+          "cod/bidir": 1,
+          "cod/process": 1,
+          "cod/beanstalk": 1,
+          "cod/bidir_server": 1,
+          "cod/tcp_client": 1,
+          "cod/callbacks": 1,
+          "cod/line_serializer": 1,
+          "cod/tcp_server": 1,
+          "cod/iopair": 1,
+          "cod/channel": 1,
+          "cod/simple_serializer": 1,
+          "cod/service": 1,
+          "cod/select": 1,
+          "cod/select_group": 1,
+          "cod/beanstalk/serializer": 1,
+          "cod/beanstalk/service": 1,
+          "cod/beanstalk/channel": 1,
+          "corner_stones/version": 1,
+          "corner_stones": 1,
+          "corner_stones/form/field_selector": 1,
+          "corner_stones/form/fields/checkbox": 1,
+          "corner_stones/form/fields/base": 1,
+          "corner_stones/form/fields/file_field": 1,
+          "corner_stones/form/fields/select_field": 1,
+          "corner_stones/form/fields/text_field": 1,
+          "corner_stones/form/fields/autocomplete_field": 1,
+          "corner_stones/table/whitespace_filter": 1,
+          "ruby_parser": 1,
+          "dm-freebase-adapter": 1,
+          "spec/expectations": 1,
+          "json": 1,
+          "spec/autorun": 1,
+          "freebase_adapter": 1,
+          "extlib": 1,
+          "minigems": 1,
+          "rexml/document": 1,
+          "DataMapper::Resource::Isbndb::BookModel": 1,
+          "DataMapper::Resource::Isbndb::PublisherModel": 1,
+          "DataMapper::Resource::Isbndb::AuthorModel": 1,
+          "dm-types": 1,
+          "dumpster/model/sql": 1,
+          "dumpster/version": 1,
+          "csv": 1,
+          "axlsx": 1,
+          "unit/spec_helper": 1,
+          "rspec": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "senny/activejob-retry",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "senny/activerecord-deprecated_finders",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "senny/backyard",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "senny/capybara",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "senny/cod",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "senny/corner_stones",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "senny/cucumber.el",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "senny/cuke4duke",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "senny/dm-freebase-adapter",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "senny/dm-isbndb-adapter",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "senny/dumpster",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

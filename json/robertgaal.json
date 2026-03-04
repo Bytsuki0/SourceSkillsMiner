@@ -1,0 +1,165 @@
+{
+  "username": "robertgaal",
+  "areas": {
+    "OSS": {
+      "score": 0.036805542985340445,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.5552083144780106
+      }
+    },
+    "Status": {
+      "score": 0.04282938565298133,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5450133092487028,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "robertgaal/facebox-for-prototype": 0.6304333333333333
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.31990873215958043,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        10141,
+        13
+      ],
+      "JavaScript": [
+        589,
+        3
+      ],
+      "AppleScript": [
+        10,
+        1
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 17,
+    "total_lines": 10740,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 10141,
+        "commits": 13
+      },
+      {
+        "language": "JavaScript",
+        "lines": 589,
+        "commits": 3
+      },
+      {
+        "language": "AppleScript",
+        "lines": 10,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "robertgaal",
+    "analysis_date": "2026-02-24T01:32:05.967406",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 36,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 14,
+        "packages": {
+          "fs": 4,
+          "path": 4,
+          "util": 2,
+          "shelljs": 2,
+          "tlds": 2,
+          "write-json-file": 2,
+          "discord.js": 1,
+          "dotenv": 1,
+          "ansi": 1,
+          "benchmark": 1,
+          "uc.micro": 1,
+          "mdurl": 1,
+          "assert": 1,
+          "load-json-file": 1,
+          "prepend-file": 1,
+          "semver": 1,
+          "is-git-dirty": 1,
+          "execa": 1,
+          "ava": 1,
+          "punycode": 1,
+          "is-punycode": 1,
+          "got": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 13,
+        "packages": {
+          "assert": 10,
+          "node:test": 10,
+          "module": 9,
+          "vscode": 3,
+          "path": 2,
+          "papaparse": 2,
+          "font-list": 1,
+          "fs": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "robertgaal/csv",
+        "files_analyzed": 15,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "robertgaal/gamebot",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "robertgaal/linkify-it",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "robertgaal/node-tlds",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

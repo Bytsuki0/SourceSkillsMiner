@@ -1,0 +1,594 @@
+{
+  "username": "benjaminoakes",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 5.28125,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.46153846153846145,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.19230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.8888888888888888,
+      "details": {
+        "benjaminoakes/airbrake": 0.71545,
+        "benjaminoakes/getoffpocket": 0.6114,
+        "benjaminoakes/homesick-vi-everywhere": 0.286224,
+        "benjaminoakes/maid-example": -0.04605000000000001,
+        "benjaminoakes/markdo": 0.4926,
+        "benjaminoakes/moment-strftime": 0.4168674418604651,
+        "benjaminoakes/node": 0.3187666666666667,
+        "benjaminoakes/tiny-tiny-nas": 0.17052499999999998,
+        "benjaminoakes/WunderlistConverter": 0.6466000000000001
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7876068376068376,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        150110,
+        829
+      ],
+      "Shell": [
+        16542,
+        179
+      ],
+      "CSS": [
+        11322,
+        49
+      ],
+      "JavaScript": [
+        52581,
+        293
+      ],
+      "CoffeeScript": [
+        8877,
+        60
+      ],
+      "HTML": [
+        104949,
+        1004
+      ],
+      "SCSS": [
+        0,
+        0
+      ],
+      "Elixir": [
+        1258,
+        33
+      ],
+      "Vim Script": [
+        1392,
+        16
+      ],
+      "Dockerfile": [
+        872,
+        33
+      ],
+      "Python": [
+        2544,
+        93
+      ],
+      "Less": [
+        0,
+        0
+      ],
+      "Lua": [
+        785,
+        3
+      ],
+      "C": [
+        10676,
+        56
+      ],
+      "C++": [
+        15,
+        0
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": [
+        0,
+        0
+      ],
+      "PHP": [
+        5782,
+        16
+      ],
+      "Objective-C": [
+        8,
+        0
+      ],
+      "Perl": [
+        128,
+        1
+      ],
+      "Prolog": [
+        322,
+        4
+      ],
+      "Assembly": [
+        0,
+        0
+      ],
+      "Java": [
+        86,
+        1
+      ],
+      "Emacs Lisp": [
+        0,
+        0
+      ],
+      "Smalltalk": [
+        0,
+        0
+      ],
+      "Standard ML": [
+        355,
+        4
+      ],
+      "MATLAB": [
+        221,
+        2
+      ],
+      "AppleScript": [
+        135,
+        1
+      ],
+      "Makefile": [
+        900,
+        1
+      ],
+      "PLpgSQL": [
+        17,
+        0
+      ],
+      "PLSQL": [
+        0,
+        0
+      ],
+      "XSLT": [
+        0,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "ApacheConf": [
+        22,
+        0
+      ],
+      "Nginx": [
+        19,
+        0
+      ]
+    },
+    "language_count": 35,
+    "total_commits": 2678,
+    "total_lines": 369918,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 104949,
+        "commits": 1004
+      },
+      {
+        "language": "Ruby",
+        "lines": 150110,
+        "commits": 829
+      },
+      {
+        "language": "JavaScript",
+        "lines": 52581,
+        "commits": 293
+      },
+      {
+        "language": "Shell",
+        "lines": 16542,
+        "commits": 179
+      },
+      {
+        "language": "Python",
+        "lines": 2544,
+        "commits": 93
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "benjaminoakes",
+    "analysis_date": "2026-02-23T13:10:42.843913",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 253,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 30,
+        "packages": {
+          "openssl/e_os2.h": 12,
+          "<openssl/e_os2.h>": 12,
+          "<openssl/ossl_typ.h>": 12,
+          "openssl/ossl_typ.h": 12,
+          "openssl/opensslconf.h": 9,
+          "<openssl/opensslconf.h>": 9,
+          "openssl/bn.h": 7,
+          "<openssl/bn.h>": 7,
+          "<openssl/bio.h>": 6,
+          "<openssl/symhacks.h>": 6,
+          "openssl/symhacks.h": 6,
+          "openssl/bio.h": 6,
+          "stdio.h": 5,
+          "<stdio.h>": 5,
+          "<openssl/crypto.h>": 5,
+          "openssl/crypto.h": 5,
+          "<openssl/safestack.h>": 4,
+          "openssl/safestack.h": 4,
+          "stddef.h": 3,
+          "<stddef.h>": 3,
+          "openssl/stack.h": 3,
+          "<openssl/stack.h>": 3,
+          "<openssl/asn1.h>": 3,
+          "openssl/asn1.h": 3,
+          "<openssl/lhash.h>": 3,
+          "openssl/lhash.h": 3,
+          "sys/types.h": 2,
+          "<sys/types.h>": 2,
+          "<openssl/evp.h>": 2,
+          "openssl/evp.h": 2,
+          "stdlib.h": 2,
+          "<stdlib.h>": 2,
+          "openssl/dh.h": 2,
+          "<openssl/dh.h>": 2,
+          "<openssl/ec.h>": 2,
+          "openssl/ec.h": 2,
+          "krb5.h": 2,
+          "<krb5.h>": 2,
+          "time.h": 1,
+          "<time.h>": 1,
+          "inttypes.h": 1,
+          "stdint.h": 1,
+          "stdarg.h": 1,
+          "<stdint.h>": 1,
+          "<inttypes.h>": 1,
+          "<stdarg.h>": 1,
+          "<assert.h>": 1,
+          "assert.h": 1,
+          "<openssl/conf.h>": 1,
+          "openssl/conf.h": 1,
+          "<openssl/opensslv.h>": 1,
+          "<openssl/ebcdic.h>": 1,
+          "openssl/opensslv.h": 1,
+          "openssl/ebcdic.h": 1,
+          "openssl/des_old.h": 1,
+          "<openssl/des_old.h>": 1,
+          "<openssl/ui_compat.h>": 1,
+          "openssl/ui_compat.h": 1,
+          "openssl/pqueue.h": 1,
+          "<openssl/pqueue.h>": 1,
+          "winsock.h": 1,
+          "sys/timeval.h": 1,
+          "<sys/timeb.h>": 1,
+          "<resource.h>": 1,
+          "sys/time.h": 1,
+          "openssl/buffer.h": 1,
+          "<openssl/buffer.h>": 1,
+          "sys/timeb.h": 1,
+          "<sys/timeval.h>": 1,
+          "resource.h": 1,
+          "<winsock.h>": 1,
+          "<sys/time.h>": 1,
+          "<sys/socket.h>": 1,
+          "version": 1,
+          "sys/socket.h": 1,
+          "openssl/rsa.h": 1,
+          "<openssl/rsa.h>": 1,
+          "<openssl/ecdsa.h>": 1,
+          "openssl/rand.h": 1,
+          "openssl/err.h": 1,
+          "openssl/x509.h": 1,
+          "<openssl/rand.h>": 1,
+          "<openssl/err.h>": 1,
+          "<openssl/ecdh.h>": 1,
+          "openssl/ecdsa.h": 1,
+          "<openssl/x509.h>": 1,
+          "openssl/ui.h": 1,
+          "<openssl/dsa.h>": 1,
+          "openssl/ecdh.h": 1,
+          "<openssl/ui.h>": 1,
+          "openssl/dsa.h": 1,
+          "errno.h": 1,
+          "<errno.h>": 1,
+          "openssl/objects.h": 1,
+          "<openssl/objects.h>": 1,
+          "ctype.h": 1,
+          "<ctype.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 120,
+        "packages": {
+          "java.util": 50,
+          "android.content": 48,
+          "java.io": 41,
+          "android.view": 33,
+          "android.support": 30,
+          "android.widget": 30,
+          "com.owncloud": 30,
+          "fr.gaulupeau": 30,
+          "de.test": 30,
+          "de.danoeh": 28,
+          "android.test": 26,
+          "android.os": 26,
+          "android.util": 22,
+          "io.appium": 21,
+          "org.openqa": 21,
+          "android.graphics": 20,
+          "com.amaze": 19,
+          "android.app": 18,
+          "android.preference": 16,
+          "com.timehop": 15,
+          "static": 10,
+          "android.database": 10,
+          "de.greenrobot": 10,
+          "java.net": 9,
+          "com.afollestad": 6,
+          "android.net": 6,
+          "org.apache": 6,
+          "android.annotation": 5,
+          "junit.framework": 5,
+          "com.robotium": 5,
+          "com.readystatesoftware": 4,
+          "android.animation": 3,
+          "com.stericson": 3,
+          "com.github": 3,
+          "android.webkit": 3,
+          "java.lang": 3,
+          "com.squareup": 3,
+          "javax.xml": 2,
+          "org.xml": 2,
+          "android.text": 2,
+          "android.media": 2,
+          "jcifs.smb": 2,
+          "com.facebook": 2,
+          "java.text": 2,
+          "org.sufficientlysecure": 1,
+          "org.codehaus": 1,
+          "android.provider": 1,
+          "org.junit": 1,
+          "java.security": 1,
+          "javax.net": 1,
+          "org.xmlpull": 1,
+          "org.jsoup": 1,
+          "java.nio": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "os": 2,
+          "app": 2,
+          "Flask": 1,
+          "flask": 1,
+          "unittest": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 37,
+        "packages": {
+          "test_helper": 5,
+          "rubygems": 4,
+          "ActiveMerchant::Billing::Integrations": 3,
+          "net/http": 3,
+          "active_support": 3,
+          "airbrake": 3,
+          "active_support/core_ext/string/inflections": 2,
+          "builder": 2,
+          "cgi": 2,
+          "active_merchant/billing/response": 2,
+          "Validateable": 2,
+          "date": 2,
+          "net/https": 2,
+          "rails": 2,
+          "active_support/core_ext": 2,
+          "airbrake/rails/javascript_notifier": 2,
+          "airbrake/rails/controller_methods": 2,
+          "active_merchant/billing/integrations/action_view_helper": 1,
+          "active_merchant": 1,
+          "active_support/core_ext/class/attribute_accessors": 1,
+          "active_merchant/billing": 1,
+          "active_support/core_ext/hash/indifferent_access": 1,
+          "active_support/core_ext/class/attribute": 1,
+          "securerandom": 1,
+          "active_support/core_ext/hash/conversions": 1,
+          "rexml/document": 1,
+          "active_merchant/version": 1,
+          "active_support/core_ext/module/attribute_accessors": 1,
+          "base64": 1,
+          "active_utils": 1,
+          "active_support/core_ext/class/delegating_attributes": 1,
+          "active_support/base64": 1,
+          "active_support/core_ext/object/conversions": 1,
+          "active_merchant/billing/base": 1,
+          "active_merchant/billing/credit_card": 1,
+          "active_merchant/billing/gateways": 1,
+          "active_merchant/billing/check": 1,
+          "active_merchant/billing/credit_card_formatting": 1,
+          "active_merchant/billing/cvv_result": 1,
+          "active_merchant/billing/avs_result": 1,
+          "active_merchant/billing/credit_card_methods": 1,
+          "CreditCardMethods": 1,
+          "time": 1,
+          "active_merchant/billing/expiry_date": 1,
+          "PostsData": 1,
+          "RequiresParameters": 1,
+          "Utils": 1,
+          "CreditCardFormatting": 1,
+          "json": 1,
+          "BeanstreamCore": 1,
+          "uri": 1,
+          "require": 1,
+          "nokogiri": 1,
+          "rspec": 1,
+          "dispatcher": 1,
+          "config/environment": 1,
+          "fileutils": 1,
+          "airbrake/capistrano": 1,
+          "airbrake/rails": 1,
+          "activesupport/core_ext": 1,
+          "airbrake/user_informer": 1,
+          "airbrake/sender": 1,
+          "airbrake/version": 1,
+          "airbrake/railtie": 1,
+          "airbrake/notice": 1,
+          "activesupport": 1,
+          "airbrake/configuration": 1,
+          "airbrake/rack": 1,
+          "airbrake/backtrace": 1,
+          "capistrano": 1,
+          "socket": 1,
+          "airbrake/rails/error_lookup": 1,
+          "airbrake/rails/action_controller_catcher": 1,
+          "shared_tasks": 1,
+          "airbrake/rails3_tasks": 1,
+          "airbrake/rake_handler": 1,
+          "Airbrake::RakeHandler": 1,
+          "0.9.0": 1,
+          "airplane_mode/version": 1,
+          "thor": 1,
+          "archive/tar/minitar": 1,
+          "open-uri": 1,
+          "zlib": 1,
+          "alert/version": 1,
+          "rails/all": 1,
+          "bundler/setup": 1,
+          "addressable/uri": 1,
+          "ostruct": 1,
+          "active_support/time_with_zone": 1,
+          "HTTParty": 1,
+          "sinatra": 1,
+          "httparty": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "benjaminoakes/active_merchant",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "benjaminoakes/airbrake",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "benjaminoakes/airplane_mode",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "benjaminoakes/alert",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "benjaminoakes/alpinehelloworld",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benjaminoakes/AmazeFileManager",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "benjaminoakes/android",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "benjaminoakes/android-ampd",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "benjaminoakes/android-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "benjaminoakes/animal_center",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "benjaminoakes/AntennaPod",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "benjaminoakes/api_example",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

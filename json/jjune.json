@@ -1,0 +1,181 @@
+{
+  "username": "jjune",
+  "areas": {
+    "OSS": {
+      "score": -0.5567090602619775,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6649364096070336
+      }
+    },
+    "Status": {
+      "score": 0.12398658738897717,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6475183426219274,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.10818061821825009,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        2452,
+        3
+      ],
+      "Ruby": [
+        1963,
+        7
+      ],
+      "JavaScript": [
+        360,
+        11
+      ],
+      "HTML": [
+        1307,
+        3
+      ],
+      "CSS": [
+        208,
+        3
+      ],
+      "CoffeeScript": [
+        32,
+        0
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 27,
+    "total_lines": 6322,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 360,
+        "commits": 11
+      },
+      {
+        "language": "Ruby",
+        "lines": 1963,
+        "commits": 7
+      },
+      {
+        "language": "Swift",
+        "lines": 2452,
+        "commits": 3
+      },
+      {
+        "language": "HTML",
+        "lines": 1307,
+        "commits": 3
+      },
+      {
+        "language": "CSS",
+        "lines": 208,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jjune",
+    "analysis_date": "2026-02-22T23:19:42.252478",
+    "total_repos_analyzed": 5,
+    "total_files_analyzed": 70,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "express": 1,
+          "pg": 1,
+          "terraformer": 1,
+          "object": 1,
+          "jQuery": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 5,
+        "packages": {
+          "AuthenticatedSystem": 2,
+          "digest/sha1": 1,
+          "rails/all": 1,
+          "bundler/setup": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 7,
+        "packages": {
+          "UIKit": 4,
+          "Foundation": 3,
+          "CoreLocation": 1,
+          "WebKit": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jjune/carmel",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "jjune/chicago",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jjune/lajolla",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jjune/malibu",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jjune/tictactoe",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

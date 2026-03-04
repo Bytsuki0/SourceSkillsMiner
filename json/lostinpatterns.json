@@ -1,0 +1,102 @@
+{
+  "username": "lostinpatterns",
+  "areas": {
+    "OSS": {
+      "score": 0.3168248863786858,
+      "details": {
+        "issue_resolution_rate": 0.875,
+        "pr_merge_rate": 0.4,
+        "commits_activity": 0.7002373295680288
+      }
+    },
+    "Status": {
+      "score": 0.1591325786863782,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7002373295680288,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.16898936626626598,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        1977,
+        18
+      ],
+      "Ruby": [
+        176,
+        6
+      ],
+      "JavaScript": [
+        95,
+        4
+      ],
+      "Python": [
+        29,
+        0
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 28,
+    "total_lines": 2277,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 1977,
+        "commits": 18
+      },
+      {
+        "language": "Ruby",
+        "lines": 176,
+        "commits": 6
+      },
+      {
+        "language": "JavaScript",
+        "lines": 95,
+        "commits": 4
+      },
+      {
+        "language": "Python",
+        "lines": 29,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "list index out of range",
+    "username": "lostinpatterns",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

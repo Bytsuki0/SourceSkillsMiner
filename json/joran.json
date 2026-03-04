@@ -1,0 +1,127 @@
+{
+  "username": "joran",
+  "areas": {
+    "OSS": {
+      "score": 0.23912440393917644,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8586866059087646
+      }
+    },
+    "Status": {
+      "score": 0.29643029788886865,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8484916006794567,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.18388867545701126,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        4686,
+        33
+      ],
+      "HTML": [
+        5844,
+        14
+      ],
+      "Shell": [
+        363,
+        1
+      ],
+      "JavaScript": [
+        22665,
+        25
+      ],
+      "Emacs Lisp": [
+        391,
+        2
+      ],
+      "CSS": [
+        1894,
+        0
+      ],
+      "Kotlin": [
+        7180,
+        2
+      ],
+      "Batchfile": [
+        184,
+        0
+      ],
+      "Vue": [
+        3867,
+        1
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 78,
+    "total_lines": 47074,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 4686,
+        "commits": 33
+      },
+      {
+        "language": "JavaScript",
+        "lines": 22665,
+        "commits": 25
+      },
+      {
+        "language": "HTML",
+        "lines": 5844,
+        "commits": 14
+      },
+      {
+        "language": "Emacs Lisp",
+        "lines": 391,
+        "commits": 2
+      },
+      {
+        "language": "Kotlin",
+        "lines": 7180,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": "list index out of range",
+    "username": "joran",
+    "analysis_date": null,
+    "total_repos_analyzed": 0,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

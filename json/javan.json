@@ -1,0 +1,597 @@
+{
+  "username": "javan",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 0.8333333333333334,
+        "pr_merge_rate": 5.911764705882353,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Sentiment": {
+      "score": 0.875,
+      "details": {
+        "javan/blade": 0.349945,
+        "javan/blade-sauce_labs_plugin": -0.11717999999999999,
+        "javan/copy": 0.38376,
+        "javan/details-element-polyfill": 0.3153063829787234,
+        "javan/electron-settings": 0.57255,
+        "javan/electron-webview-ime-fix": 0.4926,
+        "javan/fetch-put-patch-demo": -0.674,
+        "javan/form-request-submit-polyfill": 0.2447,
+        "javan/heroku-incidents": 0.3378952380952381,
+        "javan/input-inspector": 0.3994044444444444,
+        "javan/jbar": 0.16233076923076922,
+        "javan/mutation-observer-inner-html-shim": 0.3818,
+        "javan/pull-request-filter-chrome-extension": 0.383775,
+        "javan/ray-tracer-challenge": 0.42135555555555554,
+        "javan/trix-now": 0.42360222222222227,
+        "javan/whenever": 0.14775083333333333
+      }
+    },
+    "Commitment": {
+      "score": 0.6,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 5,
+        "percentage": 60.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.7245192307692307,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CoffeeScript": [
+        12423,
+        31
+      ],
+      "JavaScript": [
+        115777,
+        403
+      ],
+      "Ruby": [
+        285161,
+        558
+      ],
+      "HTML": [
+        42547,
+        112
+      ],
+      "Shell": [
+        1570,
+        1
+      ],
+      "CSS": [
+        13639,
+        19
+      ],
+      "C": [
+        6746,
+        22
+      ],
+      "Swift": [
+        96,
+        0
+      ],
+      "TypeScript": [
+        7013,
+        4
+      ],
+      "Go": [
+        1,
+        0
+      ],
+      "Makefile": [
+        8,
+        0
+      ],
+      "Elm": [
+        0,
+        0
+      ],
+      "Vue": [
+        0,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 1150,
+    "total_lines": 484981,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 285161,
+        "commits": 558
+      },
+      {
+        "language": "JavaScript",
+        "lines": 115777,
+        "commits": 403
+      },
+      {
+        "language": "HTML",
+        "lines": 42547,
+        "commits": 112
+      },
+      {
+        "language": "CoffeeScript",
+        "lines": 12423,
+        "commits": 31
+      },
+      {
+        "language": "C",
+        "lines": 6746,
+        "commits": 22
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "javan",
+    "analysis_date": "2026-02-23T20:41:34.842961",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 192,
+    "languages": {
+      "C++": {
+        "files_scanned": 15,
+        "packages": {
+          "native_mate/dictionary.h": 11,
+          "atom/common/node_includes.h": 10,
+          "atom/common/native_mate_converters/callback.h": 9,
+          "<string>": 7,
+          "string": 7,
+          "native_mate/object_template_builder.h": 5,
+          "base/command_line.h": 4,
+          "base/strings/utf_string_conversions.h": 4,
+          "atom/common/native_mate_converters/file_path_converter.h": 4,
+          "base/files/file_util.h": 3,
+          "ui/base/l10n/l10n_util.h": 3,
+          "<vector>": 3,
+          "vector": 3,
+          "atom/common/options_switches.h": 3,
+          "base/environment.h": 3,
+          "atom/common/native_mate_converters/image_converter.h": 3,
+          "atom/common/native_mate_converters/gurl_converter.h": 3,
+          "atom/common/native_mate_converters/value_converter.h": 3,
+          "atom/browser/atom_browser_main_parts.h": 3,
+          "atom/browser/native_window.h": 3,
+          "atom/app/atom_content_client.h": 2,
+          "base/strings/string_util.h": 2,
+          "atom/app/node_main.h": 2,
+          "atom/app/atom_main_delegate.h": 2,
+          "atom/common/atom_command_line.h": 2,
+          "atom/browser/relauncher.h": 2,
+          "chrome/common/chrome_paths.h": 2,
+          "content/public/common/content_switches.h": 2,
+          "atom/common/native_mate_converters/string16_converter.h": 2,
+          "atom/app/uv_task_runner.h": 2,
+          "base/stl_util.h": 2,
+          "atom/browser/api/atom_api_menu.h": 2,
+          "atom/browser/browser.h": 2,
+          "atom/browser/atom_browser_context.h": 2,
+          "base/time/time.h": 2,
+          "atom/common/native_mate_converters/accelerator_converter.h": 2,
+          "chrome/common/widevine_cdm_constants.h": 1,
+          "url/url_constants.h": 1,
+          "atom/common/chrome_version.h": 1,
+          "atom/common/atom_version.h": 1,
+          "content/public/common/user_agent.h": 1,
+          "third_party/widevine/cdm/stub/widevine_cdm_version.h": 1,
+          "content/public/common/pepper_plugin_info.h": 1,
+          "ppapi/shared_impl/ppapi_permissions.h": 1,
+          "base/strings/string_split.h": 1,
+          "content/public/common/content_constants.h": 1,
+          "atom/common/crash_reporter/win/crash_service_main.h": 1,
+          "tchar.h": 1,
+          "base/win/windows_version.h": 1,
+          "base/process/launch.h": 1,
+          "<stdlib.h>": 1,
+          "windows.h": 1,
+          "shellapi.h": 1,
+          "base/i18n/icu_util.h": 1,
+          "atom/app/atom_library_main.h": 1,
+          "<shellscalingapi.h>": 1,
+          "atom/app/atom_main.h": 1,
+          "stdlib.h": 1,
+          "sandbox/win/src/sandbox_types.h": 1,
+          "<tchar.h>": 1,
+          "<shellapi.h>": 1,
+          "<windows.h>": 1,
+          "base/at_exit.h": 1,
+          "shellscalingapi.h": 1,
+          "content/public/app/content_main.h": 1,
+          "content/public/app/sandbox_helper_win.h": 1,
+          "atom/renderer/atom_sandboxed_renderer_client.h": 1,
+          "atom/renderer/atom_renderer_client.h": 1,
+          "base/logging.h": 1,
+          "atom/utility/atom_content_utility_client.h": 1,
+          "ui/base/resource/resource_bundle.h": 1,
+          "iostream": 1,
+          "atom/common/google_api_key.h": 1,
+          "base/debug/stack_trace.h": 1,
+          "<iostream>": 1,
+          "atom/browser/atom_browser_client.h": 1,
+          "base/threading/thread_task_runner_handle.h": 1,
+          "gin/array_buffer.h": 1,
+          "atom/browser/node_debugger.h": 1,
+          "gin/public/isolate_holder.h": 1,
+          "gin/v8_initializer.h": 1,
+          "atom/browser/javascript_environment.h": 1,
+          "base/feature_list.h": 1,
+          "atom/common/api/atom_bindings.h": 1,
+          "base/path_service.h": 1,
+          "base/files/file_path.h": 1,
+          "atom::Browser": 1,
+          "net/ssl/ssl_cert_request_info.h": 1,
+          "atom::JumpListCategory": 1,
+          "atom/common/native_mate_converters/net_converter.h": 1,
+          "media/audio/audio_manager.h": 1,
+          "atom/browser/login_handler.h": 1,
+          "atom/browser/api/atom_api_session.h": 1,
+          "atom/browser/ui/win/jump_list.h": 1,
+          "atom/browser/api/atom_api_web_contents.h": 1,
+          "content/public/browser/render_frame_host.h": 1,
+          "brightray/browser/brightray_paths.h": 1,
+          "atom/browser/api/atom_api_app.h": 1,
+          "content/public/browser/browser_accessibility_state.h": 1,
+          "content/public/browser/client_certificate_delegate.h": 1,
+          "atom::JumpListResult": 1,
+          "ui/gfx/image/image.h": 1,
+          "atom::JumpListItem": 1,
+          "content/public/browser/gpu_data_manager.h": 1,
+          "atom/browser/api/atom_api_auto_updater.h": 1,
+          "atom/browser/window_list.h": 1,
+          "atom::api::AutoUpdater": 1,
+          "base/bind.h": 1,
+          "CompletionCallback": 1,
+          "content::TracingController": 1,
+          "content/public/browser/tracing_controller.h": 1,
+          "set": 1,
+          "<set>": 1,
+          "content::BrowserThread": 1,
+          "net/cookies/cookie_store.h": 1,
+          "atom::AtomCookieDelegate": 1,
+          "base/values.h": 1,
+          "atom/browser/api/atom_api_cookies.h": 1,
+          "content/public/browser/browser_context.h": 1,
+          "net/url_request/url_request_context.h": 1,
+          "content/public/browser/browser_thread.h": 1,
+          "net/url_request/url_request_context_getter.h": 1,
+          "net/cookies/cookie_util.h": 1,
+          "net/cookies/cookie_monster.h": 1,
+          "base/json/json_writer.h": 1,
+          "content/public/browser/web_contents.h": 1,
+          "atom::api::Debugger": 1,
+          "atom/browser/api/atom_api_debugger.h": 1,
+          "content::DevToolsAgentHost": 1,
+          "content/public/browser/devtools_agent_host.h": 1,
+          "base/json/json_reader.h": 1,
+          "atom/common/native_mate_converters/gfx_converter.h": 1,
+          "chrome/browser/media/desktop_media_list.h": 1,
+          "third_party/webrtc/modules/desktop_capture/window_capturer.h": 1,
+          "atom/browser/api/atom_api_desktop_capturer.h": 1,
+          "third_party/webrtc/modules/desktop_capture/screen_capturer.h": 1,
+          "atom/common/api/atom_api_native_image.h": 1,
+          "third_party/webrtc/modules/desktop_capture/desktop_capture_options.h": 1,
+          "atom/browser/ui/file_dialog.h": 1,
+          "utility": 1,
+          "atom/browser/ui/message_box.h": 1,
+          "atom/browser/api/atom_api_window.h": 1,
+          "<utility>": 1,
+          "atom/browser/api/atom_api_download_item.h": 1,
+          "<map>": 1,
+          "map": 1,
+          "base/message_loop/message_loop.h": 1,
+          "net/base/filename_util.h": 1,
+          "extensions::GlobalShortcutListener": 1,
+          "atom/browser/api/atom_api_global_shortcut.h": 1,
+          "native_mate/constructor.h": 1,
+          "atom::api::Menu": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 16,
+        "packages": {
+          "string": 10,
+          "<string>": 10,
+          "native_mate/handle.h": 7,
+          "base/callback.h": 5,
+          "atom/browser/api/trackable_object.h": 5,
+          "<vector>": 3,
+          "vector": 3,
+          "<map>": 3,
+          "map": 3,
+          "atom/browser/api/event_emitter.h": 3,
+          "<stddef.h>": 2,
+          "stddef.h": 2,
+          "brightray/common/content_client.h": 2,
+          "set": 1,
+          "<set>": 1,
+          "build/build_config.h": 1,
+          "content/public/app/content_main.h": 1,
+          "brightray/common/main_delegate.h": 1,
+          "base/single_thread_task_runner.h": 1,
+          "vendor/node/deps/uv/include/uv.h": 1,
+          "chrome/browser/certificate_manager_model.h": 1,
+          "atom/common/native_mate_converters/callback.h": 1,
+          "chrome/browser/process_singleton.h": 1,
+          "content/public/browser/gpu_data_manager_observer.h": 1,
+          "atom/browser/browser_observer.h": 1,
+          "atom/browser/atom_browser_client.h": 1,
+          "net/base/completion_callback.h": 1,
+          "atom/browser/auto_updater.h": 1,
+          "atom/browser/window_list_observer.h": 1,
+          "native_mate/arguments.h": 1,
+          "GetCallback": 1,
+          "net/cookies/canonical_cookie.h": 1,
+          "SetCallback": 1,
+          "atom/browser/net/atom_cookie_delegate.h": 1,
+          "PendingRequestMap": 1,
+          "base/values.h": 1,
+          "SendCommandCallback": 1,
+          "content/public/browser/devtools_agent_host_client.h": 1,
+          "chrome/browser/media/desktop_media_list_observer.h": 1,
+          "chrome/browser/media/native_desktop_media_list.h": 1,
+          "base/files/file_path.h": 1,
+          "content/public/browser/download_item.h": 1,
+          "url/gurl.h": 1,
+          "ui/base/accelerators/accelerator.h": 1,
+          "chrome/browser/extensions/global_shortcut_listener.h": 1,
+          "<memory>": 1,
+          "atom/browser/api/atom_api_window.h": 1,
+          "atom/browser/ui/atom_menu_model.h": 1,
+          "memory": 1,
+          "atom/browser/ui/cocoa/atom_menu_controller.h": 1,
+          "atom/browser/api/atom_api_menu.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 23,
+        "packages": {
+          "electron": 9,
+          "path": 8,
+          "underscore": 4,
+          "fs": 4,
+          "undefined": 2,
+          "fs-plus": 2,
+          "events": 2,
+          "rollup": 2,
+          "0.9.2": 1,
+          "=": 1,
+          "backbone": 1,
+          "<code>--compile<": 1,
+          "backticks": 1,
+          "of": 1,
+          "http:": 1,
+          "coffee-script": 1,
+          "<code>by<": 1,
+          "in": 1,
+          "indentation.": 1,
+          "<code>@property<": 1,
+          "the": 1,
+          "<code>bin": 1,
+          "jison": 1,
+          "favorites": 1,
+          "wallpaper": 1,
+          "request-promise": 1,
+          "crypto": 1,
+          "rollup-plugin-terser": 1,
+          "url": 1,
+          "lodash": 1,
+          "key-mirror": 1,
+          "fs-extra": 1,
+          "util": 1,
+          "debug": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 39,
+        "packages": {
+          "test_helper": 5,
+          "dimensions/test_case": 5,
+          "Blade::Component": 4,
+          "dimensions/scanner": 3,
+          "dimensions/tiff_scanning": 3,
+          "yaml": 2,
+          "securerandom": 2,
+          "blade": 2,
+          "minitest/autorun": 2,
+          "uri": 2,
+          "test/unit": 2,
+          "dimensions/reader": 2,
+          "dimensions/jpeg_scanner": 2,
+          "dimensions/exif_scanner": 2,
+          "TiffScanning": 2,
+          "blade/cli": 1,
+          "blade/component": 1,
+          "active_support/all": 1,
+          "path": 1,
+          "blade/server": 1,
+          "eventmachine": 1,
+          "pathname": 1,
+          "blade/interface/#{config.interface}": 1,
+          "blade/version": 1,
+          "blade/#{config.framework}_adapter": 1,
+          "blade/#{name}_plugin": 1,
+          "faye": 1,
+          "sprockets": 1,
+          "pp": 1,
+          "thor": 1,
+          "curses": 1,
+          "Blade::RackRouter": 1,
+          "faye/websocket": 1,
+          "Rack::ShowExceptions": 1,
+          "useragent": 1,
+          "blade/qunit_adapter/version": 1,
+          "blade/sauce_labs_plugin/version": 1,
+          "blade/sauce_labs_plugin/cli": 1,
+          "active_support/core_ext/string/inflections": 1,
+          "json": 1,
+          "faraday": 1,
+          "childprocess": 1,
+          "selenium/webdriver": 1,
+          "webmock/minitest": 1,
+          "blade/sauce_labs_plugin": 1,
+          "capistrano/recipes/deploy/scm": 1,
+          "fileutils": 1,
+          "cached_externals": 1,
+          "erb": 1,
+          "redcarpet": 1,
+          "sinatra/base": 1,
+          "Rack::Utils": 1,
+          "DataMapper::Resource": 1,
+          "Rack::Test::Methods": 1,
+          "rack/test": 1,
+          "CopyAppSetup": 1,
+          "copy": 1,
+          "rubygems": 1,
+          "turn": 1,
+          "mocha/setup": 1,
+          "dimensions/io": 1,
+          "dimensions/tiff_scanner": 1,
+          "dimensions/version": 1,
+          "dimensions": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "javan/backbone",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "javan/backbone-with-benefits",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "javan/blade",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "javan/blade-qunit_adapter",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "javan/blade-sauce_labs_plugin",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C/C++ Header",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "javan/cached_externals",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "javan/caniuse",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "javan/coffeescript",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "javan/copy",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "javan/desper",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "javan/details-element-polyfill",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "javan/dimensions",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "javan/electron",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "javan/electron-quick-start",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "javan/electron-settings",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "javan/electron-webview-ime-fix",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

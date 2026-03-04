@@ -1,0 +1,355 @@
+{
+  "username": "kodologist",
+  "areas": {
+    "OSS": {
+      "score": -0.10809523491596862,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.337857147626047
+      }
+    },
+    "Status": {
+      "score": -0.09527472209545584,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.337857147626047,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.050842489252856116,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        24025,
+        5
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 5,
+    "total_lines": 24025,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 24025,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "kodologist",
+    "analysis_date": "2026-02-24T00:14:28.341155",
+    "total_repos_analyzed": 11,
+    "total_files_analyzed": 295,
+    "languages": {
+      "C": {
+        "files_scanned": 4,
+        "packages": {
+          "stdio.h": 4,
+          "<stdio.h>": 4,
+          "dlfcn.h": 4,
+          "<dlfcn.h>": 4,
+          "stdlib.h": 4,
+          "config.h": 4,
+          "<string.h>": 4,
+          "string.h": 4,
+          "<stdlib.h>": 4,
+          "org_apache_hadoop_io_compress_snappy.h": 2,
+          "org_apache_hadoop_io_compress_zlib.h": 2,
+          "com_indeed_util_compress_snappy_SnappyCompressor.h": 1,
+          "com_indeed_util_compress_snappy_SnappyDecompressor.h": 1,
+          "com_indeed_util_compress_zlib_ZlibCompressor.h": 1,
+          "com_indeed_util_compress_zlib_ZlibDecompressor.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 7,
+        "packages": {
+          "leveldb/env.h": 6,
+          "db/dbformat.h": 5,
+          "db/filename.h": 4,
+          "stdio.h": 4,
+          "<stdio.h>": 4,
+          "leveldb/iterator.h": 3,
+          "leveldb/db.h": 3,
+          "util/logging.h": 3,
+          "util/coding.h": 3,
+          "port/port.h": 3,
+          "db/builder.h": 2,
+          "db/table_cache.h": 2,
+          "leveldb/status.h": 2,
+          "db/log_reader.h": 2,
+          "db/db_impl.h": 2,
+          "util/mutexlock.h": 2,
+          "db/db_iter.h": 2,
+          "db/version_edit.h": 1,
+          "leveldb/cache.h": 1,
+          "leveldb::WriteBatch": 1,
+          "leveldb::Slice": 1,
+          "leveldb::ReadOptions": 1,
+          "leveldb::NewBloomFilterPolicy": 1,
+          "leveldb::FilterPolicy": 1,
+          "leveldb/comparator.h": 1,
+          "leveldb/c.h": 1,
+          "<unistd.h>": 1,
+          "leveldb::Comparator": 1,
+          "leveldb::Status": 1,
+          "leveldb::Cache": 1,
+          "<stdlib.h>": 1,
+          "leveldb::FileLock": 1,
+          "unistd.h": 1,
+          "leveldb::Snapshot": 1,
+          "leveldb::WritableFile": 1,
+          "leveldb/options.h": 1,
+          "leveldb::kMinorVersion": 1,
+          "leveldb::WriteOptions": 1,
+          "leveldb::Logger": 1,
+          "leveldb::NewLRUCache": 1,
+          "leveldb::RandomAccessFile": 1,
+          "leveldb::Iterator": 1,
+          "leveldb::kMajorVersion": 1,
+          "leveldb::Env": 1,
+          "leveldb::SequentialFile": 1,
+          "leveldb::Range": 1,
+          "stdlib.h": 1,
+          "leveldb/filter_policy.h": 1,
+          "leveldb/write_batch.h": 1,
+          "leveldb::CompressionType": 1,
+          "leveldb::Options": 1,
+          "leveldb::DB": 1,
+          "table/two_level_iterator.h": 1,
+          "db/log_writer.h": 1,
+          "db/version_set.h": 1,
+          "<string>": 1,
+          "table/merger.h": 1,
+          "db/write_batch_internal.h": 1,
+          "<algorithm>": 1,
+          "leveldb/table_builder.h": 1,
+          "string": 1,
+          "table/block.h": 1,
+          "set": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "<stdint.h>": 1,
+          "algorithm": 1,
+          "<set>": 1,
+          "db/memtable.h": 1,
+          "leveldb/table.h": 1,
+          "stdint.h": 1,
+          "util/random.h": 1,
+          "ctype.h": 1,
+          "<ctype.h>": 1,
+          "util/crc32c.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 14,
+        "packages": {
+          "<jni.h>": 8,
+          "jni.h": 8,
+          "leveldb/status.h": 3,
+          "leveldb/db.h": 3,
+          "stdint.h": 3,
+          "<stdint.h>": 3,
+          "leveldb/slice.h": 3,
+          "port/port.h": 2,
+          "db/dbformat.h": 2,
+          "port/thread_annotations.h": 1,
+          "<set>": 1,
+          "db/log_writer.h": 1,
+          "leveldb/env.h": 1,
+          "<deque>": 1,
+          "set": 1,
+          "db/snapshot.h": 1,
+          "deque": 1,
+          "util/coding.h": 1,
+          "util/logging.h": 1,
+          "leveldb/comparator.h": 1,
+          "stdio.h": 1,
+          "<stdio.h>": 1,
+          "leveldb/filter_policy.h": 1,
+          "leveldb/table_builder.h": 1,
+          "<string>": 1,
+          "string": 1,
+          "db/log_format.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 269,
+        "packages": {
+          "java.util": 110,
+          "java.io": 77,
+          "javax.jmdns": 60,
+          "junit.framework": 45,
+          "junit.tests": 42,
+          "java.net": 40,
+          "com.mounacheikhna": 30,
+          "com.octo": 30,
+          "org.xbill": 25,
+          "com.android": 24,
+          "android.app": 20,
+          "com.indeed": 19,
+          "junit.samples": 18,
+          "android.os": 17,
+          "com.google": 17,
+          "com.snappydb": 15,
+          "android.content": 14,
+          "java.lang": 11,
+          "android.util": 11,
+          "android.test": 10,
+          "javax.inject": 9,
+          "com.readystatesoftware": 6,
+          "android.graphics": 6,
+          "org.apache": 6,
+          "android.annotation": 6,
+          "android.support": 6,
+          "junit.extensions": 6,
+          "com.esotericsoftware": 6,
+          "java.nio": 5,
+          "android.view": 5,
+          "com.squareup": 4,
+          "dagger.Provides": 4,
+          "dagger.Module": 4,
+          "android.animation": 4,
+          "android.transition": 4,
+          "android.database": 3,
+          "android.net": 3,
+          "android.text": 3,
+          "com.f2prateek": 3,
+          "org.simpleframework": 3,
+          "com.strangeberry": 3,
+          "java.text": 2,
+          "timber.log": 2,
+          "com.facebook": 2,
+          "rx.Observable": 2,
+          "retrofit.http": 2,
+          "roboguice.util": 2,
+          "sun.net": 1,
+          "com.project": 1,
+          "com": 1,
+          "android.accounts": 1,
+          "dagger.Component": 1,
+          "rx.plugins": 1,
+          "butterknife.Bind": 1,
+          "butterknife.OnClick": 1,
+          "android.widget": 1,
+          "butterknife.ButterKnife": 1,
+          "static": 1,
+          "retrofit.Retrofit": 1,
+          "retrofit.SimpleXmlConverterFactory": 1,
+          "retrofit.RxJavaCallAdapterFactory": 1,
+          "retrofit.MoshiConverterFactory": 1,
+          "rx.subscriptions": 1,
+          "javax.swing": 1,
+          "java.awt": 1,
+          "java.math": 1,
+          "de.javakaffee": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "kodologist/freezing-octo-lana",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kodologist/fuzzy-sansa",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kodologist/Goot",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kodologist/HarryPotterBooks",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kodologist/octopus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kodologist/robospice",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kodologist/shiny-octo-happiness",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kodologist/SnappyDB",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Java"
+        ]
+      },
+      {
+        "repository": "kodologist/util",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Java"
+        ]
+      },
+      {
+        "repository": "kodologist/waiter-fork",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,678 @@
+{
+  "username": "gakaki",
+  "areas": {
+    "OSS": {
+      "score": 0.38095238095238093,
+      "details": {
+        "issue_resolution_rate": 0.5714285714285714,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "gakaki/adcdownload": 0.2263,
+        "gakaki/merry_faq": 0.4939,
+        "gakaki/warbor_astro": 0.4939
+      }
+    },
+    "Commitment": {
+      "score": 0.8,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 5,
+        "percentage": 80.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.6445970695970695,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Vue": [
+        23575,
+        5
+      ],
+      "JavaScript": [
+        1169736,
+        49
+      ],
+      "CSS": [
+        2406,
+        0
+      ],
+      "TypeScript": [
+        44317,
+        29
+      ],
+      "HTML": [
+        340130,
+        41
+      ],
+      "Python": [
+        20752,
+        22
+      ],
+      "ActionScript": [
+        25,
+        0
+      ],
+      "Go": [
+        8599,
+        18
+      ],
+      "Rust": [
+        11668,
+        4
+      ],
+      "Java": [
+        61675,
+        18
+      ],
+      "Dockerfile": [
+        183,
+        0
+      ],
+      "Shell": [
+        50974,
+        25
+      ],
+      "Objective-C": [
+        381248,
+        58
+      ],
+      "Swift": [
+        714485,
+        110
+      ],
+      "Ruby": [
+        9650,
+        18
+      ],
+      "PHP": [
+        481287,
+        5
+      ],
+      "CoffeeScript": [
+        5079,
+        1
+      ],
+      "Perl": [
+        527,
+        0
+      ],
+      "C": [
+        85368,
+        3
+      ],
+      "SCSS": [
+        767,
+        0
+      ],
+      "Batchfile": [
+        14,
+        0
+      ],
+      "Dart": [
+        63158,
+        3
+      ],
+      "Kotlin": [
+        2467,
+        1
+      ],
+      "C#": [
+        5489,
+        7
+      ],
+      "ASP": [
+        11,
+        0
+      ],
+      "Visual Basic": [
+        319,
+        0
+      ],
+      "Makefile": [
+        868,
+        0
+      ],
+      "C++": [
+        228510,
+        6
+      ],
+      "CMake": [
+        3603,
+        0
+      ],
+      "Racket": [
+        1695,
+        0
+      ],
+      "Cuda": [
+        2444,
+        1
+      ],
+      "Nginx": [
+        467,
+        1
+      ],
+      "API Blueprint": [
+        484,
+        25
+      ],
+      "Svelte": [
+        2407,
+        2
+      ],
+      "Boo": [
+        73,
+        0
+      ],
+      "Astro": [
+        19496,
+        47
+      ],
+      "MATLAB": [
+        0,
+        0
+      ]
+    },
+    "language_count": 37,
+    "total_commits": 499,
+    "total_lines": 3743956,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 714485,
+        "commits": 110
+      },
+      {
+        "language": "Objective-C",
+        "lines": 381248,
+        "commits": 58
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1169736,
+        "commits": 49
+      },
+      {
+        "language": "Astro",
+        "lines": 19496,
+        "commits": 47
+      },
+      {
+        "language": "HTML",
+        "lines": 340130,
+        "commits": 41
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "gakaki",
+    "analysis_date": "2026-02-23T04:22:11.433824",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 267,
+    "languages": {
+      "C++": {
+        "files_scanned": 11,
+        "packages": {
+          "stdafx.h": 11,
+          "<string>": 4,
+          "string": 4,
+          "<iomanip>": 3,
+          "stdio.h": 3,
+          "<windows.h>": 3,
+          "windows.h": 3,
+          "<stdio.h>": 3,
+          "iomanip": 3,
+          "sstream": 2,
+          "<sstream>": 2,
+          "LogitechLEDLib.h": 2,
+          "dllmain.h": 2,
+          "Aurora-LeagueLogiLEDWrapper.h": 1,
+          "Aurora-LightFXWrapper.h": 1,
+          "LFX2.h": 1,
+          "RzErrors.h": 1,
+          "map": 1,
+          "<map>": 1,
+          "fstream": 1,
+          "<fstream>": 1,
+          "RzChromaSDKDefines.h": 1,
+          "objbase.h": 1,
+          "RzChromaSDKTypes.h": 1,
+          "<objbase.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 24,
+        "packages": {
+          "<Foundation/Foundation.h>": 9,
+          "<UIKit/UIKit.h>": 5,
+          "windows.h": 4,
+          "<windows.h>": 4,
+          "targetver.h": 3,
+          "SDKDDKVer.h": 3,
+          "<SDKDDKVer.h>": 3,
+          "ASIHTTPRequestConfig.h": 2,
+          "User.h": 2,
+          "LFXDecl.h": 1,
+          "<Guiddef.h>": 1,
+          "Guiddef.h": 1,
+          "ASIHTTPRequest.h": 1,
+          "<CFNetwork/CFNetwork.h>": 1,
+          "<stdio.h>": 1,
+          "<SystemConfiguration/SystemConfiguration.h>": 1,
+          "PhotoAppViewController.h": 1,
+          "XMLRPCConnection.h": 1,
+          "LoginViewController.h": 1,
+          "XMLRPCRequest.h": 1,
+          "XMLRPCResponse.h": 1,
+          "Three20/Three20.h": 1,
+          "SearchResultsModel.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 22,
+        "packages": {
+          "fmt": 13,
+          "log": 9,
+          "time": 9,
+          "os": 7,
+          "strings": 7,
+          "myCrawler/utils": 5,
+          "sync": 4,
+          "testing": 4,
+          "encoding/json": 4,
+          "gorm.io/gorm": 3,
+          "runtime": 3,
+          "net/http": 3,
+          "github.com/PuerkitoBio/goquery": 3,
+          "regexp": 3,
+          "my-go-data-generator/internal/models": 2,
+          "math/rand": 2,
+          "io/ioutil": 2,
+          "strconv": 2,
+          "path/filepath": 2,
+          "net/url": 2,
+          "my-go-data-generator/internal/db": 1,
+          "flag": 1,
+          "my-go-data-generator/internal/generator": 1,
+          "github.com/joho/godotenv": 1,
+          "encoding/csv": 1,
+          "gorm.io/driver/mysql": 1,
+          "github.com/milvus-io/milvus-sdk-go/v2/client": 1,
+          "context": 1,
+          "github.com/milvus-io/milvus-sdk-go/v2/entity": 1,
+          "book_intro": 1,
+          "io": 1,
+          "github.com/klauspost/compress/gzip": 1,
+          "github.com/CAFxX/httpcompression": 1,
+          "id": 1,
+          "bigCategory": 1,
+          "category": 1,
+          "title": 1,
+          "desc": 1,
+          "questionNo": 1,
+          "subCategory": 1,
+          "leetCodeLink": 1,
+          "section_id": 1,
+          "booklet_id": 1,
+          "os/exec": 1,
+          "我们看看官网的一些案例展示中的统计数据：\\n\\n": 1,
+          "<p": 1,
+          "7294082310658326565": 1,
+          "io/fs": 1,
+          "reflect": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 41,
+        "packages": {
+          "org.springframework": 22,
+          "java.util": 17,
+          "seed.core": 11,
+          "com.gakaki": 11,
+          "org.apache": 7,
+          "tk.mybatis": 6,
+          "orm.mapper": 6,
+          "seed.config": 6,
+          "com.alibaba": 6,
+          "seed.demo": 6,
+          "org.junit": 5,
+          "orm.consts": 4,
+          "orm.provider": 4,
+          "org.slf4j": 4,
+          "java.lang": 3,
+          "javax.persistence": 3,
+          "com.github": 3,
+          "org.quartz": 3,
+          "orm.annotation": 2,
+          "orm.helper": 2,
+          "javax.sql": 2,
+          "java.text": 2,
+          "lombok.experimental": 2,
+          "lombok.Builder": 2,
+          "lombok.Data": 2,
+          "com.example": 2,
+          "seed": 1,
+          "java.io": 1,
+          "com.google": 1,
+          "javax.servlet": 1,
+          "jakarta.annotation": 1,
+          "org.jsoup": 1,
+          "lombok.SneakyThrows": 1,
+          "cn.hutool": 1,
+          "lombok.extern": 1,
+          "static": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 18,
+        "packages": {
+          "electron": 3,
+          "vue": 3,
+          "globals": 2,
+          "eslint": 2,
+          "typescript-eslint": 2,
+          "eslint-plugin-react-refresh": 2,
+          "eslint-plugin-react-hooks": 2,
+          "electron-toolkit": 2,
+          "umijs": 2,
+          "path": 1,
+          "vue-virtual-scroller": 1,
+          "vue-router": 1,
+          "axios": 1,
+          "jQuery": 1,
+          "express": 1,
+          "xlsx": 1,
+          "fs-extra": 1,
+          "snowpack": 1,
+          "testing-library": 1,
+          "tailwindcss": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 14,
+        "packages": {
+          "ASIHTTPRequest.h": 4,
+          "Reachability.h": 3,
+          "User.h": 3,
+          "ASIAuthenticationDialog.h": 2,
+          "ASIInputStream.h": 2,
+          "NSData+Base64.h": 2,
+          "bababianPicsAppDelegate.h": 2,
+          "LoginViewController.h": 2,
+          "ASIFormDataRequest.h": 1,
+          "SystemConfiguration/SystemConfiguration.h": 1,
+          "zlib.h": 1,
+          "<SystemConfiguration/SystemConfiguration.h>": 1,
+          "<zlib.h>": 1,
+          "ASINSStringAdditions.h": 1,
+          "ASINetworkQueue.h": 1,
+          "netinet/in.h": 1,
+          "arpa/inet.h": 1,
+          "netdb.h": 1,
+          "<CoreFoundation/CoreFoundation.h>": 1,
+          "ifaddrs.h": 1,
+          "<netinet/in.h>": 1,
+          "<ifaddrs.h>": 1,
+          "<netinet6/in6.h>": 1,
+          "<sys/socket.h>": 1,
+          "<arpa/inet.h>": 1,
+          "CoreFoundation/CoreFoundation.h": 1,
+          "netinet6/in6.h": 1,
+          "<netdb.h>": 1,
+          "sys/socket.h": 1,
+          "NSString+Helpers.h": 1,
+          "NSString+Util.h": 1,
+          "NSString+XMLExtensions.h": 1,
+          "PhotoAppViewController.h": 1,
+          "Photo.h": 1,
+          "UserSet.h": 1,
+          "Tag.h": 1,
+          "SearchPhotosViewController.h": 1,
+          "PhotoList.h": 1,
+          "Three20/Three20.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 6,
+        "packages": {
+          "action": 4,
+          "ascript": 4,
+          "airscript": 3,
+          "dataclass": 3,
+          "dataclasses": 3,
+          "R": 3,
+          "screen": 3,
+          "re": 2,
+          "time": 2,
+          "random": 2,
+          "node": 2,
+          "slide": 1,
+          "key": 1,
+          "typing": 1,
+          "List": 1,
+          "types": 1,
+          "Intent": 1,
+          "Selector": 1,
+          "Node": 1,
+          "click": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 12,
+        "packages": {
+          "Backup::Utilities::Helpers": 5,
+          "Backup::Configuration::Helpers": 3,
+          "backup/cloud_io/base": 2,
+          "fog": 2,
+          "digest/md5": 2,
+          "fileutils": 1,
+          "excon": 1,
+          "response.inspect": 1,
+          "etc": 1,
+          "yaml": 1,
+          "tempfile": 1,
+          "open4": 1,
+          "thor": 1,
+          "thread": 1,
+          "forwardable": 1,
+          "syslog": 1,
+          "stringio": 1,
+          "base64": 1,
+          "ostruct": 1,
+          "the": 1,
+          ":cleanup": 1,
+          "NestedExceptions": 1,
+          "backup/logger/console": 1,
+          "backup/logger/syslog": 1,
+          "backup/logger/fog_adapter": 1,
+          "backup/logger/logfile": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 8,
+        "packages": {
+          "crate": 7,
+          "chrono": 6,
+          "rand": 3,
+          "serde": 3,
+          "std": 2,
+          "fake": 2,
+          "diesel": 1,
+          "schema": 1,
+          "db": 1,
+          "csv": 1,
+          "tokio": 1,
+          "indicatif": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 16,
+        "packages": {
+          "$fresh": 5,
+          "vitejs": 4,
+          "vite": 3,
+          "express": 3,
+          "https:": 3,
+          "electron-vite": 1,
+          "node:path": 1,
+          "umi": 1,
+          "antd": 1,
+          "Fluid": 1,
+          "path": 1,
+          "webpack-chain": 1,
+          "url": 1,
+          "tailwindcss": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 30,
+        "packages": {
+          "react": 24,
+          "antd": 8,
+          "react-dom": 4,
+          "umi": 4,
+          "$fresh": 4,
+          "ant-design": 3,
+          "classnames": 3,
+          "lodash": 2,
+          "moment": 2,
+          "preact": 2,
+          "tauri-apps": 1,
+          "light": 1,
+          "overlay": 1,
+          "use-merge-value": 1,
+          "faker": 1,
+          "React": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "gakaki/a4word",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gakaki/a4word-desktop",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gakaki/AntdProUploadToAliyunoss",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gakaki/api-server-seed",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "gakaki/ascript_boss",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "gakaki/Aurora",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "gakaki/bababian_iphone",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "gakaki/backup",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "gakaki/BigRowRender",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gakaki/big_dataworks_databend_risingwave",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Go",
+          "JavaScript",
+          "Rust",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gakaki/bilibili-drive-car",
+        "files_analyzed": 12,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gakaki/blog_codes",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Java"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "username": "munchboyd",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.16666666666666669,
+  "language_usage": {
+    "error": null,
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "munchboyd",
+    "analysis_date": "2026-02-23T03:04:47.065965",
+    "total_repos_analyzed": 2,
+    "total_files_analyzed": 10,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 5,
+        "packages": {
+          "connect": 2,
+          "socket.io": 2,
+          "https": 1,
+          "everyauth": 1,
+          "fs": 1,
+          "connect-assetmanager": 1,
+          "connect-notifo": 1,
+          "airbrake": 1,
+          "express": 1,
+          "connect-assetmanager-handlers": 1,
+          "connect-redis": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "munchboyd/node-express-boilerplate",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

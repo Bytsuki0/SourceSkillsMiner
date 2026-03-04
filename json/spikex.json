@@ -1,0 +1,471 @@
+{
+  "username": "spikex",
+  "areas": {
+    "OSS": {
+      "score": 0.27668097579213047,
+      "details": {
+        "issue_resolution_rate": 0.11764705882352941,
+        "pr_merge_rate": 0.8181818181818182,
+        "commits_activity": 0.979192586682848
+      }
+    },
+    "Status": {
+      "score": 0.3415357686877609,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9546113453393338,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "spikex/luminate": 0.4926,
+        "spikex/strongbox": 0.11286315789473685
+      }
+    },
+    "Commitment": {
+      "score": 0.4,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 5,
+        "percentage": 40.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5045541861199728,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        8755,
+        126
+      ],
+      "JavaScript": [
+        1428,
+        4
+      ],
+      "CSS": [
+        139,
+        8
+      ],
+      "HTML": [
+        7,
+        0
+      ],
+      "Shell": [
+        251,
+        3
+      ],
+      "CoffeeScript": [
+        1,
+        0
+      ],
+      "PHP": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        129,
+        1
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "Go": [
+        1,
+        0
+      ],
+      "MDX": [
+        0,
+        0
+      ],
+      "Emacs Lisp": [
+        115,
+        4
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 146,
+    "total_lines": 10826,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 8755,
+        "commits": 126
+      },
+      {
+        "language": "CSS",
+        "lines": 139,
+        "commits": 8
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1428,
+        "commits": 4
+      },
+      {
+        "language": "Emacs Lisp",
+        "lines": 115,
+        "commits": 4
+      },
+      {
+        "language": "Shell",
+        "lines": 251,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "spikex",
+    "analysis_date": "2026-02-23T06:46:12.226521",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 281,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 19,
+        "packages": {
+          "controllers": 5,
+          "hotwired": 5,
+          "channels": 3,
+          "object": 2,
+          "config": 2,
+          "stimulus_reflex": 2,
+          "on": 1,
+          "wolfy87-eventemitter": 1,
+          "jquery": 1,
+          "Please": 1,
+          "Rickshaw.Compat.ClassList": 1,
+          "datepicker": 1,
+          "rails": 1,
+          "cable_ready": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "the": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "os": 3,
+          "creds": 2,
+          "json": 2,
+          "requests": 2,
+          "*": 2,
+          "servers": 1,
+          "urllib": 1,
+          "cherrypy": 1,
+          "alsaaudio": 1,
+          "time": 1,
+          "random": 1,
+          "re": 1,
+          "Client": 1,
+          "memcache": 1,
+          "RPi": 1,
+          "wave": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 80,
+        "packages": {
+          "langchain": 10,
+          "json": 8,
+          "dotenv/load": 6,
+          "hipchat": 5,
+          "rubygems": 4,
+          "uri": 4,
+          "net/https": 4,
+          "rails": 3,
+          "net/http": 3,
+          "HTTParty": 3,
+          "ostruct": 3,
+          "forwardable": 3,
+          "cgi": 3,
+          "baran": 3,
+          "boot": 2,
+          "test/unit": 2,
+          "tmpdir": 2,
+          "dns/zonefile": 2,
+          "FileHelper": 2,
+          "httparty": 2,
+          "pp": 2,
+          "jira-ruby": 2,
+          "active_support/inflector": 2,
+          "oauth": 2,
+          "reverse": 2,
+          "pragmatic_segmenter": 2,
+          "CableReady::Broadcaster": 2,
+          "HoptoadNotifier::Catcher": 1,
+          "Clearance::App::Controllers::ApplicationController": 1,
+          "Clearance::App::Controllers::ConfirmationsController": 1,
+          "Clearance::App::Controllers::PasswordsController": 1,
+          "Clearance::App::Controllers::SessionsController": 1,
+          "Clearance::App::Controllers::UsersController": 1,
+          "Clearance::App::Models::ClearanceMailer": 1,
+          "Clearance::App::Models::User": 1,
+          "initializer": 1,
+          "#{RAILS_ROOT}/vendor/rails/railties/lib/initializer": 1,
+          "capistrano/ext/multistage": 1,
+          "quietbacktrace": 1,
+          "factory_girl": 1,
+          "JSONAPI::ActsAsResourceController": 1,
+          "Knock::Authenticable": 1,
+          "Scopable": 1,
+          "action_controller/railtie": 1,
+          "action_mailer/railtie": 1,
+          "active_record/railtie": 1,
+          "rails/test_unit/railtie": 1,
+          "active_model/railtie": 1,
+          "action_view/railtie": 1,
+          "active_job/railtie": 1,
+          "action_cable/engine": 1,
+          "bundler/setup": 1,
+          "application": 1,
+          "middleman-core/renderers/redcarpet": 1,
+          "shoulda": 1,
+          "cucumber-commander": 1,
+          "helper": 1,
+          "coffee-script": 1,
+          "sinatra/content_for": 1,
+          "sass": 1,
+          "sprockets": 1,
+          "rufus/scheduler": 1,
+          "sinatra": 1,
+          "test_helper": 1,
+          "rack/test": 1,
+          "stringio": 1,
+          "Rack::Test::Methods": 1,
+          "dns/zonefile_parser": 1,
+          "spec_helper": 1,
+          "spec": 1,
+          "fileutils": 1,
+          "openssl": 1,
+          "thread": 1,
+          "yajl/json_gem": 1,
+          "yajl/http_stream": 1,
+          "open-uri": 1,
+          "fucking_favicons/rails": 1,
+          "fucking_favicons/version": 1,
+          "fucking_favicons/middleware": 1,
+          "hipchat/version": 1,
+          "hipchat/railtie": 1,
+          "hipchat/room": 1,
+          "hipchat/client": 1,
+          "hipchat/file_helper": 1,
+          "hipchat/errors": 1,
+          "hipchat/user": 1,
+          "hipchat/api_version": 1,
+          "capistrano2": 1,
+          "mimemagic": 1,
+          "hipchat/rails3_tasks": 1,
+          "HipChatV1": 1,
+          "HipChatV2": 1,
+          "webmock/rspec": 1,
+          "rspec/autorun": 1,
+          "rspec": 1,
+          "coveralls": 1,
+          "jira/resource/remotelink": 1,
+          "jira/resource/issue_picker_suggestions_issue": 1,
+          "jira/resource/version": 1,
+          "jira/resource/webhook": 1,
+          "jira/resource/board_configuration": 1,
+          "jira/resource/filter": 1,
+          "jira/request_client": 1,
+          "jira/base": 1,
+          "jira/resource/issuelink": 1,
+          "jira/resource/createmeta": 1,
+          "jira/base_factory": 1,
+          "jira/resource/project": 1,
+          "jira/resource/sprint_report": 1,
+          "jira/http_client": 1,
+          "jira/resource/issue": 1,
+          "jira/railtie": 1,
+          "jira/jwt_client": 1,
+          "jira/resource/transition": 1,
+          "jira/resource/priority": 1,
+          "jira/resource/component": 1,
+          "jira/resource/sprint": 1,
+          "jira/resource/applinks": 1,
+          "jira/resource/issuetype": 1,
+          "jira/oauth_client": 1,
+          "jira/resource/attachment": 1,
+          "jira/resource/agile": 1,
+          "jira/http_error": 1,
+          "jira/resource/issuelinktype": 1,
+          "jira/has_many_proxy": 1,
+          "jira/resource/suggested_issue": 1,
+          "active_support": 1,
+          "jira/resource/issue_picker_suggestions": 1,
+          "jira/resource/comment": 1,
+          "jira/client": 1,
+          "jira/resource/user": 1,
+          "jira/resource/rapidview": 1,
+          "jira/resource/worklog": 1,
+          "jira/resource/field": 1,
+          "jira/resource/serverinfo": 1,
+          "jira/resource/board": 1,
+          "jira/resource/status": 1,
+          "jira/resource/resolution": 1,
+          "jira/resource/watcher": 1,
+          "set": 1,
+          "expanded?": 1,
+          "active_support/core_ext/string": 1,
+          "deleted?": 1,
+          "cgi/cookie": 1,
+          "atlassian/jwt": 1,
+          "net/http/post/multipart": 1,
+          "interest": 1,
+          "name": 1,
+          "controller_name": 1,
+          "zeitwerk": 1,
+          "pathname": 1,
+          "colorize": 1,
+          "to_bool": 1,
+          "logger": 1,
+          "matrix": 1,
+          "luminate/base": 1,
+          "luminate/config": 1,
+          "luminate/version": 1,
+          "multi_json": 1,
+          "map": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "spikex/AlexaPi",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "spikex/blog",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/cta-aggregator",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/cta-aggregator-docs",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/cucumber-commander",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/dashing",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/dns-zonefile",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/fbomb",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/fucking_favicons",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/hipchat-rb",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/jira-ruby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/Joybox-Examples",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/jquery_jeditable",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "spikex/langchainrb",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/luminate",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "spikex/magma-chat",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

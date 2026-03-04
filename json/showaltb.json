@@ -1,0 +1,551 @@
+{
+  "username": "showaltb",
+  "areas": {
+    "OSS": {
+      "score": 0.1428571428571428,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.7142857142857143,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Sentiment": {
+      "score": 0.8,
+      "details": {
+        "showaltb/net-netrc": -0.07365,
+        "showaltb/scpowderhorn.org": 0.6249,
+        "showaltb/scwoodbadge.org": 0.107125,
+        "showaltb/showaltb.github.io": 0.07543333333333334,
+        "showaltb/wb-game-show": 0.0621625
+      }
+    },
+    "Commitment": {
+      "score": 0.2,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 5,
+        "percentage": 20.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.38186813186813184,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        24899,
+        24
+      ],
+      "Shell": [
+        9845,
+        2
+      ],
+      "Dockerfile": [
+        3,
+        0
+      ],
+      "JavaScript": [
+        111825,
+        41
+      ],
+      "Ruby": [
+        19774,
+        63
+      ],
+      "TypeScript": [
+        27353,
+        27
+      ],
+      "CSS": [
+        12674,
+        9
+      ],
+      "SCSS": [
+        571,
+        11
+      ],
+      "XSLT": [
+        0,
+        0
+      ],
+      "Perl": [
+        28,
+        0
+      ],
+      "Perl 6": [
+        0,
+        0
+      ],
+      "Vue": [
+        20846,
+        1
+      ],
+      "Haml": [
+        65,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 178,
+    "total_lines": 227883,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 19774,
+        "commits": 63
+      },
+      {
+        "language": "JavaScript",
+        "lines": 111825,
+        "commits": 41
+      },
+      {
+        "language": "TypeScript",
+        "lines": 27353,
+        "commits": 27
+      },
+      {
+        "language": "HTML",
+        "lines": 24899,
+        "commits": 24
+      },
+      {
+        "language": "SCSS",
+        "lines": 571,
+        "commits": 11
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "showaltb",
+    "analysis_date": "2026-02-22T15:42:33.088010",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 177,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 5,
+        "packages": {
+          "event-stream": 2,
+          "net": 2,
+          "prompts": 1,
+          "dotenv": 1,
+          "uuid": 1,
+          "aws-sdk": 1,
+          "express.io": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "t.write(": 1,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1,
+          "undefined": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 31,
+        "packages": {
+          "strict": 31,
+          "warnings": 31,
+          "base": 14,
+          "Devel::Cover::DB": 7,
+          "Devel::Cover::Dumper": 7,
+          "Devel::Cover::Condition": 7,
+          "Carp": 5,
+          "Getopt::Long": 5,
+          "Devel::Cover::Criterion": 5,
+          "Devel::Cover::DB::IO": 4,
+          "Devel::Cover::DB::IO::Base": 4,
+          "Devel::Cover::Inc": 3,
+          "Devel::Cover::DB::IO::JSON": 3,
+          "Devel::Cover::Branch": 3,
+          "5": 3,
+          "<": 3,
+          ">>": 3,
+          "Devel::Cover::DB::Structure": 3,
+          "POSIX": 2,
+          "Devel::Cover::DB::Digests": 2,
+          "-|": 2,
+          "Digest::MD5": 2,
+          "Template": 2,
+          "Template::Provider": 2,
+          ">": 2,
+          "Devel::Cover::Condition_and_2": 2,
+          "Devel::Cover::Condition_and_3": 2,
+          "Devel::Cover::Condition_or_2": 2,
+          "Devel::Cover::Condition_or_3": 2,
+          "Devel::Cover::Condition_xor_4": 2,
+          "Devel::Cover::Pod": 2,
+          "Devel::Cover::DB::File": 2,
+          "parent": 2,
+          "launch": 2,
+          "HTML::Entities": 2,
+          "Devel::Cover::Html_Common": 2,
+          "B::Debug": 1,
+          "Config": 1,
+          "B": 1,
+          "Devel::Cover::Util": 1,
+          "statement": 1,
+          "File::Spec": 1,
+          "vars": 1,
+          "$File": 1,
+          "remove_contained_paths": 1,
+          "Cwd": 1,
+          "CPAN::DistnameInfo": 1,
+          "B::Deparse": 1,
+          "DynaLoader": 1,
+          "cover:": 1,
+          "time": 1,
+          "Parallel::Iterator": 1,
+          "Class::XSAccessor": 1,
+          ">&STDOUT": 1,
+          "Moo": 1,
+          "namespace::clean": 1,
+          "Time::HiRes": 1,
+          "all": 1,
+          "5.26.0": 1,
+          "setsid": 1,
+          "CPAN::Releases::Latest": 1,
+          "iterate_as_array": 1,
+          "Devel::Cover::Subroutine": 1,
+          "Devel::Cover::Statement": 1,
+          "Devel::Cover::Time": 1,
+          "File::Path": 1,
+          "Fcntl": 1,
+          ":flock": 1,
+          "JSON::MaybeXS": 1,
+          "Sereal::Decoder": 1,
+          "Devel::Cover::DB::IO::Sereal": 1,
+          "Sereal::Encoder": 1,
+          "Storable": 1,
+          "Devel::Cover::DB::IO::Storable": 1,
+          "constant": 1,
+          "Data::Dumper": 1,
+          "Exporter": 1,
+          "Devel::Cover": 1,
+          "5.8.0": 1,
+          "B::Concise": 1,
+          "Devel::Cover::Report::Html_minimal": 1,
+          "Devel::Cover::Web": 1,
+          "write_file": 1,
+          "Unable": 1,
+          "Devel::Cover::Truth_Table": 1,
+          "Plack::Util::Accessor": 1,
+          "Plack::Builder": 1,
+          "5.008001": 1,
+          "Plack::Middleware": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 60,
+        "packages": {
+          "Mongoid::Document": 8,
+          "ansi/code": 6,
+          "bundler/setup": 4,
+          "RelativePosition": 4,
+          "ANSI::Code": 3,
+          "WithMessage": 3,
+          "database_cleaner": 2,
+          "capybara": 2,
+          "rubygems": 2,
+          "rspec/expectations": 2,
+          "cucumber/rails/world": 2,
+          "cucumber/rails/database": 2,
+          "rbconfig": 2,
+          "Draper::ViewHelpers": 2,
+          "Enumerable": 2,
+          "minitest/autorun": 2,
+          "minitest/reporters": 2,
+          "net/netrc": 2,
+          "test/unit": 2,
+          "SessionsHelper": 1,
+          "boot": 1,
+          "rails/all": 1,
+          "application": 1,
+          "rspec-rails": 1,
+          "selenium-webdriver": 1,
+          "cucumber-rails": 1,
+          "factory_girl": 1,
+          "aruba/cucumber": 1,
+          "uri": 1,
+          "cgi": 1,
+          "formtastic": 1,
+          "RAILS_ROOT": 1,
+          "rails/test_help": 1,
+          "rails": 1,
+          "cucumber/rails/hooks": 1,
+          "cucumber/rails/application": 1,
+          "cucumber/rails/action_controller": 1,
+          "action_dispatch/testing/integration": 1,
+          "cucumber/rails/capybara": 1,
+          "action_dispatch/testing/test_process": 1,
+          "__cucumber_orig_call__": 1,
+          "rails/application": 1,
+          "__cucumber_orig_initialize__": 1,
+          "capybara/cucumber": 1,
+          "capybara/rails": 1,
+          "cucumber/rails/capybara/select_dates_and_times": 1,
+          "capybara/session": 1,
+          "cucumber/rails/capybara/javascript_emulation": 1,
+          "::Cucumber::Rails::Capybara::JavascriptEmulation": 1,
+          "cucumber/rails/hooks/active_record": 1,
+          "cucumber/rails/hooks/database_cleaner": 1,
+          "cucumber/rails/hooks/mail": 1,
+          "cucumber/rails/hooks/allow_rescue": 1,
+          "spec/rails": 1,
+          "rspec/rails/matchers": 1,
+          "Spec::Matchers": 1,
+          "RSpec::Matchers": 1,
+          "Spec::Rails::Matchers": 1,
+          "spec/expectations": 1,
+          "Rack::Test::Methods": 1,
+          "test/unit/testresult": 1,
+          "SetupAndTeardown": 1,
+          "spec_helper": 1,
+          "generators/cucumber/install/install_generator": 1,
+          "ammeter/init": 1,
+          "rails/version": 1,
+          "draper/view_context": 1,
+          "draper/configuration": 1,
+          "draper/helper_proxy": 1,
+          "draper/decoratable": 1,
+          "draper/version": 1,
+          "draper/lazy_helpers": 1,
+          "active_support/core_ext/name_error": 1,
+          "draper/view_helpers": 1,
+          "draper/factory": 1,
+          "draper/helper_support": 1,
+          "action_view": 1,
+          "draper/railtie": 1,
+          "draper/compatibility/api_only": 1,
+          "Draper::Decoratable": 1,
+          "active_support/inflector": 1,
+          "draper/delegation": 1,
+          "active_model/serialization": 1,
+          "draper/decorator": 1,
+          "draper/finders": 1,
+          "active_model/serializers/json": 1,
+          "active_support/core_ext/hash/reverse_merge": 1,
+          "draper/undecorate": 1,
+          "draper/decorates_assigned": 1,
+          "active_model/naming": 1,
+          "active_support/core_ext/hash/keys": 1,
+          "draper/decorated_association": 1,
+          "Draper::ViewContext": 1,
+          "draper/collection_decorator": 1,
+          "active_model/serializers/xml": 1,
+          "draper/automatic_delegation": 1,
+          "Draper::Compatibility::ApiOnly": 1,
+          ":render_to_body": 1,
+          "ActionView::Rendering": 1,
+          ":previous_render_to_body": 1,
+          "::GlobalID::Identification": 1,
+          "draper/decoratable/equality": 1,
+          "Draper::Decoratable::Equality": 1,
+          "ActiveModel::Serialization": 1,
+          "Draper::Compatibility::GlobalID": 1,
+          "ActiveModel::Serializers::JSON": 1,
+          "Draper::AutomaticDelegation": 1,
+          "draper/compatibility/global_id": 1,
+          "ActiveModel::Serializers::Xml": 1,
+          "this": 1,
+          "draper/test/minitest_integration": 1,
+          "rails/railtie": 1,
+          "draper/test_case": 1,
+          "draper/test/rspec_integration": 1,
+          "action_controller/test_case": 1,
+          "Draper::TestCase::Behavior": 1,
+          "draper/test/devise_helper": 1,
+          "ViewContextTeardown": 1,
+          "capybara/rspec/matchers": 1,
+          "Draper::ViewHelpers::ClassMethods": 1,
+          "Behavior": 1,
+          "::Capybara::RSpecMatchers": 1,
+          "active_support/test_case": 1,
+          "Draper::DeviseHelper": 1,
+          "request_store": 1,
+          "draper/view_context/build_strategy": 1,
+          "ApplicationHelper": 1,
+          "rails/generators/rails/controller/controller_generator": 1,
+          "rails/generators": 1,
+          "rails/generators/rails/scaffold_controller/scaffold_controller_generator": 1,
+          "active_support/testing/setup_and_teardown": 1,
+          "minitest/reporters/version": 1,
+          "minitest/old_activesupport_fix": 1,
+          "minitest/relative_position": 1,
+          "minitest/unit": 1,
+          "minitest/extensible_backtrace_filter": 1,
+          "fileutils": 1,
+          "builder": 1,
+          "powerbar": 1,
+          "teamcity/runner_common": 1,
+          "::Rake::TeamCity::RunnerUtils": 1,
+          "teamcity/utils/url_formatter": 1,
+          "teamcity/utils/runner_utils": 1,
+          "::Rake::TeamCity::Utils::UrlFormatter": 1,
+          "teamcity/utils/service_message_factory": 1,
+          "minitest/reporters/default_reporter": 1,
+          "::Rake::TeamCity::RunnerCommon": 1,
+          "minitest/mock": 1,
+          ":belong_to": 1,
+          "mongoid/relations": 1,
+          ":have_many": 1,
+          ":have_one": 1,
+          ":less_than": 1,
+          ":in": 1,
+          ":greater_than": 1,
+          ":is": 1,
+          "matchers/validations/associated": 1,
+          "matchers/validations/inclusion_of": 1,
+          "matchers/indexes": 1,
+          "mongoid": 1,
+          "matchers/validations/acceptance_of": 1,
+          "matchers/document": 1,
+          "matchers/validations/format_of": 1,
+          "matchers/validations/numericality_of": 1,
+          "matchers/accept_nested_attributes": 1,
+          "matchers/validations/confirmation_of": 1,
+          "rspec/mocks": 1,
+          "Mongoid::Matchers::Associations": 1,
+          "matchers/allow_mass_assignment": 1,
+          "matchers/validations": 1,
+          "active_model": 1,
+          "rspec/core": 1,
+          "matchers/associations": 1,
+          "matchers/validations/presence_of": 1,
+          "matchers/validations/exclusion_of": 1,
+          "matchers/validations/uniqueness_of": 1,
+          "matchers/validations/custom_validation_of": 1,
+          "Mongoid::Matchers::Validations": 1,
+          "matchers/validations/length_of": 1,
+          "matchers/validations/with_message": 1,
+          "matchers/collections": 1,
+          "Mongoid::Timestamps": 1,
+          "ssn_validator.rb": 1,
+          "net/ftp": 1,
+          "platform": 1,
+          "etc": 1,
+          "map": 1,
+          "parsearg_show": 1,
+          "parsearg_distclean": 1,
+          "parsearg_test": 1,
+          "HookScriptAPI": 1,
+          "config": 1,
+          "parsearg_clean": 1,
+          "FileOperations": 1,
+          "parsearg_setup": 1,
+          "help_default": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "username": 1,
+          "bucket": 1,
+          "password": 1,
+          "env-var": 1,
+          "aws-sdk": 1,
+          "luxon": 1,
+          "node-pop3": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "showaltb/action_cable_chat_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "showaltb/cfn-empty-s3-bucket",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "showaltb/cucumber-rails",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "showaltb/Devel--Cover",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "showaltb/draper",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "showaltb/express-playground",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "showaltb/gmail_archive",
+        "files_analyzed": 2,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "showaltb/minitest-reporters",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "showaltb/mongoid-rspec",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "showaltb/net-netrc",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "showaltb/p5-plack-middleware-redirect",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Perl"
+        ]
+      }
+    ]
+  }
+}
