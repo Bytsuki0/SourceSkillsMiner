@@ -1,0 +1,41 @@
+Developer Classifier — Training Report
+==================================================
+Input CSV      : synthetic.csv
+Train samples  : 44000
+Test samples   : 11000
+Vocabulary     : 195 tokens
+Alpha (smooth) : 1.0
+CV accuracy    : 0.9984 ± 0.0006
+Test accuracy  : 0.9987
+
+Classification Report:
+                       precision    recall  f1-score   support
+
+      API Development       1.00      1.00      1.00      1000
+ Automation Scripting       1.00      1.00      1.00      1000
+  Backend Development       1.00      1.00      1.00      1000
+         Cloud DevOps       1.00      1.00      1.00      1000
+         Data Science       1.00      1.00      1.00      1000
+    Database Projects       1.00      1.00      1.00      1000
+ Frontend Development       1.00      1.00      1.00      1000
+Fullstack Development       1.00      1.00      1.00      1000
+     Machine Learning       1.00      1.00      1.00      1000
+   Mobile Development       1.00      1.00      1.00      1000
+      Web Development       1.00      1.00      1.00      1000
+
+             accuracy                           1.00     11000
+            macro avg       1.00      1.00      1.00     11000
+         weighted avg       1.00      1.00      1.00     11000
+
+Confusion Matrix:
+[[ 999    0    0    1    0    0    0    0    0    0    0]
+ [   0  999    0    1    0    0    0    0    0    0    0]
+ [   3    0  996    0    0    0    0    1    0    0    0]
+ [   0    0    0 1000    0    0    0    0    0    0    0]
+ [   0    0    0    0 1000    0    0    0    0    0    0]
+ [   0    0    0    0    0 1000    0    0    0    0    0]
+ [   0    0    0    0    0    0  996    2    0    0    2]
+ [   0    0    0    0    0    0    0 1000    0    0    0]
+ [   0    0    0    0    0    0    0    0 1000    0    0]
+ [   0    0    0    0    0    0    0    0    0 1000    0]
+ [   0    0    0    0    0    0    2    2    0    0  996]]
