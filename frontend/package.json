@@ -1,0 +1,28 @@
+{
+  "name": "sourceskillsminer-ui",
+  "version": "1.0.0",
+  "description": "Developer profile analysis dashboard for SourceSkillsMiner",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "http-proxy-middleware": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "keywords": [
+    "github",
+    "developer",
+    "profiling",
+    "dashboard"
+  ],
+  "license": "MIT"
+}
