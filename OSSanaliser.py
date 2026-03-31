@@ -227,9 +227,22 @@ def get_repo_participation_stats(username):
 
 
 def main():
-    username = "Gictorbit"
+    username = "pystardust"
 
-    print(get_repo_participation_stats(username))
+    print(f"Analisando atividades do usuário: {username}\n")
+    # Atividades recentes
+    print(get_commit_stats_total(username))
+    for repo in get_repo_participation_stats(username)[0]:  # Repositórios próprios
+        print(f"Atividades em {repo}:")
+        print(get_user_activity(username, repo.split('/')[1], 5))  # Últimos 5 eventos
+    print(f"Últimos issues e PRs abertos por {username}:")
+    print(get_user_opened_issues_and_prs(username, 5)) 
+    print(f"Últimos issues e PRs resolvidos por {username}:")
+    print(get_user_resolved_issues_and_prs(username, 5))
+
+    
+     # Últ
+main()
 
 
 

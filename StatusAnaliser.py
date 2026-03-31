@@ -14,7 +14,7 @@ _KB = 1024
 # Shared retry helper
 # ---------------------------------------------------------------------------
 
-def _fetch_contributor_stats(url: str, headers: dict, max_retries: int = 10) -> Optional[list]:
+def _fetch_contributor_stats(url: str, headers: dict, max_retries: int = 4) -> Optional[list]:
     """
     Fetches /stats/contributors with exponential backoff on 202 responses.
     Returns the parsed list on success, None on failure.
@@ -22,7 +22,7 @@ def _fetch_contributor_stats(url: str, headers: dict, max_retries: int = 10) -> 
     for attempt in range(max_retries):
         resp = requests.get(url, headers=headers)
         if resp.status_code == 202:
-            time.sleep(2 ** min(attempt, 4))   # 1, 2, 4, 8, 16 s max
+            time.sleep(2 * min(attempt, 16))   # 1, 2, 4, 8, 16 s max
             continue
         if resp.status_code != 200:
             return None
