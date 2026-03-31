@@ -19,25 +19,29 @@ const PORT        = process.env.PORT        || 3000;
 const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:5000';
 
 // ── Proxy all /api/* to Flask ────────────────────────────────────────────────
-app.use('/api', createProxyMiddleware({
+// IMPORTANT: mount at root '/' and use pathFilter, NOT app.use('/api', ...).
+// When Express mounts middleware with app.use('/api', ...) it strips the '/api'
+// segment before the proxy sees the path, so Flask receives '/analyze' instead
+// of '/api/analyze'.  Using pathFilter at root preserves the full path.
+app.use(createProxyMiddleware({
     target:       BACKEND_URL,
     changeOrigin: true,
-    // SSE needs these so Express doesn't buffer the stream
+    pathFilter:   '/api',           // only forward requests whose path starts with /api
     on: {
         proxyReq: (proxyReq) => {
             proxyReq.setHeader('Accept', 'text/event-stream');
         },
     },
-    selfHandleResponse: false,
 }));
 
 // ── Serve static frontend ────────────────────────────────────────────────────
 app.use(express.static(path.join(__dirname, 'public')));
 
 // SPA fallback
-app.get(/.*/, (_req, res) => {
+app.get(/.*/, (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
+
 app.listen(PORT, () => {
     console.log(`\n  SourceSkillsMiner UI`);
     console.log(`  ─────────────────────────────`);

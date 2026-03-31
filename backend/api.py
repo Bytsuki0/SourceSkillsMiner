@@ -20,11 +20,11 @@ import os
 import sys
 import json
 import uuid
-import time
 import queue
 import threading
 import subprocess
 import configparser
+from typing import Optional
 
 from flask import Flask, request, jsonify, Response, stream_with_context
 from flask_cors import CORS
@@ -40,6 +40,30 @@ PYTHON        = sys.executable   # use the same venv Python that runs this file
 
 app = Flask(__name__)
 CORS(app)   # allow Node.js frontend on a different port
+
+# ── Global error handlers — guarantee JSON for every error response ──────────
+# Without these Flask returns plain HTML on 400/404/500, which breaks res.json()
+# in the frontend.
+
+@app.errorhandler(400)
+def bad_request(e):
+    return jsonify({'error': f'Bad request: {str(e)}'}), 400
+
+@app.errorhandler(404)
+def not_found(e):
+    return jsonify({'error': f'Not found: {str(e)}'}), 404
+
+@app.errorhandler(405)
+def method_not_allowed(e):
+    return jsonify({'error': f'Method not allowed: {str(e)}'}), 405
+
+@app.errorhandler(500)
+def internal_error(e):
+    return jsonify({'error': f'Internal server error: {str(e)}'}), 500
+
+@app.errorhandler(Exception)
+def unhandled_exception(e):
+    return jsonify({'error': f'Unexpected error: {str(e)}'}), 500
 
 # Job store: job_id -> {"status", "progress", "result", "error", "events"}
 _jobs: dict = {}
@@ -67,7 +91,7 @@ def _push(job_id: str, msg: str, pct: int) -> None:
             _jobs[job_id]['events'].put({'message': msg, 'pct': pct})
 
 
-def _finish(job_id: str, result: dict | None, error: str | None) -> None:
+def _finish(job_id: str, result: Optional[dict], error: Optional[str]) -> None:
     with _jobs_lock:
         if job_id not in _jobs:
             return
@@ -177,26 +201,30 @@ def health():
 
 @app.route('/api/analyze', methods=['POST'])
 def analyze():
-    body     = request.get_json(force=True, silent=True) or {}
-    username = (body.get('username') or '').strip()
-    if not username:
-        return jsonify({'error': 'username is required'}), 400
+    try:
+        body     = request.get_json(force=True, silent=True) or {}
+        username = (body.get('username') or '').strip()
+        if not username:
+            return jsonify({'error': 'username is required'}), 400
 
-    job_id = str(uuid.uuid4())
-    with _jobs_lock:
-        _jobs[job_id] = {
-            'status':   'running',
-            'username': username,
-            'progress': 0,
-            'result':   None,
-            'error':    None,
-            'events':   queue.Queue(),
-        }
+        job_id = str(uuid.uuid4())
+        with _jobs_lock:
+            _jobs[job_id] = {
+                'status':   'running',
+                'username': username,
+                'progress': 0,
+                'result':   None,
+                'error':    None,
+                'events':   queue.Queue(),
+            }
 
-    thread = threading.Thread(target=_run_analysis, args=(job_id, username), daemon=True)
-    thread.start()
+        thread = threading.Thread(target=_run_analysis, args=(job_id, username), daemon=True)
+        thread.start()
 
-    return jsonify({'job_id': job_id}), 202
+        return jsonify({'job_id': job_id}), 202
+
+    except Exception as exc:
+        return jsonify({'error': f'Failed to start analysis: {str(exc)}'}), 500
 
 
 @app.route('/api/status/<job_id>')
