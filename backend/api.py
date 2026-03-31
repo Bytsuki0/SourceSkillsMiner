@@ -127,7 +127,7 @@ def _run_analysis(job_id: str, username: str) -> None:
             cwd=job_dir,
             capture_output=True,
             text=True,
-            timeout=600,          # 10 min ceiling
+            timeout=1200,          # 10 min ceiling
         )
 
         if result.returncode != 0:
@@ -184,7 +184,7 @@ def _run_analysis(job_id: str, username: str) -> None:
 
         _finish(job_id, combined, None)
 
-    except subprocess.TimeoutExpired:
+    except subprocess.TimeoutExpired(timeout=1800):
         _finish(job_id, None, 'Analysis timed out (>10 min). Profile may be too large.')
     except Exception as exc:
         _finish(job_id, None, str(exc))
