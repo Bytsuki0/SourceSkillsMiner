@@ -19,31 +19,32 @@ Run with:
 import os
 import sys
 import json
+import math
 import uuid
 import queue
 import threading
 import subprocess
 import configparser
+import tempfile
+import shutil
 from typing import Optional
 
 from flask import Flask, request, jsonify, Response, stream_with_context
 from flask_cors import CORS
 
-# ── Paths (all relative to the project root, one level up from this file) ───
-ROOT        = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SCORE_SCRIPT  = os.path.join(ROOT, 'ScoringSys.py')
-CLASS_SCRIPT  = os.path.join(ROOT, 'Bayers_Classifier', 'classify_profile.py')
-MODEL_PATH    = os.path.join(ROOT, 'Bayers_Classifier', 'models', 'developer_classifier.joblib')
-CONFIG_MAIN   = os.path.join(ROOT, 'config_main.ini')
-JSON_DIR      = os.path.join(ROOT, 'json')
-PYTHON        = sys.executable   # use the same venv Python that runs this file
+# ── Paths ────────────────────────────────────────────────────────────────────
+ROOT         = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SCORE_SCRIPT = os.path.join(ROOT, 'ScoringSys.py')
+CLASS_SCRIPT = os.path.join(ROOT, 'Bayers_Classifier', 'classify_profile.py')
+MODEL_PATH   = os.path.join(ROOT, 'Bayers_Classifier', 'models', 'developer_classifier.joblib')
+CONFIG_MAIN  = os.path.join(ROOT, 'config_main.ini')
+JSON_DIR     = os.path.join(ROOT, 'json')
+PYTHON       = sys.executable
 
 app = Flask(__name__)
-CORS(app)   # allow Node.js frontend on a different port
+CORS(app)
 
-# ── Global error handlers — guarantee JSON for every error response ──────────
-# Without these Flask returns plain HTML on 400/404/500, which breaks res.json()
-# in the frontend.
+# ── Global JSON error handlers ────────────────────────────────────────────────
 
 @app.errorhandler(400)
 def bad_request(e):
@@ -65,12 +66,12 @@ def internal_error(e):
 def unhandled_exception(e):
     return jsonify({'error': f'Unexpected error: {str(e)}'}), 500
 
-# Job store: job_id -> {"status", "progress", "result", "error", "events"}
+# Job store
 _jobs: dict = {}
 _jobs_lock = threading.Lock()
 
 
-# ── Helpers ─────────────────────────────────────────────────────────────────
+# ── Helpers ───────────────────────────────────────────────────────────────────
 
 def _read_token() -> str:
     cfg = configparser.ConfigParser()
@@ -84,6 +85,27 @@ def _read_token() -> str:
     return token
 
 
+def _sanitize_floats(obj):
+    """
+    Recursively walk a JSON-serializable structure and replace any
+    float('nan'), float('inf'), or float('-inf') with None.
+
+    Python's json module raises ValueError on these values because they
+    are not valid JSON.  ScoringSys can produce them when:
+      - A GitHub API call returns 0 totals (0/0 division → nan)
+      - A log-normalisation receives a very large number (→ inf)
+    Replacing with None means the frontend will display '—' instead
+    of crashing the serialisation step.
+    """
+    if isinstance(obj, dict):
+        return {k: _sanitize_floats(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_sanitize_floats(v) for v in obj]
+    if isinstance(obj, float) and (math.isnan(obj) or math.isinf(obj)):
+        return None
+    return obj
+
+
 def _push(job_id: str, msg: str, pct: int) -> None:
     with _jobs_lock:
         if job_id in _jobs:
@@ -95,13 +117,13 @@ def _finish(job_id: str, result: Optional[dict], error: Optional[str]) -> None:
     with _jobs_lock:
         if job_id not in _jobs:
             return
-        _jobs[job_id]['status']   = 'done' if result else 'error'
-        _jobs[job_id]['result']   = result
-        _jobs[job_id]['error']    = error
+        _jobs[job_id]['status'] = 'done' if result else 'error'
+        _jobs[job_id]['result'] = result
+        _jobs[job_id]['error']  = error
         _jobs[job_id]['events'].put({'done': True, 'error': error})
 
 
-# ── Background worker ────────────────────────────────────────────────────────
+# ── Background worker ─────────────────────────────────────────────────────────
 
 def _run_analysis(job_id: str, username: str) -> None:
     try:
@@ -110,93 +132,170 @@ def _run_analysis(job_id: str, username: str) -> None:
         _finish(job_id, None, str(exc))
         return
 
-    # ── 1. Write per-job config.ini into a temp working dir ──────────────
-    import tempfile, shutil
     job_dir = tempfile.mkdtemp(prefix=f'ssm_{username}_')
 
     try:
+        # ── 1. Write per-job config.ini ───────────────────────────────────
         cfg_path = os.path.join(job_dir, 'config.ini')
         with open(cfg_path, 'w', encoding='utf-8') as f:
             f.write(f'[github]\nusername = {username}\ntoken = {token}\n')
 
+        # We tell ScoringSys exactly where to write the JSON by creating
+        # the json/ subdirectory inside job_dir and passing it via env var.
+        # This removes all ambiguity about __file__-relative paths.
+        out_json_dir = os.path.join(job_dir, 'json')
+        os.makedirs(out_json_dir, exist_ok=True)
+        out_json_path = os.path.join(out_json_dir, f'{username}.json')
+
         _push(job_id, 'Config ready — starting GitHub mining…', 5)
 
-        # ── 2. Run ScoringSys.py ─────────────────────────────────────────
-        result = subprocess.run(
-            [PYTHON, SCORE_SCRIPT],
+        # ── 2. Run ScoringSys.py ──────────────────────────────────────────
+        # Set SSM_OUTPUT_DIR so ScoringSys writes to our controlled path.
+        # Also capture all output so we can surface errors even on exit 0.
+                # ── 2. Run ScoringSys.py exactly like its CLI main() ─────────────
+        # We pass the same arguments main() would normally read from argparse,
+        # but keep the execution isolated in a subprocess.
+        # ── 2. Run ScoringSys.py ──────────────────────────────────────────
+        env = os.environ.copy()
+        env['SSM_OUTPUT_DIR'] = out_json_dir
+        env['PYTHONIOENCODING'] = 'utf-8'
+        env['PYTHONUTF8'] = '1'
+
+        score_cmd = [
+            PYTHON, SCORE_SCRIPT,
+            '--username', username,
+            '--token', token,
+            '--repo-limit', '200',
+            '--import-max-repos', '20',
+            '--import-max-files', '30',
+            # '--skip-import-scan',   # uncomment if you want to skip that part
+        ]
+
+        score_proc = subprocess.run(
+            score_cmd,
             cwd=job_dir,
             capture_output=True,
             text=True,
-            timeout=1200,          # 10 min ceiling
+            timeout=1200,
+            env=env,
         )
 
-        if result.returncode != 0:
-            err = (result.stderr or result.stdout or 'ScoringSys.py failed').strip()
-            _finish(job_id, None, f'ScoringSys error: {err}')
+        combined_output = (score_proc.stdout or '') + (score_proc.stderr or '')
+        print("\n=== ScoringSys OUTPUT ===")
+        print(combined_output)
+        print("================================\n")
+
+        if score_proc.returncode != 0:
+            snippet = combined_output.strip()[:8000] or f'ScoringSys.py exited with code {score_proc.returncode}'
+            _finish(job_id, None, f'ScoringSys error (exit {score_proc.returncode}):\n{snippet}')
             return
+
+        # ── 3. Locate the output JSON ─────────────────────────────────────
+        candidates = [
+            out_json_path,
+            os.path.join(ROOT, 'json', f'{username}.json'),
+            os.path.join(job_dir, 'json', f'{username}.json'),
+        ]
+        profile_json_path = next((p for p in candidates if os.path.exists(p)), None)
+
+        if profile_json_path is None:
+            detail = combined_output.strip()[:2000] if combined_output.strip() else 'No output captured from ScoringSys.'
+            _finish(job_id, None,
+                    f'ScoringSys completed (exit 0) but no JSON was saved for "{username}".\n\n'
+                    f'Output:\n{detail}')
+            return
+        # ── 3. Locate the output JSON ─────────────────────────────────────
+        # Priority 1: the path we asked ScoringSys to write to
+        # Priority 2: the canonical project-level json/ dir (original behaviour)
+        # Priority 3: cwd-relative fallback
+        candidates = [
+            out_json_path,
+            os.path.join(ROOT, 'json', f'{username}.json'),
+            os.path.join(job_dir, 'json', f'{username}.json'),
+        ]
+        profile_json_path = next((p for p in candidates if os.path.exists(p)), None)
+
+        if profile_json_path is None:
+            detail = combined_output.strip()[:2000] if combined_output.strip() else \
+                'No output captured from ScoringSys.'
+
+            print("\n=== ScoringSys DEBUG OUTPUT ===")
+            print(combined_output)
+            print("================================\n")
+
+            _finish(job_id, None,
+                f'No JSON generated for "{username}".\n\nOutput:\n{detail}')
+            return
+
+        # ── 4. Load and sanitize the JSON ─────────────────────────────────
+        with open(profile_json_path, 'r', encoding='utf-8') as f:
+            raw_profile = json.load(f)
+
+        # Replace any nan/inf floats that would break JSON serialisation
+        # in the SSE stream or when sending to the frontend.
+        profile_data = _sanitize_floats(raw_profile)
 
         _push(job_id, 'Scoring complete — running classifier…', 75)
-
-        # ── 3. Find the written JSON ──────────────────────────────────────
-        # ScoringSys saves to <project_root>/json/{username}.json
-        profile_json_path = os.path.join(ROOT, 'json', f'{username}.json')
-
-        # Fallback: check the job_dir too (in case cwd-relative save)
-        if not os.path.exists(profile_json_path):
-            alt = os.path.join(job_dir, 'json', f'{username}.json')
-            if os.path.exists(alt):
-                profile_json_path = alt
-
-        if not os.path.exists(profile_json_path):
-            _finish(job_id, None, f'JSON output not found for user {username}')
-            return
-
-        with open(profile_json_path, 'r', encoding='utf-8') as f:
-            profile_data = json.load(f)
-
-        # ── 4. Run classifier ─────────────────────────────────────────────
-        cls_result = subprocess.run(
-            [PYTHON, CLASS_SCRIPT,
-             '--json', profile_json_path,
-             '--model', MODEL_PATH,
-             '--output', os.path.join(job_dir, 'classification.json')],
+        
+        # ── 5. Run classifier ─────────────────────────────────────────────
+        cls_proc = subprocess.run(
+            [
+                PYTHON, CLASS_SCRIPT,
+                '--json', profile_json_path,
+                '--model', MODEL_PATH,
+                '--output', os.path.join(job_dir, 'classification.json'),
+            ],
             capture_output=True,
             text=True,
             timeout=60,
         )
 
-        classification = {}
-        cls_json_path  = os.path.join(job_dir, 'classification.json')
+        cls_json_path = os.path.join(job_dir, 'classification.json')
         if os.path.exists(cls_json_path):
             with open(cls_json_path, 'r', encoding='utf-8') as f:
-                classification = json.load(f)
+                classification = _sanitize_floats(json.load(f))
         else:
-            # Parse stdout as fallback
-            classification = {'error': cls_result.stderr or 'Classifier produced no output'}
+            cls_out = (cls_proc.stderr or cls_proc.stdout or '').strip()
+            classification = {'error': cls_out or 'Classifier produced no output'}
 
         _push(job_id, 'Classification complete — preparing response…', 95)
+        # Persist JSON to project-level folder BEFORE deleting temp dir
+        final_json_path = os.path.join(JSON_DIR, f'{username}.json')
+        os.makedirs(JSON_DIR, exist_ok=True)
 
-        combined = {
+        shutil.copy2(profile_json_path, final_json_path)
+
+        _finish(job_id, {
             'username':       username,
             'profile':        profile_data,
             'classification': classification,
-        }
+            'json_path':      final_json_path  # optional but useful
+        }, None)
 
-        _finish(job_id, combined, None)
-
-    except subprocess.TimeoutExpired(timeout=1800):
-        _finish(job_id, None, 'Analysis timed out (>10 min). Profile may be too large.')
+    except subprocess.TimeoutExpired:
+        _finish(job_id, None,
+                'Analysis timed out (>20 min). '
+                'The profile may be too large or GitHub is rate-limiting.')
     except Exception as exc:
         _finish(job_id, None, str(exc))
     finally:
         shutil.rmtree(job_dir, ignore_errors=True)
 
 
-# ── Routes ───────────────────────────────────────────────────────────────────
+# ── Routes ────────────────────────────────────────────────────────────────────
 
 @app.route('/api/health')
 def health():
-    return jsonify({'status': 'ok', 'python': sys.version})
+    return jsonify({
+        'status': 'ok',
+        'python': sys.version,
+        'scripts': {
+            'ScoringSys':  os.path.exists(SCORE_SCRIPT),
+            'classifier':  os.path.exists(CLASS_SCRIPT),
+            'model':       os.path.exists(MODEL_PATH),
+            'config_main': os.path.exists(CONFIG_MAIN),
+        }
+    })
 
 
 @app.route('/api/analyze', methods=['POST'])
@@ -218,7 +317,9 @@ def analyze():
                 'events':   queue.Queue(),
             }
 
-        thread = threading.Thread(target=_run_analysis, args=(job_id, username), daemon=True)
+        thread = threading.Thread(
+            target=_run_analysis, args=(job_id, username), daemon=True
+        )
         thread.start()
 
         return jsonify({'job_id': job_id}), 202
@@ -229,8 +330,6 @@ def analyze():
 
 @app.route('/api/status/<job_id>')
 def status_stream(job_id: str):
-    """Server-Sent Events stream for real-time progress."""
-
     with _jobs_lock:
         if job_id not in _jobs:
             return jsonify({'error': 'job not found'}), 404
@@ -260,7 +359,7 @@ def status_stream(job_id: str):
         stream_with_context(event_generator()),
         mimetype='text/event-stream',
         headers={
-            'Cache-Control':  'no-cache',
+            'Cache-Control':     'no-cache',
             'X-Accel-Buffering': 'no',
         }
     )
@@ -268,7 +367,6 @@ def status_stream(job_id: str):
 
 @app.route('/api/result/<job_id>')
 def get_result(job_id: str):
-    """Poll endpoint for clients that don't support SSE."""
     with _jobs_lock:
         job = _jobs.get(job_id)
     if not job:
@@ -289,12 +387,13 @@ if __name__ == '__main__':
         print("WARNING: The following required files were not found:")
         for m in missing:
             print(f"  {m}")
-        print("Make sure to run from the project root and that all scripts are present.\n")
+        print()
 
-    print(f"Python   : {PYTHON}")
-    print(f"Root     : {ROOT}")
-    print(f"Scorer   : {SCORE_SCRIPT}")
-    print(f"Classifier: {CLASS_SCRIPT}")
-    print(f"Model    : {MODEL_PATH}")
+    print(f"Python     : {PYTHON}")
+    print(f"Root       : {ROOT}")
+    print(f"Scorer     : {SCORE_SCRIPT}  ({'found' if os.path.exists(SCORE_SCRIPT) else 'MISSING'})")
+    print(f"Classifier : {CLASS_SCRIPT}  ({'found' if os.path.exists(CLASS_SCRIPT) else 'MISSING'})")
+    print(f"Model      : {MODEL_PATH}  ({'found' if os.path.exists(MODEL_PATH) else 'MISSING'})")
+    print(f"Config     : {CONFIG_MAIN}  ({'found' if os.path.exists(CONFIG_MAIN) else 'MISSING'})")
     print()
     app.run(host='0.0.0.0', port=5000, debug=False, threaded=True)

@@ -226,7 +226,7 @@ def get_repo_participation_stats(username):
     return [owned_repos,non_owned_repos]
 
 
-def main():
+if __name__ == "__main__":
     username = "pystardust"
 
     print(f"Analisando atividades do usuário: {username}\n")
@@ -241,8 +241,6 @@ def main():
     print(get_user_resolved_issues_and_prs(username, 5))
 
     
-     # Últ
-main()
 
 
 

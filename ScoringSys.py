@@ -1,6 +1,8 @@
 """
 ScoringSys.py
 """
+
+import sys
 import os
 import math
 import json
@@ -12,6 +14,13 @@ import OSSanaliser as f1
 import SentimentalAnaliser as f2
 import StatusAnaliser as f3
 import WorkTypeAnalyzer as f4
+
+
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 # Read config from cwd (RunParallel sets cwd per-job — no module-level argparse needed)
 config = cfgparser.ConfigParser()
@@ -169,7 +178,6 @@ def compute_commit_score(username: str, token: str) -> Dict:
     required_keys = [
         'has_12_month_streak',
         'has_6_month_streak',
-        'has_write_to_non_owned_repo',
         'has_repo_at_50th_percentile_commits',
         'at_75th_percentile_followers',
     ]
@@ -260,17 +268,53 @@ def get_import_scan_data(username: str, token: str,
                          max_repos: int = 20,
                          max_files_per_repo: int = 30) -> Dict:
     try:
-        print(f"Scanning imports/packages (max {max_repos} repos, {max_files_per_repo} files/repo)...")
-        scanner     = f4.GitHubImportScanner(username, token)
-        import_data = scanner.analyze_imports(max_repos=max_repos, max_files_per_repo=max_files_per_repo)
-        return {'error': None, **import_data}
-    except Exception as e:
-        return {
-            'error': str(e), 'username': username, 'analysis_date': None,
-            'total_repos_analyzed': 0, 'total_files_analyzed': 0,
-            'languages': {}, 'repositories': [],
-        }
+        print(
+            f"Scanning imports/packages "
+            f"(max {max_repos} repos, {max_files_per_repo} files/repo)..."
+        )
 
+        scanner = f4.GitHubImportScanner(username, token)
+
+        try:
+            import_data = scanner.analyze_imports(
+                max_repos=max_repos,
+                max_files_per_repo=max_files_per_repo,
+            )
+        except Exception as inner_e:
+            print("ERROR inside analyze_imports():", inner_e)
+            import traceback
+            traceback.print_exc()
+
+            return {
+                'error': f'analyze_imports failed: {str(inner_e)}',
+                'languages': {},
+                'repositories': [],
+            }
+
+        # SAFETY: ensure it's JSON-safe
+        if not isinstance(import_data, dict):
+            return {
+                'error': f'Invalid return type: {type(import_data)}',
+                'languages': {},
+                'repositories': [],
+            }
+
+        return {'error': None, **import_data}
+
+    except Exception as e:
+        print("FATAL import scan error:", e)
+        import traceback
+        traceback.print_exc()
+
+        return {
+            'error': str(e),
+            'username': username,
+            'analysis_date': None,
+            'total_repos_analyzed': 0,
+            'total_files_analyzed': 0,
+            'languages': {},
+            'repositories': [],
+        }
 
 # ---------------------------------------------------------------------------
 # Orchestration
@@ -368,27 +412,53 @@ def score_user(username: Optional[str] = None,
         'language_usage': language_data,
         'import_scan':    import_scan_data,
     }
+def _sanitize_floats(obj):
+    """
+    Recursively replace float nan/inf with None so json.dump never raises
+    ValueError.
+    """
+    import math
 
+    if isinstance(obj, dict):
+        return {k: _sanitize_floats(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_sanitize_floats(v) for v in obj]
+    if isinstance(obj, float) and (math.isnan(obj) or math.isinf(obj)):
+        return None
+    return obj
 
 def save_score_to_json(result: Dict, username: str) -> str:
-    base_dir  = os.path.dirname(os.path.abspath(__file__))
-    json_dir  = os.path.join(base_dir, 'json')
+    env_dir = os.environ.get('SSM_OUTPUT_DIR', '').strip()
+    if env_dir:
+        json_dir = env_dir
+    else:
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        json_dir = os.path.join(base_dir, 'json')
+
     os.makedirs(json_dir, exist_ok=True)
-    file_path = os.path.join(json_dir, f"{username}.json")
-    print(f"\nSaving result for {username} → {username}.json...")
+
+    filename  = f"{username}.json"
+    file_path = os.path.join(json_dir, filename)
+
+    print(f"\nSaving result for {username} -> {file_path}...")
+
+    clean_result = _sanitize_floats(result)
+
     try:
         with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(result, f, indent=2, ensure_ascii=False)
+            json.dump(clean_result, f, indent=2, ensure_ascii=False)
+        print("Saved successfully.")
         return file_path
     except Exception as e:
-        raise RuntimeError(f"Error saving JSON: {e}")
-
-
+        import traceback
+        print(f"ERROR saving JSON to {file_path}: {e}")
+        traceback.print_exc()
+        raise
 # ---------------------------------------------------------------------------
 # CLI entry point
 # ---------------------------------------------------------------------------
 
-if __name__ == '__main__':
+def main():
     import argparse
 
     p = argparse.ArgumentParser(description='GitHub User Scoring System')
@@ -435,3 +505,7 @@ if __name__ == '__main__':
         print('Error computing score:', e)
         import traceback
         traceback.print_exc()
+        sys.exit(1)  
+
+if __name__ == "__main__":
+    main()

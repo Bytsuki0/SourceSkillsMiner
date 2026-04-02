@@ -1,0 +1,213 @@
+{
+  "username": "OKawatani",
+  "areas": {
+    "OSS": {
+      "score": -0.377902399079755,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.9331464013803675
+      }
+    },
+    "Status": {
+      "score": 0.35547667508394176,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9178303972412971,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.0056064309989533045,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        19526,
+        35
+      ],
+      "Java": [
+        1077,
+        11
+      ],
+      "JavaScript": [
+        536,
+        14
+      ],
+      "Haskell": [
+        464,
+        12
+      ],
+      "Ruby": [
+        407,
+        11
+      ],
+      "C#": [
+        353,
+        9
+      ],
+      "Python": [
+        331,
+        9
+      ],
+      "Prolog": [
+        228,
+        6
+      ],
+      "Rust": [
+        227,
+        6
+      ],
+      "Lua": [
+        125,
+        3
+      ],
+      "Go": [
+        122,
+        3
+      ],
+      "BASIC": [
+        71,
+        1
+      ],
+      "HTML": [
+        59,
+        1
+      ],
+      "CSS": [
+        50,
+        0
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 121,
+    "total_lines": 23576,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 19526,
+        "commits": 35
+      },
+      {
+        "language": "JavaScript",
+        "lines": 536,
+        "commits": 14
+      },
+      {
+        "language": "Haskell",
+        "lines": 464,
+        "commits": 12
+      },
+      {
+        "language": "Java",
+        "lines": 1077,
+        "commits": 11
+      },
+      {
+        "language": "Ruby",
+        "lines": 407,
+        "commits": 11
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "OKawatani",
+    "analysis_date": "2026-04-01T23:36:51.273794",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 83,
+    "languages": {
+      "C++": {
+        "files_scanned": 38,
+        "packages": {
+          "std": 38,
+          "namespace": 38,
+          "<iostream>": 8,
+          "iostream": 8,
+          "string": 3,
+          "<string>": 3,
+          "vector": 2,
+          "<vector>": 2
+        }
+      },
+      "Go": {
+        "files_scanned": 4,
+        "packages": {
+          "fmt": 4
+        }
+      },
+      "Java": {
+        "files_scanned": 27,
+        "packages": {
+          "Exercicio1": 7,
+          "java.util": 4,
+          "Exercicio6": 4,
+          "Exercicio5": 3,
+          "Exercicio0": 3,
+          "Exercicio2": 2,
+          "Exercicio3": 2,
+          "Exercicio4": 2,
+          "Desafio": 1,
+          "org.w3c": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "abc": 1,
+          "ABC": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "OKawatani/C",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "OKawatani/C06-POO",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "OKawatani/S01",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C++",
+          "Go",
+          "Python"
+        ]
+      }
+    ]
+  }
+}
