@@ -566,3 +566,207 @@ if __name__ == "__main__":
     print("\n=== IMPORT & PACKAGE SCAN ===\n")
     import_scanner = GitHubImportScanner(username, token)
     print(import_scanner.get_results_as_json(max_repos=1000, max_files_per_repo=1000))
+
+# ---------------------------------------------------------------------------
+# NEW: standalone analysis + JSON save functions
+# (existing classes and __main__ above are NOT modified)
+# ---------------------------------------------------------------------------
+
+import math as _math
+import os as _os
+
+
+def _sanitize_floats(obj):
+    """Replace float nan/inf with None so json.dump never raises ValueError."""
+    if isinstance(obj, dict):
+        return {k: _sanitize_floats(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_sanitize_floats(v) for v in obj]
+    if isinstance(obj, float) and (_math.isnan(obj) or _math.isinf(obj)):
+        return None
+    return obj
+
+
+def build_language_usage_section(language_stats: Dict[str, List[int]]) -> dict:
+    """
+    Convert the raw dict returned by GitHubLanguageCommitAnalyzer.analyze_language_usage()
+    into the same shape used in the full ScoringSys JSON (language_usage section).
+
+    Input:  { "Python": [lines, commits], "Go": [lines, commits], ... }
+    Output: {
+        "error": null,
+        "languages": { "Python": [lines, commits], ... },
+        "language_count": N,
+        "total_commits": N,
+        "total_lines": N,
+        "top_5_languages": [ {"language": ..., "lines": ..., "commits": ...}, ... ]
+    }
+    """
+    if not language_stats:
+        return {
+            "error": None,
+            "languages": {},
+            "language_count": 0,
+            "total_commits": 0,
+            "total_lines": 0,
+            "top_5_languages": [],
+        }
+
+    total_commits = sum(v[1] for v in language_stats.values())
+    total_lines   = sum(v[0] for v in language_stats.values())
+
+    # Sort by commits descending for the top-5 list
+    sorted_langs = sorted(language_stats.items(), key=lambda x: -x[1][1])
+
+    top_5 = [
+        {"language": lang, "lines": stats[0], "commits": stats[1]}
+        for lang, stats in sorted_langs[:5]
+    ]
+
+    return {
+        "error": None,
+        "languages":      language_stats,
+        "language_count": len(language_stats),
+        "total_commits":  total_commits,
+        "total_lines":    total_lines,
+        "top_5_languages": top_5,
+    }
+
+
+def save_worktype_profile(
+    username:     str,
+    language_data: dict,
+    import_data:   dict,
+    output_dir:   str,
+) -> str:
+    """
+    Save a WorkType profile JSON to output_dir/{username}.json.
+
+    The file follows the ascarter.json schema but contains only the two
+    sections that WorkTypeAnalyzer can produce independently:
+        - language_usage
+        - import_scan
+
+    The sections areas / weights / final_score are intentionally omitted
+    because they require the full ScoringSys pipeline.
+
+    Returns the absolute path of the written file.
+    """
+    _os.makedirs(output_dir, exist_ok=True)
+
+    profile = _sanitize_floats({
+        "username":       username,
+        "language_usage": language_data,
+        "import_scan":    import_data,
+    })
+
+    file_path = _os.path.join(output_dir, f"{username}.json")
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(profile, f, indent=2, ensure_ascii=False)
+
+    return file_path
+
+
+def analyze_and_save(
+    username:            str,
+    token:               str,
+    output_dir:          str  = "json_train",
+    import_max_repos:    int  = 20,
+    import_max_files:    int  = 30,
+) -> str:
+    """
+    Orchestrate both GitHubLanguageCommitAnalyzer and GitHubImportScanner
+    for a single user, then persist the combined result as a JSON file.
+
+    Steps
+    -----
+    1. GitHubLanguageCommitAnalyzer.analyze_language_usage()
+    2. Build the language_usage section (build_language_usage_section)
+    3. GitHubImportScanner.analyze_imports()
+    4. save_worktype_profile() → json_train/{username}.json
+
+    Parameters
+    ----------
+    username           : GitHub login to analyse.
+    token              : Personal access token.
+    output_dir         : Directory where the JSON file will be written.
+                         Defaults to 'json_train' relative to cwd.
+                         Can be overridden by the WTA_OUTPUT_DIR env variable
+                         (set by RunParallelWorkType.sh for controlled paths).
+    import_max_repos   : Max repos to scan for imports (default 20).
+    import_max_files   : Max files per repo for import scan (default 30).
+
+    Returns
+    -------
+    Absolute path of the saved JSON file.
+    """
+    # Allow the parallel runner to inject the output path via environment variable
+    env_dir = _os.environ.get("WTA_OUTPUT_DIR", "").strip()
+    if env_dir:
+        output_dir = env_dir
+
+    print(f"\n[WorkTypeAnalyzer] Starting analysis for: {username}")
+
+    # ── Step 1: language usage ────────────────────────────────────────────
+    print("  Analysing language usage…")
+    try:
+        lang_analyzer  = GitHubLanguageCommitAnalyzer(username, token)
+        language_stats = lang_analyzer.analyze_language_usage()
+        language_data  = build_language_usage_section(language_stats)
+    except Exception as exc:
+        print(f"  [WARN] Language analysis failed: {exc}")
+        language_data = {
+            "error": str(exc),
+            "languages": {},
+            "language_count": 0,
+            "total_commits": 0,
+            "total_lines": 0,
+            "top_5_languages": [],
+        }
+
+    # ── Step 2: import / package scan ────────────────────────────────────
+    print(f"  Scanning imports (max {import_max_repos} repos, {import_max_files} files/repo)…")
+    try:
+        import_scanner = GitHubImportScanner(username, token)
+        raw_import     = import_scanner.analyze_imports(
+            max_repos        = import_max_repos,
+            max_files_per_repo = import_max_files,
+        )
+        import_data = {"error": None, **raw_import}
+    except Exception as exc:
+        print(f"  [WARN] Import scan failed: {exc}")
+        import_data = {
+            "error":                str(exc),
+            "username":             username,
+            "analysis_date":        None,
+            "total_repos_analyzed": 0,
+            "total_files_analyzed": 0,
+            "languages":            {},
+            "repositories":         [],
+        }
+
+    # ── Step 3: save ─────────────────────────────────────────────────────
+    file_path = save_worktype_profile(username, language_data, import_data, output_dir)
+    print(f"  Saved → {file_path}")
+    return file_path
+
+
+# ---------------------------------------------------------------------------
+# NEW standalone entry point
+# Reads config.ini from the current working directory (same pattern as
+# ScoringSys.py so RunParallelWorkType.sh can use the same job-dir approach).
+# ---------------------------------------------------------------------------
+
+if __name__ == "__main__" and _os.path.exists("config.ini"):
+    import configparser as _cfgparser
+
+    _cfg = _cfgparser.ConfigParser()
+    _cfg.read("config.ini")
+    _username = _cfg.get("github", "username", fallback="").strip()
+    _token    = _cfg.get("github", "token",    fallback="").strip()
+
+    if not _username or not _token:
+        print("ERROR: config.ini must contain [github] username and token")
+        import sys as _sys; _sys.exit(1)
+
+    analyze_and_save(_username, _token)
