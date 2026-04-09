@@ -448,8 +448,8 @@ class GitHubImportScanner:
 
     def analyze_imports(
         self,
-        max_repos: int = 100,
-        max_files_per_repo: int = 100,
+        max_repos: int = 15,
+        max_files_per_repo: int = 50,
     ) -> dict:
         repos = self._get_user_repositories()[:max_repos]
         language_packages: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(int))

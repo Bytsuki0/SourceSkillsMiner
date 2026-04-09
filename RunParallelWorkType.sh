@@ -61,17 +61,30 @@ while IFS='=' read -r raw_key raw_value; do
     token)   tokens[0]="$value" ;;
     token_1) tokens[1]="$value" ;;
     token_2) tokens[2]="$value" ;;
+    token_3) tokens[3]="$value" ;;
+    token_4) tokens[4]="$value" ;;
+    token_5) tokens[5]="$value" ;;
+    token_6) tokens[6]="$value" ;;
+    token_7) tokens[7]="$value" ;;
+    token_8) tokens[8]="$value" ;;
+    token_9) tokens[9]="$value" ;;
+    token_10) tokens[10]="$value" ;;
+    token_11) tokens[11]="$value" ;;
+    token_12) tokens[12]="$value" ;;
+    token_13) tokens[13]="$value" ;;
+    token_14) tokens[14]="$value" ;;
+    token_15) tokens[15]="$value" ;;
   esac
 done < <(
   awk '
-    /^[[:space:]]*(token|token_1|token_2)[[:space:]]*=/ {
+    /^[[:space:]]*(token|token_1|token_2|token_3|token_4|token_5|token_6|token_7|token_8|token_9|token_10|token_11|token_12|token_13|token_14|token_15)[[:space:]]*=/ {
       print
     }
   ' "$MainConfig"
 )
 
-if (( ${#tokens[@]} < 3 )); then
-  err "Error: Could not read token, token_1, and token_2 from $MainConfig."
+if (( ${#tokens[@]} < 16 )); then
+  err "Error: Could not read all tokens from $MainConfig."
   exit 1
 fi
 
