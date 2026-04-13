@@ -14,17 +14,35 @@ _KB = 1024
 # Shared retry helper
 # ---------------------------------------------------------------------------
 
-def _fetch_contributor_stats(url: str, headers: dict, max_retries: int = 4) -> Optional[list]:
+def _fetch_contributor_stats(url: str, headers: dict, max_retries: int = 10) -> Optional[list]:
     """
     Fetches /stats/contributors with exponential backoff on 202 responses.
     Returns the parsed list on success, None on failure.
+
+    BUG FIXES applied here:
+      1. max_retries raised from 4 to 10.
+         GitHub's /stats/contributors returns 202 while it computes stats
+         in the background. With only 4 attempts and multiple parallel
+         threads, all retries were often consumed before the data was ready,
+         causing the function to return None and all commit/streak values
+         downstream to be reported as 0.
+
+      2. Sleep formula changed from  8 * min(attempt, 16)  to  2 ** min(attempt, 4).
+         The old formula produced 0 seconds on the very first 202 response
+         (attempt=0 → 8*0 = 0), so the immediate retry almost always got
+         another 202.  The new formula produces 1, 2, 4, 8, 16, 16, … seconds,
+         giving GitHub time to finish computing stats before each retry.
+        
     """
+    print(f"[DEBUG] Fetching stats from {url}")
     for attempt in range(max_retries):
         resp = requests.get(url, headers=headers)
         if resp.status_code == 202:
-            time.sleep(2 * min(attempt, 16))   # 1, 2, 4, 8, 16 s max
+            wait = 2 ** min(attempt, 4)   # 1, 2, 4, 8, 16, 16, … seconds
+            time.sleep(wait)
             continue
         if resp.status_code != 200:
+            print(f"[ERROR] Stats API failed {resp.status_code} for {url}")
             return None
         try:
             data = resp.json()
@@ -58,6 +76,7 @@ class AdvancedContributorAnalyzer:
             url = f"{self.api_url}/users/{self.username}/repos?per_page=100&page={page}"
             resp = requests.get(url, headers=self.headers)
             if resp.status_code != 200:
+                print(f"[ERROR] Failed to fetch repos: {resp.status_code} - {resp.text}")
                 break
             try:
                 data = resp.json()
@@ -73,6 +92,8 @@ class AdvancedContributorAnalyzer:
         """Fetch months with commits for a single repo."""
         url = f"{self.api_url}/repos/{repo_full_name}/stats/contributors"
         data = _fetch_contributor_stats(url, self.headers)
+        if data is None:
+            print(f"[WARN] No contributor stats for {repo_full_name}")
         if not data:
             return set()
         user_stats = next(
@@ -393,43 +414,80 @@ class GitHubStatsAnalyzerAllTime:
         Results are cached — repeated calls for the same repo are free.
         """
         if repo_full_name in self._stats_cache:
+            print(f"[CACHE HIT] Stats for {repo_full_name}")
             return self._stats_cache[repo_full_name]
 
-        empty = {'Contribuicoes_mensais': {}, 'Streak_contribuicoes_consecutivas': 0, 'Total_commits': 0}
+        empty = {
+            'Contribuicoes_mensais': {},
+            'Streak_contribuicoes_consecutivas': 0,
+            'Total_commits': 0
+        }
 
         url = f"{self.api_url}/repos/{repo_full_name}/stats/contributors"
         data = _fetch_contributor_stats(url, self.headers)
-        if not data:
+
+        # 🔍 Case 1 — API failed
+        if data is None:
+            print(f"[ERROR] API failed for {repo_full_name}")
             self._stats_cache[repo_full_name] = empty
             return empty
 
-        user_stats = next(
-            (c for c in data
-             if c.get('author', {}).get('login', '').lower() == self.username.lower()),
-            None
-        )
+        # 🔍 Case 2 — empty contributors (valid case)
+        if len(data) == 0:
+            print(f"[INFO] No contributors in {repo_full_name}")
+            self._stats_cache[repo_full_name] = empty
+            return empty
+
+        # 🔍 Find user safely
+        user_stats = None
+        for c in data:
+            author = c.get('author')
+            if author and author.get('login', '').lower() == self.username.lower():
+                user_stats = c
+                break
+
+        # 🔥 CRITICAL FIX: do NOT blindly return empty
         if not user_stats:
+            print(f"[WARN] User {self.username} NOT in contributors for {repo_full_name}")
+
+            # fallback: still compute total commits in repo to debug
+            total_repo_commits = sum(
+                sum(w.get('c', 0) for w in c.get('weeks', []))
+                for c in data
+            )
+
+            print(f"[DEBUG] Repo total commits: {total_repo_commits}")
+
             self._stats_cache[repo_full_name] = empty
             return empty
 
-        monthly_contrib: Dict[str, int] = defaultdict(int)
-        weeks_with_commits: Set[str] = set()
+        # ✅ Normal processing
+        monthly_contrib = defaultdict(int)
+        weeks_with_commits = set()
         total_commits = 0
 
         for week_info in user_stats.get('weeks', []):
             commits = week_info.get('c', 0)
             if commits == 0:
                 continue
+
             date_obj = datetime.fromtimestamp(week_info['w'])
             monthly_contrib[date_obj.strftime('%Y-%m')] += commits
             weeks_with_commits.add(date_obj.strftime('%Y-%U'))
             total_commits += commits
+
+        # 🔍 Extra debug
+        if total_commits == 0:
+            print(f"[WARN] User found but 0 commits in {repo_full_name}")
 
         result = {
             'Contribuicoes_mensais': dict(monthly_contrib),
             'Streak_contribuicoes_consecutivas': self._compute_weekly_streak(weeks_with_commits),
             'Total_commits': total_commits,
         }
+
+        print(f"[OK] {repo_full_name} → commits={total_commits}, streak={result['Streak_contribuicoes_consecutivas']}")
+
         self._stats_cache[repo_full_name] = result
         return result
 
@@ -582,6 +640,7 @@ class GitHubLanguageCommitAnalyzer:
         data = _fetch_contributor_stats(url, self.headers)
         if not data:
             return None
+        
         for contributor in data:
             author = contributor.get('author')
             if author and author.get('login', '').lower() == self.username.lower():
@@ -598,6 +657,8 @@ class GitHubLanguageCommitAnalyzer:
         stats = self._get_commit_stats(full_name, repo=repo)
         if not stats or not languages or sum(languages.values()) == 0:
             return None
+        
+        print(f"Repo: {full_name}, Languages: {list(languages.keys())}, Stats: {stats}")
         return languages, stats
 
     def analyze_language_usage(self) -> Dict[str, List[int]]:

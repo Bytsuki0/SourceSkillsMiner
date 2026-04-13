@@ -146,6 +146,8 @@ class GitHubLanguageCommitAnalyzer:
                 proportion = byte_count / total_bytes
                 language_stats[lang][0] += int(lines_changed * proportion)
                 language_stats[lang][1] += int(commits * proportion)
+
+            
         return dict(language_stats)
 
     def get_results_as_json(self) -> str:
@@ -328,7 +330,11 @@ GENERIC_IMPORT_KEYWORDS = re.compile(
 
 
 def _normalise_package(raw: str, language: str) -> Optional[str]:
-    raw = raw.strip().strip('"\'').split()[0]
+    raw = raw.strip().strip('"\'')
+    parts = raw.split()
+    if not parts:
+        return None
+    raw = parts[0]
     if raw.startswith('.') or raw.startswith('/'):
         return None
     if language in ('JavaScript', 'TypeScript', 'JavaScript (JSX)', 'TypeScript (TSX)'):
@@ -448,8 +454,8 @@ class GitHubImportScanner:
 
     def analyze_imports(
         self,
-        max_repos: int = 15,
-        max_files_per_repo: int = 50,
+        max_repos: int = 100,
+        max_files_per_repo: int = 100,
     ) -> dict:
         repos = self._get_user_repositories()[:max_repos]
         language_packages: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(int))
@@ -527,6 +533,206 @@ class GitHubImportScanner:
 
 
 # ---------------------------------------------------------------------------
+# Commitment analyzer
+# ---------------------------------------------------------------------------
+
+class GitHubCommitmentAnalyzer:
+    """
+    Evaluates a user's commitment to open-source development via five criteria:
+      1. has_12_month_streak  – pushed commits in 12 consecutive calendar months
+      2. has_6_month_streak   – pushed commits in 6 consecutive calendar months
+      3. has_write_to_non_owned_repo – has ever pushed to a repo they don't own
+      4. has_repo_at_50th_percentile_commits – best repo commit count >= median
+         across all their repos (proxy: total personal commits >= 50)
+      5. at_75th_percentile_followers – follower count >= 100 (proxy for top-25%
+         of active GitHub users)
+
+    Returns a dict with a ``summary`` key so ScoringSys.compute_commit_score
+    can consume it unchanged.
+    """
+
+    def __init__(self, username: str, token: str):
+        self.username = username
+        self.token = token
+        self.api_url = "https://api.github.com"
+        self.headers = {
+            "Authorization": f"token {token}",
+            "Accept": "application/vnd.github.v3+json",
+        }
+
+    # ------------------------------------------------------------------
+    # Low-level helpers
+    # ------------------------------------------------------------------
+
+    def _get_user_info(self) -> dict:
+        resp = requests.get(
+            f"{self.api_url}/users/{self.username}", headers=self.headers
+        )
+        return resp.json() if resp.status_code == 200 else {}
+
+    def _get_user_repositories(self) -> List[dict]:
+        repos, page = [], 1
+        while True:
+            url = (
+                f"{self.api_url}/users/{self.username}/repos"
+                f"?per_page=100&page={page}"
+            )
+            resp = requests.get(url, headers=self.headers)
+            if resp.status_code != 200:
+                break
+            data = resp.json()
+            if not isinstance(data, list) or not data:
+                break
+            repos.extend(data)
+            page += 1
+        return repos
+
+    def _get_push_events(self) -> List[dict]:
+        """Fetch up to 10 pages of public push events (≈300 events)."""
+        events = []
+        for page in range(1, 11):
+            url = (
+                f"{self.api_url}/users/{self.username}/events/public"
+                f"?per_page=30&page={page}"
+            )
+            resp = requests.get(url, headers=self.headers)
+            if resp.status_code != 200:
+                break
+            data = resp.json()
+            if not isinstance(data, list) or not data:
+                break
+            events.extend(data)
+        return events
+
+    def _get_repo_commit_count(self, full_name: str) -> int:
+        """Return total commits by the user in the given repo."""
+        url = f"{self.api_url}/repos/{full_name}/stats/contributors"
+        for _ in range(6):
+            resp = requests.get(url, headers=self.headers)
+            if resp.status_code == 202:
+                time.sleep(2)
+                continue
+            if resp.status_code != 200:
+                return 0
+            data = resp.json()
+            if not isinstance(data, list):
+                return 0
+            for contributor in data:
+                author = contributor.get("author") or {}
+                if author.get("login", "").lower() == self.username.lower():
+                    return sum(
+                        w.get("c", 0) for w in contributor.get("weeks", [])
+                    )
+            return 0
+        return 0
+
+    # ------------------------------------------------------------------
+    # Criterion evaluators
+    # ------------------------------------------------------------------
+
+    def _push_months(self, push_events: List[dict]) -> List[tuple]:
+        """Return sorted list of unique (year, month) tuples with a PushEvent."""
+        months: Set[tuple] = set()
+        for event in push_events:
+            if event.get("type") != "PushEvent":
+                continue
+            created = event.get("created_at", "")
+            if not created:
+                continue
+            try:
+                dt = datetime.fromisoformat(created.rstrip("Z"))
+                months.add((dt.year, dt.month))
+            except ValueError:
+                pass
+        return sorted(months)
+
+    def _max_consecutive_months(self, sorted_months: List[tuple]) -> int:
+        if not sorted_months:
+            return 0
+        max_streak = current = 1
+        for i in range(1, len(sorted_months)):
+            y1, m1 = sorted_months[i - 1]
+            y2, m2 = sorted_months[i]
+            if (y2 * 12 + m2) - (y1 * 12 + m1) == 1:
+                current += 1
+                max_streak = max(max_streak, current)
+            else:
+                current = 1
+        return max_streak
+
+    def _check_non_owned_push(self, push_events: List[dict]) -> bool:
+        prefix = self.username.lower() + "/"
+        for event in push_events:
+            if event.get("type") != "PushEvent":
+                continue
+            repo_name = (event.get("repo") or {}).get("name", "")
+            if repo_name and not repo_name.lower().startswith(prefix):
+                return True
+        return False
+
+    def _check_50th_percentile_commits(self, repos: List[dict]) -> bool:
+        """
+        True when the user's most-committed personal repo has >= 50 commits.
+        Serves as a proxy for 'repo at the 50th percentile of commit activity'.
+        """
+        counts = []
+        for repo in repos[:30]:                       # cap to avoid rate-limit
+            c = self._get_repo_commit_count(repo["full_name"])
+            if c > 0:
+                counts.append(c)
+            if len(counts) >= 10:                     # enough for a reliable median
+                break
+        if not counts:
+            return False
+        median = sorted(counts)[len(counts) // 2]
+        return median >= 50
+
+    def _check_75th_percentile_followers(self, user_info: dict) -> bool:
+        """
+        True when the user has >= 100 followers (proxy for top-25% of active
+        GitHub users by follower count).
+        """
+        return (user_info.get("followers") or 0) >= 100
+
+    # ------------------------------------------------------------------
+    # Public interface
+    # ------------------------------------------------------------------
+
+    def analyze(self) -> dict:
+        """
+        Returns::
+
+            {
+                "summary": {
+                    "has_12_month_streak": bool,
+                    "has_6_month_streak": bool,
+                    "has_write_to_non_owned_repo": bool,
+                    "has_repo_at_50th_percentile_commits": bool,
+                    "at_75th_percentile_followers": bool,
+                }
+            }
+        """
+        push_events = self._get_push_events()
+        sorted_months = self._push_months(push_events)
+        max_streak = self._max_consecutive_months(sorted_months)
+
+        repos = self._get_user_repositories()
+        user_info = self._get_user_info()
+
+        summary = {
+            "has_12_month_streak":                max_streak >= 12,
+            "has_6_month_streak":                 max_streak >= 6,
+            "has_write_to_non_owned_repo":        self._check_non_owned_push(push_events),
+            "has_repo_at_50th_percentile_commits": self._check_50th_percentile_commits(repos),
+            "at_75th_percentile_followers":       self._check_75th_percentile_followers(user_info),
+        }
+        return {"summary": summary}
+
+    def get_results_as_json(self) -> str:
+        return json.dumps(self.analyze(), indent=2)
+
+
+# ---------------------------------------------------------------------------
 # Entry point — stats from first class feed directly into second
 # ---------------------------------------------------------------------------
 
@@ -566,207 +772,3 @@ if __name__ == "__main__":
     print("\n=== IMPORT & PACKAGE SCAN ===\n")
     import_scanner = GitHubImportScanner(username, token)
     print(import_scanner.get_results_as_json(max_repos=1000, max_files_per_repo=1000))
-
-# ---------------------------------------------------------------------------
-# NEW: standalone analysis + JSON save functions
-# (existing classes and __main__ above are NOT modified)
-# ---------------------------------------------------------------------------
-
-import math as _math
-import os as _os
-
-
-def _sanitize_floats(obj):
-    """Replace float nan/inf with None so json.dump never raises ValueError."""
-    if isinstance(obj, dict):
-        return {k: _sanitize_floats(v) for k, v in obj.items()}
-    if isinstance(obj, list):
-        return [_sanitize_floats(v) for v in obj]
-    if isinstance(obj, float) and (_math.isnan(obj) or _math.isinf(obj)):
-        return None
-    return obj
-
-
-def build_language_usage_section(language_stats: Dict[str, List[int]]) -> dict:
-    """
-    Convert the raw dict returned by GitHubLanguageCommitAnalyzer.analyze_language_usage()
-    into the same shape used in the full ScoringSys JSON (language_usage section).
-
-    Input:  { "Python": [lines, commits], "Go": [lines, commits], ... }
-    Output: {
-        "error": null,
-        "languages": { "Python": [lines, commits], ... },
-        "language_count": N,
-        "total_commits": N,
-        "total_lines": N,
-        "top_5_languages": [ {"language": ..., "lines": ..., "commits": ...}, ... ]
-    }
-    """
-    if not language_stats:
-        return {
-            "error": None,
-            "languages": {},
-            "language_count": 0,
-            "total_commits": 0,
-            "total_lines": 0,
-            "top_5_languages": [],
-        }
-
-    total_commits = sum(v[1] for v in language_stats.values())
-    total_lines   = sum(v[0] for v in language_stats.values())
-
-    # Sort by commits descending for the top-5 list
-    sorted_langs = sorted(language_stats.items(), key=lambda x: -x[1][1])
-
-    top_5 = [
-        {"language": lang, "lines": stats[0], "commits": stats[1]}
-        for lang, stats in sorted_langs[:5]
-    ]
-
-    return {
-        "error": None,
-        "languages":      language_stats,
-        "language_count": len(language_stats),
-        "total_commits":  total_commits,
-        "total_lines":    total_lines,
-        "top_5_languages": top_5,
-    }
-
-
-def save_worktype_profile(
-    username:     str,
-    language_data: dict,
-    import_data:   dict,
-    output_dir:   str,
-) -> str:
-    """
-    Save a WorkType profile JSON to output_dir/{username}.json.
-
-    The file follows the ascarter.json schema but contains only the two
-    sections that WorkTypeAnalyzer can produce independently:
-        - language_usage
-        - import_scan
-
-    The sections areas / weights / final_score are intentionally omitted
-    because they require the full ScoringSys pipeline.
-
-    Returns the absolute path of the written file.
-    """
-    _os.makedirs(output_dir, exist_ok=True)
-
-    profile = _sanitize_floats({
-        "username":       username,
-        "language_usage": language_data,
-        "import_scan":    import_data,
-    })
-
-    file_path = _os.path.join(output_dir, f"{username}.json")
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(profile, f, indent=2, ensure_ascii=False)
-
-    return file_path
-
-
-def analyze_and_save(
-    username:            str,
-    token:               str,
-    output_dir:          str  = "json_train",
-    import_max_repos:    int  = 20,
-    import_max_files:    int  = 30,
-) -> str:
-    """
-    Orchestrate both GitHubLanguageCommitAnalyzer and GitHubImportScanner
-    for a single user, then persist the combined result as a JSON file.
-
-    Steps
-    -----
-    1. GitHubLanguageCommitAnalyzer.analyze_language_usage()
-    2. Build the language_usage section (build_language_usage_section)
-    3. GitHubImportScanner.analyze_imports()
-    4. save_worktype_profile() → json_train/{username}.json
-
-    Parameters
-    ----------
-    username           : GitHub login to analyse.
-    token              : Personal access token.
-    output_dir         : Directory where the JSON file will be written.
-                         Defaults to 'json_train' relative to cwd.
-                         Can be overridden by the WTA_OUTPUT_DIR env variable
-                         (set by RunParallelWorkType.sh for controlled paths).
-    import_max_repos   : Max repos to scan for imports (default 20).
-    import_max_files   : Max files per repo for import scan (default 30).
-
-    Returns
-    -------
-    Absolute path of the saved JSON file.
-    """
-    # Allow the parallel runner to inject the output path via environment variable
-    env_dir = _os.environ.get("WTA_OUTPUT_DIR", "").strip()
-    if env_dir:
-        output_dir = env_dir
-
-    print(f"\n[WorkTypeAnalyzer] Starting analysis for: {username}")
-
-    # ── Step 1: language usage ────────────────────────────────────────────
-    print("  Analysing language usage…")
-    try:
-        lang_analyzer  = GitHubLanguageCommitAnalyzer(username, token)
-        language_stats = lang_analyzer.analyze_language_usage()
-        language_data  = build_language_usage_section(language_stats)
-    except Exception as exc:
-        print(f"  [WARN] Language analysis failed: {exc}")
-        language_data = {
-            "error": str(exc),
-            "languages": {},
-            "language_count": 0,
-            "total_commits": 0,
-            "total_lines": 0,
-            "top_5_languages": [],
-        }
-
-    # ── Step 2: import / package scan ────────────────────────────────────
-    print(f"  Scanning imports (max {import_max_repos} repos, {import_max_files} files/repo)…")
-    try:
-        import_scanner = GitHubImportScanner(username, token)
-        raw_import     = import_scanner.analyze_imports(
-            max_repos        = import_max_repos,
-            max_files_per_repo = import_max_files,
-        )
-        import_data = {"error": None, **raw_import}
-    except Exception as exc:
-        print(f"  [WARN] Import scan failed: {exc}")
-        import_data = {
-            "error":                str(exc),
-            "username":             username,
-            "analysis_date":        None,
-            "total_repos_analyzed": 0,
-            "total_files_analyzed": 0,
-            "languages":            {},
-            "repositories":         [],
-        }
-
-    # ── Step 3: save ─────────────────────────────────────────────────────
-    file_path = save_worktype_profile(username, language_data, import_data, output_dir)
-    print(f"  Saved → {file_path}")
-    return file_path
-
-
-# ---------------------------------------------------------------------------
-# NEW standalone entry point
-# Reads config.ini from the current working directory (same pattern as
-# ScoringSys.py so RunParallelWorkType.sh can use the same job-dir approach).
-# ---------------------------------------------------------------------------
-
-if __name__ == "__main__" and _os.path.exists("config.ini"):
-    import configparser as _cfgparser
-
-    _cfg = _cfgparser.ConfigParser()
-    _cfg.read("config.ini")
-    _username = _cfg.get("github", "username", fallback="").strip()
-    _token    = _cfg.get("github", "token",    fallback="").strip()
-
-    if not _username or not _token:
-        print("ERROR: config.ini must contain [github] username and token")
-        import sys as _sys; _sys.exit(1)
-
-    analyze_and_save(_username, _token)

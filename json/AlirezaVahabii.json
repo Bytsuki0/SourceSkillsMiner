@@ -1,0 +1,95 @@
+{
+  "username": "AlirezaVahabii",
+  "areas": {
+    "OSS": {
+      "score": -0.9128660093310725,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.13070098600339122
+      }
+    },
+    "Status": {
+      "score": -0.3865142570987231,
+      "details": {
+        "lines_activity": 0.9202286143519153,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": -0.32484506660744894,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Kotlin": [
+        1245,
+        1
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 1,
+    "total_lines": 1245,
+    "top_5_languages": [
+      {
+        "language": "Kotlin",
+        "lines": 1245,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "AlirezaVahabii",
+    "analysis_date": "2026-04-02T01:28:54.537523",
+    "total_repos_analyzed": 1,
+    "total_files_analyzed": 3,
+    "languages": {
+      "Kotlin": {
+        "files_scanned": 3,
+        "packages": {
+          "com.example": 3,
+          "org.junit": 2,
+          "androidx.test": 1,
+          "android.view": 1,
+          "androidx.appcompat": 1,
+          "android.os": 1,
+          "android.widget": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "AlirezaVahabii/calculator_kotlin",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Kotlin"
+        ]
+      }
+    ]
+  }
+}

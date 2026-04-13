@@ -2,19 +2,19 @@
   "username": "OKawatani",
   "areas": {
     "OSS": {
-      "score": -0.377902399079755,
+      "score": -0.36359243644044414,
       "details": {
         "issue_resolution_rate": 0.0,
         "pr_merge_rate": 0.0,
-        "commits_activity": 0.9331464013803675
+        "commits_activity": 0.9546113453393338
       }
     },
     "Status": {
-      "score": 0.35547667508394176,
+      "score": -0.33333333333333337,
       "details": {
         "lines_activity": 1.0,
-        "commits_activity": 0.9178303972412971,
-        "week_streak": 0.11538461538461539
+        "commits_activity": 0.0,
+        "week_streak": 0.0
       }
     },
     "Sentiment": {
@@ -43,116 +43,116 @@
     "Sentiment": 0.25,
     "Commitment": 0.25
   },
-  "final_score": -0.0056064309989533045,
+  "final_score": -0.17423144244344438,
   "language_usage": {
     "error": null,
     "languages": {
       "C++": [
-        19526,
-        35
+        197361,
+        0
       ],
       "Java": [
-        1077,
-        11
+        1817,
+        0
       ],
       "JavaScript": [
-        536,
-        14
+        4302,
+        0
       ],
       "Haskell": [
-        464,
-        12
+        3723,
+        0
       ],
       "Ruby": [
-        407,
-        11
+        3264,
+        0
       ],
       "C#": [
-        353,
-        9
+        2835,
+        0
       ],
       "Python": [
-        331,
-        9
+        2655,
+        0
       ],
       "Prolog": [
-        228,
-        6
+        1834,
+        0
       ],
       "Rust": [
-        227,
-        6
+        1820,
+        0
       ],
       "Lua": [
-        125,
-        3
+        1009,
+        0
       ],
       "Go": [
-        122,
-        3
+        985,
+        0
       ],
       "BASIC": [
-        71,
-        1
+        570,
+        0
       ],
       "HTML": [
-        59,
-        1
+        13,
+        0
       ],
       "CSS": [
-        50,
+        11,
         0
       ]
     },
     "language_count": 14,
-    "total_commits": 121,
-    "total_lines": 23576,
+    "total_commits": 0,
+    "total_lines": 222199,
     "top_5_languages": [
       {
         "language": "C++",
-        "lines": 19526,
-        "commits": 35
-      },
-      {
-        "language": "JavaScript",
-        "lines": 536,
-        "commits": 14
-      },
-      {
-        "language": "Haskell",
-        "lines": 464,
-        "commits": 12
+        "lines": 197361,
+        "commits": 0
       },
       {
         "language": "Java",
-        "lines": 1077,
-        "commits": 11
+        "lines": 1817,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 4302,
+        "commits": 0
+      },
+      {
+        "language": "Haskell",
+        "lines": 3723,
+        "commits": 0
       },
       {
         "language": "Ruby",
-        "lines": 407,
-        "commits": 11
+        "lines": 3264,
+        "commits": 0
       }
     ]
   },
   "import_scan": {
     "error": null,
     "username": "OKawatani",
-    "analysis_date": "2026-04-01T23:36:51.273794",
+    "analysis_date": "2026-04-10T13:32:52.200572",
     "total_repos_analyzed": 4,
-    "total_files_analyzed": 83,
+    "total_files_analyzed": 85,
     "languages": {
       "C++": {
         "files_scanned": 38,
         "packages": {
-          "std": 38,
           "namespace": 38,
+          "std": 38,
           "<iostream>": 8,
           "iostream": 8,
           "string": 3,
           "<string>": 3,
-          "vector": 2,
-          "<vector>": 2
+          "<vector>": 2,
+          "vector": 2
         }
       },
       "Go": {
@@ -162,16 +162,17 @@
         }
       },
       "Java": {
-        "files_scanned": 27,
+        "files_scanned": 29,
         "packages": {
           "Exercicio1": 7,
-          "java.util": 4,
+          "java.util": 5,
           "Exercicio6": 4,
           "Exercicio5": 3,
           "Exercicio0": 3,
           "Exercicio2": 2,
           "Exercicio3": 2,
           "Exercicio4": 2,
+          "Fores": 2,
           "Desafio": 1,
           "org.w3c": 1
         }
@@ -194,7 +195,7 @@
       },
       {
         "repository": "OKawatani/C06-POO",
-        "files_analyzed": 27,
+        "files_analyzed": 29,
         "languages_found": [
           "Java"
         ]

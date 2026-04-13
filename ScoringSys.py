@@ -162,9 +162,8 @@ def compute_oss_score(username: str, token: str, num_events: int = 1000000) -> D
 
 def compute_commit_score(username: str, token: str) -> Dict:
     try:
-        analyzer        = f3.AdvancedContributorAnalyzer(username, token)
-        commitment_json = analyzer.get_results_as_json()
-        commitment      = json.loads(commitment_json)
+        analyzer   = f4.GitHubCommitmentAnalyzer(username, token)
+        commitment = analyzer.analyze()
     except Exception as e:
         return {'score': 0.0, 'details': {'error': str(e), 'criteria_met': {}}}
 
@@ -178,6 +177,7 @@ def compute_commit_score(username: str, token: str) -> Dict:
     required_keys = [
         'has_12_month_streak',
         'has_6_month_streak',
+        'has_write_to_non_owned_repo',
         'has_repo_at_50th_percentile_commits',
         'at_75th_percentile_followers',
     ]
@@ -203,16 +203,37 @@ def compute_commit_score(username: str, token: str) -> Dict:
     }
 
 
-def compute_status_score(username: str, token: str) -> Dict:
+def compute_status_score(username: str, token: str, prefetched_stats: Optional[Dict] = None) -> Dict:
     try:
         analyzer = f3.GitHubStatsAnalyzerAllTime(username, token)
-        agg      = analyzer.get_aggregate_stats()
-    except Exception:
-        agg = {'Linhas_trocas': 0, 'Total_commits': 0, 'Streak_contribuicoes_consecutivas': 0}
 
-    lines   = agg.get('Linhas_trocas',                     0)
-    commits = agg.get('Total_commits',                     0)
+        # ✅ FIX: reuse already fetched stats
+        if prefetched_stats:
+            analyzer._stats_cache = prefetched_stats
+            all_stats = prefetched_stats
+        else:
+            all_stats = analyzer.analyze_all()
+
+        agg = {
+            'Linhas_trocas': sum(v.get('Linhas_trocas', 0) for v in all_stats.values()),
+            'Total_commits': sum(v.get('Total_commits', 0) for v in all_stats.values()),
+            'Streak_contribuicoes_consecutivas': max(
+                (v.get('Streak_contribuicoes_consecutivas', 0) for v in all_stats.values()),
+                default=0
+            ),
+        }
+
+        print("Aggregate stats:", agg)
+
+    except Exception as e:
+        print("ERROR in compute_status_score:", e)
+        agg = {'Linhas_trocas': 1, 'Total_commits': 0, 'Streak_contribuicoes_consecutivas': 0}
+
+    lines   = agg.get('Linhas_trocas', 0)
+    commits = agg.get('Total_commits', 0)
     streak  = agg.get('Streak_contribuicoes_consecutivas', 0)
+
+    print(f"Raw status metrics - Lines: {lines}, Commits: {commits}, Streak: {streak}")
 
     lines_norm   = _safe_log_norm(lines,   scale=5000.0)
     commits_norm = _safe_log_norm(commits, scale=200.0)
@@ -236,15 +257,17 @@ def compute_status_score(username: str, token: str) -> Dict:
 # Raw data collectors
 # ---------------------------------------------------------------------------
 
-def get_language_usage_data(username: str, token: str) -> Dict:
+def get_language_usage_data(username: str, token: str,
+                             prefetched_stats: Optional[Dict] = None) -> Dict:
     try:
         print("Analyzing language usage...")
-        analyzer       = f4.GitHubLanguageCommitAnalyzer(username, token)
+        analyzer       = f4.GitHubLanguageCommitAnalyzer(
+            username, token, prefetched_stats=prefetched_stats
+        )
         language_stats = analyzer.analyze_language_usage()
-
+        print(f"Found {len(language_stats)} languages used across repositories.")
         if not language_stats:
             return {'error': None, 'languages': {}, 'language_count': 0, 'total_commits': 0, 'total_lines': 0}
-
         total_commits = sum(stats[1] for stats in language_stats.values())
         total_lines   = sum(stats[0] for stats in language_stats.values())
         sorted_languages = sorted(language_stats.items(), key=lambda x: x[1][1], reverse=True)
@@ -362,14 +385,21 @@ def score_user(username: Optional[str] = None,
         repo_full_list = [r['full_name'] for r in _analyzer.repos]
         if repo_limit:
             repo_full_list = repo_full_list[:repo_limit]
+        # Fetch per-repo commit/line stats once so GitHubLanguageCommitAnalyzer
+        # can reuse them without hitting the GitHub stats API a second time.
+        try:
+            raw_stats = _analyzer.analyze_all()
+        except Exception:
+            raw_stats = None
     except Exception:
         repo_full_list = None
+        raw_stats = None
 
     print("Computing OSS score...")
     oss_res = compute_oss_score(username, token)
 
     print("Computing status score...")
-    status_res = compute_status_score(username, token)
+    status_res = compute_status_score(username, token, prefetched_stats=raw_stats)
 
     print("Computing sentiment score...")
     sentiment_res = compute_sentiment_score(
@@ -391,7 +421,7 @@ def score_user(username: Optional[str] = None,
     final = sum(areas[k]['score'] * normalized[k] for k in areas)
 
     print("\nCollecting supplementary data...")
-    language_data = get_language_usage_data(username, token)
+    language_data = get_language_usage_data(username, token, prefetched_stats=raw_stats)
 
     if include_import_scan:
         import_scan_data = get_import_scan_data(

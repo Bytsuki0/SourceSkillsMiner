@@ -10,11 +10,11 @@
       }
     },
     "Status": {
-      "score": 0.062446568626365995,
+      "score": -0.33333333333333337,
       "details": {
         "lines_activity": 1.0,
-        "commits_activity": 0.5552083144780106,
-        "week_streak": 0.038461538461538464
+        "commits_activity": 0.0,
+        "week_streak": 0.0
       }
     },
     "Sentiment": {
@@ -22,18 +22,18 @@
       "details": {}
     },
     "Commitment": {
-      "score": 0.2,
+      "score": 0.0,
       "details": {
         "criteria_met": {
           "has_12_month_streak": false,
           "has_6_month_streak": false,
           "has_write_to_non_owned_repo": false,
-          "has_repo_at_50th_percentile_commits": true,
+          "has_repo_at_50th_percentile_commits": false,
           "at_75th_percentile_followers": false
         },
-        "total_points": 1,
+        "total_points": 0,
         "max_points": 5,
-        "percentage": 20.0
+        "percentage": 0.0
       }
     }
   },
@@ -43,178 +43,286 @@
     "Sentiment": 0.25,
     "Commitment": 0.25
   },
-  "final_score": 0.04895384514312394,
+  "final_score": -0.0999911303468009,
   "language_usage": {
     "error": null,
     "languages": {
       "Java": [
-        24892,
-        39
+        8008521,
+        0
       ],
       "Python": [
-        20,
-        2
+        4105445,
+        0
       ],
       "C": [
-        4,
+        918134,
         0
       ],
       "C++": [
-        685,
-        6
+        908603,
+        0
       ],
       "Roff": [
-        2,
+        423499,
         0
       ],
       "Tcl": [
-        1,
+        227141,
         0
       ],
       "PHP": [
-        10712,
-        2
+        243681,
+        0
       ],
       "Rich Text Format": [
-        0,
+        101661,
         0
       ],
       "JavaScript": [
-        4255,
-        3
+        1146201,
+        0
       ],
       "HTML": [
-        2537,
-        1
+        520895,
+        0
       ],
       "CSS": [
-        40,
-        2
+        547708,
+        0
       ],
       "TSQL": [
-        0,
+        60719,
         0
       ],
       "ASP.NET": [
-        0,
+        41522,
         0
       ],
       "Fortran": [
-        0,
+        15806,
         0
       ],
       "GSC": [
-        0,
+        14111,
         0
       ],
       "Assembly": [
-        0,
+        12547,
         0
       ],
       "Makefile": [
-        0,
+        7460,
         0
       ],
       "C#": [
-        0,
+        6764,
         0
       ],
       "Hack": [
-        0,
+        3744,
         0
       ],
       "Shell": [
-        94,
+        21171,
         0
       ],
       "PLSQL": [
-        0,
+        2356,
         0
       ],
       "Batchfile": [
-        0,
+        1928,
         0
       ],
       "M4": [
-        0,
+        201,
         0
       ],
       "GLSL": [
-        0,
+        199,
         0
       ],
       "F#": [
-        0,
+        197,
         0
       ],
       "PowerShell": [
-        0,
+        148,
         0
       ],
       "DTrace": [
-        0,
+        122,
         0
       ],
       "D": [
-        0,
+        10,
         0
       ],
       "VBScript": [
-        0,
+        7,
         0
       ],
       "SCSS": [
-        2386,
-        1
+        28603,
+        0
       ],
       "Apex": [
-        19,
+        6,
         0
       ],
       "Ruby": [
-        0,
+        3171,
         0
       ],
       "Blade": [
-        4579,
-        1
+        30090,
+        0
+      ],
+      "TypeScript": [
+        247213,
+        0
+      ],
+      "Groovy": [
+        50650,
+        0
+      ],
+      "AspectJ": [
+        23026,
+        0
+      ],
+      "FreeMarker": [
+        13400,
+        0
+      ],
+      "RAML": [
+        12346,
+        0
+      ],
+      "ANTLR": [
+        10354,
+        0
+      ],
+      "Mustache": [
+        5128,
+        0
+      ],
+      "Scala": [
+        4966,
+        0
+      ],
+      "HCL": [
+        4520,
+        0
+      ],
+      "Dockerfile": [
+        4068,
+        0
+      ],
+      "Lua": [
+        3714,
+        0
+      ],
+      "Gherkin": [
+        3542,
+        0
+      ],
+      "Kotlin": [
+        2549,
+        0
+      ],
+      "Clojure": [
+        613,
+        0
+      ],
+      "PLpgSQL": [
+        612,
+        0
+      ],
+      "Solidity": [
+        499,
+        0
+      ],
+      "Starlark": [
+        403,
+        0
+      ],
+      "XSLT": [
+        373,
+        0
+      ],
+      "Smarty": [
+        370,
+        0
+      ],
+      "Open Policy Agent": [
+        337,
+        0
+      ],
+      "Thrift": [
+        197,
+        0
+      ],
+      "Perl": [
+        157,
+        0
+      ],
+      "CLIPS": [
+        124,
+        0
+      ],
+      "Pug": [
+        96,
+        0
+      ],
+      "R": [
+        15,
+        0
+      ],
+      "Handlebars": [
+        3,
+        0
+      ],
+      "Fluent": [
+        0,
+        0
       ]
     },
-    "language_count": 33,
-    "total_commits": 57,
-    "total_lines": 50226,
+    "language_count": 60,
+    "total_commits": 0,
+    "total_lines": 17791646,
     "top_5_languages": [
       {
         "language": "Java",
-        "lines": 24892,
-        "commits": 39
-      },
-      {
-        "language": "C++",
-        "lines": 685,
-        "commits": 6
-      },
-      {
-        "language": "JavaScript",
-        "lines": 4255,
-        "commits": 3
+        "lines": 8008521,
+        "commits": 0
       },
       {
         "language": "Python",
-        "lines": 20,
-        "commits": 2
+        "lines": 4105445,
+        "commits": 0
       },
       {
-        "language": "PHP",
-        "lines": 10712,
-        "commits": 2
+        "language": "C",
+        "lines": 918134,
+        "commits": 0
+      },
+      {
+        "language": "C++",
+        "lines": 908603,
+        "commits": 0
+      },
+      {
+        "language": "Roff",
+        "lines": 423499,
+        "commits": 0
       }
     ]
   },
   "import_scan": {
     "error": null,
     "username": "MihirMer",
-    "analysis_date": "2026-04-01T23:43:54.729201",
+    "analysis_date": "2026-04-10T13:53:24.750173",
     "total_repos_analyzed": 13,
     "total_files_analyzed": 221,
     "languages": {
@@ -263,9 +371,9 @@
           "androidx.test": 2,
           "android.net": 2,
           "android.location": 2,
-          "scala.concurrent": 2,
           "akka.util": 2,
           "akka.http": 2,
+          "scala.concurrent": 2,
           "akka.stream": 2,
           "akka.NotUsed": 2,
           "com.theartofdev": 1,
@@ -277,8 +385,8 @@
           "com.whiteelephant": 1,
           "co.lujun": 1,
           "com.cepheuen": 1,
-          "android.annotation": 1,
           "pl.droidsonroids": 1,
+          "android.annotation": 1,
           "android": 1,
           "com.bignerdranch": 1,
           "org.w3c": 1,
@@ -303,26 +411,26 @@
           "shCore": 1,
           "XRegExp": 1,
           "https:": 1,
-          "core-js": 1,
           "regenerator-runtime": 1,
+          "core-js": 1,
           "fracty": 1,
           "load-grunt-tasks": 1,
+          "serve-favicon": 1,
           "body-parser": 1,
           "cookie-parser": 1,
           "morgan": 1,
-          "serve-favicon": 1,
-          "child_process": 1,
-          "adm-zip": 1,
-          "fs": 1,
-          "glob": 1,
-          "mkdirp-promise": 1,
-          "rimraf": 1,
           "crypto": 1,
+          "fs": 1,
+          "adm-zip": 1,
+          "child_process": 1,
+          "rimraf": 1,
+          "mkdirp-promise": 1,
+          "glob": 1,
           "multer": 1,
-          "salesforce": 1,
-          "globals": 1,
           "eslint": 1,
-          "eslint-plugin-jest": 1
+          "salesforce": 1,
+          "eslint-plugin-jest": 1,
+          "globals": 1
         }
       },
       "PHP": {
@@ -336,35 +444,35 @@
           "sign-up-in-modal.php": 2,
           "head.php": 2,
           "include/connect.php": 2,
+          "Carbon\\Carbon": 2,
           "Illuminate\\Support\\Facades\\Mail": 2,
           "App\\Models\\Note": 2,
-          "Carbon\\Carbon": 2,
           "App\\Mail\\TestMail": 2,
           "App\\Models\\User": 2,
-          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 2,
           "HasFactory": 2,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 2,
           "Illuminate\\Support\\ServiceProvider": 2,
           "$filename": 1,
           "extras/ntlm_sasl_client.php": 1,
+          "Psr\\Http\\Message\\ResponseInterface": 1,
+          "vendor/autoload.php": 1,
           "League\\OAuth2\\Client\\Token\\AccessToken": 1,
           "League\\OAuth2\\Client\\Provider\\Exception\\IdentityProviderException": 1,
-          "Psr\\Http\\Message\\ResponseInterface": 1,
           "League\\OAuth2\\Client\\Tool\\BearerAuthorizationTrait": 1,
           "BearerAuthorizationTrait": 1,
-          "vendor/autoload.php": 1,
           "Illuminate\\Console\\Command": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
           "routes/console.php": 1,
           "App\\Console\\Commands\\cronEmail": 1,
-          "Illuminate\\Foundation\\Console\\Kernel": 1,
-          "Illuminate\\Console\\Scheduling\\Schedule": 1,
-          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
           "Throwable": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
           "Illuminate\\Support\\Facades\\Hash": 1,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 1,
           "AuthorizesRequests": 1,
           "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
           "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
           "Illuminate\\Routing\\Controller": 1,
-          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 1,
           "Illuminate\\Support\\Facades\\DB": 1,
           "Illuminate\\Foundation\\Http\\Kernel": 1,
           "Illuminate\\Auth\\Middleware\\Authenticate": 1,
@@ -377,10 +485,10 @@
           "Illuminate\\Http\\Middleware\\TrustHosts": 1,
           "Fideloper\\Proxy\\TrustProxies": 1,
           "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 1,
-          "Illuminate\\Bus\\Queueable": 1,
-          "Illuminate\\Queue\\SerializesModels": 1,
-          "Queueable": 1,
           "Illuminate\\Mail\\Mailable": 1,
+          "Illuminate\\Bus\\Queueable": 1,
+          "Queueable": 1,
+          "Illuminate\\Queue\\SerializesModels": 1,
           "Illuminate\\Database\\Eloquent\\Model": 1,
           "Illuminate\\Notifications\\Notifiable": 1,
           "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 1,
@@ -389,10 +497,10 @@
           "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 1,
           "routes/channels.php": 1,
           "Illuminate\\Support\\Facades\\Broadcast": 1,
-          "Illuminate\\Support\\Facades\\Event": 1,
-          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
-          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 1,
           "Illuminate\\Auth\\Events\\Registered": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Event": 1,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 1,
           "Illuminate\\Cache\\RateLimiting\\Limit": 1,
           "Illuminate\\Support\\Facades\\Route": 1,
           "Illuminate\\Support\\Facades\\RateLimiter": 1,
