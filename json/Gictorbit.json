@@ -10,24 +10,19 @@
       }
     },
     "Status": {
-      "score": -0.33333333333333337,
+      "score": 0.4358974358974359,
       "details": {
         "lines_activity": 1.0,
-        "commits_activity": 0.0,
-        "week_streak": 0.0
+        "commits_activity": 1.0,
+        "week_streak": 0.15384615384615385
       }
     },
     "Sentiment": {
-      "score": 1.0,
-      "details": {
-        "Gictorbit/illustratorCClinux": 0.18090666666666666,
-        "Gictorbit/photoshopCClinux": 0.14777179487179487,
-        "Gictorbit/radarvan": 0.2202,
-        "Gictorbit/victorconky": 0.09439230769230769
-      }
+      "score": 0.0,
+      "details": {}
     },
     "Commitment": {
-      "score": 0.2,
+      "score": 0.25,
       "details": {
         "criteria_met": {
           "has_12_month_streak": false,
@@ -37,8 +32,8 @@
           "at_75th_percentile_followers": true
         },
         "total_points": 1,
-        "max_points": 5,
-        "percentage": 20.0
+        "max_points": 4,
+        "percentage": 25.0
       }
     }
   },
@@ -48,102 +43,98 @@
     "Sentiment": 0.25,
     "Commitment": 0.25
   },
-  "final_score": 0.4149122807017544,
+  "final_score": 0.3697199730094467,
   "language_usage": {
     "error": null,
     "languages": {
       "Go": [
-        539097,
-        0
+        315793,
+        184
       ],
       "Just": [
-        122926,
-        0
+        74030,
+        9
       ],
       "Dockerfile": [
-        46801,
-        0
+        21680,
+        6
       ],
       "PLpgSQL": [
-        33817,
-        0
+        15838,
+        1
       ],
       "Python": [
-        99348,
-        0
+        4237,
+        57
       ],
       "Shell": [
-        120394,
-        0
+        655,
+        174
       ],
       "PHP": [
         795,
         0
       ],
       "HTML": [
-        263020,
-        0
+        238138,
+        130
       ],
       "JavaScript": [
-        98297,
-        0
+        84099,
+        10
       ],
       "Makefile": [
-        13423,
-        0
+        13138,
+        2
       ],
       "CSS": [
-        186378,
-        0
-      ],
-      "C": [
-        64331,
-        0
+        151665,
+        86
       ],
       "Java": [
-        62285,
-        0
+        0,
+        4
       ],
       "HCL": [
-        1528,
+        0,
         0
       ]
     },
-    "language_count": 14,
-    "total_commits": 0,
-    "total_lines": 1652440,
+    "language_count": 13,
+    "total_commits": 663,
+    "total_lines": 920068,
     "top_5_languages": [
       {
         "language": "Go",
-        "lines": 539097,
-        "commits": 0
+        "lines": 315793,
+        "commits": 184
       },
       {
-        "language": "Just",
-        "lines": 122926,
-        "commits": 0
+        "language": "Shell",
+        "lines": 655,
+        "commits": 174
       },
       {
-        "language": "Dockerfile",
-        "lines": 46801,
-        "commits": 0
+        "language": "HTML",
+        "lines": 238138,
+        "commits": 130
       },
       {
-        "language": "PLpgSQL",
-        "lines": 33817,
-        "commits": 0
+        "language": "CSS",
+        "lines": 151665,
+        "commits": 86
       },
       {
         "language": "Python",
-        "lines": 99348,
-        "commits": 0
+        "lines": 4237,
+        "commits": 57
       }
     ]
   },
   "import_scan": {
     "error": null,
     "username": "Gictorbit",
-    "analysis_date": "2026-04-10T14:29:09.054809",
+    "analysis_date": "2026-04-18T12:39:32.533933",
     "total_repos_analyzed": 20,
     "total_files_analyzed": 166,
     "languages": {
@@ -155,17 +146,17 @@
           "shell.h": 2,
           "token.h": 2,
           "pwd.h": 1,
-          "sys/types.h": 1,
-          "string.h": 1,
-          "<unistd.h>": 1,
-          "stdio.h": 1,
-          "<pwd.h>": 1,
           "<sys/types.h>": 1,
-          "stdlib.h": 1,
-          "<string.h>": 1,
-          "<stdlib.h>": 1,
           "<stdio.h>": 1,
-          "unistd.h": 1
+          "<string.h>": 1,
+          "stdlib.h": 1,
+          "sys/types.h": 1,
+          "<stdlib.h>": 1,
+          "<unistd.h>": 1,
+          "unistd.h": 1,
+          "stdio.h": 1,
+          "string.h": 1,
+          "<pwd.h>": 1
         }
       },
       "C/C++ Header": {
@@ -174,20 +165,20 @@
           "stdbool.h": 4,
           "<stdbool.h>": 4,
           "db.h": 2,
-          "string.h": 2,
-          "stdio.h": 2,
-          "stdlib.h": 2,
-          "<string.h>": 2,
-          "<stdlib.h>": 2,
           "<stdio.h>": 2,
-          "shell.h": 1,
+          "<string.h>": 2,
+          "stdlib.h": 2,
+          "<stdlib.h>": 2,
+          "stdio.h": 2,
+          "string.h": 2,
           "token.h": 1,
-          "sqlite3.h": 1,
+          "shell.h": 1,
           "<sqlite3.h>": 1,
-          "<ctype.h>": 1,
+          "sqlite3.h": 1,
+          "<malloc.h>": 1,
           "malloc.h": 1,
           "ctype.h": 1,
-          "<malloc.h>": 1
+          "<ctype.h>": 1
         }
       },
       "Go": {
@@ -199,12 +190,12 @@
           "net": 25,
           "fmt": 24,
           "time": 21,
-          "google.golang.org/grpc/codes": 17,
           "google.golang.org/grpc/status": 17,
+          "google.golang.org/grpc/codes": 17,
           "os": 16,
           "net/http": 16,
-          "log": 15,
           "google.golang.org/grpc": 15,
+          "log": 15,
           "github.com/Gictorbit/gofiler/proto/pb": 13,
           "strings": 11,
           "io": 11,
@@ -217,8 +208,8 @@
           "regexp": 7,
           "github.com/urfave/cli/v2": 6,
           "github.com/gictorbit/ice/internal/todo/domain": 6,
-          "syscall": 5,
           "os/signal": 5,
+          "syscall": 5,
           "database/sql": 5,
           "github.com/grpc-ecosystem/grpc-gateway/v2/utilities": 5,
           "google.golang.org/grpc/grpclog": 5,
@@ -226,13 +217,13 @@
           "testing": 5,
           "github.com/Gictorbit/gofiler/server/storage": 5,
           "google.golang.org/grpc/credentials/insecure": 4,
-          "net/mail": 4,
-          "sort": 4,
-          "net/url": 4,
-          "unicode/utf8": 4,
           "google.golang.org/protobuf/types/known/anypb": 4,
-          "bytes": 4,
           "invalid": 4,
+          "sort": 4,
+          "bytes": 4,
+          "net/url": 4,
+          "net/mail": 4,
+          "unicode/utf8": 4,
           "os/exec": 4,
           "github.com/google/uuid": 4,
           "github.com/gictorbit/arvan-challenge/envconfig": 3,
@@ -254,77 +245,77 @@
           "math/rand": 2,
           "github.com/shopspring/decimal": 2,
           "github.com/gictorbit/arvan-challenge/services/walletapi": 1,
+          "google.golang.org/grpc/reflection": 1,
           "github.com/gictorbit/arvan-challenge/services/discountapi": 1,
           "github.com/gictorbit/arvan-challenge/gateway": 1,
-          "google.golang.org/grpc/reflection": 1,
-          "github.com/gictorbit/arvan-challenge/db/walletdb": 1,
           "github.com/gictorbit/arvan-challenge/db/discountdb": 1,
+          "github.com/gictorbit/arvan-challenge/db/walletdb": 1,
           "github.com/tmc/grpc-websocket-proxy/wsproxy": 1,
-          "embed": 1,
           "golang.org/x/exp/slices": 1,
+          "embed": 1,
           "github.com/gictorbit/arvan-challenge/db": 1,
           "gopkg.in/yaml.v3": 1,
-          "RemoteAddr": 1,
-          "ImageName": 1,
-          "NOProxy": 1,
-          "Cache": 1,
-          "Username": 1,
-          "Tags": 1,
-          "Compress": 1,
-          "HTTPSProxy": 1,
           "GoVersion": 1,
+          "Cache": 1,
+          "Tags": 1,
+          "ImageName": 1,
+          "RemoteAddr": 1,
+          "Username": 1,
+          "HTTPSProxy": 1,
+          "Compress": 1,
+          "NOProxy": 1,
           "HTTPProxy": 1,
           "strconv": 1,
           "flag": 1,
           "unicode": 1,
           "github.com/Gictorbit/gofiler/client/tcpclient": 1,
           "github.com/jedib0t/go-pretty/v6/table": 1,
-          "MESSAGE_TYPE_DOWNLOAD_FILE_REQUEST": 1,
-          "MESSAGE_TYPE_DELETE_FILE_REQUEST": 1,
-          "MESSAGE_TYPE_DELETE_FILE_RESPONSE": 1,
           "MESSAGE_TYPE_UNKNOWN": 1,
-          "MESSAGE_TYPE_UPLOAD_FILE_RESPONSE": 1,
           "MESSAGE_TYPE_DOWNLOAD_FILE_RESPONSE": 1,
-          "RESPONSE_CODE_READY": 1,
+          "MESSAGE_TYPE_DOWNLOAD_FILE_REQUEST": 1,
           "MESSAGE_TYPE_FILE_INFO_REQUEST": 1,
-          "RESPONSE_CODE_OK": 1,
-          "MESSAGE_TYPE_FILE_INFO_RESPONSE": 1,
+          "MESSAGE_TYPE_DELETE_FILE_REQUEST": 1,
+          "MESSAGE_TYPE_UPLOAD_FILE_RESPONSE": 1,
           "MESSAGE_TYPE_UPLOAD_FILE_REQUEST": 1,
+          "MESSAGE_TYPE_DELETE_FILE_RESPONSE": 1,
+          "RESPONSE_CODE_READY": 1,
+          "MESSAGE_TYPE_FILE_INFO_RESPONSE": 1,
+          "RESPONSE_CODE_OK": 1,
           "github.com/Gictorbit/gofiler/server/tcpsrv": 1,
           "crypto/md5": 1,
-          "TASKS_COMPLETED_FILTER_ALL": 1,
-          "TASKS_COMPLETED_FILTER_UNDONE": 1,
-          "TASKS_COMPLETED_FILTER_DONE": 1,
           "RESPONSE_CODE_UNSPECIFIED": 1,
-          "USER_ROLE_TESTER": 1,
-          "USER_ROLE_NORMAL_USER": 1,
+          "TASKS_COMPLETED_FILTER_UNDONE": 1,
+          "TASKS_COMPLETED_FILTER_ALL": 1,
+          "TASKS_COMPLETED_FILTER_DONE": 1,
           "USER_ROLE_ADMIN": 1,
           "USER_ROLE_UNSPECIFIED": 1,
+          "USER_ROLE_TESTER": 1,
+          "USER_ROLE_NORMAL_USER": 1,
           "github.com/Gictorbit/gotodotasks/internal/service/taskmanager": 1,
           "github.com/Gictorbit/gotodotasks/internal/service/user": 1,
           "html/template": 1,
           "github.com/golang-jwt/jwt/v4": 1,
           "description": 1,
           "title": 1,
-          "id": 1,
           "is_completed": 1,
+          "id": 1,
           "due_date": 1,
           "golang.org/x/crypto/bcrypt": 1,
-          "encoding/pem": 1,
-          "crypto/x509/pkix": 1,
           "crypto/tls": 1,
-          "google.golang.org/grpc/credentials": 1,
-          "crypto/x509": 1,
-          "crypto/rsa": 1,
           "math/big": 1,
-          "github.com/gictorbit/ice/internal/todo/infrastructure/mysql": 1,
+          "crypto/rsa": 1,
+          "google.golang.org/grpc/credentials": 1,
+          "crypto/x509/pkix": 1,
+          "encoding/pem": 1,
+          "crypto/x509": 1,
           "github.com/gictorbit/ice/internal/todo/delivery": 1,
-          "repo": 1,
-          "publisher": 1,
-          "github.com/golang/mock/gomock": 1,
+          "github.com/gictorbit/ice/internal/todo/infrastructure/mysql": 1,
           "success": 1,
-          "encoding/binary": 1,
+          "github.com/golang/mock/gomock": 1,
+          "publisher": 1,
+          "repo": 1,
           "math": 1,
+          "encoding/binary": 1,
           ":=": 1,
           "open": 1,
           "github.com/gictorbit/mabna/service": 1,
@@ -345,25 +336,25 @@
         "files_scanned": 3,
         "packages": {
           "sys": 2,
-          "sleep": 1,
-          "json": 1,
-          "requests": 1,
-          "urlopen": 1,
-          "urllib": 1,
-          "time": 1,
           "HTTPBasicAuth": 1,
-          "textpad": 1,
-          "BeautifulTable": 1,
-          "Thread": 1,
-          "curses": 1,
-          "threading": 1,
-          "cpanelhost": 1,
-          "netIsOn": 1,
-          "validators": 1,
-          "beautifultable": 1,
-          "re": 1,
+          "requests": 1,
+          "urllib": 1,
+          "sleep": 1,
+          "time": 1,
+          "json": 1,
+          "urlopen": 1,
           "getpass": 1,
-          "CpanelHost": 1
+          "cpanelhost": 1,
+          "beautifultable": 1,
+          "Thread": 1,
+          "validators": 1,
+          "curses": 1,
+          "BeautifulTable": 1,
+          "re": 1,
+          "netIsOn": 1,
+          "CpanelHost": 1,
+          "textpad": 1,
+          "threading": 1
         }
       }
     },

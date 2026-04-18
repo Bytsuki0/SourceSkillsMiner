@@ -1,0 +1,399 @@
+{
+  "username": "Bytsuki0",
+  "areas": {
+    "OSS": {
+      "score": 0.16666666666666674,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.75,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_write_to_non_owned_repo": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 5,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.14102564102564102,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        4456942,
+        123
+      ],
+      "Cython": [
+        230277,
+        1
+      ],
+      "C++": [
+        223489,
+        2
+      ],
+      "C": [
+        64592,
+        2
+      ],
+      "XSLT": [
+        6622,
+        0
+      ],
+      "Fortran": [
+        1740,
+        0
+      ],
+      "Meson": [
+        1641,
+        0
+      ],
+      "JavaScript": [
+        24402,
+        0
+      ],
+      "CSS": [
+        566,
+        0
+      ],
+      "PowerShell": [
+        379,
+        0
+      ],
+      "Go Template": [
+        376,
+        0
+      ],
+      "Roff": [
+        340,
+        0
+      ],
+      "Shell": [
+        46485,
+        2
+      ],
+      "HTML": [
+        1339902,
+        50
+      ],
+      "CMake": [
+        73,
+        0
+      ],
+      "Jinja": [
+        67,
+        0
+      ],
+      "Batchfile": [
+        29,
+        0
+      ],
+      "Smarty": [
+        5,
+        0
+      ],
+      "Java": [
+        7602,
+        17
+      ],
+      "C#": [
+        5212,
+        3
+      ],
+      "R": [
+        13740,
+        0
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 200,
+    "total_lines": 6424481,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 4456942,
+        "commits": 123
+      },
+      {
+        "language": "HTML",
+        "lines": 1339902,
+        "commits": 50
+      },
+      {
+        "language": "Java",
+        "lines": 7602,
+        "commits": 17
+      },
+      {
+        "language": "C#",
+        "lines": 5212,
+        "commits": 3
+      },
+      {
+        "language": "C++",
+        "lines": 223489,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Bytsuki0",
+    "analysis_date": "2026-04-18T12:27:23.856055",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 129,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "string.h": 1,
+          "<string.h>": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 1,
+        "packages": {
+          "System": 1,
+          "Amazon.Lambda.Serialization.SystemTextJson": 1,
+          "System.Net.Http": 1,
+          "Amazon.Lambda.APIGatewayEvents": 1,
+          "System.Text.Json": 1,
+          "JsonDocument": 1,
+          "System.Collections.Generic": 1,
+          "System.Threading.Tasks": 1,
+          "Amazon.Lambda.Core": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 31,
+        "packages": {
+          "com.mycompany": 13,
+          "java.util": 12,
+          "estacionamento": 12,
+          "java.sql": 5,
+          "com.tutorial": 1,
+          "teste": 1,
+          "java.awt": 1,
+          "javax.swing": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 19,
+        "packages": {
+          "undefined": 9,
+          "object": 3,
+          "use": 3,
+          "https:": 3,
+          "min": 3,
+          "popperjs": 3,
+          "path": 1,
+          "express": 1,
+          "http-proxy-middleware": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 23,
+        "packages": {
+          "configparser": 17,
+          "json": 15,
+          "os": 14,
+          "requests": 11,
+          "time": 10,
+          "typing": 8,
+          "csv": 7,
+          "re": 7,
+          "subprocess": 6,
+          "Dict": 6,
+          "StatusAnaliser": 6,
+          "defaultdict": 6,
+          "collections": 6,
+          "pandas": 5,
+          "platform": 5,
+          "OSSanaliser": 5,
+          "SentimentalAnaliser": 5,
+          "sys": 5,
+          "argparse": 4,
+          "math": 4,
+          "datetime": 4,
+          "Github": 4,
+          "matplotlib": 4,
+          "github": 4,
+          "pathlib": 3,
+          "joblib": 3,
+          "Path": 3,
+          "gitblame": 3,
+          "GitHubStatsAnalyzerAllTime": 3,
+          "shutil": 3,
+          "numpy": 2,
+          "sklearn": 2,
+          "train_test_split": 2,
+          "statistics": 2,
+          "langdetect": 2,
+          "Translator": 2,
+          "SentimentIntensityAnalyzer": 2,
+          "nltk": 2,
+          "translate": 2,
+          "detect": 2,
+          "streamlit": 2,
+          "stat": 2,
+          "accuracy_score": 1,
+          "ast": 1,
+          "StandardScaler": 1,
+          "GaussianNB": 1,
+          "ScoringSys": 1,
+          "score_usersudo": 1,
+          "random": 1,
+          "CountVectorizer": 1,
+          "LabelEncoder": 1,
+          "name": 1,
+          "Pipeline": 1,
+          "List": 1,
+          "raw": 1,
+          "MultinomialNB": 1,
+          "skipped": 1,
+          "WorkTypeAnalyzer": 1,
+          "traceback": 1,
+          "concurrent": 1,
+          "ThreadPoolExecutor": 1,
+          "|": 1,
+          "base64": 1,
+          "flask": 1,
+          "tempfile": 1,
+          "Optional": 1,
+          "threading": 1,
+          "flask_cors": 1,
+          "uuid": 1,
+          "queue": 1,
+          "CORS": 1,
+          "Flask": 1
+        }
+      },
+      "R": {
+        "files_scanned": 6,
+        "packages": {
+          "ggplot2": 6,
+          "zoo": 6,
+          "xts": 6,
+          "forecast": 6,
+          "PerformanceAnalytics": 6,
+          "tseries": 6,
+          "lubridate": 6,
+          "FinTS": 5,
+          "tidyr": 5,
+          "stochvol": 5,
+          "dplyr": 5,
+          "quantmod": 5,
+          "cowplot": 5,
+          "rugarch": 4,
+          "gridExtra": 3,
+          "wavelets": 3,
+          "broom": 3,
+          "modeltime": 3,
+          "rsample": 3,
+          "parsnip": 3,
+          "highfrequency": 3,
+          "fpp2": 3,
+          "fpp3": 3,
+          "timetk": 3,
+          "knitr": 2,
+          "boot": 2,
+          "coda": 2,
+          "car": 2,
+          "moments": 2,
+          "strucchange": 1,
+          "changepoint": 1,
+          "TTR": 1,
+          "urca": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Bytsuki0/GitBlame",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Bytsuki0/Java",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "Bytsuki0/Lambda-API-connection",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "Bytsuki0/Leet_code",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Bytsuki0/SourceSkillsMiner",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Bytsuki0/StochasticVolatilityAnalitics",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "R"
+        ]
+      },
+      {
+        "repository": "Bytsuki0/Trabalho-POO-1",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "Bytsuki0/Vanilla-RegistrySystemWithSqlConnection",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

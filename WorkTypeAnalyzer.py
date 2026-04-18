@@ -12,6 +12,112 @@ from typing import Dict, List, Set, Optional
 # Language / commit distribution analyzer
 # ---------------------------------------------------------------------------
 
+
+# ---------------------------------------------------------------------------
+# GraphQL helpers for WorkTypeAnalyzer
+# Replaces all /repos/{owner}/{repo}/stats/contributors calls.
+# Uses the same module-level cache as StatusAnaliser when both are imported.
+# ---------------------------------------------------------------------------
+
+_GRAPHQL_URL_WTA = "https://api.github.com/graphql"
+_wta_gql_cache: dict = {}
+
+_WTA_CONTRIBUTIONS_QUERY = """
+query($login: String!, $from: DateTime!, $to: DateTime!) {
+  user(login: $login) {
+    contributionsCollection(from: $from, to: $to) {
+      commitContributionsByRepository(maxRepositories: 100) {
+        repository { nameWithOwner }
+        contributions(first: 100) {
+          totalCount
+          nodes { occurredAt commitCount }
+          pageInfo { hasNextPage endCursor }
+        }
+      }
+    }
+  }
+}
+"""
+
+_WTA_USER_AGE_QUERY = """
+query($login: String!) { user(login: $login) { createdAt } }
+"""
+
+
+def _wta_graphql(query: str, variables: dict, headers: dict) -> dict | None:
+    try:
+        resp = requests.post(
+            _GRAPHQL_URL_WTA,
+            headers={**headers, 'Content-Type': 'application/json'},
+            json={'query': query, 'variables': variables},
+            timeout=30,
+        )
+    except Exception as exc:
+        print(f"[WorkTypeAnalyzer/GraphQL] Network error: {exc}")
+        return None
+    if resp.status_code != 200:
+        return None
+    body = resp.json()
+    return body.get('data')
+
+
+def _wta_fetch_all_user_commits(username: str, headers: dict) -> dict:
+    """
+    Fetch all commit contributions for `username` via GraphQL, year by year.
+    Returns {repo_full_name: [{"occurredAt": ..., "commitCount": N}, ...]}.
+    Module-level cached — O(1) after first call.
+    """
+    cache_key = f"wta_commits_{username}"
+    if cache_key in _wta_gql_cache:
+        return _wta_gql_cache[cache_key]
+
+    # Find user join year
+    age_data   = _wta_graphql(_WTA_USER_AGE_QUERY, {'login': username}, headers)
+    join_year  = 2015
+    if age_data and age_data.get('user') and age_data['user'].get('createdAt'):
+        from datetime import datetime as _dt
+        join_year = _dt.fromisoformat(
+            age_data['user']['createdAt'].replace('Z', '+00:00')
+        ).year
+
+    from datetime import datetime as _dt
+    from collections import defaultdict as _defaultdict
+    all_contributions: dict = _defaultdict(list)
+    current_year = _dt.now().year
+
+    for year in range(join_year, current_year + 1):
+        data = _wta_graphql(
+            _WTA_CONTRIBUTIONS_QUERY,
+            {
+                'login': username,
+                'from':  f"{year}-01-01T00:00:00Z",
+                'to':    f"{year}-12-31T23:59:59Z",
+            },
+            headers,
+        )
+        if not data or not data.get('user'):
+            continue
+        cc = data['user'].get('contributionsCollection', {})
+        for entry in cc.get('commitContributionsByRepository', []):
+            repo = entry.get('repository', {}).get('nameWithOwner', '')
+            if repo:
+                all_contributions[repo].extend(
+                    entry.get('contributions', {}).get('nodes', [])
+                )
+        time.sleep(0.3)
+
+    result = dict(all_contributions)
+    _wta_gql_cache[cache_key] = result
+    return result
+
+
+def _wta_user_commit_count(username: str, repo_full_name: str, headers: dict) -> int:
+    """Total commits by `username` in `repo_full_name` from GraphQL cache."""
+    all_commits   = _wta_fetch_all_user_commits(username, headers)
+    contributions = all_commits.get(repo_full_name, [])
+    return sum(n.get('commitCount', 0) for n in contributions)
+
+
 class GitHubLanguageCommitAnalyzer:
     """
     Analyzes programming language usage across a user's GitHub repositories.
@@ -102,30 +208,16 @@ class GitHubLanguageCommitAnalyzer:
         return result
 
     def _fetch_commit_stats_from_api(self, full_name: str) -> Optional[tuple]:
-        """Fetches contributor stats from the GitHub API (used only on cache miss)."""
-        url = f"{self.api_url}/repos/{full_name}/stats/contributors"
-        for _ in range(10):
-            resp = requests.get(url, headers=self.headers)
-            if resp.status_code == 202:
-                time.sleep(2)
-                continue
-            if resp.status_code != 200:
-                return None
-            data = resp.json()
-            if not data:
-                return None
-            for contributor in data:
-                author = contributor.get('author')
-                if author and author.get('login', '').lower() == self.username.lower():
-                    total_lines = sum(
-                        w.get('a', 0) + w.get('d', 0)
-                        for w in contributor.get('weeks', [])
-                    )
-                    total_commits = sum(
-                        w.get('c', 0) for w in contributor.get('weeks', [])
-                    )
-                    return total_lines, total_commits
-        return None
+        """
+        Fetch (lines, commits) for the user in one repo via GraphQL.
+        Replaces /stats/contributors — returns immediately, no 202 delays.
+        Lines are set to 0 here; callers with a repo dict replace them with
+        the repo-size estimate, which is more reliable than diff sums anyway.
+        """
+        commits = _wta_user_commit_count(self.username, full_name, self.headers)
+        if commits == 0:
+            return None
+        return 0, commits
 
     def analyze_language_usage(self) -> Dict[str, List[int]]:
         """
@@ -605,26 +697,11 @@ class GitHubCommitmentAnalyzer:
         return events
 
     def _get_repo_commit_count(self, full_name: str) -> int:
-        """Return total commits by the user in the given repo."""
-        url = f"{self.api_url}/repos/{full_name}/stats/contributors"
-        for _ in range(6):
-            resp = requests.get(url, headers=self.headers)
-            if resp.status_code == 202:
-                time.sleep(2)
-                continue
-            if resp.status_code != 200:
-                return 0
-            data = resp.json()
-            if not isinstance(data, list):
-                return 0
-            for contributor in data:
-                author = contributor.get("author") or {}
-                if author.get("login", "").lower() == self.username.lower():
-                    return sum(
-                        w.get("c", 0) for w in contributor.get("weeks", [])
-                    )
-            return 0
-        return 0
+        """
+        Return total commits by the user in the given repo via GraphQL.
+        Replaces /stats/contributors — returns immediately, no 202 delays.
+        """
+        return _wta_user_commit_count(self.username, full_name, self.headers)
 
     # ------------------------------------------------------------------
     # Criterion evaluators

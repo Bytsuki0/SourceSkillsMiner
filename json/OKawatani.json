@@ -1,20 +1,20 @@
 {
-  "username": "OKawatani",
+  "username": "Okawatani",
   "areas": {
     "OSS": {
-      "score": -0.36359243644044414,
+      "score": 0.0,
       "details": {
         "issue_resolution_rate": 0.0,
         "pr_merge_rate": 0.0,
-        "commits_activity": 0.9546113453393338
+        "commits_activity": 0.0
       }
     },
     "Status": {
-      "score": -0.33333333333333337,
+      "score": 0.38157855788821693,
       "details": {
         "lines_activity": 1.0,
-        "commits_activity": 0.0,
-        "week_streak": 0.0
+        "commits_activity": 0.9569832214477101,
+        "week_streak": 0.11538461538461539
       }
     },
     "Sentiment": {
@@ -43,61 +43,61 @@
     "Sentiment": 0.25,
     "Commitment": 0.25
   },
-  "final_score": -0.17423144244344438,
+  "final_score": 0.09539463947205423,
   "language_usage": {
     "error": null,
     "languages": {
       "C++": [
         197361,
-        0
+        35
       ],
       "Java": [
-        1817,
-        0
+        1868,
+        41
       ],
       "JavaScript": [
         4302,
-        0
+        14
       ],
       "Haskell": [
         3723,
-        0
+        12
       ],
       "Ruby": [
         3264,
-        0
+        11
       ],
       "C#": [
         2835,
-        0
+        9
       ],
       "Python": [
         2655,
-        0
+        9
       ],
       "Prolog": [
         1834,
-        0
+        6
       ],
       "Rust": [
         1820,
-        0
+        6
       ],
       "Lua": [
         1009,
-        0
+        3
       ],
       "Go": [
         985,
-        0
+        3
       ],
       "BASIC": [
         570,
-        0
+        1
       ],
       "HTML": [
         13,
-        0
+        1
       ],
       "CSS": [
         11,
@@ -105,54 +105,54 @@
       ]
     },
     "language_count": 14,
-    "total_commits": 0,
-    "total_lines": 222199,
+    "total_commits": 151,
+    "total_lines": 222250,
     "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 1868,
+        "commits": 41
+      },
       {
         "language": "C++",
         "lines": 197361,
-        "commits": 0
-      },
-      {
-        "language": "Java",
-        "lines": 1817,
-        "commits": 0
+        "commits": 35
       },
       {
         "language": "JavaScript",
         "lines": 4302,
-        "commits": 0
+        "commits": 14
       },
       {
         "language": "Haskell",
         "lines": 3723,
-        "commits": 0
+        "commits": 12
       },
       {
         "language": "Ruby",
         "lines": 3264,
-        "commits": 0
+        "commits": 11
       }
     ]
   },
   "import_scan": {
     "error": null,
-    "username": "OKawatani",
-    "analysis_date": "2026-04-10T13:32:52.200572",
+    "username": "Okawatani",
+    "analysis_date": "2026-04-18T12:22:49.040533",
     "total_repos_analyzed": 4,
     "total_files_analyzed": 85,
     "languages": {
       "C++": {
         "files_scanned": 38,
         "packages": {
-          "namespace": 38,
           "std": 38,
-          "<iostream>": 8,
+          "namespace": 38,
           "iostream": 8,
-          "string": 3,
+          "<iostream>": 8,
           "<string>": 3,
-          "<vector>": 2,
-          "vector": 2
+          "string": 3,
+          "vector": 2,
+          "<vector>": 2
         }
       },
       "Go": {
@@ -180,8 +180,8 @@
       "Python": {
         "files_scanned": 1,
         "packages": {
-          "abc": 1,
-          "ABC": 1
+          "ABC": 1,
+          "abc": 1
         }
       }
     },

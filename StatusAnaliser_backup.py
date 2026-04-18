@@ -9,254 +9,57 @@ _BYTES_PER_LINE = 40
 _KB = 1024
 _MAX_REPOS = 15
 
+
 # ---------------------------------------------------------------------------
-# GraphQL + REST helpers
-#
-# ALL /repos/{owner}/{repo}/stats/* endpoint calls have been replaced:
-#
-#   User-specific commit data  →  GraphQL contributionsCollection
-#     Never returns 202; always responds immediately with real data.
-#     Queried year-by-year to cover all-time history.
-#
-#   All-contributors commit counts (percentile ranking)  →
-#     REST /repos/{owner}/{repo}/contributors
-#     This is a different endpoint from /stats/contributors and returns
-#     immediately without 202 delays.
-#
-# Module-level cache: results keyed by (username, repo_full_name) or
-# (repo_full_name,) are stored for the lifetime of the process so every
-# class that needs the same data gets a free cache hit.
+# Shared retry helper
 # ---------------------------------------------------------------------------
 
-_GRAPHQL_URL = "https://api.github.com/graphql"
-
-# Cache for GraphQL results: key → result
-# Keys used:
-#   ("user_commits", username)               → Dict[repo_full_name, List[dict]]
-#   ("contributors", repo_full_name)         → List[Tuple[str, int]]
-_gql_cache: Dict[str, object] = {}
-
-# GraphQL query: fetch all commit contributions for a user in a 1-year window.
-# contributionsCollection covers at most 1 year; we loop year-by-year for
-# all-time data.
-_GQL_CONTRIBUTIONS_QUERY = """
-query($login: String!, $from: DateTime!, $to: DateTime!) {
-  user(login: $login) {
-    contributionsCollection(from: $from, to: $to) {
-      commitContributionsByRepository(maxRepositories: 100) {
-        repository {
-          nameWithOwner
-        }
-        contributions(first: 100) {
-          totalCount
-          nodes {
-            occurredAt
-            commitCount
-          }
-          pageInfo { hasNextPage endCursor }
-        }
-      }
-    }
-  }
-}
-"""
-
-_GQL_CONTRIBUTIONS_PAGE_QUERY = """
-query($login: String!, $from: DateTime!, $to: DateTime!, $owner: String!, $name: String!, $cursor: String!) {
-  user(login: $login) {
-    contributionsCollection(from: $from, to: $to) {
-      commitContributionsByRepository(maxRepositories: 100) {
-        repository {
-          nameWithOwner
-        }
-        contributions(first: 100, after: $cursor) {
-          totalCount
-          nodes {
-            occurredAt
-            commitCount
-          }
-          pageInfo { hasNextPage endCursor }
-        }
-      }
-    }
-  }
-}
-"""
-
-_GQL_USER_CREATED_AT_QUERY = """
-query($login: String!) {
-  user(login: $login) {
-    createdAt
-  }
-}
-"""
-
-
-def _graphql(query: str, variables: dict, headers: dict) -> Optional[dict]:
-    """Execute a GraphQL query. Returns the data dict or None on error."""
-    gql_headers = {
-        **headers,
-        'Content-Type': 'application/json',
-    }
-    try:
-        resp = requests.post(
-            _GRAPHQL_URL,
-            headers=gql_headers,
-            json={'query': query, 'variables': variables},
-            timeout=30,
-        )
-    except Exception as exc:
-        print(f"[GraphQL] Network error: {exc}")
-        return None
-
-    if resp.status_code != 200:
-        print(f"[GraphQL] HTTP {resp.status_code}: {resp.text[:200]}")
-        return None
-
-    body = resp.json()
-    if 'errors' in body:
-        print(f"[GraphQL] Query errors: {body['errors']}")
-        # Return partial data if present (some errors are non-fatal)
-        return body.get('data')
-    return body.get('data')
-
-
-def _get_user_join_year(username: str, headers: dict) -> int:
-    """Return the year the GitHub user account was created (lower bound for queries)."""
-    data = _graphql(_GQL_USER_CREATED_AT_QUERY, {'login': username}, headers)
-    if data and data.get('user') and data['user'].get('createdAt'):
-        return datetime.fromisoformat(
-            data['user']['createdAt'].replace('Z', '+00:00')
-        ).year
-    return 2015   # safe fallback
-
-
-def _fetch_all_user_commits(
-    username: str,
-    headers: dict,
-) -> Dict[str, List[dict]]:
+def _fetch_contributor_stats(url: str, headers: dict, max_retries: int = 30) -> Optional[list]:
     """
-    Fetch ALL commit contributions for `username` across all repositories,
-    covering the user's full GitHub history year by year.
+    Fetches /stats/contributors with exponential backoff on 202 responses.
 
-    Returns a dict:
-        { "owner/repo": [ {"occurredAt": "ISO date", "commitCount": N}, ... ] }
+    Return values:
+      - list (possibly empty []) on success — callers distinguish [] from None
+      - None on a genuine API/network failure
 
-    Results are cached at module level under ("user_commits", username).
+    Status codes handled:
+      202  GitHub is computing stats asynchronously — wait and retry.
+      204  Repository has no commits at all — return [].
+      200  Success — parse and return the contributor list.
+      other  Log status + body snippet and return None.
     """
-    cache_key = ("user_commits", username)
-    if cache_key in _gql_cache:
-        return _gql_cache[cache_key]   # type: ignore
+    short = url.split("repos/")[-1]
+    for attempt in range(max_retries):
+        resp = requests.get(url, headers=headers)
 
-    join_year   = _get_user_join_year(username, headers)
-    current_year = datetime.now().year
-    all_contributions: Dict[str, List[dict]] = defaultdict(list)
-
-    for year in range(join_year, current_year + 1):
-        from_dt = f"{year}-01-01T00:00:00Z"
-        to_dt   = f"{year}-12-31T23:59:59Z"
-
-        data = _graphql(
-            _GQL_CONTRIBUTIONS_QUERY,
-            {'login': username, 'from': from_dt, 'to': to_dt},
-            headers,
-        )
-        if not data or not data.get('user'):
+        if resp.status_code == 202:
+            wait = 5 * (2 ** min(attempt, 3))   # 5, 10, 20, 40, 40 … seconds
+            print(f"[DEBUG] 202 for {short} (attempt {attempt+1}/{max_retries}), retrying in {wait}s")
+            time.sleep(wait)
             continue
 
-        cc = data['user'].get('contributionsCollection', {})
-        for repo_entry in cc.get('commitContributionsByRepository', []):
-            full_name = repo_entry.get('repository', {}).get('nameWithOwner', '')
-            if not full_name:
-                continue
-            contribs = repo_entry.get('contributions', {})
-            nodes = contribs.get('nodes', [])
-            all_contributions[full_name].extend(nodes)
+        if resp.status_code == 204:
+            return []
 
-        time.sleep(0.3)   # gentle rate-limit spacing between year queries
-
-    result = dict(all_contributions)
-    _gql_cache[cache_key] = result
-    return result
-
-
-def _fetch_all_contributor_counts(
-    repo_full_name: str,
-    headers: dict,
-    api_url: str = "https://api.github.com",
-) -> List[Tuple[str, int]]:
-    """
-    Return (login, total_commits) for every contributor in a repository.
-
-    Uses REST /repos/{owner}/{repo}/contributors — a different, non-stats
-    endpoint that returns immediately without 202 delays.
-
-    Results are cached at module level under ("contributors", repo_full_name).
-    """
-    cache_key = ("contributors", repo_full_name)
-    if cache_key in _gql_cache:
-        return _gql_cache[cache_key]   # type: ignore
-
-    contributors: List[Tuple[str, int]] = []
-    page = 1
-    while True:
-        url  = f"{api_url}/repos/{repo_full_name}/contributors"
-        resp = requests.get(url, headers=headers, params={'per_page': 100, 'page': page, 'anon': '0'})
         if resp.status_code != 200:
-            break
+            body_preview = resp.text[:200] if resp.text else "<empty body>"
+            print(f"[ERROR] Stats API returned {resp.status_code} for {short} — {body_preview}")
+            return None
+
         try:
             data = resp.json()
-        except (ValueError, json.JSONDecodeError):
-            break
-        if not isinstance(data, list) or not data:
-            break
-        for entry in data:
-            login = entry.get('login', '')
-            count = entry.get('contributions', 0)
-            if login:
-                contributors.append((login, count))
-        page += 1
+        except (ValueError, json.JSONDecodeError) as exc:
+            print(f"[ERROR] Could not decode JSON from {short}: {exc}")
+            return None
 
-    _gql_cache[cache_key] = contributors
-    return contributors
+        if not isinstance(data, list):
+            print(f"[ERROR] Unexpected response type {type(data).__name__} from {short}: {str(data)[:200]}")
+            return None
 
+        return data
 
-def _contributions_to_user_stats(
-    contributions: List[dict],
-) -> dict:
-    """
-    Convert a list of GraphQL contribution nodes (occurredAt + commitCount)
-    into the same shape previously returned by the /stats/contributors weeks data:
-        {
-          'monthly_contrib': {'YYYY-MM': commit_count},
-          'weeks_with_commits': set of 'YYYY-WW' strings,
-          'total_commits': int,
-        }
-    """
-    monthly_contrib:    Dict[str, int] = defaultdict(int)
-    weeks_with_commits: Set[str]       = set()
-    total_commits = 0
-
-    for node in contributions:
-        count = node.get('commitCount', 0)
-        if count == 0:
-            continue
-        occurred = node.get('occurredAt', '')
-        if not occurred:
-            continue
-        try:
-            dt = datetime.fromisoformat(occurred.replace('Z', '+00:00'))
-        except ValueError:
-            continue
-        monthly_contrib[dt.strftime('%Y-%m')] += count
-        weeks_with_commits.add(dt.strftime('%Y-%U'))
-        total_commits += count
-
-    return {
-        'monthly_contrib':    dict(monthly_contrib),
-        'weeks_with_commits': weeks_with_commits,
-        'total_commits':      total_commits,
-    }
+    print(f"[ERROR] Exhausted {max_retries} retries for {short}")
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -296,22 +99,33 @@ class AdvancedContributorAnalyzer:
         return repos[:_MAX_REPOS]
 
     def _get_months_for_repo(self, repo_full_name: str) -> Set[str]:
-        """Return months with commits via cached GraphQL data (no /stats/ call)."""
-        all_commits = _fetch_all_user_commits(self.username, self.headers)
-        contributions = all_commits.get(repo_full_name, [])
-        stats = _contributions_to_user_stats(contributions)
-        return set(stats['monthly_contrib'].keys())
+        url = f"{self.api_url}/repos/{repo_full_name}/stats/contributors"
+        data = _fetch_contributor_stats(url, self.headers)
+        if data is None:
+            print(f"[WARN] No contributor stats for {repo_full_name}")
+        if not data:
+            return set()
+        user_stats = next(
+            (c for c in data
+             if c.get('author', {}).get('login', '').lower() == self.username.lower()),
+            None
+        )
+        if not user_stats:
+            return set()
+        months = set()
+        for week_info in user_stats.get('weeks', []):
+            if week_info.get('c', 0) > 0:
+                date_obj = datetime.fromtimestamp(week_info['w'])
+                months.add(date_obj.strftime('%Y-%m'))
+        return months
 
     def _get_months_with_contributions(self) -> Set[str]:
-        """
-        Fetch months with commits across all repos using GraphQL.
-        One call fetches ALL repos at once — no per-repo API calls needed.
-        """
-        all_commits = _fetch_all_user_commits(self.username, self.headers)
         months_with_commits: Set[str] = set()
-        for contributions in all_commits.values():
-            stats = _contributions_to_user_stats(contributions)
-            months_with_commits.update(stats['monthly_contrib'].keys())
+        for repo in self.repos:
+            try:
+                months_with_commits.update(self._get_months_for_repo(repo['full_name']))
+            except Exception:
+                pass
         return months_with_commits
 
     def _compute_monthly_streak(self, months: Set[str]) -> Tuple[int, int]:
@@ -472,11 +286,14 @@ class AdvancedContributorAnalyzer:
         }
 
     def _get_all_contributors_for_repo(self, repo_full_name: str) -> List[Tuple[str, int]]:
-        """
-        Return (login, total_commits) per contributor using REST /contributors
-        endpoint — returns immediately, no 202 delays, no /stats/ used.
-        """
-        return _fetch_all_contributor_counts(repo_full_name, self.headers, self.api_url)
+        url = f"{self.api_url}/repos/{repo_full_name}/stats/contributors"
+        data = _fetch_contributor_stats(url, self.headers)
+        if not data:
+            return []
+        return [
+            (c['author']['login'], sum(w.get('c', 0) for w in c.get('weeks', [])))
+            for c in data if c.get('author')
+        ]
 
     def _process_repo_percentile(self, repo: dict) -> Optional[dict]:
         full_name = repo['full_name']
@@ -511,7 +328,6 @@ class AdvancedContributorAnalyzer:
                         repos_at_50th += 1
             except Exception:
                 pass
-            time.sleep(0.5)
         return {
             'total_repos_analyzed': len(repo_percentiles),
             'repos_at_50th_percentile': repos_at_50th,
@@ -590,40 +406,61 @@ class GitHubStatsAnalyzerAllTime:
         return int(repo.get('size', 0) * _KB / _BYTES_PER_LINE)
 
     def _get_commit_stats(self, repo_full_name: str) -> dict:
-        """
-        Fetch commit stats for one repo using cached GraphQL data.
-        The GraphQL fetch covers ALL repos at once, so the per-repo cache
-        is populated on the first call and every subsequent repo is free.
-        """
         if repo_full_name in self._stats_cache:
             return self._stats_cache[repo_full_name]
 
         empty = {
             'Contribuicoes_mensais': {},
             'Streak_contribuicoes_consecutivas': 0,
-            'Total_commits': 0,
+            'Total_commits': 0
         }
 
-        # _fetch_all_user_commits is module-level cached — O(1) after first call
-        all_commits   = _fetch_all_user_commits(self.username, self.headers)
-        contributions = all_commits.get(repo_full_name, [])
+        url = f"{self.api_url}/repos/{repo_full_name}/stats/contributors"
+        data = _fetch_contributor_stats(url, self.headers)
 
-        if not contributions:
-            print(f"[INFO] No GraphQL contributions found for {repo_full_name}")
+        if data is None:
+            print(f"[ERROR] API failed for {repo_full_name}")
             self._stats_cache[repo_full_name] = empty
             return empty
 
-        parsed = _contributions_to_user_stats(contributions)
+        if len(data) == 0:
+            print(f"[INFO] No contributors in {repo_full_name}")
+            self._stats_cache[repo_full_name] = empty
+            return empty
+
+        user_stats = next(
+            (c for c in data
+             if c.get('author', {}).get('login', '').lower() == self.username.lower()),
+            None
+        )
+
+        if not user_stats:
+            print(f"[WARN] User {self.username} not in contributors for {repo_full_name}")
+            self._stats_cache[repo_full_name] = empty
+            return empty
+
+        monthly_contrib = defaultdict(int)
+        weeks_with_commits = set()
+        total_commits = 0
+
+        for week_info in user_stats.get('weeks', []):
+            commits = week_info.get('c', 0)
+            if commits == 0:
+                continue
+            date_obj = datetime.fromtimestamp(week_info['w'])
+            monthly_contrib[date_obj.strftime('%Y-%m')] += commits
+            weeks_with_commits.add(date_obj.strftime('%Y-%U'))
+            total_commits += commits
+
+        if total_commits == 0:
+            print(f"[WARN] User found but 0 commits in {repo_full_name}")
 
         result = {
-            'Contribuicoes_mensais':            parsed['monthly_contrib'],
-            'Streak_contribuicoes_consecutivas': self._compute_weekly_streak(
-                parsed['weeks_with_commits']
-            ),
-            'Total_commits': parsed['total_commits'],
+            'Contribuicoes_mensais': dict(monthly_contrib),
+            'Streak_contribuicoes_consecutivas': self._compute_weekly_streak(weeks_with_commits),
+            'Total_commits': total_commits,
         }
-        print(f"[OK] {repo_full_name} commits={result['Total_commits']}, "
-              f"streak={result['Streak_contribuicoes_consecutivas']}")
+        print(f"[OK] {repo_full_name} commits={total_commits}, streak={result['Streak_contribuicoes_consecutivas']}")
         self._stats_cache[repo_full_name] = result
         return result
 
@@ -659,18 +496,10 @@ class GitHubStatsAnalyzerAllTime:
         }
 
     def analyze_all(self) -> dict:
-        """
-        Fetch stats for all repos using GraphQL (no /stats/ endpoint).
-        GraphQL fetches ALL repos in one batch of year-queries and caches
-        at module level, so this class and AdvancedContributorAnalyzer share
-        the same data without redundant API calls.
-        """
-        # Trigger the GraphQL fetch once — all per-repo calls below are cache hits
-        _fetch_all_user_commits(self.username, self.headers)
-
+        """Fetch stats for all repos sequentially (max _MAX_REPOS)."""
         results = {}
         for i, repo in enumerate(self.repos, 1):
-            print(f"[{i}/{len(self.repos)}] Processing {repo['full_name']}...")
+            print(f"[{i}/{len(self.repos)}] Analyzing {repo['full_name']}...")
             try:
                 name, data = self._process_repo(repo)
                 results[name] = data
@@ -756,22 +585,18 @@ class GitHubLanguageCommitAnalyzer:
         return result
 
     def _fetch_user_stats_from_api(self, full_name: str) -> Optional[tuple]:
-        """
-        Fetch (lines, commits) for the user in one repo via cached GraphQL data.
-        Lines are set to 0 here because callers that have a repo dict will
-        immediately replace them with _estimate_lines_from_repo(); those without
-        a repo dict get 0 which is acceptable since size is already an estimate.
-        """
-        all_commits   = _fetch_all_user_commits(self.username, self.headers)
-        contributions = all_commits.get(full_name, [])
-        if not contributions:
+        url = f"{self.api_url}/repos/{full_name}/stats/contributors"
+        data = _fetch_contributor_stats(url, self.headers)
+        if not data:
             return None
-        stats = _contributions_to_user_stats(contributions)
-        if stats['total_commits'] == 0:
-            return None
-        # Lines are 0 because GraphQL contributionsCollection does not expose
-        # per-commit diff stats. Callers replace this with the repo-size estimate.
-        return 0, stats['total_commits']
+        for contributor in data:
+            author = contributor.get('author')
+            if author and author.get('login', '').lower() == self.username.lower():
+                weeks = contributor.get('weeks', [])
+                total_lines  = sum(w.get('a', 0) + w.get('d', 0) for w in weeks)
+                total_commits = sum(w.get('c', 0) for w in weeks)
+                return total_lines, total_commits
+        return None
 
     def analyze_language_usage(self) -> Dict[str, List[int]]:
         language_stats = defaultdict(lambda: [0, 0])

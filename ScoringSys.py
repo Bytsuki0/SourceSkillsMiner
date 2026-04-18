@@ -191,13 +191,13 @@ def compute_commit_score(username: str, token: str) -> Dict:
         criteria_met[key]  = summary[key]
         total_points      += int(summary[key])
 
-    normalized_score = total_points / len(required_keys)
+    normalized_score = total_points / (len(required_keys) - 1) 
     return {
         'score': normalized_score,
         'details': {
             'criteria_met': criteria_met,
             'total_points': total_points,
-            'max_points':   len(required_keys),
+            'max_points':   (len(required_keys)-1),
             'percentage':   normalized_score * 100,
         },
     }
