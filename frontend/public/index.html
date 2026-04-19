@@ -817,7 +817,7 @@ function renderProfile(data) {
 
   // §2 Area scores — table rows
   const AREA_META = {
-    OSS:        { label: 'Open-Source Engagement', keys: ['issue_resolution_rate','pr_merge_rate','commits_activity'] },
+    OSS:        { label: 'Open-Source Engagement', keys: ['issue_resolution_rate','pr_merge_rate','Commit_frequency'] },
     Status:     { label: 'Development Status',     keys: ['lines_activity','commits_activity','week_streak'] },
     Sentiment:  { label: 'Communication Sentiment',keys: [] },
     Commitment: { label: 'Long-term Commitment',   keys: [] },
@@ -893,7 +893,6 @@ function renderProfile(data) {
   const critLabels = {
     has_12_month_streak:                '12-month contribution streak maintained',
     has_6_month_streak:                 '6-month contribution streak maintained',
-    has_write_to_non_owned_repo:        'Write access granted to external repositories',
     has_repo_at_50th_percentile_commits:'Commit count at or above 50th percentile',
     at_75th_percentile_followers:       'Follower count at or above 75th percentile',
   };
