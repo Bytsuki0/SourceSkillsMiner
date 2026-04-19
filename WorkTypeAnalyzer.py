@@ -799,7 +799,7 @@ class GitHubCommitmentAnalyzer:
         summary = {
             "has_12_month_streak":                max_streak >= 12,
             "has_6_month_streak":                 max_streak >= 6,
-            "has_write_to_non_owned_repo":        self._check_non_owned_push(push_events),
+#            "has_write_to_non_owned_repo":        self._check_non_owned_push(push_events),
             "has_repo_at_50th_percentile_commits": self._check_50th_percentile_commits(repos),
             "at_75th_percentile_followers":       self._check_75th_percentile_followers(user_info),
         }

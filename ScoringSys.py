@@ -177,7 +177,6 @@ def compute_commit_score(username: str, token: str) -> Dict:
     required_keys = [
         'has_12_month_streak',
         'has_6_month_streak',
-        'has_write_to_non_owned_repo',
         'has_repo_at_50th_percentile_commits',
         'at_75th_percentile_followers',
     ]
@@ -191,13 +190,13 @@ def compute_commit_score(username: str, token: str) -> Dict:
         criteria_met[key]  = summary[key]
         total_points      += int(summary[key])
 
-    normalized_score = total_points / (len(required_keys) - 1) 
+    normalized_score = total_points / (len(required_keys)) 
     return {
         'score': normalized_score,
         'details': {
             'criteria_met': criteria_met,
             'total_points': total_points,
-            'max_points':   (len(required_keys)-1),
+            'max_points':   (len(required_keys)),
             'percentage':   normalized_score * 100,
         },
     }

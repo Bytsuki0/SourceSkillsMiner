@@ -27,12 +27,11 @@
         "criteria_met": {
           "has_12_month_streak": false,
           "has_6_month_streak": false,
-          "has_write_to_non_owned_repo": false,
           "has_repo_at_50th_percentile_commits": false,
           "at_75th_percentile_followers": false
         },
         "total_points": 0,
-        "max_points": 5,
+        "max_points": 3,
         "percentage": 0.0
       }
     }
@@ -138,21 +137,21 @@
   "import_scan": {
     "error": null,
     "username": "Okawatani",
-    "analysis_date": "2026-04-18T12:22:49.040533",
+    "analysis_date": "2026-04-18T13:16:50.437816",
     "total_repos_analyzed": 4,
     "total_files_analyzed": 85,
     "languages": {
       "C++": {
         "files_scanned": 38,
         "packages": {
-          "std": 38,
           "namespace": 38,
-          "iostream": 8,
+          "std": 38,
           "<iostream>": 8,
-          "<string>": 3,
+          "iostream": 8,
           "string": 3,
-          "vector": 2,
-          "<vector>": 2
+          "<string>": 3,
+          "<vector>": 2,
+          "vector": 2
         }
       },
       "Go": {
@@ -180,8 +179,8 @@
       "Python": {
         "files_scanned": 1,
         "packages": {
-          "ABC": 1,
-          "abc": 1
+          "abc": 1,
+          "ABC": 1
         }
       }
     },
