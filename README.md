@@ -1,4 +1,4 @@
-# SourceSkillsMiner
+# SourceSkillsMiner ___________OUTDATED DOCUMENT__________________
 
 > **Automated GitHub contributor profiling and multi-dimensional scoring system.**
 
