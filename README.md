@@ -1,4 +1,4 @@
-# SourceSkillsMiner
+# SourceSkillsMiner ___________OUTDATED DOCUMENT__________________
 
 > **Automated GitHub contributor profiling and multi-dimensional scoring system.**
 
@@ -47,7 +47,7 @@ SourceSkillsMiner is a Python-based analytical pipeline that collects, processes
 OSSanaliser  StatusAnaliser  Sentimental    WorkTypeAnalyzer
    .py            .py         Analiser.py       .py
                               
-  GitHub REST API  ←──────────────────────────────────────
+  GitHub GRAPHQL API  ←──────────────────────────────────────
 ```
 
 Each module communicates exclusively with the [GitHub REST API v3](https://docs.github.com/en/rest) using a personal access token. All modules are stateless between runs; results are persisted as per-user JSON files in the `json/` directory.
