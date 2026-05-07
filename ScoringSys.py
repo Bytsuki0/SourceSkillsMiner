@@ -206,7 +206,6 @@ def compute_status_score(username: str, token: str, prefetched_stats: Optional[D
     try:
         analyzer = f3.GitHubStatsAnalyzerAllTime(username, token)
 
-        # ✅ FIX: reuse already fetched stats
         if prefetched_stats:
             analyzer._stats_cache = prefetched_stats
             all_stats = prefetched_stats

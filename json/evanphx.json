@@ -5,54 +5,39 @@
       "score": 1.0,
       "details": {
         "issue_resolution_rate": 0.8108108108108109,
-        "pr_merge_rate": 13.476190476190476,
+        "pr_merge_rate": 14.476190476190476,
         "commits_activity": 1.0
       }
     },
     "Status": {
-      "score": 0.33333333333333326,
+      "score": 0.32542995013153986,
       "details": {
         "lines_activity": 1.0,
-        "commits_activity": 1.0,
-        "week_streak": 0.0
+        "commits_activity": 0.930452617505002,
+        "week_streak": 0.057692307692307696
       }
     },
     "Sentiment": {
-      "score": 0.8888888888888888,
+      "score": 1.0,
       "details": {
         "evanphx/alexa": 0.514525,
         "evanphx/benchmark-ips": 0.16117765957446809,
         "evanphx/benchmark.fyi": 0.35359999999999997,
-        "evanphx/benchmark_suite": 0.12962857142857143,
-        "evanphx/curb": 0.35885,
-        "evanphx/eventd-rfc": 0.17665238095238095,
-        "evanphx/fb": 0.10512999999999999,
-        "evanphx/Gauge": 0.09895000000000001,
-        "evanphx/gx": -0.008439999999999998,
-        "evanphx/heap_dump": -0.46465,
-        "evanphx/json-patch": 0.07969264705882353,
-        "evanphx/kpeg": 0.23379534883720932,
-        "evanphx/lights": 0.4374,
-        "evanphx/marius": 0.08533333333333333,
-        "evanphx/newrelic-redis": 0.08201666666666667,
-        "evanphx/rubygems": 0.4404,
-        "evanphx/stark": 0.17927058823529413,
-        "evanphx/stark-rack": 0.4404
+        "evanphx/benchmark_suite": 0.12962857142857143
       }
     },
     "Commitment": {
-      "score": 0.6,
+      "score": 0.75,
       "details": {
         "criteria_met": {
           "has_12_month_streak": true,
           "has_6_month_streak": true,
-          "has_write_to_non_owned_repo": false,
-          "has_repo_at_50th_percentile_commits": true,
-          "at_75th_percentile_followers": false
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
         },
         "total_points": 3,
-        "max_points": 5,
-        "percentage": 60.0
+        "max_points": 4,
+        "percentage": 75.0
       }
     }
   },
@@ -62,21 +47,1003 @@
     "Sentiment": 0.25,
     "Commitment": 0.25
   },
-  "final_score": 0.7055555555555555,
+  "final_score": 0.768857487532885,
   "language_usage": {
     "error": null,
-    "languages": {},
-    "language_count": 0,
-    "total_commits": 0,
-    "total_lines": 0
+    "languages": {
+      "Go": [
+        7878603,
+        407
+      ],
+      "C": [
+        64205,
+        60
+      ],
+      "Shell": [
+        23314,
+        7
+      ],
+      "PLpgSQL": [
+        65628,
+        0
+      ],
+      "Ruby": [
+        1806710,
+        385
+      ],
+      "CSS": [
+        4843,
+        8
+      ],
+      "HTML": [
+        189625,
+        15
+      ],
+      "JavaScript": [
+        204,
+        0
+      ],
+      "CoffeeScript": [
+        6,
+        0
+      ],
+      "Assembly": [
+        212870,
+        0
+      ],
+      "C++": [
+        7898,
+        221
+      ],
+      "Python": [
+        8213,
+        0
+      ],
+      "Perl": [
+        2710,
+        0
+      ],
+      "Makefile": [
+        1323,
+        0
+      ],
+      "Batchfile": [
+        564,
+        0
+      ],
+      "Logos": [
+        95,
+        0
+      ],
+      "Awk": [
+        34,
+        0
+      ],
+      "Fortran": [
+        30,
+        0
+      ],
+      "GDB": [
+        5,
+        0
+      ],
+      "Vim Script": [
+        3252,
+        11
+      ],
+      "WebAssembly": [
+        0,
+        8
+      ],
+      "Lua": [
+        0,
+        14
+      ],
+      "Tree-sitter Query": [
+        0,
+        0
+      ],
+      "AppleScript": [
+        0,
+        0
+      ],
+      "Protocol Buffer": [
+        0,
+        12
+      ],
+      "HCL": [
+        0,
+        1
+      ],
+      "Objective-C": [
+        0,
+        4
+      ],
+      "Swift": [
+        0,
+        0
+      ],
+      "Thrift": [
+        0,
+        1
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "Scheme": [
+        0,
+        0
+      ],
+      "Rust": [
+        0,
+        3
+      ],
+      "TypeScript": [
+        0,
+        2
+      ],
+      "XSLT": [
+        0,
+        0
+      ],
+      "Java": [
+        0,
+        0
+      ],
+      "Ada": [
+        0,
+        0
+      ],
+      "Visual Basic": [
+        0,
+        0
+      ],
+      "C#": [
+        0,
+        0
+      ],
+      "Puppet": [
+        0,
+        0
+      ],
+      "Component Pascal": [
+        0,
+        0
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        0
+      ],
+      "CLIPS": [
+        0,
+        0
+      ],
+      "Prolog": [
+        0,
+        0
+      ]
+    },
+    "language_count": 44,
+    "total_commits": 1159,
+    "total_lines": 10270132,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 7878603,
+        "commits": 407
+      },
+      {
+        "language": "Ruby",
+        "lines": 1806710,
+        "commits": 385
+      },
+      {
+        "language": "C++",
+        "lines": 7898,
+        "commits": 221
+      },
+      {
+        "language": "C",
+        "lines": 64205,
+        "commits": 60
+      },
+      {
+        "language": "HTML",
+        "lines": 189625,
+        "commits": 15
+      }
+    ]
   },
   "import_scan": {
     "error": null,
     "username": "evanphx",
-    "analysis_date": "2026-02-17T21:18:13.800837",
-    "total_repos_analyzed": 0,
-    "total_files_analyzed": 0,
-    "languages": {},
-    "repositories": []
+    "analysis_date": "2026-05-07T17:24:44.219045",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 396,
+    "languages": {
+      "C": {
+        "files_scanned": 7,
+        "packages": {
+          "curb_errors.h": 4,
+          "curb_upload.h": 3,
+          "curb_postfield.h": 3,
+          "<errno.h>": 2,
+          "curb_easy.h": 2,
+          "errno.h": 2,
+          "curb_multi.h": 2,
+          "_cgo_export.h": 1,
+          "curb.h": 1,
+          "<string.h>": 1,
+          "string.h": 1,
+          "st.h": 1,
+          "<ruby/st.h>": 1,
+          "curb_config.h": 1,
+          "ruby/st.h": 1,
+          "ruby.h": 1,
+          "fcntl.h": 1,
+          "<ruby.h>": 1,
+          "<st.h>": 1,
+          "<fcntl.h>": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "namespace": 1,
+          "<iostream>": 1,
+          "\\": 1,
+          "<boost/asio/io_service.hpp>": 1,
+          "iostream": 1,
+          "boost/asio/io_service.hpp": 1,
+          "std": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 6,
+        "packages": {
+          "curb.h": 5,
+          "curb_easy.h": 2,
+          "<curl/easy.h>": 2,
+          "curl/easy.h": 2,
+          "<curl/curl.h>": 1,
+          "curb_config.h": 1,
+          "curb_postfield.h": 1,
+          "ruby.h": 1,
+          "<ruby.h>": 1,
+          "curl/curl.h": 1,
+          "curb_macros.h": 1,
+          "curb_multi.h": 1,
+          "curb_errors.h": 1,
+          "curl/multi.h": 1,
+          "<curl/multi.h>": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 1,
+        "packages": {
+          "http://dartwatch.com/myOtherLibrary.dart": 1,
+          "myOtherLibrary.dart": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 141,
+        "packages": {
+          "fmt": 57,
+          "time": 33,
+          "net/http": 28,
+          "sync": 26,
+          "testing": 24,
+          "io": 23,
+          "bytes": 20,
+          "os": 19,
+          "strings": 17,
+          "mem": 14,
+          "github.com/concourse/atc/db": 13,
+          "github.com/concourse/atc/api/auth": 12,
+          "unsafe": 11,
+          "log": 10,
+          "runtime": 10,
+          "sync/atomic": 10,
+          "errors": 10,
+          "io/ioutil": 10,
+          "defs": 10,
+          "encoding/binary": 9,
+          "util": 9,
+          "encoding/json": 8,
+          "github.com/concourse/atc": 8,
+          "net/http/httptest": 8,
+          "sort": 7,
+          "strconv": 7,
+          "github.com/sclevine/agouti": 7,
+          "github.com/concourse/atc/api/auth/authfakes": 7,
+          "stats": 7,
+          "res": 7,
+          "github.com/stretchr/testify/require": 7,
+          "github.com/streadway/amqp": 6,
+          "net": 6,
+          "bounds": 6,
+          "ustr": 6,
+          "net/url": 5,
+          "reflect": 5,
+          "fdops": 5,
+          "github.com/Sirupsen/logrus": 5,
+          "syscall": 5,
+          "github.com/hashicorp/consul/acl": 5,
+          "bufio": 4,
+          "math/rand": 4,
+          "crypto/tls": 4,
+          "github.com/concourse/atc/db/dbfakes": 4,
+          "context": 4,
+          "stat": 4,
+          "limits": 4,
+          "github.com/hashicorp/consul/agent/structs": 4,
+          "math": 3,
+          "os/exec": 3,
+          "path/filepath": 3,
+          "flag": 3,
+          "crypto/x509": 3,
+          "regexp": 3,
+          "github.com/onsi/gomega/gexec": 3,
+          "github.com/concourse/skymarshal/provider": 3,
+          "hashtable": 3,
+          "foo": 3,
+          "github.com/evanphx/alexa/config": 2,
+          "github.com/evanphx/alexa/portaudio": 2,
+          "crypto/sha1": 2,
+          "math/big": 2,
+          "version": 2,
+          "product": 2,
+          "github.com/lib/pq": 2,
+          "github.com/tedsuo/ifrit": 2,
+          "crypto/rand": 2,
+          "crypto/rsa": 2,
+          "go/token": 2,
+          "go/ast": 2,
+          "apic": 2,
+          "pci": 2,
+          "container/list": 2,
+          "msi": 2,
+          "proc": 2,
+          "inet": 2,
+          "bpath": 2,
+          "hash": 2,
+          "number": 2,
+          "size": 2,
+          "omg": 2,
+          "animal": 2,
+          "github.com/tobi/airbrake-go": 2,
+          "github.com/stretchr/testify/assert": 2,
+          "log/syslog": 2,
+          "github.com/armon/go-radix": 2,
+          "github.com/hashicorp/consul/api": 2,
+          "namespace": 1,
+          "github.com/fatih/color": 1,
+          "locale": 1,
+          "playerActivity": 1,
+          "messageBody": 1,
+          "net/textproto": 1,
+          "name": 1,
+          "profile": 1,
+          "payload": 1,
+          "format": 1,
+          "deviceContext": 1,
+          "offsetInMilliseconds": 1,
+          "mime/multipart": 1,
+          "mime": 1,
+          "messageHeader": 1,
+          "streamId": 1,
+          "github.com/evanphx/alexa": 1,
+          "github.com/jessevdk/go-flags": 1,
+          "os/signal": 1,
+          "<portaudio.h>": 1,
+          "C": 1,
+          "deviceSerialNumber": 1,
+          "alexa:all": 1,
+          "productInstanceAttributes": 1,
+          "productID": 1,
+          "github.com/mjibson/go-dsp/fft": 1,
+          "golang.org/x/net/context": 1,
+          "got": 1,
+          "this": 1,
+          "to": 1,
+          "amq.": 1,
+          "headers": 1,
+          "container/heap": 1,
+          "connection.blocked": 1,
+          "consumer_cancel_notify": 1,
+          "accepts": 1,
+          "DialTLS": 1,
+          "a": 1,
+          "Case": 1,
+          "F": 1,
+          "t": 1,
+          "I": 1,
+          "test-integration-missing-passive-exchange": 1,
+          "T": 1,
+          "testing/quick": 1,
+          "S": 1,
+          "hash/crc32": 1,
+          "V": 1,
+          "l": 1,
+          "A": 1,
+          "d": 1,
+          "f": 1,
+          "direct": 1,
+          "x": 1,
+          "D": 1,
+          "b": 1,
+          "x-dead-letter-exchange": 1,
+          "ham": 1,
+          "s": 1,
+          "test-integration-missing-passive-queue": 1,
+          "encoding/hex": 1,
+          "shortstr": 1,
+          "shortshort": 1,
+          "table": 1,
+          "timestamp": 1,
+          "short": 1,
+          "octet": 1,
+          "text/template": 1,
+          "longstr": 1,
+          "private": 1,
+          "longlong": 1,
+          "long": 1,
+          "encoding/xml": 1,
+          "public": 1,
+          "clean": 1,
+          "bit": 1,
+          "amqp": 1,
+          "amqps": 1,
+          "github.com/concourse/atc/postgresrunner": 1,
+          "github.com/concourse/atc/db/lock": 1,
+          "--generic-oauth-auth-url-param": 1,
+          "--uaa-auth-client-id": 1,
+          "--debug-bind-port": 1,
+          "--generic-oauth-auth-url": 1,
+          "--github-auth-team": 1,
+          "--generic-oauth-display-name": 1,
+          "--generic-oauth-client-secret": 1,
+          "encoding/pem": 1,
+          "--generic-oauth-client-id": 1,
+          "--github-auth-client-secret": 1,
+          "--generic-oauth-token-url": 1,
+          "--uaa-auth-auth-url": 1,
+          "--github-auth-user": 1,
+          "--uaa-auth-client-secret": 1,
+          "crypto/x509/pkix": 1,
+          "github.com/tedsuo/ifrit/ginkgomon": 1,
+          "--peer-url": 1,
+          "--postgres-data-source": 1,
+          "--github-auth-client-id": 1,
+          "--session-signing-key": 1,
+          "--external-url": 1,
+          "--basic-auth-username": 1,
+          "--github-auth-token-url": 1,
+          "--uaa-auth-token-url": 1,
+          "--uaa-auth-cf-ca-cert": 1,
+          "--github-auth-api-url": 1,
+          "--bind-port": 1,
+          "--github-auth-organization": 1,
+          "--github-auth-auth-url": 1,
+          "--uaa-auth-cf-url": 1,
+          "--uaa-auth-cf-space": 1,
+          "--basic-auth-password": 1,
+          "github.com/onsi/gomega/gbytes": 1,
+          "version=0.0.0-dev": 1,
+          "github.com/onsi/gomega/ghttp": 1,
+          "code.cloudfoundry.org/urljoiner": 1,
+          "golang.org/x/oauth2": 1,
+          "1.2.3": 1,
+          "code.cloudfoundry.org/lager/lagertest": 1,
+          "github.com/concourse/atc/api": 1,
+          "github.com/concourse/atc/api/jobserver/jobserverfakes": 1,
+          "code.cloudfoundry.org/lager": 1,
+          "github.com/concourse/atc/api/containerserver/containerserverfakes": 1,
+          "github.com/concourse/atc/api/resourceserver/resourceserverfakes": 1,
+          "github.com/concourse/atc/worker/workerfakes": 1,
+          "github.com/concourse/atc/engine/enginefakes": 1,
+          "4.5.6": 1,
+          "github.com/concourse/atc/wrappa": 1,
+          "github.com/concourse/atc/creds/credsfakes": 1,
+          "sys_info": 1,
+          "package": 1,
+          "go/constant": 1,
+          "sys_recvmsg": 1,
+          "sys_reboot": 1,
+          "sys_setsockopt": 1,
+          "golang.org/x/tools/go/ssa/ssautil": 1,
+          "sys_getcwd": 1,
+          "\\": 1,
+          "sys_getrusage": 1,
+          "golang.org/x/tools/go/callgraph": 1,
+          "sys_kill": 1,
+          "sys_link": 1,
+          "sys_rename": 1,
+          "************************\\n": 1,
+          "sys_writev": 1,
+          "sys_pause": 1,
+          "SYMBOLIC": 1,
+          "sys_socketpair": 1,
+          "golang.org/x/tools/go/pointer": 1,
+          "sys_futex": 1,
+          "golang.org/x/tools/go/loader": 1,
+          "sys_mkdir": 1,
+          "go/types": 1,
+          "sys_poll": 1,
+          "sys_connect": 1,
+          "golang.org/x/tools/go/ssa": 1,
+          "sys_read": 1,
+          "go/parser": 1,
+          "fs": 1,
+          "destm:": 1,
+          "deliv:": 1,
+          "act:": 1,
+          "dest:": 1,
+          "circbuf": 1,
+          "vm": 1,
+          "tinfo": 1,
+          "fd": 1,
+          "hash/fnv": 1,
+          "irqs": 1,
+          "spurs": 1,
+          "%v\\n": 1,
+          "bnet": 1,
+          "crypto/md5": 1,
+          "github.com/Sirupsen/logrus/hooks/airbrake": 1,
+          "endpoint": 1,
+          "error": 1,
+          "source": 1,
+          "key1": 1,
+          "gvisor.googlesource.com/gvisor/pkg/abi": 1,
+          "gvisor.googlesource.com/gvisor/pkg/binary": 1,
+          "github.com/stretchr/testify/mock": 1,
+          "allow": 1,
+          "deny": 1,
+          "manage": 1,
+          "prefix-deny": 1,
+          "prefix-read-allowed": 1,
+          "prefix-allow-other-read-exact": 1,
+          "prefix-deny-other-write-exact": 1,
+          "prefix-list-allowed": 1,
+          "prefix-deny-other-deny-exact": 1,
+          "prefix-deny-other-deny-prefix": 1,
+          "Intention": 1,
+          "prefix-allow-other-list-prefix": 1,
+          "Peering": 1,
+          "Prefer": 1,
+          "Defaults": 1,
+          "prefix-allow-other-read-prefix": 1,
+          "prefix-allow-other-list-exact": 1,
+          "prefix-write-allowed": 1,
+          "prefix-deny-other-list-exact": 1,
+          "prefix-allow-other-write-exact": 1,
+          "prefix-allow-other-write-prefix": 1,
+          "no-rules-default": 1,
+          "prefix-deny-other-list-prefix": 1,
+          "prefix-deny-other-read-exact": 1,
+          "prefix-deny-other-write-prefix": 1,
+          "prefix-deny-other-read-prefix": 1,
+          "prefix-allow-other-deny-prefix": 1,
+          "prefix-allow-other-deny-exact": 1,
+          "github.com/hashicorp/hcl": 1,
+          "foo/": 1,
+          "event": 1,
+          "bar": 1,
+          "service_prefix": 1,
+          "Received": 1,
+          "foo/bar/baz": 1,
+          "keyring": 1,
+          "||": 1,
+          "session": 1,
+          "foo/bar/": 1,
+          "node_prefix": 1,
+          "agent_prefix": 1,
+          "baz": 1,
+          "key_prefix": 1,
+          "session_prefix": 1,
+          "policy": 1,
+          "operator": 1,
+          "query_prefix": 1,
+          "event_prefix": 1,
+          "mesh": 1,
+          "key": 1,
+          "node": 1,
+          "query": 1,
+          "agent": 1,
+          "peering": 1,
+          "service": 1,
+          "access": 1,
+          "resource": 1,
+          "auth": 1,
+          "RE": 1,
+          "expected": 1,
+          "github.com/hashicorp/serf/serf": 1,
+          "github.com/hashicorp/consul/types": 1,
+          "github.com/hashicorp/consul/lib": 1,
+          "JWTSupportedAlgs": 1,
+          "github.com/hashicorp/consul/agent/consul/authmethod/testauth": 1,
+          "first_name": 1,
+          "test": 1,
+          "Refusing": 1,
+          "https://legit.issuer.internal/": 1,
+          "test--jeff2--engineering": 1,
+          "success": 1,
+          "demo1": 1,
+          "Initial": 1,
+          "No": 1,
+          "role-test": 1,
+          "Failed": 1,
+          "github.com/hashicorp/consul/testrpc": 1,
+          "should": 1,
+          "github.com/hashicorp/go-uuid": 1,
+          "policy-": 1,
+          "gopkg.in/square/go-jose.v2/jwt": 1,
+          "ClaimMappings": 1,
+          "SessionID": 1,
+          "demo2": 1,
+          "blah": 1,
+          "ACL": 1,
+          "ACL.PolicySet": 1,
+          "ACL.TokenSet": 1,
+          "policy-read-all-nodes": 1,
+          "github.com/hashicorp/consul/internal/go-sso/oidcauth/oidcauthtest": 1,
+          "ListClaimMappings": 1,
+          "github.com/hashicorp/consul/sdk/testutil": 1,
+          "rule-test": 1,
+          "https://consul.test/groups": 1,
+          "request": 1,
+          "BoundAudiences": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 31,
+        "packages": {
+          "goog.testing.jsunit": 12,
+          "goog.dom.TagName": 8,
+          "goog.dom": 7,
+          "goog.testing.MockClock": 7,
+          "goog.Disposable": 6,
+          "goog.Timer": 6,
+          "goog.a11y.aria.State": 5,
+          "ace": 4,
+          "goog.array": 4,
+          "goog.asserts": 4,
+          "goog.testing.recordFunction": 4,
+          "goog.a11y.aria": 3,
+          "goog.object": 3,
+          "goog.string": 3,
+          "goog.testing.PropertyReplacer": 3,
+          "goog.a11y.aria.LivePriority": 2,
+          "goog.a11y.aria.Role": 2,
+          "goog.functions": 2,
+          "goog.async.Delay": 2,
+          "goog.async.FreeList": 2,
+          "goog.labs.userAgent.browser": 2,
+          "goog.debug.entryPointRegistry": 2,
+          "goog.async.nextTick": 2,
+          "kitchen-sink": 1,
+          "path": 1,
+          "window": 1,
+          "fs": 1,
+          "MODULE": 1,
+          "dryice": 1,
+          "+": 1,
+          "main": 1,
+          "null": 1,
+          "regexLiterals:!0})": 1,
+          "]": 1,
+          "F=[w": 1,
+          "[": 1,
+          "hashComments:!0": 1,
+          "I=[v": 1,
+          "multiLineStrings:!0": 1,
+          "goog.dom.iframe": 1,
+          "goog.a11y.aria.Announcer": 1,
+          "goog.a11y.aria.datatables": 1,
+          "required": 1,
+          "goog.debug.Error": 1,
+          "goog.dom.NodeType": 1,
+          "goog.userAgent": 1,
+          "goog.asserts.AssertionError": 1,
+          "goog.events": 1,
+          "goog.async.AnimationDelay": 1,
+          "goog.testing.testSuite": 1,
+          "goog.async.ConditionalDelay": 1,
+          "goog.async.Debouncer": 1,
+          "goog.labs.userAgent.engine": 1,
+          "goog.Promise": 1,
+          "goog.debug.ErrorHandler": 1,
+          "goog.async.throwException": 1,
+          "goog.async.WorkQueue": 1,
+          "goog.async.run": 1,
+          "goog.async.Throttle": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 1,
+        "packages": {
+          "stdio.h": 1,
+          "<stdio.h>": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 1,
+        "packages": {
+          "warnings": 1,
+          "strict": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 84,
+        "packages": {
+          "chef/chef_fs/data_handler/data_handler_base": 10,
+          "chef/config": 9,
+          "rubygems": 9,
+          "benchmark/ips": 8,
+          "_usage": 8,
+          "chef/log": 7,
+          "curb": 7,
+          "chef/application": 6,
+          "citrus": 5,
+          "test_helper": 4,
+          "test/unit": 4,
+          "chef/rest": 4,
+          "chef/client": 4,
+          "json": 3,
+          "chef/daemon": 3,
+          "chef/exceptions": 3,
+          "mixlib/cli": 3,
+          "Mixlib::CLI": 3,
+          "chef": 3,
+          "fileutils": 3,
+          "StatsMetric": 2,
+          "minitest/autorun": 2,
+          "tmpdir": 2,
+          "stringio": 2,
+          "benchmark/suite": 2,
+          "benchmark": 2,
+          "chef/providers": 2,
+          "chef/resources": 2,
+          "chef/mash": 2,
+          "chef/platform": 2,
+          "socket": 2,
+          "chef/handler/error_report": 2,
+          "chef/chef_fs/file_system": 2,
+          "chef/api_client": 2,
+          "grammar1": 2,
+          "CalcTestMethods": 2,
+          "typhoeus": 2,
+          "benchmark/ips/job/entry": 1,
+          "benchmark/ips/stats/stats_metric": 1,
+          "benchmark/timing": 1,
+          "benchmark/ips/share": 1,
+          "benchmark/ips/job": 1,
+          "benchmark/ips/stats/bootstrap": 1,
+          "benchmark/ips/stats/sd": 1,
+          "benchmark/ips/job/multi_report": 1,
+          "benchmark/ips/job/stream_report": 1,
+          "benchmark/compare": 1,
+          "benchmark/ips/report": 1,
+          "net/http": 1,
+          "net/https": 1,
+          "kalibera": 1,
+          "ReportsHelper": 1,
+          "rails/all": 1,
+          "bundler/setup": 1,
+          "optparse": 1,
+          "benchmark/helpers": 1,
+          "benchmark_suite": 1,
+          "chef/monkey_patches/object": 1,
+          "chef/monkey_patches/tempfile": 1,
+          "chef/monkey_patches/numeric": 1,
+          "chef/run_status": 1,
+          "chef/version": 1,
+          "chef/nil_argument": 1,
+          "chef/shell_out": 1,
+          "chef/monkey_patches/string": 1,
+          "chef/handler": 1,
+          "chef/handler/json_file": 1,
+          "chef/mixin/params_validate": 1,
+          "chef/search/query": 1,
+          "Chef::Mixin::ParamsValidate": 1,
+          "Chef::Mixin::FromFile": 1,
+          "chef/mixin/from_file": 1,
+          "chef/json_compat": 1,
+          "rbconfig": 1,
+          "pp": 1,
+          "tempfile": 1,
+          "chef/knife": 1,
+          "ohai/config": 1,
+          "mixlib/log": 1,
+          "open-uri": 1,
+          "chef/monologger": 1,
+          "win32/daemon": 1,
+          "win32/service": 1,
+          "chef/application/solo": 1,
+          "chef/application/client": 1,
+          "chef/application/knife": 1,
+          "chef/application/apply": 1,
+          "chef/application/agent": 1,
+          "chef/checksum/storage/filesystem": 1,
+          ":to_s": 1,
+          "chef/chef_fs/file_system/not_found_error": 1,
+          "chef_zero/data_store/memory_store": 1,
+          "chef_zero/data_store/data_not_found_error": 1,
+          "chef/chef_fs/file_pattern": 1,
+          "chef_zero/data_store/data_already_exists_error": 1,
+          "chef/chef_fs/file_system/memory_root": 1,
+          "chef/chef_fs/file_system/operation_failed_error": 1,
+          "chef/chef_fs/file_system/operation_not_allowed_error": 1,
+          "chef/chef_fs/file_system/chef_repository_file_system_root_dir": 1,
+          "chef/chef_fs/file_system/chef_server_root_dir": 1,
+          "chef/chef_fs/path_utils": 1,
+          "chef/cookbook/metadata": 1,
+          "chef/data_bag_item": 1,
+          "chef/environment": 1,
+          "chef/node": 1,
+          "chef/role": 1,
+          "cijoe/config": 1,
+          "cijoe/commit": 1,
+          "cijoe/version": 1,
+          "cijoe/irccat": 1,
+          "cijoe/server": 1,
+          "cijoe/build": 1,
+          "yaml": 1,
+          "CIJoe::Irccat": 1,
+          "Rack::Auth::Basic": 1,
+          "erb": 1,
+          "sinatra/base": 1,
+          "Rack::Utils": 1,
+          "cijoe": 1,
+          "helper": 1,
+          "strscan": 1,
+          "value": 1,
+          "butp": 1,
+          "lineno": 1,
+          "ModuleNameHelpers": 1,
+          "Citrus": 1,
+          "TestGrammar": 1,
+          "Words": 1,
+          "rmem": 1,
+          "net/http/persistent": 1,
+          "patron": 1,
+          "FileUtils": 1,
+          "<curl/curl.h>": 1,
+          "mkmf": 1,
+          "<ruby/st.h>": 1,
+          "<ruby.h>": 1,
+          "curl/easy": 1,
+          "curb_core": 1,
+          "curl/multi": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "evanphx/ace",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "Dart",
+          "Go",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "Perl"
+        ]
+      },
+      {
+        "repository": "evanphx/alexa",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C",
+          "Go"
+        ]
+      },
+      {
+        "repository": "evanphx/amqp",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "evanphx/atc",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "evanphx/benchmark-ips",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evanphx/benchmark.fyi",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evanphx/benchmark_suite",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evanphx/biscuit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "evanphx/brigade",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "evanphx/chef",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evanphx/cijoe",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evanphx/citrus",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "evanphx/closure-library",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "evanphx/columbia",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "evanphx/consul",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "evanphx/curb",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      }
+    ]
   }
 }

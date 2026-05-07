@@ -630,100 +630,111 @@ class GitHubImportScanner:
 
 class GitHubCommitmentAnalyzer:
     """
-    Evaluates a user's commitment to open-source development via five criteria:
-      1. has_12_month_streak  – pushed commits in 12 consecutive calendar months
-      2. has_6_month_streak   – pushed commits in 6 consecutive calendar months
-      3. has_write_to_non_owned_repo – has ever pushed to a repo they don't own
-      4. has_repo_at_50th_percentile_commits – best repo commit count >= median
-         across all their repos (proxy: total personal commits >= 50)
-      5. at_75th_percentile_followers – follower count >= 100 (proxy for top-25%
-         of active GitHub users)
+    Evaluates a user's commitment to open-source development via four criteria:
+      1. has_12_month_streak              – commits in 12 consecutive calendar months
+      2. has_6_month_streak               – commits in 6 consecutive calendar months
+      3. has_repo_at_50th_percentile_commits – best repo commit count >= median
+         across all their repos (proxy: median personal commits per repo >= 50)
+      4. at_75th_percentile_followers     – follower count >= 100 (proxy for top-25%
+         of active GitHub users by follower count)
+
+    All data is sourced via GraphQL — no REST /stats/* or /events/* calls.
+    The module-level _wta_gql_cache is shared with the other analyzer classes
+    so _wta_fetch_all_user_commits() is only executed once per process run.
 
     Returns a dict with a ``summary`` key so ScoringSys.compute_commit_score
-    can consume it unchanged.
+    can consume it unchanged. The has_write_to_non_owned_repo key is always
+    set to False for backwards compatibility with existing consumers.
+    """
+
+    # GraphQL query to fetch follower count and account creation date.
+    # Everything else (commits, months) comes from _wta_fetch_all_user_commits.
+    _GQL_USER_PROFILE = """
+    query($login: String!) {
+      user(login: $login) {
+        createdAt
+        followers { totalCount }
+      }
+    }
     """
 
     def __init__(self, username: str, token: str):
         self.username = username
         self.token = token
-        self.api_url = "https://api.github.com"
         self.headers = {
             "Authorization": f"token {token}",
-            "Accept": "application/vnd.github.v3+json",
+            "Accept":        "application/vnd.github.v3+json",
+            "Content-Type":  "application/json",
         }
 
     # ------------------------------------------------------------------
-    # Low-level helpers
+    # GraphQL helpers
     # ------------------------------------------------------------------
 
-    def _get_user_info(self) -> dict:
-        resp = requests.get(
-            f"{self.api_url}/users/{self.username}", headers=self.headers
-        )
-        return resp.json() if resp.status_code == 200 else {}
-
-    def _get_user_repositories(self) -> List[dict]:
-        repos, page = [], 1
-        while True:
-            url = (
-                f"{self.api_url}/users/{self.username}/repos"
-                f"?per_page=100&page={page}"
+    def _gql(self, query: str, variables: dict) -> Optional[dict]:
+        """Execute a GraphQL query and return the data dict, or None on error."""
+        try:
+            resp = requests.post(
+                _GRAPHQL_URL_WTA,
+                headers=self.headers,
+                json={"query": query, "variables": variables},
+                timeout=30,
             )
-            resp = requests.get(url, headers=self.headers)
-            if resp.status_code != 200:
-                break
-            data = resp.json()
-            if not isinstance(data, list) or not data:
-                break
-            repos.extend(data)
-            page += 1
-        return repos
+        except Exception as exc:
+            print(f"[CommitmentAnalyzer/GraphQL] Network error: {exc}")
+            return None
+        if resp.status_code != 200:
+            print(f"[CommitmentAnalyzer/GraphQL] HTTP {resp.status_code}")
+            return None
+        body = resp.json()
+        if "errors" in body:
+            print(f"[CommitmentAnalyzer/GraphQL] Errors: {body['errors']}")
+        return body.get("data")
 
-    def _get_push_events(self) -> List[dict]:
-        """Fetch up to 10 pages of public push events (≈300 events)."""
-        events = []
-        for page in range(1, 11):
-            url = (
-                f"{self.api_url}/users/{self.username}/events/public"
-                f"?per_page=30&page={page}"
-            )
-            resp = requests.get(url, headers=self.headers)
-            if resp.status_code != 200:
-                break
-            data = resp.json()
-            if not isinstance(data, list) or not data:
-                break
-            events.extend(data)
-        return events
-
-    def _get_repo_commit_count(self, full_name: str) -> int:
+    def _fetch_user_profile(self) -> dict:
         """
-        Return total commits by the user in the given repo via GraphQL.
-        Replaces /stats/contributors — returns immediately, no 202 delays.
+        Fetch follower count via GraphQL.
+        Returns {"followers": N} or {} on failure.
         """
-        return _wta_user_commit_count(self.username, full_name, self.headers)
+        data = self._gql(self._GQL_USER_PROFILE, {"login": self.username})
+        if not data or not data.get("user"):
+            return {}
+        user = data["user"]
+        return {
+            "followers": user.get("followers", {}).get("totalCount", 0),
+        }
 
     # ------------------------------------------------------------------
-    # Criterion evaluators
+    # Criterion evaluators — all derived from the shared GraphQL cache
     # ------------------------------------------------------------------
 
-    def _push_months(self, push_events: List[dict]) -> List[tuple]:
-        """Return sorted list of unique (year, month) tuples with a PushEvent."""
+    def _months_from_contributions(
+        self, all_commits: Dict[str, list]
+    ) -> List[tuple]:
+        """
+        Extract sorted unique (year, month) tuples from all commit contribution
+        nodes returned by _wta_fetch_all_user_commits().
+
+        Each node has the shape {"occurredAt": "ISO-8601", "commitCount": N}.
+        Months with commitCount == 0 are ignored.
+        """
         months: Set[tuple] = set()
-        for event in push_events:
-            if event.get("type") != "PushEvent":
-                continue
-            created = event.get("created_at", "")
-            if not created:
-                continue
-            try:
-                dt = datetime.fromisoformat(created.rstrip("Z"))
-                months.add((dt.year, dt.month))
-            except ValueError:
-                pass
+        for nodes in all_commits.values():
+            for node in nodes:
+                if not node.get("commitCount", 0):
+                    continue
+                occurred = node.get("occurredAt", "")
+                if not occurred:
+                    continue
+                try:
+                    dt = datetime.fromisoformat(occurred.replace("Z", "+00:00"))
+                    months.add((dt.year, dt.month))
+                except ValueError:
+                    pass
         return sorted(months)
 
     def _max_consecutive_months(self, sorted_months: List[tuple]) -> int:
+        """Longest run of consecutive calendar months."""
         if not sorted_months:
             return 0
         max_streak = current = 1
@@ -737,71 +748,67 @@ class GitHubCommitmentAnalyzer:
                 current = 1
         return max_streak
 
-    def _check_non_owned_push(self, push_events: List[dict]) -> bool:
-        prefix = self.username.lower() + "/"
-        for event in push_events:
-            if event.get("type") != "PushEvent":
-                continue
-            repo_name = (event.get("repo") or {}).get("name", "")
-            if repo_name and not repo_name.lower().startswith(prefix):
-                return True
-        return False
-
-    def _check_50th_percentile_commits(self, repos: List[dict]) -> bool:
+    def _check_50th_percentile_commits(
+        self, all_commits: Dict[str, list]
+    ) -> bool:
         """
-        True when the user's most-committed personal repo has >= 50 commits.
-        Serves as a proxy for 'repo at the 50th percentile of commit activity'.
+        True when the median per-repo commit count across the user's repos
+        is >= 50.  Commit counts come from the GraphQL contribution cache —
+        no additional API calls needed.
         """
-        counts = []
-        for repo in repos[:30]:                       # cap to avoid rate-limit
-            c = self._get_repo_commit_count(repo["full_name"])
-            if c > 0:
-                counts.append(c)
-            if len(counts) >= 10:                     # enough for a reliable median
-                break
+        counts = [
+            sum(n.get("commitCount", 0) for n in nodes)
+            for nodes in all_commits.values()
+            if any(n.get("commitCount", 0) for n in nodes)
+        ]
         if not counts:
             return False
         median = sorted(counts)[len(counts) // 2]
         return median >= 50
 
-    def _check_75th_percentile_followers(self, user_info: dict) -> bool:
+    def _check_75th_percentile_followers(self, profile: dict) -> bool:
         """
-        True when the user has >= 100 followers (proxy for top-25% of active
-        GitHub users by follower count).
+        True when the user has >= 100 followers (proxy for the top-25%
+        of active GitHub users by follower count).
         """
-        return (user_info.get("followers") or 0) >= 100
+        return (profile.get("followers") or 0) >= 100
 
     # ------------------------------------------------------------------
-    # Public interface
+    # Public interface — return shape is identical to previous version
     # ------------------------------------------------------------------
 
     def analyze(self) -> dict:
         """
+        Evaluates all four commitment criteria using only GraphQL.
+
         Returns::
 
             {
                 "summary": {
-                    "has_12_month_streak": bool,
-                    "has_6_month_streak": bool,
-                    "has_write_to_non_owned_repo": bool,
+                    "has_12_month_streak":                bool,
+                    "has_6_month_streak":                 bool,
+                    "has_write_to_non_owned_repo":        False,  # removed, kept for compat
                     "has_repo_at_50th_percentile_commits": bool,
-                    "at_75th_percentile_followers": bool,
+                    "at_75th_percentile_followers":       bool,
                 }
             }
         """
-        push_events = self._get_push_events()
-        sorted_months = self._push_months(push_events)
-        max_streak = self._max_consecutive_months(sorted_months)
+        # All commit data fetched once and cached at module level.
+        # Any other class that already called _wta_fetch_all_user_commits for
+        # this user pays nothing here.
+        all_commits = _wta_fetch_all_user_commits(self.username, self.headers)
 
-        repos = self._get_user_repositories()
-        user_info = self._get_user_info()
+        sorted_months = self._months_from_contributions(all_commits)
+        max_streak    = self._max_consecutive_months(sorted_months)
+
+        profile = self._fetch_user_profile()
 
         summary = {
-            "has_12_month_streak":                max_streak >= 12,
-            "has_6_month_streak":                 max_streak >= 6,
-#            "has_write_to_non_owned_repo":        self._check_non_owned_push(push_events),
-            "has_repo_at_50th_percentile_commits": self._check_50th_percentile_commits(repos),
-            "at_75th_percentile_followers":       self._check_75th_percentile_followers(user_info),
+            "has_12_month_streak":                 max_streak >= 12,
+            "has_6_month_streak":                  max_streak >= 6,
+            "has_write_to_non_owned_repo":         False,   # criterion removed; kept for schema compat
+            "has_repo_at_50th_percentile_commits": self._check_50th_percentile_commits(all_commits),
+            "at_75th_percentile_followers":        self._check_75th_percentile_followers(profile),
         }
         return {"summary": summary}
 

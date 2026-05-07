@@ -1,0 +1,404 @@
+{
+  "username": "Derisis13",
+  "areas": {
+    "OSS": {
+      "score": 0.8390804597701149,
+      "details": {
+        "issue_resolution_rate": 0.7586206896551724,
+        "pr_merge_rate": 1.0,
+        "Commit_frequency": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "Derisis13/es-pir-esence": 0.6932
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.25,
+    "Status": 0.25,
+    "Sentiment": 0.25,
+    "Commitment": 0.25
+  },
+  "final_score": 0.5527188328912467,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        18546,
+        64
+      ],
+      "CMake": [
+        2347,
+        1
+      ],
+      "Makefile": [
+        60,
+        0
+      ],
+      "Python": [
+        44772,
+        51
+      ],
+      "C++": [
+        1638,
+        0
+      ],
+      "HTML": [
+        3765,
+        11
+      ],
+      "CSS": [
+        103659,
+        10
+      ],
+      "Ruby": [
+        221,
+        0
+      ],
+      "Shell": [
+        414807,
+        26
+      ],
+      "Lua": [
+        290553,
+        18
+      ],
+      "QML": [
+        73339,
+        4
+      ],
+      "Assembly": [
+        31,
+        0
+      ],
+      "Jupyter Notebook": [
+        632218,
+        9
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 194,
+    "total_lines": 1585956,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 18546,
+        "commits": 64
+      },
+      {
+        "language": "Python",
+        "lines": 44772,
+        "commits": 51
+      },
+      {
+        "language": "Shell",
+        "lines": 414807,
+        "commits": 26
+      },
+      {
+        "language": "Lua",
+        "lines": 290553,
+        "commits": 18
+      },
+      {
+        "language": "HTML",
+        "lines": 3765,
+        "commits": 11
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Derisis13",
+    "analysis_date": "2026-04-19T00:57:38.802450",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 63,
+    "languages": {
+      "C": {
+        "files_scanned": 13,
+        "packages": {
+          "stdlib.h": 4,
+          "stdio.h": 4,
+          "<stdio.h>": 4,
+          "<stdlib.h>": 3,
+          "main.h": 3,
+          "util/delay.h": 2,
+          "avr/io.h": 2,
+          "<util/delay.h>": 2,
+          "<avr/io.h>": 2,
+          "PT6302.h": 2,
+          "string.h": 2,
+          "<string.h>": 2,
+          "<errno.h>": 2,
+          "errno.h": 2,
+          "moving.h": 2,
+          "timing.h": 2,
+          "usb_device.h": 1,
+          "stm32f1xx_it.h": 1,
+          "<time.h>": 1,
+          "signal.h": 1,
+          "<signal.h>": 1,
+          "sys/times.h": 1,
+          "<sys/time.h>": 1,
+          "<sys/times.h>": 1,
+          "time.h": 1,
+          "sys/time.h": 1,
+          "sys/stat.h": 1,
+          "<sys/stat.h>": 1,
+          "<stdint.h>": 1,
+          "stdint.h": 1,
+          "stm32f1xx.h": 1,
+          "<unistd.h>": 1,
+          "unistd.h": 1,
+          "shutter.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "arduino-led.hpp": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<util/delay.h>": 1,
+          "util/delay.h": 1,
+          "<avr/io.h>": 1,
+          "avr/io.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 22,
+        "packages": {
+          "<stdint.h>": 14,
+          "stdint.h": 14,
+          "cmsis_version.h": 12,
+          "CMSIS_VECTAB_VIRTUAL_HEADER_FILE": 12,
+          "cmsis_compiler.h": 12,
+          "CMSIS_NVIC_VIRTUAL_HEADER_FILE": 12,
+          "mpu_armv8.h": 4,
+          "mpu_armv7.h": 4,
+          "stm32f1xx_hal.h": 2,
+          "shutter.h": 2,
+          "avr/io.h": 1,
+          "<avr/io.h>": 1,
+          "<inttypes.h>": 1,
+          "inttypes.h": 1,
+          "stm32f1xx_hal_gpio.h": 1,
+          "stm32f1xx_hal_rcc.h": 1,
+          "stm32f1xx_hal_eth.h": 1,
+          "stm32f1xx_hal_adc.h": 1,
+          "stm32f1xx_hal_irda.h": 1,
+          "stm32f1xx_hal_nor.h": 1,
+          "stm32f1xx_hal_pcd.h": 1,
+          "stm32f1xx_hal_pccard.h": 1,
+          "stm32f1xx_hal_exti.h": 1,
+          "stm32f1xx_hal_pwr.h": 1,
+          "stm32f1xx_hal_sd.h": 1,
+          "stm32f1xx_hal_mmc.h": 1,
+          "stm32f1xx_hal_smartcard.h": 1,
+          "stm32f1xx_hal_rtc.h": 1,
+          "stm32f1xx_hal_iwdg.h": 1,
+          "stm32f1xx_hal_can.h": 1,
+          "stm32f1xx_hal_wwdg.h": 1,
+          "stm32f1xx_hal_tim.h": 1,
+          "stm32f1xx_hal_cec.h": 1,
+          "stm32f1xx_hal_hcd.h": 1,
+          "stm32f1xx_hal_i2c.h": 1,
+          "stm32f1xx_hal_sram.h": 1,
+          "stm32f1xx_hal_flash.h": 1,
+          "stm32f1xx_hal_i2s.h": 1,
+          "stm32f1xx_hal_spi.h": 1,
+          "stm32f1xx_hal_nand.h": 1,
+          "stm32f1xx_hal_crc.h": 1,
+          "stm32f1xx_hal_uart.h": 1,
+          "stm32f1xx_hal_dac.h": 1,
+          "stm32f1xx_hal_usart.h": 1,
+          "stm32f1xx_hal_cortex.h": 1,
+          "Legacy/stm32f1xx_hal_can_legacy.h": 1,
+          "stm32f1xx_hal_dma.h": 1,
+          "system_stm32f1xx.h": 1,
+          "core_cm3.h": 1,
+          "stm32f103xg.h": 1,
+          "stm32f100xe.h": 1,
+          "stm32f107xc.h": 1,
+          "stm32f100xb.h": 1,
+          "stm32f103xb.h": 1,
+          "stm32f102xb.h": 1,
+          "stm32f101x6.h": 1,
+          "stm32f103x6.h": 1,
+          "stm32f103xe.h": 1,
+          "stm32f105xc.h": 1,
+          "stm32f101xg.h": 1,
+          "stm32f102x6.h": 1,
+          "stm32f101xe.h": 1,
+          "stm32f101xb.h": 1,
+          "<arm_compat.h>": 1,
+          "arm_compat.h": 1,
+          "cmsis_iccarm.h": 1,
+          "<cmsis_iccarm.h>": 1,
+          "cmsis_armcc.h": 1,
+          "cmsis_gcc.h": 1,
+          "<cmsis_ccs.h>": 1,
+          "cmsis_csm.h": 1,
+          "cmsis_armclang.h": 1,
+          "<cmsis_csm.h>": 1,
+          "cmsis_ccs.h": 1,
+          "iccarm_builtin.h": 1,
+          "intrinsics.h": 1,
+          "<intrinsics.h>": 1,
+          "<time.h>": 1,
+          "time.h": 1,
+          "stdio.h": 1,
+          "<stdio.h>": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 5,
+        "packages": {
+          "conform": 2,
+          "options": 1,
+          "nvchad.autocmds": 1,
+          "nvchad.plugins": 1,
+          "lazy": 1,
+          "myinit": 1,
+          "mappings": 1,
+          "nvchad.mappings": 1,
+          "gitsigns": 1,
+          "nvchad.options": 1,
+          "configs.conform": 1,
+          "nvchad.configs.lspconfig": 1,
+          "configs.lspconfig": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 8,
+        "packages": {
+          "matplotlib": 4,
+          "os": 3,
+          "Path": 3,
+          "datetime": 3,
+          "tqdm": 3,
+          "pathlib": 3,
+          "json": 3,
+          "bisect_moonquake": 3,
+          "pandas": 2,
+          "obspy": 2,
+          "numpy": 2,
+          "CAT_LUNAR": 2,
+          "create_matched_filter": 2,
+          "subprocess": 1,
+          "getopt": 1,
+          "shutil": 1,
+          "sys": 1,
+          "distutils": 1,
+          "setuptools": 1,
+          "setup": 1,
+          "UTCDateTime": 1,
+          "from_mseed": 1,
+          "path": 1,
+          "glob": 1,
+          "read": 1,
+          "detect_moonquakes": 1,
+          "correlate": 1,
+          "scipy": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Derisis13/AT-VFD",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "Derisis13/barusu",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Derisis13/clion-avr-c-demo",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "Derisis13/dotfiles",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "Derisis13/dtgen",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "Derisis13/hun_repeater_scraper",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Derisis13/memdump-fw",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "Derisis13/SeismStart",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Derisis13/Shutter",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}
