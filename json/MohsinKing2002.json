@@ -1,0 +1,541 @@
+{
+  "username": "MohsinKing2002",
+  "areas": {
+    "OSS": {
+      "score": 0.9047619047619047,
+      "details": {
+        "issue_resolution_rate": 0.8571428571428571,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.25117832508927496,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8190751799416048,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 0.6375,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "MohsinKing2002/boat-airdopes": 0.4939
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.608688045970236,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        39384,
+        0
+      ],
+      "Python": [
+        150017,
+        2
+      ],
+      "Java": [
+        242113,
+        0
+      ],
+      "CSS": [
+        1117018,
+        17
+      ],
+      "HTML": [
+        1741509,
+        53
+      ],
+      "JavaScript": [
+        631213,
+        124
+      ],
+      "C": [
+        2926,
+        0
+      ],
+      "Procfile": [
+        3,
+        0
+      ],
+      "TypeScript": [
+        9247,
+        12
+      ],
+      "Shell": [
+        327,
+        0
+      ],
+      "Dockerfile": [
+        157,
+        0
+      ],
+      "PHP": [
+        2981,
+        0
+      ],
+      "HCL": [
+        5401,
+        9
+      ],
+      "SCSS": [
+        0,
+        1
+      ],
+      "Go": [
+        0,
+        6
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 224,
+    "total_lines": 3942296,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 631213,
+        "commits": 124
+      },
+      {
+        "language": "HTML",
+        "lines": 1741509,
+        "commits": 53
+      },
+      {
+        "language": "CSS",
+        "lines": 1117018,
+        "commits": 17
+      },
+      {
+        "language": "TypeScript",
+        "lines": 9247,
+        "commits": 12
+      },
+      {
+        "language": "HCL",
+        "lines": 5401,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "MohsinKing2002",
+    "analysis_date": "2026-05-08T22:54:39.325220",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 443,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "stdio.h": 2,
+          "<stdio.h>": 2
+        }
+      },
+      "C++": {
+        "files_scanned": 29,
+        "packages": {
+          "std": 29,
+          "namespace": 29,
+          "iostream": 2,
+          "<iostream>": 2,
+          "Matrix": 1,
+          "libmatrix.hpp": 1,
+          "stdio.h": 1,
+          "<stdio.h>": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "iostream": 1,
+          "<iostream>": 1,
+          "string": 1,
+          "<string>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 30,
+        "packages": {
+          "java.util": 21,
+          "java.io": 13,
+          "Contest1": 11,
+          "javax.servlet": 11,
+          "java.sql": 11,
+          "java.text": 4,
+          "array1": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 151,
+        "packages": {
+          "react": 71,
+          "react-native": 24,
+          "next": 20,
+          "react-redux": 15,
+          "react-router-dom": 15,
+          "react-navigation": 15,
+          "mongoose": 15,
+          "expo": 14,
+          "express": 13,
+          "reduxjs": 12,
+          "axios": 11,
+          "react-dom": 10,
+          "cloudinary": 10,
+          "react-native-paper": 9,
+          "react-toastify": 8,
+          "jsonwebtoken": 8,
+          "cookie-parser": 6,
+          "dotenv": 6,
+          "bootstrap": 6,
+          "react-native-safe-area-context": 6,
+          "antd": 6,
+          "react-icons": 6,
+          "User": 5,
+          "tailwindcss": 4,
+          "passport": 4,
+          "expo-status-bar": 4,
+          "path": 4,
+          "bcryptjs": 4,
+          "firebase": 3,
+          "cors": 3,
+          "express-session": 2,
+          "razorpay": 2,
+          "moment": 2,
+          "email": 2,
+          "name": 2,
+          "Post": 2,
+          "moralis": 1,
+          "react-data-table-component": 1,
+          "react-hot-toast": 1,
+          "globals": 1,
+          "eslint-plugin-react-refresh": 1,
+          "eslint": 1,
+          "eslint-plugin-react-hooks": 1,
+          "typescript-eslint": 1,
+          "expo-image-picker": 1,
+          "jQuery": 1,
+          "chakra-ui": 1,
+          "https:": 1,
+          "react-native-async-storage": 1,
+          "ant-design": 1,
+          "react-otp-input": 1,
+          "framer-motion": 1,
+          "uuid": 1,
+          "twilio": 1,
+          "Phone": 1,
+          "Email": 1,
+          "Username": 1,
+          "note": 1,
+          "Note": 1,
+          "comment": 1,
+          "title": 1,
+          "message": 1,
+          "crypto": 1,
+          "Order": 1,
+          "Payment": 1,
+          "passport-google-oauth20": 1,
+          "socket.io": 1,
+          "http": 1,
+          "password": 1,
+          "Please": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 143,
+        "packages": {
+          "react": 119,
+          "react-router-dom": 89,
+          "react-bootstrap": 74,
+          "react-redux": 54,
+          "react-icons": 27,
+          "framer-motion": 24,
+          "react-toastify": 21,
+          "mui": 10,
+          "react-hot-toast": 6,
+          "axios": 6,
+          "chakra-ui": 4,
+          "react-chartjs-2": 3,
+          "chart.js": 2,
+          "country-state-city": 2,
+          "headlessui": 2,
+          "twilio": 2,
+          "bootstrap": 1,
+          "heroicons": 1,
+          "Default": 1,
+          "socket.io-client": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "os": 3,
+          "sklearn": 2,
+          "pickle": 2,
+          "RandomForestClassifier": 2,
+          "mode": 2,
+          "flask_cors": 2,
+          "scipy": 2,
+          "Flask": 2,
+          "SVC": 2,
+          "numpy": 2,
+          "GaussianNB": 2,
+          "pandas": 2,
+          "LabelEncoder": 2,
+          "flask": 2,
+          "CORS": 2,
+          "Counter": 1,
+          "collections": 1,
+          "seaborn": 1,
+          "accuracy_score": 1,
+          "matplotlib": 1,
+          "train_test_split": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 13,
+        "packages": {
+          "express": 6,
+          "mongoose": 2,
+          "jsonwebtoken": 2,
+          "path": 1,
+          "langchain": 1,
+          "fs": 1,
+          "url": 1,
+          "cors": 1,
+          "cookie-parser": 1,
+          "aws-sdk": 1,
+          "dotenv": 1,
+          "UserDB": 1,
+          "multer": 1,
+          "bcryptjs": 1,
+          "react-hot-toast": 1,
+          "axios": 1,
+          "mr-8": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 11,
+        "packages": {
+          "react": 8,
+          "react-router-dom": 6,
+          "lucide-react": 6,
+          "react-hot-toast": 2,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MohsinKing2002/Aliahns",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/Beginner-Friendly",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "Java"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/blockchain_explorer",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/boat-airdopes",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/BurgerKing",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/CloudProfile",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/codeHelp",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/Connectify",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/CRM-Website",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/Crypto-King",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/Disease-Prediction",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "Python"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/Docker_Gitlab",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/Expo-Shopping-App",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/Ig-UI",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/march_ui",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/MB-Softech-news",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/mbaburgerwalaUI",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/MERN-CRUD",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/mern-note-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/mk-burger-server",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/mk-funtasticVgram",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MohsinKing2002/mk-mern-social-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      }
+    ]
+  }
+}

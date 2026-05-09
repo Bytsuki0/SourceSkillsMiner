@@ -1,0 +1,300 @@
+{
+  "username": "emilycomin",
+  "areas": {
+    "OSS": {
+      "score": 0.3229059885714285,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9843589828571426
+      }
+    },
+    "Status": {
+      "score": 0.404840185498057,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9534141244009317,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Adaptability": {
+      "score": -0.533333,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.08888263481389712,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        1643583,
+        81
+      ],
+      "CSS": [
+        1708737,
+        43
+      ],
+      "HTML": [
+        1888017,
+        23
+      ],
+      "TypeScript": [
+        25608,
+        10
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 157,
+    "total_lines": 5265945,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 1643583,
+        "commits": 81
+      },
+      {
+        "language": "CSS",
+        "lines": 1708737,
+        "commits": 43
+      },
+      {
+        "language": "HTML",
+        "lines": 1888017,
+        "commits": 23
+      },
+      {
+        "language": "TypeScript",
+        "lines": 25608,
+        "commits": 10
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "emilycomin",
+    "analysis_date": "2026-05-09T12:01:26.621031",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 152,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 24,
+        "packages": {
+          "react": 5,
+          "next": 5,
+          "testing-library": 3,
+          "firebase": 3,
+          "vitejs": 3,
+          "vite": 3,
+          "bootstrap": 2,
+          "react-dom": 2,
+          "tailwindcss": 2,
+          "globals": 2,
+          "eslint": 2,
+          "eslint-plugin-react-refresh": 2,
+          "eslint-plugin-react-hooks": 2,
+          "notionhq": 2,
+          "web-vitals": 1,
+          "🖼": 1,
+          "Dom": 1,
+          "Planejado": 1,
+          "0": 1,
+          "Reel": 1,
+          "typescript-eslint": 1,
+          "framer-motion": 1,
+          "mantine": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 52,
+        "packages": {
+          "react": 38,
+          "react-router-dom": 19,
+          "react-icons": 10,
+          "sweetalert2": 4,
+          "mantine": 4,
+          "react-oauth": 3,
+          "radix-ui": 2,
+          "firebase": 2,
+          "react-dom": 2,
+          "react-modal": 1,
+          "phosphor-icons": 1,
+          "social-media": 1,
+          "ant-design": 1,
+          "chart.js": 1,
+          "react-chartjs-2": 1,
+          "react-apexcharts": 1,
+          "dayjs": 1,
+          "tiptap": 1,
+          "antd": 1,
+          "testing-library": 1,
+          "phosphor-react": 1,
+          "vercel": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 21,
+        "packages": {
+          "express": 11,
+          "styled-components": 3,
+          "vitejs": 3,
+          "vite": 3,
+          "supabase": 3,
+          "http:": 2,
+          "cors": 1,
+          "dotenv": 1,
+          "prisma": 1,
+          "googleapis": 1,
+          "crypto": 1,
+          "react": 1,
+          "react-router-dom": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 25,
+        "packages": {
+          "react": 14,
+          "mui": 8,
+          "react-router-dom": 7,
+          "tanstack": 5,
+          "react-dom": 4,
+          "phosphor-icons": 3,
+          "mantine": 3,
+          "sonner": 2,
+          "radix-ui": 2,
+          "lucide-react": 2,
+          "dayjs": 2,
+          "react-icons": 2,
+          "styled-components": 1,
+          "date-fns": 1,
+          "recharts": 1,
+          "borderRadius:": 1,
+          "small": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "emilycomin/agromari",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "emilycomin/agromaridashboard",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "emilycomin/Coffee-shop-delivery-react-ts-",
+        "files_analyzed": 13,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "emilycomin/e-commerce",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "emilycomin/emilycominsocialmedia",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "emilycomin/notes",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "emilycomin/questionariosLemin",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emilycomin/sistemaDeGerenciamento",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "emilycomin/ToDoList-react-ts",
+        "files_analyzed": 8,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "emilycomin/unique",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emilycomin/workshop-inscricao",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

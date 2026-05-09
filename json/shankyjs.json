@@ -1,0 +1,861 @@
+{
+  "username": "shankyjs",
+  "areas": {
+    "OSS": {
+      "score": -0.005555555555555647,
+      "details": {
+        "issue_resolution_rate": 0.7916666666666666,
+        "pr_merge_rate": 0.7,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.22394109087841763,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7782193286253186,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.2857,
+        "distinct_primary_languages": 11,
+        "language_transitions": 12,
+        "topic_entropy_bits": 3.4594,
+        "closed_prs_total": 7,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "ShankyJS/docker-compose_laradep": 0.10137142857142857
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4936771070645724,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HCL": [
+        6485,
+        25
+      ],
+      "JavaScript": [
+        3477643,
+        41
+      ],
+      "CSS": [
+        9254,
+        31
+      ],
+      "TypeScript": [
+        222136,
+        8
+      ],
+      "Python": [
+        701222,
+        8
+      ],
+      "Shell": [
+        86216,
+        33
+      ],
+      "HTML": [
+        27004,
+        93
+      ],
+      "Swift": [
+        3056885,
+        0
+      ],
+      "Go": [
+        68311,
+        7
+      ],
+      "Objective-C": [
+        4365,
+        0
+      ],
+      "C": [
+        106,
+        0
+      ],
+      "C++": [
+        36231,
+        17
+      ],
+      "COBOL": [
+        577,
+        0
+      ],
+      "CMake": [
+        79,
+        0
+      ],
+      "Smarty": [
+        8473,
+        0
+      ],
+      "PHP": [
+        31994,
+        3
+      ],
+      "Dockerfile": [
+        465,
+        3
+      ],
+      "Vue": [
+        209,
+        0
+      ],
+      "Makefile": [
+        0,
+        23
+      ],
+      "Jinja": [
+        0,
+        8
+      ],
+      "Go Template": [
+        0,
+        0
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 300,
+    "total_lines": 7737655,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 27004,
+        "commits": 93
+      },
+      {
+        "language": "JavaScript",
+        "lines": 3477643,
+        "commits": 41
+      },
+      {
+        "language": "Shell",
+        "lines": 86216,
+        "commits": 33
+      },
+      {
+        "language": "CSS",
+        "lines": 9254,
+        "commits": 31
+      },
+      {
+        "language": "HCL",
+        "lines": 6485,
+        "commits": 25
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "shankyjs",
+    "analysis_date": "2026-05-09T10:02:45.349673",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 189,
+    "languages": {
+      "C++": {
+        "files_scanned": 26,
+        "packages": {
+          "<iostream>": 26,
+          "iostream": 26,
+          "std": 26,
+          "namespace": 26,
+          "<bitset>": 2,
+          "bitset": 2,
+          "ctime": 2,
+          "cstdlib": 2,
+          "<cstdlib>": 2,
+          "string": 2,
+          "<ctime>": 2,
+          "<string>": 2
+        }
+      },
+      "Go": {
+        "files_scanned": 29,
+        "packages": {
+          "fmt": 15,
+          "sigs.k8s.io/external-dns/endpoint": 11,
+          "testing": 11,
+          "strings": 10,
+          "sort": 7,
+          "time": 6,
+          "errors": 6,
+          "reflect": 5,
+          "github.com/stretchr/testify/require": 5,
+          "github.com/stretchr/testify/assert": 5,
+          "os": 5,
+          "context": 4,
+          "sigs.k8s.io/external-dns/pkg/apis/externaldns": 4,
+          "regexp": 4,
+          "sigs.k8s.io/external-dns/plan": 3,
+          "sigs.k8s.io/external-dns/registry": 3,
+          "sigs.k8s.io/external-dns/provider": 3,
+          "sigs.k8s.io/external-dns/source": 3,
+          "github.com/sirupsen/logrus": 3,
+          "k8s.io/apimachinery/pkg/labels": 3,
+          "github.com/prometheus/client_golang/prometheus": 2,
+          "owner": 2,
+          "log": 2,
+          "io": 2,
+          "encoding/json": 2,
+          "github.com/stretchr/testify/suite": 2,
+          "net": 2,
+          "strconv": 2,
+          "sync": 1,
+          "sigs.k8s.io/external-dns/internal/testutils": 1,
+          "math": 1,
+          "crypto/aes": 1,
+          "compress/gzip": 1,
+          "crypto/cipher": 1,
+          "bytes": 1,
+          "crypto/rand": 1,
+          "encoding/base64": 1,
+          "include,omitempty": 1,
+          "=": 1,
+          "(?:foo|bar)\\\\.org$": 1,
+          "regexExclude": 1,
+          "\\\\.org$": 1,
+          "exclude": 1,
+          "include": 1,
+          "regexInclude": 1,
+          "comparisonTargets": 1,
+          "net/netip": 1,
+          "targets": 1,
+          "new-key": 1,
+          "resource": 1,
+          "k8s.io/apimachinery/pkg/runtime": 1,
+          "sigs.k8s.io/external-dns/internal/config": 1,
+          "github.com/stretchr/testify/mock": 1,
+          "sigs.k8s.io/external-dns/provider/pdns": 1,
+          "sigs.k8s.io/external-dns/provider/tencentcloud": 1,
+          "sigs.k8s.io/external-dns/provider/google": 1,
+          "sigs.k8s.io/external-dns/pkg/apis/externaldns/validation": 1,
+          "sigs.k8s.io/external-dns/provider/gandi": 1,
+          "sigs.k8s.io/external-dns/provider/rfc2136": 1,
+          "sigs.k8s.io/external-dns/controller": 1,
+          "sigs.k8s.io/external-dns/provider/plural": 1,
+          "k8s.io/klog/v2": 1,
+          "sigs.k8s.io/external-dns/provider/vinyldns": 1,
+          "github.com/aws/aws-sdk-go/aws/session": 1,
+          "sigs.k8s.io/external-dns/provider/designate": 1,
+          "sigs.k8s.io/external-dns/provider/rdns": 1,
+          "sigs.k8s.io/external-dns/provider/safedns": 1,
+          "sigs.k8s.io/external-dns/provider/azure": 1,
+          "github.com/aws/aws-sdk-go/service/dynamodb": 1,
+          "sigs.k8s.io/external-dns/provider/oci": 1,
+          "sigs.k8s.io/external-dns/provider/civo": 1,
+          "sigs.k8s.io/external-dns/provider/dyn": 1,
+          "sigs.k8s.io/external-dns/provider/alibabacloud": 1,
+          "sigs.k8s.io/external-dns/provider/coredns": 1,
+          "sigs.k8s.io/external-dns/provider/pihole": 1,
+          "sigs.k8s.io/external-dns/provider/ns1": 1,
+          "sigs.k8s.io/external-dns/provider/transip": 1,
+          "sigs.k8s.io/external-dns/provider/aws": 1,
+          "sigs.k8s.io/external-dns/provider/vultr": 1,
+          "sigs.k8s.io/external-dns/provider/ultradns": 1,
+          "sigs.k8s.io/external-dns/provider/ibmcloud": 1,
+          "sigs.k8s.io/external-dns/provider/ovh": 1,
+          "sigs.k8s.io/external-dns/provider/linode": 1,
+          "sigs.k8s.io/external-dns/provider/awssd": 1,
+          "github.com/go-logr/logr": 1,
+          "sigs.k8s.io/external-dns/provider/cloudflare": 1,
+          "sigs.k8s.io/external-dns/provider/webhook": 1,
+          "sigs.k8s.io/external-dns/provider/inmemory": 1,
+          "github.com/aws/aws-sdk-go/service/route53": 1,
+          "sigs.k8s.io/external-dns/provider/bluecat": 1,
+          "syscall": 1,
+          "sigs.k8s.io/external-dns/provider/infoblox": 1,
+          "sigs.k8s.io/external-dns/provider/scaleway": 1,
+          "sigs.k8s.io/external-dns/provider/godaddy": 1,
+          "sigs.k8s.io/external-dns/provider/rcode0": 1,
+          "sigs.k8s.io/external-dns/provider/digitalocean": 1,
+          "net/http": 1,
+          "sigs.k8s.io/external-dns/provider/dnsimple": 1,
+          "sigs.k8s.io/external-dns/provider/akamai": 1,
+          "sigs.k8s.io/external-dns/provider/exoscale": 1,
+          "os/signal": 1,
+          "github.com/prometheus/client_golang/prometheus/promhttp": 1,
+          "github.com/alecthomas/kingpin/v2": 1,
+          "--rcodezero-txt-encrypt": 1,
+          "EXTERNAL_DNS_EXCLUDE_TARGET_NET": 1,
+          "--coredns-prefix=/coredns/": 1,
+          "EXTERNAL_DNS_AWS_BATCH_CHANGE_SIZE_VALUES": 1,
+          "--once": 1,
+          "--rfc2136-batch-change-size=100": 1,
+          "EXTERNAL_DNS_EXOSCALE_APIZONE": 1,
+          "EXTERNAL_DNS_TLS_CLIENT_CERT_KEY": 1,
+          "EXTERNAL_DNS_COMPATIBILITY": 1,
+          "EXTERNAL_DNS_TENCENT_CLOUD_CONFIG_FILE": 1,
+          "--aws-zones-cache-duration=10s": 1,
+          "EXTERNAL_DNS_INFOBLOX_WAPI_USERNAME": 1,
+          "--zone-name-filter=yapi.example.org": 1,
+          "--connector-source-server=localhost:8081": 1,
+          "EXTERNAL_DNS_INMEMORY_ZONE": 1,
+          "--aws-batch-change-size=100": 1,
+          "EXTERNAL_DNS_BLUECAT_SKIP_TLS_VERIFY": 1,
+          "EXTERNAL_DNS_DIGITALOCEAN_API_PAGE_SIZE": 1,
+          "EXTERNAL_DNS_AZURE_SUBSCRIPTION_ID": 1,
+          "EXTERNAL_DNS_REGISTRY": 1,
+          "--transip-account=transip": 1,
+          "EXTERNAL_DNS_INFOBLOX_MAX_RESULTS": 1,
+          "EXTERNAL_DNS_ZONE_NAME_FILTER": 1,
+          "EXTERNAL_DNS_AWS_ASSUME_ROLE": 1,
+          "EXTERNAL_DNS_EXOSCALE_APIKEY": 1,
+          "--tls-client-cert-key=/path/to/key.pem": 1,
+          "--cloudflare-proxied": 1,
+          "--digitalocean-api-page-size=100": 1,
+          "EXTERNAL_DNS_TRANSIP_ACCOUNT": 1,
+          "--bluecat-dns-deploy-type=full-deploy": 1,
+          "--skipper-routegroup-groupversion=zalando.org/v2": 1,
+          "--aws-batch-change-size-bytes=16000": 1,
+          "--managed-record-types=NS": 1,
+          "--oci-zones-cache-duration=30s": 1,
+          "EXTERNAL_DNS_AWS_ZONES_CACHE_DURATION": 1,
+          "--source=connector": 1,
+          "--namespace=namespace": 1,
+          "--bluecat-dns-view=arg": 1,
+          "--bluecat-skip-tls-verify": 1,
+          "--ns1-endpoint=https://api.example.com/v1": 1,
+          "--ibmcloud-config-file=ibmcloud.json": 1,
+          "EXTERNAL_DNS_GOOGLE_BATCH_CHANGE_SIZE": 1,
+          "EXTERNAL_DNS_REGEX_DOMAIN_EXCLUSION": 1,
+          "EXTERNAL_DNS_TENCENT_CLOUD_ZONE_TYPE": 1,
+          "EXTERNAL_DNS_OCI_ZONE_SCOPE": 1,
+          "EXTERNAL_DNS_AWS_EVALUATE_TARGET_HEALTH": 1,
+          "--bluecat-gateway-host=arg": 1,
+          "--regex-domain-filter=(example\\\\.org|company\\\\.com)$": 1,
+          "--zone-id-filter=/hostedzone/ZTST1": 1,
+          "--policy=upsert-only": 1,
+          "--ns1-ignoressl": 1,
+          "EXTERNAL_DNS_DRY_RUN": 1,
+          "EXTERNAL_DNS_PROVIDER": 1,
+          "--zone-id-filter=/hostedzone/ZTST2": 1,
+          "--exclude-target-net=1.1.0.0/9": 1,
+          "--infoblox-wapi-username=infoblox": 1,
+          "--gloo-namespace=gloo-not-system": 1,
+          "--pdns-skip-tls-verify": 1,
+          "EXTERNAL_DNS_SKIPPER_ROUTEGROUP_GROUPVERSION": 1,
+          "--no-aws-evaluate-target-health": 1,
+          "--source=ingress": 1,
+          "EXTERNAL_DNS_SERVER": 1,
+          "EXTERNAL_DNS_CONTOUR_LOAD_BALANCER": 1,
+          "EXTERNAL_DNS_MANAGED_RECORD_TYPES": 1,
+          "--bluecat-dns-configuration=arg": 1,
+          "EXTERNAL_DNS_OCI_CONFIG_FILE": 1,
+          "EXTERNAL_DNS_AWS_BATCH_CHANGE_INTERVAL": 1,
+          "--oci-zone-scope=PRIVATE": 1,
+          "EXTERNAL_DNS_OVH_API_RATE_LIMIT": 1,
+          "--transip-keyfile=/path/to/transip.key": 1,
+          "--akamai-edgerc-section=default": 1,
+          "--aws-zone-match-parent": 1,
+          "--pdns-api-key=some-secret-key": 1,
+          "EXTERNAL_DNS_RFC2136_BATCH_CHANGE_SIZE": 1,
+          "--ovh-endpoint=ovh-ca": 1,
+          "EXTERNAL_DNS_GLOO_NAMESPACE": 1,
+          "EXTERNAL_DNS_RCODEZERO_TXT_ENCRYPT": 1,
+          "--managed-record-types=AAAA": 1,
+          "EXTERNAL_DNS_AWS_ZONE_TYPE": 1,
+          "EXTERNAL_DNS_TXT_PREFIX": 1,
+          "EXTERNAL_DNS_IBMCLOUD_CONFIG_FILE": 1,
+          "--exclude-domains=xapi.example.org": 1,
+          "--pdns-server=http://ns.example.com:8081": 1,
+          "--infoblox-max-results=2000": 1,
+          "--tls-client-cert=/path/to/cert.pem": 1,
+          "EXTERNAL_DNS_AWS_BATCH_CHANGE_SIZE_BYTES": 1,
+          "--fqdn-template={{.Name}}.service.example.com": 1,
+          "--ignore-hostname-annotation": 1,
+          "--ignore-ingress-tls-spec": 1,
+          "--events": 1,
+          "EXTERNAL_DNS_AKAMAI_ACCESS_TOKEN": 1,
+          "--akamai-client-secret=o184671d5307a388180fbf7f11dbdf46": 1,
+          "--aws-assume-role-external-id=pg2000": 1,
+          "EXTERNAL_DNS_NAMESPACE": 1,
+          "--exclude-domains=xapi.company.com": 1,
+          "EXTERNAL_DNS_GOOGLE_ZONE_VISIBILITY": 1,
+          "EXTERNAL_DNS_NS1_IGNORESSL": 1,
+          "EXTERNAL_DNS_BLUECAT_CONFIG_FILE": 1,
+          "EXTERNAL_DNS_KUBECONFIG": 1,
+          "EXTERNAL_DNS_EXCLUDE_DOMAINS": 1,
+          "EXTERNAL_DNS_INFOBLOX_WAPI_VERSION": 1,
+          "--aws-batch-change-interval=2s": 1,
+          "EXTERNAL_DNS_TXT_OWNER_ID": 1,
+          "EXTERNAL_DNS_FQDN_TEMPLATE": 1,
+          "--bluecat-config-file=bluecat.json": 1,
+          "EXTERNAL_DNS_INFOBLOX_WAPI_PASSWORD": 1,
+          "EXTERNAL_DNS_INFOBLOX_GRID_HOST": 1,
+          "EXTERNAL_DNS_CLOUDFLARE_DNS_RECORDS_PER_PAGE": 1,
+          "EXTERNAL_DNS_MIN_EVENT_SYNC_INTERVAL": 1,
+          "--gloo-namespace=gloo-second-system": 1,
+          "EXTERNAL_DNS_INFOBLOX_VIEW": 1,
+          "EXTERNAL_DNS_PDNS_SKIP_TLS_VERIFY": 1,
+          "--inmemory-zone=company.com": 1,
+          "--ignore-ingress-rules-spec": 1,
+          "EXTERNAL_DNS_COREDNS_PREFIX": 1,
+          "EXTERNAL_DNS_OVH_ENDPOINT": 1,
+          "EXTERNAL_DNS_AWS_SD_SERVICE_CLEANUP": 1,
+          "--log-format=json": 1,
+          "--compatibility=mate": 1,
+          "--domain-filter=example.org": 1,
+          "--metrics-address=127.0.0.1:9099": 1,
+          "EXTERNAL_DNS_AZURE_RESOURCE_GROUP": 1,
+          "EXTERNAL_DNS_OCI_ZONES_CACHE_DURATION": 1,
+          "--azure-subscription-id=arg": 1,
+          "EXTERNAL_DNS_CRD_SOURCE_KIND": 1,
+          "EXTERNAL_DNS_GOOGLE_BATCH_CHANGE_INTERVAL": 1,
+          "--bluecat-root-zone=arg": 1,
+          "EXTERNAL_DNS_IGNORE_HOSTNAME_ANNOTATION": 1,
+          "EXTERNAL_DNS_IGNORE_INGRESS_TLS_SPEC": 1,
+          "EXTERNAL_DNS_AKAMAI_EDGERC_PATH": 1,
+          "--infoblox-grid-host=127.0.0.1": 1,
+          "--infoblox-wapi-password=infoblox": 1,
+          "--akamai-edgerc-path=/home/test/.edgerc": 1,
+          "EXTERNAL_DNS_REQUEST_TIMEOUT": 1,
+          "EXTERNAL_DNS_TLS_CA": 1,
+          "--openshift-router-name=default": 1,
+          "--aws-batch-change-size-values=100": 1,
+          "EXTERNAL_DNS_TRANSIP_KEYFILE": 1,
+          "EXTERNAL_DNS_CRD_SOURCE_APIVERSION": 1,
+          "EXTERNAL_DNS_BLUECAT_ROOT_ZONE": 1,
+          "EXTERNAL_DNS_INFOBLOX_SSL_VERIFY": 1,
+          "EXTERNAL_DNS_REGEX_DOMAIN_FILTER": 1,
+          "EXTERNAL_DNS_AWS_PREFER_CNAME": 1,
+          "EXTERNAL_DNS_PDNS_SERVER": 1,
+          "EXTERNAL_DNS_DOMAIN_FILTER": 1,
+          "EXTERNAL_DNS_AWS_BATCH_CHANGE_SIZE": 1,
+          "EXTERNAL_DNS_ZONE_ID_FILTER": 1,
+          "--kubeconfig=/some/path": 1,
+          "--tls-ca=/path/to/ca.crt": 1,
+          "--infoblox-wapi-port=8443": 1,
+          "--txt-cache-interval=12h": 1,
+          "EXTERNAL_DNS_NS1_ENDPOINT": 1,
+          "EXTERNAL_DNS_CONNECTOR_SOURCE_SERVER": 1,
+          "--aws-api-retries=13": 1,
+          "--txt-owner-id=owner-1": 1,
+          "--tencent-cloud-zone-type=private": 1,
+          "EXTERNAL_DNS_ONCE": 1,
+          "--infoblox-wapi-version=2.6.1": 1,
+          "--inmemory-zone=example.org": 1,
+          "EXTERNAL_DNS_BLUECAT_DNS_SERVER_NAME": 1,
+          "EXTERNAL_DNS_IGNORE_INGRESS_RULES_SPEC": 1,
+          "EXTERNAL_DNS_AWS_API_RETRIES": 1,
+          "--infoblox-view=internal": 1,
+          "EXTERNAL_DNS_BLUECAT_DNS_CONFIGURATION": 1,
+          "--cloudflare-dns-records-per-page=5000": 1,
+          "--no-infoblox-ssl-verify": 1,
+          "--dynamodb-table=custom-table": 1,
+          "--google-batch-change-size=100": 1,
+          "--bluecat-dns-server-name=arg": 1,
+          "--google-batch-change-interval=2s": 1,
+          "--crd-source-kind=Endpoint": 1,
+          "--akamai-client-token=o184671d5307a388180fbf7f11dbdf46": 1,
+          "--registry=noop": 1,
+          "--akamai-serviceconsumerdomain=oooo-xxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxx.luna.akamaiapis.net": 1,
+          "EXTERNAL_DNS_RDNS_ROOT_DOMAIN": 1,
+          "--dry-run": 1,
+          "EXTERNAL_DNS_BLUECAT_DNS_DEPLOY_TYPE": 1,
+          "EXTERNAL_DNS_EXOSCALE_APISECRET": 1,
+          "--managed-record-types=A": 1,
+          "EXTERNAL_DNS_AZURE_CONFIG_FILE": 1,
+          "--azure-config-file=azure.json": 1,
+          "--aws-zone-type=private": 1,
+          "EXTERNAL_DNS_TLS_CLIENT_CERT": 1,
+          "--exoscale-apienv=api1": 1,
+          "--tencent-cloud-config-file=tencent-cloud.json": 1,
+          "--request-timeout=77s": 1,
+          "EXTERNAL_DNS_PDNS_API_KEY": 1,
+          "--google-zone-visibility=private": 1,
+          "--crd-source-apiversion=test.k8s.io/v1alpha1": 1,
+          "--aws-prefer-cname": 1,
+          "--oci-config-file=oci.yaml": 1,
+          "--aws-sd-service-cleanup": 1,
+          "--domain-filter=company.com": 1,
+          "--target-net-filter=10.0.0.0/9": 1,
+          "EXTERNAL_DNS_AWS_ZONE_MATCH_PARENT": 1,
+          "EXTERNAL_DNS_LOG_FORMAT": 1,
+          "EXTERNAL_DNS_SOURCE": 1,
+          "EXTERNAL_DNS_DYNAMODB_TABLE": 1,
+          "--ovh-api-rate-limit=42": 1,
+          "--akamai-access-token=o184671d5307a388180fbf7f11dbdf46": 1,
+          "--log-level=debug": 1,
+          "EXTERNAL_DNS_EXOSCALE_APIENV": 1,
+          "--ibmcloud-proxied": 1,
+          "EXTERNAL_DNS_CLOUDFLARE_PROXIED": 1,
+          "--exoscale-apisecret=2": 1,
+          "EXTERNAL_DNS_AKAMAI_CLIENT_SECRET": 1,
+          "EXTERNAL_DNS_LOG_LEVEL": 1,
+          "--google-project=project": 1,
+          "EXTERNAL_DNS_GOOGLE_PROJECT": 1,
+          "EXTERNAL_DNS_BLUECAT_DNS_VIEW": 1,
+          "EXTERNAL_DNS_EVENTS": 1,
+          "EXTERNAL_DNS_METRICS_ADDRESS": 1,
+          "EXTERNAL_DNS_AWS_ZONE_TAGS": 1,
+          "--exoscale-apikey=1": 1,
+          "EXTERNAL_DNS_AWS_ASSUME_ROLE_EXTERNAL_ID": 1,
+          "--aws-assume-role=some-other-role": 1,
+          "--aws-zone-tags=tag=foo": 1,
+          "--managed-record-types=CNAME": 1,
+          "EXTERNAL_DNS_INFOBLOX_WAPI_PORT": 1,
+          "--exoscale-apizone=zone1": 1,
+          "--txt-prefix=associated-txt-record": 1,
+          "--azure-resource-group=arg": 1,
+          "--exclude-target-net=1.0.0.0/9": 1,
+          "--source=service": 1,
+          "EXTERNAL_DNS_AKAMAI_CLIENT_TOKEN": 1,
+          "EXTERNAL_DNS_INTERVAL": 1,
+          "EXTERNAL_DNS_TXT_CACHE_INTERVAL": 1,
+          "EXTERNAL_DNS_POLICY": 1,
+          "--zone-name-filter=yapi.company.com": 1,
+          "--server=http://127.0.0.1:8080": 1,
+          "--min-event-sync-interval=50s": 1,
+          "--provider=google": 1,
+          "--regex-domain-exclusion=xapi\\\\.(example\\\\.org|company\\\\.com)$": 1,
+          "EXTERNAL_DNS_AKAMAI_EDGERC_SECTION": 1,
+          "EXTERNAL_DNS_TARGET_NET_FILTER": 1,
+          "EXTERNAL_DNS_IBMCLOUD_PROXIED": 1,
+          "EXTERNAL_DNS_AKAMAI_SERVICECONSUMERDOMAIN": 1,
+          "--target-net-filter=10.1.0.0/9": 1,
+          "EXTERNAL_DNS_BLUECAT_GATEWAY_HOST": 1,
+          "--interval=10m": 1,
+          "crypto/x509": 1,
+          "crypto/tls": 1,
+          "github.com/google/go-cmp/cmp": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 27,
+        "packages": {
+          "path": 18,
+          "fs-extra": 10,
+          "os": 7,
+          "fs": 5,
+          "crypto": 2,
+          "assert": 2,
+          "chalk": 2,
+          "commander": 2,
+          "testing-library": 2,
+          "next": 1,
+          "eslint": 1,
+          "typescript-eslint": 1,
+          "sha256": 1,
+          "grd": 1,
+          "ip": 1,
+          "url": 1,
+          "log-update": 1,
+          "child_process": 1,
+          "tap": 1,
+          "syllable": 1,
+          "yaml": 1,
+          "to-vfile": 1,
+          "strip-markdown": 1,
+          "remark-extract-frontmatter": 1,
+          "remark": 1,
+          "remark-frontmatter": 1,
+          "gulp": 1,
+          "gulp-pegjs": 1,
+          "react": 1,
+          "react-dom": 1,
+          "web-vitals": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 24,
+        "packages": {
+          "App\\Http\\Controllers\\Controller": 5,
+          "Illuminate\\Support\\ServiceProvider": 2,
+          "Illuminate\\Support\\Str": 2,
+          "routes/console.php": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "Exception": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails": 1,
+          "SendsPasswordResetEmails": 1,
+          "AuthenticatesUsers": 1,
+          "Illuminate\\Foundation\\Auth\\AuthenticatesUsers": 1,
+          "Illuminate\\Foundation\\Auth\\RegistersUsers": 1,
+          "App\\User": 1,
+          "RegistersUsers": 1,
+          "Illuminate\\Support\\Facades\\Validator": 1,
+          "Illuminate\\Support\\Facades\\Hash": 1,
+          "ResetsPasswords": 1,
+          "Illuminate\\Foundation\\Auth\\ResetsPasswords": 1,
+          "Illuminate\\Foundation\\Auth\\VerifiesEmails": 1,
+          "VerifiesEmails": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "AuthorizesRequests": 1,
+          "Illuminate\\Routing\\Controller": 1,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 1,
+          "Illuminate\\Foundation\\Http\\Kernel": 1,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode": 1,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 1,
+          "Illuminate\\Support\\Facades\\Auth": 1,
+          "Closure": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 1,
+          "Fideloper\\Proxy\\TrustProxies": 1,
+          "Illuminate\\Http\\Request": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Gate": 1,
+          "Illuminate\\Support\\Facades\\Broadcast": 1,
+          "routes/channels.php": 1,
+          "Illuminate\\Support\\Facades\\Event": 1,
+          "Illuminate\\Auth\\Events\\Registered": 1,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Route": 1,
+          "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 1,
+          "Notifiable": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "Illuminate\\Notifications\\Notifiable": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "sys": 2,
+          "os": 2,
+          "cpplint_chromium": 1,
+          "git_common": 1,
+          "re": 1,
+          "cpplint": 1,
+          "git_cl": 1,
+          "flask": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 30,
+        "packages": {
+          "AppKit": 20,
+          "Bonsplit": 15,
+          "SwiftUI": 14,
+          "Foundation": 13,
+          "Combine": 10,
+          "WebKit": 7,
+          "ObjectiveC": 5,
+          "Sentry": 3,
+          "Darwin": 3,
+          "UniformTypeIdentifiers": 3,
+          "CryptoKit": 2,
+          "Security": 2,
+          "QuartzCore": 2,
+          "Carbon": 2,
+          "LocalAuthentication": 1,
+          "UUIDs": 1,
+          "for": 1,
+          "a": 1,
+          "the": 1,
+          "PackageDescription": 1,
+          "UserNotifications": 1,
+          "CoreServices": 1,
+          "ObjectiveC.runtime": 1,
+          "init(coder:)": 1,
+          "ImageIO": 1,
+          "Metal": 1,
+          "CoreText": 1,
+          "IOSurface": 1,
+          "Carbon.HIToolbox": 1,
+          "CFNetwork": 1,
+          "SQLite3": 1,
+          "Network": 1,
+          "CommonCrypto": 1,
+          "MarkdownUI": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 28,
+        "packages": {
+          "path": 13,
+          "lodash": 13,
+          "garden-io": 9,
+          "fs-extra": 8,
+          "bluebird": 7,
+          "chalk": 7,
+          "actions": 3,
+          "source-map-support": 3,
+          "fs": 3,
+          "node:process": 2,
+          "yaml": 2,
+          "zod": 2,
+          "minimist": 2,
+          "chai": 2,
+          "os": 2,
+          "ci-info": 2,
+          "async": 2,
+          "moment": 2,
+          "http": 2,
+          "url": 1,
+          "octokit": 1,
+          "error": 1,
+          "next": 1,
+          "crypto": 1,
+          "test": 1,
+          "tmp-promise": 1,
+          "cpy": 1,
+          "normalize-path": 1,
+          "failure": 1,
+          "hasha": 1,
+          "dedent": 1,
+          "codenamize": 1,
+          "analytics-node": 1,
+          "glob": 1,
+          "minimatch": 1,
+          "jsdevtools": 1,
+          "3.1.0": 1,
+          "dotenv": 1,
+          "requirementsCheck": 1,
+          "node-emoji": 1,
+          "string-width": 1,
+          "qs": 1,
+          "d": 1,
+          "json-stringify-safe": 1,
+          "strip-ansi": 1,
+          "hapi": 1,
+          "date-fns": 1,
+          "tough-cookie": 1,
+          "koa-router": 1,
+          "open": 1,
+          "koa": 1,
+          "koa-bodyparser": 1,
+          "get-port": 1,
+          "eventemitter2": 1,
+          "_workflowRunRegistered": 1,
+          "event": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "next": 2,
+          "vercel": 1,
+          "react": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ShankyJS/2024-terraform-nextjs-digitalocean",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ShankyJS/actions--context",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "ShankyJS/babysilva.com",
+        "files_analyzed": 3,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "ShankyJS/brave-browser",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "ShankyJS/cloud_haiku",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ShankyJS/cmux",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "ShankyJS/data-structures-training",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "ShankyJS/docker-compose_laradep",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "ShankyJS/external-dns",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ShankyJS/flask-hr-reporting-system",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ShankyJS/garden",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "ShankyJS/garden-cra-demo",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

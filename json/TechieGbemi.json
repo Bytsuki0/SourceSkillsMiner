@@ -1,0 +1,282 @@
+{
+  "username": "TechieGbemi",
+  "areas": {
+    "OSS": {
+      "score": 0.8888888888888888,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.8333333333333334,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.43207247006050076,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9558010127830587,
+        "week_streak": 0.19230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": 0.46875,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 0,
+        "topic_entropy_bits": 5.6338,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.45794227178987795,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        427095,
+        867
+      ],
+      "Python": [
+        4744,
+        52
+      ],
+      "Java": [
+        10086,
+        73
+      ],
+      "HTML": [
+        0,
+        25
+      ],
+      "JavaScript": [
+        0,
+        58
+      ],
+      "CSS": [
+        0,
+        23
+      ],
+      "TypeScript": [
+        0,
+        24
+      ],
+      "C#": [
+        0,
+        7
+      ],
+      "Solidity": [
+        0,
+        0
+      ],
+      "TeX": [
+        0,
+        1
+      ],
+      "Shell": [
+        0,
+        3
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "R": [
+        0,
+        0
+      ],
+      "Lua": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 1133,
+    "total_lines": 441925,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 427095,
+        "commits": 867
+      },
+      {
+        "language": "Java",
+        "lines": 10086,
+        "commits": 73
+      },
+      {
+        "language": "JavaScript",
+        "lines": 0,
+        "commits": 58
+      },
+      {
+        "language": "Python",
+        "lines": 4744,
+        "commits": 52
+      },
+      {
+        "language": "HTML",
+        "lines": 0,
+        "commits": 25
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "TechieGbemi",
+    "analysis_date": "2026-05-08T23:10:00.282749",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 26,
+    "languages": {
+      "Java": {
+        "files_scanned": 12,
+        "packages": {
+          "com.example": 12,
+          "android.content": 9,
+          "android.widget": 8,
+          "android.view": 8,
+          "androidx.appcompat": 6,
+          "android.os": 6,
+          "android.annotation": 6,
+          "android.database": 5,
+          "java.util": 4,
+          "static": 2,
+          "org.junit": 2,
+          "android.util": 2,
+          "androidx.annotation": 2,
+          "androidx.test": 1,
+          "android.graphics": 1,
+          "android.app": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 9,
+        "packages": {
+          "pandas": 8,
+          "os": 7,
+          "numpy": 7,
+          "sys": 6,
+          "pyodbc": 6,
+          "time": 6,
+          "matplotlib": 6,
+          "json": 5,
+          "datetime": 5,
+          "sklearn": 4,
+          "seaborn": 4,
+          "keras": 3,
+          "Dense": 3,
+          "model_from_json": 3,
+          "Sequential": 3,
+          "StandardScaler": 3,
+          "LabelEncoder": 2,
+          "KFold": 2,
+          "cross_val_score": 2,
+          "MinMaxScaler": 2,
+          "Pipeline": 2,
+          "KerasRegressor": 2,
+          "re": 2,
+          "List": 2,
+          "cpu_count": 2,
+          "typing": 2,
+          "geopy": 1,
+          "copyfile": 1,
+          "Dropout": 1,
+          "shutil": 1,
+          "H2OKMeansEstimator": 1,
+          "h2o": 1,
+          "H2OAutoEncoderEstimator": 1,
+          "lifelines": 1,
+          "KaplanMeierFitter": 1,
+          "logrank_test": 1,
+          "pathlib": 1,
+          "logging": 1,
+          "argparse": 1,
+          "string": 1,
+          "urllib": 1,
+          "random": 1,
+          "Path": 1,
+          "SafeConfigParser": 1,
+          "configparser": 1,
+          "get_ipython": 1,
+          "IPython": 1,
+          "warnings": 1,
+          "PorterStemmer": 1,
+          "TaggedDocument": 1,
+          "stopwords": 1,
+          "PCA": 1,
+          "ndarray": 1,
+          "KMeans": 1,
+          "nltk": 1,
+          "pyplot": 1,
+          "gensim": 1,
+          "lxml": 1,
+          "Pool": 1,
+          "etree": 1,
+          "multiprocessing": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "TechieGbemi/Artificial-Intelligence-For-Banking",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "TechieGbemi/Basic-Banking-App",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "TechieGbemi/Clustering-Analysis-On-Customers-Of-A-Wholesale-Distributor",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "TechieGbemi/Clustering-Canadian-Regulations",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

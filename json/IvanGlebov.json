@@ -1,0 +1,539 @@
+{
+  "username": "IvanGlebov",
+  "areas": {
+    "OSS": {
+      "score": 0.5555555555555556,
+      "details": {
+        "issue_resolution_rate": 0.3333333333333333,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.40127841615312554,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9673022396143037,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Adaptability": {
+      "score": 0.333333,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 10,
+        "language_transitions": 8,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.35803339434173626,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "P4": [
+        156879,
+        3
+      ],
+      "RouterOS Script": [
+        44694,
+        1
+      ],
+      "JavaScript": [
+        42089,
+        53
+      ],
+      "CSS": [
+        8320,
+        27
+      ],
+      "HTML": [
+        24996,
+        43
+      ],
+      "Pug": [
+        221,
+        0
+      ],
+      "Shell": [
+        22,
+        9
+      ],
+      "C++": [
+        2736,
+        116
+      ],
+      "Python": [
+        120,
+        64
+      ],
+      "CMake": [
+        10,
+        0
+      ],
+      "TypeScript": [
+        6854,
+        54
+      ],
+      "Vue": [
+        743488,
+        133
+      ],
+      "SCSS": [
+        190,
+        0
+      ],
+      "Go": [
+        0,
+        3
+      ],
+      "Smarty": [
+        0,
+        1
+      ],
+      "PowerShell": [
+        0,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "Java": [
+        0,
+        2
+      ],
+      "EJS": [
+        0,
+        0
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 509,
+    "total_lines": 1030619,
+    "top_5_languages": [
+      {
+        "language": "Vue",
+        "lines": 743488,
+        "commits": 133
+      },
+      {
+        "language": "C++",
+        "lines": 2736,
+        "commits": 116
+      },
+      {
+        "language": "Python",
+        "lines": 120,
+        "commits": 64
+      },
+      {
+        "language": "TypeScript",
+        "lines": 6854,
+        "commits": 54
+      },
+      {
+        "language": "JavaScript",
+        "lines": 42089,
+        "commits": 53
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "IvanGlebov",
+    "analysis_date": "2026-05-09T12:07:08.312945",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 168,
+    "languages": {
+      "C++": {
+        "files_scanned": 6,
+        "packages": {
+          "phone-book.h": 3,
+          "WidgetRTC.h": 3,
+          "<WidgetRTC.h>": 3,
+          "<EEPROM.h>": 3,
+          "Arduino.h": 3,
+          "TimeLib.h": 3,
+          "<TimeLib.h>": 3,
+          "EEPROM.h": 3,
+          "<Arduino.h>": 3,
+          "gtest/gtest.h": 2,
+          "<Wire.h>": 2,
+          "Wire.h": 2,
+          "BlynkSimpleEsp8266.h": 2,
+          "<BlynkSimpleEsp8266.h>": 2,
+          "ESP8266WiFi.h": 2,
+          "<ESP8266WiFi.h>": 2,
+          "utils.h": 1,
+          "<cmath>": 1,
+          "cmath": 1,
+          "soc/soc.h": 1,
+          "soc/rtc_cntl_reg.h": 1,
+          "<WiFi.h>": 1,
+          "<BlynkSimpleEsp32.h>": 1,
+          "BlynkSimpleEsp32.h": 1,
+          "WiFiClient.h": 1,
+          "WiFi.h": 1,
+          "<WiFiClient.h>": 1,
+          "PCF8574.h": 1,
+          "OneWire.h": 1,
+          "<LCD_1602_RUS.h>": 1,
+          "Adafruit_BME280.h": 1,
+          "<Adafruit_ADS1X15.h>": 1,
+          "Adafruit_Sensor.h": 1,
+          "Adafruit_ADS1X15.h": 1,
+          "DallasTemperature.h": 1,
+          "<DallasTemperature.h>": 1,
+          "LCD_1602_RUS.h": 1,
+          "<Adafruit_Sensor.h>": 1,
+          "<Adafruit_BME280.h>": 1,
+          "BH1750.h": 1,
+          "<OneWire.h>": 1,
+          "<BH1750.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "vector": 2,
+          "<vector>": 2,
+          "iostream": 2,
+          "<iostream>": 2,
+          "<string>": 1,
+          "string": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 7,
+        "packages": {
+          "testing": 4,
+          "fmt": 2,
+          "reflect": 2,
+          "os": 1,
+          "flag": 1,
+          "errors": 1,
+          "math": 1,
+          "math/big": 1,
+          "math/rand": 1,
+          "io/ioutil": 1,
+          "path/filepath": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 32,
+        "packages": {
+          "react": 14,
+          "react-redux": 9,
+          "react-i18next": 8,
+          "reducers": 5,
+          "connected-react-router": 5,
+          "react-dom": 4,
+          "components": 4,
+          "express": 3,
+          "testing-library": 3,
+          "material-ui": 3,
+          "axios": 3,
+          "prop-types": 3,
+          "path": 2,
+          "react-router-dom": 2,
+          "vue": 2,
+          "immutable": 2,
+          "http-errors": 1,
+          "cookie-parser": 1,
+          "morgan": 1,
+          "react-papaparse": 1,
+          "clsx": 1,
+          "i18next": 1,
+          "i18next-http-backend": 1,
+          "jquery": 1,
+          "cross-fetch": 1,
+          "history": 1,
+          "redux": 1,
+          "styled-components": 1,
+          "html-webpack-plugin": 1,
+          ":": 1,
+          "~": 1,
+          "Calling": 1,
+          "use": 1,
+          "jQuery": 1,
+          "undefined": 1,
+          "abc": 1,
+          "string": 1,
+          "):r.display=": 1,
+          "pages": 1,
+          "web-vitals": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 18,
+        "packages": {
+          "react": 9,
+          "react-redux": 9,
+          "axios": 3,
+          "react-router-dom": 3,
+          "V4": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 47,
+        "packages": {
+          "django": 22,
+          "random": 9,
+          "typing": 8,
+          "*": 7,
+          "argparse": 7,
+          "os": 6,
+          "unittest": 6,
+          "json": 5,
+          "GameOfLife": 5,
+          "pathlib": 5,
+          "migrations": 5,
+          "utils": 4,
+          "life": 4,
+          "pyvcs": 4,
+          "admin": 4,
+          "settings": 4,
+          "get_user_model": 3,
+          "users": 3,
+          "path": 3,
+          "JsonResponse": 3,
+          "string": 2,
+          "UI": 2,
+          "ui": 2,
+          "pygame": 2,
+          "List": 2,
+          "hashlib": 2,
+          "UserAdmin": 2,
+          "AppConfig": 2,
+          "AbstractUser": 2,
+          "models": 2,
+          "TestCase": 2,
+          "render": 2,
+          "static": 2,
+          "ValidationError": 2,
+          "subprocess": 1,
+          "termcolor": 1,
+          "colorama": 1,
+          "requests": 1,
+          "caesar": 1,
+          "rsa": 1,
+          "vigenere": 1,
+          "Tuple": 1,
+          "sample": 1,
+          "sudoku": 1,
+          "time": 1,
+          "curses": 1,
+          "math": 1,
+          "life_proto": 1,
+          "abc": 1,
+          "repo_create": 1,
+          "ref_resolve": 1,
+          "commit_tree": 1,
+          "cat_file": 1,
+          "checkout": 1,
+          "ls_files": 1,
+          "struct": 1,
+          "operator": 1,
+          "hash_object": 1,
+          "re": 1,
+          "update_ref": 1,
+          "repo_find": 1,
+          "repo": 1,
+          "zlib": 1,
+          "stat": 1,
+          "serialize": 1,
+          "sys": 1,
+          "execute_from_command_line": 1,
+          "get_asgi_application": 1,
+          "Path": 1,
+          "get_wsgi_application": 1,
+          "User": 1,
+          "login": 1,
+          "datetime": 1,
+          "PermissionsMixin": 1,
+          "role": 1,
+          "timedelta": 1,
+          "Optional": 1,
+          "timezone": 1,
+          "Q": 1,
+          "logout": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 7,
+        "packages": {
+          "reduxjs": 2,
+          "react": 2,
+          "web-vitals": 1,
+          "testing-library": 1,
+          "react-redux": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 22,
+        "packages": {
+          "react": 19,
+          "mui": 10,
+          "react-router-dom": 7,
+          "testing-library": 2,
+          "react-dom": 2,
+          "react-redux": 2,
+          "react-router": 2,
+          "classnames": 2,
+          "notistack": 2,
+          "React": 1,
+          "reduxjs": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "IvanGlebov/BlynkWeb",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/cpp_h4",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/dpd_test_task",
+        "files_analyzed": 12,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/eisenkoch-frontend",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/ESP32_sensor_master",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/ESP8266_Watchdog",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/feecc-hub-backed_tests",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/feecc-hub-frontend",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/gakachu-frontend",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/GrowingLight",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/Hours",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/ivanglebov.github.io",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/labs",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/Lifetech",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "IvanGlebov/my-app",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "username": "lenaar",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.25,
+      "details": {
+        "language_diversity_score": 0.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 0,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.08333333333333336,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        13556,
+        0
+      ],
+      "TypeScript": [
+        26085,
+        0
+      ],
+      "JavaScript": [
+        283606,
+        0
+      ],
+      "Jupyter Notebook": [
+        2159885,
+        0
+      ],
+      "HTML": [
+        30420,
+        0
+      ],
+      "Vue": [
+        420,
+        0
+      ],
+      "Dockerfile": [
+        596,
+        0
+      ],
+      "Shell": [
+        2042,
+        0
+      ],
+      "CSS": [
+        82693,
+        0
+      ],
+      "Java": [
+        19660,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 0,
+    "total_lines": 2618963,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 13556,
+        "commits": 0
+      },
+      {
+        "language": "TypeScript",
+        "lines": 26085,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 283606,
+        "commits": 0
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 2159885,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 30420,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "lenaar",
+    "analysis_date": "2026-05-08T22:59:54.077738",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 315,
+    "languages": {
+      "Java": {
+        "files_scanned": 3,
+        "packages": {
+          "com.example": 3,
+          "android.app": 1,
+          "android.view": 1,
+          "android.os": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 127,
+        "packages": {
+          "react": 47,
+          "apollo": 20,
+          "fs": 11,
+          "path": 11,
+          "kth-node-configuration": 7,
+          "child_process": 6,
+          "testing-library": 5,
+          "os": 5,
+          "react-router-dom": 5,
+          "request-promise": 5,
+          "express": 5,
+          "kth": 5,
+          "react-dom": 5,
+          "colors": 4,
+          "message-type": 4,
+          "kth-node-log": 4,
+          "inquirer": 3,
+          "dotenv": 3,
+          "tape": 3,
+          "component-registry": 3,
+          "vue": 2,
+          "glob": 2,
+          "utils": 2,
+          "test": 2,
+          "emotion": 2,
+          "kth-node-server": 2,
+          "http": 2,
+          "http-shutdown": 2,
+          "rewire-global": 2,
+          "bluebird": 2,
+          "kth-node-i18n": 2,
+          "kth-node-redis": 2,
+          "axios": 2,
+          "vue-i18n": 1,
+          "vue-router": 1,
+          "is-ci": 1,
+          "cypress-hmr-restarter": 1,
+          "react-scripts": 1,
+          "resolve": 1,
+          "app": 1,
+          "faker": 1,
+          "react-error-boundary": 1,
+          "stop-runaway-react-effects": 1,
+          "bootstrap": 1,
+          "reach": 1,
+          "styles": 1,
+          "react-helmet": 1,
+          "faker-js": 1,
+          "cropperjs": 1,
+          "react-infinite-scroll-component": 1,
+          "apollo-upload-client": 1,
+          "react-cropper": 1,
+          "react-dropzone": 1,
+          "react-modal": 1,
+          "fortawesome": 1,
+          "node-queue-adapter": 1,
+          "canvas-api": 1,
+          "ldapjs": 1,
+          "safe-utils": 1,
+          "kth-node-build-commons": 1,
+          "gulp": 1,
+          "kth-node-inferno": 1,
+          "merge-stream": 1,
+          "kth-client-logging": 1,
+          "kth-node-ldap": 1,
+          "kth-node-api-call": 1,
+          "sinon": 1,
+          "should": 1,
+          "https": 1,
+          "kentcdodds": 1,
+          "karma-jasmine-html-reporter": 1,
+          "karma-coverage-istanbul-reporter": 1,
+          "karma-chrome-launcher": 1,
+          "angular-devkit": 1,
+          "karma-jasmine": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 30,
+        "packages": {
+          "inferno-component": 19,
+          "inferno-bootstrap": 8,
+          "react": 8,
+          "inferno-animation": 6,
+          "inferno-router": 4,
+          "classnames": 2,
+          "inferno-devtools": 1,
+          "inferno-mobx": 1,
+          "inferno-formlib": 1,
+          "history": 1,
+          "component-registry": 1,
+          "inferno": 1,
+          "react-error-boundary": 1,
+          "react-router-dom": 1,
+          "react-dom": 1,
+          "prop-types": 1,
+          "react-qr-code": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 52,
+        "packages": {
+          "os": 20,
+          "typing": 14,
+          "dotenv": 10,
+          "load_dotenv": 10,
+          "langgraph": 9,
+          "State": 8,
+          "prompts": 8,
+          "builtins": 6,
+          "torch": 6,
+          "state": 6,
+          "matplotlib": 5,
+          "langchain_core": 5,
+          "tools": 4,
+          "pytest": 4,
+          "json": 4,
+          "PIL": 4,
+          "Image": 4,
+          "glob": 4,
+          "numpy": 4,
+          "collections": 4,
+          "torchtext": 4,
+          "agent": 4,
+          "datetime": 4,
+          "langchain_openai": 3,
+          "ChatOpenAI": 3,
+          "StateGraph": 3,
+          "simple_agent_tools": 3,
+          "SimpleAgent": 3,
+          "simple_agent": 3,
+          "openai": 3,
+          "OpenAI": 3,
+          "unittest": 3,
+          "model": 3,
+          "SystemMessage": 3,
+          "memory": 3,
+          "TypedDict": 3,
+          "agents": 3,
+          "List": 3,
+          "Agent": 3,
+          "Annotated": 2,
+          "add_messages": 2,
+          "SqliteSaver": 2,
+          "langgraph_agent_memory": 2,
+          "known_skills": 2,
+          "build_graph_agent": 2,
+          "torchvision": 2,
+          "zipfile": 2,
+          "ToTensor": 2,
+          "data": 2,
+          "keras": 2,
+          "tensorflow": 2,
+          "gather_financial_data_node": 2,
+          "nodes": 2,
+          "streamlit": 2,
+          "csv_data": 2,
+          "get_csv_data": 2,
+          "Dict": 2,
+          "tavily": 2,
+          "pydantic": 2,
+          "BaseModel": 2,
+          "patch": 2,
+          "Literal": 2,
+          "memory_store": 2,
+          "store": 2,
+          "get_triage_instructions": 2,
+          "get_profile": 2,
+          "profile_1": 2,
+          "tool": 2,
+          "init_assistant_facts": 2,
+          "config": 2,
+          "Memory": 2,
+          "sys": 2,
+          "shutil": 2,
+          "langgraph_agent_tools": 1,
+          "ToolNode": 1,
+          "get_thread_config": 1,
+          "langchain_community": 1,
+          "TavilySearchResults": 1,
+          "skills_query": 1,
+          "langgraph_agent": 1,
+          "langgraph_agent_query": 1,
+          "simple_agent_query": 1,
+          "get_checkpointer": 1,
+          "system_prompt": 1,
+          "simple_agent_prompt": 1,
+          "skills_query_graph": 1,
+          "Union": 1,
+          "re": 1,
+          "Callable": 1,
+          "Mock": 1,
+          "planet_mass": 1,
+          "ls_mapper": 1,
+          "copy": 1,
+          "deepcopy": 1,
+          "END": 1,
+          "pandas": 1,
+          "StringIO": 1,
+          "io": 1,
+          "get_memory_saver": 1,
+          "generate_model_response": 1,
+          "GATHER_FINANCIAL_PROMPT": 1,
+          "concurrent": 1,
+          "search_tool": 1,
+          "ThreadPoolExecutor": 1,
+          "specific": 1,
+          "TTLCache": 1,
+          "cachetools": 1,
+          "functools": 1,
+          "TavilyClient": 1,
+          "langchain": 1,
+          "init_chat_model": 1,
+          "classification": 1,
+          "create_react_agent": 1,
+          "create_react_agent_prompt": 1,
+          "typing_extensions": 1,
+          "triage_classifier": 1,
+          "response_agent": 1,
+          "triage_user_prompt": 1,
+          "model_classifier": 1,
+          "Command": 1,
+          "tests": 1,
+          "inquiry_to_ignore": 1,
+          "feedback_inquiry": 1,
+          "create_memory": 1,
+          "inquiry_requiring_response": 1,
+          "build_support_graph_agent": 1,
+          "InMemoryStore": 1,
+          "manage_memory": 1,
+          "create_ticket": 1,
+          "FACT_KEY_COMMANDS": 1,
+          "our": 1,
+          "utils": 1,
+          "create_folder": 1,
+          "search_keywords": 1,
+          "all": 1,
+          "Optional": 1,
+          "Flask": 1,
+          "logging": 1,
+          "flask": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 21,
+        "packages": {
+          "angular": 17,
+          "ngrx": 4,
+          "rxjs": 1,
+          "zone.js": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 5,
+        "packages": {
+          "react": 5,
+          "react-native": 4,
+          "expo": 3,
+          "expo-camera": 1,
+          "expo-status-bar": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "lenaar/ai-agent-simple-and-langgraph-with-memory",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lenaar/ai-assisted-react-native-app-like-instagram-feed",
+        "files_analyzed": 7,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "lenaar/AI-For-Beginners",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "lenaar/bookshelf",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lenaar/build-monitor",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lenaar/canvas-api",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lenaar/copyOfdisplayPictures",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lenaar/display-pictures",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lenaar/EliHello",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "lenaar/financial-ai-agent",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lenaar/graphbook-react-graphql-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lenaar/kth-style",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "lenaar/langmem-customer-support-agent",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lenaar/lms-sync",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lenaar/memagent-json",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lenaar/menu-web-inferno",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "lenaar/node-message-type",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lenaar/poc-bank-id-app",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "lenaar/python-helloworld",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lenaar/react-suspense",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lenaar/test-wsa",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

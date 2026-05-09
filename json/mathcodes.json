@@ -1,0 +1,500 @@
+{
+  "username": "mathcodes",
+  "areas": {
+    "OSS": {
+      "score": 0.4871794871794872,
+      "details": {
+        "issue_resolution_rate": 0.23076923076923078,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.32630544834281316,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9509966340526814,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.875,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.5,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 10,
+        "language_transitions": 8,
+        "topic_entropy_bits": 1.5,
+        "closed_prs_total": 21,
+        "bounced_back_prs": 11
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.48769698710446013,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        749818,
+        206
+      ],
+      "HTML": [
+        290616,
+        173
+      ],
+      "TypeScript": [
+        196773,
+        87
+      ],
+      "CSS": [
+        37368,
+        138
+      ],
+      "JavaScript": [
+        126405,
+        853
+      ],
+      "Cython": [
+        2244,
+        0
+      ],
+      "PowerShell": [
+        52212,
+        0
+      ],
+      "Roff": [
+        1366,
+        0
+      ],
+      "Shell": [
+        34092,
+        2
+      ],
+      "Jupyter Notebook": [
+        4466885,
+        23
+      ],
+      "Makefile": [
+        63,
+        0
+      ],
+      "C#": [
+        9910056,
+        0
+      ],
+      "C++": [
+        224238,
+        0
+      ],
+      "Java": [
+        96893,
+        12
+      ],
+      "C": [
+        22881,
+        0
+      ],
+      "Batchfile": [
+        3959,
+        0
+      ],
+      "CMake": [
+        2832,
+        0
+      ],
+      "F#": [
+        1079,
+        0
+      ],
+      "Lua": [
+        849,
+        0
+      ],
+      "Dockerfile": [
+        227,
+        0
+      ],
+      "ASP.NET": [
+        18,
+        0
+      ],
+      "Less": [
+        2,
+        10
+      ],
+      "SCSS": [
+        2,
+        22
+      ],
+      "Smalltalk": [
+        0,
+        0
+      ],
+      "Astro": [
+        0,
+        2
+      ],
+      "Perl": [
+        0,
+        0
+      ],
+      "MDX": [
+        0,
+        1
+      ],
+      "AMPL": [
+        0,
+        0
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "Nu": [
+        0,
+        0
+      ],
+      "Nix": [
+        0,
+        0
+      ],
+      "Fortran": [
+        0,
+        0
+      ],
+      "Handlebars": [
+        0,
+        0
+      ]
+    },
+    "language_count": 33,
+    "total_commits": 1529,
+    "total_lines": 16220878,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 126405,
+        "commits": 853
+      },
+      {
+        "language": "Python",
+        "lines": 749818,
+        "commits": 206
+      },
+      {
+        "language": "HTML",
+        "lines": 290616,
+        "commits": 173
+      },
+      {
+        "language": "CSS",
+        "lines": 37368,
+        "commits": 138
+      },
+      {
+        "language": "TypeScript",
+        "lines": 196773,
+        "commits": 87
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mathcodes",
+    "analysis_date": "2026-05-08T21:09:49.759070",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 121,
+    "languages": {
+      "C#": {
+        "files_scanned": 28,
+        "packages": {
+          "Microsoft.CodeAnalysis": 16,
+          "System": 14,
+          "System.Collections.Generic": 11,
+          "System.Collections.Immutable": 10,
+          "System.IO": 8,
+          "System.Threading.Tasks": 6,
+          "System.Linq": 6,
+          "Microsoft.CodeAnalysis.Operations": 6,
+          "System.Diagnostics": 5,
+          "Microsoft.Build.Utilities": 5,
+          "Microsoft.Build.Framework": 5,
+          "Microsoft.CodeAnalysis.Diagnostics": 5,
+          "System.Threading": 4,
+          "System.Text": 4,
+          "System.Xml.Linq": 3,
+          "System.Globalization": 3,
+          "NuGet.Packaging": 2,
+          "System.Xml": 2,
+          "System.Runtime.InteropServices": 2,
+          "System.Reflection": 2,
+          "Microsoft.Extensions.CommandLineUtils": 1,
+          "NuGet.Common": 1,
+          "NuGet.Protocol": 1,
+          "NuGet.Protocol.Core.Types": 1,
+          "NuGet.Versioning": 1,
+          "System.Net.Http": 1,
+          "NuGet.Configuration": 1,
+          "System.CommandLine": 1,
+          "var": 1,
+          "Microsoft.Extensions.DependencyModel": 1,
+          "Microsoft.Deployment.WindowsInstaller.Package": 1,
+          "System.IO.Compression": 1,
+          "NuGet.Packaging.Core": 1,
+          "NuGet.Frameworks": 1,
+          "System.Net": 1,
+          "System.Security.Cryptography": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 12,
+        "packages": {
+          "react": 9,
+          "framer-motion": 8,
+          "react-router-dom": 6,
+          "the": 1,
+          "react-dom": 1,
+          "json-server": 1,
+          "path": 1,
+          "fs": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 59,
+        "packages": {
+          "typing": 35,
+          "os": 19,
+          "asyncio": 19,
+          "json": 13,
+          "sys": 11,
+          "warnings": 11,
+          "collections": 11,
+          "multidict": 10,
+          "Any": 9,
+          "re": 9,
+          "numpy": 8,
+          "contextlib": 8,
+          "CIMultiDict": 7,
+          "extract_sql": 7,
+          "utils": 7,
+          "yarl": 6,
+          "URL": 6,
+          "suppress": 6,
+          "types": 6,
+          "traceback": 5,
+          "http": 5,
+          "anthropic": 5,
+          "Dict": 5,
+          "ssl": 4,
+          "attr": 4,
+          "pickle": 4,
+          "zlib": 4,
+          "Anthropic": 4,
+          "VectorDB": 4,
+          "vectordb": 4,
+          "List": 3,
+          "cv2": 3,
+          "pathlib": 3,
+          "abc": 3,
+          "logging": 3,
+          "Optional": 3,
+          "base64": 3,
+          "io": 3,
+          "functools": 3,
+          "TracebackType": 3,
+          "urllib": 3,
+          "enum": 3,
+          "Callable": 3,
+          "voyageai": 3,
+          "MIDIFile": 2,
+          "midiutil": 2,
+          "shutil": 2,
+          "Path": 2,
+          "ABC": 2,
+          "BaseCookie": 2,
+          "SSLContext": 2,
+          "hashlib": 2,
+          "async_timeout": 2,
+          "defaultdict": 2,
+          "time": 2,
+          "itertools": 2,
+          "random": 2,
+          "datetime": 2,
+          "MultiDict": 2,
+          "binascii": 2,
+          "IntEnum": 2,
+          "aiohttp": 2,
+          "socket": 2,
+          "ClientError": 2,
+          "boto3": 2,
+          "botocore": 2,
+          "sqlite3": 2,
+          "matplotlib": 1,
+          "Table": 1,
+          "argparse": 1,
+          "dataclass": 1,
+          "dataclasses": 1,
+          "subprocess": 1,
+          "openai": 1,
+          "requests": 1,
+          "git": 1,
+          "bs4": 1,
+          "BeautifulSoup": 1,
+          "Repo": 1,
+          "importlib": 1,
+          "distutils": 1,
+          "Tuple": 1,
+          "Sized": 1,
+          "SimpleNamespace": 1,
+          "TYPE_CHECKING": 1,
+          "CookieError": 1,
+          "codecs": 1,
+          "MappingProxyType": 1,
+          "md5": 1,
+          "charset_normalizer": 1,
+          "cchardet": 1,
+          "SimpleCookie": 1,
+          "cycle": 1,
+          "monotonic": 1,
+          "urlencode": 1,
+          "Set": 1,
+          "istr": 1,
+          "typing_extensions": 1,
+          "Final": 1,
+          "quote": 1,
+          "platform": 1,
+          "ceil": 1,
+          "parsedate": 1,
+          "weakref": 1,
+          "idna_ssl": 1,
+          "netrc": 1,
+          "math": 1,
+          "namedtuple": 1,
+          "HeaderParser": 1,
+          "inspect": 1,
+          "getproxies": 1,
+          "email": 1,
+          "Mapping": 1,
+          "string": 1,
+          "brotli": 1,
+          "Struct": 1,
+          "struct": 1,
+          "parse_qsl": 1,
+          "uuid": 1,
+          "deque": 1,
+          "mimetypes": 1,
+          "chain": 1,
+          "AsyncIterable": 1,
+          "uvloop": 1,
+          "tokio": 1,
+          "PY_37": 1,
+          "Application": 1,
+          "pytest": 1,
+          "?": 1,
+          "aiodns": 1,
+          "Awaitable": 1,
+          "the": 1,
+          "textwrap": 1,
+          "InferenceAdapter": 1,
+          "s3_adapter": 1,
+          "S3Adapter": 1,
+          "inference_adapter": 1,
+          "xml": 1,
+          "ast": 1,
+          "nltk": 1,
+          "word_tokenize": 1,
+          "sentence_bleu": 1,
+          "rouge_scorer": 1,
+          "rouge_score": 1,
+          "select": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mathcodes/Agent-Billiards",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mathcodes/agile_dodger",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mathcodes/ai-blog",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mathcodes/algebra.js",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mathcodes/animated-ice-cream-parlor",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mathcodes/anthropic-cookbook",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mathcodes/article-ideas-api",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mathcodes/aspnetcore",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "username": "gizmo385",
+  "areas": {
+    "OSS": {
+      "score": 0.8198198198198199,
+      "details": {
+        "issue_resolution_rate": 0.7297297297297297,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7564102564102564,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.6346153846153846
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 10,
+        "language_transitions": 9,
+        "topic_entropy_bits": 3.2776,
+        "closed_prs_total": 16,
+        "bounced_back_prs": 11
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "gizmo385/discord.clj": 0.2571685714285714,
+        "gizmo385/gh-lazy": 0.06649166666666667,
+        "gizmo385/HuntTheWumpus": 0.34555
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8152460152460153,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        49916,
+        336
+      ],
+      "Shell": [
+        17660,
+        103
+      ],
+      "Dockerfile": [
+        5120,
+        29
+      ],
+      "JavaScript": [
+        418,
+        13
+      ],
+      "C": [
+        14902,
+        603
+      ],
+      "Yacc": [
+        1718,
+        55
+      ],
+      "Lex": [
+        418,
+        17
+      ],
+      "C++": [
+        415,
+        10
+      ],
+      "Makefile": [
+        326,
+        6
+      ],
+      "Clojure": [
+        104539,
+        404
+      ],
+      "Nix": [
+        80753,
+        602
+      ],
+      "HTML": [
+        1887,
+        71
+      ],
+      "CSS": [
+        2131,
+        21
+      ],
+      "Python": [
+        63841,
+        573
+      ],
+      "Lua": [
+        309,
+        5
+      ],
+      "Tree-sitter Query": [
+        160,
+        1
+      ],
+      "GDScript": [
+        468608,
+        5
+      ],
+      "Logos": [
+        178501,
+        18
+      ],
+      "TeX": [
+        0,
+        207
+      ],
+      "Assembly": [
+        0,
+        33
+      ],
+      "Perl": [
+        0,
+        8
+      ],
+      "PHP": [
+        0,
+        2
+      ],
+      "Prolog": [
+        0,
+        0
+      ],
+      "Vim Script": [
+        0,
+        2
+      ]
+    },
+    "language_count": 24,
+    "total_commits": 3124,
+    "total_lines": 991622,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 14902,
+        "commits": 603
+      },
+      {
+        "language": "Nix",
+        "lines": 80753,
+        "commits": 602
+      },
+      {
+        "language": "Python",
+        "lines": 63841,
+        "commits": 573
+      },
+      {
+        "language": "Clojure",
+        "lines": 104539,
+        "commits": 404
+      },
+      {
+        "language": "Java",
+        "lines": 49916,
+        "commits": 336
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "gizmo385",
+    "analysis_date": "2026-05-08T21:04:51.689202",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 120,
+    "languages": {
+      "C": {
+        "files_scanned": 6,
+        "packages": {
+          "globals.h": 5,
+          "symtab.h": 4,
+          "vector.h": 4,
+          "utils.h": 4,
+          "stdlib.h": 3,
+          "errors.h": 3,
+          "<stdlib.h>": 3,
+          "ast.h": 2,
+          "<string.h>": 2,
+          "string.h": 2,
+          "typecheck.h": 2,
+          "mips.h": 2,
+          "three.h": 2,
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "<stdbool.h>": 2,
+          "stdbool.h": 2,
+          "types.h": 1,
+          "<stdarg.h>": 1,
+          "stdarg.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 9,
+        "packages": {
+          "<stdbool.h>": 7,
+          "stdbool.h": 7,
+          "types.h": 7,
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "three.h": 1,
+          "ast.h": 1,
+          "vector.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 48,
+        "packages": {
+          "java.util": 24,
+          "java.awt": 22,
+          "java.io": 16,
+          "model": 13,
+          "javax.swing": 13,
+          "com.gizmo385": 9,
+          "util.Argumentable": 7,
+          "view.gui": 7,
+          "view": 5,
+          "util": 4,
+          "controller.Controller": 4,
+          "model.Direction": 3,
+          "model.Map": 3,
+          "javax.imageio": 3,
+          "model.Structure": 2,
+          "util.Config": 2,
+          "java.net": 2,
+          "model.GenerationStrategy": 2,
+          "model.Room": 2,
+          "controller": 1,
+          "util.Tuple": 1,
+          "model.RenderableArray": 1,
+          "model.SinglyLinkedList": 1,
+          "model.BinaryTree": 1,
+          "javax.sound": 1,
+          "java.text": 1,
+          "model.Condition": 1,
+          "org.junit": 1,
+          "test": 1,
+          "static": 1,
+          "model.Hunter": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "_": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 38,
+        "packages": {
+          "lazy_github": 26,
+          "LazyGithubContext": 15,
+          "typing": 12,
+          "logging": 11,
+          "Path": 10,
+          "pathlib": 10,
+          "lg": 8,
+          "httpx": 8,
+          "os": 7,
+          "Any": 7,
+          "dataclasses": 7,
+          "json": 6,
+          "dataclass": 6,
+          "BackendType": 5,
+          "Repository": 5,
+          "Config": 5,
+          "re": 5,
+          "asyncio": 5,
+          "docker": 5,
+          "textual": 4,
+          "enum": 4,
+          "JSON_CONTENT_ACCEPT_TYPE": 4,
+          "User": 4,
+          "click": 3,
+          "BaseModel": 3,
+          "pydantic": 3,
+          "StrEnum": 3,
+          "CONFIG_FOLDER": 3,
+          "datetime": 3,
+          "time": 3,
+          "sys": 3,
+          "update_cache": 3,
+          "version": 3,
+          "VERSION": 2,
+          "Binding": 2,
+          "open": 2,
+          "Optional": 2,
+          "run_gh_cli_command": 2,
+          "DIFF_CONTENT_ACCEPT_TYPE": 2,
+          "Issue": 2,
+          "GithubApiRequestFailed": 2,
+          "functools": 2,
+          "Release": 2,
+          "github_releases": 2,
+          "digest": 2,
+          "packaging": 2,
+          "InvalidVersion": 2,
+          "docker_release_feeds": 2,
+          "cli": 1,
+          "shutil": 1,
+          "rich": 1,
+          "_AUTHENTICATION_CACHE_LOCATION": 1,
+          "app": 1,
+          "collect_debug_info": 1,
+          "_CONFIG_FILE_LOCATION": 1,
+          "Iterable": 1,
+          "contextlib": 1,
+          "BUILTIN_THEMES": 1,
+          "contextmanager": 1,
+          "GithubClient": 1,
+          "RotatingFileHandler": 1,
+          "LazyGithubLogFormatter": 1,
+          "get_api_token": 1,
+          "current_local_branch_name": 1,
+          "importlib": 1,
+          "textwrap": 1,
+          "libraries": 1,
+          "DEVNULL": 1,
+          "subprocess": 1,
+          "tempfile": 1,
+          "hishel": 1,
+          "HTTPStatusError": 1,
+          "Branch": 1,
+          "CheckRunList": 1,
+          "HishelGithubApiBackend": 1,
+          "GithubApiBackend": 1,
+          "GithubCliBackend": 1,
+          "IssueOwnerFilter": 1,
+          "TypedDict": 1,
+          "FullPullRequest": 1,
+          "get_full_pull_request": 1,
+          "build_command": 1,
+          "MergeMethod": 1,
+          "list_issues": 1,
+          "partial": 1,
+          "Literal": 1,
+          "FullUser": 1,
+          "cached_property": 1,
+          "Message": 1,
+          "asdict": 1,
+          "CHECKMARK": 1,
+          "Enum": 1,
+          "fetch": 1,
+          "tasks": 1,
+          "OverallDigest": 1,
+          "croniter": 1,
+          "discord": 1,
+          "app_commands": 1,
+          "urllib": 1,
+          "xml": 1,
+          "yaml": 1,
+          "urlparse": 1,
+          "normalize_version": 1,
+          "_NON_VERSION_TAGS": 1,
+          "ServiceFeed": 1,
+          "flask": 1,
+          "Flask": 1,
+          "summarize_all": 1,
+          "registry": 1,
+          "threading": 1,
+          "resolve_version_from_registry": 1,
+          "_version_from_env": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "gizmo385/ACM-2015-hackathon",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "gizmo385/alpenglow",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gizmo385/C-Minus-Minus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "gizmo385/distributed-chat",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "gizmo385/gh-lazy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "gizmo385/HuntTheWumpus",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "gizmo385/image-updates-tracker",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "gizmo385/LibraryManager",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

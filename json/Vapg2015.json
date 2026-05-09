@@ -1,0 +1,130 @@
+{
+  "username": "Vapg2015",
+  "areas": {
+    "OSS": {
+      "score": 0.10620485679323877,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6593072851898583
+      }
+    },
+    "Status": {
+      "score": 0.13184588243426454,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6593072851898583,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.7,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.09238985215449932,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        10740,
+        7
+      ],
+      "HTML": [
+        61759,
+        5
+      ],
+      "CSS": [
+        20705,
+        0
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 12,
+    "total_lines": 93204,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 10740,
+        "commits": 7
+      },
+      {
+        "language": "HTML",
+        "lines": 61759,
+        "commits": 5
+      },
+      {
+        "language": "CSS",
+        "lines": 20705,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Vapg2015",
+    "analysis_date": "2026-05-09T12:08:10.023467",
+    "total_repos_analyzed": 5,
+    "total_files_analyzed": 21,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 11,
+        "packages": {
+          "vitest": 5,
+          "path": 3,
+          "url": 3,
+          "knex": 2,
+          "fs": 1,
+          "bcryptjs": 1,
+          "fastify": 1,
+          "dotenv": 1,
+          "tests": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Vapg2015/api-filmes-pos",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

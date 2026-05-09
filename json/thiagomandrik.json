@@ -1,0 +1,376 @@
+{
+  "username": "thiagomandrik",
+  "areas": {
+    "OSS": {
+      "score": 0.18547955241687908,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7782193286253186
+      }
+    },
+    "Status": {
+      "score": 0.21313194538750158,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7812363796197139,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.127778,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.3333,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 3,
+        "topic_entropy_bits": 1.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.054166699560876136,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        133,
+        1
+      ],
+      "CSS": [
+        15,
+        0
+      ],
+      "JavaScript": [
+        21,
+        0
+      ],
+      "Python": [
+        2872,
+        23
+      ],
+      "Mako": [
+        177,
+        0
+      ],
+      "Dockerfile": [
+        17,
+        0
+      ],
+      "Lua": [
+        21145,
+        0
+      ],
+      "PHP": [
+        2191,
+        18
+      ],
+      "Blade": [
+        658,
+        5
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 47,
+    "total_lines": 27229,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 2872,
+        "commits": 23
+      },
+      {
+        "language": "PHP",
+        "lines": 2191,
+        "commits": 18
+      },
+      {
+        "language": "Blade",
+        "lines": 658,
+        "commits": 5
+      },
+      {
+        "language": "HTML",
+        "lines": 133,
+        "commits": 1
+      },
+      {
+        "language": "CSS",
+        "lines": 15,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "thiagomandrik",
+    "analysis_date": "2026-05-09T03:54:19.279093",
+    "total_repos_analyzed": 10,
+    "total_files_analyzed": 84,
+    "languages": {
+      "Lua": {
+        "files_scanned": 2,
+        "packages": {
+          "mason-tool-installer": 1,
+          "=": 1,
+          "mini.ai": 1,
+          "conform": 1,
+          "🌙": 1,
+          "mini.surround": 1,
+          "telescope.themes": 1,
+          "telescope": 1,
+          "lspconfig": 1,
+          "mason-lspconfig": 1,
+          "tokyonight": 1,
+          "lazy": 1,
+          "dap": 1,
+          "dapui": 1,
+          "mason-nvim-dap": 1,
+          "dap-go": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 26,
+        "packages": {
+          "Illuminate\\Http\\Request": 7,
+          "Illuminate\\Support\\Facades\\Auth": 3,
+          "Illuminate\\Support\\ServiceProvider": 3,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 2,
+          "Illuminate\\Support\\Str": 2,
+          "routes/console.php": 1,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "Throwable": 1,
+          "Illuminate\\Auth\\AuthenticationException": 1,
+          "Illuminate\\Validation\\ValidationException": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "App\\Models\\User": 1,
+          "App\\Http\\Controllers\\Controller": 1,
+          "AuthorizesRequests": 1,
+          "Illuminate\\Routing\\Controller": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
+          "App\\Models\\Favorite": 1,
+          "App\\Http\\Controllers\\PokedexController": 1,
+          "Illuminate\\Support\\Facades\\Http": 1,
+          "Illuminate\\Foundation\\Http\\Kernel": 1,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 1,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 1,
+          "Closure": 1,
+          "App\\Providers\\RouteServiceProvider": 1,
+          "Symfony\\Component\\HttpFoundation\\Response": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 1,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 1,
+          "Illuminate\\Http\\Middleware\\TrustProxies": 1,
+          "Illuminate\\Routing\\Middleware\\ValidateSignature": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 1,
+          "Illuminate\\Database\\Eloquent\\Model": 1,
+          "HasFactory": 1,
+          "HasApiTokens": 1,
+          "Tymon\\JWTAuth\\Contracts\\JWTSubject": 1,
+          "Laravel\\Sanctum\\HasApiTokens": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 1,
+          "routes/channels.php": 1,
+          "Illuminate\\Support\\Facades\\Broadcast": 1,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
+          "Illuminate\\Auth\\Events\\Registered": 1,
+          "Illuminate\\Support\\Facades\\Event": 1,
+          "Illuminate\\Support\\Facades\\RateLimiter": 1,
+          "Illuminate\\Cache\\RateLimiting\\Limit": 1,
+          "Illuminate\\Support\\Facades\\Route": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Facade": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 42,
+        "packages": {
+          "django": 16,
+          "sqlalchemy": 12,
+          "fastapi": 8,
+          "os": 6,
+          "src": 4,
+          "alembic": 4,
+          "Session": 4,
+          "datetime": 4,
+          "app": 4,
+          "typing": 3,
+          "User": 3,
+          "select": 3,
+          "uuid": 3,
+          "admin": 3,
+          "path": 3,
+          "settings": 3,
+          "FastAPI": 3,
+          "fileConfig": 2,
+          "sys": 2,
+          "logging": 2,
+          "context": 2,
+          "engine_from_config": 2,
+          "op": 2,
+          "Sequence": 2,
+          "joblib": 2,
+          "UUID": 2,
+          "numpy": 2,
+          "get_db": 2,
+          "create_engine": 2,
+          "Base": 2,
+          "BaseModel": 2,
+          "pydantic": 2,
+          "AppConfig": 2,
+          "models": 2,
+          "TestCase": 2,
+          "render": 2,
+          "tmdb_api": 2,
+          "requests": 2,
+          "pytest": 2,
+          "status": 2,
+          "table_registry": 2,
+          "SQLALCHEMY_DATABASE_URL": 1,
+          "OAuth2PasswordRequestForm": 1,
+          "APIRouter": 1,
+          "declarative_base": 1,
+          "Column": 1,
+          "Optional": 1,
+          "PasswordHash": 1,
+          "jwt": 1,
+          "zoneinfo": 1,
+          "pwdlib": 1,
+          "OAuth2PasswordBearer": 1,
+          "ZoneInfo": 1,
+          "Depends": 1,
+          "DecodeError": 1,
+          "decode": 1,
+          "sklearn": 1,
+          "LinearRegression": 1,
+          "reverse_lazy": 1,
+          "generic": 1,
+          "UserCreationForm": 1,
+          "index": 1,
+          "View": 1,
+          "login_required": 1,
+          "execute_from_command_line": 1,
+          "get_asgi_application": 1,
+          "Path": 1,
+          "pathlib": 1,
+          "static": 1,
+          "get_wsgi_application": 1,
+          "langchain_openai": 1,
+          "ChatOpenAI": 1,
+          "StrOutputParser": 1,
+          "langchain_core": 1,
+          "OPENAI_API_KEY": 1,
+          "ChatPromptTemplate": 1,
+          "search_movie": 1,
+          "generate_response": 1,
+          "agent": 1,
+          "uvicorn": 1,
+          "dotenv": 1,
+          "load_dotenv": 1,
+          "httpx": 1,
+          "TMDB_API_KEY": 1,
+          "random": 1,
+          "registry": 1,
+          "CORSMiddleware": 1,
+          "func": 1,
+          "Mapped": 1,
+          "pydantic_settings": 1,
+          "BaseSettings": 1,
+          "Settings": 1,
+          "pool": 1,
+          "TestClient": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "thiagomandrik/fastapi_scikit_joblib",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thiagomandrik/kickstart.nvim",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "thiagomandrik/login_django",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thiagomandrik/mandrik_dev",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thiagomandrik/movies-chatbot",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thiagomandrik/pedraPapelTesoura",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thiagomandrik/pokedex-laravel",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "thiagomandrik/TDD_Rest_Ecommerce_Python",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

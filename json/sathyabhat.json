@@ -1,0 +1,664 @@
+{
+  "username": "sathyabhat",
+  "areas": {
+    "OSS": {
+      "score": 0.011494252873563315,
+      "details": {
+        "issue_resolution_rate": 0.5172413793103449,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.27758594240071477,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8586866059087646,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 14,
+        "language_transitions": 12,
+        "topic_entropy_bits": 3.9069,
+        "closed_prs_total": 52,
+        "bounced_back_prs": 45
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "SathyaBhat/devops-workflow": 0.4926
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6078160390548557,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        274706,
+        45
+      ],
+      "JavaScript": [
+        682276,
+        15
+      ],
+      "Python": [
+        608607,
+        207
+      ],
+      "Java": [
+        235530,
+        0
+      ],
+      "C#": [
+        80111,
+        23
+      ],
+      "Go": [
+        385398,
+        87
+      ],
+      "HTML": [
+        1111613,
+        374
+      ],
+      "Shell": [
+        20533,
+        29
+      ],
+      "Batchfile": [
+        3321,
+        0
+      ],
+      "Dockerfile": [
+        4670,
+        4
+      ],
+      "CSS": [
+        1314483,
+        96
+      ],
+      "Ruby": [
+        1411,
+        47
+      ],
+      "HCL": [
+        467,
+        18
+      ],
+      "Makefile": [
+        998,
+        0
+      ],
+      "Vue": [
+        0,
+        10
+      ],
+      "Just": [
+        0,
+        0
+      ],
+      "Lua": [
+        0,
+        7
+      ],
+      "Swift": [
+        0,
+        5
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 967,
+    "total_lines": 4724124,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 1111613,
+        "commits": 374
+      },
+      {
+        "language": "Python",
+        "lines": 608607,
+        "commits": 207
+      },
+      {
+        "language": "CSS",
+        "lines": 1314483,
+        "commits": 96
+      },
+      {
+        "language": "Go",
+        "lines": 385398,
+        "commits": 87
+      },
+      {
+        "language": "Ruby",
+        "lines": 1411,
+        "commits": 47
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sathyabhat",
+    "analysis_date": "2026-05-09T09:33:04.638882",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 151,
+    "languages": {
+      "C#": {
+        "files_scanned": 23,
+        "packages": {
+          "System.Collections.Generic": 16,
+          "System.Linq": 13,
+          "Amazon.CDK": 12,
+          "System": 12,
+          "Constructs": 11,
+          "Amazon.CDK.AWS.Lambda": 4,
+          "Amazon.CDK.AWS.S3": 4,
+          "Amazon.CDK.AWS.AutoScaling": 2,
+          "Amazon.CDK.AWS.EC2": 2,
+          "Amazon.CDK.AWS.IAM": 2,
+          "Amazon.CDK.AWS.DynamoDB": 2,
+          "System.Threading.Tasks": 2,
+          "Amazon.Lambda.Core": 2,
+          "Amazon.CDK.AWS.ElasticLoadBalancingV2": 1,
+          "Amazon.CDK.AWS.AppSync": 1,
+          "Amazon.Lambda.TestUtilities": 1,
+          "Xunit": 1,
+          "CapitalizeStringHandler": 1,
+          "Amazon.CDK.AWS.ElasticLoadBalancing": 1,
+          "Amazon.CDK.AWS.CodePipeline": 1,
+          "Amazon.CDK.AWS.CodePipeline.Actions": 1,
+          "Amazon.CDK.AWS.CodeCommit": 1,
+          "Amazon.CDK.AWS.ElasticBeanstalk": 1,
+          "Amazon.CDK.AWS.APIGateway": 1,
+          "Amazon.CDK.AWS.Events": 1,
+          "Amazon.CDK.AWS.Events.Targets": 1,
+          "Amazon.CDK.AWS.Route53.Targets": 1,
+          "Amazon.CDK.AWS.CloudFront": 1,
+          "Amazon.CDK.AWS.Route53": 1,
+          "Amazon.CDK.AWS.S3.Deployment": 1,
+          "Amazon.CDK.AWS.CertificateManager": 1,
+          "Amazon.CDK.AWS.StepFunctions.Tasks": 1,
+          "Amazon.CDK.AWS.StepFunctions": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 36,
+        "packages": {
+          "time": 19,
+          "context": 16,
+          "github.com/sathyabhat/echobridge/internal/models": 16,
+          "testing": 15,
+          "fmt": 13,
+          "net/http": 12,
+          "io": 11,
+          "encoding/json": 9,
+          "strings": 9,
+          "os": 7,
+          "errors": 7,
+          "github.com/stretchr/testify/require": 7,
+          "github.com/stretchr/testify/assert": 7,
+          "net/http/httptest": 6,
+          "go.uber.org/zap": 6,
+          "github.com/sathyabhat/foxess-exporter/internal/foxess": 6,
+          "github.com/sathyabhat/echobridge/internal/providers": 5,
+          "bytes": 5,
+          "database/sql": 5,
+          "github.com/sathyabhat/foxess-exporter/internal/influx": 5,
+          "github.com/sathyabhat/foxess-exporter/internal/config": 5,
+          "SoC": 5,
+          "pvPower": 5,
+          "path/filepath": 4,
+          "generation": 4,
+          "github.com/sathyabhat/echobridge/internal/db": 3,
+          "github.com/go-chi/chi/v5": 3,
+          "image/jpeg": 3,
+          "github.com/sathyabhat/foxess-exporter/internal/exporter": 3,
+          "sync": 3,
+          "feedin": 3,
+          "should": 3,
+          "strconv": 3,
+          "log": 2,
+          "mime/multipart": 2,
+          "image": 2,
+          "photo.jpg": 2,
+          "flag": 2,
+          "currentPage": 2,
+          "deviceSN": 2,
+          "device_sn": 2,
+          "data": 2,
+          "datas": 2,
+          "got": 2,
+          "dischargeEnergyToTal": 2,
+          "gridConsumption": 2,
+          "chargeEnergyToTal": 2,
+          "crypto/md5": 2,
+          "signature": 2,
+          "unit": 2,
+          "variable": 2,
+          "feedinPower": 2,
+          "loadsPower": 2,
+          "batChargePower": 2,
+          "batDischargePower": 2,
+          "github.com/aws/aws-cdk-go/awscdk/v2/awselasticloadbalancing": 1,
+          "github.com/aws/aws-cdk-go/awscdk/v2": 1,
+          "github.com/aws/aws-cdk-go/awscdk/v2/awsec2": 1,
+          "github.com/aws/constructs-go/constructs/v10": 1,
+          "github.com/aws/jsii-runtime-go": 1,
+          "github.com/aws/aws-cdk-go/awscdk/v2/awsautoscaling": 1,
+          "github.com/sathyabhat/echobridge/internal/api": 1,
+          "crypto/rand": 1,
+          "github.com/google/uuid": 1,
+          "id": 1,
+          "filename": 1,
+          "encoding/hex": 1,
+          "app_password": 1,
+          "handle": 1,
+          "github.com/go-chi/chi/v5/middleware": 1,
+          "github.com/go-chi/cors": 1,
+          "SELECT": 1,
+          "regexp": 1,
+          "sort": 1,
+          "github.com/rwcarlsen/goexif/exif": 1,
+          "golang.org/x/image/webp": 1,
+          "golang.org/x/net/html": 1,
+          "application/json": 1,
+          "image/draw": 1,
+          "image/png": 1,
+          "Hello": 1,
+          "image/color": 1,
+          "Check": 1,
+          "net/url": 1,
+          "os/signal": 1,
+          "syscall": 1,
+          "go.uber.org/zap/zapcore": 1,
+          "github.com/spf13/viper": 1,
+          "second": 1,
+          "total": 1,
+          "auto-discovery": 1,
+          "report": 1,
+          "pageSize": 1,
+          "value_kwh": 1,
+          "realtime": 1,
+          "history": 1,
+          "exporter": 1,
+          "Run": 1,
+          "got:": 1,
+          "LastTimestamp": 1,
+          "auto-discovered": 1,
+          "timestamp": 1,
+          "sync/atomic": 1,
+          "name": 1,
+          "not": 1,
+          "%d)": 1,
+          "%q": 1,
+          "sign(%q": 1,
+          "sign": 1,
+          "batTemperature": 1,
+          "batCurrent": 1,
+          "meterPower": 1,
+          "invBatPower": 1,
+          "invTemperat": 1,
+          "pv3Power": 1,
+          "pv4Power": 1,
+          "gridConsumptionPower": 1,
+          "RVolt": 1,
+          "RFreq": 1,
+          "pv2Power": 1,
+          "batVolt": 1,
+          "pv1Power": 1,
+          "generationPower": 1,
+          "todayYield": 1,
+          "ReportVariables": 1,
+          "FriendlyName": 1,
+          "github.com/apache/arrow/go/v15/arrow": 1,
+          "station_name": 1,
+          "all": 1,
+          "line": 1,
+          "encoding/csv": 1,
+          "github.com/jcelliott/lumber": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 16,
+        "packages": {
+          "react": 7,
+          "date-fns": 3,
+          "mini-css-extract-plugin": 3,
+          "aws-sdk": 2,
+          "path": 2,
+          "webpack-merge": 2,
+          "jquery": 2,
+          "https:": 2,
+          "crypto": 1,
+          "immutable": 1,
+          "!to-string-loader!css-loader!postcss-loader!sass-loader!..": 1,
+          "netlify-cms-app": 1,
+          "html-webpack-plugin": 1,
+          "assets-webpack-plugin": 1,
+          "webpack": 1,
+          "copy-webpack-plugin": 1,
+          "clean-webpack-plugin": 1,
+          "terser-webpack-plugin": 1,
+          "optimize-css-assets-webpack-plugin": 1,
+          "object": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 32,
+        "packages": {
+          "sys": 8,
+          "aws_cdk": 7,
+          "os": 6,
+          "constant": 6,
+          "json": 5,
+          "datetime": 5,
+          "core": 5,
+          "*": 5,
+          "construct": 5,
+          "boto3": 4,
+          "Path": 4,
+          "pathlib": 4,
+          "FILE_SIGNATURE": 4,
+          "re": 3,
+          "botocore": 3,
+          "time": 3,
+          "setuptools": 3,
+          "glob": 3,
+          "YAML": 3,
+          "io": 3,
+          "frontmatter": 3,
+          "ruamel": 3,
+          "typing": 3,
+          "zlib": 3,
+          "yaml": 2,
+          "__future__": 2,
+          "exists": 2,
+          "StringIO": 2,
+          "logging": 2,
+          "exit": 2,
+          "models": 2,
+          "Dict": 2,
+          "=": 1,
+          "functools": 1,
+          "zipfile": 1,
+          "Session": 1,
+          "urllib": 1,
+          "print_function": 1,
+          "tempfile": 1,
+          "traceback": 1,
+          "App": 1,
+          "images_cdn": 1,
+          "ImagesCdnStack": 1,
+          "aws_cloudfront_origins": 1,
+          "aws_cloudfront": 1,
+          "Stack": 1,
+          "constructs": 1,
+          "aws_certificatemanager": 1,
+          "aws_s3": 1,
+          "Construct": 1,
+          "Flask": 1,
+          "flask": 1,
+          "hello": 1,
+          "unittest": 1,
+          "ebs_cleanup": 1,
+          "clean_up": 1,
+          "distutils": 1,
+          "StrictVersion": 1,
+          "DeepDiff": 1,
+          "deepdiff": 1,
+          "packaging": 1,
+          "Resolver": 1,
+          "Version": 1,
+          "time_ns": 1,
+          "date": 1,
+          "comments": 1,
+          "FactorioFargateStack": 1,
+          "factorio_fargate": 1,
+          "client": 1,
+          "aws_stack": 1,
+          "VpcStack": 1,
+          "timedelta": 1,
+          "AsgStack": 1,
+          "difflib": 1,
+          "environ": 1,
+          "unified_diff": 1,
+          "requests": 1,
+          "loads": 1,
+          "asctime": 1,
+          "folding_stats": 1,
+          "get_and_publish_stats": 1,
+          "PyQt5": 1,
+          "QStandardPaths": 1,
+          "QFileDialog": 1,
+          "HadesSaveFile": 1,
+          "csv": 1,
+          "gamedata": 1,
+          "QtWidgets": 1,
+          "copy": 1,
+          "decode_luabins": 1,
+          "luabins": 1,
+          "SAV15_UNCOMPRESSED_SIZE": 1,
+          "lz4": 1,
+          "BytesIO": 1,
+          "SAVE_DATA_V14_LENGTH": 1,
+          "rpad_bytes": 1,
+          "sav16_schema": 1,
+          "version_identifier_schema": 1,
+          "sav15_schema": 1,
+          "schemas": 1,
+          "bin_utils": 1,
+          "sav14_schema": 1,
+          "LuaState": 1,
+          "List": 1,
+          "RawSaveFile": 1,
+          "data": 1,
+          "pprint": 1,
+          "argparse": 1,
+          "basicConfig": 1,
+          "openpyxl": 1,
+          "pymysql": 1,
+          "load_workbook": 1,
+          "unicode_literals": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 7,
+        "packages": {
+          "sequel": 3,
+          "yaml": 3,
+          "fileutils": 2,
+          "lib/update": 1,
+          "logger": 1,
+          "httparty": 1,
+          "compass/import-once/activate": 1,
+          "icalendar": 1,
+          "json": 1,
+          "date": 1,
+          "nokogiri": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 12,
+        "packages": {
+          "chalk": 4,
+          "fs": 3,
+          "chai": 2,
+          "node:path": 2,
+          "aws-cdk-lib": 2,
+          "aws-lambda": 2,
+          "assert": 1,
+          "dotenv": 1,
+          "node-fetch": 1,
+          "constructs": 1,
+          "module": 1,
+          "tweetnacl": 1,
+          "discord-interactions": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "SathyaBhat/advent-of-code",
+        "files_analyzed": 7,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/aws-cdk-examples",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "Go",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/blog.awsug.in",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/cdk-cdn",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/chip_shit_post",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/communityday.awsug.in",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/devops-workflow",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/ebscleanup",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/echobridge",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/endoflife.date",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/factorio-on-fargate",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/folding-aws",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/folding-info",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/foxess-exporter",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/go-budget",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/hades_save_editor",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/horoscope-export",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "SathyaBhat/hungrycat",
+        "files_analyzed": 8,
+        "languages_found": [
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "username": "felipemila",
+  "areas": {
+    "OSS": {
+      "score": -0.5009034325597315,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.7486448511604029
+      }
+    },
+    "Status": {
+      "score": 0.19140425974796083,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7486448511604029,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.616667,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "felipemila/bouflix": 0.34236949152542373
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.014766765437645886,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        273305,
+        27
+      ],
+      "JavaScript": [
+        85231,
+        0
+      ],
+      "CSS": [
+        12736,
+        0
+      ],
+      "HTML": [
+        6376,
+        0
+      ],
+      "HCL": [
+        158,
+        0
+      ],
+      "Shell": [
+        20,
+        0
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 27,
+    "total_lines": 377826,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 273305,
+        "commits": 27
+      },
+      {
+        "language": "JavaScript",
+        "lines": 85231,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 12736,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 6376,
+        "commits": 0
+      },
+      {
+        "language": "HCL",
+        "lines": 158,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "felipemila",
+    "analysis_date": "2026-05-09T10:51:52.901240",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 33,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 26,
+        "packages": {
+          "react": 18,
+          "styled-components": 10,
+          "react-router-dom": 5,
+          "json-server": 1,
+          "react-slick": 1,
+          "prop-types": 1,
+          "react-dom": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "time": 1,
+          "json": 1,
+          "PIL": 1,
+          "*": 1,
+          "ImageTk": 1,
+          "tkinter": 1,
+          "ttk": 1,
+          "requests": 1,
+          "Spectral6": 1,
+          "ColumnDataSource": 1,
+          "bokeh": 1,
+          "output_file": 1,
+          "figure": 1,
+          "numpy": 1,
+          "matplotlib": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "felipemila/bitcoin-price-check",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "felipemila/bouflix",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "felipemila/StudyingPython",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

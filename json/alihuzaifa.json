@@ -1,0 +1,381 @@
+{
+  "username": "alihuzaifa",
+  "areas": {
+    "OSS": {
+      "score": 0.23076923076923084,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.8461538461538461,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.31442358417194116,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8947122993348348,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.5875,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "alihuzaifa/aun-digital-prod": 0.37105714285714286
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.47653856298823444,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        126946,
+        252
+      ],
+      "CSS": [
+        52034,
+        11
+      ],
+      "HTML": [
+        116605,
+        80
+      ],
+      "TypeScript": [
+        3467851,
+        55
+      ],
+      "Java": [
+        6713,
+        1
+      ],
+      "C++": [
+        3129,
+        0
+      ],
+      "Objective-C++": [
+        1907,
+        0
+      ],
+      "Objective-C": [
+        1028,
+        0
+      ],
+      "Ruby": [
+        698,
+        0
+      ],
+      "Starlark": [
+        257,
+        0
+      ],
+      "Shell": [
+        206,
+        0
+      ],
+      "CMake": [
+        119,
+        0
+      ],
+      "SCSS": [
+        43049,
+        1
+      ],
+      "PHP": [
+        0,
+        0
+      ],
+      "Python": [
+        0,
+        1
+      ],
+      "Kotlin": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 401,
+    "total_lines": 3820542,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 126946,
+        "commits": 252
+      },
+      {
+        "language": "HTML",
+        "lines": 116605,
+        "commits": 80
+      },
+      {
+        "language": "TypeScript",
+        "lines": 3467851,
+        "commits": 55
+      },
+      {
+        "language": "CSS",
+        "lines": 52034,
+        "commits": 11
+      },
+      {
+        "language": "Java",
+        "lines": 6713,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "alihuzaifa",
+    "analysis_date": "2026-05-08T22:45:36.039490",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 136,
+    "languages": {
+      "C++": {
+        "files_scanned": 4,
+        "packages": {
+          "MainApplicationModuleProvider.h": 2,
+          "<rncli.h>": 2,
+          "rncli.h": 2,
+          "MainApplicationTurboModuleManagerDelegate.h": 2,
+          "MainComponentsRegistry.h": 2,
+          "<fbjni/fbjni.h>": 2,
+          "fbjni/fbjni.h": 2,
+          "<rncore.h>": 1,
+          "rncore.h": 1,
+          "react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h": 1,
+          "<react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h>": 1,
+          "<react/renderer/components/rncore/ComponentDescriptors.h>": 1,
+          "<CoreComponentsRegistry.h>": 1,
+          "react/renderer/components/rncore/ComponentDescriptors.h": 1,
+          "CoreComponentsRegistry.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 4,
+        "packages": {
+          "<memory>": 2,
+          "memory": 2,
+          "string": 2,
+          "<string>": 2,
+          "<fbjni/fbjni.h>": 2,
+          "fbjni/fbjni.h": 2,
+          "ReactCommon/JavaTurboModule.h": 1,
+          "<ReactCommon/JavaTurboModule.h>": 1,
+          "ReactCommon/TurboModuleManagerDelegate.h": 1,
+          "<ReactCommon/TurboModuleManagerDelegate.h>": 1,
+          "react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h": 1,
+          "<ComponentFactory.h>": 1,
+          "ComponentFactory.h": 1,
+          "<react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h>": 1,
+          "<react/renderer/componentregistry/ComponentDescriptorRegistry.h>": 1,
+          "react/renderer/componentregistry/ComponentDescriptorRegistry.h": 1,
+          "<React/RCTBridgeDelegate.h>": 1,
+          "<UIKit/UIKit.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 6,
+        "packages": {
+          "com.facebook": 6,
+          "com.authentication": 6,
+          "java.util": 3,
+          "android.content": 2,
+          "android.app": 2,
+          "okhttp3.OkHttpClient": 1,
+          "java.lang": 1,
+          "androidx.annotation": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 34,
+        "packages": {
+          "react": 14,
+          "https:": 12,
+          "react-native": 5,
+          "react-dom": 3,
+          "testing-library": 2,
+          "web-vitals": 2,
+          "path": 2,
+          "react-router-dom": 2,
+          "bootstrap": 1,
+          "ts-node": 1,
+          "protractor": 1,
+          "jasmine-spec-reporter": 1,
+          "karma-jasmine-html-reporter": 1,
+          "angular-devkit": 1,
+          "karma-chrome-launcher": 1,
+          "karma-jasmine": 1,
+          "karma-coverage": 1,
+          "react-test-renderer": 1,
+          "react-native-vector-icons": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 11,
+        "packages": {
+          "react": 9,
+          "react-router-dom": 4,
+          "mui": 2,
+          "react-pdf": 2,
+          "bootstrap": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 2,
+        "packages": {
+          "UIKit/UIKit.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "AppDelegate.h": 1,
+          "<React/RCTRootView.h>": 1,
+          "<XCTest/XCTest.h>": 1,
+          "<React/RCTLog.h>": 1,
+          "XCTest/XCTest.h": 1,
+          "React/RCTRootView.h": 1,
+          "React/RCTLog.h": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "angular": 5,
+          "zone.js": 3,
+          "protractor": 2,
+          "classlist.js": 1,
+          "web-animations-js": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 27,
+        "packages": {
+          "next": 24,
+          "react": 15,
+          "lucide-react": 11,
+          "react-icons": 7,
+          "embla-carousel-autoplay": 4,
+          "formik": 3,
+          "yup": 3,
+          "TableDemo": 1,
+          "this": 1,
+          "your": 1,
+          "Analytics’": 1,
+          "Google’s": 1,
+          "the": 1,
+          "framer-motion": 1,
+          "react-responsive": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "alihuzaifa/Admin-Hackathon",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "alihuzaifa/Angular-11-Learning",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "alihuzaifa/aun-digital-prod",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "alihuzaifa/Authentication-In-React-Native",
+        "files_analyzed": 25,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "alihuzaifa/Batch-13-Projects",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "alihuzaifa/Budget-Calculator",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "alihuzaifa/Car-Booking",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "alihuzaifa/Chat-Application",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "alihuzaifa/chat-application-for-class-chatting",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

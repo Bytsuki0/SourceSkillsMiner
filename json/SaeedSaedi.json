@@ -1,0 +1,162 @@
+{
+  "username": "SaeedSaedi",
+  "areas": {
+    "OSS": {
+      "score": 0.7906062003209344,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.6859093004814018
+      }
+    },
+    "Status": {
+      "score": 0.15284587992756404,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6908072814298076,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.3625,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2611904160496997,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        3290,
+        13
+      ],
+      "Lua": [
+        856,
+        3
+      ],
+      "HTML": [
+        1850,
+        10
+      ],
+      "CSS": [
+        453,
+        2
+      ],
+      "JavaScript": [
+        153,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 28,
+    "total_lines": 6602,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 3290,
+        "commits": 13
+      },
+      {
+        "language": "HTML",
+        "lines": 1850,
+        "commits": 10
+      },
+      {
+        "language": "Lua",
+        "lines": 856,
+        "commits": 3
+      },
+      {
+        "language": "CSS",
+        "lines": 453,
+        "commits": 2
+      },
+      {
+        "language": "JavaScript",
+        "lines": 153,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "SaeedSaedi",
+    "analysis_date": "2026-05-08T22:04:51.373928",
+    "total_repos_analyzed": 3,
+    "total_files_analyzed": 12,
+    "languages": {
+      "Lua": {
+        "files_scanned": 8,
+        "packages": {
+          "config.options": 1,
+          "config.lazy": 1,
+          "config.keymaps": 1,
+          "lazy": 1,
+          "luasnip.loaders.from_vscode": 1,
+          "gitsigns": 1,
+          "mason": 1,
+          "mason-lspconfig": 1,
+          "lspsaga": 1,
+          "neoscroll": 1,
+          "toggleterm": 1,
+          "cmp": 1,
+          "illuminate": 1,
+          "Comment": 1,
+          "colorizer": 1,
+          "nvim-autopairs": 1,
+          "nvim-treesitter.configs": 1,
+          "notify": 1,
+          "catppuccin": 1,
+          "ibl": 1,
+          "lualine": 1,
+          "neo-tree": 1,
+          "bufferline": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "SaeedSaedi/dotfiles",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Lua"
+        ]
+      }
+    ]
+  }
+}

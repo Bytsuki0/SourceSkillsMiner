@@ -1,0 +1,182 @@
+{
+  "username": "PaulaMessias",
+  "areas": {
+    "OSS": {
+      "score": -0.44604112295238674,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.83093831557142
+      }
+    },
+    "Status": {
+      "score": 0.27491120795792723,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8546745042445831,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.833333,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.2008925829988919,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        902569,
+        46
+      ],
+      "HTML": [
+        315056,
+        3
+      ],
+      "CSS": [
+        208934,
+        1
+      ],
+      "SCSS": [
+        80435,
+        0
+      ],
+      "Dockerfile": [
+        6604,
+        1
+      ],
+      "TypeScript": [
+        12128,
+        0
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 51,
+    "total_lines": 1525726,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 902569,
+        "commits": 46
+      },
+      {
+        "language": "HTML",
+        "lines": 315056,
+        "commits": 3
+      },
+      {
+        "language": "CSS",
+        "lines": 208934,
+        "commits": 1
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 6604,
+        "commits": 1
+      },
+      {
+        "language": "SCSS",
+        "lines": 80435,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "PaulaMessias",
+    "analysis_date": "2026-05-09T12:20:59.710497",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 53,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 17,
+        "packages": {
+          "express": 3,
+          "the": 2,
+          "helmet": 2,
+          "morgan": 2,
+          "cors": 2,
+          "supertest": 2,
+          "node:child_process": 2,
+          "prisma": 2,
+          "bcryptjs": 2,
+          "dotenv": 2,
+          "node:assert": 2,
+          "node:test": 2,
+          "path": 1,
+          "url": 1,
+          "better-sqlite3": 1,
+          "fs": 1,
+          "node:path": 1,
+          "node:fs": 1,
+          "express-rate-limit": 1,
+          "swagger-ui-express": 1,
+          "jsonwebtoken": 1,
+          "title": 1,
+          "email": 1,
+          "token": 1,
+          "zod": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "PaulaMessias/complete-javascript-course",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "PaulaMessias/edublog-api",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "PaulaMessias/edublog_techchallenge_repo",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

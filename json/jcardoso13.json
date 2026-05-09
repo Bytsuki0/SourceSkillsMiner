@@ -1,0 +1,763 @@
+{
+  "username": "jcardoso13",
+  "areas": {
+    "OSS": {
+      "score": 0.22222222222222232,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.8333333333333334,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.36148032178350253,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9460666365214078,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Adaptability": {
+      "score": 0.333333,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 10,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.18340710880114497,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "VHDL": [
+        13132,
+        52
+      ],
+      "Rust": [
+        1945,
+        1
+      ],
+      "C": [
+        88241,
+        10
+      ],
+      "Makefile": [
+        8896,
+        0
+      ],
+      "Just": [
+        1280,
+        11
+      ],
+      "Dockerfile": [
+        463,
+        1
+      ],
+      "Shell": [
+        1220,
+        1
+      ],
+      "Verilog": [
+        109865,
+        12
+      ],
+      "Python": [
+        22061,
+        2
+      ],
+      "SystemVerilog": [
+        6095,
+        0
+      ],
+      "C#": [
+        449947,
+        24
+      ],
+      "HTML": [
+        89808,
+        2
+      ],
+      "Jupyter Notebook": [
+        18428,
+        0
+      ],
+      "Java": [
+        7538,
+        33
+      ],
+      "C++": [
+        106546,
+        8
+      ],
+      "JavaScript": [
+        14054,
+        1
+      ],
+      "CMake": [
+        429,
+        0
+      ],
+      "ASP.NET": [
+        46326,
+        0
+      ],
+      "CSS": [
+        27317,
+        1
+      ],
+      "Liquid": [
+        9,
+        0
+      ],
+      "TeX": [
+        439275,
+        35
+      ],
+      "Batchfile": [
+        1521,
+        0
+      ],
+      "TypeScript": [
+        518490,
+        26
+      ],
+      "SCSS": [
+        0,
+        11
+      ]
+    },
+    "language_count": 24,
+    "total_commits": 231,
+    "total_lines": 1972886,
+    "top_5_languages": [
+      {
+        "language": "VHDL",
+        "lines": 13132,
+        "commits": 52
+      },
+      {
+        "language": "TeX",
+        "lines": 439275,
+        "commits": 35
+      },
+      {
+        "language": "Java",
+        "lines": 7538,
+        "commits": 33
+      },
+      {
+        "language": "TypeScript",
+        "lines": 518490,
+        "commits": 26
+      },
+      {
+        "language": "C#",
+        "lines": 449947,
+        "commits": 24
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jcardoso13",
+    "analysis_date": "2026-05-09T11:20:57.184770",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 368,
+    "languages": {
+      "C": {
+        "files_scanned": 31,
+        "packages": {
+          "clipboard.h": 13,
+          "<stdio.h>": 7,
+          "stdio.h": 7,
+          "iob-cfg2versat.h": 5,
+          "stdlib.h": 4,
+          "<stdlib.h>": 4,
+          "dic.h": 3,
+          "ficheiro.h": 3,
+          "grafo.h": 3,
+          "heap.h": 3,
+          "string.h": 3,
+          "<string.h>": 3,
+          "pal.h": 2,
+          "unistd.h": 2,
+          "<unistd.h>": 2,
+          "<time.h>": 2,
+          "utils.h": 2,
+          "im2col.h": 2,
+          "time.h": 2,
+          "gemm.h": 2,
+          "blas.h": 2,
+          "convolutional_layer.h": 2,
+          "batchnorm_layer.h": 2,
+          "fifo.h": 2,
+          "sys/types.h": 1,
+          "<sys/types.h>": 1,
+          "xtime_l.h": 1,
+          "xil_exception.h": 1,
+          "xparameters.h": 1,
+          "xstatus.h": 1,
+          "xllfifo.h": 1,
+          "xil_cache.h": 1,
+          "xstreamer.h": 1,
+          "versat.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 115,
+        "packages": {
+          "System": 61,
+          "System.Collections.Generic": 52,
+          "System.Linq": 44,
+          "NUnit.Framework": 39,
+          "System.Text": 25,
+          "System.IO": 23,
+          "System.Threading.Tasks": 22,
+          "System.Globalization": 20,
+          "System.Collections": 18,
+          "Scriban.Runtime": 17,
+          "System.Reflection": 12,
+          "System.Web": 11,
+          "System.Diagnostics": 11,
+          "System.Net.Http": 10,
+          "System.Data": 10,
+          "Scriban.Parsing": 10,
+          "System.Threading": 9,
+          "DotLiquid.Exceptions": 8,
+          "Engine.TemplateProcessing": 7,
+          "Scriban": 6,
+          "Newtonsoft.Json": 6,
+          "log4net": 6,
+          "DotLiquid.NamingConventions": 6,
+          "Scriban.Syntax": 6,
+          "System.Collections.Immutable": 6,
+          "System.Configuration": 5,
+          "System.Web.Security": 5,
+          "System.Web.UI": 5,
+          "Mono.Data.Sqlite": 5,
+          "System.Collections.Specialized": 4,
+          "System.Dynamic": 4,
+          "System.Web.UI.WebControls": 4,
+          "Microsoft.CodeAnalysis": 4,
+          "Engine.Model": 4,
+          "Engine.Model.Helpers": 4,
+          "Newtonsoft.Json.Linq": 3,
+          "DotLiquid": 3,
+          "System.Configuration.Provider": 3,
+          "System.Text.RegularExpressions": 3,
+          "fr-FR": 3,
+          "en-GB": 3,
+          "Scriban.Functions": 3,
+          "var": 3,
+          "System.Net": 2,
+          "System.Xml.Linq": 2,
+          "System.Security.Cryptography": 2,
+          "DotLiquid.Tags": 2,
+          "en-US": 2,
+          "System.Runtime.CompilerServices": 2,
+          "NUnit.Framework.Internal": 2,
+          "Scriban.Helpers": 2,
+          "System.Web.UI.WebControls.WebParts": 1,
+          "System.Web.UI.HtmlControls": 1,
+          "MySql.Data.MySqlClient": 1,
+          "log4net.Config": 1,
+          "log4net.Layout": 1,
+          "log4net.Appender": 1,
+          "OWASP.WebGoat.NET.App_Code.DB": 1,
+          "System.ComponentModel": 1,
+          "System.Runtime.Serialization.Formatters.Binary": 1,
+          "System.Web.Profile": 1,
+          "System.Xml.Serialization": 1,
+          "DotLiquid.Tests.Framework": 1,
+          "DotLiquid.FileSystems": 1,
+          "tr-TR": 1,
+          "System.Runtime.InteropServices": 1,
+          "DotLiquid.Util": 1,
+          "Microsoft.CodeAnalysis.FindSymbols": 1,
+          "Microsoft.CodeAnalysis.Formatting": 1,
+          "Microsoft.CodeAnalysis.CSharp": 1,
+          "Microsoft.CodeAnalysis.CSharp.Syntax": 1,
+          "INamedTypeSymbol": 1,
+          "System.Numerics": 1,
+          "Microsoft.CodeAnalysis.MSBuild": 1,
+          "static": 1,
+          "Roslynator": 1,
+          "Roslynator.Text": 1,
+          "BenchmarkDotNet.Running": 1,
+          "HandlebarsDotNet": 1,
+          "BenchmarkDotNet.Attributes": 1,
+          "Mono.Cecil": 1,
+          "NuDoq": 1,
+          "Scriban.Runtime.Accessors": 1,
+          "Scriban.Tests": 1,
+          "NSubstitute": 1,
+          "Engine.Extensions": 1,
+          "Engine.Model.Deserializers": 1,
+          "Humanizer": 1,
+          "Engine.Extensions.TimeRange": 1,
+          "Engine.Application": 1,
+          "Microsoft.Recognizers.Text.DateTime": 1,
+          "Microsoft.Recognizers.Text": 1,
+          "Constants": 1,
+          "CsvHelper": 1,
+          "YamlDotNet.Serialization": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 30,
+        "packages": {
+          "<iostream>": 4,
+          "iostream": 4,
+          "versat.hpp": 4,
+          "Versat.hpp": 4,
+          "unordered_map": 3,
+          "<unordered_map>": 3,
+          "gtest/gtest.h": 3,
+          "mul.hpp": 3,
+          "<stdio.h>": 3,
+          "string.h": 3,
+          "stdio.h": 3,
+          "<time.h>": 3,
+          "stdlib.h": 3,
+          "time.h": 3,
+          "<stdint.h>": 3,
+          "stdint.h": 3,
+          "<string.h>": 3,
+          "<stdlib.h>": 3,
+          "<pthread.h>": 3,
+          "pthread.h": 3,
+          "distance.h": 2,
+          "temperature.h": 2,
+          "weight.h": 2,
+          "<gtest/gtest.h>": 2,
+          "converters/distance.h": 1,
+          "converters/temperature.h": 1,
+          "<array>": 1,
+          "converters/types.h": 1,
+          "converters/weight.h": 1,
+          "array": 1,
+          "ap_int.h": 1,
+          "hls_stream.h": 1,
+          "<hls_stream.h>": 1,
+          "<ap_int.h>": 1,
+          "alu.hpp": 1,
+          "alu_lite.hpp": 1,
+          "bs.hpp": 1,
+          "mem.hpp": 1,
+          "mul_add.hpp": 1,
+          "stage.hpp": 1,
+          "vread.hpp": 1,
+          "vwrite.hpp": 1,
+          "yolo.hpp": 1,
+          "yolo_read.hpp": 1,
+          "yolo_write.hpp": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 19,
+        "packages": {
+          "type.hpp": 12,
+          "Versat.h": 4,
+          "iostream": 4,
+          "<iostream>": 4,
+          "<bitset>": 4,
+          "bitset": 4,
+          "thread": 3,
+          "string.h": 3,
+          "stage.hpp": 3,
+          "<string.h>": 3,
+          "<thread>": 3,
+          "versat.h": 3,
+          "vread.hpp": 3,
+          "vwrite.hpp": 2,
+          "mem.hpp": 1,
+          "alu_lite.hpp": 1,
+          "alu.hpp": 1,
+          "mul.hpp": 1,
+          "mul_add.hpp": 1,
+          "bs.hpp": 1,
+          "namespace": 1,
+          "std": 1,
+          "yolo.hpp": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 13,
+        "packages": {
+          "<stdio.h>": 9,
+          "stdio.h": 9,
+          "stdlib.h": 8,
+          "<stdlib.h>": 8,
+          "string.h": 7,
+          "<string.h>": 7,
+          "grafo.h": 2,
+          "string": 2,
+          "<string>": 2,
+          "stdbool.h": 2,
+          "<stdbool.h>": 2,
+          "<math.h>": 2,
+          "math.h": 2,
+          "pal.h": 1,
+          "types.h": 1,
+          "<string_view>": 1,
+          "string_view": 1,
+          "sys/wait.h": 1,
+          "<signal.h>": 1,
+          "<netinet/in.h>": 1,
+          "<unistd.h>": 1,
+          "<sys/types.h>": 1,
+          "arpa/inet.h": 1,
+          "<pthread.h>": 1,
+          "unistd.h": 1,
+          "errno.h": 1,
+          "netinet/in.h": 1,
+          "signal.h": 1,
+          "netdb.h": 1,
+          "<sys/socket.h>": 1,
+          "<arpa/inet.h>": 1,
+          "<netdb.h>": 1,
+          "sys/socket.h": 1,
+          "time.h": 1,
+          "pthread.h": 1,
+          "<errno.h>": 1,
+          "<time.h>": 1,
+          "<sys/un.h>": 1,
+          "sys/types.h": 1,
+          "sys/un.h": 1,
+          "<sys/wait.h>": 1,
+          "xil_exception.h": 1,
+          "xparameters.h": 1,
+          "xstatus.h": 1,
+          "xllfifo.h": 1,
+          "xil_cache.h": 1,
+          "xstreamer.h": 1,
+          "<stdint.h>": 1,
+          "stdint.h": 1,
+          "fixed-point.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 36,
+        "packages": {
+          "java.util": 17,
+          "com.microsoft": 12,
+          "discreteStochaticSim": 9,
+          "org.springframework": 8,
+          "antColony": 8,
+          "graph": 7,
+          "antColony.OptProblem": 6,
+          "graph.graph": 5,
+          "antColony.HamiltonianCycle": 5,
+          "jakarta.persistence": 4,
+          "antColony.StochasticOptimProb": 4,
+          "antColony.Ant": 3,
+          "com.fasterxml": 2,
+          "antColony.HCResults": 2,
+          "main": 2,
+          "org.junit": 1,
+          "io.cucumber": 1,
+          "org.w3c": 1,
+          "discreteStochaticSim.Move": 1,
+          "discreteStochaticSim.Event": 1,
+          "discreteStochaticSim.Evaporation": 1,
+          "discreteStochaticSim.InterfacePec": 1,
+          "discreteStochaticSim.EventControlPrints": 1,
+          "javax.xml": 1,
+          "discreteStochaticSim.PriorityQueuePec": 1,
+          "graph.Edge": 1,
+          "antColony.pathw": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "axios": 1,
+          "escape-html": 1,
+          "readline": 1,
+          "url": 1,
+          "zlib": 1,
+          "http": 1,
+          "fs": 1,
+          "globals": 1,
+          "eslint-plugin-react-hooks": 1,
+          "eslint-plugin-react-refresh": 1,
+          "eslint": 1,
+          "typescript-eslint": 1,
+          "jquery": 1,
+          "object": 1,
+          "jQuery": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 19,
+        "packages": {
+          "sys": 12,
+          "numpy": 11,
+          "torch": 11,
+          "Variable": 7,
+          "os": 7,
+          "*": 6,
+          "OrderedDict": 6,
+          "collections": 6,
+          "PIL": 5,
+          "darknet": 5,
+          "Image": 5,
+          "cfg": 4,
+          "prototxt": 4,
+          "caffe": 4,
+          "utils": 4,
+          "CaffeNet": 4,
+          "Darknet": 4,
+          "caffenet": 4,
+          "torchvision": 4,
+          "caffe_pb2": 3,
+          "time": 3,
+          "xml": 2,
+          "graphviz": 2,
+          "Digraph": 2,
+          "MaxPoolStride1": 1,
+          "read_truths_args": 1,
+          "Dataset": 1,
+          "random": 1,
+          "__future__": 1,
+          "image2torch": 1,
+          "print_function": 1,
+          "do_detect": 1,
+          "shutil": 1,
+          "resnet_model": 1,
+          "argparse": 1,
+          "make_dot": 1,
+          "visualize": 1,
+          "save_conv": 1,
+          "cPickle": 1,
+          "listdir": 1,
+          "join": 1,
+          "pickle": 1,
+          "tensorflow": 1,
+          "convert_variables_to_constants": 1,
+          "math": 1,
+          "struct": 1,
+          "imghdr": 1,
+          "datasets": 1,
+          "dataset": 1,
+          "grad": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 6,
+        "packages": {
+          "super": 5,
+          "std": 3,
+          "riscv": 3,
+          "git2": 1,
+          "clap": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 12,
+        "packages": {
+          "actions": 8,
+          "octokit": 6,
+          "path": 2,
+          "crypto": 1,
+          "fs": 1,
+          "jspdf-autotable": 1,
+          "jspdf": 1,
+          "querystring": 1,
+          "dotenv": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 28,
+        "packages": {
+          "react": 24,
+          "radix-ui": 16,
+          "lucide-react": 13,
+          "class-variance-authority": 4,
+          "react-router-dom": 2,
+          "tanstack": 1,
+          "react-day-picker": 1,
+          "useEmblaCarousel": 1,
+          "recharts": 1,
+          "cmdk": 1,
+          "vaul": 1,
+          "input-otp": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jcardoso13/AdeptSim",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "jcardoso13/AEDproj",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "jcardoso13/ContentFactory",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jcardoso13/CopilotHackathon-jcardoso13",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jcardoso13/demo-csharp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jcardoso13/DistributedClipboard",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "jcardoso13/dotliquid",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jcardoso13/DVC",
+        "files_analyzed": 22,
+        "languages_found": [
+          "C",
+          "C++",
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "jcardoso13/figueira-liberal-web",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "jcardoso13/ghas-metrics-report",
+        "files_analyzed": 24,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "jcardoso13/HwSwCoDesignProject",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "jcardoso13/iob-cfg2versat",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "jcardoso13/iob-versat",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C++ Header",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "jcardoso13/MJPCasamento",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jcardoso13/pytorch-caffe-darknet-convert",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jcardoso13/scriban",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jcardoso13/Textrude",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jcardoso13/Traveling-Salesman-ant-colony-optimization",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,627 @@
+{
+  "username": "MyratJr",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.32490530081022584,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9104348742922619,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.571446,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.9358,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 3,
+        "topic_entropy_bits": 2.8074,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.1626035934953785,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        4369488,
+        64
+      ],
+      "CSS": [
+        4857554,
+        32
+      ],
+      "Python": [
+        1421443,
+        287
+      ],
+      "JavaScript": [
+        4288898,
+        19
+      ],
+      "PowerShell": [
+        425,
+        0
+      ],
+      "Batchfile": [
+        29,
+        0
+      ],
+      "C++": [
+        2258679,
+        0
+      ],
+      "C": [
+        6567,
+        0
+      ],
+      "Shell": [
+        480,
+        0
+      ],
+      "SCSS": [
+        74415,
+        0
+      ],
+      "Less": [
+        73472,
+        0
+      ],
+      "Mako": [
+        50,
+        2
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        3
+      ],
+      "Makefile": [
+        0,
+        5
+      ],
+      "Jupyter Notebook": [
+        0,
+        1
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 413,
+    "total_lines": 17351500,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 1421443,
+        "commits": 287
+      },
+      {
+        "language": "HTML",
+        "lines": 4369488,
+        "commits": 64
+      },
+      {
+        "language": "CSS",
+        "lines": 4857554,
+        "commits": 32
+      },
+      {
+        "language": "JavaScript",
+        "lines": 4288898,
+        "commits": 19
+      },
+      {
+        "language": "Makefile",
+        "lines": 0,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "MyratJr",
+    "analysis_date": "2026-05-08T23:06:34.174399",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 435,
+    "languages": {
+      "C++": {
+        "files_scanned": 16,
+        "packages": {
+          "cld2tablesummary.h": 11,
+          "stdio.h": 5,
+          "string.h": 5,
+          "<string.h>": 5,
+          "<stdio.h>": 5,
+          "integral_types.h": 4,
+          "cld2_dynamic_data.h": 4,
+          "utf8statetable.h": 4,
+          "assert.h": 3,
+          "<assert.h>": 3,
+          "cld2_dynamic_data_loader.h": 3,
+          "fstream": 3,
+          "<fstream>": 3,
+          "fcntl.h": 3,
+          "<fcntl.h>": 3,
+          "namespace": 2,
+          "std": 2,
+          "<stdint.h>": 2,
+          "stdint.h": 2,
+          "cld2_dynamic_data_extractor.h": 2,
+          "scoreonescriptspan.h": 2,
+          "cld2_dynamic_compat.h": 2,
+          "<stdlib.h>": 2,
+          "stdlib.h": 2,
+          "<sys/mman.h>": 2,
+          "sys/mman.h": 2,
+          "unittest_data.h": 2,
+          "string": 1,
+          "<string>": 1,
+          "compact_lang_det_impl.h": 1,
+          "CLD2": 1,
+          "lang_script.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 5,
+        "packages": {
+          "scoreonescriptspan.h": 3,
+          "integral_types.h": 3,
+          "utf8statetable.h": 2,
+          "cld2tablesummary.h": 2,
+          "cld2_dynamic_data.h": 2,
+          "<io.h>": 1,
+          "io.h": 1,
+          "<fcntl.h>": 1,
+          "<unistd.h>": 1,
+          "fcntl.h": 1,
+          "unistd.h": 1,
+          "<sys/mman.h>": 1,
+          "sys/mman.h": 1,
+          "<stdint.h>": 1,
+          "stdint.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 10,
+        "packages": {
+          "react": 4,
+          "undefined": 2,
+          "react-dom": 2,
+          "bootstrap": 2,
+          "web-vitals": 2,
+          "testing-library": 1,
+          "t.write(": 1,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "react-router-dom": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 16,
+        "packages": {
+          "react": 16,
+          "react-bootstrap": 7,
+          "react-router-dom": 6
+        }
+      },
+      "Python": {
+        "files_scanned": 304,
+        "packages": {
+          "django": 206,
+          "migrations": 100,
+          "sqlalchemy": 59,
+          "alembic": 47,
+          "op": 44,
+          "typing": 44,
+          "os": 38,
+          "Sequence": 36,
+          "datetime": 25,
+          "admin": 24,
+          "fastapi": 23,
+          "models": 22,
+          "path": 17,
+          "postgresql": 15,
+          "settings": 14,
+          "AppConfig": 13,
+          "pathlib": 11,
+          "get_asgi_application": 10,
+          "Path": 10,
+          "get_wsgi_application": 9,
+          "APIRouter": 9,
+          "FastAPI": 8,
+          "Group": 8,
+          "TestCase": 8,
+          "sys": 8,
+          "static": 8,
+          "UserAdmin": 7,
+          "render": 7,
+          "database": 7,
+          "pydantic": 6,
+          "BaseModel": 6,
+          "unfold": 6,
+          "ModelAdmin": 6,
+          "forms": 6,
+          "dotenv": 6,
+          "config": 6,
+          "OAuth2PasswordBearer": 5,
+          "logging": 5,
+          "execute_from_command_line": 5,
+          "load_dotenv": 5,
+          "declarative_base": 5,
+          "passlib": 4,
+          "HttpResponse": 4,
+          "View": 4,
+          "logout": 4,
+          "reverse_lazy": 4,
+          "AdminPasswordChangeForm": 4,
+          "serve": 4,
+          "sessionmaker": 4,
+          "timedelta": 4,
+          "user": 4,
+          "AsyncSession": 4,
+          "Depends": 4,
+          "auth": 4,
+          "CryptContext": 3,
+          "Q": 3,
+          "fileConfig": 3,
+          "pool": 3,
+          "context": 3,
+          "engine_from_config": 3,
+          "Session": 3,
+          "schema": 3,
+          "Annotated": 3,
+          "*": 3,
+          "timezone": 3,
+          "fastapi_users": 3,
+          "operations": 3,
+          "Base": 3,
+          "tortoise": 3,
+          "dependencies": 3,
+          "mylib": 3,
+          "jose": 2,
+          "EmailAddress": 2,
+          "allauth": 2,
+          "ckeditor": 2,
+          "CKEditorWidget": 2,
+          "LoginRequiredMixin": 2,
+          "CreateView": 2,
+          "transaction": 2,
+          "string": 2,
+          "random": 2,
+          "HttpResponseRedirect": 2,
+          "messages": 2,
+          "reverse": 2,
+          "PDFTemplateView": 2,
+          "wkhtmltopdf": 2,
+          "ClearableFileInput": 2,
+          "LogEntry": 2,
+          "get_column_letter": 2,
+          "io": 2,
+          "Workbook": 2,
+          "openpyxl": 2,
+          "base": 2,
+          "create_engine": 2,
+          "jwt": 2,
+          "engine": 2,
+          "client": 2,
+          "Column": 2,
+          "T": 2,
+          "re": 2,
+          "rest_framework": 2,
+          "SECRET_AUTH": 2,
+          "AsyncGenerator": 2,
+          "Optional": 2,
+          "schemas": 2,
+          "CORSMiddleware": 2,
+          "get_async_session": 2,
+          "app": 2,
+          "main": 2,
+          "pytest": 2,
+          "TestClient": 2,
+          "fields": 2,
+          "register_tortoise": 2,
+          "pydantic_model_creator": 2,
+          "Model": 2,
+          "get_token_header": 2,
+          "wiki": 2,
+          "JWTError": 1,
+          "template": 1,
+          "register": 1,
+          "OAuth2PasswordRequestForm": 1,
+          "oauth2_scheme": 1,
+          "login": 1,
+          "MaxValueValidator": 1,
+          "users": 1,
+          "authenticate": 1,
+          "ObjectDoesNotExist": 1,
+          "debug_toolbar": 1,
+          "format_html": 1,
+          "mark_safe": 1,
+          "mimetypes": 1,
+          "serializers": 1,
+          "mixins": 1,
+          "viewsets": 1,
+          "SpectacularAPIView": 1,
+          "drf_spectacular": 1,
+          "CookieTransport": 1,
+          "JWTStrategy": 1,
+          "FastAPIUsers": 1,
+          "BaseUserManager": 1,
+          "fastapi_users_db_sqlalchemy": 1,
+          "SQLAlchemyUserDatabase": 1,
+          "auth_backend": 1,
+          "tasks": 1,
+          "StaticFiles": 1,
+          "pages": 1,
+          "router": 1,
+          "UserRead": 1,
+          "metaData": 1,
+          "MetaData": 1,
+          "Table": 1,
+          "HTTPException": 1,
+          "select": 1,
+          "get_specific_operation": 1,
+          "Jinja2Templates": 1,
+          "current_user": 1,
+          "SMTP_USER": 1,
+          "Celery": 1,
+          "celery": 1,
+          "email": 1,
+          "EmailMessage": 1,
+          "smtplib": 1,
+          "AsyncClient": 1,
+          "NullPool": 1,
+          "httpx": 1,
+          "asyncio": 1,
+          "role": 1,
+          "conftest": 1,
+          "insert": 1,
+          "bcrypt": 1,
+          "Header": 1,
+          "routers": 1,
+          "items": 1,
+          "internal": 1,
+          "get_query_token": 1,
+          "UUID": 1,
+          "uuid": 1,
+          "tkinter": 1,
+          "BALLOON": 1,
+          "PhoneNumberField": 1,
+          "phonenumber_field": 1,
+          "List": 1,
+          "BackgroundTasks": 1,
+          "JSONResponse": 1,
+          "fastapi_mail": 1,
+          "dotenv_values": 1,
+          "starlette": 1,
+          "FastMail": 1,
+          "Request": 1,
+          "Tortoise": 1,
+          "fire": 1,
+          "logic": 1,
+          "wikipedia": 1,
+          "textblob": 1,
+          "TextBlob": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 6,
+        "packages": {
+          "ClientRoutable": 4,
+          "Authorizable": 1,
+          "Pagy::Backend": 1,
+          "user": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MyratJr/Authentication_1",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/baby",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/babye2",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/Borning_Baby_Stats",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/ClassicMusicWorld",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/cld2",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "MyratJr/Counting_of_product",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MyratJr/Countries_Info",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/Create-FASTAPI-database-with-PostgreSQL-and-authentication",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/DepartmentTeachersManuals",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/DigitalReport",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/ElevatorP",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/Employeer-Stats",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/ETUT_Report",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/FASTAPI-APP",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/FastAPI-auth",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/FASTAPI-dependencies-and-routes",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/FASTAPI_CRUD-with-Sqlalchemy-database-toolkit",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/Football_News",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/greenlight",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "MyratJr/inno",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/List-of-goods-for-sale",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "Python"
+        ]
+      },
+      {
+        "repository": "MyratJr/microservice-fastapi",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

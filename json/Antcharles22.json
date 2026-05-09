@@ -1,0 +1,203 @@
+{
+  "username": "Antcharles22",
+  "areas": {
+    "OSS": {
+      "score": -0.47143744108177055,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.7928438383773442
+      }
+    },
+    "Status": {
+      "score": 0.24503605750398272,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7521694708713587,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": -0.616667,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.11861367671555756,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CSS": [
+        645682,
+        8
+      ],
+      "JavaScript": [
+        417713,
+        30
+      ],
+      "HTML": [
+        145060,
+        5
+      ],
+      "SCSS": [
+        13857,
+        7
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 50,
+    "total_lines": 1222312,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 417713,
+        "commits": 30
+      },
+      {
+        "language": "CSS",
+        "lines": 645682,
+        "commits": 8
+      },
+      {
+        "language": "SCSS",
+        "lines": 13857,
+        "commits": 7
+      },
+      {
+        "language": "HTML",
+        "lines": 145060,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Antcharles22",
+    "analysis_date": "2026-05-09T12:14:17.965571",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 63,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 35,
+        "packages": {
+          "react": 18,
+          "testing-library": 8,
+          "react-dom": 4,
+          "web-vitals": 4,
+          "emailjs": 2,
+          "prop-types": 2,
+          "axios": 2,
+          "lucide-react": 1,
+          "react-router-dom": 1,
+          "dotenv": 1,
+          "cors": 1,
+          "express": 1,
+          "eslint-plugin-react-hooks": 1,
+          "eslint-plugin-react-refresh": 1,
+          "globals": 1,
+          "eslint": 1,
+          "http:": 1,
+          "vitejs": 1,
+          "vite": 1,
+          "node:path": 1,
+          "node:fs": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 17,
+        "packages": {
+          "react": 12,
+          "react-router-dom": 8,
+          "zustand": 4,
+          "axios": 3,
+          "react-icons": 2,
+          "recharts": 1,
+          "react-slick": 1,
+          "slick-carousel": 1,
+          "#00B8FE": 1,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Antcharles22/art-portfillo",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Antcharles22/crypto",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "Antcharles22/gameAPi",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "Antcharles22/hello-open-source",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Antcharles22/pokemon-api",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Antcharles22/Portfolio",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

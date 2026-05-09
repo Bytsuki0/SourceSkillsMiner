@@ -1,0 +1,570 @@
+{
+  "username": "taylordamaceno",
+  "areas": {
+    "OSS": {
+      "score": -0.3692889089857282,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.9460666365214078
+      }
+    },
+    "Status": {
+      "score": 0.1983257018974096,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7590270143845761,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.083333,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.03247395858233629,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        718644,
+        1
+      ],
+      "Go": [
+        431091,
+        0
+      ],
+      "Python": [
+        910653,
+        23
+      ],
+      "Makefile": [
+        22134,
+        0
+      ],
+      "Shell": [
+        23983,
+        27
+      ],
+      "Dockerfile": [
+        1801,
+        0
+      ],
+      "Jinja": [
+        125983,
+        0
+      ],
+      "JavaScript": [
+        349,
+        30
+      ],
+      "Groovy": [
+        51,
+        1
+      ],
+      "CSS": [
+        0,
+        4
+      ],
+      "Solidity": [
+        0,
+        0
+      ],
+      "HTML": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        36
+      ],
+      "PLpgSQL": [
+        0,
+        1
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 123,
+    "total_lines": 2234689,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 0,
+        "commits": 36
+      },
+      {
+        "language": "JavaScript",
+        "lines": 349,
+        "commits": 30
+      },
+      {
+        "language": "Shell",
+        "lines": 23983,
+        "commits": 27
+      },
+      {
+        "language": "Python",
+        "lines": 910653,
+        "commits": 23
+      },
+      {
+        "language": "CSS",
+        "lines": 0,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "taylordamaceno",
+    "analysis_date": "2026-05-09T11:01:47.116483",
+    "total_repos_analyzed": 23,
+    "total_files_analyzed": 171,
+    "languages": {
+      "Go": {
+        "files_scanned": 8,
+        "packages": {
+          "sigs.k8s.io/controller-runtime/pkg/scheme": 3,
+          "k8s.io/apimachinery/pkg/runtime/schema": 3,
+          "k8s.io/apimachinery/pkg/apis/meta/v1": 2,
+          "fmt": 1,
+          "testing": 1,
+          "reflect": 1,
+          "k8s.io/api/core/v1": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 20,
+        "packages": {
+          "express": 10,
+          "cors": 6,
+          "pg": 5,
+          "crypto": 3,
+          "hardhat": 3,
+          "path": 3,
+          "jsonwebtoken": 3,
+          "dotenv": 2,
+          "google-auth-library": 2,
+          "bcrypt": 2,
+          "crypto-js": 1,
+          "vitejs": 1,
+          "vite": 1,
+          "nomicfoundation": 1,
+          "fs": 1,
+          "chai": 1,
+          "sequelize": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "react": 2,
+          "ethers": 1,
+          "react-dom": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 103,
+        "packages": {
+          "typing": 50,
+          "os": 47,
+          "json": 41,
+          "numpy": 34,
+          "List": 27,
+          "pathlib": 23,
+          "Path": 22,
+          "musicaiz": 19,
+          "sys": 18,
+          "time": 17,
+          "transformers": 16,
+          "argparse": 15,
+          "openai": 14,
+          "matplotlib": 12,
+          "re": 12,
+          "load_dotenv": 12,
+          "dotenv": 12,
+          "pandas": 11,
+          "tqdm": 11,
+          "torch": 10,
+          "AutoTokenizer": 9,
+          "gzip": 9,
+          "random": 8,
+          "datetime": 8,
+          "subprocess": 8,
+          "*": 8,
+          "multiprocessing": 8,
+          "logging": 7,
+          "io": 6,
+          "utils": 6,
+          "human_eval": 6,
+          "OpenAI": 6,
+          "Note": 6,
+          "enum": 6,
+          "Enum": 6,
+          "traceback": 5,
+          "evaluate_functional_correctness": 5,
+          "math": 4,
+          "vllm": 4,
+          "asyncio": 4,
+          "dataclasses": 4,
+          "PreTrainedTokenizerBase": 4,
+          "signal": 4,
+          "scipy": 4,
+          "Tuple": 4,
+          "defaultdict": 4,
+          "collections": 4,
+          "itertools": 4,
+          "concurrent": 4,
+          "contextlib": 4,
+          "Union": 4,
+          "copy": 4,
+          "pretty_midi": 4,
+          "cv2": 4,
+          "get_tokenizer": 3,
+          "backend_request_func": 3,
+          "kubernetes": 3,
+          "client": 3,
+          "threading": 3,
+          "requests": 3,
+          "Iterable": 3,
+          "fire": 3,
+          "import": 3,
+          "ThreadPoolExecutor": 3,
+          "faulthandler": 3,
+          "resource": 3,
+          "shutil": 3,
+          "tempfile": 3,
+          "platform": 3,
+          "builtins": 3,
+          "dataclass": 3,
+          "Dict": 3,
+          "Tonality": 3,
+          "NoteClassBase": 3,
+          "Musa": 3,
+          "socket": 3,
+          "EngineArgs": 2,
+          "FlexibleArgumentParser": 2,
+          "csv": 2,
+          "Config": 2,
+          "flask_opentracing": 2,
+          "Flask": 2,
+          "jaeger_client": 2,
+          "flask": 2,
+          "FlaskTracing": 2,
+          "accelerate": 2,
+          "Accelerator": 2,
+          "ArgumentParser": 2,
+          "DistributedDataParallelKwargs": 2,
+          "regex": 2,
+          "attrdict": 2,
+          "cleanup_code": 2,
+          "AttrDict": 2,
+          "string": 2,
+          "Any": 2,
+          "pickle": 2,
+          "tensorflow": 2,
+          "preprocess_data": 2,
+          "peft": 2,
+          "LoraConfig": 2,
+          "faiss": 2,
+          "init": 2,
+          "colorama": 2,
+          "NoteLengths": 2,
+          "loaders": 2,
+          "seaborn": 2,
+          "networkx": 2,
+          "warnings": 2,
+          "bench_workload_generator": 1,
+          "generate_workload": 1,
+          "status_code": 1,
+          "GridSpec": 1,
+          "HttpUser": 1,
+          "Lock": 1,
+          "locust": 1,
+          "stats": 1,
+          "minimize": 1,
+          "request": 1,
+          "sleep": 1,
+          "randint": 1,
+          "extract_generation_code": 1,
+          "humaneval": 1,
+          "HumanEval": 1,
+          "HumanEvalDataset": 1,
+          "check_correctness": 1,
+          "stream_jsonl": 1,
+          "LLM": 1,
+          "MBPP": 1,
+          "mbpp": 1,
+          "MBPPDataset": 1,
+          "PythonExecutor": 1,
+          "isclose": 1,
+          "sympy": 1,
+          "parse_latex": 1,
+          "simplify": 1,
+          "parse_expr": 1,
+          "pebble": 1,
+          "timeout_decorator": 1,
+          "dateutil": 1,
+          "ProcessPool": 1,
+          "partial": 1,
+          "redirect_stdout": 1,
+          "multiprocess": 1,
+          "timeout": 1,
+          "Pool": 1,
+          "functools": 1,
+          "TimeoutError": 1,
+          "MongoClient": 1,
+          "pymongo": 1,
+          "config": 1,
+          "DATABASE_URI": 1,
+          "data_loader": 1,
+          "load_data": 1,
+          "data_preprocessor": 1,
+          "unittest": 1,
+          "src": 1,
+          "KeyVaultClient": 1,
+          "azure": 1,
+          "DefaultAzureCredential": 1,
+          "as": 1,
+          "a": 1,
+          "CrossEntropyLoss": 1,
+          "diffusers": 1,
+          "AutoConfig": 1,
+          "BaseModelOutputWithPast": 1,
+          "Image": 1,
+          "conversation": 1,
+          "FullyShardedDataParallel": 1,
+          "ZeroParamStatus": 1,
+          "LoraLayer": 1,
+          "PIL": 1,
+          "BitsAndBytesConfig": 1,
+          "prepare_model_for_int8_training": 1,
+          "LLaVATrainer": 1,
+          "llava": 1,
+          "Dataset": 1,
+          "deepspeed": 1,
+          "base64": 1,
+          "zero": 1,
+          "ProcurementAgent": 1,
+          "agents": 1,
+          "FinanceAgent": 1,
+          "RAGAgent": 1,
+          "Coordinator": 1,
+          "coordinator": 1,
+          "demo_agent": 1,
+          "FinanceAssistant": 1,
+          "DemoAssistant": 1,
+          "finance_agent": 1,
+          "process_policy": 1,
+          "process_finance": 1,
+          "importlib": 1,
+          "sphinx_book_theme": 1,
+          "SourceFileLoader": 1,
+          "sphinx_rtd_theme": 1,
+          "Chord": 1,
+          "prettymidi_note_to_musicaiz": 1,
+          "operator": 1,
+          "musicaiz_pb2": 1,
+          "google": 1,
+          "builder": 1,
+          "descriptor_pool": 1,
+          "descriptor": 1,
+          "symbol_database": 1,
+          "TimeSignature": 1,
+          "TokenizerArguments": 1,
+          "tokenize_path": 1,
+          "abc": 1,
+          "ABCMeta": 1,
+          "Type": 1,
+          "rich": 1,
+          "Console": 1,
+          "Legend": 1,
+          "gaussian_kde": 1,
+          "wrappers": 1,
+          "Line2D": 1,
+          "features": 1,
+          "get_subdivisions": 1,
+          "rcParams": 1,
+          "spatial": 1,
+          "ruptures": 1,
+          "annotations": 1,
+          "__future__": 1,
+          "DPOTrainer": 1,
+          "load_dataset": 1,
+          "datasets": 1,
+          "trl": 1,
+          "imutils": 1,
+          "VideoStream": 1,
+          "sigmoidal": 1,
+          "plot_image": 1,
+          "urllib": 1,
+          "zipfile": 1,
+          "pytest": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 13,
+        "packages": {
+          "react": 10,
+          "radix-ui": 6,
+          "lucide-react": 3,
+          "class-variance-authority": 3,
+          "next": 2,
+          "react-day-picker": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "taylordamaceno/aibrix",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/BlockChainNodeJs",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/continuous_monitoring_labs",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/DeepSeek-Coder",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/FootballStatsComparator",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/GenerativaAI_Poc",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/Generative_Poc2",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/mcp_k8s_local",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/ml-mgie",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/MultiAgentBuy",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/musicaiz",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/proofboard-web3",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/slm-dpo-fine-tuning",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/SustentaGuia",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/switchblade_sec",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "taylordamaceno/visao-computacional",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

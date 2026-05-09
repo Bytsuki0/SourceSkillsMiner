@@ -1,0 +1,312 @@
+{
+  "username": "MahmoudHassanen99",
+  "areas": {
+    "OSS": {
+      "score": 0.2540775881546269,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.8811163822319403
+      }
+    },
+    "Status": {
+      "score": 0.2634351761484277,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.856691225761103,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.266667,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "MahmoudHassanen99/NLLB-200-600M-fine-tuning": 0.4811666666666667
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2501691528606109,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        455712,
+        47
+      ],
+      "Shell": [
+        9232,
+        0
+      ],
+      "Dockerfile": [
+        3830,
+        0
+      ],
+      "Python": [
+        814087,
+        25
+      ],
+      "Makefile": [
+        960,
+        0
+      ],
+      "CSS": [
+        15930,
+        0
+      ],
+      "Scala": [
+        111,
+        0
+      ],
+      "HTML": [
+        164912,
+        14
+      ],
+      "TSQL": [
+        214400,
+        0
+      ],
+      "JavaScript": [
+        144650,
+        0
+      ],
+      "Mako": [
+        1134,
+        0
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 86,
+    "total_lines": 1824958,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 455712,
+        "commits": 47
+      },
+      {
+        "language": "Python",
+        "lines": 814087,
+        "commits": 25
+      },
+      {
+        "language": "HTML",
+        "lines": 164912,
+        "commits": 14
+      },
+      {
+        "language": "Shell",
+        "lines": 9232,
+        "commits": 0
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 3830,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "MahmoudHassanen99",
+    "analysis_date": "2026-05-09T10:53:31.688993",
+    "total_repos_analyzed": 16,
+    "total_files_analyzed": 34,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "next": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 32,
+        "packages": {
+          "os": 8,
+          "Server": 8,
+          "flask": 7,
+          "sqlalchemy": 7,
+          "confluent_kafka": 6,
+          "numpy": 5,
+          "json": 4,
+          "dotenv": 4,
+          "load_dotenv": 4,
+          "alembic": 4,
+          "sys": 3,
+          "requests": 3,
+          "cv2": 3,
+          "Consumer": 3,
+          "status": 3,
+          "flask_api": 3,
+          "request": 3,
+          "pymilvus": 3,
+          "unittest": 3,
+          "op": 3,
+          "create_app": 3,
+          "Producer": 2,
+          "time": 2,
+          "logging": 2,
+          "random": 2,
+          "uuid": 2,
+          "jose": 2,
+          "jwt": 2,
+          "marshmallow": 2,
+          "SQLAlchemyError": 2,
+          "List": 2,
+          "typing": 2,
+          "url_to_id": 2,
+          "db": 2,
+          "re": 2,
+          "TestConfig": 2,
+          "testConfig": 2,
+          "pandas": 2,
+          "subprocess": 2,
+          "admin2": 1,
+          "create_topic": 1,
+          "csv": 1,
+          "NewTopic": 1,
+          "base64": 1,
+          "consume_messages": 1,
+          "sqlite3": 1,
+          "kafka_consumer_msg": 1,
+          "Bcrypt": 1,
+          "flask_sqlalchemy": 1,
+          "Cache": 1,
+          "Flask": 1,
+          "CORS": 1,
+          "flask_migrate": 1,
+          "flask_marshmallow": 1,
+          "flask_bcrypt": 1,
+          "errors": 1,
+          "Marshmallow": 1,
+          "search": 1,
+          "flask_caching": 1,
+          "flask_cors": 1,
+          "SQLAlchemy": 1,
+          "Migrate": 1,
+          "users": 1,
+          "wraps": 1,
+          "functools": 1,
+          "User": 1,
+          "MilvusException": 1,
+          "jsonify": 1,
+          "ValidationError": 1,
+          "hnswlib": 1,
+          "SentenceTransformer": 1,
+          "sentence_transformers": 1,
+          "torch": 1,
+          "SearchResult": 1,
+          "urlparse": 1,
+          "urllib": 1,
+          "url_parse": 1,
+          "connections": 1,
+          "youtube_transcript_api": 1,
+          "YouTubeTranscriptApi": 1,
+          "get_captions": 1,
+          "cach": 1,
+          "memoryVDB": 1,
+          "VectorDatabase": 1,
+          "model": 1,
+          "Pre_Process": 1,
+          "Blueprint": 1,
+          "TIMESTAMP": 1,
+          "Column": 1,
+          "text": 1,
+          "requires_auth": 1,
+          "datetime": 1,
+          "marshmallow_sqlalchemy": 1,
+          "Schema": 1,
+          "SQLAlchemyAutoSchema": 1,
+          "current_app": 1,
+          "fileConfig": 1,
+          "context": 1,
+          "Config": 1,
+          "IntegrityError": 1,
+          "call": 1,
+          "seaborn": 1,
+          "pytube": 1,
+          "string": 1,
+          "YouTube": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MahmoudHassanen99/Churn-Customer-End-to-End-Pipeline",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MahmoudHassanen99/Images-Pipeline-Kafka",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MahmoudHassanen99/Semantic-Search-Graduation-Project",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "MahmoudHassanen99/udacity-bike-share-project",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MahmoudHassanen99/Udacity-noshowappointments-project",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MahmoudHassanen99/youtube-list-downloader",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

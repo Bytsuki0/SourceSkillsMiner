@@ -1,0 +1,717 @@
+{
+  "username": "ngkevin327",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.43431899197724766,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9207092571966408,
+        "week_streak": 0.23076923076923078
+      }
+    },
+    "Adaptability": {
+      "score": -0.166667,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 7,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.30353039839544954,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        149230,
+        0
+      ],
+      "Dockerfile": [
+        2333,
+        0
+      ],
+      "Scala": [
+        7333,
+        0
+      ],
+      "Python": [
+        13875203,
+        113
+      ],
+      "Go Template": [
+        15,
+        0
+      ],
+      "CSS": [
+        911697,
+        1
+      ],
+      "HTML": [
+        156689,
+        0
+      ],
+      "TypeScript": [
+        476881,
+        0
+      ],
+      "Go": [
+        22159,
+        0
+      ],
+      "Makefile": [
+        69622,
+        0
+      ],
+      "PLpgSQL": [
+        25,
+        0
+      ],
+      "PowerShell": [
+        10,
+        0
+      ],
+      "Shell": [
+        16134,
+        0
+      ],
+      "XSLT": [
+        8451,
+        0
+      ],
+      "Mako": [
+        7,
+        0
+      ],
+      "Rust": [
+        154,
+        0
+      ],
+      "PHP": [
+        1843,
+        0
+      ],
+      "Java": [
+        6144,
+        0
+      ],
+      "HCL": [
+        315,
+        0
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 114,
+    "total_lines": 15704245,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 13875203,
+        "commits": 113
+      },
+      {
+        "language": "CSS",
+        "lines": 911697,
+        "commits": 1
+      },
+      {
+        "language": "JavaScript",
+        "lines": 149230,
+        "commits": 0
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 2333,
+        "commits": 0
+      },
+      {
+        "language": "Scala",
+        "lines": 7333,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ngkevin327",
+    "analysis_date": "2026-05-09T03:45:45.325647",
+    "total_repos_analyzed": 16,
+    "total_files_analyzed": 402,
+    "languages": {
+      "Go": {
+        "files_scanned": 82,
+        "packages": {
+          "testing": 41,
+          "strings": 32,
+          "time": 21,
+          "fmt": 14,
+          "context": 14,
+          "net/http": 11,
+          "os": 10,
+          "database/sql": 5,
+          "eventindexer/internal/rpc": 5,
+          "eventindexer/internal/config": 5,
+          "strconv": 5,
+          "log": 4,
+          "io": 4,
+          "net": 4,
+          "net/http/httptest": 4,
+          "math/big": 4,
+          "eventindexer/internal/version": 3,
+          "sort": 3,
+          "runtime": 2,
+          "eventindexer/internal/confirm": 2,
+          "os/signal": 2,
+          "syscall": 2,
+          "encoding/json": 2,
+          "net/url": 2,
+          "sync": 2,
+          "bytes": 2,
+          "REDIS_PASSWORD": 2,
+          "eventindexer/internal/chain": 1,
+          "eventindexer/internal/sync": 1,
+          "eventindexer/internal/logx": 1,
+          "eventindexer/internal/api": 1,
+          "flag": 1,
+          "dial_timeout=750ms": 1,
+          "error_body_limit=256": 1,
+          "max_open=10": 1,
+          "ping_timeout=3s": 1,
+          "max_idle=2": 1,
+          "max_retries=4": 1,
+          "eventindexer/internal/redis": 1,
+          "indexer_redis_configured": 1,
+          "indexer_reorg_lookback": 1,
+          "indexer_postgres_configured": 1,
+          "indexer_up": 1,
+          "indexer_info{chain_id=\\": 1,
+          "indexer_confirmations": 1,
+          "bufio": 1,
+          "eventindexer/internal/storage": 1,
+          "sync/atomic": 1,
+          "Temporary": 1,
+          "errors": 1,
+          "rpc:": 1,
+          "read": 1,
+          "broken": 1,
+          "Get": 1,
+          "EOF": 1,
+          "connection": 1,
+          "i/o": 1,
+          "write": 1,
+          "github.com/acme/checkout-inventory/internal/httpapi": 1,
+          "github.com/acme/checkout-inventory/internal/config": 1,
+          "github.com/acme/checkout-inventory/internal/telemetry": 1,
+          "checkout-web": 1,
+          "REDIS_LOCK_POOL_HINTS": 1,
+          "checkout-ios": 1,
+          "checkout-android": 1,
+          "iteration": 1,
+          "CHECKOUT_KAFKA_TOPIC_MAP": 1,
+          "LOCK_EXTENSION_BUDGET_DEFAULT": 1,
+          "INVENTORY_SERVICE_ITERATION": 1,
+          "priority": 1,
+          "BULK": 1,
+          "bulk": 1,
+          "30": 1,
+          "on": 1,
+          "off": 1,
+          "stg": 1,
+          "prod": 1,
+          "0": 1,
+          "20": 1,
+          "bad": 1,
+          "10": 1,
+          "event-path": 1,
+          "eu-west": 1,
+          "us-east": 1,
+          "preview-api": 1,
+          "hash/fnv": 1,
+          "feature:region:not-number": 1,
+          "::": 1,
+          "only-two:parts": 1,
+          "feature:region:101": 1,
+          "POSTGRES_URL": 1,
+          "KAFKA_PASSWORD": 1,
+          "API_TOKEN": 1,
+          "CREDENTIAL": 1,
+          "PASSWORD": 1,
+          "TOKEN": 1,
+          "AWS_ACCESS_KEY": 1,
+          "AWS_SECRET_KEY": 1,
+          "PRIVATE_KEY": 1,
+          "SECRET": 1,
+          "SERVICE_REGION": 1,
+          "checkout_block": 1,
+          "inv_hold": 1,
+          "backfill": 1,
+          "replay": 1,
+          "live": 1,
+          "other": 1,
+          "retry": 1,
+          "checkout": 1,
+          "github.com/acme/custody-wallet/internal/config": 1,
+          "github.com/acme/custody-wallet/internal/metrics": 1,
+          "github.com/acme/custody-wallet/internal/tx": 1,
+          "github.com/acme/custody-wallet/internal/events": 1,
+          "github.com/acme/custody-wallet/internal/worker": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 30,
+        "packages": {
+          "com.company": 30,
+          "org.springframework": 28,
+          "java.util": 27,
+          "java.time": 10,
+          "java.math": 5,
+          "java.nio": 1,
+          "java.security": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 18,
+        "packages": {
+          "react": 7,
+          "path": 5,
+          "fs": 3,
+          "date-fns": 3,
+          "mini-css-extract-plugin": 3,
+          "crypto": 2,
+          "webpack-merge": 2,
+          "pg": 1,
+          "ioredis": 1,
+          "bull": 1,
+          "aws-sdk": 1,
+          "express": 1,
+          "immutable": 1,
+          "!to-string-loader!css-loader!postcss-loader!sass-loader!..": 1,
+          "netlify-cms-app": 1,
+          "assets-webpack-plugin": 1,
+          "webpack": 1,
+          "html-webpack-plugin": 1,
+          "copy-webpack-plugin": 1,
+          "clean-webpack-plugin": 1,
+          "terser-webpack-plugin": 1,
+          "optimize-css-assets-webpack-plugin": 1,
+          "child_process": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 7,
+        "packages": {
+          "Illuminate\\Database\\Schema\\Blueprint": 6,
+          "Illuminate\\Database\\Migrations\\Migration": 6,
+          "Illuminate\\Console\\Command": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 105,
+        "packages": {
+          "annotations": 48,
+          "__future__": 48,
+          "typing": 38,
+          "sqlalchemy": 26,
+          "app": 25,
+          "alembic": 24,
+          "op": 23,
+          "datetime": 20,
+          "langchain_core": 20,
+          "dataclasses": 13,
+          "collections": 13,
+          "dataclass": 11,
+          "AdapterResult": 11,
+          "ProtocolSnapshot": 11,
+          "Any": 10,
+          "os": 9,
+          "get_settings": 9,
+          "ProtocolAdapter": 8,
+          "SimpleWeb3Client": 8,
+          "TYPE_CHECKING": 8,
+          "postgresql": 8,
+          "json": 7,
+          "BashOperator": 7,
+          "airflow": 7,
+          "typing_extensions": 7,
+          "DAG": 6,
+          "decimal": 6,
+          "Decimal": 6,
+          "ABC": 6,
+          "abc": 6,
+          "functools": 6,
+          "List": 5,
+          "pydantic": 5,
+          "asyncio": 5,
+          "Sequence": 5,
+          "AgentAction": 5,
+          "BaseCallbackHandler": 5,
+          "Dict": 4,
+          "TaskGroup": 4,
+          "common": 4,
+          "textwrap": 4,
+          "normalized_snapshot_values": 4,
+          "VaultProtocolAdapter": 4,
+          "sys": 4,
+          "pathlib": 4,
+          "Path": 4,
+          "contextlib": 4,
+          "SSRFBlockedError": 4,
+          "override": 4,
+          "BaseMessage": 4,
+          "logging": 4,
+          "date": 3,
+          "get_contract_helper": 3,
+          "inmemory_redis": 3,
+          "RedisCache": 3,
+          "urllib": 3,
+          "Settings": 3,
+          "lru_cache": 3,
+          "tomllib": 3,
+          "Callable": 3,
+          "inspect": 3,
+          "socket": 3,
+          "StdOutCallbackHandler": 3,
+          "Self": 3,
+          "UUID": 3,
+          "uuid": 3,
+          "Optional": 2,
+          "Set": 2,
+          "Tuple": 2,
+          "time": 2,
+          "threading": 2,
+          "re": 2,
+          "register_replay_dag_id": 2,
+          "unittest": 2,
+          "dags": 2,
+          "EmptyOperator": 2,
+          "TargetedReplayParams": 2,
+          "normalize_symbol": 2,
+          "TokenMetadataCache": 2,
+          "fastapi": 2,
+          "DashboardProtocolSummary": 2,
+          "urlparse": 2,
+          "BaseSettings": 2,
+          "defaultdict": 2,
+          "packaging": 2,
+          "Requirement": 2,
+          "import_attr": 2,
+          "warnings": 2,
+          "is_caller_internal": 2,
+          "run_in_executor": 2,
+          "langchain_protocol": 2,
+          "Document": 2,
+          "tenacity": 2,
+          "ChatGenerationChunk": 2,
+          "RetryCallState": 2,
+          "MessagesData": 2,
+          "print_text": 2,
+          "contextvars": 2,
+          "AsyncGenerator": 2,
+          "settings": 2,
+          "hashlib": 2,
+          "enum": 1,
+          "traceback": 1,
+          "Enum": 1,
+          "timedelta": 1,
+          "this": 1,
+          "asdict": 1,
+          "replay_dag_id_guard": 1,
+          "replay_params": 1,
+          "chain_backfill_env": 1,
+          "from_data_interval": 1,
+          "ExternalTaskSensor": 1,
+          "build_tags": 1,
+          "AWS_CONN_ID": 1,
+          "build_gold_chain_group": 1,
+          "Iterable": 1,
+          "base_default_args": 1,
+          "build_slack_block": 1,
+          "emit_task_run": 1,
+          "BashSensor": 1,
+          "DryRunPolicy": 1,
+          "PythonOperator": 1,
+          "enumerate_days_inclusive": 1,
+          "AdapterError": 1,
+          "web3_client_factory": 1,
+          "sanitize_apy": 1,
+          "AdapterRegistry": 1,
+          "aligned_sampled_at": 1,
+          "dry_run_protocol": 1,
+          "snapshot_repository": 1,
+          "serialize_dashboard_summary": 1,
+          "SnapshotCompletenessReporter": 1,
+          "DashboardProtocolDetail": 1,
+          "ProtocolMetadataService": 1,
+          "status": 1,
+          "HTTPException": 1,
+          "ProtocolRankingService": 1,
+          "job_audit_store": 1,
+          "Header": 1,
+          "APIRouter": 1,
+          "SnapshotIngestionService": 1,
+          "failed_fetch_replay_service": 1,
+          "worker_lag_tracker": 1,
+          "queue_for_protocol": 1,
+          "get_api_settings": 1,
+          "RawPayloadStore": 1,
+          "DashboardCacheWarmer": 1,
+          "DashboardTrendPoint": 1,
+          "MetricsRecorder": 1,
+          "build_contract_call": 1,
+          "provider_circuit_breaker_store": 1,
+          "rpc_fallback_health_checker": 1,
+          "perf_counter": 1,
+          "get_min_version_from_toml": 1,
+          "glob": 1,
+          "get_min_versions": 1,
+          "SpecifierSet": 1,
+          "requests": 1,
+          "Version": 1,
+          "tomli": 1,
+          "yaml": 1,
+          "VERSION": 1,
+          "as_import_path": 1,
+          "FieldInfo": 1,
+          "cast": 1,
+          "import_module": 1,
+          "importlib": 1,
+          "ipaddress": 1,
+          "Annotated": 1,
+          "httpx": 1,
+          "Serializable": 1,
+          "Generation": 1,
+          "InMemoryCache": 1,
+          "StreamingStdOutCallbackHandler": 1,
+          "FileCallbackHandler": 1,
+          "`*args`": 1,
+          "warn_deprecated": 1,
+          "as": 1,
+          "get_debug": 1,
+          "copy_context": 1,
+          "atexit": 1,
+          "RunnableConfig": 1,
+          "LangChainTracer": 1,
+          "locally": 1,
+          "asynccontextmanager": 1,
+          "Run": 1,
+          "RunnableLambda": 1,
+          "concurrent": 1,
+          "dispatch_custom_event": 1,
+          "uuid7": 1,
+          "langsmith": 1,
+          "ConsoleCallbackHandler": 1,
+          "env_var_is_set": 1,
+          "get_tracing_context": 1,
+          "ThreadPoolExecutor": 1,
+          "LLMResult": 1,
+          "langchain": 1,
+          "get_usage_metadata_callback": 1,
+          "contextmanager": 1,
+          "ContextVar": 1,
+          "init_chat_model": 1,
+          "Generator": 1,
+          "AIMessage": 1,
+          "register_configure_hook": 1,
+          "UsageMetadata": 1,
+          "UsageMetadataCallbackHandler": 1,
+          "ChatGeneration": 1,
+          "BaseModel": 1,
+          "messages_from_dict": 1,
+          "ChatSession": 1,
+          "Iterator": 1,
+          "TypedDict": 1,
+          "context": 1,
+          "Base": 1,
+          "create_async_engine": 1,
+          "fileConfig": 1,
+          "text": 1,
+          "DeclarativeBase": 1,
+          "select": 1,
+          "decode_token": 1,
+          "User": 1,
+          "hash_api_key": 1,
+          "JWTError": 1,
+          "Depends": 1,
+          "jose": 1,
+          "MemberRole": 1,
+          "AsyncSession": 1,
+          "get_db": 1,
+          "Tenant": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 6,
+        "packages": {
+          "io.kevinng": 6,
+          "scala.io": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 29,
+        "packages": {
+          "subsquid": 19,
+          "nestjs": 4,
+          "assert": 2,
+          "fs": 2,
+          "vitest": 2,
+          "node:assert": 2,
+          "environmentPolicy": 1,
+          "network": 1,
+          "runtime": 1,
+          "normal": 1,
+          "node:util": 1,
+          "node:zlib": 1,
+          "commander": 1,
+          "path": 1,
+          "finalized": 1,
+          "0": 1,
+          "node:crypto": 1,
+          "type": 1,
+          "rate_limit_checks": 1,
+          "http": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ngkevin327/catalog-sync-service",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ngkevin327/chain-data-lake",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python",
+          "Scala"
+        ]
+      },
+      {
+        "repository": "ngkevin327/cms_small_business",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ngkevin327/contract-deployer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "ngkevin327/defi-yield-aggregator",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ngkevin327/eth-log-indexer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ngkevin327/inventory-lock-service",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ngkevin327/langchain",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "ngkevin327/llm-support-agent",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ngkevin327/multi-chain-wallet-core",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ngkevin327/orderstream-processor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "ngkevin327/payment-recon-engine",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "ngkevin327/squid-sdk",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "ngkevin327/webhook-delivery-hub",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

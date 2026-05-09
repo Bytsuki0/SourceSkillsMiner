@@ -1,0 +1,381 @@
+{
+  "username": "fahmijaafar",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 1.0,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 1.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.24375,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.41541666666666666,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        13906220,
+        167
+      ],
+      "HTML": [
+        176962,
+        34
+      ],
+      "Dockerfile": [
+        2978,
+        0
+      ],
+      "Mako": [
+        703,
+        0
+      ],
+      "TypeScript": [
+        88961,
+        0
+      ],
+      "CSS": [
+        106448,
+        12
+      ],
+      "Shell": [
+        746,
+        0
+      ],
+      "Jinja": [
+        10,
+        0
+      ],
+      "JavaScript": [
+        238452,
+        29
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 242,
+    "total_lines": 14521480,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 13906220,
+        "commits": 167
+      },
+      {
+        "language": "HTML",
+        "lines": 176962,
+        "commits": 34
+      },
+      {
+        "language": "JavaScript",
+        "lines": 238452,
+        "commits": 29
+      },
+      {
+        "language": "CSS",
+        "lines": 106448,
+        "commits": 12
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 2978,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "fahmijaafar",
+    "analysis_date": "2026-05-08T22:47:51.926659",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 71,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "exceljs": 1,
+          "firebase": 1,
+          "firebase-admin": 1,
+          "borangKesengsaraan": 1,
+          "firebase-functions": 1,
+          "axios": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 62,
+        "packages": {
+          "fastapi": 24,
+          "typing": 24,
+          "sqlalchemy": 21,
+          "APIRouter": 17,
+          "app": 17,
+          "datetime": 14,
+          "sqlmodel": 13,
+          "Annotated": 11,
+          "AsyncSession": 10,
+          "os": 9,
+          "logging": 9,
+          "pydantic": 9,
+          "settings": 9,
+          "Any": 8,
+          "json": 6,
+          "fastcrud": 6,
+          "uuid": 6,
+          "Session": 6,
+          "Path": 5,
+          "pathlib": 5,
+          "alembic": 5,
+          "requests": 4,
+          "BaseModel": 4,
+          "PaginatedListResponse": 4,
+          "op": 4,
+          "engine": 4,
+          "get_password_hash": 4,
+          "BaseSettings": 3,
+          "pydantic_settings": 3,
+          "db_init": 3,
+          "FastAPI": 3,
+          "Optional": 3,
+          "traceback": 3,
+          "sys": 3,
+          "UTC": 3,
+          "security": 3,
+          "jwt": 3,
+          "crud": 3,
+          "template": 2,
+          "BeautifulSoup": 2,
+          "bs4": 2,
+          "scrape_essential_data": 2,
+          "helpers": 2,
+          "app_config": 2,
+          "Base": 2,
+          "dependencies": 2,
+          "get_flights_info": 2,
+          "starlette": 2,
+          "networkx": 2,
+          "md5": 2,
+          "MultiDiGraph": 2,
+          "hashlib": 2,
+          "time": 2,
+          "matplotlib": 2,
+          "geopy": 2,
+          "tqdm": 2,
+          "argparse": 2,
+          "cast": 2,
+          "asyncio": 2,
+          "Nominatim": 2,
+          "Figure": 2,
+          "numpy": 2,
+          "pickle": 2,
+          "osmnx": 2,
+          "GeoDataFrame": 2,
+          "geopandas": 2,
+          "FontProperties": 2,
+          "crudadmin": 2,
+          "CRUDAdmin": 2,
+          "Depends": 2,
+          "redis": 2,
+          "Redis": 2,
+          "OAuth2PasswordRequestForm": 2,
+          "timedelta": 2,
+          "collections": 2,
+          "uuid7": 2,
+          "Mapped": 2,
+          "uuid6": 2,
+          "InvalidTokenError": 2,
+          "CurrentUser": 2,
+          "Item": 2,
+          "Message": 2,
+          "EmailStr": 2,
+          "tenacity": 2,
+          "after_log": 2,
+          "Engine": 2,
+          "daily_stocks_meeting": 1,
+          "monthly_stocks_to_buy": 1,
+          "Github": 1,
+          "github": 1,
+          "stocks": 1,
+          "stocks_data": 1,
+          "PrettyTable": 1,
+          "prettytable": 1,
+          "declarative_base": 1,
+          "create_engine": 1,
+          "models": 1,
+          "HTTPException": 1,
+          "error_message": 1,
+          "Flight": 1,
+          "session": 1,
+          "routers": 1,
+          "resources": 1,
+          "Column": 1,
+          "main": 1,
+          "unittest": 1,
+          "TestClient": 1,
+          "pytest": 1,
+          "Mock": 1,
+          "run_in_threadpool": 1,
+          "create_map_poster": 1,
+          "shutil": 1,
+          "name": 1,
+          "PasswordTransformer": 1,
+          "JSONResponse": 1,
+          "jose": 1,
+          "JWTError": 1,
+          "Job": 1,
+          "arq": 1,
+          "Enum": 1,
+          "SecretStr": 1,
+          "enum": 1,
+          "FastCRUD": 1,
+          "AsyncGenerator": 1,
+          "DeclarativeBase": 1,
+          "async_sessionmaker": 1,
+          "Boolean": 1,
+          "UUID": 1,
+          "DateTime": 1,
+          "text": 1,
+          "RotatingFileHandler": 1,
+          "SQLModel": 1,
+          "context": 1,
+          "fileConfig": 1,
+          "engine_from_config": 1,
+          "postgresql": 1,
+          "ValidationError": 1,
+          "OAuth2PasswordBearer": 1,
+          "Generator": 1,
+          "TokenPayload": 1,
+          "items": 1,
+          "func": 1,
+          "HTMLResponse": 1,
+          "SessionDep": 1,
+          "generate_new_account_email": 1,
+          "col": 1,
+          "get_current_active_superuser": 1,
+          "generate_test_email": 1,
+          "secrets": 1,
+          "typing_extensions": 1,
+          "Self": 1,
+          "warnings": 1,
+          "User": 1,
+          "passlib": 1,
+          "CryptContext": 1,
+          "api_router": 1,
+          "sentry_sdk": 1,
+          "APIRoute": 1,
+          "CORSMiddleware": 1,
+          "Field": 1,
+          "dataclasses": 1,
+          "dataclass": 1,
+          "emails": 1,
+          "Template": 1,
+          "jinja2": 1,
+          "pdfplumber": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "fahmijaafar/bursa-agm-bot",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fahmijaafar/cargobase-api",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fahmijaafar/cool-mapper",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fahmijaafar/FastAPI-lab",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fahmijaafar/full-stack-fastapi-template",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fahmijaafar/ktm-schedule",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fahmijaafar/maptoposter",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fahmijaafar/science4derp-service",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

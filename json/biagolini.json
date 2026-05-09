@@ -1,0 +1,391 @@
+{
+  "username": "biagolini",
+  "areas": {
+    "OSS": {
+      "score": 0.4444444444444444,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.2590031695685713,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8115816774297799,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.333333,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 13,
+        "language_transitions": 13,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.30735612280260316,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        41892,
+        74
+      ],
+      "HTML": [
+        8514,
+        34
+      ],
+      "SCSS": [
+        8122,
+        10
+      ],
+      "JavaScript": [
+        4889,
+        8
+      ],
+      "CSS": [
+        347,
+        4
+      ],
+      "Shell": [
+        0,
+        5
+      ],
+      "C": [
+        0,
+        4
+      ],
+      "R": [
+        0,
+        18
+      ],
+      "Rebol": [
+        0,
+        0
+      ],
+      "Java": [
+        0,
+        88
+      ],
+      "Hack": [
+        0,
+        2
+      ],
+      "PHP": [
+        0,
+        9
+      ],
+      "Twig": [
+        0,
+        2
+      ],
+      "Python": [
+        0,
+        88
+      ],
+      "Dockerfile": [
+        0,
+        1
+      ],
+      "HCL": [
+        0,
+        22
+      ],
+      "Jupyter Notebook": [
+        0,
+        1
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 370,
+    "total_lines": 63764,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 0,
+        "commits": 88
+      },
+      {
+        "language": "Python",
+        "lines": 0,
+        "commits": 88
+      },
+      {
+        "language": "TypeScript",
+        "lines": 41892,
+        "commits": 74
+      },
+      {
+        "language": "HTML",
+        "lines": 8514,
+        "commits": 34
+      },
+      {
+        "language": "HCL",
+        "lines": 0,
+        "commits": 22
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "biagolini",
+    "analysis_date": "2026-05-09T09:54:14.203739",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 232,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 15,
+        "packages": {
+          "karma-jasmine-html-reporter": 15,
+          "path": 15,
+          "karma-coverage": 15,
+          "angular-devkit": 15,
+          "karma-chrome-launcher": 15,
+          "karma-jasmine": 15
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 197,
+        "packages": {
+          "angular": 165,
+          "zone.js": 46,
+          "rxjs": 8,
+          "classlist.js": 6,
+          "web-animations-js": 6,
+          "core-js": 6,
+          "intl": 6,
+          "src": 6,
+          "of": 5,
+          "aws-amplify": 2,
+          "ngx-translate": 2,
+          "node:url": 1,
+          "express": 1,
+          "node:path": 1,
+          "amazon-cognito-identity-js": 1,
+          "ng2-currency-mask": 1,
+          "ngx-markdown": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "biagolini/AngulaFormValitionByCondition",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularAutoComplete",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularAwsCognitoMfaProtectedActions",
+        "files_analyzed": 11,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularBreakpointObserver",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularButtonToggle",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularCallFunctionByTime",
+        "files_analyzed": 5,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularChips",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularCognitoInteraction",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularCssClassCondition",
+        "files_analyzed": 4,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularDarkLigthModes",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularDateManipulation",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularDatePicker",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularDatePickerDD-MM-YYYY",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularDisplayDataByGroups",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularInputAppearanceCondition",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularInputChanges",
+        "files_analyzed": 5,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularInputHideShowPasswordButton",
+        "files_analyzed": 4,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularInputHover",
+        "files_analyzed": 5,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularInputMaskCurrency",
+        "files_analyzed": 4,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularJsonServer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularMarkdown",
+        "files_analyzed": 4,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularMatTableColumnResize",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularMultipleSelect",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "biagolini/AngularPipes",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

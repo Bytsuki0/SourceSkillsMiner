@@ -539,10 +539,10 @@ class AdaptabilityAnalyzer:
         domain_score, entropy_bits = self._compute_domain_flexibility(contrib_nodes)
         resil_score, closed_total, bounced = self._compute_resilience(all_pr_nodes)
 
-        sub_scores = [div_score, adopt_score, domain_score, resil_score]
+        sub_scores = [div_score, adopt_score, domain_score]
         mean01     = sum(sub_scores) / len(sub_scores)
-        #final      = _to_signed(mean01)
-        final      = mean01
+        final      = _to_signed(mean01)
+        #final      = mean01
 
         return {
             "score": round(final, 6),

@@ -530,11 +530,11 @@ def main():
     p = argparse.ArgumentParser(description='GitHub User Scoring System')
     p.add_argument('--username', '-u', help='GitHub username (overrides config)')
     p.add_argument('--token',    '-t', help='GitHub token (overrides config)')
-    p.add_argument('--repo-limit', type=int, default=200,
+    p.add_argument('--repo-limit', type=int, default=25,
                    help='Maximum repositories to analyze for sentiment (default: %(default)s)')
     p.add_argument('--skip-import-scan', action='store_true',
                    help='Skip import/package scan (faster, but less supplementary data)')
-    p.add_argument('--import-max-repos', type=int, default=20,
+    p.add_argument('--import-max-repos', type=int, default=25,
                    help='Max repos for import scan (default: %(default)s)')
     p.add_argument('--import-max-files', type=int, default=30,
                    help='Max files per repo for import scan (default: %(default)s)')

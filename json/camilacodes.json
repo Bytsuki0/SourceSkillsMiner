@@ -1,0 +1,216 @@
+{
+  "username": "camilacodes",
+  "areas": {
+    "OSS": {
+      "score": -0.14584241358685734,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.7812363796197139
+      }
+    },
+    "Status": {
+      "score": 0.23877297102852735,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7812363796197139,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": -0.266667,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.034747288511666,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        952988,
+        26
+      ],
+      "C": [
+        5622,
+        0
+      ],
+      "PowerShell": [
+        1713,
+        0
+      ],
+      "JavaScript": [
+        7193,
+        0
+      ],
+      "Shell": [
+        1251,
+        0
+      ],
+      "CSS": [
+        55288,
+        3
+      ],
+      "C++": [
+        124,
+        0
+      ],
+      "Assembly": [
+        71,
+        0
+      ],
+      "Batchfile": [
+        5,
+        0
+      ],
+      "HTML": [
+        43857,
+        2
+      ],
+      "Dockerfile": [
+        59,
+        5
+      ],
+      "Procfile": [
+        2,
+        0
+      ],
+      "HCL": [
+        1457,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 36,
+    "total_lines": 1069630,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 952988,
+        "commits": 26
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 59,
+        "commits": 5
+      },
+      {
+        "language": "CSS",
+        "lines": 55288,
+        "commits": 3
+      },
+      {
+        "language": "HTML",
+        "lines": 43857,
+        "commits": 2
+      },
+      {
+        "language": "C",
+        "lines": 5622,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "camilacodes",
+    "analysis_date": "2026-05-09T10:27:21.514813",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 23,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "modelcontextprotocol": 1,
+          "service": 1,
+          "storage_gb": 1,
+          "requests_millions": 1,
+          "instance_type": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 17,
+        "packages": {
+          "flask": 13,
+          "app": 12,
+          "Flask": 9,
+          "functools": 4,
+          "wraps": 4,
+          "MySQL": 4,
+          "flaskext": 4,
+          "config": 4,
+          "auth": 4,
+          "pymysql": 4,
+          "mysql": 4,
+          "auth_required": 4,
+          "jsonify": 4,
+          "request": 4,
+          "json": 3,
+          "requests": 3,
+          "*": 1,
+          "validation": 1,
+          "crypt": 1,
+          "methods": 1,
+          "os": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "camilacodes/ApiRestFlask",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "camilacodes/deploy-basico",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "camilacodes/Workshop",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

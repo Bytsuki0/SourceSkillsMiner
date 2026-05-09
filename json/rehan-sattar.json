@@ -1,0 +1,484 @@
+{
+  "username": "rehan-sattar",
+  "areas": {
+    "OSS": {
+      "score": 0.656140350877193,
+      "details": {
+        "issue_resolution_rate": 0.6842105263157895,
+        "pr_merge_rate": 0.8,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.2836097850683559,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8484916006794568,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.333333,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.40461662718910985,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        345929,
+        451
+      ],
+      "HTML": [
+        21349,
+        40
+      ],
+      "CSS": [
+        80726,
+        22
+      ],
+      "TypeScript": [
+        29936,
+        51
+      ],
+      "Dockerfile": [
+        423,
+        0
+      ],
+      "Dart": [
+        10505,
+        103
+      ],
+      "Swift": [
+        231,
+        0
+      ],
+      "Kotlin": [
+        71,
+        0
+      ],
+      "Objective-C": [
+        21,
+        6
+      ],
+      "Vue": [
+        277,
+        16
+      ],
+      "Java": [
+        0,
+        35
+      ],
+      "PHP": [
+        0,
+        1
+      ],
+      "Python": [
+        0,
+        20
+      ],
+      "C++": [
+        0,
+        2
+      ],
+      "Starlark": [
+        0,
+        3
+      ],
+      "SCSS": [
+        0,
+        3
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 753,
+    "total_lines": 489468,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 345929,
+        "commits": 451
+      },
+      {
+        "language": "Dart",
+        "lines": 10505,
+        "commits": 103
+      },
+      {
+        "language": "TypeScript",
+        "lines": 29936,
+        "commits": 51
+      },
+      {
+        "language": "HTML",
+        "lines": 21349,
+        "commits": 40
+      },
+      {
+        "language": "Java",
+        "lines": 0,
+        "commits": 35
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rehan-sattar",
+    "analysis_date": "2026-05-09T03:23:08.640409",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 309,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 10,
+        "packages": {
+          "flutter": 10,
+          "chat_app": 6,
+          "firebase_auth": 5,
+          "cloud_firestore": 4,
+          "dart:io": 3,
+          "firebase_storage": 1,
+          "firebase_messaging": 1,
+          "image_picker": 1,
+          "flutter_test": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 30,
+        "packages": {
+          "com.company": 30,
+          "java.util": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 127,
+        "packages": {
+          "react": 86,
+          "react-redux": 16,
+          "react-router-dom": 15,
+          "axios": 10,
+          "express": 9,
+          "mongoose": 8,
+          "material-ui": 8,
+          "react-dom": 7,
+          "gatsby": 6,
+          "firebase": 6,
+          "cors": 5,
+          "react-apollo": 4,
+          "redux": 3,
+          "actions": 3,
+          "object": 3,
+          "body-parser": 2,
+          "passport": 2,
+          "path": 2,
+          "crypto": 2,
+          "apollo-boost": 2,
+          "gulp-sass": 2,
+          "browser-sync": 2,
+          "gulp": 2,
+          "moment": 2,
+          "history": 2,
+          "react-toast-notifications": 2,
+          "assert": 2,
+          "512": 2,
+          "[]": 2,
+          "auth_error": 1,
+          "auth_user": 1,
+          "redux-thunk": 1,
+          "redux-form": 1,
+          "jwt-simple": 1,
+          "morgan": 1,
+          "bcryptjs": 1,
+          "passport-jwt": 1,
+          "passport-local": 1,
+          "reducers": 1,
+          "middlewares": 1,
+          "components": 1,
+          "moxios": 1,
+          "enzyme": 1,
+          "Root": 1,
+          "graphql": 1,
+          "lodash": 1,
+          "express-graphql": 1,
+          "Author": 1,
+          "Book": 1,
+          "src": 1,
+          "firebase-functions": 1,
+          "firebase-admin": 1,
+          "vue": 1,
+          "vite": 1,
+          "vitejs": 1,
+          "node:url": 1,
+          "react-loader-spinner": 1,
+          "react-router": 1,
+          "https:": 1,
+          "master": 1,
+          "use": 1,
+          "__esModule": 1,
+          ":": 1,
+          ":[576": 1,
+          "undefined": 1,
+          "item": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 8,
+        "packages": {
+          "react": 8,
+          "react-redux": 4,
+          "redux": 2,
+          "redux-form": 2,
+          "react-router-dom": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 1,
+        "packages": {
+          "io.flutter": 1,
+          "com.example": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 1,
+        "packages": {
+          "UIKit": 1,
+          "Flutter": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 49,
+        "packages": {
+          "react": 30,
+          "type-defs": 5,
+          "redux": 3,
+          "vue": 3,
+          "store": 2,
+          "typescript": 2,
+          "assert": 2,
+          "center": 1,
+          "bun:test": 1,
+          "reselect": 1,
+          "CART": 1,
+          "CLEAR": 1,
+          "redux-thunk": 1,
+          "services": 1,
+          "PRODUCTS": 1,
+          "material-ui": 1,
+          "(prefers-color-scheme:": 1,
+          "created_at": 1,
+          "express": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 18,
+        "packages": {
+          "react": 17,
+          "react-router-dom": 7,
+          "react-redux": 5,
+          "type-defs": 5,
+          "material-ui": 5,
+          "store": 4,
+          "components": 2,
+          "react-dom": 2,
+          "testing-library": 2,
+          "nanoid": 1,
+          "router": 1,
+          "Cart": 1,
+          "Products": 1,
+          "history": 1,
+          "react-syntax-highlighter": 1,
+          "react-copy-to-clipboard": 1,
+          "react-markdown": 1,
+          "remark-toc": 1,
+          "react-apexcharts": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rehan-sattar/advance-react",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/beautiful-react-ui",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/blog-app-gatsby-react",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/blog-app-microservices",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/bookListApp-React-Apollo-GraphQL",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/Bootstrap-4-Starker-pack",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/bs4starter_alpha6",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/bunify",
+        "files_analyzed": 9,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/Calendar",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/cart-redux-ts",
+        "files_analyzed": 22,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/chitchat_flutter",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "JavaScript",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/composition-101",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/crime-reporter-app-react",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/deno_website2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/design-patterns",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/developerFolio",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/DML-application-hooks-context",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/docker-node-mongo",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rehan-sattar/docker-node-ts",
+        "files_analyzed": 1,
+        "languages_found": [
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

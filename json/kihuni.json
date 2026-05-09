@@ -1,0 +1,450 @@
+{
+  "username": "kihuni",
+  "areas": {
+    "OSS": {
+      "score": 0.4352009054895303,
+      "details": {
+        "issue_resolution_rate": 0.25806451612903225,
+        "pr_merge_rate": 0.8947368421052632,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.96875,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 8,
+        "topic_entropy_bits": 3.4594,
+        "closed_prs_total": 16,
+        "bounced_back_prs": 13
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.507713258020983,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        757283,
+        781
+      ],
+      "CSS": [
+        22032,
+        128
+      ],
+      "HTML": [
+        41830,
+        258
+      ],
+      "Procfile": [
+        138,
+        0
+      ],
+      "JavaScript": [
+        477744,
+        240
+      ],
+      "SCSS": [
+        3341,
+        0
+      ],
+      "Jupyter Notebook": [
+        820,
+        11
+      ],
+      "C": [
+        99816,
+        399
+      ],
+      "Tcl": [
+        10749,
+        0
+      ],
+      "Perl": [
+        2595,
+        0
+      ],
+      "M4": [
+        1250,
+        0
+      ],
+      "Makefile": [
+        868,
+        1
+      ],
+      "Shell": [
+        4419,
+        196
+      ],
+      "Ruby": [
+        290,
+        4
+      ],
+      "C++": [
+        265,
+        0
+      ],
+      "Lua": [
+        172,
+        0
+      ],
+      "Roff": [
+        104,
+        0
+      ],
+      "CMake": [
+        54,
+        0
+      ],
+      "Modelica": [
+        33,
+        0
+      ],
+      "Smarty": [
+        15,
+        0
+      ],
+      "Batchfile": [
+        15,
+        0
+      ],
+      "XSLT": [
+        6,
+        0
+      ],
+      "TypeScript": [
+        1770,
+        1
+      ],
+      "Assembly": [
+        0,
+        0
+      ],
+      "Puppet": [
+        0,
+        23
+      ],
+      "Nix": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "EJS": [
+        0,
+        3
+      ],
+      "PowerShell": [
+        0,
+        0
+      ],
+      "Brainfuck": [
+        0,
+        0
+      ],
+      "MATLAB": [
+        0,
+        0
+      ],
+      "M": [
+        0,
+        0
+      ],
+      "Forth": [
+        0,
+        0
+      ]
+    },
+    "language_count": 33,
+    "total_commits": 2045,
+    "total_lines": 1425609,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 757283,
+        "commits": 781
+      },
+      {
+        "language": "C",
+        "lines": 99816,
+        "commits": 399
+      },
+      {
+        "language": "HTML",
+        "lines": 41830,
+        "commits": 258
+      },
+      {
+        "language": "JavaScript",
+        "lines": 477744,
+        "commits": 240
+      },
+      {
+        "language": "Shell",
+        "lines": 4419,
+        "commits": 196
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "kihuni",
+    "analysis_date": "2026-05-08T21:25:37.984575",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 280,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "lists.h": 2
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "stdlib.h": 1,
+          "<stdlib.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 40,
+        "packages": {
+          "react": 16,
+          "react-dom": 8,
+          "express": 8,
+          "redis": 7,
+          "util": 6,
+          "mongodb": 4,
+          "fs": 4,
+          "bull": 3,
+          "uuid": 2,
+          "path": 2,
+          "os": 2,
+          "sha1": 2,
+          "chai": 2,
+          "prop-types": 1,
+          "kue": 1,
+          "mime-types": 1,
+          "supertest": 1,
+          "googleapis": 1,
+          "readline": 1,
+          "mime-message": 1,
+          "image-thumbnail": 1,
+          "request": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 96,
+        "packages": {
+          "models": 29,
+          "typing": 20,
+          "flask": 18,
+          "api": 17,
+          "Flask": 13,
+          "datetime": 13,
+          "User": 12,
+          "BaseModel": 11,
+          "os": 10,
+          "unittest": 9,
+          "Babel": 8,
+          "flask_babel": 8,
+          "BasicAuth": 8,
+          "pymongo": 7,
+          "MongoClient": 7,
+          "Auth": 7,
+          "random": 6,
+          "base_caching": 6,
+          "BaseCaching": 6,
+          "uuid": 5,
+          "sys": 5,
+          "Union": 5,
+          "State": 4,
+          "Place": 4,
+          "json": 4,
+          "Review": 4,
+          "City": 4,
+          "Amenity": 4,
+          "storage": 4,
+          "FileStorage": 4,
+          "asyncio": 4,
+          "List": 4,
+          "app_views": 4,
+          "base64": 4,
+          "re": 3,
+          "Callable": 3,
+          "redis": 3,
+          "logging": 3,
+          "getenv": 3,
+          "TypeVar": 3,
+          "*": 2,
+          "Tuple": 2,
+          "pytz": 2,
+          "Mapping": 2,
+          "math": 2,
+          "flask_cors": 2,
+          "request": 2,
+          "b64decode": 2,
+          "SessionExpAuth": 2,
+          "mymodule": 1,
+          "generate_full_name": 1,
+          "shlex": 1,
+          "cmd": 1,
+          "StringIO": 1,
+          "console": 1,
+          "io": 1,
+          "patch": 1,
+          "HBNBCommand": 1,
+          "matplotlib": 1,
+          "solve": 1,
+          "sympy": 1,
+          "symbols": 1,
+          "user": 1,
+          "Any": 1,
+          "uuid4": 1,
+          "wraps": 1,
+          "functools": 1,
+          "requests": 1,
+          "bcrypt": 1,
+          "environ": 1,
+          "mysql": 1,
+          "Blueprint": 1,
+          "jsonify": 1,
+          "abort": 1,
+          "markupsafe": 1,
+          "escape": 1,
+          "path": 1,
+          "hashlib": 1,
+          "Base": 1,
+          "SessionDBAuth": 1,
+          "SessionAuth": 1,
+          "UserSession": 1,
+          "this": 1,
+          "sleep": 1,
+          "time": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "kihuni/30-Days-Of-Python",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kihuni/30-Days-Of-React",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "kihuni/AirBnB_clone",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kihuni/Algebra-with-Python",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kihuni/alx-backend",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "kihuni/alx-backend-python",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kihuni/alx-backend-storage",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kihuni/alx-backend-user-data",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kihuni/alx-files_manager",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "kihuni/alx-higher_level_programming",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "kihuni/alx-interview",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

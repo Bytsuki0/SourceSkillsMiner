@@ -1,0 +1,637 @@
+{
+  "username": "sunnydanu",
+  "areas": {
+    "OSS": {
+      "score": 0.44203427412606566,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.8166666666666667,
+        "commits_activity": 0.8463847445224318
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.0,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 24,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.02174018815854646,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        914095,
+        21
+      ],
+      "CSS": [
+        474940,
+        0
+      ],
+      "JavaScript": [
+        1621322,
+        17
+      ],
+      "HTML": [
+        160301,
+        1
+      ],
+      "Vue": [
+        3009,
+        26
+      ],
+      "Stylus": [
+        2853,
+        0
+      ],
+      "Rust": [
+        2627328,
+        0
+      ],
+      "Reason": [
+        93574,
+        0
+      ],
+      "SCSS": [
+        172607,
+        0
+      ],
+      "Dockerfile": [
+        2621,
+        0
+      ],
+      "Lua": [
+        161540,
+        0
+      ],
+      "Shell": [
+        25533,
+        0
+      ],
+      "Mustache": [
+        750521,
+        0
+      ],
+      "Smarty": [
+        264051,
+        0
+      ],
+      "Sass": [
+        81810,
+        0
+      ],
+      "Python": [
+        11171,
+        0
+      ],
+      "Makefile": [
+        1237,
+        0
+      ],
+      "Ruby": [
+        246,
+        0
+      ],
+      "EJS": [
+        0,
+        0
+      ],
+      "Svelte": [
+        0,
+        1
+      ],
+      "Astro": [
+        0,
+        0
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 66,
+    "total_lines": 7368759,
+    "top_5_languages": [
+      {
+        "language": "Vue",
+        "lines": 3009,
+        "commits": 26
+      },
+      {
+        "language": "TypeScript",
+        "lines": 914095,
+        "commits": 21
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1621322,
+        "commits": 17
+      },
+      {
+        "language": "HTML",
+        "lines": 160301,
+        "commits": 1
+      },
+      {
+        "language": "Svelte",
+        "lines": 0,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sunnydanu",
+    "analysis_date": "2026-05-09T04:06:15.772229",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 396,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 119,
+        "packages": {
+          "preact": 25,
+          "fs": 13,
+          "path": 13,
+          "dom101": 13,
+          "onmount": 11,
+          "dashersw": 7,
+          "preact-router": 6,
+          "testing-library": 6,
+          ":": 5,
+          "http": 4,
+          "socket.io": 4,
+          "portfinder": 4,
+          "terminal-kit": 4,
+          "express": 3,
+          "react": 3,
+          "preact-render-to-string": 3,
+          "preact-feather": 3,
+          "react-transition-group": 3,
+          "react-localstorage-hooks": 3,
+          "colors": 3,
+          "lodash": 3,
+          "randomstring": 3,
+          "ava": 3,
+          "rollup": 3,
+          "rollup-plugin-terser": 3,
+          "rollup-plugin-ts-compiler": 3,
+          "nodejs-file-downloader": 3,
+          "os": 3,
+          "isomorphic-git": 3,
+          "mongoose": 2,
+          "cors": 2,
+          "body-parser": 2,
+          "util": 2,
+          "node-fetch": 2,
+          "classnames": 2,
+          "prop-types": 2,
+          "nanoid": 2,
+          "docusaurus": 2,
+          "esbuild": 2,
+          "prismjs": 2,
+          "sanitize.css": 2,
+          "commander": 2,
+          "uuid": 2,
+          "child_process": 2,
+          "globals": 1,
+          "eslint-plugin-react-refresh": 1,
+          "typescript-eslint": 1,
+          "eslint": 1,
+          "eslint-plugin-react-hooks": 1,
+          "function": 1,
+          "DracoDecoderModule": 1,
+          "object": 1,
+          "asm": 1,
+          "markdown-it-container": 1,
+          "Student": 1,
+          "jasmine-spec-reporter": 1,
+          "ts-node": 1,
+          "angular-devkit": 1,
+          "karma-jasmine": 1,
+          "karma-jasmine-html-reporter": 1,
+          "karma-chrome-launcher": 1,
+          "karma-coverage-istanbul-reporter": 1,
+          "html2canvas": 1,
+          "svgo": 1,
+          "https:": 1,
+          "ip": 1,
+          "webpack": 1,
+          "scriptjs": 1,
+          "downloadjs": 1,
+          "copy-to-clipboard": 1,
+          "date-fns": 1,
+          "prism-react-renderer": 1,
+          "dts-bundle": 1,
+          "esbuild-plugin-polyfill-node": 1,
+          "esbuild-plugins": 1,
+          "url": 1,
+          "assemblyscript": 1,
+          "babel-preset-solid": 1,
+          "bbob": 1,
+          "danielx": 1,
+          "cssnano-preset-default": 1,
+          "elkjs-svg": 1,
+          "flow-remove-types": 1,
+          "less": 1,
+          "lightningcss-wasm": 1,
+          "php-wasm": 1,
+          "postcss-modules": 1,
+          "posthtml-css-modules": 1,
+          "posthtml": 1,
+          "pug": 1,
+          "fullhuman": 1,
+          "react-native-web": 1,
+          "remark-gfm": 1,
+          "esbuild-plugins-node-modules-polyfill": 1,
+          "hint.css": 1,
+          "isotope-layout": 1,
+          "prettier": 1,
+          "humanize-number": 1,
+          "cote": 1,
+          "eventemitter2": 1,
+          "charm": 1,
+          "debug": 1,
+          "process": 1,
+          "crypto-random-string": 1,
+          "fs-extra": 1,
+          "typeorm": 1,
+          "semver": 1,
+          "cdktf": 1,
+          "7zip-min": 1,
+          "axios": 1,
+          "socket.io-client": 1,
+          "node-pty": 1,
+          "tar": 1,
+          "webtorrent": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 12,
+        "packages": {
+          "typing": 10,
+          "modules": 9,
+          "Any": 6,
+          "os": 5,
+          "cv2": 4,
+          "List": 3,
+          "Frame": 3,
+          "insightface": 3,
+          "get_one_face": 3,
+          "shutil": 2,
+          "platform": 2,
+          "sys": 2,
+          "get_frame_processors_modules": 2,
+          "numpy": 2,
+          "Image": 2,
+          "PIL": 2,
+          "tqdm": 2,
+          "conditional_download": 2,
+          "threading": 2,
+          "update_status": 2,
+          "Face": 2,
+          "has_image_extension": 1,
+          "warnings": 1,
+          "argparse": 1,
+          "signal": 1,
+          "resource": 1,
+          "ctypes": 1,
+          "onnxruntime": 1,
+          "torch": 1,
+          "predict_video": 1,
+          "predict_image": 1,
+          "tensorflow": 1,
+          "opennsfw2": 1,
+          "ThreadPoolExecutor": 1,
+          "ModuleType": 1,
+          "types": 1,
+          "importlib": 1,
+          "concurrent": 1,
+          "gfpgan": 1,
+          "customtkinter": 1,
+          "Callable": 1,
+          "is_image": 1,
+          "predict_frame": 1,
+          "get_video_frame": 1,
+          "webbrowser": 1,
+          "pathlib": 1,
+          "subprocess": 1,
+          "urllib": 1,
+          "Path": 1,
+          "glob": 1,
+          "mimetypes": 1,
+          "ssl": 1,
+          "core": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 38,
+        "packages": {
+          "std": 28,
+          "super": 22,
+          "crate": 16,
+          "serde_json": 11,
+          "serde": 9,
+          "tokio": 8,
+          "stun_proto": 4,
+          "runtime": 4,
+          "api": 4,
+          "telemetry": 3,
+          "async_trait": 1,
+          "futures": 1,
+          "pretty_env_logger": 1,
+          "rand": 1,
+          "plugins": 1,
+          "tools": 1,
+          "commands": 1,
+          "mock_anthropic_service": 1,
+          "glob": 1,
+          "walkdir": 1,
+          "regex": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 98,
+        "packages": {
+          "node:child_process": 18,
+          "angular": 14,
+          "dicebear": 11,
+          "crypto": 8,
+          "type": 7,
+          "three": 6,
+          "axios": 6,
+          "fs": 6,
+          "cromwell": 6,
+          "gsap": 5,
+          "bun:bundle": 5,
+          "zod": 5,
+          "path": 5,
+          "three-stdlib": 3,
+          "zone.js": 3,
+          "anthropic-ai": 3,
+          "protractor": 2,
+          "react": 2,
+          "src": 2,
+          "lodash-es": 2,
+          "os": 2,
+          "child_process": 2,
+          "apollo": 2,
+          "rxjs": 1,
+          "hammerjs": 1,
+          "classlist.js": 1,
+          "web-animations-js": 1,
+          "docusaurus": 1,
+          "autoprefixer": 1,
+          "mdx-js": 1,
+          "postcss-preset-env": 1,
+          "postcss": 1,
+          "jest-circus": 1,
+          "jest-mock": 1,
+          "expect": 1,
+          "strip-ansi": 1,
+          "opentelemetry": 1,
+          "process": 1,
+          "markdown": 1,
+          "readline": 1,
+          "Something": 1,
+          "please": 1,
+          "qrcode": 1,
+          "chalk": 1,
+          "ready": 1,
+          "globals": 1,
+          "eslint-plugin-better-tailwindcss": 1,
+          "typescript-eslint": 1,
+          "url": 1,
+          "eslint": 1,
+          "elysia": 1,
+          "node:fs": 1,
+          "bun:sqlite": 1,
+          "mui": 1,
+          "jest": 1,
+          "testing-library": 1,
+          "nestjs": 1,
+          "normalize-path": 1,
+          "throttle-debounce": 1,
+          "type-graphql": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 38,
+        "packages": {
+          "react": 35,
+          "cromwell": 11,
+          "docusaurus": 6,
+          "react-icons": 4,
+          "theme": 4,
+          "gsap": 3,
+          "livecodes": 3,
+          "testing-library": 3,
+          "clsx": 3,
+          "mui": 3,
+          "three": 2,
+          "theme-original": 2,
+          "M16.59": 2,
+          "react-fast-marquee": 1,
+          "react-three": 1,
+          "giscus": 1,
+          "svelte": 1,
+          "site": 1,
+          "M9": 1,
+          "M19": 1,
+          "M3": 1,
+          "flex": 1,
+          "next": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sunnydanu/3d-portfolio",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "sunnydanu/AI-Expert-Roadmap",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/always-online-stun",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "sunnydanu/Angular8MeanstackAngularMaterial",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/avatar-generator",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/blaze",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/blockly-utils",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/blog.livecodes.io",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "sunnydanu/broadcast",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/browser-compilers",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/browser-jest",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/cheatsheets",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/claude-code",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/claw-code-parity",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "sunnydanu/ConvertX",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/cote",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/Cromwell",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "sunnydanu/dalai",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sunnydanu/Deep-Live-Cam",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sunnydanu/dicebear",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}
