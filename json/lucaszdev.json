@@ -1,0 +1,723 @@
+{
+  "username": "lucaszdev",
+  "areas": {
+    "OSS": {
+      "score": 0.548456959429251,
+      "details": {
+        "issue_resolution_rate": 0.875,
+        "pr_merge_rate": 0.8333333333333334,
+        "commits_activity": 0.6143521058105431
+      }
+    },
+    "Status": {
+      "score": 0.08646369757707939,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5912340079040806,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.4125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.04448413140126607,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        2463500,
+        2
+      ],
+      "HTML": [
+        3071,
+        3
+      ],
+      "JavaScript": [
+        129565,
+        2
+      ],
+      "Java": [
+        119460,
+        0
+      ],
+      "Objective-C": [
+        29237,
+        0
+      ],
+      "Starlark": [
+        11825,
+        0
+      ],
+      "Ruby": [
+        15223,
+        0
+      ],
+      "TypeScript": [
+        22628,
+        0
+      ],
+      "CSS": [
+        986,
+        0
+      ],
+      "C++": [
+        2115655,
+        0
+      ],
+      "CMake": [
+        116108,
+        0
+      ],
+      "C": [
+        20336,
+        0
+      ],
+      "Python": [
+        18990,
+        0
+      ],
+      "Shell": [
+        17815,
+        0
+      ],
+      "Lua": [
+        6092,
+        0
+      ],
+      "Roff": [
+        1573,
+        0
+      ],
+      "Dockerfile": [
+        1319,
+        0
+      ],
+      "Batchfile": [
+        511,
+        0
+      ],
+      "GDB": [
+        20,
+        0
+      ],
+      "Objective-C++": [
+        689,
+        0
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 7,
+    "total_lines": 5094603,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 3071,
+        "commits": 3
+      },
+      {
+        "language": "Swift",
+        "lines": 2463500,
+        "commits": 2
+      },
+      {
+        "language": "JavaScript",
+        "lines": 129565,
+        "commits": 2
+      },
+      {
+        "language": "Java",
+        "lines": 119460,
+        "commits": 0
+      },
+      {
+        "language": "Objective-C",
+        "lines": 29237,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "lucaszdev",
+    "analysis_date": "2026-05-09T17:40:14.968172",
+    "total_repos_analyzed": 16,
+    "total_files_analyzed": 291,
+    "languages": {
+      "C": {
+        "files_scanned": 3,
+        "packages": {
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "SDL_image.h": 1,
+          "setjmp.h": 1,
+          "<stdint.h>": 1,
+          "<icns.h>": 1,
+          "stdlib.h": 1,
+          "<unistd.h>": 1,
+          "<errno.h>": 1,
+          "icns.h": 1,
+          "<string.h>": 1,
+          "<stdlib.h>": 1,
+          "string.h": 1,
+          "stdint.h": 1,
+          "errno.h": 1,
+          "<setjmp.h>": 1,
+          "unistd.h": 1,
+          "<png.h>": 1,
+          "png.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 11,
+        "packages": {
+          "optional": 7,
+          "SDL.h": 7,
+          "<SDL.h>": 7,
+          "DiabloUI/diabloui.h": 7,
+          "<optional>": 7,
+          "DiabloUI/ui_flags.hpp": 7,
+          "DiabloUI/ui_item.h": 6,
+          "utils/language.h": 6,
+          "<SDL3/SDL_rect.h>": 6,
+          "SDL3/SDL_rect.h": 6,
+          "<cstddef>": 6,
+          "vector": 6,
+          "cstddef": 6,
+          "utils/ui_fwd.h": 6,
+          "<vector>": 6,
+          "string_view": 5,
+          "<string_view>": 5,
+          "engine/render/text_render.hpp": 5,
+          "engine/point.hpp": 5,
+          "<cstdint>": 5,
+          "cstdint": 5,
+          "<memory>": 5,
+          "memory": 5,
+          "<SDL3/SDL_events.h>": 4,
+          "SDL3/SDL_events.h": 4,
+          "utils/sdl_compat.h": 4,
+          "engine/load_clx.hpp": 4,
+          "utils/sdl_geometry.h": 4,
+          "engine/surface.hpp": 3,
+          "DiabloUI/button.h": 3,
+          "engine/load_pcx.hpp": 3,
+          "engine/clx_sprite.hpp": 3,
+          "engine/render/clx_render.hpp": 3,
+          "<SDL3/SDL_timer.h>": 3,
+          "string": 3,
+          "<algorithm>": 3,
+          "SDL3/SDL_surface.h": 3,
+          "<string>": 3,
+          "utils/is_of.hpp": 3,
+          "hwcursor.hpp": 3,
+          "SDL3/SDL_timer.h": 3,
+          "controls/menu_controls.h": 3,
+          "controls/input.h": 3,
+          "algorithm": 3,
+          "<SDL3/SDL_surface.h>": 3,
+          "utils/utf8.hpp": 3,
+          "assert.h": 2,
+          "pkware.h": 2,
+          "<string.h>": 2,
+          "string.h": 2,
+          "<assert.h>": 2,
+          "<SDL3/SDL_mouse.h>": 2,
+          "SDL3/SDL_mouse.h": 2,
+          "DiabloUI/credits_lines.h": 2,
+          "utils/display.h": 2,
+          "utils/enum_traits.h": 2,
+          "controls/control_mode.hpp": 2,
+          "tables/playerdat.hpp": 2,
+          "utils/str_cat.hpp": 2,
+          "DiabloUI/scrollbar.h": 2,
+          "headless_mode.hpp": 2,
+          "<SDL3/SDL_error.h>": 2,
+          "SDL3/SDL_error.h": 2,
+          "init.hpp": 2,
+          "options.h": 2,
+          "DiabloUI/dialogs.h": 2,
+          "engine/assets.hpp": 2,
+          "<fmt/core.h>": 2,
+          "game_mode.hpp": 2,
+          "fmt/core.h": 2,
+          "engine/rectangle.hpp": 1,
+          "DiabloUI/support_lines.h": 1,
+          "discord/discord.h": 1,
+          "DiabloUI/text_input.hpp": 1,
+          "player.h": 1,
+          "effects.h": 1,
+          "platform/switch/keyboard.h": 1,
+          "controls/controller.h": 1,
+          "engine/dx.h": 1,
+          "utils/screen_reader.hpp": 1,
+          "engine/ticks.hpp": 1,
+          "platform/ctr/keyboard.h": 1,
+          "engine/sound.h": 1,
+          "diablo.h": 1,
+          "<array>": 1,
+          "engine/palette.h": 1,
+          "function_ref.hpp": 1,
+          "platform/vita/keyboard.h": 1,
+          "<SDL3/SDL_keyboard.h>": 1,
+          "SDL3/SDL_keyboard.h": 1,
+          "<function_ref.hpp>": 1,
+          "sound_effect_enums.h": 1,
+          "appfat.h": 1,
+          "array": 1,
+          "utils/algorithm/container.hpp": 1,
+          "utils/log.hpp": 1,
+          "<SDL3/SDL_messagebox.h>": 1,
+          "SDL3/SDL_messagebox.h": 1,
+          "DiabloUI/hero/selhero.h": 1,
+          "<cstdlib>": 1,
+          "DiabloUI/selok.h": 1,
+          "levels/gendung.h": 1,
+          "cstring": 1,
+          "pfile.h": 1,
+          "cstdlib": 1,
+          "DiabloUI/multi/selgame.h": 1,
+          "<utility>": 1,
+          "utility": 1,
+          "DiabloUI/selyesno.h": 1,
+          "<cstring>": 1,
+          "storm/storm_net.hpp": 1,
+          "multi.h": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 4,
+        "packages": {
+          "<functional>": 2,
+          "type": 2,
+          "remove_reference_t": 2,
+          "functional": 2,
+          "<utility>": 2,
+          "utility": 2,
+          "enable_if_t": 2,
+          "invoke_result_t": 2,
+          "conditional_t": 2,
+          "invoke_result": 2,
+          "asio/detail/throw_exception.hpp": 1,
+          "<asio/detail/throw_exception.hpp>": 1,
+          "sol/stack.hpp": 1,
+          "cstddef": 1,
+          "<string>": 1,
+          "string": 1,
+          "<sol/stack.hpp>": 1,
+          "<cstddef>": 1,
+          "is_void_or": 1,
+          "is_copy_constructible_or_void": 1,
+          "type_traits": 1,
+          "<cassert>": 1,
+          "expected_copy_assign_base<T": 1,
+          "ctor_base": 1,
+          "exception": 1,
+          "result": 1,
+          "expected_copy_base<T": 1,
+          "t_is_nothrow_move_constructible": 1,
+          "expected_storage_base<void": 1,
+          "cassert": 1,
+          "expected_enable_from_other": 1,
+          "t_is_void": 1,
+          "move_constructing_e_can_throw": 1,
+          "is_move_constructible_or_void": 1,
+          "<exception>": 1,
+          "move_constructing_t_can_throw": 1,
+          "expected_operations_base<T": 1,
+          "impl_base": 1,
+          "<type_traits>": 1,
+          "expected_move_base<T": 1,
+          "t_is_not_void": 1,
+          "is_move_assignable_or_void": 1,
+          "is_copy_assignable_or_void": 1,
+          "e_is_nothrow_move_constructible": 1,
+          "expected_enable_forward_value": 1,
+          "std::swap": 1,
+          "expected_storage_base<T": 1,
+          "is_invocable_r": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 11,
+        "packages": {
+          "<UIKit/UIKit.h>": 5,
+          "<React/RCTBridgeDelegate.h>": 3,
+          "DiabloUI/ui_item.h": 3,
+          "cstddef": 3,
+          "<cstddef>": 3,
+          "<EXUpdates/EXUpdatesAppController.h>": 2,
+          "<Foundation/Foundation.h>": 2,
+          "<UMCore/UMAppDelegateWrapper.h>": 2,
+          "engine/clx_sprite.hpp": 2,
+          "<cstdint>": 2,
+          "cstdint": 2,
+          "<RCTAppDelegate.h>": 2,
+          "iterator": 1,
+          "fstream": 1,
+          "<sstream>": 1,
+          "vector": 1,
+          "cassert": 1,
+          "<iterator>": 1,
+          "<cassert>": 1,
+          "<fstream>": 1,
+          "<algorithm>": 1,
+          "<vector>": 1,
+          "algorithm": 1,
+          "sstream": 1,
+          "function_ref.hpp": 1,
+          "player.h": 1,
+          "optional": 1,
+          "utils/display.h": 1,
+          "SDL3/SDL_surface.h": 1,
+          "<SDL3/SDL_events.h>": 1,
+          "SDL.h": 1,
+          "<SDL.h>": 1,
+          "SDL3/SDL_events.h": 1,
+          "engine/load_pcx.hpp": 1,
+          "<array>": 1,
+          "<optional>": 1,
+          "<function_ref.hpp>": 1,
+          "array": 1,
+          "<SDL3/SDL_surface.h>": 1,
+          "string_view": 1,
+          "<string_view>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 18,
+        "packages": {
+          "com.facebook": 16,
+          "android.content": 8,
+          "java.util": 7,
+          "android.app": 5,
+          "com.currinlost": 4,
+          "okhttp3.OkHttpClient": 4,
+          "android.os": 4,
+          "expo.modules": 4,
+          "org.unimodules": 4,
+          "com.githubapiapp": 4,
+          "com.productregistration": 4,
+          "com.tlounews": 4,
+          "com.swmansion": 2,
+          "javax.annotation": 2,
+          "java.lang": 2,
+          "android.net": 2,
+          "com.slipknot_news": 2,
+          "android.util": 1,
+          "com.reactnativecommunity": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 74,
+        "packages": {
+          "react": 35,
+          "react-native": 28,
+          "styled-components": 22,
+          "react-native-vector-icons": 8,
+          "react-redux": 6,
+          "expo": 5,
+          "redux-saga": 5,
+          "axios": 4,
+          "react-icons": 4,
+          "react-test-renderer": 3,
+          "redux": 3,
+          "expo-constants": 3,
+          "react-navigation": 3,
+          "react-dom": 2,
+          "reactotron-react-native": 2,
+          "react-native-async-storage": 2,
+          "~": 1,
+          "lodash": 1,
+          "react-native-webview": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 11,
+        "packages": {
+          "AppDelegate.h": 8,
+          "UIKit/UIKit.h": 8,
+          "<UIKit/UIKit.h>": 8,
+          "<React/RCTRootView.h>": 6,
+          "React/RCTRootView.h": 6,
+          "React/RCTBridge.h": 3,
+          "React/RCTBundleURLProvider.h": 3,
+          "<React/RCTBundleURLProvider.h>": 3,
+          "<React/RCTBridge.h>": 3,
+          "<XCTest/XCTest.h>": 3,
+          "<React/RCTLog.h>": 3,
+          "React/RCTLog.h": 3,
+          "XCTest/XCTest.h": 3,
+          "FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h": 2,
+          "FlipperKit/FlipperClient.h": 2,
+          "<UMCore/UMModuleRegistry.h>": 2,
+          "UMReactNativeAdapter/UMNativeModulesProxy.h": 2,
+          "FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h": 2,
+          "<FlipperKitReactPlugin/FlipperKitReactPlugin.h>": 2,
+          "<SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>": 2,
+          "UMCore/UMModuleRegistry.h": 2,
+          "<FlipperKit/FlipperClient.h>": 2,
+          "UMReactNativeAdapter/UMModuleRegistryAdapter.h": 2,
+          "EXSplashScreen/EXSplashScreenService.h": 2,
+          "FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h": 2,
+          "<UMReactNativeAdapter/UMNativeModulesProxy.h>": 2,
+          "<FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h>": 2,
+          "FlipperKitReactPlugin/FlipperKitReactPlugin.h": 2,
+          "<FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h>": 2,
+          "SKIOSNetworkPlugin/SKIOSNetworkAdapter.h": 2,
+          "UMCore/UMModuleRegistryProvider.h": 2,
+          "<EXSplashScreen/EXSplashScreenService.h>": 2,
+          "<UMReactNativeAdapter/UMModuleRegistryAdapter.h>": 2,
+          "<UMCore/UMModuleRegistryProvider.h>": 2,
+          "<FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "Page": 1,
+          "Enum": 1,
+          "MyLangManager": 1,
+          "pipes": 1,
+          "is_wifi_connected_now": 1,
+          "enum": 1,
+          "collections": 1,
+          "os": 1,
+          "deque": 1,
+          "pygame": 1,
+          "commands": 1,
+          "IconItem": 1,
+          "CurKeys": 1,
+          "Width": 1,
+          "libs": 1,
+          "subprocess": 1,
+          "Label": 1,
+          "validators": 1,
+          "MySkinManager": 1,
+          "UI": 1,
+          "SimpleNamespace": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 60,
+        "packages": {
+          "UIKit": 21,
+          "SwiftUI": 16,
+          "Foundation": 14,
+          "XCTest": 7,
+          "CoreData": 5,
+          "WatchKit": 2,
+          "WatchConnectivity": 2,
+          "SpriteKit": 2,
+          "AVFoundation": 1,
+          "Charts": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 43,
+        "packages": {
+          "nestjs": 29,
+          "modules": 11,
+          "src": 10,
+          "react-native": 5,
+          "prisma": 4,
+          "react-navigation": 2,
+          "styled-components": 2,
+          "reactotron-react-native": 2,
+          "fortawesome": 2,
+          "axios": 2,
+          "lodash": 2,
+          "theme": 2,
+          "react-native-fast-image": 1,
+          "reactotron-redux-saga": 1,
+          "react-redux": 1,
+          "react-native-webview": 1,
+          "react-native-ios-kit": 1,
+          "redux-saga": 1,
+          "reactotron-redux": 1,
+          "redux": 1,
+          "~": 1,
+          "utils": 1,
+          "mobx": 1,
+          "react-native-toast-message": 1,
+          "react-native-date-picker": 1,
+          "mobx-react": 1,
+          "react-native-chart-kit": 1,
+          "react": 1,
+          "react-native-masked-text": 1,
+          "api": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 11,
+        "packages": {
+          "react": 9,
+          "utils": 8,
+          "theme": 7,
+          "modules": 7,
+          "react-native": 4,
+          "stores": 3,
+          "react-test-renderer": 2,
+          "navigation": 2,
+          "screens": 2,
+          "components": 2,
+          "react-navigation": 1,
+          "interfaces": 1,
+          "react-native-toast-message": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "lucaszdev/AboutSharks",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "lucaszdev/currinlost",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "lucaszdev/desafio-fullstack",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "lucaszdev/DevilutionX",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C++ Header",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "lucaszdev/example-ecommerce-app",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lucaszdev/GithubApiApp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "lucaszdev/HackingWithSwift",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "lucaszdev/MyExpenses",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "lucaszdev/personalize-card",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lucaszdev/ProductRegistration",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "lucaszdev/react-calculator",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lucaszdev/slipknot-news-app",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "lucaszdev/tlou-news",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,818 @@
+{
+  "username": "prasad-moru",
+  "areas": {
+    "OSS": {
+      "score": -0.34581589187670303,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.9812761621849454
+      }
+    },
+    "Status": {
+      "score": 0.2807847723336354,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8442540815773761,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 9,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.013006223908613529,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        106039,
+        5
+      ],
+      "Rust": [
+        37575,
+        0
+      ],
+      "Vue": [
+        32672,
+        0
+      ],
+      "HCL": [
+        468323,
+        69
+      ],
+      "Bicep": [
+        23906,
+        0
+      ],
+      "Go": [
+        72348,
+        0
+      ],
+      "Shell": [
+        75505,
+        6
+      ],
+      "Makefile": [
+        13278,
+        3
+      ],
+      "JavaScript": [
+        72081,
+        11
+      ],
+      "Python": [
+        2598669,
+        4
+      ],
+      "PowerShell": [
+        6236,
+        0
+      ],
+      "Dockerfile": [
+        24356,
+        0
+      ],
+      "SCSS": [
+        28720,
+        0
+      ],
+      "HTML": [
+        105072,
+        0
+      ],
+      "Smarty": [
+        12929,
+        32
+      ],
+      "Jinja": [
+        15705,
+        1
+      ],
+      "Starlark": [
+        11539,
+        0
+      ],
+      "CSS": [
+        868472,
+        4
+      ],
+      "Java": [
+        402563,
+        17
+      ],
+      "Jupyter Notebook": [
+        5969,
+        0
+      ],
+      "Ruby": [
+        135,
+        0
+      ],
+      "Io": [
+        78,
+        0
+      ],
+      "Mermaid": [
+        77,
+        0
+      ],
+      "Mustache": [
+        0,
+        1
+      ],
+      "Nix": [
+        0,
+        0
+      ]
+    },
+    "language_count": 25,
+    "total_commits": 153,
+    "total_lines": 4982247,
+    "top_5_languages": [
+      {
+        "language": "HCL",
+        "lines": 468323,
+        "commits": 69
+      },
+      {
+        "language": "Smarty",
+        "lines": 12929,
+        "commits": 32
+      },
+      {
+        "language": "Java",
+        "lines": 402563,
+        "commits": 17
+      },
+      {
+        "language": "JavaScript",
+        "lines": 72081,
+        "commits": 11
+      },
+      {
+        "language": "Shell",
+        "lines": 75505,
+        "commits": 6
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "prasad-moru",
+    "analysis_date": "2026-05-10T00:10:14.414178",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 391,
+    "languages": {
+      "C++": {
+        "files_scanned": 5,
+        "packages": {
+          "common.h": 2,
+          "<regex>": 2,
+          "regex": 2,
+          "vector": 2,
+          "<vector>": 2,
+          "bentoml::grpc::v1::Request": 1,
+          "bentoml::grpc::v1::NDArray": 1,
+          "bentoml::grpc::v1::BentoService": 1,
+          "bentoml/grpc/v1/service.pb.h": 1,
+          "grpc::Server": 1,
+          "server-context.cpp": 1,
+          "<getopt.h>": 1,
+          "server-queue.cpp": 1,
+          "thread": 1,
+          "<atomic>": 1,
+          "atomic": 1,
+          "grpcpp/grpcpp.h": 1,
+          "<grpcpp/health_check_service_interface.h>": 1,
+          "<windows.h>": 1,
+          "server-common.cpp": 1,
+          "grpcpp/health_check_service_interface.h": 1,
+          "<thread>": 1,
+          "backend.grpc.pb.h": 1,
+          "server-task.cpp": 1,
+          "grpc::ServerBuilder": 1,
+          "getopt.h": 1,
+          "backend.pb.h": 1,
+          "grpcpp/ext/proto_server_reflection_plugin.h": 1,
+          "grpc::ServerContext": 1,
+          "<grpcpp/ext/proto_server_reflection_plugin.h>": 1,
+          "<signal.h>": 1,
+          "grpc::Status": 1,
+          "signal.h": 1,
+          "windows.h": 1,
+          "<grpcpp/grpcpp.h>": 1,
+          "tuple": 1,
+          "iostream": 1,
+          "gobark.h": 1,
+          "bark.h": 1,
+          "ggml.h": 1,
+          "<iostream>": 1,
+          "<tuple>": 1,
+          "time.h": 1,
+          "map": 1,
+          "<stdlib.h>": 1,
+          "stb_image.h": 1,
+          "string": 1,
+          "<algorithm>": 1,
+          "stable-diffusion.h": 1,
+          "cmath": 1,
+          "stb_image_resize.h": 1,
+          "algorithm": 1,
+          "stdlib.h": 1,
+          "<cmath>": 1,
+          "<string.h>": 1,
+          "<stdio.h>": 1,
+          "<map>": 1,
+          "cstdint": 1,
+          "<cstdint>": 1,
+          "filesystem": 1,
+          "<filesystem>": 1,
+          "<time.h>": 1,
+          "stb_image_write.h": 1,
+          "<string>": 1,
+          "string.h": 1,
+          "stdio.h": 1,
+          "gosd.h": 1,
+          "ggml-backend.h": 1,
+          "whisper.h": 1,
+          "gowhisper.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "cstdint": 1,
+          "<cstdint>": 1,
+          "stable-diffusion.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 27,
+        "packages": {
+          "fmt": 17,
+          "os": 12,
+          "github.com/mudler/LocalAI/pkg/grpc/base": 8,
+          "context": 7,
+          "strings": 7,
+          "flag": 7,
+          "encoding/json": 5,
+          "log": 4,
+          "path/filepath": 4,
+          "github.com/Azure/azure-sdk-for-go/sdk/azidentity": 3,
+          "net/http": 3,
+          "strconv": 3,
+          "time": 3,
+          "unsafe": 3,
+          "github.com/rs/zerolog/log": 3,
+          "errors": 2,
+          "math/rand": 2,
+          "io/ioutil": 2,
+          "slices": 2,
+          "github.com/mudler/LocalAI/pkg/utils": 2,
+          "github.com/gofrs/uuid": 1,
+          "github.com/Azure/azure-sdk-for-go/sdk/data/azcosmos": 1,
+          "github.com/gin-contrib/cors": 1,
+          "version": 1,
+          "github.com/gin-gonic/gin": 1,
+          "status": 1,
+          "go.mongodb.org/mongo-driver/mongo/options": 1,
+          "github.com/Azure/azure-sdk-for-go/sdk/azcore/policy": 1,
+          "go.mongodb.org/mongo-driver/bson": 1,
+          "io": 1,
+          "crypto/tls": 1,
+          "go.mongodb.org/mongo-driver/mongo": 1,
+          "github.com/Azure/go-amqp": 1,
+          "github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus": 1,
+          "html/template": 1,
+          "gopkg.in/yaml.v3": 1,
+          "github.com/microcosm-cc/bluemonday": 1,
+          "github.com/mudler/cogito/structures": 1,
+          "repositories": 1,
+          "regexp": 1,
+          "github.com/sashabaranov/go-openai/jsonschema": 1,
+          "github.com/mudler/LocalAI/core/gallery/importers": 1,
+          "github.com/ghodss/yaml": 1,
+          "repository": 1,
+          "C": 1,
+          "github.com/mudler/LocalAI/pkg/langchain": 1,
+          "github.com/go-skynet/go-llama.cpp": 1,
+          "github.com/rs/zerolog": 1,
+          "math": 1,
+          "container/heap": 1,
+          "github.com/streamer45/silero-vad-go/speech": 1,
+          "runtime": 1,
+          "github.com/ebitengine/purego": 1,
+          "github.com/go-audio/wav": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 121,
+        "packages": {
+          "org.springframework": 80,
+          "java.util": 36,
+          "com.javatodev": 30,
+          "com.pm": 28,
+          "org.jspecify": 16,
+          "jakarta.persistence": 15,
+          "lombok.Getter": 13,
+          "jakarta.validation": 12,
+          "com.ecommerce": 12,
+          "lombok.Data": 12,
+          "lombok.Setter": 11,
+          "com.alibou": 10,
+          "lombok.AllArgsConstructor": 8,
+          "lombok.NoArgsConstructor": 8,
+          "com.techie": 8,
+          "org.junit": 7,
+          "lombok.Builder": 6,
+          "java.math": 6,
+          "java.time": 5,
+          "org.slf4j": 5,
+          "reactor.core": 5,
+          "lombok.RequiredArgsConstructor": 5,
+          "java.io": 3,
+          "static": 3,
+          "io.swagger": 3,
+          "lombok.extern": 3,
+          "jakarta.xml": 2,
+          "javax.annotation": 2,
+          "reactor.test": 2,
+          "io.jsonwebtoken": 2,
+          "io.restassured": 2,
+          "jakarta.annotation": 1,
+          "java.text": 1,
+          "javax.cache": 1,
+          "java.net": 1,
+          "io.micrometer": 1,
+          "patient.events": 1,
+          "com.google": 1,
+          "java.security": 1,
+          "javax.crypto": 1,
+          "java.nio": 1,
+          "billing.BillingServiceGrpc": 1,
+          "billing.BillingRequest": 1,
+          "net.devh": 1,
+          "billing.BillingResponse": 1,
+          "io.grpc": 1,
+          "software.amazon": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 62,
+        "packages": {
+          "mongoose": 20,
+          "react": 10,
+          "express": 8,
+          "react-router-dom": 7,
+          "testing-library": 5,
+          "moment": 4,
+          "path": 3,
+          "fastify": 3,
+          "fastify-plugin": 3,
+          "tap": 3,
+          "react-dom": 3,
+          "cors": 3,
+          "faker": 2,
+          "fs": 2,
+          "web-vitals": 2,
+          "mongodb": 2,
+          "dotenv": 2,
+          "request": 2,
+          "lucide-react": 2,
+          "rhea": 1,
+          "azure": 1,
+          "fastify-cli": 1,
+          "tailwindcss": 1,
+          "axios": 1,
+          "express-fileupload": 1,
+          "cookie-parser": 1,
+          "compression": 1,
+          "glob": 1,
+          "joi": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 33,
+        "packages": {
+          "typing": 17,
+          "logging": 17,
+          "annotations": 17,
+          "__future__": 17,
+          "bentoml": 15,
+          "os": 14,
+          "_bentoml_sdk": 11,
+          "Service": 8,
+          "BentoMLException": 7,
+          "NotFound": 7,
+          "TYPE_CHECKING": 7,
+          "ServiceConfig": 6,
+          "Tag": 6,
+          "ModuleType": 6,
+          "types": 6,
+          "json": 5,
+          "typing_extensions": 5,
+          "MissingDependencyException": 5,
+          "ModelContext": 5,
+          "ModelSignature": 5,
+          "deprecated": 5,
+          "get": 5,
+          "BaseModel": 4,
+          "pydantic": 4,
+          "sys": 4,
+          "re": 4,
+          "functools": 4,
+          "pathlib": 4,
+          "IODescriptor": 4,
+          "io": 4,
+          "attrs": 4,
+          "attr": 4,
+          "get_pkg_version": 4,
+          "Unpack": 4,
+          "numpy": 4,
+          "Flask": 4,
+          "flask": 4,
+          "fastapi": 3,
+          "time": 3,
+          "importlib": 3,
+          "HTTPStatus": 3,
+          "httpx": 3,
+          "abc": 3,
+          "http": 3,
+          "server_context": 3,
+          "ASGIApp": 3,
+          "urlparse": 3,
+          "urllib": 3,
+          "IORootModel": 3,
+          "inspect": 3,
+          "tempfile": 3,
+          "BentoMLContainer": 3,
+          "InvalidArgument": 3,
+          "ModelSignatureDict": 3,
+          "JSONResponse": 2,
+          "APIRouter": 2,
+          "DefaultAzureCredential": 2,
+          "AzureOpenAI": 2,
+          "List": 2,
+          "openai": 2,
+          "azure": 2,
+          "dotenv": 2,
+          "load_dotenv": 2,
+          "ApiException": 2,
+          "kubernetes": 2,
+          "datetime": 2,
+          "is_http_url": 2,
+          "__version__": 2,
+          "cached_property": 2,
+          "required": 2,
+          "PIL": 2,
+          "parse_options_header": 2,
+          "urljoin": 2,
+          "ServiceUnavailable": 2,
+          "propagate": 2,
+          "opentelemetry": 2,
+          "python_multipart": 2,
+          "uri_to_path": 2,
+          "Image": 2,
+          "starlette": 2,
+          "asyncio": 2,
+          "ModelOptions": 2,
+          "Model": 2,
+          "ModelSignaturesType": 2,
+          "FastAPI": 1,
+          "image": 1,
+          "routers": 1,
+          "CORSMiddleware": 1,
+          "description": 1,
+          "yaml": 1,
+          "boto3": 1,
+          "base64": 1,
+          "RequestSigner": 1,
+          "botocore": 1,
+          "k8s_utils": 1,
+          "service_pb2": 1,
+          "prometheus_client": 1,
+          "requirements": 1,
+          "nox": 1,
+          "arrow_serialization": 1,
+          "pyarrow": 1,
+          "mimetypes": 1,
+          "is_image_type": 1,
+          "a2wsgi": 1,
+          "abstractmethod": 1,
+          "ASGIMiddleware": 1,
+          "RequestFiles": 1,
+          "ClientEndpoint": 1,
+          "_bentoml_impl": 1,
+          "run_in_threadpool": 1,
+          "multidict": 1,
+          "CIMultiDict": 1,
+          "ASGIApplicationConnector": 1,
+          "anyio": 1,
+          "UnixConnector": 1,
+          "aiohttp_asgi_connector": 1,
+          "aiohttp": 1,
+          "Any": 1,
+          "DEFAULT_BENTO_ENVS": 1,
+          "to_options_field": 1,
+          "to_bento_field": 1,
+          "ImageInfo": 1,
+          "expands_bento_path": 1,
+          "jinja2": 1,
+          "Path": 1,
+          "Environment": 1,
+          "FileSystemLoader": 1,
+          "shlex": 1,
+          "CatBoostClassifier": 1,
+          "catboost": 1,
+          "warn_deprecated": 1,
+          "Sequence": 1,
+          "MetaPathFinder": 1,
+          "ModuleSpec": 1,
+          "pandas": 1,
+          "lightgbm": 1,
+          "scipy": 1,
+          "isspmatrix": 1,
+          "MLflow": 1,
+          "shutil": 1,
+          "MLMODEL_FILE_NAME": 1,
+          "download_artifacts": 1,
+          "FLAVOR_NAME": 1,
+          "mlflow": 1,
+          "_download_artifact_from_uri": 1,
+          "BaseEstimator": 1,
+          "sklearn": 1,
+          "joblib": 1,
+          "LazyType": 1,
+          "Pipeline": 1,
+          "parallel_backend": 1,
+          "KNeighborsClassifier": 1,
+          "load_iris": 1,
+          "xgboost": 1,
+          "XGBModel": 1,
+          "torch": 1,
+          "import_service": 1,
+          "contextlib": 1,
+          "Bento": 1,
+          "tensorflow": 1,
+          "load": 1,
+          "make_safe_connect": 1,
+          "Request": 1,
+          "Headers": 1,
+          "unquote": 1,
+          "posixpath": 1,
+          "is_list_type": 1,
+          "is_union_type": 1,
+          "DataframeSchema": 1,
+          "TensorSchema": 1,
+          "UploadFile": 1,
+          "pickle": 1,
+          "get_args": 1,
+          "csv": 1,
+          "hf_hub_download": 1,
+          "hashlib": 1,
+          "requests": 1,
+          "huggingface_hub": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 10,
+        "packages": {
+          "crate": 4,
+          "std": 3,
+          "log": 3,
+          "bindings": 2,
+          "wasmtime_wasi": 2,
+          "wasmtime": 2,
+          "super": 2,
+          "env_logger": 1,
+          "product_service": 1,
+          "serde": 1,
+          "futures_util": 1,
+          "actix_web": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 1,
+        "packages": {
+          "BentoServiceModel": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 33,
+        "packages": {
+          "angular": 16,
+          "nestjs": 13,
+          "angular-auth-oidc-client": 6,
+          "mongoose": 2,
+          "web-vitals": 2,
+          "rxjs": 2,
+          "supertest": 1,
+          "next": 1,
+          "force-dynamic": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 57,
+        "packages": {
+          "react": 37,
+          "next": 20,
+          "react-router-dom": 14,
+          "mui": 14,
+          "radix-ui": 6,
+          "react-datepicker": 4,
+          "react-hook-form": 4,
+          "lucide-react": 4,
+          "react-phone-number-input": 3,
+          "hookform": 3,
+          "zod": 3,
+          "axios": 2,
+          "react-dom": 2,
+          "fontsource": 2,
+          "testing-library": 2,
+          "sentry": 2,
+          "next-themes": 2,
+          "clsx": 2,
+          "libphonenumber-js": 1,
+          "react-dropzone": 1,
+          "tanstack": 1,
+          "class-variance-authority": 1,
+          "cmdk": 1,
+          "input-otp": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "prasad-moru/aks-store-demo",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Go",
+          "JavaScript",
+          "Python",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "prasad-moru/aws_native_kubernetes",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "prasad-moru/BentoML",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C++",
+          "Java",
+          "Python",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "prasad-moru/devops-project",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "prasad-moru/devops-sources",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "JavaScript",
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "prasad-moru/devops_tasks",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "prasad-moru/e-commerce",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "prasad-moru/e-commerce-microservices-sample",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "prasad-moru/ecom-spring-microservices",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "prasad-moru/Ecom_Microservices_App",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "prasad-moru/efk-stack",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "prasad-moru/healthcare",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "prasad-moru/idurar-erp-crm",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "prasad-moru/internet-banking-concept-microservices",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "prasad-moru/java-spring-microservices",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "prasad-moru/LocalAI",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Go",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

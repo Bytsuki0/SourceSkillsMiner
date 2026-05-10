@@ -1,0 +1,428 @@
+{
+  "username": "dataindataout",
+  "areas": {
+    "OSS": {
+      "score": 0.6042037690185416,
+      "details": {
+        "issue_resolution_rate": 0.7142857142857143,
+        "pr_merge_rate": 0.8333333333333334,
+        "commits_activity": 0.8586866059087646
+      }
+    },
+    "Status": {
+      "score": 0.1591325786863782,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7002373295680288,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.368327,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.8617,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 5,
+        "topic_entropy_bits": 2.585,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "dataindataout/awesome-highschool-homeschool": 0.9059,
+        "dataindataout/fio_configs": 0.8716
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.426332669540984,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Perl": [
+        699638,
+        5
+      ],
+      "Ruby": [
+        8,
+        0
+      ],
+      "Python": [
+        889162,
+        27
+      ],
+      "HTML": [
+        6276326,
+        1
+      ],
+      "Shell": [
+        825533,
+        16
+      ],
+      "Java": [
+        91224636,
+        0
+      ],
+      "Jinja": [
+        107,
+        0
+      ],
+      "JavaScript": [
+        224430,
+        0
+      ],
+      "Dockerfile": [
+        4037,
+        0
+      ],
+      "TSQL": [
+        2433,
+        0
+      ],
+      "Jupyter Notebook": [
+        1769,
+        0
+      ],
+      "C": [
+        873,
+        0
+      ],
+      "PLpgSQL": [
+        116,
+        0
+      ],
+      "Go": [
+        1475,
+        8
+      ],
+      "CSS": [
+        77491,
+        0
+      ],
+      "Awk": [
+        168521,
+        0
+      ],
+      "XSLT": [
+        154906,
+        0
+      ],
+      "Batchfile": [
+        14595,
+        0
+      ],
+      "Lex": [
+        12081,
+        0
+      ],
+      "Gnuplot": [
+        6390,
+        0
+      ],
+      "Lua": [
+        0,
+        10
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 67,
+    "total_lines": 100584527,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 889162,
+        "commits": 27
+      },
+      {
+        "language": "Shell",
+        "lines": 825533,
+        "commits": 16
+      },
+      {
+        "language": "Lua",
+        "lines": 0,
+        "commits": 10
+      },
+      {
+        "language": "Go",
+        "lines": 1475,
+        "commits": 8
+      },
+      {
+        "language": "Perl",
+        "lines": 699638,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "dataindataout",
+    "analysis_date": "2026-05-09T23:25:05.168116",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 96,
+    "languages": {
+      "Go": {
+        "files_scanned": 8,
+        "packages": {
+          "log": 4,
+          "fmt": 3,
+          "message": 2,
+          "github.com/gin-gonic/gin": 2,
+          "os": 2,
+          "database/sql": 2,
+          "gorm.io/gorm": 2,
+          "gorm.io/driver/postgres": 2,
+          "net/http": 1,
+          "github.com/gin-contrib/sessions/redis": 1,
+          "github.com/gin-contrib/sessions": 1,
+          "github.com/uxioandrade/go-sql-tutorial/model/todos": 1,
+          "github.com/uxioandrade/go-sql-tutorial/datasources/postgres/todos_db": 1,
+          "time": 1,
+          "strings": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 61,
+        "packages": {
+          "java.util": 32,
+          "io.debezium": 30,
+          "org.languagetool": 30,
+          "java.io": 16,
+          "org.jetbrains": 11,
+          "org.apache": 10,
+          "javax.enterprise": 10,
+          "org.slf4j": 9,
+          "javax.persistence": 9,
+          "static": 7,
+          "com.fasterxml": 6,
+          "javax.annotation": 5,
+          "javax.inject": 5,
+          "javax.json": 5,
+          "javax.ws": 4,
+          "java.math": 4,
+          "org.junit": 4,
+          "java.net": 3,
+          "java.nio": 3,
+          "org.eclipse": 3,
+          "java.time": 3,
+          "java.lang": 3,
+          "javax.xml": 3,
+          "org.xml": 3,
+          "org.kie": 2,
+          "javax.interceptor": 2,
+          "org.hibernate": 2,
+          "com.testexamples": 1,
+          "com.datastax": 1,
+          "java.text": 1,
+          "io.smallrye": 1,
+          "io.quarkus": 1,
+          "org.jboss": 1,
+          "javax.transaction": 1,
+          "javax.servlet": 1,
+          "org.infinispan": 1,
+          "java.security": 1,
+          "io.github": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "react": 3,
+          "testing-library": 2,
+          "axios": 1,
+          "react-dom": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 1,
+        "packages": {
+          "Number::Format": 1,
+          "DBI": 1,
+          "strict": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 16,
+        "packages": {
+          "pandas": 9,
+          "os": 7,
+          "sqlalchemy": 6,
+          "config": 5,
+          "anthropic": 2,
+          "dotenv": 2,
+          "json": 2,
+          "load_dotenv": 2,
+          "psycopg2": 2,
+          "spatial_query": 2,
+          "Flask": 1,
+          "base64": 1,
+          "tempfile": 1,
+          "flask": 1,
+          "re": 1,
+          "includes": 1,
+          "requests": 1,
+          "get_config": 1,
+          "Path": 1,
+          "pathlib": 1,
+          "yaml": 1,
+          "math": 1,
+          "plotly": 1,
+          "_get_womens_colleges": 1,
+          "college_scorecard_api": 1,
+          "hashlib": 1,
+          "upsert": 1,
+          "pangres": 1,
+          "urllib": 1,
+          "webdriver": 1,
+          "libraries": 1,
+          "urlparse": 1,
+          "text": 1,
+          "selenium": 1,
+          "time": 1,
+          "BeautifulSoup": 1,
+          "bs4": 1,
+          "create_engine": 1,
+          "Options": 1,
+          "datetime": 1,
+          "streamlit": 1,
+          "folium": 1,
+          "EXAMPLE_QUERY": 1,
+          "streamlit_folium": 1,
+          "branca": 1,
+          "st_folium": 1,
+          "dataclass": 1,
+          "sys": 1,
+          "execute_query": 1,
+          "dataclasses": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "dataindataout/autodatadict",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Perl"
+        ]
+      },
+      {
+        "repository": "dataindataout/brewview",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dataindataout/cassandra-java-cluster",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "dataindataout/college_scorecard_ipeds",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dataindataout/college_scorecard_womens",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dataindataout/debezium-examples",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "dataindataout/ghcn_testing",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dataindataout/girlscoutevents",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dataindataout/go-react-kubernetes-tutorials",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "dataindataout/gorm-examples",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "dataindataout/languagetool",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "dataindataout/spatial-postgres-ai",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dataindataout/visegrip",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "dataindataout/xtest_ansible",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

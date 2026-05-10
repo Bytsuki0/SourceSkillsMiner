@@ -1,0 +1,264 @@
+{
+  "username": "silvacarina",
+  "areas": {
+    "OSS": {
+      "score": -0.410261090199306,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.884608364701041
+      }
+    },
+    "Status": {
+      "score": 0.2699499901827016,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.866463446812514,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.55,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.1380622200033209,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        147870,
+        22
+      ],
+      "CSS": [
+        147370,
+        25
+      ],
+      "HTML": [
+        398667,
+        18
+      ],
+      "Shell": [
+        42,
+        0
+      ],
+      "TypeScript": [
+        8327,
+        8
+      ],
+      "MDX": [
+        2226,
+        3
+      ],
+      "Standard ML": [
+        20,
+        0
+      ],
+      "SCSS": [
+        23013,
+        0
+      ],
+      "Less": [
+        23009,
+        0
+      ],
+      "Stylus": [
+        20983,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 76,
+    "total_lines": 771527,
+    "top_5_languages": [
+      {
+        "language": "CSS",
+        "lines": 147370,
+        "commits": 25
+      },
+      {
+        "language": "JavaScript",
+        "lines": 147870,
+        "commits": 22
+      },
+      {
+        "language": "HTML",
+        "lines": 398667,
+        "commits": 18
+      },
+      {
+        "language": "TypeScript",
+        "lines": 8327,
+        "commits": 8
+      },
+      {
+        "language": "MDX",
+        "lines": 2226,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "silvacarina",
+    "analysis_date": "2026-05-09T15:35:03.046094",
+    "total_repos_analyzed": 16,
+    "total_files_analyzed": 53,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 11,
+        "packages": {
+          "vite": 4,
+          "jquery": 4,
+          "vitejs": 3,
+          "undefined": 3,
+          "object": 2,
+          "__esModule": 2,
+          "use": 2,
+          "next": 1,
+          "jQuery": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 14,
+        "packages": {
+          "react": 14,
+          "prop-types": 5,
+          "react-dom": 3,
+          "use-local-storage-state": 2
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 3,
+        "packages": {
+          "storybook": 2,
+          "vite": 1,
+          "vite-plugin-lib-inject-css": 1,
+          "vitejs": 1,
+          "vite-plugin-dts": 1,
+          "glob": 1,
+          "node:url": 1,
+          "path": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 7,
+        "packages": {
+          "utua-react-library": 3,
+          "classnames": 2,
+          "react": 2,
+          "next": 2,
+          "info": 1,
+          "vitest": 1,
+          "react-test-renderer": 1,
+          "mui": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "silvacarina/check-it-react",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "silvacarina/check-it-vanilla",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "silvacarina/poc-utua-react-library",
+        "files_analyzed": 9,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "silvacarina/pokedex-react",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "silvacarina/project-next-test",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "silvacarina/Recriando-a-interface-do-Netflix",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "silvacarina/site-responsivo-halloween",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "silvacarina/Udemy_Curso",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "silvacarina/watch-checklist-react",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      }
+    ]
+  }
+}

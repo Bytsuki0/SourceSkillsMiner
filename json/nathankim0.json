@@ -1,0 +1,690 @@
+{
+  "username": "nathankim0",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333333,
+      "details": {
+        "issue_resolution_rate": 0.75,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.21770636969993085,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7688672468575887,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 14,
+        "language_transitions": 13,
+        "topic_entropy_bits": 6.1492,
+        "closed_prs_total": 13,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.41020794060665283,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C#": [
+        418109,
+        421
+      ],
+      "Objective-C": [
+        46379,
+        10
+      ],
+      "C++": [
+        739540,
+        26
+      ],
+      "C": [
+        4309,
+        47
+      ],
+      "Python": [
+        76031,
+        3
+      ],
+      "Java": [
+        367059,
+        150
+      ],
+      "JavaScript": [
+        11159,
+        12
+      ],
+      "Shell": [
+        1946,
+        29
+      ],
+      "TypeScript": [
+        6572,
+        16
+      ],
+      "Kotlin": [
+        151779,
+        39
+      ],
+      "Ruby": [
+        293,
+        0
+      ],
+      "Swift": [
+        2409,
+        0
+      ],
+      "Assembly": [
+        426398,
+        4
+      ],
+      "HTML": [
+        4357,
+        34
+      ],
+      "Dart": [
+        1878,
+        21
+      ],
+      "COBOL": [
+        1119,
+        0
+      ],
+      "Go": [
+        1042,
+        0
+      ],
+      "mcfunction": [
+        694,
+        0
+      ],
+      "Scala": [
+        583,
+        0
+      ],
+      "Rust": [
+        440,
+        0
+      ],
+      "Brainfuck": [
+        381,
+        0
+      ],
+      "R": [
+        307,
+        0
+      ],
+      "CSS": [
+        0,
+        0
+      ],
+      "AIDL": [
+        0,
+        0
+      ],
+      "PowerShell": [
+        0,
+        0
+      ],
+      "Pawn": [
+        0,
+        0
+      ],
+      "Pascal": [
+        0,
+        0
+      ]
+    },
+    "language_count": 27,
+    "total_commits": 812,
+    "total_lines": 2262784,
+    "top_5_languages": [
+      {
+        "language": "C#",
+        "lines": 418109,
+        "commits": 421
+      },
+      {
+        "language": "Java",
+        "lines": 367059,
+        "commits": 150
+      },
+      {
+        "language": "C",
+        "lines": 4309,
+        "commits": 47
+      },
+      {
+        "language": "Kotlin",
+        "lines": 151779,
+        "commits": 39
+      },
+      {
+        "language": "HTML",
+        "lines": 4357,
+        "commits": 34
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "nathankim0",
+    "analysis_date": "2026-05-09T17:35:36.062070",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 291,
+    "languages": {
+      "C": {
+        "files_scanned": 35,
+        "packages": {
+          "<stdio.h>": 33,
+          "stdio.h": 33,
+          "stdlib.h": 12,
+          "<stdlib.h>": 12,
+          "time.h": 6,
+          "malloc.h": 6,
+          "<time.h>": 6,
+          "<malloc.h>": 6,
+          "<string.h>": 5,
+          "string.h": 5,
+          "pipeHeader.h": 2,
+          "memory.h": 2,
+          "<memory.h>": 2,
+          "dll.h": 1,
+          "<search.h>": 1,
+          "search.h": 1,
+          "<math.h>": 1,
+          "math.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 64,
+        "packages": {
+          "Xamarin.Forms": 31,
+          "System.Collections.Generic": 18,
+          "System.Linq": 17,
+          "UIKit": 13,
+          "System.Runtime.CompilerServices": 13,
+          "Foundation": 12,
+          "System.Runtime.InteropServices": 9,
+          "Xamarin.Forms.Xaml": 8,
+          "Android.App": 8,
+          "System.ComponentModel": 6,
+          "System": 6,
+          "Android.Views": 5,
+          "System.Text": 4,
+          "Android.OS": 4,
+          "Android.Widget": 4,
+          "Android.Runtime": 4,
+          "Android.Content.PM": 4,
+          "CustomPickMeMain": 4,
+          "System.Collections.ObjectModel": 4,
+          "UserNotifications": 3,
+          "Xamarin.Essentials": 3,
+          "CustomPicker": 3,
+          "System.Threading.Tasks": 2,
+          "StatusBarApp.Droid": 2,
+          "CustomPickMe": 2,
+          "CustomPickMe.ViewFolder": 2,
+          "Rg.Plugins.Popup.Services": 2,
+          "notisample.iOS.AppDependencies": 1,
+          "static": 1,
+          "notisample.AppInterfaces": 1,
+          "System.Collections.Concurrent": 1,
+          "System.Text.Json": 1,
+          "System.Net.Http": 1,
+          "System.Globalization": 1,
+          "Xamarin.Forms.Platform.Android": 1,
+          "Xamarin.Forms.Platform.iOS": 1,
+          "CoreGraphics": 1,
+          "TouchTracking": 1,
+          "SkiaSharp.Views.Forms": 1,
+          "SkiaSharp": 1,
+          "StatusBarApp.iOS": 1,
+          "CustomPickMePage": 1,
+          "Xamarin.Forms.PlatformConfiguration": 1,
+          "Xamarin.Forms.PlatformConfiguration.iOSSpecific": 1,
+          "PanGesture": 1,
+          "Rg.Plugins.Popup.Pages": 1,
+          "Xamarin.Forms.Markup": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 26,
+        "packages": {
+          "<iostream>": 23,
+          "iostream": 23,
+          "std": 22,
+          "namespace": 22,
+          "<algorithm>": 11,
+          "algorithm": 11,
+          "<vector>": 10,
+          "vector": 10,
+          "queue": 5,
+          "<queue>": 5,
+          "string": 5,
+          "<string>": 5,
+          "<stdio.h>": 3,
+          "stdio.h": 3,
+          "cstdio": 3,
+          "<cstdio>": 3,
+          "math.h": 2,
+          "<math.h>": 2,
+          "<string.h>": 2,
+          "string.h": 2,
+          "<cstring>": 1,
+          "cstring": 1,
+          "random": 1,
+          "cstdlib": 1,
+          "string_view": 1,
+          "<string_view>": 1,
+          "<cstdlib>": 1,
+          "<random>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "signal.h": 1,
+          "fcntl.h": 1,
+          "<string.h>": 1,
+          "<sys/time.h>": 1,
+          "<signal.h>": 1,
+          "<sys/sem.h>": 1,
+          "sys/stat.h": 1,
+          "pthread.h": 1,
+          "<fcntl.h>": 1,
+          "<sys/types.h>": 1,
+          "stdio.h": 1,
+          "sys/types.h": 1,
+          "<sys/stat.h>": 1,
+          "string.h": 1,
+          "sys/time.h": 1,
+          "stdlib.h": 1,
+          "<stdlib.h>": 1,
+          "sys/ipc.h": 1,
+          "<stdio.h>": 1,
+          "time.h": 1,
+          "sys/sem.h": 1,
+          "unistd.h": 1,
+          "<time.h>": 1,
+          "<unistd.h>": 1,
+          "<pthread.h>": 1,
+          "<sys/ipc.h>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "github.com/fatih/color": 1,
+          "fmt": 1,
+          "strings": 1,
+          "math/rand": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 23,
+        "packages": {
+          "com.example": 19,
+          "android.content": 18,
+          "android.os": 17,
+          "android.view": 14,
+          "android.widget": 11,
+          "android.support": 11,
+          "android.app": 6,
+          "java.util": 4,
+          "org.junit": 4,
+          "static": 4,
+          "androidx.appcompat": 4,
+          "android.media": 4,
+          "android.graphics": 4,
+          "com.bletransferapp": 3,
+          "com.facebook": 2,
+          "android.util": 2,
+          "androidx.annotation": 2,
+          "java.math": 1,
+          "java.lang": 1,
+          "java.io": 1,
+          "androidx.test": 1,
+          "com.github": 1,
+          "android.provider": 1,
+          "androidx.core": 1,
+          "java.nio": 1,
+          "android.annotation": 1,
+          "android.bluetooth": 1,
+          "android.Manifest": 1,
+          "android.net": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 5,
+        "packages": {
+          "react-native": 2,
+          "react": 2,
+          "ink": 2,
+          "sharp": 1,
+          "playwright": 1,
+          "path": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 55,
+        "packages": {
+          "androidx.compose": 25,
+          "com.jinyeob": 23,
+          "com.codelabs": 18,
+          "dagger.hilt": 8,
+          "android.os": 7,
+          "org.junit": 7,
+          "com.example": 7,
+          "javax.inject": 7,
+          "androidx.activity": 6,
+          "androidx.lifecycle": 6,
+          "com.codelab": 5,
+          "java.util": 5,
+          "kotlinx.coroutines": 5,
+          "android.content": 4,
+          "androidx.annotation": 4,
+          "androidx.appcompat": 4,
+          "androidx.fragment": 4,
+          "android.annotation": 4,
+          "androidx.room": 4,
+          "android.app": 3,
+          "androidx.test": 3,
+          "android.util": 3,
+          "android.view": 3,
+          "com.facebook": 2,
+          "com.bletransferapp": 2,
+          "kotlin.random": 2,
+          "com.google": 2,
+          "java.text": 2,
+          "androidx.databinding": 2,
+          "androidx.recyclerview": 2,
+          "dagger.Module": 2,
+          "dagger.Provides": 2,
+          "com.squareup": 2,
+          "androidx.core": 1,
+          "kotlin.properties": 1,
+          "kotlin.reflect": 1,
+          "android.widget": 1,
+          "androidx.viewpager2": 1,
+          "retrofit2.converter": 1,
+          "dagger.Binds": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 29,
+        "packages": {
+          "sys": 15,
+          "Path": 14,
+          "pathlib": 14,
+          "zipfile": 10,
+          "tempfile": 9,
+          "json": 7,
+          "defusedxml": 6,
+          "argparse": 6,
+          "lxml": 6,
+          "re": 6,
+          "shutil": 4,
+          "subprocess": 4,
+          "PdfReader": 4,
+          "pypdf": 4,
+          "random": 3,
+          "DOCXSchemaValidator": 3,
+          "validation": 2,
+          "xml": 2,
+          "html": 2,
+          "typing": 2,
+          "dataclasses": 2,
+          "dataclass": 2,
+          "PIL": 2,
+          "Image": 2,
+          "pptx": 2,
+          "Presentation": 2,
+          "init": 2,
+          "colorama": 2,
+          "Fore": 2,
+          "numpy": 2,
+          "ooxml": 1,
+          "for": 1,
+          "skills": 1,
+          "Document": 1,
+          "RedliningValidator": 1,
+          "minidom": 1,
+          "pack_document": 1,
+          "datetime": 1,
+          "Optional": 1,
+          "get_bounding_box_messages": 1,
+          "check_bounding_boxes": 1,
+          "unittest": 1,
+          "io": 1,
+          "os": 1,
+          "convert_from_path": 1,
+          "pdf2image": 1,
+          "DictionaryObject": 1,
+          "extract_form_field_info": 1,
+          "get_field_info": 1,
+          "FieldDictionaryAttributes": 1,
+          "FreeText": 1,
+          "platform": 1,
+          "BaseShape": 1,
+          "Any": 1,
+          "traceback": 1,
+          "PP_ALIGN": 1,
+          "copy": 1,
+          "deepcopy": 1,
+          "six": 1,
+          "math": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 1,
+        "packages": {
+          "React_RCTAppDelegate": 1,
+          "ReactAppDependencyProvider": 1,
+          "UIKit": 1,
+          "React": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 4,
+        "packages": {
+          "next": 3,
+          "buffer": 1,
+          "550e8400-e29b-41d4-a716-446655440000": 1,
+          "react-native-ble-plx": 1,
+          "connectionCode": 1,
+          "react-native": 1,
+          "firebase-admin": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 8,
+        "packages": {
+          "react": 6,
+          "react-navigation": 2,
+          "react-native-safe-area-context": 1,
+          "react-test-renderer": 1,
+          "react-native": 1,
+          "react-native-ble-plx": 1,
+          "next": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "nathankim0/Alarm-Xamarin-iOS",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "nathankim0/algorithm-ps",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "Java"
+        ]
+      },
+      {
+        "repository": "nathankim0/Amplitude",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "nathankim0/awesome-claude-skills",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "nathankim0/biblecheck",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "nathankim0/Blackjack-NamedPipe",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "nathankim0/ble-transfer-example",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "Kotlin",
+          "Swift",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "nathankim0/BST-AVL-Compare",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "nathankim0/Calculator-Xamarin",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "nathankim0/christmas_tree",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C++",
+          "Go",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "nathankim0/ComposeFest2021",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "nathankim0/Concave-Xamarin",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "nathankim0/CustomPicker-No-Nuget",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "nathankim0/CustomPicker-Xamarin",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "nathankim0/DataStructure",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "nathankim0/EverydayQT",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "nathankim0/fcm-tester-nathan",
+        "files_analyzed": 6,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "nathankim0/FindDifference-android",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

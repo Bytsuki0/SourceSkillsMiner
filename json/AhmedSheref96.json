@@ -1,0 +1,450 @@
+{
+  "username": "AhmedSheref96",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.20055067637480328,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7623644761006664,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.775,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.06844346860829399,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Kotlin": [
+        1309018,
+        554
+      ],
+      "Java": [
+        1996,
+        0
+      ],
+      "Dart": [
+        1455,
+        4
+      ],
+      "Swift": [
+        56,
+        0
+      ],
+      "Objective-C": [
+        5,
+        0
+      ],
+      "Ruby": [
+        0,
+        8
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 566,
+    "total_lines": 1312530,
+    "top_5_languages": [
+      {
+        "language": "Kotlin",
+        "lines": 1309018,
+        "commits": 554
+      },
+      {
+        "language": "Ruby",
+        "lines": 0,
+        "commits": 8
+      },
+      {
+        "language": "Dart",
+        "lines": 1455,
+        "commits": 4
+      },
+      {
+        "language": "Java",
+        "lines": 1996,
+        "commits": 0
+      },
+      {
+        "language": "Swift",
+        "lines": 56,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "AhmedSheref96",
+    "analysis_date": "2026-05-09T18:33:07.014086",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 418,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 2
+        }
+      },
+      "Dart": {
+        "files_scanned": 15,
+        "packages": {
+          "flutter": 12,
+          "flutter_note": 5,
+          "get": 3,
+          "first_flutter_app": 3,
+          "flutter_test": 2,
+          "path": 1,
+          "dart:async": 1,
+          "sqflite": 1,
+          "my_app.dart": 1,
+          "ui/my_app.dart": 1,
+          "english_words": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 2,
+        "packages": {
+          "android.content": 2,
+          "com.el3asas": 1,
+          "androidx.test": 1,
+          "static": 1,
+          "org.junit": 1,
+          "android.os": 1,
+          "androidx.appcompat": 1,
+          "android.net": 1,
+          "android.app": 1,
+          "androidx.annotation": 1,
+          "android.view": 1,
+          "android.widget": 1,
+          "android.util": 1,
+          "java.io": 1,
+          "kotlin.jvm": 1,
+          "com.github": 1,
+          "kotlin.Unit": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 396,
+        "packages": {
+          "com.el3asas": 221,
+          "android.os": 98,
+          "dagger.hilt": 97,
+          "javax.inject": 84,
+          "android.content": 71,
+          "androidx.lifecycle": 69,
+          "android.view": 68,
+          "android.graphics": 55,
+          "com.example": 55,
+          "com.el3sas": 52,
+          "org.junit": 51,
+          "android.app": 49,
+          "androidx.core": 49,
+          "android.widget": 47,
+          "com.azan": 46,
+          "com.google": 44,
+          "android.annotation": 44,
+          "androidx.room": 44,
+          "kotlinx.coroutines": 43,
+          "com.github": 42,
+          "androidx.compose": 39,
+          "androidx.annotation": 36,
+          "androidx.databinding": 30,
+          "java.util": 28,
+          "androidx.viewbinding": 28,
+          "io.reactivex": 28,
+          "android.media": 28,
+          "kotlin.Throws": 28,
+          "androidx.test": 27,
+          "androidx.fragment": 26,
+          "androidx.navigation": 23,
+          "androidx.appcompat": 21,
+          "android.net": 21,
+          "timber.log": 19,
+          "java.io": 19,
+          "android.util": 17,
+          "dagger.Module": 14,
+          "androidx.paging": 13,
+          "com.squareup": 12,
+          "dagger.Provides": 12,
+          "androidx.recyclerview": 11,
+          "class": 11,
+          "com.karimsinouh": 9,
+          "androidx.constraintlayout": 8,
+          "retrofit2.converter": 7,
+          "androidx.activity": 7,
+          "okhttp3.OkHttpClient": 6,
+          "retrofit2.Retrofit": 6,
+          "com.bumptech": 6,
+          "java.text": 6,
+          "android.provider": 6,
+          "okhttp3.internal": 5,
+          "com.ihsanbal": 5,
+          "retrofit2.http": 5,
+          "kotlin.math": 5,
+          "android.text": 5,
+          "io.ktor": 5,
+          "morxander.editcard": 4,
+          "android.database": 4,
+          "java.lang": 3,
+          "android.transition": 3,
+          "coil.compose": 3,
+          "retrofit2.Response": 2,
+          "kotlinx.parcelize": 2,
+          "android.animation": 2,
+          "android.Manifest": 2,
+          "io.flutter": 2,
+          "fun": 2,
+          "androidx.documentfile": 2,
+          "kotlinx.android": 2,
+          "kotlinx.serialization": 2,
+          "coil.request": 2,
+          "dagger.Binds": 2,
+          "androidx.hilt": 2,
+          "androidx.versionedparcelable": 1,
+          "kotlin.system": 1,
+          "retrofit2.HttpException": 1,
+          "dagger.Component": 1,
+          "okhttp3.logging": 1,
+          "Failed": 1,
+          "org.ocpsoft": 1,
+          "org.hamcrest": 1,
+          "var": 1,
+          "com.yalantis": 1,
+          "androidx.exifinterface": 1,
+          "androidx.browser": 1,
+          "me.onebone": 1,
+          "org.json": 1,
+          "com.moqawlat": 1,
+          "android.location": 1,
+          "coil.ImageLoader": 1,
+          "coil.decode": 1,
+          "coil.EventListener": 1,
+          "coil.load": 1,
+          "pl.droidsonroids": 1,
+          "coil.size": 1,
+          "java.nio": 1,
+          "java.net": 1,
+          "okhttp3.Request": 1,
+          "okhttp3.Cache": 1,
+          "okhttp3.CacheControl": 1,
+          "okhttp3.Response": 1,
+          "me.saket": 1,
+          "com.valentinilk": 1,
+          "gun0912.tedimagepicker": 1,
+          "androidx.swiperefreshlayout": 1,
+          "sample.azan": 1,
+          "com.eltaher": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 2,
+        "packages": {
+          "Flutter": 2,
+          "UIKit": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "AhmedSheref96/Ahmed_Sheref_Android_Task",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/Ahmed_Sheref_Task",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/ApplyCleanArchitectureApp",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/awesome-android-kotlin-apps",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/Bottom-Navigation-Icons",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/CustomViewsDemo",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/databinding-samples",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/DiTest",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/EditCard",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/EduAppKotlin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/FlutterNote",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/ImagePicker",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/MColoringView",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/MFirst_Flutter_App",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/MPostMan",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/My-Utils",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/MyFirstComposeApp",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/NewsApp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/NewsApp-compose",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/Note",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "AhmedSheref96/Prayer-Times-Android-Azan",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Kotlin"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "username": "luqpy",
+  "areas": {
+    "OSS": {
+      "score": 0.5356521942871693,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.303478291430754
+      }
+    },
+    "Status": {
+      "score": -0.11819395955898448,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.303478291430754,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.275,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 4.0875,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.02849164694563695,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Dockerfile": [
+        4037,
+        1
+      ],
+      "Groovy": [
+        3237822,
+        0
+      ],
+      "Java": [
+        1120248,
+        0
+      ],
+      "JavaScript": [
+        534580,
+        0
+      ],
+      "Vue": [
+        243414,
+        0
+      ],
+      "TypeScript": [
+        173149,
+        0
+      ],
+      "SCSS": [
+        131800,
+        0
+      ],
+      "Shell": [
+        33895,
+        0
+      ],
+      "CSS": [
+        24774,
+        0
+      ],
+      "Less": [
+        9027,
+        0
+      ],
+      "MDX": [
+        3057,
+        0
+      ],
+      "HTML": [
+        1941,
+        0
+      ],
+      "EJS": [
+        1784,
+        0
+      ],
+      "Makefile": [
+        841,
+        0
+      ],
+      "Standard ML": [
+        115,
+        0
+      ],
+      "Batchfile": [
+        98,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 1,
+    "total_lines": 5520582,
+    "top_5_languages": [
+      {
+        "language": "Dockerfile",
+        "lines": 4037,
+        "commits": 1
+      },
+      {
+        "language": "Groovy",
+        "lines": 3237822,
+        "commits": 0
+      },
+      {
+        "language": "Java",
+        "lines": 1120248,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 534580,
+        "commits": 0
+      },
+      {
+        "language": "Vue",
+        "lines": 243414,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "luqpy",
+    "analysis_date": "2026-05-10T00:11:30.199039",
+    "total_repos_analyzed": 3,
+    "total_files_analyzed": 30,
+    "languages": {
+      "Java": {
+        "files_scanned": 30,
+        "packages": {
+          "com.dtolabs": 30,
+          "java.util": 14,
+          "java.io": 9,
+          "java.security": 4,
+          "javax.security": 4,
+          "org.slf4j": 3,
+          "org.apache": 3,
+          "java.text": 2,
+          "org.rundeck": 2,
+          "lombok.Setter": 2,
+          "lombok.Getter": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "luqpy/rundeck",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

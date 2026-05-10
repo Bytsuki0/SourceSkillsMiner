@@ -1,0 +1,517 @@
+{
+  "username": "sreedevi111",
+  "areas": {
+    "OSS": {
+      "score": 0.8666666666666667,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.8,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4358807499810884,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9422826634331711,
+        "week_streak": 0.21153846153846154
+      }
+    },
+    "Adaptability": {
+      "score": -0.3625,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "sreedevi111/blackjack": 0.4939
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.43800948332955103,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        887336,
+        191
+      ],
+      "HTML": [
+        46408,
+        31
+      ],
+      "SCSS": [
+        3340,
+        0
+      ],
+      "CSS": [
+        146223,
+        19
+      ],
+      "Java": [
+        126896,
+        17
+      ],
+      "TypeScript": [
+        34886,
+        22
+      ],
+      "Objective-C": [
+        20755,
+        2
+      ],
+      "Ruby": [
+        14827,
+        1
+      ],
+      "Objective-C++": [
+        24714,
+        3
+      ],
+      "TeX": [
+        3660,
+        0
+      ],
+      "Shell": [
+        1873,
+        0
+      ],
+      "Python": [
+        16589,
+        5
+      ],
+      "C++": [
+        53875,
+        7
+      ],
+      "Makefile": [
+        7550,
+        1
+      ],
+      "Starlark": [
+        6587,
+        1
+      ],
+      "CMake": [
+        108,
+        0
+      ],
+      "Kotlin": [
+        0,
+        7
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 307,
+    "total_lines": 1395627,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 887336,
+        "commits": 191
+      },
+      {
+        "language": "HTML",
+        "lines": 46408,
+        "commits": 31
+      },
+      {
+        "language": "TypeScript",
+        "lines": 34886,
+        "commits": 22
+      },
+      {
+        "language": "CSS",
+        "lines": 146223,
+        "commits": 19
+      },
+      {
+        "language": "Java",
+        "lines": 126896,
+        "commits": 17
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sreedevi111",
+    "analysis_date": "2026-05-09T19:46:33.283528",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 326,
+    "languages": {
+      "C++": {
+        "files_scanned": 22,
+        "packages": {
+          "namespace": 10,
+          "std": 10,
+          "MainApplicationModuleProvider.h": 6,
+          "MainApplicationTurboModuleManagerDelegate.h": 6,
+          "fbjni/fbjni.h": 6,
+          "MainComponentsRegistry.h": 6,
+          "<fbjni/fbjni.h>": 6,
+          "<bits/stdc++.h>": 4,
+          "bits/stdc++.h": 4,
+          "rncore.h": 3,
+          "<rncore.h>": 3,
+          "<react/renderer/components/rncore/ComponentDescriptors.h>": 3,
+          "CoreComponentsRegistry.h": 3,
+          "<react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h>": 3,
+          "react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h": 3,
+          "react/renderer/components/rncore/ComponentDescriptors.h": 3,
+          "<CoreComponentsRegistry.h>": 3,
+          "<rncli.h>": 2,
+          "rncli.h": 2
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 18,
+        "packages": {
+          "<UIKit/UIKit.h>": 9,
+          "memory": 6,
+          "<memory>": 6,
+          "<string>": 6,
+          "string": 6,
+          "fbjni/fbjni.h": 6,
+          "<fbjni/fbjni.h>": 6,
+          "<RCTAppDelegate.h>": 5,
+          "<React/RCTBridgeDelegate.h>": 4,
+          "<ReactCommon/JavaTurboModule.h>": 3,
+          "ReactCommon/JavaTurboModule.h": 3,
+          "ReactCommon/TurboModuleManagerDelegate.h": 3,
+          "<ReactCommon/TurboModuleManagerDelegate.h>": 3,
+          "ComponentFactory.h": 3,
+          "<ComponentFactory.h>": 3,
+          "<react/renderer/componentregistry/ComponentDescriptorRegistry.h>": 3,
+          "<react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h>": 3,
+          "react/renderer/componentregistry/ComponentDescriptorRegistry.h": 3,
+          "react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h": 3
+        }
+      },
+      "Java": {
+        "files_scanned": 47,
+        "packages": {
+          "com.facebook": 37,
+          "java.util": 24,
+          "android.content": 16,
+          "java.lang": 14,
+          "android.app": 11,
+          "java.io": 10,
+          "okhttp3.OkHttpClient": 8,
+          "com.blog_app": 6,
+          "com.demo": 6,
+          "com.doctorapp": 6,
+          "com.apostrfysree": 4,
+          "com.chatapp": 4,
+          "com.emaildashboard": 4,
+          "com.imapmailcount": 4,
+          "androidx.annotation": 3,
+          "com.foodelivery": 3,
+          "android.os": 2,
+          "com.airbnb": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 124,
+        "packages": {
+          "react": 91,
+          "react-native": 50,
+          "react-redux": 14,
+          "react-dom": 12,
+          "react-router-dom": 10,
+          "react-native-vector-icons": 8,
+          "styled-components": 7,
+          "testing-library": 6,
+          "axios": 5,
+          "react-native-firebase": 5,
+          "metro-config": 4,
+          "react-test-renderer": 4,
+          "react-native-simple-toast": 4,
+          "web-vitals": 3,
+          "react-navigation": 3,
+          "reduxjs": 3,
+          "react-slick": 2,
+          "lodash": 2,
+          "react-native-async-storage": 2,
+          "react-native-linear-gradient": 2,
+          "firebase": 2,
+          "prop-types": 1,
+          "light": 1,
+          "undefined": 1,
+          "react-native-loading-spinner-overlay": 1,
+          "firebase-admin": 1,
+          "firebase-functions": 1,
+          "bootstrap": 1,
+          "react-modal": 1,
+          "moment": 1,
+          "material-ui": 1,
+          "react-currency-format": 1,
+          "redux": 1,
+          "redux-thunk": 1,
+          "slick-carousel": 1,
+          "counterReducer": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 2,
+        "packages": {
+          "com.hellothere": 2,
+          "com.facebook": 2,
+          "android.app": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 19,
+        "packages": {
+          "UIKit/UIKit.h": 18,
+          "<UIKit/UIKit.h>": 18,
+          "AppDelegate.h": 10,
+          "React/RCTRootView.h": 10,
+          "<React/RCTRootView.h>": 10,
+          "<XCTest/XCTest.h>": 9,
+          "React/RCTLog.h": 9,
+          "XCTest/XCTest.h": 9,
+          "<React/RCTLog.h>": 9,
+          "FlipperKit/FlipperClient.h": 1,
+          "<React/RCTBridge.h>": 1,
+          "<FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>": 1,
+          "React/RCTBridge.h": 1,
+          "<FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h>": 1,
+          "<FlipperKitReactPlugin/FlipperKitReactPlugin.h>": 1,
+          "FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h": 1,
+          "React/RCTBundleURLProvider.h": 1,
+          "<FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h>": 1,
+          "FlipperKitReactPlugin/FlipperKitReactPlugin.h": 1,
+          "SKIOSNetworkPlugin/SKIOSNetworkAdapter.h": 1,
+          "<React/RCTBundleURLProvider.h>": 1,
+          "<FlipperKit/FlipperClient.h>": 1,
+          "FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h": 1,
+          "FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h": 1,
+          "<SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "xarray": 2,
+          "matplotlib": 2,
+          "cartopy": 1,
+          "geopandas": 1,
+          "pylab": 1,
+          "np": 1,
+          "math": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 16,
+        "packages": {
+          "react": 13,
+          "react-native": 5,
+          "react-test-renderer": 5,
+          "jest": 4,
+          "react-redux": 4,
+          "reduxjs": 3,
+          "material-ui": 2,
+          "react-modal": 1,
+          "posts": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sreedevi111/30-Days-Of-React",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sreedevi111/Apostrfy",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "sreedevi111/Calculator-react",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sreedevi111/Chat-Application",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "sreedevi111/Chrome-extension",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sreedevi111/CO2-plot",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sreedevi111/crud-firebase",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "sreedevi111/CRUD-React-Redux",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "sreedevi111/dashboard",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sreedevi111/demo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "sreedevi111/doctorapp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "sreedevi111/DSA-Must-Do-Questions",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "sreedevi111/E-Commerce",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sreedevi111/EmailDashboard",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "sreedevi111/food_delivery_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "sreedevi111/HelloThere",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C/C++ Header",
+          "JavaScript",
+          "Kotlin",
+          "Objective-C / MATLAB",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "sreedevi111/Hotstar-clone",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sreedevi111/IMAPMailCount",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

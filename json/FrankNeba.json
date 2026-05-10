@@ -1,0 +1,517 @@
+{
+  "username": "FrankNeba",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.25117832508927496,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8190751799416048,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.125,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.19190233168452164,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        44960,
+        20
+      ],
+      "CSS": [
+        199797,
+        39
+      ],
+      "JavaScript": [
+        383915,
+        95
+      ],
+      "HTML": [
+        489930,
+        33
+      ],
+      "Python": [
+        7244896,
+        55
+      ],
+      "Shell": [
+        3490,
+        0
+      ],
+      "Go": [
+        162565,
+        0
+      ],
+      "Makefile": [
+        207,
+        0
+      ],
+      "Dockerfile": [
+        20,
+        0
+      ],
+      "Jinja": [
+        94726,
+        0
+      ],
+      "Smarty": [
+        146,
+        0
+      ],
+      "Procfile": [
+        39,
+        0
+      ],
+      "Jupyter Notebook": [
+        0,
+        3
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 245,
+    "total_lines": 8624691,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 383915,
+        "commits": 95
+      },
+      {
+        "language": "Python",
+        "lines": 7244896,
+        "commits": 55
+      },
+      {
+        "language": "CSS",
+        "lines": 199797,
+        "commits": 39
+      },
+      {
+        "language": "HTML",
+        "lines": 489930,
+        "commits": 33
+      },
+      {
+        "language": "TypeScript",
+        "lines": 44960,
+        "commits": 20
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "FrankNeba",
+    "analysis_date": "2026-05-09T21:24:01.465229",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 283,
+    "languages": {
+      "Go": {
+        "files_scanned": 23,
+        "packages": {
+          "github.com/stretchr/testify/mock": 8,
+          "fmt": 5,
+          "github.com/google/uuid": 5,
+          "io": 5,
+          "os": 4,
+          "errors": 4,
+          "strings": 4,
+          "path/filepath": 3,
+          "github.com/daytonaio/daytona/internal/util": 3,
+          "github.com/daytonaio/daytona/pkg/workspace/project": 3,
+          "regexp": 2,
+          "encoding/json": 2,
+          "os/exec": 2,
+          "encoding/base64": 2,
+          "testing": 2,
+          "github.com/daytonaio/daytona/cmd/daytona/config": 2,
+          "tailscale.com/tsnet": 2,
+          "context": 2,
+          "github.com/daytonaio/daytona/pkg/workspace": 2,
+          "net/http": 2,
+          "github.com/docker/docker/api/types/container": 2,
+          "github.com/daytonaio/daytona/pkg/containerregistry": 2,
+          "github.com/daytonaio/daytona/pkg/gitprovider": 2,
+          "github.com/daytonaio/daytona/pkg/cmd/autocomplete": 1,
+          "github.com/daytonaio/daytona/pkg/os": 1,
+          "slices": 1,
+          "github.com/daytonaio/daytona/internal/jetbrains": 1,
+          "runtime": 1,
+          "ssh": 1,
+          "bytes": 1,
+          "time": 1,
+          "github.com/daytonaio/daytona/pkg/cmd/workspacemode": 1,
+          "github.com/daytonaio/daytona/internal": 1,
+          "github.com/daytonaio/daytona/pkg/cmd": 1,
+          "github.com/rs/zerolog": 1,
+          "github.com/stretchr/testify/assert": 1,
+          "github.com/daytonaio/daytona/pkg/apiclient": 1,
+          "github.com/daytonaio/daytona/pkg/tailscale": 1,
+          "github.com/daytonaio/daytona/pkg/ports": 1,
+          "net": 1,
+          "github.com/daytonaio/daytona/pkg/server": 1,
+          "github.com/gin-gonic/gin": 1,
+          "net/http/httptest": 1,
+          "github.com/docker/docker/client": 1,
+          "github.com/docker/docker/api/types": 1,
+          "github.com/docker/docker/api/types/network": 1,
+          "github.com/docker/docker/api/types/image": 1,
+          "github.com/daytonaio/daytona/pkg/docker": 1,
+          "github.com/go-git/go-git/v5/plumbing/transport/http": 1,
+          "github.com/daytonaio/daytona/pkg/logs": 1,
+          "github.com/daytonaio/daytona/pkg/provider": 1,
+          "github.com/daytonaio/daytona/pkg/apikey": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 43,
+        "packages": {
+          "react": 26,
+          "react-native-animatable": 14,
+          "react-native": 14,
+          "react-native-vector-icons": 13,
+          "react-native-safe-area-context": 10,
+          "react-router-dom": 7,
+          "expo-linear-gradient": 6,
+          "express": 5,
+          "react-navigation": 3,
+          "react-native-async-storage": 3,
+          "dotenv": 2,
+          "jsonwebtoken": 2,
+          "http:": 2,
+          "https:": 2,
+          "tailwindcss": 1,
+          "better-sqlite3": 1,
+          "bcrypt": 1,
+          "react-dom": 1,
+          "web-vitals": 1,
+          "testing-library": 1,
+          "object": 1,
+          "jquery": 1,
+          "eslint-config-expo": 1,
+          "eslint": 1,
+          "react-native-chart-kit": 1,
+          "expo-clipboard": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 142,
+        "packages": {
+          "django": 125,
+          "migrations": 45,
+          "settings": 23,
+          "os": 22,
+          "admin": 15,
+          "path": 11,
+          "AppConfig": 10,
+          "rest_framework": 9,
+          "models": 9,
+          "sys": 7,
+          "TestCase": 7,
+          "pathlib": 6,
+          "Path": 6,
+          "execute_from_command_line": 6,
+          "get_asgi_application": 5,
+          "get_wsgi_application": 5,
+          "AbstractUser": 5,
+          "render": 5,
+          "apps": 5,
+          "Response": 4,
+          "serializers": 4,
+          "User": 4,
+          "static": 3,
+          "UserCreationForm": 3,
+          "HttpResponse": 3,
+          "Q": 3,
+          "login_required": 3,
+          "messages": 3,
+          "datetime": 3,
+          "users": 3,
+          "time": 2,
+          "joblib": 2,
+          "streamlit": 2,
+          "Room": 2,
+          "socialsite": 2,
+          "ModelForm": 2,
+          "importlib": 2,
+          "ImproperlyConfigured": 2,
+          "warnings": 2,
+          "re": 2,
+          "send_mail": 2,
+          "random": 2,
+          "login": 2,
+          "make_password": 2,
+          "get_object_or_404": 2,
+          "BaseCommand": 2,
+          "UserSerializer": 2,
+          "generics": 2,
+          "timedelta": 2,
+          "dotenv": 2,
+          "load_dotenv": 2,
+          "google": 2,
+          "Image": 2,
+          "PIL": 2,
+          "ArtistProfile": 2,
+          "numpy": 1,
+          "pandas": 1,
+          "math": 1,
+          "ModelSerializer": 1,
+          "api_view": 1,
+          "authenticate": 1,
+          "set_script_prefix": 1,
+          "get_version": 1,
+          "configure_logging": 1,
+          "management": 1,
+          "import_string": 1,
+          "cached_property": 1,
+          "inspect": 1,
+          "import_module": 1,
+          "Counter": 1,
+          "applications": 1,
+          "threading": 1,
+          "each": 1,
+          "functools": 1,
+          "collections": 1,
+          "AppRegistryNotReady": 1,
+          "partial": 1,
+          "traceback": 1,
+          "LazyObject": 1,
+          "global_settings": 1,
+          "get_script_prefix": 1,
+          "send_verification_email": 1,
+          "verify_email": 1,
+          "posts": 1,
+          "Post": 1,
+          "include": 1,
+          "loader": 1,
+          "Domain": 1,
+          "StudentProfile": 1,
+          "StudentProfileSerializer": 1,
+          "viewsets": 1,
+          "action": 1,
+          "IsVicePrincipal": 1,
+          "UserAdmin": 1,
+          "IsAuthenticated": 1,
+          "reverse": 1,
+          "TokenObtainPairView": 1,
+          "rest_framework_simplejwt": 1,
+          "pad_sequences": 1,
+          "tensorflow": 1,
+          "tokenizer": 1,
+          "Dict": 1,
+          "openai": 1,
+          "io": 1,
+          "vertexai": 1,
+          "default_storage": 1,
+          "requests": 1,
+          "ImageGenerationModel": 1,
+          "typing": 1,
+          "ContentFile": 1,
+          "base64": 1,
+          "and": 1,
+          "aiplatform": 1,
+          "whisper": 1,
+          "librosa": 1,
+          "soundfile": 1,
+          "APIView": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "next": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 30,
+        "packages": {
+          "react": 26,
+          "lucide-react": 15,
+          "next": 12,
+          "radix-ui": 5,
+          "framer-motion": 3,
+          "class-variance-authority": 2,
+          "react-native-safe-area-context": 2,
+          "react-native-gesture-handler": 2,
+          "expo-status-bar": 2,
+          "sonner": 1,
+          "date-fns": 1,
+          "katex": 1,
+          "react-katex": 1,
+          "react-navigation": 1,
+          "expo-router": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "FrankNeba/Afriqquiz-frontend",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "FrankNeba/Boston-house-price-prediction",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FrankNeba/chatroom",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FrankNeba/cohativeLP",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FrankNeba/CRM_node_js",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FrankNeba/daytona",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "FrankNeba/django",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FrankNeba/DjangoEcommerce",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FrankNeba/DjangoSocialMedia",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FrankNeba/Django_mysite",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FrankNeba/edulink",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FrankNeba/guessing_game",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FrankNeba/guessing_game_backend",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FrankNeba/jqueryanimate",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FrankNeba/LSTM_trained_sentiment_predictor",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FrankNeba/melofy_backend",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FrankNeba/melofy_frontend",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

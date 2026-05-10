@@ -1,0 +1,224 @@
+{
+  "username": "cviorel",
+  "areas": {
+    "OSS": {
+      "score": 0.7246319582529153,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.6842105263157895,
+        "commits_activity": 0.9027374110635834
+      }
+    },
+    "Status": {
+      "score": 0.08905525002754167,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6143521058105431,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": 0.8125,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 23,
+        "topic_entropy_bits": 3.1699,
+        "closed_prs_total": 6,
+        "bounced_back_prs": 6
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4252374416560914,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "PowerShell": [
+        2790251,
+        430
+      ],
+      "Shell": [
+        4733,
+        87
+      ],
+      "C#": [
+        1834028,
+        0
+      ],
+      "JavaScript": [
+        1371574,
+        8
+      ],
+      "CSS": [
+        46636,
+        0
+      ],
+      "HTML": [
+        46227,
+        0
+      ],
+      "PLpgSQL": [
+        35153,
+        0
+      ],
+      "Jinja": [
+        48179,
+        0
+      ],
+      "Batchfile": [
+        2466,
+        0
+      ],
+      "PLSQL": [
+        34304,
+        0
+      ],
+      "SQLPL": [
+        732,
+        0
+      ],
+      "TSQL": [
+        333,
+        26
+      ],
+      "Dockerfile": [
+        0,
+        11
+      ],
+      "Vim Script": [
+        0,
+        8
+      ],
+      "HCL": [
+        0,
+        3
+      ],
+      "Python": [
+        0,
+        1
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 574,
+    "total_lines": 6214616,
+    "top_5_languages": [
+      {
+        "language": "PowerShell",
+        "lines": 2790251,
+        "commits": 430
+      },
+      {
+        "language": "Shell",
+        "lines": 4733,
+        "commits": 87
+      },
+      {
+        "language": "TSQL",
+        "lines": 333,
+        "commits": 26
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 0,
+        "commits": 11
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1371574,
+        "commits": 8
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "cviorel",
+    "analysis_date": "2026-05-09T20:43:54.925308",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 32,
+    "languages": {
+      "C#": {
+        "files_scanned": 31,
+        "packages": {
+          "System.Collections.Generic": 31,
+          "System.Linq": 31,
+          "System.Text": 31,
+          "System.Threading.Tasks": 29,
+          "System.IO": 23,
+          "System.Threading": 11,
+          "System.Reflection": 11,
+          "Microsoft.SqlServer.XEvent.Linq": 10,
+          "Microsoft.SqlServer.XEvent": 10,
+          "System.Data.SQLite": 9,
+          "System.Web": 7,
+          "System.Text.RegularExpressions": 3,
+          "System.Data": 2,
+          "System.Net": 2,
+          "System.Collections.ObjectModel": 2,
+          "System.Management.Automation.Runspaces": 2,
+          "System.Resources": 2,
+          "System": 2,
+          "System.Management.Automation": 2,
+          "System.Data.SqlClient": 1,
+          "System.Xml.Linq": 1,
+          "System.Xml": 1,
+          "System.Windows.Forms": 1,
+          "System.ComponentModel": 1,
+          "System.Drawing": 1,
+          "System.Windows.Forms.DataVisualization.Charting": 1,
+          "2": 1,
+          "HkDebugTypes": 1,
+          "DbgEngManaged": 1,
+          "SqlCsScripts.Scripts": 1,
+          "SqlCsScripts.Common": 1,
+          "CsDebugScript": 1,
+          "SqlDebugTypes": 1,
+          "SqlCsScripts.Extensions": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "cviorel/AGLatency",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "cviorel/at-ps",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "username": "leticiafrasquette",
+  "areas": {
+    "OSS": {
+      "score": -0.4475835690062512,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8286246464906232
+      }
+    },
+    "Status": {
+      "score": 0.24098021325538976,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8037780121907769,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.6125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "leticiafrasquette/ignite-dt-money": 0.4939,
+        "leticiafrasquette/ignite-timer": 0.4939
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.08617932884982771,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        6948,
+        3
+      ],
+      "TypeScript": [
+        241399,
+        48
+      ],
+      "HTML": [
+        5622,
+        2
+      ],
+      "CSS": [
+        967,
+        0
+      ],
+      "PHP": [
+        23,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 53,
+    "total_lines": 254959,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 241399,
+        "commits": 48
+      },
+      {
+        "language": "JavaScript",
+        "lines": 6948,
+        "commits": 3
+      },
+      {
+        "language": "HTML",
+        "lines": 5622,
+        "commits": 2
+      },
+      {
+        "language": "CSS",
+        "lines": 967,
+        "commits": 0
+      },
+      {
+        "language": "PHP",
+        "lines": 23,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "leticiafrasquette",
+    "analysis_date": "2026-05-09T16:48:09.795944",
+    "total_repos_analyzed": 22,
+    "total_files_analyzed": 315,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 27,
+        "packages": {
+          "express": 6,
+          "react": 5,
+          "sequelize": 4,
+          ":": 2,
+          "path": 2,
+          "dotenv": 2,
+          "multer": 2,
+          "jsonwebtoken": 2,
+          "bcryptjs": 2,
+          "next": 2,
+          "tailwindcss": 2,
+          "prop-types": 2,
+          "react-icons": 2,
+          "eslint-plugin-react-hooks": 1,
+          "eslint-plugin-react-refresh": 1,
+          "globals": 1,
+          "eslint": 1,
+          "eslint-plugin-prettier": 1,
+          "typescript-eslint": 1,
+          "tailwind-scrollbar": 1,
+          "react-dom": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "classe/Curriculo.php": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 115,
+        "packages": {
+          "fastify": 21,
+          "vitest": 18,
+          "zod": 16,
+          "styled-components": 15,
+          "supertest": 12,
+          "next": 10,
+          "div": 9,
+          "vitejs": 7,
+          "ignite-ui": 6,
+          "vite": 6,
+          "test": 5,
+          "next-auth": 5,
+          "dayjs": 5,
+          "react": 4,
+          "axios": 4,
+          "prisma": 4,
+          "knex": 4,
+          "main": 4,
+          "testing-library": 3,
+          "node:crypto": 2,
+          "tanstack": 2,
+          "tailwindcss": 2,
+          "node:child_process": 2,
+          "crypto": 2,
+          "nookies": 2,
+          "googleapis": 2,
+          "dotenv": 1,
+          "button": 1,
+          "table": 1,
+          "radix-ui": 1,
+          "use-context-selector": 1,
+          "pt-BR": 1,
+          "stripe": 1,
+          "stitches": 1,
+          "header": 1,
+          "immer": 1,
+          "cypress": 1,
+          "t3-oss": 1,
+          "cors": 1,
+          "express": 1,
+          "zustand": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 72,
+        "packages": {
+          "react": 32,
+          "next": 21,
+          "phosphor-react": 14,
+          "radix-ui": 8,
+          "lucide-react": 8,
+          "react-dom": 7,
+          "react-hook-form": 7,
+          "zod": 6,
+          "hookform": 6,
+          "axios": 5,
+          "next-seo": 5,
+          "ignite-ui": 5,
+          "date-fns": 5,
+          "tanstack": 4,
+          "use-context-selector": 4,
+          "react-router-dom": 4,
+          "vitest": 3,
+          "testing-library": 3,
+          "stripe": 3,
+          "chart.js": 2,
+          "react-chartjs-2": 2,
+          "react-icons": 2,
+          "next-auth": 2,
+          "styled-components": 2,
+          "sonner": 2,
+          "dayjs": 1,
+          "keen-slider": 1,
+          "edge": 1,
+          "tailwindcss": 1,
+          "image": 1,
+          "div": 1,
+          "tailwind-merge": 1,
+          "react-player": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "leticiafrasquette/api-rest",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/clean-domain",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/crypto-dashboard",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/fastify-solid-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/gerador-de-curriculos",
+        "files_analyzed": 3,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/ignite-api-rest",
+        "files_analyzed": 10,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/ignite-call",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/ignite-dt-money",
+        "files_analyzed": 21,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/ignite-shop",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/ignite-timer",
+        "files_analyzed": 23,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/nest-clean",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/next-store",
+        "files_analyzed": 28,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/nlw-esports-ignite-backend",
+        "files_analyzed": 3,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/nlw-esports-web",
+        "files_analyzed": 8,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/nlw-expert",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/react-fundamentos-ignite",
+        "files_analyzed": 9,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/redux-zustand",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "leticiafrasquette/tasklist-reactjs",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

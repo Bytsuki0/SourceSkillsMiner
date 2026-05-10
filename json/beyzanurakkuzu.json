@@ -1,0 +1,459 @@
+{
+  "username": "beyzanurakkuzu",
+  "areas": {
+    "OSS": {
+      "score": 0.24582632556487694,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.8823529411764706,
+        "commits_activity": 0.9863865471708448
+      }
+    },
+    "Status": {
+      "score": 0.2155574664964055,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7656438920523007,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.0125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.1397767584122565,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Kotlin": [
+        2065843,
+        142
+      ],
+      "Java": [
+        193814,
+        5
+      ],
+      "Shell": [
+        2206,
+        0
+      ],
+      "RenderScript": [
+        1889,
+        0
+      ],
+      "TypeScript": [
+        1131,
+        0
+      ],
+      "HTML": [
+        681,
+        0
+      ],
+      "CSS": [
+        497,
+        0
+      ],
+      "JavaScript": [
+        244,
+        0
+      ],
+      "Swift": [
+        0,
+        0
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "C#": [
+        0,
+        8
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 155,
+    "total_lines": 2266305,
+    "top_5_languages": [
+      {
+        "language": "Kotlin",
+        "lines": 2065843,
+        "commits": 142
+      },
+      {
+        "language": "C#",
+        "lines": 0,
+        "commits": 8
+      },
+      {
+        "language": "Java",
+        "lines": 193814,
+        "commits": 5
+      },
+      {
+        "language": "Shell",
+        "lines": 2206,
+        "commits": 0
+      },
+      {
+        "language": "RenderScript",
+        "lines": 1889,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "beyzanurakkuzu",
+    "analysis_date": "2026-05-09T18:26:55.465378",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 338,
+    "languages": {
+      "Java": {
+        "files_scanned": 30,
+        "packages": {
+          "com.example": 20,
+          "org.junit": 10,
+          "java.util": 10,
+          "com.beyzaakkuzu": 10,
+          "androidx.test": 8,
+          "static": 8,
+          "androidx.room": 7,
+          "androidx.arch": 6,
+          "io.reactivex": 6,
+          "androidx.annotation": 6,
+          "android.content": 5,
+          "androidx.lifecycle": 5,
+          "android.os": 4,
+          "android.widget": 4,
+          "androidx.appcompat": 2,
+          "org.hamcrest": 2,
+          "android.view": 2,
+          "android.graphics": 2,
+          "android.util": 1,
+          "org.mockito": 1,
+          "androidx.fragment": 1,
+          "androidx.recyclerview": 1,
+          "android.database": 1,
+          "android.app": 1,
+          "java.sql": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "function": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 291,
+        "packages": {
+          "android.os": 57,
+          "android.view": 54,
+          "android.content": 53,
+          "com.beyzaakkuzu": 40,
+          "com.example": 40,
+          "org.junit": 38,
+          "androidx.compose": 36,
+          "com.fernandocejas": 30,
+          "nl.joery": 30,
+          "com.skydoves": 30,
+          "co.joebirch": 30,
+          "com.tkmn": 29,
+          "androidx.test": 28,
+          "androidx.fragment": 27,
+          "kotlinx.coroutines": 26,
+          "androidx.appcompat": 25,
+          "androidx.annotation": 24,
+          "android.widget": 24,
+          "android.graphics": 24,
+          "androidx.core": 22,
+          "io.ak1": 22,
+          "android.util": 21,
+          "javax.inject": 18,
+          "android.app": 17,
+          "androidx.recyclerview": 17,
+          "dagger.hilt": 16,
+          "androidx.lifecycle": 16,
+          "androidx.room": 16,
+          "link.kotlin": 16,
+          "kotlinx.android": 15,
+          "com.google": 12,
+          "java.util": 12,
+          "androidx.ui": 10,
+          "com.beyza": 10,
+          "androidx.navigation": 9,
+          "android.annotation": 8,
+          "com.halil": 8,
+          "org.threeten": 7,
+          "android.text": 6,
+          "java.nio": 6,
+          "com.fasterxml": 5,
+          "com.tortoise": 5,
+          "android.provider": 4,
+          "java.text": 4,
+          "io.reactivex": 4,
+          "androidx.activity": 4,
+          "java.time": 4,
+          "org.apache": 4,
+          "dagger.Provides": 3,
+          "dagger.Module": 3,
+          "android.net": 3,
+          "androidx.interpolator": 3,
+          "kotlin.math": 3,
+          "androidx.viewpager2": 3,
+          "androidx.viewpager": 3,
+          "androidx.databinding": 3,
+          "androidx.constraintlayout": 3,
+          "java.io": 3,
+          "retrofit2.Retrofit": 2,
+          "retrofit2.converter": 2,
+          "android.animation": 2,
+          "com.urrr4545": 2,
+          "kotlin.collections": 2,
+          "androidx.arch": 2,
+          "org.mockito": 2,
+          "org.commonmark": 2,
+          "androidx.viewbinding": 2,
+          "androidx.preference": 2,
+          "androidx.camera": 2,
+          "okhttp3.OkHttpClient": 1,
+          "okhttp3.logging": 1,
+          "com.bumptech": 1,
+          "fun": 1,
+          "java.math": 1,
+          "android.transition": 1,
+          "com.jaredrummler": 1,
+          "timber.log": 1,
+          "com.jakewharton": 1,
+          "suspend": 1,
+          "com.github": 1,
+          "androidx.window": 1,
+          "org.slf4j": 1,
+          "org.jsoup": 1,
+          "by.heap": 1,
+          "com.rometools": 1,
+          "org.xmlpull": 1,
+          "Expecting": 1,
+          "kotlin.random": 1,
+          "java.lang": 1,
+          "retrofit2.Response": 1,
+          "retrofit2.http": 1,
+          "okhttp3.ResponseBody": 1,
+          "android.service": 1,
+          "androidx.hilt": 1,
+          "android.media": 1,
+          "kotlin.coroutines": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 11,
+        "packages": {
+          "react": 11,
+          "react-router": 3,
+          "typestyle": 2,
+          "react-dom": 2,
+          "copy-to-clipboard": 1,
+          "babel": 1,
+          "css-loader!normalize.css": 1,
+          "react-router-dom": 1,
+          "query-string": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "beyzanurakkuzu/Android-CleanArchitecture-Kotlin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/AndroidService",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/AnimatedBottomBar",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/AppLoginPage",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/AppUsageStatsManager",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/AppUsageTime",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/architecture-components-samples",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/awesome-kotlin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Kotlin",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/Balloon",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/BottomNavigationApp",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/BroadcastReceivers",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/BubbleTabBar",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/CatchTheJerry",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/ComposeAcademy-Playground",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/Coroutines101",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/CryptoApps",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/Custom-OtpView",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/FirebaseCloudMessage",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/FocusFlow",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/Fragments",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/JavaBasicsCode",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "beyzanurakkuzu/JetpackComposeCameraX_MLKit",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Kotlin"
+        ]
+      }
+    ]
+  }
+}

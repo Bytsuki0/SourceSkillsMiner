@@ -1,0 +1,395 @@
+{
+  "username": "Bharatk2",
+  "areas": {
+    "OSS": {
+      "score": -0.19658119658119655,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.20512820512820512,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.21511163632125707,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7842059160203473,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.675,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.1312939120519879,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        500341,
+        172
+      ],
+      "Ruby": [
+        621,
+        0
+      ],
+      "CSS": [
+        14255,
+        1
+      ],
+      "SCSS": [
+        13564,
+        1
+      ],
+      "JavaScript": [
+        5241,
+        0
+      ],
+      "HTML": [
+        3715,
+        0
+      ],
+      "Python": [
+        42125,
+        0
+      ],
+      "Assembly": [
+        195,
+        0
+      ],
+      "Shell": [
+        6,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 174,
+    "total_lines": 580063,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 500341,
+        "commits": 172
+      },
+      {
+        "language": "CSS",
+        "lines": 14255,
+        "commits": 1
+      },
+      {
+        "language": "SCSS",
+        "lines": 13564,
+        "commits": 1
+      },
+      {
+        "language": "Ruby",
+        "lines": 621,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 5241,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Bharatk2",
+    "analysis_date": "2026-05-09T17:52:49.230169",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 188,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "jQuery": 1,
+          "fs": 1,
+          "readline": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 48,
+        "packages": {
+          "unittest": 35,
+          "sys": 10,
+          "random": 9,
+          "*": 5,
+          "HashTable": 3,
+          "hashtable": 3,
+          "LinkedList": 3,
+          "singly_linked_list": 3,
+          "re": 2,
+          "collections": 2,
+          "namedtuple": 2,
+          "sliding_window_max": 2,
+          "time": 2,
+          "searching": 2,
+          "io": 2,
+          "MagicMock": 2,
+          "Heap": 2,
+          "Stack": 2,
+          "room": 2,
+          "Room": 2,
+          "-": 1,
+          "cpu": 1,
+          "eating_cookies": 1,
+          "knapsack_solver": 1,
+          "knapsack": 1,
+          "making_change": 1,
+          "moving_zeroes": 1,
+          "product_of_all_other_numbers": 1,
+          "rock_paper_scissors": 1,
+          "rps": 1,
+          "single_number": 1,
+          "expensive_seq": 1,
+          "no_dups": 1,
+          "word_count": 1,
+          "iterative_sorting": 1,
+          "sorting": 1,
+          "get_indices_of_item_weights": 1,
+          "ex1": 1,
+          "ex2": 1,
+          "Ticket": 1,
+          "intersection": 1,
+          "ex3": 1,
+          "ex4": 1,
+          "has_negatives": 1,
+          "ex5": 1,
+          "finder": 1,
+          "Node": 1,
+          "avl_tree": 1,
+          "AVLTree": 1,
+          "BSTNode": 1,
+          "binary_search_tree": 1,
+          "DoublyLinkedListt": 1,
+          "doubly_linked_list": 1,
+          "ListNode": 1,
+          "generic_heap": 1,
+          "max_heap": 1,
+          "lru_cache": 1,
+          "LRUCache": 1,
+          "Queue": 1,
+          "queue": 1,
+          "stack": 1,
+          "Player": 1,
+          "pprint": 1,
+          "literal_eval": 1,
+          "world": 1,
+          "ast": 1,
+          "os": 1,
+          "World": 1,
+          "player": 1,
+          "math": 1,
+          "earliest_ancestor": 1,
+          "ancestor": 1,
+          "util": 1,
+          "graph": 1,
+          "Graph": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 99,
+        "packages": {
+          "UIKit": 60,
+          "Foundation": 39,
+          "CoreData": 8,
+          "Combine": 5,
+          "SpriteKit": 3,
+          "UserNotifications": 2,
+          "AudioToolbox": 2,
+          "XCTest": 2,
+          "DZNEmptyDataSet": 1,
+          "Vision": 1,
+          "AVFoundation": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Bharatk2/AboutMe",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/BasicAnimations",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/BetterProfessoriOS",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/Bharatk2.github.io",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Bharatk2/BibleQuizApp2",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/BrainTraining",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/CoinDeskiOSApp",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/Computer-Architecture",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Bharatk2/Contained",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/Conway-s-Game-of-Life-",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/countdown",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/CountdownTimerApp",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/cs-module-project-algorithms",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Bharatk2/cs-module-project-hash-tables",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Bharatk2/cs-module-project-iterative-sorting",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Bharatk2/cs-module-project-recursive-sorting",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Bharatk2/cs-sprint-challenge-hash-tables",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Bharatk2/Data-Structures",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Bharatk2/DexcomDatabase",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/grail-diary-part-1",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Bharatk2/Graphs",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

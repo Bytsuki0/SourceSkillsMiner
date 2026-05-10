@@ -1,0 +1,529 @@
+{
+  "username": "omaralalwi",
+  "areas": {
+    "OSS": {
+      "score": 0.7777777777777777,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.35897435897435903,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.660714,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.5714,
+        "distinct_primary_languages": 6,
+        "language_transitions": 6,
+        "topic_entropy_bits": 6.9124,
+        "closed_prs_total": 14,
+        "bounced_back_prs": 4
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "omaralalwi/Gpdf-Laravel-Demo": 0.3314,
+        "omaralalwi/laravel-startkit": -0.04689999999999999
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6094932273504274,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        742,
+        19
+      ],
+      "PHP": [
+        575656,
+        392
+      ],
+      "HTML": [
+        38844,
+        5
+      ],
+      "Blade": [
+        304571,
+        36
+      ],
+      "JavaScript": [
+        2816,
+        0
+      ],
+      "Twig": [
+        1002,
+        0
+      ],
+      "Python": [
+        187,
+        6
+      ],
+      "CSS": [
+        0,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 458,
+    "total_lines": 923818,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 575656,
+        "commits": 392
+      },
+      {
+        "language": "Blade",
+        "lines": 304571,
+        "commits": 36
+      },
+      {
+        "language": "Shell",
+        "lines": 742,
+        "commits": 19
+      },
+      {
+        "language": "Python",
+        "lines": 187,
+        "commits": 6
+      },
+      {
+        "language": "HTML",
+        "lines": 38844,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "omaralalwi",
+    "analysis_date": "2026-05-09T23:29:49.546050",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 259,
+    "languages": {
+      "PHP": {
+        "files_scanned": 193,
+        "packages": {
+          "App\\Actions\\BaseAction": 29,
+          "Illuminate\\Console\\Command": 17,
+          "Omaralalwi\\Gpdf\\Enums\\": 16,
+          "Carbon\\Carbon": 16,
+          "Omaralalwi\\Gpdf\\GpdfConfig": 13,
+          "Omaralalwi\\Gpdf\\Gpdf": 11,
+          "Illuminate\\Support\\ServiceProvider": 11,
+          "Illuminate\\Support\\Str": 11,
+          "Illuminate\\Support\\Facades\\Config": 10,
+          "Illuminate\\Database\\Schema\\Blueprint": 10,
+          "Illuminate\\Database\\Migrations\\Migration": 10,
+          "Illuminate\\Support\\Facades\\Schema": 10,
+          "config/gpdf.php": 8,
+          "Illuminate\\Http\\Request": 7,
+          "Omaralalwi\\JobsMetrics\\Models\\JobsMetric": 7,
+          "Modules\\Article\\Entities\\Post": 7,
+          "Omaralalwi\\LexiTranslate\\Tests\\TestCase": 6,
+          "App\\Services\\Anystack\\Anystack": 6,
+          "Illuminate\\Support\\Facades\\Log": 5,
+          "Illuminate\\Support\\Facades\\DB": 5,
+          "Omaralalwi\\JobsMetrics\\Services\\JobsMetricsFormatter": 5,
+          "Omaralalwi\\JobsMetrics\\Services\\JobsMetricsQueryBuilder": 5,
+          "Illuminate\\Database\\Eloquent\\Collection": 5,
+          "Modules\\Article\\Entities\\Category": 5,
+          "Log": 5,
+          "Illuminate\\Support\\Facades\\Cache": 5,
+          "App\\Models\\License": 5,
+          "App\\Models\\Article": 5,
+          "Dompdf\\Dompdf": 4,
+          "Illuminate\\Support\\Facades\\Facade": 4,
+          "Closure": 4,
+          "Illuminate\\Database\\Eloquent\\Model": 4,
+          "Illuminate\\Support\\Facades\\File": 4,
+          "Omaralalwi\\JobsMetrics\\Tests\\TestCase": 4,
+          "Illuminate\\Contracts\\Queue\\ShouldQueue": 4,
+          "RefreshDatabase": 4,
+          "Illuminate\\Foundation\\Testing\\RefreshDatabase": 4,
+          "Omaralalwi\\PhpPy\\Managers\\ConfigManager": 4,
+          "Auth": 4,
+          "App\\Http\\Controllers\\Controller": 4,
+          "Illuminate\\Foundation\\Http\\FormRequest": 4,
+          "Omaralalwi\\LaravelTaxify\\Enums\\": 4,
+          "Symfony\\Component\\HttpFoundation\\Response": 4,
+          "Illuminate\\Support\\Facades\\App": 4,
+          "Omaralalwi\\LexiTranslate\\Tests\\Models\\LexiTranslatePost": 4,
+          "App\\Models\\User": 4,
+          "Filament\\Tables\\Actions\\Action": 4,
+          "Dompdf\\Options": 3,
+          "Omaralalwi\\Gpdf\\Clients\\S3Client": 3,
+          "Omaralalwi\\Gpdf\\Enums\\GpdfSettingKeys": 3,
+          "Exception": 3,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 3,
+          "HasFactory": 3,
+          "Illuminate\\Database\\Eloquent\\Factories\\Factory": 3,
+          "Omaralalwi\\LaravelDeployer\\Traits\\HasOutput": 3,
+          "HasOutput": 3,
+          "Symfony\\Component\\Process\\Process": 3,
+          "Illuminate\\Support\\Facades\\Storage": 3,
+          "Omaralalwi\\JobsMetrics\\Services\\JobsMetricsExporter": 3,
+          "Throwable": 3,
+          "Omaralalwi\\PhpPy\\PhpPy": 3,
+          "SerializesModels": 3,
+          "Illuminate\\Queue\\SerializesModels": 3,
+          "Omaralalwi\\LexiTranslate\\Traits\\HasLocale": 3,
+          "HasCache": 3,
+          "App\\Models\\SubLicense": 3,
+          "RuntimeException": 3,
+          "App\\Filament\\Resources\\ArticleResource": 3,
+          "Omaralalwi\\Gpdf\\Services\\": 2,
+          "Aws\\Exception\\AwsException": 2,
+          "ArPHP\\I18N\\Arabic": 2,
+          "Omaralalwi\\Gpdf\\Enums\\GpdfStorageDrivers": 2,
+          "Omaralalwi\\Gpdf\\Builders\\PdfBuilder": 2,
+          "Omaralalwi\\Gpdf\\Facade\\Gpdf": 2,
+          "Omaralalwi\\Gpdf\\Traits\\HasPdfHeaders": 2,
+          "Omaralalwi\\Gpdf\\Traits\\": 2,
+          "HasPdfHeaders": 2,
+          "Illuminate\\Support\\Facades\\Route": 2,
+          "Illuminate\\Notifications\\Notifiable": 2,
+          "Illuminate\\Support\\Facades\\Hash": 2,
+          "Omaralalwi\\LaravelDeployer\\Enums\\": 2,
+          "Omaralalwi\\LaravelDeployer\\Services\\ConfigurationReader": 2,
+          "Omaralalwi\\LaravelDeployer\\Services\\DeploymentManager": 2,
+          "Omaralalwi\\LaravelDeployer\\Console\\Commands\\DeployCommand": 2,
+          "Omaralalwi\\LaravelDeployer\\Enums\\Styles": 2,
+          "Omaralalwi\\LaravelDeployer\\Enums\\Defaults": 2,
+          "Illuminate\\Database\\Eloquent\\Builder": 2,
+          "Omaralalwi\\JobsMetrics\\Middleware\\JobsMetricTracker": 2,
+          "Orchestra\\Testbench\\TestCase": 2,
+          "Mockery": 2,
+          "Modules\\Tag\\Entities\\Tag": 2,
+          "SoftDeletes": 2,
+          "Illuminate\\Database\\Eloquent\\SoftDeletes": 2,
+          "App\\Models\\BaseModel": 2,
+          "Authorizable": 2,
+          "Flash": 2,
+          "Illuminate\\Http\\Response": 2,
+          "App\\Authorizable": 2,
+          "Yajra\\DataTables\\DataTables": 2,
+          "Modules\\Article\\Events\\PostCreated": 2,
+          "Modules\\Article\\Events\\PostUpdated": 2,
+          "Modules\\Article\\Events\\PostViewed": 2,
+          "Illuminate\\Console\\Scheduling\\Schedule": 2,
+          "Omaralalwi\\LexiTranslate\\Enums\\Language": 2,
+          "HasLocale": 2,
+          "Illuminate\\Support\\Facades\\Session": 2,
+          "Omaralalwi\\LexiTranslate\\Traits\\HasCache": 2,
+          "Omaralalwi\\LexiTranslate\\Models\\Translation": 2,
+          "Illuminate\\Support\\Facades\\Bus": 2,
+          "Illuminate\\Support\\Carbon": 2,
+          "Filament\\Forms\\Components\\DateTimePicker": 2,
+          "App\\Services\\OgImageService": 2,
+          "Filament\\Actions": 2,
+          "Buildable": 2,
+          "UnexpectedValueException": 2,
+          "InvalidArgumentException": 2,
+          "vendor/autoload.php": 1,
+          "Dompdf\\FontMetrics": 1,
+          "Dompdf\\Exception": 1,
+          "FontLib\\Font": 1,
+          "Omaralalwi\\Gpdf\\Traits\\HasGpdfLog": 1,
+          "Omaralalwi\\Gpdf\\Traits\\HasFile": 1,
+          "HasGpdfLog": 1,
+          "dompdf\\FontMetrics": 1,
+          "DateTime": 1,
+          "Dompdf\\Cpdf": 1,
+          "Omaralalwi\\Gpdf\\Services\\LocalFileService": 1,
+          "Omaralalwi\\Gpdf\\Factories\\DompdfFactory": 1,
+          "Omaralalwi\\Gpdf\\Factories\\StorageServiceFactory": 1,
+          "Omaralalwi\\Gpdf\\Services\\S3Service": 1,
+          "Omaralalwi\\Gpdf\\Utilities\\Helpers": 1,
+          "PHPUnit\\Framework\\TestCase": 1,
+          "HasViewDynamicParams": 1,
+          "App\\Traits\\": 1,
+          "App\\Traits\\HasRouteName": 1,
+          "HasRouteName": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "Laravel\\Passport\\Passport": 1,
+          "Illuminate\\Foundation\\Application": 1,
+          "Illuminate\\Foundation\\Configuration\\Middleware": 1,
+          "Illuminate\\Foundation\\Configuration\\Exceptions": 1,
+          "Monolog\\Handler\\SyslogUdpHandler": 1,
+          "Monolog\\Handler\\StreamHandler": 1,
+          "Monolog\\Processor\\PsrLogMessageProcessor": 1,
+          "Monolog\\Handler\\NullHandler": 1,
+          "Illuminate\\Filesystem\\Filesystem": 1,
+          "Illuminate\\View\\Compilers\\BladeCompiler": 1,
+          "Illuminate\\View\\FileViewFinder": 1,
+          "Illuminate\\View\\Factory": 1,
+          "Illuminate\\View\\Engines\\EngineResolver": 1,
+          "Illuminate\\View\\Engines\\CompilerEngine": 1,
+          "Illuminate\\View\\ViewFinderInterface": 1,
+          "Illuminate\\Events\\Dispatcher": 1,
+          "Illuminate\\Container\\Container": 1,
+          "Twig\\Loader\\FilesystemLoader": 1,
+          "Twig\\Environment": 1,
+          "Symfony\\Component\\Console\\Input\\InputOption": 1,
+          "Omaralalwi\\LaravelDeployer\\Services\\CommandExecutor": 1,
+          "Omaralalwi\\LaravelDeployer\\Enums\\Keys": 1,
+          "Omaralalwi\\LaravelDeployer\\Console\\Commands\\GenerateSshKey": 1,
+          "Omaralalwi\\LaravelDeployer\\Enums\\DeploymentCommands": 1,
+          "Symfony\\Component\\Process\\Exception\\ProcessFailedException": 1,
+          "Omaralalwi\\JobsMetrics\\Console\\Commands\\ShowTopJobsCommand": 1,
+          "Omaralalwi\\JobsMetrics\\Console\\Commands\\ExportJobsMetricsCommand": 1,
+          "Omaralalwi\\JobsMetrics\\Console\\Commands\\CleanupJobsMetricsCommand": 1,
+          "Omaralalwi\\JobsMetrics\\Traits\\HasJobsMetricTracker": 1,
+          "InteractsWithQueue": 1,
+          "Illuminate\\Queue\\InteractsWithQueue": 1,
+          "Illuminate\\Support\\Facades\\Queue": 1,
+          "Omaralalwi\\JobsMetrics\\JobsMetricsServiceProvider": 1,
+          "Modules\\Comment\\Entities\\Comment": 1,
+          "Artisan": 1,
+          "Illuminate\\Database\\Seeder": 1,
+          "Notifiable": 1,
+          "Spatie\\Feed\\FeedItem": 1,
+          "Spatie\\Activitylog\\Traits\\LogsActivity": 1,
+          "LogsActivity": 1,
+          "Spatie\\Feed\\Feedable": 1,
+          "PostPresenter": 1,
+          "Modules\\Article\\Entities\\Presenters\\PostPresenter": 1,
+          "Modules\\Article\\Http\\Requests\\Backend\\CategoriesRequest": 1,
+          "Spatie\\Activitylog\\Models\\Activity": 1,
+          "Modules\\Article\\Http\\Requests\\Backend\\PostsRequest": 1,
+          "Symfony\\Component\\Finder\\Finder": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 1,
+          "Omaralalwi\\LaravelTaxify\\Enums\\TaxTransformKeys": 1,
+          "Omaralalwi\\LaravelTaxify\\Transformers\\TaxifyTransformer": 1,
+          "Omaralalwi\\LaravelTaxify\\Exceptions\\CalculateTaxException": 1,
+          "Tests\\TestCase": 1,
+          "Omaralalwi\\LaravelTrashCleaner\\Commands\\": 1,
+          "Illuminate\\Database\\Eloquent\\Relations\\MorphTo": 1,
+          "Illuminate\\Database\\Eloquent\\Relations\\MorphMany": 1,
+          "Omaralalwi\\LexiTranslate\\Models\\Scopes\\TranslationsScopes": 1,
+          "Omaralalwi\\LexiTranslate\\Traits\\LexiTranslatable": 1,
+          "LexiTranslatable": 1,
+          "Omaralalwi\\LexiTranslate\\LexiTranslateServiceProvider": 1,
+          "Omaralalwi\\LexiTranslate\\Middleware\\ApiLocalized": 1,
+          "Illuminate\\Support\\Facades\\Cookie": 1,
+          "Omaralalwi\\LexiTranslate\\Middleware\\WebLocalized": 1,
+          "App\\Jobs\\UpdateAnystackLicenseExpiryJob": 1,
+          "App\\Jobs\\ImportAnystackContacts": 1,
+          "App\\Jobs\\ImportAnystackLicenses": 1,
+          "Stripe\\Customer": 1,
+          "Stripe\\Exception\\ApiErrorException": 1,
+          "App\\Support\\DiscordApi": 1,
+          "App\\Support\\GitHubOAuth": 1,
+          "App\\Notifications\\LicenseExpiryWarning": 1,
+          "Illuminate\\Support\\Facades\\Mail": 1,
+          "Illuminate\\Support\\Facades\\Notification": 1,
+          "App\\Notifications\\TestNotification": 1,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "routes/console.php": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "Sentry\\Laravel\\Integration": 1,
+          "Torchlight\\Block": 1,
+          "Torchlight\\Commonmark\\V2\\TorchlightExtension": 1,
+          "Laravel\\Pennant\\Feature": 1,
+          "App\\Filament\\Widgets\\LicensesChart": 1,
+          "App\\Filament\\Widgets\\LicenseDistributionChart": 1,
+          "App\\Filament\\Widgets\\StatsOverview": 1,
+          "App\\Filament\\Widgets\\UsersChart": 1,
+          "Filament\\Pages\\Dashboard": 1,
+          "App\\Filament\\Resources\\ArticleResource\\Actions\\PreviewAction": 1,
+          "Filament\\Forms\\Components\\TextInput": 1,
+          "Filament\\Forms\\Components\\Textarea": 1,
+          "Illuminate\\Contracts\\Database\\Eloquent\\Builder": 1,
+          "Filament\\Tables": 1,
+          "Filament\\Tables\\Actions\\ActionGroup": 1,
+          "Filament\\Forms\\Components\\MarkdownEditor": 1,
+          "Filament\\Tables\\Columns\\TextColumn": 1,
+          "Filament\\Forms\\Form": 1,
+          "App\\Filament\\Resources\\ArticleResource\\Actions\\UnpublishAction": 1,
+          "App\\Filament\\Resources\\ArticleResource\\Actions\\PublishAction": 1,
+          "Filament\\Resources\\Resource": 1,
+          "App\\Filament\\Resources\\ArticleResource\\Pages": 1,
+          "Filament\\Forms\\Set": 1,
+          "Filament\\Tables\\Table": 1,
+          "Filament\\Forms\\Components\\Radio": 1,
+          "Filament\\Resources\\Pages\\CreateRecord": 1,
+          "Filament\\Resources\\Pages\\EditRecord": 1,
+          "Filament\\Resources\\Pages\\ListRecords": 1,
+          "Omaralalwi\\PhpBuilders\\Traits\\": 1,
+          "Omaralalwi\\PhpBuilders\\FluentBuilder": 1,
+          "Omaralalwi\\PhpBuilders\\Traits\\Buildable": 1,
+          "App\\Services\\SallaAuthService": 1,
+          "League\\OAuth2\\Client\\Token\\AccessToken": 1,
+          "Lorisleiva\\Actions\\Concerns\\AsAction": 1,
+          "AsAction": 1,
+          "App\\Http\\Requests\\WebhookRequest": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 7,
+        "packages": {
+          "sys": 6,
+          "json": 6,
+          "random": 4,
+          "os": 3,
+          "argparse": 1,
+          "fitz": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "omaralalwi/Gpdf",
+        "files_analyzed": 26,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/Gpdf-Laravel-Demo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/Gpdf-Native-PHP-Demo",
+        "files_analyzed": 11,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/laravel-api-helpers",
+        "files_analyzed": 2,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/laravel-deployer",
+        "files_analyzed": 16,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/laravel-jobs-metrics",
+        "files_analyzed": 18,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/laravel-py",
+        "files_analyzed": 8,
+        "languages_found": [
+          "PHP",
+          "Python"
+        ]
+      },
+      {
+        "repository": "omaralalwi/laravel-startkit",
+        "files_analyzed": 29,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/laravel-taxify",
+        "files_analyzed": 11,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/laravel-time-craft",
+        "files_analyzed": 4,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/laravel-trash-cleaner",
+        "files_analyzed": 4,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/lexi-translate",
+        "files_analyzed": 23,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/nativephp.com",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/pdf-to-img-converter",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "omaralalwi/php-builders",
+        "files_analyzed": 5,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "omaralalwi/php-py",
+        "files_analyzed": 11,
+        "languages_found": [
+          "PHP",
+          "Python"
+        ]
+      },
+      {
+        "repository": "omaralalwi/salla-laravel-starter-kit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

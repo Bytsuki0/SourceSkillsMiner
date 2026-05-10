@@ -1,0 +1,357 @@
+{
+  "username": "epannunzio",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.19606063563966325,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7556294149979564,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 7,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.022545460461265973,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Astro": [
+        2396654,
+        0
+      ],
+      "SCSS": [
+        789751,
+        9
+      ],
+      "TypeScript": [
+        240784,
+        32
+      ],
+      "MDX": [
+        126770,
+        0
+      ],
+      "JavaScript": [
+        86099,
+        27
+      ],
+      "HTML": [
+        528619,
+        134
+      ],
+      "CSS": [
+        391324,
+        255
+      ],
+      "PHP": [
+        1962,
+        3
+      ],
+      "Dart": [
+        1137623,
+        3
+      ],
+      "C++": [
+        100008,
+        0
+      ],
+      "Kotlin": [
+        86083,
+        0
+      ],
+      "CMake": [
+        82295,
+        0
+      ],
+      "Swift": [
+        9367,
+        0
+      ],
+      "C": [
+        6258,
+        0
+      ],
+      "Ruby": [
+        6155,
+        0
+      ],
+      "Java": [
+        3632,
+        0
+      ],
+      "Objective-C": [
+        250,
+        0
+      ],
+      "Python": [
+        726,
+        0
+      ],
+      "Less": [
+        0,
+        0
+      ],
+      "Hack": [
+        0,
+        0
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 463,
+    "total_lines": 5994360,
+    "top_5_languages": [
+      {
+        "language": "CSS",
+        "lines": 391324,
+        "commits": 255
+      },
+      {
+        "language": "HTML",
+        "lines": 528619,
+        "commits": 134
+      },
+      {
+        "language": "TypeScript",
+        "lines": 240784,
+        "commits": 32
+      },
+      {
+        "language": "JavaScript",
+        "lines": 86099,
+        "commits": 27
+      },
+      {
+        "language": "SCSS",
+        "lines": 789751,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "epannunzio",
+    "analysis_date": "2026-05-09T15:06:20.431276",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 131,
+    "languages": {
+      "Dart": {
+        "files_scanned": 10,
+        "packages": {
+          "mason": 8,
+          "dart:io": 2,
+          "flutter": 1,
+          "flutter_bloc": 1,
+          "path": 1,
+          "angular_counter": 1,
+          "ngdart": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 14,
+        "packages": {
+          "react": 6,
+          "skynexui": 3,
+          "express": 2,
+          "next": 2,
+          "styled-components": 2,
+          "rollup": 1,
+          "vitejs": 1,
+          "vite": 1,
+          "http": 1,
+          "socket.io": 1,
+          "t.write(": 1,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "M=": 1,
+          "react-icons": 1,
+          "supabase": 1,
+          "react-dom": 1,
+          "qs": 1,
+          "cors": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "react": 2,
+          "react-dom": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 5,
+        "packages": {
+          "flask": 4,
+          "Curso": 4,
+          "database": 4,
+          "Blueprint": 2,
+          "admin": 2,
+          "os": 2,
+          "login_required": 1,
+          "functools": 1,
+          "redirect": 1,
+          "wraps": 1,
+          "admin_bp": 1,
+          "website": 1,
+          "Flask": 1,
+          "carregar_dados": 1,
+          "website_bp": 1,
+          "json": 1,
+          "datetime": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "react": 5,
+          "hastscript": 1,
+          "astro": 1,
+          "rehype-autolink-headings": 1,
+          "astrojs": 1,
+          "astro:content": 1,
+          "firebase": 1,
+          "vitejs": 1,
+          "vite": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 19,
+        "packages": {
+          "react": 14,
+          "react-router-dom": 9,
+          "react-dom": 2,
+          "phosphor-icons": 2,
+          "classnames": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "epannunzio/AdminLTE",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "epannunzio/bloc",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Dart",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "epannunzio/cardapio-digital",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "epannunzio/catalogo-cursos-flask",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "epannunzio/chat-tempo-real",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "epannunzio/LetMeAsk",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "epannunzio/lista-de-tarefas-react",
+        "files_analyzed": 10,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "epannunzio/LuAntal-Fotografia",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "epannunzio/marvel-cord",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "epannunzio/memes_maker",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "epannunzio/node-api",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,782 @@
+{
+  "username": "lepepe",
+  "areas": {
+    "OSS": {
+      "score": 0.75,
+      "details": {
+        "issue_resolution_rate": 0.625,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.019382800326853022,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.4521511235672025,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 12,
+        "language_transitions": 18,
+        "topic_entropy_bits": 5.0609,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.35387656006537066,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        392898,
+        54
+      ],
+      "Shell": [
+        142,
+        11
+      ],
+      "HTML": [
+        13639,
+        9
+      ],
+      "Python": [
+        52889,
+        46
+      ],
+      "C": [
+        1346,
+        0
+      ],
+      "C++": [
+        262,
+        0
+      ],
+      "PowerShell": [
+        7193,
+        0
+      ],
+      "JavaScript": [
+        74125,
+        37
+      ],
+      "CSS": [
+        2143,
+        9
+      ],
+      "R": [
+        41,
+        0
+      ],
+      "C#": [
+        204,
+        18
+      ],
+      "Lua": [
+        0,
+        20
+      ],
+      "Emacs Lisp": [
+        0,
+        9
+      ],
+      "SCSS": [
+        0,
+        45
+      ],
+      "Nunjucks": [
+        0,
+        5
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "CoffeeScript": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        4
+      ],
+      "XSLT": [
+        0,
+        3
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 270,
+    "total_lines": 544882,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 392898,
+        "commits": 54
+      },
+      {
+        "language": "Python",
+        "lines": 52889,
+        "commits": 46
+      },
+      {
+        "language": "SCSS",
+        "lines": 0,
+        "commits": 45
+      },
+      {
+        "language": "JavaScript",
+        "lines": 74125,
+        "commits": 37
+      },
+      {
+        "language": "Lua",
+        "lines": 0,
+        "commits": 20
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "lepepe",
+    "analysis_date": "2026-05-09T23:02:19.365728",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 306,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "stdio.h": 1,
+          "unistd.h": 1,
+          "<unistd.h>": 1,
+          "<sys/types.h>": 1,
+          "sys/types.h": 1,
+          "<stdio.h>": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 22,
+        "packages": {
+          "Spectre.Console": 11,
+          "Spectre.Console.Cli": 7,
+          "ct.Services": 6,
+          "System.Threading.Tasks": 5,
+          "System.Collections.Generic": 5,
+          "System.Text.Json.Serialization": 5,
+          "CsTodoist.Services": 4,
+          "Cronos": 4,
+          "System.ComponentModel": 4,
+          "System": 3,
+          "ct.Helpers": 3,
+          "ct.Models": 3,
+          "System.Diagnostics": 3,
+          "CsTodoist.Models": 2,
+          "cp.Models": 2,
+          "System.Linq": 1,
+          "CsTodoist.Menus": 1,
+          "System.Text.Json": 1,
+          "System.Net.Http": 1,
+          "System.Net.Http.Json": 1,
+          "CronExpressionDescriptor": 1,
+          "ct.Commands": 1,
+          "System.Text": 1,
+          "stty": 1,
+          "var": 1,
+          "cp": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "anomaly_detection.hpp": 2,
+          "functional": 1,
+          "string": 1,
+          "stl.hpp": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "<string>": 1,
+          "<iterator>": 1,
+          "iostream": 1,
+          "dist.h": 1,
+          "numeric": 1,
+          "<functional>": 1,
+          "iterator": 1,
+          "<numeric>": 1,
+          "<iostream>": 1,
+          "rice/stl.hpp": 1,
+          "<rice/rice.hpp>": 1,
+          "anomaly_detection::Direction": 1,
+          "<rice/stl.hpp>": 1,
+          "rice/rice.hpp": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "vector": 2,
+          "<vector>": 2,
+          "string": 1,
+          "<string>": 1,
+          "<cmath>": 1,
+          "optional": 1,
+          "cassert": 1,
+          "<optional>": 1,
+          "cmath": 1,
+          "<algorithm>": 1,
+          "<cassert>": 1,
+          "algorithm": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "assert.h": 1,
+          "math.h": 1,
+          "<math.h>": 1,
+          "<assert.h>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 2,
+        "packages": {
+          "fmt": 1,
+          "net": 1,
+          "os/exec": 1,
+          "strconv": 1,
+          "strings": 1,
+          "--output-file": 1,
+          "syscall": 1,
+          "net/http": 1,
+          "crypto/tls": 1,
+          "errors": 1,
+          "os/signal": 1,
+          "log": 1,
+          "io/ioutil": 1,
+          "time": 1,
+          "context": 1,
+          "sync": 1,
+          "encoding/json": 1,
+          "--exclude": 1,
+          "flag": 1,
+          "--output-format": 1,
+          "github.com/Sirupsen/logrus": 1,
+          "path/filepath": 1,
+          "--rate": 1,
+          "os": 1,
+          "github.com/google/go-cmp/cmp": 1,
+          "testing": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 18,
+        "packages": {
+          "object": 7,
+          "jquery": 3,
+          "dotenv": 3,
+          "undefined": 2,
+          "moment": 2,
+          "sindresorhus": 2,
+          "fs": 2,
+          "glob": 2,
+          "rgb": 1,
+          "ace": 1,
+          "literal:": 1,
+          "||": 1,
+          "input[name][required]:not([disabled]),textarea[name][required]:not([disabled])": 1,
+          "|": 1,
+          "eleventy-plugin-nesting-toc": 1,
+          "markdown-it-mathjax3": 1,
+          "11ty": 1,
+          "markdown-it-footnote": 1,
+          "markdown-it-anchor": 1,
+          "gray-matter": 1,
+          "html-minifier-terser": 1,
+          "eleventy-plugin-gen-favicons": 1,
+          "markdown-it-attrs": 1,
+          "node-html-parser": 1,
+          "markdown-it": 1,
+          "markdown-it-plantuml": 1,
+          "markdown-it-task-checkbox": 1,
+          "markdown-it-mark": 1,
+          "fs-file-tree": 1,
+          "crypto": 1,
+          "axios": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 5,
+        "packages": {
+          "config.lazy": 1,
+          "onedark": 1,
+          "kyazdani42/nvim-tree.lua": 1,
+          "rose-pine/neovim": 1,
+          "gitsigns": 1,
+          "wbthomason/packer.nvim": 1,
+          "preservim/tagbar": 1,
+          "tanvirtin/monokai.nvim": 1,
+          "nvim-autopairs": 1,
+          "navarasu/onedark.nvim": 1,
+          "packer": 1,
+          "neovim/nvim-lspconfig": 1,
+          "nvim-lua/plenary.nvim": 1,
+          "lukas-reineke/indent-blankline.nvim": 1,
+          "kyazdani42/nvim-web-devicons": 1,
+          "lspconfig": 1,
+          "": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 20,
+        "packages": {
+          "os": 12,
+          "pandas": 9,
+          "sys": 5,
+          "functools": 4,
+          "wraps": 4,
+          "path": 4,
+          "DataFrame": 4,
+          "unittest": 4,
+          "numpy": 3,
+          "inspect": 2,
+          "csv": 2,
+          "re": 2,
+          "datetime": 2,
+          "codecs": 2,
+          "json": 2,
+          "asyncio": 2,
+          "time": 2,
+          "timeit": 2,
+          "ListedColormap": 2,
+          "sklearn": 2,
+          "train_test_split": 2,
+          "StandardScaler": 2,
+          "confusion_matrix": 2,
+          "matplotlib": 2,
+          "dbus": 2,
+          "requests": 1,
+          "aiohttp": 1,
+          "pypandoc": 1,
+          "setuptools": 1,
+          "open": 1,
+          "setup": 1,
+          "collections": 1,
+          "requests_mock": 1,
+          "aioresponses": 1,
+          "streamlit": 1,
+          "KNeighborsClassifier": 1,
+          "DBusGMainLoop": 1,
+          "gobject": 1,
+          "boto": 1,
+          "argparse": 1,
+          "pywal": 1,
+          "layout": 1,
+          "lazy": 1,
+          "subprocess": 1,
+          "libqtile": 1,
+          "Key": 1,
+          "socket": 1,
+          "rich": 1,
+          "Console": 1,
+          "keys": 1,
+          "Table": 1,
+          "config": 1,
+          "dracula": 1
+        }
+      },
+      "R": {
+        "files_scanned": 3,
+        "packages": {
+          "caTools": 2,
+          "ElemStatLearn": 2,
+          "AnomalyDetection": 1,
+          "class": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 105,
+        "packages": {
+          "Kartograph::DSL": 27,
+          "spec_helper": 23,
+          "CanCan::Ability": 5,
+          "bundler/setup": 3,
+          "cancan": 3,
+          "CanCan::ModelAdditions": 3,
+          "active_model/serializer/error_serializer": 2,
+          "active_model/serializer/collection_serializer": 2,
+          "Enumerable": 2,
+          "test_helper": 2,
+          "minitest/pride": 2,
+          "minitest/autorun": 2,
+          "ansible-wrapper": 2,
+          ":run": 2,
+          "Config": 2,
+          "json": 2,
+          "ansible/config": 2,
+          "erb": 2,
+          "cancan/model_adapters/abstract_adapter": 2,
+          "cancan/model_adapters/active_record_adapter": 2,
+          "cancan/model_adapters/mongoid_adapter": 2,
+          "cancan/exceptions": 2,
+          "cancan/rule": 2,
+          "cancan/model_additions": 2,
+          "cancan/controller_resource": 2,
+          "cancan/model_adapters/default_adapter": 2,
+          "cancan/inherited_resource": 2,
+          "cancan/ability": 2,
+          "cancan/controller_additions": 2,
+          "cancan/model_adapters/data_mapper_adapter": 2,
+          "CanCan::ControllerAdditions": 2,
+          "CanCan::ModelAdditions::ClassMethods": 2,
+          "rubygems": 2,
+          "ActiveRecordAdapter": 2,
+          "active_model_serializers/serialization_context": 1,
+          "active_support/core_ext/class/attribute": 1,
+          "ActionController::Renderers": 1,
+          "set": 1,
+          "active_model/serializer/concerns/caching": 1,
+          "active_model/serializer/lint": 1,
+          "active_model/serializer/concerns/attributes": 1,
+          "active_model/serializer/concerns/associations": 1,
+          "active_model/serializer/errors_serializer": 1,
+          "active_model/serializer/fieldset": 1,
+          "active_model/serializer/concerns/configuration": 1,
+          "to_hash": 1,
+          "Configuration": 1,
+          "active_model/serializer/array_serializer": 1,
+          "Type": 1,
+          "active_model/serializer/concerns/meta": 1,
+          "thread_safe": 1,
+          "Attributes": 1,
+          "jsonapi/include_directive": 1,
+          "Associations": 1,
+          "Meta": 1,
+          "Caching": 1,
+          "active_model/serializer/concerns/links": 1,
+          "active_model/serializer/concerns/type": 1,
+          "Links": 1,
+          "to_h": 1,
+          "active_model_serializers/adapter": 1,
+          "active_model/serializer/adapter/json": 1,
+          "active_model_serializers/deprecate": 1,
+          "active_model/serializer/adapter/json_api": 1,
+          "active_model/serializer/adapter/attributes": 1,
+          "active_model/serializer/adapter/base": 1,
+          "active_model/serializer/adapter/null": 1,
+          "active_model/serializer/field": 1,
+          "perform_caching?": 1,
+          "ActiveSupport::Configurable": 1,
+          "mkmf-rice": 1,
+          "anomaly_detection/ext": 1,
+          "vega": 1,
+          "anomaly_detection/version": 1,
+          "date": 1,
+          "sinatra": 1,
+          "ansible/shortcuts": 1,
+          "ansible/playbook": 1,
+          "Ansible::Config": 1,
+          "ansible/version": 1,
+          "ansible/output": 1,
+          "Ansible::PlaybookMethods": 1,
+          "ansible/ad_hoc": 1,
+          "Ansible::Methods": 1,
+          "Methods": 1,
+          ":[]": 1,
+          "strscan": 1,
+          ":<<": 1,
+          "PlaybookMethods": 1,
+          "ansible/safe_pty": 1,
+          "pty": 1,
+          "Ansible": 1,
+          "coveralls": 1,
+          "DataMapper::Resource": 1,
+          "Mongoid::Document": 1,
+          "ostruct": 1,
+          "cancan/matchers": 1,
+          "active_support/all": 1,
+          "matchers": 1,
+          "supermodel": 1,
+          "cancan/model_adapters/active_record_3_adapter": 1,
+          "cancan/model_adapters/sequel_adapter": 1,
+          "cancan/version": 1,
+          "cancan/model_adapters/active_record_4_adapter": 1,
+          "rspec/core": 1,
+          "rspec/expectations": 1,
+          ":failure_message": 1,
+          ":failure_message_when_negated": 1,
+          "chartkick/rails": 1,
+          "chartkick/sinatra": 1,
+          "chartkick/helper": 1,
+          "chartkick/version": 1,
+          "Helper": 1,
+          "chartkick/engine": 1,
+          "sinatra/base": 1,
+          "Chartkick::Helper": 1,
+          "active_record/relation/finder_methods": 1,
+          "composite_primary_keys/relation/calculations": 1,
+          "composite_primary_keys/relation/query_methods": 1,
+          "active_record/attribute_methods": 1,
+          "composite_primary_keys/associations/has_many_through_association": 1,
+          "active_record/associations/has_many_association": 1,
+          "composite_primary_keys/associations/collection_association": 1,
+          "active_record/associations/has_many_through_association": 1,
+          "active_record/associations/join_dependency": 1,
+          "composite_primary_keys/associations/preloader/association": 1,
+          "composite_primary_keys/associations/preloader/belongs_to": 1,
+          "active_record": 1,
+          "active_record/relation/where_clause": 1,
+          "composite_primary_keys/associations/association": 1,
+          "composite_primary_keys/relation/batches": 1,
+          "active_record/model_schema": 1,
+          "composite_primary_keys/relation": 1,
+          "active_record/relation": 1,
+          "active_record/connection_adapters/abstract_adapter": 1,
+          "composite_primary_keys/attribute_methods/primary_key": 1,
+          "composite_primary_keys/attribute_methods/write": 1,
+          "composite_primary_keys/core": 1,
+          "active_record/counter_cache": 1,
+          "composite_primary_keys/version": 1,
+          "composite_primary_keys/associations/has_many_association": 1,
+          "composite_primary_keys/composite_arrays": 1,
+          "composite_primary_keys/composite_predicates": 1,
+          "composite_primary_keys/connection_adapters/abstract_adapter": 1,
+          "composite_primary_keys/fixtures": 1,
+          "active_record/associations/association_scope": 1,
+          "active_record/nested_attributes": 1,
+          "composite_primary_keys/associations/association_scope": 1,
+          "composite_primary_keys/arel/in": 1,
+          "active_record/attribute_methods/primary_key": 1,
+          "active_record/relation/batches": 1,
+          "active_record/sanitization": 1,
+          "active_record/associations/preloader/belongs_to": 1,
+          "composite_primary_keys/attribute_methods": 1,
+          "activerecord": 1,
+          "active_record/fixtures": 1,
+          "active_record/persistence": 1,
+          "active_record/relation/query_methods": 1,
+          "active_record/associations/singular_association": 1,
+          "composite_primary_keys/sanitization": 1,
+          "composite_primary_keys/locking/optimistic": 1,
+          "composite_primary_keys/nested_attributes": 1,
+          "active_record/attribute_set/builder": 1,
+          "composite_primary_keys/relation/finder_methods": 1,
+          "composite_primary_keys/arel/sqlserver": 1,
+          "active_record/associations/collection_association": 1,
+          "composite_primary_keys/associations/join_dependency": 1,
+          "composite_primary_keys/associations/join_dependency/join_association": 1,
+          "composite_primary_keys/relation/predicate_builder": 1,
+          "active_record/associations/association": 1,
+          "composite_primary_keys/connection_adapters/abstract_mysql_adapter": 1,
+          "composite_primary_keys/relation/where_clause": 1,
+          "active_record/attribute_methods/read": 1,
+          "active_record/associations/join_dependency/join_association": 1,
+          "active_record/relation/predicate_builder": 1,
+          "composite_primary_keys/attribute_set/builder": 1,
+          "active_record/relation/calculations": 1,
+          "composite_primary_keys/persistence": 1,
+          "composite_primary_keys/composite_relation": 1,
+          "active_record/locking/optimistic": 1,
+          "composite_primary_keys/arel/to_sql": 1,
+          "composite_primary_keys/base": 1,
+          "active_record/associations/preloader/association": 1,
+          "composite_primary_keys/attribute_methods/read": 1,
+          "active_record/attribute_methods/write": 1,
+          "active_record/connection_adapters/abstract_mysql_adapter": 1,
+          "CompositePrimaryKeys::Predicates": 1,
+          "CompositeInstanceMethods": 1,
+          "CompositePrimaryKeys::ActiveRecord::FinderMethods": 1,
+          "CompositePrimaryKeys::ActiveRecord::Batches": 1,
+          "CompositePrimaryKeys::ActiveRecord::QueryMethods": 1,
+          "CompositePrimaryKeys::ActiveRecord::Calculations": 1,
+          "kartograph": 1,
+          "droplet_kit/version": 1,
+          "resource_kit": 1,
+          "faraday": 1,
+          "droplet_kit/utils": 1,
+          "tmpdir": 1,
+          "digest/md5": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "lepepe/active_model_serializers",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "lepepe/alpha_vantage",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lepepe/AnomalyDetection.rb",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C++",
+          "C++ Header",
+          "C/C++ Header",
+          "R",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "lepepe/ansible-wrapper-ruby",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "lepepe/blazer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lepepe/BPF",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lepepe/cancan",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "lepepe/cancancan",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "lepepe/chartkick",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "lepepe/composite_primary_keys",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "lepepe/cs-todoist",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "lepepe/ct",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "lepepe/data_science_portfolio",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python",
+          "R"
+        ]
+      },
+      {
+        "repository": "lepepe/dockerfiles",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C",
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "lepepe/dotfiles",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Lua",
+          "Python"
+        ]
+      },
+      {
+        "repository": "lepepe/droplet_kit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "lepepe/emoji-cheat-sheet.com",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "lepepe/forge",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lepepe/git-cp",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

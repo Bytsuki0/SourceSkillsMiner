@@ -1,0 +1,406 @@
+{
+  "username": "VigneshJagannadhan",
+  "areas": {
+    "OSS": {
+      "score": 0.7069460425727709,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.9166666666666666,
+        "commits_activity": 0.977085730525823
+      }
+    },
+    "Status": {
+      "score": 0.3565186921454204,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.977085730525823,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 0.7125,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 4,
+        "topic_entropy_bits": 3.3219,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.3551929469436383,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        111011,
+        5
+      ],
+      "Dart": [
+        45308,
+        105
+      ],
+      "Kotlin": [
+        1002,
+        6
+      ],
+      "Swift": [
+        1758,
+        5
+      ],
+      "Ruby": [
+        982,
+        0
+      ],
+      "Objective-C": [
+        14,
+        0
+      ],
+      "HTML": [
+        16696,
+        0
+      ],
+      "CSS": [
+        15578,
+        0
+      ],
+      "C++": [
+        10638,
+        11
+      ],
+      "CMake": [
+        8463,
+        8
+      ],
+      "C": [
+        610,
+        0
+      ],
+      "TypeScript": [
+        1407,
+        1
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 141,
+    "total_lines": 213467,
+    "top_5_languages": [
+      {
+        "language": "Dart",
+        "lines": 45308,
+        "commits": 105
+      },
+      {
+        "language": "C++",
+        "lines": 10638,
+        "commits": 11
+      },
+      {
+        "language": "CMake",
+        "lines": 8463,
+        "commits": 8
+      },
+      {
+        "language": "Kotlin",
+        "lines": 1002,
+        "commits": 6
+      },
+      {
+        "language": "JavaScript",
+        "lines": 111011,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "VigneshJagannadhan",
+    "analysis_date": "2026-05-09T19:28:56.295739",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 242,
+    "languages": {
+      "C++": {
+        "files_scanned": 3,
+        "packages": {
+          "my_application.h": 2,
+          "generated_plugin_registrant.h": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "flutter/generated_plugin_registrant.h": 1,
+          "<gdk/gdkx.h>": 1,
+          "gdk/gdkx.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 8,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 7,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "flutter_linux/flutter_linux.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 138,
+        "packages": {
+          "flutter": 64,
+          "flutter_screenutil": 24,
+          "slot_booking_app": 20,
+          "indian_app_guy": 15,
+          "whatsapp_clone": 15,
+          "techsaint_app": 14,
+          "dart:developer": 11,
+          "cloud_firestore": 11,
+          "dio": 10,
+          "trippify": 10,
+          "vignesh_project_01": 10,
+          "provider": 9,
+          "fpdart": 9,
+          "flutter_test": 7,
+          "dart:async": 6,
+          "shared_preferences": 6,
+          "flutter_live_location": 5,
+          "get_it": 5,
+          "flutter_dotenv": 5,
+          "firebase_auth": 5,
+          "dart:io": 4,
+          "json_annotation": 4,
+          "permission_handler": 3,
+          "models/location_permission_status.dart": 3,
+          "models/location_config.dart": 3,
+          "exceptions/location_exceptions.dart": 3,
+          "models/location_update.dart": 3,
+          "plugin_platform_interface": 3,
+          "flutter_secure_storage": 3,
+          "supabase_flutter": 3,
+          "flutter_bloc": 3,
+          "hive_flutter": 3,
+          "firebase_messaging": 3,
+          "vk_location_sharing": 3,
+          "geolocator": 3,
+          "flutter_svg": 3,
+          "live_location_platform_interface.dart": 2,
+          "connectivity_plus": 2,
+          "google_fonts": 2,
+          "equatable": 2,
+          "firebase_core": 2,
+          "flutter_local_notifications": 2,
+          "integration_test": 1,
+          "live_location_example": 1,
+          "live_location_method_channel.dart": 1,
+          "location_accuracy.dart": 1,
+          "dart:math": 1,
+          "path_provider": 1,
+          "hive": 1,
+          "dart:convert": 1,
+          "app_localizations_de.dart": 1,
+          "intl": 1,
+          "app_localizations_en.dart": 1,
+          "flutter_localizations": 1,
+          "app_localizations_es.dart": 1,
+          "app_localizations_it.dart": 1,
+          "dart:ui": 1,
+          "socket_io_client": 1,
+          "package_info_plus": 1,
+          "workmanager": 1,
+          "background_service.dart": 1,
+          "location_service.dart": 1,
+          "mocktail": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 10,
+        "packages": {
+          "mongoose": 4,
+          "express": 4,
+          "jsonwebtoken": 3,
+          "Movie": 1,
+          "Review": 1,
+          "bcryptjs": 1,
+          "bcrypt": 1,
+          "body-parser": 1,
+          "dotenv": 1,
+          "cors": 1,
+          "globals": 1,
+          "eslint-plugin-react-hooks": 1,
+          "eslint-plugin-react-refresh": 1,
+          ":": 1,
+          "eslint": 1,
+          "typescript-eslint": 1,
+          "tailwindcss": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 12,
+        "packages": {
+          "io.flutter": 8,
+          "com.live_location": 5,
+          "android.content": 5,
+          "com.example": 5,
+          "android.os": 4,
+          "android.app": 3,
+          "androidx.core": 3,
+          "android.Manifest": 2,
+          "androidx.annotation": 1,
+          "com.google": 1,
+          "androidx.lifecycle": 1,
+          "android.location": 1,
+          "com.trippify": 1,
+          "com.vignesh": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 16,
+        "packages": {
+          "Flutter": 15,
+          "UIKit": 15,
+          "XCTest": 7,
+          "CoreLocation": 2,
+          "Foundation": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 6,
+        "packages": {
+          "axios": 2,
+          "react": 2,
+          "jwt-decode": 1,
+          "vite": 1,
+          "vitejs": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 7,
+        "packages": {
+          "react": 7,
+          "react-router-dom": 4,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "VigneshJagannadhan/CineVibeBackend",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "VigneshJagannadhan/flutter_live_location",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "VigneshJagannadhan/Ppt_generator_magic_slides",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "VigneshJagannadhan/slot_booking_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "VigneshJagannadhan/Techsaint-App",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "VigneshJagannadhan/trip-management-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "VigneshJagannadhan/VChat",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "VigneshJagannadhan/VChat-admin",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "VigneshJagannadhan/vk_location_sharing",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Dart"
+        ]
+      },
+      {
+        "repository": "VigneshJagannadhan/WhatsApp-Desktop-Clone",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

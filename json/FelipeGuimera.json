@@ -1,0 +1,167 @@
+{
+  "username": "FelipeGuimera",
+  "areas": {
+    "OSS": {
+      "score": 0.24303273250146407,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.864549098752196
+      }
+    },
+    "Status": {
+      "score": 0.31995580942454094,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.864549098752196,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": -0.775,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.007597708385200984,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Kotlin": [
+        18098,
+        59
+      ],
+      "HTML": [
+        121548,
+        11
+      ],
+      "CSS": [
+        30485,
+        2
+      ],
+      "JavaScript": [
+        489,
+        0
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 72,
+    "total_lines": 170620,
+    "top_5_languages": [
+      {
+        "language": "Kotlin",
+        "lines": 18098,
+        "commits": 59
+      },
+      {
+        "language": "HTML",
+        "lines": 121548,
+        "commits": 11
+      },
+      {
+        "language": "CSS",
+        "lines": 30485,
+        "commits": 2
+      },
+      {
+        "language": "JavaScript",
+        "lines": 489,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "FelipeGuimera",
+    "analysis_date": "2026-05-09T18:54:41.125420",
+    "total_repos_analyzed": 5,
+    "total_files_analyzed": 53,
+    "languages": {
+      "Kotlin": {
+        "files_scanned": 52,
+        "packages": {
+          "com.example": 52,
+          "android.view": 18,
+          "android.os": 10,
+          "androidx.recyclerview": 10,
+          "android.graphics": 10,
+          "androidx.fragment": 9,
+          "com.google": 9,
+          "kotlinx.coroutines": 8,
+          "androidx.lifecycle": 8,
+          "androidx.navigation": 7,
+          "android.content": 7,
+          "android.widget": 5,
+          "com.bumptech": 5,
+          "org.junit": 4,
+          "android.util": 4,
+          "java.util": 3,
+          "java.io": 3,
+          "androidx.room": 3,
+          "androidx.test": 2,
+          "androidx.appcompat": 2,
+          "androidx.activity": 2,
+          "android.app": 2,
+          "android.provider": 2,
+          "android.net": 1,
+          "java.lang": 1,
+          "androidx.core": 1,
+          "java.net": 1,
+          "retrofit2.http": 1,
+          "retrofit2.Retrofit": 1,
+          "retrofit2.converter": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "FelipeGuimera/BlogApp-MVVM",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "FelipeGuimera/MovieApp-MVVM",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Kotlin"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "username": "Azure4Arjun",
+  "areas": {
+    "OSS": {
+      "score": -0.6438430509309052,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.5342354236036423
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Adaptability": {
+      "score": -0.4375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 8,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.28293527685284775,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        13824539,
+        0
+      ],
+      "Batchfile": [
+        11791832,
+        0
+      ],
+      "SQLPL": [
+        1094547,
+        0
+      ],
+      "PowerShell": [
+        4534908,
+        0
+      ],
+      "Jupyter Notebook": [
+        3086553,
+        0
+      ],
+      "TSQL": [
+        1245249,
+        0
+      ],
+      "Shell": [
+        2278893,
+        0
+      ],
+      "Go": [
+        1172994,
+        0
+      ],
+      "Python": [
+        568646,
+        0
+      ],
+      "HCL": [
+        473851,
+        0
+      ],
+      "Dockerfile": [
+        302851,
+        0
+      ],
+      "Jinja": [
+        244989,
+        0
+      ],
+      "Makefile": [
+        69926,
+        0
+      ],
+      "HTML": [
+        50289,
+        1
+      ],
+      "PLpgSQL": [
+        75558,
+        0
+      ],
+      "PLSQL": [
+        1654,
+        0
+      ],
+      "C#": [
+        1828498,
+        0
+      ],
+      "CSS": [
+        46631,
+        0
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 1,
+    "total_lines": 42692408,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 50289,
+        "commits": 1
+      },
+      {
+        "language": "JavaScript",
+        "lines": 13824539,
+        "commits": 0
+      },
+      {
+        "language": "Batchfile",
+        "lines": 11791832,
+        "commits": 0
+      },
+      {
+        "language": "SQLPL",
+        "lines": 1094547,
+        "commits": 0
+      },
+      {
+        "language": "PowerShell",
+        "lines": 4534908,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Azure4Arjun",
+    "analysis_date": "2026-05-09T23:09:57.211163",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 90,
+    "languages": {
+      "C#": {
+        "files_scanned": 29,
+        "packages": {
+          "System.Text": 29,
+          "System.Collections.Generic": 29,
+          "System.Linq": 29,
+          "System.Threading.Tasks": 29,
+          "System.IO": 21,
+          "System.Threading": 11,
+          "System.Reflection": 11,
+          "Microsoft.SqlServer.XEvent.Linq": 10,
+          "Microsoft.SqlServer.XEvent": 10,
+          "System.Data.SQLite": 9,
+          "System.Web": 7,
+          "System.Text.RegularExpressions": 3,
+          "System.Data": 2,
+          "System.Data.SqlClient": 1,
+          "System.Xml": 1,
+          "System.Xml.Linq": 1,
+          "System.ComponentModel": 1,
+          "System.Windows.Forms": 1,
+          "System.Drawing": 1,
+          "System.Windows.Forms.DataVisualization.Charting": 1,
+          "2": 1,
+          "DbgEngManaged": 1,
+          "SqlCsScripts.Scripts": 1,
+          "SqlDebugTypes": 1,
+          "HkDebugTypes": 1,
+          "SqlCsScripts.Common": 1,
+          "SqlCsScripts.Extensions": 1,
+          "CsDebugScript": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 12,
+        "packages": {
+          "fmt": 12,
+          "github.com/dghubble/oauth1": 2,
+          "log": 2,
+          "github.com/dghubble/go-twitter/twitter": 2,
+          "os": 2
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 34,
+        "packages": {
+          "Lunr": 18,
+          "undefined": 5,
+          "object": 3,
+          "function": 3,
+          "fs": 1,
+          "child_process": 1,
+          "fs-readdir-recursive": 1,
+          "path": 1,
+          "archiver": 1,
+          "readline": 1,
+          "marked": 1,
+          "delete": 1,
+          "ncp": 1,
+          "pandoc-bin": 1,
+          "jQuery": 1,
+          "jquery": 1,
+          "-": 1,
+          "[一二三四五六七八九十百千万億兆]": 1,
+          "return": 1,
+          "use": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 5,
+        "packages": {
+          "ConnectHandler": 3,
+          "netmiko": 3,
+          "time": 2,
+          "paramiko": 2,
+          "getpass": 2,
+          "cmd": 1,
+          "sys": 1,
+          "datetime": 1,
+          "os": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Azure4Arjun/10985-Introduction_to_SQL_Databases-",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Azure4Arjun/90DaysOfDevOps",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Azure4Arjun/AGLatency",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "Azure4Arjun/amazon-ec2-mssql-workshop",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Azure4Arjun/awesome-aws-workshops",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

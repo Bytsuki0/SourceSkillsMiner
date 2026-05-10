@@ -1,0 +1,265 @@
+{
+  "username": "guborges",
+  "areas": {
+    "OSS": {
+      "score": 0.1914196074919372,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7871294112379058
+      }
+    },
+    "Status": {
+      "score": 0.20424012031244998,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7871294112379058,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.7375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.01836805443912258,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        1297484,
+        0
+      ],
+      "Shell": [
+        27470,
+        22
+      ],
+      "TypeScript": [
+        27467,
+        0
+      ],
+      "HTML": [
+        11112,
+        0
+      ],
+      "JavaScript": [
+        459,
+        0
+      ],
+      "CSS": [
+        148,
+        0
+      ],
+      "Batchfile": [
+        78,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 22,
+    "total_lines": 1364218,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 27470,
+        "commits": 22
+      },
+      {
+        "language": "Python",
+        "lines": 1297484,
+        "commits": 0
+      },
+      {
+        "language": "TypeScript",
+        "lines": 27467,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 11112,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 459,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "guborges",
+    "analysis_date": "2026-05-09T20:45:49.061161",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 60,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "fs": 1,
+          "path": 1,
+          "esbuild": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 27,
+        "packages": {
+          "agentscope": 25,
+          "asyncio": 18,
+          "os": 16,
+          "Msg": 11,
+          "ReActAgent": 10,
+          "DashScopeChatModel": 9,
+          "DashScopeChatFormatter": 9,
+          "json": 9,
+          "Toolkit": 7,
+          "InMemoryMemory": 5,
+          "typing": 5,
+          "TextBlock": 4,
+          "ToolResponse": 3,
+          "pydantic": 3,
+          "BaseModel": 3,
+          "the": 2,
+          "DashScopeTextEmbedding": 2,
+          "Generator": 2,
+          "Callable": 2,
+          "Any": 2,
+          "DashScopeMultiAgentFormatter": 2,
+          "pathlib": 1,
+          "Path": 1,
+          "ClientConfig": 1,
+          "WellKnownAgentCardResolver": 1,
+          "A2AAgent": 1,
+          "a2a": 1,
+          "AgentCard": 1,
+          "v2": 1,
+          "FileAgentCardResolver": 1,
+          "datetime": 1,
+          "time": 1,
+          "tempfile": 1,
+          "parse_data_with_mapper": 1,
+          "OpenAIChatModel": 1,
+          "GeneralEvaluator": 1,
+          "RelevanceGrader": 1,
+          "BaseGrader": 1,
+          "openjudge": 1,
+          "GraderScore": 1,
+          "CorrectnessGrader": 1,
+          "FileEvaluatorStorage": 1,
+          "ReActAgentBase": 1,
+          "mem0": 1,
+          "Mem0LongTermMemory": 1,
+          "HttpStatefulClient": 1,
+          "fakeredis": 1,
+          "sqlalchemy": 1,
+          "create_async_engine": 1,
+          "AsyncGenerator": 1,
+          "ChatResponse": 1,
+          "MsgHub": 1,
+          "PlanNotebook": 1,
+          "HuggingFaceTokenCounter": 1,
+          "matplotlib": 1,
+          "pyplot": 1,
+          "ClientEvents": 1,
+          "DashScopeRealtimeModel": 1,
+          "ChatRoom": 1,
+          "RealtimeAgent": 1,
+          "JSONSession": 1,
+          "StateModule": 1,
+          "OpenAITokenCounter": 1,
+          "inspect": 1,
+          "base64": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 26,
+        "packages": {
+          "path": 18,
+          "fs": 16,
+          "os": 11,
+          "vscode": 8,
+          "vitest": 5,
+          "playwright": 4,
+          "http": 3,
+          "child_process": 2,
+          "vscode-executable.txt": 1,
+          "claude-hook.js": 1,
+          "server.json": 1,
+          "crypto": 1,
+          "__tests__": 1,
+          "down": 1,
+          "pngjs": 1,
+          "type": 1,
+          "pixel-agents.soundEnabled": 1,
+          "pixel-agents.watchAllSessions": 1,
+          "pixel-agents.agents": 1,
+          "pixel-agents.alwaysShowLabels": 1,
+          "pixel-agents.exportDefaultLayout": 1,
+          "Claude": 1,
+          "config.json": 1,
+          "pixel-agents.panelView": 1,
+          "pixel-agents.hooksEnabled": 1,
+          "layout.json": 1,
+          "pixel-agents.agentSeats": 1,
+          "pixel-agents.lastSeenVersion": 1,
+          "pixel-agents.layout": 1,
+          "pixel-agents.hooksInfoShown": 1,
+          "pixel-agents.showPanel": 1,
+          "layoutRevision": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "guborges/agentscope",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "guborges/pixel-agents",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

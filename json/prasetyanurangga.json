@@ -1,0 +1,805 @@
+{
+  "username": "prasetyanurangga",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.20907650413875678,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7751532177465966,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 10,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.158481967494418,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Dart": [
+        36065,
+        312
+      ],
+      "C++": [
+        1342,
+        35
+      ],
+      "CMake": [
+        1080,
+        30
+      ],
+      "HTML": [
+        5675,
+        10
+      ],
+      "Ruby": [
+        160,
+        0
+      ],
+      "Swift": [
+        667,
+        2
+      ],
+      "C": [
+        81,
+        2
+      ],
+      "Kotlin": [
+        4058,
+        43
+      ],
+      "Objective-C": [
+        49,
+        0
+      ],
+      "Go": [
+        409,
+        59
+      ],
+      "PHP": [
+        431232,
+        10
+      ],
+      "JavaScript": [
+        14281,
+        196
+      ],
+      "PLpgSQL": [
+        240,
+        0
+      ],
+      "CSS": [
+        1607,
+        7
+      ],
+      "Shell": [
+        60,
+        0
+      ],
+      "Awk": [
+        23,
+        0
+      ],
+      "Batchfile": [
+        19,
+        0
+      ],
+      "Python": [
+        0,
+        7
+      ],
+      "Java": [
+        0,
+        0
+      ],
+      "SCSS": [
+        0,
+        0
+      ],
+      "Jupyter Notebook": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        71
+      ]
+    },
+    "language_count": 22,
+    "total_commits": 784,
+    "total_lines": 497048,
+    "top_5_languages": [
+      {
+        "language": "Dart",
+        "lines": 36065,
+        "commits": 312
+      },
+      {
+        "language": "JavaScript",
+        "lines": 14281,
+        "commits": 196
+      },
+      {
+        "language": "TypeScript",
+        "lines": 0,
+        "commits": 71
+      },
+      {
+        "language": "Go",
+        "lines": 409,
+        "commits": 59
+      },
+      {
+        "language": "Kotlin",
+        "lines": 4058,
+        "commits": 43
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "prasetyanurangga",
+    "analysis_date": "2026-05-09T17:28:51.518000",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 408,
+    "languages": {
+      "C++": {
+        "files_scanned": 16,
+        "packages": {
+          "generated_plugin_registrant.h": 4,
+          "my_application.h": 4,
+          "flutter/generated_plugin_registrant.h": 4,
+          "flutter_window.h": 4,
+          "utils.h": 4,
+          "<windows.h>": 4,
+          "windows.h": 4,
+          "flutter_windows.h": 4,
+          "<flutter_windows.h>": 4,
+          "<gdk/gdkx.h>": 2,
+          "flutter_linux/flutter_linux.h": 2,
+          "<flutter_linux/flutter_linux.h>": 2,
+          "gdk/gdkx.h": 2,
+          "optional": 2,
+          "<optional>": 2,
+          "flutter/dart_project.h": 2,
+          "<flutter/flutter_view_controller.h>": 2,
+          "<flutter/dart_project.h>": 2,
+          "flutter/flutter_view_controller.h": 2,
+          "<io.h>": 2,
+          "<stdio.h>": 2,
+          "io.h": 2,
+          "<iostream>": 2,
+          "stdio.h": 2,
+          "iostream": 2,
+          "EnableNonClientDpiScaling": 2,
+          "resource.h": 2,
+          "win32_window.h": 2,
+          "<url_launcher_linux/url_launcher_plugin.h>": 1,
+          "url_launcher_linux/url_launcher_plugin.h": 1,
+          "<url_launcher_windows/url_launcher_windows.h>": 1,
+          "url_launcher_windows/url_launcher_windows.h": 1,
+          "firebase_core/firebase_core_plugin_c_api.h": 1,
+          "<firebase_core/firebase_core_plugin_c_api.h>": 1,
+          "firebase_auth/firebase_auth_plugin_c_api.h": 1,
+          "<firebase_auth/firebase_auth_plugin_c_api.h>": 1,
+          "dwmapi.h": 1,
+          "<dwmapi.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 21,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 9,
+          "memory": 4,
+          "<memory>": 4,
+          "string": 4,
+          "<string>": 4,
+          "flutter_linux/flutter_linux.h": 2,
+          "<flutter_linux/flutter_linux.h>": 2,
+          "<gtk/gtk.h>": 2,
+          "gtk/gtk.h": 2,
+          "<flutter/plugin_registry.h>": 2,
+          "flutter/plugin_registry.h": 2,
+          "flutter/dart_project.h": 2,
+          "<flutter/flutter_view_controller.h>": 2,
+          "<flutter/dart_project.h>": 2,
+          "win32_window.h": 2,
+          "flutter/flutter_view_controller.h": 2,
+          "vector": 2,
+          "<vector>": 2,
+          "<windows.h>": 2,
+          "functional": 2,
+          "windows.h": 2,
+          "<functional>": 2
+        }
+      },
+      "Dart": {
+        "files_scanned": 139,
+        "packages": {
+          "flutter": 71,
+          "equatable": 22,
+          "meta": 20,
+          "find_resto": 18,
+          "bloc": 17,
+          "dart:async": 17,
+          "stacked": 13,
+          "dart:io": 13,
+          "absensi_web_admin": 12,
+          "chattingan": 12,
+          "flutter_bloc": 11,
+          "baseflutter": 11,
+          "dart:convert": 10,
+          "stacked_services": 8,
+          "http": 6,
+          "mobile_cityzen": 6,
+          "flutter_boilerplate": 6,
+          "custom_exception.dart": 5,
+          "covid_19": 5,
+          "home_viewmodel.dart": 4,
+          "path_provider": 4,
+          "flutter_svg": 4,
+          "flutter_test": 4,
+          "mason": 4,
+          "rxdart": 4,
+          "flagly": 4,
+          "responsive_builder": 3,
+          "permission_handler": 3,
+          "dart:typed_data": 3,
+          "teacher_track": 3,
+          "app.locator.dart": 2,
+          "flutter_dotenv": 2,
+          "dart:math": 2,
+          "login_viewmodel.dart": 2,
+          "dio": 2,
+          "url_launcher": 2,
+          "{{feature_name.snakeCase()}}_local_datasource.dart": 2,
+          "{{feature_name.snakeCase()}}_remote_datasource.dart": 2,
+          "connectivity": 2,
+          "firebase_core": 2,
+          "app.router.dart": 1,
+          "stacked_shared": 1,
+          "supabase_flutter": 1,
+          "url_strategy": 1,
+          "flutter_animate": 1,
+          "notice_sheet_model.dart": 1,
+          "info_alert_dialog_model.dart": 1,
+          "home_view.tablet.dart": 1,
+          "home_view.desktop.dart": 1,
+          "home_view.mobile.dart": 1,
+          "login_view.mobile.dart": 1,
+          "login_view.desktop.dart": 1,
+          "login_view.tablet.dart": 1,
+          "login_view.form.dart": 1,
+          "provider": 1,
+          "sqflite": 1,
+          "socket_io_client": 1,
+          "open_file": 1,
+          "file_picker": 1,
+          "flutter_inappwebview": 1,
+          "dart:collection": 1,
+          "dart:ui": 1,
+          "fluttertoast": 1,
+          "dart:isolate": 1,
+          "flutter_downloader": 1,
+          "dribbble": 1,
+          "get_it": 1,
+          "data/datasource/local/{{feature_name.snakeCase()}}_local_datasource_impl.dart": 1,
+          "domain/use_cases/fetch_{{feature_name.snakeCase()}}_use_case.dart": 1,
+          "data/datasource/remote/{{feature_name.snakeCase()}}_remote_datasource_impl.dart": 1,
+          "domain/repositories/{{feature_name.snakeCase()}}_repository.dart": 1,
+          "data/datasource/remote/{{feature_name.snakeCase()}}_remote_datasource.dart": 1,
+          "data/repositories/{{feature_name.snakeCase()}}_repository_impl.dart": 1,
+          "data/datasource/local/{{feature_name.snakeCase()}}_local_datasource.dart": 1,
+          "cached_network_image": 1,
+          "shimmer": 1,
+          "gap": 1,
+          "search_choices": 1,
+          "universal_html": 1,
+          "get": 1,
+          "dart:html": 1,
+          "theme.dart": 1,
+          "dart:core": 1,
+          "shared_preferences": 1,
+          "routes.dart": 1,
+          "authentication_event.dart": 1,
+          "authentication_state.dart": 1,
+          "flutter_secure_storage": 1,
+          "pages/home_page.dart": 1,
+          "google_sign_in": 1,
+          "firebase_auth": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 7,
+        "packages": {
+          "log": 3,
+          "net/http": 3,
+          "github.com/spf13/viper": 2,
+          "encoding/json": 2,
+          "api_with_gorm/model": 2,
+          "fmt": 2,
+          "api_with_gorm/utils": 2,
+          "strconv": 1,
+          "crypto/tls": 1,
+          "api_with_gorm/repository": 1,
+          "time": 1,
+          "github.com/jinzhu/gorm": 1,
+          "%v:%v@tcp(%v:%v)/%v?parseTime=true": 1,
+          "lat_from": 1,
+          "post": 1,
+          "email": 1,
+          "name": 1,
+          "github.com/swaggo/swag": 1,
+          "$ref": 1,
+          "main.LatLong": 1,
+          "responses": 1,
+          "termsOfService": 1,
+          "schema": 1,
+          "lng_to": 1,
+          "properties": 1,
+          "required": 1,
+          "data": 1,
+          "lat_to": 1,
+          "title": 1,
+          "200": 1,
+          "url": 1,
+          "contact": 1,
+          "distance": 1,
+          "swagger": 1,
+          "main.ResponseItem": 1,
+          "application/json": 1,
+          "direction": 1,
+          "definitions": 1,
+          "consumes": 1,
+          "summary": 1,
+          "info": 1,
+          "host": 1,
+          "main.Response": 1,
+          "bearing": 1,
+          "license": 1,
+          "version": 1,
+          "\\": 1,
+          "in": 1,
+          "paths": 1,
+          "parameters": 1,
+          "description": 1,
+          "produces": 1,
+          "tags": 1,
+          "lng_from": 1,
+          "schemes": 1,
+          "basePath": 1,
+          "type": 1,
+          "math": 1,
+          "github.com/gin-gonic/gin": 1,
+          "github.com/gin-contrib/cors": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 1,
+        "packages": {
+          "io.flutter": 1,
+          "android.content": 1,
+          "androidx.annotation": 1,
+          "androidx.multidex": 1,
+          "android.app": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 14,
+        "packages": {
+          "mongoose": 5,
+          "sapper": 4,
+          "2.1.2": 2,
+          "undefined": 2,
+          "object": 2,
+          "function": 1,
+          "use": 1,
+          "module": 1,
+          "rollup-plugin-terser": 1,
+          "rollup-plugin-babel": 1,
+          "rollup": 1,
+          "rollup-plugin-svelte": 1,
+          "sirv": 1,
+          "compression": 1,
+          "polka": 1,
+          "svelte": 1,
+          "express": 1,
+          "fs": 1,
+          "http": 1,
+          "socket.io": 1,
+          "body-parser": 1,
+          "bluebird": 1,
+          "bcrypt": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 13,
+        "packages": {
+          "io.flutter": 9,
+          "com.prasetyanurangga": 5,
+          "com.example": 4,
+          "android.os": 3,
+          "androidx.annotation": 3,
+          "org.junit": 2,
+          "com.google": 2,
+          "android.content": 2,
+          "kotlinx.android": 2,
+          "androidx.appcompat": 2,
+          "androidx.test": 1,
+          "android.widget": 1,
+          "android.util": 1,
+          "com.facebook": 1,
+          "android.app": 1,
+          "android.view": 1,
+          "com.traspac": 1,
+          "com.minerva": 1,
+          "com.didik": 1,
+          "me.simpleboilerplate": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 43,
+        "packages": {
+          "OpenApi\\Annotations": 6,
+          "Yiisoft\\Arrays\\Modifier\\ReverseBlockMerge": 5,
+          "Yii": 4,
+          "yii\\helpers\\Url": 4,
+          "Yiisoft\\Composer\\Config\\Builder": 3,
+          "Yiisoft\\Factory\\Definitions\\Reference": 3,
+          "Psr\\Http\\Message\\ResponseInterface": 3,
+          "Yiisoft\\RequestModel\\RequestModel": 3,
+          "Yiisoft\\Router\\Group": 2,
+          "Spiral\\Database\\Driver\\SQLite\\SQLiteDriver": 2,
+          "Yiisoft\\Auth\\Middleware\\Authentication": 2,
+          "Yiisoft\\Http\\Method": 2,
+          "Yiisoft\\Di\\Container": 2,
+          "Yiisoft\\Yii\\Web\\Application": 2,
+          "Yiisoft\\Yii\\Web\\SapiEmitter": 2,
+          "Yiisoft\\Yii\\Web\\ServerRequestFactory": 2,
+          "Psr\\Container\\ContainerInterface": 2,
+          "Doctrine\\Common\\Annotations\\AnnotationReader": 2,
+          "App\\User\\UserRequest": 2,
+          "Yiisoft\\DataResponse\\DataResponseFactoryInterface": 2,
+          "Yiisoft\\Validator\\Rule\\Required": 2,
+          "Yiisoft\\RequestModel\\ValidatableModelInterface": 2,
+          "yii\\filters\\AccessControl": 2,
+          "App\\Factory\\ApiResponseDataFactory": 2,
+          "yii\\filters\\ContentNegotiator": 2,
+          "yii\\filters\\VerbFilter": 2,
+          "app\\models\\Session": 2,
+          "yii\\web\\Response": 2,
+          "app\\models\\User": 2,
+          "yii\\web\\Controller": 2,
+          "yii\\db\\ActiveRecord": 2,
+          "Yiisoft\\Cache\\File\\FileCache": 1,
+          "Psr\\SimpleCache\\CacheInterface": 1,
+          "Yiisoft\\Router\\RouteCollectorInterface": 1,
+          "Yiisoft\\Router\\RouteCollection": 1,
+          "App\\Middleware\\ExceptionMiddleware": 1,
+          "Yiisoft\\DataResponse\\Middleware\\FormatDataResponse": 1,
+          "Yiisoft\\Router\\RouteCollectionInterface": 1,
+          "Yiisoft\\Request\\Body\\RequestBodyParser": 1,
+          "Cycle\\Schema\\Generator": 1,
+          "Yiisoft\\Yii\\Cycle\\Schema\\Provider\\SimpleCacheSchemaProvider": 1,
+          "Yiisoft\\Yii\\Cycle\\Schema\\Provider\\FromConveyorSchemaProvider": 1,
+          "Yiisoft\\Assets\\AssetManager": 1,
+          "App\\Provider\\RepositoryProvider": 1,
+          "Yiisoft\\Swagger\\Middleware\\SwaggerJson": 1,
+          "App\\User\\UserController": 1,
+          "Yiisoft\\DataResponse\\Middleware\\FormatDataResponseAsHtml": 1,
+          "App\\Auth\\AuthController": 1,
+          "Yiisoft\\DataResponse\\Middleware\\FormatDataResponseAsJson": 1,
+          "App\\Blog\\BlogController": 1,
+          "Yiisoft\\Swagger\\Middleware\\SwaggerUi": 1,
+          "App\\Factory\\RestGroupFactory": 1,
+          "Yiisoft\\Router\\Route": 1,
+          "App\\InfoController": 1,
+          "Yiisoft\\Yii\\Web\\Middleware\\SubFolder": 1,
+          "Yiisoft\\Injector\\Injector": 1,
+          "App\\NotFoundHandler": 1,
+          "Yiisoft\\Middleware\\Dispatcher\\MiddlewareDispatcher": 1,
+          "Yiisoft\\Router\\Middleware\\Router": 1,
+          "Yiisoft\\ErrorHandler\\ErrorCatcher": 1,
+          "Yiisoft\\Auth\\Method\\HttpHeader": 1,
+          "Yiisoft\\Auth\\IdentityRepositoryInterface": 1,
+          "Yiisoft\\Auth\\IdentityWithTokenRepositoryInterface": 1,
+          "App\\Auth\\AuthRequestErrorHandler": 1,
+          "App\\User\\UserRepository": 1,
+          "Yiisoft\\Auth\\AuthenticationMethodInterface": 1,
+          "App\\Formatter\\ApiResponseFormatter": 1,
+          "Yiisoft\\DataResponse\\DataResponseFormatterInterface": 1,
+          "Yiisoft\\ErrorHandler\\ThrowableRendererInterface": 1,
+          "Yiisoft\\ErrorHandler\\JsonRenderer": 1,
+          "HttpSoft\\Message\\ResponseFactory": 1,
+          "HttpSoft\\Message\\UploadedFileFactory": 1,
+          "HttpSoft\\Message\\UriFactory": 1,
+          "Psr\\Http\\Message\\ResponseFactoryInterface": 1,
+          "Psr\\Http\\Message\\UriFactoryInterface": 1,
+          "Psr\\Http\\Message\\UploadedFileFactoryInterface": 1,
+          "Psr\\Http\\Message\\RequestFactoryInterface": 1,
+          "HttpSoft\\Message\\RequestFactory": 1,
+          "HttpSoft\\Message\\StreamFactory": 1,
+          "Psr\\Http\\Message\\StreamFactoryInterface": 1,
+          "HttpSoft\\Message\\ServerRequestFactory": 1,
+          "Psr\\Http\\Message\\ServerRequestFactoryInterface": 1,
+          "tests/web": 1,
+          "tests/providers": 1,
+          "providers": 1,
+          "web": 1,
+          "Yiisoft\\Files\\FileHelper": 1,
+          "App\\User\\UserService": 1,
+          "Psr\\Http\\Server\\RequestHandlerInterface": 1,
+          "Psr\\Http\\Message\\ServerRequestInterface": 1,
+          "App\\Exception\\UnauthorisedException": 1,
+          "App\\Formatter\\PaginatorFormatter": 1,
+          "Yiisoft\\Data\\Paginator\\OffsetPaginator": 1,
+          "Yiisoft\\Data\\Paginator\\PaginatorInterface": 1,
+          "App\\Exception\\NotFoundException": 1,
+          "Yiisoft\\Validator\\Rule\\HasLength": 1,
+          "Yiisoft\\Validator\\Result": 1,
+          "Cycle\\Annotated\\Annotation\\Table": 1,
+          "App\\User\\User": 1,
+          "Cycle\\Annotated\\Annotation\\Relation\\BelongsTo": 1,
+          "Yiisoft\\Security\\Random": 1,
+          "Cycle\\Annotated\\Annotation\\Column": 1,
+          "Cycle\\ORM\\Promise\\Reference": 1,
+          "Cycle\\Annotated\\Annotation\\Entity": 1,
+          "DateTimeImmutable": 1,
+          "Cycle\\ORM\\Select": 1,
+          "Cycle\\ORM\\Transaction": 1,
+          "Yiisoft\\Yii\\Cycle\\Data\\Reader\\EntityReader": 1,
+          "Cycle\\ORM\\ORMInterface": 1,
+          "MyCLabs\\Enum\\Enum": 1,
+          "app\\Dto\\ApiResponseData": 1,
+          "yii\\web\\AssetBundle": 1,
+          "yii\\console\\ExitCode": 1,
+          "yii\\console\\Controller": 1,
+          "yii\\helpers\\Html": 1,
+          "_generated\\AcceptanceTesterActions": 1,
+          "_generated\\FunctionalTesterActions": 1,
+          "_generated\\UnitTesterActions": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "spotify": 1,
+          "JSONResponse": 1,
+          "FastAPI": 1,
+          "fastapi": 1,
+          "azapi": 1,
+          "Spotify": 1,
+          "datetime": 1,
+          "json": 1,
+          "os": 1,
+          "requests": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 18,
+        "packages": {
+          "UIKit": 11,
+          "Flutter": 11,
+          "FlutterMacOS": 7,
+          "Cocoa": 5,
+          "XCTest": 3,
+          "Foundation": 2,
+          "url_launcher_macos": 1,
+          "google_sign_in_ios": 1,
+          "firebase_auth": 1,
+          "firebase_core": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "prasetyanurangga/absensi_web_admin",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/api_with_gorm",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/app-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/auth_firebase",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/base_flutter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/carikerja",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/chattingan",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/chat_base",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/Covid-19-Flutter-UI",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/doogether_test",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/dribbble",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/feature_brick_mason",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Dart"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/feature_brick_mason_without_page",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Dart"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/find_resto_apps",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/flagly",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/flagly_api",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/fluiric_api",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/Flutter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "prasetyanurangga/flutter_google_auth",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Kotlin",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

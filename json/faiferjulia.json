@@ -1,0 +1,164 @@
+{
+  "username": "faiferjulia",
+  "areas": {
+    "OSS": {
+      "score": -0.7385980279932176,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.39210295801017364
+      }
+    },
+    "Status": {
+      "score": -0.059110848506038094,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.39210295801017364,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.9375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.34704177529985114,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        388212,
+        1
+      ],
+      "Groovy": [
+        1033,
+        0
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 1,
+    "total_lines": 389245,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 388212,
+        "commits": 1
+      },
+      {
+        "language": "Groovy",
+        "lines": 1033,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "faiferjulia",
+    "analysis_date": "2026-05-09T22:07:55.622780",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 48,
+    "languages": {
+      "Java": {
+        "files_scanned": 46,
+        "packages": {
+          "io.fabric8": 30,
+          "java.util": 26,
+          "org.apache": 24,
+          "java.io": 18,
+          "com.spotify": 10,
+          "static": 6,
+          "com.google": 6,
+          "de.faifer": 6,
+          "org.junit": 5,
+          "java.net": 5,
+          "org.json": 5,
+          "java.text": 4,
+          "lombok.AccessLevel": 4,
+          "lombok.Getter": 4,
+          "lombok.Setter": 4,
+          "com.jayway": 3,
+          "java.nio": 3,
+          "org.codehaus": 3,
+          "javax.annotation": 3,
+          "javax.servlet": 2,
+          "spark.Spark": 2,
+          "lombok.AllArgsConstructor": 2,
+          "junit.framework": 1,
+          "java.lang": 1,
+          "java.security": 1,
+          "java.math": 1,
+          "org.sonatype": 1,
+          "org.slf4j": 1,
+          "lombok.NonNull": 1,
+          "java.sql": 1,
+          "org.flywaydb": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "faiferjulia/docker-maven-plugin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "faiferjulia/dockerfile-maven",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "faiferjulia/payone",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "faiferjulia/shootout-docker-maven",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

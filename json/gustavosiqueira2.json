@@ -1,0 +1,339 @@
+{
+  "username": "gustavosiqueira2",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3510709757725654,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.930452617505002,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Adaptability": {
+      "score": -0.875,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "gustavosiqueira2/json-server-data-generator": 0.05135
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.09521419515451308,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        96586,
+        53
+      ],
+      "HTML": [
+        12835,
+        14
+      ],
+      "CSS": [
+        4434,
+        7
+      ],
+      "TypeScript": [
+        91820,
+        21
+      ],
+      "Java": [
+        21849,
+        2
+      ],
+      "Ruby": [
+        13393,
+        1
+      ],
+      "Objective-C": [
+        11326,
+        1
+      ],
+      "Starlark": [
+        4940,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 99,
+    "total_lines": 257183,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 96586,
+        "commits": 53
+      },
+      {
+        "language": "TypeScript",
+        "lines": 91820,
+        "commits": 21
+      },
+      {
+        "language": "HTML",
+        "lines": 12835,
+        "commits": 14
+      },
+      {
+        "language": "CSS",
+        "lines": 4434,
+        "commits": 7
+      },
+      {
+        "language": "Java",
+        "lines": 21849,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "gustavosiqueira2",
+    "analysis_date": "2026-05-09T15:55:17.864729",
+    "total_repos_analyzed": 13,
+    "total_files_analyzed": 99,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<React/RCTBridgeDelegate.h>": 1,
+          "<Foundation/Foundation.h>": 1,
+          "<UMCore/UMAppDelegateWrapper.h>": 1,
+          "<UIKit/UIKit.h>": 1,
+          "<EXUpdates/EXUpdatesAppController.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 3,
+        "packages": {
+          "com.od": 3,
+          "com.facebook": 3,
+          "android.content": 2,
+          "expo.modules": 2,
+          "okhttp3.OkHttpClient": 1,
+          "com.swmansion": 1,
+          "android.os": 1,
+          "android.app": 1,
+          "android.net": 1,
+          "org.unimodules": 1,
+          "java.lang": 1,
+          "javax.annotation": 1,
+          "java.util": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 14,
+        "packages": {
+          "fs": 5,
+          "react": 5,
+          "jsonfile": 3,
+          "path": 3,
+          "simple-git": 3,
+          "readline": 2,
+          "react-router-dom": 2,
+          "react-dom": 1,
+          "react-native": 1,
+          "react-test-renderer": 1,
+          "expo": 1,
+          "vite": 1,
+          "vitejs": 1,
+          "dotenv": 1,
+          "discord.js": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "react-query": 1,
+          "react-dom": 1,
+          "react": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 2,
+        "packages": {
+          "AppDelegate.h": 2,
+          "<UMCore/UMModuleRegistry.h>": 1,
+          "UMReactNativeAdapter/UMNativeModulesProxy.h": 1,
+          "EXSplashScreen/EXSplashScreenService.h": 1,
+          "<FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h>": 1,
+          "<React/RCTBridge.h>": 1,
+          "<EXSplashScreen/EXSplashScreenService.h>": 1,
+          "<FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>": 1,
+          "<UMCore/UMModuleRegistryProvider.h>": 1,
+          "FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h": 1,
+          "UMCore/UMModuleRegistryProvider.h": 1,
+          "<FlipperKit/FlipperClient.h>": 1,
+          "UMCore/UMModuleRegistry.h": 1,
+          "UMReactNativeAdapter/UMModuleRegistryAdapter.h": 1,
+          "<SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>": 1,
+          "FlipperKit/FlipperClient.h": 1,
+          "<FlipperKitReactPlugin/FlipperKitReactPlugin.h>": 1,
+          "<React/RCTRootView.h>": 1,
+          "<UMReactNativeAdapter/UMNativeModulesProxy.h>": 1,
+          "<React/RCTBundleURLProvider.h>": 1,
+          "SKIOSNetworkPlugin/SKIOSNetworkAdapter.h": 1,
+          "FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h": 1,
+          "React/RCTBundleURLProvider.h": 1,
+          "FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h": 1,
+          "<UMReactNativeAdapter/UMModuleRegistryAdapter.h>": 1,
+          "React/RCTRootView.h": 1,
+          "FlipperKitReactPlugin/FlipperKitReactPlugin.h": 1,
+          "React/RCTBridge.h": 1,
+          "<FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h>": 1,
+          "<UIKit/UIKit.h>": 1,
+          "UIKit/UIKit.h": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 12,
+        "packages": {
+          "inversify": 7,
+          "constants": 6,
+          "entities": 5,
+          "utils": 4,
+          "aws-lambda": 3,
+          "reflect-metadata": 3,
+          "config": 3,
+          "middleware": 2,
+          "jest": 2
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 19,
+        "packages": {
+          "react-native": 16,
+          "react": 11,
+          "unform": 3,
+          "remask": 1,
+          "swr": 1,
+          "react-navigation": 1,
+          "expo": 1,
+          "react-native-community": 1,
+          "expo-location": 1,
+          "react-native-maps": 1,
+          "react-query": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "gustavosiqueira2/Ampulheta",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gustavosiqueira2/contribution-2017",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gustavosiqueira2/gipo",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gustavosiqueira2/git-decor",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gustavosiqueira2/json-server-data-generator",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gustavosiqueira2/outdoors",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gustavosiqueira2/react-codes",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gustavosiqueira2/rolldice",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gustavosiqueira2/sls-test",
+        "files_analyzed": 17,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gustavosiqueira2/snake",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

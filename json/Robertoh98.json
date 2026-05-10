@@ -1,0 +1,575 @@
+{
+  "username": "Robertoh98",
+  "areas": {
+    "OSS": {
+      "score": -0.020056580477552877,
+      "details": {
+        "issue_resolution_rate": 0.21428571428571427,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.7556294149979564
+      }
+    },
+    "Status": {
+      "score": 0.19970119614827886,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6649364096070336,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Adaptability": {
+      "score": 0.145833,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.6667,
+        "distinct_primary_languages": 5,
+        "language_transitions": 7,
+        "topic_entropy_bits": -0.0,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "Robertoh98/dbdeployer": 0.2463
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2650955231341452,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        26891,
+        0
+      ],
+      "CMake": [
+        180,
+        0
+      ],
+      "Makefile": [
+        3705,
+        0
+      ],
+      "Dockerfile": [
+        127,
+        0
+      ],
+      "Python": [
+        105620,
+        0
+      ],
+      "HTML": [
+        38917,
+        2
+      ],
+      "Shell": [
+        2586836,
+        0
+      ],
+      "Go": [
+        2342079,
+        0
+      ],
+      "Go Template": [
+        68054,
+        0
+      ],
+      "PHP": [
+        5947,
+        2
+      ],
+      "CSS": [
+        15106,
+        0
+      ],
+      "Batchfile": [
+        68,
+        0
+      ],
+      "ApacheConf": [
+        35,
+        0
+      ],
+      "Perl": [
+        2500498,
+        0
+      ],
+      "JavaScript": [
+        541321,
+        6
+      ],
+      "BitBake": [
+        256,
+        0
+      ],
+      "Awk": [
+        218,
+        0
+      ],
+      "PLpgSQL": [
+        335959,
+        0
+      ],
+      "sed": [
+        9,
+        0
+      ],
+      "Lua": [
+        265393,
+        0
+      ],
+      "Java": [
+        123295,
+        21
+      ],
+      "HCL": [
+        78768,
+        0
+      ],
+      "Jinja": [
+        11373,
+        0
+      ],
+      "Vue": [
+        443668,
+        0
+      ]
+    },
+    "language_count": 24,
+    "total_commits": 31,
+    "total_lines": 9494323,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 123295,
+        "commits": 21
+      },
+      {
+        "language": "JavaScript",
+        "lines": 541321,
+        "commits": 6
+      },
+      {
+        "language": "HTML",
+        "lines": 38917,
+        "commits": 2
+      },
+      {
+        "language": "PHP",
+        "lines": 5947,
+        "commits": 2
+      },
+      {
+        "language": "C++",
+        "lines": 26891,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Robertoh98",
+    "analysis_date": "2026-05-09T20:53:11.321848",
+    "total_repos_analyzed": 13,
+    "total_files_analyzed": 135,
+    "languages": {
+      "C++": {
+        "files_scanned": 7,
+        "packages": {
+          "<string>": 5,
+          "string": 5,
+          "std::string": 5,
+          "vector": 4,
+          "<vector>": 4,
+          "std::to_string": 3,
+          "unistd.h": 3,
+          "std::vector": 3,
+          "<unistd.h>": 3,
+          "system.h": 3,
+          "format.h": 2,
+          "ncurses_display.h": 2,
+          "process.h": 2,
+          "processor.h": 2,
+          "dirent.h": 1,
+          "<dirent.h>": 1,
+          "linux_parser.h": 1,
+          "std::stof": 1,
+          "<thread>": 1,
+          "thread": 1,
+          "<curses.h>": 1,
+          "chrono": 1,
+          "<chrono>": 1,
+          "curses.h": 1,
+          "<sstream>": 1,
+          "cctype": 1,
+          "sstream": 1,
+          "<cctype>": 1,
+          "cstddef": 1,
+          "<cstddef>": 1,
+          "set": 1,
+          "<set>": 1,
+          "std::set": 1,
+          "std::size_t": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 5,
+        "packages": {
+          "<string>": 4,
+          "string": 4,
+          "process.h": 2,
+          "fstream": 1,
+          "regex": 1,
+          "<regex>": 1,
+          "<fstream>": 1,
+          "<curses.h>": 1,
+          "system.h": 1,
+          "curses.h": 1,
+          "processor.h": 1,
+          "vector": 1,
+          "<vector>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 36,
+        "packages": {
+          "fmt": 28,
+          "github.com/datacharmer/dbdeployer/common": 27,
+          "github.com/spf13/cobra": 27,
+          "github.com/datacharmer/dbdeployer/globals": 27,
+          "os": 19,
+          "github.com/datacharmer/dbdeployer/defaults": 13,
+          "strings": 12,
+          "path": 11,
+          "regexp": 10,
+          "github.com/datacharmer/dbdeployer/sandbox": 8,
+          "encoding/json": 6,
+          "github.com/datacharmer/dbdeployer/ops": 6,
+          "time": 6,
+          "sort": 5,
+          "github.com/dustin/go-humanize": 5,
+          "bufio": 5,
+          "github.com/datacharmer/dbdeployer/rest": 4,
+          "io": 4,
+          "Example:": 3,
+          "github.com/alexeyco/simpletable": 3,
+          "You": 3,
+          "runtime": 3,
+          "unpack": 3,
+          "math": 3,
+          "gopkg.in/mgo.v2/bson": 3,
+          "testing": 2,
+          "github.com/datacharmer/dbdeployer/compare": 2,
+          "github.com/pkg/errors": 2,
+          "AppVersion": 2,
+          "TemplateName": 2,
+          "ShellPath": 2,
+          "Copyright": 2,
+          "The": 2,
+          "Use": 2,
+          "github.com/datacharmer/dbdeployer/downloads": 2,
+          "github.com/spf13/pflag": 2,
+          "bytes": 2,
+          "groupr": 1,
+          "msbdef": 1,
+          "sbs": 1,
+          "groupsp": 1,
+          "5.5": 1,
+          "SandboxDir": 1,
+          "lock'": 1,
+          "set-default'": 1,
+          "unlock'": 1,
+          "5.6": 1,
+          "8.0": 1,
+          "upgrade'": 1,
+          "NoClearCmd": 1,
+          "ClearCmd": 1,
+          "5.1": 1,
+          "5.0": 1,
+          "5.7": 1,
+          "DefaultSandbox": 1,
+          "SandboxHome": 1,
+          "$@": 1,
+          "github.com/datacharmer/dbdeployer/cookbook": 1,
+          "github.com/datacharmer/dbdeployer/data_load": 1,
+          "dbdeployer": 1,
+          "update'": 1,
+          "Sandbox": 1,
+          "github.com/datacharmer/dbdeployer/concurrent": 1,
+          "binaries": 1,
+          "math/rand": 1,
+          "--OS=os_name": 1,
+          "--dry-run": 1,
+          "--max-items": 1,
+          "use": 1,
+          "golang.org/x/term": 1,
+          "a": 1,
+          "no": 1,
+          "github.com/datacharmer/dbdeployer/importing": 1,
+          "defaults'": 1,
+          "github.com/araddon/dateparse": 1,
+          "using": 1,
+          "If": 1,
+          "the": 1,
+          "it": 1,
+          "github.com/spf13/cobra/doc": 1,
+          "github.com/datacharmer/dbdeployer/unpack": 1,
+          "Download": 1,
+          "init_db": 1,
+          "A": 1,
+          "os/exec": 1,
+          "github.com/jenunes/ftdc-utils": 1,
+          "github.com/jessevdk/go-flags": 1,
+          "i": 1,
+          "%d": 1,
+          "serverStatus.wiredTiger.concurrentTransactions": 1,
+          "serverStatus.mem.resident": 1,
+          "averages": 1,
+          "serverStatus.metrics.record": 1,
+          "serverStatus.wiredTiger.reconciliation": 1,
+          "serverStatus.mem.mapped": 1,
+          "serverStatus.wiredTiger.cache": 1,
+          "serverStatus.opcounters": 1,
+          "%d)": 1,
+          "serverStatus.metrics.cursor.open": 1,
+          "serverStatus.mem.virtual": 1,
+          "serverStatus.metrics.repl": 1,
+          "serverStatus.writeBacksQueued": 1,
+          "serverStatus.wiredTiger.async": 1,
+          "serverStatus.metrics.storage": 1,
+          "start": 1,
+          "serverStatus.wiredTiger.session": 1,
+          "serverStatus.metrics.operation": 1,
+          "serverStatus.mem.supported": 1,
+          "are": 1,
+          "serverStatus.start": 1,
+          "serverStatus.metrics.document": 1,
+          "serverStatus.metrics.queryExecutor": 1,
+          "serverStatus.metrics.commands": 1,
+          "serverStatus.metrics.ttl": 1,
+          "serverStatus.asserts": 1,
+          "serverStatus.wiredTiger.data-handle": 1,
+          "end": 1,
+          "serverStatus.end": 1,
+          "serverStatus.opcountersRepl": 1,
+          "serverStatus.wiredTiger.block-manager": 1,
+          "variances": 1,
+          "serverStatus.mem.mappedWithJournal": 1,
+          "serverStatus.wiredTiger.LSM": 1,
+          "=": 1,
+          ":=": 1,
+          "compress/zlib": 1,
+          "sync": 1,
+          "encoding/binary": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 26,
+        "packages": {
+          "br.unisul": 12,
+          "org.springframework": 9,
+          "java.util": 8,
+          "javax.swing": 7,
+          "java.sql": 6,
+          "Classes.Cliente": 6,
+          "Classes.Filme": 5,
+          "View": 5,
+          "conexao.ConnectionManager": 4,
+          "DAO": 4,
+          "javax.validation": 3,
+          "javax.persistence": 3,
+          "Classes": 3,
+          "DAO.FilmeDAO": 3,
+          "Classes.Aluga": 2,
+          "DAO.ClienteDAO": 2,
+          "ch.qos": 1,
+          "jdk.nashorn": 1,
+          "org.junit": 1,
+          "DAO.AlugaDAO": 1,
+          "DAO.RelatorioDao": 1,
+          "conexao": 1,
+          "View.MenuView": 1,
+          "locadora": 1,
+          "View.FilmeView": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "axios": 2,
+          "jQuery": 1,
+          "vue": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 20,
+        "packages": {
+          "Cake\\Core\\Configure": 4,
+          "Cake\\Network\\Request": 3,
+          "Cake\\Core\\Plugin": 3,
+          "Cake\\TestSuite\\IntegrationTestCase": 3,
+          "Cake\\Core\\App": 2,
+          "Cake\\Log\\Log": 2,
+          "Cake\\Utility\\Security": 2,
+          "Cake\\Error\\Middleware\\ErrorHandlerMiddleware": 2,
+          "Cake\\Routing\\Middleware\\AssetMiddleware": 2,
+          "Cake\\Routing\\Middleware\\RoutingMiddleware": 2,
+          "Cake\\Event\\Event": 2,
+          "Cake\\Network\\Response": 2,
+          "App\\Application": 2,
+          "Cake\\Datasource\\ConnectionManager": 1,
+          "Cake\\Mailer\\Email": 1,
+          "Cake\\Core\\Configure\\Engine\\PhpConfig": 1,
+          "Cake\\Database\\Type": 1,
+          "Cake\\Utility\\Inflector": 1,
+          "config": 1,
+          "Cake\\Console\\ConsoleErrorHandler": 1,
+          "Cake\\Error\\ErrorHandler": 1,
+          "Cake\\Cache\\Cache": 1,
+          "Cake\\Core\\Exception\\MissingPluginException": 1,
+          "Cake\\Routing\\Route\\DashedRoute": 1,
+          "Cake\\Routing\\RouteBuilder": 1,
+          "Cake\\Routing\\Router": 1,
+          "webroot": 1,
+          "Cake\\Http\\BaseApplication": 1,
+          "Composer\\Script\\Event": 1,
+          "Exception": 1,
+          "Cake\\Controller\\Controller": 1,
+          "App\\Controller\\AppController": 1,
+          "Cake\\ORM\\Entity": 1,
+          "Cake\\ORM\\RulesChecker": 1,
+          "Cake\\Validation\\Validator": 1,
+          "Cake\\ORM\\Table": 1,
+          "Cake\\ORM\\Query": 1,
+          "Psy\\Shell": 1,
+          "Cake\\Console\\ConsoleOptionParser": 1,
+          "Cake\\Console\\Shell": 1,
+          "Cake\\Event\\EventManager": 1,
+          "Cake\\View\\View": 1,
+          "Cake\\TestSuite\\Fixture\\TestFixture": 1,
+          "Cake\\Http\\MiddlewareQueue": 1,
+          "App\\Controller\\PagesController": 1,
+          "Cake\\View\\Exception\\MissingTemplateException": 1,
+          "App\\Controller\\TarefasController": 1,
+          "Cake\\ORM\\TableRegistry": 1,
+          "Cake\\TestSuite\\TestCase": 1,
+          "App\\Model\\Table\\TarefasTable": 1,
+          "Cake\\Http\\Server": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 6,
+        "packages": {
+          "json": 4,
+          "argparse": 3,
+          "sys": 3,
+          "os": 2,
+          "timedelta": 2,
+          "datetime": 2,
+          "CORS": 1,
+          "flask": 1,
+          "Flask": 1,
+          "jsonify": 1,
+          "flask_cors": 1,
+          "render_template": 1,
+          "ast": 1,
+          "numpy": 1,
+          "matplotlib": 1,
+          "string": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Robertoh98/CppND-System-Monitor-Project-Updated",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "Robertoh98/curso-agile-devops",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Robertoh98/dbdeployer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Robertoh98/Estagio",
+        "files_analyzed": 24,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Robertoh98/pwa",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Robertoh98/support-snippets",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Robertoh98/tabalhoweb",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "Robertoh98/Trabalho",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "Robertoh98/vuetrabalhoweb",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}
