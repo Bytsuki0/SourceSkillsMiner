@@ -1,0 +1,267 @@
+{
+  "username": "erickmpene",
+  "areas": {
+    "OSS": {
+      "score": 0.03703703703703698,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.5555555555555556,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.35897435897435903,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 9,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.1292022792022792,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Dockerfile": [
+        852,
+        4
+      ],
+      "Python": [
+        4761,
+        22
+      ],
+      "Jinja": [
+        220600,
+        80
+      ],
+      "HTML": [
+        85882,
+        69
+      ],
+      "CSS": [
+        54378,
+        97
+      ],
+      "SCSS": [
+        13859,
+        126
+      ],
+      "JavaScript": [
+        6382,
+        54
+      ],
+      "PHP": [
+        63,
+        4
+      ],
+      "Shell": [
+        25,
+        127
+      ],
+      "HCL": [
+        7498,
+        36
+      ],
+      "Groovy": [
+        0,
+        3
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 622,
+    "total_lines": 394300,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 25,
+        "commits": 127
+      },
+      {
+        "language": "SCSS",
+        "lines": 13859,
+        "commits": 126
+      },
+      {
+        "language": "CSS",
+        "lines": 54378,
+        "commits": 97
+      },
+      {
+        "language": "Jinja",
+        "lines": 220600,
+        "commits": 80
+      },
+      {
+        "language": "HTML",
+        "lines": 85882,
+        "commits": 69
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "erickmpene",
+    "analysis_date": "2026-05-10T00:27:28.842091",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 44,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 9,
+        "packages": {
+          "undefined": 4,
+          "popperjs": 4,
+          "gulp-sass": 2,
+          "gulp-autoprefixer": 2,
+          "del": 2,
+          "gulp-plumber": 2,
+          "gulp-uglify": 2,
+          "gulp": 2,
+          "gulp-rename": 2,
+          "gulp-header": 2,
+          "browser-sync": 2,
+          "merge-stream": 2,
+          "gulp-clean-css": 2,
+          "jQuery": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 16,
+        "packages": {
+          "os": 8,
+          "flask": 8,
+          "Flask": 6,
+          "app": 5,
+          "render_template": 3,
+          "unittest": 2,
+          "json": 2,
+          "socket": 2,
+          "argparse": 2,
+          "random": 2,
+          "datetime": 2,
+          "psutil": 2,
+          "HTTPBasicAuth": 1,
+          "flask_simpleldap": 1,
+          "request": 1,
+          "g": 1,
+          "LDAP": 1,
+          "make_response": 1,
+          "url_for": 1,
+          "flask_httpauth": 1,
+          "abort": 1,
+          "subprocess": 1,
+          "jsonify": 1,
+          "pytest": 1,
+          "cpuinfo": 1,
+          "platform": 1,
+          "create_app": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "erickmpene/alpinehelloworld",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "erickmpene/alpinehelloworld_2",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "erickmpene/docker-HTTP-SSL-PHP",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "erickmpene/docker-mini-projet",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "erickmpene/EAZY_T",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "erickmpene/fil-rouge",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "erickmpene/jenkins",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "erickmpene/kubernetes",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "erickmpene/python-demoapp",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}
