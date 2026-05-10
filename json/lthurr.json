@@ -1,0 +1,320 @@
+{
+  "username": "lthurr",
+  "areas": {
+    "OSS": {
+      "score": 0.8199734037574804,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7299601056362207
+      }
+    },
+    "Status": {
+      "score": 0.18641820106651985,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.721934993907472,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.45,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.11127832096480006,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        240702,
+        10
+      ],
+      "Go": [
+        169373,
+        0
+      ],
+      "Shell": [
+        7250,
+        0
+      ],
+      "Dockerfile": [
+        2874,
+        0
+      ],
+      "Makefile": [
+        1347,
+        0
+      ],
+      "Java": [
+        662407,
+        4
+      ],
+      "Objective-C": [
+        135174,
+        0
+      ],
+      "D": [
+        14811,
+        0
+      ],
+      "JavaScript": [
+        16200,
+        9
+      ],
+      "CSS": [
+        4343,
+        0
+      ],
+      "C": [
+        397,
+        0
+      ],
+      "C++": [
+        322,
+        0
+      ],
+      "Groovy": [
+        203,
+        0
+      ],
+      "AppleScript": [
+        176,
+        0
+      ],
+      "TeX": [
+        250086,
+        19
+      ],
+      "HTML": [
+        11762,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 42,
+    "total_lines": 1517427,
+    "top_5_languages": [
+      {
+        "language": "TeX",
+        "lines": 250086,
+        "commits": 19
+      },
+      {
+        "language": "Python",
+        "lines": 240702,
+        "commits": 10
+      },
+      {
+        "language": "JavaScript",
+        "lines": 16200,
+        "commits": 9
+      },
+      {
+        "language": "Java",
+        "lines": 662407,
+        "commits": 4
+      },
+      {
+        "language": "Go",
+        "lines": 169373,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "lthurr",
+    "analysis_date": "2026-05-10T11:52:41.944461",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 77,
+    "languages": {
+      "Go": {
+        "files_scanned": 28,
+        "packages": {
+          "time": 13,
+          "book-store-api/api/models": 10,
+          "context": 10,
+          "net/http": 9,
+          "encoding/json": 8,
+          "strconv": 7,
+          "book-store-api/config/driver": 7,
+          "book-store-api/handler": 7,
+          "database/sql": 7,
+          "github.com/gorilla/mux": 6,
+          "book-store-api/api/utils": 6,
+          "strings": 6,
+          "log": 5,
+          "fmt": 3,
+          "os": 3,
+          "book-store-api/logger": 2,
+          "errors": 2,
+          "path": 2,
+          "github.com/err-him/gonf": 2,
+          "book-store-api/api/helper": 1,
+          "crypto/md5": 1,
+          "encoding/hex": 1,
+          "io/ioutil": 1,
+          "math/rand": 1,
+          "-e": 1,
+          "%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=true": 1,
+          "path/filepath": 1,
+          "os/exec": 1,
+          "bytes": 1,
+          "book-store-api/api/controllers": 1,
+          "book-store-api/middleware": 1,
+          "github.com/err-him/gozap": 1,
+          "book-store-api/config": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 32,
+        "packages": {
+          "com.squareup": 29,
+          "java.io": 20,
+          "java.util": 17,
+          "java.net": 15,
+          "static": 9,
+          "javax.net": 6,
+          "java.nio": 4,
+          "org.apache": 3,
+          "java.security": 2,
+          "recommender.hashrecommender": 2,
+          "java.lang": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "minimist": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 10,
+        "packages": {
+          "re": 5,
+          "os": 4,
+          "configobj": 3,
+          "ConfigObj": 3,
+          "collections": 2,
+          "sys": 2,
+          "defaultdict": 2,
+          "glob": 2,
+          "xml": 2,
+          "SnuggleTexClient": 2,
+          "mathml_client": 2,
+          "utils": 2,
+          "csv": 1,
+          "path": 1,
+          "requests": 1,
+          "unescape": 1,
+          "language_generator": 1,
+          "language_evaluator": 1,
+          "lxml": 1,
+          "PreProcessor": 1,
+          "LanguageGenerator": 1,
+          "argparse": 1,
+          "preprocessor": 1,
+          "LanguageEvaluator": 1,
+          "unittest": 1,
+          "TexToES": 1,
+          "module": 1,
+          "math": 1,
+          "Template": 1,
+          "floor": 1,
+          "jinja2": 1,
+          "argv": 1,
+          "codecs": 1,
+          "string": 1,
+          "ascii_lowercase": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "lthurr/DataTweetToCSV",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lthurr/go-book-store-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "lthurr/hackatong-pdp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "lthurr/hashrecommender",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "lthurr/textoes",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lthurr/TextSimpEs",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lthurr/transistemas-celfar",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

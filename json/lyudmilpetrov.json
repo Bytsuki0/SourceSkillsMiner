@@ -1,0 +1,796 @@
+{
+  "username": "lyudmilpetrov",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.23504952196380158,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8141127444841638,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.3125,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 10,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.17617657105942697,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C#": [
+        21530095,
+        20
+      ],
+      "Python": [
+        111265,
+        12
+      ],
+      "Shell": [
+        199831,
+        0
+      ],
+      "JavaScript": [
+        16282843,
+        168
+      ],
+      "HTML": [
+        7346090,
+        21
+      ],
+      "C++": [
+        322351,
+        0
+      ],
+      "TypeScript": [
+        294236,
+        70
+      ],
+      "Java": [
+        99222,
+        5
+      ],
+      "PowerShell": [
+        784252,
+        0
+      ],
+      "C": [
+        23678,
+        0
+      ],
+      "CSS": [
+        1186706,
+        7
+      ],
+      "Batchfile": [
+        3969,
+        0
+      ],
+      "CMake": [
+        3635,
+        0
+      ],
+      "F#": [
+        1081,
+        0
+      ],
+      "Roff": [
+        1048,
+        0
+      ],
+      "Lua": [
+        851,
+        0
+      ],
+      "Dockerfile": [
+        1897,
+        0
+      ],
+      "Makefile": [
+        45,
+        0
+      ],
+      "ASP.NET": [
+        617,
+        0
+      ],
+      "Less": [
+        2,
+        0
+      ],
+      "SCSS": [
+        855834,
+        0
+      ],
+      "Smalltalk": [
+        0,
+        0
+      ],
+      "Ruby": [
+        3995,
+        0
+      ],
+      "TSQL": [
+        3712,
+        0
+      ],
+      "Cuda": [
+        560,
+        0
+      ],
+      "Pug": [
+        9771,
+        0
+      ]
+    },
+    "language_count": 26,
+    "total_commits": 303,
+    "total_lines": 49067586,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 16282843,
+        "commits": 168
+      },
+      {
+        "language": "TypeScript",
+        "lines": 294236,
+        "commits": 70
+      },
+      {
+        "language": "HTML",
+        "lines": 7346090,
+        "commits": 21
+      },
+      {
+        "language": "C#",
+        "lines": 21530095,
+        "commits": 20
+      },
+      {
+        "language": "Python",
+        "lines": 111265,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "lyudmilpetrov",
+    "analysis_date": "2026-05-10T13:09:07.973309",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 396,
+    "languages": {
+      "C#": {
+        "files_scanned": 189,
+        "packages": {
+          "System.Collections.Generic": 63,
+          "System": 62,
+          "System.Linq": 49,
+          "System.Threading.Tasks": 46,
+          "System.Text": 29,
+          "Microsoft.EntityFrameworkCore": 29,
+          "Microsoft.AspNetCore.Mvc": 20,
+          "System.IO": 18,
+          "Microsoft.CodeAnalysis": 16,
+          "Xamarin.Forms": 16,
+          "System.Text.Json": 14,
+          "Xunit": 14,
+          "System.Diagnostics": 12,
+          "var": 11,
+          "Microsoft.Extensions.Configuration": 11,
+          "BenchmarkDotNet.Mathematics": 11,
+          "System.Collections.Immutable": 10,
+          "Microsoft.Extensions.Logging": 10,
+          "BenchmarkDotNet.Attributes": 10,
+          "BenchmarkDotNet.Order": 10,
+          "Microsoft.Extensions.DependencyInjection": 9,
+          "BucketList.Models": 9,
+          "Microsoft.AspNetCore.Hosting": 8,
+          "Microsoft.AspNetCore.Http": 8,
+          "Xamarin.Forms.Xaml": 8,
+          "Microsoft.EntityFrameworkCore.Metadata.Builders": 8,
+          "fitbit.models": 8,
+          "System.Globalization": 7,
+          "System.Reflection": 7,
+          "Microsoft.EntityFrameworkCore.Infrastructure": 7,
+          "Microsoft.CodeAnalysis.Operations": 6,
+          "Microsoft.EntityFrameworkCore.Storage.ValueConversion": 6,
+          "BucketList.Views": 6,
+          "System.ComponentModel": 6,
+          "System.Net.Http": 5,
+          "System.Threading": 5,
+          "System.Runtime.InteropServices": 5,
+          "Microsoft.Build.Utilities": 5,
+          "Microsoft.Build.Framework": 5,
+          "System.Net": 5,
+          "Microsoft.CodeAnalysis.Diagnostics": 5,
+          "Microsoft.Extensions.Hosting": 5,
+          "Microsoft.EntityFrameworkCore.Migrations": 5,
+          "CityInfo.API.DbContexts": 5,
+          "System.Data": 5,
+          "StarChart.Data": 4,
+          "Microsoft.JSInterop": 4,
+          "System.Security.Claims": 4,
+          "Microsoft.Azure.WebJobs.Extensions.Http": 4,
+          "Microsoft.Azure.WebJobs": 4,
+          "Newtonsoft.Json": 4,
+          "System.Runtime.CompilerServices": 4,
+          "BucketList.ViewModels": 4,
+          "Xamarin.Forms.Mocks": 4,
+          "Microsoft.AspNetCore.Cors": 4,
+          "Microsoft.Data.SqlClient": 4,
+          "System.Xml.Linq": 3,
+          "System.ComponentModel.DataAnnotations.Schema": 3,
+          "Microsoft.AspNetCore.Builder": 3,
+          "System.IdentityModel.Tokens.Jwt": 3,
+          "CityInfo.API.Services": 3,
+          "Serilog": 3,
+          "System.Web.Http": 3,
+          "System.Web": 3,
+          "Microsoft.EntityFrameworkCore.Metadata": 3,
+          "CoreCodeCamp.Data": 3,
+          "fitbit.api.backgroundwork.HttpCalls": 3,
+          "fitbit.models.ServiceBus": 3,
+          "Microsoft.AspNetCore.SignalR": 3,
+          "fitbit.models.Helpers": 3,
+          "fitbit.models.FitBit": 3,
+          "AiDotNet": 2,
+          "System.Xml": 2,
+          "NuGet.Packaging": 2,
+          "System.Security.Cryptography": 2,
+          "BlazorServerDbContextExample.Data": 2,
+          "Microsoft.AspNetCore": 2,
+          "Microsoft.IdentityModel.Tokens": 2,
+          "CityInfo.API.Models": 2,
+          "Microsoft.AspNetCore.Authorization": 2,
+          "Microsoft.AspNetCore.StaticFiles": 2,
+          "Android.App": 2,
+          "UIKit": 2,
+          "Foundation": 2,
+          "BucketList.Services": 2,
+          "BucketList": 2,
+          "BenchmarkDotNet.Running": 2,
+          "System.Data.SqlClient": 2,
+          "CSharpPerformancePlaybook.EFCore": 2,
+          "System.Collections": 2,
+          "fitbit.api.backgroundwork.Database": 2,
+          "System.Net.Http.Headers": 2,
+          "fitbit.api.HttpCalls": 2,
+          "fitbit.api.Models": 2,
+          "fitbit.api.SignalR.Hubs": 2,
+          "AiDotNet.Regression": 1,
+          "Microsoft.AspNetCore.Http.Features": 1,
+          "AiDotNet.Tensors.LinearAlgebra": 1,
+          "NuGet.Versioning": 1,
+          "Microsoft.Extensions.CommandLineUtils": 1,
+          "NuGet.Protocol.Core.Types": 1,
+          "NuGet.Common": 1,
+          "NuGet.Configuration": 1,
+          "NuGet.Protocol": 1,
+          "System.CommandLine": 1,
+          "Microsoft.Extensions.DependencyModel": 1,
+          "Microsoft.Deployment.WindowsInstaller.Package": 1,
+          "NuGet.Packaging.Core": 1,
+          "System.IO.Compression": 1,
+          "NuGet.Frameworks": 1,
+          "System.Text.RegularExpressions": 1,
+          "Moq": 1,
+          "System.ComponentModel.DataAnnotations": 1,
+          "System.Linq.Expressions": 1,
+          "BlazorServerDbContextExample.Grid": 1,
+          "Microsoft.AspNetCore.HttpsPolicy": 1,
+          "Microsoft.AspNetCore.Components": 1,
+          "Microsoft.AspNetCore.Components.WebAssembly.Hosting": 1,
+          "Microsoft.AspNetCore.JsonPatch": 1,
+          "CityInfo.API": 1,
+          "Microsoft.OpenApi.Models": 1,
+          "CityInfo.API.Entities": 1,
+          "X.Web.Sitemap": 1,
+          "SampleBuilder.Models": 1,
+          "Azure.Identity": 1,
+          "Azure.Core": 1,
+          "SampleFunctions.Models": 1,
+          "Microsoft.EntityFrameworkCore.Design": 1,
+          "Microsoft.Extensions.Options": 1,
+          "Android.Runtime": 1,
+          "Android.OS": 1,
+          "Android.Content.PM": 1,
+          "Android.Views": 1,
+          "Android.Widget": 1,
+          "System.Windows.Input": 1,
+          "Xamarin.Essentials": 1,
+          "System.Collections.ObjectModel": 1,
+          "BenchmarkDotNet.Configs": 1,
+          "BenchmarkDotNet.Reports": 1,
+          "CSharpPerformancePlaybook.Code": 1,
+          "System.Security.AccessControl": 1,
+          "System.Configuration": 1,
+          "Newtonsoft.Json.Linq": 1,
+          "ForecastIO": 1,
+          "WeatherHistory.Web.Models": 1,
+          "RestSharp": 1,
+          "RestSharp.Deserializers": 1,
+          "Newtonsoft.Json.Serialization": 1,
+          "Microsoft.AspNetCore.Authentication": 1,
+          "Microsoft.Azure.Amqp.Framing": 1,
+          "System.Timers": 1,
+          "static": 1,
+          "Microsoft.AspNetCore.Diagnostics": 1,
+          "System.Net.Sockets": 1,
+          "Serilog.Enrichers.Span": 1,
+          "Serilog.Exceptions": 1,
+          "Serilog.Sinks.MSSqlServer": 1,
+          "Autofac.Extensions.DependencyInjection": 1,
+          "Microsoft.AspNetCore.HttpOverrides": 1,
+          "Polly": 1,
+          "fitbit.api.backgroundwork.Middlewares": 1,
+          "Polly.Extensions.Http": 1,
+          "fitbit.api.backgroundwork.ApplicationLifeTime": 1,
+          "System.Text.Json.Serialization": 1,
+          "fitbit.api.Middlewares": 1,
+          "Irony.Parsing": 1,
+          "System.Dynamic": 1,
+          "fitbit.api.Utils": 1,
+          "fitbit.models.Logger": 1,
+          "HelpersMethods": 1,
+          "DocumentFormat.OpenXml.Spreadsheet": 1,
+          "XLWorkbook": 1,
+          "DocumentFormat.OpenXml.Packaging": 1,
+          "System.Diagnostics.CodeAnalysis": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "ggml-bitnet.h": 2,
+          "<vector>": 2,
+          "ggml-quants.h": 2,
+          "type_traits": 2,
+          "<type_traits>": 2,
+          "vector": 2,
+          "<stdlib.h>": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "stdlib.h": 1,
+          "<string.h>": 1,
+          "bitnet-lut-kernels.h": 1,
+          "string.h": 1,
+          "gemm-config.h": 1,
+          "cstring": 1,
+          "<cmath>": 1,
+          "cmath": 1,
+          "ggml-cpu-impl.h": 1,
+          "<cstring>": 1,
+          "immintrin.h": 1,
+          "<immintrin.h>": 1,
+          "assert.h": 1,
+          "<assert.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 8,
+        "packages": {
+          "ggml-bitnet.h": 6,
+          "arm_neon.h": 4,
+          "<arm_neon.h>": 4,
+          "immintrin.h": 3,
+          "<immintrin.h>": 3,
+          "<iostream>": 1,
+          "<math_constants.h>": 1,
+          "cuda_fp16.h": 1,
+          "mma.h": 1,
+          "<cuda_runtime.h>": 1,
+          "<mma.h>": 1,
+          "<math.h>": 1,
+          "cuda.h": 1,
+          "cuda_runtime.h": 1,
+          "math.h": 1,
+          "<cuda.h>": 1,
+          "<cuda_fp16.h>": 1,
+          "math_constants.h": 1,
+          "<cuda_bf16.h>": 1,
+          "cuda_bf16.h": 1,
+          "iostream": 1,
+          "ggml.h": 1,
+          "ggml-backend.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 34,
+        "packages": {
+          "react": 5,
+          "path": 4,
+          "testing-library": 4,
+          "express": 3,
+          "function": 2,
+          "react-dom": 2,
+          "web-vitals": 2,
+          "react-redux": 2,
+          "React": 2,
+          "tensorflow": 2,
+          "tensorflow-models": 2,
+          "reduxjs": 2,
+          "fs": 1,
+          "eslint": 1,
+          "typescript-eslint": 1,
+          "eslint-plugin-react-hooks": 1,
+          "eslint-plugin-react-refresh": 1,
+          "globals": 1,
+          "undefined": 1,
+          "tinyqueue": 1,
+          "turf-point": 1,
+          "geojson-path-finder": 1,
+          "turf": 1,
+          "__esModule": 1,
+          "until": 1,
+          "default": 1,
+          "subscriptionKey": 1,
+          "number": 1,
+          "serve-favicon": 1,
+          "body-parser": 1,
+          "i18n": 1,
+          "cookie-parser": 1,
+          "morgan": 1,
+          "jQuery": 1,
+          "spin.js": 1,
+          "async": 1,
+          "string": 1,
+          "mui": 1,
+          "autoprefixer": 1,
+          "karma-chrome-launcher": 1,
+          "karma-remap-istanbul": 1,
+          "angular-cli": 1,
+          "karma-jasmine": 1,
+          "jasmine-spec-reporter": 1,
+          "ts-node": 1,
+          "request": 1,
+          "rollup-plugin-commonjs": 1,
+          "node_modules": 1,
+          "rollup-plugin-node-resolve": 1,
+          "rollup-plugin-uglify": 1,
+          "rollup-plugin-typescript2": 1,
+          "react-hot-toast": 1,
+          "iconify": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "react": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 23,
+        "packages": {
+          "os": 13,
+          "torch": 12,
+          "typing": 11,
+          "argparse": 11,
+          "pathlib": 10,
+          "Path": 10,
+          "sys": 9,
+          "dataclasses": 8,
+          "annotations": 7,
+          "__future__": 7,
+          "dataclass": 7,
+          "json": 6,
+          "time": 5,
+          "subprocess": 5,
+          "re": 5,
+          "numpy": 5,
+          "logging": 5,
+          "signal": 5,
+          "configparser": 5,
+          "platform": 4,
+          "Optional": 4,
+          "nn": 3,
+          "safetensors": 3,
+          "ConfigParser": 3,
+          "TYPE_CHECKING": 3,
+          "AutoTokenizer": 3,
+          "sentencepiece": 3,
+          "ABC": 3,
+          "transformers": 3,
+          "gguf": 3,
+          "SentencePieceProcessor": 3,
+          "enum": 3,
+          "abc": 3,
+          "fastapi": 2,
+          "rearrange": 2,
+          "convert_weight_int8_to_int2": 2,
+          "model": 2,
+          "einops": 2,
+          "pack_weight": 2,
+          "xformers": 2,
+          "ctypes": 2,
+          "shutil": 2,
+          "ggml-bitnet": 2,
+          "concurrent": 2,
+          "textwrap": 2,
+          "mmap": 2,
+          "functools": 2,
+          "struct": 2,
+          "itertools": 2,
+          "Self": 2,
+          "ProcessPoolExecutor": 2,
+          "typing_extensions": 2,
+          "math": 2,
+          "faulthandler": 2,
+          "statistics": 1,
+          "random": 1,
+          "Callable": 1,
+          "psutil": 1,
+          "asdict": 1,
+          "threading": 1,
+          "router": 1,
+          "pytorch_benchmarks": 1,
+          "FastAPI": 1,
+          "pydantic": 1,
+          "csv": 1,
+          "APIRouter": 1,
+          "BaseModel": 1,
+          "io": 1,
+          "PlainTextResponse": 1,
+          "Annotated": 1,
+          "uvicorn": 1,
+          "setup": 1,
+          "setuptools": 1,
+          "BuildExtension": 1,
+          "save_file": 1,
+          "load_file": 1,
+          "Iterable": 1,
+          "fire": 1,
+          "readline": 1,
+          "Tokenizer": 1,
+          "sample_utils": 1,
+          "tokenizer": 1,
+          "Stats": 1,
+          "stats": 1,
+          "functional": 1,
+          "RMSNorm": 1,
+          "profile": 1,
+          "benchmark": 1,
+          "tiktoken": 1,
+          "load_tiktoken_bpe": 1,
+          "getLogger": 1,
+          "<arm_neon": 1,
+          "<immintrin": 1,
+          "<cstring>\\n\\": 1,
+          "safe_open": 1,
+          "hashlib": 1,
+          "IntEnum": 1,
+          "sha256": 1,
+          "convert": 1,
+          "Tensor": 1,
+          "contextlib": 1,
+          "LlamaHfVocab": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 29,
+        "packages": {
+          "angular": 12,
+          "face-api.js": 7,
+          "tensorflow": 5,
+          "zone.js": 3,
+          "react": 1,
+          "vitejs": 1,
+          "vite": 1,
+          "ng2-charts": 1,
+          "es6-shim": 1,
+          "reflect-metadata": 1,
+          "fork": 1,
+          "setup": 1,
+          "stream": 1,
+          "http": 1,
+          "events": 1,
+          "child_process": 1,
+          "tls": 1,
+          "disconnect": 1,
+          "exit": 1,
+          "message": 1,
+          "online": 1,
+          "listening": 1,
+          "net": 1,
+          "crypto": 1,
+          "protractor": 1,
+          "rxjs": 1,
+          "core-js": 1,
+          "canvas": 1,
+          "fs": 1,
+          "path": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 8,
+        "packages": {
+          "react": 8,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "lyudmilpetrov/AIsEval",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C#",
+          "Python"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/aspnetcore",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/AspNetCore-StarChartAPI",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/AspNetCore.Docs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/AspNetCore6WebAPIFundamentals",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/automations-with-or-without-ai",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/AzureMapsCodeSamples",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/BitNet",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/blockchain-demo",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/CoreApiFundamentals",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/csharp-xamarin-first-project",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/csharpperformanceplaybook",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/cyrilic-to-glagolic-app",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/data-structures-and-algorithms",
+        "files_analyzed": 23,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/experiments",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/face-api.js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/face-recognition-app",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "lyudmilpetrov/ForDemo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

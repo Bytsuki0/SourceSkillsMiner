@@ -1,0 +1,336 @@
+{
+  "username": "marcelorayzen",
+  "areas": {
+    "OSS": {
+      "score": -0.5362791670393816,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6955812494409276
+      }
+    },
+    "Status": {
+      "score": 0.165119794811035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.709218153755014,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.275,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 3.8074,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.12923187444566933,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        715318,
+        22
+      ],
+      "HTML": [
+        452436,
+        0
+      ],
+      "JavaScript": [
+        40539,
+        1
+      ],
+      "CSS": [
+        595654,
+        0
+      ],
+      "PLpgSQL": [
+        2533,
+        0
+      ],
+      "Dockerfile": [
+        293,
+        0
+      ],
+      "Batchfile": [
+        42443,
+        0
+      ],
+      "PowerShell": [
+        70222,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 23,
+    "total_lines": 1919438,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 715318,
+        "commits": 22
+      },
+      {
+        "language": "JavaScript",
+        "lines": 40539,
+        "commits": 1
+      },
+      {
+        "language": "HTML",
+        "lines": 452436,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 595654,
+        "commits": 0
+      },
+      {
+        "language": "PLpgSQL",
+        "lines": 2533,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "marcelorayzen",
+    "analysis_date": "2026-05-10T12:41:47.382610",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 253,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 31,
+        "packages": {
+          "express": 20,
+          "zod": 7,
+          "prisma": 4,
+          "dotenv": 4,
+          "bcryptjs": 3,
+          "crypto": 3,
+          "cors": 2,
+          "path": 2,
+          "morgan": 1,
+          "jsonwebtoken": 1,
+          "http:": 1,
+          "axios": 1,
+          "zustand": 1,
+          "vitejs": 1,
+          "vite": 1,
+          "express-session": 1,
+          "fs": 1,
+          "pg": 1,
+          "permit(": 1,
+          "next": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 6,
+        "packages": {
+          "react": 6,
+          "Entrar": 1,
+          "react-dom": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 94,
+        "packages": {
+          "next": 24,
+          "path": 12,
+          "child_process": 12,
+          "prisma": 9,
+          "fs": 8,
+          "nestjs": 8,
+          "type": 8,
+          "rayzen": 5,
+          "bcryptjs": 4,
+          "next-auth": 4,
+          "node:path": 4,
+          "google": 3,
+          "zod": 3,
+          "node:fs": 3,
+          "vitejs": 2,
+          "vite": 2,
+          "vitest": 2,
+          "react": 2,
+          "os": 2,
+          "open": 2,
+          "dotenv": 2,
+          "fastify": 2,
+          "class-validator": 2,
+          "research": 2,
+          "low": 2,
+          "uuid": 2,
+          "Adega": 1,
+          "APENAS": 1,
+          "admin": 1,
+          "formatação": 1,
+          "playwright": 1,
+          "minha-lista:tasks": 1,
+          "testing-library": 1,
+          "blank": 1,
+          "jest": 1,
+          "axios": 1,
+          "agent-tasks": 1,
+          "crypto": 1,
+          "bull": 1,
+          "flexsearch": 1,
+          "gray-matter": 1,
+          "openai": 1,
+          "CONFIRMADO": 1,
+          "id": 1,
+          "nodejs": 1,
+          "tailwindcss": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 60,
+        "packages": {
+          "react": 36,
+          "next": 25,
+          "lucide-react": 19,
+          "prisma": 7,
+          "next-auth": 7,
+          "react-dom": 2,
+          "framer-motion": 2,
+          "recharts": 1,
+          "label:": 1,
+          "um": 1,
+          "all": 1,
+          "testing-library": 1,
+          "block": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "marcelorayzen/Adega-Master",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "marcelorayzen/Auto-center-",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "marcelorayzen/CRM-Simples-imobiliaria",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "marcelorayzen/erp-base",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "marcelorayzen/erp-rayzen-digital",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "marcelorayzen/manutencao-express-mvp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "marcelorayzen/manutencao-express-mvp-v3",
+        "files_analyzed": 6,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "marcelorayzen/minha-lista",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "marcelorayzen/rayzen-ai",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "marcelorayzen/Rayzen-Infra-pessoal-de-IA-MCP-UFC-Agents-",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "marcelorayzen/Rayzen-PDV",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "marcelorayzen/site-hjr-ambiental",
+        "files_analyzed": 21,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

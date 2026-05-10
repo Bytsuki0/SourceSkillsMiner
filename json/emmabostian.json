@@ -1,0 +1,392 @@
+{
+  "username": "emmabostian",
+  "areas": {
+    "OSS": {
+      "score": 0.5741613551054077,
+      "details": {
+        "issue_resolution_rate": 0.9090909090909091,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.4521511235672025
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Adaptability": {
+      "score": -0.2375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "emmabostian/badass-conference-talks": 0.4215,
+        "emmabostian/blog": 0.44735,
+        "emmabostian/css-animations": 0.2072,
+        "emmabostian/design-inspiration": 0.46685,
+        "emmabostian/developer-portfolios": 0.25973714285714283
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2506656043544149,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        1262172,
+        0
+      ],
+      "CSS": [
+        642953,
+        0
+      ],
+      "HTML": [
+        381756,
+        9
+      ],
+      "Ruby": [
+        318011,
+        0
+      ],
+      "Shell": [
+        3976,
+        0
+      ],
+      "Dockerfile": [
+        1804,
+        0
+      ],
+      "Makefile": [
+        21,
+        0
+      ],
+      "Python": [
+        387558,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 9,
+    "total_lines": 2998251,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 381756,
+        "commits": 9
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1262172,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 642953,
+        "commits": 0
+      },
+      {
+        "language": "Ruby",
+        "lines": 318011,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 3976,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "emmabostian",
+    "analysis_date": "2026-05-10T09:42:09.879119",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 269,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 157,
+        "packages": {
+          "react": 93,
+          "gatsby": 54,
+          "prop-types": 14,
+          "gatsby-image": 10,
+          "styled-components": 10,
+          "react-helmet": 7,
+          "path": 6,
+          "react-dom": 6,
+          "express": 4,
+          "undefined": 4,
+          "fs": 4,
+          "semantic-ui-react": 4,
+          "http": 3,
+          "storybook": 3,
+          "object": 3,
+          "prismjs": 2,
+          "rollup-plugin-babel": 2,
+          "rollup-plugin-node-resolve": 2,
+          "rollup-plugin-url": 2,
+          "svgr": 2,
+          "rollup-plugin-commonjs": 2,
+          "rollup-plugin-peer-deps-external": 2,
+          "rollup-plugin-postcss": 2,
+          "styled-components-modifiers": 2,
+          "use": 2,
+          "gatsby-link": 2,
+          "lodash": 2,
+          "classnames": 2,
+          "socket.io": 2,
+          "typeface-merriweather": 1,
+          "typeface-montserrat": 1,
+          "gatsby-plugin-mailchimp": 1,
+          "Python.": 1,
+          "typography": 1,
+          "watson-developer-cloud": 1,
+          "adaro": 1,
+          "cfenv": 1,
+          "body-parser": 1,
+          "gulp-uglify": 1,
+          "gulp": 1,
+          "browser-sync": 1,
+          "gulp-autoprefixer": 1,
+          "gulp-imagemin": 1,
+          "gulp-sourcemaps": 1,
+          "gulp-concat": 1,
+          "gulp-sass": 1,
+          "theme": 1,
+          "containers": 1,
+          "registerServiceWorker": 1,
+          "babel-core": 1,
+          "babel-eslint": 1,
+          "babel-loader": 1,
+          "babel-plugin-dynamic-import-node": 1,
+          "babel-plugin-dynamic-import-webpack": 1,
+          "babel-plugin-syntax-dynamic-import": 1,
+          "babel-plugin-transform-class-properties": 1,
+          "babel-plugin-transform-decorators-legacy": 1,
+          "babel-plugin-transform-es2015-modules-commonjs": 1,
+          "babel-preset-env": 1,
+          "babel-preset-react": 1,
+          "babel-register": 1,
+          "compression": 1,
+          "cors": 1,
+          "eslint-config-airbnb": 1,
+          "eslint-config-prettier": 1,
+          "eslint-config-react": 1,
+          "eslint-loader": 1,
+          "eslint-plugin-flow": 1,
+          "eslint-plugin-flowtype": 1,
+          "eslint-plugin-import": 1,
+          "eslint-plugin-jsx-a11y": 1,
+          "eslint-plugin-prettier": 1,
+          "eslint-plugin-react": 1,
+          "eslint": 1,
+          "jest-serializer-enzyme": 1,
+          "emmas-super-cool-component-library": 1,
+          "create-react-library-with-styled-components": 1,
+          "2002:binary": 1,
+          "tag:yaml.org": 1,
+          "react-spring": 1,
+          "polished": 1,
+          "https:": 1,
+          "front-matter": 1,
+          "child_process": 1,
+          "ajv": 1,
+          "react-infinite-scroller": 1,
+          "c:[{b:": 1,
+          "function": 1,
+          "crypto": 1,
+          "mustache": 1,
+          "system": 1,
+          "=": 1,
+          "!": 1,
+          "testStart": 1,
+          "&lt;": 1,
+          "cypress-gatsby": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 12,
+        "packages": {
+          "unittest": 7,
+          "alphabetical": 7,
+          "sys": 6,
+          "src": 6,
+          "os": 4,
+          "json": 3,
+          "re": 3,
+          "argparse": 2,
+          "tempfile": 2,
+          "collections": 1,
+          "urllib": 1,
+          "defaultdict": 1,
+          "urlparse": 1,
+          "unicodedata": 1,
+          "extract_portfolio_data": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "emmabostian/blog",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/bluemix-example",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/boilerplate-code",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/building-a-portfolio-with-gatsby",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/chameleon-styleguide",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/coding-coach",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/complete-intro-to-react",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/component-library",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/create-react-library-with-styled-components",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/dev.to",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/developer-portfolios",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "emmabostian/emmas-awesome-portfolio",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/fem-design-systems",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/FEM-design-systems-docs",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/find-a-mentor",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/flexbox-vs-grid",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/gatsby",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "emmabostian/gatsby-blog",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

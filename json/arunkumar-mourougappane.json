@@ -1,0 +1,934 @@
+{
+  "username": "arunkumar-mourougappane",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3762101924583807,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9873922117644943,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.833333,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.6667,
+        "distinct_primary_languages": 9,
+        "language_transitions": 7,
+        "topic_entropy_bits": 3.875,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "arunkumar-mourougappane/bit-twiddler": -0.06916666666666667
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4252419718250095,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        299382,
+        50
+      ],
+      "C++": [
+        91313,
+        299
+      ],
+      "Makefile": [
+        1572,
+        2
+      ],
+      "Assembly": [
+        794,
+        0
+      ],
+      "Objective-C": [
+        182,
+        0
+      ],
+      "HTML": [
+        17824,
+        97
+      ],
+      "Rust": [
+        3452,
+        301
+      ],
+      "Shell": [
+        2903,
+        25
+      ],
+      "Python": [
+        40428,
+        60
+      ],
+      "DTrace": [
+        59,
+        0
+      ],
+      "MATLAB": [
+        37,
+        0
+      ],
+      "D": [
+        6,
+        0
+      ],
+      "JavaScript": [
+        25010,
+        17
+      ],
+      "CSS": [
+        3913,
+        2
+      ],
+      "Java": [
+        6835,
+        17
+      ],
+      "M4": [
+        89,
+        0
+      ],
+      "Slint": [
+        0,
+        16
+      ],
+      "CMake": [
+        0,
+        0
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 886,
+    "total_lines": 493799,
+    "top_5_languages": [
+      {
+        "language": "Rust",
+        "lines": 3452,
+        "commits": 301
+      },
+      {
+        "language": "C++",
+        "lines": 91313,
+        "commits": 299
+      },
+      {
+        "language": "HTML",
+        "lines": 17824,
+        "commits": 97
+      },
+      {
+        "language": "Python",
+        "lines": 40428,
+        "commits": 60
+      },
+      {
+        "language": "C",
+        "lines": 299382,
+        "commits": 50
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "arunkumar-mourougappane",
+    "analysis_date": "2026-05-10T05:12:55.881396",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 345,
+    "languages": {
+      "C": {
+        "files_scanned": 14,
+        "packages": {
+          "type.h": 8,
+          "lpc17xx.h": 6,
+          "adc.h": 4,
+          "LPC17xx.h": 4,
+          "can.h": 3,
+          "string.h": 3,
+          "<string.h>": 3,
+          "stdio.h": 3,
+          "<stdio.h>": 3,
+          "CMSIS_device_header": 2,
+          "tz_context.h": 2,
+          "RTE_Components.h": 2,
+          "uart.h": 2,
+          "dma.h": 2,
+          "bod.h": 2,
+          "timer.h": 2,
+          "<stdlib.h>": 2,
+          "err.h": 2,
+          "bzlib.h": 2,
+          "stdlib.h": 2,
+          "<fcntl.h>": 2,
+          "<unistd.h>": 2,
+          "sys/types.h": 2,
+          "<err.h>": 2,
+          "unistd.h": 2,
+          "fcntl.h": 2,
+          "<bzlib.h>": 2,
+          "<sys/types.h>": 2,
+          "limits.h": 1,
+          "bsdiff.h": 1,
+          "<limits.h>": 1,
+          "stdint.h": 1,
+          "sys/stat.h": 1,
+          "bspatch.h": 1,
+          "<sys/stat.h>": 1,
+          "<stdint.h>": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 49,
+        "packages": {
+          "mbed.h": 9,
+          "<WiFi.h>": 9,
+          "WiFi.h": 9,
+          "<Arduino.h>": 6,
+          "Arduino.h": 6,
+          "<algorithm>": 5,
+          "algorithm": 5,
+          "config.h": 5,
+          "Adafruit_ST7735.h": 4,
+          "hal.h": 4,
+          "DisplayManager.h": 4,
+          "wifi_manager.h": 4,
+          "logging.h": 4,
+          "led_controller.h": 4,
+          "Adafruit_GFX.h": 3,
+          "stdio.h": 3,
+          "<stdio.h>": 3,
+          "atomic": 3,
+          "<iostream>": 3,
+          "<atomic>": 3,
+          "iostream": 3,
+          "<math.h>": 3,
+          "math.h": 3,
+          "cstdio": 3,
+          "<cstdio>": 3,
+          "MPU9250.h": 3,
+          "<vector>": 3,
+          "vector": 3,
+          "<HTTPClient.h>": 3,
+          "HTTPClient.h": 3,
+          "esp_log.h": 3,
+          "<esp_log.h>": 3,
+          "base64_utils.h": 3,
+          "Preferences.h": 3,
+          "<Preferences.h>": 3,
+          "glcdfont.h": 2,
+          "Mahony.h": 2,
+          "Wire.h": 2,
+          "<cstdarg>": 2,
+          "<Wire.h>": 2,
+          "cstdarg": 2,
+          "string": 2,
+          "<string>": 2,
+          "WiFiManager.h": 2,
+          "<DisplayManager.h>": 2,
+          "ConfigManager.h": 2,
+          "<esp_task_wdt.h>": 2,
+          "esp_wifi.h": 2,
+          "PageRouter.h": 2,
+          "<WiFiManager.h>": 2,
+          "esp_task_wdt.h": 2,
+          "esp_system.h": 2,
+          "<mbedtls/base64.h>": 2,
+          "<esp_system.h>": 2,
+          "mbedtls/base64.h": 2,
+          "EventBus.h": 2,
+          "PageFactory.h": 2,
+          "iomanip": 2,
+          "sstream": 2,
+          "<iomanip>": 2,
+          "<sstream>": 2,
+          "CWifiScanner.h": 2,
+          "ap_config.h": 2,
+          "command_interface.h": 2,
+          "ap_manager.h": 2,
+          "battery_monitor.h": 2,
+          "iperf_manager.h": 2,
+          "latency_analyzer.h": 2,
+          "channel_analyzer.h": 2,
+          "station_config.h": 2,
+          "signal_monitor.h": 2,
+          "Ultrasonic_SR04.h": 2,
+          "ip_address.h": 2,
+          "<ip_address.h>": 2,
+          "I2Cdev.h": 1,
+          "MPU6050.h": 1,
+          "MPU60501.h": 1,
+          "OF": 1,
+          "i2c0.hpp": 1,
+          "Madgwick.h": 1,
+          "string.h": 1,
+          "MPU9250_registers.h": 1,
+          "<string.h>": 1,
+          "<deque>": 1,
+          "namespace": 1,
+          "<cassert>": 1,
+          "future": 1,
+          "<cmath>": 1,
+          "unordered_set": 1,
+          "<memory>": 1,
+          "<chrono>": 1,
+          "utility": 1,
+          "chrono": 1,
+          "std::chrono": 1,
+          "set": 1,
+          "<unordered_map>": 1,
+          "<utility>": 1,
+          "<unordered_set>": 1,
+          "<future>": 1,
+          "ms": 1,
+          "myfile.h": 1,
+          "<set>": 1,
+          "thread": 1,
+          "<map>": 1,
+          "<fstream>": 1,
+          "cmath": 1,
+          "map": 1,
+          "memory": 1,
+          "cassert": 1,
+          "<thread>": 1,
+          "N": 1,
+          "fstream": 1,
+          "deque": 1,
+          "unordered_map": 1,
+          "ArduinoJson.h": 1,
+          "<M5EPD.h>": 1,
+          "M5EPD.h": 1,
+          "<ArduinoJson.h>": 1,
+          "<NTPManager.h>": 1,
+          "WeatherService.h": 1,
+          "<SystemState.h>": 1,
+          "NTPManager.h": 1,
+          "esp_sleep.h": 1,
+          "<esp_sleep.h>": 1,
+          "InputManager.h": 1,
+          "<ConfigManager.h>": 1,
+          "<PageRouter.h>": 1,
+          "<driver/rtc_io.h>": 1,
+          "<esp_wifi.h>": 1,
+          "AppController.h": 1,
+          "<WeatherService.h>": 1,
+          "<ProvisioningManager.h>": 1,
+          "ProvisioningManager.h": 1,
+          "SystemState.h": 1,
+          "driver/rtc_io.h": 1,
+          "<InputManager.h>": 1,
+          "mbedtls/sha256.h": 1,
+          "mbedtls/aes.h": 1,
+          "<mbedtls/aes.h>": 1,
+          "<mbedtls/sha256.h>": 1,
+          "<EventBus.h>": 1,
+          "<qrcode.h>": 1,
+          "WeatherIconHelper.h": 1,
+          "weather_bitmaps.h": 1,
+          "qrcode.h": 1,
+          "Pages/SettingsPage.h": 1,
+          "Pages/ForecastPage.h": 1,
+          "Pages/DashboardPage.h": 1,
+          "Pages/HourlyPage.h": 1,
+          "CWifiAccessPointData.h": 1,
+          "<Adafruit_GFX.h>": 1,
+          "<Adafruit_ST7789.h>": 1,
+          "Adafruit_ST7789.h": 1,
+          "Adafruit_LC709203F.h": 1,
+          "Adafruit_MAX1704X.h": 1,
+          "web_server.h": 1,
+          "wifi_task.h": 1,
+          "performance_monitor.h": 1,
+          "<WiFiUdp.h>": 1,
+          "<AsyncUDP.h>": 1,
+          "WiFiUdp.h": 1,
+          "AsyncUDP.h": 1,
+          "WiFiClient.h": 1,
+          "<WiFiClient.h>": 1,
+          "port_scanner.h": 1,
+          "<time.h>": 1,
+          "tft_display.h": 1,
+          "<SPI.h>": 1,
+          "esp_netif.h": 1,
+          "lwip/dhcp.h": 1,
+          "esp_sntp.h": 1,
+          "SPI.h": 1,
+          "time.h": 1,
+          "gtest_ip_address.h": 1,
+          "<gtest_ip_address.h>": 1,
+          "gtest/gtest.h": 1,
+          "<gtest/gtest.h>": 1,
+          "cstdlib": 1,
+          "<unistd.h>": 1,
+          "arpa/inet.h": 1,
+          "cstring": 1,
+          "<cstdlib>": 1,
+          "unistd.h": 1,
+          "netinet/ip.h": 1,
+          "<arpa/inet.h>": 1,
+          "<cstring>": 1,
+          "<netinet/ip.h>": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<stdlib.h>": 1,
+          "stdlib.h": 1,
+          "LPC17xx.h": 1,
+          "stdint.h": 1,
+          "<stdint.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 119,
+        "packages": {
+          "stdint.h": 53,
+          "<stdint.h>": 53,
+          "CMSIS_NVIC_VIRTUAL_HEADER_FILE": 40,
+          "cmsis_version.h": 40,
+          "cmsis_compiler.h": 40,
+          "CMSIS_VECTAB_VIRTUAL_HEADER_FILE": 40,
+          "Arduino.h": 22,
+          "<Arduino.h>": 22,
+          "mpu_armv8.h": 16,
+          "mpu_armv7.h": 12,
+          "mbed.h": 8,
+          "<WiFi.h>": 7,
+          "WiFi.h": 7,
+          "config.h": 6,
+          "string.h": 5,
+          "arm_compat.h": 5,
+          "<arm_compat.h>": 5,
+          "vector": 5,
+          "<vector>": 5,
+          "Adafruit_GFX.h": 4,
+          "core_cm4.h": 4,
+          "math.h": 4,
+          "<WeatherService.h>": 4,
+          "WeatherService.h": 4,
+          "<freertos/FreeRTOS.h>": 4,
+          "freertos/FreeRTOS.h": 4,
+          "<DisplayManager.h>": 4,
+          "DisplayManager.h": 4,
+          "mbed_cmsis_conf.h": 3,
+          "mbed_rtx_conf.h": 3,
+          "core_cm3.h": 3,
+          "core_cm0plus.h": 3,
+          "core_cm0.h": 3,
+          "core_cm7.h": 3,
+          "core_armv8mbl.h": 3,
+          "core_armv8mml.h": 3,
+          "cmsis_armcc.h": 3,
+          "<cmsis_ccs.h>": 3,
+          "cmsis_armclang.h": 3,
+          "cmsis_gcc.h": 3,
+          "cmsis_iccarm.h": 3,
+          "<cmsis_csm.h>": 3,
+          "cmsis_ccs.h": 3,
+          "cmsis_csm.h": 3,
+          "<cmsis_iccarm.h>": 3,
+          "<intrinsics.h>": 3,
+          "intrinsics.h": 3,
+          "iccarm_builtin.h": 3,
+          "PageState.h": 3,
+          "IDisplayController.h": 3,
+          "<time.h>": 3,
+          "time.h": 3,
+          "<stdio.h>": 3,
+          "stdio.h": 3,
+          "string": 3,
+          "<string>": 3,
+          "<iostream>": 3,
+          "iostream": 3,
+          "freertos/task.h": 3,
+          "<freertos/task.h>": 3,
+          "Stream.h": 2,
+          "cmsis_armclang_ltm.h": 2,
+          "<M5Unified.h>": 2,
+          "M5Unified.h": 2,
+          "IPage.h": 2,
+          "algorithm": 2,
+          "<algorithm>": 2,
+          "<string.h>": 2,
+          "<WiFiUdp.h>": 2,
+          "WiFiUdp.h": 2,
+          "freertos/queue.h": 2,
+          "<Adafruit_GFX.h>": 2,
+          "<Adafruit_ST7789.h>": 2,
+          "<freertos/queue.h>": 2,
+          "Adafruit_ST7789.h": 2,
+          "cmsis.h": 2,
+          "helper_3dmath.h": 1,
+          "I2Cdev.h": 1,
+          "<stdlib.h>": 1,
+          "stdlib.h": 1,
+          "LPC17xx.h": 1,
+          "<stdarg.h>": 1,
+          "stdarg.h": 1,
+          "MPU9250_registers.h": 1,
+          "stddef.h": 1,
+          "<stddef.h>": 1,
+          "Preferences.h": 1,
+          "<Preferences.h>": 1,
+          "<freertos/semphr.h>": 1,
+          "freertos/semphr.h": 1,
+          "Handler": 1,
+          "<array>": 1,
+          "<functional>": 1,
+          "Table": 1,
+          "functional": 1,
+          "array": 1,
+          "SystemEvents.h": 1,
+          "WeatherIconHelper.h": 1,
+          "Widget.h": 1,
+          "weather_bitmaps.h": 1,
+          "CWifiAccessPointData.h": 1,
+          "<unordered_map>": 1,
+          "<atomic>": 1,
+          "atomic": 1,
+          "unordered_map": 1,
+          "esp_wifi.h": 1,
+          "Adafruit_NeoPixel.h": 1,
+          "<Adafruit_NeoPixel.h>": 1,
+          "<WiFiServer.h>": 1,
+          "WiFiClient.h": 1,
+          "<WiFiClient.h>": 1,
+          "WiFiServer.h": 1,
+          "<AsyncUDP.h>": 1,
+          "AsyncUDP.h": 1,
+          "<qrcode.h>": 1,
+          "qrcode.h": 1,
+          "<mbed.h>": 1,
+          "<SPI.h>": 1,
+          "SPI.h": 1,
+          "netinet/in.h": 1,
+          "<netinet/in.h>": 1,
+          "arpa/inet.h": 1,
+          "sys/socket.h": 1,
+          "<sys/socket.h>": 1,
+          "<arpa/inet.h>": 1,
+          "<gtest/gtest.h>": 1,
+          "cstring": 1,
+          "gtest/gtest.h": 1,
+          "<cstring>": 1,
+          "system_MK64F12.h": 1,
+          "PeripheralNames.h": 1,
+          "pinmap.h": 1,
+          "cmsis_nvic.h": 1,
+          "fsl_device_registers.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 6,
+        "packages": {
+          "com.insanecircuits": 6,
+          "java.util": 3,
+          "java.io": 3,
+          "static": 3,
+          "android.app": 2,
+          "android.os": 2,
+          "android.util": 2,
+          "org.json": 2,
+          "android.support": 2,
+          "android.test": 1,
+          "java.text": 1,
+          "android.net": 1,
+          "com.squareup": 1,
+          "android.animation": 1,
+          "android.content": 1,
+          "java.net": 1,
+          "android.widget": 1,
+          "org.junit": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 10,
+        "packages": {
+          "electron": 5,
+          "fs": 2,
+          "path": 2,
+          "cronstrue": 2,
+          "marked": 1,
+          "crypto": 1,
+          "qrcode": 1,
+          "object": 1,
+          "default": 1,
+          "=": 1,
+          "__esModule": 1,
+          "undefined": 1,
+          "jQuery": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 56,
+        "packages": {
+          "datetime": 27,
+          "typing": 17,
+          "ast_spacemobile": 11,
+          "sys": 11,
+          "os": 10,
+          "logging": 10,
+          "Optional": 9,
+          "asyncio": 8,
+          "pathlib": 7,
+          "Path": 7,
+          "traceback": 6,
+          "argparse": 6,
+          "requests": 6,
+          "Panel": 6,
+          "Text": 6,
+          "rich": 6,
+          "Group": 6,
+          "generate_trajectory_report": 5,
+          "numpy": 5,
+          "re": 5,
+          "Table": 5,
+          "AST_SATELLITES": 4,
+          "fetch_tle_data": 4,
+          "glob": 4,
+          "subprocess": 4,
+          "EarthSatellite": 4,
+          "Dict": 4,
+          "skyfield": 4,
+          "yaml": 4,
+          "identify_passes": 3,
+          "List": 3,
+          "matplotlib": 3,
+          "json": 3,
+          "pandas": 3,
+          "random": 3,
+          "AccountInfo": 3,
+          "webbrowser": 3,
+          "textual": 3,
+          "httpx": 3,
+          "dataclass": 3,
+          "dataclasses": 3,
+          "civil": 3,
+          "pytest": 3,
+          "unittest": 3,
+          "GeographicPosition": 2,
+          "generate_satellite_passes": 2,
+          "gi": 2,
+          "shutil": 2,
+          "setuptools": 2,
+          "plotext": 2,
+          "math": 2,
+          "CoinbaseTrader": 2,
+          "emby_client": 2,
+          "config": 2,
+          "EmbyClient": 2,
+          "Movie": 2,
+          "Static": 2,
+          "patch": 2,
+          "generate_pass_report": 1,
+          "LINK_QUALITY_THRESHOLDS": 1,
+          "load": 1,
+          "Figure": 1,
+          "FigureCanvasGTK3Agg": 1,
+          "Gtk": 1,
+          "calculate_signal_strength": 1,
+          "colors": 1,
+          "weasyprint": 1,
+          "collections": 1,
+          "markdown": 1,
+          "TA_CENTER": 1,
+          "inch": 1,
+          "ParagraphStyle": 1,
+          "reportlab": 1,
+          "HTML": 1,
+          "defaultdict": 1,
+          "PageBreak": 1,
+          "base64": 1,
+          "letter": 1,
+          "platform": 1,
+          "shlex": 1,
+          "importlib": 1,
+          "find_packages": 1,
+          "time": 1,
+          "termcolor": 1,
+          "coinbase": 1,
+          "colorlog": 1,
+          "UserInfo": 1,
+          "Client": 1,
+          "Country": 1,
+          "Balance": 1,
+          "flask": 1,
+          "Flask": 1,
+          "Response": 1,
+          "all": 1,
+          "GdkPixbuf": 1,
+          "threading": 1,
+          "MusicAlbum": 1,
+          "Series": 1,
+          "load_dotenv": 1,
+          "dotenv": 1,
+          "PIL": 1,
+          "Image": 1,
+          "App": 1,
+          "Container": 1,
+          "Binding": 1,
+          "work": 1,
+          "Any": 1,
+          "bs4": 1,
+          "BeautifulSoup": 1,
+          "ElementTree": 1,
+          "xml": 1,
+          "VerticalScroll": 1,
+          "ComposeResult": 1,
+          "LincolnApp": 1,
+          "setup": 1,
+          "tempfile": 1,
+          "AsyncMock": 1,
+          "DataCache": 1,
+          "WeatherData": 1,
+          "ILLINOIS_CITIES": 1,
+          "DEFAULT_TTL_CONFIG": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 23,
+        "packages": {
+          "crate": 14,
+          "ratatui": 10,
+          "std": 8,
+          "super": 5,
+          "tokio": 4,
+          "crossterm": 4,
+          "tokio_util": 3,
+          "serde": 3,
+          "anyhow": 2,
+          "serde_json": 2,
+          "wiremock": 2,
+          "alpaca_trader_rs": 2,
+          "slint": 2,
+          "log": 2,
+          "reqwest": 1,
+          "futures": 1,
+          "update": 1,
+          "app": 1,
+          "chrono": 1,
+          "monitor": 1,
+          "SLINT_INCLUDE_GENERATED": 1,
+          "settings": 1,
+          "utils": 1,
+          ",": 1,
+          "nvml_wrapper": 1,
+          "sysinfo": 1,
+          "directories": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "arunkumar-mourougappane/adafruit-st7735-joystick-integration",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/adafruit-TFT_1_8_joypad_integration",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/alpaca-trader-rs",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/ast-space-mobile-telemetry",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/Balancing-Bot",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C",
+          "C++",
+          "C++ Header",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/balancing-bot-v2",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/bit-twiddler",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/BlogReader",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/bsdiff-saic",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/coinbase-trader",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/cpp-cheatsheet",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/emby-assistant",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/esp32-stock-ticker",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/esp32-weather-monitor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/esp32-wifi-scanner",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/esp32-wifi-utility",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/gjallarhorn-rs",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/L.I.N.C.O.L.N",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/mbed-ultrasonic-HC-SR04",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/mesh-sense",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/miniIPutils",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "arunkumar-mourougappane/MPU9250-FRDM-k64-API",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

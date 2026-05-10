@@ -1,0 +1,443 @@
+{
+  "username": "abliveira",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.324488,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.774,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 6,
+        "topic_entropy_bits": 2.3219,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.17515401025641025,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        1494,
+        26
+      ],
+      "C": [
+        14352,
+        51
+      ],
+      "C++": [
+        242695,
+        78
+      ],
+      "Java": [
+        857,
+        100
+      ],
+      "Shell": [
+        665,
+        16
+      ],
+      "C#": [
+        12030,
+        8
+      ],
+      "HTML": [
+        8359,
+        21
+      ],
+      "TSQL": [
+        2077,
+        1
+      ],
+      "CSS": [
+        934,
+        0
+      ],
+      "JavaScript": [
+        200,
+        2
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 303,
+    "total_lines": 283663,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 857,
+        "commits": 100
+      },
+      {
+        "language": "C++",
+        "lines": 242695,
+        "commits": 78
+      },
+      {
+        "language": "C",
+        "lines": 14352,
+        "commits": 51
+      },
+      {
+        "language": "Python",
+        "lines": 1494,
+        "commits": 26
+      },
+      {
+        "language": "HTML",
+        "lines": 8359,
+        "commits": 21
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "abliveira",
+    "analysis_date": "2026-05-10T04:15:24.404954",
+    "total_repos_analyzed": 22,
+    "total_files_analyzed": 221,
+    "languages": {
+      "C": {
+        "files_scanned": 20,
+        "packages": {
+          "<stdio.h>": 19,
+          "stdio.h": 19,
+          "stdlib.h": 6,
+          "<stdlib.h>": 6,
+          "string.h": 3,
+          "<string.h>": 3,
+          "Customer.h": 2,
+          "stddef.h": 2,
+          "assert.h": 2,
+          "<stddef.h>": 2,
+          "TimeSubject.h": 2,
+          "DigitalStopWatch.h": 2,
+          "<assert.h>": 2,
+          "Order.h": 1,
+          "of": 1,
+          "TimeObserver.h": 1,
+          "<unistd.h>": 1,
+          "unistd.h": 1,
+          "TimeSource.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 10,
+        "packages": {
+          "myfinance_web_dotnet.Domain.Entities": 8,
+          "myfinance_web_dotnet_service.Interfaces": 5,
+          "myfinance_web_dotnet_infra": 3,
+          "Microsoft.AspNetCore.Mvc": 3,
+          "myfinance_web_dotnet.Models": 3,
+          "Microsoft.EntityFrameworkCore": 2,
+          "Microsoft.AspNetCore.Mvc.Rendering": 2,
+          "myfinance_web_dotnet_service": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 39,
+        "packages": {
+          "namespace": 36,
+          "std": 36,
+          "<iostream>": 32,
+          "iostream": 32,
+          "ctime": 3,
+          "<ctime>": 3,
+          "<cstdlib>": 3,
+          "cstdlib": 3,
+          "<bits/stdc++.h>": 2,
+          "bits/stdc++.h": 2,
+          "<fstream>": 2,
+          "fstream": 2,
+          "<stdio.h>": 2,
+          "stdio.h": 2,
+          "vector": 2,
+          "<vector>": 2,
+          "<conio.h>": 1,
+          "conio.h": 1,
+          "algorithm": 1,
+          "<algorithm>": 1,
+          "<string>": 1,
+          "string": 1,
+          "the": 1,
+          "compiler": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 4,
+        "packages": {
+          "Address.h": 1,
+          "TimeSubject.h": 1,
+          "SystemTime.h": 1,
+          "stdint.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 86,
+        "packages": {
+          "com.abliveira": 50,
+          "java.util": 44,
+          "org.junit": 31,
+          "org.owasp": 28,
+          "android.content": 27,
+          "static": 24,
+          "androidx.annotation": 21,
+          "com.google": 20,
+          "android.os": 17,
+          "java.io": 16,
+          "io.restassured": 16,
+          "android.view": 13,
+          "android.net": 12,
+          "org.springframework": 12,
+          "android.widget": 10,
+          "com.firebase": 8,
+          "com.bumptech": 8,
+          "java.nio": 8,
+          "androidx.appcompat": 7,
+          "android.util": 6,
+          "androidx.test": 5,
+          "org.hamcrest": 5,
+          "lombok.extern": 5,
+          "androidx.localbroadcastmanager": 4,
+          "androidx.recyclerview": 4,
+          "android.text": 4,
+          "android.database": 4,
+          "android.app": 3,
+          "androidx.core": 3,
+          "org.assertj": 3,
+          "org.thymeleaf": 3,
+          "android.media": 2,
+          "androidx.viewbinding": 2,
+          "android.provider": 2,
+          "pub.devrel": 2,
+          "android.Manifest": 2,
+          "androidx.constraintlayout": 2,
+          "java.text": 2,
+          "java.net": 2,
+          "org.apache": 2,
+          "lombok.SneakyThrows": 2,
+          "java.security": 2,
+          "org.dummy": 2,
+          "java.time": 2,
+          "jakarta.servlet": 2,
+          "javax.sql": 2,
+          "lombok.RequiredArgsConstructor": 2,
+          "org.json": 1,
+          "lombok.Data": 1,
+          "javax.xml": 1,
+          "lombok.Getter": 1,
+          "com.fasterxml": 1,
+          "org.jose4j": 1,
+          "io.jsonwebtoken": 1,
+          "org.asciidoctor": 1,
+          "io.undertow": 1,
+          "org.flywaydb": 1,
+          "lombok.AllArgsConstructor": 1,
+          "java.lang": 1,
+          "java.sql": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "jquery-validation": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 23,
+        "packages": {
+          "random": 7,
+          "logging": 6,
+          "os": 6,
+          "hashlib": 5,
+          "ask_sdk_core": 3,
+          "AbstractRequestHandler": 3,
+          "Response": 3,
+          "AbstractExceptionHandler": 3,
+          "HandlerInput": 3,
+          "ask_sdk_model": 3,
+          "botocore": 3,
+          "ClientError": 3,
+          "boto3": 3,
+          "cryptography": 3,
+          "hashes": 3,
+          "hmac": 3,
+          "argparse": 3,
+          "SkillBuilder": 2,
+          "base64": 2,
+          "rsa": 2,
+          "randint": 2,
+          "ask_sdk_s3": 1,
+          "CustomSkillBuilder": 1,
+          "S3Adapter": 1,
+          "is_intent_name": 1,
+          "default_backend": 1,
+          "Cipher": 1,
+          "math": 1,
+          "codecs": 1,
+          "sys": 1,
+          "a": 1,
+          "bcrypt": 1,
+          "string": 1,
+          "the": 1,
+          "serial": 1,
+          "time": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "abliveira/alexa-python",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "abliveira/alexa-sueca",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "abliveira/c",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "abliveira/cpp",
+        "files_analyzed": 23,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "abliveira/cyber",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "abliveira/ESP8266-Weather-Station",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "abliveira/java",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "abliveira/myfinance-web-dotnet",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C#",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abliveira/python",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "abliveira/StudyCircle",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "abliveira/StudyCircle-PUCMinas",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "abliveira/swe",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "abliveira/WeatherApp",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "abliveira/WebGoat",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "abliveira/WhatsStarter",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

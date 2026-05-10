@@ -1,0 +1,494 @@
+{
+  "username": "Ananthnbhat",
+  "areas": {
+    "OSS": {
+      "score": 0.04761904761904767,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.5714285714285714,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42682180067799913,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9863865471708448,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Adaptability": {
+      "score": -0.058333,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.3333,
+        "distinct_primary_languages": 6,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 6,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "Ananthnbhat/courses-app": 0.4939,
+        "Ananthnbhat/fsd-assignments": 0.0037600000000000003
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.28322156965940937,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        397707,
+        73
+      ],
+      "CSS": [
+        356406,
+        26
+      ],
+      "JavaScript": [
+        599764,
+        162
+      ],
+      "TypeScript": [
+        20424,
+        11
+      ],
+      "Makefile": [
+        47493,
+        0
+      ],
+      "Java": [
+        267100,
+        73
+      ],
+      "Dockerfile": [
+        2053,
+        0
+      ],
+      "SCSS": [
+        38830,
+        6
+      ],
+      "PHP": [
+        7312,
+        8
+      ],
+      "MDX": [
+        0,
+        25
+      ],
+      "TeX": [
+        0,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "Jupyter Notebook": [
+        0,
+        23
+      ],
+      "PureBasic": [
+        0,
+        15
+      ],
+      "Python": [
+        0,
+        11
+      ],
+      "C++": [
+        0,
+        0
+      ],
+      "Objective-C++": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "Starlark": [
+        0,
+        0
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 433,
+    "total_lines": 1737089,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 599764,
+        "commits": 162
+      },
+      {
+        "language": "HTML",
+        "lines": 397707,
+        "commits": 73
+      },
+      {
+        "language": "Java",
+        "lines": 267100,
+        "commits": 73
+      },
+      {
+        "language": "CSS",
+        "lines": 356406,
+        "commits": 26
+      },
+      {
+        "language": "MDX",
+        "lines": 0,
+        "commits": 25
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Ananthnbhat",
+    "analysis_date": "2026-05-10T05:55:44.651635",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 318,
+    "languages": {
+      "Java": {
+        "files_scanned": 54,
+        "packages": {
+          "org.springframework": 38,
+          "com.csci927": 21,
+          "java.util": 15,
+          "com.techinstance": 11,
+          "javax.validation": 8,
+          "org.slf4j": 8,
+          "org.junit": 7,
+          "javax.persistence": 6,
+          "lombok.Setter": 4,
+          "lombok.Getter": 4,
+          "lombok.ToString": 4,
+          "java.io": 4,
+          "javax.servlet": 4,
+          "com.asgmnt": 4,
+          "com.aopExample": 4,
+          "com.ananth10": 4,
+          "com.springboot": 3,
+          "pojo": 3,
+          "com.captcha": 2,
+          "pojo.User": 2,
+          "com.google": 1,
+          "static": 1,
+          "java.nio": 1,
+          "java.net": 1,
+          "javax.sql": 1,
+          "service.IncomePredictor": 1,
+          "service": 1,
+          "org.aspectj": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 99,
+        "packages": {
+          "react": 49,
+          "path": 12,
+          "prop-types": 12,
+          "fs": 8,
+          "react-dom": 8,
+          "gatsby": 8,
+          "react-router-dom": 7,
+          "react-redux": 6,
+          "redux": 5,
+          "react-dev-utils": 5,
+          "karma-chrome-launcher": 4,
+          "karma-coverage-istanbul-reporter": 4,
+          "karma-jasmine": 4,
+          "karma-jasmine-html-reporter": 4,
+          "jasmine-spec-reporter": 4,
+          "ts-node": 4,
+          "axios": 4,
+          "theme-ui": 4,
+          "webpack": 4,
+          "angular": 3,
+          "react-toastify": 3,
+          "web-vitals": 3,
+          "testing-library": 3,
+          "react-helmet": 3,
+          "bootstrap": 2,
+          "emotion": 2,
+          "redux-actions": 2,
+          "redux-create-types": 2,
+          "redux-epic": 2,
+          "postcss-flexbugs-fixes": 2,
+          "autoprefixer": 2,
+          "html-webpack-plugin": 2,
+          "chalk": 2,
+          "timers": 1,
+          "angular-devkit": 1,
+          "body-parser": 1,
+          "express": 1,
+          "mongoose": 1,
+          "ngRoute": 1,
+          "npm-shrinkwrap": 1,
+          "load-grunt-tasks": 1,
+          "time-grunt": 1,
+          "markdown-it": 1,
+          "btoa": 1,
+          "glob": 1,
+          "LOAD_AUTHORS_SUCCESS": 1,
+          "DELETE_COURSE_OPTIMISTIC": 1,
+          "CREATE_COURSE": 1,
+          "CREATE_COURSE_SUCCESS": 1,
+          "UPDATE_COURSE_SUCCESS": 1,
+          "API_CALL_ERROR": 1,
+          "LOAD_COURSES_SUCCESS": 1,
+          "BEGIN_API_CALL": 1,
+          "redux-thunk": 1,
+          "redux-immutable-state-invariant": 1,
+          "json-server": 1,
+          "gulp-rename": 1,
+          "gulp": 1,
+          "gulp-clean-css": 1,
+          "gulp-header": 1,
+          "gulp-uglify": 1,
+          "gulp-sass": 1,
+          "browser-sync": 1,
+          "marked": 1,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "t.write(": 1,
+          "gatsby-image": 1,
+          "styled-components": 1,
+          "gatsby-cypress": 1,
+          "react-live": 1,
+          "mdx-js": 1,
+          "prism-react-renderer": 1,
+          "gatsby-plugin-mdx": 1,
+          "mdx-utils": 1,
+          "unist-util-visit": 1,
+          "rx": 1,
+          "!raw!..": 1,
+          "dotenv-expand": 1,
+          "dotenv": 1,
+          "enzyme-adapter-react-16": 1,
+          "enzyme": 1,
+          "url": 1,
+          "object-assign": 1,
+          "raf": 1,
+          "whatwg-fetch": 1,
+          "promise": 1,
+          "style-loader": 1,
+          "case-sensitive-paths-webpack-plugin": 1,
+          "webpack-manifest-plugin": 1,
+          "sw-precache-webpack-plugin": 1,
+          "extract-text-webpack-plugin": 1,
+          "root": 1,
+          "fs-extra": 1,
+          "webpack-dev-server": 1,
+          "jest": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 15,
+        "packages": {
+          "react": 15,
+          "react-bootstrap": 9,
+          "prop-types": 8,
+          "gatsby-link": 5,
+          "react-redux": 5,
+          "redux": 5,
+          "react-helmet": 3,
+          "react-fontawesome": 2,
+          "prismjs": 1,
+          "source": 1,
+          "enzyme": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 5,
+        "packages": {
+          "class.user.php": 4,
+          "dbconfig.php": 1,
+          "mailer/class.phpmailer.php": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 37,
+        "packages": {
+          "angular": 30,
+          "zone.js": 6,
+          "protractor": 4,
+          "classlist.js": 3,
+          "web-animations-js": 3,
+          "core-js": 3,
+          "rxjs": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "theme-ui": 1,
+          "gatsby": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Ananthnbhat/30-JS",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/ananthblogs",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/blog",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/bookstore",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/courses-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/csci927",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/FCC-projects",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/forJuspay",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/fsd-assignments",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/gatsby-blog",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/gatsby-blog-2",
+        "files_analyzed": 3,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/gatsby-starter-minimal-blog",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/gatsby-themes",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/guides",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/javaProjects",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/jest-talk",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "Ananthnbhat/MEAN",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

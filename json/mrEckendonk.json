@@ -1,0 +1,449 @@
+{
+  "username": "mrEckendonk",
+  "areas": {
+    "OSS": {
+      "score": 0.7414965986394557,
+      "details": {
+        "issue_resolution_rate": 0.6122448979591837,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.25908708217581844,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.83093831557142,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 0.375,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "mrEckendonk/Awesome-books": 0.47467692307692305,
+        "mrEckendonk/awesome-books-ES6": 0.46505,
+        "mrEckendonk/books-website-ES6": 0.6467
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5751167361630549,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        303604,
+        324
+      ],
+      "CSS": [
+        52560,
+        141
+      ],
+      "SCSS": [
+        762494,
+        0
+      ],
+      "Pug": [
+        6730,
+        0
+      ],
+      "Dockerfile": [
+        67465,
+        0
+      ],
+      "Shell": [
+        35697,
+        1
+      ],
+      "Python": [
+        2338217,
+        34
+      ],
+      "Nix": [
+        306,
+        0
+      ],
+      "HTML": [
+        957035,
+        120
+      ],
+      "TypeScript": [
+        4807053,
+        1
+      ],
+      "Java": [
+        5737497,
+        0
+      ],
+      "Makefile": [
+        22847,
+        0
+      ],
+      "HCL": [
+        9365,
+        0
+      ],
+      "Jinja": [
+        433,
+        0
+      ],
+      "Mako": [
+        59,
+        0
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 621,
+    "total_lines": 15101362,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 303604,
+        "commits": 324
+      },
+      {
+        "language": "CSS",
+        "lines": 52560,
+        "commits": 141
+      },
+      {
+        "language": "HTML",
+        "lines": 957035,
+        "commits": 120
+      },
+      {
+        "language": "Python",
+        "lines": 2338217,
+        "commits": 34
+      },
+      {
+        "language": "Shell",
+        "lines": 35697,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mrEckendonk",
+    "analysis_date": "2026-05-10T06:10:40.984295",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 210,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 43,
+        "packages": {
+          "mongoose": 7,
+          "supertest": 6,
+          "dotenv": 6,
+          "react": 5,
+          "moment": 4,
+          "axios": 4,
+          "express": 3,
+          "actions": 3,
+          "md5": 2,
+          "util": 2,
+          "Book": 2,
+          "fs": 2,
+          "module": 2,
+          "js-cookie": 2,
+          "gatsby": 2,
+          "node-mocks-http": 1,
+          "body-parser": 1,
+          "i18n": 1,
+          "path": 1,
+          "cors": 1,
+          "chalk": 1,
+          "redis": 1,
+          "jsonwebtoken": 1,
+          "sendgrid": 1,
+          "generate-password": 1,
+          "Request": 1,
+          "User": 1,
+          "Verse": 1,
+          "jQuery": 1,
+          "undefined": 1,
+          "jquery": 1,
+          "next": 1,
+          "tailwindcss": 1,
+          "octokit": 1,
+          "js-yaml": 1,
+          "\\`?theme=THEME_NAME\\`": 1,
+          "hjson": 1,
+          "console": 1,
+          "lodash.snakecase": 1,
+          "color-contrast-checker": 1,
+          "parse-diff": 1,
+          "yargs": 1,
+          "gzip-js": 1,
+          "url": 1,
+          "http": 1,
+          "node-static": 1,
+          "gatsby-plugin-image": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 32,
+        "packages": {
+          "src": 19,
+          "os": 10,
+          "typing": 8,
+          "logging": 7,
+          "attr": 5,
+          "ENV": 5,
+          "numpy": 5,
+          "requests": 4,
+          "JSONEncodable": 4,
+          "langchain": 3,
+          "tool": 3,
+          "sys": 3,
+          "List": 3,
+          "tensorflow": 3,
+          "BoundingBoxDTO": 3,
+          "Tuple": 3,
+          "re": 3,
+          "tempfile": 3,
+          "dotenv": 2,
+          "ChatOpenAI": 2,
+          "ChatAnthropic": 2,
+          "load_dotenv": 2,
+          "SecTools": 2,
+          "langchain_openai": 2,
+          "DuckDuckGoSearchRun": 2,
+          "BraveSearch": 2,
+          "ChatMistralAI": 2,
+          "langchain_community": 2,
+          "Agent": 2,
+          "crewai": 2,
+          "tools": 2,
+          "langchain_mistralai": 2,
+          "langchain_anthropic": 2,
+          "get_current_dir": 2,
+          "DOCS_DIR": 2,
+          "IMG_DIR": 2,
+          "base": 2,
+          "flask": 2,
+          "BadRequest": 2,
+          "read_img": 2,
+          "werkzeug": 2,
+          "json": 2,
+          "init_runtime": 2,
+          "Array3D": 2,
+          "ImgScaler": 2,
+          "cached_property": 2,
+          "plugin_result": 2,
+          "pandas": 1,
+          "obb": 1,
+          "openbb": 1,
+          "flasgger": 1,
+          "Swagger": 1,
+          "Constants": 1,
+          "needs_attached_file": 1,
+          "NoFaceFoundError": 1,
+          "base64": 1,
+          "ARG": 1,
+          "request": 1,
+          "jsonify": 1,
+          "SKIPPED_PLUGINS": 1,
+          "scanner": 1,
+          "warnings": 1,
+          "yaml": 1,
+          "deprecation": 1,
+          "YAMLLoadWarning": 1,
+          "FlaskRequestContextAdder": 1,
+          "traceback": 1,
+          "Union": 1,
+          "disable_caching": 1,
+          "add_json_encoding": 1,
+          "add_docs": 1,
+          "constants": 1,
+          "endpoints": 1,
+          "add_error_handling": 1,
+          "log_http_response": 1,
+          "Flask": 1,
+          "get_env": 1,
+          "ImageFile": 1,
+          "init_logging": 1,
+          "PIL": 1,
+          "Array1D": 1,
+          "cv2": 1,
+          "tensorflow~=2": 1,
+          "helpers": 1,
+          "inception_v3_base": 1,
+          "tf_slim": 1,
+          "plugin_manager": 1,
+          "sample_images": 1,
+          "pytest": 1,
+          "AgeDetector": 1,
+          "Path": 1,
+          "ZipFile": 1,
+          "pathlib": 1,
+          "ABC": 1,
+          "zipfile": 1,
+          "Any": 1,
+          "abc": 1,
+          "gdown": 1,
+          "urllib": 1,
+          "shutil": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 25,
+        "packages": {
+          "~": 13,
+          "cypress": 13,
+          "next": 2,
+          "DATABASE_ID": 1,
+          "https:": 1,
+          "cms-wordpress": 1,
+          "WordPress": 1,
+          "tailwindcss": 1,
+          "when": 1,
+          "testing-library": 1,
+          "whatwg-fetch": 1,
+          ").should(": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 20,
+        "packages": {
+          "next": 13,
+          "~": 5,
+          "classnames": 2,
+          "testing-library": 2,
+          "react": 2,
+          "date-fns": 1,
+          "CheckboxTree": 1,
+          "name": 1,
+          "reduxjs": 1,
+          "react-redux": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mrEckendonk/abibliadigital",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mrEckendonk/ai-automation-finance",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mrEckendonk/cms-wordpress_test",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "mrEckendonk/CompreFace",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mrEckendonk/earthquake",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mrEckendonk/faust-example",
+        "files_analyzed": 4,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "mrEckendonk/fides",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "mrEckendonk/fuckfuckadblock",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mrEckendonk/github-readme-stats",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "mrEckendonk/jest-test",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mrEckendonk/js-cookie",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mrEckendonk/Learn-Gatsby-Online",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

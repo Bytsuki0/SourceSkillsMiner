@@ -1,0 +1,1064 @@
+{
+  "username": "Fabio-A-Sa",
+  "areas": {
+    "OSS": {
+      "score": 0.9215686274509804,
+      "details": {
+        "issue_resolution_rate": 0.8823529411764706,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4487179487179487,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.17307692307692307
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 14,
+        "language_transitions": 13,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 1.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 4,
+        "max_points": 4,
+        "percentage": 100.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5740573152337859,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        4316756,
+        1195
+      ],
+      "OpenEdge ABL": [
+        1246,
+        1
+      ],
+      "JavaScript": [
+        1399478,
+        534
+      ],
+      "CSS": [
+        413495,
+        157
+      ],
+      "HTML": [
+        3729276,
+        402
+      ],
+      "SCSS": [
+        130390,
+        0
+      ],
+      "Ruby": [
+        54,
+        0
+      ],
+      "Shell": [
+        92055,
+        380
+      ],
+      "R": [
+        2125,
+        0
+      ],
+      "Dockerfile": [
+        76176,
+        24
+      ],
+      "Makefile": [
+        33319,
+        10
+      ],
+      "TeX": [
+        1019160,
+        348
+      ],
+      "PHP": [
+        190459,
+        228
+      ],
+      "C": [
+        73496,
+        874
+      ],
+      "C++": [
+        1164466,
+        2032
+      ],
+      "Assembly": [
+        13358,
+        166
+      ],
+      "Solidity": [
+        4245,
+        0
+      ],
+      "DIGITAL Command Language": [
+        1415,
+        0
+      ],
+      "CMake": [
+        25839,
+        2
+      ],
+      "Prolog": [
+        10343,
+        371
+      ],
+      "Dart": [
+        8147,
+        129
+      ],
+      "Swift": [
+        2379,
+        0
+      ],
+      "Kotlin": [
+        178,
+        0
+      ],
+      "Objective-C": [
+        52,
+        0
+      ],
+      "GLSL": [
+        111381,
+        81
+      ],
+      "Jupyter Notebook": [
+        11446,
+        255
+      ],
+      "Java": [
+        0,
+        655
+      ],
+      "Groovy": [
+        0,
+        89
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "Roff": [
+        0,
+        0
+      ],
+      "Gherkin": [
+        0,
+        3
+      ],
+      "PLpgSQL": [
+        0,
+        49
+      ],
+      "Blade": [
+        0,
+        46
+      ],
+      "Less": [
+        0,
+        1
+      ],
+      "Haskell": [
+        0,
+        129
+      ],
+      "ANTLR": [
+        0,
+        2
+      ],
+      "Jasmin": [
+        0,
+        2
+      ],
+      "EJS": [
+        0,
+        14
+      ],
+      "Nix": [
+        0,
+        0
+      ],
+      "AspectJ": [
+        0,
+        0
+      ],
+      "Rust": [
+        0,
+        0
+      ]
+    },
+    "language_count": 41,
+    "total_commits": 8179,
+    "total_lines": 12830734,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 1164466,
+        "commits": 2032
+      },
+      {
+        "language": "Python",
+        "lines": 4316756,
+        "commits": 1195
+      },
+      {
+        "language": "C",
+        "lines": 73496,
+        "commits": 874
+      },
+      {
+        "language": "Java",
+        "lines": 0,
+        "commits": 655
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1399478,
+        "commits": 534
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Fabio-A-Sa",
+    "analysis_date": "2026-05-10T13:20:48.780642",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 484,
+    "languages": {
+      "C": {
+        "files_scanned": 46,
+        "packages": {
+          "stdio.h": 32,
+          "<stdio.h>": 32,
+          "<stdlib.h>": 25,
+          "stdlib.h": 25,
+          "<math.h>": 6,
+          "math.h": 6,
+          "<string.h>": 3,
+          "string.h": 3,
+          "<lcom/lcf.h>": 2,
+          "lcom/lcf.h": 2,
+          "guessing.h": 2,
+          "complex.h": 2,
+          "complex2.h": 2,
+          "list.h": 2,
+          "matrix.h": 2,
+          "vector.h": 2,
+          "<ctype.h>": 2,
+          "ctype.h": 2,
+          "keyboard.h": 1,
+          "mouse.h": 1,
+          "queue.h": 1,
+          "serialPort.h": 1,
+          "timer.h": 1,
+          "<stdint.h>": 1,
+          "stdint.h": 1,
+          "graphics.h": 1,
+          "game.h": 1,
+          "drawing.h": 1,
+          "lcom/vbe.h": 1,
+          "menu.h": 1,
+          "execinfo.h": 1,
+          "<execinfo.h>": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 74,
+        "packages": {
+          "iostream": 41,
+          "<iostream>": 41,
+          "namespace": 38,
+          "std": 38,
+          "<string>": 21,
+          "string": 21,
+          "vector": 19,
+          "<vector>": 19,
+          "gtest/gtest.h": 18,
+          "<gtest/gtest.h>": 18,
+          "array": 16,
+          "<array>": 16,
+          "<cmath>": 13,
+          "cmath": 13,
+          "exercises.h": 13,
+          "fstream": 12,
+          "<fstream>": 12,
+          "<iomanip>": 11,
+          "iomanip": 11,
+          "<sstream>": 11,
+          "sstream": 11,
+          "<map>": 10,
+          "map": 10,
+          "list": 9,
+          "<list>": 9,
+          "<gmock/gmock.h>": 9,
+          "gmock/gmock.h": 9,
+          "graph.h": 8,
+          "funWithGraphs.h": 6,
+          "<algorithm>": 5,
+          "algorithm": 5,
+          "testing::Eq": 5,
+          "cstdlib": 4,
+          "<cstdlib>": 4,
+          "<stdlib.h>": 4,
+          "stdlib.h": 4,
+          "<ctime>": 4,
+          "ctime": 4,
+          "<thread>": 3,
+          "thread": 3,
+          "<openssl/rand.h>": 2,
+          "openssl/rand.h": 2,
+          "utils.hpp": 2,
+          "evp-encrypt.hpp": 2,
+          "<sys/wait.h>": 2,
+          "unistd.h": 2,
+          "<sys/socket.h>": 2,
+          "sys/wait.h": 2,
+          "sys/socket.h": 2,
+          "<netinet/in.h>": 2,
+          "<string.h>": 2,
+          "netinet/in.h": 2,
+          "<unistd.h>": 2,
+          "<stdio.h>": 2,
+          "string.h": 2,
+          "stdio.h": 2,
+          "my_application.h": 2,
+          "set": 2,
+          "<set>": 2,
+          "minHeap.h": 2,
+          "mail.h": 2,
+          "postOffice.h": 2,
+          "postman.h": 2,
+          "<limits>": 2,
+          "<time.h>": 2,
+          "<random>": 2,
+          "sys/timeb.h": 2,
+          "random": 2,
+          "time.h": 2,
+          "limits": 2,
+          "<sys/timeb.h>": 2,
+          "<queue>": 2,
+          "queue": 2,
+          "generated_plugin_registrant.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "<gdk/gdkx.h>": 1,
+          "flutter/generated_plugin_registrant.h": 1,
+          "gdk/gdkx.h": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "new": 1,
+          "<new>": 1,
+          "utility": 1,
+          "<cstddef>": 1,
+          "<utility>": 1,
+          "cstddef": 1,
+          "assert.h": 1,
+          "<assert.h>": 1,
+          "Parque.h": 1,
+          "parque.cpp": 1,
+          "disjointSets.h": 1,
+          "<climits>": 1,
+          "climits": 1,
+          "ostream": 1,
+          "<ostream>": 1,
+          "FileReader.h": 1,
+          "MailSystem.h": 1,
+          "Package.h": 1,
+          "Truck.h": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 4,
+        "packages": {
+          "vector": 4,
+          "<vector>": 4,
+          "<stdexcept>": 2,
+          "<memory>": 2,
+          "<openssl/evp.h>": 2,
+          "openssl/evp.h": 2,
+          "memory": 2,
+          "EVP_CIPHER_CTX_free_ptr": 2,
+          "<limits>": 2,
+          "Byte": 2,
+          "Bytes": 2,
+          "limits": 2,
+          "stdexcept": 2,
+          "openssl/crypto.h": 2,
+          "<iomanip>": 2,
+          "<string>": 2,
+          "string": 2,
+          "<sstream>": 2,
+          "iomanip": 2,
+          "sstream": 2,
+          "<openssl/crypto.h>": 2
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 37,
+        "packages": {
+          "vector": 14,
+          "<vector>": 14,
+          "namespace": 12,
+          "<lcom/lcf.h>": 10,
+          "lcom/lcf.h": 10,
+          "iostream": 9,
+          "<iostream>": 9,
+          "stdint.h": 6,
+          "<stdint.h>": 6,
+          "<string>": 5,
+          "string": 5,
+          "list": 5,
+          "<list>": 5,
+          "GeneratedPluginRegistrant.h": 3,
+          "graph.h": 3,
+          "<unordered_map>": 3,
+          "unordered_map": 3,
+          "minHeap.h": 2,
+          "mail.h": 2,
+          "Package.h": 2,
+          "i8042.h": 2,
+          "<minix/sysutil.h>": 2,
+          "minix/sysutil.h": 2,
+          "<stdio.h>": 2,
+          "stdio.h": 2,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "<gtk/gtk.h>": 1,
+          "gtk/gtk.h": 1,
+          "<queue>": 1,
+          "queue": 1,
+          "disjointSets.h": 1,
+          "<map>": 1,
+          "map": 1,
+          "postman.h": 1,
+          "<ia64intrin.h>": 1,
+          "windows.h": 1,
+          "mach/mach_time.h": 1,
+          "c_asm.h": 1,
+          "fcntl.h": 1,
+          "<machine/inline.h>": 1,
+          "ia64intrin.h": 1,
+          "<time.h>": 1,
+          "<fcntl.h>": 1,
+          "<mach/mach_time.h>": 1,
+          "intrin.h": 1,
+          "<intrinsics.h>": 1,
+          "machine/inline.h": 1,
+          "<machine/sys/inline.h>": 1,
+          "<sys/time.h>": 1,
+          "<c_asm.h>": 1,
+          "sys/time.h": 1,
+          "intrinsics.h": 1,
+          "<windows.h>": 1,
+          "machine/sys/inline.h": 1,
+          "unistd.h": 1,
+          "sys/mman.h": 1,
+          "time.h": 1,
+          "<unistd.h>": 1,
+          "<sys/mman.h>": 1,
+          "<intrin.h>": 1,
+          "<ostream>": 1,
+          "ostream": 1,
+          "fstream": 1,
+          "Truck.h": 1,
+          "<limits>": 1,
+          "limits": 1,
+          "<fstream>": 1,
+          "<ctime>": 1,
+          "algorithm": 1,
+          "ctime": 1,
+          "<algorithm>": 1,
+          "Utils.h": 1,
+          "<sstream>": 1,
+          "FileReader.h": 1,
+          "sstream": 1,
+          "queue.h": 1,
+          "SP.h": 1,
+          "<lcom/timer.h>": 1,
+          "lcom/timer.h": 1,
+          "i8254.h": 1,
+          "BIOS_MACROS.h": 1,
+          "VBE.h": 1,
+          "<string.h>": 1,
+          "string.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 25,
+        "packages": {
+          "uni": 15,
+          "dart:async": 12,
+          "flutter": 8,
+          "sqflite": 8,
+          "dart:io": 5,
+          "http": 4,
+          "path_provider": 4,
+          "dart:convert": 3,
+          "workshop_demo": 3,
+          "connectivity": 3,
+          "tuple": 3,
+          "logger": 3,
+          "app_database.dart": 3,
+          "dart:ui": 2,
+          "redux": 2,
+          "synchronized": 2,
+          "shared_preferences": 2,
+          "flutter_cache_manager": 2,
+          "model/news_article.dart": 1,
+          "permission_handler": 1,
+          "flutter_downloader": 1,
+          "dart:isolate": 1,
+          "fluttertest": 1,
+          "flutter_test": 1,
+          "html": 1,
+          "local_storage/app_shared_preferences.dart": 1,
+          "crypto": 1,
+          "collection": 1,
+          "path": 1,
+          "intl": 1,
+          "encrypt": 1,
+          "image": 1,
+          "flutter_redux": 1,
+          "redux_thunk": 1,
+          "query_params": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 23,
+        "packages": {
+          "java.util": 16,
+          "com.aor": 16,
+          "org.junit": 6,
+          "org.mockito": 3,
+          "java.io": 2,
+          "java.lang": 1,
+          "com.example": 1,
+          "io.flutter": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 35,
+        "packages": {
+          "undefined": 8,
+          "[]": 6,
+          "512": 6,
+          "(]([^\\n]+)[": 6,
+          "-webkit-transform": 6,
+          "t]}}}": 6,
+          "literal:": 6,
+          "s": 6,
+          "function": 6,
+          "s=": 6,
+          "o": 6,
+          "}]}}]};return{case_insensitive:!0": 6,
+          "r": 6,
+          "{name:": 6,
+          "built_in:": 6,
+          "l": 6,
+          "e.C_NUMBER_MODE": 6,
+          "e.C_BLOCK_COMMENT_MODE": 6,
+          "illegal:": 6,
+          "contains:[e.C_LINE_COMMENT_MODE": 6,
+          "n": 6,
+          "_:": 6,
+          "}": 6,
+          "meta:": 6,
+          "darcula.css": 6,
+          "__core-js_shared__": 5,
+          "native-string-replace": 4,
+          ":": 3,
+          ":[576": 3,
+          "highlight.js": 2,
+          "toString": 2,
+          "marked": 2,
+          "match": 2,
+          "object": 1,
+          "jQuery": 1,
+          "express": 1,
+          "cors": 1,
+          "fs": 1,
+          "path": 1,
+          "react": 1,
+          "react-dom": 1,
+          "none": 1,
+          "div": 1,
+          "Lucida": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 2,
+        "packages": {
+          "io.flutter": 2,
+          "com.example": 1,
+          "android.os": 1,
+          "android.view": 1,
+          "androidx.annotation": 1,
+          "pt.up": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 5,
+        "packages": {
+          "database/connection.php": 4,
+          "database/news.php": 4,
+          "database/comments.php": 2,
+          "templates/common.php": 2,
+          "templates/news.php": 2,
+          "templates/comments.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 88,
+        "packages": {
+          "os": 25,
+          "opensak": 20,
+          "sys": 19,
+          "json": 16,
+          "annotations": 15,
+          "__future__": 15,
+          "pathlib": 13,
+          "Path": 13,
+          "web3": 12,
+          "Web3": 12,
+          "re": 10,
+          "math": 10,
+          "typing": 10,
+          "*": 10,
+          "datetime": 8,
+          "pandas": 8,
+          "PySide6": 8,
+          "SEEDWeb3": 8,
+          "matplotlib": 7,
+          "subprocess": 7,
+          "Qt": 7,
+          "tr": 7,
+          "random": 7,
+          "numpy": 6,
+          "Cache": 6,
+          "Optional": 6,
+          "seedemu": 6,
+          "string": 5,
+          "urllib": 5,
+          "webbrowser": 5,
+          "shutil": 5,
+          "time": 5,
+          "init_db": 5,
+          "utils": 5,
+          "ascii_lowercase": 4,
+          "base64": 4,
+          "get_app_data_dir": 4,
+          "GcCode": 4,
+          "sqlalchemy": 4,
+          "format_coords": 4,
+          "QFont": 4,
+          "writeToFile": 4,
+          "ascii_uppercase": 3,
+          "argparse": 3,
+          "threading": 3,
+          "QApplication": 3,
+          "Coordinate": 3,
+          "get_session": 3,
+          "get_settings": 3,
+          "SentenceTransformer": 3,
+          "sentence_transformers": 3,
+          "nltk": 3,
+          "unidecode": 3,
+          "collections": 3,
+          "binascii": 3,
+          "pwn": 3,
+          "contextlib": 2,
+          "email": 2,
+          "difflib": 2,
+          "Files": 2,
+          "PIL": 2,
+          "Image": 2,
+          "glob": 2,
+          "_haversine_km": 2,
+          "tempfile": 2,
+          "QColor": 2,
+          "get_db_manager": 2,
+          "create_engine": 2,
+          "Session": 2,
+          "dataclass": 2,
+          "dataclasses": 2,
+          "QSettings": 2,
+          "CorrectedCoordsDialog": 2,
+          "CoordConverterDialog": 2,
+          "CoordFormat": 2,
+          "requests": 2,
+          "geth_poa_middleware": 2,
+          "Counter": 2,
+          "c_auxiliar_functions": 2,
+          "statistics": 2,
+          "permutations": 2,
+          "floor": 2,
+          "itertools": 2,
+          "pow": 2,
+          "gcd": 2,
+          "sqrt": 2,
+          "functools": 2,
+          "ceil": 2,
+          "unhexlify": 2,
+          "request": 1,
+          "pickle": 1,
+          "zipfile": 1,
+          "nullcontext": 1,
+          "EmailClient": 1,
+          "run_dashboard": 1,
+          "src": 1,
+          "build": 1,
+          "googleapiclient": 1,
+          "google_auth_oauthlib": 1,
+          "EmailMessage": 1,
+          "InstalledAppFlow": 1,
+          "BeautifulSoup": 1,
+          "bs4": 1,
+          "decode_header": 1,
+          "Flask": 1,
+          "flask": 1,
+          "detect": 1,
+          "langdetect": 1,
+          "display": 1,
+          "sleep": 1,
+          "RecursiveSearch": 1,
+          "ManualSettings": 1,
+          "Extensions": 1,
+          "main": 1,
+          "io": 1,
+          "struct": 1,
+          "cairosvg": 1,
+          "zlib": 1,
+          "import_gpx": 1,
+          "print_config": 1,
+          "stat": 1,
+          "secrets": 1,
+          "http": 1,
+          "validate_gc_code": 1,
+          "logging": 1,
+          "enum": 1,
+          "hashlib": 1,
+          "IntEnum": 1,
+          "QTimer": 1,
+          "get_language": 1,
+          "get_app_icon": 1,
+          "load_language": 1,
+          "QPixmap": 1,
+          "__version__": 1,
+          "MainWindow": 1,
+          "QSplashScreen": 1,
+          "Generator": 1,
+          "Base": 1,
+          "Engine": 1,
+          "get_db_path": 1,
+          "contextmanager": 1,
+          "sessionmaker": 1,
+          "dispose_engine": 1,
+          "gc": 1,
+          "DeclarativeBase": 1,
+          "FilterSet": 1,
+          "joinedload": 1,
+          "Any": 1,
+          "text": 1,
+          "ABC": 1,
+          "abc": 1,
+          "func": 1,
+          "NamedTuple": 1,
+          "reverse_geocoder": 1,
+          "pycountry": 1,
+          "platform": 1,
+          "Element": 1,
+          "getpass": 1,
+          "xml": 1,
+          "QLineEdit": 1,
+          "LOG_COLOURS": 1,
+          "QWebEngineView": 1,
+          "QWebEnginePage": 1,
+          "get_visible_columns": 1,
+          "QStyledItemDelegate": 1,
+          "other": 1,
+          "Nano": 1,
+          "QRect": 1,
+          "UserNote": 1,
+          "UpdateLocationDialog": 1,
+          "get_column_widths": 1,
+          "flags": 1,
+          "QStyle": 1,
+          "QPainter": 1,
+          "QTableView": 1,
+          "get_cache_type_icon": 1,
+          "parse_coords": 1,
+          "PrecisionRecallDisplay": 1,
+          "sklearn": 1,
+          "spacy": 1,
+          "wordcloud": 1,
+          "WordCloud": 1,
+          "sent_tokenize": 1,
+          "data_analyze": 1,
+          "words_per_review": 1,
+          "PLOTS_PATH": 1,
+          "wordnet": 1,
+          "download": 1,
+          "eth_account": 1,
+          "Account": 1,
+          "levels": 1,
+          "c_draw": 1,
+          "LEVELS": 1,
+          "deque": 1,
+          "inf": 1,
+          "Graph": 1,
+          "plotly": 1,
+          "igraph": 1,
+          "pygame": 1,
+          "deepcopy": 1,
+          "cohesion_free_logic": 1,
+          "Display": 1,
+          "c_algorithms": 1,
+          "copy": 1,
+          "Cohesion": 1,
+          "Thread": 1,
+          "c_display": 1,
+          "strftime": 1,
+          "log": 1,
+          "product": 1,
+          "Random": 1,
+          "universe": 1,
+          "cards": 1,
+          "me": 1,
+          "turtle": 1,
+          "reduce": 1,
+          "List": 1,
+          "my": 1,
+          "unified_diff": 1,
+          "perf_counter": 1,
+          "world": 1,
+          "ascii_letters": 1,
+          "pi": 1,
+          "sympy": 1,
+          "sin": 1,
+          "module": 1,
+          "functions": 1,
+          "randint": 1,
+          "shuffle": 1,
+          "cryptography": 1,
+          "hexlify": 1,
+          "Cipher": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 6,
+        "packages": {
+          "Flutter": 4,
+          "UIKit": 4,
+          "FlutterMacOS": 2,
+          "XCTest": 1,
+          "Foundation": 1,
+          "Cocoa": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Fabio-A-Sa/CodeChallenges",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/CV",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/GeoAware",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Machine-Learning",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/MoveFiles",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/OpenSAK",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Privago",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/seed-labs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/slides",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "JavaScript",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/SPE-2024",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Y1S1-ProgramingFundamentals",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Y1S2-MicroprocessadoresEComputadoresPessoais",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Y1S2-Programming",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Y2S1-AlgoritmosEstruturasDeDados",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Y2S1-LabTesteSoftware",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Y2S2-DesenhoDeAlgoritmos",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Y2S2-LabComputadores",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Y2S2-LinguagensTecnologiasWeb",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Y2S2-SistemasOperativos",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Y2S2-SoftwareEngineer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Kotlin",
+          "Python",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Fabio-A-Sa/Y3S1-FundamentosSegurancaInformatica",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

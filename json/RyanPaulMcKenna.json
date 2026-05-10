@@ -1,0 +1,491 @@
+{
+  "username": "RyanPaulMcKenna",
+  "areas": {
+    "OSS": {
+      "score": 0.3850970559265525,
+      "details": {
+        "issue_resolution_rate": 0.631578947368421,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.9460666365214078
+      }
+    },
+    "Status": {
+      "score": 0.21337118919531606,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7623644761006664,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.144173,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.8617,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 3,
+        "topic_entropy_bits": 2.585,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "RyanPaulMcKenna/onRobot": 0.45500909090909086
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.29085904902437376,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        632799,
+        22
+      ],
+      "Python": [
+        130646,
+        18
+      ],
+      "MDX": [
+        3555974,
+        0
+      ],
+      "TypeScript": [
+        758372,
+        0
+      ],
+      "CSS": [
+        386559,
+        0
+      ],
+      "JavaScript": [
+        84297,
+        0
+      ],
+      "Shell": [
+        11545,
+        0
+      ],
+      "HTML": [
+        568055,
+        0
+      ],
+      "Ruby": [
+        15237,
+        0
+      ],
+      "CMake": [
+        53722,
+        0
+      ],
+      "C": [
+        5332,
+        0
+      ],
+      "Nix": [
+        2073,
+        0
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 40,
+    "total_lines": 6204611,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 632799,
+        "commits": 22
+      },
+      {
+        "language": "Python",
+        "lines": 130646,
+        "commits": 18
+      },
+      {
+        "language": "MDX",
+        "lines": 3555974,
+        "commits": 0
+      },
+      {
+        "language": "TypeScript",
+        "lines": 758372,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 386559,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "RyanPaulMcKenna",
+    "analysis_date": "2026-05-10T03:19:31.334390",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 88,
+    "languages": {
+      "C++": {
+        "files_scanned": 44,
+        "packages": {
+          "<iostream>": 27,
+          "iostream": 27,
+          "namespace": 11,
+          "std": 8,
+          "SofaPython3/PythonFactory.h": 7,
+          "<SofaPython3/PythonFactory.h>": 7,
+          "SofaPython3/PythonEnvironment.h": 6,
+          "<SofaPython3/PythonEnvironment.h>": 6,
+          "pybind11/pybind11.h": 6,
+          "<pybind11/pybind11.h>": 6,
+          "math.h": 5,
+          "<math.h>": 5,
+          "algorithm": 4,
+          "<algorithm>": 4,
+          "sofa/helper/system/SetDirectory.h": 4,
+          "<sofa/helper/system/SetDirectory.h>": 4,
+          "<list>": 3,
+          "list": 3,
+          "ADDRESSING": 3,
+          "utility": 3,
+          "<utility>": 3,
+          "SofaPython3/DataHelper.h": 3,
+          "SofaPython3/LinkPath.h": 3,
+          "<SofaPython3/DataHelper.h>": 3,
+          "<SofaPython3/LinkPath.h>": 3,
+          "<pybind11/embed.h>": 3,
+          "<fstream>": 3,
+          "sofa/helper/system/PluginManager.h": 3,
+          "<sofa/helper/logging/Messaging.h>": 3,
+          "<sofa/helper/system/PluginManager.h>": 3,
+          "sofa::helper::system::PluginManager": 3,
+          "sofa/helper/logging/Messaging.h": 3,
+          "pybind11/embed.h": 3,
+          "sofa/helper/system/FileSystem.h": 3,
+          "<sofa/helper/system/FileSystem.h>": 3,
+          "fstream": 3,
+          "sofa::helper::system::SetDirectory": 3,
+          "<cassert>": 2,
+          "cassert": 2,
+          "<limits>": 2,
+          "limits": 2,
+          "experimental/random": 2,
+          "<experimental/random>": 2,
+          "<sofa/simulation/Node.h>": 2,
+          "<sofa/defaulttype/DataTypeInfo.h>": 2,
+          "sofa/simulation/Node.h": 2,
+          "sofa/defaulttype/DataTypeInfo.h": 2,
+          "sofa/simulation/Simulation.h": 2,
+          "<sofa/simulation/Simulation.h>": 2,
+          "sofa::core::objectmodel::Event": 2,
+          "<sofa/helper/StringUtils.h>": 2,
+          "sofa/helper/StringUtils.h": 2,
+          "pybind11::literals": 2,
+          "<SofaPython3Testing/PythonTestExtractor.h>": 2,
+          "SofaPython3Testing/PythonTestExtractor.h": 2,
+          "sofa::core::objectmodel::BaseObject": 2,
+          "map": 1,
+          "<map>": 1,
+          "<string>": 1,
+          "unordered_set": 1,
+          "string": 1,
+          "<unordered_set>": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "stdlib.h": 1,
+          "<stdlib.h>": 1,
+          "DataCache.h": 1,
+          "SofaPython3/DataCache.h": 1,
+          "sofa/core/objectmodel/BaseNode.h": 1,
+          "<sofa/core/objectmodel/BaseNode.h>": 1,
+          "<sofa/core/objectmodel/BaseData.h>": 1,
+          "pybind11/detail/common.h": 1,
+          "sofa/core/objectmodel/BaseData.h": 1,
+          "sofa::core::objectmodel::BaseLink": 1,
+          "<pybind11/detail/common.h>": 1,
+          "<SofaPython3/DataCache.h>": 1,
+          "<sofa/simulation/DeleteVisitor.h>": 1,
+          "<sofa/simulation/VisualVisitor.h>": 1,
+          "sofa::helper::system::FileMonitor": 1,
+          "SofaPython3/Prefab.h": 1,
+          "sofa::simulation::Simulation": 1,
+          "sofa/simulation/DeleteVisitor.h": 1,
+          "sofa/helper/system/FileMonitor.h": 1,
+          "sofa/simulation/VisualVisitor.h": 1,
+          "<sofa/helper/system/FileMonitor.h>": 1,
+          "sofa::helper::system::FileEventListener": 1,
+          "<SofaPython3/Prefab.h>": 1,
+          "sofa::simulation::VisualInitVisitor": 1,
+          "<dlfcn.h>": 1,
+          "sofa::helper::getAStringCopy": 1,
+          "dlfcn.h": 1,
+          "<sofa/simulation/SceneLoaderFactory.h>": 1,
+          "<pybind11/eval.h>": 1,
+          "sofapython3::SceneLoaderPY3": 1,
+          "sofa::helper::system::FileSystem": 1,
+          "sofa::helper::Utils": 1,
+          "sofa/helper/system/FileRepository.h": 1,
+          "sofa::helper::system::Plugin": 1,
+          "SceneLoaderPY3.h": 1,
+          "sofa::simulation::SceneLoaderFactory": 1,
+          "pybind11/eval.h": 1,
+          "sofa/helper/Utils.h": 1,
+          "sofa/simulation/SceneLoaderFactory.h": 1,
+          "<sofa/helper/Utils.h>": 1,
+          "<sofa/helper/system/FileRepository.h>": 1,
+          "sofa::core::objectmodel::KeyreleasedEvent": 1,
+          "sofa/core/objectmodel/ScriptEvent.h": 1,
+          "<functional>": 1,
+          "sofa/simulation/AnimateBeginEvent.h": 1,
+          "sofa::simulation::AnimateEndEvent": 1,
+          "<sofa/core/topology/Topology.h>": 1,
+          "sofa/simulation/AnimateEndEvent.h": 1,
+          "sofa/core/objectmodel/KeypressedEvent.h": 1,
+          "sofa::core::objectmodel::MouseEvent": 1,
+          "sofa/core/objectmodel/MouseEvent.h": 1,
+          "sofa::core::objectmodel::KeypressedEvent": 1,
+          "sofa/core/objectmodel/KeyreleasedEvent.h": 1,
+          "functional": 1,
+          "sofa::simulation::AnimateBeginEvent": 1,
+          "sofa::core::objectmodel::ScriptEvent": 1,
+          "sofa/core/topology/Topology.h": 1,
+          "<SofaPython3/SceneLoaderPY3.h>": 1,
+          "SofaPython3/SceneLoaderPY3.h": 1,
+          "sofa::core::objectmodel": 1,
+          "sstream": 1,
+          "<sstream>": 1,
+          "<sofa/core/init.h>": 1,
+          "SofaPython3/config.h": 1,
+          "<SofaPython3/config.h>": 1,
+          "PythonEnvironment.h": 1,
+          "sofa/defaulttype/init.h": 1,
+          "sofa/core/init.h": 1,
+          "<SofaPython3/initModule.h>": 1,
+          "<sofa/defaulttype/init.h>": 1,
+          "<sofa/simulation/init.h>": 1,
+          "sofapython3::PythonEnvironment": 1,
+          "<sofa/helper/init.h>": 1,
+          "sofa/helper/init.h": 1,
+          "<sofa/simulation/graph/init.h>": 1,
+          "sofa/simulation/graph/init.h": 1,
+          "SofaPython3/initModule.h": 1,
+          "sofa/simulation/init.h": 1,
+          "sofa/testing/BaseTest.h": 1,
+          "<numeric>": 1,
+          "<sofa/testing/BaseTest.h>": 1,
+          "numeric": 1,
+          "PythonTest.h": 1,
+          "SofaPython3Testing/config.h": 1,
+          "<SofaPython3Testing/config.h>": 1,
+          "Binding_RegularGridTopology.h": 1,
+          "Binding_RegularGridTopology_doc.h": 1,
+          "sofa::component::topology::container::grid::RegularGridTopology": 1,
+          "sofa/component/topology/container/grid/RegularGridTopology.h": 1,
+          "<sofa/component/topology/container/grid/RegularGridTopology.h>": 1,
+          "<sofa/component/topology/container/grid/SparseGridTopology.h>": 1,
+          "Binding_SparseGridTopology.h": 1,
+          "sofa/component/topology/container/grid/SparseGridTopology.h": 1,
+          "sofa::component::topology::container::grid::SparseGridTopology": 1,
+          "Binding_SparseGridTopology_doc.h": 1,
+          "<pybind11/stl.h>": 1,
+          "pybind11/stl.h": 1,
+          "sofa/component/topology/container/grid/init.h": 1,
+          "SofaPython3/SofaBaseTopology/Binding_RegularGridTopology.h": 1,
+          "<SofaPython3/SofaBaseTopology/Binding_SparseGridTopology.h>": 1,
+          "<SofaPython3/SofaBaseTopology/Binding_RegularGridTopology.h>": 1,
+          "<sofa/component/topology/container/grid/init.h>": 1,
+          "SofaPython3/SofaBaseTopology/Binding_SparseGridTopology.h": 1,
+          "<SofaPython3/Sofa/Core/Binding_Base.h>": 1,
+          "SofaPython3/SofaConstraintSolver/Binding_ConstraintSolver.h": 1,
+          "EigenMatrixMap": 1,
+          "SofaPython3/Sofa/Core/Binding_Base.h": 1,
+          "sofa/component/constraint/lagrangian/solver/ConstraintSolverImpl.h": 1,
+          "<SofaPython3/SofaConstraintSolver/Binding_ConstraintSolver.h>": 1,
+          "<sofa/component/constraint/lagrangian/solver/ConstraintSolverImpl.h>": 1,
+          "sofa::component::constraint::lagrangian::solver::ConstraintSolverImpl": 1,
+          "EigenDenseMatrix": 1,
+          "<pybind11/eigen.h>": 1,
+          "<SofaPython3/SofaConstraintSolver/Binding_ConstraintSolver_doc.h>": 1,
+          "pybind11/eigen.h": 1,
+          "SofaPython3/SofaConstraintSolver/Binding_ConstraintSolver_doc.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 13,
+        "packages": {
+          "SofaPython3/config.h": 6,
+          "<SofaPython3/config.h>": 6,
+          "pybind11/pybind11.h": 6,
+          "<pybind11/pybind11.h>": 6,
+          "<sofa/core/objectmodel/Base.h>": 3,
+          "sofa/core/objectmodel/Base.h": 3,
+          "<string>": 3,
+          "string": 3,
+          "pybind11/numpy.h": 2,
+          "sofa::core::objectmodel::BaseData": 2,
+          "<pybind11/numpy.h>": 2,
+          "sofa/helper/Factory.h": 2,
+          "<iostream>": 2,
+          "<sofa/helper/Factory.h>": 2,
+          "iostream": 2,
+          "sofa/simulation/Node.h": 2,
+          "<sofa/simulation/Node.h>": 2,
+          "sofa::simulation::Node": 2,
+          "<sofa/simulation/SceneLoaderFactory.h>": 2,
+          "sofa/simulation/SceneLoaderFactory.h": 2,
+          "sofa::simulation::SceneLoader": 2,
+          "<SofaPython3Testing/config.h>": 2,
+          "SofaPython3Testing/config.h": 2,
+          "sofa::core::objectmodel::Base": 1,
+          "sofa/core/sptr.h": 1,
+          "sofa/core/objectmodel/BaseNode.h": 1,
+          "sofa/core/objectmodel/BaseObject.h": 1,
+          "sofa::core::objectmodel::BaseNode": 1,
+          "sofa::core::objectmodel::BaseObject": 1,
+          "<sofa/core/objectmodel/BaseObject.h>": 1,
+          "<sofa/core/objectmodel/BaseNode.h>": 1,
+          "<sofa/core/objectmodel/Data.h>": 1,
+          "sofa::defaulttype::AbstractTypeInfo": 1,
+          "sofa::core::objectmodel::BaseLink": 1,
+          "sofa/core/objectmodel/Data.h": 1,
+          "<sofa/core/sptr.h>": 1,
+          "<sofa/core/objectmodel/BaseData.h>": 1,
+          "sofa/core/objectmodel/BaseData.h": 1,
+          "sofa::core::objectmodel::DataCallback": 1,
+          "SofaPython3/PythonEnvironment.h": 1,
+          "<sofa/core/objectmodel/DataCallback.h>": 1,
+          "<sofa/helper/system/FileMonitor.h>": 1,
+          "<SofaPython3/PythonEnvironment.h>": 1,
+          "sofa::core::objectmodel::BasePrefab": 1,
+          "sofa/core/objectmodel/DataCallback.h": 1,
+          "sofa/helper/system/FileMonitor.h": 1,
+          "sofa/helper/logging/FileInfo.h": 1,
+          "SofaPython3/DataHelper.h": 1,
+          "<pybind11/eval.h>": 1,
+          "Python.h": 1,
+          "vector": 1,
+          "<Python.h>": 1,
+          "SceneLoader::Listener::rightBeforeLoadingScene": 1,
+          "<SofaPython3/DataHelper.h>": 1,
+          "<sofa/helper/logging/FileInfo.h>": 1,
+          "pybind11/eval.h": 1,
+          "<vector>": 1,
+          "sofa/core/objectmodel/Event.h": 1,
+          "<sofa/core/objectmodel/Event.h>": 1,
+          "sofa/helper/Factory.inl": 1,
+          "<sofa/helper/Factory.inl>": 1,
+          "map": 1,
+          "sofa/simulation/Visitor.h": 1,
+          "<sofa/simulation/Visitor.h>": 1,
+          "<map>": 1,
+          "functional": 1,
+          "algorithm": 1,
+          "<sofa/helper/DiffLib.h>": 1,
+          "<functional>": 1,
+          "<algorithm>": 1,
+          "sofa/helper/DiffLib.h": 1,
+          "std::filesystem::path": 1,
+          "<experimental/filesystem>": 1,
+          "experimental/filesystem": 1,
+          "filesystem": 1,
+          "sofa::testing::BaseTest": 1,
+          "sofa/testing/BaseTest.h": 1,
+          "<filesystem>": 1,
+          "<sofa/testing/BaseTest.h>": 1,
+          "SofaPython3Testing/PythonTest.h": 1,
+          "utility": 1,
+          "<utility>": 1,
+          "<SofaPython3Testing/PythonTest.h>": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "xmlrpc": 2,
+          "pycurl": 2,
+          "io": 2,
+          "BytesIO": 2,
+          "setup": 1,
+          "setuptools": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 3,
+        "packages": {
+          "docusaurus": 3,
+          "prism-react-renderer": 1,
+          "remark-math": 1,
+          "rehype-katex": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 20,
+        "packages": {
+          "React": 14,
+          "react": 6,
+          "docusaurus": 2,
+          "react-player": 1,
+          "theme": 1,
+          "site": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "RyanPaulMcKenna/algorithms_and_data_structures_and_design_patterns",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "RyanPaulMcKenna/onRobot",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "RyanPaulMcKenna/openarm",
+        "files_analyzed": 24,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "RyanPaulMcKenna/SofaPython3",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

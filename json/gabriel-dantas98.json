@@ -1,0 +1,619 @@
+{
+  "username": "gabriel-dantas98",
+  "areas": {
+    "OSS": {
+      "score": 0.9111111111111112,
+      "details": {
+        "issue_resolution_rate": 0.8666666666666667,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.17083476875840264,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7177906146760656,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 14,
+        "language_transitions": 13,
+        "topic_entropy_bits": 3.2776,
+        "closed_prs_total": 36,
+        "bounced_back_prs": 27
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4663891759739028,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        18776,
+        28
+      ],
+      "Makefile": [
+        10434,
+        2
+      ],
+      "Dockerfile": [
+        26642,
+        4
+      ],
+      "Shell": [
+        12232,
+        14
+      ],
+      "Smarty": [
+        20182,
+        0
+      ],
+      "JavaScript": [
+        850574,
+        66
+      ],
+      "Python": [
+        588,
+        23
+      ],
+      "TypeScript": [
+        37603200,
+        123
+      ],
+      "Jinja": [
+        348,
+        3
+      ],
+      "SCSS": [
+        84643,
+        0
+      ],
+      "MDX": [
+        562503,
+        0
+      ],
+      "Handlebars": [
+        75284,
+        0
+      ],
+      "CSS": [
+        53646,
+        0
+      ],
+      "HTML": [
+        23018,
+        45
+      ],
+      "Mustache": [
+        10681,
+        0
+      ],
+      "HCL": [
+        3275,
+        9
+      ],
+      "PowerShell": [
+        1306,
+        0
+      ],
+      "GDScript": [
+        0,
+        1
+      ],
+      "C#": [
+        0,
+        0
+      ],
+      "Groovy": [
+        0,
+        7
+      ],
+      "Jupyter Notebook": [
+        0,
+        15
+      ],
+      "C": [
+        0,
+        2
+      ],
+      "Java": [
+        0,
+        1
+      ]
+    },
+    "language_count": 23,
+    "total_commits": 343,
+    "total_lines": 39357332,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 37603200,
+        "commits": 123
+      },
+      {
+        "language": "JavaScript",
+        "lines": 850574,
+        "commits": 66
+      },
+      {
+        "language": "HTML",
+        "lines": 23018,
+        "commits": 45
+      },
+      {
+        "language": "Go",
+        "lines": 18776,
+        "commits": 28
+      },
+      {
+        "language": "Python",
+        "lines": 588,
+        "commits": 23
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "gabriel-dantas98",
+    "analysis_date": "2026-05-10T02:30:50.965155",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 302,
+    "languages": {
+      "Go": {
+        "files_scanned": 26,
+        "packages": {
+          "k8s.io/apimachinery/pkg/runtime": 14,
+          "time": 12,
+          "github.com/summerwind/actions-runner-controller/api/v1alpha1": 12,
+          "context": 10,
+          "fmt": 10,
+          "sigs.k8s.io/controller-runtime/pkg/client": 10,
+          "k8s.io/apimachinery/pkg/types": 6,
+          "github.com/go-logr/logr": 6,
+          "github.com/google/go-github/v33/github": 6,
+          "errors": 5,
+          "testing": 5,
+          "k8s.io/client-go/tools/record": 5,
+          "net/http": 4,
+          "github.com/summerwind/actions-runner-controller/github": 4,
+          "net/http/httptest": 4,
+          "foo": 4,
+          "k8s.io/client-go/kubernetes/scheme": 4,
+          "k8s.io/apimachinery/pkg/util/validation/field": 3,
+          "sigs.k8s.io/controller-runtime/pkg/webhook": 3,
+          "sigs.k8s.io/controller-runtime/pkg/log/zap": 3,
+          "os": 3,
+          "strings": 3,
+          "github.com/summerwind/actions-runner-controller/github/fake": 3,
+          "net/url": 2,
+          "io/ioutil": 2,
+          "github.com/summerwind/actions-runner-controller/controllers/metrics": 2,
+          "github.com/google/go-cmp/cmp": 2,
+          "github.com/prometheus/client_golang/prometheus": 2,
+          "currentTime": 2,
+          "you": 2,
+          "Runner": 2,
+          "configuredRegistrationTimeout": 2,
+          "CAUTION:": 2,
+          "Failed": 2,
+          "See": 2,
+          "sigs.k8s.io/controller-runtime/pkg/scheme": 1,
+          "k8s.io/apimachinery/pkg/runtime/schema": 1,
+          "k8s.io/api/core/v1": 1,
+          "flag": 1,
+          "Enable": 1,
+          "github.com/summerwind/actions-runner-controller/controllers": 1,
+          "sync": 1,
+          "workflow_runs_unknown": 1,
+          "replicas_desired_before": 1,
+          "num_runners_registered": 1,
+          "math": 1,
+          "workflow_runs_in_progress": 1,
+          "num_runners": 1,
+          "workflow_runs_completed": 1,
+          "organization": 1,
+          "num_runners_busy": 1,
+          "enterprise": 1,
+          "horizontal_runner_autoscaler": 1,
+          "runner_deployment": 1,
+          "workflow_runs_queued": 1,
+          "strconv": 1,
+          "repository": 1,
+          "replicas_desired": 1,
+          "namespace": 1,
+          "Found": 1,
+          "scaleTargets": 1,
+          "pullRequest.base.ref": 1,
+          "checkRun.status": 1,
+          "delivery": 1,
+          "ensure": 1,
+          "event": 1,
+          "or": 1,
+          "hookID": 1,
+          "Either": 1,
+          "Scale": 1,
+          "sigs.k8s.io/controller-runtime/pkg/reconcile": 1,
+          "action": 1,
+          "It": 1,
+          "github.com/summerwind/actions-runner-controller/pkg/actionsglob": 1,
+          "encoding/json": 1,
+          "pull_request": 1,
+          "check_run": 1,
+          "sigs.k8s.io/controller-runtime/pkg/client/fake": 1,
+          "no": 1,
+          "X-GitHub-Event": 1,
+          "pong": 1,
+          "push": 1,
+          "ping": 1,
+          "io": 1,
+          "bytes": 1,
+          "Content-Type": 1,
+          "suggested": 1,
+          "min": 1,
+          "reserved": 1,
+          "in_progress": 1,
+          "force-update": 1,
+          "queued": 1,
+          "sigs.k8s.io/controller-runtime/pkg/metrics": 1,
+          "k8s.io/apimachinery/pkg/util/wait": 1,
+          "lastRegistrationCheckTime": 1,
+          "podCreationTimestamp": 1,
+          "Already": 1,
+          "runnerName": 1,
+          "configuredDeletionTimeout": 1,
+          "podDeletionTimestamp": 1,
+          "This": 1,
+          "and": 1,
+          "registrationCheckInterval": 1,
+          "Recreating": 1,
+          "github.com/summerwind/actions-runner-controller/hash": 1,
+          "there's": 1,
+          "newest_runnerreplicaset_replicas_desired": 1,
+          "k8s.io/apimachinery/pkg/util/rand": 1,
+          "newest_runnerreplicaset_replicas_ready": 1,
+          "sort": 1,
+          "reflect": 1,
+          "newest_runnerreplicaset": 1,
+          "old_runnerreplicasets_count": 1,
+          "github.com/davecgh/go-spew/spew": 1,
+          "hash/fnv": 1,
+          "but": 1,
+          "runner": 1,
+          "runnerCreationTimestamp": 1,
+          "Marking": 1,
+          "k8s.io/utils/pointer": 1,
+          "math/rand": 1,
+          "path/filepath": 1,
+          "k8s.io/client-go/rest": 1,
+          "Controller": 1,
+          "github.com/onsi/ginkgo/config": 1,
+          "sigs.k8s.io/controller-runtime/pkg/envtest": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 35,
+        "packages": {
+          "knex": 19,
+          "backstage": 10,
+          "shelljs": 2,
+          "replace": 2,
+          "path": 2,
+          "chalk": 1,
+          "openurl": 1,
+          "os": 1,
+          "figlet": 1,
+          "inquirer": 1,
+          "readline": 1,
+          "changesets": 1,
+          ":": 1,
+          "prism-react-renderer": 1,
+          "docusaurus": 1,
+          "fs": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 14,
+        "packages": {
+          "typing": 13,
+          "BaseModel": 7,
+          "pydantic": 6,
+          "datetime": 6,
+          "sqlalchemy": 5,
+          "app": 5,
+          "List": 5,
+          "Optional": 4,
+          "asyncio": 4,
+          "Column": 4,
+          "logging": 3,
+          "Vector": 3,
+          "enum": 3,
+          "pgvector": 3,
+          "os": 2,
+          "declarative_base": 2,
+          "settings": 2,
+          "uuid": 2,
+          "UUID": 2,
+          "relationship": 2,
+          "Include": 2,
+          "Enum": 2,
+          "Any": 2,
+          "mcp": 2,
+          "Field": 1,
+          "BaseSettings": 1,
+          "pydantic_settings": 1,
+          "AsyncGenerator": 1,
+          "AsyncSession": 1,
+          "create_engine": 1,
+          "StaticPool": 1,
+          "lru_cache": 1,
+          "langchain_openai": 1,
+          "langchain_core": 1,
+          "Embeddings": 1,
+          "functools": 1,
+          "numpy": 1,
+          "OpenAIEmbeddings": 1,
+          "TrustedHostMiddleware": 1,
+          "traceback": 1,
+          "embedding_service": 1,
+          "ValidationError": 1,
+          "Dict": 1,
+          "fastapi": 1,
+          "contextlib": 1,
+          "uvicorn": 1,
+          "FastAPI": 1,
+          "asynccontextmanager": 1,
+          "HealthResponse": 1,
+          "JSONResponse": 1,
+          "CORSMiddleware": 1,
+          "database_manager": 1,
+          "RequestValidationError": 1,
+          "time": 1,
+          "owner": 1,
+          "Decimal": 1,
+          "decimal": 1,
+          "subprocess": 1,
+          "FastMCP": 1,
+          "dataclass": 1,
+          "dataclasses": 1,
+          "get_memory_setup_prompt": 1,
+          "Path": 1,
+          "memory_mcp_server": 1,
+          "glob": 1,
+          "pathlib": 1,
+          "src": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 91,
+        "packages": {
+          "backstage": 27,
+          "openai": 14,
+          "edge": 11,
+          "site": 9,
+          "ai": 9,
+          "express": 8,
+          "react": 7,
+          "playwright": 7,
+          "next": 7,
+          "fastify": 6,
+          "testing-library": 6,
+          "supabase": 5,
+          "langchain": 5,
+          "winston": 4,
+          "zod": 3,
+          "query": 3,
+          "drodil": 3,
+          "dotenv": 2,
+          "id": 2,
+          "node:path": 2,
+          "docusaurus": 2,
+          "express-promise-router": 2,
+          "aws-cdk-lib": 2,
+          "aws": 2,
+          "axios": 1,
+          "linguagem": 1,
+          "the": 1,
+          "sessionId": 1,
+          "companyId": 1,
+          "userId": 1,
+          "thread_summary": 1,
+          "contextId": 1,
+          "senso": 1,
+          "os": 1,
+          "node:test": 1,
+          "prism-react-renderer": 1,
+          "node:fs": 1,
+          "isAuthor": 1,
+          "=": 1,
+          "body-parser": 1,
+          "lodash": 1,
+          "dockerode": 1,
+          "path": 1,
+          ":": 1,
+          "constructs": 1,
+          "aws-sdk-client-mock": 1,
+          "aws-sdk": 1,
+          "web-vitals": 1,
+          "anthropic-ai": 1,
+          "google": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 69,
+        "packages": {
+          "react": 64,
+          "backstage": 21,
+          "material-ui": 20,
+          "site": 13,
+          "docusaurus": 12,
+          "clsx": 11,
+          "theme": 7,
+          "next": 6,
+          "react-dom": 5,
+          "testing-library": 4,
+          "react-router-dom": 4,
+          "backstage-community": 3,
+          "aws": 2,
+          "next-themes": 2,
+          "supabase": 2,
+          "tabler": 2,
+          "lucide-react": 1,
+          "react-parallax-tilt": 1,
+          "sonner": 1,
+          "templates": 1,
+          "source": 1,
+          "luxon": 1,
+          "react-router": 1,
+          "vercel": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "gabriel-dantas98/actions-runner-controller",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/adapta-hackathon-agent-backend",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/adapta-hackathon-agent-recommender-backend",
+        "files_analyzed": 21,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/automated-docker-magento2-env",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/awesomeyou",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/backstage",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/backstage-devopsdays-sp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/backstage-github-login",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/backstage-io-railway",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/backstage-plugin-qeta",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/backstage-plugins-for-aws",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/backstage-scaffolders",
+        "files_analyzed": 6,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/chatbot-ui",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gabriel-dantas98/cursor-intelligent-memory",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

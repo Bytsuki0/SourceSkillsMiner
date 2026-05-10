@@ -1,0 +1,391 @@
+{
+  "username": "ncpsrb",
+  "areas": {
+    "OSS": {
+      "score": 0.5125781645717258,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.7688672468575887
+      }
+    },
+    "Status": {
+      "score": 0.23180038592370478,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7900082711932495,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.6125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.02637571009908611,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        1092884,
+        27
+      ],
+      "Python": [
+        742811,
+        14
+      ],
+      "JavaScript": [
+        736105,
+        8
+      ],
+      "HTML": [
+        97513,
+        1
+      ],
+      "CSS": [
+        113836,
+        1
+      ],
+      "PHP": [
+        277605,
+        3
+      ],
+      "SCSS": [
+        844,
+        0
+      ],
+      "Hack": [
+        793,
+        0
+      ],
+      "Smarty": [
+        485,
+        0
+      ],
+      "Dockerfile": [
+        25,
+        0
+      ],
+      "MDX": [
+        248012,
+        5
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 59,
+    "total_lines": 3310913,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 1092884,
+        "commits": 27
+      },
+      {
+        "language": "Python",
+        "lines": 742811,
+        "commits": 14
+      },
+      {
+        "language": "JavaScript",
+        "lines": 736105,
+        "commits": 8
+      },
+      {
+        "language": "MDX",
+        "lines": 248012,
+        "commits": 5
+      },
+      {
+        "language": "PHP",
+        "lines": 277605,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ncpsrb",
+    "analysis_date": "2026-05-10T13:02:19.598093",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 130,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "next": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 23,
+        "packages": {
+          "CodeIgniter\\Config\\BaseConfig": 18,
+          "CodeIgniter\\Session\\Handlers\\FileHandler": 1,
+          "CodeIgniter\\Config\\AutoloadConfig": 1,
+          "CodeIgniter\\Cache\\Handlers\\PredisHandler": 1,
+          "CodeIgniter\\Cache\\Handlers\\RedisHandler": 1,
+          "CodeIgniter\\Cache\\Handlers\\FileHandler": 1,
+          "CodeIgniter\\Cache\\Handlers\\MemcachedHandler": 1,
+          "CodeIgniter\\Cache\\Handlers\\DummyHandler": 1,
+          "CodeIgniter\\Cache\\Handlers\\WincacheHandler": 1,
+          "DateTimeInterface": 1,
+          "CodeIgniter\\Database\\Config": 1,
+          "CodeIgniter\\Events\\Events": 1,
+          "CodeIgniter\\Exceptions\\FrameworkException": 1,
+          "Psr\\Log\\LogLevel": 1,
+          "CodeIgniter\\Filters\\Honeypot": 1,
+          "CodeIgniter\\Filters\\InvalidChars": 1,
+          "CodeIgniter\\Filters\\CSRF": 1,
+          "CodeIgniter\\Filters\\SecureHeaders": 1,
+          "CodeIgniter\\Filters\\DebugToolbar": 1,
+          "CodeIgniter\\Config\\ForeignCharacters": 1,
+          "CodeIgniter\\Format\\XMLFormatter": 1,
+          "CodeIgniter\\Format\\FormatterInterface": 1,
+          "CodeIgniter\\Format\\JSONFormatter": 1,
+          "CodeIgniter\\Images\\Handlers\\GDHandler": 1,
+          "CodeIgniter\\Images\\Handlers\\ImageMagickHandler": 1,
+          "Kint\\Renderer\\AbstractRenderer": 1,
+          "CodeIgniter\\Log\\Handlers\\FileHandler": 1,
+          "CodeIgniter\\Modules\\Modules": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 38,
+        "packages": {
+          "app": 22,
+          "sqlalchemy": 20,
+          "User": 14,
+          "fastapi": 13,
+          "Session": 10,
+          "Base": 10,
+          "APIRouter": 9,
+          "Agent": 9,
+          "typing": 7,
+          "Mapped": 6,
+          "TYPE_CHECKING": 6,
+          "Message": 5,
+          "Notification": 5,
+          "Chat": 5,
+          "UsageLog": 4,
+          "get_current_user": 4,
+          "settings": 4,
+          "ForeignKey": 4,
+          "BaseModel": 4,
+          "pydantic": 4,
+          "database": 4,
+          "get_db": 3,
+          "datetime": 3,
+          "schemas": 3,
+          "admin": 2,
+          "UserCreate": 2,
+          "AgentService": 2,
+          "AuthService": 2,
+          "UsageLogService": 2,
+          "OAuth2PasswordBearer": 2,
+          "Depends": 2,
+          "SessionLocal": 2,
+          "jose": 2,
+          "create_engine": 2,
+          "sessionmaker": 2,
+          "CORSMiddleware": 2,
+          "FastAPI": 2,
+          "JSONB": 2,
+          "Boolean": 2,
+          "TimestampedSchema": 2,
+          "requests": 2,
+          "crud": 2,
+          "auth": 2,
+          "UsageLogRead": 1,
+          "NotificationCreate": 1,
+          "AgentAssign": 1,
+          "NotificationService": 1,
+          "AgentCreate": 1,
+          "LoginRequest": 1,
+          "UserRead": 1,
+          "ChatService": 1,
+          "MessageCreate": 1,
+          "ChatCreate": 1,
+          "NotificationRead": 1,
+          "BaseSettings": 1,
+          "pydantic_settings": 1,
+          "decode_token": 1,
+          "passlib": 1,
+          "CryptContext": 1,
+          "JWTError": 1,
+          "get_password_hash": 1,
+          "seed_admin": 1,
+          "api_router": 1,
+          "DateTime": 1,
+          "DeclarativeBase": 1,
+          "Any": 1,
+          "Service": 1,
+          "By": 1,
+          "WebDriverWait": 1,
+          "csv": 1,
+          "webdriver": 1,
+          "time": 1,
+          "expected_conditions": 1,
+          "Options": 1,
+          "selenium": 1,
+          "jwt": 1,
+          "models": 1,
+          "apscheduler": 1,
+          "AsyncIOScheduler": 1,
+          "IntervalTrigger": 1,
+          "asyncio": 1,
+          "start_scheduler": 1,
+          "user": 1,
+          "routes": 1,
+          "job": 1,
+          "Column": 1,
+          "verify_token": 1,
+          "os": 1,
+          "moviepy": 1,
+          "string": 1,
+          "random": 1,
+          "VideoFileClip": 1,
+          "Tiktok": 1,
+          "delete_dir_if_old": 1,
+          "collections": 1,
+          "json": 1,
+          "subprocess": 1,
+          "defaultdict": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 12,
+        "packages": {
+          "next": 4,
+          "react": 3,
+          "recoil": 1,
+          "firebase": 1,
+          "natanaelcaesario09@gmail.com": 1,
+          "https:": 1,
+          "clsx": 1,
+          "tailwind-merge": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 42,
+        "packages": {
+          "react": 30,
+          "next": 15,
+          "react-icons": 11,
+          "react-firebase-hooks": 9,
+          "lucide-react": 8,
+          "recoil": 7,
+          "react-toastify": 6,
+          "firebase": 4,
+          "motion": 4,
+          "react-split": 2,
+          "next-themes": 2,
+          "react-youtube": 1,
+          "uiw": 1,
+          "codemirror": 1,
+          "react-confetti": 1,
+          "html2canvas-pro": 1,
+          "framer-motion": 1,
+          "react-dom": 1,
+          "React": 1,
+          "word": 1,
+          "blur": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ncpsrb/ai_platform",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ncpsrb/Google-Image-Scrapper",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ncpsrb/hungryguys-gamestore",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "ncpsrb/iam-engineer-test",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ncpsrb/leetcode-clone",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "ncpsrb/portofolio-ncpsrb",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "ncpsrb/python-gif-generator",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ncpsrb/rclone-duplicates-checker",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

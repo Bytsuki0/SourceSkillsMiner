@@ -1,0 +1,974 @@
+{
+  "username": "pnt325",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.2922622645374411,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8037780121907769,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Adaptability": {
+      "score": 0.504167,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.3333,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 4,
+        "topic_entropy_bits": 1.0,
+        "closed_prs_total": 6,
+        "bounced_back_prs": 5
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.45928585290748825,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        658340,
+        6
+      ],
+      "VHDL": [
+        261429,
+        0
+      ],
+      "C": [
+        3842332,
+        218
+      ],
+      "Verilog": [
+        67262,
+        0
+      ],
+      "Processing": [
+        26313,
+        0
+      ],
+      "Stata": [
+        15204,
+        0
+      ],
+      "AGS Script": [
+        7569,
+        0
+      ],
+      "Python": [
+        28548,
+        5
+      ],
+      "CMake": [
+        3515,
+        0
+      ],
+      "C#": [
+        3318587,
+        49
+      ],
+      "HTML": [
+        121737,
+        259
+      ],
+      "ASP.NET": [
+        7095,
+        0
+      ],
+      "Visual Basic .NET": [
+        70596,
+        0
+      ],
+      "CSS": [
+        1031,
+        0
+      ],
+      "Batchfile": [
+        4315,
+        0
+      ],
+      "Roff": [
+        145,
+        0
+      ],
+      "XSLT": [
+        106,
+        0
+      ],
+      "Makefile": [
+        62231,
+        0
+      ],
+      "Vim Script": [
+        51,
+        0
+      ],
+      "Perl": [
+        33,
+        0
+      ],
+      "Shell": [
+        5410,
+        9
+      ],
+      "Assembly": [
+        199,
+        0
+      ],
+      "Dockerfile": [
+        5531,
+        0
+      ],
+      "JavaScript": [
+        1726,
+        7
+      ],
+      "Linker Script": [
+        737,
+        0
+      ],
+      "PowerShell": [
+        126,
+        0
+      ],
+      "TypeScript": [
+        45,
+        0
+      ],
+      "Pawn": [
+        6,
+        0
+      ],
+      "Jupyter Notebook": [
+        0,
+        0
+      ],
+      "Fortran": [
+        0,
+        0
+      ],
+      "Pascal": [
+        0,
+        0
+      ],
+      "Java": [
+        0,
+        0
+      ],
+      "SCSS": [
+        0,
+        80
+      ],
+      "Ruby": [
+        0,
+        5
+      ]
+    },
+    "language_count": 34,
+    "total_commits": 638,
+    "total_lines": 8510219,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 121737,
+        "commits": 259
+      },
+      {
+        "language": "C",
+        "lines": 3842332,
+        "commits": 218
+      },
+      {
+        "language": "SCSS",
+        "lines": 0,
+        "commits": 80
+      },
+      {
+        "language": "C#",
+        "lines": 3318587,
+        "commits": 49
+      },
+      {
+        "language": "Shell",
+        "lines": 5410,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "pnt325",
+    "analysis_date": "2026-05-10T04:26:41.299207",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 370,
+    "languages": {
+      "C": {
+        "files_scanned": 105,
+        "packages": {
+          "esp_log.h": 33,
+          "string.h": 32,
+          "<string.h>": 32,
+          "stdio.h": 26,
+          "<stdio.h>": 26,
+          "freertos/FreeRTOS.h": 25,
+          "stdlib.h": 18,
+          "<stdlib.h>": 18,
+          "stdint.h": 16,
+          "<stdint.h>": 16,
+          "nvs_flash.h": 15,
+          "freertos/task.h": 14,
+          "FreeRTOS.h": 12,
+          "esp_system.h": 11,
+          "task.h": 11,
+          "assert.h": 10,
+          "driver/gpio.h": 10,
+          "freertos/semphr.h": 10,
+          "database.h": 10,
+          "<assert.h>": 9,
+          "util.h": 9,
+          "stdbool.h": 9,
+          "<stdbool.h>": 9,
+          "esp_event.h": 9,
+          "esp_netif.h": 8,
+          "sdkconfig.h": 7,
+          "freertos/event_groups.h": 7,
+          "ucfg.h": 6,
+          "mb.h": 6,
+          "bg22_config.h": 6,
+          "p18cxxx.h": 6,
+          "<p18cxxx.h>": 6,
+          "system.h": 6,
+          "time.h": 5,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648.h>": 5,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648.h": 5,
+          "connect.h": 5,
+          "mqtt.h": 5,
+          "mbport.h": 5,
+          "xc.h": 5,
+          "<xc.h>": 5,
+          "<htc.h>": 5,
+          "htc.h": 5,
+          "<time.h>": 4,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648AuxTransport.h>": 4,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648AuxTransport.h": 4,
+          "app.h": 4,
+          "ble.h": 4,
+          "esp_gap_ble_api.h": 4,
+          "wifi.h": 4,
+          "esp_err.h": 4,
+          "port.h": 4,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648DataBaseControl.h>": 3,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648DataBaseControl.h": 3,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Defs.h>": 3,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648AuxCompassAkm.h>": 3,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Dmp3Driver.h>": 3,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648AuxCompassAkm.h": 3,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Defs.h": 3,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Dmp3Driver.h": 3,
+          "the": 3,
+          "sl_simple_timer.h": 3,
+          "sl_bluetooth.h": 3,
+          "sl_btmesh.h": 3,
+          "<stddef.h>": 3,
+          "stddef.h": 3,
+          "netdb.h": 3,
+          "mdns.h": 3,
+          "dio.h": 3,
+          "ntc.h": 3,
+          "esp_bt_main.h": 3,
+          "esp_bt.h": 3,
+          "esp_bt_defs.h": 3,
+          "eth.h": 3,
+          "esp_eth.h": 3,
+          "esp_tls.h": 3,
+          "AT91SAM7X256.h": 3,
+          "lib_AT91SAM7X256.h": 3,
+          "mb_reg.h": 3,
+          "lwip/ip4_addr.h": 3,
+          "ethernet_dns.h": 3,
+          "user.h": 3,
+          "modbus.h": 3,
+          "crc.h": 2,
+          "conio.h": 2,
+          "<conio.h>": 2,
+          "2bsm.h": 2,
+          "<inttypes.h>": 2,
+          "2c.h": 2,
+          "inttypes.h": 2,
+          "2csv.h": 2,
+          "2json.h": 2,
+          "2xml.h": 2,
+          "can.h": 2,
+          "<math.h>": 2,
+          "math.h": 2,
+          "errno.h": 2,
+          "<errno.h>": 2,
+          "options.h": 2,
+          "mpc.h": 2,
+          "parse.h": 2,
+          "diamond.h": 2,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Augmented.h>": 2,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648DataConverter.h": 2,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648DataConverter.h>": 2,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Augmented.h": 2,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648DataBaseDriver.h>": 2,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648DataBaseDriver.h": 2,
+          "sl_btmesh_factory_reset.h": 2,
+          "sl_simple_button.h": 2,
+          "sl_simple_button_instances.h": 2,
+          "sl_simple_led_instances.h": 2,
+          "sl_common.h": 2,
+          "<sl_common.h>": 2,
+          "sl_board_control.h": 2,
+          "sl_device_init_clocks.h": 2,
+          "sl_sleeptimer.h": 2,
+          "sl_power_manager.h": 2,
+          "ble_ptc.h": 2,
+          "esp_gatts_api.h": 2,
+          "esp_gatt_common_api.h": 2,
+          "ping/ping_sock.h": 2,
+          "mqtt_client.h": 2,
+          "<sys/param.h>": 2,
+          "sys/param.h": 2,
+          "esp_ota_ops.h": 2,
+          "nvs.h": 2,
+          "esp_wifi.h": 2,
+          "lwip/sys.h": 2,
+          "lwip/err.h": 2,
+          "croutine.h": 2,
+          "queue.h": 2,
+          "app_led.h": 2,
+          "app_config.h": 2,
+          "gateway.h": 2,
+          "nvs_data.h": 2,
+          "bg22_led.h": 2,
+          "freertos/queue.h": 2,
+          "bg22_button.h": 2,
+          "ble_beacon.h": 2,
+          "ble_server.h": 2,
+          "esp_ibeacon_api.h": 2,
+          "uuid.h": 2,
+          "mb_common.h": 2,
+          "esp_mac.h": 2,
+          "mb_mdns.h": 2,
+          "database_init.h": 2,
+          "dev_info.h": 2,
+          "db_key.h": 2,
+          "ethernet_sta_ip.h": 2,
+          "ethernet.h": 2,
+          "mb_master.h": 2,
+          "mbcontroller.h": 2,
+          "ntp_client.h": 2,
+          "<usart.h>": 2,
+          "usart.h": 2,
+          "ptc.h": 2,
+          "template.h": 1,
+          "windows.h": 1,
+          "process.h": 1,
+          "<process.h>": 1,
+          "<windows.h>": 1,
+          "ctype.h": 1,
+          "<ctype.h>": 1,
+          "<linux/can/raw.h>": 1,
+          "<fcntl.h>": 1,
+          "linux/can/raw.h": 1,
+          "linux/can.h": 1,
+          "unistd.h": 1,
+          "net/if.h": 1,
+          "sys/ioctl.h": 1,
+          "<sys/ioctl.h>": 1,
+          "<unistd.h>": 1,
+          "<net/if.h>": 1,
+          "fcntl.h": 1,
+          "<linux/can.h>": 1,
+          "float.h": 1,
+          "<float.h>": 1,
+          "stdarg.h": 1,
+          "<stdarg.h>": 1,
+          "malloc.h": 1,
+          "<malloc.h>": 1,
+          "ICM_20948_REGISTERS.h": 1,
+          "icm20948_img.dmp3a.h": 1,
+          "avr/pgmspace.h": 1,
+          "ICM_20948_C.h": 1,
+          "<avr/pgmspace.h>": 1,
+          "AK09916_REGISTERS.h": 1,
+          "ICM20648/Invn/EmbUtils/dataconverter.h": 1,
+          "<ICM20648/Invn/EmbUtils/Message.h>": 1,
+          "ICM20648/Invn/EmbUtils/Message.h": 1,
+          "<ICM20648/Invn/EmbUtils/dataconverter.h>": 1,
+          "<ICM20648/Invn/Devices/Drivers/Ak0991x/Ak0991x.h>": 1,
+          "ICM20648/Invn/Devices/Drivers/Ak0991x/Ak0991x.h": 1,
+          "Icm20648DataBaseControl.h": 1,
+          "sl_bt_api.h": 1,
+          "em_common.h": 1,
+          "sl_status.h": 1,
+          "app_assert.h": 1,
+          "sl_button.h": 1,
+          "sl_btmesh_lighting_level_transition_handler.h": 1,
+          "sl_btmesh_api.h": 1,
+          "sli_bt_gattdb_def.h": 1,
+          "sl_component_catalog.h": 1,
+          "em_device.h": 1,
+          "sl_bt_stack_init.h": 1,
+          "sl_assert.h": 1,
+          "<em_device.h>": 1,
+          "sl_bt_in_place_ota_dfu.h": 1,
+          "sl_btmesh_lighting_server.h": 1,
+          "sl_btmesh_provisioning_decorator.h": 1,
+          "sl_btmesh_lc_server.h": 1,
+          "sl_btmesh_generic_base.h": 1,
+          "sl_bluetooth_config.h": 1,
+          "sl_btmesh_config.h": 1,
+          "sl_btmesh_dcd.h": 1,
+          "sl_btmesh_memory_config.h": 1,
+          "em_cmu.h": 1,
+          "psa/crypto.h": 1,
+          "sl_mbedtls.h": 1,
+          "sl_device_init_emu.h": 1,
+          "sl_device_init_hfxo.h": 1,
+          "btl_interface.h": 1,
+          "sl_device_init_dcdc.h": 1,
+          "sl_hfxo_manager.h": 1,
+          "pa_conversions_efr32.h": 1,
+          "nvm3_default.h": 1,
+          "sl_rail_util_pti.h": 1,
+          "em_chip.h": 1,
+          "sl_device_init_nvic.h": 1,
+          "sl_event_handler.h": 1,
+          "sl_board_init.h": 1,
+          "sl_mpu.h": 1,
+          "sl_device_init_lfrco.h": 1,
+          "sl_device_init_lfxo.h": 1,
+          "gpiointerrupt.h": 1,
+          "sli_protocol_crypto.h": 1,
+          "em_core.h": 1,
+          "sl_simple_button_btn0_config.h": 1,
+          "sl_simple_led_led0_config.h": 1,
+          "sl_simple_led.h": 1,
+          "em_gpio.h": 1,
+          "protocol_examples_common.h": 1,
+          "esp_netif_ip_addr.h": 1,
+          "ble_data.h": 1,
+          "lwip/inet.h": 1,
+          "argtable3/argtable3.h": 1,
+          "lwip/netdb.h": 1,
+          "esp_console.h": 1,
+          "lwip/sockets.h": 1,
+          "driver/adc.h": 1,
+          "soc/adc_channel.h": 1,
+          "ntc_table.h": 1,
+          "esp_adc_cal.h": 1,
+          "these": 1,
+          "list.h": 1,
+          "list2.": 1,
+          "support/lib_AT91SAM7X256.h": 1,
+          "support/AT91SAM7X256.h": 1,
+          "a1333.h": 1,
+          "ble_beacon_data.h": 1,
+          "wifi_config.h": 1,
+          "wifi_ap.h": 1,
+          "esp_gattc_api.h": 1,
+          "esp_gatt_defs.h": 1,
+          "app_var.h": 1,
+          "cJSON.h": 1,
+          "net.h": 1,
+          "bsp.h": 1,
+          "<netdb.h>": 1,
+          "esp_crt_bundle.h": 1,
+          "http_client.h": 1,
+          "esp_http_client.h": 1,
+          "driver/uart.h": 1,
+          "freertos/timers.h": 1,
+          "mb_server.h": 1,
+          "esp_sntp.h": 1,
+          "p18F4520.h": 1,
+          "<p18F4520.h>": 1,
+          "inc/core_ptc.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 96,
+        "packages": {
+          "System.Collections.Generic": 53,
+          "System.Text": 41,
+          "System.Linq": 33,
+          "System.Windows.Forms": 29,
+          "System.Threading.Tasks": 29,
+          "System.Drawing": 22,
+          "System": 17,
+          "System.ComponentModel": 14,
+          "System.Runtime.CompilerServices": 13,
+          "System.IO": 13,
+          "System.Runtime.InteropServices": 12,
+          "System.Threading": 10,
+          "System.Data": 9,
+          "System.Windows": 9,
+          "System.Diagnostics": 8,
+          "System.Security.Cryptography": 7,
+          "System.Windows.Input": 7,
+          "System.Windows.Controls": 6,
+          "Peak.Can.Basic": 6,
+          "System.Windows.Media": 5,
+          "System.Drawing.Drawing2D": 5,
+          "System.Text.RegularExpressions": 5,
+          "System.Reflection": 4,
+          "System.Globalization": 4,
+          "MaterialDesignThemes.Wpf": 4,
+          "System.Drawing.Design": 3,
+          "Xamarin.Forms": 3,
+          "MaterialDesignColors": 3,
+          "System.Runtime.InteropServices.WindowsRuntime": 3,
+          "System.IO.Ports": 2,
+          "System.Drawing.Printing": 2,
+          "System.Runtime.Remoting.Channels": 2,
+          "Xamarin.Forms.Platform.Android": 2,
+          "WT32EHT01.Views.Controls": 2,
+          "System.Windows.Forms.Design": 2,
+          "System.Collections": 2,
+          "ShowMeTheXAML": 2,
+          "Windows.Foundation.Collections": 2,
+          "Windows.UI.Xaml.Controls": 2,
+          "Windows.UI.Xaml.Navigation": 2,
+          "Windows.Foundation": 2,
+          "Windows.UI.Xaml": 2,
+          "Windows.UI.Xaml.Media": 2,
+          "Windows.UI.Xaml.Input": 2,
+          "Windows.UI.Xaml.Controls.Primitives": 2,
+          "Windows.UI.Xaml.Data": 2,
+          "MaterialDesignColors.WpfExample.Domain": 2,
+          "System.Windows.Data": 2,
+          "System.Management": 1,
+          "ZedGraph": 1,
+          "System.Configuration": 1,
+          "System.Collections.Immutable": 1,
+          "System.Windows.Controls.Primitives": 1,
+          "System.Windows.Media.Media3D": 1,
+          "System.Windows.Media.Animation": 1,
+          "WT32EHT01.Droid.Controls": 1,
+          "Android.Views": 1,
+          "CustomListViewDemo.Droid": 1,
+          "Android.Content.PM": 1,
+          "Android.Runtime": 1,
+          "Android.OS": 1,
+          "WT32EHT01.Droid": 1,
+          "Android.App": 1,
+          "Microsoft.Win32": 1,
+          "Timer": 1,
+          "Control": 1,
+          "System.ComponentModel.Design": 1,
+          "KEYS": 1,
+          "System.Xml": 1,
+          "System.Net": 1,
+          "System.Security.Cryptography.X509Certificates": 1,
+          "System.Net.Security": 1,
+          "System.Net.Http.Headers": 1,
+          "System.Text.Json": 1,
+          "System.Diagnostics.Contracts": 1,
+          "MaterialDesignThemes.MahApps": 1,
+          "MahApps.Metro.Controls": 1,
+          "MahApps.Metro.Controls.Dialogs": 1,
+          "System.Collections.ObjectModel": 1,
+          "Windows.ApplicationModel": 1,
+          "Windows.ApplicationModel.Activation": 1,
+          "System.Windows.Threading": 1,
+          "System.Security.Policy": 1,
+          "PCAN_Interface.Core": 1,
+          "PCAN_Interface.PCAN": 1,
+          "System.IO.IsolatedStorage": 1,
+          "System.Diagnostics.Eventing.Reader": 1,
+          "System.Runtime.InteropServices.ComTypes": 1,
+          "System.Drawing.Imaging": 1,
+          "System.Web": 1,
+          "System.Data.SqlTypes": 1,
+          "static": 1,
+          "System.ComponentModel.Composition": 1,
+          "System.CodeDom": 1,
+          "TPCANHandle": 1,
+          "TPCANTimestampFD": 1,
+          "TPCANBitrateFD": 1,
+          "System.Security.Permissions": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 6,
+        "packages": {
+          "Arduino.h": 3,
+          "SPI.h": 3,
+          "<Arduino.h>": 2,
+          "<SPI.h>": 2,
+          "adder.h": 2,
+          "ADE9000API.h": 1,
+          "<Wire.h>": 1,
+          "Wire.h": 1,
+          "ADE9078Calibrations.h": 1,
+          "ADEutility.h": 1,
+          "ADE9078.h": 1,
+          "esp32-hal-spi.h": 1,
+          "iostream": 1,
+          "<iostream>": 1,
+          "ICM_20948.h": 1,
+          "util/ICM_20948_REGISTERS.h": 1,
+          "util/AK09916_REGISTERS.h": 1,
+          "a1333.h": 1,
+          "stdio.h": 1,
+          "<stdio.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 90,
+        "packages": {
+          "stdint.h": 58,
+          "<stdint.h>": 58,
+          "<stdbool.h>": 24,
+          "stdbool.h": 24,
+          "stdio.h": 21,
+          "<stdio.h>": 21,
+          "esp_system.h": 13,
+          "string.h": 8,
+          "<string.h>": 8,
+          "can.h": 5,
+          "<assert.h>": 5,
+          "assert.h": 5,
+          "Arduino.h": 4,
+          "<stddef.h>": 4,
+          "stddef.h": 4,
+          "ICM20648/Invn/EmbUtils/InvBool.h": 3,
+          "ICM20648/Invn/EmbUtils/InvError.h": 3,
+          "<ICM20648/Invn/EmbUtils/InvBool.h>": 3,
+          "<ICM20648/Invn/EmbUtils/InvError.h>": 3,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Defs.h>": 3,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Defs.h": 3,
+          "EmbUtils/InvExport.h": 3,
+          "SPI.h": 2,
+          "mpc.h": 2,
+          "ICM20648/Invn/EmbUtils/InvExport.h": 2,
+          "<ICM20648/Invn/EmbUtils/InvExport.h>": 2,
+          "config-device-acceleration.h": 2,
+          "sl_btmesh_config.h": 2,
+          "sl_bt_api.h": 2,
+          "sl_power_manager.h": 2,
+          "portable.h": 2,
+          "list.h": 2,
+          "ble_beacon_data.h": 2,
+          "ADE9000RegMap.h": 1,
+          "LastReads.h": 1,
+          "<SPI.h>": 1,
+          "ADE9078registers.h": 1,
+          "stdlib.h": 1,
+          "errno.h": 1,
+          "ctype.h": 1,
+          "<stdlib.h>": 1,
+          "<ctype.h>": 1,
+          "<errno.h>": 1,
+          "stdarg.h": 1,
+          "math.h": 1,
+          "<math.h>": 1,
+          "<stdarg.h>": 1,
+          "util/ICM_20948_C.h": 1,
+          "Wire.h": 1,
+          "util/AK09916_REGISTERS.h": 1,
+          "ICM_20948_ENUMERATIONS.h": 1,
+          "ICM_20948_REGISTERS.h": 1,
+          "AK09916_ENUMERATIONS.h": 1,
+          "ICM_20948_DMP.h": 1,
+          "<ICM20648/Invn/Devices/Drivers/Ak0991x/Ak0991xSerif.h>": 1,
+          "ICM20648/Invn/Devices/Drivers/Ak0991x/Ak0991xSerif.h": 1,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648DataConverter.h": 1,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648SelfTest.h": 1,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Setup.h": 1,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648SelfTest.h>": 1,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Setup.h>": 1,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648AuxCompassAkm.h>": 1,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Transport.h": 1,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Serif.h": 1,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648AuxCompassAkm.h": 1,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Transport.h>": 1,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648Serif.h>": 1,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648DataConverter.h>": 1,
+          "<ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648DataBaseDriver.h>": 1,
+          "ICM20648/Invn/Devices/Drivers/Icm20648/Icm20648DataBaseDriver.h": 1,
+          "sli_bt_gattdb_def.h": 1,
+          "sl_malloc.h": 1,
+          "api/application_properties.h": 1,
+          "sl_bluetooth_config.h": 1,
+          "sl_btmesh.h": 1,
+          "sl_btmesh_stack_init.h": 1,
+          "sl_btmesh_bgapi.h": 1,
+          "sl_btmesh_api.h": 1,
+          "sl_simple_button.h": 1,
+          "sl_simple_led.h": 1,
+          "sl_application_type.h": 1,
+          "ble_data.h": 1,
+          "<inttypes.h>": 1,
+          "aduc7026.h": 1,
+          "<aduc7026.h>": 1,
+          "inttypes.h": 1,
+          "FreeRTOSConfig.h": 1,
+          "projdefs.h": 1,
+          "FreeRTOS/portable/GCC/ARM7_AT91SAM7S/portmacro.h": 1,
+          "queue.h": 1,
+          "FreeRTOS.h": 1,
+          "<Arduino.h>": 1,
+          "bg22_led.h": 1,
+          "ble_beacon.h": 1,
+          "esp_ibeacon_api.h": 1,
+          "bg22_config.h": 1,
+          "driver/gpio.h": 1,
+          "esp_err.h": 1,
+          "esp_gattc_api.h": 1,
+          "esp_gap_ble_api.h": 1,
+          "mb_common.h": 1,
+          "esp_netif.h": 1,
+          "ptc_defs.h": 1,
+          "core_ptc_defs.h": 1,
+          "core_ptc_config.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 6,
+        "packages": {
+          "os": 3,
+          "numpy": 3,
+          "matplotlib": 3,
+          "glob": 2,
+          "threading": 2,
+          "LogNorm": 2,
+          "json": 1,
+          "argparse": 1,
+          "dpkt": 1,
+          "socket": 1,
+          "DUT": 1,
+          "struct": 1,
+          "tiny_test_fw": 1,
+          "re": 1,
+          "select": 1,
+          "ttfw_idf": 1,
+          "console_log": 1,
+          "Event": 1,
+          "time": 1,
+          "subprocess": 1,
+          "math": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "pnt325/ADE9078-3PhaseWattmeter",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "pnt325/c-code-style",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "pnt325/CMakeEx",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "pnt325/crc",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "pnt325/CShapeExample",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "pnt325/DataLogger",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C#"
+        ]
+      },
+      {
+        "repository": "pnt325/dbcc",
+        "files_analyzed": 22,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "pnt325/diamon-print",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "pnt325/EFR32BG22-Thunerboard-ICM20648-DMP-QUATER_6",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C#",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "pnt325/efr32_mesh",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "pnt325/esp-idf-example",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "pnt325/esp32-wt32-eth01-prj",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C#",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "pnt325/FastColoredTextBox",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "pnt325/freemodbus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "pnt325/Hall-sensor-allegro-a1333",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "pnt325/HTTPS-Client-Test",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "pnt325/ibeacon-ble-gateway-to-cloud",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "pnt325/link_soucrce",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "pnt325/MaterialDesignInXamlToolkit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "pnt325/Modbus-Gateway",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "pnt325/Modbus-Slave-for-PIC18F",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "pnt325/PCAN_Interface",
+        "files_analyzed": 23,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "pnt325/pdiy-lib",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

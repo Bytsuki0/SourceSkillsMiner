@@ -1,0 +1,480 @@
+{
+  "username": "AntonioErdeljac",
+  "areas": {
+    "OSS": {
+      "score": 0.8974358974358974,
+      "details": {
+        "issue_resolution_rate": 0.8461538461538461,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 8,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 9,
+        "bounced_back_prs": 6
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5141025641025642,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        31432,
+        183
+      ],
+      "CSS": [
+        97418,
+        79
+      ],
+      "JavaScript": [
+        892800,
+        947
+      ],
+      "HTML": [
+        69446,
+        46
+      ],
+      "Shell": [
+        15,
+        1
+      ],
+      "Objective-C": [
+        7597,
+        7
+      ],
+      "Python": [
+        3200,
+        34
+      ],
+      "Java": [
+        2988,
+        0
+      ],
+      "SCSS": [
+        0,
+        16
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "Vue": [
+        0,
+        21
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 1334,
+    "total_lines": 1104896,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 892800,
+        "commits": 947
+      },
+      {
+        "language": "TypeScript",
+        "lines": 31432,
+        "commits": 183
+      },
+      {
+        "language": "CSS",
+        "lines": 97418,
+        "commits": 79
+      },
+      {
+        "language": "HTML",
+        "lines": 69446,
+        "commits": 46
+      },
+      {
+        "language": "Python",
+        "lines": 3200,
+        "commits": 34
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "AntonioErdeljac",
+    "analysis_date": "2026-05-10T09:14:04.678416",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 281,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 3,
+        "packages": {
+          "<UIKit/UIKit.h>": 3
+        }
+      },
+      "Java": {
+        "files_scanned": 6,
+        "packages": {
+          "com.facebook": 6,
+          "android.app": 3,
+          "java.util": 3,
+          "com.boxlioandroid": 2,
+          "com.airbnb": 2,
+          "com.citymetrics": 2,
+          "com.citycoin": 2,
+          "com.arttitude360": 1,
+          "org.devio": 1,
+          "com.horcrux": 1,
+          "com.oblador": 1,
+          "com.BV": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 88,
+        "packages": {
+          "react": 25,
+          "mongoose": 23,
+          "react-native": 19,
+          "express": 15,
+          "passport": 9,
+          "path": 8,
+          "react-redux": 8,
+          "yup": 7,
+          "prop-types": 6,
+          "lodash": 6,
+          "fs-extra": 5,
+          "react-navigation": 5,
+          "http": 4,
+          "fs": 4,
+          "cors": 4,
+          "body-parser": 4,
+          "morgan": 4,
+          "mongoose-unique-validator": 4,
+          "crypto": 4,
+          "react-native-animatable": 4,
+          "react-native-elements": 4,
+          "next": 3,
+          "superagent": 3,
+          "superagent-promise": 3,
+          "react-dom": 3,
+          "methods": 3,
+          "errorhandler": 3,
+          "express-session": 3,
+          "passport-local": 3,
+          "jsonwebtoken": 3,
+          "native-base": 3,
+          "react-router-dom": 2,
+          "redux": 2,
+          "express-fileupload": 2,
+          "express-jwt": 2,
+          "react-native-easy-grid": 2,
+          "formik": 2,
+          "ts-node": 1,
+          "protractor": 1,
+          "jasmine-spec-reporter": 1,
+          "karma-jasmine-html-reporter": 1,
+          "angular-devkit": 1,
+          "karma-jasmine": 1,
+          "karma-chrome-launcher": 1,
+          "karma-coverage-istanbul-reporter": 1,
+          "socket.io": 1,
+          "method-override": 1,
+          "react-test-renderer": 1,
+          "react-native-router-flux": 1,
+          "os": 1,
+          "react-native-geolocation-service": 1,
+          "country-list": 1,
+          "capitalize": 1,
+          "immutable-ext": 1,
+          "youtube-api-search": 1,
+          "expo": 1,
+          "preact-dom": 1,
+          "preact": 1,
+          "serve-favicon": 1,
+          "cookie-parser": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 27,
+        "packages": {
+          "react": 27,
+          "prop-types": 23,
+          "react-redux": 18,
+          "react-router-dom": 10,
+          "lodash": 6,
+          "classnames": 5,
+          "react-pose": 5,
+          "formik": 4,
+          "react-modal": 3,
+          "moment": 1,
+          "react-geosuggest": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 9,
+        "packages": {
+          "AppDelegate.h": 6,
+          "React/RCTRootView.h": 6,
+          "<React/RCTRootView.h>": 6,
+          "<UIKit/UIKit.h>": 6,
+          "UIKit/UIKit.h": 6,
+          "React/RCTBundleURLProvider.h": 3,
+          "<React/RCTBundleURLProvider.h>": 3,
+          "React/RCTLog.h": 3,
+          "XCTest/XCTest.h": 3,
+          "<XCTest/XCTest.h>": 3,
+          "<React/RCTLog.h>": 3,
+          "RNSplashScreen.h": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 33,
+        "packages": {
+          "angular": 7,
+          "lodash": 7,
+          "express": 6,
+          "mongoose": 4,
+          "zod": 3,
+          "zone.js": 3,
+          "tailwindcss": 2,
+          "protractor": 2,
+          "http:": 2,
+          "next": 1,
+          "Title": 1,
+          "react": 1,
+          "tailwind-merge": 1,
+          "clsx": 1,
+          "tailwindcss-animate": 1,
+          "ng-bootstrap": 1,
+          "classlist.js": 1,
+          "web-animations-js": 1,
+          "keymirror": 1,
+          "clerk": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 24,
+        "packages": {
+          "react": 14,
+          "workspace": 10,
+          "lucide-react": 7,
+          "next": 5,
+          "clerk": 4,
+          "radix-ui": 3,
+          "react-dom": 2,
+          "class-variance-authority": 2,
+          "div": 2,
+          "use-stick-to-bottom": 1,
+          "type": 1,
+          "react-markdown": 1,
+          "remark-gfm": 1,
+          "a": 1,
+          "pending": 1,
+          "react-dropzone": 1,
+          "onDrop": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "AntonioErdeljac/actions-demo",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/angular-exercise",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/AskRi",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/backend-recreation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/Boxlio",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/carrotDB",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/city-metrics",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/citycoin-landing",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/citycoin-mobile",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/citycoin-web",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/Commonly",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/composable-functional-javascript",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/docker-compose-test",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/echo-assets",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/expo-stack-navigator",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/expo-youtube-search",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/Feebot",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/file-upload-tutorial",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "AntonioErdeljac/fl0-clerk-next",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

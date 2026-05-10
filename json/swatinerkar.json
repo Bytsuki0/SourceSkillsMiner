@@ -1,0 +1,222 @@
+{
+  "username": "swatinerkar",
+  "areas": {
+    "OSS": {
+      "score": 0.0855506855874566,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.6283260283811848
+      }
+    },
+    "Status": {
+      "score": 0.11119171122848215,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6283260283811848,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.875,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.13565152063681227,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        508873,
+        11
+      ],
+      "HTML": [
+        109896,
+        6
+      ],
+      "CSS": [
+        4572,
+        1
+      ],
+      "JavaScript": [
+        2601,
+        0
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 18,
+    "total_lines": 625942,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 508873,
+        "commits": 11
+      },
+      {
+        "language": "HTML",
+        "lines": 109896,
+        "commits": 6
+      },
+      {
+        "language": "CSS",
+        "lines": 4572,
+        "commits": 1
+      },
+      {
+        "language": "JavaScript",
+        "lines": 2601,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "swatinerkar",
+    "analysis_date": "2026-05-10T11:17:20.635872",
+    "total_repos_analyzed": 5,
+    "total_files_analyzed": 69,
+    "languages": {
+      "Java": {
+        "files_scanned": 66,
+        "packages": {
+          "org.testng": 28,
+          "org.openqa": 28,
+          "io.appium": 23,
+          "java.util": 19,
+          "utils": 15,
+          "pageObjects.nativeApp": 12,
+          "utils.AndroidGestures": 9,
+          "java.io": 8,
+          "com.aventstack": 8,
+          "io.restassured": 7,
+          "testBase.Base": 7,
+          "utils.ExplicitlyWait": 7,
+          "lombok.extern": 5,
+          "pageObjects.hybridApp": 5,
+          "java.time": 5,
+          "com.typesafe": 4,
+          "requestUtils": 4,
+          "static": 4,
+          "pageObjectRepository": 4,
+          "requestUtils.Request": 3,
+          "org.slf4j": 3,
+          "constants": 3,
+          "java.text": 3,
+          "constants.FileConstants": 3,
+          "constants.ApiConstants": 3,
+          "pageObjects": 3,
+          "fileUtils.FileReader": 2,
+          "fileUtils": 2,
+          "reports.ExtentLogger": 2,
+          "random": 2,
+          "reports": 2,
+          "asserts.Assertions": 2,
+          "annotations.FrameworkAnnotations": 2,
+          "org.example": 2,
+          "constants.StatusCode": 2,
+          "TestUtil.BaseTest": 2,
+          "pageObjects.webBrowser": 2,
+          "testBase": 2,
+          "java.net": 2,
+          "com.test": 2,
+          "testBase.TestBase": 2,
+          "testCases": 2,
+          "pageObjectRepository.PageObjects": 2,
+          "TestUtil": 1,
+          "java.lang": 1,
+          "annotations": 1,
+          "asserts": 1,
+          "config": 1,
+          "dateUtil": 1,
+          "org.json": 1,
+          "java.nio": 1,
+          "lombok.SneakyThrows": 1,
+          "listeners": 1,
+          "reports.ExtentsReportUtils": 1,
+          "com.github": 1,
+          "dateUtil.DateUtil": 1,
+          "lombok.Builder": 1,
+          "lombok": 1,
+          "config.ConfigReader": 1,
+          "fileUtils.FilesUtil": 1,
+          "random.RandomUtils": 1,
+          "utils.PropertiesReader": 1,
+          "com.google": 1,
+          "org.apache": 1,
+          "utils.MobileActions": 1,
+          "pageObjects.AllPageObjectsNativeApp": 1,
+          "utils.SelectDropdown": 1,
+          "utils.DateUtil": 1,
+          "utils.PropertiesOperations": 1,
+          "testData.TestDataProvider": 1,
+          "testData": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "jQuery": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "swatinerkar/API_RestAssured",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "swatinerkar/appium-testng-project",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "swatinerkar/selenium-testng-demo-project",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

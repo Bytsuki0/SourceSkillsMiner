@@ -1,0 +1,384 @@
+{
+  "username": "phlbrz",
+  "areas": {
+    "OSS": {
+      "score": 0.4795027210515841,
+      "details": {
+        "issue_resolution_rate": 0.875,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.8442540815773761
+      }
+    },
+    "Status": {
+      "score": -0.14624483917496556,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.26140197200678245,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.1875,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "phlbrz/artificial-intelligence": 0.4389
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2291515763753237,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        184867,
+        0
+      ],
+      "Dockerfile": [
+        1644,
+        0
+      ],
+      "Shell": [
+        5839,
+        2
+      ],
+      "HTML": [
+        1470,
+        0
+      ],
+      "PHP": [
+        1286479,
+        0
+      ],
+      "XSLT": [
+        258560,
+        0
+      ],
+      "JavaScript": [
+        54799,
+        0
+      ],
+      "CSS": [
+        38551,
+        0
+      ],
+      "Makefile": [
+        52,
+        0
+      ],
+      "Batchfile": [
+        330,
+        0
+      ],
+      "Rust": [
+        0,
+        7
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 9,
+    "total_lines": 1832591,
+    "top_5_languages": [
+      {
+        "language": "Rust",
+        "lines": 0,
+        "commits": 7
+      },
+      {
+        "language": "Shell",
+        "lines": 5839,
+        "commits": 2
+      },
+      {
+        "language": "Java",
+        "lines": 184867,
+        "commits": 0
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 1644,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 1470,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "phlbrz",
+    "analysis_date": "2026-05-10T01:05:51.315380",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 348,
+    "languages": {
+      "Go": {
+        "files_scanned": 30,
+        "packages": {
+          "net/http": 14,
+          "fmt": 12,
+          "log": 11,
+          "crypto/tls": 11,
+          "time": 11,
+          "crypto/x509": 10,
+          "strings": 9,
+          "testing": 7,
+          "reflect": 7,
+          "errors": 6,
+          "path/filepath": 5,
+          "os": 5,
+          "io/ioutil": 4,
+          "flag": 4,
+          "sort": 3,
+          "github.com/eBay/fabio/config": 3,
+          "runtime": 3,
+          "github.com/hashicorp/consul/api": 3,
+          "encoding/pem": 3,
+          "regexp": 3,
+          "github.com/magiconair/properties": 3,
+          "encoding/json": 2,
+          "html/template": 2,
+          "path": 2,
+          "net/url": 2,
+          "net/http/httptest": 2,
+          "github.com/pascaldekloe/goe/verify": 2,
+          "net": 2,
+          "github.com/eBay/fabio/registry": 1,
+          "github.com/eBay/fabio/route": 1,
+          "github.com/eBay/fabio/admin/api": 1,
+          "github.com/eBay/fabio/admin/ui": 1,
+          "github.com/eBay/fabio/exit": 1,
+          "bytes": 1,
+          "os/exec": 1,
+          "crypto/rand": 1,
+          "crypto/x509/pkix": 1,
+          "golang.org/x/net/http2": 1,
+          "math/big": 1,
+          "crypto/rsa": 1,
+          "sync/atomic": 1,
+          "sync": 1,
+          "github.com/hashicorp/vault/api": 1,
+          "golang.org/x/net/websocket": 1,
+          "os/signal": 1,
+          "io": 1,
+          "strconv": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 313,
+        "packages": {
+          "java.util": 127,
+          "static": 61,
+          "br.com": 57,
+          "java.io": 45,
+          "com.google": 40,
+          "org.apache": 40,
+          "org.springframework": 38,
+          "org.junit": 38,
+          "org.jboss": 35,
+          "com.orbitz": 31,
+          "com.acme": 30,
+          "org.cfg4j": 30,
+          "com.ecwid": 30,
+          "me.magnet": 30,
+          "org.wicketstuff": 30,
+          "org.flywaydb": 30,
+          "org.arquillian": 22,
+          "org.eu": 22,
+          "java.net": 21,
+          "java.lang": 21,
+          "com.fasterxml": 18,
+          "retrofit2.Retrofit": 12,
+          "javax.inject": 11,
+          "javax.ejb": 11,
+          "java.math": 11,
+          "retrofit2.Call": 11,
+          "retrofit2.http": 11,
+          "java.time": 10,
+          "javax.persistence": 10,
+          "javax.enterprise": 10,
+          "java.nio": 8,
+          "javax.validation": 8,
+          "org.slf4j": 8,
+          "springfox.documentation": 4,
+          "javax.xml": 4,
+          "java.sql": 4,
+          "org.w3c": 3,
+          "org.mockito": 3,
+          "javax.servlet": 2,
+          "io.jsonwebtoken": 2,
+          "org.hibernate": 2,
+          "java.security": 2,
+          "org.reflections": 2,
+          "com.squareup": 2,
+          "com.codahale": 2,
+          "javax.net": 2,
+          "retrofit2.Response": 2,
+          "okhttp3.MediaType": 2,
+          "okhttp3.RequestBody": 2,
+          "org.immutables": 2,
+          "com.netflix": 2,
+          "java.text": 2,
+          "javax.sql": 2,
+          "javax.transaction": 1,
+          "javax.jws": 1,
+          "javax.naming": 1,
+          "javax.decorator": 1,
+          "javax.annotation": 1,
+          "org.assertj": 1,
+          "com.github": 1,
+          "org.json": 1,
+          "org.yaml": 1,
+          "okhttp3": 1,
+          "okhttp3.internal": 1,
+          "retrofit2.converter": 1,
+          "retrofit2.Callback": 1,
+          "nl.jqno": 1,
+          "org.hamcrest": 1,
+          "junit.framework": 1,
+          "largetest.migrate": 1,
+          "android.content": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 4,
+        "packages": {
+          "log": 4,
+          "std": 3,
+          "crate": 2,
+          "regex": 1,
+          "reqwest": 1,
+          "demsf_rs": 1,
+          "zip": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "phlbrz/alura-forum-spring-boot-api-rest-jwt",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "phlbrz/alura-forum-spring-boot-profiles-testes-deploy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "phlbrz/arquillian-container-chameleon",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "phlbrz/arquillian-showcase",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "phlbrz/arquillian-suite-extension",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "phlbrz/cfg4j",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "phlbrz/consul-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "phlbrz/consul-client",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "phlbrz/consultant",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "phlbrz/core",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "phlbrz/demsf-rs",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "phlbrz/fabio",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "phlbrz/flyway",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

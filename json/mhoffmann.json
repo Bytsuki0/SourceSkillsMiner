@@ -1,0 +1,1043 @@
+{
+  "username": "mhoffmann",
+  "areas": {
+    "OSS": {
+      "score": -0.5331617401948429,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.3333333333333333,
+        "commits_activity": 0.3669240563744024
+      }
+    },
+    "Status": {
+      "score": -0.11819395955898448,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.303478291430754,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.3125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 8,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.19277113995076547,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        81025,
+        0
+      ],
+      "Makefile": [
+        17904,
+        0
+      ],
+      "Go": [
+        1147640,
+        0
+      ],
+      "Python": [
+        211371,
+        0
+      ],
+      "ApacheConf": [
+        7069,
+        0
+      ],
+      "Thrift": [
+        6334,
+        0
+      ],
+      "Batchfile": [
+        1452,
+        0
+      ],
+      "Java": [
+        95697,
+        0
+      ],
+      "Roff": [
+        614,
+        0
+      ],
+      "Nginx": [
+        253,
+        0
+      ],
+      "HTML": [
+        551755,
+        0
+      ],
+      "Puppet": [
+        4553,
+        0
+      ],
+      "Ruby": [
+        12415852,
+        3
+      ],
+      "PHP": [
+        4633,
+        0
+      ],
+      "Pascal": [
+        27,
+        0
+      ],
+      "Perl": [
+        645,
+        0
+      ],
+      "CSS": [
+        312771,
+        1
+      ],
+      "JavaScript": [
+        3010890,
+        0
+      ],
+      "Dockerfile": [
+        148,
+        0
+      ],
+      "CoffeeScript": [
+        1834771,
+        0
+      ],
+      "Visual Basic": [
+        339,
+        0
+      ],
+      "PowerShell": [
+        116,
+        0
+      ]
+    },
+    "language_count": 22,
+    "total_commits": 4,
+    "total_lines": 19705859,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 12415852,
+        "commits": 3
+      },
+      {
+        "language": "CSS",
+        "lines": 312771,
+        "commits": 1
+      },
+      {
+        "language": "Shell",
+        "lines": 81025,
+        "commits": 0
+      },
+      {
+        "language": "Makefile",
+        "lines": 17904,
+        "commits": 0
+      },
+      {
+        "language": "Go",
+        "lines": 1147640,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mhoffmann",
+    "analysis_date": "2026-05-10T10:54:32.054008",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 383,
+    "languages": {
+      "C": {
+        "files_scanned": 8,
+        "packages": {
+          "<stdio.h>": 5,
+          "stdio.h": 5,
+          "<stdlib.h>": 5,
+          "stdlib.h": 5,
+          "unistd.h": 4,
+          "<unistd.h>": 4,
+          "<string.h>": 4,
+          "errno.h": 4,
+          "<errno.h>": 4,
+          "string.h": 4,
+          "cutils/properties.h": 3,
+          "<cutils/properties.h>": 3,
+          "sys/stat.h": 3,
+          "private/android_filesystem_config.h": 3,
+          "<sys/stat.h>": 3,
+          "fcntl.h": 3,
+          "<fcntl.h>": 3,
+          "installd.h": 3,
+          "<cutils/sockets.h>": 2,
+          "cutils/sockets.h": 2,
+          "sys/time.h": 2,
+          "limits.h": 2,
+          "<sys/wait.h>": 2,
+          "sys/wait.h": 2,
+          "<limits.h>": 2,
+          "<sys/time.h>": 2,
+          "<utils/Log.h>": 2,
+          "utils/Log.h": 2,
+          "dumpstate.h": 2,
+          "sys/resource.h": 1,
+          "<sys/resource.h>": 1,
+          "<signal.h>": 1,
+          "<dirent.h>": 1,
+          "poll.h": 1,
+          "dirent.h": 1,
+          "sys/inotify.h": 1,
+          "signal.h": 1,
+          "time.h": 1,
+          "stdarg.h": 1,
+          "<private/android_filesystem_config.h>": 1,
+          "<poll.h>": 1,
+          "<stdarg.h>": 1,
+          "<time.h>": 1,
+          "<sys/inotify.h>": 1,
+          "diskusage/dirsize.h": 1,
+          "<diskusage/dirsize.h>": 1,
+          "<netinet/in.h>": 1,
+          "<sys/types.h>": 1,
+          "<linux/route.h>": 1,
+          "<linux/if.h>": 1,
+          "sys/ioctl.h": 1,
+          "sys/socket.h": 1,
+          "<arpa/inet.h>": 1,
+          "<sys/socket.h>": 1,
+          "arpa/inet.h": 1,
+          "linux/if.h": 1,
+          "<sys/ioctl.h>": 1,
+          "sys/types.h": 1,
+          "<cutils/log.h>": 1,
+          "linux/route.h": 1,
+          "cutils/log.h": 1,
+          "netinet/in.h": 1,
+          "libpng/png.h": 1,
+          "<linux/fb.h>": 1,
+          "<libpng/png.h>": 1,
+          "<zlib.h>": 1,
+          "linux/fb.h": 1,
+          "zlib.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 15,
+        "packages": {
+          "<stdio.h>": 7,
+          "stdio.h": 7,
+          "unistd.h": 7,
+          "<unistd.h>": 7,
+          "android": 6,
+          "namespace": 6,
+          "<string.h>": 6,
+          "string.h": 6,
+          "utils/Log.h": 5,
+          "<utils/Log.h>": 5,
+          "fcntl.h": 5,
+          "<fcntl.h>": 5,
+          "<sys/types.h>": 4,
+          "stdint.h": 4,
+          "<stdint.h>": 4,
+          "sys/types.h": 4,
+          "binder/IPCThreadState.h": 3,
+          "<binder/ProcessState.h>": 3,
+          "binder/ProcessState.h": 3,
+          "<binder/IPCThreadState.h>": 3,
+          "cutils/properties.h": 3,
+          "<cutils/properties.h>": 3,
+          "<stdlib.h>": 3,
+          "stdlib.h": 3,
+          "errno.h": 3,
+          "<errno.h>": 3,
+          "utils/threads.h": 2,
+          "BootAnimation.h": 2,
+          "<signal.h>": 2,
+          "<utils/threads.h>": 2,
+          "<surfaceflinger/ISurfaceComposer.h>": 2,
+          "surfaceflinger/ISurfaceComposer.h": 2,
+          "signal.h": 2,
+          "binder/IServiceManager.h": 2,
+          "<binder/IServiceManager.h>": 2,
+          "sys/time.h": 2,
+          "<sys/time.h>": 2,
+          "sys/stat.h": 2,
+          "<cutils/sockets.h>": 2,
+          "sys/socket.h": 2,
+          "<dirent.h>": 2,
+          "dirent.h": 2,
+          "<sys/socket.h>": 2,
+          "cutils/sockets.h": 2,
+          "<private/android_filesystem_config.h>": 2,
+          "private/android_filesystem_config.h": 2,
+          "<sys/stat.h>": 2,
+          "keystore.h": 2,
+          "AudioDevice.h": 2,
+          "AudioRingBuffer.h": 2,
+          "<cutils/memory.h>": 1,
+          "cutils/process_name.h": 1,
+          "cutils/memory.h": 1,
+          "android_runtime/AndroidRuntime.h": 1,
+          "<android_runtime/AndroidRuntime.h>": 1,
+          "<cutils/process_name.h>": 1,
+          "utils/BackupHelpers.h": 1,
+          "utils/String8.h": 1,
+          "<utils/BackupHelpers.h>": 1,
+          "<utils/String8.h>": 1,
+          "ui/Region.h": 1,
+          "<images/SkImageDecoder.h>": 1,
+          "<GLES/gl.h>": 1,
+          "<core/SkBitmap.h>": 1,
+          "<utils/misc.h>": 1,
+          "EGL/eglext.h": 1,
+          "GLES/glext.h": 1,
+          "core/SkStream.h": 1,
+          "core/SkBitmap.h": 1,
+          "<surfaceflinger/ISurfaceComposerClient.h>": 1,
+          "surfaceflinger/ISurfaceComposerClient.h": 1,
+          "math.h": 1,
+          "GLES/gl.h": 1,
+          "utils/Atomic.h": 1,
+          "ui/FramebufferNativeWindow.h": 1,
+          "<ui/DisplayInfo.h>": 1,
+          "<utils/Errors.h>": 1,
+          "<utils/AssetManager.h>": 1,
+          "<ui/FramebufferNativeWindow.h>": 1,
+          "images/SkImageDecoder.h": 1,
+          "<GLES/glext.h>": 1,
+          "utils/AssetManager.h": 1,
+          "<math.h>": 1,
+          "<ui/PixelFormat.h>": 1,
+          "<utils/Atomic.h>": 1,
+          "ui/DisplayInfo.h": 1,
+          "ui/Rect.h": 1,
+          "<EGL/eglext.h>": 1,
+          "utils/Errors.h": 1,
+          "<core/SkStream.h>": 1,
+          "<ui/Rect.h>": 1,
+          "utils/misc.h": 1,
+          "ui/PixelFormat.h": 1,
+          "<ui/Region.h>": 1,
+          "sys/resource.h": 1,
+          "<sys/resource.h>": 1,
+          "pthread.h": 1,
+          "<pthread.h>": 1,
+          "<utils/TextOutput.h>": 1,
+          "getopt.h": 1,
+          "utils/Vector.h": 1,
+          "binder/Parcel.h": 1,
+          "<getopt.h>": 1,
+          "<utils/Vector.h>": 1,
+          "<binder/Parcel.h>": 1,
+          "utils/TextOutput.h": 1,
+          "installd.h": 1,
+          "<gtest/gtest.h>": 1,
+          "gtest/gtest.h": 1,
+          "<openssl/aes.h>": 1,
+          "openssl/evp.h": 1,
+          "openssl/aes.h": 1,
+          "limits.h": 1,
+          "<arpa/inet.h>": 1,
+          "<openssl/md5.h>": 1,
+          "<openssl/evp.h>": 1,
+          "openssl/md5.h": 1,
+          "arpa/inet.h": 1,
+          "<limits.h>": 1,
+          "<cutils/log.h>": 1,
+          "cutils/log.h": 1,
+          "ctype.h": 1,
+          "utime.h": 1,
+          "<assert.h>": 1,
+          "assert.h": 1,
+          "time.h": 1,
+          "stdarg.h": 1,
+          "<utime.h>": 1,
+          "<stdarg.h>": 1,
+          "<ctype.h>": 1,
+          "<time.h>": 1,
+          "<SkStream.h>": 1,
+          "binder/IMemory.h": 1,
+          "sys/ioctl.h": 1,
+          "<sys/mman.h>": 1,
+          "<linux/fb.h>": 1,
+          "<SkImageEncoder.h>": 1,
+          "<SkData.h>": 1,
+          "SkImageEncoder.h": 1,
+          "SkBitmap.h": 1,
+          "<surfaceflinger/SurfaceComposerClient.h>": 1,
+          "surfaceflinger/SurfaceComposerClient.h": 1,
+          "<SkBitmap.h>": 1,
+          "linux/fb.h": 1,
+          "<sys/ioctl.h>": 1,
+          "SkStream.h": 1,
+          "sys/mman.h": 1,
+          "SkData.h": 1,
+          "<binder/IMemory.h>": 1,
+          "<binder/BinderService.h>": 1,
+          "SensorService.h": 1,
+          "<SensorService.h>": 1,
+          "binder/BinderService.h": 1,
+          "AudioDeviceList.h": 1,
+          "AudioThruEngine.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 40,
+        "packages": {
+          "<Cocoa/Cocoa.h>": 18,
+          "<Foundation/Foundation.h>": 9,
+          "<CoreAudio/CoreAudio.h>": 4,
+          "stdint.h": 3,
+          "sys/types.h": 3,
+          "<sys/types.h>": 3,
+          "<stdint.h>": 3,
+          "<stdio.h>": 3,
+          "stdio.h": 3,
+          "unistd.h": 3,
+          "<unistd.h>": 3,
+          "<CoreServices/CoreServices.h>": 3,
+          "CoreServices/CoreServices.h": 3,
+          "SFCommon.h": 3,
+          "<cutils/sockets.h>": 2,
+          "sys/socket.h": 2,
+          "<sys/socket.h>": 2,
+          "cutils/sockets.h": 2,
+          "<Growl/GrowlDefines.h>": 2,
+          "PSMTabBarControl.h": 2,
+          "CoreAudio/CoreAudio.h": 2,
+          "<AudioUnit/AudioUnit.h>": 2,
+          "<AudioToolbox/AudioToolbox.h>": 2,
+          "<AudioUnit/AUCocoaUIView.h>": 2,
+          "<Carbon/Carbon.h>": 2,
+          "utils/threads.h": 1,
+          "utils/AssetManager.h": 1,
+          "<utils/threads.h>": 1,
+          "surfaceflinger/SurfaceComposerClient.h": 1,
+          "<surfaceflinger/SurfaceComposerClient.h>": 1,
+          "<GLES/gl.h>": 1,
+          "<surfaceflinger/ISurfaceComposer.h>": 1,
+          "<EGL/egl.h>": 1,
+          "surfaceflinger/ISurfaceComposer.h": 1,
+          "GLES/gl.h": 1,
+          "<utils/AssetManager.h>": 1,
+          "EGL/egl.h": 1,
+          "<time.h>": 1,
+          "time.h": 1,
+          "ctype.h": 1,
+          "cutils/properties.h": 1,
+          "sys/stat.h": 1,
+          "utime.h": 1,
+          "<dirent.h>": 1,
+          "<inttypes.h>": 1,
+          "<sys/wait.h>": 1,
+          "dirent.h": 1,
+          "sys/mount.h": 1,
+          "sys/wait.h": 1,
+          "errno.h": 1,
+          "<sys/mount.h>": 1,
+          "<stdlib.h>": 1,
+          "<private/android_filesystem_config.h>": 1,
+          "<utime.h>": 1,
+          "private/android_filesystem_config.h": 1,
+          "<sys/stat.h>": 1,
+          "<errno.h>": 1,
+          "fcntl.h": 1,
+          "sys/statfs.h": 1,
+          "<ctype.h>": 1,
+          "inttypes.h": 1,
+          "<cutils/log.h>": 1,
+          "<sys/statfs.h>": 1,
+          "<cutils/properties.h>": 1,
+          "cutils/log.h": 1,
+          "<fcntl.h>": 1,
+          "stdlib.h": 1,
+          "<Growl/GrowlApplicationBridge.h>": 1,
+          "Growl/GrowlDefines.h": 1,
+          "Growl/GrowlApplicationBridge.h": 1,
+          "<AppKit/AppKit.h>": 1,
+          "OCMRecorder.h": 1,
+          "<OCMock/OCMLocation.h>": 1,
+          "<OCMock/OCMConstraint.h>": 1,
+          "<OCMock/NSNotificationCenter+OCMAdditions.h>": 1,
+          "<OCMock/OCMockObject.h>": 1,
+          "<OCMock/OCMStubRecorder.h>": 1,
+          "<OCMock/OCMMacroState.h>": 1,
+          "<OCMock/OCMArg.h>": 1,
+          "<OCMock/OCMRecorder.h>": 1,
+          "VolumeView.h": 1,
+          "VolumeViewController.h": 1,
+          "HelpWindowController.h": 1,
+          "AudioDeviceList.h": 1,
+          "vector": 1,
+          "<vector>": 1,
+          "AudioDevice.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 24,
+        "packages": {
+          "fmt": 10,
+          "path/filepath": 8,
+          "github.com/elastic/beats/libbeat/common": 8,
+          "os": 7,
+          "flag": 6,
+          "errors": 6,
+          "testing": 6,
+          "github.com/elastic/beats/libbeat/logp": 6,
+          "strings": 5,
+          "sync": 5,
+          "github.com/stretchr/testify/assert": 5,
+          "time": 4,
+          "io/ioutil": 4,
+          "io": 4,
+          "github.com/elastic/beats/filebeat/util": 4,
+          "github.com/elastic/beats/libbeat/outputs/elasticsearch": 3,
+          "bytes": 3,
+          "github.com/elastic/beats/filebeat/registrar": 3,
+          "github.com/elastic/beats/libbeat/cfgfile": 3,
+          "github.com/elastic/beats/libbeat/paths": 3,
+          "encoding/json": 3,
+          "github.com/elastic/beats/libbeat/version": 2,
+          "sync/atomic": 2,
+          "github.com/elastic/beats/filebeat/spooler": 2,
+          ":=": 2,
+          "github.com/elastic/beats/filebeat/channel": 2,
+          "runtime": 2,
+          "value": 2,
+          "close_eof": 2,
+          "Response": 2,
+          "Please": 2,
+          "golang.org/x/text/encoding": 2,
+          "golang.org/x/text/encoding/unicode": 2,
+          "golang.org/x/text/transform": 2,
+          "github.com/elastic/beats/libbeat/outputs/outil": 1,
+          "github.com/elastic/beats/libbeat/common/fmtstr": 1,
+          "github.com/elastic/beats/libbeat/outputs/transport": 1,
+          "github.com/elastic/beats/libbeat/outputs": 1,
+          "URL": 1,
+          "github.com/elastic/beats/libbeat/dashboards": 1,
+          "github.com/elastic/beats/libbeat/template": 1,
+          "compress/gzip": 1,
+          "regexp": 1,
+          "archive/tar": 1,
+          "github.com/blakesmith/ar": 1,
+          "github.com/cavaliercoder/go-rpm": 1,
+          "archive/zip": 1,
+          "already": 1,
+          "github.com/elastic/beats/libbeat/beat": 1,
+          "github.com/elastic/beats/filebeat/crawler": 1,
+          "github.com/elastic/beats/filebeat/publisher": 1,
+          "you": 1,
+          "Continue": 1,
+          "can": 1,
+          "modules": 1,
+          "github.com/elastic/beats/filebeat/fileset": 1,
+          "github.com/elastic/beats/filebeat/beater": 1,
+          "github.com/spf13/pflag": 1,
+          "log": 1,
+          "github.com/elastic/beats/filebeat/prospector": 1,
+          "github.com/elastic/beats/filebeat/input/file": 1,
+          "text/template": 1,
+          "domain": 1,
+          "hostname": 1,
+          "c:/programdata/MySQL/MySQL": 1,
+          "pipeline": 1,
+          "You": 1,
+          "geoip": 1,
+          "user_agent": 1,
+          "The": 1,
+          "sudo": 1,
+          "This": 1,
+          "description": 1,
+          "strconv": 1,
+          "set": 1,
+          "field": 1,
+          "processors": 1,
+          "nginx": 1,
+          "paths": 1,
+          "a": 1,
+          "error": 1,
+          "enabled": 1,
+          "var.b.c": 1,
+          "prospector.close_eof": 1,
+          "access": 1,
+          "access.var.test": 1,
+          "b": 1,
+          "b.c": 1,
+          "mysql": 1,
+          "fileset": 1,
+          "var.a": 1,
+          "var.paths": 1,
+          "test": 1,
+          "auditd": 1,
+          "module": 1,
+          "system": 1,
+          "error.enabled": 1,
+          "golang.org/x/text/encoding/simplifiedchinese": 1,
+          "utf-16be-bom": 1,
+          "golang.org/x/text/encoding/charmap": 1,
+          "utf-8": 1,
+          "iso8859-8e": 1,
+          "iso8859-6i": 1,
+          "utf-16le-bom": 1,
+          "gbk": 1,
+          "nop": 1,
+          "utf-16-bom": 1,
+          "golang.org/x/text/encoding/htmlindex": 1,
+          "iso8859-8i": 1,
+          "unicode-1-1-utf-8": 1,
+          "plain": 1,
+          "utf8": 1,
+          "iso8859-6e": 1,
+          "github.com/elastic/beats/libbeat/processors": 1,
+          "github.com/elastic/beats/filebeat/harvester/encoding": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 35,
+        "packages": {
+          "com.github": 28,
+          "java.util": 16,
+          "java.io": 13,
+          "org.jenkinsci": 9,
+          "hudson.model": 6,
+          "android.os": 6,
+          "com.android": 6,
+          "org.kohsuke": 5,
+          "java.nio": 5,
+          "hudson.Extension": 5,
+          "android.util": 4,
+          "android.app": 4,
+          "org.apache": 3,
+          "hudson.Launcher": 3,
+          "hudson.FilePath": 3,
+          "org.tmatesoft": 3,
+          "android.view": 3,
+          "javax.servlet": 2,
+          "jenkins.model": 2,
+          "org.eclipse": 2,
+          "java.text": 2,
+          "com.google": 2,
+          "android.content": 2,
+          "android.net": 2,
+          "jenkins.tasks": 1,
+          "hudson.EnvVars": 1,
+          "hudson.scm": 1,
+          "hudson.tasks": 1,
+          "static": 1,
+          "jenkins.triggers": 1,
+          "hudson.slaves": 1,
+          "hudson.util": 1,
+          "javax.annotation": 1,
+          "groovy.lang": 1,
+          "java.net": 1,
+          "java.lang": 1,
+          "be.jedi": 1,
+          "de.waldheinz": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 12,
+        "packages": {
+          "sys": 6,
+          "function": 2,
+          "mysql": 2,
+          "persistencejs": 2,
+          "express": 2,
+          "connect": 2,
+          "util": 1,
+          "aws-sdk": 1,
+          "s3": 1,
+          "async": 1,
+          "child_process": 1,
+          "http": 1,
+          "url": 1,
+          "undefined": 1,
+          "^ngModel": 1,
+          "ngModel": 1,
+          "YYYY-MM-DD": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 30,
+        "packages": {
+          "nylas-exports": 20,
+          "react": 19,
+          "nylas-component-kit": 14,
+          "react-dom": 7,
+          "underscore": 6,
+          "react-addons-test-utils": 4,
+          "node-emoji": 3,
+          "path": 2,
+          "electron": 2,
+          "classnames": 2,
+          "fs": 1,
+          "nylas-observables": 1,
+          "nylas-store": 1,
+          "rx-lite": 1,
+          "request": 1,
+          "focus": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 19,
+        "packages": {
+          "PSMTabBarControl.h": 4,
+          "PSMTabStyle.h": 3,
+          "PSMTabDragAssistant.h": 3,
+          "PSMTabBarCell.h": 3,
+          "NSString_AITruncation.h": 2,
+          "PSMOverflowPopUpButton.h": 2,
+          "PSMProgressIndicator.h": 2,
+          "PSMRolloverButton.h": 2,
+          "PSMTabBarController.h": 2,
+          "Cocoa/Cocoa.h": 2,
+          "<Cocoa/Cocoa.h>": 2,
+          "SFCommon.h": 2,
+          "NSBezierPath_AMShading.h": 1,
+          "<bitstring.h>": 1,
+          "PSMSequelProTabStyle.h": 1,
+          "bitstring.h": 1,
+          "Carbon/Carbon.h": 1,
+          "<Carbon/Carbon.h>": 1,
+          "HelpWindowController.h": 1,
+          "Soundflowerbed.h": 1,
+          "VolumeView.h": 1,
+          "VolumeViewController.h": 1,
+          "SFReceiver.h": 1,
+          "SFSender.h": 1,
+          "SFAUModule.h": 1,
+          "SFCommunicationManager.h": 1,
+          "SFClosingWindow.h": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 13,
+        "packages": {
+          "Tivie\\HtaccessParser\\Exception\\InvalidArgumentException": 6,
+          "Tivie\\HtaccessParser\\Exception\\DomainException": 3,
+          "Tivie\\HtaccessParser\\Token\\Block": 2,
+          "Tivie\\HtaccessParser\\Token\\Comment": 2,
+          "Tivie\\HtaccessParser\\Token\\WhiteLine": 2,
+          "wp-admin/includes/plugin.php": 2,
+          "Tivie\\HtaccessParser\\Token\\TokenInterface": 1,
+          "ArrayObject": 1,
+          "Tivie\\HtaccessParser\\Exception\\SyntaxException": 1,
+          "Tivie\\HtaccessParser\\Token\\Directive": 1,
+          "Tivie\\HtaccessParser\\Exception\\Exception": 1,
+          "Traversable": 1,
+          "JsonSerializable": 1,
+          "BaseTestCase.php": 1,
+          "Doctrine\\Common\\Cache\\ArrayCache": 1,
+          "Doctrine\\Common\\Cache\\CacheProvider": 1,
+          "DNSRBL\\DNSRBL": 1,
+          "functions.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 9,
+        "packages": {
+          "sys": 5,
+          "json": 4,
+          "argparse": 3,
+          "os": 3,
+          "prlsdkapi": 3,
+          "re": 2,
+          "__future__": 2,
+          "print_function": 2,
+          "logging": 2,
+          "fnmatch": 1,
+          "Elasticsearch": 1,
+          "elasticsearch": 1,
+          "glob": 1,
+          "datetime": 1,
+          "csv": 1,
+          "subprocess": 1,
+          "boto3": 1,
+          "botocore": 1,
+          "letsencrypt": 1,
+          "cfn_wrapper": 1,
+          "cfn_resource": 1,
+          "yaml": 1,
+          "string": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 21,
+        "packages": {
+          "fileutils": 5,
+          "spec_helper": 4,
+          "logstash/devutils/rspec/spec_helper": 4,
+          "puppetlabs_spec_helper/module_spec_helper": 3,
+          "stud/temporary": 3,
+          "aws-sdk": 3,
+          "logstash/inputs/s3": 3,
+          "logstash/namespace": 2,
+          "yaml": 2,
+          "<iostream>": 1,
+          "<string>": 1,
+          "<vector>": 1,
+          "absl/strings/str_join.h": 1,
+          "aces/aces_Writer.h": 1,
+          "<stdio.h>": 1,
+          "<sys/acl.h>": 1,
+          "php_serialization": 1,
+          "logstash/filters/base": 1,
+          "logstash/filters/phpserialized": 1,
+          "digest/md5": 1,
+          "time": 1,
+          "tmpdir": 1,
+          "logstash/inputs/base": 1,
+          "LogStash::PluginMixins::AwsConfig": 1,
+          "stud/interval": 1,
+          "logstash/plugin_mixins/aws_config": 1,
+          "generated": 1,
+          "logstash/errors": 1,
+          "rubygems": 1,
+          "date": 1,
+          "cfpropertylist": 1,
+          "fission/leasesfile": 1,
+          "fission/error": 1,
+          "shellwords": 1,
+          "fission/command_line_parser": 1,
+          "fission/action/shell_executor": 1,
+          "fission/ui": 1,
+          "fission/vm": 1,
+          "fission/action/snapshot/deleter": 1,
+          "fission/version": 1,
+          "fission/action/vm/starter": 1,
+          "fission/command/clone": 1,
+          "fission/command/snapshot_revert": 1,
+          "fission/vm_configuration": 1,
+          "fission/command/info": 1,
+          "fission/cli": 1,
+          "fission/command/status": 1,
+          "fission/action/vm/lister": 1,
+          "fission/action/vm/deleter": 1,
+          "fission/action/snapshot/lister": 1,
+          "fission/command": 1,
+          "fission/command/stop": 1,
+          "fission/command/suspend": 1,
+          "fission/fusion": 1,
+          "fission/action/snapshot/creator": 1,
+          "ostruct": 1,
+          "fission/command/snapshot_create": 1,
+          "fission/command/delete": 1,
+          "fission/core_ext/object": 1,
+          "fission/command/start": 1,
+          "fission/action/vm/suspender": 1,
+          "fission/action/snapshot/reverter": 1,
+          "fission/action/vm/stopper": 1,
+          "fission/command_helpers": 1,
+          "fission/command/snapshot_list": 1,
+          "fission/config": 1,
+          "fission/core_ext/class": 1,
+          "fission/command/snapshot_delete": 1,
+          "fission/response": 1,
+          "fission/lease": 1,
+          "fission/core_ext/file": 1,
+          "fission/metadata": 1,
+          "optparse": 1,
+          "fission/action/vm/cloner": 1,
+          "net/vnc/version": 1,
+          "socket": 1,
+          "thread": 1,
+          "cipher/des": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mhoffmann/beats",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "mhoffmann/beol-amazon_dynamodb",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mhoffmann/golja-ioncubeloader",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mhoffmann/homebrew-core",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mhoffmann/hugo-lambda",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "mhoffmann/last-changes-plugin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mhoffmann/logstash-filter-phpserialized",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mhoffmann/logstash-input-s3",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mhoffmann/N1",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "mhoffmann/persistencejs",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mhoffmann/php-htaccess-parser",
+        "files_analyzed": 21,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "mhoffmann/phpdnsrbl",
+        "files_analyzed": 3,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "mhoffmann/platform_frameworks_base",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "Java"
+        ]
+      },
+      {
+        "repository": "mhoffmann/puppet-cloudwatchlogs",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mhoffmann/sequelpro",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "mhoffmann/Soundflower",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "mhoffmann/veewee",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mhoffmann/vtms-node",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mhoffmann/wp-amazon-s3-and-cloudfront",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "mhoffmann/wp-mail-ses",
+        "files_analyzed": 9,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

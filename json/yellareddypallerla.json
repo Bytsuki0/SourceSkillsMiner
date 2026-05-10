@@ -1,0 +1,342 @@
+{
+  "username": "yellareddypallerla",
+  "areas": {
+    "OSS": {
+      "score": 0.036805542985340445,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.5552083144780106
+      }
+    },
+    "Status": {
+      "score": -0.07589678292988555,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.3669240563744024,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.5375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.11531824798890902,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        1769,
+        4
+      ],
+      "Python": [
+        400660,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 4,
+    "total_lines": 402429,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 1769,
+        "commits": 4
+      },
+      {
+        "language": "Python",
+        "lines": 400660,
+        "commits": 0
+      },
+      {
+        "language": "Makefile",
+        "lines": 0,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "yellareddypallerla",
+    "analysis_date": "2026-05-10T03:48:03.492670",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 96,
+    "languages": {
+      "C": {
+        "files_scanned": 23,
+        "packages": {
+          "<stdio.h>": 13,
+          "stdio.h": 13,
+          "stdint.h": 5,
+          "<stdint.h>": 5,
+          "main.h": 3,
+          "string.h": 3,
+          "<string.h>": 2,
+          "usb_host.h": 2,
+          "usbh_core.h": 2,
+          "usbh_platform.h": 2,
+          "math.h": 2,
+          "st.h": 2,
+          "al.h": 2,
+          "fl.h": 2,
+          "sysdef.h": 2,
+          "xf.h": 2,
+          "sc.h": 2,
+          "<stdlib.h>": 1,
+          "stdlib.h": 1,
+          "stm32f10x.h": 1,
+          "HAL_GPIO.h": 1,
+          "stdarg.h": 1,
+          "stm32f4xx_hal.h": 1,
+          "<stdarg.h>": 1,
+          "stm32f4xx_it.h": 1,
+          "stm32f4xx.h": 1,
+          "usbh_cdc.h": 1,
+          "<ctype.h>": 1,
+          "ctype.h": 1,
+          "types.h": 1,
+          "i2c.h": 1,
+          "bd.h": 1,
+          "v1.h": 1,
+          "ee.h": 1,
+          "dg.h": 1,
+          "pt.h": 1,
+          "rg.h": 1,
+          "flc.h": 1,
+          "nt.h": 1,
+          "lv.h": 1,
+          "cnfg.h": 1,
+          "gp.h": 1,
+          "MB_TIMER.h": 1,
+          "ck.h": 1,
+          "bo.h": 1,
+          "mo.h": 1,
+          "bc.h": 1,
+          "ss.h": 1,
+          "mbsl1.h": 1,
+          "gltext.h": 1,
+          "an.h": 1,
+          "bt.h": 1,
+          "pbus.h": 1,
+          "AS0.h": 1,
+          "eq.h": 1,
+          "pl.h": 1,
+          "sn.h": 1,
+          "mbms1.h": 1,
+          "TI1.h": 1,
+          "di.h": 1,
+          "ac.h": 1,
+          "re.h": 1,
+          "ld.h": 1,
+          "to.h": 1,
+          "CPU.h": 1,
+          "ota.h": 1,
+          "dt.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 5,
+        "packages": {
+          "stm32f4xx_hal.h": 3,
+          "stm32f4xx.h": 2,
+          "stm32f4xx_hal_cortex.h": 1,
+          "stm32f4xx_hal_crc.h": 1,
+          "stm32f4xx_hal_flash.h": 1,
+          "stm32f4xx_hal_pccard.h": 1,
+          "stm32f4xx_hal_sai.h": 1,
+          "stm32f4xx_hal_mmc.h": 1,
+          "stm32f4xx_hal_qspi.h": 1,
+          "stm32f4xx_hal_eth.h": 1,
+          "stm32f4xx_hal_nand.h": 1,
+          "stm32f4xx_hal_cryp.h": 1,
+          "stm32f4xx_hal_i2c.h": 1,
+          "stm32f4xx_hal_i2s.h": 1,
+          "stm32f4xx_hal_dfsdm.h": 1,
+          "stm32f4xx_hal_rtc.h": 1,
+          "stm32f4xx_hal_pwr.h": 1,
+          "stm32f4xx_hal_exti.h": 1,
+          "stm32f4xx_hal_ltdc.h": 1,
+          "stm32f4xx_hal_rng.h": 1,
+          "stm32f4xx_hal_wwdg.h": 1,
+          "stm32f4xx_hal_sdram.h": 1,
+          "stm32f4xx_hal_spdifrx.h": 1,
+          "stm32f4xx_hal_gpio.h": 1,
+          "stm32f4xx_hal_smartcard.h": 1,
+          "stm32f4xx_hal_fmpi2c.h": 1,
+          "stm32f4xx_hal_smbus.h": 1,
+          "stm32f4xx_hal_cec.h": 1,
+          "stm32f4xx_hal_uart.h": 1,
+          "stm32f4xx_hal_dcmi.h": 1,
+          "stm32f4xx_hal_sd.h": 1,
+          "stm32f4xx_hal_spi.h": 1,
+          "stm32f4xx_hal_rcc.h": 1,
+          "stm32f4xx_hal_can.h": 1,
+          "stm32f4xx_hal_dsi.h": 1,
+          "stm32f4xx_hal_hcd.h": 1,
+          "stm32f4xx_hal_lptim.h": 1,
+          "stm32f4xx_hal_iwdg.h": 1,
+          "stm32f4xx_hal_nor.h": 1,
+          "stm32f4xx_hal_dma.h": 1,
+          "stm32f4xx_hal_hash.h": 1,
+          "stm32f4xx_hal_usart.h": 1,
+          "stm32f4xx_hal_dma2d.h": 1,
+          "stm32f4xx_hal_sram.h": 1,
+          "stm32f4xx_hal_tim.h": 1,
+          "stm32f4xx_hal_adc.h": 1,
+          "stm32f4xx_hal_dac.h": 1,
+          "stm32f4xx_hal_irda.h": 1,
+          "stm32f4xx_hal_pcd.h": 1,
+          "<string.h>": 1,
+          "main.h": 1,
+          "string.h": 1,
+          "cmsis_os.h": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "<stdlib.h>": 1,
+          "stdlib.h": 1,
+          "usb_host.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "test-file-stub": 1,
+          "react": 1,
+          "babel-jest": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "glob": 1,
+          "os": 1,
+          "serial": 1,
+          "struct": 1,
+          "sys": 1,
+          "pypandoc": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "gatsby": 2
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 15,
+        "packages": {
+          "react": 15,
+          "styled-components": 12,
+          "gatsby-image": 2,
+          "what-input": 1,
+          "react-stickynode": 1,
+          "react-helmet": 1,
+          "react-modal": 1,
+          "body-scroll-lock": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "yellareddypallerla/100daysofcodingchallenge-",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "yellareddypallerla/Arm-cortex-m3-stm32bluepill",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "yellareddypallerla/Custom-Bootloader",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "yellareddypallerla/DeepLearning.ai-Summary",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "yellareddypallerla/embedded-c",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "yellareddypallerla/Embedded-C_01",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "yellareddypallerla/embeddedccurrent",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "yellareddypallerla/gatsbytutorials.com",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

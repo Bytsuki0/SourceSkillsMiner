@@ -1,0 +1,177 @@
+{
+  "username": "camilapossan",
+  "areas": {
+    "OSS": {
+      "score": -0.7747619015826354,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.337857147626047
+      }
+    },
+    "Status": {
+      "score": -0.1824087127643833,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.2071561616226558,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.8375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.35893412286940374,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        6732,
+        0
+      ],
+      "TypeScript": [
+        9589,
+        1
+      ],
+      "HTML": [
+        613,
+        0
+      ],
+      "CSS": [
+        344,
+        0
+      ],
+      "JavaScript": [
+        119168,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 1,
+    "total_lines": 136446,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 9589,
+        "commits": 1
+      },
+      {
+        "language": "Java",
+        "lines": 6732,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 613,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 344,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 119168,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "camilapossan",
+    "analysis_date": "2026-05-10T11:26:45.230116",
+    "total_repos_analyzed": 3,
+    "total_files_analyzed": 41,
+    "languages": {
+      "Java": {
+        "files_scanned": 3,
+        "packages": {
+          "com.example": 3,
+          "org.junit": 2,
+          "static": 2,
+          "android.content": 1,
+          "androidx.test": 1,
+          "android.os": 1,
+          "java.util": 1,
+          "android.view": 1,
+          "androidx.appcompat": 1,
+          "android.widget": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 4,
+        "packages": {
+          "cypress": 1,
+          "http:": 1,
+          "web-vitals": 1,
+          "testing-library": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 15,
+        "packages": {
+          "mui": 9,
+          "emotion": 6,
+          "react": 5,
+          "testing-library": 3,
+          "uuid": 1,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "camilapossan/App-Android-Sorteio-0-a-10",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "camilapossan/monster-application",
+        "files_analyzed": 28,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

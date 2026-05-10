@@ -1,0 +1,550 @@
+{
+  "username": "rumeysakdogan",
+  "areas": {
+    "OSS": {
+      "score": 0.898989898989899,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.8484848484848485,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4871794871794872,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.23076923076923078
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5272338772338773,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        3781465,
+        158
+      ],
+      "Go": [
+        2008996,
+        4
+      ],
+      "Python": [
+        1534050,
+        190
+      ],
+      "HCL": [
+        1396969,
+        138
+      ],
+      "Dockerfile": [
+        485532,
+        13
+      ],
+      "Jinja": [
+        353917,
+        4
+      ],
+      "PowerShell": [
+        283524,
+        0
+      ],
+      "Makefile": [
+        106765,
+        1
+      ],
+      "HTML": [
+        785945,
+        77
+      ],
+      "Java": [
+        870791,
+        343
+      ],
+      "Gherkin": [
+        3468,
+        9
+      ],
+      "JavaScript": [
+        485986,
+        88
+      ],
+      "CSS": [
+        220864,
+        18
+      ],
+      "Bicep": [
+        4166,
+        0
+      ],
+      "Jupyter Notebook": [
+        950352,
+        0
+      ],
+      "Mustache": [
+        4138,
+        1
+      ],
+      "Smarty": [
+        638,
+        0
+      ],
+      "TypeScript": [
+        48637,
+        0
+      ],
+      "C#": [
+        7032,
+        0
+      ],
+      "Less": [
+        0,
+        2
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 1046,
+    "total_lines": 13333235,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 870791,
+        "commits": 343
+      },
+      {
+        "language": "Python",
+        "lines": 1534050,
+        "commits": 190
+      },
+      {
+        "language": "Shell",
+        "lines": 3781465,
+        "commits": 158
+      },
+      {
+        "language": "HCL",
+        "lines": 1396969,
+        "commits": 138
+      },
+      {
+        "language": "JavaScript",
+        "lines": 485986,
+        "commits": 88
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rumeysakdogan",
+    "analysis_date": "2026-05-10T01:33:22.241603",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 271,
+    "languages": {
+      "C#": {
+        "files_scanned": 1,
+        "packages": {
+          "System.Net": 1,
+          "Newtonsoft.Json": 1,
+          "System.Net.Sockets": 1,
+          "System.Linq": 1,
+          "System.Threading": 1,
+          "Npgsql": 1,
+          "System": 1,
+          "System.Data.Common": 1,
+          "StackExchange.Redis": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 25,
+        "packages": {
+          "fmt": 25,
+          "os": 5,
+          "github.com/dghubble/oauth1": 4,
+          "github.com/dghubble/go-twitter/twitter": 4,
+          "log": 4,
+          "github.com/gruntwork-io/terratest/modules/terraform": 1,
+          "time": 1,
+          "testing": 1,
+          "strings": 1,
+          "encoding/json": 1,
+          "net/http": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 118,
+        "packages": {
+          "java.util": 37,
+          "org.openqa": 26,
+          "com.visualpathit": 26,
+          "org.junit": 22,
+          "io.cucumber": 20,
+          "com.library": 20,
+          "org.springframework": 17,
+          "com.vytrack": 15,
+          "com.cybertek": 12,
+          "day03_sequences_Variables": 10,
+          "io.appium": 8,
+          "java.net": 8,
+          "day04_Variables": 8,
+          "java.io": 7,
+          "static": 7,
+          "OfficeHoursWithSaim": 6,
+          "com.example": 4,
+          "org.apache": 3,
+          "com.github": 3,
+          "day02_printStatements": 3,
+          "io.github": 2,
+          "org.elasticsearch": 2,
+          "org.slf4j": 2,
+          "javax.persistence": 2,
+          "junit.framework": 2,
+          "DataStructures.linkedList": 2,
+          "DataStructures.queue": 2,
+          "DataStructures.stack": 2,
+          "DataStructures.tree": 2,
+          "com.sun": 2,
+          "java.time": 1,
+          "java.sql": 1,
+          "com.google": 1,
+          "com.rabbitmq": 1,
+          "net.spy": 1,
+          "org.mockito": 1,
+          "DataStructures.LinkedList": 1,
+          "DataStructures.heaps": 1,
+          "DataStructures.tries": 1,
+          "day0": 1,
+          "day01": 1,
+          "org.w3c": 1,
+          "javax.xml": 1,
+          "day05_ArithmeticOperators": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 24,
+        "packages": {
+          "express": 6,
+          "body-parser": 4,
+          "playwright": 4,
+          "fs": 3,
+          "uuid": 2,
+          "path": 2,
+          "pg": 2,
+          "mongodb": 2,
+          "mysql": 1,
+          "wait-port": 1,
+          "sqlite3": 1,
+          "async": 1,
+          "cookie-parser": 1,
+          "socket.io": 1,
+          "http": 1,
+          "method-override": 1,
+          "system": 1,
+          "webpage": 1,
+          "select": 1,
+          "undefined": 1,
+          "object": 1,
+          "2.1.2": 1,
+          "testing-library": 1,
+          "vite": 1,
+          "vite-plugin-eslint": 1,
+          "vitejs": 1,
+          "octokit": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 4,
+        "packages": {
+          "react": 2,
+          "prop-types": 1,
+          "testing-library": 1,
+          "react-dom": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 47,
+        "packages": {
+          "django": 18,
+          "flask": 12,
+          "Flask": 12,
+          "time": 6,
+          "os": 6,
+          "boto3": 4,
+          "netmiko": 3,
+          "ConnectHandler": 3,
+          "flaskext": 3,
+          "MySQL": 3,
+          "json": 3,
+          "admin": 3,
+          "settings": 3,
+          "User": 3,
+          "redis": 3,
+          "paramiko": 2,
+          "sys": 2,
+          "getpass": 2,
+          "random": 2,
+          "AppConfig": 2,
+          "blog": 2,
+          "forms": 2,
+          "fields": 2,
+          "migrations": 2,
+          "models": 2,
+          "path": 2,
+          "users": 2,
+          "cmd": 1,
+          "datetime": 1,
+          "receiver": 1,
+          "pre_save": 1,
+          "slugify": 1,
+          "TestCase": 1,
+          "uuid": 1,
+          "messages": 1,
+          "login_required": 1,
+          "get_object_or_404": 1,
+          "get_asgi_application": 1,
+          "config": 1,
+          "decouple": 1,
+          "Path": 1,
+          "pathlib": 1,
+          "storages": 1,
+          "S3Boto3Storage": 1,
+          "static": 1,
+          "get_wsgi_application": 1,
+          "execute_from_command_line": 1,
+          "UserCreationForm": 1,
+          "MyMainPackage": 1,
+          "mysubscript": 1,
+          "report_main": 1,
+          "one": 1,
+          "cap": 1,
+          "unittest": 1,
+          "urllib": 1,
+          "logging": 1,
+          "socket": 1,
+          "Redis": 1,
+          "yaml": 1,
+          "simplejson": 1,
+          "Template": 1,
+          "jinja2": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 1,
+        "packages": {
+          "octokit": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 12,
+        "packages": {
+          "actions": 4,
+          "octokit": 3,
+          "type": 3,
+          "path": 2,
+          "simple-git": 2,
+          "chalk": 2,
+          "graphql-codegen": 1,
+          "jest": 1,
+          "node-fetch": 1,
+          "minimatch": 1,
+          "codeowners": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rumeysakdogan/90DaysOfDevOps",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/AppiumAutomation",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/AWS",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/aws-devops-zero-to-hero",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/AWS_DevOps_Projects",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/BBD_LibraryProject",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/cicd-kube-docker",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/Complete-Python-3-Bootcamp",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/CucumberTestAutomationProject",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/DevOps_Workshop",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/dismiss-stale-reviews",
+        "files_analyzed": 16,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/example-voting-app",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C#",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/gh-artifacts",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/gh-envvars-secrets",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/gh-jobs-docker-containers",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/Github-Examples",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/Hackerrank_Questions",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/hashicorp",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/hello-world",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/httpenv",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rumeysakdogan/Java",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

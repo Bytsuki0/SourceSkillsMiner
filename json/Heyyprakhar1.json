@@ -1,0 +1,481 @@
+{
+  "username": "Heyyprakhar1",
+  "areas": {
+    "OSS": {
+      "score": 0.5555555555555556,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.3333333333333333,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4358974358974359,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Adaptability": {
+      "score": 0.2125,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 4,
+        "topic_entropy_bits": 4.4931,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.24079059829059832,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        981405,
+        101
+      ],
+      "Shell": [
+        230724,
+        3
+      ],
+      "Python": [
+        1839820,
+        304
+      ],
+      "Dockerfile": [
+        37310,
+        15
+      ],
+      "HCL": [
+        86667,
+        58
+      ],
+      "TypeScript": [
+        2481281,
+        26
+      ],
+      "JavaScript": [
+        413663,
+        1
+      ],
+      "Go Template": [
+        6682,
+        0
+      ],
+      "Makefile": [
+        2792,
+        0
+      ],
+      "ANTLR": [
+        1937,
+        0
+      ],
+      "Java": [
+        1200,
+        0
+      ],
+      "Jinja": [
+        1119,
+        0
+      ],
+      "C#": [
+        282,
+        0
+      ],
+      "Rust": [
+        145,
+        0
+      ],
+      "Go": [
+        126,
+        0
+      ],
+      "Ruby": [
+        78,
+        0
+      ],
+      "CSS": [
+        2094,
+        1
+      ],
+      "PowerShell": [
+        0,
+        0
+      ],
+      "C": [
+        0,
+        0
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 509,
+    "total_lines": 6087325,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 1839820,
+        "commits": 304
+      },
+      {
+        "language": "HTML",
+        "lines": 981405,
+        "commits": 101
+      },
+      {
+        "language": "HCL",
+        "lines": 86667,
+        "commits": 58
+      },
+      {
+        "language": "TypeScript",
+        "lines": 2481281,
+        "commits": 26
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 37310,
+        "commits": 15
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Heyyprakhar1",
+    "analysis_date": "2026-05-10T02:34:01.788153",
+    "total_repos_analyzed": 22,
+    "total_files_analyzed": 114,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 15,
+        "packages": {
+          "path": 12,
+          "fs": 11,
+          "child_process": 6,
+          "os": 6,
+          "url": 5,
+          "bun:sqlite": 2,
+          "esbuild": 2,
+          "assert": 2,
+          "enabled": 1,
+          "resize": 1,
+          "\\u2713": 1,
+          "node:readline": 1,
+          "claude-mem": 1,
+          "node:process": 1,
+          "submit": 1,
+          "disabled": 1,
+          "space": 1,
+          "\\u26A0": 1,
+          "OK": 1,
+          "keypress": 1,
+          "\\u2717": 1,
+          "node:tty": 1,
+          "_": 1,
+          "$HOME": 1,
+          "CLAUDE_MEM_DATA_DIR": 1,
+          "):l.display=": 1,
+          "object": 1,
+          "system": 1,
+          "\\xC1": 1,
+          "glob": 1,
+          "readline": 1,
+          "node:url": 1,
+          "node:path": 1,
+          "next": 1,
+          "tailwindcss": 1,
+          "OpenCode's": 1,
+          "http": 1,
+          "ws": 1,
+          "crypto": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 71,
+        "packages": {
+          "datetime": 29,
+          "localstack": 28,
+          "typing": 28,
+          "RequestContext": 27,
+          "StrEnum": 26,
+          "enum": 26,
+          "TypedDict": 23,
+          "os": 11,
+          "app": 11,
+          "flask": 8,
+          "json": 7,
+          "collections": 7,
+          "fastapi": 7,
+          "Flask": 5,
+          "sqlalchemy": 5,
+          "time": 5,
+          "sys": 4,
+          "subprocess": 4,
+          "requests": 3,
+          "logging": 3,
+          "Iterable": 3,
+          "IO": 3,
+          "SQLAlchemy": 3,
+          "flask_sqlalchemy": 3,
+          "jwt": 3,
+          "Blueprint": 3,
+          "create_app": 3,
+          "APIRouter": 3,
+          "Incident": 3,
+          "logger": 3,
+          "FastAPI": 3,
+          "pydantic": 3,
+          "BaseModel": 3,
+          "Path": 2,
+          "pathlib": 2,
+          "openai": 2,
+          "re": 2,
+          "IMPORTED": 2,
+          "INCLUDE": 2,
+          "Request": 2,
+          "functools": 2,
+          "RequiresIndexDocuments": 2,
+          "Iterator": 2,
+          "=": 2,
+          "Session": 2,
+          "SessionLocal": 2,
+          "prometheus_client": 2,
+          "Base": 2,
+          "redis_client": 2,
+          "yaml": 1,
+          "shutil": 1,
+          "OpenAI": 1,
+          "dotenv": 1,
+          "load_dotenv": 1,
+          "DEFAULT_AWS_ACCOUNT_ID": 1,
+          "config": 1,
+          "base64": 1,
+          "binascii": 1,
+          "IMPORT_IN_PROGRESS": 1,
+          "IMPORT_FAILED": 1,
+          "IMPORT_ROLLBACK_COMPLETE": 1,
+          "Import": 1,
+          "IMPORT_ROLLBACK_IN_PROGRESS": 1,
+          "IMPORT_ROLLBACK_FAILED": 1,
+          "IMPORT": 1,
+          "IMPORT_COMPLETE": 1,
+          "rolo": 1,
+          "Callable": 1,
+          "botocore": 1,
+          "InternalRequestParameters": 1,
+          "ProtocolName": 1,
+          "OperationModel": 1,
+          "long_uid": 1,
+          "ServiceException": 1,
+          "import-image-task": 1,
+          "import-snapshot-task": 1,
+          "required": 1,
+          "included": 1,
+          "open": 1,
+          "Required": 1,
+          "REQUIRED": 1,
+          "IMPORTING": 1,
+          "USE": 1,
+          "|": 1,
+          "werkzeug": 1,
+          "generate_password_hash": 1,
+          "current_app": 1,
+          "OAuth": 1,
+          "authlib": 1,
+          "create_incident": 1,
+          "IncidentCreate": 1,
+          "health": 1,
+          "JSONResponse": 1,
+          "Counter": 1,
+          "uuid": 1,
+          "BaseHTTPMiddleware": 1,
+          "starlette": 1,
+          "redis": 1,
+          "pydantic_settings": 1,
+          "BaseSettings": 1,
+          "declarative_base": 1,
+          "create_engine": 1,
+          "sessionmaker": 1,
+          "LoggingMiddleware": 1,
+          "REQUEST_COUNT": 1,
+          "Response": 1,
+          "global_exception_handler": 1,
+          "api_router": 1,
+          "generate_latest": 1,
+          "engine": 1,
+          "Column": 1,
+          "uvicorn": 1,
+          "asyncio": 1,
+          "CORSMiddleware": 1,
+          "Optional": 1,
+          "asyncpg": 1,
+          "defaultdict": 1,
+          "Error": 1,
+          "Bcrypt": 1,
+          "flask_bcrypt": 1,
+          "mysql": 1,
+          "wraps": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 18,
+        "packages": {
+          "clack": 9,
+          "fs": 9,
+          "path": 9,
+          "os": 8,
+          "picocolors": 7,
+          "child_process": 6,
+          "util": 2,
+          "claude-code": 1,
+          "cli": 1,
+          "claude": 1,
+          "fresh": 1,
+          "macos": 1,
+          "node:http": 1,
+          "node:assert": 1,
+          "node:test": 1,
+          "anthropic-ai": 1,
+          "readline": 1,
+          "~": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "next": 1,
+          "react": 1,
+          "lucide-react": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Heyyprakhar1/90DaysOfDevOps",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/agentic-ai-for-devops",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/claude-mem",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/devops-agent",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/github-actions-practice",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/Linux-System-Health-Monitor",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/localstack",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/microservices-ecommerce-devsecops",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/python-for-devops",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/sentinel-ai",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/supchat-analytics",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/superpowers",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "Heyyprakhar1/two-tier-app",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "username": "veeresh-bikkaneti",
+  "areas": {
+    "OSS": {
+      "score": 0.45089225440921066,
+      "details": {
+        "issue_resolution_rate": 0.25,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.926338381613816
+      }
+    },
+    "Status": {
+      "score": 0.13184588243426454,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6593072851898583,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.225,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "veeresh-bikkaneti/azdo-ai-toolkit": -0.11315,
+        "veeresh-bikkaneti/cypress-playwright": -0.09325000000000001
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.07154762736869504,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        532250,
+        26
+      ],
+      "TypeScript": [
+        97345,
+        19
+      ],
+      "PowerShell": [
+        216407,
+        0
+      ],
+      "Jupyter Notebook": [
+        80305,
+        0
+      ],
+      "HTML": [
+        80350,
+        31
+      ],
+      "JavaScript": [
+        507642,
+        14
+      ],
+      "Bicep": [
+        8492,
+        0
+      ],
+      "Pug": [
+        2176,
+        0
+      ],
+      "Dockerfile": [
+        2139,
+        0
+      ],
+      "CSS": [
+        885,
+        1
+      ],
+      "Batchfile": [
+        2323,
+        0
+      ],
+      "Go": [
+        245432,
+        0
+      ],
+      "Shell": [
+        50934,
+        0
+      ],
+      "TeX": [
+        11068,
+        0
+      ],
+      "Nix": [
+        3360,
+        0
+      ],
+      "C#": [
+        582015,
+        14
+      ],
+      "Gherkin": [
+        28,
+        0
+      ],
+      "Python": [
+        0,
+        2
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 107,
+    "total_lines": 2423151,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 80350,
+        "commits": 31
+      },
+      {
+        "language": "Java",
+        "lines": 532250,
+        "commits": 26
+      },
+      {
+        "language": "TypeScript",
+        "lines": 97345,
+        "commits": 19
+      },
+      {
+        "language": "JavaScript",
+        "lines": 507642,
+        "commits": 14
+      },
+      {
+        "language": "C#",
+        "lines": 582015,
+        "commits": 14
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "veeresh-bikkaneti",
+    "analysis_date": "2026-05-10T12:57:12.551824",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 269,
+    "languages": {
+      "C#": {
+        "files_scanned": 34,
+        "packages": {
+          "System": 10,
+          "System.Threading.Tasks": 9,
+          "System.Collections.Generic": 8,
+          "OpenQA.Selenium": 7,
+          "OpenQA.Selenium.Chrome": 6,
+          "System.Data.SqlClient": 6,
+          "System.Linq": 6,
+          "Dapper": 6,
+          "Selenium.core.browsers": 5,
+          "System.Diagnostics": 5,
+          "NUnit.Framework": 4,
+          "Selenium.core": 4,
+          "Selenium.pages": 4,
+          "Tests.Db.Models": 4,
+          "Tests.Db": 4,
+          "Dapper.Crud": 4,
+          "Tests.Db.Utils": 4,
+          "Microsoft.VisualStudio.TestTools.UnitTesting": 4,
+          "System.Text": 3,
+          "System.Runtime.CompilerServices": 3,
+          "System.Runtime.InteropServices": 3,
+          "OpenQA.Selenium.Firefox": 3,
+          "FluentAssertions": 3,
+          "System.Reflection": 2,
+          "System.Collections.ObjectModel": 2,
+          "System.Diagnostics.Contracts": 2,
+          "OpenQA.Selenium.Remote": 2,
+          "System.IO": 2,
+          "Protractor": 2,
+          "Protractor_Net_Demo.Pages": 2,
+          "TechTalk.SpecFlow": 2,
+          "CosmosDbHelper": 1,
+          "Models": 1,
+          "System.Linq.Expressions": 1,
+          "Microsoft.Edge.SeleniumTools": 1,
+          "System.Threading": 1,
+          "Microsoft.Extensions.Configuration": 1,
+          "System.Data": 1,
+          "System.Dynamic": 1,
+          "OpenQA.Selenium.Interactions": 1,
+          "OpenQA.Selenium.Support.UI": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 10,
+        "packages": {
+          "github.com/charmbracelet/lipgloss": 6,
+          "strings": 5,
+          "github.com/santifer/career-ops/dashboard/internal/model": 5,
+          "github.com/santifer/career-ops/dashboard/internal/theme": 5,
+          "fmt": 4,
+          "os": 4,
+          "path/filepath": 3,
+          "regexp": 2,
+          "sort": 2,
+          "testing": 2,
+          "github.com/santifer/career-ops/dashboard/internal/data": 2,
+          "time": 1,
+          "strconv": 1,
+          "github.com/muesli/termenv": 1,
+          "interview": 1,
+          "offer": 1,
+          "responded": 1,
+          "evaluated": 1,
+          "rejected": 1,
+          "skip": 1,
+          "discarded": 1,
+          "applied": 1,
+          "%d": 1,
+          "L": 1,
+          "os/exec": 1,
+          "github.com/santifer/career-ops/dashboard/internal/ui/screens": 1,
+          "runtime": 1,
+          "flag": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 83,
+        "packages": {
+          "org.openqa": 52,
+          "org.apache": 43,
+          "org.testng": 35,
+          "static": 31,
+          "java.util": 29,
+          "com.guide": 27,
+          "com.loadablecomponents": 23,
+          "com.services": 16,
+          "io.github": 11,
+          "com.implementation": 10,
+          "java.io": 10,
+          "com.testdatareader": 8,
+          "com.drivers": 7,
+          "com.cogmento": 6,
+          "java.time": 5,
+          "java.net": 5,
+          "com.utilities": 5,
+          "com.aventstack": 4,
+          "com.hooks": 4,
+          "java.text": 3,
+          "io.qameta": 3,
+          "Page": 3,
+          "com.base": 3,
+          "io.cucumber": 3,
+          "com.webdriversample": 3,
+          "com.extentreporter": 2,
+          "com.paulhammant": 2,
+          "lombok.Getter": 2,
+          "lombok.Setter": 2,
+          "cucumber.api": 2,
+          "sun.rmi": 1,
+          "java.nio": 1,
+          "com.opencsv": 1,
+          "com.runner": 1,
+          "org.junit": 1,
+          "com.steps": 1,
+          "com.sun": 1,
+          "java.awt": 1,
+          "edit": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 23,
+        "packages": {
+          "__esModule": 12,
+          "express": 3,
+          "react": 3,
+          "path": 2,
+          "cookie-parser": 2,
+          "cy-spok": 2,
+          "vitest": 2,
+          "morgan": 1,
+          "http-errors": 1,
+          "multer": 1,
+          "cors": 1,
+          "fs": 1,
+          "shelex": 1,
+          "use": 1,
+          "undefined": 1,
+          "jQuery": 1,
+          "cypress": 1,
+          "cypress-plugin-api": 1,
+          "eslint-plugin-react-hooks": 1,
+          "typescript-eslint": 1,
+          "eslint": 1,
+          "eslint-plugin-react-refresh": 1,
+          "globals": 1,
+          "react-dom": 1,
+          "testing-library": 1,
+          "tailwindcss": 1,
+          "vitejs": 1,
+          "vite": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 7,
+        "packages": {
+          "Path": 5,
+          "sys": 5,
+          "pathlib": 5,
+          "subprocess": 4,
+          "json": 4,
+          "os": 4,
+          "argparse": 4,
+          "datetime": 4,
+          "typing": 3,
+          "List": 2,
+          "this": 2,
+          "re": 2,
+          "signal": 1,
+          "time": 1,
+          "Dict": 1,
+          "requires_url": 1,
+          "playwright": 1,
+          "sync_playwright": 1,
+          "tempfile": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 50,
+        "packages": {
+          "playwright": 26,
+          "vscode": 9,
+          "path": 6,
+          "fs": 4,
+          "cypress": 3,
+          "azure-devops-node-api": 2,
+          "assert": 2,
+          "cypress-terminal-report": 2,
+          "shelex": 2,
+          "cypress-mochawesome-reporter": 2,
+          "cypress-failed-log": 2,
+          "vitest": 2,
+          "smoke": 1,
+          "os": 1,
+          "glob": 1,
+          "mocha": 1,
+          "cypress-real-events": 1,
+          "cypress-plugin-api": 1,
+          "critical": 1,
+          "=": 1,
+          "chrome": 1,
+          "testing-library": 1,
+          "checkly": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 6,
+        "packages": {
+          "react": 6,
+          "react-dom": 4
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "veeresh-bikkaneti/AllureReportsTestNGSelenium",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/azdo-ai-toolkit",
+        "files_analyzed": 19,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/AzureMasterClass",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/beginnersguidefortesting",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/career-ops",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/CosmosDBCruds",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/CrossBrowserAutomation_NET",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/csharp.webdriver.F",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/cypress-playwright",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/cypress-qa-ai-workforce",
+        "files_analyzed": 10,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/cypress-test-api",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/Dapper.Crud",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/Handling-React-Drag-and-drop-in-selenium_C-Sharp",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/junitcucumber",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/LLMcouncil",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/Loadablecomponents",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/Playwright-reference",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "veeresh-bikkaneti/Protractor-Net-Demo",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

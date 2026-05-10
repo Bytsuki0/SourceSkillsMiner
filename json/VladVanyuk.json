@@ -1,0 +1,722 @@
+{
+  "username": "VladVanyuk",
+  "areas": {
+    "OSS": {
+      "score": 0.38888888888888884,
+      "details": {
+        "issue_resolution_rate": 0.4444444444444444,
+        "pr_merge_rate": 0.6388888888888888,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.18912169830001302,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7259902397577118,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 0.375,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 6,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "VladVanyuk/espLesson": -0.21338181818181817
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2906021174377804,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        338211,
+        32
+      ],
+      "C": [
+        132715,
+        53
+      ],
+      "HTML": [
+        48786,
+        5
+      ],
+      "JavaScript": [
+        18531,
+        4
+      ],
+      "CSS": [
+        107037,
+        0
+      ],
+      "Batchfile": [
+        659,
+        0
+      ],
+      "CMake": [
+        52,
+        0
+      ],
+      "Makefile": [
+        2,
+        0
+      ],
+      "Python": [
+        0,
+        10
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        1
+      ],
+      "Hack": [
+        0,
+        0
+      ],
+      "Assembly": [
+        0,
+        0
+      ],
+      "Linker Script": [
+        0,
+        0
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 105,
+    "total_lines": 645993,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 132715,
+        "commits": 53
+      },
+      {
+        "language": "C++",
+        "lines": 338211,
+        "commits": 32
+      },
+      {
+        "language": "Python",
+        "lines": 0,
+        "commits": 10
+      },
+      {
+        "language": "HTML",
+        "lines": 48786,
+        "commits": 5
+      },
+      {
+        "language": "JavaScript",
+        "lines": 18531,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "VladVanyuk",
+    "analysis_date": "2026-05-10T04:11:35.221748",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 286,
+    "languages": {
+      "C": {
+        "files_scanned": 23,
+        "packages": {
+          "<esp_log.h>": 10,
+          "esp_log.h": 10,
+          "string.h": 8,
+          "<string.h>": 8,
+          "google_api.h": 7,
+          "esp_http_client.h": 7,
+          "<esp_http_client.h>": 7,
+          "sys/param.h": 5,
+          "<sys/param.h>": 5,
+          "<cJSON.h>": 5,
+          "cJSON.h": 5,
+          "<nvs_flash.h>": 4,
+          "esp_camera.h": 4,
+          "nvs_flash.h": 4,
+          "esp_event_loop.h": 4,
+          "<esp_event_loop.h>": 4,
+          "<esp_system.h>": 4,
+          "esp_system.h": 4,
+          "hackrf_core.h": 4,
+          "<libopencm3/lpc43xx/scu.h>": 4,
+          "libopencm3/lpc43xx/scu.h": 4,
+          "freertos/FreeRTOS.h": 3,
+          "platform_detect.h": 3,
+          "stdint.h": 3,
+          "<stdint.h>": 3,
+          "<stddef.h>": 3,
+          "stddef.h": 3,
+          "gpio_lpc.h": 3,
+          "freertos/task.h": 2,
+          "freertos/event_groups.h": 2,
+          "<esp_wifi.h>": 2,
+          "esp_wifi.h": 2,
+          "gpdma.h": 2,
+          "cpld_jtag.h": 2,
+          "crc.h": 2,
+          "i2c_bus.h": 2,
+          "hackrf_ui.h": 2,
+          "<freertos/FreeRTOS.h>": 1,
+          "lwip/apps/sntp.h": 1,
+          "<freertos/event_groups.h>": 1,
+          "sys/time.h": 1,
+          "<sys/time.h>": 1,
+          "<time.h>": 1,
+          "time.h": 1,
+          "lwip/err.h": 1,
+          "esp_http_server.h": 1,
+          "<esp_http_server.h>": 1,
+          "driver/sdmmc_host.h": 1,
+          "driver/sdmmc_defs.h": 1,
+          "esp_vfs_fat.h": 1,
+          "sdmmc_cmd.h": 1,
+          "bitband.h": 1,
+          "<libopencm3/lpc43xx/timer.h>": 1,
+          "libopencm3/lpc43xx/gima.h": 1,
+          "<libopencm3/lpc43xx/creg.h>": 1,
+          "libopencm3/lpc43xx/timer.h": 1,
+          "libopencm3/lpc43xx/creg.h": 1,
+          "<libopencm3/lpc43xx/gima.h>": 1,
+          "xapp058/micro.h": 1,
+          "cpld_xc2c.h": 1,
+          "<stdbool.h>": 1,
+          "stdbool.h": 1,
+          "fault_handler.h": 1,
+          "firmware_info.h": 1,
+          "<libopencm3/lpc43xx/adc.h>": 1,
+          "libopencm3/lpc43xx/adc.h": 1,
+          "<libopencm3/lpc43xx/gpdma.h>": 1,
+          "<gpdma.h>": 1,
+          "libopencm3/lpc43xx/gpdma.h": 1,
+          "si5351c.h": 1,
+          "clkin.h": 1,
+          "max5864.h": 1,
+          "libopencm3/lpc43xx/cgu.h": 1,
+          "i2c_lpc.h": 1,
+          "max283x.h": 1,
+          "w25q80bv.h": 1,
+          "w25q80bv_target.h": 1,
+          "<libopencm3/lpc43xx/ccu.h>": 1,
+          "libopencm3/lpc43xx/ssp.h": 1,
+          "<libopencm3/lpc43xx/ssp.h>": 1,
+          "libopencm3/lpc43xx/ccu.h": 1,
+          "portapack.h": 1,
+          "sgpio.h": 1,
+          "spi_ssp.h": 1,
+          "<libopencm3/lpc43xx/cgu.h>": 1,
+          "max5864_target.h": 1,
+          "ui_rad1o.h": 1,
+          "ui_portapack.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 26,
+        "packages": {
+          "Arduino.h": 19,
+          "<Arduino.h>": 18,
+          "states.h": 2,
+          "EncMenu.h": 2,
+          "LittleFS.h": 2,
+          "<Wire.h>": 2,
+          "Wire.h": 2,
+          "ADXL345_WE.h": 1,
+          "xyzFloat.h": 1,
+          "std::placeholders": 1,
+          "namespace": 1,
+          "AsyncFsWebServer.h": 1,
+          "Adafruit_NeoPixel.h": 1,
+          "<Adafruit_NeoPixel.h>": 1,
+          "button.h": 1,
+          "blinkingPatterns.h": 1,
+          "MenuSymbols.h": 1,
+          "pinsSetup.h": 1,
+          "serialDebug.h": 1,
+          "<ESPAsyncWebServer.h>": 1,
+          "lcd.h": 1,
+          "ESP8266HTTPClient.h": 1,
+          "ESPAsyncWebServer.h": 1,
+          "clock.h": 1,
+          "led_sts.h": 1,
+          "<ESP8266HTTPClient.h>": 1,
+          "ESP8266WiFi.h": 1,
+          "<LittleFS.h>": 1,
+          "wifi_conf.h": 1,
+          "<DNSServer.h>": 1,
+          "weather.h": 1,
+          "DNSServer.h": 1,
+          "<ESP8266WiFi.h>": 1,
+          "HC12Serial.h": 1,
+          "fetch.h": 1,
+          "timeSync.h": 1,
+          "configManager.h": 1,
+          "dashboard.h": 1,
+          "TZ.h": 1,
+          "webServer.h": 1,
+          "Adafruit_SSD1306.h": 1,
+          "WiFiManager.h": 1,
+          "<Adafruit_SSD1306.h>": 1,
+          "updater.h": 1,
+          "Adafruit_GFX.h": 1,
+          "<Adafruit_GFX.h>": 1,
+          "<TZ.h>": 1,
+          "LiquidCrystal.h": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "LCD_defs.h": 1,
+          "string.h": 1,
+          "<string.h>": 1,
+          "LiquidCrystal_Base.h": 1,
+          "LiquidCrystal_I2C.h": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 4,
+        "packages": {
+          "<ArduinoJson.h>": 2,
+          "LittleFS.h": 2,
+          "ArduinoJson.h": 2,
+          "<FS.h>": 2,
+          "<LittleFS.h>": 2,
+          "FS.h": 2,
+          "AsyncFsWebServer.h": 2,
+          "<AsyncFsWebServer.h>": 1,
+          "mbedtls/md.h": 1,
+          "ESPAsyncWebServer.h": 1,
+          "<WiFi.h>": 1,
+          "ESP8266WiFi.h": 1,
+          "WiFi.h": 1,
+          "<DNSServer.h>": 1,
+          "DNSServer.h": 1,
+          "<ESP8266WiFi.h>": 1,
+          "SerialLog.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 71,
+        "packages": {
+          "Arduino.h": 25,
+          "<Arduino.h>": 22,
+          "stdint.h": 13,
+          "<stdint.h>": 13,
+          "settings.h": 8,
+          "Wire.h": 6,
+          "<Wire.h>": 6,
+          "menu.h": 5,
+          "Cell.h": 5,
+          "LiquidCrystal_I2C.h": 4,
+          "<LiquidCrystal_I2C.h>": 4,
+          "<ArduinoJson.h>": 3,
+          "ArduinoJson.h": 3,
+          "EncButton.h": 3,
+          "<EncButton.h>": 3,
+          "Pid.h": 3,
+          "LiquidCrystal_Base.h": 3,
+          "esp_err.h": 3,
+          "<stdbool.h>": 3,
+          "stdbool.h": 3,
+          "stddef.h": 3,
+          "<stddef.h>": 3,
+          "WiFiClient.h": 2,
+          "<WiFiClient.h>": 2,
+          "MySQL.h": 2,
+          "<MySQL.h>": 2,
+          "LittleFS.h": 2,
+          "<AsyncFsWebServer.h>": 2,
+          "<LittleFS.h>": 2,
+          "AsyncFsWebServer.h": 2,
+          "DNSServer.h": 2,
+          "<DNSServer.h>": 2,
+          "<stdio.h>": 2,
+          "stdio.h": 2,
+          "ESP8266WiFi.h": 2,
+          "<ESP8266WiFi.h>": 2,
+          "pins.h": 2,
+          "countTimer.h": 2,
+          "Thermostat.h": 2,
+          "<DS18B20Events.h>": 2,
+          "DS18B20Events.h": 2,
+          "<cstdint>": 2,
+          "cstdint": 2,
+          "string": 2,
+          "esp_http_server.h": 2,
+          "<string>": 2,
+          "<BigNumbers_I2C.h>": 2,
+          "BigNumbers_I2C.h": 2,
+          "special_chars.h": 2,
+          "List.h": 2,
+          "gpio.h": 2,
+          "cpld_jtag.h": 2,
+          "<SPI.h>": 1,
+          "SPI.h": 1,
+          "<xyzFloat.h>": 1,
+          "xyzFloat.h": 1,
+          "html_flash_files.h": 1,
+          "mbedtls/md.h": 1,
+          "ESPmDNS.h": 1,
+          "ESPAsyncWebServer.h": 1,
+          "<ESPmDNS.h>": 1,
+          "<ESP8266mDNS.h>": 1,
+          "<WiFiAP.h>": 1,
+          "SetupConfig.hpp": 1,
+          "CallbackF": 1,
+          "CaptivePortal.hpp": 1,
+          "<Update.h>": 1,
+          "<WiFi.h>": 1,
+          "WiFi.h": 1,
+          "sys/stat.h": 1,
+          "SerialLog.h": 1,
+          "Update.h": 1,
+          "ESP8266mDNS.h": 1,
+          "<FS.h>": 1,
+          "esp_task_wdt.h": 1,
+          "edit_htm.h": 1,
+          "esp_wifi.h": 1,
+          "FsInfoCallbackF": 1,
+          "WiFiAP.h": 1,
+          "Updater.h": 1,
+          "<Updater.h>": 1,
+          "setup_htm.h": 1,
+          "FS.h": 1,
+          "string.h": 1,
+          "<string.h>": 1,
+          "<IRsend.h>": 1,
+          "<IRrecv.h>": 1,
+          "IRsend.h": 1,
+          "<IRremoteESP8266.h>": 1,
+          "IRremoteESP8266.h": 1,
+          "<IRutils.h>": 1,
+          "<ir_Samsung.h>": 1,
+          "IRrecv.h": 1,
+          "IRutils.h": 1,
+          "ir_Samsung.h": 1,
+          "UniversalTelegramBot.h": 1,
+          "<UniversalTelegramBot.h>": 1,
+          "WiFiClientSecure.h": 1,
+          "<WiFiClientSecure.h>": 1,
+          "microDS3231.h": 1,
+          "<microDS3231.h>": 1,
+          "relay.h": 1,
+          "<pgmspace.h>": 1,
+          "pgmspace.h": 1,
+          "<Countimer.h>": 1,
+          "Countimer.h": 1,
+          "HardwareSerial.h": 1,
+          "<ESP8266WebServer.h>": 1,
+          "ESP8266WebServer.h": 1,
+          "<Thermostat.h>": 1,
+          "charList.h": 1,
+          "mDef.h": 1,
+          "<MenuLib.h>": 1,
+          "MenuLib.h": 1,
+          "tempSensor.h": 1,
+          "<LiquidCrystal_Base.h>": 1,
+          "MenuTypes.h": 1,
+          "driver/uart.h": 1,
+          "esp_timer.h": 1,
+          "atomic": 1,
+          "freertos/queue.h": 1,
+          "freertos/semphr.h": 1,
+          "<atomic>": 1,
+          "<cstdio>": 1,
+          "esp_netif.h": 1,
+          "cstdio": 1,
+          "cstddef": 1,
+          "vector": 1,
+          "<cstddef>": 1,
+          "<vector>": 1,
+          "<cJSON.h>": 1,
+          "cJSON.h": 1,
+          "<esp_http_client.h>": 1,
+          "esp_http_client.h": 1,
+          "RTClib.h": 1,
+          "clockBig.h": 1,
+          "<time.h>": 1,
+          "time.h": 1,
+          "clock.h": 1,
+          "weather.h": 1,
+          "switch_input.h": 1,
+          "wifi_conf.h": 1,
+          "lcd.h": 1,
+          "ESP8266HTTPClient.h": 1,
+          "<ESP8266HTTPClient.h>": 1,
+          "libopencm3/cm3/memorymap.h": 1,
+          "<libopencm3/cm3/memorymap.h>": 1,
+          "libopencm3/lpc43xx/gpdma.h": 1,
+          "<libopencm3/lpc43xx/gpdma.h>": 1,
+          "si5351c.h": 1,
+          "max5864.h": 1,
+          "sgpio.h": 1,
+          "rf_path.h": 1,
+          "spi_ssp.h": 1,
+          "max283x.h": 1,
+          "w25q80bv.h": 1,
+          "mixer.h": 1,
+          "<hackrf_core.h>": 1,
+          "hackrf_core.h": 1,
+          "<SoftwareSerial.h>": 1,
+          "SoftwareSerial.h": 1,
+          "coreLCD/LiquidCrystal.h": 1,
+          "coreLCD/LiquidCrystal_Base.h": 1,
+          "coreLCD/LCD_defs.h": 1,
+          "coreLCD/LiquidCrystal_I2C.h": 1,
+          "Print::write": 1,
+          "avr/pgmspace.h": 1,
+          "<inttypes.h>": 1,
+          "<WProgram.h>": 1,
+          "<Print.h>": 1,
+          "LCD_defs.h": 1,
+          "WProgram.h": 1,
+          "inttypes.h": 1,
+          "Print.h": 1,
+          "<avr/pgmspace.h>": 1,
+          "<../Wire/Wire.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "fs": 4,
+          "mongodb": 4,
+          "node:fs": 3,
+          "node:zlib": 3,
+          "node-minify": 3,
+          "node:stream": 3,
+          "undefined": 2,
+          "e){void": 2,
+          "t.canvas.style.setProperty(": 2,
+          "t.prevTextDirection=s)}function": 2,
+          ")": 2,
+          "jquery": 1,
+          "horizontal": 1,
+          "jQuery": 1,
+          "object": 1,
+          "crypto": 1,
+          "express": 1,
+          "path": 1,
+          "body-parser": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 20,
+        "packages": {
+          "django": 15,
+          "migrations": 5,
+          "os": 5,
+          "admin": 4,
+          "sys": 4,
+          "AppConfig": 3,
+          "subprocess": 3,
+          "pathlib": 2,
+          "Path": 2,
+          "execute_from_command_line": 1,
+          "get_asgi_application": 1,
+          "path": 1,
+          "views": 1,
+          "order_list": 1,
+          "get_wsgi_application": 1,
+          "time": 1,
+          "environ": 1,
+          "sphinx_rtd_theme": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "VladVanyuk/ADXL345_WE",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/async-esp-fs-logs-webserver",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C++ Header",
+          "C/C++ Header",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/BotAirEsp8266",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/csv-reader",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/dragee-machine",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/embedded_HW",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/EncButton",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/EncMenu",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/esp-fs-logger",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/esp32-cam-ai-thinker",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/espLesson",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/espWatchLCD",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/ESP_NTP_CLOCK",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/g33k",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/gcp_django_uklon",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/hackrf",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/HC12Serial",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/iotEsp",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/KingJester",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "VladVanyuk/lcd-ntp-clock-esp8266",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

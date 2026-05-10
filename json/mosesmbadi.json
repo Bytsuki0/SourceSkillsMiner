@@ -1,0 +1,816 @@
+{
+  "username": "mosesmbadi",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.2862518570942585,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8332239394875416,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Adaptability": {
+      "score": 0.886988,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.774,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 12,
+        "language_transitions": 15,
+        "topic_entropy_bits": 2.3219,
+        "closed_prs_total": 18,
+        "bounced_back_prs": 17
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4679813047521851,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Vue": [
+        32698,
+        1
+      ],
+      "CSS": [
+        31169,
+        415
+      ],
+      "TypeScript": [
+        107821,
+        123
+      ],
+      "Python": [
+        5007084,
+        287
+      ],
+      "Shell": [
+        8975,
+        34
+      ],
+      "Dockerfile": [
+        858,
+        3
+      ],
+      "JavaScript": [
+        134214,
+        673
+      ],
+      "C++": [
+        25524799,
+        5
+      ],
+      "C": [
+        919435,
+        0
+      ],
+      "GLSL": [
+        589872,
+        0
+      ],
+      "CMake": [
+        404563,
+        2
+      ],
+      "Objective-C++": [
+        295066,
+        0
+      ],
+      "HTML": [
+        17038,
+        49
+      ],
+      "Batchfile": [
+        12554,
+        0
+      ],
+      "Metal": [
+        7319,
+        0
+      ],
+      "Makefile": [
+        7030,
+        4
+      ],
+      "Cuda": [
+        2580,
+        0
+      ],
+      "Slash": [
+        1492,
+        0
+      ],
+      "Hack": [
+        1035,
+        0
+      ],
+      "Roff": [
+        103,
+        0
+      ],
+      "Objective-C": [
+        72,
+        0
+      ],
+      "Markdown": [
+        27084,
+        0
+      ],
+      "SCSS": [
+        43065,
+        8
+      ],
+      "EJS": [
+        58,
+        0
+      ],
+      "Mako": [
+        24,
+        0
+      ],
+      "Rich Text Format": [
+        0,
+        0
+      ],
+      "Java": [
+        0,
+        1
+      ],
+      "Groovy": [
+        0,
+        0
+      ],
+      "AspectJ": [
+        0,
+        0
+      ],
+      "C#": [
+        0,
+        0
+      ],
+      "COBOL": [
+        0,
+        0
+      ],
+      "Go": [
+        0,
+        0
+      ],
+      "Fortran": [
+        0,
+        0
+      ],
+      "Scala": [
+        0,
+        0
+      ],
+      "CoffeeScript": [
+        0,
+        0
+      ],
+      "Tcl": [
+        0,
+        0
+      ],
+      "HCL": [
+        0,
+        1
+      ],
+      "Dart": [
+        0,
+        20
+      ],
+      "Swift": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        0,
+        0
+      ],
+      "Vim Script": [
+        0,
+        12
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        0
+      ]
+    },
+    "language_count": 43,
+    "total_commits": 1638,
+    "total_lines": 33176008,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 134214,
+        "commits": 673
+      },
+      {
+        "language": "CSS",
+        "lines": 31169,
+        "commits": 415
+      },
+      {
+        "language": "Python",
+        "lines": 5007084,
+        "commits": 287
+      },
+      {
+        "language": "TypeScript",
+        "lines": 107821,
+        "commits": 123
+      },
+      {
+        "language": "HTML",
+        "lines": 17038,
+        "commits": 49
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mosesmbadi",
+    "analysis_date": "2026-05-10T01:40:33.214749",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 299,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "stdio.h": 2,
+          "<stdio.h>": 2
+        }
+      },
+      "C#": {
+        "files_scanned": 2,
+        "packages": {
+          "System": 2
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "iostream": 2,
+          "<iostream>": 2
+        }
+      },
+      "Go": {
+        "files_scanned": 2,
+        "packages": {
+          "fmt": 2
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 31,
+        "packages": {
+          "react": 16,
+          "ava": 12,
+          "react-intl": 8,
+          "redux-ava": 6,
+          "enzyme": 4,
+          "sinon": 4,
+          "react-redux": 3,
+          "react-router-dom": 2,
+          "react-dom": 2,
+          "react-router": 2,
+          "web.SystrayMenu": 2,
+          "web.Widget": 2,
+          "intl-locales-supported": 1,
+          "intl": 1,
+          "react-hot-loader": 1,
+          "react-helmet": 1,
+          "TOGGLE_ADD_POST": 1,
+          "redux-devtools-log-monitor": 1,
+          "redux-devtools": 1,
+          "redux-devtools-dock-monitor": 1,
+          "SWITCH_LANGUAGE": 1,
+          "ADD_POSTS": 1,
+          "ADD_POST": 1,
+          "DELETE_POST": 1,
+          "animate.css": 1,
+          "path": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 11,
+        "packages": {
+          "react": 9,
+          "react-router-dom": 4,
+          "next": 3,
+          "axios": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 168,
+        "packages": {
+          "django": 44,
+          "app": 39,
+          "os": 33,
+          "sqlalchemy": 30,
+          "datetime": 26,
+          "Base": 19,
+          "typing": 18,
+          "pathlib": 16,
+          "enum": 15,
+          "sys": 14,
+          "Column": 14,
+          "odoo": 14,
+          "settings": 13,
+          "User": 13,
+          "fastapi": 12,
+          "relationship": 12,
+          "Path": 12,
+          "django_ledger": 12,
+          "logging": 9,
+          "List": 9,
+          "migrations": 9,
+          "bpy": 8,
+          "graphene": 8,
+          "Session": 7,
+          "APIRouter": 7,
+          "get_db": 7,
+          "argparse": 7,
+          "subprocess": 7,
+          "re": 7,
+          "admin": 7,
+          "models": 7,
+          "time": 6,
+          "random": 6,
+          "accounts": 6,
+          "rest_framework": 6,
+          "unittest": 6,
+          "graphene_django": 6,
+          "DjangoObjectType": 6,
+          "alembic": 5,
+          "log_action": 5,
+          "AppConfig": 5,
+          "TestCase": 5,
+          "_": 5,
+          "*": 4,
+          "Customer": 4,
+          "pydantic": 4,
+          "make_utils": 4,
+          "string": 4,
+          "path": 4,
+          "Count": 4,
+          "request": 4,
+          "base64": 4,
+          "openupgrade": 4,
+          "openupgradelib": 4,
+          "relay": 4,
+          "timedelta": 3,
+          "BaseModel": 3,
+          "uuid": 3,
+          "platform": 3,
+          "shutil": 3,
+          "urllib": 3,
+          "pytest": 3,
+          "get_wsgi_application": 3,
+          "blog": 3,
+          "op": 3,
+          "Sequence": 3,
+          "json": 3,
+          "OR": 3,
+          "UserError": 3,
+          "Crypto": 3,
+          "RSA": 3,
+          "scripts": 3,
+          "Flask": 3,
+          "flask": 3,
+          "EntityModel": 3,
+          "reverse": 3,
+          "DjangoFilterConnectionField": 3,
+          "context": 2,
+          "fileConfig": 2,
+          "pydantic_settings": 2,
+          "BaseSettings": 2,
+          "create_engine": 2,
+          "Depends": 2,
+          "FastAPI": 2,
+          "CORSMiddleware": 2,
+          "Contract": 2,
+          "Complaint": 2,
+          "Document": 2,
+          "CalibrationRecord": 2,
+          "Equipment": 2,
+          "Response": 2,
+          "call": 2,
+          "collections": 2,
+          "blf": 2,
+          "get_asgi_application": 2,
+          "baker": 2,
+          "model_bakery": 2,
+          "status": 2,
+          "rest_framework_simplejwt": 2,
+          "static": 2,
+          "Stori": 2,
+          "AsyncSession": 2,
+          "Vector": 2,
+          "pgvector": 2,
+          "JSONB": 2,
+          "Food": 2,
+          "asyncio": 2,
+          "http": 2,
+          "CustomerPortal": 2,
+          "content_disposition": 2,
+          "ValidationError": 2,
+          "groupby": 2,
+          "itertools": 2,
+          "tkinter": 2,
+          "PKCS1_OAEP": 2,
+          "EAX": 2,
+          "pulumi_aws": 2,
+          "flask_wtf": 2,
+          "CSRFProtect": 2,
+          "make_response": 2,
+          "db": 2,
+          "basedir": 2,
+          "config": 2,
+          "main": 2,
+          "DJANGO_LEDGER_GRAPHQL_SUPPORT_ENABLED": 2,
+          "TabularInline": 2,
+          "ChartOfAccountModel": 2,
+          "AccountModel": 2,
+          "BaseInlineFormSet": 2,
+          "format_html": 2,
+          "graphql_auth": 2,
+          "BankAccountModel": 2,
+          "engine_from_config": 1,
+          "pool": 1,
+          "lru_cache": 1,
+          "functools": 1,
+          "declarative_base": 1,
+          "sessionmaker": 1,
+          "Generator": 1,
+          "SessionLocal": 1,
+          "HTTPBearer": 1,
+          "decode_access_token": 1,
+          "seed_customers": 1,
+          "calibration_records": 1,
+          "get_password_hash": 1,
+          "CERT_DIR": 1,
+          "seed_catalog": 1,
+          "engine": 1,
+          "text": 1,
+          "seed_documents": 1,
+          "OperationalError": 1,
+          "Method": 1,
+          "Sample": 1,
+          "AuditLog": 1,
+          "Quotation": 1,
+          "Report": 1,
+          "Nonconformity": 1,
+          "TestCatalogItem": 1,
+          "TestResult": 1,
+          "use": 1,
+          "verify_password": 1,
+          "LoginRequest": 1,
+          "date": 1,
+          "get_current_user": 1,
+          "FileResponse": 1,
+          "ComplaintCreate": 1,
+          "ContractCreate": 1,
+          "CustomerCreate": 1,
+          "extract_sections": 1,
+          "DocumentOut": 1,
+          "jose": 1,
+          "sqlite3": 1,
+          "CryptContext": 1,
+          "HTTPException": 1,
+          "passlib": 1,
+          "OAuth2PasswordBearer": 1,
+          "JWTError": 1,
+          "all": 1,
+          "setuptools": 1,
+          "shlex": 1,
+          "doctest": 1,
+          "repository": 1,
+          "urljoin": 1,
+          "types": 1,
+          "stat": 1,
+          "BlendFileReader": 1,
+          "Template": 1,
+          "a": 1,
+          "gzip": 1,
+          "tempfile": 1,
+          "struct": 1,
+          "Blender": 1,
+          "sphinx": 1,
+          "PythonDomain": 1,
+          "aud": 1,
+          "imbuf": 1,
+          "stand": 1,
+          "bmesh": 1,
+          "math": 1,
+          "mathutils": 1,
+          "The": 1,
+          "``__file__``": 1,
+          "persistent": 1,
+          "APIClient": 1,
+          "MyTokenObtainPairView": 1,
+          "UserAdmin": 1,
+          "PhoneNumberField": 1,
+          "first_name": 1,
+          "phonenumber_field": 1,
+          "AbstractUser": 1,
+          "serializers": 1,
+          "transaction": 1,
+          "timezone": 1,
+          "AnonRateThrottle": 1,
+          "rest_framework_nested": 1,
+          "routers": 1,
+          "TokenObtainPairView": 1,
+          "IsAuthenticated": 1,
+          "ModelViewSet": 1,
+          "TokenObtainPairSerializer": 1,
+          "UserRateThrottle": 1,
+          "CreateModelMixin": 1,
+          "django_filters": 1,
+          "ckeditor_uploader": 1,
+          "hmac": 1,
+          "APIKeyHeader": 1,
+          "computed_field": 1,
+          "quote": 1,
+          "DeclarativeBase": 1,
+          "contextlib": 1,
+          "loguru": 1,
+          "generation_router": 1,
+          "BaseHTTPMiddleware": 1,
+          "Request": 1,
+          "asynccontextmanager": 1,
+          "logger": 1,
+          "starlette": 1,
+          "hnsw": 1,
+          "Mapped": 1,
+          "String": 1,
+          "require_api_key": 1,
+          "select": 1,
+          "GeminiServiceUnavailableError": 1,
+          "embed_food": 1,
+          "SentenceTransformer": 1,
+          "sentence_transformers": 1,
+          "google": 1,
+          "genai": 1,
+          "errors": 1,
+          "api": 1,
+          "defaultdict": 1,
+          "ast": 1,
+          "consteq": 1,
+          "slugify": 1,
+          "fields": 1,
+          "question_utils": 1,
+          "choice": 1,
+          "optparse": 1,
+          "get_question_list": 1,
+          "get_answered_questions": 1,
+          "tests": 1,
+          "syntax_lint": 1,
+          "pulumi_awsx": 1,
+          "pulumi": 1,
+          "werkzeug": 1,
+          "NotFound": 1,
+          "joblib": 1,
+          "create_logger": 1,
+          "pandas": 1,
+          "StandardScaler": 1,
+          "sklearn": 1,
+          "schema": 1,
+          "DjangoLedgerOAuth2GraphQLView": 1,
+          "ChartOfAccountsModelAdmin": 1,
+          "EntityModelAdmin": 1,
+          "LedgerModelAdmin": 1,
+          "ModelForm": 1,
+          "uuid4": 1,
+          "ChartOfAccountsInLine": 1,
+          "get_localtime": 1,
+          "EntityUnitModel": 1,
+          "ModelAdmin": 1,
+          "get_object_or_404": 1,
+          "messages": 1,
+          "EntityModelQuery": 1,
+          "ChartOfAccountsModelType": 1,
+          "mutations": 1,
+          "graphql_jwt": 1,
+          "get_user_model": 1,
+          "UserQuery": 1,
+          "BillModel": 1,
+          "SummernoteModelAdmin": 1,
+          "django_summernote": 1,
+          "Feed": 1,
+          "truncatewords": 1,
+          "Atom1Feed": 1,
+          "forms": 1,
+          "Sitemap": 1,
+          "include": 1,
+          "generic": 1,
+          "render": 1,
+          "execute_from_command_line": 1,
+          "sitemap": 1,
+          "PostSitemap": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 25,
+        "packages": {
+          "nestjs": 14,
+          "express": 3,
+          "typeorm": 3,
+          "vue": 2,
+          "next": 1,
+          "modules": 1,
+          "cors": 1,
+          "winston-slack-webhook": 1,
+          "winston": 1,
+          "dotenv": 1,
+          "winston-loggly-bulk": 1,
+          "jwt": 1,
+          "glee-jwks-rsa": 1,
+          "passport-jwt": 1,
+          "__commandValidator__": 1,
+          "reflect-metadata": 1,
+          "resend": 1,
+          "chart.js": 1,
+          "axios": 1,
+          "iconify": 1,
+          "pikaday": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "next": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mosesmbadi/algorithic_thinking",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/aquacheck-lms",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/auth_demo_v2",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript (JSX)",
+          "Python",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/blender",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/blog",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/car-rental-main",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/cdond-c3-projectstarter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/chakula-landing",
+        "files_analyzed": 2,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/chakula_knowledge_base",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/circleci-demo-javascript-express",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/cl-healthcare",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C#",
+          "C++",
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/custom-odoo-addons",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/delores",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/devops-exercises",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/DevOps_Microservices",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/django-ledger",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "mosesmbadi/djangoblogapp",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

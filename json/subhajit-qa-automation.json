@@ -1,0 +1,192 @@
+{
+  "username": "subhajit-qa-automation",
+  "areas": {
+    "OSS": {
+      "score": -0.6775659201285654,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.48365111980715186
+      }
+    },
+    "Status": {
+      "score": 0.0019212593586139803,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.48365111980715186,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.708333,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.3333,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 0,
+        "topic_entropy_bits": 1.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.2767955321539903,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        7637,
+        0
+      ],
+      "Java": [
+        10522,
+        5
+      ],
+      "Shell": [
+        280,
+        0
+      ],
+      "Batchfile": [
+        86,
+        0
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 5,
+    "total_lines": 18525,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 10522,
+        "commits": 5
+      },
+      {
+        "language": "Python",
+        "lines": 7637,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 280,
+        "commits": 0
+      },
+      {
+        "language": "Batchfile",
+        "lines": 86,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "subhajit-qa-automation",
+    "analysis_date": "2026-05-10T13:33:54.837437",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 28,
+    "languages": {
+      "Java": {
+        "files_scanned": 15,
+        "packages": {
+          "java.util": 10,
+          "demo": 8,
+          "org.openqa": 5,
+          "com.crio": 5,
+          "java.net": 4,
+          "io.github": 4,
+          "static": 4,
+          "java.time": 4,
+          "org.junit": 2,
+          "java.io": 2,
+          "org.example": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 13,
+        "packages": {
+          "sys": 13,
+          "json": 12,
+          "requests": 4,
+          "exception": 4,
+          "logging": 4,
+          "subprocess": 1,
+          "os": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "subhajit-qa-automation/LEETCODE_AUTOMATION",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "subhajit-qa-automation/Quizhabibi",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "subhajit-qa-automation/saucedemo_sample_project",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "subhajit-qa-automation/subhajitsaha-play-ME_QA_XGMAIL_CAL1",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "subhajit-qa-automation/subhajitsaha-play-ME_QA_XGOOGLE_CALC1",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "subhajit-qa-automation/subhajitsaha-play-ME_QA_XMMT_SEARCH1",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

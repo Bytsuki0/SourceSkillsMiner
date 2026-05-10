@@ -1,0 +1,447 @@
+{
+  "username": "KartikeyaVeeramraju",
+  "areas": {
+    "OSS": {
+      "score": 0.17268467625638406,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7590270143845761
+      }
+    },
+    "Status": {
+      "score": 0.22394109087841763,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7782193286253186,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.875,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "KartikeyaVeeramraju/barebones-mcu-compilation": -0.56155
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.09567484657303968,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        447366,
+        22
+      ],
+      "Perl": [
+        6569,
+        0
+      ],
+      "Makefile": [
+        8664,
+        0
+      ],
+      "Meson": [
+        4119,
+        0
+      ],
+      "Python": [
+        3940,
+        0
+      ],
+      "Assembly": [
+        3099,
+        0
+      ],
+      "Jupyter Notebook": [
+        2299,
+        0
+      ],
+      "Linker Script": [
+        656,
+        0
+      ],
+      "Shell": [
+        508,
+        0
+      ],
+      "CMake": [
+        211,
+        0
+      ],
+      "HTML": [
+        12,
+        0
+      ],
+      "MATLAB": [
+        25590,
+        15
+      ],
+      "Roff": [
+        73,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 37,
+    "total_lines": 503106,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 447366,
+        "commits": 22
+      },
+      {
+        "language": "MATLAB",
+        "lines": 25590,
+        "commits": 15
+      },
+      {
+        "language": "Perl",
+        "lines": 6569,
+        "commits": 0
+      },
+      {
+        "language": "Makefile",
+        "lines": 8664,
+        "commits": 0
+      },
+      {
+        "language": "Meson",
+        "lines": 4119,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "KartikeyaVeeramraju",
+    "analysis_date": "2026-05-10T02:54:53.463290",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 83,
+    "languages": {
+      "C": {
+        "files_scanned": 12,
+        "packages": {
+          "main.h": 6,
+          "stdio.h": 5,
+          "<stdio.h>": 5,
+          "Manager.h": 4,
+          "stm32f4xx_it.h": 3,
+          "led.h": 2,
+          "<stdint.h>": 2,
+          "stdint.h": 2,
+          "PWM.h": 2,
+          "string.h": 2,
+          "<string.h>": 2,
+          "errno.h": 2,
+          "<errno.h>": 2,
+          "<libopencm3/cm3/vector.h>": 1,
+          "<libopencm3/cm3/cortex.h>": 1,
+          "<libopencm3/stm32/gpio.h>": 1,
+          "libopencm3/cm3/nvic.h": 1,
+          "<libopencm3/stm32/rcc.h>": 1,
+          "libopencm3/cm3/vector.h": 1,
+          "libopencm3/cm3/systick.h": 1,
+          "<libopencm3/cm3/systick.h>": 1,
+          "libopencm3/stm32/rcc.h": 1,
+          "<libopencm3/cm3/nvic.h>": 1,
+          "libopencm3/cm3/cortex.h": 1,
+          "libopencm3/stm32/gpio.h": 1,
+          "stdbool.h": 1,
+          "<stdbool.h>": 1,
+          "time.h": 1,
+          "sys/time.h": 1,
+          "<sys/time.h>": 1,
+          "<time.h>": 1,
+          "<stdlib.h>": 1,
+          "stdlib.h": 1,
+          "<sys/stat.h>": 1,
+          "<signal.h>": 1,
+          "<sys/times.h>": 1,
+          "sys/stat.h": 1,
+          "signal.h": 1,
+          "sys/times.h": 1,
+          "stm32f4xx.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 31,
+        "packages": {
+          "<stdint.h>": 12,
+          "stdint.h": 12,
+          "libopencm3/cm3/common.h": 8,
+          "<libopencm3/cm3/common.h>": 8,
+          "cmsis_version.h": 6,
+          "CMSIS_NVIC_VIRTUAL_HEADER_FILE": 6,
+          "cmsis_compiler.h": 6,
+          "CMSIS_VECTAB_VIRTUAL_HEADER_FILE": 6,
+          "<libopencm3/cm3/memorymap.h>": 5,
+          "libopencm3/cm3/memorymap.h": 5,
+          "<stdbool.h>": 4,
+          "stdbool.h": 4,
+          "mpu_armv8.h": 3,
+          "stm32f4xx_hal.h": 2,
+          "libopencm3/dispatch/nvic.h": 1,
+          "<libopencm3/dispatch/nvic.h>": 1,
+          "common.h": 1,
+          "<libopencm3/cm3/nvic.h>": 1,
+          "libopencm3/cm3/nvic.h": 1,
+          "libopencm3/lpc43xx/m0/nvic.h": 1,
+          "<libopencm3/lpc17xx/nvic.h>": 1,
+          "libopencm3/swm050/nvic.h": 1,
+          "libopencm3/lpc13xx/nvic.h": 1,
+          "<libopencm3/nrf/52/nvic.h>": 1,
+          "<libopencm3/lpc43xx/m0/nvic.h>": 1,
+          "<libopencm3/efm32/tg/nvic.h>": 1,
+          "libopencm3/stm32/l4/nvic.h": 1,
+          "libopencm3/vf6xx/nvic.h": 1,
+          "libopencm3/stm32/f2/nvic.h": 1,
+          "libopencm3/efm32/hg/nvic.h": 1,
+          "<libopencm3/stm32/f1/nvic.h>": 1,
+          "<libopencm3/stm32/l0/nvic.h>": 1,
+          "<libopencm3/efm32/gg/nvic.h>": 1,
+          "libopencm3/stm32/g0/nvic.h": 1,
+          "<libopencm3/efm32/g/nvic.h>": 1,
+          "libopencm3/stm32/g4/nvic.h": 1,
+          "<libopencm3/lm3s/nvic.h>": 1,
+          "libopencm3/efm32/tg/nvic.h": 1,
+          "<libopencm3/sam/3s/nvic.h>": 1,
+          "libopencm3/lm3s/nvic.h": 1,
+          "libopencm3/lpc17xx/nvic.h": 1,
+          "<libopencm3/stm32/f2/nvic.h>": 1,
+          "libopencm3/stm32/f3/nvic.h": 1,
+          "<libopencm3/stm32/f7/nvic.h>": 1,
+          "<libopencm3/sam/3a/nvic.h>": 1,
+          "libopencm3/nrf/51/nvic.h": 1,
+          "libopencm3/gd32/f1x0/nvic.h": 1,
+          "<libopencm3/stm32/g4/nvic.h>": 1,
+          "libopencm3/efm32/gg/nvic.h": 1,
+          "<libopencm3/sam/3u/nvic.h>": 1,
+          "<libopencm3/vf6xx/nvic.h>": 1,
+          "<libopencm3/stm32/f4/nvic.h>": 1,
+          "libopencm3/efm32/ezr32wg/nvic.h": 1,
+          "<libopencm3/efm32/ezr32wg/nvic.h>": 1,
+          "libopencm3/nrf/52/nvic.h": 1,
+          "<libopencm3/sam/3n/nvic.h>": 1,
+          "<libopencm3/stm32/g0/nvic.h>": 1,
+          "libopencm3/stm32/f0/nvic.h": 1,
+          "libopencm3/stm32/h7/nvic.h": 1,
+          "<libopencm3/efm32/hg/nvic.h>": 1,
+          "libopencm3/sam/3n/nvic.h": 1,
+          "libopencm3/sam/4l/nvic.h": 1,
+          "<libopencm3/stm32/u5/nvic.h>": 1,
+          "libopencm3/msp432/e4/nvic.h": 1,
+          "<libopencm3/stm32/f3/nvic.h>": 1,
+          "libopencm3/stm32/l1/nvic.h": 1,
+          "<libopencm3/efm32/wg/nvic.h>": 1,
+          "<libopencm3/lpc13xx/nvic.h>": 1,
+          "<libopencm3/swm050/nvic.h>": 1,
+          "libopencm3/sam/3s/nvic.h": 1,
+          "<libopencm3/stm32/f0/nvic.h>": 1,
+          "<libopencm3/sam/4l/nvic.h>": 1,
+          "libopencm3/efm32/g/nvic.h": 1,
+          "<libopencm3/efm32/lg/nvic.h>": 1,
+          "libopencm3/stm32/f4/nvic.h": 1,
+          "libopencm3/stm32/l0/nvic.h": 1,
+          "<libopencm3/stm32/l1/nvic.h>": 1,
+          "libopencm3/sam/3x/nvic.h": 1,
+          "libopencm3/stm32/f7/nvic.h": 1,
+          "libopencm3/stm32/f1/nvic.h": 1,
+          "libopencm3/sam/d/nvic.h": 1,
+          "<libopencm3/nrf/51/nvic.h>": 1,
+          "<libopencm3/gd32/f1x0/nvic.h>": 1,
+          "libopencm3/sam/3a/nvic.h": 1,
+          "<libopencm3/msp432/e4/nvic.h>": 1,
+          "<libopencm3/lpc43xx/m4/nvic.h>": 1,
+          "libopencm3/efm32/wg/nvic.h": 1,
+          "libopencm3/efm32/lg/nvic.h": 1,
+          "libopencm3/lpc43xx/m4/nvic.h": 1,
+          "libopencm3/stm32/u5/nvic.h": 1,
+          "<libopencm3/sam/d/nvic.h>": 1,
+          "libopencm3/sam/3u/nvic.h": 1,
+          "libopencm3/pac55xx/nvic.h": 1,
+          "<libopencm3/sam/3x/nvic.h>": 1,
+          "<libopencm3/stm32/l4/nvic.h>": 1,
+          "<libopencm3/pac55xx/nvic.h>": 1,
+          "<libopencm3/stm32/h7/nvic.h>": 1,
+          "<libopencm3/efm32/wg/acmp.h>": 1,
+          "libopencm3/efm32/wg/acmp.h": 1,
+          "<libopencm3/efm32/ezr32wg/acmp.h>": 1,
+          "<libopencm3/efm32/lg/acmp.h>": 1,
+          "libopencm3/efm32/lg/acmp.h": 1,
+          "libopencm3/efm32/ezr32wg/acmp.h": 1,
+          "<libopencm3/efm32/lg/adc.h>": 1,
+          "libopencm3/efm32/ezr32wg/adc.h": 1,
+          "<libopencm3/efm32/ezr32wg/adc.h>": 1,
+          "<libopencm3/efm32/wg/adc.h>": 1,
+          "libopencm3/efm32/lg/adc.h": 1,
+          "libopencm3/efm32/wg/adc.h": 1,
+          "<libopencm3/efm32/wg/burtc.h>": 1,
+          "libopencm3/efm32/ezr32wg/burtc.h": 1,
+          "libopencm3/efm32/wg/burtc.h": 1,
+          "<libopencm3/efm32/lg/burtc.h>": 1,
+          "<libopencm3/efm32/ezr32wg/burtc.h>": 1,
+          "libopencm3/efm32/lg/burtc.h": 1,
+          "libopencm3/efm32/lg/cmu.h": 1,
+          "<libopencm3/efm32/ezr32wg/cmu.h>": 1,
+          "libopencm3/efm32/hg/cmu.h": 1,
+          "libopencm3/efm32/wg/cmu.h": 1,
+          "<libopencm3/efm32/hg/cmu.h>": 1,
+          "<libopencm3/efm32/wg/cmu.h>": 1,
+          "libopencm3/efm32/ezr32wg/cmu.h": 1,
+          "<libopencm3/efm32/lg/cmu.h>": 1,
+          "libopencm3/efm32/memorymap.h": 1,
+          "<libopencm3/efm32/memorymap.h>": 1,
+          "stm32f4xx_hal_dac.h": 1,
+          "stm32f4xx_hal_fmpi2c.h": 1,
+          "stm32f4xx_hal_adc.h": 1,
+          "stm32f4xx_hal_cortex.h": 1,
+          "stm32f4xx_hal_cryp.h": 1,
+          "stm32f4xx_hal_hcd.h": 1,
+          "stm32f4xx_hal_sdram.h": 1,
+          "stm32f4xx_hal_dcmi.h": 1,
+          "stm32f4xx_hal_can.h": 1,
+          "stm32f4xx_hal_dsi.h": 1,
+          "stm32f4xx_hal_pccard.h": 1,
+          "stm32f4xx_hal_rng.h": 1,
+          "stm32f4xx_hal_wwdg.h": 1,
+          "stm32f4xx_hal_i2s.h": 1,
+          "stm32f4xx_hal_uart.h": 1,
+          "stm32f4xx_hal_iwdg.h": 1,
+          "stm32f4xx_hal_lptim.h": 1,
+          "stm32f4xx_hal_irda.h": 1,
+          "stm32f4xx_hal_i2c.h": 1,
+          "stm32f4xx_hal_cec.h": 1,
+          "stm32f4xx_hal_pcd.h": 1,
+          "stm32f4xx_hal_ltdc.h": 1,
+          "stm32f4xx_hal_dma.h": 1,
+          "stm32f4xx_hal_smartcard.h": 1,
+          "stm32f4xx_hal_crc.h": 1,
+          "stm32f4xx_hal_hash.h": 1,
+          "stm32f4xx_hal_pwr.h": 1,
+          "stm32f4xx_hal_smbus.h": 1,
+          "stm32f4xx_hal_rtc.h": 1,
+          "stm32f4xx_hal_tim.h": 1,
+          "stm32f4xx_hal_usart.h": 1,
+          "stm32f4xx_hal_dma2d.h": 1,
+          "stm32f4xx_hal_exti.h": 1,
+          "stm32f4xx_hal_rcc.h": 1,
+          "stm32f4xx_hal_nand.h": 1,
+          "stm32f4xx_hal_gpio.h": 1,
+          "stm32f4xx_hal_mmc.h": 1,
+          "stm32f4xx_hal_qspi.h": 1,
+          "stm32f4xx_hal_sram.h": 1,
+          "stm32f4xx_hal_eth.h": 1,
+          "stm32f4xx_hal_flash.h": 1,
+          "stm32f4xx_hal_spdifrx.h": 1,
+          "stm32f4xx_hal_nor.h": 1,
+          "stm32f4xx_hal_sai.h": 1,
+          "stm32f4xx_hal_dfsdm.h": 1,
+          "stm32f4xx_hal_spi.h": 1,
+          "stm32f4xx_hal_sd.h": 1,
+          "stm32f427xx.h": 1,
+          "stm32f469xx.h": 1,
+          "stm32f412cx.h": 1,
+          "stm32f423xx.h": 1,
+          "stm32f413xx.h": 1,
+          "stm32f446xx.h": 1,
+          "stm32f412zx.h": 1,
+          "stm32f410cx.h": 1,
+          "stm32f479xx.h": 1,
+          "stm32f407xx.h": 1,
+          "stm32f405xx.h": 1,
+          "stm32f412rx.h": 1,
+          "stm32f429xx.h": 1,
+          "stm32f412vx.h": 1,
+          "stm32f437xx.h": 1,
+          "stm32f439xx.h": 1,
+          "stm32f415xx.h": 1,
+          "stm32f411xe.h": 1,
+          "stm32f401xe.h": 1,
+          "stm32f410rx.h": 1,
+          "stm32f401xc.h": 1,
+          "stm32f417xx.h": 1,
+          "stm32f410tx.h": 1,
+          "<arm_compat.h>": 1,
+          "arm_compat.h": 1,
+          "cmsis_gcc.h": 1,
+          "cmsis_csm.h": 1,
+          "<cmsis_csm.h>": 1,
+          "cmsis_ccs.h": 1,
+          "<cmsis_iccarm.h>": 1,
+          "<cmsis_ccs.h>": 1,
+          "cmsis_armclang.h": 1,
+          "cmsis_iccarm.h": 1,
+          "cmsis_armcc.h": 1,
+          "intrinsics.h": 1,
+          "<intrinsics.h>": 1,
+          "iccarm_builtin.h": 1,
+          "mpu_armv7.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "tkinter": 1,
+          "scrolledtext": 1,
+          "os": 1,
+          "subprocess": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "KartikeyaVeeramraju/barebones-mcu-compilation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "KartikeyaVeeramraju/rtos_dcdc_converter_design",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

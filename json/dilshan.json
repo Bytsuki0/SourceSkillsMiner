@@ -1,0 +1,591 @@
+{
+  "username": "dilshan",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.33717585205056144,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9673022396143037,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 13,
+        "language_transitions": 15,
+        "topic_entropy_bits": 5.8701,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "dilshan/arduino-mini-amp": 0.43035,
+        "dilshan/avr-hv2": 0.5339333333333333
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7174351704101123,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Makefile": [
+        37420,
+        41
+      ],
+      "C": [
+        351128,
+        286
+      ],
+      "Shell": [
+        2543,
+        1
+      ],
+      "C++": [
+        137382,
+        71
+      ],
+      "Pascal": [
+        47437,
+        98
+      ],
+      "JavaScript": [
+        429,
+        6
+      ],
+      "Jupyter Notebook": [
+        2194,
+        4
+      ],
+      "Python": [
+        515,
+        5
+      ],
+      "Eagle": [
+        2282,
+        8
+      ],
+      "C#": [
+        0,
+        5
+      ],
+      "Assembly": [
+        0,
+        7
+      ],
+      "PHP": [
+        0,
+        1
+      ],
+      "HTML": [
+        0,
+        7
+      ],
+      "Verilog": [
+        0,
+        10
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Component Pascal": [
+        0,
+        28
+      ],
+      "Oxygene": [
+        0,
+        6
+      ],
+      "CSS": [
+        0,
+        2
+      ],
+      "CMake": [
+        0,
+        0
+      ],
+      "SourcePawn": [
+        0,
+        0
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 586,
+    "total_lines": 581330,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 351128,
+        "commits": 286
+      },
+      {
+        "language": "Pascal",
+        "lines": 47437,
+        "commits": 98
+      },
+      {
+        "language": "C++",
+        "lines": 137382,
+        "commits": 71
+      },
+      {
+        "language": "Makefile",
+        "lines": 37420,
+        "commits": 41
+      },
+      {
+        "language": "Component Pascal",
+        "lines": 0,
+        "commits": 28
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "dilshan",
+    "analysis_date": "2026-05-10T03:52:32.609765",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 133,
+    "languages": {
+      "C": {
+        "files_scanned": 26,
+        "packages": {
+          "config.h": 7,
+          "sysconfig.h": 7,
+          "main.h": 6,
+          "util.h": 5,
+          "<string.h>": 5,
+          "string.h": 5,
+          "<stdio.h>": 5,
+          "stdio.h": 5,
+          "<xc.h>": 4,
+          "xc.h": 4,
+          "eeprom.h": 4,
+          "include/stc15.h": 4,
+          "i2c.h": 3,
+          "logger.h": 3,
+          "common.h": 3,
+          "<stdlib.h>": 3,
+          "stdlib.h": 3,
+          "stc15/stc15.h": 3,
+          "shiftreg.h": 2,
+          "lcd.h": 2,
+          "pt2258.h": 2,
+          "unistd.h": 2,
+          "devcnt.h": 2,
+          "<gtk/gtk.h>": 2,
+          "<unistd.h>": 2,
+          "gtk/gtk.h": 2,
+          "errno.h": 2,
+          "<errno.h>": 2,
+          "utils.h": 2,
+          "usb-bright.h": 2,
+          "<stdint.h>": 2,
+          "stdint.h": 2,
+          "motordrv.h": 2,
+          "<sys/ioctl.h>": 1,
+          "assert.h": 1,
+          "<assert.h>": 1,
+          "sys/ioctl.h": 1,
+          "fcntl.h": 1,
+          "guidef.h": 1,
+          "<termios.h>": 1,
+          "pt2322.h": 1,
+          "<fcntl.h>": 1,
+          "termios.h": 1,
+          "gio/gio.h": 1,
+          "<gio/gio.h>": 1,
+          "sensor-controller.h": 1,
+          "bmp180_tester.h": 1,
+          "mongoose.h": 1,
+          "<time.h>": 1,
+          "time.h": 1,
+          "<math.h>": 1,
+          "math.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 20,
+        "packages": {
+          "Arduino.h": 8,
+          "<Arduino.h>": 6,
+          "Wire.h": 5,
+          "common.h": 5,
+          "<Wire.h>": 4,
+          "stdafx.h": 4,
+          "<GFSDK_FaceWorks.h>": 4,
+          "GFSDK_FaceWorks.h": 4,
+          "algorithm": 4,
+          "<algorithm>": 4,
+          "EEPROM.h": 3,
+          "<EEPROM.h>": 3,
+          "tda8425.h": 3,
+          "namespace": 3,
+          "shader.h": 3,
+          "<DXUT/Core/DXUT.h>": 3,
+          "DXUT/Core/DXUT.h": 3,
+          "std": 3,
+          "DirectX": 3,
+          "<DirectXMath.h>": 3,
+          "<cstdio>": 3,
+          "cstdio": 3,
+          "util.h": 3,
+          "DirectXMath.h": 3,
+          "confmem.h": 2,
+          "pt2322.h": 2,
+          "displayutil.h": 2,
+          "<LiquidCrystal.h>": 2,
+          "LiquidCrystal.h": 2,
+          "yda138.h": 2,
+          "hidapi.h": 2,
+          "scenes.h": 2,
+          "DXUT/Optional/SDKmisc.h": 2,
+          "<DXUT/Optional/SDKmisc.h>": 2,
+          "shaders/resources.h": 2,
+          "cassert": 2,
+          "vector": 2,
+          "<cassert>": 2,
+          "<vector>": 2,
+          "internal.h": 2,
+          "config.h": 1,
+          "fix_fft.h": 1,
+          "<fix_fft.h>": 1,
+          "<stdint.h>": 1,
+          "si5351.h": 1,
+          "stdint.h": 1,
+          "brightness-control.h": 1,
+          "sensor-logger.h": 1,
+          "dtmfgen.h": 1,
+          "DXUT/Optional/DXUTcamera.h": 1,
+          "<cstdarg>": 1,
+          "limits": 1,
+          "DXUT/Optional/DXUTgui.h": 1,
+          "<limits>": 1,
+          "<DXUT/Optional/DXUTcamera.h>": 1,
+          "cstdarg": 1,
+          "<DXUT/Optional/DXUTgui.h>": 1,
+          "create_vsm_ps.h": 1,
+          "gaussian_ps.h": 1,
+          "skybox_ps.h": 1,
+          "world_vs.h": 1,
+          "hair_ps.h": 1,
+          "curvature_ps.h": 1,
+          "tess_hs.h": 1,
+          "tess_vs.h": 1,
+          "shadow_vs.h": 1,
+          "copy_ps.h": 1,
+          "skybox_vs.h": 1,
+          "screen_vs.h": 1,
+          "thickness_ps.h": 1,
+          "tess_ds.h": 1,
+          "curvature_vs.h": 1,
+          "<DXUT/Core/DDSTextureLoader.h>": 1,
+          "<DXUT/Core/DXUTmisc.h>": 1,
+          "<DXUT/Core/WICTextureLoader.h>": 1,
+          "DXUT/Core/DDSTextureLoader.h": 1,
+          "DXUT/Core/WICTextureLoader.h": 1,
+          "DXUT/Core/DXUTmisc.h": 1,
+          "<ctime>": 1,
+          "ctime": 1,
+          "<windows.h>": 1,
+          "windows.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 30,
+        "packages": {
+          "stdint.h": 9,
+          "<stdint.h>": 9,
+          "<xc.h>": 5,
+          "xc.h": 5,
+          "<gtk/gtk.h>": 3,
+          "gtk/gtk.h": 3,
+          "common.h": 3,
+          "iap.h": 2,
+          "interrupt.h": 2,
+          "uart.h": 2,
+          "inst.h": 2,
+          "stc15reg.h": 2,
+          "spi.h": 2,
+          "adc.h": 2,
+          "timer.h": 2,
+          "pcapwm.h": 2,
+          "sysmap.h": 2,
+          "<Windows.h>": 2,
+          "<stdio.h>": 2,
+          "<tchar.h>": 2,
+          "tchar.h": 2,
+          "stdio.h": 2,
+          "targetver.h": 2,
+          "Windows.h": 2,
+          "<SDKDDKVer.h>": 2,
+          "SDKDDKVer.h": 2,
+          "GFSDK_FaceWorks.h": 2,
+          "sysconfig.h": 1,
+          "guidef.h": 1,
+          "Arduino.h": 1,
+          "Wire.h": 1,
+          "HighLevelMonitorConfigurationAPI.h": 1,
+          "<LowLevelMonitorConfigurationAPI.h>": 1,
+          "PhysicalMonitorEnumerationAPI.h": 1,
+          "<PhysicalMonitorEnumerationAPI.h>": 1,
+          "<HighLevelMonitorConfigurationAPI.h>": 1,
+          "LowLevelMonitorConfigurationAPI.h": 1,
+          "<wchar.h>": 1,
+          "wchar.h": 1,
+          "stddef.h": 1,
+          "<stddef.h>": 1,
+          "shader.h": 1,
+          "util.h": 1,
+          "d3d11.h": 1,
+          "<DirectXMath.h>": 1,
+          "unordered_map": 1,
+          "<unordered_map>": 1,
+          "<d3d11.h>": 1,
+          "DirectXMath.h": 1,
+          "vector": 1,
+          "<DXUT/Optional/DXUTcamera.h>": 1,
+          "<DXUT/Core/DXUT.h>": 1,
+          "DXUT/Optional/DXUTcamera.h": 1,
+          "DXUT/Core/DXUT.h": 1,
+          "<string>": 1,
+          "<vector>": 1,
+          "string": 1,
+          "<memory>": 1,
+          "<cmath>": 1,
+          "memory": 1,
+          "<GFSDK_FaceWorks.h>": 1,
+          "cstdarg": 1,
+          "<cstdarg>": 1,
+          "<algorithm>": 1,
+          "algorithm": 1,
+          "std::max": 1,
+          "std::min": 1,
+          "cmath": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "express": 1,
+          "onoff": 1,
+          "body-parser": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 8,
+        "packages": {
+          "os": 6,
+          "sys": 5,
+          "common_util": 4,
+          "Decimal": 2,
+          "enum": 2,
+          "Enum": 2,
+          "time": 2,
+          "decimal": 2,
+          "PyQt6": 2,
+          "tabulate": 1,
+          "HTML": 1,
+          "IPython": 1,
+          "start_ui_design": 1,
+          "ui_main": 1,
+          "re": 1,
+          "pyperclip": 1,
+          "math": 1,
+          "statistics": 1,
+          "QtCore": 1,
+          "QApplication": 1,
+          "ui_config": 1,
+          "traceback": 1,
+          "Commands": 1,
+          "serial": 1,
+          "Ui_main_window": 1,
+          "subprocess": 1,
+          "json": 1,
+          "QObject": 1,
+          "SerialException": 1,
+          "loadUi": 1,
+          "uic": 1,
+          "logging": 1,
+          "call": 1,
+          "QPainter": 1,
+          "QChart": 1,
+          "fa5usbdata": 1,
+          "argv": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "dilshan/12v-automatic-ups",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "dilshan/24ch-usb-high-voltage-driver",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "dilshan/6ch-af-preamplifier",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "dilshan/6ch-sound-processor",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "dilshan/6ch-speaker-selector",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "dilshan/android-datalogger",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "dilshan/arduino-mini-amp",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "dilshan/arduino-superhet",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "dilshan/bench-utils",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dilshan/bmp180-monitor",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "dilshan/brightness-control",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "dilshan/dtmfgen",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "dilshan/ecowitt_to_aprs",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "dilshan/electronic-limit-switch",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "dilshan/eq-motor-driver",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "dilshan/FA-5-6GP_MonitorControl",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dilshan/FaceWorks",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

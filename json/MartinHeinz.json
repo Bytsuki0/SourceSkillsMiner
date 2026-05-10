@@ -1,0 +1,690 @@
+{
+  "username": "MartinHeinz",
+  "areas": {
+    "OSS": {
+      "score": 0.4545454545454546,
+      "details": {
+        "issue_resolution_rate": 0.18181818181818182,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4358974358974359,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 11,
+        "language_transitions": 9,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "MartinHeinz/blog-backend": 0.24209999999999998,
+        "MartinHeinz/blog-frontend": 0.4671
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6280885780885781,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        1184716,
+        136
+      ],
+      "Makefile": [
+        9346,
+        76
+      ],
+      "Dockerfile": [
+        63747,
+        26
+      ],
+      "Shell": [
+        440769,
+        72
+      ],
+      "JavaScript": [
+        136042,
+        83
+      ],
+      "Vue": [
+        21394,
+        41
+      ],
+      "CSS": [
+        32517,
+        15
+      ],
+      "HTML": [
+        87474,
+        25
+      ],
+      "Python": [
+        3001,
+        198
+      ],
+      "Jinja": [
+        1794,
+        4
+      ],
+      "TypeScript": [
+        3302,
+        7
+      ],
+      "PHP": [
+        376,
+        0
+      ],
+      "Java": [
+        4348,
+        3
+      ],
+      "Handlebars": [
+        63,
+        0
+      ],
+      "sed": [
+        32,
+        0
+      ],
+      "Ruby": [
+        6547,
+        0
+      ],
+      "PowerShell": [
+        5767,
+        0
+      ],
+      "COBOL": [
+        2279,
+        0
+      ],
+      "C#": [
+        1065,
+        0
+      ],
+      "CoffeeScript": [
+        293,
+        0
+      ],
+      "R": [
+        262,
+        0
+      ],
+      "C": [
+        157,
+        0
+      ],
+      "TSQL": [
+        0,
+        10
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "TeX": [
+        0,
+        11
+      ]
+    },
+    "language_count": 25,
+    "total_commits": 707,
+    "total_lines": 2005291,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 3001,
+        "commits": 198
+      },
+      {
+        "language": "Go",
+        "lines": 1184716,
+        "commits": 136
+      },
+      {
+        "language": "JavaScript",
+        "lines": 136042,
+        "commits": 83
+      },
+      {
+        "language": "Makefile",
+        "lines": 9346,
+        "commits": 76
+      },
+      {
+        "language": "Shell",
+        "lines": 440769,
+        "commits": 72
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "MartinHeinz",
+    "analysis_date": "2026-05-10T02:18:12.864299",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 245,
+    "languages": {
+      "Go": {
+        "files_scanned": 96,
+        "packages": {
+          "net/http": 42,
+          "testing": 35,
+          "fmt": 26,
+          "time": 25,
+          "log": 20,
+          "github.com/gin-gonic/gin": 17,
+          "context": 15,
+          "github.com/MartinHeinz/blog-backend/cmd/blog_backend/config": 13,
+          "github.com/stretchr/testify/assert": 13,
+          "net/http/httptest": 12,
+          "io/ioutil": 11,
+          "github.com/MartinHeinz/blog-backend/cmd/blog_backend/test_data": 11,
+          "k8s.io/apimachinery/pkg/runtime": 10,
+          "os": 7,
+          "strconv": 7,
+          "strings": 7,
+          "github.com/MartinHeinz/blog-backend/cmd/blog_backend/models": 7,
+          "sigs.k8s.io/controller-runtime/pkg/log/zap": 6,
+          "sigs.k8s.io/controller-runtime/pkg/client": 6,
+          "bytes": 6,
+          "github.com/MartinHeinz/go-github-app/cmd/app/config": 6,
+          "k8s.io/apimachinery/pkg/types": 5,
+          "path/filepath": 5,
+          "github.com/prometheus/client_golang/prometheus": 5,
+          "github.com/MartinHeinz/blog-backend/cmd/blog_backend/daos": 5,
+          "github.com/MartinHeinz/blog-backend/cmd/blog_backend/services": 5,
+          "encoding/json": 5,
+          "k8s.io/apimachinery/pkg/runtime/schema": 4,
+          "sigs.k8s.io/controller-runtime/pkg/envtest": 4,
+          "sigs.k8s.io/controller-runtime/pkg/envtest/printer": 4,
+          "k8s.io/client-go/rest": 4,
+          "flag": 4,
+          "github.com/brutella/hap/accessory": 4,
+          "sbinet.org/x/aranet4": 4,
+          "net/url": 4,
+          "github.com/google/go-github/v41/github": 4,
+          "reflect": 3,
+          "regexp": 3,
+          "github.com/spf13/viper": 3,
+          "io": 3,
+          "k8s.io/apimachinery/pkg/api/resource": 3,
+          "sigs.k8s.io/controller-runtime/pkg/webhook": 2,
+          "k8s.io/apimachinery/pkg/util/validation/field": 2,
+          "sigs.k8s.io/controller-runtime/pkg/scheme": 2,
+          "crypto/tls": 2,
+          "Webhook": 2,
+          "net": 2,
+          "k8s.io/apimachinery/pkg/api/errors": 2,
+          "github.com/go-logr/logr": 2,
+          "k8s.io/client-go/kubernetes/scheme": 2,
+          "Controller": 2,
+          "Enable": 2,
+          "Enabling": 2,
+          "sigs.k8s.io/controller-runtime/pkg/healthz": 2,
+          "sync": 2,
+          "github.com/prometheus/client_golang/prometheus/promhttp": 2,
+          "gorm.io/gorm": 2,
+          "github.com/openfaas/faas-provider/auth": 2,
+          "github.com/openfaas/faas/gateway/requests": 2,
+          "github.com/openfaas/faas/gateway/scaling": 2,
+          "github.com/openfaas/faas/gateway/metrics": 2,
+          "github.com/openfaas/faas/gateway/types": 2,
+          "k8s.io/apimachinery/pkg/util/intstr": 2,
+          "github.com/MartinHeinz/go-project-blueprint/cmd/blueprint/config": 2,
+          "github.com/MartinHeinz/application-operator/controllers": 1,
+          "github.com/brutella/hap/characteristic": 1,
+          "github.com/brutella/hap/service": 1,
+          "github.com/brutella/hap": 1,
+          "github.com/prometheus/common/expfmt": 1,
+          "github.com/sergi/go-diff/diffmatchpatch": 1,
+          "errors": 1,
+          "github.com/ryansouza/aranet4-exporter/aranet": 1,
+          "syscall": 1,
+          "times.": 1,
+          "os/signal": 1,
+          "books": 1,
+          "posts": 1,
+          "projects": 1,
+          "sections": 1,
+          "tags": 1,
+          "github.com/MartinHeinz/blog-backend/cmd/blog_backend/apis": 1,
+          "github.com/MartinHeinz/blog-backend/cmd/blog_backend/middleware": 1,
+          "gorm.io/driver/postgres": 1,
+          "cat": 1,
+          "docker": 1,
+          "Commands": 1,
+          "wget": 1,
+          "github.com/urfave/cli/v2": 1,
+          "openssl": 1,
+          "-addext": 1,
+          "Long": 1,
+          "Long-running": 1,
+          "ps": 1,
+          "ls": 1,
+          "echo": 1,
+          "Hard": 1,
+          "Error-prone": 1,
+          "Simple": 1,
+          "Error": 1,
+          "curl": 1,
+          "-keyout": 1,
+          "rm": 1,
+          "github.com/pkg/errors": 1,
+          "math": 1,
+          "github.com/docker/distribution/uuid": 1,
+          "Proxy-Authorization": 1,
+          "Upgrade": 1,
+          "Keep-Alive": 1,
+          "Transfer-Encoding": 1,
+          "Proxy-Connection": 1,
+          "Te": 1,
+          "Proxy-Authenticate": 1,
+          "Connection": 1,
+          "Trailer": 1,
+          "github.com/openfaas/faas/gateway/version": 1,
+          "go.uber.org/goleak": 1,
+          "code": 1,
+          "k8s.io/api/core/v1": 1,
+          "github.com/MartinHeinz/game-server-operator/controllers": 1,
+          "pull_requests": 1,
+          "PR": 1,
+          "github.com/migueleliasweb/go-github-mock/src/mock": 1,
+          "GitHub": 1,
+          "github.com/MartinHeinz/go-github-app/cmd/app/utils": 1,
+          "github.com/MartinHeinz/go-github-app/cmd/app/apis": 1,
+          "github.com/MartinHeinz/go-github-app/cmd/app/webhooks": 1,
+          "github.com/swaggo/gin-swagger": 1,
+          "github.com/bradleyfalzon/ghinstallation/v2": 1,
+          "crypto/sha256": 1,
+          "crypto/hmac": 1,
+          "encoding/hex": 1,
+          "T1": 1,
+          "github.com/MartinHeinz/go-github-app/cmd/app/test_data": 1,
+          "X-Hub-Signature-256": 1,
+          "X-GitHub-Event": 1,
+          "POST": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 20,
+        "packages": {
+          "com.redhat": 12,
+          "javax.ws": 8,
+          "java.sql": 8,
+          "java.time": 7,
+          "java.util": 6,
+          "java.math": 5,
+          "javax.persistence": 5,
+          "org.springframework": 3,
+          "java.text": 3,
+          "org.postgresql": 3,
+          "javax.inject": 2,
+          "java.net": 2,
+          "java.io": 2,
+          "java.security": 2,
+          "java.lang": 2,
+          "org.junit": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 41,
+        "packages": {
+          "vue": 18,
+          "express": 10,
+          "vuex": 7,
+          "vue-router": 5,
+          "vuetify": 4,
+          "dayjs": 4,
+          "axios": 4,
+          "fs": 3,
+          "lodash": 2,
+          "axios-mock-adapter": 2,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 2,
+          ")).appendTo(t.documentElement)": 2,
+          "t.write(": 2,
+          "restify": 2,
+          "sequelize": 2,
+          "vue-headful": 1,
+          "vue-highlight.js": 1,
+          "vue-meta": 1,
+          "vue-social-sharing": 1,
+          "fortawesome": 1,
+          "highlight.js": 1,
+          "cypress": 1,
+          "terser-webpack-plugin": 1,
+          "webpack-bundle-analyzer": 1,
+          "css-minimizer-webpack-plugin": 1,
+          "vuetify-loader": 1,
+          "webpack-font-preload-plugin": 1,
+          "child_process": 1,
+          "cheerio": 1,
+          "csv-parse": 1,
+          "http-error": 1,
+          "os": 1,
+          "http-errors": 1,
+          "morgan": 1,
+          "express-prettify": 1,
+          "path": 1,
+          "cookie-parser": 1,
+          "chai": 1,
+          "chai-http": 1,
+          "i}": 1,
+          "t.forEach(": 1,
+          "{{warn-A700}}": 1,
+          "i.transition=o)": 1,
+          "n){return": 1,
+          "copyRect:function(e": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 31,
+        "packages": {
+          "flask": 13,
+          "app": 13,
+          "os": 7,
+          "datetime": 6,
+          "json": 5,
+          "uuid": 5,
+          "http_json_response": 5,
+          "db": 5,
+          "Blueprint": 4,
+          "request": 4,
+          "authlib": 4,
+          "numpy": 3,
+          "matplotlib": 3,
+          "pickle": 3,
+          "typer": 2,
+          "sys": 2,
+          "ga_extractor": 2,
+          "Payload": 2,
+          "require_api_token": 2,
+          "api": 2,
+          "sqlalchemy": 2,
+          "web": 2,
+          "Device": 2,
+          "base64": 2,
+          "attr_authority": 2,
+          "login": 2,
+          "AttrAuthUser": 2,
+          "re": 2,
+          "itsdangerous": 2,
+          "bcrypt": 2,
+          "passlib": 2,
+          "User": 2,
+          "create_app": 2,
+          "current_app": 2,
+          "is_number": 2,
+          "UUID": 2,
+          "urlopen": 1,
+          "BeautifulSoup": 1,
+          "bs4": 1,
+          "urllib": 1,
+          "locale": 1,
+          "operator": 1,
+          "mul": 1,
+          "math": 1,
+          "FuncFormatter": 1,
+          "googleapiclient": 1,
+          "service_account": 1,
+          "Optional": 1,
+          "google": 1,
+          "typing": 1,
+          "validators": 1,
+          "Enum": 1,
+          "pathlib": 1,
+          "build": 1,
+          "yaml": 1,
+          "Path": 1,
+          "enum": 1,
+          "logging": 1,
+          "pytest": 1,
+          "__migrate_transform_umami": 1,
+          "CliRunner": 1,
+          "and_": 1,
+          "DEVICE_TYPE_ID_MISSING_ERROR_MSG": 1,
+          "DeviceType": 1,
+          "client": 1,
+          "suppress": 1,
+          "contextlib": 1,
+          "ssl": 1,
+          "Flask": 1,
+          "atexit": 1,
+          "errors": 1,
+          "paho": 1,
+          "apscheduler": 1,
+          "handle_on_connect": 1,
+          "config": 1,
+          "BackgroundScheduler": 1,
+          "login_aa": 1,
+          "oauth": 1,
+          "flask_sqlalchemy": 1,
+          "oauth_aa": 1,
+          "SQLAlchemy": 1,
+          "create_attributes": 1,
+          "serialize_charm_object": 1,
+          "ATTR_LIST_MISSING_ERROR_MSG": 1,
+          "CPabe_BSW07": 1,
+          "objectToBytes": 1,
+          "HybridABEnc": 1,
+          "PairingGroup": 1,
+          "Attribute": 1,
+          "charm": 1,
+          "RemoteApp": 1,
+          "CodeIDToken": 1,
+          "jwt": 1,
+          "OAuthClient": 1,
+          "generate_token": 1,
+          "remote": 1,
+          "handle_authorize": 1,
+          "add_params_to_uri": 1,
+          "functools": 1,
+          "wraps": 1,
+          "requests": 1,
+          "click": 1,
+          "subprocess": 1,
+          "SOMETHING_WENT_WRONG_MSG": 1,
+          "cryptography": 1,
+          "password_hashing": 1,
+          "secrets": 1,
+          "crypto_utils": 1,
+          "Fernet": 1,
+          "generate_auth_token": 1,
+          "string": 1,
+          "time": 1,
+          "create_pairing_group": 1,
+          "DB_SETUP_CONFIG_NAME": 1,
+          "correctness_hash": 1,
+          "pbkdf2_hash": 1,
+          "random": 1,
+          "func": 1,
+          "relationship": 1,
+          "uuid4": 1,
+          "hybrid_property": 1,
+          "MixinGetById": 1,
+          "bytes_to_json": 1,
+          "date": 1,
+          "jsonify": 1,
+          "render_template": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "actions": 1,
+          "fs": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MartinHeinz/application-operator",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/aranet4-exporter-go",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/blog-backend",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/blog-frontend",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/blogs.hn",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/charts",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/cli-showcase-setup",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/dive-action",
+        "files_analyzed": 1,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/DO180-apps",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/DO288-apps",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/faas",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/felsenstein-1981",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/Flight-DB",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/ga-extractor",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/game-server-operator",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/go-github-app",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/go-project-blueprint",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "MartinHeinz/IoT-Cloud",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

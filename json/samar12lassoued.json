@@ -1,0 +1,559 @@
+{
+  "username": "samar12lassoued",
+  "areas": {
+    "OSS": {
+      "score": -0.3573833830060448,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.9639249254909328
+      }
+    },
+    "Status": {
+      "score": 0.3590415856652589,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9616393015748113,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": -0.45,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.08966835946815718,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        1044909,
+        137
+      ],
+      "C++": [
+        321604,
+        1
+      ],
+      "CMake": [
+        34795,
+        0
+      ],
+      "C": [
+        563428,
+        3
+      ],
+      "Makefile": [
+        79396,
+        0
+      ],
+      "Groovy": [
+        5163,
+        0
+      ],
+      "Meson": [
+        4575,
+        0
+      ],
+      "Shell": [
+        17720,
+        2
+      ],
+      "BitBake": [
+        76,
+        5
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 148,
+    "total_lines": 2071666,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 1044909,
+        "commits": 137
+      },
+      {
+        "language": "BitBake",
+        "lines": 76,
+        "commits": 5
+      },
+      {
+        "language": "C",
+        "lines": 563428,
+        "commits": 3
+      },
+      {
+        "language": "Shell",
+        "lines": 17720,
+        "commits": 2
+      },
+      {
+        "language": "C++",
+        "lines": 321604,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "samar12lassoued",
+    "analysis_date": "2026-05-10T05:25:21.364355",
+    "total_repos_analyzed": 16,
+    "total_files_analyzed": 123,
+    "languages": {
+      "C": {
+        "files_scanned": 27,
+        "packages": {
+          "<stdio.h>": 18,
+          "stdio.h": 18,
+          "stdlib.h": 16,
+          "<stdlib.h>": 16,
+          "stdint.h": 13,
+          "<stdint.h>": 13,
+          "string.h": 12,
+          "<string.h>": 12,
+          "unistd.h": 10,
+          "<unistd.h>": 10,
+          "<assert.h>": 5,
+          "stddef.h": 5,
+          "assert.h": 5,
+          "<stddef.h>": 5,
+          "fcntl.h": 5,
+          "<fcntl.h>": 5,
+          "<errno.h>": 5,
+          "errno.h": 5,
+          "<stdbool.h>": 4,
+          "stdbool.h": 4,
+          "circular_buffer.h": 3,
+          "linux/types.h": 3,
+          "linux/ioctl.h": 3,
+          "<sys/ioctl.h>": 3,
+          "sys/ioctl.h": 3,
+          "<linux/types.h>": 3,
+          "<sys/stat.h>": 3,
+          "<linux/ioctl.h>": 3,
+          "sys/stat.h": 3,
+          "<linux/module.h>": 2,
+          "linux/module.h": 2,
+          "stdarg.h": 2,
+          "setjmp.h": 2,
+          "<cmocka.h>": 2,
+          "cmocka.h": 2,
+          "<setjmp.h>": 2,
+          "<stdarg.h>": 2,
+          "simple_fixed_point.h": 2,
+          "memory.h": 2,
+          "oled_functions.h": 2,
+          "linux/spi/spidev.h": 2,
+          "<linux/spi/spidev.h>": 2,
+          "termios.h": 2,
+          "<termios.h>": 2,
+          "execute_built_in_commands.h": 2,
+          "executor.h": 2,
+          "parser.h": 2,
+          "circular_buffer/circular_buffer.h": 1,
+          "fixed_point_tests.h": 1,
+          "<simple_fixed_point.h>": 1,
+          "<fixed_point_tests.h>": 1,
+          "math.h": 1,
+          "<math.h>": 1,
+          "linked_list.h": 1,
+          "<memory.h>": 1,
+          "malloc_freelist.h": 1,
+          "tx_api.h": 1,
+          "<tx_api.h>": 1,
+          "<poll.h>": 1,
+          "poll.h": 1,
+          "linux/i2c-dev.h": 1,
+          "<linux/i2c-dev.h>": 1,
+          "linux/init.h": 1,
+          "<linux/init.h>": 1,
+          "linux/kernel.h": 1,
+          "<linux/kernel.h>": 1,
+          "<sys/wait.h>": 1,
+          "sys/wait.h": 1,
+          "<pthread.h>": 1,
+          "handle_command.h": 1,
+          "pthread.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 67,
+        "packages": {
+          "iostream": 57,
+          "<iostream>": 57,
+          "<string>": 30,
+          "string": 30,
+          "vector": 18,
+          "<vector>": 18,
+          "thread": 8,
+          "<thread>": 8,
+          "<cstdio>": 7,
+          "cstdio": 7,
+          "<algorithm>": 6,
+          "algorithm": 6,
+          "mutex": 5,
+          "<mutex>": 5,
+          "<cstdint>": 5,
+          "cstdint": 5,
+          "functional": 5,
+          "<functional>": 5,
+          "memory": 3,
+          "<memory>": 3,
+          "condition_variable": 3,
+          "<condition_variable>": 3,
+          "<queue>": 3,
+          "queue": 3,
+          "calculator.grpc.pb.h": 3,
+          "list": 2,
+          "<list>": 2,
+          "unordered_map": 2,
+          "<unordered_map>": 2,
+          "<array>": 2,
+          "array": 2,
+          "<map>": 2,
+          "map": 2,
+          "cassert": 2,
+          "<cassert>": 2,
+          "calculator.pb.h": 2,
+          "<calculator.grpc.pb.h>": 2,
+          "namespace": 2,
+          "calculator": 2,
+          "grpc": 2,
+          "grpc++/grpc++.h": 2,
+          "<grpc++/grpc++.h>": 2,
+          "consumer.hpp": 2,
+          "producer.hpp": 2,
+          "<cstdlib>": 1,
+          "<ctime>": 1,
+          "cstdlib": 1,
+          "ctime": 1,
+          "std::string": 1,
+          "<typeinfo>": 1,
+          "typeinfo": 1,
+          "Menu": 1,
+          "variant": 1,
+          "<variant>": 1,
+          "Item": 1,
+          "stdexcept": 1,
+          "<stdexcept>": 1,
+          "<cstring>": 1,
+          "cstring": 1,
+          "catch2/catch.hpp": 1,
+          "circular_buffer/circular_buffer.hpp": 1,
+          "<catch2/catch.hpp>": 1,
+          "<freertos/task.h>": 1,
+          "freertos/FreeRTOS.h": 1,
+          "<freertos/semphr.h>": 1,
+          "<freertos/FreeRTOS.h>": 1,
+          "<freertos/event_groups.h>": 1,
+          "freertos/semphr.h": 1,
+          "freertos/task.h": 1,
+          "freertos/event_groups.h": 1,
+          "tx_api.h": 1,
+          "<tx_api.h>": 1,
+          "grpcpp/server_context.h": 1,
+          "<grpcpp/support/async_stream.h>": 1,
+          "grpcpp/support/message_allocator.h": 1,
+          "grpcpp/impl/service_type.h": 1,
+          "grpcpp/support/client_callback.h": 1,
+          "<grpcpp/support/async_unary_call.h>": 1,
+          "grpcpp/support/server_callback.h": 1,
+          "<grpcpp/impl/channel_interface.h>": 1,
+          "<grpcpp/server_context.h>": 1,
+          "grpcpp/impl/client_unary_call.h": 1,
+          "grpcpp/support/sync_stream.h": 1,
+          "grpcpp/support/method_handler.h": 1,
+          "<grpcpp/impl/rpc_service_method.h>": 1,
+          "grpcpp/impl/rpc_service_method.h": 1,
+          "<grpcpp/support/message_allocator.h>": 1,
+          "<grpcpp/impl/server_callback_handlers.h>": 1,
+          "grpcpp/support/async_stream.h": 1,
+          "<grpcpp/support/client_callback.h>": 1,
+          "<grpcpp/impl/service_type.h>": 1,
+          "<grpcpp/support/server_callback.h>": 1,
+          "grpcpp/impl/channel_interface.h": 1,
+          "<grpcpp/support/sync_stream.h>": 1,
+          "<grpcpp/impl/client_unary_call.h>": 1,
+          "<grpcpp/support/method_handler.h>": 1,
+          "grpcpp/support/async_unary_call.h": 1,
+          "grpcpp/impl/server_callback_handlers.h": 1,
+          "google/protobuf/extension_set.h": 1,
+          "google/protobuf/port_undef.inc": 1,
+          "google/protobuf/generated_message_reflection.h": 1,
+          "google/protobuf/port_def.inc": 1,
+          "google/protobuf/wire_format_lite.h": 1,
+          "google/protobuf/descriptor.h": 1,
+          "google/protobuf/io/coded_stream.h": 1,
+          "google/protobuf/reflection_ops.h": 1,
+          "google/protobuf/wire_format.h": 1,
+          "std::swap": 1,
+          "chrono": 1,
+          "<chrono>": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 6,
+        "packages": {
+          "mutex": 3,
+          "<mutex>": 3,
+          "<condition_variable>": 2,
+          "condition_variable": 2,
+          "functional": 2,
+          "<queue>": 2,
+          "queue": 2,
+          "<functional>": 2,
+          "<optional>": 2,
+          "optional": 2,
+          "task.hpp": 2,
+          "task_queue.hpp": 2,
+          "<atomic>": 1,
+          "<etl/queue.h>": 1,
+          "thread": 1,
+          "<thread>": 1,
+          "TQueueType": 1,
+          "atomic": 1,
+          "etl/queue.h": 1,
+          "<array>": 1,
+          "array": 1,
+          "Task": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 6,
+        "packages": {
+          "<stdint.h>": 2,
+          "stdint.h": 2,
+          "stdlib.h": 2,
+          "<stdlib.h>": 2,
+          "<stdbool.h>": 1,
+          "stdbool.h": 1,
+          "calculator.pb.h": 1,
+          "grpcpp/server_context.h": 1,
+          "<grpcpp/support/async_stream.h>": 1,
+          "grpcpp/support/message_allocator.h": 1,
+          "grpcpp/impl/service_type.h": 1,
+          "grpcpp/support/client_callback.h": 1,
+          "<grpcpp/support/async_unary_call.h>": 1,
+          "grpcpp/impl/rpc_method.h": 1,
+          "grpcpp/support/server_callback.h": 1,
+          "grpcpp/support/status.h": 1,
+          "grpcpp/impl/server_callback_handlers.h": 1,
+          "<grpcpp/server_context.h>": 1,
+          "grpcpp/support/sync_stream.h": 1,
+          "<grpcpp/impl/proto_utils.h>": 1,
+          "<grpcpp/completion_queue.h>": 1,
+          "<grpcpp/generic/async_generic_service.h>": 1,
+          "grpcpp/support/method_handler.h": 1,
+          "grpcpp/client_context.h": 1,
+          "<grpcpp/client_context.h>": 1,
+          "<grpcpp/impl/rpc_method.h>": 1,
+          "grpcpp/impl/proto_utils.h": 1,
+          "<grpcpp/support/message_allocator.h>": 1,
+          "<grpcpp/support/status.h>": 1,
+          "<grpcpp/impl/server_callback_handlers.h>": 1,
+          "functional": 1,
+          "grpcpp/support/async_stream.h": 1,
+          "<grpcpp/support/client_callback.h>": 1,
+          "<grpcpp/impl/service_type.h>": 1,
+          "<grpcpp/support/server_callback.h>": 1,
+          "grpcpp/generic/async_generic_service.h": 1,
+          "<grpcpp/support/sync_stream.h>": 1,
+          "<grpcpp/support/stub_options.h>": 1,
+          "<grpcpp/support/method_handler.h>": 1,
+          "grpcpp/support/async_unary_call.h": 1,
+          "grpcpp/support/stub_options.h": 1,
+          "grpcpp/completion_queue.h": 1,
+          "<functional>": 1,
+          "google/protobuf/extension_set.h": 1,
+          "google/protobuf/repeated_field.h": 1,
+          "google/protobuf/unknown_field_set.h": 1,
+          "type_traits": 1,
+          "google/protobuf/io/coded_stream.h": 1,
+          "string": 1,
+          "google/protobuf/generated_message_util.h": 1,
+          "<string>": 1,
+          "google/protobuf/port_def.inc": 1,
+          "google/protobuf/message.h": 1,
+          "::PROTOBUF_NAMESPACE_ID::Message::MergeFrom": 1,
+          "google/protobuf/port_undef.inc": 1,
+          "limits": 1,
+          "<type_traits>": 1,
+          "google/protobuf/arena.h": 1,
+          "google/protobuf/generated_message_reflection.h": 1,
+          "google/protobuf/metadata_lite.h": 1,
+          "google/protobuf/arenastring.h": 1,
+          "::PROTOBUF_NAMESPACE_ID::Message::CopyFrom": 1,
+          "<limits>": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 10,
+        "packages": {
+          "logging": 6,
+          "grpc": 5,
+          "Config_pb2": 4,
+          "json": 3,
+          "Config_pb2_grpc": 3,
+          "mqtt_pb2": 3,
+          "csv": 2,
+          "mysql": 2,
+          "gzip": 2,
+          "argparse": 2,
+          "datetime": 2,
+          "FTP": 2,
+          "time": 2,
+          "ftplib": 2,
+          "os": 2,
+          "shutil": 2,
+          "sys": 2,
+          "concurrent": 2,
+          "futures": 2,
+          "mqtt_pb2_grpc": 2,
+          "pymodbus": 2,
+          "message": 2,
+          "symbol_database": 2,
+          "google": 2,
+          "reflection": 2,
+          "descriptor_pool": 2,
+          "descriptor": 2,
+          "paramiko": 1,
+          "paho": 1,
+          "ModbusTcpClient": 1,
+          "enum_type_wrapper": 1,
+          "ModbusDeviceIdentification": 1,
+          "StartTcpServer": 1,
+          "ModbusSequentialDataBlock": 1,
+          "ModbusSlaveContext": 1,
+          "tools": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "samar12lassoued/Automation-daily-pos-upload",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "samar12lassoued/Design-patterns-cpluslus",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "samar12lassoued/design-patterns-cpp",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "samar12lassoued/Developping-Linux-Device-Drivers",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "samar12lassoued/embedded-resources",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C++ Header",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "samar12lassoued/gRPCCalculator",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "samar12lassoued/gRPCProject",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "samar12lassoued/ke-rpi-samples",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "samar12lassoued/kernel-module-arm-qemu",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "samar12lassoued/Mini-Shell",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "samar12lassoued/Multithreaded-TaskSchedulerProject",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "samar12lassoued/Yocto-Essays",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      }
+    ]
+  }
+}

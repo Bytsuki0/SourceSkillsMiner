@@ -1,0 +1,491 @@
+{
+  "username": "SergioGasquez",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.30224562699018476,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9149069020237386,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 13,
+        "language_transitions": 12,
+        "topic_entropy_bits": 4.4016,
+        "closed_prs_total": 90,
+        "bounced_back_prs": 70
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "SergioGasquez/awesome-electronic-engineering": 0.6043875
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7437824587313704,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        665,
+        32
+      ],
+      "Arduino": [
+        47104,
+        13
+      ],
+      "Python": [
+        17800,
+        18
+      ],
+      "MATLAB": [
+        7605,
+        19
+      ],
+      "M": [
+        9,
+        0
+      ],
+      "Rust": [
+        4479,
+        125
+      ],
+      "Shell": [
+        2640,
+        146
+      ],
+      "CMake": [
+        0,
+        28
+      ],
+      "Dockerfile": [
+        0,
+        219
+      ],
+      "C": [
+        0,
+        44
+      ],
+      "Roff": [
+        0,
+        0
+      ],
+      "Alloy": [
+        0,
+        0
+      ],
+      "HTML": [
+        0,
+        17
+      ],
+      "PowerShell": [
+        0,
+        110
+      ],
+      "Makefile": [
+        0,
+        4
+      ],
+      "Assembly": [
+        0,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "QMake": [
+        0,
+        0
+      ],
+      "JavaScript": [
+        0,
+        0
+      ],
+      "CSS": [
+        0,
+        0
+      ],
+      "TeX": [
+        0,
+        0
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 775,
+    "total_lines": 80302,
+    "top_5_languages": [
+      {
+        "language": "Dockerfile",
+        "lines": 0,
+        "commits": 219
+      },
+      {
+        "language": "Shell",
+        "lines": 2640,
+        "commits": 146
+      },
+      {
+        "language": "Rust",
+        "lines": 4479,
+        "commits": 125
+      },
+      {
+        "language": "PowerShell",
+        "lines": 0,
+        "commits": 110
+      },
+      {
+        "language": "C",
+        "lines": 0,
+        "commits": 44
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "SergioGasquez",
+    "analysis_date": "2026-05-10T04:20:38.626850",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 165,
+    "languages": {
+      "C++": {
+        "files_scanned": 14,
+        "packages": {
+          "iostream": 4,
+          "<string>": 4,
+          "<iostream>": 4,
+          "string": 4,
+          "<vector>": 3,
+          "sstream": 3,
+          "vector": 3,
+          "<sstream>": 3,
+          "<spdlog/spdlog.h>": 2,
+          "spdlog/spdlog.h": 2,
+          "catch2/catch.hpp": 2,
+          "<catch2/catch.hpp>": 2,
+          "SD.h": 2,
+          "SPI.h": 2,
+          "Arduino.h": 2,
+          "SdFat.h": 2,
+          "<fstream>": 1,
+          "fstream": 1,
+          "stdlib.h": 1,
+          "<stdlib.h>": 1,
+          "ClassTest.h": 1,
+          "ClassTest/ClassTest.h": 1,
+          "<SD.h>": 1,
+          "the": 1,
+          "<SPI.h>": 1,
+          "Sd2Card.h": 1,
+          "WProgram.h": 1,
+          "<avr/pgmspace.h>": 1,
+          "avr/pgmspace.h": 1,
+          "<Arduino.h>": 1,
+          "pins_arduino.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 10,
+        "packages": {
+          "Arduino.h": 6,
+          "<Arduino.h>": 5,
+          "<stdint.h>": 2,
+          "stdint.h": 2,
+          "<avr/pgmspace.h>": 2,
+          "avr/pgmspace.h": 2,
+          "string": 1,
+          "<string>": 1,
+          "Print::write": 1,
+          "SPI.h": 1,
+          "utility/SdFat.h": 1,
+          "utility/SdFatUtil.h": 1,
+          "<utility/SdFat.h>": 1,
+          "<SPI.h>": 1,
+          "<utility/SdFatUtil.h>": 1,
+          "WProgram.h": 1,
+          "Sd2PinMap.h": 1,
+          "SdInfo.h": 1,
+          "<avr/io.h>": 1,
+          "avr/io.h": 1,
+          "Print.h": 1,
+          "FatStructs.h": 1,
+          "Sd2Card.h": 1,
+          "DMAChannel.h": 1,
+          "<DMAChannel.h>": 1,
+          "<EventResponder.h>": 1,
+          "EventResponder.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 6,
+        "packages": {
+          "math": 3,
+          "geometry_msgs": 3,
+          "rospy": 3,
+          "sys": 3,
+          "Twist": 2,
+          "nav_msgs": 2,
+          "*": 2,
+          "libraries": 2,
+          "Path": 2,
+          "tf2_ros": 2,
+          "isfile": 2,
+          "listdir": 2,
+          "os": 2,
+          "time": 1,
+          "sleep": 1,
+          "Wmr": 1,
+          "PublisherOdom": 1,
+          "wmr": 1,
+          "PoseStamped": 1,
+          "numpy": 1,
+          "cv2": 1,
+          "pyplot": 1,
+          "matplotlib": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 109,
+        "packages": {
+          "crate": 45,
+          "core": 33,
+          "std": 28,
+          "super": 19,
+          "serde": 19,
+          "tracing": 12,
+          "alloc": 10,
+          "compact_str": 9,
+          "aux11": 8,
+          "tokio": 7,
+          "panic_itm": 7,
+          "thiserror": 6,
+          "semver": 6,
+          "stm32f3_discovery": 6,
+          "url": 5,
+          "rand_core": 4,
+          "futures": 4,
+          "axum": 4,
+          "tempfile": 4,
+          "futures_util": 4,
+          "miette": 4,
+          "cargo_toml": 4,
+          "proc_macro": 3,
+          "bleps": 3,
+          "p256": 3,
+          "embedded_io_blocking": 3,
+          "serde_json": 3,
+          "tera": 3,
+          "once_cell": 3,
+          "bytes": 3,
+          "strum_macros": 3,
+          "normalize_path": 3,
+          "tinytemplate": 3,
+          "aux5": 3,
+          "heapless": 3,
+          "esp_backtrace": 2,
+          "syn": 2,
+          "quote": 2,
+          "binstalk_types": 2,
+          "tar": 2,
+          "detect_targets": 2,
+          "home": 2,
+          "fs_lock": 2,
+          "crates_io_api": 2,
+          "stm32f3xx_hal": 2,
+          "f3": 2,
+          "cortex_m": 2,
+          "enumset": 2,
+          "num_enum": 2,
+          "esp32c6_hal": 1,
+          "proc_macro_error": 1,
+          "bleps_macros": 1,
+          "critical_section": 1,
+          "cmac": 1,
+          "command": 1,
+          "event": 1,
+          "acl": 1,
+          "bitfield": 1,
+          "esp32s3_hal": 1,
+          "esp_wifi": 1,
+          "esp_println": 1,
+          "embedded_io_adapters": 1,
+          "tower_http": 1,
+          "fxhash": 1,
+          "async_extracter": 1,
+          "digest": 1,
+          "scopeguard": 1,
+          "xz2": 1,
+          "zip": 1,
+          "zstd": 1,
+          "bzip2": 1,
+          "flate2": 1,
+          "TarBasedFmt": 1,
+          "httpdate": 1,
+          "tower": 1,
+          "reqwest": 1,
+          "crate_version_source": 1,
+          "SourceType": 1,
+          "version": 1,
+          "visitor": 1,
+          "RemoteError": 1,
+          "DownloadError": 1,
+          "BinstallError": 1,
+          "binstalk_downloader": 1,
+          "hosting": 1,
+          "strum": 1,
+          "RepositoryHost": 1,
+          "jobslot": 1,
+          "signal": 1,
+          "aux6": 1,
+          "aux7": 1,
+          "aux8": 1,
+          "aux9": 1,
+          "monotimer": 1,
+          "hal": 1,
+          "aux14": 1,
+          "aux15": 1,
+          "aux16": 1,
+          "pg": 1,
+          "proc_macro2": 1,
+          "semihosting": 1,
+          "defmt_rtt": 1,
+          "panic_probe": 1,
+          "esp_hal": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "SergioGasquez/advent-of-code-2019",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/autonomous-mobile-robot",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/backtrace-defmt-example",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/biometric-systems",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/bleps",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/blessed-rs",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/cargo-binstall",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/cppoker",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/daq",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/discovery",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/embedded-svc",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/embedded-test",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "SergioGasquez/embedded-test-example",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Rust"
+        ]
+      }
+    ]
+  }
+}

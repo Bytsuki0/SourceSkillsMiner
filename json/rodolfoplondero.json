@@ -1,0 +1,590 @@
+{
+  "username": "rodolfoplondero",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Adaptability": {
+      "score": 0.324488,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.774,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 7,
+        "topic_entropy_bits": 2.3219,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "rodolfoplondero/alurakut": 0.4939
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5995129846153846,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        147209,
+        116
+      ],
+      "Dart": [
+        44120,
+        1
+      ],
+      "Swift": [
+        1006,
+        0
+      ],
+      "Kotlin": [
+        67081,
+        29
+      ],
+      "Objective-C": [
+        94,
+        0
+      ],
+      "JavaScript": [
+        12239,
+        6
+      ],
+      "Python": [
+        261551,
+        37
+      ],
+      "HTML": [
+        219265,
+        37
+      ],
+      "CSS": [
+        15315,
+        0
+      ],
+      "Java": [
+        116,
+        0
+      ],
+      "PHP": [
+        3788,
+        0
+      ],
+      "C": [
+        2752,
+        3
+      ],
+      "Rich Text Format": [
+        1591,
+        1
+      ],
+      "Makefile": [
+        1572,
+        1
+      ],
+      "C++": [
+        210,
+        0
+      ],
+      "Batchfile": [
+        22,
+        0
+      ],
+      "TypeScript": [
+        286443,
+        15
+      ],
+      "Shell": [
+        55,
+        0
+      ],
+      "MATLAB": [
+        0,
+        0
+      ],
+      "PowerShell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 246,
+    "total_lines": 1064429,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 147209,
+        "commits": 116
+      },
+      {
+        "language": "Python",
+        "lines": 261551,
+        "commits": 37
+      },
+      {
+        "language": "HTML",
+        "lines": 219265,
+        "commits": 37
+      },
+      {
+        "language": "Kotlin",
+        "lines": 67081,
+        "commits": 29
+      },
+      {
+        "language": "TypeScript",
+        "lines": 286443,
+        "commits": 15
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rodolfoplondero",
+    "analysis_date": "2026-05-10T12:37:54.411482",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 202,
+    "languages": {
+      "C": {
+        "files_scanned": 4,
+        "packages": {
+          "udf.h": 3,
+          "ctype.h": 2,
+          "stdio.h": 2,
+          "math.h": 2,
+          "string.h": 2,
+          "stdlib.h": 2,
+          "prop.h": 2,
+          "version.h": 2,
+          "dpm.h": 2
+        }
+      },
+      "C#": {
+        "files_scanned": 14,
+        "packages": {
+          "RocketseatAuction.API.Entities": 10,
+          "RocketseatAuction.API.Contracts": 7,
+          "RocketseatAuction.API.UseCases.Auctions.GetCurrent": 5,
+          "RocketseatAuction.API.Repositories": 3,
+          "RocketseatAuction.API.Services": 3,
+          "Microsoft.AspNetCore.Mvc": 2,
+          "RocketseatAuction.API.Filtros": 2,
+          "RocketseatAuction.API.Communication.Requests": 2,
+          "FluentAssertions": 2,
+          "Xunit": 2,
+          "Moq": 2,
+          "System.ComponentModel.DataAnnotations.Schema": 1,
+          "Microsoft.AspNetCore.Mvc.Filters": 1,
+          "Microsoft.OpenApi.Models": 1,
+          "RocketseatAuction.API.Repositories.DataAccess": 1,
+          "Microsoft.EntityFrameworkCore": 1,
+          "System": 1,
+          "RocketseatAuction.API.Enums": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "iostream": 1,
+          "fstream": 1,
+          "std": 1,
+          "<fstream>": 1,
+          "<algorithm>": 1,
+          "<iostream>": 1,
+          "cmath": 1,
+          "functions.c": 1,
+          "algorithm": 1,
+          "namespace": 1,
+          "<string>": 1,
+          "string": 1,
+          "<cmath>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 7,
+        "packages": {
+          "flutter": 7,
+          "difficulty.dart": 1,
+          "screens/initial_screen.dart": 1,
+          "data/task_inherited.dart": 1,
+          "form_screen.dart": 1,
+          "flutter_test": 1,
+          "alura_flutter_task_app": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 9,
+        "packages": {
+          "styled-components": 6,
+          "next": 2,
+          "react": 2,
+          "expo": 1,
+          "fs": 1,
+          "path": 1,
+          "express": 1,
+          "shelljs": 1,
+          "body-parser": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 3,
+        "packages": {
+          "kotlin.math": 2,
+          "io.flutter": 1,
+          "com.example": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 4,
+        "packages": {
+          "Illuminate\\Database\\Schema\\Blueprint": 2,
+          "Illuminate\\Database\\Migrations\\Migration": 2,
+          "Illuminate\\Database\\Seeder": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 61,
+        "packages": {
+          "py_dss_interface": 24,
+          "os": 21,
+          "numpy": 17,
+          "sys": 17,
+          "Base": 15,
+          "pandas": 12,
+          "PyQt5": 11,
+          "matplotlib": 10,
+          "typing": 10,
+          "pathlib": 8,
+          "List": 8,
+          "plotly": 7,
+          "*": 6,
+          "math": 5,
+          "time": 5,
+          "ctypes": 5,
+          "uic": 4,
+          "Ui": 4,
+          "QApplication": 4,
+          "csv": 4,
+          "re": 4,
+          "datetime": 3,
+          "locale": 3,
+          "Circuit": 3,
+          "Bus": 3,
+          "LoadShapes": 3,
+          "Solution": 3,
+          "Monitors": 3,
+          "Text": 3,
+          "Transformers": 3,
+          "Lines": 3,
+          "LineCodes": 3,
+          "Loads": 3,
+          "Bridge": 3,
+          "ClassesDSS": 3,
+          "tkinter": 3,
+          "QFont": 2,
+          "QLineEdit": 2,
+          "make_subplots": 2,
+          "QMessageBox": 2,
+          "core": 2,
+          "src": 2,
+          "QtWidgets": 2,
+          "QtCore": 2,
+          "json": 2,
+          "Tuple": 2,
+          "Line": 2,
+          "CktElements": 2,
+          "FontProperties": 2,
+          "makepy": 2,
+          "win32com": 2,
+          "ttk": 2,
+          "messagebox": 2,
+          "rcParams": 1,
+          "app": 1,
+          "QLabel": 1,
+          "random": 1,
+          "QMainWindow": 1,
+          "app2": 1,
+          "getcwd": 1,
+          "functions": 1,
+          "configparser": 1,
+          "ssl": 1,
+          "urllib": 1,
+          "sanitize_filename": 1,
+          "pathvalidate": 1,
+          "jinja2": 1,
+          "absolute_import": 1,
+          "print_function": 1,
+          "subprocess": 1,
+          "unicode_literals": 1,
+          "abspath": 1,
+          "join": 1,
+          "exists": 1,
+          "__future__": 1,
+          "dirname": 1,
+          "DSSInterface": 1,
+          "ISources": 1,
+          "RegControls": 1,
+          "Storages": 1,
+          "Settings": 1,
+          "SwtControls": 1,
+          "Reclosers": 1,
+          "CapControls": 1,
+          "PVSystems": 1,
+          "DSSElement": 1,
+          "DSSExecutive": 1,
+          "DSSProgress": 1,
+          "Fuses": 1,
+          "CMathLib": 1,
+          "Parallel": 1,
+          "Capacitors": 1,
+          "CktElement": 1,
+          "Generators": 1,
+          "ActiveClass": 1,
+          "Parser": 1,
+          "Sensors": 1,
+          "PDElements": 1,
+          "Relays": 1,
+          "XYCurves": 1,
+          "Reactors": 1,
+          "ErrorOpenDSS": 1,
+          "CtrlQueue": 1,
+          "VSources": 1,
+          "DSSProperties": 1,
+          "Topology": 1,
+          "Meters": 1,
+          "dataclass": 1,
+          "ActiveClassS": 1,
+          "dataclasses": 1,
+          "ActiveClassI": 1,
+          "ActiveClassV": 1,
+          "BusF": 1,
+          "BusS": 1,
+          "BusI": 1,
+          "BusV": 1,
+          "CMathLibF": 1,
+          "CMathLibV": 1,
+          "Error": 1,
+          "cmath": 1,
+          "CapControlsV": 1,
+          "CapControlsI": 1,
+          "CapControlsF": 1,
+          "CapControlsS": 1,
+          "CapacitorsV": 1,
+          "CapacitorsI": 1,
+          "CapacitorsF": 1,
+          "CapacitorsS": 1,
+          "pytest": 1,
+          "ControlModes": 1,
+          "traceback": 1,
+          "StringIO": 1,
+          "tkFileDialog": 1,
+          "io": 1,
+          "ImageTk": 1,
+          "pickle": 1,
+          "Image": 1,
+          "Tkinter": 1,
+          "PIL": 1,
+          "string": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 1,
+        "packages": {
+          "UIKit": 1,
+          "Flutter": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "react-native-svg": 1,
+          "react": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 26,
+        "packages": {
+          "native-base": 24,
+          "react-navigation": 7,
+          "react": 7,
+          "react-native": 5,
+          "phosphor-react-native": 4,
+          "expo": 2,
+          "expo-google-fonts": 1,
+          "PRIMARY": 1,
+          "o": 1,
+          "country-list": 1,
+          "dayjs": 1,
+          "react-native-country-flag": 1,
+          "expo-auth-session": 1,
+          "expo-web-browser": 1,
+          "typescript": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rodolfoplondero/alura-flutter-task-app",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/alurakut",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/calculo-energia-incidente",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/curso-kotlin-udemy",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/Estados-Cidades-Laravel-Seed",
+        "files_analyzed": 4,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/exercicios-python",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/mestrado-codes",
+        "files_analyzed": 23,
+        "languages_found": [
+          "C",
+          "C++",
+          "Python"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/nlw-copa",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/opendss-codes",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/plot_residuals",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/py_automated_folders",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/py_dss_interface",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/py_dss_vis",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/ResponseToFile-Postman",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/RocketseatAuction",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "rodolfoplondero/Simulacao_SST",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

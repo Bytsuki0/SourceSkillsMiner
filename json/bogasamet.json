@@ -1,0 +1,914 @@
+{
+  "username": "bogasamet",
+  "areas": {
+    "OSS": {
+      "score": -0.6366577938341982,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.5450133092487028
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Adaptability": {
+      "score": -0.5,
+      "details": {
+        "language_diversity_score": 0.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 0,
+        "language_transitions": 9,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.2939982254335063,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        1916832,
+        0
+      ],
+      "Shell": [
+        3841301,
+        0
+      ],
+      "Go": [
+        2452460,
+        0
+      ],
+      "Python": [
+        8878827,
+        0
+      ],
+      "HCL": [
+        853442,
+        0
+      ],
+      "Dockerfile": [
+        593027,
+        0
+      ],
+      "Jinja": [
+        416487,
+        0
+      ],
+      "PowerShell": [
+        362908,
+        0
+      ],
+      "Makefile": [
+        166860,
+        0
+      ],
+      "HTML": [
+        170782,
+        0
+      ],
+      "CSS": [
+        221116,
+        0
+      ],
+      "Jupyter Notebook": [
+        16152340,
+        0
+      ],
+      "Roff": [
+        98101,
+        0
+      ],
+      "Java": [
+        5184,
+        0
+      ],
+      "R": [
+        3586,
+        0
+      ],
+      "Batchfile": [
+        165,
+        0
+      ],
+      "C": [
+        128,
+        0
+      ],
+      "jq": [
+        51,
+        0
+      ],
+      "Vue": [
+        244,
+        0
+      ],
+      "Handlebars": [
+        152,
+        0
+      ],
+      "TypeScript": [
+        337590,
+        0
+      ],
+      "PLpgSQL": [
+        4979,
+        0
+      ]
+    },
+    "language_count": 22,
+    "total_commits": 0,
+    "total_lines": 36476562,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 1916832,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 3841301,
+        "commits": 0
+      },
+      {
+        "language": "Go",
+        "lines": 2452460,
+        "commits": 0
+      },
+      {
+        "language": "Python",
+        "lines": 8878827,
+        "commits": 0
+      },
+      {
+        "language": "HCL",
+        "lines": 853442,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "bogasamet",
+    "analysis_date": "2026-05-10T12:47:56.470504",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 336,
+    "languages": {
+      "C#": {
+        "files_scanned": 11,
+        "packages": {
+          "Pgvector": 4,
+          "eShop.Basket.API.IntegrationEvents.EventHandling.Events": 2,
+          "eShop.Basket.API.Repositories": 2,
+          "eShop.Basket.API.Model": 2,
+          "Microsoft.EntityFrameworkCore.Migrations": 2,
+          "Microsoft.EntityFrameworkCore.Infrastructure": 2,
+          "Npgsql.EntityFrameworkCore.PostgreSQL.Metadata": 2,
+          "Microsoft.EntityFrameworkCore.Storage.ValueConversion": 2,
+          "Microsoft.EntityFrameworkCore": 2,
+          "eShop.Catalog.API.Infrastructure": 2,
+          "eShop.Basket.API.IntegrationEvents.EventHandling": 1,
+          "eShop.Basket.API.Extensions": 1,
+          "var": 1,
+          "System.ComponentModel.DataAnnotations": 1,
+          "Microsoft.AspNetCore.Mvc": 1,
+          "Microsoft.AspNetCore.Http.HttpResults": 1,
+          "Pgvector.EntityFrameworkCore": 1,
+          "Microsoft.AspNetCore.Mvc.Infrastructure": 1,
+          "Microsoft.Extensions.AI": 1,
+          "OpenAI": 1,
+          "System.Reflection": 1,
+          "eShop.Catalog.API.Services": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 7,
+        "packages": {
+          "benchmarks/cpp/bench.h": 3,
+          "MyForm.h": 2,
+          "flatbuffers": 2,
+          "namespace": 2,
+          "benchmarks/cpp/raw/raw_bench.h": 2,
+          "benchmarks/cpp/flatbuffers/fb_bench.h": 2,
+          "<cstdint>": 2,
+          "memory": 2,
+          "cstdint": 2,
+          "<memory>": 2,
+          "QWidget": 1,
+          "QApplication": 1,
+          "<QWidget>": 1,
+          "<QApplication>": 1,
+          "jni.h": 1,
+          "search.h": 1,
+          "string": 1,
+          "<jni.h>": 1,
+          "<search.h>": 1,
+          "generated/animal_generated.h": 1,
+          "com::fbs::app": 1,
+          "<string>": 1,
+          "<gtest/gtest.h>": 1,
+          "benchmark/benchmark.h": 1,
+          "<benchmark/benchmark.h>": 1,
+          "gtest/gtest.h": 1,
+          "flatbuffers/flatbuffers.h": 1,
+          "benchmarks/cpp/flatbuffers/bench_generated.h": 1,
+          "benchmarks_flatbuffers": 1,
+          "cstring": 1,
+          "<cstring>": 1,
+          "<cstdlib>": 1,
+          "cstdlib": 1,
+          "<iostream>": 1,
+          "flatbuffers/util.h": 1,
+          "iostream": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 6,
+        "packages": {
+          "flatbuffers/flatbuffers.h": 2,
+          "<cstdint>": 2,
+          "cstdint": 2,
+          "memory": 2,
+          "benchmarks/cpp/bench.h": 2,
+          "<memory>": 2,
+          "QWidget": 1,
+          "QLabel": 1,
+          "<QLabel>": 1,
+          "<QPushButton>": 1,
+          "QLineEdit": 1,
+          "<QWidget>": 1,
+          "QPushButton": 1,
+          "<QLineEdit>": 1,
+          "include/flatbuffers/flatbuffers.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 10,
+        "packages": {
+          "dart:typed_data": 9,
+          "flat_buffers": 6,
+          "dart:convert": 3,
+          "test": 3,
+          "dart:collection": 2,
+          "types.dart": 2,
+          "my_game.sample": 1,
+          "dart:math": 1,
+          "dart:io": 1,
+          "path": 1,
+          "test_reflective_loader": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 24,
+        "packages": {
+          "fmt": 24,
+          "github.com/dghubble/go-twitter/twitter": 4,
+          "github.com/dghubble/oauth1": 4,
+          "log": 4,
+          "os": 4,
+          "github.com/gruntwork-io/terratest/modules/terraform": 1,
+          "time": 1,
+          "testing": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 6,
+        "packages": {
+          "url": 3,
+          "path": 2,
+          "vm": 1,
+          "the": 1,
+          "module": 1,
+          "objection": 1,
+          "http-errors": 1,
+          "express-async-errors": 1,
+          "cors": 1,
+          "express": 1,
+          "crypto": 1,
+          "node:url": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 2,
+        "packages": {
+          "com.google": 2,
+          "java.nio": 2,
+          "com.fbs": 2,
+          "android.annotation": 1,
+          "android.widget": 1,
+          "android.os": 1,
+          "androidx.appcompat": 1,
+          "com.flatbuffers": 1,
+          "kotlin.math": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 193,
+        "packages": {
+          "typing": 57,
+          "os": 53,
+          "json": 28,
+          "numpy": 25,
+          "python": 23,
+          "fastmcp": 20,
+          "logging": 19,
+          "alphafold": 19,
+          "__future__": 18,
+          "agno": 18,
+          "collections": 17,
+          "absolute_import": 17,
+          "Agent": 17,
+          "asyncio": 15,
+          "absl": 15,
+          "torch": 15,
+          "FastMCP": 15,
+          "re": 14,
+          "sys": 13,
+          "ApiHandler": 13,
+          "pandas": 13,
+          "print_function": 13,
+          "List": 13,
+          "utils": 12,
+          "config": 12,
+          "tensorflow": 12,
+          "division": 12,
+          "Any": 11,
+          "pathlib": 11,
+          "labml": 11,
+          "labml_nn": 11,
+          "streamlit": 11,
+          "datetime": 10,
+          "PrintStyle": 10,
+          "subprocess": 10,
+          "residue_constants": 10,
+          "argparse": 10,
+          "time": 9,
+          "dataclasses": 9,
+          "labml_helpers": 9,
+          "pydantic": 9,
+          "atproto_mcp": 9,
+          "random": 8,
+          "io": 8,
+          "OpenAIChat": 8,
+          "logger": 8,
+          "model": 8,
+          "BackupService": 7,
+          "Dict": 7,
+          "tempfile": 7,
+          "sagemaker": 7,
+          "nn": 7,
+          "Module": 7,
+          "Client": 7,
+          "Optional": 6,
+          "parsers": 6,
+          "boto3": 6,
+          "autogluon": 6,
+          "experiment": 6,
+          "Path": 6,
+          "BaseModel": 6,
+          "loguru": 6,
+          "tokenization": 6,
+          "unittest": 6,
+          "models": 5,
+          "agent": 5,
+          "dotenv": 5,
+          "werkzeug": 5,
+          "copy": 5,
+          "glob": 5,
+          "app": 5,
+          "modeling": 5,
+          "six": 5,
+          "optimization": 5,
+          "load_dotenv": 4,
+          "settings": 4,
+          "files": 4,
+          "AgentContext": 4,
+          "absltest": 4,
+          "functools": 4,
+          "shutil": 4,
+          "pickle": 4,
+          "pipelines": 4,
+          "TabularDataset": 4,
+          "option": 4,
+          "Tuple": 4,
+          "math": 4,
+          "FirecrawlTools": 4,
+          "netmiko": 3,
+          "ConnectHandler": 3,
+          "dataclass": 3,
+          "Enum": 3,
+          "enum": 3,
+          "Tool": 3,
+          "nest_asyncio": 3,
+          "string": 3,
+          "persist_chat": 3,
+          "openai": 3,
+          "include_patterns": 3,
+          "include_hidden": 3,
+          "FileStorage": 3,
+          "parameterized": 3,
+          "pipeline": 3,
+          "itertools": 3,
+          "contextlib": 3,
+          "ast": 3,
+          "sklearn": 3,
+          "image_uris": 3,
+          "requests": 3,
+          "pprint": 3,
+          "flask": 3,
+          "agents": 3,
+          "DuckDuckGoTools": 3,
+          "the": 3,
+          "Field": 3,
+          "ExaTools": 3,
+          "scripts": 3,
+          "Annotated": 3,
+          "paramiko": 2,
+          "getpass": 2,
+          "langchain_core": 2,
+          "dirty_json": 2,
+          "runtime": 2,
+          "browser_use": 2,
+          "VariablesPlugin": 2,
+          "base64": 2,
+          "scipy": 2,
+          "Mapping": 2,
+          "Bio": 2,
+          "protein": 2,
+          "msa_pairing": 2,
+          "cast": 2,
+          "jackhmmer": 2,
+          "abc": 2,
+          "Sequence": 2,
+          "urllib": 2,
+          "jax": 2,
+          "r3": 2,
+          "tarfile": 2,
+          "Estimator": 2,
+          "Pipeline": 2,
+          "CSVSerializer": 2,
+          "Predictor": 2,
+          "get_pipeline_driver": 2,
+          "yaml": 2,
+          "StringIO": 2,
+          "TabularPredictor": 2,
+          "prettytable": 2,
+          "warnings": 2,
+          "PrettyTable": 2,
+          "Counter": 2,
+          "timeit": 2,
+          "default_timer": 2,
+          "matplotlib": 2,
+          "signal": 2,
+          "traceback": 2,
+          "inspect": 2,
+          "AccuracyDirect": 2,
+          "SimpleTrainValidConfigs": 2,
+          "BaseConfigs": 2,
+          "torchvision": 2,
+          "DenoiseDiffusion": 2,
+          "PIL": 2,
+          "Image": 2,
+          "OpenAI": 2,
+          "autogen": 2,
+          "Gemini": 2,
+          "dedent": 2,
+          "textwrap": 2,
+          "Qdrant": 2,
+          "PDFKnowledgeBase": 2,
+          "this": 2,
+          "tools": 2,
+          "ReasoningTools": 2,
+          "hotel_search_agent": 2,
+          "flight_search_agent": 2,
+          "setup_logging": 2,
+          "pulumi_aws": 2,
+          "Flask": 2,
+          "CSRFProtect": 2,
+          "make_response": 2,
+          "flask_wtf": 2,
+          "db": 2,
+          "basedir": 2,
+          "main": 2,
+          "atproto": 2,
+          "ConanFile": 2,
+          "conans": 2,
+          "cmd": 1,
+          "RepairableException": 1,
+          "uuid": 1,
+          "DirtyJson": 1,
+          "Localization": 1,
+          "Unknown": 1,
+          "OrderedDict": 1,
+          "call_extensions": 1,
+          "DeferredTask": 1,
+          "SystemMessage": 1,
+          "NotificationManager": 1,
+          "Callable": 1,
+          "extract_tools": 1,
+          "Extension": 1,
+          "listener": 1,
+          "supervisor": 1,
+          "AgentConfig": 1,
+          "preload": 1,
+          "initialize_mcp": 1,
+          "run_loop": 1,
+          "yt_dlp": 1,
+          "get_provider_config": 1,
+          "Embeddings": 1,
+          "RateLimiter": 1,
+          "approximate_tokens": 1,
+          "ChatOllama": 1,
+          "SentenceTransformer": 1,
+          "completion": 1,
+          "sentence_transformers": 1,
+          "ChatGenerationChunk": 1,
+          "ModelResponse": 1,
+          "litellm": 1,
+          "langchain": 1,
+          "SimpleChatModel": 1,
+          "kokoro_tts": 1,
+          "threading": 1,
+          "initialize_agent": 1,
+          "initialize": 1,
+          "secure_filename": 1,
+          "remove_chat": 1,
+          "save_tmp_chats": 1,
+          "load_tmp_chats": 1,
+          "confidence": 1,
+          "version": 1,
+          "mmcif_metadata": 1,
+          "MMCIFParser": 1,
+          "PDBParser": 1,
+          "Structure": 1,
+          "MMCIFIO": 1,
+          "Final": 1,
+          "tree": 1,
+          "template_aatype": 1,
+          "Iterable": 1,
+          "SCOPData": 1,
+          "PDB": 1,
+          "hhsearch": 1,
+          "hhblits": 1,
+          "msa_identifiers": 1,
+          "templates": 1,
+          "hmmsearch": 1,
+          "feature_processing": 1,
+          "kalign": 1,
+          "mmcif_parsing": 1,
+          "hmmbuild": 1,
+          "futures": 1,
+          "request": 1,
+          "concurrent": 1,
+          "geometry": 1,
+          "all_atom": 1,
+          "mean_squared_error": 1,
+          "xgboost": 1,
+          "ConditionLessThanOrEqualTo": 1,
+          "SKLearnProcessor": 1,
+          "TrainingInput": 1,
+          "RegisterModel": 1,
+          "AutoGluonTraining": 1,
+          "PropertyFile": 1,
+          "train_test_split": 1,
+          "StandardScaler": 1,
+          "SimpleImputer": 1,
+          "ColumnTransformer": 1,
+          "Framework": 1,
+          "MXNetPredictor": 1,
+          "StringDeserializer": 1,
+          "MXNetModel": 1,
+          "setuptools": 1,
+          "pytest": 1,
+          "deserializers": 1,
+          "sagemaker_utils": 1,
+          "PandasDeserializer": 1,
+          "retrieve_latest_framework_version": 1,
+          "DIR_PARAM_NAME": 1,
+          "fw_utils": 1,
+          "MultiModalSerializer": 1,
+          "serializers": 1,
+          "ABC": 1,
+          "SimpleBaseDeserializer": 1,
+          "StrictVersion": 1,
+          "distutils": 1,
+          "REGRESSION": 1,
+          "BytesIO": 1,
+          "get_pred_from_proba_df": 1,
+          "NumpySerializer": 1,
+          "islice": 1,
+          "networkx": 1,
+          "FileWriter": 1,
+          "BINARY": 1,
+          "shap": 1,
+          "classification_report": 1,
+          "seaborn": 1,
+          "cycle": 1,
+          "smdebug": 1,
+          "label_binarize": 1,
+          "auc": 1,
+          "ipywidgets": 1,
+          "IFrame": 1,
+          "IPython": 1,
+          "HTML": 1,
+          "BayesianNetwork": 1,
+          "a": 1,
+          "causalnex": 1,
+          "StructureModel": 1,
+          "defaultdict": 1,
+          "InferenceEngine": 1,
+          "predictor": 1,
+          "path": 1,
+          "print_files_in_path": 1,
+          "NLPAutoRegressionConfigs": 1,
+          "FTA": 1,
+          "MultiHeadAttention": 1,
+          "subsequent_mask": 1,
+          "Dataset": 1,
+          "tracker": 1,
+          "ParityDataset": 1,
+          "DataLoader": 1,
+          "ParityPonderGRU": 1,
+          "MNISTConfigs": 1,
+          "Squash": 1,
+          "monit": 1,
+          "NewType": 1,
+          "altair": 1,
+          "IndicatorCollection": 1,
+          "analytics": 1,
+          "InfoSet": 1,
+          "History": 1,
+          "InfoSetSaver": 1,
+          "clone_module_list": 1,
+          "ConvMixerLayer": 1,
+          "CIFAR10Configs": 1,
+          "gather": 1,
+          "Configs": 1,
+          "imageio": 1,
+          "pyplot": 1,
+          "to_pil_image": 1,
+          "DeviceConfigs": 1,
+          "UNet": 1,
+          "lab": 1,
+          "Autoencoder": 1,
+          "CLIPTextEmbedder": 1,
+          "UNetModel": 1,
+          "import": 1,
+          "ChatOpenAI": 1,
+          "langchain_openai": 1,
+          "ConversableAgent": 1,
+          "chess": 1,
+          "Groq": 1,
+          "Claude": 1,
+          "get_tic_tac_toe_players": 1,
+          "firecrawl": 1,
+          "FirecrawlApp": 1,
+          "YFinanceTools": 1,
+          "SqliteAgentStorage": 1,
+          "Playground": 1,
+          "OpenAIEmbedder": 1,
+          "DocumentChunking": 1,
+          "OllamaEmbedder": 1,
+          "Ollama": 1,
+          "PyPDF2": 1,
+          "EmailTools": 1,
+          "pytz": 1,
+          "pdf_viewer": 1,
+          "phi": 1,
+          "Literal": 1,
+          "ZoomTool": 1,
+          "streamlit_pdf_viewer": 1,
+          "agency_swarm": 1,
+          "these": 1,
+          "pprint_run_response": 1,
+          "SerpApiTools": 1,
+          "Action": 1,
+          "ArxivTools": 1,
+          "composio_phidata": 1,
+          "get_google_flights": 1,
+          "emojis": 1,
+          "scrape_website": 1,
+          "HotelResult": 1,
+          "kayak_hotel_url_generator": 1,
+          "TypeVar": 1,
+          "ValidationError": 1,
+          "destination_agent": 1,
+          "budget_agent": 1,
+          "itinerary_agent": 1,
+          "dining_agent": 1,
+          "Team": 1,
+          "router": 1,
+          "initialize_db_pool": 1,
+          "asynccontextmanager": 1,
+          "services": 1,
+          "CORSMiddleware": 1,
+          "FastAPI": 1,
+          "fastapi": 1,
+          "OpenRouter": 1,
+          "and": 1,
+          "uvicorn": 1,
+          "api": 1,
+          "String": 1,
+          "sqlalchemy": 1,
+          "DeclarativeBase": 1,
+          "codecs": 1,
+          "csv": 1,
+          "run_classifier": 1,
+          "tensorflow_hub": 1,
+          "unicodedata": 1,
+          "doctest": 1,
+          "choice": 1,
+          "question_utils": 1,
+          "optparse": 1,
+          "get_question_list": 1,
+          "get_answered_questions": 1,
+          "tests": 1,
+          "TestCase": 1,
+          "syntax_lint": 1,
+          "pulumi_awsx": 1,
+          "pulumi": 1,
+          "NotFound": 1,
+          "httpx": 1,
+          "ProfileInfo": 1,
+          "FollowResult": 1,
+          "_atproto": 1,
+          "BaseSettings": 1,
+          "pydantic_settings": 1,
+          "TypedDict": 1,
+          "AzureProvider": 1,
+          "GitHubProvider": 1,
+          "GoogleProvider": 1,
+          "WorkOSProvider": 1,
+          "pyautogui": 1,
+          "File": 1,
+          "aiohttp": 1,
+          "TextContent": 1,
+          "mcp": 1,
+          "asyncpg": 1,
+          "AsyncOpenAI": 1,
+          "pgvector": 1,
+          "importance": 1,
+          "pydantic_ai": 1,
+          "register_vector": 1,
+          "urlparse": 1,
+          "ConanMultiPackager": 1,
+          "cpt": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 3,
+        "packages": {
+          "PackageDescription": 2,
+          "FlatBuffers": 1,
+          "Benchmark": 1,
+          "CoreFoundation": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 5,
+        "packages": {
+          "playwright": 5,
+          "console": 1,
+          "dotenv": 1,
+          "path": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "bogasamet/90DaysOfDevOps",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "bogasamet/agent-zero",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "bogasamet/alphafold",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bogasamet/amazon-sagemaker-examples",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bogasamet/annotated_deep_learning_paper_implementations",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bogasamet/automatisch",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "bogasamet/awesome-llm-apps",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bogasamet/bert",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bogasamet/Catalogue",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "bogasamet/devops-exercises",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bogasamet/eShop",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "bogasamet/fastmcp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bogasamet/flatbuffers",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Python",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

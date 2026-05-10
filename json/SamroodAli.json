@@ -1,0 +1,443 @@
+{
+  "username": "SamroodAli",
+  "areas": {
+    "OSS": {
+      "score": 0.07692307692307687,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.6153846153846154,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": 0.1375,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.6,
+        "distinct_primary_languages": 7,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 10,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "samroodali/appointments-backend": 0.30394473684210527,
+        "samroodali/appointments-frontend": 0.342355
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4749358974358975,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        67673,
+        863
+      ],
+      "Ruby": [
+        100816,
+        240
+      ],
+      "HTML": [
+        9506,
+        235
+      ],
+      "SCSS": [
+        2577,
+        27
+      ],
+      "Shell": [
+        1747,
+        66
+      ],
+      "CSS": [
+        32343,
+        28
+      ],
+      "Dockerfile": [
+        2328,
+        6
+      ],
+      "TypeScript": [
+        10830,
+        377
+      ],
+      "Lua": [
+        153,
+        0
+      ],
+      "PLpgSQL": [
+        0,
+        93
+      ],
+      "Go": [
+        0,
+        2
+      ],
+      "Rust": [
+        0,
+        0
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 1937,
+    "total_lines": 227973,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 67673,
+        "commits": 863
+      },
+      {
+        "language": "TypeScript",
+        "lines": 10830,
+        "commits": 377
+      },
+      {
+        "language": "Ruby",
+        "lines": 100816,
+        "commits": 240
+      },
+      {
+        "language": "HTML",
+        "lines": 9506,
+        "commits": 235
+      },
+      {
+        "language": "PLpgSQL",
+        "lines": 0,
+        "commits": 93
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "SamroodAli",
+    "analysis_date": "2026-05-10T06:15:39.015341",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 289,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 61,
+        "packages": {
+          "path": 14,
+          "react-test-renderer": 13,
+          "testing-library": 13,
+          "fs": 12,
+          "stream": 10,
+          "axios": 7,
+          "hapi-pino": 6,
+          "hapi": 6,
+          "http": 5,
+          "morgan": 5,
+          "body-parser": 5,
+          "express": 5,
+          "minimist": 5,
+          "mongodb": 4,
+          "cors": 3,
+          "zlib": 3,
+          "react-dom": 2,
+          "crypto": 2,
+          "child_process": 2,
+          "langchain": 1,
+          "readline": 1,
+          "dotenv": 1,
+          "cheerio": 1,
+          "autoprefixer": 1,
+          "tailwindcss": 1,
+          "gulp-postcss": 1,
+          "gulp": 1,
+          "gulp-watch": 1,
+          "gulp-sourcemaps": 1,
+          "postcss-preset-env": 1,
+          "day": 1,
+          "fish": 1,
+          "node:process": 1,
+          "serve-handler": 1,
+          "node:fs": 1,
+          "node:readline": 1,
+          "node:path": 1,
+          "node:http": 1,
+          "react": 1,
+          "util": 1,
+          "next": 1,
+          ":": 1,
+          "easy-peasy": 1,
+          "chakra-ui": 1,
+          "reset-css": 1,
+          "semantic-ui-css": 1,
+          "buffer": 1,
+          "get-stdin": 1,
+          "cluster": 1,
+          "os": 1,
+          "multiparty": 1,
+          "caf": 1,
+          "node:net": 1,
+          "node-static-alias": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 21,
+        "packages": {
+          "react": 16,
+          "react-router-dom": 8,
+          "framer-motion": 6,
+          "react-redux": 4,
+          "axios": 3,
+          "react-notifications": 2,
+          "prop-types": 2,
+          "react-query": 1,
+          "react-datepicker": 1,
+          "next": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 1,
+        "packages": {
+          "nvim-ts-autotag": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 8,
+        "packages": {
+          "active_support/core_ext/integer/time": 3,
+          "ActionController::Cookies": 1,
+          "Knock::Authenticable": 1,
+          "ActionController::MimeResponds": 1,
+          "active_record/railtie": 1,
+          "active_job/railtie": 1,
+          "rails/test_unit/railtie": 1,
+          "action_mailbox/engine": 1,
+          "action_controller/railtie": 1,
+          "boot": 1,
+          "active_storage/engine": 1,
+          "action_view/railtie": 1,
+          "rails": 1,
+          "active_model/railtie": 1,
+          "action_mailer/railtie": 1,
+          "action_text/engine": 1,
+          "action_cable/engine": 1,
+          "bundler/setup": 1,
+          "bootsnap/setup": 1,
+          "application": 1,
+          "generic": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 22,
+        "packages": {
+          "prisma": 8,
+          "nexus": 4,
+          "next": 4,
+          "jsonwebtoken": 3,
+          "apollo": 2,
+          "cookie": 2,
+          "bcrypt": 2,
+          "web-vitals": 1,
+          "testing-library": 1,
+          "vite": 1,
+          "crxjs": 1,
+          "path": 1,
+          "Context": 1,
+          "apollo-server-micro": 1,
+          "http": 1,
+          "micro-cors": 1,
+          "format-duration": 1,
+          "swr": 1,
+          "signin": 1,
+          "easy-peasy": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 77,
+        "packages": {
+          "react": 47,
+          "next": 19,
+          "radix-ui": 18,
+          "stackframe": 10,
+          "prisma": 9,
+          "tabler": 8,
+          "lucide-react": 8,
+          "recharts": 6,
+          "chakra-ui": 5,
+          "class-variance-authority": 4,
+          "An": 2,
+          "zod": 2,
+          "dnd-kit": 2,
+          "sonner": 2,
+          "vaul": 2,
+          "testing-library": 1,
+          "react-dom": 1,
+          "apollo": 1,
+          "react-howler": 1,
+          "react-icons": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "samroodali/ai-langchain-rag-nodejs",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "samroodali/appointments-backend",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "samroodali/appointments-frontend",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "samroodali/containers-research",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "samroodali/fem-fox-game",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "samroodali/fullstack-starter-nextjs-neon-drizzle",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "samroodali/fullstack-starter-nextjs-neon-drizzle-v2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "samroodali/fundamentals-of-devops",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "samroodali/javascript-research",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "samroodali/linkedin-connect-chrome-extension",
+        "files_analyzed": 10,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "samroodali/lunar-vim-config",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "samroodali/microservice-blog-app",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "samroodali/multi-projects-script",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "samroodali/my-portfolio-old",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "samroodali/my-spotify",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "samroodali/my-youtube",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "samroodali/node-research",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

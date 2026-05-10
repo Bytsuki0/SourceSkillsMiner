@@ -1,0 +1,579 @@
+{
+  "username": "marialuisarg",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.40235302705461673,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.930452617505002,
+        "week_streak": 0.17307692307692307
+      }
+    },
+    "Adaptability": {
+      "score": 0.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 8,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.19713727207759002,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        10159826,
+        0
+      ],
+      "HTML": [
+        96861,
+        10
+      ],
+      "CSS": [
+        134419,
+        4
+      ],
+      "GLSL": [
+        43095,
+        0
+      ],
+      "C++": [
+        4107252,
+        51
+      ],
+      "CMake": [
+        7389,
+        0
+      ],
+      "C": [
+        108965,
+        42
+      ],
+      "Java": [
+        55475,
+        0
+      ],
+      "Haskell": [
+        303343,
+        0
+      ],
+      "Racket": [
+        55344,
+        0
+      ],
+      "Python": [
+        1699667,
+        4
+      ],
+      "Jasmin": [
+        1743,
+        0
+      ],
+      "ANTLR": [
+        480,
+        0
+      ],
+      "Makefile": [
+        71797,
+        0
+      ],
+      "Batchfile": [
+        6,
+        0
+      ],
+      "Assembly": [
+        3283,
+        12
+      ],
+      "PHP": [
+        44202,
+        1
+      ],
+      "Blade": [
+        20925,
+        0
+      ],
+      "Shell": [
+        405,
+        0
+      ],
+      "SCSS": [
+        13,
+        0
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 124,
+    "total_lines": 16914490,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 4107252,
+        "commits": 51
+      },
+      {
+        "language": "C",
+        "lines": 108965,
+        "commits": 42
+      },
+      {
+        "language": "Assembly",
+        "lines": 3283,
+        "commits": 12
+      },
+      {
+        "language": "HTML",
+        "lines": 96861,
+        "commits": 10
+      },
+      {
+        "language": "CSS",
+        "lines": 134419,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "marialuisarg",
+    "analysis_date": "2026-05-10T12:26:16.915111",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 189,
+    "languages": {
+      "C": {
+        "files_scanned": 31,
+        "packages": {
+          "stdio.h": 31,
+          "<stdio.h>": 31,
+          "stdlib.h": 30,
+          "<stdlib.h>": 30,
+          "math.h": 5,
+          "<math.h>": 5
+        }
+      },
+      "C++": {
+        "files_scanned": 22,
+        "packages": {
+          "<iostream>": 21,
+          "iostream": 21,
+          "namespace": 19,
+          "std": 19,
+          "math.h": 9,
+          "<math.h>": 9,
+          "<string>": 9,
+          "string": 9,
+          "manager.h": 7,
+          "cstring": 7,
+          "<cstring>": 7,
+          "string.h": 6,
+          "<string.h>": 6,
+          "hash.h": 6,
+          "stdlib.h": 3,
+          "<stdlib.h>": 3,
+          "<vector>": 3,
+          "vector": 3,
+          "ShoppingList.h": 2,
+          "ListOfPatients.h": 2,
+          "list.h": 2,
+          "algorithm": 2,
+          "sstream": 2,
+          "config.h": 2,
+          "<algorithm>": 2,
+          "<sstream>": 2,
+          "Edge.h": 2,
+          "Graph.h": 2,
+          "Node.h": 2,
+          "tuple": 2,
+          "<tuple>": 2,
+          "Patient.h": 1,
+          "dirent.h": 1,
+          "<dirent.h>": 1,
+          "sort.h": 1,
+          "metrics.h": 1,
+          "thread": 1,
+          "<thread>": 1,
+          "<set>": 1,
+          "chrono": 1,
+          "<fstream>": 1,
+          "utility": 1,
+          "<utility>": 1,
+          "iomanip": 1,
+          "<chrono>": 1,
+          "<iomanip>": 1,
+          "fstream": 1,
+          "set": 1,
+          "<random>": 1,
+          "unordered_set": 1,
+          "<cmath>": 1,
+          "<unordered_set>": 1,
+          "cmath": 1,
+          "random": 1,
+          "Constructor.hpp": 1,
+          "Population.hpp": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 12,
+        "packages": {
+          "<vector>": 9,
+          "vector": 9,
+          "iostream": 6,
+          "<iostream>": 6,
+          "<random>": 5,
+          "RandomGenerator.hpp": 5,
+          "random": 5,
+          "Graph.hpp": 5,
+          "Node.hpp": 5,
+          "<string>": 5,
+          "string": 5,
+          "algorithm": 4,
+          "Solution.hpp": 4,
+          "<algorithm>": 4,
+          "<unordered_map>": 3,
+          "<memory>": 3,
+          "<cmath>": 3,
+          "unordered_map": 3,
+          "Types.hpp": 3,
+          "memory": 3,
+          "cmath": 3,
+          "<map>": 3,
+          "map": 3,
+          "namespace": 3,
+          "std": 3,
+          "<deque>": 2,
+          "deque": 2,
+          "Utils.hpp": 2,
+          "Constructor.hpp": 2,
+          "Route.hpp": 2,
+          "iterator": 1,
+          "<iterator>": 1,
+          "Crossover.hpp": 1,
+          "<queue>": 1,
+          "<functional>": 1,
+          "Mutation.hpp": 1,
+          "Population.hpp": 1,
+          "functional": 1,
+          "queue": 1,
+          "<unordered_set>": 1,
+          "unordered_set": 1,
+          "tuple": 1,
+          "<tuple>": 1,
+          "iomanip": 1,
+          "<iomanip>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 18,
+        "packages": {
+          "namespace": 16,
+          "<iostream>": 8,
+          "iostream": 8,
+          "<vector>": 5,
+          "vector": 5,
+          "config.h": 4,
+          "<string>": 3,
+          "string": 3,
+          "algorithm": 3,
+          "<fstream>": 3,
+          "<algorithm>": 3,
+          "fstream": 3,
+          "chrono": 3,
+          "<chrono>": 3,
+          "list.h": 2,
+          "node.h": 2,
+          "<filesystem>": 2,
+          "filesystem": 2,
+          "dirent.h": 2,
+          "string.h": 2,
+          "<dirent.h>": 2,
+          "<string.h>": 2,
+          "hash.h": 2,
+          "<queue>": 2,
+          "queue": 2,
+          "<map>": 2,
+          "map": 2,
+          "Edge.h": 2,
+          "Patient.h": 1,
+          "metrics.h": 1,
+          "huffman.h": 1,
+          "trie.h": 1,
+          "<random>": 1,
+          "<stack>": 1,
+          "<cstdlib>": 1,
+          "Node.h": 1,
+          "cstdlib": 1,
+          "random": 1,
+          "<set>": 1,
+          "limits.h": 1,
+          "stack": 1,
+          "<float.h>": 1,
+          "<limits.h>": 1,
+          "iomanip": 1,
+          "list": 1,
+          "<iomanip>": 1,
+          "<list>": 1,
+          "float.h": 1,
+          "set": 1
+        }
+      },
+      "Haskell": {
+        "files_scanned": 5,
+        "packages": {
+          "Utils": 3,
+          "Text.Read": 2,
+          "System.Random": 2,
+          "ComputerAI": 1,
+          "Control.Monad": 1,
+          "GameLogic": 1,
+          "Data.List": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 40,
+        "packages": {
+          "br.ufjf": 30,
+          "java.util": 18,
+          "java.lang": 1,
+          "org.antlr": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 30,
+        "packages": {
+          "Illuminate\\Http\\Request": 12,
+          "App\\Http\\Controllers\\Controller": 8,
+          "App\\Providers\\RouteServiceProvider": 7,
+          "Illuminate\\Support\\Facades\\Auth": 5,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 3,
+          "Illuminate\\Validation\\ValidationException": 2,
+          "Illuminate\\Support\\Facades\\Password": 2,
+          "Illuminate\\Support\\Facades\\Hash": 2,
+          "Illuminate\\Support\\Str": 2,
+          "Illuminate\\Validation\\Rules": 2,
+          "App\\Models\\User": 2,
+          "App\\Models\\Products": 2,
+          "HasFactory": 2,
+          "Illuminate\\Database\\Eloquent\\Model": 2,
+          "Illuminate\\Support\\ServiceProvider": 2,
+          "routes/console.php": 1,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "Throwable": 1,
+          "App\\Http\\Requests\\Auth\\LoginRequest": 1,
+          "Illuminate\\Auth\\Events\\PasswordReset": 1,
+          "Illuminate\\Auth\\Events\\Registered": 1,
+          "Illuminate\\Auth\\Events\\Verified": 1,
+          "Illuminate\\Foundation\\Auth\\EmailVerificationRequest": 1,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 1,
+          "Illuminate\\Routing\\Controller": 1,
+          "AuthorizesRequests": 1,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "App\\Models\\StockProduct": 1,
+          "Illuminate\\Foundation\\Http\\Kernel": 1,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 1,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 1,
+          "Closure": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 1,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 1,
+          "Illuminate\\Http\\Middleware\\TrustProxies": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 1,
+          "Illuminate\\Auth\\Events\\Lockout": 1,
+          "Illuminate\\Support\\Facades\\RateLimiter": 1,
+          "Illuminate\\Foundation\\Http\\FormRequest": 1,
+          "HasApiTokens": 1,
+          "Laravel\\Sanctum\\HasApiTokens": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 1,
+          "routes/channels.php": 1,
+          "Illuminate\\Support\\Facades\\Broadcast": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 20,
+        "packages": {
+          "sys": 10,
+          "numpy": 7,
+          "pandas": 5,
+          "matplotlib": 5,
+          "stellar_sdk": 4,
+          "os": 3,
+          "re": 3,
+          "collections": 2,
+          "defaultdict": 2,
+          "plotly": 2,
+          "sklearn": 2,
+          "MinMaxScaler": 2,
+          "subprocess": 2,
+          "tkinter": 2,
+          "requests": 2,
+          "Keypair": 2,
+          "Server": 2,
+          "HV": 1,
+          "IGD": 1,
+          "NonDominatedSorting": 1,
+          "pymoo": 1,
+          "dash": 1,
+          "make_subplots": 1,
+          "Input": 1,
+          "dcc": 1,
+          "Axes3D": 1,
+          "mpl_toolkits": 1,
+          "networkx": 1,
+          "FancyArrowPatch": 1,
+          "random": 1,
+          "tabulate": 1,
+          "pathlib": 1,
+          "argparse": 1,
+          "Tk": 1,
+          "solver": 1,
+          "maps_api_handler": 1,
+          "types": 1,
+          "gmplot": 1,
+          "gmaps": 1,
+          "SimpleNamespace": 1,
+          "webbrowser": 1,
+          "googlemaps": 1,
+          "polyline": 1,
+          "decode": 1,
+          "pyomo": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "marialuisarg/data-structures-challenge",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "marialuisarg/dcc012-data-structures-II",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "marialuisarg/dcc014-artificial-intelligence",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "marialuisarg/dcc019-programming-lang",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Haskell"
+        ]
+      },
+      {
+        "repository": "marialuisarg/dcc045-lang-compiler",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "marialuisarg/dcc059-graph-activity",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "marialuisarg/dcc070-assembly",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "marialuisarg/dcc119-algorithms",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "marialuisarg/Desafio-Laravel-Code-2022.2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "marialuisarg/MOVRPDD",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "marialuisarg/or-project",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "marialuisarg/stellar-examples",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

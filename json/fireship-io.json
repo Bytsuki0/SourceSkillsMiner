@@ -1,0 +1,501 @@
+{
+  "username": "fireship-io",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Adaptability": {
+      "score": -1.0,
+      "details": {
+        "language_diversity_score": 0.0,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 0,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "fireship-io/10-javascript-frameworks": 0.195275,
+        "fireship-io/159-angular-universal-cloud-functions": 0.1887,
+        "fireship-io/167-flutter-geolocation-firestore": 0.0516,
+        "fireship-io/168-multi-file-upload-angular-firebase": 0.4159,
+        "fireship-io/170-flutter-animated-radial-menu": 0.11370000000000001
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.06666666666666668,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        52388,
+        0
+      ],
+      "JavaScript": [
+        13953,
+        0
+      ],
+      "HTML": [
+        9697,
+        0
+      ],
+      "CSS": [
+        1374,
+        0
+      ],
+      "Vue": [
+        3729,
+        0
+      ],
+      "Svelte": [
+        171,
+        0
+      ],
+      "Dart": [
+        7572,
+        0
+      ],
+      "Objective-C": [
+        1015,
+        0
+      ],
+      "Java": [
+        490,
+        0
+      ],
+      "Shell": [
+        2227,
+        0
+      ],
+      "Dockerfile": [
+        101,
+        0
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 0,
+    "total_lines": 92717,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 52388,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 13953,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 9697,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 1374,
+        "commits": 0
+      },
+      {
+        "language": "Vue",
+        "lines": 3729,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "fireship-io",
+    "analysis_date": "2026-05-10T10:05:49.819315",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 270,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 9,
+        "packages": {
+          "<Flutter/Flutter.h>": 9,
+          "<UIKit/UIKit.h>": 9
+        }
+      },
+      "Dart": {
+        "files_scanned": 20,
+        "packages": {
+          "flutter": 18,
+          "flutter_test": 9,
+          "cloud_firestore": 5,
+          "flutter_base": 5,
+          "dart:async": 4,
+          "firebase_auth": 3,
+          "rxdart": 2,
+          "dart:math": 2,
+          "models.dart": 2,
+          "google_maps_flutter": 1,
+          "location": 1,
+          "geoflutterfire": 1,
+          "font_awesome_flutter": 1,
+          "vector_math": 1,
+          "get_it": 1,
+          "bloc": 1,
+          "flutter_bloc": 1,
+          "flare_flutter": 1,
+          "fl_flare": 1,
+          "audioplayers": 1,
+          "dnd": 1,
+          "db.dart": 1,
+          "provider": 1,
+          "quizapp": 1,
+          "dart:io": 1,
+          "firebase_messaging": 1,
+          "cloud_functions": 1,
+          "flutter_app": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 9,
+        "packages": {
+          "io.flutter": 9,
+          "android.os": 9,
+          "com.example": 9
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 51,
+        "packages": {
+          "path": 18,
+          "karma-jasmine-html-reporter": 10,
+          "karma-jasmine": 10,
+          "angular-devkit": 10,
+          "karma-chrome-launcher": 10,
+          "karma-coverage-istanbul-reporter": 9,
+          "rxjs": 9,
+          "react": 8,
+          "ts-node": 7,
+          "jasmine-spec-reporter": 7,
+          "react-dom": 5,
+          "firebase": 5,
+          "rollup-plugin-terser": 4,
+          "rollup-plugin-svelte": 4,
+          "rollup-plugin-livereload": 3,
+          "vue": 3,
+          "rollup-plugin-commonjs": 3,
+          "rollup-plugin-node-resolve": 3,
+          "protractor": 3,
+          "testing-library": 2,
+          "karma-coverage": 1,
+          "web-vitals": 1,
+          "vite-plugin-solid": 1,
+          "vite": 1,
+          "rollup-plugin-css-only": 1,
+          "child_process": 1,
+          "rollup": 1,
+          "webpack": 1,
+          "express": 1,
+          "consola": 1,
+          "nuxt": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "solid-js": 2
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 18,
+        "packages": {
+          "AppDelegate.h": 18,
+          "GeneratedPluginRegistrant.h": 9,
+          "<Flutter/Flutter.h>": 9,
+          "<UIKit/UIKit.h>": 9,
+          "UIKit/UIKit.h": 9,
+          "Flutter/Flutter.h": 9
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 128,
+        "packages": {
+          "angular": 84,
+          "zone.js": 31,
+          "protractor": 14,
+          "web-animations-js": 10,
+          "classlist.js": 10,
+          "core-js": 6,
+          "stencil": 4,
+          "firebase-functions": 4,
+          "rxjs": 4,
+          "firebase": 4,
+          "reflect-metadata": 3,
+          "firebase-admin": 3,
+          "lit-element": 1,
+          "express": 1,
+          "xhr2": 1,
+          "path": 1,
+          "ws": 1,
+          "nguniversal": 1,
+          "twilio": 1,
+          "2GB": 1,
+          "every": 1,
+          "sendgrid": 1,
+          "posts": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "stencil": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "fireship-io/10-javascript-frameworks",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "fireship-io/147-cloud-build-firebase",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/159-angular-universal-cloud-functions",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/163-typescript-decorators-examples",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/165-angular-router-animations",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/167-flutter-geolocation-firestore",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "fireship-io/168-multi-file-upload-angular-firebase",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/170-flutter-animated-radial-menu",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "fireship-io/171-stripe-elements-angular",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/172-flutter-state-management-strategies",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "fireship-io/174-flutter-firestore-animated-slideshow",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "fireship-io/175-code-this-not-that-rxjs",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/177-flare-flutter-giphy-navbar",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "fireship-io/179-cloud-run-ssr",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/181-cloud-functions-task-queue",
+        "files_analyzed": 1,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/182-svelte-firebase",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/183-flutter-draggable-game",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "fireship-io/184-firebase-performance-web",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/185-advanced-flutter-firestore",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "fireship-io/186-collection-group-queries-demo",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/188-firebase-vs-amplify",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/192-flutter-fcm-push-notifications",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/193-paypal-checkout-v2-demos",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fireship-io/196-sendgrid-email-cloud-functions",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

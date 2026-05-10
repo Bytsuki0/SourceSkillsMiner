@@ -1,0 +1,523 @@
+{
+  "username": "rauchg",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.38398841186317245,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9990595408716817,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.882527,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.9358,
+        "resilience_score": 0.8293,
+        "distinct_primary_languages": 11,
+        "language_transitions": 14,
+        "topic_entropy_bits": 2.8074,
+        "closed_prs_total": 41,
+        "bounced_back_prs": 17
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "rauchg/ai-say": 0.7088,
+        "rauchg/berkshire-deck-demo": 0.27142777777777777,
+        "rauchg/chat-example": 0.08959333333333333
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7366364157059679,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        557277,
+        512
+      ],
+      "TypeScript": [
+        247219,
+        64
+      ],
+      "Rust": [
+        21145,
+        0
+      ],
+      "HTML": [
+        503630,
+        22
+      ],
+      "Ruby": [
+        54832,
+        0
+      ],
+      "MDX": [
+        701894,
+        77
+      ],
+      "CSS": [
+        13107,
+        23
+      ],
+      "C++": [
+        1559,
+        12
+      ],
+      "Python": [
+        186,
+        0
+      ],
+      "Shell": [
+        0,
+        46
+      ],
+      "Makefile": [
+        0,
+        2
+      ],
+      "M4": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        1
+      ],
+      "Go": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        51
+      ],
+      "Roff": [
+        0,
+        3
+      ],
+      "ApacheConf": [
+        0,
+        0
+      ],
+      "CoffeeScript": [
+        0,
+        0
+      ],
+      "Swift": [
+        0,
+        35
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 848,
+    "total_lines": 2100849,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 557277,
+        "commits": 512
+      },
+      {
+        "language": "MDX",
+        "lines": 701894,
+        "commits": 77
+      },
+      {
+        "language": "TypeScript",
+        "lines": 247219,
+        "commits": 64
+      },
+      {
+        "language": "PHP",
+        "lines": 0,
+        "commits": 51
+      },
+      {
+        "language": "Shell",
+        "lines": 0,
+        "commits": 46
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rauchg",
+    "analysis_date": "2026-05-10T07:43:30.522522",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 251,
+    "languages": {
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "sys/ioctl.h": 2,
+          "<sys/ioctl.h>": 2,
+          "<unistd.h>": 1,
+          "string.h": 1,
+          "unistd.h": 1,
+          "stdio.h": 1,
+          "stdlib.h": 1,
+          "<stdlib.h>": 1,
+          "<string.h>": 1,
+          "<stdio.h>": 1,
+          "<pty.h>": 1,
+          "<libutil.h>": 1,
+          "nan.h": 1,
+          "util.h": 1,
+          "errno.h": 1,
+          "pty.h": 1,
+          "<util.h>": 1,
+          "libutil.h": 1,
+          "</usr/include/util.h>": 1,
+          "<nan.h>": 1,
+          "<errno.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 73,
+        "packages": {
+          "react": 16,
+          "path": 12,
+          "fs": 10,
+          "next": 8,
+          "http": 8,
+          "child_process": 6,
+          "react-router-dom": 6,
+          "url": 5,
+          "react-dev-utils": 5,
+          "events": 4,
+          "sys": 4,
+          "webpack": 4,
+          "assert": 3,
+          "classnames": 3,
+          "express": 3,
+          "babel-polyfill": 3,
+          "axios": 3,
+          "ws": 2,
+          "util": 2,
+          "a": 2,
+          "jQuery": 2,
+          "buffer": 2,
+          "postcss-flexbugs-fixes": 2,
+          "precss": 2,
+          "html-webpack-plugin": 2,
+          "autoprefixer": 2,
+          "postcss-custom-media": 2,
+          "chalk": 2,
+          "mastra": 1,
+          "crypto": 1,
+          "dandy": 1,
+          "underscore": 1,
+          "node-fetch": 1,
+          "cheerio": 1,
+          "then-sleep": 1,
+          "ava": 1,
+          "use": 1,
+          "mdx-deck": 1,
+          "blob": 1,
+          "date-fns": 1,
+          "gray-matter": 1,
+          "blog-starter": 1,
+          "Markdown": 1,
+          "remark-html": 1,
+          "remark": 1,
+          "firebase-admin": 1,
+          "ms": 1,
+          "request-ip": 1,
+          "socket.io": 1,
+          "extend": 1,
+          "term.js": 1,
+          "commander": 1,
+          "child_pty": 1,
+          "clone": 1,
+          "keypress": 1,
+          "webpage": 1,
+          "system": 1,
+          "phantomjs": 1,
+          "browserify-middleware": 1,
+          "uid2": 1,
+          "osenv": 1,
+          "neuquant": 1,
+          "queue3": 1,
+          "omggif": 1,
+          "pngjs": 1,
+          "constants": 1,
+          "0.5.0": 1,
+          "querystring": 1,
+          "tty": 1,
+          "0.1.0": 1,
+          "validator": 1,
+          "lodash": 1,
+          "chai": 1,
+          "chai-sorted": 1,
+          "dotenv": 1,
+          "promise": 1,
+          "object-assign": 1,
+          "whatwg-fetch": 1,
+          "style-loader": 1,
+          "case-sensitive-paths-webpack-plugin": 1,
+          "webpack-manifest-plugin": 1,
+          "extract-text-webpack-plugin": 1,
+          "sw-precache-webpack-plugin": 1,
+          "root": 1,
+          "fs-extra": 1,
+          "webpack-dev-server": 1,
+          "jest": 1,
+          "body-parser": 1,
+          "googleapis": 1,
+          "prop-types": 1,
+          "react-paginate": 1,
+          "react-dom": 1,
+          "query-string": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "https:": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 1,
+        "packages": {
+          "jekyll/tagging": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 29,
+        "packages": {
+          "std": 25,
+          "hyper": 20,
+          "futures": 18,
+          "chrono": 17,
+          "tokio_core": 16,
+          "hyper_tls": 16,
+          "azure_sdk_for_rust": 16,
+          "azure": 9,
+          "log": 6,
+          "env_logger": 6,
+          "super": 5,
+          "http": 5,
+          "md5": 4,
+          "serde_derive": 4,
+          "base64": 4,
+          "serde_json": 3,
+          "url": 3,
+          "uuid": 3,
+          "xml": 2,
+          "serde_xml_rs": 2,
+          "ring": 2,
+          "self": 2,
+          "time": 1,
+          "core": 1,
+          "bytes": 1,
+          "serde": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 24,
+        "packages": {
+          "chai": 14,
+          "axios": 9,
+          "nock": 4,
+          "axiomhq": 1,
+          "fs": 1,
+          "stream": 1,
+          "_time": 1,
+          "https:": 1,
+          "zlib": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 12,
+        "packages": {
+          "react": 7,
+          "next": 4,
+          "load-script": 1,
+          "thumbTip": 1,
+          "converting": 1,
+          "react-intersection-observer": 1,
+          "react-wrap-balancer": 1,
+          "path": 1,
+          "image-size": 1,
+          "fs": 1,
+          "react-tweet": 1,
+          "react-youtube": 1,
+          "swr": 1,
+          "time-ago": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rauchg/ai-say",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/api.js",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/async-throttle",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/axiom-node",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "rauchg/AzureSDKForRust",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "rauchg/belkirk-jekyll-demo",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "rauchg/berkshire-deck-demo",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "rauchg/blob-to-image",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/blog",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "rauchg/blog-starter",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/blog-views",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/chat-example",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/child_pty",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C++",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/clif",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/connect",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/debug",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/define.js",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/disposable-email-domains",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rauchg/diversidad-media",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,585 @@
+{
+  "username": "michaelmurithi",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.32389559436785786,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9089203146287099,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "MichaelMurithi/csharp-playground": 0.2732
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.24811245220690492,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        356309,
+        83
+      ],
+      "TypeScript": [
+        490127,
+        49
+      ],
+      "JavaScript": [
+        150197,
+        133
+      ],
+      "HTML": [
+        75946,
+        33
+      ],
+      "CSS": [
+        76848,
+        10
+      ],
+      "SCSS": [
+        17650,
+        0
+      ],
+      "C++": [
+        128,
+        10
+      ],
+      "C#": [
+        421799,
+        18
+      ],
+      "TSQL": [
+        1501,
+        0
+      ],
+      "Dockerfile": [
+        1205,
+        11
+      ],
+      "Shell": [
+        984,
+        0
+      ],
+      "Smalltalk": [
+        85,
+        0
+      ],
+      "Less": [
+        17145,
+        0
+      ],
+      "Makefile": [
+        763,
+        1
+      ],
+      "Go": [
+        146,
+        0
+      ],
+      "Java": [
+        38323,
+        11
+      ],
+      "C": [
+        0,
+        7
+      ],
+      "CMake": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        0,
+        4
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "Starlark": [
+        0,
+        0
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 370,
+    "total_lines": 1649156,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 150197,
+        "commits": 133
+      },
+      {
+        "language": "Python",
+        "lines": 356309,
+        "commits": 83
+      },
+      {
+        "language": "TypeScript",
+        "lines": 490127,
+        "commits": 49
+      },
+      {
+        "language": "HTML",
+        "lines": 75946,
+        "commits": 33
+      },
+      {
+        "language": "C#",
+        "lines": 421799,
+        "commits": 18
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "michaelmurithi",
+    "analysis_date": "2026-05-10T05:37:05.962362",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 465,
+    "languages": {
+      "C": {
+        "files_scanned": 6,
+        "packages": {
+          "stdio.h": 6,
+          "<stdio.h>": 6,
+          "<stdbool.h>": 1,
+          "stdbool.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 30,
+        "packages": {
+          "RealisticDependencies": 12,
+          "System.Threading.Tasks": 7,
+          "Shared.Enums": 4,
+          "System.Linq": 4,
+          "System.Collections.Generic": 4,
+          "BehavioralPatterns.ChainOfResponsibility.Constants": 4,
+          "Shared.Dtos": 3,
+          "BusRoutesApp.Repositories": 3,
+          "Api.Entities": 2,
+          "Api.Mappers": 2,
+          "Api.Repositories": 2,
+          "Microsoft.Extensions.Hosting": 2,
+          "Microsoft.AspNetCore.Hosting": 2,
+          "Microsoft.Extensions.DependencyInjection": 2,
+          "System": 2,
+          "Microsoft.AspNetCore.Mvc": 1,
+          "Microsoft.AspNetCore.Builder": 1,
+          "Microsoft.Extensions.Configuration": 1,
+          "Microsoft.OpenApi.Models": 1,
+          "Web.ViewModels": 1,
+          "Web.Mappers": 1,
+          "Microsoft.AspNetCore.Components.WebAssembly.Hosting": 1,
+          "System.Net.Http": 1,
+          "System.ComponentModel.DataAnnotations": 1,
+          "BusRoutesApp.Services": 1,
+          "WiredBrainCoffee.StorageApp.Entities": 1,
+          "BehavioralPatterns.Iterator.Iterators": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "<iostream>": 2,
+          "iostream": 2
+        }
+      },
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "context": 1,
+          "sync": 1,
+          "fmt": 1,
+          "log": 1,
+          "net/http": 1,
+          "time": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 49,
+        "packages": {
+          "com.jwetherell": 30,
+          "java.util": 30,
+          "learn": 17,
+          "java.math": 3,
+          "oopsPractice": 2,
+          "java.lang": 1,
+          "static": 1,
+          "java.security": 1,
+          "java.io": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 61,
+        "packages": {
+          "react": 30,
+          "mongoose": 12,
+          "hapi-pino": 9,
+          "hapi": 9,
+          "path": 5,
+          "karma-jasmine-html-reporter": 3,
+          "karma-coverage": 3,
+          "angular-devkit": 3,
+          "karma-chrome-launcher": 3,
+          "karma-jasmine": 3,
+          "docusaurus": 2,
+          "mongodb": 2,
+          "axios": 2,
+          "protractor": 1,
+          "ts-node": 1,
+          "jasmine-spec-reporter": 1,
+          "ts-jest": 1,
+          "next": 1,
+          "body-parser": 1,
+          "express": 1,
+          "morgan": 1,
+          "todo": 1,
+          "org": 1,
+          "project": 1,
+          "user": 1,
+          "author": 1,
+          "post": 1,
+          "cuid": 1,
+          "http": 1,
+          "fs": 1,
+          "testing-library": 1,
+          "react-dom": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 70,
+        "packages": {
+          "annotations": 16,
+          "__future__": 16,
+          "django": 12,
+          "unittest": 12,
+          "APP": 12,
+          "app": 12,
+          "doctest": 11,
+          "collections": 8,
+          "math": 8,
+          "flask": 6,
+          "json": 6,
+          "Flask": 6,
+          "numpy": 5,
+          "os": 5,
+          "Callable": 3,
+          "NDArray": 3,
+          "float64": 2,
+          "sympy": 2,
+          "diff": 2,
+          "*": 2,
+          "typing": 2,
+          "admin": 2,
+          "sys": 2,
+          "migrations": 2,
+          "date": 2,
+          "datetime": 2,
+          "string": 2,
+          "logging": 2,
+          "array": 1,
+          "Decimal": 1,
+          "decimal": 1,
+          "exp": 1,
+          "cos": 1,
+          "IIRFilter": 1,
+          "audio_filters": 1,
+          "the": 1,
+          "Protocol": 1,
+          "matplotlib": 1,
+          "pi": 1,
+          "Any": 1,
+          "get_asgi_application": 1,
+          "pizza": 1,
+          "path": 1,
+          "views": 1,
+          "get_wsgi_application": 1,
+          "execute_from_command_line": 1,
+          "AppConfig": 1,
+          "forms": 1,
+          "models": 1,
+          "TestCase": 1,
+          "formset_factory": 1,
+          "render": 1,
+          "fpdf": 1,
+          "argparse": 1,
+          "random": 1,
+          "FPDF": 1,
+          "Enum": 1,
+          "enum": 1,
+          "itertools": 1,
+          "Counter": 1,
+          "defaultdict": 1,
+          "deque": 1,
+          "namedtuple": 1,
+          "OrderedDict": 1,
+          "Template": 1,
+          "VectorStoreIndexWrapper": 1,
+          "OpenAI": 1,
+          "load_dataset": 1,
+          "PlainTextAuthProvider": 1,
+          "Cluster": 1,
+          "datasets": 1,
+          "cassandra": 1,
+          "OpenAIEmbeddings": 1,
+          "Cassandra": 1,
+          "langchain": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 103,
+        "packages": {
+          "angular": 42,
+          "rxjs": 20,
+          "utils": 13,
+          "express": 12,
+          "nestjs": 12,
+          "errors": 11,
+          "entities": 10,
+          "src": 6,
+          "langchain": 4,
+          "constants": 4,
+          "zone.js": 3,
+          "dotenv": 3,
+          "database": 3,
+          "typeorm": 3,
+          "lodash": 3,
+          "protractor": 2,
+          "prisma": 2,
+          "jsonwebtoken": 2,
+          "express-validator": 2,
+          "cors": 2,
+          "pdf-parse": 2,
+          "testing-library": 2,
+          "something": 1,
+          "PASSED_CONFIG": 1,
+          "classlist.js": 1,
+          "web-animations-js": 1,
+          "supertest": 1,
+          "lodash.merge": 1,
+          "express-serve-static-core": 1,
+          "bcrypt": 1,
+          "morgan": 1,
+          "next": 1,
+          "clsx": 1,
+          "tailwind-merge": 1,
+          "fs": 1,
+          "pinecone-database": 1,
+          "serializers": 1,
+          "https:": 1,
+          "striptags": 1,
+          "module-alias": 1,
+          "middleware": 1,
+          "reflect-metadata": 1,
+          "controllers": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 9,
+        "packages": {
+          "react": 6,
+          "primereact": 2,
+          "next": 2,
+          "testing-library": 2,
+          "react-dom": 2,
+          "next-auth": 1,
+          "primeicons": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MichaelMurithi/all-algorithms-in-python",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/angular-auth-oidc-client",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/angular-playground",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/api-design",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/cpp-playground",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/csharp-playground",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/design-patterns-explained-with-food",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/django-playground",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/github-actions-course",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/gpt4-pdf-chatbot-langchain",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/java-algorithms-implementation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/java-playground",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/jira-clone",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/low-Level-playground",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C",
+          "C++"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/math-worksheet-generator",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/mongo-course",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/projects-for-complete-intro-to-containers",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/python-playground",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MichaelMurithi/react-playground",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

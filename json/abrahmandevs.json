@@ -1,0 +1,547 @@
+{
+  "username": "abrahmandevs",
+  "areas": {
+    "OSS": {
+      "score": 0.2316801842251004,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.8571428571428571,
+        "commits_activity": 0.9903774191947936
+      }
+    },
+    "Status": {
+      "score": 0.3140801914134874,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9134279794279234,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.2625,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.10665207512771756,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        412495,
+        43
+      ],
+      "CSS": [
+        143162,
+        15
+      ],
+      "PHP": [
+        693882,
+        68
+      ],
+      "C": [
+        232350,
+        0
+      ],
+      "JavaScript": [
+        180830,
+        25
+      ],
+      "Twig": [
+        107427,
+        0
+      ],
+      "SCSS": [
+        43284,
+        0
+      ],
+      "C++": [
+        5684,
+        0
+      ],
+      "Perl": [
+        1244,
+        0
+      ],
+      "Batchfile": [
+        5,
+        0
+      ],
+      "Roff": [
+        3,
+        0
+      ],
+      "Blade": [
+        703,
+        21
+      ],
+      "Vue": [
+        2497,
+        11
+      ],
+      "TypeScript": [
+        0,
+        1
+      ],
+      "Hack": [
+        0,
+        6
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 190,
+    "total_lines": 1823566,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 693882,
+        "commits": 68
+      },
+      {
+        "language": "HTML",
+        "lines": 412495,
+        "commits": 43
+      },
+      {
+        "language": "JavaScript",
+        "lines": 180830,
+        "commits": 25
+      },
+      {
+        "language": "Blade",
+        "lines": 703,
+        "commits": 21
+      },
+      {
+        "language": "CSS",
+        "lines": 143162,
+        "commits": 15
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "abrahmandevs",
+    "analysis_date": "2026-05-10T07:03:53.669164",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 256,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 24,
+        "packages": {
+          "apr.h": 11,
+          "apr_pools.h": 11,
+          "apu.h": 6,
+          "httpd.h": 5,
+          "apr_errno.h": 5,
+          "http_config.h": 3,
+          "apr_general.h": 3,
+          "apr_network_io.h": 2,
+          "ap_config.h": 2,
+          "apr_file_io.h": 2,
+          "ap_provider.h": 2,
+          "apr_time.h": 2,
+          "apr_thread_mutex.h": 2,
+          "apr_tables.h": 2,
+          "ap_config_layout.h": 1,
+          "os.h": 1,
+          "sys/sdt.h": 1,
+          "ap_config_auto.h": 1,
+          "<sys/sdt.h>": 1,
+          "apache_noprobes.h": 1,
+          "apache_probes.h": 1,
+          "ap_hooks.h": 1,
+          "ap_regex.h": 1,
+          "apr_optional_hooks.h": 1,
+          "apr_hooks.h": 1,
+          "ap_hook_probes.h": 1,
+          "apr_thread_proc.h": 1,
+          "scoreboard.h": 1,
+          "http_log.h": 1,
+          "apr_global_mutex.h": 1,
+          "apr_md5.h": 1,
+          "apr_strings.h": 1,
+          "unistd.h": 1,
+          "<unistd.h>": 1,
+          "apr_shm.h": 1,
+          "time.h": 1,
+          "mswsock.h": 1,
+          "<mswsock.h>": 1,
+          "windows.h": 1,
+          "<sys/socket.h>": 1,
+          "stdint.h": 1,
+          "stddef.h": 1,
+          "<stdlib.h>": 1,
+          "sys/wait.h": 1,
+          "<stdint.h>": 1,
+          "<stddef.h>": 1,
+          "winsock2.h": 1,
+          "<ws2tcpip.h>": 1,
+          "sys/types.h": 1,
+          "sys/socket.h": 1,
+          "<windows.h>": 1,
+          "process.h": 1,
+          "ws2tcpip.h": 1,
+          "<process.h>": 1,
+          "stdio.h": 1,
+          "winsock.h": 1,
+          "<time.h>": 1,
+          "<sys/wait.h>": 1,
+          "<winsock2.h>": 1,
+          "<winsock.h>": 1,
+          "<sys/types.h>": 1,
+          "<stdio.h>": 1,
+          "stdlib.h": 1,
+          "apr_want.h": 1,
+          "apr_proc_mutex.h": 1,
+          "apr_thread_rwlock.h": 1,
+          "<sys/uio.h>": 1,
+          "<stdarg.h>": 1,
+          "apr_ring.h": 1,
+          "apr_mmap.h": 1,
+          "stdarg.h": 1,
+          "sys/uio.h": 1,
+          "apr_hash.h": 1,
+          "apu_errno.h": 1,
+          "<apr_pools.h>": 1,
+          "<apr_tables.h>": 1,
+          "<apr.h>": 1,
+          "apr_file_info.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 54,
+        "packages": {
+          "vue": 18,
+          "undefined": 8,
+          "vitejs": 8,
+          "vite": 8,
+          "vue-toastification": 6,
+          "object": 5,
+          "vue-router": 4,
+          "jquery": 3,
+          "jQuery": 3,
+          "tailwindcss": 3,
+          "pinia": 2,
+          "axios": 2,
+          "b);else": 1,
+          "]": 1,
+          "t.prevTextDirection=s)}function": 1,
+          "t.canvas.style.setProperty(": 1,
+          ")": 1,
+          "e){void": 1,
+          "preventOverflow": 1,
+          "popperOffsets": 1,
+          "offset": 1,
+          "computeStyles": 1,
+          "popperjs": 1,
+          "admin": 1,
+          "path": 1,
+          "https:": 1,
+          ")?": 1,
+          "vue-toast-notification": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 83,
+        "packages": {
+          "Illuminate\\Http\\Request": 20,
+          "App\\Models\\User": 11,
+          "App\\Http\\Controllers\\Controller": 8,
+          "Illuminate\\Foundation\\Http\\FormRequest": 7,
+          "Illuminate\\Support\\ServiceProvider": 7,
+          "Illuminate\\Support\\Str": 5,
+          "Inertia\\Inertia": 5,
+          "App\\Traits\\apiResponses": 4,
+          "apiResponses": 4,
+          "Illuminate\\Support\\Facades\\Auth": 4,
+          "App\\Permissions\\Abilities": 4,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 4,
+          "Illuminate\\Support\\Facades\\Validator": 4,
+          "App\\Models\\Ticket": 3,
+          "Illuminate\\Notifications\\Notifiable": 3,
+          "HasApiTokens": 3,
+          "Laravel\\Sanctum\\HasApiTokens": 3,
+          "Illuminate\\Foundation\\Auth\\User": 3,
+          "home-nav.php": 3,
+          "PasswordValidationRules": 3,
+          "Illuminate\\Support\\Facades\\Hash": 3,
+          "Illuminate\\Cache\\RateLimiting\\Limit": 3,
+          "Illuminate\\Support\\Facades\\RateLimiter": 3,
+          "App\\Http\\Resources\\Api\\TicketResource": 2,
+          "App\\Http\\Requests\\Api\\UpdateTicketRequest": 2,
+          "App\\Http\\Requests\\Api\\StoreTicketRequest": 2,
+          "App\\Http\\Requests\\Api\\ReplaceTicketRequest": 2,
+          "App\\Policies\\TicketPolicy": 2,
+          "App\\Http\\Filters\\TicketFilter": 2,
+          "Illuminate\\Database\\Eloquent\\ModelNotFoundException": 2,
+          "Illuminate\\Auth\\Access\\AuthorizationException": 2,
+          "Illuminate\\Database\\Eloquent\\Builder": 2,
+          "Illuminate\\Http\\Resources\\Json\\JsonResource": 2,
+          "singleton.php": 2,
+          "header.php": 2,
+          "home-toggle-nav.php": 2,
+          "Illuminate\\Validation\\Rule": 2,
+          "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 2,
+          "Illuminate\\Console\\Scheduling\\Schedule": 2,
+          "Illuminate\\Foundation\\Console\\Kernel": 2,
+          "routes/console.php": 2,
+          "Throwable": 2,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 2,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 2,
+          "Illuminate\\Routing\\Controller": 2,
+          "AuthorizesRequests": 2,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 2,
+          "Illuminate\\Foundation\\Http\\Kernel": 2,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 2,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 2,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 2,
+          "App\\Providers\\RouteServiceProvider": 2,
+          "Symfony\\Component\\HttpFoundation\\Response": 2,
+          "Closure": 2,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 2,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 2,
+          "Illuminate\\Http\\Middleware\\TrustProxies": 2,
+          "Illuminate\\Routing\\Middleware\\ValidateSignature": 2,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 2,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 2,
+          "Illuminate\\Support\\Facades\\Broadcast": 2,
+          "routes/channels.php": 2,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 2,
+          "Illuminate\\Support\\Facades\\Event": 2,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 2,
+          "Illuminate\\Auth\\Events\\Registered": 2,
+          "Illuminate\\Support\\Facades\\Route": 2,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 2,
+          "Illuminate\\Http\\JsonResponse": 1,
+          "App\\Http\\Requests\\Api\\LoginUserRequest": 1,
+          "author": 1,
+          "tickets": 1,
+          "App\\Http\\Requests\\StoreUserRequest": 1,
+          "App\\Http\\Requests\\UpdateUserRequest": 1,
+          "App\\Http\\Resources\\Api\\UserResource": 1,
+          "PhpParser\\Node\\Expr\\FuncCall": 1,
+          "Illuminate\\Database\\Eloquent\\Model": 1,
+          "Illuminate\\Database\\Eloquent\\Relations\\BelongsTo": 1,
+          "HasFactory": 1,
+          "App\\Http\\Filters\\QueryFilter": 1,
+          "Illuminate\\Database\\Eloquent\\Relations\\HasMany": 1,
+          "Laravel\\Sanctum\\Sanctum": 1,
+          "Laravel\\Sanctum\\PersonalAccessToken": 1,
+          "Illuminate\\Foundation\\Application": 1,
+          "Illuminate\\Foundation\\Configuration\\Exceptions": 1,
+          "Illuminate\\Foundation\\Configuration\\Middleware": 1,
+          "home-footer-main.php": 1,
+          "home-footer-copyright.php": 1,
+          "mobile-menu.php": 1,
+          "Laravel\\Fortify\\Contracts\\CreatesNewUsers": 1,
+          "Illuminate\\Validation\\Rules\\Password": 1,
+          "Laravel\\Fortify\\Contracts\\ResetsUserPasswords": 1,
+          "Laravel\\Fortify\\Contracts\\UpdatesUserPasswords": 1,
+          "Laravel\\Fortify\\Contracts\\UpdatesUserProfileInformation": 1,
+          "Inertia\\Middleware": 1,
+          "Laravel\\Fortify\\Fortify": 1,
+          "App\\Actions\\Fortify\\UpdateUserProfileInformation": 1,
+          "App\\Actions\\Fortify\\ResetUserPassword": 1,
+          "App\\Actions\\Fortify\\UpdateUserPassword": 1,
+          "App\\Actions\\Fortify\\CreateNewUser": 1,
+          "Illuminate\\Support\\Facades\\Facade": 1,
+          "Monolog\\Processor\\PsrLogMessageProcessor": 1,
+          "Monolog\\Handler\\NullHandler": 1,
+          "Monolog\\Handler\\StreamHandler": 1,
+          "Monolog\\Handler\\SyslogUdpHandler": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 1,
+        "packages": {
+          "warnings": 1,
+          "strict": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 20,
+        "packages": {
+          "keep-vue": 13,
+          "phosphor-icons": 9,
+          "vue": 7,
+          "~": 3,
+          "vue-uuid": 1,
+          "embla-carousel-autoplay": 1,
+          "embla-carousel-class-names": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "abrahmandevs/agency-deploy",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/apache-server",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Perl"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/api-server",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/applauz-deploy",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/asnm10-shop",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/asnm11-todo-and-userauth",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/asnm7-component",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/asnm8-emit",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/asnm9-blog",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/carFinder-deploy",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/design-partterns",
+        "files_analyzed": 5,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/electronic-bs-vue3",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/javascript-lws",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/js-algorithm",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/keep-vue",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/landingpage-vue3",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/laravel-blog-spa",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/laravest",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "abrahmandevs/m-test",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

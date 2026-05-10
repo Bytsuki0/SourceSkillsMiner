@@ -1,0 +1,445 @@
+{
+  "username": "chantastic",
+  "areas": {
+    "OSS": {
+      "score": 0.696969696969697,
+      "details": {
+        "issue_resolution_rate": 0.5454545454545454,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.35897435897435903,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.462963,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.3333,
+        "resilience_score": 0.5926,
+        "distinct_primary_languages": 13,
+        "language_transitions": 12,
+        "topic_entropy_bits": 1.0,
+        "closed_prs_total": 27,
+        "bounced_back_prs": 8
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "chantastic/8-point": 0.4603333333333333,
+        "chantastic/ama": 0.33910999999999997,
+        "chantastic/aria-live-storybook-addon": 0.36122352941176467
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6537814111888113,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        30464,
+        1592
+      ],
+      "TypeScript": [
+        95323,
+        729
+      ],
+      "CSS": [
+        17140,
+        895
+      ],
+      "HTML": [
+        39949,
+        1262
+      ],
+      "Python": [
+        1287,
+        22
+      ],
+      "Nix": [
+        46,
+        17
+      ],
+      "Astro": [
+        2688,
+        584
+      ],
+      "CoffeeScript": [
+        4198,
+        56
+      ],
+      "Ruby": [
+        3276,
+        158
+      ],
+      "MDX": [
+        22901,
+        195
+      ],
+      "SCSS": [
+        0,
+        266
+      ],
+      "PHP": [
+        0,
+        1
+      ],
+      "Blade": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "Shell": [
+        0,
+        185
+      ],
+      "Emacs Lisp": [
+        0,
+        86
+      ],
+      "Lua": [
+        0,
+        0
+      ],
+      "Vue": [
+        0,
+        0
+      ],
+      "Elixir": [
+        0,
+        16
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "Handlebars": [
+        0,
+        4
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "Svelte": [
+        0,
+        52
+      ]
+    },
+    "language_count": 23,
+    "total_commits": 6120,
+    "total_lines": 217272,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 30464,
+        "commits": 1592
+      },
+      {
+        "language": "HTML",
+        "lines": 39949,
+        "commits": 1262
+      },
+      {
+        "language": "CSS",
+        "lines": 17140,
+        "commits": 895
+      },
+      {
+        "language": "TypeScript",
+        "lines": 95323,
+        "commits": 729
+      },
+      {
+        "language": "Astro",
+        "lines": 2688,
+        "commits": 584
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "chantastic",
+    "analysis_date": "2026-05-10T09:36:22.471104",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 151,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 15,
+        "packages": {
+          "react": 7,
+          "testing-library": 3,
+          "prop-types": 3,
+          "react-dom": 1,
+          "web-vitals": 1,
+          "a": 1,
+          "Storybook.": 1,
+          "convex": 1,
+          "next": 1,
+          "fs": 1,
+          "globals": 1,
+          "eslint-plugin-react-hooks": 1,
+          "typescript-eslint": 1,
+          "eslint-plugin-react": 1,
+          "eslint-config-prettier": 1,
+          "eslint": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 3,
+        "packages": {
+          "use-aria-live": 3,
+          "react": 2,
+          "the": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 15,
+        "packages": {
+          "Illuminate\\Support\\Str": 4,
+          "Illuminate\\Http\\Request": 3,
+          "Illuminate\\Support\\Facades\\Schema": 3,
+          "Illuminate\\Database\\Schema\\Blueprint": 3,
+          "Illuminate\\Database\\Migrations\\Migration": 3,
+          "App\\Models\\User": 2,
+          "Illuminate\\Foundation\\Application": 2,
+          "Inertia\\Inertia": 1,
+          "Laravel\\WorkOS\\Http\\Requests\\AuthKitAccountDeletionRequest": 1,
+          "Illuminate\\Http\\RedirectResponse": 1,
+          "Inertia\\Response": 1,
+          "App\\Http\\Controllers\\Controller": 1,
+          "Inertia\\Middleware": 1,
+          "Illuminate\\Foundation\\Inspiring": 1,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "HasFactory": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "Illuminate\\Support\\ServiceProvider": 1,
+          "Illuminate\\Foundation\\Configuration\\Middleware": 1,
+          "Illuminate\\Http\\Middleware\\AddLinkHeadersForPreloadedAssets": 1,
+          "Illuminate\\Foundation\\Configuration\\Exceptions": 1,
+          "App\\Http\\Middleware\\HandleInertiaRequests": 1,
+          "Monolog\\Handler\\SyslogUdpHandler": 1,
+          "Monolog\\Processor\\PsrLogMessageProcessor": 1,
+          "Monolog\\Handler\\NullHandler": 1,
+          "Monolog\\Handler\\StreamHandler": 1,
+          "Illuminate\\Database\\Eloquent\\Factories\\Factory": 1,
+          "Illuminate\\Database\\Seeder": 1,
+          "$maintenance": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 7,
+        "packages": {
+          "sys": 7,
+          "json": 7,
+          "argparse": 7,
+          "os": 5,
+          "subprocess": 4,
+          "Path": 2,
+          "pathlib": 2,
+          "urllib": 2,
+          "typing": 1,
+          "Counter": 1,
+          "Any": 1,
+          "dataclasses": 1,
+          "collections": 1,
+          "annotations": 1,
+          "dataclass": 1,
+          "__future__": 1,
+          "shutil": 1,
+          "opentimelineio": 1,
+          "urlencode": 1,
+          "time": 1,
+          "tempfile": 1,
+          "google_auth_oauthlib": 1,
+          "logging": 1,
+          "build": 1,
+          "MediaFileUpload": 1,
+          "googleapiclient": 1,
+          "google": 1,
+          "Credentials": 1,
+          "InstalledAppFlow": 1,
+          "Request": 1,
+          "fractions": 1,
+          "FCP": 1,
+          "Fraction": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 1,
+        "packages": {
+          "batman/touch/rails/version": 1,
+          "jquery_mobile_rails": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 33,
+        "packages": {
+          "storybook": 19,
+          "workos-inc": 7,
+          "astro": 4,
+          "vite": 3,
+          "vitejs": 3,
+          "convex": 2,
+          "polite": 1,
+          "react": 1,
+          "astro:middleware": 1,
+          "type": 1,
+          "public": 1,
+          "internal": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 34,
+        "packages": {
+          "react": 25,
+          "storybook": 10,
+          "radix-ui": 6,
+          "react-dom": 4,
+          "workos-inc": 4,
+          "convex": 2,
+          "next": 2,
+          "a": 2,
+          "Storybook.": 2,
+          "inertiajs": 2,
+          "header": 2,
+          "ziggy-js": 1,
+          "Laravel": 1,
+          "laravel-vite-plugin": 1,
+          "lucide-react": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "chantastic/2024-epic-web-conf",
+        "files_analyzed": 7,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "chantastic/accessible-svgs-in-react-demo",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "chantastic/addon-kit",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "chantastic/agents",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "chantastic/aria-live-storybook-addon",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "chantastic/astro-authkit",
+        "files_analyzed": 5,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "chantastic/b2b-starter-kit",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "chantastic/batman-touch-rails",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "chantastic/beginners-guide-to-storybook-7-in-react-workshop",
+        "files_analyzed": 12,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "chantastic/beginners-guide-to-storybook-7-workshop",
+        "files_analyzed": 12,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "chantastic/chantastic",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "chantastic/chantastic-burgers-laravel",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

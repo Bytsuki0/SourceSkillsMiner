@@ -1,0 +1,501 @@
+{
+  "username": "addyosmani",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4358974358974359,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 13,
+        "language_transitions": 15,
+        "topic_entropy_bits": 6.0353,
+        "closed_prs_total": 98,
+        "bounced_back_prs": 50
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "addyosmani/a11y": 0.26139024390243903,
+        "addyosmani/a11y-webapp": 0.32946363636363635,
+        "addyosmani/active-route": 0.34253333333333336,
+        "addyosmani/adk-product-engineers": 0.74545,
+        "addyosmani/agent-skills": 0.3117469696969697
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7705128205128206,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CSS": [
+        77262,
+        368
+      ],
+      "JavaScript": [
+        6451548,
+        1994
+      ],
+      "Ruby": [
+        2906,
+        1
+      ],
+      "HTML": [
+        552584,
+        691
+      ],
+      "Shell": [
+        28738,
+        135
+      ],
+      "Python": [
+        1843,
+        29
+      ],
+      "PostScript": [
+        20931,
+        0
+      ],
+      "Groovy": [
+        0,
+        0
+      ],
+      "CoffeeScript": [
+        0,
+        5
+      ],
+      "PHP": [
+        0,
+        9
+      ],
+      "Rich Text Format": [
+        0,
+        540
+      ],
+      "Haml": [
+        0,
+        0
+      ],
+      "Pug": [
+        0,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        171
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "ApacheConf": [
+        0,
+        48
+      ],
+      "LiveScript": [
+        0,
+        0
+      ],
+      "Perl": [
+        0,
+        0
+      ],
+      "ActionScript": [
+        0,
+        21
+      ],
+      "Erlang": [
+        0,
+        0
+      ],
+      "Rust": [
+        0,
+        8
+      ],
+      "Vue": [
+        0,
+        1
+      ],
+      "R": [
+        0,
+        0
+      ],
+      "Scala": [
+        0,
+        0
+      ],
+      "Racket": [
+        0,
+        0
+      ]
+    },
+    "language_count": 26,
+    "total_commits": 4021,
+    "total_lines": 7135812,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 6451548,
+        "commits": 1994
+      },
+      {
+        "language": "HTML",
+        "lines": 552584,
+        "commits": 691
+      },
+      {
+        "language": "Rich Text Format",
+        "lines": 0,
+        "commits": 540
+      },
+      {
+        "language": "CSS",
+        "lines": 77262,
+        "commits": 368
+      },
+      {
+        "language": "TypeScript",
+        "lines": 0,
+        "commits": 171
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "addyosmani",
+    "analysis_date": "2026-05-10T08:46:55.519301",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 254,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 78,
+        "packages": {
+          "node:path": 19,
+          "node:assert": 10,
+          "node:test": 10,
+          "underscore": 7,
+          "path": 5,
+          "object": 5,
+          "undefined": 5,
+          "child_process": 4,
+          "express": 4,
+          "util": 4,
+          "cheerio": 4,
+          "chalk": 3,
+          "node:fs": 3,
+          "_": 3,
+          "protocolify": 2,
+          "body-parser": 2,
+          "gulp": 2,
+          "function": 2,
+          "fs": 2,
+          "q": 2,
+          "[": 2,
+          "=": 2,
+          "system": 1,
+          "webpage": 1,
+          "humanize-url": 1,
+          "indent-string": 1,
+          "each-async": 1,
+          "meow": 1,
+          "update-notifier": 1,
+          "globby": 1,
+          "log-symbols": 1,
+          "parse-json": 1,
+          "phantomjs-prebuilt": 1,
+          "ava": 1,
+          "a11y": 1,
+          "prepend-http": 1,
+          "valid-url": 1,
+          "morgan": 1,
+          "glob": 1,
+          "serve-favicon": 1,
+          "method-override": 1,
+          "compression": 1,
+          "cookie-parser": 1,
+          "gulp-sass": 1,
+          "gulp-vulcanize": 1,
+          "gulp-nodemon": 1,
+          "gulp-rename": 1,
+          "gulp-livereload": 1,
+          "formatio": 1,
+          "gulp-web-component-tester": 1,
+          "loading": 1,
+          "my-import1.html": 1,
+          "link[rel=import]": 1,
+          "href=": 1,
+          "{target:j}):(j.addEventListener(": 1,
+          "l=": 1,
+          ")": 1,
+          "h=0": 1,
+          "k=0;i>k&&(j=f[k]);k++)g(j)?d.call(j": 1,
+          "i=f.length;if(i)for(var": 1,
+          "source-map": 1,
+          "karma": 1,
+          "gray-matter": 1,
+          "ora": 1,
+          "yargs": 1,
+          "agentic-seo": 1,
+          "node:http": 1,
+          "serve-handler": 1,
+          "gpt-tokenizer": 1,
+          "node:url": 1,
+          "load-grunt-tasks": 1,
+          "qq": 1,
+          "lodash": 1,
+          "semver": 1,
+          "^tabbable": 1,
+          "?^dropdown": 1,
+          "protractor": 1,
+          "jQuery": 1,
+          "sw-toolbox.js": 1,
+          "(\\\\\\\\.)": 1,
+          "path-to-regexp": 1,
+          "[object": 1,
+          "$$$toolbox-cache$$$": 1,
+          "serviceworker-cache-polyfill": 1,
+          "isarray": 1,
+          "angular-cli": 1,
+          "angular": 1,
+          "system-config.js": 1,
+          "karma-chrome-launcher": 1,
+          "karma-jasmine": 1,
+          "jasmine-spec-reporter": 1,
+          "ts-node": 1,
+          "lang-css-kw": 1,
+          "types:": 1,
+          "cStyleComments:!0})": 1,
+          "regexLiterals:!0})": 1,
+          "M": 1,
+          "K=[J": 1,
+          "y]": 1,
+          "cStyleComments:!0": 1,
+          "A={};n(R": 1,
+          "hashComments:!0": 1,
+          "M=[y": 1,
+          "I=[B": 1,
+          "]": 1,
+          "multiLineStrings:!0": 1,
+          "+L": 1,
+          "https": 1,
+          "libxmljs": 1,
+          "matchdep": 1,
+          "grunt-contrib-livereload": 1,
+          "$": 1,
+          "eventemitter": 1,
+          "components": 1,
+          "backbone": 1,
+          "localstorage": 1,
+          "buffer": 1,
+          "chai": 1,
+          "1.4.2": 1,
+          "chai.js": 1,
+          "jade": 1,
+          "mocha": 1,
+          "suite.js": 1,
+          "runner.js": 1,
+          "hook.js": 1,
+          "utils.js": 1,
+          "context.js": 1,
+          "\\u221A": 1,
+          "?": 1,
+          "ms.js": 1,
+          "m": 1,
+          "browser": 1,
+          "runnable.js": 1,
+          "interfaces": 1,
+          "\\u00D7": 1,
+          "growl": 1,
+          "test.js": 1,
+          "mocha.js": 1,
+          "reporters": 1,
+          "module": 1,
+          "0.9.10": 1,
+          "0.9.1": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 4,
+        "packages": {
+          "cake": 2,
+          "dispatcher.php": 2,
+          "object.php": 1,
+          "configure.php": 1,
+          "cache.php": 1,
+          "inflector.php": 1,
+          "set.php": 1,
+          "$this->shellPath": 1,
+          "folder.php": 1,
+          "shell.php": 1,
+          "database.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 6,
+        "packages": {
+          "json": 6,
+          "Path": 5,
+          "google": 5,
+          "pathlib": 5,
+          "Agent": 4,
+          "re": 3,
+          "csv": 2,
+          "MemoryService": 2,
+          "datetime": 2,
+          "AgentTool": 1,
+          "`check_sample_ratio_mismatch`": 1,
+          "the": 1,
+          "clear": 1,
+          "SequentialAgent": 1,
+          "os": 1,
+          "ReflectAndRetryToolPlugin": 1,
+          "defaultdict": 1,
+          "collections": 1,
+          "webapp2": 1,
+          "string": 1,
+          "random": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "angular": 9,
+          "rxjs": 1,
+          "angular2-material": 1,
+          "angular2-universal": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "addyosmani/a11y",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "addyosmani/a11y-webapp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "addyosmani/adk-product-engineers",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "addyosmani/agentic-seo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "addyosmani/angular.js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "addyosmani/angular1-dribbble-pwa",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "addyosmani/angular2-dribbble-pwa",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "addyosmani/angularjs.org",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "addyosmani/api.jquery.com",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "addyosmani/app.todos",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "addyosmani/aura-calendar-component",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "addyosmani/backbone",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

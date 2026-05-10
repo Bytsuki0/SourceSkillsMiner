@@ -1,0 +1,600 @@
+{
+  "username": "wesbos",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4358974358974359,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 18,
+        "language_transitions": 17,
+        "topic_entropy_bits": 3.7947,
+        "closed_prs_total": 163,
+        "bounced_back_prs": 115
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "wesbos/3d-realtime-color-picker": 0.7712,
+        "wesbos/Advanced-React": 0.3703090909090909,
+        "wesbos/advanced-react-rerecord": 0.3353233333333333,
+        "wesbos/ai-webcam": 0.128,
+        "wesbos/ama": 0.5478966666666667
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7705128205128206,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        1067493,
+        835
+      ],
+      "HTML": [
+        3507383,
+        531
+      ],
+      "CSS": [
+        2372733,
+        375
+      ],
+      "JavaScript": [
+        2920720,
+        1832
+      ],
+      "PHP": [
+        592716,
+        4
+      ],
+      "Shell": [
+        8195,
+        43
+      ],
+      "Swift": [
+        179007,
+        0
+      ],
+      "ANTLR": [
+        1282,
+        0
+      ],
+      "Objective-C": [
+        425,
+        0
+      ],
+      "Ruby": [
+        51,
+        23
+      ],
+      "Makefile": [
+        47,
+        0
+      ],
+      "Stylus": [
+        333481,
+        35
+      ],
+      "Arc": [
+        0,
+        0
+      ],
+      "SCSS": [
+        0,
+        5
+      ],
+      "CoffeeScript": [
+        0,
+        24
+      ],
+      "Pug": [
+        0,
+        19
+      ],
+      "ApacheConf": [
+        0,
+        8
+      ],
+      "GLSL": [
+        0,
+        0
+      ],
+      "Jupyter Notebook": [
+        0,
+        0
+      ],
+      "Svelte": [
+        0,
+        5
+      ],
+      "MDX": [
+        0,
+        825
+      ],
+      "Rust": [
+        0,
+        4
+      ],
+      "C": [
+        0,
+        2
+      ],
+      "C++": [
+        0,
+        1
+      ],
+      "Python": [
+        0,
+        5
+      ],
+      "SystemVerilog": [
+        0,
+        0
+      ]
+    },
+    "language_count": 26,
+    "total_commits": 4576,
+    "total_lines": 10983533,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 2920720,
+        "commits": 1832
+      },
+      {
+        "language": "TypeScript",
+        "lines": 1067493,
+        "commits": 835
+      },
+      {
+        "language": "MDX",
+        "lines": 0,
+        "commits": 825
+      },
+      {
+        "language": "HTML",
+        "lines": 3507383,
+        "commits": 531
+      },
+      {
+        "language": "CSS",
+        "lines": 2372733,
+        "commits": 375
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "wesbos",
+    "analysis_date": "2026-05-10T08:18:57.499011",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 254,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 79,
+        "packages": {
+          "mongoose": 11,
+          "testing-library": 8,
+          "apollo": 8,
+          "react": 8,
+          "keystonejs": 6,
+          "path": 6,
+          "src": 6,
+          "tensorflow-models": 4,
+          "tensorflow": 4,
+          "waait": 3,
+          "dotenv": 3,
+          "graphql": 3,
+          "fs": 3,
+          "tape": 3,
+          "webpack": 3,
+          "prop-types": 3,
+          "es6-promisify": 3,
+          "passport": 3,
+          "You": 3,
+          "axios": 3,
+          "graphql-tag": 2,
+          "connect-mongo": 2,
+          "express-session": 2,
+          "crypto": 2,
+          "nodemailer": 2,
+          "undefined": 2,
+          "random-item": 2,
+          "webpack-bundle-analyzer": 2,
+          "uglifyjs-webpack-plugin": 2,
+          "uuid": 2,
+          "apollo-link": 2,
+          "lodash.flattendeep": 2,
+          "classnames": 2,
+          "express": 2,
+          "Please": 2,
+          "next": 1,
+          "CreateProduct": 1,
+          "RequestReset": 1,
+          "apollo-server-express": 1,
+          "util": 1,
+          "stripe": 1,
+          "default": 1,
+          "vertx": 1,
+          "postcss-nesting": 1,
+          "function": 1,
+          "TRUNK": 1,
+          "<lights_phong_pars_fragment>": 1,
+          "<morphtarget_vertex>": 1,
+          "<map_fragment>": 1,
+          "<gradientmap_pars_fragment>": 1,
+          "<metalnessmap_pars_fragment>": 1,
+          "<clearcoat_normal_fragment_begin>": 1,
+          "<metalnessmap_fragment>": 1,
+          "<displacementmap_pars_vertex>": 1,
+          "<lightmap_pars_fragment>": 1,
+          "<skinning_pars_vertex>": 1,
+          "<envmap_fragment>": 1,
+          "<lights_fragment_end>": 1,
+          "<roughnessmap_pars_fragment>": 1,
+          "<map_particle_fragment>": 1,
+          "<lights_fragment_begin>": 1,
+          "<morphnormal_vertex>": 1,
+          "<dithering_pars_fragment>": 1,
+          "<specularmap_fragment>": 1,
+          "<clipping_planes_vertex>": 1,
+          "<encodings_pars_fragment>": 1,
+          "<transmission_fragment>": 1,
+          "<lightmap_fragment>": 1,
+          "<color_vertex>": 1,
+          "<logdepthbuf_vertex>": 1,
+          "<color_fragment>": 1,
+          "<lights_phong_fragment>": 1,
+          "<lights_toon_pars_fragment>": 1,
+          "<shadowmap_vertex>": 1,
+          "<lights_physical_fragment>": 1,
+          "<uv_pars_fragment>": 1,
+          "<logdepthbuf_pars_fragment>": 1,
+          "<encodings_fragment>": 1,
+          "<dithering_fragment>": 1,
+          "<transmission_pars_fragment>": 1,
+          "<uv2_pars_vertex>": 1,
+          "<emissivemap_fragment>": 1,
+          "<cube_uv_reflection_fragment>": 1,
+          "<clearcoat_pars_fragment>": 1,
+          "<lights_toon_fragment>": 1,
+          "<aomap_fragment>": 1,
+          "<envmap_pars_fragment>": 1,
+          "<skinning_vertex>": 1,
+          "<uv_pars_vertex>": 1,
+          "<beginnormal_vertex>": 1,
+          "<map_pars_fragment>": 1,
+          "<morphtarget_pars_vertex>": 1,
+          "<color_pars_vertex>": 1,
+          "<premultiplied_alpha_fragment>": 1,
+          "<skinbase_vertex>": 1,
+          "<skinnormal_vertex>": 1,
+          "<color_pars_fragment>": 1,
+          "<displacementmap_vertex>": 1,
+          "<begin_vertex>": 1,
+          "<fog_fragment>": 1,
+          "<shadowmap_pars_vertex>": 1,
+          "<clearcoat_normal_fragment_maps>": 1,
+          "<alphatest_fragment>": 1,
+          "<shadowmask_pars_fragment>": 1,
+          "<bumpmap_pars_fragment>": 1,
+          "<project_vertex>": 1,
+          "<tonemapping_fragment>": 1,
+          "<normal_fragment_begin>": 1,
+          "<map_particle_pars_fragment>": 1,
+          "<fog_vertex>": 1,
+          "<logdepthbuf_pars_vertex>": 1,
+          "<lights_fragment_maps>": 1,
+          "<lights_lambert_vertex>": 1,
+          "<fog_pars_fragment>": 1,
+          "<normal_fragment_maps>": 1,
+          "<uv_vertex>": 1,
+          "<logdepthbuf_fragment>": 1,
+          "<envmap_pars_vertex>": 1,
+          "<alphamap_pars_fragment>": 1,
+          "<normalmap_pars_fragment>": 1,
+          "<alphamap_fragment>": 1,
+          "<shadowmap_pars_fragment>": 1,
+          "<envmap_physical_pars_fragment>": 1,
+          "<uv2_pars_fragment>": 1,
+          "<bsdfs>": 1,
+          "<packing>": 1,
+          "<aomap_pars_fragment>": 1,
+          "<clipping_planes_fragment>": 1,
+          "<clipping_planes_pars_fragment>": 1,
+          "<worldpos_vertex>": 1,
+          "<envmap_common_pars_fragment>": 1,
+          "<common>": 1,
+          "<envmap_vertex>": 1,
+          "<clipping_planes_pars_vertex>": 1,
+          "<defaultnormal_vertex>": 1,
+          "<emissivemap_pars_fragment>": 1,
+          "<lights_pars_begin>": 1,
+          "<uv2_vertex>": 1,
+          "<roughnessmap_fragment>": 1,
+          "<lights_physical_pars_fragment>": 1,
+          "<specularmap_pars_fragment>": 1,
+          "<fog_pars_vertex>": 1,
+          "object": 1,
+          "importVideo": 1,
+          "mediapipe": 1,
+          "scatter-gl": 1,
+          "texture_external": 1,
+          "vite": 1,
+          "prettier": 1,
+          "load-grunt-tasks": 1,
+          "apollo-utilities": 1,
+          "events": 1,
+          "graphiql": 1,
+          "lodash.uniqby": 1,
+          "graphql-tools": 1,
+          "graphql-syntax-highlighter-react": 1,
+          "cookie-parser": 1,
+          "body-parser": 1,
+          "express-validator": 1,
+          "connect-flash": 1,
+          "local": 1,
+          "faker": 1,
+          "photo": 1,
+          "multer": 1,
+          "jimp": 1,
+          "juice": 1,
+          "pug": 1,
+          "html-to-text": 1,
+          "moment": 1,
+          "Review": 1,
+          "A": 1,
+          "slugs": 1,
+          "Store": 1,
+          "passport-local-mongoose": 1,
+          "validator": 1,
+          "md5": 1,
+          "User": 1,
+          "mongoose-mongodb-errors": 1,
+          "extract-text-webpack-plugin": 1,
+          "autoprefixer": 1,
+          "something.scss": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 6,
+        "packages": {
+          "workflows.php": 5,
+          "documentations.php": 3,
+          "vendor/autoload.php": 1,
+          "plist.phtml": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 29,
+        "packages": {
+          "Common": 26,
+          "AppKit": 21,
+          "Foundation": 3,
+          "SwiftUI": 2,
+          "PackageDescription": 1,
+          "AppBundle": 1,
+          "OrderedCollections": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 42,
+        "packages": {
+          "keystone-next": 19,
+          "dotenv": 4,
+          "nodemailer": 3,
+          "huggingface": 3,
+          "partysocket": 2,
+          "vite": 2,
+          "stripe": 2,
+          "vanta": 2,
+          "tailwindcss": 2,
+          "three": 1,
+          "partyserver": 1,
+          "react": 1,
+          "vitejs": 1,
+          "cloudflare": 1,
+          "keystonejs": 1,
+          "code-hike": 1,
+          "kokoro-js": 1,
+          "hono": 1,
+          "fs": 1,
+          "openai": 1,
+          "feed": 1,
+          "cheerio": 1,
+          "assert": 1,
+          "fast-glob": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 26,
+        "packages": {
+          "next": 14,
+          "react": 9,
+          "clsx": 7,
+          "tanstack": 3,
+          "next-themes": 2,
+          "npm:clsx": 1,
+          "npm:@types": 1,
+          "npm:tailwind-merge": 1,
+          "npm:react": 1,
+          "three": 1,
+          "react-dom": 1,
+          "mdx": 1,
+          "a": 1,
+          "div": 1,
+          "headlessui": 1,
+          "svg": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "wesbos/-ui-card",
+        "files_analyzed": 1,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "wesbos/3d-realtime-color-picker",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "wesbos/Advanced-React",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "wesbos/advanced-react-rerecord",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "wesbos/AeroSpace",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "wesbos/ai-and-coding-talk",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "wesbos/AI-and-JavaScript",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "wesbos/ai-webcam",
+        "files_analyzed": 3,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "wesbos/alfred-cdn-workflow",
+        "files_analyzed": 2,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "wesbos/alfred-devdocs",
+        "files_analyzed": 6,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "wesbos/alfred-workflows",
+        "files_analyzed": 3,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "wesbos/american-sounding-names",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "wesbos/amyduton__next",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "wesbos/animate.css",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "wesbos/apollo-client-devtools",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "wesbos/app",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "wesbos/argv",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

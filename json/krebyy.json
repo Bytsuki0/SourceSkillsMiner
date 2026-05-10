@@ -1,0 +1,514 @@
+{
+  "username": "krebyy",
+  "areas": {
+    "OSS": {
+      "score": -0.40573058992849953,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8914041151072507
+      }
+    },
+    "Status": {
+      "score": 0.2707892722478431,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8484916006794568,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.35,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.09698826353613128,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        4651,
+        12
+      ],
+      "HTML": [
+        750889,
+        6
+      ],
+      "CSS": [
+        59494,
+        0
+      ],
+      "JavaScript": [
+        545,
+        0
+      ],
+      "C": [
+        57557,
+        31
+      ],
+      "Makefile": [
+        1128,
+        0
+      ],
+      "Kotlin": [
+        17203,
+        1
+      ],
+      "Arduino": [
+        1400,
+        0
+      ],
+      "Eagle": [
+        87961,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 50,
+    "total_lines": 980828,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 57557,
+        "commits": 31
+      },
+      {
+        "language": "C++",
+        "lines": 4651,
+        "commits": 12
+      },
+      {
+        "language": "HTML",
+        "lines": 750889,
+        "commits": 6
+      },
+      {
+        "language": "Kotlin",
+        "lines": 17203,
+        "commits": 1
+      },
+      {
+        "language": "CSS",
+        "lines": 59494,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "krebyy",
+    "analysis_date": "2026-05-10T02:49:02.067850",
+    "total_repos_analyzed": 18,
+    "total_files_analyzed": 178,
+    "languages": {
+      "C": {
+        "files_scanned": 36,
+        "packages": {
+          "FreeRTOS.h": 12,
+          "task.h": 11,
+          "<stdlib.h>": 10,
+          "stdlib.h": 10,
+          "usbd_ctlreq.h": 4,
+          "usbd_ioreq.h": 4,
+          "timers.h": 3,
+          "usbd_cdc.h": 2,
+          "usbd_desc.h": 2,
+          "usbd_cdc_if_template.h": 2,
+          "usbd_core.h": 2,
+          "botao.h": 2,
+          "buzzer.h": 2,
+          "main.h": 2,
+          "stm32f4xx_hal.h": 2,
+          "stm32f4xx.h": 2,
+          "croutine.h": 2,
+          "queue.h": 2,
+          "string.h": 2,
+          "<string.h>": 2,
+          "delays.h": 1,
+          "encoders.h": 1,
+          "flash.h": 1,
+          "leds.h": 1,
+          "motores.h": 1,
+          "sensores.h": 1,
+          "speedProfile.h": 1,
+          "stm32f4xx_it.h": 1,
+          "usart1.h": 1,
+          "stm32f4xx_hal_cortex.h": 1,
+          "event_groups.h": 1,
+          "list.h": 1,
+          "<stdio.h>": 1,
+          "tasks_test_access_functions.h": 1,
+          "a": 1,
+          "StackMacros.h": 1,
+          "list2.": 1,
+          "stdio.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 18,
+        "packages": {
+          "namespace": 5,
+          "std": 4,
+          "cv": 3,
+          "iostream": 2,
+          "<iostream>": 2,
+          "<string.h>": 2,
+          "string.h": 2,
+          "fcntl.h": 2,
+          "<errno.h>": 2,
+          "errno.h": 2,
+          "<fcntl.h>": 2,
+          "<Espalexa.h>": 1,
+          "<esp_task_wdt.h>": 1,
+          "WiFi.h": 1,
+          "esp_task_wdt.h": 1,
+          "Arduino.h": 1,
+          "<ESP32Servo.h>": 1,
+          "<WiFi.h>": 1,
+          "ESP32Servo.h": 1,
+          "<Arduino.h>": 1,
+          "Espalexa.h": 1,
+          "ThingSpeak.h": 1,
+          "I2Cdev.h": 1,
+          "MPU6050.h": 1,
+          "linux/videodev2.h": 1,
+          "iomanip": 1,
+          "opencv2/imgproc/imgproc.hpp": 1,
+          "<linux/videodev2.h>": 1,
+          "sys/mman.h": 1,
+          "<sys/mman.h>": 1,
+          "<iomanip>": 1,
+          "opencv2/highgui/highgui.hpp": 1,
+          "OCVCapture.h": 1,
+          "libv4l2.h": 1,
+          "<libv4l2.h>": 1,
+          "poll.h": 1,
+          "<poll.h>": 1,
+          "<stdio.h>": 1,
+          "SimpleGPIO.h": 1,
+          "unistd.h": 1,
+          "<stdlib.h>": 1,
+          "<unistd.h>": 1,
+          "stdlib.h": 1,
+          "stdio.h": 1,
+          "buttons.h": 1,
+          "capturador.h": 1,
+          "controlador.h": 1,
+          "leds.h": 1,
+          "main.h": 1,
+          "pwm.h": 1,
+          "reconhecedor.h": 1,
+          "trimpot.h": 1,
+          "motores.h": 1,
+          "sensores.h": 1,
+          "speed_profile.h": 1,
+          "wc2015_arduino.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 90,
+        "packages": {
+          "stm32f4xx.h": 36,
+          "stdio.h": 15,
+          "<stdio.h>": 15,
+          "delays.h": 11,
+          "stdint.h": 8,
+          "<stdint.h>": 8,
+          "motores.h": 8,
+          "buzzer.h": 8,
+          "usbd_def.h": 7,
+          "stdbool.h": 7,
+          "math.h": 7,
+          "main.h": 7,
+          "sensores.h": 6,
+          "encoders.h": 6,
+          "<stdbool.h>": 6,
+          "stm32f4xx_hal_flash.h": 6,
+          "stm32f4xx_hal_rcc.h": 6,
+          "stm32f4xx_hal_gpio.h": 6,
+          "string.h": 6,
+          "unistd.h": 6,
+          "<unistd.h>": 6,
+          "<math.h>": 5,
+          "leds.h": 5,
+          "stm32f4xx_hal.h": 5,
+          "<string.h>": 5,
+          "<stdlib.h>": 5,
+          "stdlib.h": 5,
+          "usbd_ioreq.h": 4,
+          "usbd_cdc.h": 4,
+          "usbd_conf.h": 4,
+          "usbd_core.h": 4,
+          "usart1.h": 4,
+          "flash.h": 3,
+          "stm32f4xx_it.h": 3,
+          "botao.h": 3,
+          "stm32f4xx_hal_adc.h": 3,
+          "stm32f4xx_hal_dma.h": 3,
+          "stm32f4xx_hal_hash.h": 3,
+          "stm32f4xx_hal_irda.h": 3,
+          "stm32f4xx_hal_dcmi.h": 3,
+          "stm32f4xx_hal_spi.h": 3,
+          "stm32f4xx_hal_sram.h": 3,
+          "stm32f4xx_hal_sai.h": 3,
+          "stm32f4xx_hal_hcd.h": 3,
+          "stm32f4xx_hal_pcd.h": 3,
+          "stm32f4xx_hal_cryp.h": 3,
+          "stm32f4xx_hal_nor.h": 3,
+          "stm32f4xx_hal_tim.h": 3,
+          "stm32f4xx_hal_dac.h": 3,
+          "stm32f4xx_hal_dma2d.h": 3,
+          "stm32f4xx_hal_eth.h": 3,
+          "stm32f4xx_hal_sd.h": 3,
+          "stm32f4xx_hal_wwdg.h": 3,
+          "stm32f4xx_hal_sdram.h": 3,
+          "stm32f4xx_hal_pwr.h": 3,
+          "stm32f4xx_hal_rtc.h": 3,
+          "stm32f4xx_hal_uart.h": 3,
+          "stm32f4xx_hal_ltdc.h": 3,
+          "stm32f4xx_hal_i2s.h": 3,
+          "stm32f4xx_hal_iwdg.h": 3,
+          "stm32f4xx_hal_cortex.h": 3,
+          "stm32f4xx_hal_crc.h": 3,
+          "stm32f4xx_hal_usart.h": 3,
+          "stm32f4xx_hal_i2c.h": 3,
+          "stm32f4xx_hal_can.h": 3,
+          "stm32f4xx_hal_rng.h": 3,
+          "stm32f4xx_hal_smartcard.h": 3,
+          "stm32f4xx_hal_nand.h": 3,
+          "stm32f4xx_hal_pccard.h": 3,
+          "Arduino.h": 3,
+          "fcntl.h": 3,
+          "<fcntl.h>": 3,
+          "opencv2/core/core.hpp": 3,
+          "SimpleGPIO.h": 3,
+          "namespace": 3,
+          "usbd_ctlreq.h": 2,
+          "speed_profile.h": 2,
+          "usb_user.h": 2,
+          "rodinhas.h": 2,
+          "usbd_cdc_if_template.h": 2,
+          "<usbd_desc.h>": 2,
+          "sys/stat.h": 2,
+          "<usbd_core.h>": 2,
+          "<usbd_cdc.h>": 2,
+          "<usbd_cdc_if_template.h>": 2,
+          "<sys/stat.h>": 2,
+          "usbd_desc.h": 2,
+          "I2Cdev.h": 2,
+          "opencv2/highgui/highgui.hpp": 2,
+          "iostream": 2,
+          "<iostream>": 2,
+          "OCVCapture.h": 2,
+          "arm_math.h": 2,
+          "wc2015_arduino.h": 2,
+          "list.h": 2,
+          "portmacro.h": 2,
+          "flood_fill.h": 1,
+          "<Client.h>": 1,
+          "Client.h": 1,
+          "<SPI.h>": 1,
+          "ThingSpeak.h": 1,
+          "string_convert.h": 1,
+          "Ethernet.h": 1,
+          "application.h": 1,
+          "<Ethernet.h>": 1,
+          "SPI.h": 1,
+          "<linux/i2c-dev.h>": 1,
+          "sys/ioctl.h": 1,
+          "linux/i2c-dev.h": 1,
+          "<sys/ioctl.h>": 1,
+          "<avr/pgmspace.h>": 1,
+          "avr/pgmspace.h": 1,
+          "<vector>": 1,
+          "<opencv2/core/core.hpp>": 1,
+          "<string>": 1,
+          "string": 1,
+          "vector": 1,
+          "<opencv2/highgui/highgui.hpp>": 1,
+          "opencv2/imgproc/imgproc.hpp": 1,
+          "sys/time.h": 1,
+          "<pthread.h>": 1,
+          "buttons.h": 1,
+          "MPU6050.h": 1,
+          "trimpot.h": 1,
+          "pwm.h": 1,
+          "reconhecedor.h": 1,
+          "controlador.h": 1,
+          "pthread.h": 1,
+          "capturador.h": 1,
+          "<sys/time.h>": 1,
+          "speedProfile.h": 1,
+          "arm_common_tables.h": 1,
+          "core_cm0plus.h": 1,
+          "core_cm4.h": 1,
+          "core_cm3.h": 1,
+          "ARMCM4.h": 1,
+          "core_cm0.h": 1,
+          "speed_control.h": 1,
+          "EEPROM.h": 1,
+          "Encoder.h": 1,
+          "projdefs.h": 1,
+          "stddef.h": 1,
+          "portable.h": 1,
+          "FreeRTOSConfig.h": 1,
+          "<stddef.h>": 1,
+          "frconfig.h": 1,
+          "libFreeRTOS/Include/portmacro.h": 1,
+          "timers.h": 1,
+          "of": 1,
+          "mpu_wrappers.h": 1,
+          "deprecated_definitions.h": 1,
+          "queue.h": 1,
+          "task.h": 1,
+          "system_stm32f4xx.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "object": 1,
+          "undefined": 1,
+          "ev-emitter": 1,
+          "use": 1,
+          "jquery": 1,
+          "jQuery": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 10,
+        "packages": {
+          "com.krebyy": 10,
+          "androidx.compose": 6,
+          "org.junit": 2,
+          "androidx.test": 1,
+          "android.content": 1,
+          "androidx.activity": 1,
+          "android.os": 1,
+          "androidx.annotation": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "krebyy/alexa_pet",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "krebyy/krebyy.github.io",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "krebyy/makerhubbr.github.io",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "krebyy/maze2015",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "krebyy/Superheroes",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "krebyy/thingspeak-arduino",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "krebyy/tru",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "krebyy/tur5",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "krebyy/wc2015",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "krebyy/wc2015_arduino",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "krebyy/wc2015_freeRTOS",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

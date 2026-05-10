@@ -1,0 +1,259 @@
+{
+  "username": "Gohith",
+  "areas": {
+    "OSS": {
+      "score": 0.1914196074919372,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.7871294112379058
+      }
+    },
+    "Status": {
+      "score": 0.29203471324433417,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7842059160203473,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Adaptability": {
+      "score": -0.875,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.07830913585274574,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        5941,
+        9
+      ],
+      "C": [
+        6336,
+        43
+      ],
+      "CMake": [
+        3,
+        0
+      ],
+      "Makefile": [
+        3,
+        0
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 52,
+    "total_lines": 12283,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 6336,
+        "commits": 43
+      },
+      {
+        "language": "C++",
+        "lines": 5941,
+        "commits": 9
+      },
+      {
+        "language": "CMake",
+        "lines": 3,
+        "commits": 0
+      },
+      {
+        "language": "Makefile",
+        "lines": 3,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Gohith",
+    "analysis_date": "2026-05-10T05:02:42.048434",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 60,
+    "languages": {
+      "C": {
+        "files_scanned": 28,
+        "packages": {
+          "string.h": 20,
+          "stdio.h": 20,
+          "freertos/task.h": 18,
+          "freertos/FreeRTOS.h": 18,
+          "esp_log.h": 17,
+          "nvs_flash.h": 17,
+          "stdint.h": 13,
+          "esp_system.h": 13,
+          "<stdio.h>": 11,
+          "<string.h>": 11,
+          "cJSON.h": 11,
+          "esp_event.h": 11,
+          "nvs.h": 10,
+          "esp_wifi.h": 10,
+          "wifi_functions.h": 9,
+          "freertos/event_groups.h": 8,
+          "driver/gpio.h": 8,
+          "esp_http_client.h": 8,
+          "tcpip_adapter.h": 7,
+          "time.h": 7,
+          "driver/uart.h": 7,
+          "sys/time.h": 7,
+          "<stdint.h>": 6,
+          "esp_sntp.h": 6,
+          "stddef.h": 5,
+          "esp_sleep.h": 5,
+          "esp_heap_caps.h": 5,
+          "esp_bt.h": 4,
+          "esp_bt_main.h": 4,
+          "esp_gap_bt_api.h": 4,
+          "esp_spp_api.h": 4,
+          "esp_bt_device.h": 4,
+          "freertos/queue.h": 4,
+          "freertos/semphr.h": 3,
+          "esp_https_ota.h": 3,
+          "esp_event_loop.h": 3,
+          "<stddef.h>": 3,
+          "soc/sens_periph.h": 3,
+          "e2000a.h": 3,
+          "esp_mesh_internal.h": 2,
+          "esp_mesh.h": 2,
+          "lwip/netdb.h": 2,
+          "lwip/dns.h": 2,
+          "lwip/sockets.h": 2,
+          "mqtt_client.h": 2,
+          "esp_err.h": 2,
+          "esp_vfs.h": 2,
+          "sys/unistd.h": 2,
+          "<stdbool.h>": 2,
+          "stdbool.h": 2,
+          "stdlib.h": 2,
+          "mbedtls/aes.h": 1,
+          "driver/ledc.h": 1,
+          "sdkconfig.h": 1,
+          "spp_task.h": 1,
+          "<time.h>": 1,
+          "esp_attr.h": 1,
+          "<sys/time.h>": 1,
+          "GPIO.h": 1,
+          "RCC.h": 1,
+          "<RCC.h>": 1,
+          "ADC.h": 1,
+          "<ADC.h>": 1,
+          "SPI.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "iostream": 2,
+          "namespace": 2,
+          "<iostream>": 2,
+          "std": 2,
+          "string": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "sstream": 1,
+          "<string>": 1,
+          "<sstream>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 6,
+        "packages": {
+          "stdint.h": 3,
+          "<stdint.h>": 2,
+          "stdbool.h": 1,
+          "utils.h": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "<M5StickC.h>": 1,
+          "M5StickC.h": 1,
+          "<HardwareSerial.h>": 1,
+          "HTTPClient.h": 1,
+          "WString.h": 1,
+          "<WString.h>": 1,
+          "<HTTPClient.h>": 1,
+          "HardwareSerial.h": 1,
+          "<stdlib.h>": 1,
+          "stdlib.h": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Gohith/CAN-frame-splitter",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "Gohith/ESP32-projects",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "Gohith/Nucleo-STM32H7-Bare-metal-Drivers",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "Gohith/Smart-Inhalation-Tracker",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "Gohith/Vending-Machine-UI",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      }
+    ]
+  }
+}

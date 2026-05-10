@@ -1,0 +1,692 @@
+{
+  "username": "Ashot1995",
+  "areas": {
+    "OSS": {
+      "score": 0.1534915015435021,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.25,
+        "commits_activity": 0.9802372523152533
+      }
+    },
+    "Status": {
+      "score": 0.11116607456846439,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6475183426219274,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": 0.60166,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.5283,
+        "resilience_score": 0.8,
+        "distinct_primary_languages": 7,
+        "language_transitions": 5,
+        "topic_entropy_bits": 1.585,
+        "closed_prs_total": 15,
+        "bounced_back_prs": 6
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2232635152223933,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Vue": [
+        1701752,
+        7
+      ],
+      "JavaScript": [
+        944076,
+        33
+      ],
+      "Shell": [
+        214403,
+        4
+      ],
+      "PHP": [
+        3723938,
+        44
+      ],
+      "Perl": [
+        50461,
+        0
+      ],
+      "Blade": [
+        105194,
+        16
+      ],
+      "HTML": [
+        482252,
+        10
+      ],
+      "CSS": [
+        322618,
+        88
+      ],
+      "Python": [
+        2222,
+        1
+      ],
+      "C++": [
+        89,
+        0
+      ],
+      "Makefile": [
+        48,
+        0
+      ],
+      "Dockerfile": [
+        19,
+        0
+      ],
+      "SCSS": [
+        54460,
+        3
+      ],
+      "Hack": [
+        29,
+        0
+      ],
+      "Awk": [
+        0,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "Less": [
+        0,
+        4
+      ],
+      "Java": [
+        0,
+        0
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Objective-C++": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        0
+      ]
+    },
+    "language_count": 22,
+    "total_commits": 210,
+    "total_lines": 7601561,
+    "top_5_languages": [
+      {
+        "language": "CSS",
+        "lines": 322618,
+        "commits": 88
+      },
+      {
+        "language": "PHP",
+        "lines": 3723938,
+        "commits": 44
+      },
+      {
+        "language": "JavaScript",
+        "lines": 944076,
+        "commits": 33
+      },
+      {
+        "language": "Blade",
+        "lines": 105194,
+        "commits": 16
+      },
+      {
+        "language": "HTML",
+        "lines": 482252,
+        "commits": 10
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Ashot1995",
+    "analysis_date": "2026-05-10T06:27:19.243100",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 491,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 42,
+        "packages": {
+          "axios": 10,
+          "vue": 7,
+          "jquery": 6,
+          "mi18n": 6,
+          "object": 4,
+          "vue-router": 2,
+          "vuex": 2,
+          "use": 2,
+          "__esModule": 2,
+          "undefined": 2,
+          "mdi": 1,
+          "vuetify": 1,
+          "=": 1,
+          "horizontal": 1,
+          "vertical": 1,
+          "the": 1,
+          "||": 1,
+          "vue-fragment": 1,
+          "vuelidate": 1,
+          "pdfkit": 1,
+          "fs": 1,
+          "register-service-worker": 1,
+          "query-string": 1,
+          "requireValidOption": 1,
+          "delta": 1,
+          "|": 1,
+          "select": 1,
+          "required": 1,
+          "lodash": 1,
+          "js": 1,
+          "concat-files": 1,
+          "path": 1,
+          "fs-extra": 1,
+          "child_process": 1,
+          "ace": 1,
+          "resources": 1,
+          "jQuery": 1,
+          "gulp-jshint": 1,
+          "gulp-jscs": 1,
+          "gulp-markdown-code-blocks": 1,
+          "gulp": 1,
+          "run-sequence": 1,
+          "gulp-busterjs": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 261,
+        "packages": {
+          "Illuminate\\Http\\Request": 46,
+          "Illuminate\\Console\\Command": 28,
+          "App\\Http\\Controllers\\Controller": 25,
+          "Illuminate\\Support\\Facades\\Config": 20,
+          "App\\Cryptocurrency": 17,
+          "Illuminate\\Support\\Facades\\Log": 17,
+          "Illuminate\\Database\\Eloquent\\Model": 15,
+          "App\\Services\\SleepService": 15,
+          "App\\Services\\CryptoCurrencyService": 14,
+          "Illuminate\\Support\\Facades\\Auth": 13,
+          "Illuminate\\Support\\ServiceProvider": 13,
+          "App\\Providers\\RouteServiceProvider": 11,
+          "HasFactory": 11,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 11,
+          "GuzzleHttp\\Client": 10,
+          "Closure": 9,
+          "App\\Http\\DateFormat\\DateFormat": 9,
+          "App\\TopCryptocurrency": 9,
+          "App\\Services\\CoinBaseService": 9,
+          "yii\\helpers\\Html": 8,
+          "Illuminate\\Foundation\\Console\\Kernel": 7,
+          "routes/console.php": 7,
+          "Illuminate\\Console\\Scheduling\\Schedule": 7,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 7,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 7,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 7,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 7,
+          "Illuminate\\Routing\\Controller": 7,
+          "AuthorizesRequests": 7,
+          "Illuminate\\Foundation\\Http\\Kernel": 7,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 7,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 7,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 7,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 7,
+          "Illuminate\\Foundation\\Auth\\User": 7,
+          "Illuminate\\Notifications\\Notifiable": 7,
+          "Illuminate\\Support\\Str": 7,
+          "Throwable": 6,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 6,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 6,
+          "Illuminate\\Support\\Facades\\Gate": 6,
+          "Illuminate\\Support\\Facades\\Broadcast": 6,
+          "routes/channels.php": 6,
+          "Illuminate\\Auth\\Events\\Registered": 6,
+          "Illuminate\\Support\\Facades\\Event": 6,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 6,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 6,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 6,
+          "Illuminate\\Support\\Facades\\Route": 6,
+          "App\\Services\\CoefficientService": 6,
+          "App\\Services\\TnIndexService": 6,
+          "Illuminate\\Http\\JsonResponse": 6,
+          "App\\Models\\Ticket": 6,
+          "Illuminate\\Support\\Facades\\Validator": 5,
+          "Illuminate\\Support\\Facades\\Http": 5,
+          "Fideloper\\Proxy\\TrustProxies": 5,
+          "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 5,
+          "App\\User": 5,
+          "App\\Models\\Customer": 5,
+          "App\\Models\\User": 4,
+          "Exception": 4,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 4,
+          "Illuminate\\Cache\\RateLimiting\\Limit": 4,
+          "Illuminate\\Support\\Facades\\RateLimiter": 4,
+          "App\\OhlcvModels\\ohlcv_cmc_1d": 4,
+          "App\\Product": 4,
+          "App\\Http\\DriversSheet": 4,
+          "App\\Services\\Contracts\\TicketServiceInterface": 4,
+          "Illuminate\\Foundation\\Http\\FormRequest": 4,
+          "Illuminate\\Pagination\\LengthAwarePaginator": 4,
+          "Illuminate\\Database\\Eloquent\\Collection": 4,
+          "App\\Services\\YclientsService": 3,
+          "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode": 3,
+          "Notifiable": 3,
+          "App\\Services\\CurrencyOhlcvService": 3,
+          "Illuminate\\Support\\Facades\\File": 3,
+          "DateTime": 3,
+          "App\\Services\\MarketPairService": 3,
+          "App\\Exchange": 3,
+          "db.php": 3,
+          "Illuminate\\Support\\Facades\\Hash": 3,
+          "App\\Category": 3,
+          "App\\Logo": 3,
+          "App\\Menu": 3,
+          "Illuminate\\Support\\Arr": 3,
+          "App\\Http\\Sheet": 3,
+          "App\\Repositories\\Contracts\\CustomerRepositoryInterface": 3,
+          "Tymon\\JWTAuth\\Contracts\\JWTSubject": 2,
+          "App\\Coefficient": 2,
+          "App\\Quote": 2,
+          "Illuminate\\Support\\Facades\\Artisan": 2,
+          "App\\Services\\CorrelationService": 2,
+          "App\\Correlation": 2,
+          "App\\GlobalCoefficient": 2,
+          "DB": 2,
+          "App\\OhlcvPair": 2,
+          "GuzzleHttp\\Exception\\ClientException": 2,
+          "Carbon\\Carbon": 2,
+          "Illuminate\\Support\\Facades\\DB": 2,
+          "Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails": 2,
+          "SendsPasswordResetEmails": 2,
+          "AuthenticatesUsers": 2,
+          "Illuminate\\Foundation\\Auth\\AuthenticatesUsers": 2,
+          "Illuminate\\Foundation\\Auth\\RegistersUsers": 2,
+          "RegistersUsers": 2,
+          "Illuminate\\Foundation\\Auth\\ResetsPasswords": 2,
+          "ResetsPasswords": 2,
+          "Illuminate\\Foundation\\Auth\\VerifiesEmails": 2,
+          "VerifiesEmails": 2,
+          "Yii": 2,
+          "backend\\assets\\AppAsset": 2,
+          "App\\About": 2,
+          "App\\Cart": 2,
+          "Illuminate\\Support\\Facades\\Mail": 2,
+          "Illuminate\\Http\\Middleware\\TrustProxies": 2,
+          "Monolog\\Handler\\NullHandler": 2,
+          "Monolog\\Handler\\StreamHandler": 2,
+          "Monolog\\Handler\\SyslogUdpHandler": 2,
+          "Sheets": 2,
+          "Illuminate\\View\\View": 2,
+          "App\\Http\\Resources\\TicketResource": 2,
+          "Illuminate\\Validation\\Rule": 2,
+          "Illuminate\\Http\\Resources\\Json\\JsonResource": 2,
+          "Illuminate\\Database\\Eloquent\\Relations\\HasMany": 2,
+          "App\\Repositories\\Contracts\\TicketRepositoryInterface": 2,
+          "Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany": 2,
+          "App\\Repositories\\AbstractRepository": 2,
+          "App\\Services\\DadataServices": 1,
+          "App\\Services\\PaypoolServices": 1,
+          "App\\Models\\Order": 1,
+          "Tymon\\JWTAuth\\Http\\Middleware\\BaseMiddleware": 1,
+          "Tymon\\JWTAuth\\Facades\\JWTAuth": 1,
+          "App\\Service\\CryptoApiService": 1,
+          "App\\Status\\Status": 1,
+          "App\\CryptocurrencyHistorical": 1,
+          "App\\CryptocurrencyTag": 1,
+          "App\\Tag": 1,
+          "App\\CorrelationCoin": 1,
+          "App\\Platform": 1,
+          "phpDocumentor\\Reflection\\DocBlock\\Description": 1,
+          "App\\ExchangeQuote": 1,
+          "App\\GlobalMetric": 1,
+          "App\\GlobalMetricsQuote": 1,
+          "App\\Services\\GlobalMetricService": 1,
+          "App\\MarketPair": 1,
+          "App\\ObserverOhlcv": 1,
+          "App\\OhlcvModels\\ohlcv_cmc_1h": 1,
+          "App\\TnIndex": 1,
+          "forgotPassword/Captcha/newPassword.php": 1,
+          "registration.php": 1,
+          "config.php": 1,
+          "database.php": 1,
+          "simple_html_dom.php": 1,
+          "parser_configs.php": 1,
+          "ConfirmsPasswords": 1,
+          "Illuminate\\Foundation\\Auth\\ConfirmsPasswords": 1,
+          "yii\\web\\AssetBundle": 1,
+          "yii\\filters\\VerbFilter": 1,
+          "yii\\web\\Controller": 1,
+          "yii\\filters\\AccessControl": 1,
+          "common\\models\\LoginForm": 1,
+          "_generated\\FunctionalTesterActions": 1,
+          "_generated\\UnitTesterActions": 1,
+          "common\\fixtures\\UserFixture": 1,
+          "backend\\tests\\FunctionalTester": 1,
+          "yii\\bootstrap\\NavBar": 1,
+          "common\\widgets\\Alert": 1,
+          "yii\\widgets\\Breadcrumbs": 1,
+          "yii\\bootstrap\\Nav": 1,
+          "yii\\bootstrap\\ActiveForm": 1,
+          "yii\\test\\ActiveFixture": 1,
+          "yii\\base\\Model": 1,
+          "Laravel\\Socialite\\Facades\\Socialite": 1,
+          "Illuminate\\Support\\Facades\\Session": 1,
+          "App\\Mail\\SendMailable": 1,
+          "App\\Mail\\SendContactMail": 1,
+          "Illuminate\\Support\\Facades\\View": 1,
+          "Validator": 1,
+          "\\DB": 1,
+          "App\\Wazzup": 1,
+          "App\\Task": 1,
+          "App\\Http\\OrdersSheet": 1,
+          "App\\Http\\PaymentsSheet": 1,
+          "Revolution\\Google\\Sheets\\Facades\\Sheets": 1,
+          "App\\Http\\Requests\\UpdateTicketRequest": 1,
+          "App\\Http\\Requests\\StoreTicketRequest": 1,
+          "Spatie\\MediaLibrary\\HasMedia": 1,
+          "Illuminate\\Database\\Eloquent\\Relations\\BelongsTo": 1,
+          "Spatie\\MediaLibrary\\InteractsWithMedia": 1,
+          "Spatie\\Permission\\Traits\\HasRoles": 1,
+          "App\\Services\\Contracts\\CustomerServiceInterface": 1,
+          "Illuminate\\Foundation\\Application": 1,
+          "Illuminate\\Foundation\\Configuration\\Exceptions": 1,
+          "Illuminate\\Foundation\\Configuration\\Middleware": 1,
+          "Monolog\\Processor\\PsrLogMessageProcessor": 1,
+          "App\\Services\\CategoryService": 1,
+          "App\\Http\\Requests\\CategoryRequest": 1,
+          "App\\Http\\Requests\\ProductRequest": 1,
+          "App\\Services\\ProductService": 1,
+          "QueryHelper": 1,
+          "App\\Traits\\Query\\QueryHelper": 1,
+          "ValidatesRequests": 1,
+          "DispatchesJobs": 1,
+          "Illuminate\\Database\\Eloquent\\SoftDeletes": 1,
+          "SoftDeletes": 1,
+          "Laravel\\Sanctum\\HasApiTokens": 1,
+          "HasApiTokens": 1,
+          "Illuminate\\Database\\Query\\Builder": 1,
+          "Illuminate\\Database\\Eloquent\\Builder": 1,
+          "App\\Models\\Category": 1,
+          "App\\Models\\Product": 1,
+          "App\\Repositories\\CategoryRepository\\CategoryRepository": 1,
+          "App\\Repositories\\ProductRepository\\ProductRepository": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 21,
+        "packages": {
+          "typing": 15,
+          "os": 14,
+          "datetime": 10,
+          "logging": 9,
+          "Optional": 8,
+          "time": 7,
+          "pytest": 7,
+          "fastapi": 6,
+          "json": 6,
+          "asyncpg": 6,
+          "Any": 4,
+          "asyncio": 4,
+          "metrics": 3,
+          "collections": 2,
+          "numpy": 2,
+          "HTTPException": 2,
+          "secrets": 2,
+          "DatabaseError": 2,
+          "exceptions": 2,
+          "contextlib": 2,
+          "asynccontextmanager": 2,
+          "sys": 2,
+          "database": 2,
+          "paho": 2,
+          "Dict": 2,
+          "requests": 2,
+          "main": 2,
+          "httpx": 2,
+          "app": 2,
+          "TestClient": 2,
+          "deque": 1,
+          "functools": 1,
+          "HTTPBearer": 1,
+          "jwt": 1,
+          "bcrypt": 1,
+          "wraps": 1,
+          "timedelta": 1,
+          "redis": 1,
+          "record_cache_operation": 1,
+          "update_connection_pool_metrics": 1,
+          "record_db_operation": 1,
+          "Producer": 1,
+          "confluent_kafka": 1,
+          "uuid": 1,
+          "ContextVar": 1,
+          "contextvars": 1,
+          "pydantic": 1,
+          "RequestIDMiddleware": 1,
+          "auth": 1,
+          "stop_mqtt": 1,
+          "math": 1,
+          "check_rate_limit": 1,
+          "the": 1,
+          "ThreadPoolExecutor": 1,
+          "MetricsMiddleware": 1,
+          "csv": 1,
+          "concurrent": 1,
+          "cache": 1,
+          "initialize_mqtt": 1,
+          "stop_kafka": 1,
+          "kafka_client": 1,
+          "JSONResponse": 1,
+          "rate_limit": 1,
+          "mqtt_client": 1,
+          "BaseModel": 1,
+          "detect_anomalies": 1,
+          "logging_config": 1,
+          "get_mqtt_client": 1,
+          "db_pool": 1,
+          "initialize_kafka_consumer": 1,
+          "get_kafka_producer": 1,
+          "Depends": 1,
+          "io": 1,
+          "anomaly_detection": 1,
+          "PlainTextResponse": 1,
+          "re": 1,
+          "prometheus_client": 1,
+          "Response": 1,
+          "Counter": 1,
+          "defaultdict": 1,
+          "hashes": 1,
+          "base64": 1,
+          "Fernet": 1,
+          "PBKDF2HMAC": 1,
+          "cryptography": 1,
+          "random": 1,
+          "AsyncGenerator": 1,
+          "init_db": 1,
+          "pathlib": 1,
+          "db": 1,
+          "Path": 1,
+          "yaml": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Ashot1995/admin-front",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ashot1995/Angel_prod",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ashot1995/BTNCrypto",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ashot1995/Cruise",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ashot1995/cryptodata",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ashot1995/Curriculum_vitae",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ashot1995/data-pipeline",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Ashot1995/document_front",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ashot1995/dynamic-parse",
+        "files_analyzed": 5,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ashot1995/formBuilder",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ashot1995/frosbyte",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ashot1995/import",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ashot1995/laravel-shopping-site",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ashot1995/laravel_docker",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ashot1995/leor-consult.com",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ashot1995/lk",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ashot1995/mini_CRM_test_task",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ashot1995/my-portfolio-page",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Ashot1995/product_categories",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

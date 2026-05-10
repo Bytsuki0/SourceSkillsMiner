@@ -1,0 +1,904 @@
+{
+  "username": "cody328",
+  "areas": {
+    "OSS": {
+      "score": 0.6217462523628732,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.9444444444444444,
+        "commits_activity": 0.8215082674331988
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Adaptability": {
+      "score": -0.5125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.00518258380590797,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Handlebars": [
+        389621,
+        0
+      ],
+      "JavaScript": [
+        118756,
+        0
+      ],
+      "Go": [
+        56988,
+        0
+      ],
+      "Makefile": [
+        2416893,
+        0
+      ],
+      "CSS": [
+        30375,
+        0
+      ],
+      "Assembly": [
+        21764,
+        0
+      ],
+      "C": [
+        692173,
+        25
+      ],
+      "Python": [
+        624794,
+        3
+      ],
+      "C++": [
+        31437,
+        0
+      ],
+      "Verilog": [
+        1289008,
+        1
+      ],
+      "Tcl": [
+        382046,
+        1
+      ],
+      "SystemVerilog": [
+        266465,
+        0
+      ],
+      "Shell": [
+        221108,
+        1
+      ],
+      "GDB": [
+        155,
+        0
+      ],
+      "C#": [
+        33874,
+        0
+      ],
+      "PowerShell": [
+        7623,
+        0
+      ],
+      "Batchfile": [
+        7858,
+        0
+      ],
+      "SourcePawn": [
+        51379,
+        0
+      ],
+      "BitBake": [
+        44162,
+        0
+      ],
+      "Perl": [
+        24703,
+        0
+      ],
+      "Yacc": [
+        8729,
+        0
+      ],
+      "Lua": [
+        7006,
+        0
+      ],
+      "Lex": [
+        3485,
+        0
+      ],
+      "CMake": [
+        2847,
+        0
+      ],
+      "Arc": [
+        1748,
+        0
+      ],
+      "M4": [
+        1701,
+        0
+      ],
+      "Java": [
+        1544,
+        0
+      ],
+      "Dockerfile": [
+        1434,
+        0
+      ],
+      "Forth": [
+        990,
+        0
+      ],
+      "Prolog": [
+        726,
+        0
+      ],
+      "Gnuplot": [
+        255,
+        0
+      ],
+      "PostScript": [
+        118,
+        0
+      ],
+      "SMT": [
+        109,
+        0
+      ],
+      "ASL": [
+        93,
+        0
+      ],
+      "HTML": [
+        86,
+        0
+      ],
+      "Nushell": [
+        35,
+        0
+      ],
+      "Haskell": [
+        4633,
+        0
+      ],
+      "Rust": [
+        0,
+        5
+      ]
+    },
+    "language_count": 38,
+    "total_commits": 36,
+    "total_lines": 6746721,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 692173,
+        "commits": 25
+      },
+      {
+        "language": "Rust",
+        "lines": 0,
+        "commits": 5
+      },
+      {
+        "language": "Python",
+        "lines": 624794,
+        "commits": 3
+      },
+      {
+        "language": "Verilog",
+        "lines": 1289008,
+        "commits": 1
+      },
+      {
+        "language": "Tcl",
+        "lines": 382046,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "cody328",
+    "analysis_date": "2026-05-10T03:15:15.494140",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 298,
+    "languages": {
+      "C": {
+        "files_scanned": 57,
+        "packages": {
+          "<stdio.h>": 25,
+          "stdio.h": 25,
+          "<stdlib.h>": 18,
+          "stdlib.h": 18,
+          "unistd.h": 14,
+          "<unistd.h>": 14,
+          "string.h": 13,
+          "<string.h>": 13,
+          "fcntl.h": 11,
+          "<fcntl.h>": 11,
+          "xil_types.h": 7,
+          "errno.h": 7,
+          "<errno.h>": 7,
+          "pm_defs.h": 6,
+          "time.h": 6,
+          "<time.h>": 6,
+          "xil_io.h": 6,
+          "xparameters.h": 6,
+          "<stdint.h>": 5,
+          "stdint.h": 5,
+          "<sys/stat.h>": 5,
+          "sys/stat.h": 5,
+          "lkc.h": 5,
+          "xscugic.h": 5,
+          "airisc.h": 4,
+          "stdarg.h": 4,
+          "<stdarg.h>": 4,
+          "getopt.h": 4,
+          "<getopt.h>": 4,
+          "sys/types.h": 4,
+          "<sys/types.h>": 4,
+          "gpio.h": 4,
+          "xil_printf.h": 4,
+          "xil_exception.h": 4,
+          "ctype.h": 3,
+          "<ctype.h>": 3,
+          "sys/time.h": 3,
+          "<sys/time.h>": 3,
+          "xintc.h": 3,
+          "airisc_custom.h": 2,
+          "airisc_simd.h": 2,
+          "<libgen.h>": 2,
+          "libgen.h": 2,
+          "utils.h": 2,
+          "config.h": 2,
+          "endian.h": 2,
+          "<endian.h>": 2,
+          "ps7_init.h": 2,
+          "ps7_init_gpl.h": 2,
+          "<sys/mman.h>": 2,
+          "sys/mman.h": 2,
+          "<pthread.h>": 2,
+          "pthread.h": 2,
+          "<linux/interrupt.h>": 2,
+          "<linux/init.h>": 2,
+          "linux/of_device.h": 2,
+          "linux/init.h": 2,
+          "<linux/module.h>": 2,
+          "linux/slab.h": 2,
+          "<linux/io.h>": 2,
+          "linux/kernel.h": 2,
+          "<linux/of_platform.h>": 2,
+          "linux/module.h": 2,
+          "<linux/kernel.h>": 2,
+          "<linux/of_address.h>": 2,
+          "<linux/of_device.h>": 2,
+          "linux/interrupt.h": 2,
+          "linux/of_address.h": 2,
+          "linux/io.h": 2,
+          "<linux/slab.h>": 2,
+          "linux/of_platform.h": 2,
+          "common.h": 2,
+          "FreeRTOS.h": 2,
+          "task.h": 2,
+          "timers.h": 2,
+          "queue.h": 2,
+          "xstatus.h": 2,
+          "sleep.h": 2,
+          "blink.h": 2,
+          "<sys/ioctl.h>": 2,
+          "sys/ioctl.h": 2,
+          "xtmrctr.h": 2,
+          "xgpiops.h": 2,
+          "xinterrupt_wrap.h": 2,
+          "xgpio.h": 2,
+          "xuartps.h": 2,
+          "math.h": 2,
+          "xplatform_info.h": 2,
+          "say-hello.h": 1,
+          "_cgo_export.h": 1,
+          "ee_printf.h": 1,
+          "<airisc.h>": 1,
+          "embedded": 1,
+          "inttypes.h": 1,
+          "<inttypes.h>": 1,
+          "airisc_spi.h": 1,
+          "airisc_timer.h": 1,
+          "<airisc_trng.h>": 1,
+          "airisc_trng.h": 1,
+          "airisc_uart.h": 1,
+          "jtag.h": 1,
+          "grp.h": 1,
+          "ftw.h": 1,
+          "<ftw.h>": 1,
+          "pwd.h": 1,
+          "<sys/capability.h>": 1,
+          "<grp.h>": 1,
+          "sys/capability.h": 1,
+          "<sys/sysmacros.h>": 1,
+          "<pwd.h>": 1,
+          "sys/sysmacros.h": 1,
+          "crypt.h": 1,
+          "<xcrypt.h>": 1,
+          "xcrypt.h": 1,
+          "<crypt.h>": 1,
+          "locale.h": 1,
+          "<locale.h>": 1,
+          "limits.h": 1,
+          "<limits.h>": 1,
+          "<gtk/gtk.h>": 1,
+          "gtk/gtk.h": 1,
+          "<glade/glade.h>": 1,
+          "<gdk/gdkkeysyms.h>": 1,
+          "glib.h": 1,
+          "glade/glade.h": 1,
+          "gdk/gdkkeysyms.h": 1,
+          "images.c": 1,
+          "<config.h>": 1,
+          "<glib.h>": 1,
+          "signal.h": 1,
+          "<signal.h>": 1,
+          "xzdma.h": 1,
+          "xil_assert.h": 1,
+          "<linux/fs.h>": 1,
+          "linux/fs.h": 1,
+          "xaxicdma.h": 1,
+          "xil_util.h": 1,
+          "xdebug.h": 1,
+          "xil_cache.h": 1,
+          "xreg_cortexa53.h": 1,
+          "xpseudo_asm_gcc.h": 1,
+          "xil_mmu.h": 1,
+          "<netdb.h>": 1,
+          "netinet/in.h": 1,
+          "<sys/socket.h>": 1,
+          "netdb.h": 1,
+          "sys/socket.h": 1,
+          "<netinet/in.h>": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 8,
+        "packages": {
+          "System": 5,
+          "Microsoft.Extensions.Logging": 5,
+          "System.Linq": 2,
+          "System.Text": 2,
+          "System.Threading.Tasks": 2,
+          "var": 2,
+          "Microsoft.Azure.Devices.Client": 2,
+          "System.Threading": 2,
+          "Newtonsoft.Json": 2,
+          "CommandLine": 2,
+          "System.Globalization": 1,
+          "System.Collections.Generic": 1,
+          "System.Collections.Concurrent": 1,
+          "System.Diagnostics.Tracing": 1,
+          "Newtonsoft.Json.Linq": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 5,
+        "packages": {
+          "processing_system7_v5_5_tlm.h": 3,
+          "string": 2,
+          "<map>": 2,
+          "<string>": 2,
+          "Zynq_proc_processing_system7_0_0_sc.h": 2,
+          "map": 2,
+          "<iostream>": 1,
+          "iostream": 1,
+          "Zynq_proc_processing_system7_0_0.h": 1,
+          "inttypes.h": 1,
+          "sys/types.h": 1,
+          "tlm_utils/simple_initiator_socket.h": 1,
+          "xilinx-zynq.h": 1,
+          "sc_core": 1,
+          "<sys/types.h>": 1,
+          "namespace": 1,
+          "tlm_utils/simple_target_socket.h": 1,
+          "std": 1,
+          "<inttypes.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 33,
+        "packages": {
+          "systemc.h": 6,
+          "airisc_defines.h": 5,
+          "<stdio.h>": 5,
+          "stdio.h": 5,
+          "<stdint.h>": 3,
+          "stdint.h": 3,
+          "<stdlib.h>": 3,
+          "stdlib.h": 3,
+          "<systemc>": 3,
+          "xtlm.h": 3,
+          "systemc": 3,
+          "tlm_utils/simple_initiator_socket.h": 3,
+          "tlm_utils/simple_target_socket.h": 3,
+          "<libintl.h>": 2,
+          "libintl.h": 2,
+          "xlconstant_v1_1_6.h": 2,
+          "<string.h>": 2,
+          "<fcntl.h>": 2,
+          "fcntl.h": 2,
+          "string.h": 2,
+          "common.h": 2,
+          "<linux/ioctl.h>": 2,
+          "linux/ioctl.h": 2,
+          "<Python.h>": 1,
+          "Python.h": 1,
+          "<stddef.h>": 1,
+          "stddef.h": 1,
+          "airisc_spi.h": 1,
+          "airisc_syscalls.h": 1,
+          "airisc_simd.h": 1,
+          "airisc_timer.h": 1,
+          "airisc_csr.h": 1,
+          "airisc_custom.h": 1,
+          "airisc_trng.h": 1,
+          "airisc_uart.h": 1,
+          "sys/types.h": 1,
+          "sys/times.h": 1,
+          "unistd.h": 1,
+          "<sys/stat.h>": 1,
+          "sys/time.h": 1,
+          "<unistd.h>": 1,
+          "<sys/time.h>": 1,
+          "<sys/times.h>": 1,
+          "<sys/errno.h>": 1,
+          "sys/stat.h": 1,
+          "sys/errno.h": 1,
+          "<sys/types.h>": 1,
+          "signature.h": 1,
+          "app.h": 1,
+          "Arduino.h": 1,
+          "locale.h": 1,
+          "<locale.h>": 1,
+          "<assert.h>": 1,
+          "stdbool.h": 1,
+          "<stdbool.h>": 1,
+          "list.h": 1,
+          "assert.h": 1,
+          "<limits.h>": 1,
+          "limits.h": 1,
+          "features.h": 1,
+          "<features.h>": 1,
+          "expr.h": 1,
+          "lkc_proto.h": 1,
+          "stdarg.h": 1,
+          "<stdarg.h>": 1,
+          "Zynq_proc_processing_system7_0_0_sc.h": 1,
+          "utility": 1,
+          "<utility>": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "xtlm_adaptors/xaximm_xtlm2tlm.h": 1,
+          "xilinx-zynq.h": 1,
+          "xtlm_adaptors/xaximm_tlm2xtlm.h": 1,
+          "b_transport_converter.h": 1,
+          "genattr.h": 1,
+          "tlm_utils/tlm_quantumkeeper.h": 1,
+          "remote-port-tlm-wires.h": 1,
+          "remote-port-tlm-memory-master.h": 1,
+          "remote-port-tlm.h": 1,
+          "remote-port-tlm-memory-slave.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 23,
+        "packages": {
+          "fmt": 10,
+          "C": 10,
+          "UNKNOWN": 3,
+          "log": 2,
+          "<stdio.h>": 2,
+          "os": 2,
+          "ABSOLUTE": 2,
+          "GAUGE": 2,
+          "NONE": 2,
+          "COUNTER": 2,
+          "OFFLINE": 2,
+          "ONLINE": 2,
+          "CLASS_C": 2,
+          "DELAY": 2,
+          "CLASS_B": 2,
+          "time": 1,
+          "net/http": 1,
+          "unsafe": 1,
+          "<Python.h>": 1,
+          "bytes": 1,
+          "os/exec": 1,
+          "flag": 1,
+          "io/ioutil": 1,
+          "encoding/binary": 1,
+          "strings": 1,
+          "strconv": 1,
+          "io": 1,
+          "crypto/sha256": 1,
+          "PILOT_THINGS": 1,
+          "MQTT_GLOBAL": 1,
+          "PROTOBUF": 1,
+          "GCP_PUB_SUB": 1,
+          "M": 1,
+          "NS": 1,
+          "U": 1,
+          "THINGS_BOARD": 1,
+          "MS": 1,
+          "AWS_SNS": 1,
+          "INFLUX_DB": 1,
+          "INFLUXDB_1": 1,
+          "S": 1,
+          "INFLUXDB_2": 1,
+          "JSON": 1,
+          "MY_DEVICES": 1,
+          "AZURE_SERVICE_BUS": 1,
+          "LORA_CLOUD": 1,
+          "HTTP": 1,
+          "IFTTT": 1,
+          "H": 1,
+          "KHZ_800": 1,
+          "STRING": 1,
+          "KHZ_200": 1,
+          "MS_500": 1,
+          "MS_20": 1,
+          "SEC_1": 1,
+          "MS_100": 1,
+          "KHZ_1600": 1,
+          "CAYENNE_LPP": 1,
+          "KHZ_3200": 1,
+          "ENABLE_RELAY_MODE": 1,
+          "KHZ_400": 1,
+          "DYNAMIC": 1,
+          "JS": 1,
+          "MS_250": 1,
+          "MS_50": 1,
+          "KHZ_0": 1,
+          "DISABLE_RELAY_MODE": 1,
+          "END_DEVICE_CONTROLLED": 1,
+          "NEVER_SEEN": 1,
+          "GPS_TIME": 1,
+          "B": 1,
+          "RP002_1_0_0": 1,
+          "CLASS_A": 1,
+          "RU864": 1,
+          "REGULATION_UNKNOWN": 1,
+          "EU433": 1,
+          "EU868": 1,
+          "GEO_RESOLVER_WIFI": 1,
+          "CN779": 1,
+          "LORAWAN_1_0_4": 1,
+          "MINUTE": 1,
+          "RP002_1_0_2": 1,
+          "KR920": 1,
+          "LORAWAN_1_0_2": 1,
+          "DAY": 1,
+          "LORAWAN_1_0_0": 1,
+          "CONFIRMED_DATA_DOWN": 1,
+          "CONFIG": 1,
+          "AS923": 1,
+          "AS923_3": 1,
+          "JOIN_ACCEPT": 1,
+          "AS923_2": 1,
+          "GEO_RESOLVER_RSSI": 1,
+          "LR_FHSS": 1,
+          "IN865": 1,
+          "RP002_1_0_4": 1,
+          "GEO_RESOLVER_GNSS": 1,
+          "MONTH": 1,
+          "LORAWAN_1_1_0": 1,
+          "FSK": 1,
+          "AS923_4": 1,
+          "LORAWAN_1_0_1": 1,
+          "CN470": 1,
+          "LORAWAN_1_0_3": 1,
+          "US915": 1,
+          "HOUR": 1,
+          "UNCONFIRMED_DATA_DOWN": 1,
+          "A": 1,
+          "ISM2400": 1,
+          "PROPRIETARY": 1,
+          "RP002_1_0_1": 1,
+          "GPS": 1,
+          "AU915": 1,
+          "UNCONFIRMED_DATA_UP": 1,
+          "JOIN_REQUEST": 1,
+          "REJOIN_REQUEST": 1,
+          "LORA": 1,
+          "GEO_RESOLVER_TDOA": 1,
+          "CONFIRMED_DATA_UP": 1,
+          "RP002_1_0_3": 1,
+          "ETSI_EN_300_220": 1,
+          "CR_4_7": 1,
+          "CR_LI_4_6": 1,
+          "CR_2_6": 1,
+          "CR_4_5": 1,
+          "COLLISION_BEACON": 1,
+          "IMMEDIATELY": 1,
+          "BAD_CRC": 1,
+          "CR_4_8": 1,
+          "COLLISION_PACKET": 1,
+          "TX_FREQ": 1,
+          "CR_1_4": 1,
+          "ENCRYPTED": 1,
+          "TOO_EARLY": 1,
+          "OK": 1,
+          "CR_LI_4_8": 1,
+          "GPS_EPOCH": 1,
+          "CR_UNDEFINED": 1,
+          "DUTY_CYCLE_OVERFLOW": 1,
+          "INTERNAL_ERROR": 1,
+          "CR_4_6": 1,
+          "GPS_UNLOCKED": 1,
+          "CR_5_6": 1,
+          "CRC_OK": 1,
+          "IGNORED": 1,
+          "QUEUE_FULL": 1,
+          "PLAIN": 1,
+          "CR_LI_4_5": 1,
+          "CR_1_6": 1,
+          "CR_3_8": 1,
+          "TX_POWER": 1,
+          "TOO_LATE": 1,
+          "NO_CRC": 1,
+          "WARNING": 1,
+          "DOWNLINK_GATEWAY": 1,
+          "DOWNLINK_PAYLOAD_SIZE": 1,
+          "ERROR": 1,
+          "OTAA": 1,
+          "UPLINK_MIC": 1,
+          "UPLINK_F_CNT_RESET": 1,
+          "UPLINK_CODEC": 1,
+          "RELAY_NEW_END_DEVICE": 1,
+          "F_CNT_DOWN": 1,
+          "INFO": 1,
+          "UPLINK_F_CNT_RETRANSMISSION": 1,
+          "DOWNLINK_CODEC": 1
+        }
+      },
+      "Haskell": {
+        "files_scanned": 28,
+        "packages": {
+          "Protolude": 23,
+          "Data.Curve.Weierstrass.SECP256K1": 18,
+          "Bulletproofs.Utils": 15,
+          "qualified": 15,
+          "Control.Monad.Random": 7,
+          "Bulletproofs.RangeProof.Internal": 7,
+          "Bulletproofs.InnerProductProof": 5,
+          "Data.Field.Galois": 5,
+          "Bulletproofs.ArithmeticCircuit.Internal": 4,
+          "Bulletproofs.InnerProductProof.Internal": 4,
+          "Bulletproofs.RangeProof": 4,
+          "Data.List": 3,
+          "Bulletproofs.MultiRangeProof.Verifier": 3,
+          "Criterion.Main": 3,
+          "Bulletproofs.ArithmeticCircuit": 3,
+          "Test.Tasty": 3,
+          "Test.Tasty.QuickCheck": 3,
+          "Data.Map": 2,
+          "Bulletproofs.MultiRangeProof.Prover": 2,
+          "Bulletproofs.MultiRangeProof": 2,
+          "Test.QuickCheck.Monadic": 2,
+          "Bulletproofs.ArithmeticCircuit.Verifier": 1,
+          "Bulletproofs.ArithmeticCircuit.Prover": 1,
+          "Test.QuickCheck": 1,
+          "Bulletproofs.InnerProductProof.Prover": 1,
+          "Bulletproofs.InnerProductProof.Verifier": 1,
+          "Control.Exception": 1,
+          "Bulletproofs.RangeProof.Prover": 1,
+          "Bulletproofs.RangeProof.Verifier": 1,
+          "Numeric": 1,
+          "Data.Char": 1,
+          "Data.Digest.Pure.SHA": 1,
+          "Data.ByteString.Lazy": 1,
+          "Distribution.Simple": 1,
+          "Bench.RangeProof": 1,
+          "Bench.ArithCircuit": 1,
+          "Bulletproofs.Fq": 1,
+          "Example.RangeProof": 1,
+          "Example.ArithmeticCircuit": 1,
+          "Test.Common": 1,
+          "Data.Curve.Weierstrass": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "class-name": 1,
+          "inside:{punctuation:": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 4,
+        "packages": {
+          "os": 2,
+          "ctypes": 1,
+          "sphinx_rtd_theme": 1,
+          "sys": 1,
+          "shutil": 1,
+          "argparse": 1,
+          "manifestfile": 1,
+          "source": 1,
+          "vitis": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 28,
+        "packages": {
+          "core": 12,
+          "crate": 9,
+          "embassy_time": 6,
+          "embassy_sync": 4,
+          "embedded_hal_1": 4,
+          "embedded_storage": 4,
+          "embassy_futures": 3,
+          "embassy_net_driver_channel": 3,
+          "std": 3,
+          "embassy_stm32": 3,
+          "embassy_rp": 2,
+          "embassy_executor": 2,
+          "embassy_nrf": 2,
+          "cortex_m_rt": 2,
+          "cyw43": 1,
+          "fixed": 1,
+          "bt_hci": 1,
+          "futures": 1,
+          "=": 1,
+          "events": 1,
+          "ioctl": 1,
+          "defmt": 1,
+          "cortex_m": 1,
+          "pac": 1,
+          "nrf_softdevice_mbr": 1,
+          "embassy_embedded_hal": 1,
+          "super": 1,
+          "ed25519_dalek": 1,
+          "digest": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "cody328/advanced-go-programming-book",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cody328/airisc_core_complex",
+        "files_analyzed": 22,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cody328/arduino-sdi",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Go"
+        ]
+      },
+      {
+        "repository": "cody328/azure-iot-samples-csharp",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "cody328/buildroot",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cody328/bulletproofs",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Haskell"
+        ]
+      },
+      {
+        "repository": "cody328/chirpstack",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "cody328/CS-Notes",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "cody328/EBAZ4205_with_KG4205",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "cody328/embassy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "cody328/Embedded-Design-Tutorials",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

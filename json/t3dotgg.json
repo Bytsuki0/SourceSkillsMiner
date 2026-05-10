@@ -1,0 +1,537 @@
+{
+  "username": "t3dotgg",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 13,
+        "language_transitions": 15,
+        "topic_entropy_bits": 3.585,
+        "closed_prs_total": 53,
+        "bounced_back_prs": 27
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "t3dotgg/-_-": 0.4939,
+        "t3dotgg/1app5stacks": 0.32225757575757574,
+        "t3dotgg/70check": 0.39535185185185184,
+        "t3dotgg/ably-testin": 0.4939,
+        "t3dotgg/angular": 0.4688444444444444,
+        "t3dotgg/aoc-2024": 0.9833
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7628205128205129,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        6305735,
+        1058
+      ],
+      "JavaScript": [
+        640830,
+        240
+      ],
+      "CSS": [
+        76184,
+        82
+      ],
+      "Elixir": [
+        4555,
+        35
+      ],
+      "Ruby": [
+        2247,
+        17
+      ],
+      "HTML": [
+        148602,
+        70
+      ],
+      "Go": [
+        858,
+        6
+      ],
+      "Dockerfile": [
+        325,
+        5
+      ],
+      "Shell": [
+        16810,
+        2
+      ],
+      "Batchfile": [
+        8,
+        0
+      ],
+      "Python": [
+        4096,
+        19
+      ],
+      "Starlark": [
+        160268,
+        0
+      ],
+      "SCSS": [
+        35690,
+        10
+      ],
+      "NASL": [
+        1936,
+        0
+      ],
+      "jq": [
+        165,
+        0
+      ],
+      "Less": [
+        21,
+        0
+      ],
+      "Astro": [
+        2503,
+        39
+      ],
+      "Svelte": [
+        0,
+        7
+      ],
+      "PHP": [
+        0,
+        11
+      ],
+      "Blade": [
+        0,
+        0
+      ],
+      "C++": [
+        0,
+        4
+      ],
+      "CMake": [
+        0,
+        4
+      ],
+      "Dart": [
+        0,
+        3
+      ],
+      "C": [
+        0,
+        37
+      ],
+      "Swift": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        0,
+        0
+      ]
+    },
+    "language_count": 27,
+    "total_commits": 1649,
+    "total_lines": 7400833,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 6305735,
+        "commits": 1058
+      },
+      {
+        "language": "JavaScript",
+        "lines": 640830,
+        "commits": 240
+      },
+      {
+        "language": "CSS",
+        "lines": 76184,
+        "commits": 82
+      },
+      {
+        "language": "HTML",
+        "lines": 148602,
+        "commits": 70
+      },
+      {
+        "language": "Astro",
+        "lines": 2503,
+        "commits": 39
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "t3dotgg",
+    "analysis_date": "2026-05-10T07:58:17.208400",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 346,
+    "languages": {
+      "Elixir": {
+        "files_scanned": 23,
+        "packages": {
+          "RoundestPhoenixWeb": 6,
+          "Config": 5,
+          "RoundestPhoenix.Repo": 4,
+          "RoundestPhoenix.Pokemon": 4,
+          "Phoenix.LiveView": 3,
+          "Ecto.Query": 3,
+          "Phoenix.LiveView.Router": 2,
+          "RoundestPhoenixWeb.Gettext": 2,
+          "Ecto.Schema": 2,
+          "Ecto.Changeset": 2,
+          "#{config_env()}.exs": 1,
+          "environment": 1,
+          "HEEx": 1,
+          "Phoenix.Channel": 1,
+          "convenience": 1,
+          "general": 1,
+          "common": 1,
+          "Phoenix.LiveView.JS": 1,
+          "Phoenix.HTML": 1,
+          "Phoenix.Controller": 1,
+          "Phoenix.Component": 1,
+          "Phoenix.VerifiedRoutes": 1,
+          "Plug.Conn": 1,
+          "Phoenix.Router": 1,
+          "Phoenix.LiveComponent": 1,
+          "Application": 1,
+          "Swoosh.Mailer": 1,
+          "Ecto.Repo": 1,
+          "Phoenix.Endpoint": 1,
+          "Gettext": 1,
+          "Phoenix.LiveDashboard.Router": 1,
+          "Telemetry.Metrics": 1,
+          "Supervisor": 1,
+          "Mix.Project": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 36,
+        "packages": {
+          "fs": 16,
+          "next": 6,
+          "tailwindcss": 4,
+          "path": 3,
+          "next-plausible": 2,
+          "sveltejs": 2,
+          "phoenix_html": 1,
+          "phoenix_live_view": 1,
+          "some-package": 1,
+          "phoenix": 1,
+          "karma-jasmine-html-reporter": 1,
+          "karma-coverage-istanbul-reporter": 1,
+          "karma-chrome-launcher": 1,
+          "karma-jasmine": 1,
+          "angular-devkit": 1,
+          "prettier": 1,
+          "zod": 1,
+          "t3-oss": 1,
+          "snowpack": 1,
+          "testing-library": 1,
+          "jQuery": 1,
+          "react": 1,
+          "react-dom": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 18,
+        "packages": {
+          "sys": 18,
+          "md5": 5,
+          "collections": 2,
+          "itertools": 2,
+          "operator": 2,
+          "re": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 88,
+        "packages": {
+          "fs": 20,
+          "angular": 16,
+          "protractor": 11,
+          "next": 9,
+          "~": 9,
+          "clerk": 8,
+          "trpc": 6,
+          "tailwindcss": 5,
+          "zod": 5,
+          "vite": 4,
+          "sveltejs": 3,
+          "superjson": 3,
+          "ably": 2,
+          "zone.js": 2,
+          "vitejs": 2,
+          "opennextjs": 2,
+          "$lib": 2,
+          "prisma": 2,
+          "nodejs": 2,
+          "crypto": 1,
+          "selenium-webdriver": 1,
+          "hello": 1,
+          "puppeteer-core": 1,
+          "chrome-aws-lambda": 1,
+          "ai": 1,
+          "ai-sdk": 1,
+          "node:fs": 1,
+          "data": 1,
+          "postgres": 1,
+          "node:path": 1,
+          "mean": 1,
+          "streamTps": 1,
+          "clsx": 1,
+          "tailwind-merge": 1,
+          "rss-parser": 1,
+          "zact": 1,
+          "preact": 1,
+          "second": 1,
+          "__RPC_TARGET_BRAND": 1,
+          "__DURABLE_OBJECT_BRAND": 1,
+          "s": 1,
+          "httpMetadata": 1,
+          "__RPC_STUB_BRAND": 1,
+          "__WORKER_ENTRYPOINT_BRAND": 1,
+          "my-main-module": 1,
+          "__WORKFLOW_ENTRYPOINT_BRAND": 1,
+          "constant": 1,
+          "upstash": 1,
+          "paralleldrive": 1,
+          "planetscale": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 45,
+        "packages": {
+          "next": 23,
+          "react": 15,
+          "~": 10,
+          "clerk": 7,
+          "next-plausible": 3,
+          "preact": 3,
+          "force-dynamic": 3,
+          "react-dom": 2,
+          "dayjs": 2,
+          "react-hot-toast": 2,
+          "ably": 1,
+          "faker-js": 1,
+          "testing-library": 1,
+          "swr": 1,
+          "classnames": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "t3dotgg/-_-",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/13test",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/1app5stacks",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "t3dotgg/70check",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/ably-testin",
+        "files_analyzed": 11,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/AdventOfCode2016",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "t3dotgg/AdventOfCode2019",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "t3dotgg/angular",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "t3dotgg/animated-list-demo",
+        "files_analyzed": 4,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/aoc-2024",
+        "files_analyzed": 21,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "t3dotgg/astro-image-gen",
+        "files_analyzed": 2,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "t3dotgg/azure-bench",
+        "files_analyzed": 12,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/billdiff",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/broken-server-actions",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/bst",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/bun-next-build",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/BuzzOff-Chrome",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "t3dotgg/cf-vs-vercel-bench",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/chirp",
+        "files_analyzed": 17,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "t3dotgg/chirp-edge",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "username": "IrinaZhuravleva",
+  "areas": {
+    "OSS": {
+      "score": 0.1674005790043558,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.7941176470588235,
+        "commits_activity": 0.9569832214477101
+      }
+    },
+    "Status": {
+      "score": -0.04430460501594613,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.4143123232453116,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": 0.70166,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.5283,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 8,
+        "topic_entropy_bits": 1.585,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.21495119479768193,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CSS": [
+        438278,
+        12
+      ],
+      "JavaScript": [
+        87226,
+        83
+      ],
+      "HTML": [
+        400199,
+        9
+      ],
+      "TypeScript": [
+        328,
+        16
+      ],
+      "Python": [
+        0,
+        2
+      ],
+      "Vue": [
+        0,
+        0
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 122,
+    "total_lines": 926031,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 87226,
+        "commits": 83
+      },
+      {
+        "language": "TypeScript",
+        "lines": 328,
+        "commits": 16
+      },
+      {
+        "language": "CSS",
+        "lines": 438278,
+        "commits": 12
+      },
+      {
+        "language": "HTML",
+        "lines": 400199,
+        "commits": 9
+      },
+      {
+        "language": "Python",
+        "lines": 0,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "IrinaZhuravleva",
+    "analysis_date": "2026-05-10T11:46:02.122383",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 155,
+    "languages": {
+      "C#": {
+        "files_scanned": 23,
+        "packages": {
+          "Microsoft.Playwright": 14,
+          "System.Threading.Tasks": 12,
+          "TechTalk.SpecFlow": 11,
+          "Behavioral.Automation.Playwright.WebElementsWrappers.Interface": 9,
+          "System.Linq": 8,
+          "System": 6,
+          "Behavioral.Automation.Configs": 5,
+          "Behavioral.Automation.Playwright.Context": 5,
+          "Behavioral.Automation.Playwright.Configs": 5,
+          "NUnit.Framework": 4,
+          "Behavioral.Automation.Playwright.Services": 4,
+          "Behavioral.Automation.Playwright.Services.ElementSelectors": 4,
+          "Behavioral.Automation.Playwright.Utils": 3,
+          "JetBrains.Annotations": 2,
+          "BoDi": 2,
+          "Behavioral.Automation.Playwright.WebElementsWrappers": 1,
+          "System.IO": 1,
+          "var": 1,
+          "Behavioral.Automation.Playwright.Pages": 1,
+          "Gherkin.Ast": 1,
+          "System.Text.RegularExpressions": 1,
+          "System.Collections.Generic": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 72,
+        "packages": {
+          "react": 56,
+          "mui": 19,
+          "react-router-dom": 8,
+          "jquery": 7,
+          "react-dom": 6,
+          "browser-sync": 2,
+          "gulp": 2,
+          "gulp-less": 2,
+          "dotenv": 2,
+          "playwright": 2,
+          "jQuery": 2,
+          "testing-library": 2,
+          "object": 2,
+          "use": 2,
+          "__esModule": 2,
+          "undefined": 2,
+          "auth0": 1,
+          "styled-components": 1,
+          "gulp-pug": 1,
+          "gulp-html-beautify": 1,
+          "gulp-sourcemaps": 1,
+          "gulp-watch": 1,
+          "gulp-autoprefixer": 1,
+          "gulp-notify": 1,
+          "gulp-plumber": 1,
+          "web-vitals": 1,
+          "underscore": 1,
+          "react-iframe": 1,
+          "muicss": 1,
+          "material-ui-popup-state": 1,
+          "axios": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 14,
+        "packages": {
+          "playwright": 12,
+          "pages": 4,
+          "cucumber": 4
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "IrinaZhuravleva/20-react-apps",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "IrinaZhuravleva/Agency",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "IrinaZhuravleva/Anketa-test",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "IrinaZhuravleva/aquaProject",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "IrinaZhuravleva/assessment",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "IrinaZhuravleva/Behavioral.Automation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "IrinaZhuravleva/Booking",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "IrinaZhuravleva/counters",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "IrinaZhuravleva/CRM",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "IrinaZhuravleva/cucumberProject",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

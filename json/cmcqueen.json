@@ -1,0 +1,795 @@
+{
+  "username": "cmcqueen",
+  "areas": {
+    "OSS": {
+      "score": 0.37037037037037046,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.5555555555555556,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3846153846153846,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.217892,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.9358,
+        "resilience_score": 0.4,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 2.8074,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "cmcqueen/aes-min": 0.14715,
+        "cmcqueen/alim6117_wdt": 0.29153333333333337,
+        "cmcqueen/cobs-c": 0.3618,
+        "cmcqueen/cobs-python": 0.39060416666666664,
+        "cmcqueen/lpc21isp": 0.7876
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.49457555099715106,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        42028,
+        427
+      ],
+      "Python": [
+        8812,
+        138
+      ],
+      "Makefile": [
+        94,
+        7
+      ],
+      "M4": [
+        27,
+        1
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "C++": [
+        1236,
+        22
+      ],
+      "Rust": [
+        3455,
+        157
+      ],
+      "CMake": [
+        495,
+        0
+      ],
+      "Objective-C": [
+        26,
+        0
+      ],
+      "Cython": [
+        0,
+        38
+      ],
+      "HTML": [
+        0,
+        34
+      ],
+      "Batchfile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 824,
+    "total_lines": 56173,
+    "top_5_languages": [
+      {
+        "language": "C",
+        "lines": 42028,
+        "commits": 427
+      },
+      {
+        "language": "Rust",
+        "lines": 3455,
+        "commits": 157
+      },
+      {
+        "language": "Python",
+        "lines": 8812,
+        "commits": 138
+      },
+      {
+        "language": "Cython",
+        "lines": 0,
+        "commits": 38
+      },
+      {
+        "language": "HTML",
+        "lines": 0,
+        "commits": 34
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "cmcqueen",
+    "analysis_date": "2026-05-10T03:31:02.343151",
+    "total_repos_analyzed": 24,
+    "total_files_analyzed": 229,
+    "languages": {
+      "C": {
+        "files_scanned": 70,
+        "packages": {
+          "string.h": 40,
+          "<string.h>": 40,
+          "stdio.h": 25,
+          "<stdio.h>": 25,
+          "<stdlib.h>": 23,
+          "stdlib.h": 23,
+          "stdint.h": 9,
+          "<stdint.h>": 9,
+          "unistd.h": 8,
+          "<unistd.h>": 8,
+          "stdbool.h": 7,
+          "<stdbool.h>": 7,
+          "light_pcapng.h": 7,
+          "fcntl.h": 7,
+          "<fcntl.h>": 7,
+          "lzs.h": 7,
+          "aes-min.h": 6,
+          "aes-print-block.h": 6,
+          "unity.h": 6,
+          "light_io.h": 5,
+          "light_io_internal.h": 5,
+          "<sys/stat.h>": 5,
+          "sys/stat.h": 5,
+          "<linux/init.h>": 4,
+          "<linux/module.h>": 4,
+          "linux/module.h": 4,
+          "linux/init.h": 4,
+          "khazad-min.h": 4,
+          "light_util.h": 4,
+          "light_pcapng_ext.h": 4,
+          "StdAfx.h": 4,
+          "lpc21isp.h": 4,
+          "simplerandom.h": 4,
+          "khazad-print-block.h": 3,
+          "light_debug.h": 3,
+          "light_io_file.h": 3,
+          "sys/types.h": 3,
+          "<sys/types.h>": 3,
+          "time.h": 3,
+          "<time.h>": 3,
+          "<linux/slab.h>": 3,
+          "linux/slab.h": 3,
+          "lzs-common.h": 3,
+          "<inttypes.h>": 3,
+          "inttypes.h": 3,
+          "bitcolumnmatrix.h": 3,
+          "gcm-mul.h": 2,
+          "cobs.h": 2,
+          "cobsr.h": 2,
+          "<Python.h>": 2,
+          "Python.h": 2,
+          "light_io_zlib.h": 2,
+          "light_io_zstd.h": 2,
+          "light_io_mem.h": 2,
+          "<assert.h>": 2,
+          "assert.h": 2,
+          "endianness.h": 2,
+          "ctype.h": 2,
+          "<ctype.h>": 2,
+          "<linux/leds.h>": 2,
+          "linux/leds.h": 2,
+          "linux/miscdevice.h": 2,
+          "<linux/ctype.h>": 2,
+          "<linux/miscdevice.h>": 2,
+          "linux/ctype.h": 2,
+          "linux/fs.h": 2,
+          "linux/sched.h": 2,
+          "<linux/fs.h>": 2,
+          "<linux/sched.h>": 2,
+          "sys/ioctl.h": 2,
+          "<sys/ioctl.h>": 2,
+          "adprog.h": 2,
+          "lpcterm.h": 2,
+          "lpcprog.h": 2,
+          "H5Tpkg.h": 2,
+          "H5Iprivate.h": 2,
+          "H5private.h": 2,
+          "H5Eprivate.h": 2,
+          "H5FLprivate.h": 2,
+          "lfsr113.h": 2,
+          "lfsr88.h": 2,
+          "maths.h": 2,
+          "aes-test-vectors.h": 1,
+          "<endian.h>": 1,
+          "gcm-test-vectors.h": 1,
+          "endian.h": 1,
+          "linux/watchdog.h": 1,
+          "<asm/io.h>": 1,
+          "asm/io.h": 1,
+          "linux/reboot.h": 1,
+          "<linux/reboot.h>": 1,
+          "<linux/watchdog.h>": 1,
+          "khazad-test-vectors.h": 1,
+          "<zlib.h>": 1,
+          "zlib.h": 1,
+          "zstd.h": 1,
+          "<zstd.h>": 1,
+          "_util.h": 1,
+          "linux/poll.h": 1,
+          "<linux/poll.h>": 1,
+          "uapi/linux/uleds.h": 1,
+          "<uapi/linux/uleds.h>": 1,
+          "linux/uleds.h": 1,
+          "<linux/uleds.h>": 1,
+          "<uapi/linux/uledtriggers.h>": 1,
+          "uapi/linux/uledtriggers.h": 1,
+          "<linux/uledtriggers.h>": 1,
+          "linux/uledtriggers.h": 1,
+          "char": 1,
+          "higher": 1,
+          "malloc.h": 1,
+          "<lualib.h>": 1,
+          "lua.h": 1,
+          "<lauxlib.h>": 1,
+          "<lua.h>": 1,
+          "lauxlib.h": 1,
+          "lualib.h": 1,
+          "popt.h": 1,
+          "<linux/i2c-dev.h>": 1,
+          "sys/mman.h": 1,
+          "linux/i2c.h": 1,
+          "<sys/mman.h>": 1,
+          "<linux/i2c.h>": 1,
+          "linux/i2c-dev.h": 1,
+          "in": 1,
+          "bbattery.h": 1,
+          "unif01.h": 1,
+          "poll.h": 1,
+          "mntent.h": 1,
+          "<poll.h>": 1,
+          "<mntent.h>": 1,
+          "linux/errno.h": 1,
+          "<linux/errno.h>": 1,
+          "linux/wait.h": 1,
+          "linux/tty_driver.h": 1,
+          "<linux/tty_flip.h>": 1,
+          "linux/uaccess.h": 1,
+          "<linux/serial.h>": 1,
+          "<linux/wait.h>": 1,
+          "linux/kernel.h": 1,
+          "<linux/kernel.h>": 1,
+          "linux/tty.h": 1,
+          "linux/serial.h": 1,
+          "<linux/tty.h>": 1,
+          "<linux/uaccess.h>": 1,
+          "<linux/tty_driver.h>": 1,
+          "linux/tty_flip.h": 1,
+          "termio.h": 1,
+          "<termio.h>": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 3,
+        "packages": {
+          "StdAfx.h": 2,
+          "random": 1,
+          "<iostream>": 1,
+          "iomanip": 1,
+          "iostream": 1,
+          "cstdint": 1,
+          "<random>": 1,
+          "<iomanip>": 1,
+          "<cstdint>": 1,
+          "resource.h": 1,
+          "TTProxy.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 56,
+        "packages": {
+          "stdint.h": 17,
+          "<stdint.h>": 17,
+          "<YCL/common.h>": 12,
+          "YCL/common.h": 12,
+          "<stdio.h>": 9,
+          "stdio.h": 9,
+          "light_io.h": 8,
+          "<stddef.h>": 7,
+          "stddef.h": 7,
+          "YCL/String.h": 6,
+          "<YCL/String.h>": 6,
+          "stdlib.h": 5,
+          "<stdlib.h>": 5,
+          "time.h": 5,
+          "<time.h>": 5,
+          "<stdbool.h>": 5,
+          "stdbool.h": 5,
+          "namespace": 4,
+          "<stdarg.h>": 3,
+          "stdarg.h": 3,
+          "light_export.h": 3,
+          "string.h": 3,
+          "<string.h>": 3,
+          "<YCL/StringBuffer.h>": 3,
+          "YCL/StringBuffer.h": 3,
+          "<YCL/Window.h>": 3,
+          "YCL/Window.h": 3,
+          "<YCL/Enumeration.h>": 3,
+          "YCL/Enumeration.h": 3,
+          "unity_internals.h": 2,
+          "<sdkddkver.h>": 2,
+          "unity_config.h": 2,
+          "sdkddkver.h": 2,
+          "stdnoreturn.h": 2,
+          "math.h": 2,
+          "<setjmp.h>": 2,
+          "limits.h": 2,
+          "setjmp.h": 2,
+          "<math.h>": 2,
+          "<limits.h>": 2,
+          "<stdnoreturn.h>": 2,
+          "<sys/time.h>": 2,
+          "sys/time.h": 2,
+          "simplerandom-c.h": 2,
+          "YCL/Hashtable.h": 2,
+          "<YCL/Hashtable.h>": 2,
+          "codeconv.h": 2,
+          "YCL/Object.h": 2,
+          "<YCL/Object.h>": 2,
+          "YCL/Pointer.h": 2,
+          "<YCL/Pointer.h>": 2,
+          "<YCL/ValueCtrl.h>": 2,
+          "YCL/ValueCtrl.h": 2,
+          "YCL/WString.h": 2,
+          "<YCL/WString.h>": 2,
+          "YCL/Array.h": 2,
+          "<YCL/Array.h>": 2,
+          "malloc.h": 2,
+          "<malloc.h>": 2,
+          "aes-min.h": 1,
+          "gcm-mul-cfg.h": 1,
+          "the": 1,
+          "light_special.h": 1,
+          "<sys/isadefs.h>": 1,
+          "<machine/endian.h>": 1,
+          "sys/isadefs.h": 1,
+          "<endian.h>": 1,
+          "sys/param.h": 1,
+          "<sys/param.h>": 1,
+          "endian.h": 1,
+          "machine/endian.h": 1,
+          "light_pcapng.h": 1,
+          "ctype.h": 1,
+          "<strings.h>": 1,
+          "<sys/types.h>": 1,
+          "windows.h": 1,
+          "errno.h": 1,
+          "<fcntl.h>": 1,
+          "<sys/ioctl.h>": 1,
+          "<windows.h>": 1,
+          "strings.h": 1,
+          "sys/errno.h": 1,
+          "<conio.h>": 1,
+          "io.h": 1,
+          "sys/types.h": 1,
+          "conio.h": 1,
+          "termios.h": 1,
+          "<termios.h>": 1,
+          "sys/stat.h": 1,
+          "<sys/errno.h>": 1,
+          "<ctype.h>": 1,
+          "<sys/stat.h>": 1,
+          "fcntl.h": 1,
+          "<io.h>": 1,
+          "<errno.h>": 1,
+          "unistd.h": 1,
+          "sys/ioctl.h": 1,
+          "<unistd.h>": 1,
+          "simplerandom-cpp.h": 1,
+          "<simplerandom-cpp.h>": 1,
+          "<simplerandom-c.h>": 1,
+          "<iostream>": 1,
+          "iostream": 1,
+          "<cxxtest/TestSuite.h>": 1,
+          "<limits>": 1,
+          "limits": 1,
+          "cxxtest/TestSuite.h": 1,
+          "<YCL/EditBoxCtrl.h>": 1,
+          "resource.h": 1,
+          "YCL/FileVersion.h": 1,
+          "<YCL/ComboBoxCtrl.h>": 1,
+          "Hooker.h": 1,
+          "i18n.h": 1,
+          "<YCL/IniFile.h>": 1,
+          "ttlib.h": 1,
+          "<YCL/Dialog.h>": 1,
+          "Logger.h": 1,
+          "YCL/ComboBoxCtrl.h": 1,
+          "<YCL/FileVersion.h>": 1,
+          "YCL/IniFile.h": 1,
+          "<YCL/Resource.h>": 1,
+          "YCL/Dialog.h": 1,
+          "YCL/Resource.h": 1,
+          "YCL/EditBoxCtrl.h": 1,
+          "openssl/crypto.h": 1,
+          "<openssl/x509.h>": 1,
+          "SSLLIB.h": 1,
+          "openssl/pem.h": 1,
+          "<openssl/x509v3.h>": 1,
+          "openssl/err.h": 1,
+          "<openssl/crypto.h>": 1,
+          "<openssl/err.h>": 1,
+          "openssl/x509.h": 1,
+          "<openssl/pem.h>": 1,
+          "<openssl/ssl.h>": 1,
+          "openssl/ssl.h": 1,
+          "openssl/x509v3.h": 1,
+          "<wspiapi.h>": 1,
+          "<winsock2.h>": 1,
+          "<ttplugin.h>": 1,
+          "<ws2tcpip.h>": 1,
+          "<tttypes.h>": 1,
+          "ttplugin.h": 1,
+          "tttypes.h": 1,
+          "winsock2.h": 1,
+          "teraterm.h": 1,
+          "ws2tcpip.h": 1,
+          "wspiapi.h": 1,
+          "<teraterm.h>": 1,
+          "<YCL/DynamicLinkLibrary.h>": 1,
+          "ProxyWSockHook.h": 1,
+          "YCL/DynamicLinkLibrary.h": 1,
+          "dlglib.h": 1,
+          "YCL/HASHCODE.h": 1,
+          "<YCL/HASHCODE.h>": 1,
+          "YCL/Vector.h": 1,
+          "<YCL/Vector.h>": 1,
+          "<YCL/StringUtil.h>": 1,
+          "asprintf.h": 1,
+          "YCL/Integer.h": 1,
+          "<YCL/Integer.h>": 1,
+          "YCL/StringUtil.h": 1,
+          "inifile_com.h": 1,
+          "<YCL/WStringBuffer.h>": 1,
+          "YCL/WStringBuffer.h": 1,
+          "wchar.h": 1,
+          "<wchar.h>": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 1,
+        "packages": {
+          "DBI": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 47,
+        "packages": {
+          "sys": 13,
+          "unittest": 9,
+          "random": 7,
+          "collections": 7,
+          "*": 7,
+          "simplerandom": 7,
+          "os": 6,
+          "print_function": 6,
+          "__future__": 6,
+          "array": 6,
+          "matplotlib": 6,
+          "pyplot": 6,
+          "numpy": 6,
+          "re": 5,
+          "codecs": 4,
+          "ctypes": 4,
+          "cobs": 4,
+          "struct": 4,
+          "logging": 4,
+          "setup": 3,
+          "defaultdict": 3,
+          "enum": 3,
+          "IntEnum": 3,
+          "time": 3,
+          "lzs": 3,
+          "datetime": 3,
+          "namedtuple": 3,
+          "fileinput": 2,
+          "the": 2,
+          "cobs_wrapper": 2,
+          "cobsr_wrapper": 2,
+          "cobsr": 2,
+          "setuptools": 2,
+          "itertools": 2,
+          "pprint": 2,
+          "ioctl_opt": 2,
+          "IOC": 2,
+          "fcntl": 2,
+          "lines": 2,
+          "text": 2,
+          "zmodem": 2,
+          "bisect": 1,
+          "gmul": 1,
+          "bisect_left": 1,
+          "Crypto": 1,
+          "AES": 1,
+          "findhash": 1,
+          "gsm0338_parse": 1,
+          "selectors": 1,
+          "string": 1,
+          "shutil": 1,
+          "OESelftestTestCase": 1,
+          "glob": 1,
+          "oeqa": 1,
+          "tempfile": 1,
+          "runCmd": 1,
+          "build_ext": 1,
+          "Cython": 1,
+          "Extension": 1,
+          "iterators": 1,
+          "BitColumnMatrix": 1,
+          "_StandardRandomTemplate": 1,
+          "numbers": 1,
+          "hexlify": 1,
+          "math": 1,
+          "log": 1,
+          "Mersene": 1,
+          "Integral": 1,
+          "urandom": 1,
+          "binascii": 1,
+          "sun_declination": 1,
+          "scipy": 1,
+          "cx_Freeze": 1,
+          "serial": 1,
+          "platformdirs": 1,
+          "contextlib": 1,
+          "deque": 1,
+          "configargparse": 1,
+          "argparse": 1,
+          "islice": 1,
+          "crcmod": 1,
+          "tomllib": 1,
+          "contextmanager": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 14,
+        "packages": {
+          "num_traits": 4,
+          "crate": 3,
+          "std": 3,
+          "rand_core": 3,
+          "bytes": 2,
+          "simplerandom": 2,
+          "DecoderState": 1,
+          "DecodeResult": 1,
+          "PushResult": 1,
+          "quickcheck": 1,
+          "cobs": 1,
+          "core": 1,
+          "alloc": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "cmcqueen/aes-min",
+        "files_analyzed": 19,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/alim6117_wdt",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "cmcqueen/cobs-c",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/cobs-jamesmunns.rs",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "cmcqueen/cobs-python",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/cobs2-rs",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "cmcqueen/crypto",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/findhash",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/khazad-min",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/LightPcapNg",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "cmcqueen/linux-kernel-uleds",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/linux-kernel-uledtriggers",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/lpc21isp",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "cmcqueen/luacrc16",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "cmcqueen/lzs-compression",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/meta-openembedded",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C",
+          "Perl",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/simplerandom",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/simplerandom-rs",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "cmcqueen/sundials",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "cmcqueen/sysfs-poll",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "cmcqueen/teraterm",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "cmcqueen/tty0tty",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "cmcqueen/zmodem-py",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

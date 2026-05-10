@@ -1,0 +1,396 @@
+{
+  "username": "CamilaPaiz",
+  "areas": {
+    "OSS": {
+      "score": 0.19999999999999996,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.8,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.2840339083737322,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8683585548682905,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.25,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.09680678167474643,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Kotlin": [
+        6859,
+        5
+      ],
+      "JavaScript": [
+        1592120,
+        301
+      ],
+      "Dockerfile": [
+        30311,
+        0
+      ],
+      "TypeScript": [
+        4278,
+        51
+      ],
+      "HTML": [
+        151146,
+        12
+      ],
+      "CSS": [
+        114025,
+        19
+      ],
+      "Shell": [
+        739,
+        0
+      ],
+      "Java": [
+        26828,
+        0
+      ],
+      "Python": [
+        0,
+        33
+      ],
+      "Jinja": [
+        0,
+        5
+      ],
+      "PowerShell": [
+        0,
+        0
+      ],
+      "Roff": [
+        0,
+        0
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 426,
+    "total_lines": 1926306,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 1592120,
+        "commits": 301
+      },
+      {
+        "language": "TypeScript",
+        "lines": 4278,
+        "commits": 51
+      },
+      {
+        "language": "Python",
+        "lines": 0,
+        "commits": 33
+      },
+      {
+        "language": "CSS",
+        "lines": 114025,
+        "commits": 19
+      },
+      {
+        "language": "HTML",
+        "lines": 151146,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "CamilaPaiz",
+    "analysis_date": "2026-05-10T06:20:22.810741",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 288,
+    "languages": {
+      "Java": {
+        "files_scanned": 4,
+        "packages": {
+          "br.com": 4,
+          "java.util": 1,
+          "java.time": 1,
+          "java.math": 1,
+          "testes": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 43,
+        "packages": {
+          "express": 10,
+          "dotenv": 6,
+          "jsonwebtoken": 5,
+          "react": 4,
+          "sequelize": 3,
+          "crypto": 3,
+          "testing-library": 3,
+          "fs": 2,
+          "path": 2,
+          "joi": 2,
+          "cors": 2,
+          "react-dom": 2,
+          "ts-jest": 1,
+          "eslint-plugin-react-hooks": 1,
+          "eslint": 1,
+          "globals": 1,
+          "eslint-plugin-react": 1,
+          "eslint-plugin-react-refresh": 1,
+          "vitejs": 1,
+          "vite": 1,
+          "src": 1,
+          "morgan": 1,
+          "uuid": 1,
+          "web-vitals": 1,
+          "axios": 1,
+          "puppeteer-core": 1,
+          "react-router-dom": 1,
+          "mysql-import": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 17,
+        "packages": {
+          "react": 11,
+          "mui": 8,
+          "prop-types": 3,
+          "react-icons": 2,
+          "react-router-dom": 2,
+          "react-syntax-highlighter": 1,
+          "react-dom": 1,
+          "clsx": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 52,
+        "packages": {
+          "me.dio": 31,
+          "br.com": 15,
+          "android.os": 11,
+          "org.junit": 7,
+          "android.view": 7,
+          "androidx.room": 7,
+          "androidx.appcompat": 5,
+          "androidx.navigation": 5,
+          "androidx.fragment": 5,
+          "androidx.test": 4,
+          "android.content": 4,
+          "kotlinx.coroutines": 4,
+          "class": 3,
+          "androidx.recyclerview": 3,
+          "com.example": 3,
+          "android.util": 3,
+          "com.google": 2,
+          "fun": 1,
+          "retrofit2.Call": 1,
+          "retrofit2.http": 1,
+          "android.widget": 1,
+          "android.net": 1,
+          "androidx.sqlite": 1,
+          "androidx.lifecycle": 1,
+          "android.app": 1,
+          "androidx.core": 1,
+          "kotlinx.parcelize": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 12,
+        "packages": {
+          "src": 8,
+          "typing": 5,
+          "List": 4,
+          "flask": 3,
+          "read": 3,
+          "Flask": 2,
+          "lru_cache": 2,
+          "functools": 2,
+          "BuildError": 1,
+          "werkzeug": 1,
+          "request": 1,
+          "csv": 1,
+          "Union": 1,
+          "jobs": 1,
+          "datetime": 1,
+          "date": 1,
+          "math": 1,
+          "read_brazilian_file": 1,
+          "pytest": 1,
+          "count_ocurrences": 1,
+          "sort_by": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 15,
+        "packages": {
+          "express": 7,
+          "mongoose": 7,
+          "dotenv": 2,
+          "sinon": 2,
+          "chai": 2,
+          "playwright": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "CamilaPaiz/android-material",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/aprenda-kotlin-com-exemplos",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/Blogs-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/Car-shop",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/Cypress-test-automation",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/Delivery-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/desafio-github-search",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/Docker-todo-list",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/Edige-POO",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/Frontend-online-store",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/Meu-primeiro-app-dio",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/minhas-receitas-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/mysql-queries",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/navigation-component",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/playwright-actions",
+        "files_analyzed": 1,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "CamilaPaiz/project-insights",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

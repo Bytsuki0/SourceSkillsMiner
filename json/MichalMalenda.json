@@ -1,0 +1,224 @@
+{
+  "username": "MichalMalenda",
+  "areas": {
+    "OSS": {
+      "score": -0.3558778826618455,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.9661831760072318
+      }
+    },
+    "Status": {
+      "score": 0.39982906549450536,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9843589828571426,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": -0.18584,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.5283,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 1.585,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.02837776343346802,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        1981624,
+        76
+      ],
+      "CSS": [
+        1244901,
+        49
+      ],
+      "PowerShell": [
+        5955,
+        38
+      ],
+      "Python": [
+        125427,
+        51
+      ],
+      "Shell": [
+        4159,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 214,
+    "total_lines": 3362066,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 1981624,
+        "commits": 76
+      },
+      {
+        "language": "Python",
+        "lines": 125427,
+        "commits": 51
+      },
+      {
+        "language": "CSS",
+        "lines": 1244901,
+        "commits": 49
+      },
+      {
+        "language": "PowerShell",
+        "lines": 5955,
+        "commits": 38
+      },
+      {
+        "language": "Shell",
+        "lines": 4159,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "MichalMalenda",
+    "analysis_date": "2026-05-10T12:29:47.777867",
+    "total_repos_analyzed": 22,
+    "total_files_analyzed": 69,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "undefined": 1,
+          "path": 1,
+          "function": 1,
+          "maxDistance": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 17,
+        "packages": {
+          "re": 4,
+          "itertools": 4,
+          "validate": 3,
+          "random": 3,
+          "unittest": 2,
+          "List": 2,
+          "typing": 2,
+          "sys": 2,
+          "requests": 2,
+          "check_auth": 1,
+          "check_description": 1,
+          "check_alphabetical_order": 1,
+          "check_https": 1,
+          "check_cors": 1,
+          "check_entry": 1,
+          "check_title": 1,
+          "error_message": 1,
+          "get_categories_content": 1,
+          "check_file_format": 1,
+          "check_duplicate_links": 1,
+          "find_links_in_text": 1,
+          "has_cloudflare_protection": 1,
+          "fake_user_agent": 1,
+          "get_host_from_link": 1,
+          "format": 1,
+          "links": 1,
+          "punctuation": 1,
+          "string": 1,
+          "Response": 1,
+          "time": 1,
+          "pyautogui": 1,
+          "calendar": 1,
+          "combinations": 1,
+          "permutations": 1,
+          "textwrap": 1,
+          "product": 1,
+          "collections": 1,
+          "OrderedDict": 1,
+          "numpy": 1,
+          "array": 1,
+          "chain": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MichalMalenda/MichalMalenda.github.io",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MichalMalenda/public-apis",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MichalMalenda/Python-MSRewards",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MichalMalenda/pythonHackerRank",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MichalMalenda/pythonPrinciplesChallenges",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MichalMalenda/riot-api-handler",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

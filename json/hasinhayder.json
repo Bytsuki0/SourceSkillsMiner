@@ -1,0 +1,412 @@
+{
+  "username": "hasinhayder",
+  "areas": {
+    "OSS": {
+      "score": 0.5032051282051282,
+      "details": {
+        "issue_resolution_rate": 0.6923076923076923,
+        "pr_merge_rate": 0.5625,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.24316251593723814,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8262822354443189,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.857143,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.7143,
+        "distinct_primary_languages": 10,
+        "language_transitions": 12,
+        "topic_entropy_bits": 4.7019,
+        "closed_prs_total": 14,
+        "bounced_back_prs": 5
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "hasinhayder/100DaysOfCode": 0.4492,
+        "hasinhayder/banner-designer": 0.6801333333333334,
+        "hasinhayder/bnKbjQuery": 0.1121
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6707021288284734,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        22984,
+        219
+      ],
+      "TypeScript": [
+        60,
+        19
+      ],
+      "JavaScript": [
+        451047,
+        973
+      ],
+      "CSS": [
+        208677,
+        208
+      ],
+      "PHP": [
+        61637,
+        868
+      ],
+      "Shell": [
+        166,
+        10
+      ],
+      "Python": [
+        2048,
+        16
+      ],
+      "ApacheConf": [
+        15,
+        0
+      ],
+      "Go": [
+        0,
+        36
+      ],
+      "Blade": [
+        0,
+        345
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "Perl": [
+        0,
+        0
+      ],
+      "Astro": [
+        0,
+        59
+      ],
+      "Vue": [
+        0,
+        22
+      ],
+      "Hack": [
+        0,
+        0
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 2775,
+    "total_lines": 746634,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 451047,
+        "commits": 973
+      },
+      {
+        "language": "PHP",
+        "lines": 61637,
+        "commits": 868
+      },
+      {
+        "language": "Blade",
+        "lines": 0,
+        "commits": 345
+      },
+      {
+        "language": "HTML",
+        "lines": 22984,
+        "commits": 219
+      },
+      {
+        "language": "CSS",
+        "lines": 208677,
+        "commits": 208
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "hasinhayder",
+    "analysis_date": "2026-05-10T06:44:56.874202",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 210,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 9,
+        "packages": {
+          "fs": 4,
+          "path": 3,
+          "undefined": 2,
+          "https": 1,
+          "file": 1,
+          "system": 1,
+          "gulp-filesize": 1,
+          "gulp": 1,
+          "gulp-manifest": 1,
+          "gulp-minify-css": 1,
+          "opn": 1,
+          "gulp-filter": 1,
+          "chalk": 1,
+          "gulp-useref": 1,
+          "gulp-rev-replace": 1,
+          "gulp-rev": 1,
+          "serve-static": 1,
+          "gulp-uglify": 1,
+          "connect": 1,
+          "gulp-livereload": 1,
+          "del": 1,
+          "of": 1,
+          "underscore": 1,
+          "0.9.2": 1,
+          "object": 1,
+          "load-grunt-tasks": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 41,
+        "packages": {
+          "App\\ClientBundle\\Entity": 11,
+          "Carbon_Fields\\Exception\\Incorrect_Syntax_Exception": 8,
+          "config.php": 5,
+          "Carbon_Fields\\Helper\\Helper": 4,
+          "common.php": 3,
+          "twitteroauth/twitteroauth.php": 3,
+          "App\\AdminBundle\\Business\\Base\\BaseCreateHandler": 3,
+          "Symfony\\Component\\Validator\\ExecutionContext": 3,
+          "App\\AdminBundle\\Business\\Base\\BaseDeleteHandler": 3,
+          "App\\AdminBundle\\Business\\Base\\BaseEditHandler": 2,
+          "App\\AdminBundle\\Business\\Base\\BaseGridHandler": 2,
+          "App\\AdminBundle\\Business\\Base\\BaseInlineFormHandler": 2,
+          "Carbon_Fields\\Datastore\\Datastore": 2,
+          "upgrade.php": 1,
+          "get-attachments.php": 1,
+          "attachments.options.php": 1,
+          "deprecated/attachments.php": 1,
+          "classes/class.attachments.php": 1,
+          "html.inc": 1,
+          "OAuth.php": 1,
+          "Symfony\\Bundle\\FrameworkBundle\\HttpCache\\HttpCache": 1,
+          "Symfony\\Component\\HttpKernel\\Kernel": 1,
+          "Symfony\\Component\\Config\\Loader\\LoaderInterface": 1,
+          "Doctrine\\Common\\Annotations\\AnnotationRegistry": 1,
+          "Symfony\\Component\\HttpKernel\\Bundle\\Bundle": 1,
+          "Doctrine\\ORM\\Event\\LoadClassMetadataEventArgs": 1,
+          "Doctrine\\ORM\\Event\\LifecycleEventArgs": 1,
+          "App\\AdminBundle\\Business": 1,
+          "Carbon_Fields\\Service\\Revisions_Service": 1,
+          "Carbon_Fields\\Loader\\Loader": 1,
+          "Carbon_Fields\\Service\\Meta_Query_Service": 1,
+          "Carbon_Fields\\Event\\Emitter": 1,
+          "Carbon_Fields\\Event\\SingleEventListener": 1,
+          "Carbon_Fields\\Event\\PersistentListener": 1,
+          "Carbon_Fields\\Service\\REST_API_Service": 1,
+          "Carbon_Fields\\Service\\Legacy_Storage_Service_v_1_5": 1,
+          "Carbon_Fields\\Libraries\\Sidebar_Manager\\Sidebar_Manager": 1,
+          "Carbon_Fields\\Pimple\\Container": 1,
+          "Carbon_Fields\\Toolset\\WP_Toolset": 1,
+          "Carbon_Fields\\REST_API\\Decorator": 1,
+          "Carbon_Fields\\Container\\Repository": 1,
+          "Carbon_Fields\\Toolset\\Key_Toolset": 1,
+          "Carbon_Fields\\REST_API\\Router": 1,
+          "Carbon_Fields\\Datastore\\Meta_Datastore": 1,
+          "Carbon_Fields\\Container\\Fulfillable\\Fulfillable": 1,
+          "includes/helper-functions.php": 1,
+          "bootstrap.php": 1,
+          "cmb-tests-base.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 27,
+        "packages": {
+          "torch": 24,
+          "typing": 10,
+          "chatterbox": 8,
+          "numpy": 6,
+          "torchaudio": 5,
+          "nn": 5,
+          "random": 4,
+          "gradio": 4,
+          "math": 4,
+          "Dict": 3,
+          "ChatterboxTTS": 3,
+          "einops": 3,
+          "Optional": 3,
+          "Tuple": 3,
+          "ChatterboxMultilingualTTS": 2,
+          "ChatterboxTurboTTS": 2,
+          "ChatterboxVC": 2,
+          "pack": 2,
+          "weight_norm": 2,
+          "logging": 2,
+          "Parameter": 2,
+          "diffusers": 2,
+          "collections": 1,
+          "re": 1,
+          "os": 1,
+          "shutil": 1,
+          "sys": 1,
+          "pathlib": 1,
+          "datetime": 1,
+          "platform": 1,
+          "subprocess": 1,
+          "json": 1,
+          "Path": 1,
+          "version": 1,
+          "importlib": 1,
+          "importlib_metadata": 1,
+          "DictConfig": 1,
+          "omegaconf": 1,
+          "functional": 1,
+          "tqdm": 1,
+          "threading": 1,
+          "Conv1d": 1,
+          "get_window": 1,
+          "remove_weight_norm": 1,
+          "ConvTranspose1d": 1,
+          "Uniform": 1,
+          "scipy": 1,
+          "get_activation": 1,
+          "ConformerBlock": 1,
+          "conformer": 1,
+          "abc": 1,
+          "ABC": 1,
+          "rearrange": 1,
+          "LoRACompatibleLinear": 1,
+          "Attention": 1,
+          "maybe_allow_in_graph": 1,
+          "Any": 1,
+          "functools": 1,
+          "lru_cache": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "hasinhayder/API-mega-list",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "hasinhayder/attachments",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "hasinhayder/avro-pad",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "hasinhayder/awesome-copilot",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "hasinhayder/backbone-tutorial",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "hasinhayder/bangla-programming-resources",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hasinhayder/BanglaTwitterStatus",
+        "files_analyzed": 15,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "hasinhayder/Billing",
+        "files_analyzed": 29,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "hasinhayder/bookmark.py",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hasinhayder/BreakPoint",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "hasinhayder/carbon-fields",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "hasinhayder/chatterbox",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hasinhayder/CMB2",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

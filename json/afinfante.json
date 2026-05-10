@@ -1,0 +1,185 @@
+{
+  "username": "afinfante",
+  "areas": {
+    "OSS": {
+      "score": -0.15197571662653853,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.7720364250601922
+      }
+    },
+    "Status": {
+      "score": 0.20488585687941807,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7688672468575887,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -1.0,
+      "details": {
+        "language_diversity_score": 0.0,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 0,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.1394179719494241,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "BitBake": [
+        68068,
+        0
+      ],
+      "C": [
+        226681,
+        0
+      ],
+      "Shell": [
+        2096,
+        0
+      ],
+      "PHP": [
+        11004,
+        0
+      ],
+      "NASL": [
+        5358,
+        0
+      ],
+      "Python": [
+        2906,
+        0
+      ],
+      "C++": [
+        2117,
+        0
+      ],
+      "Pascal": [
+        1454,
+        0
+      ],
+      "HTML": [
+        359,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 0,
+    "total_lines": 320043,
+    "top_5_languages": [
+      {
+        "language": "BitBake",
+        "lines": 68068,
+        "commits": 0
+      },
+      {
+        "language": "C",
+        "lines": 226681,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 2096,
+        "commits": 0
+      },
+      {
+        "language": "PHP",
+        "lines": 11004,
+        "commits": 0
+      },
+      {
+        "language": "NASL",
+        "lines": 5358,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "afinfante",
+    "analysis_date": "2026-05-10T02:45:34.620902",
+    "total_repos_analyzed": 3,
+    "total_files_analyzed": 8,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "xil_io.h": 1,
+          "ps7_init_gpl.h": 1,
+          "<unistd.h>": 1,
+          "<fcntl.h>": 1,
+          "unistd.h": 1,
+          "<stdint.h>": 1,
+          "stdint.h": 1,
+          "sys/types.h": 1,
+          "sys/stat.h": 1,
+          "<stdbool.h>": 1,
+          "<stdio.h>": 1,
+          "<sys/types.h>": 1,
+          "stdlib.h": 1,
+          "stdio.h": 1,
+          "fcntl.h": 1,
+          "<stdlib.h>": 1,
+          "<string.h>": 1,
+          "string.h": 1,
+          "<sys/stat.h>": 1,
+          "stdbool.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "sys": 1,
+          "os": 1,
+          "argparse": 1,
+          "libfdt": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "afinfante/meta-xilinx",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "username": "AbdooMohamedd",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.47435897435897445,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.21153846153846154
+      }
+    },
+    "Adaptability": {
+      "score": 0.05,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 4.0588,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.17153846153846156,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CSS": [
+        1542889,
+        8
+      ],
+      "HTML": [
+        440822,
+        2
+      ],
+      "JavaScript": [
+        166188,
+        0
+      ],
+      "Python": [
+        81753,
+        102
+      ],
+      "Jupyter Notebook": [
+        1153422,
+        152
+      ],
+      "Blade": [
+        440431,
+        1
+      ],
+      "PHP": [
+        395285,
+        1
+      ],
+      "SCSS": [
+        1022,
+        0
+      ],
+      "C++": [
+        0,
+        4
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 270,
+    "total_lines": 4221812,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 1153422,
+        "commits": 152
+      },
+      {
+        "language": "Python",
+        "lines": 81753,
+        "commits": 102
+      },
+      {
+        "language": "CSS",
+        "lines": 1542889,
+        "commits": 8
+      },
+      {
+        "language": "C++",
+        "lines": 0,
+        "commits": 4
+      },
+      {
+        "language": "HTML",
+        "lines": 440822,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "AbdooMohamedd",
+    "analysis_date": "2026-05-10T13:13:11.146464",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 114,
+    "languages": {
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "vector": 2,
+          "cstdlib": 2,
+          "<string>": 2,
+          "iostream": 2,
+          "<cstdlib>": 2,
+          "<GL/glut.h>": 2,
+          "string": 2,
+          "GL/glut.h": 2,
+          "<vector>": 2,
+          "cmath": 2,
+          "<cmath>": 2,
+          "<iostream>": 2
+        }
+      },
+      "PHP": {
+        "files_scanned": 30,
+        "packages": {
+          "Illuminate\\Http\\Request": 14,
+          "App\\Providers\\RouteServiceProvider": 6,
+          "App\\Http\\Controllers\\Controller": 6,
+          "Illuminate\\Support\\Facades\\Auth": 3,
+          "App\\Models\\OrderDetail": 2,
+          "App\\Models\\Order": 2,
+          "App\\Models\\Product": 2,
+          "App\\Models\\UserDetail": 2,
+          "routes/console.php": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "Throwable": 1,
+          "Illuminate\\Foundation\\Auth\\ConfirmsPasswords": 1,
+          "ConfirmsPasswords": 1,
+          "Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails": 1,
+          "SendsPasswordResetEmails": 1,
+          "AuthenticatesUsers": 1,
+          "Illuminate\\Foundation\\Auth\\AuthenticatesUsers": 1,
+          "Illuminate\\Foundation\\Auth\\RegistersUsers": 1,
+          "App\\Models\\User": 1,
+          "Illuminate\\Support\\Facades\\Hash": 1,
+          "Illuminate\\Support\\Facades\\Validator": 1,
+          "RegistersUsers": 1,
+          "Illuminate\\Foundation\\Auth\\ResetsPasswords": 1,
+          "ResetsPasswords": 1,
+          "VerifiesEmails": 1,
+          "Illuminate\\Foundation\\Auth\\VerifiesEmails": 1,
+          "Carbon\\Carbon": 1,
+          "App\\Models\\Category": 1,
+          "AuthorizesRequests": 1,
+          "Illuminate\\Routing\\Controller": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 1,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
+          "App\\Models\\ProductDetail": 1,
+          "Illuminate\\Foundation\\Http\\Kernel": 1,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 1,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 1,
+          "Closure": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 1,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 1,
+          "Illuminate\\Http\\Middleware\\TrustProxies": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 1,
+          "Illuminate\\Database\\Eloquent\\Model": 1,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 65,
+        "packages": {
+          "__future__": 27,
+          "annotations": 27,
+          "typing": 21,
+          "Path": 17,
+          "pathlib": 17,
+          "core": 16,
+          "os": 14,
+          "re": 13,
+          "requests": 12,
+          "Any": 12,
+          "logging": 10,
+          "BeautifulSoup": 9,
+          "bs4": 9,
+          "datetime": 9,
+          "sys": 8,
+          "csv": 7,
+          "time": 7,
+          "zip_longest": 6,
+          "itertools": 6,
+          "List": 6,
+          "matplotlib": 6,
+          "pandas": 6,
+          "numpy": 6,
+          "io": 6,
+          "urllib": 6,
+          "sleep": 5,
+          "codecs": 5,
+          "asyncio": 5,
+          "sklearn": 5,
+          "dataclass": 5,
+          "dataclasses": 5,
+          "Document": 5,
+          "docx": 5,
+          "pptx": 5,
+          "mcp_server": 5,
+          "urlparse": 5,
+          "load_dotenv": 4,
+          "dotenv": 4,
+          "json": 4,
+          "Presentation": 4,
+          "BytesIO": 4,
+          "StorageBackend": 4,
+          "xml": 4,
+          "crewai": 4,
+          "src": 4,
+          "crawl4ai": 4,
+          "plotly": 4,
+          "streamlit": 4,
+          "pydantic": 3,
+          "the": 3,
+          "httpx": 3,
+          "DocumentFormat": 3,
+          "qn": 3,
+          "Inches": 3,
+          "get_storage_backend": 3,
+          "argparse": 3,
+          "settings": 3,
+          "AsyncWebCrawler": 3,
+          "ElementTree": 3,
+          "base64": 3,
+          "scrape_the_article": 2,
+          "generate_prompt": 2,
+          "prompts": 2,
+          "ArticleScraper": 2,
+          "google": 2,
+          "BaseModel": 2,
+          "confusion_matrix": 2,
+          "roc_auc_score": 2,
+          "pytube": 2,
+          "UTC": 2,
+          "pypdf": 2,
+          "PdfReader": 2,
+          "highlight_code_blocks": 2,
+          "reshape_arabic_in_html": 2,
+          "html_to_docx": 2,
+          "parse_markdown": 2,
+          "OxmlElement": 2,
+          "PP_ALIGN": 2,
+          "PDF_EMBED_FONT_FAMILY": 2,
+          "html": 2,
+          "HTMLParser": 2,
+          "tempfile": 2,
+          "_storage_root_for_resolve": 2,
+          "CrewBase": 2,
+          "BaseAgent": 2,
+          "Agent": 2,
+          "warnings": 2,
+          "crew": 2,
+          "BaseTool": 2,
+          "SatelliteService": 2,
+          "psutil": 2,
+          "seaborn": 2,
+          "yfinance": 2,
+          "LinearRegression": 2,
+          "main": 1,
+          "Flask": 1,
+          "call_gemini_api": 1,
+          "flask": 1,
+          "webdriver": 1,
+          "Service": 1,
+          "Options": 1,
+          "By": 1,
+          "ActionChains": 1,
+          "selenium": 1,
+          "Important": 1,
+          "necessary": 1,
+          "ChatOpenAI": 1,
+          "models": 1,
+          "import": 1,
+          "SecretStr": 1,
+          "browser_use": 1,
+          "langchain_openai": 1,
+          "Product": 1,
+          "Optional": 1,
+          "plot_model": 1,
+          "plot_feature_importances": 1,
+          "read_data": 1,
+          "pickle": 1,
+          "prepare_model_smote": 1,
+          "ML_Pipeline": 1,
+          "roc_curve": 1,
+          "imblearn": 1,
+          "SMOTE": 1,
+          "train_test_split": 1,
+          "DecisionTreeClassifier": 1,
+          "tree": 1,
+          "Playlist": 1,
+          "YouTube": 1,
+          "markdown_it": 1,
+          "RendererHTML": 1,
+          "MarkdownIt": 1,
+          "uuid": 1,
+          "collections": 1,
+          "uuid4": 1,
+          "Iterable": 1,
+          "Enum": 1,
+          "enum": 1,
+          "resolve_pdf_unicode_font_file": 1,
+          "html_to_pptx": 1,
+          "html_to_pdf": 1,
+          "get_display": 1,
+          "arabic_reshaper": 1,
+          "bidi": 1,
+          "WD_ALIGN_PARAGRAPH": 1,
+          "highlight": 1,
+          "HtmlFormatter": 1,
+          "get_lexer_by_name": 1,
+          "pygments": 1,
+          "apply_docx_paragraph_rtl": 1,
+          "shutil": 1,
+          "subprocess": 1,
+          "platform": 1,
+          "addMapping": 1,
+          "reportlab": 1,
+          "TTFont": 1,
+          "pisa": 1,
+          "pdfmetrics": 1,
+          "xhtml2pdf": 1,
+          "etree": 1,
+          "RGBColor": 1,
+          "apply_pptx_paragraph_rtl": 1,
+          "lxml": 1,
+          "GCSStorageBackend": 1,
+          "TYPE_CHECKING": 1,
+          "S3StorageBackend": 1,
+          "LocalStorageBackend": 1,
+          "ABC": 1,
+          "abc": 1,
+          "storage": 1,
+          "botocore": 1,
+          "boto3": 1,
+          "ClientError": 1,
+          "escape": 1,
+          "zipfile": 1,
+          "DocxTemplate": 1,
+          "docxtpl": 1,
+          "try_docx_bytes_to_pdf": 1,
+          "copy": 1,
+          "InlineRun": 1,
+          "CT_Tbl": 1,
+          "CT_P": 1,
+          "deepcopy": 1,
+          "render_markdown_to_bytes": 1,
+          "page_insert": 1,
+          "list": 1,
+          "list_documents_action": 1,
+          "read_document_content": 1,
+          "convert_document_action": 1,
+          "delete_document_action": 1,
+          "FastMCP": 1,
+          "get_config": 1,
+          "get_document_metadata": 1,
+          "append_content": 1,
+          "search_document_action": 1,
+          "mcp": 1,
+          "_load_doc": 1,
+          "load_source_markdown": 1,
+          "_get_registry_path": 1,
+          "list_documents": 1,
+          "resolve_document": 1,
+          "PDFSearchTool": 1,
+          "crewai_tools": 1,
+          "shlex": 1,
+          "Askpdfcrew": 1,
+          "Type": 1,
+          "TranscriptTool": 1,
+          "tools": 1,
+          "markdown_pdf": 1,
+          "inspect": 1,
+          "YoutubeVideoSummarizer": 1,
+          "MarkdownPdf": 1,
+          "youtube_transcript_api": 1,
+          "YouTubeTranscriptApi": 1,
+          "ImageryData": 1,
+          "load_gaza_bounds": 1,
+          "geodesic": 1,
+          "shapely": 1,
+          "geopy": 1,
+          "math": 1,
+          "Polygon": 1,
+          "unittest": 1,
+          "DefaultMarkdownGenerator": 1,
+          "urldefrag": 1,
+          "make_subplots": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "AbdooMohamedd/Article-Summarizer-with-Gemini-API",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/Awesome-Gemini-Apps",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/BeautifulSoup-Web-Scraping-Projects",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/BrowserUse-Best-Deal-Finder",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/Customer-Churn-Prediction-using-Decision-Trees",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/download-YouTube-playlist-Using-Pytube",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/download-YouTube-video-Using-Pytube",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/e-commerce-laravel-collage-website",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/Markdown-to-File-MCP-Server",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/Multi-Agent-RAG-System-for-Local-PDFs",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/Multi-Agent-YouTube-Summarizer-System",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/satellite-imagery-app",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/Scrape-Docs-using-Crawl4AI",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/Streamlit-Data-Science-Apps",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AbdooMohamedd/supermario-opengl",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C++"
+        ]
+      }
+    ]
+  }
+}

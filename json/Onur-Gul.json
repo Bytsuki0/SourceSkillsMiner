@@ -1,0 +1,163 @@
+{
+  "username": "Onur-Gul",
+  "areas": {
+    "OSS": {
+      "score": -0.020961244247041155,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.46855813362943827
+      }
+    },
+    "Status": {
+      "score": -0.1824087127643833,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.2071561616226558,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.775,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.19567399140228492,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        4876,
+        0
+      ],
+      "Gherkin": [
+        472,
+        0
+      ],
+      "JavaScript": [
+        895,
+        1
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 1,
+    "total_lines": 6243,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 895,
+        "commits": 1
+      },
+      {
+        "language": "Java",
+        "lines": 4876,
+        "commits": 0
+      },
+      {
+        "language": "Gherkin",
+        "lines": 472,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Onur-Gul",
+    "analysis_date": "2026-05-10T11:54:53.468775",
+    "total_repos_analyzed": 3,
+    "total_files_analyzed": 50,
+    "languages": {
+      "Java": {
+        "files_scanned": 46,
+        "packages": {
+          "org.openqa": 32,
+          "com.briteErp": 23,
+          "com.cybertek": 23,
+          "java.util": 19,
+          "org.junit": 10,
+          "org.testng": 9,
+          "cucumber.api": 9,
+          "static": 5,
+          "java.io": 5,
+          "java.sql": 2,
+          "com.google": 2,
+          "org.apache": 2,
+          "java.text": 2,
+          "java.time": 2,
+          "io.github": 2,
+          "com.aventstack": 1,
+          "com.github": 1,
+          "java.security": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "protractor": 4,
+          "cucumber": 2,
+          "chai": 1,
+          "chai-as-promised": 1,
+          "cucumber-html-reporter": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Onur-Gul/javAtlantaBrite",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "Onur-Gul/JavAtlantaBrite_Cucumber_Junit",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "Onur-Gul/protractorCucumber",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

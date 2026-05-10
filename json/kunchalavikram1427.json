@@ -1,0 +1,348 @@
+{
+  "username": "kunchalavikram1427",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.244724123301441,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8286246464906232,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.886988,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.774,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 11,
+        "language_transitions": 11,
+        "topic_entropy_bits": 2.3219,
+        "closed_prs_total": 28,
+        "bounced_back_prs": 22
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "kunchalavikram1427/ai-infrabot": 0.4939
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7263424246602882,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        30214,
+        8
+      ],
+      "CSS": [
+        12803,
+        6
+      ],
+      "SCSS": [
+        2308,
+        0
+      ],
+      "HTML": [
+        3457,
+        74
+      ],
+      "Ruby": [
+        57,
+        0
+      ],
+      "Dockerfile": [
+        429,
+        15
+      ],
+      "Java": [
+        924,
+        186
+      ],
+      "Python": [
+        14489,
+        101
+      ],
+      "HCL": [
+        31,
+        89
+      ],
+      "TypeScript": [
+        89567,
+        10
+      ],
+      "Open Policy Agent": [
+        0,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Shell": [
+        0,
+        25
+      ],
+      "Go": [
+        0,
+        1
+      ],
+      "EJS": [
+        0,
+        0
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "Mustache": [
+        0,
+        6
+      ],
+      "Smarty": [
+        0,
+        36
+      ],
+      "Groovy": [
+        0,
+        46
+      ],
+      "C#": [
+        0,
+        11
+      ],
+      "Objective-J": [
+        0,
+        0
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 614,
+    "total_lines": 154279,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 924,
+        "commits": 186
+      },
+      {
+        "language": "Python",
+        "lines": 14489,
+        "commits": 101
+      },
+      {
+        "language": "HCL",
+        "lines": 31,
+        "commits": 89
+      },
+      {
+        "language": "HTML",
+        "lines": 3457,
+        "commits": 74
+      },
+      {
+        "language": "Groovy",
+        "lines": 0,
+        "commits": 46
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "kunchalavikram1427",
+    "analysis_date": "2026-05-10T01:14:04.215257",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 112,
+    "languages": {
+      "Java": {
+        "files_scanned": 33,
+        "packages": {
+          "com.stacksimplify": 29,
+          "org.springframework": 25,
+          "java.util": 10,
+          "java.io": 4,
+          "javax.validation": 4,
+          "com.amazonaws": 4,
+          "com.fasterxml": 4,
+          "hello": 3,
+          "org.junit": 3,
+          "javax.servlet": 3,
+          "java.net": 2,
+          "org.apache": 2,
+          "org.hibernate": 2,
+          "org.joda": 1,
+          "static": 1,
+          "java.nio": 1,
+          "javax.persistence": 1,
+          "java.time": 1,
+          "org.slf4j": 1,
+          "org.aspectj": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 6,
+        "packages": {
+          "fs": 3,
+          "path": 3,
+          "vscode": 1,
+          "assert": 1,
+          "chai": 1,
+          "chai-subset": 1,
+          "jasmine-spec-reporter": 1,
+          "ts-node": 1,
+          "karma-chrome-launcher": 1,
+          "karma-coverage-istanbul-reporter": 1,
+          "karma-jasmine": 1,
+          "angular-devkit": 1,
+          "karma-jasmine-html-reporter": 1,
+          "dd-trace": 1,
+          "http": 1,
+          "express": 1,
+          "socket.io": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 22,
+        "packages": {
+          "sys": 11,
+          "datetime": 7,
+          "argparse": 5,
+          "os": 4,
+          "json": 2,
+          "time": 2,
+          "flask": 2,
+          "importlib": 1,
+          "subprocess": 1,
+          "this": 1,
+          "-": 1,
+          "platform": 1,
+          "basic": 1,
+          "keyword": 1,
+          "Template": 1,
+          "string": 1,
+          "pprint": 1,
+          "getopt": 1,
+          "requests": 1,
+          "functools": 1,
+          "wraps": 1,
+          "Flask": 1,
+          "OperationalError": 1,
+          "flask_sqlalchemy": 1,
+          "sqlalchemy": 1,
+          "inspect": 1,
+          "SQLAlchemy": 1,
+          "Blueprint": 1,
+          "socket": 1,
+          "create_app": 1,
+          "app": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 21,
+        "packages": {
+          "angular": 15,
+          "zone.js": 3,
+          "node-cache": 2,
+          "vscode-extension-telemetry": 2,
+          "path": 2,
+          "vscode": 2,
+          "title=": 1,
+          "uuid": 1,
+          "fs": 1,
+          "jsonc-parser": 1,
+          "isomorphic-fetch": 1,
+          "protractor": 1,
+          "rxjs": 1,
+          "web-animations-js": 1,
+          "classlist.js": 1,
+          "core-js": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "kunchalavikram1427/actions_demo",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kunchalavikram1427/ai_ml_made_easy_youtube",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kunchalavikram1427/armview-vscode",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "kunchalavikram1427/aston-villa-app",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "kunchalavikram1427/aws-eks-kubernetes-masterclass",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kunchalavikram1427/battleships",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "kunchalavikram1427/better-todo-app",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}
