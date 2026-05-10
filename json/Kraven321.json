@@ -1,0 +1,312 @@
+{
+  "username": "Kraven321",
+  "areas": {
+    "OSS": {
+      "score": -0.4572581703438908,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8141127444841638
+      }
+    },
+    "Status": {
+      "score": 0.2863315732458529,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8141127444841638,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": -0.875,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "Kraven321/todo-list-HR": 0.4939
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.040814680580392414,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        426958,
+        22
+      ],
+      "SCSS": [
+        192162,
+        3
+      ],
+      "HTML": [
+        2587,
+        0
+      ],
+      "CSS": [
+        18478,
+        1
+      ],
+      "TypeScript": [
+        260349,
+        22
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 48,
+    "total_lines": 900534,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 426958,
+        "commits": 22
+      },
+      {
+        "language": "TypeScript",
+        "lines": 260349,
+        "commits": 22
+      },
+      {
+        "language": "SCSS",
+        "lines": 192162,
+        "commits": 3
+      },
+      {
+        "language": "CSS",
+        "lines": 18478,
+        "commits": 1
+      },
+      {
+        "language": "HTML",
+        "lines": 2587,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Kraven321",
+    "analysis_date": "2026-05-09T16:43:28.768688",
+    "total_repos_analyzed": 13,
+    "total_files_analyzed": 232,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 36,
+        "packages": {
+          "mongodb": 9,
+          "models": 9,
+          "express": 9,
+          "mongoose": 8,
+          "vite": 4,
+          "vitejs": 4,
+          "bcryptjs": 3,
+          "dotenv": 3,
+          "passport": 3,
+          "fs": 2,
+          "jsonwebtoken": 2,
+          "path": 2,
+          "react": 2,
+          "react-hot-toast": 2,
+          "next-auth": 1,
+          "next": 1,
+          "Username": 1,
+          "password": 1,
+          "Email": 1,
+          "Profile": 1,
+          "cookie-parser": 1,
+          "socket.io": 1,
+          "http": 1,
+          "passport-github2": 1,
+          "cors": 1,
+          "express-session": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 77,
+        "packages": {
+          "react": 58,
+          "react-icons": 16,
+          "styled-components": 16,
+          "react-router-dom": 13,
+          "mui": 13,
+          "styles": 12,
+          "next-auth": 10,
+          "react-hot-toast": 10,
+          "components": 9,
+          "next": 9,
+          "react-dom": 5,
+          "react-three": 5,
+          "data": 2,
+          "recharts": 1,
+          "react-circular-progressbar": 1,
+          "socket.io-client": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 15,
+        "packages": {
+          "uploadthing": 4,
+          "kinde-oss": 4,
+          "next": 3,
+          "sanity": 3,
+          "tailwindcss": 2,
+          "prisma": 2,
+          "svix": 1,
+          "clerk": 1,
+          "tiptap": 1,
+          "unique-username-generator": 1,
+          "next-sanity": 1,
+          "clsx": 1,
+          "tailwind-merge": 1,
+          "tailwindcss-animate": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 68,
+        "packages": {
+          "react": 38,
+          "next": 36,
+          "lucide-react": 18,
+          "radix-ui": 12,
+          "clerk": 6,
+          "class-variance-authority": 6,
+          "use-shopping-cart": 5,
+          "kinde-oss": 4,
+          "react-dom": 4,
+          "force-dynamic": 3,
+          "next-themes": 2,
+          "tiptap": 2,
+          "react-hook-form": 1,
+          "hookform": 1,
+          "zod": 1,
+          "react-datepicker": 1,
+          "uploadthing": 1,
+          "clsx": 1,
+          "troop.com": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Kraven321/Admin-Dashboard-React",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "Kraven321/artify",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "Kraven321/Chat-App",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "Kraven321/Evently",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Kraven321/mern-github-v2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "Kraven321/Modern-UX-UI-Design",
+        "files_analyzed": 9,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Kraven321/React3DJS",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "Kraven321/Reddit-Clone",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Kraven321/ReisCommerce",
+        "files_analyzed": 27,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Kraven321/TIkTakToe-with-ReactJS",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "Kraven321/video-app-interface",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      }
+    ]
+  }
+}

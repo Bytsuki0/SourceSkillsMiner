@@ -1,0 +1,399 @@
+{
+  "username": "MartiZu",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": -0.266667,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 9,
+        "bounced_back_prs": 9
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "MartiZu/Help-dev-app": 0.4939,
+        "MartiZu/LendLogic-app": 0.4021297872340426
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4787178820512821,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        6041761,
+        350
+      ],
+      "CSS": [
+        1234406,
+        22
+      ],
+      "HTML": [
+        95427,
+        14
+      ],
+      "TypeScript": [
+        599545,
+        3
+      ],
+      "SCSS": [
+        52244,
+        14
+      ],
+      "Python": [
+        179,
+        4
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 407,
+    "total_lines": 8023562,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 6041761,
+        "commits": 350
+      },
+      {
+        "language": "CSS",
+        "lines": 1234406,
+        "commits": 22
+      },
+      {
+        "language": "HTML",
+        "lines": 95427,
+        "commits": 14
+      },
+      {
+        "language": "SCSS",
+        "lines": 52244,
+        "commits": 14
+      },
+      {
+        "language": "Python",
+        "lines": 179,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "MartiZu",
+    "analysis_date": "2026-05-09T02:36:54.371625",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 274,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 89,
+        "packages": {
+          "react": 18,
+          "next": 13,
+          "express": 9,
+          "default\\": 7,
+          "vendor-chunks": 6,
+          "testing-library": 5,
+          ":\\": 5,
+          "app": 5,
+          "(rsc)": 5,
+          "json-server": 5,
+          "react-router-dom": 5,
+          "react-native": 5,
+          "expo-status-bar": 5,
+          "playwright": 5,
+          "react-dom": 4,
+          "default": 4,
+          "path": 4,
+          "(ssr)": 4,
+          "util": 4,
+          "tailwindcss": 4,
+          "dotenv": 4,
+          "url": 3,
+          "(app-pages-browser)": 3,
+          "__esModule\\": 3,
+          "Module": 2,
+          "__esModule": 2,
+          "+": 2,
+          "tailwind-merge": 2,
+          "clsx": 2,
+          "tailwindcss-animate": 2,
+          "cors": 2,
+          "morgan": 2,
+          "pg": 2,
+          "vitest": 2,
+          "react-icons": 1,
+          "web-vitals": 1,
+          "(app-metadata-route)": 1,
+          "function\\": 1,
+          "__private_\\": 1,
+          "attempted": 1,
+          "file:": 1,
+          "object": 1,
+          "emailjs": 1,
+          "fortawesome": 1,
+          "bcrypt": 1,
+          "fs": 1,
+          "vite": 1,
+          "vitejs": 1,
+          "node:fs": 1,
+          "uuid": 1,
+          "supertest": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 78,
+        "packages": {
+          "testing-library": 34,
+          "react": 25,
+          "next": 23,
+          "node:test": 14,
+          "radix-ui": 5,
+          "class-variance-authority": 3,
+          "lucide-react": 2,
+          "react-icons": 1,
+          "react-dom": 1,
+          "react-day-picker": 1,
+          "gray-matter": 1,
+          "fs": 1,
+          "path": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "bank_accounts": 1,
+          "*": 1,
+          "enum": 1,
+          "Enum": 1,
+          "sys": 1,
+          "random": 1,
+          "requests": 1,
+          "dotenv": 1,
+          "load_dotenv": 1,
+          "pprint": 1,
+          "os": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 4,
+        "packages": {
+          "vite": 3,
+          "vitejs": 3,
+          "tailwindcss": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 10,
+        "packages": {
+          "react": 10,
+          "react-dom": 3
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MartiZu/Carousel-React",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/Help-dev-app",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/help-dev-data",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/helpdev-data",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/LendLogic-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MartiZu/LendLogic-app-extension",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MartiZu/LendLogic-backend",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/movies-frontend",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/Portfolio",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/Python",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MartiZu/React-Flashcards-App",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/react-native",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/Santa-s_holiday",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MartiZu/Santa-s_holiday_backend",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/Study-Buddy-app",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/Study-Buddy-backend",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/Sudoku_solver",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MartiZu/Travel-App",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MartiZu/travel-data",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/Travel-Tips-backend",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/travelapp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "MartiZu/typescript",
+        "files_analyzed": 20,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

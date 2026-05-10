@@ -1,0 +1,240 @@
+{
+  "username": "rushi08",
+  "areas": {
+    "OSS": {
+      "score": -0.6172798546686278,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.5740802179970582
+      }
+    },
+    "Status": {
+      "score": 0.08087576535475471,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5828521095705936,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.775,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.26228081786277463,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        22059,
+        6
+      ],
+      "Kotlin": [
+        3746,
+        0
+      ],
+      "Objective-C": [
+        2632,
+        0
+      ],
+      "Ruby": [
+        3049,
+        0
+      ],
+      "TypeScript": [
+        5749,
+        3
+      ],
+      "Objective-C++": [
+        927,
+        0
+      ],
+      "Swift": [
+        435,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 9,
+    "total_lines": 38597,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 22059,
+        "commits": 6
+      },
+      {
+        "language": "TypeScript",
+        "lines": 5749,
+        "commits": 3
+      },
+      {
+        "language": "Kotlin",
+        "lines": 3746,
+        "commits": 0
+      },
+      {
+        "language": "Objective-C",
+        "lines": 2632,
+        "commits": 0
+      },
+      {
+        "language": "Ruby",
+        "lines": 3049,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rushi08",
+    "analysis_date": "2026-05-09T19:06:59.386456",
+    "total_repos_analyzed": 5,
+    "total_files_analyzed": 47,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<RCTAppDelegate.h>": 1,
+          "<UIKit/UIKit.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "react-native": 7,
+          "react": 5,
+          "react-navigation": 1,
+          "http:": 1,
+          "socket.io-client": 1,
+          "metro-config": 1,
+          "http": 1,
+          "cors": 1,
+          "socket.io": 1,
+          "express": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 4,
+        "packages": {
+          "com.facebook": 4,
+          "com.chatsocket": 2,
+          "android.app": 2,
+          "com.weatheraqapp": 2
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 2,
+        "packages": {
+          "UIKit/UIKit.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "AppDelegate.h": 1,
+          "<XCTest/XCTest.h>": 1,
+          "React/RCTRootView.h": 1,
+          "<React/RCTRootView.h>": 1,
+          "React/RCTLog.h": 1,
+          "XCTest/XCTest.h": 1,
+          "<React/RCTLog.h>": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 1,
+        "packages": {
+          "UIKit": 1,
+          "ReactAppDependencyProvider": 1,
+          "React_RCTAppDelegate": 1,
+          "React": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 6,
+        "packages": {
+          "reduxjs": 3,
+          "axios": 1,
+          "react-native-config": 1,
+          "react-native-async-storage": 1,
+          "react-native": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 9,
+        "packages": {
+          "react": 7,
+          "react-native": 6,
+          "react-navigation": 4,
+          "react-test-renderer": 2,
+          "react-redux": 2,
+          "jest": 1,
+          "redux-persist": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rushi08/react-native-chatSocket",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C/C++ Header",
+          "JavaScript",
+          "Kotlin",
+          "Objective-C / MATLAB",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "rushi08/react-native-chatSocket-backend",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rushi08/weatherApp",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript",
+          "Kotlin",
+          "Swift",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

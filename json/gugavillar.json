@@ -1,0 +1,420 @@
+{
+  "username": "gugavillar",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333333,
+      "details": {
+        "issue_resolution_rate": 0.75,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4487179487179487,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.17307692307692307
+      }
+    },
+    "Adaptability": {
+      "score": 0.3125,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 10,
+        "bounced_back_prs": 8
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "gugavillar/anglicana-vida": 0.08075000000000002,
+        "gugavillar/cell_evaluation": 0.422104347826087
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6189102564102564,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        374518,
+        1392
+      ],
+      "JavaScript": [
+        12929,
+        37
+      ],
+      "Shell": [
+        363,
+        0
+      ],
+      "HTML": [
+        7438,
+        22
+      ],
+      "CSS": [
+        749,
+        17
+      ],
+      "SCSS": [
+        63472,
+        13
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        0
+      ],
+      "EJS": [
+        0,
+        1
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 1482,
+    "total_lines": 459469,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 374518,
+        "commits": 1392
+      },
+      {
+        "language": "JavaScript",
+        "lines": 12929,
+        "commits": 37
+      },
+      {
+        "language": "HTML",
+        "lines": 7438,
+        "commits": 22
+      },
+      {
+        "language": "CSS",
+        "lines": 749,
+        "commits": 17
+      },
+      {
+        "language": "SCSS",
+        "lines": 63472,
+        "commits": 13
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "gugavillar",
+    "analysis_date": "2026-05-09T15:21:51.461469",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 395,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 32,
+        "packages": {
+          "next": 14,
+          "uuid": 5,
+          "react": 5,
+          "supertest": 4,
+          "styled-components": 4,
+          "react-dom": 3,
+          "express": 2,
+          "vercel": 2,
+          "next-sitemap": 1,
+          "vite": 1,
+          "vite-preset-react": 1,
+          "cors": 1,
+          "better-sqlite3": 1,
+          "zod": 1,
+          "imgbb-image-uploader": 1,
+          "xss": 1,
+          "slugify": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 57,
+        "packages": {
+          "styled-components": 9,
+          "axios": 7,
+          "express": 7,
+          "chakra-ui": 4,
+          "nookies": 4,
+          "react-query": 3,
+          "tanstack": 3,
+          "next": 3,
+          "next-auth": 3,
+          "react": 2,
+          "faunadb": 2,
+          "dotenv": 2,
+          "jsonwebtoken": 2,
+          "prisma": 2,
+          "bcryptjs": 2,
+          "lucide-react": 2,
+          "prismicio": 1,
+          "react-intersection-observer": 1,
+          "type": 1,
+          "GET": 1,
+          "Ativo": 1,
+          "Normal": 1,
+          "-": 1,
+          "date-fns": 1,
+          "HH:mm": 1,
+          "leader": 1,
+          "1": 1,
+          "dayzed": 1,
+          "miragejs": 1,
+          "faker": 1,
+          "http": 1,
+          "cors": 1,
+          "socket.io": 1,
+          "vitejs": 1,
+          "vite": 1,
+          "polished": 1,
+          "firebase": 1,
+          "pt-br": 1,
+          "node:crypto": 1,
+          "testing-library": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 179,
+        "packages": {
+          "react": 101,
+          "chakra-ui": 78,
+          "next": 15,
+          "phosphor-react": 11,
+          "react-hook-form": 11,
+          "prismicio": 10,
+          "react-icons": 10,
+          "react-dom": 9,
+          "tanstack": 7,
+          "date-fns": 7,
+          "styled-components": 7,
+          "testing-library": 7,
+          "lucide-react": 5,
+          "auth0": 5,
+          "react-query": 5,
+          "dayzed": 4,
+          "styled-system": 4,
+          "zod": 3,
+          "tailwind-merge": 2,
+          "div": 2,
+          "#": 2,
+          "react-router-dom": 2,
+          "nookies": 2,
+          "react-toastify": 2,
+          "react-focus-lock": 2,
+          "yup": 2,
+          "hookform": 2,
+          "react-modal": 2,
+          "node:crypto": 2,
+          "next-auth": 2,
+          "uidotdev": 2,
+          "swiper": 1,
+          "react-number-format": 1,
+          "pixbrasil": 1,
+          "react-qr-code": 1,
+          "type": 1,
+          "svg": 1,
+          "react-qrcode-reader": 1,
+          "react-app-polyfill": 1,
+          "react-github-btn": 1,
+          "react-apexcharts": 1,
+          "apexcharts": 1,
+          "socket.io-client": 1,
+          "insurance-path": 1,
+          "vitest": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "gugavillar/anglicana-vida",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/anglicana-website",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/aphrodite",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/authentication",
+        "files_analyzed": 10,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/burgue",
+        "files_analyzed": 9,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/cell_evaluation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/chakra-datepicker",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/christmas",
+        "files_analyzed": 13,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/comdica",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/conceitos-do-nodejs",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gugavillar/corrigindo-codigo",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gugavillar/dashgo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/desafio01-calculadora",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gugavillar/dowhilebackend",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gugavillar/dowhilefrontend",
+        "files_analyzed": 9,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/dtmoney",
+        "files_analyzed": 20,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/event_management",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/expenses",
+        "files_analyzed": 18,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/flavio-seguros",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gugavillar/foodies",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

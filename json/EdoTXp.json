@@ -1,0 +1,657 @@
+{
+  "username": "EdoTXp",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5384615384615385,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.3076923076923077
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 10,
+        "language_transitions": 9,
+        "topic_entropy_bits": 5.5646,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.37435897435897436,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Kotlin": [
+        88422,
+        85
+      ],
+      "Shell": [
+        1359,
+        11
+      ],
+      "Dart": [
+        2878033,
+        340
+      ],
+      "Ruby": [
+        33077,
+        0
+      ],
+      "Swift": [
+        12193,
+        0
+      ],
+      "Java": [
+        24895,
+        6
+      ],
+      "MATLAB": [
+        105,
+        0
+      ],
+      "Objective-C": [
+        916,
+        0
+      ],
+      "C++": [
+        26963,
+        6
+      ],
+      "CMake": [
+        22124,
+        4
+      ],
+      "C": [
+        1608,
+        0
+      ],
+      "HTML": [
+        12979,
+        2
+      ],
+      "JavaScript": [
+        470552,
+        34
+      ],
+      "Python": [
+        0,
+        2
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "Jupyter Notebook": [
+        0,
+        8
+      ],
+      "CSS": [
+        0,
+        3
+      ],
+      "TypeScript": [
+        0,
+        4
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 505,
+    "total_lines": 3573226,
+    "top_5_languages": [
+      {
+        "language": "Dart",
+        "lines": 2878033,
+        "commits": 340
+      },
+      {
+        "language": "Kotlin",
+        "lines": 88422,
+        "commits": 85
+      },
+      {
+        "language": "JavaScript",
+        "lines": 470552,
+        "commits": 34
+      },
+      {
+        "language": "Shell",
+        "lines": 1359,
+        "commits": 11
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 0,
+        "commits": 8
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "EdoTXp",
+    "analysis_date": "2026-05-09T18:02:37.964344",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 384,
+    "languages": {
+      "C++": {
+        "files_scanned": 17,
+        "packages": {
+          "generated_plugin_registrant.h": 4,
+          "my_application.h": 4,
+          "flutter/generated_plugin_registrant.h": 4,
+          "flutter_window.h": 4,
+          "<windows.h>": 4,
+          "windows.h": 4,
+          "utils.h": 4,
+          "flutter_linux/flutter_linux.h": 3,
+          "<flutter_linux/flutter_linux.h>": 3,
+          "flutter_windows.h": 3,
+          "<flutter_windows.h>": 3,
+          "gdk/gdkx.h": 2,
+          "<gdk/gdkx.h>": 2,
+          "<optional>": 2,
+          "optional": 2,
+          "flutter/dart_project.h": 2,
+          "flutter/flutter_view_controller.h": 2,
+          "<flutter/flutter_view_controller.h>": 2,
+          "<flutter/dart_project.h>": 2,
+          "<io.h>": 2,
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "<iostream>": 2,
+          "iostream": 2,
+          "io.h": 2,
+          "cstdlib": 2,
+          "<string>": 2,
+          "string": 2,
+          "<cstdlib>": 2,
+          "flutter_linux_de_info/flutter_linux_de_info_plugin.h": 1,
+          "<flutter_linux_de_info/flutter_linux_de_info_plugin.h>": 1,
+          "<gtk/gtk.h>": 1,
+          "include/flutter_linux_de_info/flutter_linux_de_info_plugin.h": 1,
+          "gtk/gtk.h": 1,
+          "gtest/gtest.h": 1,
+          "<gtest/gtest.h>": 1,
+          "resource.h": 1,
+          "win32_window.h": 1,
+          "EnableNonClientDpiScaling": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 15,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 4,
+          "flutter_linux/flutter_linux.h": 3,
+          "<flutter_linux/flutter_linux.h>": 3,
+          "<memory>": 3,
+          "memory": 3,
+          "gtk/gtk.h": 2,
+          "<gtk/gtk.h>": 2,
+          "flutter/plugin_registry.h": 2,
+          "<flutter/plugin_registry.h>": 2,
+          "<flutter/flutter_view_controller.h>": 2,
+          "win32_window.h": 2,
+          "flutter/dart_project.h": 2,
+          "flutter/flutter_view_controller.h": 2,
+          "<flutter/dart_project.h>": 2,
+          "<string>": 2,
+          "string": 2,
+          "vector": 1,
+          "<vector>": 1,
+          "<windows.h>": 1,
+          "functional": 1,
+          "windows.h": 1,
+          "<functional>": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 178,
+        "packages": {
+          "flutter": 111,
+          "pay_flow": 21,
+          "DevQuiz": 17,
+          "dart:convert": 15,
+          "dw_barbershop": 14,
+          "bookify": 11,
+          "frontend": 11,
+          "flutter_modular": 11,
+          "listinha": 11,
+          "cinebox": 10,
+          "dio": 9,
+          "json_annotation": 7,
+          "realm": 7,
+          "intl": 6,
+          "riverpod_annotation": 6,
+          "rx_notifier": 6,
+          "dart:io": 5,
+          "shared_preferences": 5,
+          "google_fonts": 4,
+          "learn_repository": 4,
+          "dog_model.dart": 4,
+          "firebase_core": 3,
+          "flutter_test": 3,
+          "localization": 3,
+          "dart:async": 3,
+          "path": 3,
+          "sqflite": 3,
+          "dart:math": 3,
+          "flutter_riverpod": 3,
+          "animated_card": 3,
+          "provider": 2,
+          "flutter_localizations": 2,
+          "envied": 2,
+          "dart:developer": 2,
+          "awesome_snackbar_content": 2,
+          "dart:html": 2,
+          "loading_animation_widget": 2,
+          "asyncstate": 2,
+          "validatorless": 2,
+          "flutter_linux_de_info": 2,
+          "learn_sqlflite": 2,
+          "camera": 2,
+          "google_sign_in": 2,
+          "patrol": 1,
+          "firebase_auth": 1,
+          "flutter_bloc": 1,
+          "auth_repository.dart": 1,
+          "dart:ui": 1,
+          "app_colors.dart": 1,
+          "core/app_widget.dart": 1,
+          "share_plus": 1,
+          "auto_injector": 1,
+          "src/core/env/env.dart": 1,
+          "modules/core/core_module.dart": 1,
+          "modules/login/login_module.dart": 1,
+          "modules/payment_type/payment_type_module.dart": 1,
+          "modules/template/base_layout.dart": 1,
+          "modules/products/products_module.dart": 1,
+          "modules/order/order_module.dart": 1,
+          "core/ui/theme/theme_config.dart": 1,
+          "core/global/global_context.dart": 1,
+          "brasil_fields": 1,
+          "interceptors/auth_interceptor.dart": 1,
+          "dart:typed_data": 1,
+          "text_styles.dart": 1,
+          "colors_app.dart": 1,
+          "order_product_dto.dart": 1,
+          "order_status.dart": 1,
+          "order_product_model.dart": 1,
+          "top_snackbar_flutter": 1,
+          "src/my_app.dart": 1,
+          "views/home/home_page.dart": 1,
+          "dog_datasource.dart": 1,
+          "my_app.dart": 1,
+          "home_page.dart": 1,
+          "shared/themes/themes.dart": 1,
+          "models/configuration_model.dart": 1,
+          "backend": 1,
+          "test": 1,
+          "shared/themes/app_colors.dart": 1,
+          "modules/splash/splash_page.dart": 1,
+          "modules/home/home_page.dart": 1,
+          "image_picker": 1,
+          "google_ml_kit": 1,
+          "font_awesome_flutter": 1,
+          "flutter_masked_text2": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 8,
+        "packages": {
+          "javax.swing": 5,
+          "Controller": 4,
+          "java.awt": 3,
+          "java.text": 2,
+          "View": 2,
+          "org.junit": 1,
+          "com.bookifysoftware": 1,
+          "androidx.test": 1,
+          "pl.leancode": 1,
+          "Model.RuleOfThreeCalculator": 1,
+          "View.MainForm": 1,
+          "Model": 1,
+          "java.math": 1,
+          "java.util": 1,
+          "Controller.RuleOfThreeConversion": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 6,
+        "packages": {
+          "object": 3,
+          "Module.instantiateWasm": 3,
+          "fs": 3,
+          "worker_threads": 2,
+          "${k}": 2,
+          "skwasm": 2,
+          "perf_hooks": 1,
+          "utf8": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 54,
+        "packages": {
+          "com.deiovannagroup": 47,
+          "android.content": 16,
+          "android.os": 12,
+          "androidx.core": 11,
+          "kotlinx.coroutines": 11,
+          "javax.inject": 9,
+          "org.junit": 8,
+          "androidx.appcompat": 8,
+          "io.flutter": 8,
+          "com.google": 7,
+          "android.widget": 6,
+          "androidx.activity": 6,
+          "androidx.test": 5,
+          "androidx.room": 5,
+          "android.app": 5,
+          "dagger.hilt": 5,
+          "androidx.fragment": 5,
+          "android.view": 4,
+          "com.example": 4,
+          "androidx.recyclerview": 3,
+          "android.util": 3,
+          "java.io": 3,
+          "dagger.Provides": 3,
+          "dagger.Module": 3,
+          "br.com": 2,
+          "android.database": 1,
+          "com.bookifysoftware": 1,
+          "app.cash": 1,
+          "org.jetbrains": 1,
+          "android.Manifest": 1,
+          "android.net": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 11,
+        "packages": {
+          "database": 5,
+          "sqlalchemy": 5,
+          "fastapi": 4,
+          "List": 4,
+          "typing": 4,
+          "schemas": 3,
+          "Session": 3,
+          "get_db": 3,
+          "APIRouter": 3,
+          "models": 3,
+          "SocketIO": 2,
+          "flask_socketio": 2,
+          "Flask": 2,
+          "flask": 2,
+          "pyautogui": 2,
+          "time": 2,
+          "engine": 1,
+          "matriculas_router": 1,
+          "alunos_router": 1,
+          "routers": 1,
+          "cursos_router": 1,
+          "FastAPI": 1,
+          "os": 1,
+          "sessionmaker": 1,
+          "create_engine": 1,
+          "declarative_base": 1,
+          "Base": 1,
+          "relationship": 1,
+          "Column": 1,
+          "Aluno": 1,
+          "Curso": 1,
+          "Matricula": 1,
+          "pydantic": 1,
+          "BaseModel": 1,
+          "socket": 1,
+          "pandas": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 9,
+        "packages": {
+          "Flutter": 5,
+          "UIKit": 5,
+          "FlutterMacOS": 4,
+          "Cocoa": 3,
+          "XCTest": 2,
+          "flutter_local_notifications": 1,
+          "Foundation": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 14,
+        "packages": {
+          "drizzle-orm": 7,
+          "zod": 5,
+          "fastify-type-provider-zod": 5,
+          "drizzle-kit": 1,
+          "postgres": 1,
+          "audio_chunks": 1,
+          "questions": 1,
+          "rooms": 1,
+          "drizzle-seed": 1,
+          "fastify": 1,
+          "google": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 12,
+        "packages": {
+          "react": 7,
+          "radix-ui": 4,
+          "react-router-dom": 2,
+          "zod": 2,
+          "react-hook-form": 2,
+          "hookform": 2,
+          "lucide-react": 2,
+          "class-variance-authority": 2,
+          "tanstack": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "EdoTXp/AlcoholORGasoline",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EdoTXp/AppToDoList",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EdoTXp/bookify",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "EdoTXp/Books_Catalog",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EdoTXp/cinebox",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Dart",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EdoTXp/DevQuiz",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "EdoTXp/dslist",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "EdoTXp/DW10",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Dart"
+        ]
+      },
+      {
+        "repository": "EdoTXp/DW11-Barbershop",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Dart",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EdoTXp/EdoTXp.github.io",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "EdoTXp/flutter_linux_de_info",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart"
+        ]
+      },
+      {
+        "repository": "EdoTXp/IMCCalculator",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EdoTXp/imersao_alura",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "EdoTXp/Jornada-Python",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "EdoTXp/learn_repository",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "EdoTXp/learn_sqlflite",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Dart",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EdoTXp/Listinha",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Dart",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EdoTXp/nlw_agents",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "EdoTXp/Pay-Flow",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "EdoTXp/RegraDeTres",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

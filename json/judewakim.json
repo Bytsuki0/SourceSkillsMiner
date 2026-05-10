@@ -1,0 +1,427 @@
+{
+  "username": "judewakim",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.348328151845108,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.926338381613816,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Adaptability": {
+      "score": 0.333333,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 8,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "Judewakim/AWS-Automating-Security-Controls-and-Data-Protection": 0.6486
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.3696655637023549,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        3205,
+        234
+      ],
+      "PowerShell": [
+        9438,
+        23
+      ],
+      "Shell": [
+        1958,
+        62
+      ],
+      "HCL": [
+        6521,
+        66
+      ],
+      "HTML": [
+        814,
+        39
+      ],
+      "Java": [
+        302,
+        4
+      ],
+      "Ruby": [
+        217,
+        2
+      ],
+      "TypeScript": [
+        1047,
+        49
+      ],
+      "JavaScript": [
+        61,
+        7
+      ],
+      "Dockerfile": [
+        24,
+        0
+      ],
+      "CSS": [
+        2,
+        3
+      ],
+      "Cython": [
+        0,
+        1
+      ],
+      "C": [
+        0,
+        1
+      ],
+      "XSLT": [
+        0,
+        0
+      ],
+      "C++": [
+        0,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "Mermaid": [
+        0,
+        0
+      ],
+      "Smarty": [
+        0,
+        0
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 491,
+    "total_lines": 23589,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 3205,
+        "commits": 234
+      },
+      {
+        "language": "HCL",
+        "lines": 6521,
+        "commits": 66
+      },
+      {
+        "language": "Shell",
+        "lines": 1958,
+        "commits": 62
+      },
+      {
+        "language": "TypeScript",
+        "lines": 1047,
+        "commits": 49
+      },
+      {
+        "language": "HTML",
+        "lines": 814,
+        "commits": 39
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "judewakim",
+    "analysis_date": "2026-05-09T09:42:36.738196",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 50,
+    "languages": {
+      "Java": {
+        "files_scanned": 5,
+        "packages": {
+          "com.example": 3,
+          "software.amazon": 2,
+          "helloworld": 2,
+          "com.amazonaws": 1,
+          "static": 1,
+          "org.junit": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "next": 1,
+          "tailwindcss": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 28,
+        "packages": {
+          "os": 10,
+          "typing": 10,
+          "boto3": 8,
+          "json": 8,
+          "datetime": 7,
+          "Dict": 6,
+          "time": 5,
+          "urllib": 5,
+          "fastapi": 5,
+          "dotenv": 5,
+          "load_dotenv": 5,
+          "uuid": 4,
+          "core": 4,
+          "settings": 4,
+          "requests": 3,
+          "jwt": 3,
+          "models": 3,
+          "api": 3,
+          "threading": 3,
+          "random": 2,
+          "docker": 2,
+          "aws_cdk": 2,
+          "services": 2,
+          "get_current_user": 2,
+          "APIRouter": 2,
+          "FastAPI": 2,
+          "logging": 2,
+          "Optional": 2,
+          "uuid4": 2,
+          "supabase": 2,
+          "create_client": 2,
+          "getSampleStyleSheet": 2,
+          "werkzeug": 2,
+          "letter": 2,
+          "TA_LEFT": 2,
+          "cairosvg": 2,
+          "svglib": 2,
+          "renderSVG": 2,
+          "chardet": 2,
+          "wraps": 2,
+          "functools": 2,
+          "secure_filename": 2,
+          "Flask": 2,
+          "renderPM": 2,
+          "SimpleDocTemplate": 2,
+          "RSAAlgorithm": 2,
+          "PIL": 2,
+          "reportlab": 2,
+          "Image": 2,
+          "flask": 2,
+          "Document": 2,
+          "docx": 2,
+          "secrets": 2,
+          "inch": 2,
+          "Fernet": 1,
+          "cryptography": 1,
+          "App": 1,
+          "security_foundation_stack": 1,
+          "SecurityFoundationStack": 1,
+          "Construct": 1,
+          "cast": 1,
+          "constructs": 1,
+          "Decimal": 1,
+          "decimal": 1,
+          "HTTPBearer": 1,
+          "jose": 1,
+          "httpx": 1,
+          "Depends": 1,
+          "get_document": 1,
+          "DocumentResponse": 1,
+          "create_presigned_upload_url": 1,
+          "PresignRequest": 1,
+          "create_document": 1,
+          "BaseSettings": 1,
+          "List": 1,
+          "pydantic_settings": 1,
+          "CORSMiddleware": 1,
+          "setup_cors": 1,
+          "routers": 1,
+          "routes_uploads": 1,
+          "uvicorn": 1,
+          "HealthResponse": 1,
+          "pydantic": 1,
+          "BaseModel": 1,
+          "quote": 1,
+          "csv": 1,
+          "pdfplumber": 1,
+          "sys": 1,
+          "get_document_by_s3_key": 1,
+          "db": 1,
+          "tempfile": 1,
+          "ocr": 1,
+          "signal": 1,
+          "storage": 1,
+          "download_s3_object": 1,
+          "process_document": 1,
+          "FPDF": 1,
+          "fpdf": 1,
+          "botocore": 1,
+          "Converter": 1,
+          "pdf2docx": 1,
+          "stripe": 1,
+          "io": 1,
+          "re": 1,
+          "PyPDF2": 1,
+          "get_db_connection": 1,
+          "xml": 1,
+          "stripe_db": 1,
+          "fitz": 1,
+          "html": 1,
+          "psycopg2": 1,
+          "urlparse": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 2,
+        "packages": {
+          "digest": 1,
+          "aws-sdk-s3": 1,
+          "pry": 1,
+          "securerandom": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "aws-cdk-lib": 2,
+          "constructs": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 5,
+        "packages": {
+          "next": 4,
+          "react": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Judewakim/5-Python-Projects-For-Beginners",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Judewakim/apache-server-on-docker",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Judewakim/AWS-Automating-Security-Controls-and-Data-Protection",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Judewakim/AWS-Environment-with-Detection-and-Automated-Response",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Judewakim/aws-security-performance-pack",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Judewakim/CD-with-Docker-and-Jenkins",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Judewakim/cloud-resume",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Judewakim/codecamp-saa",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java",
+          "Ruby",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "Judewakim/construction.conversions.lol",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Judewakim/CostOptimizationWithAWSLambda",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Judewakim/file-format-converter",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Judewakim/helloworld",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

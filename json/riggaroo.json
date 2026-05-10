@@ -1,0 +1,437 @@
+{
+  "username": "riggaroo",
+  "areas": {
+    "OSS": {
+      "score": 0.8095238095238095,
+      "details": {
+        "issue_resolution_rate": 0.7142857142857143,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.35749913961139423,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9593256324940144,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.632773,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.8405,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 4,
+        "topic_entropy_bits": 2.5216,
+        "closed_prs_total": 33,
+        "bounced_back_prs": 21
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "riggaroo/android-arch-components-date-countdown": 0.08804375,
+        "riggaroo/android-studio-group-templates-mvp": 0.44635,
+        "riggaroo/android-things-distributed-piano": 0.7263
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7099591898270408,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Kotlin": [
+        2204455,
+        199
+      ],
+      "Java": [
+        84509,
+        157
+      ],
+      "FreeMarker": [
+        204,
+        6
+      ],
+      "JavaScript": [
+        40348,
+        1
+      ],
+      "HTML": [
+        0,
+        4
+      ],
+      "CSS": [
+        0,
+        2
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 369,
+    "total_lines": 2329516,
+    "top_5_languages": [
+      {
+        "language": "Kotlin",
+        "lines": 2204455,
+        "commits": 199
+      },
+      {
+        "language": "Java",
+        "lines": 84509,
+        "commits": 157
+      },
+      {
+        "language": "FreeMarker",
+        "lines": 204,
+        "commits": 6
+      },
+      {
+        "language": "HTML",
+        "lines": 0,
+        "commits": 4
+      },
+      {
+        "language": "CSS",
+        "lines": 0,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "riggaroo",
+    "analysis_date": "2026-05-09T19:52:03.026644",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 296,
+    "languages": {
+      "Java": {
+        "files_scanned": 130,
+        "packages": {
+          "za.co": 130,
+          "android.support": 42,
+          "java.util": 36,
+          "static": 29,
+          "android.os": 29,
+          "android.content": 27,
+          "org.junit": 26,
+          "android.util": 22,
+          "com.google": 20,
+          "android.arch": 19,
+          "android.view": 17,
+          "android.app": 15,
+          "java.io": 15,
+          "android.widget": 14,
+          "javax.inject": 11,
+          "org.threeten": 9,
+          "dagger.android": 8,
+          "com.fasterxml": 7,
+          "rx.Observable": 7,
+          "android.test": 6,
+          "retrofit2.Response": 6,
+          "dagger.Module": 5,
+          "retrofit2.Call": 5,
+          "android.graphics": 5,
+          "android.net": 4,
+          "okhttp3.ResponseBody": 4,
+          "retrofit2.Retrofit": 4,
+          "java.lang": 3,
+          "io.reactivex": 3,
+          "android.text": 3,
+          "com.squareup": 3,
+          "retrofit2.mock": 3,
+          "junit.framework": 3,
+          "okhttp3.OkHttpClient": 3,
+          "retrofit2.converter": 3,
+          "retrofit2.http": 3,
+          "dagger.Provides": 2,
+          "com.jakewharton": 2,
+          "timber.log": 2,
+          "okhttp3.MediaType": 2,
+          "retrofit2.Converter": 2,
+          "java.nio": 2,
+          "uk.co": 2,
+          "android.database": 2,
+          "rx.schedulers": 2,
+          "retrofit2.adapter": 2,
+          "org.mockito": 2,
+          "dagger.BindsInstance": 1,
+          "dagger.Component": 1,
+          "dagger.MapKey": 1,
+          "dagger.multibindings": 1,
+          "dagger.Binds": 1,
+          "retrofit2.Callback": 1,
+          "android.databinding": 1,
+          "android.provider": 1,
+          "rx.subscriptions": 1,
+          "rx.Subscription": 1,
+          "rx.android": 1,
+          "rx.Subscriber": 1,
+          "rx.Scheduler": 1,
+          "okhttp3.logging": 1,
+          "rx.observers": 1,
+          "com.bumptech": 1,
+          "android.animation": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "firebase-functions": 2,
+          "firebase-admin": 2
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 163,
+        "packages": {
+          "androidx.compose": 56,
+          "dev.riggaroo": 49,
+          "com.example": 48,
+          "android.os": 35,
+          "za.co": 35,
+          "app.rigs": 31,
+          "org.junit": 23,
+          "androidx.appcompat": 20,
+          "com.google": 19,
+          "android.util": 19,
+          "android.graphics": 18,
+          "kotlinx.android": 15,
+          "android.content": 14,
+          "android.support": 14,
+          "android.widget": 12,
+          "kotlinx.coroutines": 12,
+          "android.view": 11,
+          "kotlin.math": 11,
+          "androidx.core": 10,
+          "com.spotify": 9,
+          "androidx.test": 8,
+          "java.time": 8,
+          "android.app": 8,
+          "android.opengl": 7,
+          "android.arch": 6,
+          "androidx.annotation": 6,
+          "dagger.hilt": 5,
+          "androidx.navigation": 5,
+          "androidx.lifecycle": 4,
+          "androidx.activity": 4,
+          "javax.inject": 4,
+          "com.bumptech": 4,
+          "android.media": 4,
+          "androidx.recyclerview": 4,
+          "coil.compose": 4,
+          "io.reactivex": 3,
+          "android.net": 3,
+          "java.util": 3,
+          "java.io": 3,
+          "androidx.graphics": 3,
+          "androidx.constraintlayout": 3,
+          "org.intellij": 2,
+          "com.firebase": 2,
+          "android.hardware": 2,
+          "android.animation": 2,
+          "android.transition": 2,
+          "androidx.hilt": 1,
+          "dagger.Module": 1,
+          "dagger.Provides": 1,
+          "javax.microedition": 1,
+          "java.nio": 1,
+          "android.text": 1,
+          "androidx.vectordrawable": 1,
+          "androidx.dynamicanimation": 1,
+          "java.math": 1,
+          "android.annotation": 1,
+          "dev.chrisbanes": 1,
+          "androidx.ui": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "riggaroo/adopt-me-compose",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/android-arch-components-date-countdown",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "riggaroo/android-arch-components-lifecycle",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "riggaroo/android-demo-mlkit",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/android-rainbow-opengl",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/android-retrofit-test-examples",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "riggaroo/android-things-button-examples",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "riggaroo/android-things-button-led-control",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "riggaroo/android-things-distributed-piano",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "riggaroo/android-things-electricity-monitor",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "riggaroo/android-things-motion-camera",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/android-things-workshop-camera",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/AndroidDatabaseUpgrades",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "riggaroo/AndroidThings-BlinkingLED",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "riggaroo/AnimationFactory",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/compose-playtime",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/ConstraintLayoutDemo",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/countdown-timer-compose",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/email-app-layouts-android",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/GithubUsersSearchApp",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "riggaroo/kotlin-coroutines-android-example",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/Leviosa",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "riggaroo/MaterialIntroTutorial",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

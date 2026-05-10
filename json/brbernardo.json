@@ -1,0 +1,188 @@
+{
+  "username": "brbernardo",
+  "areas": {
+    "OSS": {
+      "score": 0.6448681597428692,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.9673022396143037
+      }
+    },
+    "Status": {
+      "score": 0.3492503224663597,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9661831760072318,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.233333,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.15215709644184577,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        155,
+        4
+      ],
+      "HCL": [
+        25311,
+        63
+      ],
+      "Shell": [
+        4057,
+        9
+      ],
+      "Smarty": [
+        23,
+        0
+      ],
+      "JavaScript": [
+        19,
+        0
+      ],
+      "Groovy": [
+        538,
+        19
+      ],
+      "Makefile": [
+        887,
+        26
+      ],
+      "Java": [
+        128,
+        3
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 124,
+    "total_lines": 31118,
+    "top_5_languages": [
+      {
+        "language": "HCL",
+        "lines": 25311,
+        "commits": 63
+      },
+      {
+        "language": "Makefile",
+        "lines": 887,
+        "commits": 26
+      },
+      {
+        "language": "Groovy",
+        "lines": 538,
+        "commits": 19
+      },
+      {
+        "language": "Shell",
+        "lines": 4057,
+        "commits": 9
+      },
+      {
+        "language": "Python",
+        "lines": 155,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "brbernardo",
+    "analysis_date": "2026-05-09T11:26:24.886508",
+    "total_repos_analyzed": 18,
+    "total_files_analyzed": 8,
+    "languages": {
+      "Java": {
+        "files_scanned": 1,
+        "packages": {
+          "com.microsoft": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "os": 2,
+          "urllib": 2,
+          "requests": 1,
+          "concurrent": 1,
+          "ThreadPoolExecutor": 1,
+          "tqdm": 1,
+          "BeautifulSoup": 1,
+          "unicodedata": 1,
+          "bs4": 1,
+          "urljoin": 1,
+          "time": 1,
+          "typing": 1,
+          "ssl": 1,
+          "datetime": 1,
+          "Dict": 1,
+          "json": 1,
+          "logging": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "brbernardo/anac_dadosabertos",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "brbernardo/eks-karpenter",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "brbernardo/hello-world-java-maven",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

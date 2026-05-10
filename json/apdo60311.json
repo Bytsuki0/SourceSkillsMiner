@@ -1,0 +1,765 @@
+{
+  "username": "apdo60311",
+  "areas": {
+    "OSS": {
+      "score": 0.7333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.8,
+        "pr_merge_rate": 0.8,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.28318566176297955,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8286246464906232,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 12,
+        "language_transitions": 9,
+        "topic_entropy_bits": 4.4233,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4033037990192626,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Clojure": [
+        13070766,
+        0
+      ],
+      "TypeScript": [
+        9326131,
+        132
+      ],
+      "JavaScript": [
+        3746150,
+        5
+      ],
+      "CSS": [
+        225767,
+        1
+      ],
+      "MDX": [
+        29994,
+        0
+      ],
+      "Shell": [
+        22327,
+        0
+      ],
+      "Handlebars": [
+        17773,
+        0
+      ],
+      "HTML": [
+        30178,
+        10
+      ],
+      "Emacs Lisp": [
+        2937,
+        0
+      ],
+      "Dockerfile": [
+        5770,
+        0
+      ],
+      "Mustache": [
+        1692,
+        0
+      ],
+      "Dart": [
+        51148,
+        26
+      ],
+      "C++": [
+        24569,
+        4
+      ],
+      "CMake": [
+        4906,
+        1
+      ],
+      "Ruby": [
+        400,
+        0
+      ],
+      "Swift": [
+        704,
+        0
+      ],
+      "C": [
+        368,
+        0
+      ],
+      "Kotlin": [
+        7383,
+        3
+      ],
+      "Objective-C": [
+        10,
+        0
+      ],
+      "Python": [
+        1026,
+        4
+      ],
+      "Java": [
+        27219,
+        6
+      ],
+      "Jupyter Notebook": [
+        0,
+        6
+      ],
+      "C#": [
+        0,
+        12
+      ]
+    },
+    "language_count": 23,
+    "total_commits": 210,
+    "total_lines": 26597218,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 9326131,
+        "commits": 132
+      },
+      {
+        "language": "Dart",
+        "lines": 51148,
+        "commits": 26
+      },
+      {
+        "language": "C#",
+        "lines": 0,
+        "commits": 12
+      },
+      {
+        "language": "HTML",
+        "lines": 30178,
+        "commits": 10
+      },
+      {
+        "language": "Java",
+        "lines": 27219,
+        "commits": 6
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "apdo60311",
+    "analysis_date": "2026-05-09T22:31:05.226859",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 549,
+    "languages": {
+      "C++": {
+        "files_scanned": 22,
+        "packages": {
+          "std": 19,
+          "namespace": 19,
+          "<iostream>": 17,
+          "iostream": 17,
+          "<vector>": 12,
+          "vector": 12,
+          "<stack>": 4,
+          "stack": 4,
+          "<queue>": 3,
+          "queue": 3,
+          "<unordered_map>": 3,
+          "unordered_map": 3,
+          "string": 2,
+          "<string>": 2,
+          "my_application.h": 2,
+          "<map>": 1,
+          "map": 1,
+          "algorithm": 1,
+          "<cassert>": 1,
+          "bits/c++config.h": 1,
+          "limits": 1,
+          "cassert": 1,
+          "<algorithm>": 1,
+          "<limits>": 1,
+          "<utility>": 1,
+          "<bits/c++config.h>": 1,
+          "utility": 1,
+          "url_launcher_linux/url_launcher_plugin.h": 1,
+          "<url_launcher_linux/url_launcher_plugin.h>": 1,
+          "generated_plugin_registrant.h": 1,
+          "<gdk/gdkx.h>": 1,
+          "gdk/gdkx.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "flutter/generated_plugin_registrant.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 7,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 5,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "<gtk/gtk.h>": 1,
+          "gtk/gtk.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 93,
+        "packages": {
+          "flutter": 68,
+          "brain_blox": 16,
+          "flutter_bloc": 14,
+          "blog_app": 11,
+          "hermes": 10,
+          "connectify": 9,
+          "newsapp": 9,
+          "dio": 8,
+          "cached_network_image": 6,
+          "dart:io": 5,
+          "cloud_firestore": 4,
+          "hexcolor": 4,
+          "flutter_animate": 3,
+          "dart:async": 3,
+          "shimmer": 3,
+          "path_provider": 3,
+          "bloc": 3,
+          "equatable": 3,
+          "fpdart": 3,
+          "supabase_flutter": 3,
+          "firebase_core": 2,
+          "flutter_staggered_animations": 2,
+          "firebase_auth": 2,
+          "permission_handler": 2,
+          "image_picker": 2,
+          "dart:convert": 2,
+          "dart:math": 1,
+          "visibility_detector": 1,
+          "table_calendar": 1,
+          "flutter_pdfview": 1,
+          "animations": 1,
+          "animated_bottom_navigation_bar": 1,
+          "conditional_builder_null_safety": 1,
+          "connectivity_plus": 1,
+          "intl": 1,
+          "get_it": 1,
+          "hive": 1,
+          "firebase_storage": 1,
+          "dotted_decoration": 1,
+          "shared/components/constants.dart": 1,
+          "webview_flutter": 1,
+          "share_plus": 1,
+          "constants.dart": 1,
+          "dart:typed_data": 1,
+          "cubit_states.dart": 1,
+          "sqflite": 1,
+          "http": 1,
+          "shared_preferences": 1,
+          "provider": 1,
+          "hive_flutter": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 52,
+        "packages": {
+          "java.util": 18,
+          "java.awt": 11,
+          "javax.swing": 11,
+          "Shared.Components": 9,
+          "Shared.Services": 8,
+          "BankingSystem.BankOperations": 7,
+          "Home.StartScreen": 7,
+          "queue.entities": 6,
+          "DBHandler.JsonHandler": 6,
+          "Shared": 6,
+          "tree.heaps": 5,
+          "queue.Exceptions": 5,
+          "sorting_and_searching.enums": 5,
+          "tree.INode": 5,
+          "Shared.Validation": 5,
+          "BankingSystem.UserData": 5,
+          "tree.binary_search_tree": 4,
+          "Login.LoginGui": 4,
+          "Home.HomeGui": 4,
+          "Home.ProfileScreen": 4,
+          "tree.TreeTraverseType": 3,
+          "tree.red_black_tree": 3,
+          "queue": 3,
+          "tree": 3,
+          "java.io": 3,
+          "Constants.Constants": 3,
+          "linked_list": 2,
+          "sorting_and_searching": 2,
+          "tree.avl_tree": 2,
+          "queue.Queue": 2,
+          "tree.ITree": 2,
+          "Register.RegisterGui": 2,
+          "Home": 2,
+          "BankingSystem": 2,
+          "Home.SettingScreen": 2,
+          "Home.TransferScreen": 2,
+          "Login": 2,
+          "Shared.PasswordStrength": 2,
+          "tree.trie": 1,
+          "tree.splay_tree": 1,
+          "com.sun": 1,
+          "javafx.application": 1,
+          "javafx.animation": 1,
+          "javafx.geometry": 1,
+          "javafx.scene": 1,
+          "javafx.stage": 1,
+          "javafx.util": 1,
+          "java.nio": 1,
+          "Constants": 1,
+          "org.json": 1,
+          "DBHandler": 1,
+          "Shared.UserLoginCase": 1,
+          "Register": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 53,
+        "packages": {
+          "express": 11,
+          "mongoose": 11,
+          "react": 6,
+          "typedoc": 5,
+          "jsonwebtoken": 4,
+          "crypto-js": 3,
+          "fs": 2,
+          "path": 2,
+          "testing-library": 2,
+          "react-dom": 2,
+          "graphql-tools": 2,
+          "electron": 2,
+          ":": 1,
+          "types": 1,
+          "mochawesome-merge": 1,
+          "https": 1,
+          "mini-css-extract-plugin": 1,
+          "webpack": 1,
+          "typedoc-plugin-markdown": 1,
+          "__esModule": 1,
+          "crypto": 1,
+          "dotenv": 1,
+          "add": 1,
+          "banner": 1,
+          "cart": 1,
+          "faq": 1,
+          "favorites": 1,
+          "order": 1,
+          "product": 1,
+          "promocode": 1,
+          "user": 1,
+          "react-router-dom": 1,
+          "firebase": 1,
+          "web-vitals": 1,
+          "apollo": 1,
+          "http": 1,
+          "cors": 1,
+          "electron-is-dev": 1,
+          "url": 1,
+          "eslint-plugin-react-refresh": 1,
+          "globals": 1,
+          "eslint": 1,
+          "eslint-plugin-react-hooks": 1,
+          "typescript-eslint": 1,
+          "framer-motion": 1,
+          "CSV": 1,
+          "papaparse": 1,
+          "tailwindcss": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 5,
+        "packages": {
+          "react": 5
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 35,
+        "packages": {
+          "behavioral_patterns.command_pattern": 11,
+          "behavioral_patterns.chain_of_responsibility": 9,
+          "behavioral_patterns.memento_pattern": 6,
+          "io.flutter": 5,
+          "behavioral_patterns.mediator_pattern": 5,
+          "com.example": 3,
+          "com.abdo": 1,
+          "structural_patterns.proxy_pattern": 1,
+          "behavioral_patterns.observer_pattern": 1,
+          "structural_patterns.facade_pattern": 1,
+          "structural_patterns.composite_pattern": 1,
+          "behavioral_patterns.visitor_pattern": 1,
+          "java.awt": 1,
+          "kotlin.properties": 1,
+          "com.hermes_group": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "heapq": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 11,
+        "packages": {
+          "UIKit": 9,
+          "Flutter": 9,
+          "XCTest": 4,
+          "FlutterMacOS": 2,
+          "shared_preferences_foundation": 1,
+          "url_launcher_macos": 1,
+          "path_provider_foundation": 1,
+          "sqflite": 1,
+          "Foundation": 1,
+          "share_plus_macos": 1,
+          "Cocoa": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 124,
+        "packages": {
+          "express": 32,
+          "nestjs": 27,
+          "mongoose": 22,
+          "inversify": 17,
+          "class-transformer": 11,
+          "domain": 10,
+          "class-validator": 8,
+          "type": 7,
+          "jsonwebtoken": 4,
+          "src": 4,
+          "rxjs": 4,
+          "infrastructure": 4,
+          "cors": 3,
+          "path": 3,
+          "express-session": 2,
+          "mysql2": 2,
+          "dotenv": 2,
+          "firebase": 2,
+          "supertest": 2,
+          "typeorm": 2,
+          "glob": 2,
+          "mini-css-extract-plugin": 1,
+          "webpack": 1,
+          "storybook": 1,
+          "metabase": 1,
+          "node-fetch": 1,
+          "body-parser": 1,
+          "multer": 1,
+          "winston": 1,
+          "uuidv4": 1,
+          "bcryptjs": 1,
+          "http": 1,
+          "session-secret": 1,
+          "secret": 1,
+          "react-i18next": 1,
+          "i18next-browser-languagedetector": 1,
+          "i18next": 1,
+          "shiftPreferences": 1,
+          "zustand": 1,
+          "application": 1,
+          "bcrypt": 1,
+          "kafkajs": 1,
+          "swagger-ui-express": 1,
+          "morgan": 1,
+          "helmet": 1,
+          "JWT_SECRET": 1,
+          "zod": 1,
+          "ADMIN_PASSWORD": 1,
+          "express-rate-limit": 1,
+          "swagger-jsdoc": 1,
+          "Vouchers": 1,
+          "United": 1,
+          "RESERVATION": 1,
+          "account_normal": 1,
+          "BILL": 1,
+          "Payment": 1,
+          "Parking": 1,
+          "CONTRACT_FINES": 1,
+          "account_assembly": 1,
+          "Villa": 1,
+          "CHQ": 1,
+          "VAT": 1,
+          "Purchase": 1,
+          "Paid": 1,
+          "Apartment": 1,
+          "AED": 1,
+          "Nothing": 1,
+          "Service": 1,
+          "CONTRACT": 1,
+          "VOUCHER": 1,
+          "CONTRACT_TERMINATION": 1,
+          "Receipt": 1,
+          "Land": 1,
+          "Bill": 1,
+          "account_distributive": 1,
+          "Lawsuit": 1,
+          "account_closing": 1,
+          "Contract": 1,
+          "LAWSUIT": 1,
+          "CONTRACT_FEES": 1,
+          "Received": 1,
+          "Shop": 1,
+          "empty": 1,
+          "occupied": 1,
+          "role": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 45,
+        "packages": {
+          "react": 35,
+          "mui": 12,
+          "lucide-react": 12,
+          "metabase": 6,
+          "react-router-dom": 5,
+          "yup": 3,
+          "formik": 3,
+          "emotion": 2,
+          "notistack": 2,
+          "react-chartjs-2": 2,
+          "next": 2,
+          "recharts": 2,
+          "embedding-sdk": 1,
+          "msw-storybook-addon": 1,
+          "storybook": 1,
+          "mantine": 1,
+          "stylis": 1,
+          "stylis-plugin-rtl": 1,
+          "react-dom": 1,
+          "Attention": 1,
+          "jspdf": 1,
+          "next-themes": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "apdo60311/Analatica-Solutions",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "apdo60311/bainblox",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "apdo60311/blog_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "apdo60311/cloud-nodejs-project",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "apdo60311/connectify",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "apdo60311/connectify-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "apdo60311/connectify-api-nest",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "apdo60311/DataStructres-and-Algorthims",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "apdo60311/datastructures_and_algorithms_in_java",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "apdo60311/design_patterns",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "apdo60311/easy_archive",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "apdo60311/Ecommerce-Api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "apdo60311/educational-dashboard",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "apdo60311/Expense-tracker",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "apdo60311/flutter-news-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "apdo60311/Fruit-management-system",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "apdo60311/Goha-restaurant",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "apdo60311/hermes_application",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "apdo60311/Hometinuum",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "apdo60311/Java-Banking-Application",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "apdo60311/kafka-elastic-search",
+        "files_analyzed": 1,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "apdo60311/Machine-learning_",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "apdo60311/matiestate_v2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

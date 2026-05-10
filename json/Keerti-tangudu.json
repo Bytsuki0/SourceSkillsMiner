@@ -1,0 +1,213 @@
+{
+  "username": "Keerti-tangudu",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.09837119840796937,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6283260283811848,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.625,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.10532576031840613,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        16953,
+        37
+      ],
+      "HCL": [
+        17346,
+        10
+      ],
+      "Groovy": [
+        2292,
+        1
+      ],
+      "JavaScript": [
+        51,
+        4
+      ],
+      "Python": [
+        78175,
+        0
+      ],
+      "HTML": [
+        7516,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        15
+      ],
+      "Jinja": [
+        0,
+        1
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 68,
+    "total_lines": 122333,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 16953,
+        "commits": 37
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 0,
+        "commits": 15
+      },
+      {
+        "language": "HCL",
+        "lines": 17346,
+        "commits": 10
+      },
+      {
+        "language": "JavaScript",
+        "lines": 51,
+        "commits": 4
+      },
+      {
+        "language": "Groovy",
+        "lines": 2292,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Keerti-tangudu",
+    "analysis_date": "2026-05-10T00:20:21.275029",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 27,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "mysql2": 2,
+          "node-fetch": 2,
+          "express": 2,
+          "moment": 2,
+          "os": 2,
+          "body-parser": 2,
+          "cors": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 19,
+        "packages": {
+          "unittest": 6,
+          "os": 5,
+          "List": 4,
+          "typing": 4,
+          "pathlib": 4,
+          "app": 4,
+          "random": 3,
+          "json": 3,
+          "scripts": 3,
+          "Path": 2,
+          "pulumi_aws": 2,
+          "make_response": 2,
+          "CSRFProtect": 2,
+          "Flask": 2,
+          "flask_wtf": 2,
+          "flask": 2,
+          "config": 2,
+          "db": 2,
+          "basedir": 2,
+          "main": 2,
+          "boto3": 1,
+          "choice": 1,
+          "question_utils": 1,
+          "re": 1,
+          "doctest": 1,
+          "optparse": 1,
+          "get_question_list": 1,
+          "get_answered_questions": 1,
+          "tests": 1,
+          "syntax_lint": 1,
+          "TestCase": 1,
+          "sys": 1,
+          "pulumi": 1,
+          "pulumi_awsx": 1,
+          "NotFound": 1,
+          "werkzeug": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "keerti-tangudu/backend-dummy",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "keerti-tangudu/devops-exercises",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "keerti-tangudu/docker1-dummy",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

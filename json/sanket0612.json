@@ -1,0 +1,326 @@
+{
+  "username": "sanket0612",
+  "areas": {
+    "OSS": {
+      "score": 0.832429900773602,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7486448511604029
+      }
+    },
+    "Status": {
+      "score": 0.062207324818551735,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5740802179970582,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.266667,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.12559404511843075,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        216375,
+        2
+      ],
+      "JavaScript": [
+        1185607,
+        4
+      ],
+      "SCSS": [
+        240874,
+        0
+      ],
+      "Java": [
+        1989789,
+        1
+      ],
+      "Shell": [
+        1502,
+        0
+      ],
+      "TSQL": [
+        11162,
+        0
+      ],
+      "CSS": [
+        130194,
+        4
+      ],
+      "TypeScript": [
+        130,
+        0
+      ],
+      "Groovy": [
+        1958,
+        0
+      ],
+      "PLpgSQL": [
+        594,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 11,
+    "total_lines": 3778185,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 1185607,
+        "commits": 4
+      },
+      {
+        "language": "CSS",
+        "lines": 130194,
+        "commits": 4
+      },
+      {
+        "language": "HTML",
+        "lines": 216375,
+        "commits": 2
+      },
+      {
+        "language": "Java",
+        "lines": 1989789,
+        "commits": 1
+      },
+      {
+        "language": "SCSS",
+        "lines": 240874,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sanket0612",
+    "analysis_date": "2026-05-09T01:12:16.533821",
+    "total_repos_analyzed": 21,
+    "total_files_analyzed": 135,
+    "languages": {
+      "Java": {
+        "files_scanned": 34,
+        "packages": {
+          "org.springframework": 21,
+          "com.manishtraders": 19,
+          "java.util": 8,
+          "com.sanket": 8,
+          "lombok.AllArgsConstructor": 7,
+          "com.example": 6,
+          "lombok.NoArgsConstructor": 6,
+          "lombok.Data": 6,
+          "java.time": 4,
+          "com.fasterxml": 4,
+          "lombok.RequiredArgsConstructor": 3,
+          "javax.servlet": 3,
+          "java.io": 3,
+          "lombok.Builder": 3,
+          "javax.persistence": 3,
+          "com.amazonaws": 3,
+          "org.slf4j": 2,
+          "java.nio": 2,
+          "org.apache": 2,
+          "lombok.extern": 2,
+          "java.net": 2,
+          "lombok.SneakyThrows": 2,
+          "static": 2,
+          "org.junit": 2,
+          "javax.sql": 1,
+          "org.aspectj": 1,
+          "java.security": 1,
+          "javax.validation": 1,
+          "lombok": 1,
+          "org.awaitility": 1,
+          "org.testcontainers": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 33,
+        "packages": {
+          "react": 24,
+          "react-router-dom": 8,
+          "react-dom": 6,
+          "react-cookie": 5,
+          "reactstrap": 5,
+          "react-bootstrap": 3,
+          "prop-types": 3,
+          "express": 3,
+          "testing-library": 2,
+          "express-http-to-https": 2,
+          "node-fetch": 2,
+          "firebase-functions": 1,
+          "firebase-admin": 1,
+          "material-ui": 1,
+          "bootstrap": 1,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "t.write(": 1,
+          "jquery": 1,
+          "react-ga": 1,
+          "a": 1,
+          "path": 1,
+          "electron": 1,
+          "url": 1,
+          "fs": 1,
+          "xml2js": 1,
+          "request": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 29,
+        "packages": {
+          "react": 28,
+          "prop-types": 20,
+          "react-redux": 9,
+          "react-router-dom": 8,
+          "ant-design": 6,
+          "redux-persist": 1,
+          "firebase": 1,
+          "react-modal": 1,
+          "react-table": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "of": 9,
+          "angular": 5,
+          "zone.js": 2,
+          "classlist.js": 1,
+          "web-animations-js": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sanket0612/dogstagram",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "sanket0612/gs-batch-processing",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "sanket0612/manish-traders",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sanket0612/my-weather-app",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sanket0612/myresume",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sanket0612/order-pad",
+        "files_analyzed": 9,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "sanket0612/psi-config",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sanket0612/sales-application-react",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "sanket0612/sankubunny.github.io",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sanket0612/spring-boot-localstack",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "sanket0612/tallysync",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sanket0612/test-react",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

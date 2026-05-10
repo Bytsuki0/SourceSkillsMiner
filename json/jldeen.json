@@ -1,0 +1,531 @@
+{
+  "username": "jldeen",
+  "areas": {
+    "OSS": {
+      "score": 0.7634408602150538,
+      "details": {
+        "issue_resolution_rate": 0.6451612903225806,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.30695314583726074,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9027374110635834,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 0.943494,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.774,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 13,
+        "language_transitions": 16,
+        "topic_entropy_bits": 2.3219,
+        "closed_prs_total": 107,
+        "bounced_back_prs": 83
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "jldeen/bad-ass-terminal": 0.293275,
+        "jldeen/bikesharingapp": -0.11233333333333334
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.602777601210463,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Bicep": [
+        84,
+        22
+      ],
+      "Shell": [
+        29590,
+        346
+      ],
+      "JavaScript": [
+        491440,
+        46
+      ],
+      "TypeScript": [
+        180650,
+        0
+      ],
+      "Pug": [
+        7300,
+        0
+      ],
+      "CSS": [
+        1309,
+        0
+      ],
+      "Dockerfile": [
+        1858,
+        5
+      ],
+      "HTML": [
+        14985,
+        18
+      ],
+      "Vim Script": [
+        813,
+        1
+      ],
+      "SCSS": [
+        14854,
+        17
+      ],
+      "Makefile": [
+        504,
+        2
+      ],
+      "C#": [
+        22940,
+        25
+      ],
+      "Go": [
+        9767,
+        9
+      ],
+      "Mustache": [
+        2145,
+        2
+      ],
+      "PHP": [
+        13396,
+        0
+      ],
+      "Smarty": [
+        3128,
+        0
+      ],
+      "Batchfile": [
+        19,
+        0
+      ],
+      "PowerShell": [
+        0,
+        52
+      ],
+      "Rust": [
+        0,
+        24
+      ],
+      "EJS": [
+        0,
+        2
+      ],
+      "HCL": [
+        0,
+        2
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 573,
+    "total_lines": 794782,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 29590,
+        "commits": 346
+      },
+      {
+        "language": "PowerShell",
+        "lines": 0,
+        "commits": 52
+      },
+      {
+        "language": "JavaScript",
+        "lines": 491440,
+        "commits": 46
+      },
+      {
+        "language": "C#",
+        "lines": 22940,
+        "commits": 25
+      },
+      {
+        "language": "Rust",
+        "lines": 0,
+        "commits": 24
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jldeen",
+    "analysis_date": "2026-05-08T23:46:12.526558",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 169,
+    "languages": {
+      "Go": {
+        "files_scanned": 30,
+        "packages": {
+          "fmt": 17,
+          "os": 11,
+          "errors": 6,
+          "strings": 6,
+          "github.com/spf13/cobra": 6,
+          "testing": 6,
+          "log": 5,
+          "bytes": 5,
+          "github.com/stretchr/testify/assert": 5,
+          "io/ioutil": 5,
+          "encoding/json": 4,
+          "path/filepath": 4,
+          "github.com/Azure/draft/pkg/config": 4,
+          "github.com/spf13/viper": 4,
+          "time": 3,
+          "runtime": 3,
+          "net/http": 3,
+          "github.com/manifoldco/promptui": 3,
+          "embed": 3,
+          "github.com/Azure/draft/pkg/osutil": 3,
+          "io/fs": 3,
+          "gopkg.in/mgo.v2/bson": 2,
+          "sync": 2,
+          "github.com/gorilla/mux": 2,
+          "github.com/Azure/draft/pkg/linguist": 2,
+          "github.com/Azure/draft/pkg/languages": 2,
+          "github.com/Azure/draft/pkg/providers": 2,
+          "github.com/Azure/draft/pkg/spinner": 2,
+          "github.com/Azure/draft/pkg/embedutils": 2,
+          "io": 2,
+          "github.com/jbrukh/bayesian": 2,
+          "github.com/Azure/draft/pkg/linguist/tokenizer": 2,
+          "bufio": 2,
+          "maven": 2,
+          "c#": 2,
+          "gopkg.in/mgo.v2": 1,
+          "crypto/tls": 1,
+          "net": 1,
+          "syscall": 1,
+          "os/signal": 1,
+          "flag": 1,
+          "github.com/Azure/draft/pkg/deployments": 1,
+          "github.com/Azure/draft/pkg/filematches": 1,
+          "github.com/Azure/draft/pkg/prompts": 1,
+          "github.com/Azure/draft/pkg/workflows": 1,
+          "github.com/sirupsen/logrus": 1,
+          "github.com/Azure/draft/pkg/logger": 1,
+          "github.com/Azure/draft/pkg/web": 1,
+          "runtime/debug": 1,
+          "github.com/Azure/draft/cmd": 1,
+          "github.com/instrumenta/kubeval/kubeval": 1,
+          "github.com/Azure/draft/pkg/linguist/data": 1,
+          "math": 1,
+          "container/heap": 1,
+          "unicode/utf8": 1,
+          "go": 1,
+          "sort": 1,
+          "strconv": 1,
+          "Python": 1,
+          ":=": 1,
+          "mAvEn": 1,
+          "data/vendor.yml": 1,
+          "Policy": 1,
+          "data/languages.yml": 1,
+          "data/documentation.yml": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 47,
+        "packages": {
+          "__esModule": 12,
+          "actions": 11,
+          "fs": 10,
+          "react": 10,
+          "next": 10,
+          "express": 7,
+          "util": 7,
+          "react-responsive": 4,
+          "isomorphic-fetch": 3,
+          "octokit": 2,
+          "morgan": 2,
+          "aws-sdk": 2,
+          "path": 2,
+          "assert": 2,
+          "semver": 2,
+          "table": 2,
+          "os": 2,
+          "tweetsodium": 1,
+          "http-errors": 1,
+          "cookie-parser": 1,
+          "opentelemetry": 1,
+          "opentelemetry-instrumentation-aws-sdk": 1,
+          "AppRunner-V2N-Demo": 1,
+          "mysql": 1,
+          "restify": 1,
+          "image-download": 1,
+          "sharp": 1,
+          "react-rating": 1,
+          "universal-cookie": 1,
+          "url": 1,
+          "mongodb": 1,
+          "body-parser": 1,
+          "async": 1,
+          "validate.js": 1,
+          "figlet": 1,
+          "http": 1,
+          "link[rel=next]": 1,
+          "postcss-easy-import": 1,
+          "postcss-color-mod-function": 1,
+          "tryghost": 1,
+          "gulp": 1,
+          "gulp-concat": 1,
+          "inquirer": 1,
+          "cssnano": 1,
+          "autoprefixer": 1,
+          "gulp-livereload": 1,
+          "gulp-postcss": 1,
+          "gulp-zip": 1,
+          "beeper": 1,
+          "pump": 1,
+          "gulp-uglify": 1,
+          "js-yaml": 1,
+          "--exit-code": 1,
+          "dockle": 1,
+          "INFO": 1,
+          "typed-rest-client": 1,
+          "username": 1,
+          "token": 1,
+          "image-name": 1,
+          "password": 1,
+          "run-quality-checks": 1,
+          "severity-threshold": 1,
+          "true": 1,
+          "trivy": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "the": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 6,
+        "packages": {
+          "os": 6,
+          "promptflow": 3,
+          "sys": 3,
+          "azure": 2,
+          "pandas": 2,
+          "get_response": 2,
+          "json": 2,
+          "AzureOpenAIModelConfiguration": 2,
+          "chat_request": 2,
+          "SearchClient": 1,
+          "List": 1,
+          "AzureKeyCredential": 1,
+          "typing": 1,
+          "dotenv": 1,
+          "load_dotenv": 1,
+          "ai_search": 1,
+          "argv": 1,
+          "init_azure_openai_client": 1,
+          "CosmosClient": 1,
+          "AzureOpenAIConnection": 1,
+          "pathlib": 1,
+          "retrieve_documentation": 1,
+          "RelevanceEvaluator": 1,
+          "evaluate": 1,
+          "PIL": 1,
+          "Image": 1,
+          "By": 1,
+          "WebDriverWait": 1,
+          "webdriver": 1,
+          "time": 1,
+          "pytest": 1,
+          "selenium": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 1,
+        "packages": {
+          "serde": 1,
+          "rand": 1,
+          "warp": 1,
+          "aws_sdk_dynamodb": 1,
+          "chrono": 1,
+          "std": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 18,
+        "packages": {
+          "actions": 10,
+          "fs": 9,
+          "os": 3,
+          "util": 3,
+          "next": 3,
+          "octokit": 1,
+          "js-yaml": 1,
+          "semver": 1,
+          "dockle": 1,
+          "table": 1,
+          "INFO": 1,
+          "typed-rest-client": 1,
+          "username": 1,
+          "token": 1,
+          "image-name": 1,
+          "password": 1,
+          "run-quality-checks": 1,
+          "severity-threshold": 1,
+          "azure": 1,
+          "ai": 1,
+          "tailwindcss": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 8,
+        "packages": {
+          "next": 5,
+          "clsx": 5,
+          "react": 5,
+          "fs": 2,
+          "heroicons": 2,
+          "marked": 1,
+          "react-remark": 1,
+          "remark-gemoji": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jldeen/actions-set-secret",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jldeen/add-review-url",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "jldeen/apprunner-hotel-app",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jldeen/azurefridayaci",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jldeen/bikesharingapp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jldeen/Bootstrap-Nest-Administration-Tool",
+        "files_analyzed": 15,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "jldeen/build18-node",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jldeen/Casper",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jldeen/container-scan",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "jldeen/contoso-chat",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jldeen/contoso-web",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "jldeen/croc-hunter",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jldeen/draft",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "jldeen/ecs-sam-dice",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Rust"
+        ]
+      }
+    ]
+  }
+}

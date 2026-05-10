@@ -633,7 +633,7 @@ body::before {
     <p class="query-subtitle">
       Enter a GitHub username to retrieve a comprehensive multi-dimensional
       profile assessment including OSS engagement, commit status, sentiment
-      analysis, and Bayesian role classification.
+      analysis, adaptability, and Bayesian role classification.
     </p>
 
     <div class="search-bar">
@@ -817,10 +817,31 @@ function renderProfile(data) {
 
   // §2 Area scores — table rows
   const AREA_META = {
-    OSS:        { label: 'Open-Source Engagement', keys: ['issue_resolution_rate','pr_merge_rate','Commit_frequency'] },
-    Status:     { label: 'Development Status',     keys: ['lines_activity','commits_activity','week_streak'] },
-    Sentiment:  { label: 'Communication Sentiment',keys: [] },
-    Commitment: { label: 'Long-term Commitment',   keys: [] },
+    OSS: {
+      label: 'Open-Source Engagement',
+      keys: ['issue_resolution_rate','pr_merge_rate','commits_activity']
+    },
+    Status: {
+      label: 'Development Status',
+      keys: ['lines_frequency','commits_frenquency','week_streak']
+    },
+    Adaptability: {
+      label: 'Adaptability',
+      keys: [
+        'language_diversity_score',
+        'technology_adoption_score',
+        'domain_flexibility_score',
+        'resilience_score'
+      ]
+    },
+    Sentiment: {
+      label: 'Communication Sentiment',
+      keys: []
+    },
+    Commitment: {
+      label: 'Long-term Commitment',
+      keys: []
+    },
   };
 
   const tbody = $('areas-tbody');
@@ -893,8 +914,8 @@ function renderProfile(data) {
   const critLabels = {
     has_12_month_streak:                '12-month contribution streak maintained',
     has_6_month_streak:                 '6-month contribution streak maintained',
-    has_repo_at_50th_percentile_commits:'Commit count at or above 50th percentile',
-    at_75th_percentile_followers:       'Follower count at or above 75th percentile',
+    has_repo_at_50th_percentile_commits: 'Commit count at or above 50th percentile',
+    at_75th_percentile_followers:        'Follower count at or above 75th percentile',
   };
   const criteriaList = $('criteria-list');
   criteriaList.innerHTML = '';

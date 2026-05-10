@@ -1,0 +1,284 @@
+{
+  "username": "peacendlovu",
+  "areas": {
+    "OSS": {
+      "score": 0.5792385185271773,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.9545454545454546,
+        "commits_activity": 0.4143123232453116
+      }
+    },
+    "Status": {
+      "score": -0.018239456069544246,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.43417927743414525,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.35,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.04219981249152663,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        37555,
+        2
+      ],
+      "TypeScript": [
+        54061,
+        0
+      ],
+      "JavaScript": [
+        5775,
+        6
+      ],
+      "CSS": [
+        526,
+        0
+      ],
+      "Python": [
+        77625,
+        0
+      ],
+      "HCL": [
+        16940,
+        0
+      ],
+      "HTML": [
+        7938,
+        0
+      ],
+      "Shell": [
+        2726,
+        0
+      ],
+      "Groovy": [
+        2313,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 8,
+    "total_lines": 205459,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 5775,
+        "commits": 6
+      },
+      {
+        "language": "Java",
+        "lines": 37555,
+        "commits": 2
+      },
+      {
+        "language": "TypeScript",
+        "lines": 54061,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 526,
+        "commits": 0
+      },
+      {
+        "language": "Python",
+        "lines": 77625,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "peacendlovu",
+    "analysis_date": "2026-05-09T11:11:41.289385",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 71,
+    "languages": {
+      "Java": {
+        "files_scanned": 8,
+        "packages": {
+          "com.example": 8,
+          "android.widget": 5,
+          "android.os": 5,
+          "androidx.appcompat": 5,
+          "android.content": 4,
+          "java.util": 4,
+          "android.view": 4,
+          "android.text": 3,
+          "android.app": 3,
+          "static": 2,
+          "org.junit": 2,
+          "java.io": 2,
+          "androidx.test": 1,
+          "java.net": 1,
+          "okhttp3.OkHttpClient": 1,
+          "okhttp3.Callback": 1,
+          "okhttp3.Request": 1,
+          "okhttp3.Response": 1,
+          "okhttp3.Call": 1,
+          "org.jetbrains": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 17,
+        "packages": {
+          "react": 11,
+          "next": 6,
+          "eslint": 1,
+          "remix-run": 1,
+          "gsap": 1,
+          "path": 1,
+          "gray-matter": 1,
+          "fs": 1,
+          "remark": 1,
+          "remark-html": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 18,
+        "packages": {
+          "unittest": 6,
+          "os": 5,
+          "typing": 4,
+          "List": 4,
+          "pathlib": 4,
+          "app": 4,
+          "random": 3,
+          "scripts": 3,
+          "Path": 2,
+          "pulumi_aws": 2,
+          "CSRFProtect": 2,
+          "Flask": 2,
+          "flask_wtf": 2,
+          "json": 2,
+          "flask": 2,
+          "make_response": 2,
+          "config": 2,
+          "basedir": 2,
+          "db": 2,
+          "main": 2,
+          "doctest": 1,
+          "question_utils": 1,
+          "re": 1,
+          "choice": 1,
+          "optparse": 1,
+          "get_question_list": 1,
+          "get_answered_questions": 1,
+          "syntax_lint": 1,
+          "TestCase": 1,
+          "tests": 1,
+          "sys": 1,
+          "pulumi_awsx": 1,
+          "pulumi": 1,
+          "werkzeug": 1,
+          "NotFound": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 6,
+        "packages": {
+          "~": 3,
+          "remix-run": 3,
+          "path": 1,
+          "crypto": 1,
+          "fs": 1,
+          "tailwindcss": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 12,
+        "packages": {
+          "~": 7,
+          "react": 7,
+          "clsx": 6,
+          "remix-run": 6,
+          "react-dom": 2,
+          "type": 2,
+          "cs": 1,
+          "uiw": 1,
+          "remarkPlugins": 1,
+          "remark-gfm": 1,
+          "react-markdown": 1,
+          "react-syntax-highlighter": 1,
+          "isbot": 1,
+          "node:stream": 1,
+          "highlight.js": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "peacendlovu/Action-Soccer-Manager",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "peacendlovu/AZ-204",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "peacendlovu/devops-exercises",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "peacendlovu/Portfolio-2022",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

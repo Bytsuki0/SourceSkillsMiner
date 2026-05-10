@@ -1,0 +1,530 @@
+{
+  "username": "gollumeo",
+  "areas": {
+    "OSS": {
+      "score": 0.7587641117052881,
+      "details": {
+        "issue_resolution_rate": 0.696969696969697,
+        "pr_merge_rate": 0.9411764705882353,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 10,
+        "language_transitions": 6,
+        "topic_entropy_bits": 3.3219,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.6666666666666666,
+      "details": {
+        "gollumeo/aegis": 0.30605625000000003,
+        "gollumeo/budget": -0.7297,
+        "gollumeo/cogip": 0.4588
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6645733351615705,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "PHP": [
+        771549,
+        817
+      ],
+      "JavaScript": [
+        65814,
+        152
+      ],
+      "HTML": [
+        677,
+        113
+      ],
+      "CSS": [
+        68355,
+        200
+      ],
+      "C#": [
+        128,
+        428
+      ],
+      "Blade": [
+        149331,
+        81
+      ],
+      "Vue": [
+        1173,
+        130
+      ],
+      "SCSS": [
+        47781,
+        87
+      ],
+      "Shell": [
+        121,
+        1
+      ],
+      "Rust": [
+        5452,
+        59
+      ],
+      "Dockerfile": [
+        0,
+        2
+      ],
+      "TypeScript": [
+        0,
+        75
+      ],
+      "Hack": [
+        0,
+        3
+      ],
+      "Java": [
+        0,
+        8
+      ],
+      "Svelte": [
+        0,
+        2
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 2158,
+    "total_lines": 1110381,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 771549,
+        "commits": 817
+      },
+      {
+        "language": "C#",
+        "lines": 128,
+        "commits": 428
+      },
+      {
+        "language": "CSS",
+        "lines": 68355,
+        "commits": 200
+      },
+      {
+        "language": "JavaScript",
+        "lines": 65814,
+        "commits": 152
+      },
+      {
+        "language": "Vue",
+        "lines": 1173,
+        "commits": 130
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "gollumeo",
+    "analysis_date": "2026-05-09T01:56:13.875514",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 337,
+    "languages": {
+      "C#": {
+        "files_scanned": 27,
+        "packages": {
+          "ExecutorBoard.Domain.Estates.ValueObjects": 10,
+          "Rituals.Contracts": 5,
+          "ExecutorBoard.Domain.Auth.ValueObjects": 5,
+          "Microsoft.Extensions.Configuration": 4,
+          "Microsoft.Extensions.DependencyInjection": 4,
+          "ExecutorBoard.Application.Auth.Commands": 3,
+          "ExecutorBoard.Application.Auth.Ports": 3,
+          "ExecutorBoard.Application.Estates.Ports": 3,
+          "ExecutorBoard.Application.Estates.Commands": 3,
+          "Rituals.Runeforge": 2,
+          "Microsoft.EntityFrameworkCore": 2,
+          "ExecutorBoard.Domain.Auth.Entities": 2,
+          "ExecutorBoard.Api": 1,
+          "ExecutorBoard.Api.System.Bootstrap": 1,
+          "var": 1,
+          "ExecutorBoard.Application.Estates.Errors": 1,
+          "ExecutorBoard.Domain.Estates.Entities": 1,
+          "FlipMania.Api": 1,
+          "Microsoft.OpenApi.Models": 1,
+          "Rituals.Runes": 1,
+          "System.Linq": 1,
+          "System.Threading.Tasks": 1,
+          "System.Collections.Generic": 1,
+          "Microsoft.AspNetCore.Builder": 1,
+          "Rituals.Extensions": 1,
+          "Microsoft.Extensions.Hosting": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 10,
+        "packages": {
+          "tailwindcss": 3,
+          "axios": 3,
+          "jsonfile": 1,
+          "express": 1,
+          "body-parser": 1,
+          "vue": 1,
+          "pinia": 1,
+          "vue-toastification": 1,
+          "vue-router": 1,
+          "form-data": 1,
+          "fs": 1,
+          "dotenv": 1,
+          "react": 1,
+          "react-router-dom": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "react": 2
+        }
+      },
+      "PHP": {
+        "files_scanned": 165,
+        "packages": {
+          "Illuminate\\Http\\Request": 41,
+          "Illuminate\\Http\\RedirectResponse": 21,
+          "App\\Http\\Controllers\\Controller": 18,
+          "App\\Providers\\RouteServiceProvider": 15,
+          "Inertia\\Response": 15,
+          "Inertia\\Inertia": 15,
+          "Illuminate\\Support\\Str": 14,
+          "Illuminate\\Support\\Facades\\Auth": 13,
+          "Gollumeo\\Aegis\\Support\\AegisConfig": 9,
+          "Illuminate\\Support\\ServiceProvider": 8,
+          "Gollumeo\\Aegis\\Application\\Contracts\\Insurance": 8,
+          "Illuminate\\Support\\Facades\\Hash": 8,
+          "Illuminate\\Support\\Facades\\Schema": 8,
+          "Illuminate\\Validation\\ValidationException": 8,
+          "Illuminate\\Database\\Schema\\Blueprint": 7,
+          "Illuminate\\Database\\Migrations\\Migration": 7,
+          "App\\Models\\User": 7,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 5,
+          "Illuminate\\Support\\Facades\\Route": 5,
+          "PDO": 5,
+          "Exception": 4,
+          "Symfony\\Component\\HttpFoundation\\Response": 4,
+          "Closure": 4,
+          "Throwable": 4,
+          "Illuminate\\Foundation\\Auth\\User": 4,
+          "Illuminate\\Notifications\\Notifiable": 4,
+          "Illuminate\\Validation\\Rules": 4,
+          "Illuminate\\Support\\Facades\\Password": 4,
+          "Illuminate\\Foundation\\Http\\FormRequest": 4,
+          "App\\Core\\Database": 4,
+          "Gollumeo\\Aegis\\Domain\\Policies\\EnsureIdempotencyCharset": 3,
+          "Gollumeo\\Aegis\\Domain\\Policies\\EnsureIdempotencyHeaders": 3,
+          "Gollumeo\\Aegis\\Domain\\Policies\\EnsureIdempotencyKeyPrefix": 3,
+          "Gollumeo\\Aegis\\Domain\\Policies\\EnsureIdempotencyKeyLength": 3,
+          "Illuminate\\Foundation\\Application": 3,
+          "Gollumeo\\Aegis\\Domain\\Exceptions\\InvalidIdempotencyCharset": 3,
+          "Gollumeo\\Aegis\\Domain\\Exceptions\\MissingIdempotencyHeader": 3,
+          "Gollumeo\\Aegis\\Domain\\Exceptions\\InvalidIdempotencyKeyLength": 3,
+          "Gollumeo\\Aegis\\Domain\\Exceptions\\InvalidIdempotencyKeyPrefix": 3,
+          "Gollumeo\\Aegis\\Tests\\TestCase": 3,
+          "HasFactory": 3,
+          "Monolog\\Handler\\NullHandler": 3,
+          "Monolog\\Handler\\SyslogUdpHandler": 3,
+          "Monolog\\Handler\\StreamHandler": 3,
+          "Illuminate\\Console\\Scheduling\\Schedule": 3,
+          "Illuminate\\Foundation\\Console\\Kernel": 3,
+          "routes/console.php": 3,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 3,
+          "Illuminate\\Routing\\Controller": 3,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 3,
+          "AuthorizesRequests": 3,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 3,
+          "Illuminate\\Foundation\\Http\\Kernel": 3,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 3,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 3,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 3,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 3,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 3,
+          "Illuminate\\Http\\Middleware\\TrustProxies": 3,
+          "Illuminate\\Routing\\Middleware\\ValidateSignature": 3,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 3,
+          "Illuminate\\Auth\\Events\\Registered": 3,
+          "Illuminate\\Support\\Facades\\RateLimiter": 3,
+          "App\\Models\\Companies": 3,
+          "App\\Models\\Contacts": 3,
+          "App\\Models\\Invoices": 3,
+          "Dotenv\\Dotenv": 3,
+          "Dispatching\\ValueObject\\RouteAction": 3,
+          "Gollumeo\\Aegis\\Domain\\Policies\\Composites\\ComposeInsurances": 2,
+          "Gollumeo\\Aegis\\Support\\ConfigKeys": 2,
+          "Gollumeo\\BlizzardApiWrapper\\Traits\\HasRank": 2,
+          "HasRank": 2,
+          "Illuminate\\Foundation\\Configuration\\Middleware": 2,
+          "Illuminate\\Foundation\\Configuration\\Exceptions": 2,
+          "Monolog\\Processor\\PsrLogMessageProcessor": 2,
+          "Illuminate\\Database\\Eloquent\\Factories\\Factory": 2,
+          "Illuminate\\Database\\Seeder": 2,
+          "$maintenance": 2,
+          "Illuminate\\Foundation\\Inspiring": 2,
+          "Illuminate\\Support\\Facades\\Artisan": 2,
+          "Laravel\\Sanctum\\HasApiTokens": 2,
+          "HasApiTokens": 2,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 2,
+          "routes/channels.php": 2,
+          "Illuminate\\Support\\Facades\\Broadcast": 2,
+          "App\\Models\\Chirp": 2,
+          "App\\Http\\Requests\\Auth\\LoginRequest": 2,
+          "Illuminate\\Auth\\Events\\PasswordReset": 2,
+          "Illuminate\\Validation\\Rules\\Password": 2,
+          "Illuminate\\Auth\\Events\\Verified": 2,
+          "Illuminate\\Foundation\\Auth\\EmailVerificationRequest": 2,
+          "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 2,
+          "Illuminate\\Support\\Facades\\Redirect": 2,
+          "App\\Http\\Requests\\ProfileUpdateRequest": 2,
+          "Tightenco\\Ziggy\\Ziggy": 2,
+          "Inertia\\Middleware": 2,
+          "Illuminate\\Auth\\Events\\Lockout": 2,
+          "Illuminate\\Validation\\Rule": 2,
+          "App\\Events\\ChirpCreated": 2,
+          "App\\Repositories\\CompaniesRepository": 2,
+          "App\\Repositories\\ContactsRepository": 2,
+          "App\\Core\\Controller": 2,
+          "App\\Repositories\\InvoicesRepository": 2,
+          "App\\Models\\Users": 2,
+          "App\\Repositories\\UsersRepository": 2,
+          "App\\Controllers\\InvoicesController": 2,
+          "PHPUnit\\Framework\\TestCase": 2,
+          "Tests\\Fixtures\\DummyController": 2,
+          "Gollumeo\\Aegis\\Infrastructure\\Http\\Middleware\\Idempotency": 1,
+          "function": 1,
+          "Response": 1,
+          "Illuminate\\Support\\Facades\\Response": 1,
+          "Illuminate\\Http\\JsonResponse": 1,
+          "Illuminate\\Foundation\\Testing\\RefreshDatabase": 1,
+          "Gollumeo\\Aegis\\Tests\\Fakes\\Controllers\\DummyController": 1,
+          "Gollumeo\\Aegis\\AegisServiceProvider": 1,
+          "Orchestra\\Testbench\\TestCase": 1,
+          "articles.php": 1,
+          "Gollumeo\\BlizzardApiWrapper\\Character\\ValueObjects\\CharacterClass": 1,
+          "Gollumeo\\BlizzardApiWrapper\\Character\\ValueObjects\\CharacterRace": 1,
+          "Gollumeo\\BlizzardApiWrapper\\Character\\ValueObjects\\CharacterName": 1,
+          "Gollumeo\\BlizzardApiWrapper\\Character\\ValueObjects\\CharacterMythicPlusRating": 1,
+          "Gollumeo\\BlizzardApiWrapper\\Misc\\ValueObjects\\Rank": 1,
+          "Gollumeo\\BlizzardApiWrapper\\Character\\ValueObjects\\CharacterItemLevel": 1,
+          "Gollumeo\\BlizzardApiWrapper\\Character\\ValueObjects\\CharacterLevel": 1,
+          "Gollumeo\\BlizzardApiWrapper\\Character\\ValueObjects\\CharacterRealm": 1,
+          "Gollumeo\\BlizzardApiWrapper\\Character\\ValueObjects\\CharacterId": 1,
+          "Gollumeo\\BlizzardApiWrapper\\Misc\\ValueObjects\\Rankings": 1,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 1,
+          "Illuminate\\Support\\Facades\\Event": 1,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
+          "Illuminate\\Cache\\RateLimiting\\Limit": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Facade": 1,
+          "Illuminate\\Broadcasting\\Channel": 1,
+          "Dispatchable": 1,
+          "Illuminate\\Contracts\\Broadcasting\\ShouldBroadcast": 1,
+          "Illuminate\\Queue\\SerializesModels": 1,
+          "Illuminate\\Foundation\\Events\\Dispatchable": 1,
+          "Illuminate\\Broadcasting\\InteractsWithSockets": 1,
+          "Illuminate\\Broadcasting\\PresenceChannel": 1,
+          "Illuminate\\Broadcasting\\PrivateChannel": 1,
+          "Illuminate\\Queue\\InteractsWithQueue": 1,
+          "App\\Notifications\\NewChirp": 1,
+          "Illuminate\\Contracts\\Queue\\ShouldQueue": 1,
+          "Illuminate\\Database\\Eloquent\\Model": 1,
+          "Illuminate\\Database\\Eloquent\\Relations\\BelongsTo": 1,
+          "App\\Services\\CompaniesService": 1,
+          "App\\Services\\ContactsService": 1,
+          "App\\Services\\InvoicesService": 1,
+          "App\\Services\\UsersService": 1,
+          "PDOException": 1,
+          "App\\Controllers\\UsersController": 1,
+          "App\\Controllers\\CompaniesController": 1,
+          "App\\Controllers\\ContactsController": 1,
+          "Bramus\\Router\\Router": 1,
+          "verification_login.php": 1,
+          "verification_register.php": 1,
+          "Dispatching\\Contract\\DispatchActionContract": 1,
+          "InvalidArgumentException": 1,
+          "Dispatching\\DispatchAction": 1,
+          "Router\\Router": 1,
+          "Laravel\\Sanctum\\Sanctum": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 12,
+        "packages": {
+          "crate": 9,
+          "std": 5,
+          "continuum": 5,
+          "super": 3,
+          "crossterm": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "gollumeo/aegis",
+        "files_analyzed": 24,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gollumeo/az_store",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gollumeo/baby-node-crud",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gollumeo/blizzard-laravel-wrapper",
+        "files_analyzed": 27,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gollumeo/budget",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gollumeo/carolo_security",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gollumeo/ChatPDF",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gollumeo/chirper",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gollumeo/cogip",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gollumeo/Continuum",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "gollumeo/deep-understanding",
+        "files_analyzed": 11,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gollumeo/executorboard",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "gollumeo/fintrack-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gollumeo/fintrack-front",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gollumeo/FlipMania",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "gollumeo/gollumejob",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gollumeo/Gollumeo.Acherus",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "username": "joaopedrofb0101",
+  "areas": {
+    "OSS": {
+      "score": 0.015202629342376595,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.5228039440135649
+      }
+    },
+    "Status": {
+      "score": 0.05564989847349411,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5450133092487028,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.675,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.12082949443682586,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CSS": [
+        140809,
+        4
+      ],
+      "TypeScript": [
+        2090,
+        0
+      ],
+      "JavaScript": [
+        8146,
+        0
+      ],
+      "HTML": [
+        115572,
+        3
+      ],
+      "Jupyter Notebook": [
+        2257254,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 7,
+    "total_lines": 2523871,
+    "top_5_languages": [
+      {
+        "language": "CSS",
+        "lines": 140809,
+        "commits": 4
+      },
+      {
+        "language": "HTML",
+        "lines": 115572,
+        "commits": 3
+      },
+      {
+        "language": "TypeScript",
+        "lines": 2090,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 8146,
+        "commits": 0
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 2257254,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "joaopedrofb0101",
+    "analysis_date": "2026-05-09T16:05:35.076704",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 36,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "vitejs": 1,
+          "vite": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 9,
+        "packages": {
+          "react": 9,
+          "react-dom": 2
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 3,
+        "packages": {
+          "vitejs": 3,
+          "vite": 3
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 7,
+        "packages": {
+          "react": 7,
+          "react-dom": 3
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "joaopedrofb0101/153R",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

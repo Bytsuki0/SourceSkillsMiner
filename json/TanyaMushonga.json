@@ -1,0 +1,388 @@
+{
+  "username": "TanyaMushonga",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4358974358974359,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Adaptability": {
+      "score": 0.875,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 5,
+        "topic_entropy_bits": 6.4713,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "TanyaMushonga/tanyas-blog": 0.29104,
+        "TanyaMushonga/tanyas-blog-admin": 0.21922800000000003
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5788461538461539,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HCL": [
+        113759,
+        69
+      ],
+      "HTML": [
+        192588,
+        150
+      ],
+      "Shell": [
+        18607,
+        24
+      ],
+      "Makefile": [
+        10439,
+        4
+      ],
+      "TypeScript": [
+        585249,
+        1495
+      ],
+      "CSS": [
+        21937,
+        53
+      ],
+      "JavaScript": [
+        1661,
+        2
+      ],
+      "Python": [
+        472968,
+        315
+      ],
+      "C++": [
+        11929,
+        9
+      ],
+      "Dockerfile": [
+        1140,
+        0
+      ],
+      "PowerShell": [
+        0,
+        7
+      ],
+      "Vim Script": [
+        0,
+        0
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 2128,
+    "total_lines": 1430277,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 585249,
+        "commits": 1495
+      },
+      {
+        "language": "Python",
+        "lines": 472968,
+        "commits": 315
+      },
+      {
+        "language": "HTML",
+        "lines": 192588,
+        "commits": 150
+      },
+      {
+        "language": "HCL",
+        "lines": 113759,
+        "commits": 69
+      },
+      {
+        "language": "CSS",
+        "lines": 21937,
+        "commits": 53
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "TanyaMushonga",
+    "analysis_date": "2026-05-09T17:04:57.444235",
+    "total_repos_analyzed": 16,
+    "total_files_analyzed": 205,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "eslint": 1,
+          "eslint-config-expo": 1,
+          "nativewind": 1,
+          "expo": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 29,
+        "packages": {
+          "django": 21,
+          "apps": 10,
+          "os": 8,
+          "logging": 7,
+          "rest_framework": 6,
+          "cv2": 5,
+          "timedelta": 4,
+          "datetime": 4,
+          "Violation": 4,
+          "Detection": 4,
+          "numpy": 4,
+          "settings": 3,
+          "path": 3,
+          "admin": 3,
+          "migrations": 3,
+          "models": 3,
+          "timezone": 3,
+          "computer_vision": 3,
+          "celery": 2,
+          "uuid": 2,
+          "TimestampedModel": 2,
+          "Count": 2,
+          "Patrol": 2,
+          "Drone": 2,
+          "DefaultRouter": 2,
+          "action": 2,
+          "serializers": 2,
+          "Response": 2,
+          "viewsets": 2,
+          "AppConfig": 2,
+          "VehicleRegistration": 2,
+          "send_sms_to_citizen": 2,
+          "random": 2,
+          "sys": 2,
+          "time": 2,
+          "VehicleDetector": 2,
+          "VideoProcessor": 2,
+          "ultralytics": 2,
+          "YOLO": 2,
+          "base64": 2,
+          "routing": 1,
+          "ProtocolTypeRouter": 1,
+          "websocket_urlpatterns": 1,
+          "get_asgi_application": 1,
+          "channels": 1,
+          "Celery": 1,
+          "crontab": 1,
+          "decouple": 1,
+          "Path": 1,
+          "pathlib": 1,
+          "config": 1,
+          "get_schema_view": 1,
+          "drf_yasg": 1,
+          "static": 1,
+          "permissions": 1,
+          "openapi": 1,
+          "JsonResponse": 1,
+          "get_wsgi_application": 1,
+          "get_user_model": 1,
+          "Index": 1,
+          "Point": 1,
+          "ExtractHour": 1,
+          "shared_task": 1,
+          "Avg": 1,
+          "PatrolSerializer": 1,
+          "PageNumberPagination": 1,
+          "DroneSerializer": 1,
+          "DetectionSerializer": 1,
+          "ViolationSerializer": 1,
+          "receiver": 1,
+          "post_save": 1,
+          "django_filters": 1,
+          "SearchFilter": 1,
+          "Sum": 1,
+          "DjangoFilterBackend": 1,
+          "StandardResultsSetPagination": 1,
+          "authentication": 1,
+          "get_kafka_producer": 1,
+          "easyocr": 1,
+          "re": 1,
+          "torch": 1,
+          "DetectionModel": 1,
+          "LicensePlateReader": 1,
+          "SpeedEstimator": 1,
+          "argparse": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 39,
+        "packages": {
+          "next": 16,
+          "express": 12,
+          "dotenv": 3,
+          "axios": 3,
+          "node-rs": 3,
+          "vercel": 3,
+          "cors": 2,
+          "react-icons": 2,
+          "zod": 2,
+          "node-cron": 1,
+          "tanyamushonga": 1,
+          "prisma": 1,
+          "graphql-request": 1,
+          "better-sqlite3": 1,
+          "fs": 1,
+          "path": 1,
+          "kafkajs": 1,
+          "http": 1,
+          "ws": 1,
+          "stream": 1,
+          "events": 1,
+          "child_process": 1,
+          "lucide-react": 1,
+          "force-no-store": 1,
+          "force-dynamic": 1,
+          "uuid": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 97,
+        "packages": {
+          "react": 71,
+          "next": 43,
+          "lucide-react": 21,
+          "framer-motion": 18,
+          "force-dynamic": 12,
+          "sonner": 12,
+          "react-native": 10,
+          "react-native-safe-area-context": 9,
+          "react-hook-form": 8,
+          "hookform": 8,
+          "expo-router": 8,
+          "next-auth": 6,
+          "zod": 6,
+          "react-hot-toast": 5,
+          "expo": 4,
+          "tanstack": 3,
+          "react-icons": 3,
+          "vercel": 2,
+          "axios": 2,
+          "components": 1,
+          "expo-status-bar": 1,
+          "expo-local-authentication": 1,
+          "react-native-reanimated": 1,
+          "react-navigation": 1,
+          "react-native-maps": 1,
+          "to:": 1,
+          "heroicons": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "TanyaMushonga/devmetrics-server",
+        "files_analyzed": 23,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "TanyaMushonga/skymarshal-admin-dashboard",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "TanyaMushonga/skymarshal-api",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "TanyaMushonga/skymarshal-camera-api",
+        "files_analyzed": 4,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "TanyaMushonga/SkyMarshal-cv-model",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "TanyaMushonga/skymarshal-mobile",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "TanyaMushonga/tanyaradzwatmushonga-portifolio",
+        "files_analyzed": 28,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "TanyaMushonga/tanyas-blog",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "TanyaMushonga/tanyas-blog-admin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

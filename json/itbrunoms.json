@@ -1,0 +1,304 @@
+{
+  "username": "itbrunoms",
+  "areas": {
+    "OSS": {
+      "score": 0.4728121025033427,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.709218153755014
+      }
+    },
+    "Status": {
+      "score": 0.13559863204571476,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6649364096070336,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.30625,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.1829321469098115,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CMake": [
+        727,
+        0
+      ],
+      "C++": [
+        337,
+        0
+      ],
+      "Dart": [
+        182,
+        0
+      ],
+      "C": [
+        57,
+        0
+      ],
+      "JavaScript": [
+        1994,
+        0
+      ],
+      "HTML": [
+        21183,
+        0
+      ],
+      "CSS": [
+        41907,
+        0
+      ],
+      "Shell": [
+        7436,
+        0
+      ],
+      "Makefile": [
+        2583,
+        0
+      ],
+      "Batchfile": [
+        2472,
+        0
+      ],
+      "Dockerfile": [
+        76,
+        2
+      ],
+      "PHP": [
+        24248,
+        2
+      ],
+      "Blade": [
+        4871,
+        0
+      ],
+      "Python": [
+        102,
+        3
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 7,
+    "total_lines": 108175,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 102,
+        "commits": 3
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 76,
+        "commits": 2
+      },
+      {
+        "language": "PHP",
+        "lines": 24248,
+        "commits": 2
+      },
+      {
+        "language": "CMake",
+        "lines": 727,
+        "commits": 0
+      },
+      {
+        "language": "C++",
+        "lines": 337,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "itbrunoms",
+    "analysis_date": "2026-05-08T22:06:43.210786",
+    "total_repos_analyzed": 10,
+    "total_files_analyzed": 69,
+    "languages": {
+      "C++": {
+        "files_scanned": 3,
+        "packages": {
+          "my_application.h": 2,
+          "generated_plugin_registrant.h": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "gdk/gdkx.h": 1,
+          "<gdk/gdkx.h>": 1,
+          "flutter/generated_plugin_registrant.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "flutter_linux/flutter_linux.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "<gtk/gtk.h>": 1,
+          "gtk/gtk.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 2,
+        "packages": {
+          "flutter": 2,
+          "builder_when": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 49,
+        "packages": {
+          "Illuminate\\Contracts\\Validation\\Rule": 20,
+          "Illuminate\\Support\\ServiceProvider": 4,
+          "Illuminate\\Http\\Request": 4,
+          "Illuminate\\Support\\Facades\\Validator": 2,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 2,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 2,
+          "Illuminate\\Support\\Str": 2,
+          "Illuminate\\Support\\Facades\\Session": 1,
+          "Itbrunoms\\LaravelSimpleCaptcha\\SimpleCaptcha": 1,
+          "LaravelLegends\\PtBrValidatorValidator": 1,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "routes/console.php": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "Throwable": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
+          "Illuminate\\Routing\\Controller": 1,
+          "AuthorizesRequests": 1,
+          "Illuminate\\Foundation\\Http\\Kernel": 1,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 1,
+          "Illuminate\\Support\\Facades\\Auth": 1,
+          "Closure": 1,
+          "App\\Providers\\RouteServiceProvider": 1,
+          "Symfony\\Component\\HttpFoundation\\Response": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 1,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 1,
+          "Illuminate\\Http\\Middleware\\TrustProxies": 1,
+          "Illuminate\\Routing\\Middleware\\ValidateSignature": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "HasApiTokens": 1,
+          "Laravel\\Sanctum\\HasApiTokens": 1,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 1,
+          "routes/channels.php": 1,
+          "Illuminate\\Support\\Facades\\Broadcast": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Event": 1,
+          "Illuminate\\Auth\\Events\\Registered": 1,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 1,
+          "Illuminate\\Routing\\Middleware\\SubstituteBindings": 1,
+          "Illuminate\\Session\\Middleware\\StartSession": 1,
+          "Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse": 1,
+          "Filament\\Panel": 1,
+          "Filament\\Support\\Colors\\Color": 1,
+          "Filament\\Pages": 1,
+          "Filament\\Widgets": 1,
+          "Filament\\PanelProvider": 1,
+          "Filament\\Http\\Middleware\\DispatchServingFilamentEvent": 1,
+          "Filament\\Http\\Middleware\\Authenticate": 1,
+          "Illuminate\\View\\Middleware\\ShareErrorsFromSession": 1,
+          "Illuminate\\Session\\Middleware\\AuthenticateSession": 1,
+          "Filament\\Http\\Middleware\\DisableBladeIconComponents": 1,
+          "Illuminate\\Support\\Facades\\RateLimiter": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Route": 1,
+          "Illuminate\\Cache\\RateLimiting\\Limit": 1,
+          "Illuminate\\Support\\Facades\\Facade": 1,
+          "Monolog\\Processor\\PsrLogMessageProcessor": 1,
+          "Monolog\\Handler\\SyslogUdpHandler": 1,
+          "Monolog\\Handler\\NullHandler": 1,
+          "Monolog\\Handler\\StreamHandler": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "subprocess": 1,
+          "os": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "itbrunoms/builder_when",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart"
+        ]
+      },
+      {
+        "repository": "itbrunoms/laravel-simple-captcha",
+        "files_analyzed": 3,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "itbrunoms/pt-br-validator",
+        "files_analyzed": 24,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "itbrunoms/qgrs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "itbrunoms/webhook-update-repo",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

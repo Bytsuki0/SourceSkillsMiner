@@ -1,0 +1,655 @@
+{
+  "username": "0xERR0R",
+  "areas": {
+    "OSS": {
+      "score": 0.7588652482269505,
+      "details": {
+        "issue_resolution_rate": 0.6382978723404256,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5128205128205128,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.2692307692307692
+      }
+    },
+    "Adaptability": {
+      "score": 0.183333,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.4,
+        "distinct_primary_languages": 3,
+        "language_transitions": 2,
+        "topic_entropy_bits": 4.5934,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.7777777777777778,
+      "details": {
+        "0xERR0R/blocky": 0.22751833333333332,
+        "0xERR0R/blocky-grafana-prometheus-example": 0.13396666666666665,
+        "0xERR0R/crony": -0.002690909090909091,
+        "0xERR0R/dex": 0.18147027027027027,
+        "0xERR0R/dns-mokka": -0.31398000000000004,
+        "0xERR0R/dns-proxy": 0.003916666666666666,
+        "0xERR0R/fritzbox-rdns": 0.18863571428571427,
+        "0xERR0R/fritzbox-upnp-exporter": 0.007463333333333335,
+        "0xERR0R/jmstool": 0.4836
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5965593077650483,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        10066,
+        12
+      ],
+      "Dockerfile": [
+        3834,
+        11
+      ],
+      "Go": [
+        519245,
+        1043
+      ],
+      "Makefile": [
+        5758,
+        15
+      ],
+      "HTML": [
+        2050,
+        36
+      ],
+      "Java": [
+        8509,
+        94
+      ],
+      "TypeScript": [
+        3706,
+        112
+      ],
+      "JavaScript": [
+        374,
+        7
+      ],
+      "CSS": [
+        188,
+        1
+      ],
+      "SCSS": [
+        0,
+        18
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 1349,
+    "total_lines": 553730,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 519245,
+        "commits": 1043
+      },
+      {
+        "language": "TypeScript",
+        "lines": 3706,
+        "commits": 112
+      },
+      {
+        "language": "Java",
+        "lines": 8509,
+        "commits": 94
+      },
+      {
+        "language": "HTML",
+        "lines": 2050,
+        "commits": 36
+      },
+      {
+        "language": "SCSS",
+        "lines": 0,
+        "commits": 18
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "0xERR0R",
+    "analysis_date": "2026-05-09T02:23:14.878676",
+    "total_repos_analyzed": 21,
+    "total_files_analyzed": 198,
+    "languages": {
+      "Go": {
+        "files_scanned": 123,
+        "packages": {
+          "fmt": 53,
+          "time": 46,
+          "strings": 37,
+          "testing": 33,
+          "net/http": 32,
+          "context": 29,
+          "os": 26,
+          "log": 22,
+          "io": 20,
+          "strconv": 16,
+          "encoding/json": 15,
+          "errors": 14,
+          "github.com/0xERR0R/blocky/log": 12,
+          "net": 12,
+          "github.com/miekg/dns": 12,
+          "github.com/stretchr/testify/require": 12,
+          "bytes": 11,
+          "github.com/prometheus/client_golang/prometheus": 10,
+          "github.com/stretchr/testify/assert": 10,
+          "github.com/0xERR0R/meterNG/internal/model": 9,
+          "github.com/testcontainers/testcontainers-go": 8,
+          "os/signal": 8,
+          "io/ioutil": 8,
+          "path/filepath": 8,
+          "regexp": 7,
+          "github.com/testcontainers/testcontainers-go/wait": 7,
+          "syscall": 7,
+          "github.com/0xERR0R/meterNG/internal/config": 7,
+          "sort": 6,
+          "crypto/tls": 6,
+          "github.com/0xERR0R/meterNG/internal/storage": 6,
+          "github.com/spf13/cobra": 5,
+          "github.com/prometheus/client_golang/prometheus/promhttp": 5,
+          "github.com/shopspring/decimal": 5,
+          "github.com/sirupsen/logrus": 4,
+          "sync": 4,
+          "runtime": 4,
+          "github.com/mattn/anko/env": 4,
+          "github.com/rs/zerolog/log": 4,
+          "github.com/0xERR0R/meterNG/internal/mail": 4,
+          "net/url": 3,
+          "github.com/go-chi/chi/v5": 3,
+          "github.com/0xERR0R/blocky/model": 3,
+          "net/http/httptest": 3,
+          "github.com/sirupsen/logrus/hooks/test": 3,
+          "github.com/docker/docker/client": 3,
+          "github.com/docker/docker/api/types/container": 3,
+          "path": 3,
+          "Number": 3,
+          "github.com/0xERR0R/dns-mokka/mock": 3,
+          "github.com/mattn/anko/vm": 3,
+          "github.com/0xERR0R/dns-mokka/config": 3,
+          "github.com/0xERR0R/dns-proxy/config": 3,
+          "crypto/rand": 3,
+          "encoding/hex": 3,
+          "encoding/csv": 3,
+          "github.com/gorilla/mux": 3,
+          "gorm.io/gorm": 3,
+          "github.com/restic/rest-server/quota": 3,
+          "github.com/oapi-codegen/runtime": 2,
+          "github.com/0xERR0R/blocky/util": 2,
+          "github.com/stretchr/testify/mock": 2,
+          "sync/atomic": 2,
+          "github.com/prometheus/client_golang/prometheus/promauto": 2,
+          "github.com/0xERR0R/blocky/cache/stringcache": 2,
+          "math": 2,
+          "github.com/0xERR0R/blocky/api": 2,
+          "github.com/0xERR0R/crony/healthchecks": 2,
+          "github.com/robfig/cron/v3": 2,
+          "github.com/testcontainers/testcontainers-go/network": 2,
+          "boom": 2,
+          "SMTP_HOST": 2,
+          "MAIL_TO": 2,
+          "github.com/moby/moby/api/types/container": 2,
+          "MAIL_POLICY": 2,
+          "LOG_LEVEL": 2,
+          "hello": 2,
+          "MAIL_FROM": 2,
+          "HC_BASE_URL": 2,
+          "SMTP_PORT": 2,
+          "[FAIL]": 2,
+          "[SUCCESS]": 2,
+          "From": 2,
+          "encoding/base64": 2,
+          "gopkg.in/gomail.v2": 2,
+          "html/template": 2,
+          "1": 2,
+          "log/slog": 2,
+          "github.com/docker/docker/api/types": 2,
+          "Total": 2,
+          "Failed": 2,
+          "Gauge": 2,
+          "Counter": 2,
+          "github.com/0xERR0R/dns-proxy/cert": 2,
+          "encoding/xml": 2,
+          "crypto/md5": 2,
+          "github.com/0xERR0R/fritzbox-rdns/fritzbox": 2,
+          "github.com/go-redis/redis/v9": 2,
+          "github.com/0xERR0R/fritzbox-rdns/lookup": 2,
+          "flag": 2,
+          "net/smtp": 2,
+          "io/fs": 2,
+          "bufio": 2,
+          "notification.html": 2,
+          "github.com/robfig/cron": 2,
+          "github.com/restic/rest-server/repo": 2,
+          "github.com/minio/sha256-simd": 2,
+          "domain.": 1,
+          "github.com/0xERR0R/blocky/cache": 1,
+          "github.com/google/uuid": 1,
+          "github.com/0xERR0R/blocky/metrics": 1,
+          "github.com/alicebob/miniredis/v2": 1,
+          "golang.org/x/exp/maps": 1,
+          "github.com/0xERR0R/blocky/trie": 1,
+          "github.com/0xERR0R/blocky/lists/parsers": 1,
+          "runtime/debug": 1,
+          "github.com/0xERR0R/crony/internal/ringbuf": 1,
+          "Execution": 1,
+          "container_name": 1,
+          "github.com/docker/docker/pkg/stdcopy": 1,
+          "success": 1,
+          "skipping": 1,
+          "my-job": 1,
+          "github.com/docker/docker/api/types/filters": 1,
+          "github.com/docker/docker/api/types/events": 1,
+          "executions": 1,
+          "crony_executed_count": 1,
+          "crony_last_duration_sec": 1,
+          "crony_last_execution_ts": 1,
+          "expected": 1,
+          "greetings": 1,
+          "#": 1,
+          "got": 1,
+          "duration": 1,
+          "no": 1,
+          "last": 1,
+          "crony-e2e-mail-always": 1,
+          "crony.schedule": 1,
+          "jobOpts.name": 1,
+          "jobOpts.cmd": 1,
+          "statusCode": 1,
+          "mockserver": 1,
+          "remainingTimes": 1,
+          "httpResponse": 1,
+          "httpRequest": 1,
+          "dropConnection": 1,
+          "body": 1,
+          "method": 1,
+          "times": 1,
+          "unlimited": 1,
+          "httpError": 1,
+          "metric": 1,
+          "mailPolicy=%s]": 1,
+          "mail": 1,
+          "mailFrom=%s": 1,
+          "github.com/hako/durafmt": 1,
+          "user=%s": 1,
+          "mailTo=%s": 1,
+          "port=%d": 1,
+          "ALWAYS": 1,
+          "NEVER": 1,
+          "backup": 1,
+          "SMTP_USER": 1,
+          "3": 1,
+          "42": 1,
+          "2": 1,
+          "unknown": 1,
+          "ONERROR": 1,
+          "github.com/kelseyhightower/envconfig": 1,
+          "to@example.com": 1,
+          "from@example.com": 1,
+          "smtp.example.com": 1,
+          "dex_container_exited": 1,
+          "dex_block_io_read_bytes_total": 1,
+          "Network": 1,
+          "dex_cpu_utilization_percent": 1,
+          "0": 1,
+          "dex_memory_usage_bytes": 1,
+          "Current": 1,
+          "dex_network_rx_bytes_total": 1,
+          "dex_memory_utilization_percent": 1,
+          "dex_container_restarts_total": 1,
+          "dex_container_running": 1,
+          "dex_network_tx_bytes_total": 1,
+          "dex_memory_total_bytes": 1,
+          "Block": 1,
+          "dex_block_io_write_bytes_total": 1,
+          "Cumulative": 1,
+          "dex_container_restarting": 1,
+          "CPU": 1,
+          "dex_cpu_utilization_seconds_total": 1,
+          "Memory": 1,
+          "dex_pids_current": 1,
+          "Container": 1,
+          "Error": 1,
+          "github.com/prometheus/client_golang/prometheus/testutil": 1,
+          "Collector": 1,
+          "cache": 1,
+          "eth0": 1,
+          "github.com/mattn/anko/parser": 1,
+          "github.com/0xERR0R/dns-mokka/server": 1,
+          "github.com/onsi/gomega/types": 1,
+          "github.com/go-acme/lego/v4/registration": 1,
+          "crypto": 1,
+          "crypto/ecdsa": 1,
+          "github.com/go-acme/lego/v4/providers/dns": 1,
+          "github.com/go-acme/lego/v4/certificate": 1,
+          "crypto/x509": 1,
+          "crypto/elliptic": 1,
+          "github.com/go-acme/lego/v4/lego": 1,
+          "github.com/cristalhq/aconfig": 1,
+          "github.com/0xERR0R/dns-proxy/server": 1,
+          "github.com/avast/retry-go": 1,
+          "github.com/0xERR0R/dns-proxy/doh": 1,
+          "github.com/sethvargo/go-envconfig": 1,
+          "golang.org/x/text/encoding/unicode": 1,
+          "sid": 1,
+          "page": 1,
+          "xhrId": 1,
+          "dev": 1,
+          "golang.org/x/text/transform": 1,
+          "lang": 1,
+          "xhr": 1,
+          "github.com/0xERR0R/fritzbox-rdns/config": 1,
+          "github.com/0xERR0R/fritzbox-rdns/server": 1,
+          "github.com/rs/zerolog": 1,
+          "fb_wan_total_packets_received": 1,
+          "WAN": 1,
+          "github.com/prometheus/common/log": 1,
+          "WANCommonInterfaceConfig": 1,
+          "fb_lan_eth_total_bytes_received": 1,
+          "WANPPPConnection": 1,
+          "WLANConfiguration": 1,
+          "fb_wan_total_bytes_received": 1,
+          "fb_wlan_number_associations": 1,
+          "fb_wlan_total_packets_sent": 1,
+          "LANEthernetInterfaceConfig": 1,
+          "fb_wlan_total_packets_received": 1,
+          "fb_lan_eth_total_packets_received": 1,
+          "fb_wan_total_bytes_sent": 1,
+          "fb_wan_total_packets_sent": 1,
+          "fb_lan_eth_total_bytes_sent": 1,
+          "fb_lan_eth_total_packets_sent": 1,
+          "WLAN": 1,
+          "LAN": 1,
+          "fb_wanppp_status_uptime": 1,
+          "github.com/go-playground/locales/en": 1,
+          "gopkg.in/go-playground/validator.v9": 1,
+          "github.com/tkanos/gonfig": 1,
+          "github.com/veqryn/go-email/email": 1,
+          "MC_SMTP_USER": 1,
+          "MC_SMTP_HOST": 1,
+          "MC_PORT": 1,
+          "MP_SMTP_AUTH_ALLOW_INSECURE": 1,
+          "MC_SMTP_PORT": 1,
+          "MP_SMTP_AUTH_ACCEPT_ANY": 1,
+          "MC_SMTP_PASSWORD": 1,
+          "MC_REDIRECT_TO": 1,
+          "MC_HOST": 1,
+          "MC_SENDER_MAIL": 1,
+          "github.com/spf13/viper": 1,
+          "github.com/0xERR0R/meterNG/internal/aggregation": 1,
+          "github.com/jordan-wright/email": 1,
+          "github.com/glebarez/sqlite": 1,
+          "backup.html": 1,
+          "Reminder:": 1,
+          "embed": 1,
+          "github.com/0xERR0R/meterNG/internal/handlers": 1,
+          "github.com/0xERR0R/meterNG/internal/tasks": 1,
+          "pre-decompress": 1,
+          "Virtual": 1,
+          "Real": 1,
+          "UNIX": 1,
+          "in": 1,
+          "Common": 1,
+          "post-compress": 1,
+          "post-decompress": 1,
+          "TUN/TAP": 1,
+          "Time": 1,
+          "Auth": 1,
+          "Username": 1,
+          "TCP/UDP": 1,
+          "ROUTING_TABLE": 1,
+          "CLIENT_LIST": 1,
+          "Connected": 1,
+          "pre-compress": 1,
+          "Amount": 1,
+          "Whether": 1,
+          "GO111MODULE": 1,
+          "GOARM": 1,
+          "-o": 1,
+          "--long": 1,
+          "-ldflags": 1,
+          "-tags": 1,
+          "GOOS": 1,
+          "GOARCH": 1,
+          "os/exec": 1,
+          "github.com/coreos/go-systemd/activation": 1,
+          "runtime/pprof": 1,
+          "do": 1,
+          "reflect": 1,
+          "crypto/subtle": 1,
+          "crypto/sha1": 1,
+          "crypto/sha256": 1,
+          "golang.org/x/crypto/bcrypt": 1,
+          "repo": 1,
+          "type": 1,
+          "user": 1,
+          "github.com/gorilla/handlers": 1,
+          "github.com/miolini/datacounter": 1,
+          "cannot": 1,
+          "math/rand": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 48,
+        "packages": {
+          "java.util": 32,
+          "org.springframework": 30,
+          "meterNG.model": 22,
+          "static": 15,
+          "jmstool.model": 14,
+          "java.time": 14,
+          "meterNG.repository": 13,
+          "org.junit": 12,
+          "jmstool.jms": 11,
+          "jmstool.storage": 11,
+          "javax.annotation": 11,
+          "meterNG.controller": 10,
+          "java.io": 9,
+          "java.math": 8,
+          "org.slf4j": 7,
+          "javax.jms": 7,
+          "meterNG.aggregation": 7,
+          "com.google": 7,
+          "meterNG.util": 6,
+          "jmstool": 5,
+          "meterNG.task": 5,
+          "io.swagger": 4,
+          "java.nio": 4,
+          "com.mockrunner": 4,
+          "org.mockito": 4,
+          "org.thymeleaf": 4,
+          "javax.mail": 4,
+          "com.machinezoo": 3,
+          "meterNG.export": 3,
+          "jmstool.controller": 2,
+          "com.fasterxml": 2,
+          "javax.naming": 2,
+          "javax.servlet": 2,
+          "springfox.documentation": 1,
+          "jmstool.BadRequestException": 1,
+          "jmstool.QueueManager": 1,
+          "nl.jqno": 1,
+          "meterNG": 1,
+          "com.ibm": 1,
+          "javax.persistence": 1,
+          "java.net": 1,
+          "com.gargoylesoftware": 1,
+          "org.assertj": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 6,
+        "packages": {
+          "karma-jasmine": 2,
+          "karma-jasmine-html-reporter": 2,
+          "karma-chrome-launcher": 2,
+          "ts-node": 2,
+          "jasmine-spec-reporter": 2,
+          "path": 2,
+          "angular": 1,
+          "karma-coverage-istanbul-reporter": 1,
+          "protractor": 1,
+          "angular-devkit": 1,
+          "karma-coverage": 1,
+          "jQuery": 1,
+          "q);q(": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 12,
+        "packages": {
+          "angular": 11,
+          "ngx-bootstrap": 2,
+          "angular2-notifications": 2,
+          "ionic": 2,
+          "ngx-clipboard": 1,
+          "vkbeautify": 1,
+          "protractor": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "0xERR0R/blocky",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "0xERR0R/crony",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "0xERR0R/dex",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "0xERR0R/dns-mokka",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "0xERR0R/dns-proxy",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "0xERR0R/expiration-cache",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "0xERR0R/fritzbox-rdns",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "0xERR0R/fritzbox-upnp-exporter",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "0xERR0R/jmstool",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "0xERR0R/mailcatcher",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "0xERR0R/meterNG",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "0xERR0R/meterNG-Java",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "0xERR0R/openvpn_exporter",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "0xERR0R/rest-server",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

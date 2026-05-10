@@ -1,0 +1,365 @@
+{
+  "username": "lucascicco",
+  "areas": {
+    "OSS": {
+      "score": 0.36296296296296293,
+      "details": {
+        "issue_resolution_rate": 0.6,
+        "pr_merge_rate": 0.4444444444444444,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.46153846153846145,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.19230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.127778,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.3333,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 3,
+        "topic_entropy_bits": 1.0,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.1893446849002849,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        11940,
+        23
+      ],
+      "Lua": [
+        55844,
+        84
+      ],
+      "Shell": [
+        60371,
+        84
+      ],
+      "JavaScript": [
+        18287,
+        27
+      ],
+      "Vim Script": [
+        1679,
+        2
+      ],
+      "Tree-sitter Query": [
+        1334,
+        2
+      ],
+      "Go": [
+        84392,
+        0
+      ],
+      "Smarty": [
+        720,
+        0
+      ],
+      "Dockerfile": [
+        365,
+        0
+      ],
+      "HCL": [
+        27609,
+        0
+      ],
+      "Ruby": [
+        7117,
+        0
+      ],
+      "Makefile": [
+        593,
+        0
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 222,
+    "total_lines": 270251,
+    "top_5_languages": [
+      {
+        "language": "Lua",
+        "lines": 55844,
+        "commits": 84
+      },
+      {
+        "language": "Shell",
+        "lines": 60371,
+        "commits": 84
+      },
+      {
+        "language": "JavaScript",
+        "lines": 18287,
+        "commits": 27
+      },
+      {
+        "language": "Python",
+        "lines": 11940,
+        "commits": 23
+      },
+      {
+        "language": "Vim Script",
+        "lines": 1679,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "lucascicco",
+    "analysis_date": "2026-05-09T11:24:55.024747",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 92,
+    "languages": {
+      "Go": {
+        "files_scanned": 28,
+        "packages": {
+          "github.com/pelotech/drone-helm3/internal/env": 23,
+          "fmt": 18,
+          "testing": 15,
+          "github.com/stretchr/testify/suite": 11,
+          "strings": 11,
+          "github.com/golang/mock/gomock": 8,
+          "os": 6,
+          "errors": 4,
+          "io": 4,
+          "github.com/stretchr/testify/assert": 4,
+          "github.com/GoogleCloudPlatform/cloud-foundation-toolkit/infra/blueprint-test/pkg/tft": 4,
+          "io/ioutil": 3,
+          "github.com/GoogleCloudPlatform/cloud-foundation-toolkit/infra/blueprint-test/pkg/utils": 3,
+          "github.com/GoogleCloudPlatform/cloud-foundation-toolkit/infra/blueprint-test/pkg/gcloud": 3,
+          "github.com/pelotech/drone-helm3/internal/run": 2,
+          "text/template": 2,
+          "--set": 2,
+          "--values": 2,
+          "--set-string": 2,
+          "github.com/pelotech/drone-helm3/internal/helm": 1,
+          "machine=https://github.com/harold_finch/themachine": 1,
+          "machine": 1,
+          "syscall": 1,
+          "os/exec": 1,
+          "server:": 1,
+          "user:": 1,
+          "namespace:": 1,
+          "name:": 1,
+          "certificate-authority-data:": 1,
+          "token:": 1,
+          "--strict": 1,
+          "encoding/base64": 1,
+          "--atomic": 1,
+          "Generated": 1,
+          "--cleanup-on-fail": 1,
+          "--reuse-values": 1,
+          "--ca-file": 1,
+          "--dry-run": 1,
+          "--wait": 1,
+          "--version": 1,
+          "--history-max=10": 1,
+          "--force": 1,
+          "maroon_5_memories": 1,
+          "--timeout": 1,
+          "context": 1,
+          "https://serviceusage.googleapis.com/v1beta1/projects/%s/services/%s/consumerQuotaMetrics/%s/limits/%s/consumerOverrides": 1,
+          "golang.org/x/oauth2/google": 1,
+          "servicemanagement.googleapis.com": 1,
+          "compute.googleapis.com": 1,
+          "net/url": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "fs": 2,
+          "path": 2,
+          "regex:": 1,
+          "reason:": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 13,
+        "packages": {
+          "=": 3,
+          "neotest": 3,
+          "options": 2,
+          "mappings": 2,
+          "autocmds": 1,
+          "bootstrap": 1,
+          "cmds": 1,
+          "fromEnvironment": 1,
+          "lazy": 1,
+          "copilot.suggestion": 1,
+          "utils": 1,
+          "neotest-python": 1,
+          "lualine": 1,
+          "lazy.status": 1,
+          "nvim-treesitter-textobjects": 1,
+          "nvim-treesitter-textobjects.swap": 1,
+          "nvim-treesitter": 1,
+          "nvim-treesitter-textobjects.move": 1,
+          "nvim-treesitter-textobjects.select": 1,
+          "grug-far": 1,
+          "trouble": 1,
+          "blink.cmp": 1,
+          "flash": 1,
+          "dropbar.api": 1,
+          "kanagawa": 1,
+          "config.lsp": 1,
+          "vim.treesitter.query": 1,
+          "config.statusline": 1,
+          "peek": 1,
+          "config.blink": 1,
+          "otter": 1,
+          "config.treesitter": 1,
+          "config.neotest": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 19,
+        "packages": {
+          "asyncio": 7,
+          "dataclass": 5,
+          "typing": 5,
+          "dataclasses": 5,
+          "logging": 5,
+          "aiopath": 5,
+          "AsyncPath": 5,
+          "sys": 5,
+          "click": 3,
+          "multitasking_ssim": 3,
+          "aiohttp": 3,
+          "re": 3,
+          "argparse": 3,
+          "os": 3,
+          "collections": 2,
+          "cv2": 2,
+          "functools": 2,
+          "Any": 2,
+          "aiofiles": 2,
+          "copy": 2,
+          "subprocess": 2,
+          "shutil": 2,
+          "unittest": 2,
+          "weakref": 1,
+          "Generic": 1,
+          "WeakValueDictionary": 1,
+          "uuid": 1,
+          "pytest": 1,
+          "LockManager": 1,
+          "defaultdict": 1,
+          "asyncio_tokenized_lock": 1,
+          "skimage": 1,
+          "structural_similarity": 1,
+          "numpy": 1,
+          "click_log": 1,
+          "uvloop": 1,
+          "ImageComparisonProcessor": 1,
+          "Configuration": 1,
+          "wraps": 1,
+          "time": 1,
+          "cast": 1,
+          "ImageAlreadyExistsError": 1,
+          "ImageSectionConfig": 1,
+          "ImageCalculations": 1,
+          "Image": 1,
+          "ImageDuplicateError": 1,
+          "download_image_ret_key": 1,
+          "CSVTable": 1,
+          "Coroutine": 1,
+          "contextlib": 1,
+          "AsyncWriter": 1,
+          "aiocsv": 1,
+          "open": 1,
+          "yaml": 1,
+          "inspect": 1,
+          "types": 1,
+          "get_args": 1,
+          "{}/{}": 1,
+          "googleapiclient": 1,
+          "discovery": 1,
+          "google": 1,
+          "service_account": 1,
+          "impersonated_credentials": 1,
+          "json": 1,
+          "migrate": 1,
+          "preconditions": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "lucascicco/asyncio-tokenized-lock",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lucascicco/dotfiles",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Lua"
+        ]
+      },
+      {
+        "repository": "lucascicco/drone-helm3",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "lucascicco/multitasking-ssim",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "lucascicco/terraform-google-project-factory",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

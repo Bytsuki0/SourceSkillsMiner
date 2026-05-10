@@ -1,0 +1,285 @@
+{
+  "username": "danielroccha",
+  "areas": {
+    "OSS": {
+      "score": -0.07193136132655087,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.39210295801017364
+      }
+    },
+    "Status": {
+      "score": -0.059110848506038094,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.39210295801017364,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.8375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.19370844196651782,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        43409,
+        2
+      ],
+      "TypeScript": [
+        173502,
+        0
+      ],
+      "Shell": [
+        8426,
+        0
+      ],
+      "Java": [
+        8771,
+        0
+      ],
+      "Ruby": [
+        3537,
+        0
+      ],
+      "Objective-C": [
+        2509,
+        0
+      ],
+      "JavaScript": [
+        2057,
+        0
+      ],
+      "Objective-C++": [
+        1300,
+        0
+      ],
+      "C": [
+        90,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 2,
+    "total_lines": 243601,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 43409,
+        "commits": 2
+      },
+      {
+        "language": "TypeScript",
+        "lines": 173502,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 8426,
+        "commits": 0
+      },
+      {
+        "language": "Java",
+        "lines": 8771,
+        "commits": 0
+      },
+      {
+        "language": "Ruby",
+        "lines": 3537,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "danielroccha",
+    "analysis_date": "2026-05-09T19:54:12.179497",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 116,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "<UIKit/UIKit.h>": 2,
+          "<RCTAppDelegate.h>": 2
+        }
+      },
+      "Java": {
+        "files_scanned": 9,
+        "packages": {
+          "com.facebook": 8,
+          "android.content": 5,
+          "io.gekkostudio": 5,
+          "com.imperium_app": 4,
+          "okhttp3.OkHttpClient": 2,
+          "android.os": 2,
+          "java.util": 2,
+          "android.app": 2,
+          "org.devio": 1,
+          "com.microsoft": 1,
+          "androidx.appcompat": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "react-native": 3,
+          "react": 2,
+          "react-native-toast-message": 1,
+          "react-redux": 1,
+          "react-native-track-player": 1,
+          "app": 1,
+          "react-native-gesture-handler": 1,
+          "metro-config": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 4,
+        "packages": {
+          "<UIKit/UIKit.h>": 4,
+          "UIKit/UIKit.h": 4,
+          "AppDelegate.h": 2,
+          "<XCTest/XCTest.h>": 2,
+          "React/RCTLog.h": 2,
+          "XCTest/XCTest.h": 2,
+          "<React/RCTLog.h>": 2,
+          "<React/RCTRootView.h>": 2,
+          "React/RCTRootView.h": 2
+        }
+      },
+      "Swift": {
+        "files_scanned": 56,
+        "packages": {
+          "UIKit": 31,
+          "Foundation": 27,
+          "XCTest": 5,
+          "class": 3,
+          "Alamofire": 2,
+          "UIKit.UIFont": 1,
+          "AppKit.NSFont": 1,
+          "AppKit": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "react-native": 8,
+          "app": 7,
+          "FINDING": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 19,
+        "packages": {
+          "react": 19,
+          "app": 15,
+          "react-native": 13,
+          "react-redux": 3,
+          "react-test-renderer": 2,
+          "lottie-react-native": 2,
+          "center": 2,
+          "react-native-vector-icons": 2,
+          "react-native-splash-screen": 1,
+          "react-native-community": 1,
+          "showNotification": 1,
+          "react-navigation": 1,
+          "react-native-permissions": 1,
+          "react-native-fast-image": 1,
+          "react-native-render-html": 1,
+          "react-native-notifier": 1,
+          "intl": 1,
+          "react-native-gesture-handler": 1,
+          "jest": 1,
+          "react-hook-form": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "danielroccha/Currency",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "danielroccha/gekkostudio-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "Swift",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "danielroccha/imperium_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "danielroccha/Swift-Quiz",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "danielroccha/trio-takehome-project-teste",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

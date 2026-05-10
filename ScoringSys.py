@@ -8,12 +8,14 @@ import math
 import json
 import statistics
 import configparser as cfgparser
+import token
 from typing import Dict, List, Optional
 
 import OSSanaliser as f1
 import SentimentalAnaliser as f2
 import StatusAnaliser as f3
 import WorkTypeAnalyzer as f4
+import Adaptabilityanalyzer as f5
 
 
 import sys
@@ -31,6 +33,7 @@ DEFAULT_TOKEN    = config.get('github', 'token',    fallback=None)
 DEFAULT_WEIGHTS = {
     'OSS':        1.0,
     'Status':     1.0,
+    'Adaptability': 1.0,
     'Sentiment':  1.0,
     'Commitment': 1.0,
 }
@@ -147,8 +150,8 @@ def compute_oss_score(username: str, token: str, num_events: int = 1000000) -> D
     commits_norm          = _safe_log_norm(total_commits, scale=200.0)
 
     subs = {
-        'issue_resolution_rate': issue_resolution_rate,
-        'pr_merge_rate':         pr_merge_rate,
+        'issue_resolution_rate': issue_resolution_rate if issue_resolution_rate <= 1 else 1.0,
+        'pr_merge_rate':         pr_merge_rate if pr_merge_rate <= 1 else 1.0,
         'commits_activity':      commits_norm,
     }
 
@@ -201,6 +204,36 @@ def compute_commit_score(username: str, token: str) -> Dict:
         },
     }
 
+def compute_adaptability_score(username: str, token: str) -> Dict:
+    try:
+        adaptability_res = f5.AdaptabilityAnalyzer(username, token)
+        res_adaptability = adaptability_res.analyze()
+    except Exception as e:
+        print(f"Error computing adaptability score: {e}")
+        return {'score': 0.0, 'details': {'error': str(e), 'metrics': {}}}
+    
+    
+    print("Adaptability analysis result:", res_adaptability)
+
+    details = res_adaptability.get("details", {})
+
+    return {
+        "score": res_adaptability.get("score", 0.0),
+        "details": {
+            "language_diversity_score": details.get("language_diversity_score", 0.0),
+            "technology_adoption_score": details.get("technology_adoption_score", 0.0),
+            "domain_flexibility_score": details.get("domain_flexibility_score", 0.0),
+            "resilience_score": details.get("resilience_score", 0.0),
+
+            "distinct_primary_languages": details.get("distinct_primary_languages", 0),
+            "language_transitions": details.get("language_transitions", 0),
+            "topic_entropy_bits": details.get("topic_entropy_bits", 0.0),
+
+            "closed_prs_total": details.get("closed_prs_total", 0),
+            "bounced_back_prs": details.get("bounced_back_prs", 0),
+        }
+    }
+        
 
 def compute_status_score(username: str, token: str, prefetched_stats: Optional[Dict] = None) -> Dict:
     try:
@@ -399,6 +432,9 @@ def score_user(username: Optional[str] = None,
     print("Computing status score...")
     status_res = compute_status_score(username, token, prefetched_stats=raw_stats)
 
+    print("Computing Adaptability score...")
+    adaptability_res = compute_adaptability_score(username, token)
+
     print("Computing sentiment score...")
     sentiment_res = compute_sentiment_score(
         username, token,
@@ -412,8 +448,10 @@ def score_user(username: Optional[str] = None,
     areas = {
         'OSS':        oss_res,
         'Status':     status_res,
+        'Adaptability': adaptability_res,
         'Sentiment':  sentiment_res,
         'Commitment': commitment_res,
+        
     }
 
     final = sum(areas[k]['score'] * normalized[k] for k in areas)
@@ -492,11 +530,11 @@ def main():
     p = argparse.ArgumentParser(description='GitHub User Scoring System')
     p.add_argument('--username', '-u', help='GitHub username (overrides config)')
     p.add_argument('--token',    '-t', help='GitHub token (overrides config)')
-    p.add_argument('--repo-limit', type=int, default=200,
+    p.add_argument('--repo-limit', type=int, default=25,
                    help='Maximum repositories to analyze for sentiment (default: %(default)s)')
     p.add_argument('--skip-import-scan', action='store_true',
                    help='Skip import/package scan (faster, but less supplementary data)')
-    p.add_argument('--import-max-repos', type=int, default=20,
+    p.add_argument('--import-max-repos', type=int, default=25,
                    help='Max repos for import scan (default: %(default)s)')
     p.add_argument('--import-max-files', type=int, default=30,
                    help='Max files per repo for import scan (default: %(default)s)')

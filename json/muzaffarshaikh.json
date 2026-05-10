@@ -1,0 +1,338 @@
+{
+  "username": "muzaffarshaikh",
+  "areas": {
+    "OSS": {
+      "score": 0.2922807983197755,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9384211974796633
+      }
+    },
+    "Status": {
+      "score": 0.38202438806336536,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9384211974796633,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Adaptability": {
+      "score": -0.266667,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.08152763727662818,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        1396266,
+        21
+      ],
+      "Java": [
+        1177,
+        13
+      ],
+      "TypeScript": [
+        917758,
+        29
+      ],
+      "CSS": [
+        10104,
+        11
+      ],
+      "HTML": [
+        15052,
+        35
+      ],
+      "SCSS": [
+        465010,
+        0
+      ],
+      "MDX": [
+        103776,
+        0
+      ],
+      "Python": [
+        10542,
+        25
+      ],
+      "Less": [
+        365,
+        0
+      ],
+      "Shell": [
+        619,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 134,
+    "total_lines": 2920669,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 15052,
+        "commits": 35
+      },
+      {
+        "language": "TypeScript",
+        "lines": 917758,
+        "commits": 29
+      },
+      {
+        "language": "Python",
+        "lines": 10542,
+        "commits": 25
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1396266,
+        "commits": 21
+      },
+      {
+        "language": "Java",
+        "lines": 1177,
+        "commits": 13
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "muzaffarshaikh",
+    "analysis_date": "2026-05-09T01:08:56.917655",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 135,
+    "languages": {
+      "Java": {
+        "files_scanned": 13,
+        "packages": {
+          "java.io": 11,
+          "org.apache": 11,
+          "java.util": 7,
+          "indexing_json": 5,
+          "path_constants.Constants": 4,
+          "indexing_text": 4,
+          "boolean_model": 3,
+          "org.json": 2,
+          "java.nio": 2,
+          "org.tartarus": 1,
+          "java.time": 1,
+          "path_constants": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 39,
+        "packages": {
+          "react": 32,
+          "framer-motion": 8,
+          "lucide-react": 8,
+          "prop-types": 7,
+          "styled-components": 6,
+          "components": 5,
+          "path": 4,
+          "config": 4,
+          "react-helmet": 3,
+          "gatsby": 3,
+          "hooks": 2,
+          "utils": 2,
+          "react-router-dom": 1,
+          "next": 1,
+          "protractor": 1,
+          "ts-node": 1,
+          "jasmine-spec-reporter": 1,
+          "karma-chrome-launcher": 1,
+          "karma-coverage-istanbul-reporter": 1,
+          "angular-devkit": 1,
+          "karma-jasmine-html-reporter": 1,
+          "karma-jasmine": 1,
+          "prismjs": 1,
+          "lodash": 1,
+          "upstatement": 1,
+          "reach": 1,
+          "styles": 1,
+          "animejs": 1,
+          "react-transition-group": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 19,
+        "packages": {
+          "react": 17,
+          "radix-ui": 12,
+          "lucide-react": 9,
+          "class-variance-authority": 3,
+          "react-day-picker": 1,
+          "embla-carousel-react": 1,
+          "cmdk": 1,
+          "vaul": 1,
+          "react-hook-form": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 14,
+        "packages": {
+          "nltk": 6,
+          "numpy": 5,
+          "stopwords": 5,
+          "string": 4,
+          "sklearn": 3,
+          "cosine_similarity": 3,
+          "random": 3,
+          "time": 3,
+          "TfidfVectorizer": 2,
+          "file_read_txt": 2,
+          "sent_tokens": 2,
+          "cosine_tfidf_bot": 2,
+          "pickle": 2,
+          "convert_number_to_word": 2,
+          "re": 2,
+          "word_tokenize": 2,
+          "LancasterStemmer": 2,
+          "json": 2,
+          "CORS": 2,
+          "flask_cors": 2,
+          "flask_mysqldb": 2,
+          "MySQL": 2,
+          "Flask": 2,
+          "flask": 2,
+          "text_lemmatizer": 1,
+          "LemNormalize": 1,
+          "cbot_response": 1,
+          "response": 1,
+          "warnings": 1,
+          "sent_tokenize": 1,
+          "pad_sequences": 1,
+          "keras": 1,
+          "Tokenizer": 1,
+          "euclidean_distances": 1,
+          "pandas": 1,
+          "punctuation_removal": 1,
+          "preprocess": 1,
+          "WordNetLemmatizer": 1,
+          "inflect": 1,
+          "PorterStemmer": 1,
+          "pos_tag": 1,
+          "x_train": 1,
+          "pymysql": 1,
+          "dnn_model": 1,
+          "create_model": 1,
+          "datetime": 1,
+          "input_data": 1,
+          "tflearn": 1,
+          "array": 1,
+          "tensorflow": 1,
+          "os": 1,
+          "bot_response": 1,
+          "bot_main": 1,
+          "user_profile": 1,
+          "register_db": 1,
+          "generate_password_hash": 1,
+          "werkzeug": 1,
+          "MySQLdb": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 17,
+        "packages": {
+          "angular": 12,
+          "next": 3,
+          "cookie": 2,
+          "protractor": 2,
+          "rxjs": 2,
+          "app": 2,
+          "fs": 1,
+          "path": 1,
+          "gray-matter": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 13,
+        "packages": {
+          "react": 9,
+          "next": 6,
+          "classnames": 1,
+          "edge": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "muzaffarshaikh/lucene-indexing",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "muzaffarshaikh/portfolio",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "muzaffarshaikh/portfolio-site",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "muzaffarshaikh/tflearn-chatbot",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "muzaffarshaikh/v4",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

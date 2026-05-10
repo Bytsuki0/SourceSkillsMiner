@@ -1,0 +1,222 @@
+{
+  "username": "OshinMundada",
+  "areas": {
+    "OSS": {
+      "score": -0.5683211049187151,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6475183426219274
+      }
+    },
+    "Status": {
+      "score": 0.12797764565232983,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6535049300169562,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.75,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.2380686918532771,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        140473,
+        10
+      ],
+      "Clojure": [
+        1453,
+        1
+      ],
+      "JavaScript": [
+        175603,
+        4
+      ],
+      "Perl": [
+        83552,
+        2
+      ],
+      "HTML": [
+        108598,
+        2
+      ],
+      "CSS": [
+        65592,
+        0
+      ],
+      "PHP": [
+        60367,
+        1
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 20,
+    "total_lines": 635638,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 140473,
+        "commits": 10
+      },
+      {
+        "language": "JavaScript",
+        "lines": 175603,
+        "commits": 4
+      },
+      {
+        "language": "Perl",
+        "lines": 83552,
+        "commits": 2
+      },
+      {
+        "language": "HTML",
+        "lines": 108598,
+        "commits": 2
+      },
+      {
+        "language": "Clojure",
+        "lines": 1453,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "OshinMundada",
+    "analysis_date": "2026-05-09T02:19:06.475329",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 86,
+    "languages": {
+      "Java": {
+        "files_scanned": 58,
+        "packages": {
+          "com.example": 43,
+          "java.util": 31,
+          "android.content": 30,
+          "android.support": 27,
+          "android.view": 26,
+          "android.widget": 26,
+          "android.os": 24,
+          "com.google": 21,
+          "android.util": 20,
+          "java.io": 17,
+          "javax.servlet": 14,
+          "sdsu": 14,
+          "static": 7,
+          "android.graphics": 7,
+          "com.android": 7,
+          "com.firebase": 7,
+          "org.junit": 6,
+          "java.text": 6,
+          "org.json": 5,
+          "android.database": 3,
+          "android.location": 3,
+          "android.text": 3,
+          "java.net": 2,
+          "android.app": 2,
+          "java.security": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "jQuery": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "myhelper.php": 1,
+          "landing.php": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 2,
+        "packages": {
+          "Crypt::SaltedHash": 2,
+          "<passwords.dat": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "OshinMundada/Android-Circle-in-Motion",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "OshinMundada/Android-Connect-with-Hometown-Friends",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "OshinMundada/geekon",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "OshinMundada/online-shopping-portal",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "Perl"
+        ]
+      },
+      {
+        "repository": "OshinMundada/website-marathon",
+        "files_analyzed": 8,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

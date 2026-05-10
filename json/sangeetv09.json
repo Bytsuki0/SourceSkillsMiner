@@ -1,0 +1,330 @@
+{
+  "username": "sangeetv09",
+  "areas": {
+    "OSS": {
+      "score": 0.2878695465412926,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9318043198119389
+      }
+    },
+    "Status": {
+      "score": 0.0684704112940071,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5450133092487028,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.775,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.03373200843294008,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        5982,
+        0
+      ],
+      "HTML": [
+        6631,
+        0
+      ],
+      "Dockerfile": [
+        5717,
+        2
+      ],
+      "HCL": [
+        435,
+        0
+      ],
+      "Java": [
+        179,
+        0
+      ],
+      "CSS": [
+        5350,
+        0
+      ],
+      "Groovy": [
+        10,
+        0
+      ],
+      "JavaScript": [
+        6337,
+        0
+      ],
+      "C#": [
+        8014,
+        0
+      ],
+      "Shell": [
+        1962,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 2,
+    "total_lines": 40617,
+    "top_5_languages": [
+      {
+        "language": "Dockerfile",
+        "lines": 5717,
+        "commits": 2
+      },
+      {
+        "language": "Python",
+        "lines": 5982,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 6631,
+        "commits": 0
+      },
+      {
+        "language": "HCL",
+        "lines": 435,
+        "commits": 0
+      },
+      {
+        "language": "Java",
+        "lines": 179,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sangeetv09",
+    "analysis_date": "2026-05-09T23:56:12.042452",
+    "total_repos_analyzed": 21,
+    "total_files_analyzed": 59,
+    "languages": {
+      "C#": {
+        "files_scanned": 1,
+        "packages": {
+          "Newtonsoft.Json": 1,
+          "System.Data.Common": 1,
+          "System.Net": 1,
+          "System.Net.Sockets": 1,
+          "System.Threading": 1,
+          "StackExchange.Redis": 1,
+          "System.Linq": 1,
+          "System": 1,
+          "Npgsql": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 4,
+        "packages": {
+          "os": 4,
+          "fmt": 4,
+          "bufio": 2,
+          "strings": 2,
+          "strconv": 2,
+          "active_requests": 2,
+          "net/http": 2,
+          "request_count": 2,
+          "go.opentelemetry.io/otel/attribute": 2,
+          "go.opentelemetry.io/otel/sdk/trace": 2,
+          "request_duration_ms": 2,
+          "go.opentelemetry.io/otel/metric": 2,
+          "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp": 2,
+          "go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin": 2,
+          "response": 2,
+          "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp": 2,
+          "go.opentelemetry.io/otel/sdk/resource": 2,
+          "go.opentelemetry.io/otel": 2,
+          "context": 2,
+          "message": 2,
+          "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp": 2,
+          "github.com/joho/godotenv": 2,
+          "github.com/gin-gonic/gin": 2,
+          "log": 2,
+          "io/ioutil": 2,
+          "time": 2
+        }
+      },
+      "Java": {
+        "files_scanned": 1,
+        "packages": {
+          "org.springframework": 1,
+          "com.abhishek": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "express": 4,
+          "testing-library": 2,
+          "dotenv": 2,
+          "morgan": 2,
+          "opentelemetry": 2,
+          "cookie-parser": 1,
+          "pg": 1,
+          "http": 1,
+          "async": 1,
+          "socket.io": 1,
+          "system": 1,
+          "webpage": 1,
+          "select": 1,
+          "undefined": 1,
+          "react": 1,
+          "react-dom": 1,
+          "web-vitals": 1,
+          "pino": 1,
+          "prom-client": 1,
+          "axios": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 37,
+        "packages": {
+          "django": 28,
+          "os": 9,
+          "migrations": 8,
+          "admin": 4,
+          "path": 3,
+          "pandas": 2,
+          "AppConfig": 2,
+          "models": 2,
+          "TestCase": 2,
+          "render": 2,
+          "get_wsgi_application": 2,
+          "execute_from_command_line": 2,
+          "sys": 2,
+          "flask": 2,
+          "Flask": 2,
+          "google": 1,
+          "ollama": 1,
+          "numpy": 1,
+          "IsolationForest": 1,
+          "sklearn": 1,
+          "Counter": 1,
+          "re": 1,
+          "collections": 1,
+          "HttpResponse": 1,
+          "get_asgi_application": 1,
+          "Path": 1,
+          "pathlib": 1,
+          "include": 1,
+          "static": 1,
+          "staticfiles_urlpatterns": 1,
+          "redirect": 1,
+          "HttpResponseRedirect": 1,
+          "generic": 1,
+          "urllib": 1,
+          "Redis": 1,
+          "redis": 1,
+          "logging": 1,
+          "random": 1,
+          "socket": 1,
+          "json": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sangeetv09/ai-assisted-devops",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sangeetv09/Docker-Zero-to-Hero1",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "sangeetv09/Jenkins-Zero-To-Hero",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "sangeetv09/K8s_Real_Project",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sangeetv09/microservices-example-voting-app",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C#",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "sangeetv09/NodeJs-app",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sangeetv09/observability-zero-to-hero",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sangeetv09/terraform-vault",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

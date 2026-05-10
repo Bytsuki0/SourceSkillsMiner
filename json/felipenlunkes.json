@@ -1,0 +1,443 @@
+{
+  "username": "felipenlunkes",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4358974358974359,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 15,
+        "language_transitions": 9,
+        "topic_entropy_bits": 5.1607,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6371794871794872,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        1241657,
+        202
+      ],
+      "CSS": [
+        485141,
+        31
+      ],
+      "JavaScript": [
+        43332,
+        45
+      ],
+      "Rust": [
+        371017,
+        26
+      ],
+      "Shell": [
+        44261,
+        113
+      ],
+      "C++": [
+        14231,
+        5
+      ],
+      "Python": [
+        3088,
+        65
+      ],
+      "Assembly": [
+        37518,
+        50
+      ],
+      "Makefile": [
+        2139,
+        0
+      ],
+      "C": [
+        19834,
+        126
+      ],
+      "CMake": [
+        163,
+        0
+      ],
+      "Ruby": [
+        187,
+        0
+      ],
+      "Java": [
+        1894,
+        31
+      ],
+      "SCSS": [
+        7227,
+        0
+      ],
+      "Dockerfile": [
+        354,
+        0
+      ],
+      "TypeScript": [
+        1863463,
+        2
+      ],
+      "C#": [
+        1225063,
+        37
+      ],
+      "Batchfile": [
+        483,
+        0
+      ],
+      "Pascal": [
+        0,
+        2
+      ],
+      "DataWeave": [
+        0,
+        4
+      ],
+      "PHP": [
+        0,
+        2
+      ],
+      "Hack": [
+        0,
+        1
+      ],
+      "BASIC": [
+        0,
+        0
+      ],
+      "R": [
+        0,
+        0
+      ],
+      "Verilog": [
+        0,
+        0
+      ],
+      "Coq": [
+        0,
+        0
+      ],
+      "Yacc": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0
+      ],
+      "Visual Basic .NET": [
+        0,
+        2
+      ]
+    },
+    "language_count": 30,
+    "total_commits": 744,
+    "total_lines": 5361052,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 1241657,
+        "commits": 202
+      },
+      {
+        "language": "C",
+        "lines": 19834,
+        "commits": 126
+      },
+      {
+        "language": "Shell",
+        "lines": 44261,
+        "commits": 113
+      },
+      {
+        "language": "Python",
+        "lines": 3088,
+        "commits": 65
+      },
+      {
+        "language": "Assembly",
+        "lines": 37518,
+        "commits": 50
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "felipenlunkes",
+    "analysis_date": "2026-05-08T22:11:12.851887",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 133,
+    "languages": {
+      "C": {
+        "files_scanned": 11,
+        "packages": {
+          "<stdio.h>": 11,
+          "stdio.h": 11,
+          "<string.h>": 10,
+          "<stdlib.h>": 10,
+          "string.h": 10,
+          "stdlib.h": 10,
+          "<ctype.h>": 8,
+          "ctype.h": 8,
+          "<errno.h>": 7,
+          "errno.h": 7,
+          "<conio.h>": 7,
+          "and": 7,
+          "conio.h": 7,
+          "<stddef.h>": 6,
+          "memory.h": 6,
+          "stddef.h": 6,
+          "<memory.h>": 6,
+          "limits.h": 5,
+          "<limits.h>": 5,
+          "time.h": 5,
+          "<time.h>": 5,
+          "math.h": 4,
+          "<math.h>": 4,
+          "FAT.h": 2,
+          "windows.h": 2,
+          "<windows.h>": 2,
+          "<dos.h>": 2,
+          "dos.h": 2,
+          "image.h": 1,
+          "testcase.h": 1,
+          "libsupp.h": 1,
+          "<libsupp.h>": 1,
+          "mappend.h": 1,
+          "mbootcd.h": 1,
+          "mdel.h": 1,
+          "mdirex.h": 1,
+          "mgetimg.h": 1,
+          "go32.h": 1,
+          "<dpmi.h>": 1,
+          "<go32.h>": 1,
+          "dpmi.h": 1,
+          "mkdosfs.h": 1,
+          "mbr.h": 1,
+          "mpart.h": 1,
+          "msectcpy.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 5,
+        "packages": {
+          "stdio.h": 5,
+          "ctype.h": 5,
+          "windows.h": 5,
+          "<stdio.h>": 5,
+          "<windows.h>": 5,
+          "string.h": 3,
+          "<stdlib.h>": 3,
+          "<ctype.h>": 3,
+          "and": 3,
+          "<string.h>": 3,
+          "stdlib.h": 3,
+          "<stddef.h>": 2,
+          "memory.h": 2,
+          "<errno.h>": 2,
+          "errno.h": 2,
+          "math.h": 2,
+          "limits.h": 2,
+          "stddef.h": 2,
+          "<limits.h>": 2,
+          "<time.h>": 2,
+          "<memory.h>": 2,
+          "<math.h>": 2,
+          "<conio.h>": 2,
+          "time.h": 2,
+          "conio.h": 2,
+          "mcdinfo.h": 1,
+          "mgetcd.h": 1,
+          "mgetimg.h": 1,
+          "mmakecd.h": 1,
+          "mputimg.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 5,
+        "packages": {
+          "java.util": 4,
+          "br.com": 4
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "object": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "github": 1,
+          "datetime": 1,
+          "io": 1,
+          "Github": 1,
+          "urllib": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 1,
+        "packages": {
+          "Liquid::StandardFilters": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 23,
+        "packages": {
+          "crate": 15,
+          "super": 12,
+          "core": 12,
+          "spin": 6,
+          "alloc": 3,
+          "aero_syscall": 3,
+          "raw_cpuid": 3,
+          "self": 2,
+          "xmas_elf": 2,
+          "limine": 2,
+          "std": 1,
+          "bit_field": 1,
+          "controlregs": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 32,
+        "packages": {
+          "angular": 30,
+          "rxjs": 18,
+          "ngx-mask": 4,
+          "react-native": 2,
+          "light": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 27,
+        "packages": {
+          "react": 24,
+          "react-native": 22,
+          "gluestack-ui": 18,
+          "expo-router": 14,
+          "expo": 7,
+          "react-native-svg": 3,
+          "expo-constants": 2,
+          "react-native-safe-area-context": 2,
+          "expo-symbols": 2,
+          "react-native-async-storage": 1,
+          "axios": 1,
+          "react-native-gesture-handler": 1,
+          "react-navigation": 1,
+          "DoeTech": 1,
+          "react-native-drawer-layout": 1,
+          "expo-image-picker": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "felipenlunkes/aero",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "felipenlunkes/agentex86",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "felipenlunkes/alura-java",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "felipenlunkes/blog_os",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "felipenlunkes/DoeTech",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "felipenlunkes/doetech-mobile",
+        "files_analyzed": 29,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "felipenlunkes/EverestOS",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C",
+          "C++"
+        ]
+      }
+    ]
+  }
+}

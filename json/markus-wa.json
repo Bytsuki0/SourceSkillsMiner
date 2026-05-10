@@ -1,0 +1,698 @@
+{
+  "username": "markus-wa",
+  "areas": {
+    "OSS": {
+      "score": 0.8095238095238095,
+      "details": {
+        "issue_resolution_rate": 0.7142857142857143,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.2865232526146646,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8720925712296893,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.6897,
+        "distinct_primary_languages": 18,
+        "language_transitions": 18,
+        "topic_entropy_bits": 5.1867,
+        "closed_prs_total": 29,
+        "bounced_back_prs": 10
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "markus-wa/convert-to-opus": 0.12071379310344826
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7692094124276949,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        106326,
+        1314
+      ],
+      "Dockerfile": [
+        73519,
+        3
+      ],
+      "Clojure": [
+        15446,
+        262
+      ],
+      "C++": [
+        25,
+        2
+      ],
+      "Svelte": [
+        3363,
+        10
+      ],
+      "TypeScript": [
+        9304,
+        43
+      ],
+      "JavaScript": [
+        3150,
+        24
+      ],
+      "HTML": [
+        3276,
+        32
+      ],
+      "CSS": [
+        4,
+        2
+      ],
+      "Shell": [
+        70277,
+        80
+      ],
+      "GLSL": [
+        65600,
+        28
+      ],
+      "C": [
+        137,
+        1
+      ],
+      "Makefile": [
+        67,
+        0
+      ],
+      "Batchfile": [
+        35,
+        1
+      ],
+      "Java": [
+        551,
+        0
+      ],
+      "Python": [
+        23713,
+        24
+      ],
+      "HCL": [
+        11353,
+        0
+      ],
+      "PowerShell": [
+        6761,
+        0
+      ],
+      "Scala": [
+        5319,
+        0
+      ],
+      "Starlark": [
+        3938,
+        0
+      ],
+      "Ruby": [
+        2743,
+        10
+      ],
+      "Nix": [
+        699,
+        0
+      ],
+      "Open Policy Agent": [
+        322,
+        0
+      ],
+      "Jsonnet": [
+        293,
+        0
+      ],
+      "Puppet": [
+        287,
+        0
+      ],
+      "Emacs Lisp": [
+        0,
+        19
+      ],
+      "Vim Script": [
+        0,
+        0
+      ],
+      "Groovy": [
+        0,
+        4
+      ],
+      "Assembly": [
+        0,
+        1
+      ],
+      "OpenSCAD": [
+        0,
+        9
+      ],
+      "C#": [
+        0,
+        21
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "Rust": [
+        0,
+        3
+      ],
+      "Kotlin": [
+        0,
+        17
+      ]
+    },
+    "language_count": 34,
+    "total_commits": 1910,
+    "total_lines": 406508,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 106326,
+        "commits": 1314
+      },
+      {
+        "language": "Clojure",
+        "lines": 15446,
+        "commits": 262
+      },
+      {
+        "language": "Shell",
+        "lines": 70277,
+        "commits": 80
+      },
+      {
+        "language": "TypeScript",
+        "lines": 9304,
+        "commits": 43
+      },
+      {
+        "language": "HTML",
+        "lines": 3276,
+        "commits": 32
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "markus-wa",
+    "analysis_date": "2026-05-09T11:52:07.841970",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 215,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "stdlib.h": 2,
+          "<stdlib.h>": 2,
+          "<stdio.h>": 1,
+          "<string.h>": 1,
+          "string.h": 1,
+          "<wchar.h>": 1,
+          "stdio.h": 1,
+          "wchar.h": 1,
+          "stdbool.h": 1,
+          "<Windows.h>": 1,
+          "Windows.h": 1,
+          "<stdbool.h>": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 24,
+        "packages": {
+          "CounterStrikeSharp.API.Core": 14,
+          "CounterStrikeSharp.API.Core.Attributes": 12,
+          "System": 7,
+          "Microsoft.Extensions.Logging": 6,
+          "CounterStrikeSharp.API.Core.Attributes.Registration": 6,
+          "CounterStrikeSharp.API.Modules.Utils": 5,
+          "CounterStrikeSharp.API.Modules.Timers": 5,
+          "CounterStrikeSharp.API.Modules.Commands": 5,
+          "CounterStrikeSharp.API": 4,
+          "System.Collections.Generic": 4,
+          "CounterStrikeSharp.API.Modules.Events": 4,
+          "WarcraftPlugin.Effects": 3,
+          "MySharedTypes.Contracts": 3,
+          "Dapper": 2,
+          "Microsoft.Data.Sqlite": 2,
+          "CounterStrikeSharp.API.Modules.Entities": 2,
+          "System.Drawing": 2,
+          "System.Linq": 2,
+          "CounterStrikeSharp.API.Modules.Admin": 2,
+          "CounterStrikeSharp.API.Core.Capabilities": 2,
+          "System.IO": 1,
+          "System.Runtime.CompilerServices": 1,
+          "System.Reflection": 1,
+          "System.Runtime.InteropServices": 1,
+          "CounterStrikeSharp.API.Modules.Memory": 1,
+          "WarcraftPlugin.Cooldowns": 1,
+          "WarcraftPlugin.Races": 1,
+          "CounterStrikeSharp.API.Modules.Menu": 1,
+          "CounterStrikeSharp.API.Modules.Config": 1,
+          "CounterStrikeSharp.API.Modules.Extensions": 1,
+          "Microsoft.Extensions.DependencyInjection": 1,
+          "CounterStrikeSharp.API.Modules.Cvars": 1,
+          "CounterStrikeSharp.API.Modules.Cvars.Validators": 1,
+          "CounterStrikeSharp.API.Core.Plugin": 1,
+          "System.Globalization": 1,
+          "CounterStrikeSharp.API.Core.Translations": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "sys/wait.h": 1,
+          "stdlib.h": 1,
+          "<signal.h>": 1,
+          "<stdio.h>": 1,
+          "fcntl.h": 1,
+          "sys/time.h": 1,
+          "unistd.h": 1,
+          "<sys/wait.h>": 1,
+          "<fcntl.h>": 1,
+          "<stdlib.h>": 1,
+          "signal.h": 1,
+          "stdio.h": 1,
+          "<sys/time.h>": 1,
+          "<unistd.h>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 132,
+        "packages": {
+          "fmt": 63,
+          "reflect": 48,
+          "os": 35,
+          "strings": 29,
+          "testing": 27,
+          "errors": 22,
+          "bytes": 20,
+          "log": 18,
+          "io": 17,
+          "github.com/stretchr/testify/assert": 16,
+          "encoding/json": 16,
+          "sync": 16,
+          "time": 14,
+          "strconv": 13,
+          "sort": 13,
+          "io/ioutil": 12,
+          "image/color": 10,
+          "math": 8,
+          "context": 7,
+          "unsafe": 7,
+          "bufio": 6,
+          "net/http": 6,
+          "flag": 6,
+          "image": 6,
+          "type": 4,
+          "fields": 4,
+          "name": 4,
+          "golang.org/x/oauth2/google": 4,
+          "github.com/golang/geo/r2": 3,
+          "namespace": 3,
+          "github.com/stretchr/testify/require": 3,
+          "github.com/gogo/protobuf/proto": 3,
+          "image/draw": 3,
+          "github.com/golang/geo/r3": 3,
+          "github.com/linkedin/goavro/v2": 2,
+          "int": 2,
+          "null": 2,
+          "long": 2,
+          "default": 2,
+          "net/url": 2,
+          "os/exec": 2,
+          "cloud.google.com/go/compute/metadata": 2,
+          "golang.org/x/net/context": 2,
+          "github.com/markus-wa/cs-demo-minifier/protobuf": 2,
+          "gopkg.in/vmihailenco/msgpack.v2": 2,
+          "bytes,5,req": 2,
+          "X": 2,
+          "good": 2,
+          "encoding": 2,
+          "github.com/markus-wa/demoinfocs-golang/v5/pkg/demoinfocs/msg": 2,
+          "image/jpeg": 2,
+          "github.com/markus-wa/demoinfocs-golang/v5/examples": 2,
+          "sync/atomic": 2,
+          "syscall/js": 2,
+          "github.com/golang/geo/r1": 1,
+          "uint32": 1,
+          "uint8": 1,
+          "bool": 1,
+          "float32": 1,
+          "int8": 1,
+          "string": 1,
+          "uint": 1,
+          "uint64": 1,
+          "rune": 1,
+          "double": 1,
+          "int32": 1,
+          "float64": 1,
+          "int16": 1,
+          "int64": 1,
+          "float": 1,
+          "github.com/mitchellh/mapstructure": 1,
+          "uint16": 1,
+          "boolean": 1,
+          "github.com/fatih/camelcase": 1,
+          "github.com/leboncoin/structs": 1,
+          "logo_image_ur_ls": 1,
+          "mytype": 1,
+          "my_object": 1,
+          "my_url": 1,
+          "items": 1,
+          "symbols": 1,
+          "logo_image_url": 1,
+          "test.mytype": 1,
+          "encoding/binary": 1,
+          "github.com/fatih/structtag": 1,
+          "path": 1,
+          "unicode": 1,
+          "github.com/avast/retry-go": 1,
+          "google.golang.org/api/cloudbuild/v1": 1,
+          "gopkg.in/yaml.v2": 1,
+          "google.golang.org/appengine/datastore": 1,
+          "google.golang.org/appengine/log": 1,
+          "google.golang.org/appengine/urlfetch": 1,
+          "golang.org/x/oauth2": 1,
+          "google.golang.org/appengine": 1,
+          "cloud.google.com/go/datastore": 1,
+          "github.com/google/uuid": 1,
+          "github.com/GoogleCloudPlatform/cloud-builders-community/slackbot/slackbot": 1,
+          "github.com/aws/aws-sdk-go/aws/session": 1,
+          "github.com/aws/aws-sdk-go/aws": 1,
+          "Active": 1,
+          "go.uber.org/zap": 1,
+          "github.com/alecthomas/jsonschema": 1,
+          "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/events": 1,
+          "TERRORIST": 1,
+          "HE_GRENADE_EXPLOSION": 1,
+          "ENTITY_ID": 1,
+          "DECOY_STARTED": 1,
+          "JUMP": 1,
+          "SMOKE_EXPIRED": 1,
+          "GAME_PHASE_CHANGED": 1,
+          "SMOKE_STARTED": 1,
+          "DECOY_EXPIRED": 1,
+          "EVENT_NAME": 1,
+          "HURT": 1,
+          "FIRE_GRENADE_STARTED": 1,
+          "VICTIM": 1,
+          "ASSISTER": 1,
+          "SWAP_TEAM": 1,
+          "KILLER": 1,
+          "DISCONNECT": 1,
+          "KILL": 1,
+          "ROUND_STARTED": 1,
+          "CUSTOM": 1,
+          "COUNTER_TERRORIST": 1,
+          "FIRE": 1,
+          "FIRE_GRENADE_EXPIRED": 1,
+          "SPECTATOR": 1,
+          "UNASSIGNED": 1,
+          "MATCH_STARTED": 1,
+          "THROWER_ENTITY_ID": 1,
+          "CHAT_MESSAGE": 1,
+          "TEXT": 1,
+          "FLASHED": 1,
+          "FLASH_EXPLOSION": 1,
+          "unicode/utf8": 1,
+          "compress/gzip": 1,
+          "embed": 1,
+          "github.com/andygrunwald/vdf": 1,
+          "github.com/llgcode/draw2d/draw2dimg": 1,
+          "google.golang.org/protobuf/proto": 1,
+          "github.com/markus-wa/demoinfocs-golang/v5/pkg/demoinfocs/events": 1,
+          "github.com/markus-wa/demoinfocs-golang/v5/pkg/demoinfocs/common": 1,
+          "text/tabwriter": 1,
+          "github.com/pkg/errors": 1,
+          "math/rand": 1,
+          "github.com/stretchr/testify/mock": 1,
+          "github.com/markus-wa/demoinfocs-golang/v5/pkg/demoinfocs/sendtables": 1,
+          "github.com/oklog/ulid/v2": 1,
+          "github.com/markus-wa/demoinfocs-golang/v5/pkg/demoinfocs/constants": 1,
+          "archive/zip": 1,
+          "heatmap.png": 1,
+          "image/png": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 3,
+        "packages": {
+          "org.yaml": 2,
+          "clj_yaml": 2,
+          "com.sample": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 7,
+        "packages": {
+          "fs": 3,
+          "eslint": 1,
+          "typescript-eslint": 1,
+          "globals": 1,
+          "node:url": 1,
+          "eslint-plugin-svelte": 1,
+          "eslint-config-prettier": 1,
+          "sveltejs": 1,
+          "express": 1,
+          "zlib": 1,
+          "url": 1,
+          "http": 1,
+          "is-docker": 1,
+          "pixelmatch": 1,
+          "puppeteer": 1,
+          "path": 1,
+          "pngjs": 1,
+          "node-fetch": 1,
+          "util": 1,
+          "the": 1,
+          "dockerode": 1,
+          "child_process": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 12,
+        "packages": {
+          "sys": 5,
+          "os": 4,
+          "unittest": 3,
+          "airflow": 2,
+          "re": 2,
+          "somePython": 2,
+          "configargparse": 2,
+          "typing": 2,
+          "base_diff": 2,
+          "shutil": 2,
+          "DAG": 1,
+          "DummyOperator": 1,
+          "datetime": 1,
+          "DagBag": 1,
+          "yaml": 1,
+          "required": 1,
+          "absolute_import": 1,
+          "unicode_literals": 1,
+          "argparse": 1,
+          "print_function": 1,
+          "__future__": 1,
+          "numpy": 1,
+          "setup": 1,
+          "setuptools": 1,
+          "myPackage": 1,
+          "itertools": 1,
+          "difflib": 1,
+          "List": 1,
+          "to_opus": 1,
+          "json": 1,
+          "copyfile": 1,
+          "Callable": 1,
+          "pathlib": 1,
+          "multiprocessing": 1,
+          "Pool": 1,
+          "subprocess": 1,
+          "logging": 1,
+          "Path": 1,
+          "Popen": 1,
+          "filecmp": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 2,
+        "packages": {
+          "play.api": 2,
+          "controllers": 2,
+          "javax.inject": 1,
+          "org.scalatestplus": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 5,
+        "packages": {
+          "fs": 4,
+          "sveltejs": 2,
+          "path": 2,
+          "$env": 2,
+          "$lib": 1,
+          "mime-types": 1,
+          "tailwindcss": 1,
+          "vite": 1,
+          "octokit": 1,
+          "google-cloud": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "markus-wa/adventofcode",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "markus-wa/av",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "markus-wa/avrocado",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "markus-wa/clj-native",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "markus-wa/clj-yaml",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "markus-wa/cloud-builders-community",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Go",
+          "Java",
+          "JavaScript",
+          "Python",
+          "Scala",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "markus-wa/cloud-key-client",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "markus-wa/convert-to-opus",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "markus-wa/CounterStrikeSharp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "markus-wa/cs-demo-minifier",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "markus-wa/cs-demo-minifier-vendor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "markus-wa/demoinfocs-golang",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "markus-wa/demoinfocs-golang-vendor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "markus-wa/demoinfocs-wasm",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "markus-wa/docker_SRCDockS",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C++",
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

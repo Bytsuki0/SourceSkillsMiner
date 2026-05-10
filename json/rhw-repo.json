@@ -1,0 +1,217 @@
+{
+  "username": "rhw-repo",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.1937540062219314,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7521694708713587,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.4,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 4.6508,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "rhw-repo/css-exercises": -0.148
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.28541746791105294,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        750,
+        110
+      ],
+      "CSS": [
+        301841,
+        61
+      ],
+      "JavaScript": [
+        530722,
+        68
+      ],
+      "HTML": [
+        2552668,
+        56
+      ],
+      "Shell": [
+        81,
+        0
+      ],
+      "Dockerfile": [
+        20,
+        0
+      ],
+      "Python": [
+        554,
+        0
+      ],
+      "PHP": [
+        432,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 295,
+    "total_lines": 3387068,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 750,
+        "commits": 110
+      },
+      {
+        "language": "JavaScript",
+        "lines": 530722,
+        "commits": 68
+      },
+      {
+        "language": "CSS",
+        "lines": 301841,
+        "commits": 61
+      },
+      {
+        "language": "HTML",
+        "lines": 2552668,
+        "commits": 56
+      },
+      {
+        "language": "Shell",
+        "lines": 81,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rhw-repo",
+    "analysis_date": "2026-05-09T12:29:00.731867",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 100,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 29,
+        "packages": {
+          "react": 14,
+          "react-router-dom": 7,
+          "express": 4,
+          "mongoose": 4,
+          "dotenv": 2,
+          "jsonwebtoken": 2,
+          "globals": 1,
+          "eslint": 1,
+          "eslint-plugin-react-hooks": 1,
+          "eslint-plugin-react-refresh": 1,
+          "typescript-eslint": 1,
+          "undefined": 1,
+          "Material": 1,
+          "bcrypt": 1,
+          "validator": 1,
+          "User": 1,
+          "date-fns": 1,
+          "react-dom": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "flask": 1,
+          "Flask": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "vite": 1,
+          "vitejs": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 5,
+        "packages": {
+          "tanstack": 4,
+          "react": 3,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rhw-repo/api-reference",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "rhw-repo/basic_info_site",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rhw-repo/learning-area",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "rhw-repo/mern-content-demo",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

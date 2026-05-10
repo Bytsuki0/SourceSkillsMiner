@@ -1,0 +1,620 @@
+{
+  "username": "AdrielGarciaS",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3728216375282194,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9823093793692522,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": -0.05,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "AdrielGarciaS/github-explorer": 0.36374736842105265
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2478976608389772,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        290460,
+        254
+      ],
+      "JavaScript": [
+        483294,
+        34
+      ],
+      "HTML": [
+        8887,
+        1
+      ],
+      "CSS": [
+        477,
+        5
+      ],
+      "C++": [
+        742,
+        2
+      ],
+      "Dockerfile": [
+        1695,
+        0
+      ],
+      "Java": [
+        25084,
+        0
+      ],
+      "Ruby": [
+        22051,
+        0
+      ],
+      "Objective-C": [
+        26012,
+        0
+      ],
+      "Starlark": [
+        9151,
+        0
+      ],
+      "SCSS": [
+        1710,
+        4
+      ],
+      "Shell": [
+        61,
+        0
+      ],
+      "Python": [
+        0,
+        7
+      ],
+      "Dart": [
+        0,
+        1
+      ],
+      "Swift": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        0,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 308,
+    "total_lines": 869624,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 290460,
+        "commits": 254
+      },
+      {
+        "language": "JavaScript",
+        "lines": 483294,
+        "commits": 34
+      },
+      {
+        "language": "Python",
+        "lines": 0,
+        "commits": 7
+      },
+      {
+        "language": "CSS",
+        "lines": 477,
+        "commits": 5
+      },
+      {
+        "language": "SCSS",
+        "lines": 1710,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "AdrielGarciaS",
+    "analysis_date": "2026-05-09T12:35:18.626796",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 436,
+    "languages": {
+      "C++": {
+        "files_scanned": 11,
+        "packages": {
+          "iostream": 11,
+          "<iostream>": 11,
+          "std": 11,
+          "namespace": 11,
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "<string>": 2,
+          "string": 2,
+          "string.h": 1,
+          "<string.h>": 1,
+          "time.h": 1,
+          "<fstream>": 1,
+          "<time.h>": 1,
+          "<vector>": 1,
+          "stdlib.h": 1,
+          "fstream": 1,
+          "vector": 1,
+          "<stdlib.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 3,
+        "packages": {
+          "<UIKit/UIKit.h>": 2,
+          "<React/RCTBridgeDelegate.h>": 2,
+          "GeneratedPluginRegistrant.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 8,
+        "packages": {
+          "flutter": 8,
+          "payflow": 4,
+          "modules/login/login_page.dart": 1,
+          "shared/themes/app_colors.dart": 1,
+          "firebase_core": 1,
+          "app_widget.dart": 1,
+          "google_sign_in": 1,
+          "google_fonts": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 6,
+        "packages": {
+          "com.facebook": 6,
+          "android.content": 4,
+          "com.GoMarketplace": 3,
+          "com.challenge11": 3,
+          "okhttp3.OkHttpClient": 2,
+          "java.lang": 2,
+          "android.app": 2,
+          "java.util": 2
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 54,
+        "packages": {
+          "react": 9,
+          "yup": 9,
+          "sequelize": 8,
+          "react-native": 6,
+          "dotenv": 4,
+          "styled-components": 4,
+          "express": 3,
+          "date-fns": 3,
+          "~": 3,
+          "mongoose": 3,
+          "react-icons": 3,
+          "intl": 2,
+          "jsonwebtoken": 2,
+          "next": 2,
+          ":": 2,
+          "react-native-maps": 2,
+          "axios": 2,
+          "util": 1,
+          "bcryptjs": 1,
+          "storybook": 1,
+          "expo": 1,
+          "react-native-webview": 1,
+          "react-navigation": 1,
+          "react-navigation-stack": 1,
+          "socket.io-client": 1,
+          "express-async-errors": 1,
+          "http": 1,
+          "youch": 1,
+          "Dev": 1,
+          "cors": 1,
+          "socket.io": 1,
+          "customize-cra": 1,
+          "react-select": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 1,
+        "packages": {
+          "io.flutter": 1,
+          "com.example": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 6,
+        "packages": {
+          "React/RCTRootView.h": 4,
+          "AppDelegate.h": 4,
+          "<React/RCTRootView.h>": 4,
+          "<UIKit/UIKit.h>": 4,
+          "UIKit/UIKit.h": 4,
+          "<FlipperKitReactPlugin/FlipperKitReactPlugin.h>": 2,
+          "<FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h>": 2,
+          "React/RCTBundleURLProvider.h": 2,
+          "<React/RCTBundleURLProvider.h>": 2,
+          "FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h": 2,
+          "<SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>": 2,
+          "FlipperKit/FlipperClient.h": 2,
+          "SKIOSNetworkPlugin/SKIOSNetworkAdapter.h": 2,
+          "<FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h>": 2,
+          "<FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>": 2,
+          "FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h": 2,
+          "FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h": 2,
+          "<React/RCTBridge.h>": 2,
+          "<FlipperKit/FlipperClient.h>": 2,
+          "FlipperKitReactPlugin/FlipperKitReactPlugin.h": 2,
+          "React/RCTBridge.h": 2,
+          "XCTest/XCTest.h": 2,
+          "<XCTest/XCTest.h>": 2,
+          "<React/RCTLog.h>": 2,
+          "React/RCTLog.h": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 9,
+        "packages": {
+          "src": 5,
+          "sqlalchemy": 4,
+          "flask": 2,
+          "Column": 2,
+          "Base": 2,
+          "app": 1,
+          "Blueprint": 1,
+          "Flask": 1,
+          "event_route_bp": 1,
+          "declarative_base": 1,
+          "sessionmaker": 1,
+          "create_engine": 1,
+          "Eventos": 1,
+          "DBConnectionHandler": 1,
+          "pytest": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 4,
+        "packages": {
+          "FlutterMacOS": 3,
+          "Cocoa": 2,
+          "Flutter": 1,
+          "UIKit": 1,
+          "cloud_firestore": 1,
+          "Foundation": 1,
+          "firebase_storage": 1,
+          "path_provider_macos": 1,
+          "firebase_core": 1,
+          "firebase_auth": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 111,
+        "packages": {
+          "typeorm": 24,
+          "styled-components": 23,
+          "express": 14,
+          "modules": 13,
+          "next": 9,
+          "tsyringe": 8,
+          "services": 7,
+          "drizzle-orm": 7,
+          "shared": 6,
+          "axios": 6,
+          "path": 6,
+          "zod": 5,
+          "fastify-type-provider-zod": 5,
+          "multer": 4,
+          "supertest": 3,
+          "express-async-errors": 3,
+          "cors": 3,
+          "reflect-metadata": 3,
+          "testing-library": 3,
+          "react-native": 3,
+          "nookies": 3,
+          "server": 3,
+          "import_template.csv": 2,
+          ").attach(": 2,
+          "dotenv": 2,
+          "crypto": 2,
+          "default": 2,
+          "fs": 2,
+          "csv-parse": 2,
+          "unform": 2,
+          "jwt-decode": 2,
+          "jsonwebtoken": 2,
+          "uuid": 2,
+          "firebase": 2,
+          "polished": 1,
+          "react-router-dom": 1,
+          "react-native-vector-icons": 1,
+          "vite": 1,
+          "vitejs": 1,
+          "prismicio": 1,
+          "whatwg-fetch": 1,
+          "utils": 1,
+          "date-fns": 1,
+          "prismic-javascript": 1,
+          "drizzle-kit": 1,
+          "postgres": 1,
+          "audio_chunks": 1,
+          "questions": 1,
+          "rooms": 1,
+          "drizzle-seed": 1,
+          "fastify": 1,
+          "google": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 115,
+        "packages": {
+          "react": 78,
+          "next": 21,
+          "testing-library": 13,
+          "react-router-dom": 12,
+          "chakra-ui": 12,
+          "react-native": 11,
+          "radix-ui": 9,
+          "styles": 9,
+          "react-icons": 8,
+          "axios-mock-adapter": 8,
+          "react-navigation": 7,
+          "react-native-vector-icons": 7,
+          "contexts": 7,
+          "components": 6,
+          "storybook": 5,
+          "ts-jest": 4,
+          "prismic-dom": 4,
+          "prismic-javascript": 4,
+          "react-dom": 3,
+          "React": 3,
+          "unform": 3,
+          "clsx": 3,
+          "}": 2,
+          "react-native-community": 2,
+          "react-native-gesture-handler": 2,
+          "phosphor-react": 2,
+          "querystring": 2,
+          "react-datepicker": 2,
+          "repositories": 2,
+          "utils": 2,
+          "zod": 2,
+          "hookform": 2,
+          "react-hook-form": 2,
+          "lucide-react": 2,
+          "class-variance-authority": 2,
+          "react-dropzone": 1,
+          "react-modal": 1,
+          "nookies": 1,
+          "js-cookie": 1,
+          "server": 1,
+          "use-debounce": 1,
+          "services": 1,
+          "modules": 1,
+          "styled-components": 1,
+          "tanstack": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "AdrielGarciaS/challenge-nodejs-relations",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/ExerciciosLogica",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/github-explorer",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/GoFinances",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/gomarketplace",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/GoRestaurantMobile",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/GoRestaurantWeb",
+        "files_analyzed": 24,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/gympoint",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/Hangman",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/ignite-class01-react",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/ignite-lab-design-system",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/ignite-template-reactjs-criando-um-projeto-do-zero",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/modulo02-nodejs-desafio02",
+        "files_analyzed": 20,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/move.it",
+        "files_analyzed": 13,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/movies-dev",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/mvp-project",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/nextjs-test-features",
+        "files_analyzed": 15,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/nlw-2025-python",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/nlw-agents",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/payflow",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "AdrielGarciaS/semanaOmniStack10",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

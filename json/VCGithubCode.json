@@ -1,0 +1,467 @@
+{
+  "username": "VCGithubCode",
+  "areas": {
+    "OSS": {
+      "score": 0.6356094162672878,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9534141244009317
+      }
+    },
+    "Status": {
+      "score": 0.30611386377211947,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9207092571966408,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.65625,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 27,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "VCGithubCode/access-granted": 0.807
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6195946560078816,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Ruby": [
+        226186,
+        0
+      ],
+      "HTML": [
+        301507,
+        460
+      ],
+      "SCSS": [
+        122809,
+        0
+      ],
+      "JavaScript": [
+        1304992,
+        333
+      ],
+      "CSS": [
+        58323,
+        225
+      ],
+      "CoffeeScript": [
+        3887,
+        0
+      ],
+      "Dockerfile": [
+        410,
+        34
+      ],
+      "Shell": [
+        19533,
+        0
+      ],
+      "Procfile": [
+        210,
+        0
+      ],
+      "Python": [
+        738548,
+        109
+      ],
+      "TypeScript": [
+        13619,
+        0
+      ],
+      "Jupyter Notebook": [
+        2096459,
+        0
+      ],
+      "PowerShell": [
+        0,
+        0
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        0
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 1161,
+    "total_lines": 4886483,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 301507,
+        "commits": 460
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1304992,
+        "commits": 333
+      },
+      {
+        "language": "CSS",
+        "lines": 58323,
+        "commits": 225
+      },
+      {
+        "language": "Python",
+        "lines": 738548,
+        "commits": 109
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 410,
+        "commits": 34
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "VCGithubCode",
+    "analysis_date": "2026-05-08T23:41:18.615051",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 266,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 68,
+        "packages": {
+          "react": 28,
+          "hyperapp": 21,
+          "components": 11,
+          "react-dom": 8,
+          "undefined": 8,
+          "next": 8,
+          "__esModule": 7,
+          "object": 7,
+          "data": 7,
+          "|": 6,
+          "alt-attribute.md": 6,
+          "function": 6,
+          "path": 5,
+          "react-icons": 5,
+          "framer-motion": 4,
+          "chalk": 3,
+          "fs-extra": 3,
+          "feather-icons": 2,
+          "prismjs": 2,
+          "utils": 2,
+          "prop-types": 1,
+          "markdown-builder": 1,
+          "focus-visible": 1,
+          "marked": 1,
+          "div": 1,
+          "eslint": 1,
+          "commitlint": 1,
+          "axios": 1,
+          "formik": 1,
+          "yup": 1,
+          "multiselect-react-dropdown": 1,
+          "assets": 1,
+          "4c.config": 1,
+          "next-seo": 1,
+          "media": 1,
+          "resolveUrl": 1,
+          "t": 1,
+          "undefined\\": 1,
+          "\\\\n": 1,
+          "\\": 1,
+          "type\\": 1,
+          "\\\\n\\\\n": 1,
+          "binarySearch.GREATEST_LOWER_BOUND": 1,
+          "import": 1,
+          "Module": 1,
+          "out.js\\": 1,
+          "Must": 1,
+          "css": 1,
+          "html-webpack-plugin": 1,
+          "use": 1,
+          "rollup-plugin-ts": 1,
+          "rollup": 1,
+          "fs": 1,
+          "\\\\.\\\\": 1,
+          "rollup-plugin-filesize": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 5,
+        "packages": {
+          "react": 5,
+          "react-icons": 2,
+          "components": 2,
+          "next": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 52,
+        "packages": {
+          "torch": 20,
+          "streamlit": 16,
+          "os": 15,
+          "typing": 13,
+          "labml": 13,
+          "labml_nn": 11,
+          "base64": 10,
+          "tempfile": 10,
+          "gc": 10,
+          "labml_helpers": 10,
+          "time": 9,
+          "Module": 8,
+          "crewai": 7,
+          "dotenv": 7,
+          "load_dotenv": 7,
+          "experiment": 7,
+          "nn": 7,
+          "Agent": 6,
+          "uuid": 6,
+          "llama_index": 6,
+          "ollama": 5,
+          "numpy": 5,
+          "option": 5,
+          "PIL": 4,
+          "Image": 4,
+          "crewai_tools": 4,
+          "DocumentSearchTool": 4,
+          "IPython": 4,
+          "Markdown": 4,
+          "random": 4,
+          "PromptTemplate": 4,
+          "Settings": 4,
+          "VectorStoreIndex": 4,
+          "HuggingFaceEmbedding": 4,
+          "io": 3,
+          "tqdm": 3,
+          "json": 3,
+          "SerperDevTool": 3,
+          "src": 3,
+          "qdrant_client": 3,
+          "QdrantClient": 3,
+          "Ollama": 3,
+          "BaseConfigs": 3,
+          "Tuple": 3,
+          "List": 3,
+          "FireCrawlWebSearchTool": 2,
+          "agentic_rag": 2,
+          "pydantic": 2,
+          "BaseModel": 2,
+          "Optional": 2,
+          "datetime": 2,
+          "rag_code": 2,
+          "EmbedData": 2,
+          "models": 2,
+          "MultiModalityCausalLM": 2,
+          "transformers": 2,
+          "pandas": 2,
+          "gitingest": 2,
+          "ingest": 2,
+          "MarkdownNodeParser": 2,
+          "chainlit": 2,
+          "Swarm": 2,
+          "swarm": 2,
+          "inspect": 2,
+          "math": 2,
+          "NLPAutoRegressionConfigs": 2,
+          "SimpleTrainValidConfigs": 2,
+          "Any": 2,
+          "AccuracyDirect": 2,
+          "DenoiseDiffusion": 2,
+          "torchvision": 2,
+          "mymodule": 1,
+          "generate_full_name": 1,
+          "Flask": 1,
+          "flask": 1,
+          "brightdata_scrapper": 1,
+          "*": 1,
+          "yaml": 1,
+          "FileReadTool": 1,
+          "subprocess": 1,
+          "CrewBase": 1,
+          "PDFSearchTool": 1,
+          "AgenticRag": 1,
+          "sys": 1,
+          "warnings": 1,
+          "markitdown": 1,
+          "MarkItDown": 1,
+          "SemanticChunker": 1,
+          "BaseTool": 1,
+          "chonkie": 1,
+          "Type": 1,
+          "the": 1,
+          "types": 1,
+          "imagine": 1,
+          "ImagineChat": 1,
+          "SimpleNamespace": 1,
+          "requests": 1,
+          "convert_from_path": 1,
+          "pdf2image": 1,
+          "colpali_engine": 1,
+          "load_pil_images": 1,
+          "ColPali": 1,
+          "AutoModelForCausalLM": 1,
+          "BytesIO": 1,
+          "Janus": 1,
+          "chat": 1,
+          "re": 1,
+          "SimpleDirectoryReader": 1,
+          "openai": 1,
+          "SambaNovaCloud": 1,
+          "AutoConfig": 1,
+          "janus": 1,
+          "duckduckgo_search": 1,
+          "DDGS": 1,
+          "PyTorch": 1,
+          "functional": 1,
+          "TimeMixing": 1,
+          "RWKV": 1,
+          "RWKVConfigs": 1,
+          "subsequent_mask": 1,
+          "FTA": 1,
+          "copy": 1,
+          "MultiHeadAttention": 1,
+          "Dataset": 1,
+          "DataLoader": 1,
+          "ParityPonderGRU": 1,
+          "ParityDataset": 1,
+          "tracker": 1,
+          "Squash": 1,
+          "MNISTConfigs": 1,
+          "NewType": 1,
+          "monit": 1,
+          "IndicatorCollection": 1,
+          "analytics": 1,
+          "altair": 1,
+          "Dict": 1,
+          "pathlib": 1,
+          "InfoSet": 1,
+          "History": 1,
+          "InfoSetSaver": 1,
+          "clone_module_list": 1,
+          "ConvMixerLayer": 1,
+          "CIFAR10Configs": 1,
+          "gather": 1,
+          "pyplot": 1,
+          "Configs": 1,
+          "matplotlib": 1,
+          "to_pil_image": 1,
+          "imageio": 1,
+          "UNet": 1,
+          "DeviceConfigs": 1,
+          "lab": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 28,
+        "packages": {
+          "vitest": 27,
+          "a": 3,
+          "cross-fetch": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "VCGithubCode/30-Days-Of-Python",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "VCGithubCode/30-Days-Of-React",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "VCGithubCode/30-seconds-of-interviews",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "VCGithubCode/4c-site",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "VCGithubCode/advanced-patterns-workshop",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "VCGithubCode/ai-engineering-hub",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "VCGithubCode/Animatopy",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "VCGithubCode/anime",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "VCGithubCode/annotated_deep_learning_paper_implementations",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,593 @@
+{
+  "username": "HYP3R00T",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333333,
+      "details": {
+        "issue_resolution_rate": 0.75,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 12,
+        "language_transitions": 14,
+        "topic_entropy_bits": 5.7623,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "HYP3R00T/agents": 0.8126
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7461538461538462,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        367872,
+        302
+      ],
+      "Jinja": [
+        92790,
+        10
+      ],
+      "Vim Script": [
+        19,
+        0
+      ],
+      "Dockerfile": [
+        6613,
+        78
+      ],
+      "Python": [
+        20300570,
+        905
+      ],
+      "HCL": [
+        170,
+        115
+      ],
+      "Roff": [
+        208142,
+        0
+      ],
+      "PowerShell": [
+        10123,
+        18
+      ],
+      "Batchfile": [
+        3182,
+        0
+      ],
+      "Rich Text Format": [
+        2415,
+        0
+      ],
+      "HTML": [
+        4474,
+        68
+      ],
+      "C#": [
+        1490,
+        0
+      ],
+      "ANTLR": [
+        1078,
+        0
+      ],
+      "JavaScript": [
+        30443,
+        14
+      ],
+      "Bicep": [
+        699,
+        0
+      ],
+      "CSS": [
+        10967,
+        100
+      ],
+      "TSQL": [
+        229,
+        0
+      ],
+      "Jupyter Notebook": [
+        78,
+        0
+      ],
+      "EJS": [
+        61,
+        0
+      ],
+      "MDX": [
+        839533,
+        357
+      ],
+      "TypeScript": [
+        3479874,
+        256
+      ],
+      "Astro": [
+        32329,
+        307
+      ],
+      "D2": [
+        0,
+        19
+      ],
+      "Go Template": [
+        0,
+        150
+      ],
+      "Rust": [
+        0,
+        0
+      ],
+      "XSLT": [
+        0,
+        82
+      ],
+      "Go": [
+        0,
+        10
+      ],
+      "Lua": [
+        0,
+        1
+      ]
+    },
+    "language_count": 28,
+    "total_commits": 2792,
+    "total_lines": 25393151,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 20300570,
+        "commits": 905
+      },
+      {
+        "language": "MDX",
+        "lines": 839533,
+        "commits": 357
+      },
+      {
+        "language": "Astro",
+        "lines": 32329,
+        "commits": 307
+      },
+      {
+        "language": "Shell",
+        "lines": 367872,
+        "commits": 302
+      },
+      {
+        "language": "TypeScript",
+        "lines": 3479874,
+        "commits": 256
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "HYP3R00T",
+    "analysis_date": "2026-05-09T23:45:27.945664",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 182,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "plyr": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 111,
+        "packages": {
+          "typing": 32,
+          "annotations": 28,
+          "__future__": 28,
+          "costcutter": 23,
+          "logging": 20,
+          "Path": 18,
+          "pathlib": 18,
+          "streamlit": 18,
+          "distributionsolver": 18,
+          "corridorkey": 16,
+          "dotf": 16,
+          "Any": 15,
+          "boto3": 15,
+          "Session": 15,
+          "ansitoolkit": 11,
+          "Annotated": 11,
+          "get_reporter": 11,
+          "botocore": 11,
+          "ClientError": 11,
+          "beaupy": 10,
+          "rich": 10,
+          "concurrent": 10,
+          "ThreadPoolExecutor": 10,
+          "DeltaGenerator": 10,
+          "collections": 9,
+          "numpy": 9,
+          "pydantic": 9,
+          "BaseModel": 9,
+          "_get_account_id": 9,
+          "sympy": 9,
+          "Callable": 8,
+          "typer": 8,
+          "matplotlib": 8,
+          "yakh": 7,
+          "scipy": 7,
+          "re": 6,
+          "ward": 6,
+          "unittest": 6,
+          "console": 6,
+          "corridorkey_cli": 6,
+          "Live": 5,
+          "Config": 5,
+          "pytest": 5,
+          "Table": 5,
+          "CorridorKeyConfig": 5,
+          "torch": 4,
+          "Abort": 4,
+          "math": 4,
+          "Console": 4,
+          "time": 4,
+          "fixture": 4,
+          "_beaupy": 4,
+          "Keys": 4,
+          "mock": 4,
+          "APP_NAME": 4,
+          "utilityhub_config": 4,
+          "setup_logging": 4,
+          "load_config": 4,
+          "List": 3,
+          "enum": 3,
+          "Enum": 3,
+          "prompt": 3,
+          "questo": 3,
+          "Key": 3,
+          "contextlib": 3,
+          "print_config_table": 3,
+          "sys": 3,
+          "threading": 3,
+          "dataclasses": 3,
+          "datetime": 3,
+          "select": 2,
+          "functools": 2,
+          "warnings": 2,
+          "MagicMock": 2,
+          "FPDF": 2,
+          "Dict": 2,
+          "fpdf": 2,
+          "Panel": 2,
+          "box": 2,
+          "Confirm": 2,
+          "Text": 2,
+          "PipelineEvents": 2,
+          "BarColumn": 2,
+          "ensure_config_file": 2,
+          "platform": 2,
+          "WriteConfig": 2,
+          "Clip": 2,
+          "PostprocessConfig": 2,
+          "dataclass": 2,
+          "PreprocessSettings": 2,
+          "LoggingSettings": 2,
+          "WriterSettings": 2,
+          "InferenceSettings": 2,
+          "PostprocessSettings": 2,
+          "load_settings": 2,
+          "PipelineConfig": 2,
+          "os": 2,
+          "orchestrate_services": 2,
+          "create_aws_session": 2,
+          "show_geometric_distribution": 2,
+          "show_binomial_distribution": 2,
+          "show_normal_distribution": 2,
+          "show_uniform_distribution": 2,
+          "show_hypergeometric_distribution": 2,
+          "show_negative_binomial_distribution": 2,
+          "show_poisson_distribution": 2,
+          "show_exponential_distribution": 2,
+          "parse_dockerfile": 2,
+          "app": 2,
+          "dotenv": 1,
+          "gradio": 1,
+          "load_dotenv": 1,
+          "worker": 1,
+          "RecursiveCharacterTextSplitter": 1,
+          "langchain": 1,
+          "langchain_ollama": 1,
+          "HuggingFaceEmbeddings": 1,
+          "langchain_huggingface": 1,
+          "RetrievalQA": 1,
+          "Chroma": 1,
+          "langchain_community": 1,
+          "PyPDFLoader": 1,
+          "OllamaLLM": 1,
+          "CursorMovement": 1,
+          "ScreenControl": 1,
+          "Ansi256Colors": 1,
+          "KeyboardAndInputModes": 1,
+          "DeviceStatus": 1,
+          "Effects": 1,
+          "CursorShape": 1,
+          "ScrollingRegion": 1,
+          "GraphicsAndCharacterSets": 1,
+          "ansi_rgb_color_sequence": 1,
+          "Ansi256ColorSelector": 1,
+          "ansi_cursor_movement_sequence": 1,
+          "AnsiCursorMovement": 1,
+          "ansi_cursor_shape_sequence": 1,
+          "AnsiCursorShape": 1,
+          "AnsiDeviceStatus": 1,
+          "ansi_device_status_sequence": 1,
+          "ansi_effect_sequence": 1,
+          "AnsiEffect": 1,
+          "ansi_graphics_and_character_set_sequence": 1,
+          "AnsiGraphicsAndCharacterSets": 1,
+          "AnsiKeyboardAndInputModes": 1,
+          "ansi_keyboard_and_input_mode_sequence": 1,
+          "AnsiScreenControl": 1,
+          "ansi_screen_control_sequence": 1,
+          "AnsiScrollingRegion": 1,
+          "ansi_scrolling_region_sequence": 1,
+          "FastAPI": 1,
+          "fastapi": 1,
+          "Union": 1,
+          "partial": 1,
+          "get_key": 1,
+          "contextmanager": 1,
+          "copy": 1,
+          "literal_eval": 1,
+          "emoji": 1,
+          "ast": 1,
+          "Style": 1,
+          "itertools": 1,
+          "cycle": 1,
+          "*": 1,
+          "test": 1,
+          "_render_prompt": 1,
+          "ConversionError": 1,
+          "_spinners": 1,
+          "raises": 1,
+          "core": 1,
+          "main": 1,
+          "subprocess": 1,
+          "typing_extensions": 1,
+          "generate_cheatsheet": 1,
+          "cheatsheetify": 1,
+          "track": 1,
+          "generate_pdf": 1,
+          "ensure_model": 1,
+          "reset": 1,
+          "load_model": 1,
+          "init": 1,
+          "config": 1,
+          "PipelineRunner": 1,
+          "load": 1,
+          "RichPrinter": 1,
+          "write_config": 1,
+          "detect_gpu": 1,
+          "MODEL_FILENAME": 1,
+          "shutil": 1,
+          "everything": 1,
+          "ClipEntry": 1,
+          "ClipManifest": 1,
+          "GPUInfo": 1,
+          "linear_to_srgb_lut": 1,
+          "default_checkpoint_path": 1,
+          "InferenceConfig": 1,
+          "_probe_vram_gb": 1,
+          "PreprocessConfig": 1,
+          "DeviceError": 1,
+          "hashlib": 1,
+          "ModelError": 1,
+          "urllib": 1,
+          "from": 1,
+          "count_frames": 1,
+          "InvalidStateTransitionError": 1,
+          "is_video": 1,
+          "run": 1,
+          "Figlet": 1,
+          "pyfiglet": 1,
+          "suppress": 1,
+          "cleanup_s3": 1,
+          "cleanup_ec2": 1,
+          "graphlib": 1,
+          "get_handler_for_resource": 1,
+          "TopologicalSorter": 1,
+          "RESOURCE_DEPENDENCIES": 1,
+          "csv": 1,
+          "Iterable": 1,
+          "UTC": 1,
+          "asdict": 1,
+          "wraps": 1,
+          "cleanup_elastic_ips": 1,
+          "cleanup_key_pairs": 1,
+          "cleanup_instances": 1,
+          "cleanup_security_groups": 1,
+          "cleanup_snapshots": 1,
+          "cleanup_volumes": 1,
+          "cleanup_applications": 1,
+          "cleanup_environments": 1,
+          "cleanup_buckets": 1,
+          "Iterator": 1,
+          "bucket": 1,
+          "SimpleNamespace": 1,
+          "types": 1,
+          "_render_summary_table": 1,
+          "AWSSettings": 1,
+          "catalog_elastic_ips": 1,
+          "instances": 1,
+          "binom": 1,
+          "expon": 1,
+          "geom": 1,
+          "hypergeom": 1,
+          "nbinom": 1,
+          "norm": 1,
+          "poisson": 1,
+          "analyze_instructions": 1,
+          "yaml": 1,
+          "json": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 10,
+        "packages": {
+          "astro": 4,
+          "storybook": 3,
+          "type": 2,
+          "data": 2,
+          "astro:content": 2
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 35,
+        "packages": {
+          "compositions": 22,
+          "react": 15,
+          "recharts": 9,
+          "chakra-ui": 7,
+          "radix-ui": 6,
+          "lucide-react": 5,
+          "class-variance-authority": 3,
+          "fuse.js": 1,
+          "react-dom": 1,
+          "cmdk": 1,
+          "storybook": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "HYP3R00T/AI_PDF_Assistant",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "HYP3R00T/AnsiToolkit",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "HYP3R00T/banking_system",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "HYP3R00T/beaupy",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "HYP3R00T/CelestialDocs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "HYP3R00T/chakra-ui",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "HYP3R00T/Cheatsheetify",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "HYP3R00T/CorridorKeyFork",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "HYP3R00T/CostCutter",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "HYP3R00T/devcontainer-astro-template",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "HYP3R00T/DistributionSolver",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "HYP3R00T/DockCheck",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

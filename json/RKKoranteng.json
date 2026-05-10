@@ -1,0 +1,215 @@
+{
+  "username": "RKKoranteng",
+  "areas": {
+    "OSS": {
+      "score": 0.6977777777777778,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.88,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": -0.05,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "RKKoranteng/elda-to": 0.1591,
+        "RKKoranteng/jireh-investments-realtors": 0.20515,
+        "RKKoranteng/RKKoranteng": 0.0772
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4616068376068377,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        75430,
+        99
+      ],
+      "CSS": [
+        803643,
+        467
+      ],
+      "HTML": [
+        218357,
+        189
+      ],
+      "PHP": [
+        89644,
+        1
+      ],
+      "Hack": [
+        98,
+        0
+      ],
+      "Shell": [
+        17718,
+        129
+      ],
+      "TSQL": [
+        75,
+        1
+      ],
+      "SCSS": [
+        60284,
+        10
+      ],
+      "Ruby": [
+        2423,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 896,
+    "total_lines": 1267672,
+    "top_5_languages": [
+      {
+        "language": "CSS",
+        "lines": 803643,
+        "commits": 467
+      },
+      {
+        "language": "HTML",
+        "lines": 218357,
+        "commits": 189
+      },
+      {
+        "language": "Shell",
+        "lines": 17718,
+        "commits": 129
+      },
+      {
+        "language": "JavaScript",
+        "lines": 75430,
+        "commits": 99
+      },
+      {
+        "language": "SCSS",
+        "lines": 60284,
+        "commits": 10
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "RKKoranteng",
+    "analysis_date": "2026-05-09T21:15:57.911300",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 69,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 12,
+        "packages": {
+          "use": 5,
+          "a": 4,
+          "path": 2,
+          "jQuery": 2,
+          "undefined": 2,
+          "[object": 2,
+          "express": 1,
+          "cors": 1,
+          "axios": 1,
+          "dotenv": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1,
+          "t.write(": 1,
+          "object": 1,
+          "{{": 1,
+          "rollup-plugin-license": 1,
+          "rollup": 1,
+          "util": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "wp-admin/includes/plugin-install.php": 1,
+          "wp-admin/includes/class-wp-upgrader.php": 1,
+          "wp-admin/includes/class-wp-list-table.php": 1,
+          "wp-admin/includes/plugin.php": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "RKKoranteng/ask-rk",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "RKKoranteng/elda-to",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "RKKoranteng/jireh-investments-realtors",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "RKKoranteng/rkkoranteng-blog",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "RKKoranteng/rkkoranteng-website",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

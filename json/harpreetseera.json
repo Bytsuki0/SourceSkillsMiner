@@ -1,0 +1,638 @@
+{
+  "username": "harpreetseera",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.218979873103192,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7900082711932495,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.1875,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "harpreetseera/flutter_account_selector": -0.6486
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.13962930795397177,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Vue": [
+        25285,
+        0
+      ],
+      "JavaScript": [
+        21803,
+        4
+      ],
+      "HTML": [
+        55947,
+        11
+      ],
+      "CSS": [
+        61,
+        0
+      ],
+      "Dart": [
+        3867656,
+        108
+      ],
+      "Swift": [
+        8338,
+        2
+      ],
+      "Kotlin": [
+        11321,
+        0
+      ],
+      "Objective-C": [
+        2200,
+        0
+      ],
+      "Java": [
+        106593,
+        9
+      ],
+      "Ruby": [
+        2546,
+        3
+      ],
+      "C++": [
+        8000,
+        33
+      ],
+      "CMake": [
+        6775,
+        28
+      ],
+      "C": [
+        513,
+        1
+      ],
+      "Pug": [
+        28318,
+        6
+      ],
+      "SCSS": [
+        10839,
+        2
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 207,
+    "total_lines": 4156195,
+    "top_5_languages": [
+      {
+        "language": "Dart",
+        "lines": 3867656,
+        "commits": 108
+      },
+      {
+        "language": "C++",
+        "lines": 8000,
+        "commits": 33
+      },
+      {
+        "language": "CMake",
+        "lines": 6775,
+        "commits": 28
+      },
+      {
+        "language": "HTML",
+        "lines": 55947,
+        "commits": 11
+      },
+      {
+        "language": "Java",
+        "lines": 106593,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "harpreetseera",
+    "analysis_date": "2026-05-09T19:05:41.992543",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 367,
+    "languages": {
+      "C++": {
+        "files_scanned": 18,
+        "packages": {
+          "generated_plugin_registrant.h": 6,
+          "my_application.h": 6,
+          "flutter/generated_plugin_registrant.h": 5,
+          "flutter_window.h": 4,
+          "<flutter_linux/flutter_linux.h>": 3,
+          "<gdk/gdkx.h>": 3,
+          "flutter_linux/flutter_linux.h": 3,
+          "gdk/gdkx.h": 3,
+          "windows.h": 3,
+          "<windows.h>": 3,
+          "utils.h": 3,
+          "<optional>": 2,
+          "optional": 2,
+          "<flutter/dart_project.h>": 2,
+          "flutter/flutter_view_controller.h": 2,
+          "flutter/dart_project.h": 2,
+          "<flutter/flutter_view_controller.h>": 2,
+          "<flutter_windows.h>": 2,
+          "flutter_windows.h": 2,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "<io.h>": 1,
+          "iostream": 1,
+          "io.h": 1,
+          "<iostream>": 1,
+          "resource.h": 1,
+          "EnableNonClientDpiScaling": 1,
+          "win32_window.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 29,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 10,
+          "<Flutter/Flutter.h>": 7,
+          "<UIKit/UIKit.h>": 5,
+          "flutter_linux/flutter_linux.h": 3,
+          "<flutter_linux/flutter_linux.h>": 3,
+          "<gtk/gtk.h>": 3,
+          "gtk/gtk.h": 3,
+          "memory": 3,
+          "<memory>": 3,
+          "<flutter/plugin_registry.h>": 2,
+          "flutter/plugin_registry.h": 2,
+          "<flutter/dart_project.h>": 2,
+          "flutter/flutter_view_controller.h": 2,
+          "flutter/dart_project.h": 2,
+          "win32_window.h": 2,
+          "<flutter/flutter_view_controller.h>": 2,
+          "string": 2,
+          "<string>": 2,
+          "vector": 1,
+          "<vector>": 1,
+          "windows.h": 1,
+          "<windows.h>": 1,
+          "<functional>": 1,
+          "functional": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 154,
+        "packages": {
+          "flutter": 98,
+          "dart:async": 21,
+          "flutter_test": 16,
+          "timer": 16,
+          "saviour": 14,
+          "dart:io": 12,
+          "wallet_connect_poc": 12,
+          "flutter_advanced_networkimage": 9,
+          "hyperhire_assignment": 9,
+          "cloud_firestore": 8,
+          "itup": 8,
+          "dart:typed_data": 7,
+          "flutter_svg": 7,
+          "dart:ui": 7,
+          "dart:convert": 7,
+          "flutter_bloc": 7,
+          "path_provider": 6,
+          "path": 6,
+          "dart:collection": 6,
+          "account_selector": 5,
+          "http": 5,
+          "dart:math": 5,
+          "calc_example": 5,
+          "equatable": 5,
+          "portfolio_harpreet": 5,
+          "get_it": 5,
+          "mobx": 5,
+          "test": 4,
+          "insta_feed_app": 4,
+          "cached_network_image": 4,
+          "shared_preferences": 4,
+          "quiver": 4,
+          "provider": 4,
+          "google_fonts": 3,
+          "firebase_storage": 3,
+          "iterable.dart": 3,
+          "flutter_mobx": 3,
+          "torchpro": 2,
+          "intl": 2,
+          "milestone_progress": 2,
+          "assets_audio_player": 2,
+          "walletconnect_flutter_v2": 2,
+          "qr_code_scanner": 2,
+          "carousel_slider": 1,
+          "font_awesome_flutter": 1,
+          "brandz_garage": 1,
+          "home_screen.dart": 1,
+          "advanced_provider": 1,
+          "async": 1,
+          "pool": 1,
+          "raw_image.dart": 1,
+          "transition_widget": 1,
+          "zoomable_widget": 1,
+          "media_notification": 1,
+          "meta": 1,
+          "torchpro_example": 1,
+          "universal_io": 1,
+          "flutter_cache_manager": 1,
+          "firebase_messaging": 1,
+          "google_maps_flutter_heatmap": 1,
+          "image_picker": 1,
+          "firebase_auth": 1,
+          "google_sign_in": 1,
+          "geolocator": 1,
+          "auto_size_text": 1,
+          "example": 1,
+          "quiver.async": 1,
+          "quiver.cache": 1,
+          "quiver.check": 1,
+          "quiver.collection": 1,
+          "quiver.core": 1,
+          "quiver.iterables": 1,
+          "quiver.pattern": 1,
+          "cache.dart": 1,
+          "english_words": 1,
+          "startup_namer": 1,
+          "ui/screens/home_screen.dart": 1,
+          "drift": 1,
+          "app_settings": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 37,
+        "packages": {
+          "com.example": 27,
+          "android.content": 20,
+          "android.support": 19,
+          "android.os": 16,
+          "static": 11,
+          "android.widget": 11,
+          "android.util": 11,
+          "java.util": 10,
+          "android.view": 10,
+          "com.harpreetdev": 10,
+          "org.junit": 8,
+          "android.app": 8,
+          "android.net": 7,
+          "android.media": 6,
+          "io.flutter": 6,
+          "android.graphics": 4,
+          "android.arch": 4,
+          "com.google": 2,
+          "com.squareup": 2,
+          "org.json": 2,
+          "android.text": 2,
+          "androidx.work": 2,
+          "android.preference": 2,
+          "androidx.core": 1,
+          "java.net": 1,
+          "com.android": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 15,
+        "packages": {
+          "path": 9,
+          "shelljs": 6,
+          "vue": 5,
+          "fs": 4,
+          "concurrently": 2,
+          "axios": 1,
+          "roboto-fontface": 1,
+          "material-design-icons-iconfont": 1,
+          "vue-axios": 1,
+          "vuetify": 1,
+          "register-service-worker": 1,
+          "vue-router": 1,
+          "vuex": 1,
+          "pug": 1,
+          "prettier": 1,
+          "postcss": 1,
+          "${stylesPath}": 1,
+          "autoprefixer": 1,
+          "sass": 1,
+          "chokidar": 1,
+          "lodash": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 42,
+        "packages": {
+          "com.trustwallet": 30,
+          "wallet.core": 30,
+          "org.junit": 30,
+          "com.google": 15,
+          "com.example": 12,
+          "io.flutter": 12,
+          "androidx.annotation": 1,
+          "kotlinx.coroutines": 1,
+          "android.util": 1,
+          "com.trustwalval": 1,
+          "org.json": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 12,
+        "packages": {
+          "AppDelegate.h": 10,
+          "GeneratedPluginRegistrant.h": 5,
+          "<UIKit/UIKit.h>": 5,
+          "Flutter/Flutter.h": 5,
+          "UIKit/UIKit.h": 5,
+          "<Flutter/Flutter.h>": 5,
+          "<MediaPlayer/MediaPlayer.h>": 2,
+          "<AVFoundation/AVFoundation.h>": 2,
+          "MediaPlayer/MediaPlayer.h": 2,
+          "AVFoundation/AVFoundation.h": 2,
+          "MediaNotificationPlugin.h": 1,
+          "AVFoundation/AVPlayer.h": 1,
+          "<AVFoundation/AVPlayer.h>": 1,
+          "<torchpro/torchpro-Swift.h>": 1,
+          "torchpro-Swift.h": 1,
+          "TorchproPlugin.h": 1,
+          "torchpro/torchpro-Swift.h": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 25,
+        "packages": {
+          "Flutter": 14,
+          "UIKit": 14,
+          "FlutterMacOS": 11,
+          "Cocoa": 8,
+          "XCTest": 5,
+          "Foundation": 3,
+          "sqflite": 2,
+          "path_provider_foundation": 2,
+          "shared_preferences_foundation": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "harpreetseera/aura",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "harpreetseera/brandz-garage_poc",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "harpreetseera/ChitChat",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "harpreetseera/flutter_account_selector",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "harpreetseera/flutter_advanced_networkimage",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "harpreetseera/flutter_media_notification",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "harpreetseera/flutter_torch_pro",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "harpreetseera/git-existing",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "harpreetseera/gta_ghaziabad",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "harpreetseera/hack20_flutter_saviour",
+        "files_analyzed": 23,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "harpreetseera/harpreetseera.github.io",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "harpreetseera/hyperhire_demo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "harpreetseera/i_tupple_demo",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "harpreetseera/MilestoneProgressView",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "harpreetseera/MusicSearch",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "harpreetseera/Notes",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "harpreetseera/PianoDemoApp",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "harpreetseera/portfolio-harpreet",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "harpreetseera/quiver-dart",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Dart"
+        ]
+      },
+      {
+        "repository": "harpreetseera/startup-namer",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "harpreetseera/timer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "harpreetseera/wallet-connect_poc",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "harpreetseera/wallet-core",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      }
+    ]
+  }
+}

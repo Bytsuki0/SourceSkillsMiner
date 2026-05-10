@@ -1,0 +1,508 @@
+{
+  "username": "asancheza",
+  "areas": {
+    "OSS": {
+      "score": 0.20614543583667588,
+      "details": {
+        "issue_resolution_rate": 0.1,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.709218153755014
+      }
+    },
+    "Status": {
+      "score": 0.19076082045206055,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.709218153755014,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.166667,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.1127146512577473,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        77624,
+        0
+      ],
+      "HTML": [
+        47351,
+        21
+      ],
+      "Dockerfile": [
+        131,
+        0
+      ],
+      "Shell": [
+        116620,
+        0
+      ],
+      "Roff": [
+        4055,
+        13
+      ],
+      "JavaScript": [
+        7012755,
+        0
+      ],
+      "CoffeeScript": [
+        495400,
+        0
+      ],
+      "CSS": [
+        104977,
+        0
+      ],
+      "Batchfile": [
+        3746,
+        0
+      ],
+      "PHP": [
+        7243,
+        0
+      ],
+      "ApacheConf": [
+        142,
+        0
+      ],
+      "Java": [
+        2124,
+        0
+      ],
+      "Ruby": [
+        124,
+        0
+      ],
+      "Swift": [
+        14159,
+        0
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 34,
+    "total_lines": 7886451,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 47351,
+        "commits": 21
+      },
+      {
+        "language": "Roff",
+        "lines": 4055,
+        "commits": 13
+      },
+      {
+        "language": "Python",
+        "lines": 77624,
+        "commits": 0
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 131,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 116620,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "asancheza",
+    "analysis_date": "2026-05-09T11:45:45.707504",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 223,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 23,
+        "packages": {
+          "<Foundation/Foundation.h>": 18,
+          "<TargetConditionals.h>": 4,
+          "<Bolts/BFCancellationTokenRegistration.h>": 2,
+          "<Bolts/BFCancellationToken.h>": 2,
+          "<Parse/PFConstants.h>": 2,
+          "PFACLState.h": 2,
+          "AFURLSessionManager.h": 2,
+          "<SystemConfiguration/SystemConfiguration.h>": 2,
+          "AFURLRequestSerialization.h": 2,
+          "AFSecurityPolicy.h": 2,
+          "AFNetworkReachabilityManager.h": 2,
+          "AFURLResponseSerialization.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "<Bolts/BFAppLinkReturnToRefererController.h>": 1,
+          "<Bolts/BFURL.h>": 1,
+          "<Bolts/BFAppLinkTarget.h>": 1,
+          "<Bolts/BFAppLinkResolving.h>": 1,
+          "<Bolts/BFWebViewAppLinkResolver.h>": 1,
+          "<Bolts/BFExecutor.h>": 1,
+          "<Bolts/BFMeasurementEvent.h>": 1,
+          "<Bolts/BFAppLinkNavigation.h>": 1,
+          "<Bolts/BFAppLinkReturnToRefererView.h>": 1,
+          "<Bolts/BFTask.h>": 1,
+          "<Bolts/BFTaskCompletionSource.h>": 1,
+          "<Bolts/BFCancellationTokenSource.h>": 1,
+          "<Bolts/BFAppLink.h>": 1,
+          "<Bolts/BoltsVersion.h>": 1,
+          "PFCoreDataProvider.h": 1,
+          "<Parse/PFACL.h>": 1,
+          "PFBaseState.h": 1,
+          "PFDataProvider.h": 1,
+          "PFMacros.h": 1,
+          "<Parse/PFAnalytics.h>": 1,
+          "<MobileCoreServices/MobileCoreServices.h>": 1,
+          "<CoreServices/CoreServices.h>": 1,
+          "<Availability.h>": 1,
+          "AFHTTPSessionManager.h": 1,
+          "<Security/Security.h>": 1,
+          "<WatchKit/WatchKit.h>": 1,
+          "<CoreGraphics/CoreGraphics.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 35,
+        "packages": {
+          "com.emobc": 30,
+          "android.content": 23,
+          "android.os": 20,
+          "android.app": 14,
+          "android.widget": 14,
+          "android.view": 13,
+          "android.util": 12,
+          "java.util": 10,
+          "android.graphics": 9,
+          "com.google": 7,
+          "net.neurowork": 5,
+          "java.io": 3,
+          "static": 2,
+          "android.test": 1,
+          "org.junit": 1,
+          "android.support": 1,
+          "android.text": 1,
+          "android.net": 1,
+          "java.net": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 34,
+        "packages": {
+          "path": 20,
+          "fs-extra": 15,
+          "glob": 7,
+          "grim": 5,
+          "electron": 5,
+          "fs": 4,
+          "os": 4,
+          "atom": 2,
+          "child_process": 2,
+          "lodash.template": 2,
+          "fs-plus": 1,
+          "chart.js": 1,
+          "pathwatcher": 1,
+          "event-kit": 1,
+          "text-buffer": 1,
+          "semver": 1,
+          "assert": 1,
+          "electron-winstaller": 1,
+          "crypto": 1,
+          "sync-request": 1,
+          "minidump": 1,
+          "donna": 1,
+          "joanna": 1,
+          "tello": 1,
+          "use": 1,
+          "lang-css-kw": 1,
+          "F=[w": 1,
+          "]": 1,
+          "[": 1,
+          "I=[v": 1,
+          "hashComments:!0": 1,
+          "multiLineStrings:!0": 1,
+          "regexLiterals:!0})": 1,
+          "function": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 18,
+        "packages": {
+          "BFCancellationToken.h": 3,
+          "TargetConditionals.h": 3,
+          "<TargetConditionals.h>": 3,
+          "BFCancellationTokenRegistration.h": 2,
+          "BFTask.h": 2,
+          "Bolts.h": 2,
+          "PFMutableACLState.h": 2,
+          "PFACLState_Private.h": 2,
+          "WatchKit/WatchKit.h": 2,
+          "<netdb.h>": 2,
+          "AFURLRequestSerialization.h": 2,
+          "arpa/inet.h": 2,
+          "UIKit/UIKit.h": 2,
+          "netdb.h": 2,
+          "netinet/in.h": 2,
+          "<WatchKit/WatchKit.h>": 2,
+          "ifaddrs.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "<netinet/in.h>": 2,
+          "AFURLResponseSerialization.h": 2,
+          "<ifaddrs.h>": 2,
+          "<netinet6/in6.h>": 2,
+          "<arpa/inet.h>": 2,
+          "netinet6/in6.h": 2,
+          "BFCancellationTokenSource.h": 1,
+          "pthread.h": 1,
+          "BFExecutor.h": 1,
+          "<pthread.h>": 1,
+          "<libkern/OSAtomic.h>": 1,
+          "libkern/OSAtomic.h": 1,
+          "BFTaskCompletionSource.h": 1,
+          "PFAsyncTaskQueue.h": 1,
+          "Bolts/BFTask.h": 1,
+          "PFCurrentUserController.h": 1,
+          "<Bolts/BFTask.h>": 1,
+          "PFACLPrivate.h": 1,
+          "PFDefaultACLController.h": 1,
+          "PFAnalyticsController.h": 1,
+          "PFAnalyticsUtilities.h": 1,
+          "PFEventuallyQueue.h": 1,
+          "PFRESTAnalyticsCommand.h": 1,
+          "BFTask+Private.h": 1,
+          "PFAssert.h": 1,
+          "Availability.h": 1,
+          "<Availability.h>": 1,
+          "Security/Security.h": 1,
+          "AFHTTPSessionManager.h": 1,
+          "<Security/Security.h>": 1,
+          "AFNetworkReachabilityManager.h": 1,
+          "<AssertMacros.h>": 1,
+          "AFSecurityPolicy.h": 1,
+          "AssertMacros.h": 1,
+          "CoreServices/CoreServices.h": 1,
+          "MobileCoreServices/MobileCoreServices.h": 1,
+          "<MobileCoreServices/MobileCoreServices.h>": 1,
+          "<CoreServices/CoreServices.h>": 1,
+          "<CoreGraphics/CoreGraphics.h>": 1,
+          "CoreGraphics/CoreGraphics.h": 1,
+          "<Cocoa/Cocoa.h>": 1,
+          "Cocoa/Cocoa.h": 1,
+          "objc/runtime.h": 1,
+          "AFURLSessionManager.h": 1,
+          "<objc/runtime.h>": 1,
+          "AFAutoPurgingImageCache.h": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 11,
+        "packages": {
+          "models/Users.php": 5,
+          "CrudInterface.php": 3,
+          "database.php": 3,
+          "controllers/RouteInterface.php": 2,
+          "views/500.php": 1,
+          "views/404.php": 1,
+          "views/app.php": 1,
+          "models/App.php": 1,
+          "models/Content.php": 1,
+          "views/content.php": 1,
+          "services/contentService.php": 1,
+          "views/dashboard.php": 1,
+          "views/profile.php": 1,
+          "views/login.php": 1,
+          "app/config/config.php": 1,
+          "controllers/UserController.php": 1,
+          "controllers/DashboardController.php": 1,
+          "controllers/404.php": 1,
+          "controllers/AppController.php": 1,
+          "controllers/ContentController.php": 1,
+          "format_class.php": 1,
+          "portada_class.php": 1,
+          "styles_class.php": 1,
+          "base.php": 1,
+          "header.php": 1,
+          "conf/path.php": 1,
+          "app_class.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 5,
+        "packages": {
+          "sys": 2,
+          "operator": 2,
+          "requests": 1,
+          "os": 1,
+          "prettytable": 1,
+          "HTTPBasicAuth": 1,
+          "PrettyTable": 1,
+          "plyplus": 1,
+          "Grammar": 1,
+          "json": 1,
+          "math": 1,
+          "getopt": 1,
+          "unittest": 1,
+          "urllib": 1,
+          "mock": 1,
+          "time": 1,
+          "random": 1,
+          "Process": 1,
+          "multiprocessing": 1,
+          "threading": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 1,
+        "packages": {
+          "capistrano/ext/multistage": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 18,
+        "packages": {
+          "UIKit": 18,
+          "Parse": 3,
+          "AFNetworking": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "asancheza/adobe-challenge",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "asancheza/atom",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "asancheza/box",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "asancheza/calculator-python",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "asancheza/canvas-android",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "asancheza/capistrano-skeleton",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "asancheza/chat-parse-swift",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "asancheza/connect-four-js",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "asancheza/debugging-game-swift",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "asancheza/distances-python",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "asancheza/docker-python",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "asancheza/emobc-android",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "asancheza/emobc-html5",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

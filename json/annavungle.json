@@ -1,0 +1,235 @@
+{
+  "username": "annavungle",
+  "areas": {
+    "OSS": {
+      "score": -0.043880481710569796,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.43417927743414525
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.0625,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.06294276300878064,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        304358,
+        0
+      ],
+      "Objective-C": [
+        853692,
+        0
+      ],
+      "Objective-C++": [
+        583907,
+        0
+      ],
+      "HTML": [
+        274994,
+        0
+      ],
+      "JavaScript": [
+        57700,
+        0
+      ],
+      "CSS": [
+        6685,
+        0
+      ],
+      "Ruby": [
+        4308,
+        0
+      ],
+      "Shell": [
+        573,
+        0
+      ],
+      "C": [
+        177,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 0,
+    "total_lines": 2086394,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 304358,
+        "commits": 0
+      },
+      {
+        "language": "Objective-C",
+        "lines": 853692,
+        "commits": 0
+      },
+      {
+        "language": "Objective-C++",
+        "lines": 583907,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 274994,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 57700,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "annavungle",
+    "analysis_date": "2026-05-08T21:37:53.395387",
+    "total_repos_analyzed": 2,
+    "total_files_analyzed": 33,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 15,
+        "packages": {
+          "<MoPub/MoPub.h>": 11,
+          "<Foundation/Foundation.h>": 3,
+          "MPInterstitialCustomEvent.h": 3,
+          "MPRewardedVideoCustomEvent.h": 3,
+          "MPMediationSettingsProtocol.h": 2,
+          "MPBannerCustomEvent.h": 2,
+          "AdColonyInstanceMediationSettings.h": 1,
+          "AdColonyGlobalMediationSettings.h": 1,
+          "AdColonyRewardedVideoCustomEvent.h": 1,
+          "AdColonyInterstitialCustomEvent.h": 1,
+          "<AdColony/AdColony.h>": 1,
+          "<UIKit/UIKit.h>": 1,
+          "<Chartboost/Chartboost.h>": 1,
+          "MPInstanceProvider.h": 1,
+          "MPNativeAdAdapter.h": 1,
+          "MPNativeCustomEvent.h": 1,
+          "FlurryAdBannerDelegate.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 3,
+        "packages": {
+          "com.publisher": 3,
+          "org.junit": 2,
+          "static": 2,
+          "android.support": 2,
+          "android.content": 1,
+          "android.os": 1,
+          "com.vungle": 1,
+          "android.view": 1,
+          "android.util": 1,
+          "android.widget": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 15,
+        "packages": {
+          "MPLogging.h": 11,
+          "FBAudienceNetwork/FBAudienceNetwork.h": 5,
+          "<FBAudienceNetwork/FBAudienceNetwork.h>": 5,
+          "AdColonyController.h": 4,
+          "MPInstanceProvider+Chartboost.h": 4,
+          "MPChartboostRouter.h": 4,
+          "MPInstanceProvider.h": 4,
+          "MoPub.h": 3,
+          "AdColony/AdColony.h": 3,
+          "<AdColony/AdColony.h>": 3,
+          "MPRewardedVideoReward.h": 3,
+          "AdColonyGlobalMediationSettings.h": 2,
+          "AdColonyInstanceMediationSettings.h": 2,
+          "MPRewardedVideoCustomEvent+Caching.h": 2,
+          "Chartboost/Chartboost.h": 2,
+          "ChartboostInterstitialCustomEvent.h": 2,
+          "<Chartboost/Chartboost.h>": 2,
+          "ChartboostRewardedVideoCustomEvent.h": 2,
+          "MPNativeAdConstants.h": 2,
+          "FacebookNativeAdAdapter.h": 2,
+          "MPNativeAdError.h": 2,
+          "MPRewardedVideo.h": 1,
+          "Foundation/Foundation.h": 1,
+          "<Foundation/Foundation.h>": 1,
+          "AdColonyInterstitialCustomEvent.h": 1,
+          "AdColonyRewardedVideoCustomEvent.h": 1,
+          "MPRewardedVideoError.h": 1,
+          "FacebookBannerCustomEvent.h": 1,
+          "FacebookInterstitialCustomEvent.h": 1,
+          "MPNativeAd.h": 1,
+          "FacebookNativeCustomEvent.h": 1,
+          "FacebookRewardedVideoCustomEvent.h": 1,
+          "FlurryBannerCustomEvent.h": 1,
+          "FlurryAdBanner.h": 1,
+          "FlurryMPConfig.h": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "annavungle/Android-SDK",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "annavungle/mopub-ios-sdk",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      }
+    ]
+  }
+}

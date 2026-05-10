@@ -1,0 +1,448 @@
+{
+  "username": "abda-24",
+  "areas": {
+    "OSS": {
+      "score": -0.4677398869821757,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.7983901695267365
+      }
+    },
+    "Status": {
+      "score": 0.14002536710705127,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6908072814298076,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.583333,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.18220950397502492,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        28767,
+        1
+      ],
+      "CSS": [
+        24694,
+        0
+      ],
+      "HTML": [
+        86081,
+        1
+      ],
+      "SCSS": [
+        36124,
+        0
+      ],
+      "TypeScript": [
+        20981,
+        2
+      ],
+      "C#": [
+        1091206,
+        26
+      ],
+      "PHP": [
+        9,
+        0
+      ],
+      "C": [
+        0,
+        2
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 32,
+    "total_lines": 1287862,
+    "top_5_languages": [
+      {
+        "language": "C#",
+        "lines": 1091206,
+        "commits": 26
+      },
+      {
+        "language": "TypeScript",
+        "lines": 20981,
+        "commits": 2
+      },
+      {
+        "language": "C",
+        "lines": 0,
+        "commits": 2
+      },
+      {
+        "language": "JavaScript",
+        "lines": 28767,
+        "commits": 1
+      },
+      {
+        "language": "HTML",
+        "lines": 86081,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "abda-24",
+    "analysis_date": "2026-05-09T03:34:48.634075",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 472,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "<unistd.h>": 1,
+          "stdio.h": 1,
+          "util.c": 1,
+          "globals.h": 1,
+          "scan.h": 1,
+          "<stdio.h>": 1,
+          "unistd.h": 1,
+          "util.h": 1,
+          "<io.h>": 1,
+          "stdlib.h": 1,
+          "io.h": 1,
+          "<stdlib.h>": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 103,
+        "packages": {
+          "System.Collections.Generic": 57,
+          "System.Text": 57,
+          "System.Threading.Tasks": 57,
+          "System.Linq": 53,
+          "System": 21,
+          "Microsoft.EntityFrameworkCore": 15,
+          "Service.Abstraction": 8,
+          "Microsoft.AspNetCore.Identity": 7,
+          "Microsoft.EntityFrameworkCore.Migrations": 7,
+          "Domain.Entities": 6,
+          "DomainLayer.Models": 6,
+          "Shared": 5,
+          "Demo.DAL.Data.Context": 5,
+          "Microsoft.EntityFrameworkCore.Storage.ValueConversion": 5,
+          "Microsoft.EntityFrameworkCore.Metadata": 5,
+          "Microsoft.EntityFrameworkCore.Infrastructure": 5,
+          "System.Text.RegularExpressions": 5,
+          "MapsterMapper": 4,
+          "Microsoft.Extensions.Configuration": 4,
+          "var": 4,
+          "Domain.Repositories": 4,
+          "Microsoft.AspNetCore.Mvc": 3,
+          "Persistence.Data": 3,
+          "Mapster": 2,
+          "ServiceAbstraction": 2,
+          "System.Linq.Expressions": 2,
+          "Microsoft.IdentityModel.Tokens": 2,
+          "Shared.IdentityDtos": 2,
+          "System.Security.Claims": 2,
+          "System.IdentityModel.Tokens.Jwt": 2,
+          "System.Security.Cryptography": 2,
+          "Shared.DTOs.Campaign": 2,
+          "Shared.DTOs.Settings": 2,
+          "Shared.DTOs.Donation": 2,
+          "SignleR.Models": 2,
+          "SignleR.Context": 2,
+          "System.ComponentModel.DataAnnotations.Schema": 2,
+          "JuniorFootball.Domain.Common": 2,
+          "JuniorFootball.Domain.Enums": 2,
+          "Prasistance.Data": 1,
+          "Service": 1,
+          "DomainLayer.Contract": 1,
+          "Prasistance": 1,
+          "System.Reflection": 1,
+          "Prasistance.Data.Repository.GenericRepository": 1,
+          "Shared.IdentityDto": 1,
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": 1,
+          "Shared.DTOs.Auth": 1,
+          "Services.Mapping": 1,
+          "Microsoft.Extensions.DependencyInjection": 1,
+          "Services.Implementations": 1,
+          "MailKit.Security": 1,
+          "Microsoft.Extensions.Options": 1,
+          "MimeKit": 1,
+          "Microsoft.AspNetCore.Hosting": 1,
+          "Shared.DTOs.Volunteering": 1,
+          "Shared.DTOs.Gamification": 1,
+          "System.Net.Http.Json": 1,
+          "System.Text.Json.Nodes": 1,
+          "Shared.DTOs.Payments": 1,
+          "DomainLayer.Models.IdentityModule": 1,
+          "Microsoft.AspNetCore.Authorization": 1,
+          "Persistence.Identity": 1,
+          "System.Text.Json.Serialization": 1,
+          "Microsoft.EntityFrameworkCore.Metadata.Internal": 1,
+          "JuniorFootball.Domain.Entities": 1,
+          "Shared.DTOs.Ai": 1,
+          "Microsoft.AspNetCore.Http": 1,
+          "Shared.DTOs.Google": 1,
+          "JuniorFootball.Application.DTOs.Common": 1,
+          "Shared.DTOs.Notifications": 1,
+          "Group": 1,
+          "Microsoft.EntityFrameworkCore.Metadata.Builders": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 27,
+        "packages": {
+          "jquery": 6,
+          "undefined": 4,
+          "object": 3,
+          "__esModule": 3,
+          "globals": 2,
+          "eslint-plugin-react-refresh": 2,
+          "eslint-plugin-react-hooks": 2,
+          "eslint": 2,
+          "default": 2,
+          "]": 2,
+          "b);else": 2,
+          "e){let": 2,
+          "in": 2,
+          "zustand": 2,
+          "required": 1,
+          "ngModelGroup": 1,
+          "ngModel": 1,
+          "ngForm": 1,
+          "routerLinkActive": 1,
+          "outlet": 1,
+          "emptyRouterOutlet": 1,
+          "Filler": 1,
+          "exportNgVar": 1,
+          ":": 1,
+          "ngComponentOutlet": 1,
+          "jQuery": 1,
+          "moment": 1,
+          "tailwindcss": 1,
+          "vitejs": 1,
+          "vite": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 40,
+        "packages": {
+          "react": 34,
+          "lucide-react": 18,
+          "radix-ui": 18,
+          "react-router-dom": 10,
+          "react-hot-toast": 7,
+          "class-variance-authority": 4,
+          "react-day-picker": 1,
+          "embla-carousel-react": 1,
+          "recharts": 1,
+          "cmdk": 1,
+          "vaul": 1,
+          "react-hook-form": 1,
+          "input-otp": 1,
+          "react-dom": 1,
+          "No": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 90,
+        "packages": {
+          "angular": 90,
+          "rxjs": 14,
+          "sweetalert2": 3,
+          "rxweb": 3,
+          "chart.js": 2,
+          "node:path": 1,
+          "express": 1,
+          "node:url": 1,
+          "jwt-decode": 1,
+          "stream": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "abda-24/AbdullahYasserPortfolio",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "abda-24/Admin-Dashboard",
+        "files_analyzed": 11,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "abda-24/Admin-Dashboards",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "abda-24/BackendMust",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "abda-24/Beauty-Services",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abda-24/BlogElbannaAPI",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "abda-24/charity-platform-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "abda-24/chat-application",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C#",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abda-24/DemoMvc",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "abda-24/EcommerceBackend-DashBoard",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "abda-24/EcoSwap",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abda-24/ElbannaStore",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "abda-24/HealthCareHub",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abda-24/junior-football-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "abda-24/laptop-ecommerce-frontend",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "abda-24/LearningCenterERP",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "abda-24/LEX-Project",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "abda-24/Movie-Manager",
+        "files_analyzed": 13,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "abda-24/Must",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abda-24/Note-App",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

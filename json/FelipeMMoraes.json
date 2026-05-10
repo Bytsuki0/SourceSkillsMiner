@@ -1,0 +1,202 @@
+{
+  "username": "FelipeMMoraes",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.2528003834170043,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8215082674331988,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.183333,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "FelipeMMoraes/Crud-VanillaJS": 0.4939
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2472268100167342,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        33934,
+        116
+      ],
+      "HTML": [
+        98095,
+        46
+      ],
+      "SCSS": [
+        3845,
+        10
+      ],
+      "CSS": [
+        50946,
+        34
+      ],
+      "JavaScript": [
+        6130,
+        170
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 376,
+    "total_lines": 192950,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 6130,
+        "commits": 170
+      },
+      {
+        "language": "TypeScript",
+        "lines": 33934,
+        "commits": 116
+      },
+      {
+        "language": "HTML",
+        "lines": 98095,
+        "commits": 46
+      },
+      {
+        "language": "CSS",
+        "lines": 50946,
+        "commits": 34
+      },
+      {
+        "language": "SCSS",
+        "lines": 3845,
+        "commits": 10
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "FelipeMMoraes",
+    "analysis_date": "2026-05-09T12:11:15.652688",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 92,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 23,
+        "packages": {
+          "express": 8,
+          "styled-components": 5,
+          "react-dom": 1,
+          "react": 1,
+          "path": 1,
+          "bcrypt": 1,
+          "knex": 1,
+          "users": 1,
+          "ordereds": 1,
+          "dish": 1,
+          "ingredients": 1,
+          "dish_ingredients": 1,
+          "express-async-errors": 1,
+          "vite": 1,
+          "vitejs": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 7,
+        "packages": {
+          "react-router-dom": 3,
+          "react-icons": 2,
+          "react": 2,
+          "styled-components": 1,
+          "react-dom": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 12,
+        "packages": {
+          "angular": 12,
+          "express": 1,
+          "node:url": 1,
+          "node:path": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "FelipeMMoraes/Angular-LandingPage",
+        "files_analyzed": 12,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "FelipeMMoraes/Costs",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "FelipeMMoraes/foodExplorer-API",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FelipeMMoraes/foodexplorer-FrontEnd",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      }
+    ]
+  }
+}

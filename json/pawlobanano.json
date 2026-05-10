@@ -1,0 +1,532 @@
+{
+  "username": "pawlobanano",
+  "areas": {
+    "OSS": {
+      "score": 0.6507936507936507,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.8095238095238095,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3176608731893713,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.89956823286098,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.741103,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.8617,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 6,
+        "topic_entropy_bits": 2.585,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "pawlobanano/html5-weather-app": -0.5267
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.3919115047966044,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        481905,
+        83
+      ],
+      "Makefile": [
+        351,
+        0
+      ],
+      "Java": [
+        156,
+        0
+      ],
+      "Gherkin": [
+        22,
+        0
+      ],
+      "Shell": [
+        1335806,
+        0
+      ],
+      "CSS": [
+        55909,
+        51
+      ],
+      "templ": [
+        211,
+        1
+      ],
+      "JavaScript": [
+        39485,
+        16
+      ],
+      "Python": [
+        25,
+        3
+      ],
+      "PHP": [
+        3049,
+        0
+      ],
+      "Dockerfile": [
+        86,
+        0
+      ],
+      "Go Template": [
+        48071,
+        0
+      ],
+      "Lua": [
+        26404,
+        0
+      ],
+      "SCSS": [
+        0,
+        9
+      ],
+      "HTML": [
+        0,
+        115
+      ],
+      "Ruby": [
+        0,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 278,
+    "total_lines": 1991480,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 0,
+        "commits": 115
+      },
+      {
+        "language": "Go",
+        "lines": 481905,
+        "commits": 83
+      },
+      {
+        "language": "CSS",
+        "lines": 55909,
+        "commits": 51
+      },
+      {
+        "language": "JavaScript",
+        "lines": 39485,
+        "commits": 16
+      },
+      {
+        "language": "SCSS",
+        "lines": 0,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "pawlobanano",
+    "analysis_date": "2026-05-09T11:15:24.268567",
+    "total_repos_analyzed": 21,
+    "total_files_analyzed": 167,
+    "languages": {
+      "Go": {
+        "files_scanned": 83,
+        "packages": {
+          "fmt": 40,
+          "net/http": 27,
+          "os": 26,
+          "context": 18,
+          "time": 17,
+          "strings": 15,
+          "testing": 12,
+          "log": 9,
+          "log/slog": 9,
+          "encoding/json": 9,
+          "path/filepath": 8,
+          "github.com/ardanlabs/service/app/sdk/apitest": 8,
+          "regexp": 7,
+          "io": 7,
+          "os/signal": 7,
+          "syscall": 7,
+          "dreampicai/types": 7,
+          "sync": 6,
+          "embed": 6,
+          "errors": 6,
+          "github.com/ardanlabs/service/foundation/logger": 6,
+          "strconv": 5,
+          "fyne.io/fyne/v2/app": 5,
+          "fyne.io/fyne/v2/widget": 5,
+          "github.com/pawlobanano/tournament-discord-bot/types": 5,
+          "sort": 4,
+          "github.com/pawelbanach/docker-lab-manager/internal/logger": 4,
+          "github.com/gin-gonic/gin": 4,
+          "github.com/ardanlabs/service/business/domain/userbus": 4,
+          "github.com/ardanlabs/service/business/domain/homebus": 4,
+          "github.com/ardanlabs/service/app/sdk/errs": 4,
+          "github.com/google/go-cmp/cmp": 4,
+          "github.com/joho/godotenv": 3,
+          "reflect": 3,
+          "dreampicai/pkg/sb": 3,
+          "github.com/bwmarrin/discordgo": 3,
+          "github.com/pawlobanano/NASA-Astronomy-Picture-of-the-Day-API/config": 3,
+          "github.com/ardanlabs/service/app/sdk/debug": 3,
+          "github.com/ardanlabs/service/app/sdk/auth": 3,
+          "runtime": 3,
+          "net": 3,
+          "github.com/ardanlabs/conf/v3": 3,
+          "github.com/ardanlabs/service/business/domain/auditbus": 3,
+          "github.com/ardanlabs/service/app/domain/homeapp": 3,
+          "github.com/pawlobanano/tournament-discord-bot/googlesheets": 3,
+          "github.com/pawlobanano/chat-websockets-go/internal/handlers": 2,
+          "encoding/csv": 2,
+          "flag": 2,
+          "github.com/pawelbanach/docker-lab-manager/internal/docker": 2,
+          "name": 2,
+          "bytes": 2,
+          "github.com/gorilla/sessions": 2,
+          "github.com/nedpals/supabase-go": 2,
+          "Email": 2,
+          "unicode": 2,
+          "fyne.io/fyne/v2": 2,
+          "fyne.io/fyne/v2/container": 2,
+          "github.com/stretchr/testify/require": 2,
+          "from": 2,
+          "github.com/ardanlabs/service/business/domain/userbus/stores/userdb": 2,
+          "github.com/ardanlabs/service/business/domain/userbus/stores/usercache": 2,
+          "github.com/ardanlabs/service/foundation/otel": 2,
+          "expvar": 2,
+          "github.com/ardanlabs/service/business/sdk/sqldb": 2,
+          "github.com/ardanlabs/service/business/sdk/delegate": 2,
+          "github.com/ardanlabs/service/app/sdk/mux": 2,
+          "github.com/ardanlabs/service/app/domain/auditapp": 2,
+          "github.com/ardanlabs/service/app/sdk/query": 2,
+          "github.com/ardanlabs/service/business/types/role": 2,
+          "github.com/ardanlabs/service/business/sdk/dbtest": 2,
+          "golang.org/x/oauth2/jwt": 2,
+          "google.golang.org/api/sheets/v4": 2,
+          "github.com/bmizerany/pat": 1,
+          "github.com/CloudyKit/jet/v6": 1,
+          "github.com/gorilla/websocket": 1,
+          "ERROR:": 1,
+          "bufio": 1,
+          "rediff.com": 1,
+          "statcounter.com": 1,
+          "hubpages.com": 1,
+          "github.com": 1,
+          "cnet.com": 1,
+          "github.io": 1,
+          "github.com/pawlobanano/csv-reader/customerimporter": 1,
+          "github.com/pawlobanano/db-seeder/seed": 1,
+          "github.com/jackc/pgx/v4/pgxpool": 1,
+          "github.com/jackc/pgx/v4": 1,
+          "github.com/pawelbanach/docker-lab-manager/internal/config": 1,
+          "level": 1,
+          "prune_volumes": 1,
+          "logging": 1,
+          "file": 1,
+          "lab_directory": 1,
+          "system_prune": 1,
+          "restart_after_update": 1,
+          "cleanup": 1,
+          "applications": 1,
+          "no": 1,
+          "network": 1,
+          "timeout": 1,
+          "service": 1,
+          "timed": 1,
+          "temporary": 1,
+          "os/exec": 1,
+          "connection": 1,
+          "operation": 1,
+          "simple": 1,
+          "debug": 1,
+          "error:": 1,
+          "error": 1,
+          "formatted": 1,
+          "warn:": 1,
+          "multiple": 1,
+          "info:": 1,
+          "debug:": 1,
+          "info": 1,
+          "warn": 1,
+          "Password": 1,
+          "dreampicai/pkg/validate": 1,
+          "ConfirmPassword": 1,
+          "dreampicai/view/auth": 1,
+          "dreampicai/view/home": 1,
+          "dreampicai/view/settings": 1,
+          "github.com/a-h/templ": 1,
+          "dreampicai/pkg/logger": 1,
+          "github.com/go-chi/chi/v5": 1,
+          "github.com/golang-migrate/migrate/v4": 1,
+          "dreampicai/handler": 1,
+          "dreampicai/config": 1,
+          "Url": 1,
+          "Name": 1,
+          "FirstName": 1,
+          "slices": 1,
+          "fyne.io/fyne/v2/theme": 1,
+          "fyne.io/fyne/v2/data/binding": 1,
+          "math/rand": 1,
+          "Game": 1,
+          "The": 1,
+          "net/http/httptest": 1,
+          "github.com/spf13/viper": 1,
+          "github.com/pawlobanano/NASA-Astronomy-Picture-of-the-Day-API/api": 1,
+          "github.com/ardanlabs/service/app/domain/grpcauthapp": 1,
+          "github.com/ardanlabs/service/foundation/keystore": 1,
+          "github.com/ardanlabs/service/api/services/auth/build": 1,
+          "default:http://localhost:3010/debug/vars": 1,
+          "github.com/ardanlabs/service/api/services/metrics/publisher": 1,
+          "github.com/ardanlabs/service/api/services/metrics/collector": 1,
+          "host": 1,
+          "metric": 1,
+          "environment:test": 1,
+          "type": 1,
+          "tags": 1,
+          "points": 1,
+          "github.com/ardanlabs/service/business/domain/auditbus/extensions/auditotel": 1,
+          "github.com/ardanlabs/service/business/domain/homebus/stores/homedb": 1,
+          "github.com/ardanlabs/service/business/domain/homebus/extensions/homeotel": 1,
+          "github.com/ardanlabs/service/business/domain/productbus/extensions/productotel": 1,
+          "github.com/ardanlabs/service/business/domain/vproductbus/extensions/vproductotel": 1,
+          "github.com/ardanlabs/service/api/services/sales/build": 1,
+          "github.com/ardanlabs/service/business/domain/productbus/stores/productdb": 1,
+          "github.com/ardanlabs/service/business/domain/vproductbus/stores/vproductdb": 1,
+          "github.com/ardanlabs/service/business/domain/auditbus/stores/auditdb": 1,
+          "github.com/ardanlabs/service/business/domain/userbus/extensions/userotel": 1,
+          "github.com/ardanlabs/service/app/sdk/authclient": 1,
+          "github.com/ardanlabs/service/business/domain/vproductbus": 1,
+          "github.com/ardanlabs/service/business/domain/userbus/extensions/useraudit": 1,
+          "github.com/ardanlabs/service/business/domain/productbus": 1,
+          "github.com/ardanlabs/service/app/sdk/authclient/grpc": 1,
+          "github.com/ardanlabs/service/business/types/domain": 1,
+          "html/template": 1,
+          "golang.org/x/oauth2/google": 1,
+          "google.golang.org/api/option": 1,
+          "github.com/pawlobanano/tournament-discord-bot/api": 1,
+          "github.com/pawlobanano/tournament-discord-bot/discord": 1,
+          "github.com/pawlobanano/tournament-discord-bot/config": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 4,
+        "packages": {
+          "org.openqa": 3,
+          "java.io": 2,
+          "pagefactory": 2,
+          "stepdefinitions": 2,
+          "io.cucumber": 2,
+          "static": 1,
+          "java.util": 1,
+          "org.apache": 1,
+          "pagefactory.HomePagePF": 1,
+          "io.github": 1,
+          "pagefactory.LoginPagePF": 1,
+          "org.junit": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "pinia": 2,
+          "CustomEvent": 1,
+          "daisyui": 1,
+          "tailwindcss": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "t.write(": 1,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1,
+          "I=[v": 1,
+          "multiLineStrings:!0": 1,
+          "[": 1,
+          "]": 1,
+          "F=[w": 1,
+          "regexLiterals:!0})": 1,
+          "hashComments:!0": 1,
+          "k=": 1,
+          "vue": 1,
+          "fortawesome": 1,
+          "vuetify": 1,
+          "mdi": 1,
+          "webfontloader": 1,
+          "users": 1,
+          "vue-router": 1,
+          "app": 1,
+          "vite-plugin-vuetify": 1,
+          "node:url": 1,
+          "vite": 1,
+          "vitejs": 1,
+          "gulp": 1,
+          "browser-sync": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 1,
+        "packages": {
+          "monokai-pro": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "pawlobanano/chat-websockets-go",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pawlobanano/csv-reader",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "pawlobanano/cucumber-bdd-poc",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "pawlobanano/db-seeder",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "pawlobanano/design-patterns-go",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "pawlobanano/docker-lab-manager",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "pawlobanano/dreampicai",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pawlobanano/fyne-demo",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "pawlobanano/go-discord-bot",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "pawlobanano/html5-weather-app",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pawlobanano/NASA-Astronomy-Picture-of-the-Day-API",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "pawlobanano/omarchy",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "pawlobanano/pawlobanano.github.io",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pawlobanano/server-sent-events",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "pawlobanano/service",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pawlobanano/tic-tac-toe",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pawlobanano/tournament-discord-bot",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

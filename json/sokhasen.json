@@ -1,0 +1,645 @@
+{
+  "username": "sokhasen",
+  "areas": {
+    "OSS": {
+      "score": 0.9159548078766946,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.8739322118150418
+      }
+    },
+    "Status": {
+      "score": 0.01123720773904191,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.4976250423777936,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": 0.333333,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 9,
+        "language_transitions": 10,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.3021050031231473,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        13650,
+        1
+      ],
+      "Scala": [
+        51,
+        3
+      ],
+      "Python": [
+        3832,
+        5
+      ],
+      "Shell": [
+        1200,
+        0
+      ],
+      "Dart": [
+        822677,
+        0
+      ],
+      "Kotlin": [
+        31394,
+        0
+      ],
+      "Objective-C": [
+        11170,
+        0
+      ],
+      "JavaScript": [
+        38911,
+        29
+      ],
+      "HTML": [
+        1013,
+        1
+      ],
+      "CSS": [
+        175,
+        23
+      ],
+      "PHP": [
+        12509,
+        20
+      ],
+      "Ruby": [
+        589,
+        0
+      ],
+      "Swift": [
+        100,
+        0
+      ],
+      "TypeScript": [
+        0,
+        1
+      ],
+      "Vue": [
+        0,
+        0
+      ],
+      "TSQL": [
+        0,
+        0
+      ],
+      "FreeMarker": [
+        0,
+        0
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 83,
+    "total_lines": 937271,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 38911,
+        "commits": 29
+      },
+      {
+        "language": "CSS",
+        "lines": 175,
+        "commits": 23
+      },
+      {
+        "language": "PHP",
+        "lines": 12509,
+        "commits": 20
+      },
+      {
+        "language": "Python",
+        "lines": 3832,
+        "commits": 5
+      },
+      {
+        "language": "Scala",
+        "lines": 51,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sokhasen",
+    "analysis_date": "2026-05-09T02:17:03.765709",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 325,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 16,
+        "packages": {
+          "<Flutter/Flutter.h>": 8,
+          "GeneratedPluginRegistrant.h": 6,
+          "<UIKit/UIKit.h>": 4,
+          "<Foundation/Foundation.h>": 2,
+          "<UserNotifications/UserNotifications.h>": 1,
+          "NotificationTime.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 68,
+        "packages": {
+          "flutter": 30,
+          "flutter_weather_app_sample": 20,
+          "dart:async": 17,
+          "flutter_test": 12,
+          "equatable": 10,
+          "dart:convert": 9,
+          "dart:io": 8,
+          "http": 8,
+          "dartz": 8,
+          "mockito": 8,
+          "meta": 7,
+          "flutter_bloc": 7,
+          "bloc": 6,
+          "product_app": 5,
+          "cached_data_api": 4,
+          "angular": 3,
+          "flutter_complex_list": 3,
+          "dart:typed_data": 3,
+          "dart:ui": 3,
+          "adhara_socket_io": 3,
+          "angular_counter": 2,
+          "get_it": 2,
+          "bloc_test": 2,
+          "carousel_slider": 2,
+          "flutter_local_notifications": 2,
+          "majascan": 2,
+          "angular_bloc": 1,
+          "angular_components": 1,
+          "flutter_bloc_with_stream": 1,
+          "ticker/ticker.dart": 1,
+          "image_picker": 1,
+          "screens.dart": 1,
+          "injection.dart": 1,
+          "rxdart": 1,
+          "weather_bloc_test.mocks.dart": 1,
+          "mocktail": 1,
+          "shared_preferences": 1,
+          "flutter_svg": 1,
+          "path_provider": 1,
+          "platform": 1,
+          "adhara_socket_io_example": 1,
+          "flutter_show_toast_sk": 1,
+          "majascan_example": 1,
+          "dart:ffi": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 46,
+        "packages": {
+          "com.dexterous": 18,
+          "io.flutter": 12,
+          "com.example": 11,
+          "org.springframework": 10,
+          "java.util": 10,
+          "com.pattern": 9,
+          "android.os": 9,
+          "android.content": 4,
+          "java.net": 3,
+          "android.support": 3,
+          "android.graphics": 3,
+          "com.google": 3,
+          "android.app": 3,
+          "com.infitio": 3,
+          "lombok.AllArgsConstructor": 2,
+          "lombok.RequiredArgsConstructor": 2,
+          "org.junit": 2,
+          "java.io": 2,
+          "java.lang": 2,
+          "android.util": 2,
+          "com.sokha": 2,
+          "android.widget": 2,
+          "java.nio": 1,
+          "android.text": 1,
+          "android.net": 1,
+          "android.media": 1,
+          "org.json": 1,
+          "io.socket": 1,
+          "androidx.annotation": 1,
+          "com.djgeo": 1,
+          "androidx.fragment": 1,
+          "android.view": 1,
+          "android.webkit": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 35,
+        "packages": {
+          "express": 10,
+          "mongoose": 8,
+          "fs": 4,
+          "socket.io": 3,
+          "http": 2,
+          "jsonwebtoken": 2,
+          "3}(?:<(script|pre|style)[\\\\s>][\\\\s\\\\S]*?(?:<": 1,
+          "}|$)|<(?!script|pre|style)([a-z][\\\\w-]*)(?:attribute)*?": 1,
+          "}|$))": 1,
+          "^": 1,
+          "}|$)|<": 1,
+          "object": 1,
+          "use": 1,
+          "path": 1,
+          "cors": 1,
+          "morgan": 1,
+          "cookie-parser": 1,
+          "uuid": 1,
+          "expressweb-scheduler": 1,
+          "expressWebAuth": 1,
+          "WsBaseController": 1,
+          "shutDown": 1,
+          "expressweb-ioc": 1,
+          "routeConfig": 1,
+          "amqplib": 1,
+          "routerManager": 1,
+          "expresswebcore": 1,
+          "body-parser": 1,
+          "nodeMailer": 1,
+          "bcrypt": 1,
+          "crypto": 1,
+          "Method": 1,
+          "Resource": 1,
+          "User": 1,
+          "Workspace": 1,
+          "nodemailer": 1,
+          "axios": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 12,
+        "packages": {
+          "com.djgeo": 9,
+          "android.content": 7,
+          "android.os": 6,
+          "io.flutter": 5,
+          "android.app": 5,
+          "android.util": 5,
+          "android.graphics": 4,
+          "android.view": 4,
+          "com.example": 3,
+          "androidx.annotation": 2,
+          "androidx.core": 2,
+          "android.widget": 2,
+          "android.text": 2,
+          "androidx.appcompat": 2,
+          "android.provider": 1,
+          "android.net": 1,
+          "android.preference": 1,
+          "java.lang": 1,
+          "kotlin.annotation": 1,
+          "android.Manifest": 1,
+          "androidx.fragment": 1,
+          "kotlin.math": 1,
+          "com.google": 1,
+          "me.dm7": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 14,
+        "packages": {
+          "AppDelegate.h": 8,
+          "GeneratedPluginRegistrant.h": 4,
+          "<Flutter/Flutter.h>": 4,
+          "<UIKit/UIKit.h>": 4,
+          "Flutter/Flutter.h": 4,
+          "UIKit/UIKit.h": 4,
+          "NotificationDetails.h": 2,
+          "NotificationTime.h": 2,
+          "<flutter_local_notifications/FlutterLocalNotificationsPlugin.h>": 1,
+          "flutter_local_notifications/FlutterLocalNotificationsPlugin.h": 1,
+          "FlutterLocalNotificationsPlugin.h": 1,
+          "<adhara_socket_io/adhara_socket_io-Swift.h>": 1,
+          "AdharaSocketIoPlugin.h": 1,
+          "adhara_socket_io/adhara_socket_io-Swift.h": 1,
+          "flutter_show_toast_sk/flutter_show_toast_sk-Swift.h": 1,
+          "FlutterShowToastSkPlugin.h": 1,
+          "<flutter_show_toast_sk/flutter_show_toast_sk-Swift.h>": 1,
+          "majascan/majascan-Swift.h": 1,
+          "<majascan/majascan-Swift.h>": 1,
+          "MajascanPlugin.h": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 20,
+        "packages": {
+          "App\\Http\\Controllers\\Controller": 4,
+          "Illuminate\\Support\\ServiceProvider": 2,
+          "Resource.php": 1,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "routes/console.php": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "Exception": 1,
+          "Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails": 1,
+          "SendsPasswordResetEmails": 1,
+          "AuthenticatesUsers": 1,
+          "Illuminate\\Foundation\\Auth\\AuthenticatesUsers": 1,
+          "Illuminate\\Foundation\\Auth\\RegistersUsers": 1,
+          "Illuminate\\Support\\Facades\\Validator": 1,
+          "App\\User": 1,
+          "RegistersUsers": 1,
+          "ResetsPasswords": 1,
+          "Illuminate\\Foundation\\Auth\\ResetsPasswords": 1,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 1,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "Illuminate\\Routing\\Controller": 1,
+          "AuthorizesRequests": 1,
+          "Illuminate\\Foundation\\Http\\Kernel": 1,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 1,
+          "Illuminate\\Support\\Facades\\Auth": 1,
+          "Closure": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 1,
+          "Fideloper\\Proxy\\TrustProxies": 1,
+          "Illuminate\\Http\\Request": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Gate": 1,
+          "routes/channels.php": 1,
+          "Illuminate\\Support\\Facades\\Broadcast": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Event": 1,
+          "Illuminate\\Support\\Facades\\Route": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "Notifiable": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 9,
+        "packages": {
+          "shippingtracker": 6,
+          "TrackRequest": 5,
+          "TrackResponse": 5,
+          "os": 3,
+          "TrackEntity": 2,
+          "Flask": 1,
+          "flask": 1,
+          "TracksController": 1,
+          "WrappersRepositoryImpl": 1,
+          "datetime": 1,
+          "random": 1,
+          "abc": 1,
+          "ABC": 1,
+          "TrackingRepository": 1,
+          "TrackTransformer": 1,
+          "sys": 1,
+          "them": 1,
+          "json": 1,
+          "rejections": 1,
+          "simplejson": 1,
+          "ujson": 1,
+          "requests": 1,
+          "setuptools": 1,
+          "setup": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 1,
+        "packages": {
+          "org.example": 1,
+          "org.apache": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 19,
+        "packages": {
+          "UIKit": 13,
+          "Flutter": 10,
+          "Foundation": 8,
+          "SocketIO": 2,
+          "AVFoundation": 2,
+          "the": 1,
+          "audio": 1,
+          "AVCam": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sokhasen/abstract-factory-demo",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "sokhasen/apache-spark-word-count-job",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "sokhasen/architecture-pattern-demo",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sokhasen/bloc",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "sokhasen/browser-deeplink",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sokhasen/Chat-App",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sokhasen/CI-Restful-API",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "sokhasen/demo-spring-boot-scheduler",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "sokhasen/express-sample-restful-api",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sokhasen/ExpressWebJs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sokhasen/flutter-fetch-data-from-api",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "sokhasen/flutter-weather-app-sample",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "sokhasen/flutter_cached_data_api",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "sokhasen/flutter_carousel_slider",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "sokhasen/flutter_local_notifications",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "sokhasen/flutter_socket_io",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "sokhasen/flutter_toast_sk",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "sokhasen/majascan_flutter",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Kotlin",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "sokhasen/mandrill-api-python-3.7",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sokhasen/mocker",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sokhasen/ng5-laravel5.5-starter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

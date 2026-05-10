@@ -1,0 +1,304 @@
+{
+  "username": "jessicalewinter",
+  "areas": {
+    "OSS": {
+      "score": 0.8738738738738738,
+      "details": {
+        "issue_resolution_rate": 0.8108108108108109,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3005051798642435,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8930654621040577,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.2875,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 16,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.27737581074762346,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CSS": [
+        454982,
+        21
+      ],
+      "HTML": [
+        1148921,
+        36
+      ],
+      "Swift": [
+        208118,
+        160
+      ],
+      "Ruby": [
+        3260,
+        0
+      ],
+      "C": [
+        137,
+        0
+      ],
+      "JavaScript": [
+        30106,
+        51
+      ],
+      "Shell": [
+        1142,
+        11
+      ],
+      "Makefile": [
+        21,
+        0
+      ],
+      "Dockerfile": [
+        262,
+        0
+      ],
+      "TypeScript": [
+        0,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 279,
+    "total_lines": 1846949,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 208118,
+        "commits": 160
+      },
+      {
+        "language": "JavaScript",
+        "lines": 30106,
+        "commits": 51
+      },
+      {
+        "language": "HTML",
+        "lines": 1148921,
+        "commits": 36
+      },
+      {
+        "language": "CSS",
+        "lines": 454982,
+        "commits": 21
+      },
+      {
+        "language": "Shell",
+        "lines": 1142,
+        "commits": 11
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jessicalewinter",
+    "analysis_date": "2026-05-09T18:59:35.597317",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 266,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 32,
+        "packages": {
+          "mongodb": 9,
+          "react": 5,
+          "util": 5,
+          "prop-types": 3,
+          "jsonwebtoken": 3,
+          "mongoose": 3,
+          "path": 3,
+          "jQuery": 2,
+          "undefined": 2,
+          "assets": 2,
+          "bcryptjs": 2,
+          "lodash": 2,
+          "jquery": 1,
+          "classnames": 1,
+          "components": 1,
+          "data": 1,
+          "react-typist": 1,
+          "react-select": 1,
+          "react-device-detect": 1,
+          "App": 1,
+          "react-dom": 1,
+          "scss": 1,
+          "serviceWorker": 1,
+          "crypto-js": 1,
+          "url": 1,
+          "validator": 1,
+          "body-parser": 1,
+          "express": 1,
+          "expect": 1,
+          "supertest": 1,
+          "node-getopt": 1,
+          "fs": 1,
+          "diff": 1,
+          "crypto": 1,
+          "0.0.1": 1,
+          "fs-extra": 1,
+          "glob": 1,
+          "])(.*?)[>": 1,
+          "<": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 170,
+        "packages": {
+          "Foundation": 73,
+          "UIKit": 63,
+          "SwiftUI": 24,
+          "CoreData": 13,
+          "XCTest": 12,
+          "PackageDescription": 3,
+          "SearchTextField": 2,
+          "GenericNetworkLayer": 2,
+          "Combine": 1,
+          "UniformTypeIdentifiers": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jessicalewinter/ArretadasFGC",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/caravan",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/crowdfundingWebsite",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/Design-Patterns-In-Swift",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/FunLogging",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/GenericNetworkLayer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/gitexplorer",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/interview-ios",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/iOS-Clean-Architecture-MVVM",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/LearningSwiftUI",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/node-todo-api",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/objc2swift",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/swift-book-fork",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "jessicalewinter/swiftuiVSuikit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

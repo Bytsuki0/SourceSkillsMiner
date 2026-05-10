@@ -1,0 +1,666 @@
+{
+  "username": "blazQ",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4358974358974359,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.15384615384615385
+      }
+    },
+    "Adaptability": {
+      "score": 0.833333,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 5,
+        "topic_entropy_bits": 4.3868,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2371794205128205,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        8566653,
+        82
+      ],
+      "PostScript": [
+        521627,
+        6
+      ],
+      "R": [
+        116448,
+        1
+      ],
+      "Shell": [
+        142265,
+        13
+      ],
+      "Makefile": [
+        37612,
+        0
+      ],
+      "C": [
+        722358,
+        49
+      ],
+      "Slang": [
+        550667,
+        8
+      ],
+      "CMake": [
+        373259,
+        1
+      ],
+      "Objective-C++": [
+        115,
+        1
+      ],
+      "GDScript": [
+        939724,
+        27
+      ],
+      "Python": [
+        1715657,
+        50
+      ],
+      "Jupyter Notebook": [
+        700754,
+        7
+      ],
+      "CSS": [
+        80352,
+        0
+      ],
+      "HTML": [
+        37573,
+        1
+      ],
+      "JavaScript": [
+        182540,
+        2
+      ],
+      "Solidity": [
+        41333,
+        0
+      ],
+      "Rust": [
+        20633,
+        10
+      ],
+      "Batchfile": [
+        10335,
+        0
+      ],
+      "GLSL": [
+        7635,
+        0
+      ],
+      "Java": [
+        1833,
+        0
+      ],
+      "Ruby": [
+        2876,
+        0
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 258,
+    "total_lines": 14772249,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 8566653,
+        "commits": 82
+      },
+      {
+        "language": "Python",
+        "lines": 1715657,
+        "commits": 50
+      },
+      {
+        "language": "C",
+        "lines": 722358,
+        "commits": 49
+      },
+      {
+        "language": "GDScript",
+        "lines": 939724,
+        "commits": 27
+      },
+      {
+        "language": "Shell",
+        "lines": 142265,
+        "commits": 13
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "blazQ",
+    "analysis_date": "2026-05-09T10:34:45.252265",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 165,
+    "languages": {
+      "C": {
+        "files_scanned": 12,
+        "packages": {
+          "<string.h>": 10,
+          "string.h": 10,
+          "stdio.h": 10,
+          "<stdlib.h>": 10,
+          "stdlib.h": 10,
+          "<stdio.h>": 10,
+          "hashdict.h": 5,
+          "ctype.h": 4,
+          "<ctype.h>": 4,
+          "utils.h": 3,
+          "mpi.h": 3,
+          "futils.h": 3,
+          "factorizations.h": 2,
+          "chnkcnt.h": 2,
+          "<sys/types.h>": 2,
+          "<dirent.h>": 2,
+          "sys/stat.h": 2,
+          "sys/types.h": 2,
+          "<sys/stat.h>": 2,
+          "dirent.h": 2,
+          "histogram.h": 2,
+          "workload.h": 2,
+          "cylist.h": 1,
+          "bwt.h": 1,
+          "<fcntl.h>": 1,
+          "fcntl.h": 1,
+          "unistd.h": 1,
+          "<unistd.h>": 1,
+          "<time.h>": 1,
+          "time.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 49,
+        "packages": {
+          "iostream": 35,
+          "<iostream>": 35,
+          "stdexcept": 34,
+          "<stdexcept>": 34,
+          "<GLFW/glfw3.h>": 33,
+          "GLFW/glfw3.h": 33,
+          "<cstdlib>": 32,
+          "cstdlib": 32,
+          "algorithm": 31,
+          "<algorithm>": 31,
+          "<vector>": 30,
+          "vector": 30,
+          "<memory>": 30,
+          "memory": 30,
+          "vulkan/vulkan_raii.hpp": 29,
+          "vulkan_hpp": 29,
+          "<vulkan/vulkan_raii.hpp>": 29,
+          "cstring": 28,
+          "<cstring>": 28,
+          "<limits>": 25,
+          "limits": 25,
+          "assert.h": 25,
+          "<assert.h>": 25,
+          "fstream": 21,
+          "<fstream>": 21,
+          "array": 13,
+          "glm/glm.hpp": 13,
+          "<array>": 13,
+          "<glm/glm.hpp>": 13,
+          "chrono": 12,
+          "<chrono>": 12,
+          "<glm/gtc/matrix_transform.hpp>": 12,
+          "glm/gtc/matrix_transform.hpp": 12,
+          "stb_image.h": 8,
+          "<stb_image.h>": 8,
+          "<string>": 5,
+          "string": 5,
+          "ctime": 4,
+          "<nthash/nthash.hpp>": 4,
+          "nthash/nthash.hpp": 4,
+          "<ctime>": 4,
+          "imgui.h": 4,
+          "<cmath>": 4,
+          "cmath": 4,
+          "MurmurHash3.h": 3,
+          "<utility>": 3,
+          "utility": 3,
+          "Device.hpp": 3,
+          "VulkanUtils.hpp": 3,
+          "VulkanDevice.hpp": 3,
+          "glm/gtx/hash.hpp": 3,
+          "tiny_obj_loader.h": 3,
+          "<tiny_obj_loader.h>": 3,
+          "<glm/gtx/hash.hpp>": 3,
+          "ostream": 2,
+          "<ostream>": 2,
+          "city.h": 2,
+          "std": 2,
+          "namespace": 2,
+          "<unordered_set>": 2,
+          "unordered_set": 2,
+          "imgui_impl_vulkan.h": 2,
+          "Swapchain.hpp": 2,
+          "imgui_impl_glfw.h": 2,
+          "<filesystem>": 2,
+          "filesystem": 2,
+          "VulkanRenderer.hpp": 2,
+          "VulkanCommandBuffer.hpp": 2,
+          "VulkanSwapchain.hpp": 2,
+          "<catch2/catch_test_macros.hpp>": 2,
+          "catch2/catch_test_macros.hpp": 2,
+          "<city.h>": 1,
+          "BloomFilter.h": 1,
+          "cstddef": 1,
+          "<cstddef>": 1,
+          "CascadeBloomFilter.h": 1,
+          "<iterator>": 1,
+          "iterator": 1,
+          "<stdlib.h>": 1,
+          "stdlib.h": 1,
+          "Camera.hpp": 1,
+          "<vulkan/vulkan_profiles.hpp>": 1,
+          "vulkan/vulkan_profiles.hpp": 1,
+          "ImGuiLayer.hpp": 1,
+          "<fastgltf/types.hpp>": 1,
+          "glm/gtc/constants.hpp": 1,
+          "fastgltf/tools.hpp": 1,
+          "<glm/gtc/quaternion.hpp>": 1,
+          "Scene.hpp": 1,
+          "<fastgltf/core.hpp>": 1,
+          "<glm/gtc/type_ptr.hpp>": 1,
+          "<fastgltf/tools.hpp>": 1,
+          "glm/gtc/type_ptr.hpp": 1,
+          "glm/gtc/quaternion.hpp": 1,
+          "fastgltf/core.hpp": 1,
+          "fastgltf/types.hpp": 1,
+          "<glm/gtc/constants.hpp>": 1,
+          "SceneEditor.hpp": 1,
+          "cassert": 1,
+          "<cassert>": 1,
+          "TextureManager.hpp": 1,
+          "<optional>": 1,
+          "nlohmann/json.hpp": 1,
+          "optional": 1,
+          "Renderable.hpp": 1,
+          "<nlohmann/json.hpp>": 1,
+          "<vk_mem_alloc.h>": 1,
+          "vk_mem_alloc.h": 1,
+          "cinder/CommandBuffer.hpp": 1,
+          "<cinder/CommandBuffer.hpp>": 1,
+          "cinder/Device.hpp": 1,
+          "<cinder/Device.hpp>": 1,
+          "vulkan/VulkanPool.hpp": 1,
+          "FooHandle": 1,
+          "<random>": 1,
+          "random": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 23,
+        "packages": {
+          "<vector>": 10,
+          "vector": 10,
+          "vulkan/vulkan_raii.hpp": 6,
+          "<vulkan/vulkan_raii.hpp>": 6,
+          "<glm/glm.hpp>": 5,
+          "glm/glm.hpp": 5,
+          "<cstdint>": 5,
+          "cstdint": 5,
+          "<vulkan/vulkan.h>": 5,
+          "vulkan/vulkan.h": 5,
+          "<memory>": 4,
+          "memory": 4,
+          "string": 4,
+          "<string>": 4,
+          "<GLFW/glfw3.h>": 3,
+          "GLFW/glfw3.h": 3,
+          "<filesystem>": 3,
+          "filesystem": 3,
+          "Types.hpp": 3,
+          "cinder/Types.hpp": 3,
+          "<vulkan/vulkan.hpp>": 2,
+          "vulkan/vulkan.hpp": 2,
+          "<glm/gtc/matrix_transform.hpp>": 2,
+          "glm/gtc/matrix_transform.hpp": 2,
+          "Renderable.hpp": 2,
+          "Camera.hpp": 2,
+          "RenderSettings.hpp": 2,
+          "Device.hpp": 2,
+          "stdexcept": 2,
+          "<stdexcept>": 2,
+          "cinder/CommandBuffer.hpp": 2,
+          "cinder/Device.hpp": 2,
+          "cinder/Swapchain.hpp": 2,
+          "<vk_mem_alloc.h>": 2,
+          "vk_mem_alloc.h": 2,
+          "<utility>": 1,
+          "functional": 1,
+          "utility": 1,
+          "<functional>": 1,
+          "unordered_map": 1,
+          "<unordered_map>": 1,
+          "array": 1,
+          "ImGuiLayer.hpp": 1,
+          "fstream": 1,
+          "iostream": 1,
+          "Scene.hpp": 1,
+          "SceneEditor.hpp": 1,
+          "<array>": 1,
+          "vulkan_hpp": 1,
+          "cstring": 1,
+          "<cstring>": 1,
+          "<iostream>": 1,
+          "Swapchain.hpp": 1,
+          "TextureManager.hpp": 1,
+          "<fstream>": 1,
+          "span": 1,
+          "<span>": 1,
+          "<limits>": 1,
+          "limits": 1,
+          "VulkanPool.hpp": 1,
+          "VulkanResources.hpp": 1,
+          "cstdio": 1,
+          "<cstdio>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 9,
+        "packages": {
+          "iostream": 2,
+          "<nthash/nthash.hpp>": 2,
+          "stdexcept": 2,
+          "<stdexcept>": 2,
+          "nthash/nthash.hpp": 2,
+          "<iostream>": 2,
+          "<bitset>": 2,
+          "bitset": 2,
+          "stdint.h": 2,
+          "<stdint.h>": 2,
+          "<stdlib.h>": 2,
+          "stdlib.h": 2,
+          "utils.h": 2,
+          "hashdict.h": 2,
+          "mpi.h": 2,
+          "city.h": 1,
+          "cstddef": 1,
+          "ConstructorType": 1,
+          "<cstdint>": 1,
+          "cstdint": 1,
+          "MurmurHash3.h": 1,
+          "<cstddef>": 1,
+          "<string>": 1,
+          "string": 1,
+          "<memory>": 1,
+          "memory": 1,
+          "namespace": 1,
+          "<arm_neon.h>": 1,
+          "<xmmintrin.h>": 1,
+          "arm_neon.h": 1,
+          "<string.h>": 1,
+          "string.h": 1,
+          "xmmintrin.h": 1,
+          "chnkcnt.h": 1,
+          "futils.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "react": 9,
+          "react-router-dom": 3,
+          "web3": 2,
+          "testing-library": 2,
+          "ipfs-http-client": 1,
+          "react-dom": 1,
+          "web-vitals": 1,
+          "GameAuction": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 42,
+        "packages": {
+          "DefaultConfig": 19,
+          "config": 19,
+          "json": 16,
+          "boto3": 15,
+          "datetime": 14,
+          "django": 12,
+          "os": 12,
+          "logging": 5,
+          "sys": 4,
+          "utility": 4,
+          "util_func": 4,
+          "csv": 3,
+          "processing": 3,
+          "TweetProcessor": 3,
+          "pathlib": 2,
+          "Path": 2,
+          "admin": 2,
+          "path": 2,
+          "subprocess": 2,
+          "typing": 2,
+          "requests": 2,
+          "re": 2,
+          "spacy": 2,
+          "pytz": 2,
+          "getopt": 2,
+          "time": 2,
+          "random": 2,
+          "execute_from_command_line": 1,
+          "get_asgi_application": 1,
+          "get_wsgi_application": 1,
+          "AppConfig": 1,
+          "forms": 1,
+          "migrations": 1,
+          "models": 1,
+          "TestCase": 1,
+          "shutil": 1,
+          "FileResponse": 1,
+          "get_object_or_404": 1,
+          "FileSystemStorage": 1,
+          "HttpResponse": 1,
+          "redirect": 1,
+          "render": 1,
+          "Polygon": 1,
+          "shapely": 1,
+          "pymusicxml": 1,
+          "xml": 1,
+          "*": 1,
+          "List": 1,
+          "LogisticRegression": 1,
+          "xgboost": 1,
+          "accuracy_score": 1,
+          "pandas": 1,
+          "numpy": 1,
+          "sklearn": 1,
+          "tweepy": 1,
+          "displacy": 1,
+          "SentimentIntensityAnalyzer": 1,
+          "vaderSentiment": 1,
+          "detect": 1,
+          "langdetect": 1,
+          "BytesIO": 1,
+          "types": 1,
+          "dotenv": 1,
+          "matplotlib": 1,
+          "io": 1,
+          "telebot": 1,
+          "load_dotenv": 1,
+          "decimal": 1,
+          "Decimal": 1,
+          "uuid": 1,
+          "ClientError": 1,
+          "botocore": 1,
+          "urllib3": 1,
+          "sensors": 1,
+          "argparse": 1,
+          "ABC": 1,
+          "Any": 1,
+          "abc": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 1,
+        "packages": {
+          "sinatra": 1,
+          "date": 1,
+          "httparty": 1,
+          "dotenv": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 5,
+        "packages": {
+          "std": 4,
+          "rand": 3,
+          "crossterm": 1,
+          "rust_8": 1,
+          "image": 1,
+          "simple_tiled": 1,
+          "clap": 1,
+          "roxmltree": 1,
+          "core": 1,
+          "crate": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "blazQ/abyss-e-bloom-filter",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "blazQ/blaz-vulkan",
+        "files_analyzed": 19,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "blazQ/bwt-icfl",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "blazQ/cinder",
+        "files_analyzed": 19,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "blazQ/mpi-word-count",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "blazQ/pentakey-dolores",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "blazQ/retro-auctions",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "blazQ/rust-8",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "blazQ/rustic-wave-function-collapse",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "blazQ/Vulkan-Tutorial",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "Python"
+        ]
+      },
+      {
+        "repository": "blazQ/wcsapp",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "blazQ/wine-cellar",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python",
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

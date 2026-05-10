@@ -1,0 +1,299 @@
+{
+  "username": "daianarodrig20",
+  "areas": {
+    "OSS": {
+      "score": 0.24174341067353455,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.8626151160103017
+      }
+    },
+    "Status": {
+      "score": 0.13340764043810527,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6808806914263886,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": 0.083333,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.14169681022232797,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        345126,
+        0
+      ],
+      "Shell": [
+        51,
+        7
+      ],
+      "HTML": [
+        2939163,
+        15
+      ],
+      "CSS": [
+        2283673,
+        0
+      ],
+      "Python": [
+        515873,
+        30
+      ],
+      "Go": [
+        17843,
+        2
+      ],
+      "Java": [
+        0,
+        11
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 65,
+    "total_lines": 6101729,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 515873,
+        "commits": 30
+      },
+      {
+        "language": "HTML",
+        "lines": 2939163,
+        "commits": 15
+      },
+      {
+        "language": "Java",
+        "lines": 0,
+        "commits": 11
+      },
+      {
+        "language": "Shell",
+        "lines": 51,
+        "commits": 7
+      },
+      {
+        "language": "Go",
+        "lines": 17843,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "daianarodrig20",
+    "analysis_date": "2026-05-09T10:47:32.648345",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 68,
+    "languages": {
+      "Go": {
+        "files_scanned": 3,
+        "packages": {
+          "fmt": 3,
+          "net/http": 1,
+          "log": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 31,
+        "packages": {
+          "java.util": 8,
+          "TP3.Ejercicio6": 5,
+          "TP5.Ejercicio10": 5,
+          "org.springframework": 4,
+          "TP2.Ejercicio1": 3,
+          "TP3.Ejercicio2": 3,
+          "TP5.Ejercicio1": 3,
+          "TP1.Ejercicio6": 2,
+          "TP3.Ejercicio1": 2,
+          "javax.swing": 2,
+          "java.nio": 2,
+          "java.io": 2,
+          "java.net": 2,
+          "tfipoo.demo": 2,
+          "org.junit": 2,
+          "loginApplication.loginApplication": 2,
+          "TP2.Ejercicio2": 1,
+          "TP3.Ejercicio3": 1,
+          "TP4.Ejercicio1": 1,
+          "TP5.Ejercicio9": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 7,
+        "packages": {
+          "undefined": 3,
+          "react": 3,
+          "express": 1,
+          "clipboard": 1,
+          "variable:": 1,
+          "markup": 1,
+          "inside:{variable:": 1,
+          "sass": 1,
+          "[{]\\s*(?:![^\\s]+)?[": 1,
+          "Prism.languages.insertBefore(": 1,
+          "property:{pattern:": 1,
+          "}": 1,
+          "|]|}))": 1,
+          "lookbehind:!0": 1,
+          "datetime:{pattern:": 1,
+          "clike": 1,
+          "keyword": 1,
+          "]*)(?:\\.[A-Z][\\w": 1,
+          "class-name": 1,
+          "boolean": 1,
+          "function": 1,
+          "inside:{punctuation:": 1,
+          "{pattern:": 1,
+          "placeholder:": 1,
+          "comment:{pattern:": 1,
+          "processing": 1,
+          "alias:": 1,
+          "SELECT": 1,
+          "gatsby": 1,
+          "gatsby-plugin-image": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 16,
+        "packages": {
+          "dataclass": 10,
+          "dataclasses": 10,
+          "Any": 9,
+          "typing": 9,
+          "tweepy": 1,
+          "gspread": 1,
+          "pathlib": 1,
+          "logging": 1,
+          "oauth2client": 1,
+          "argparse": 1,
+          "ServiceAccountCredentials": 1,
+          "Path": 1,
+          "Github": 1,
+          "github": 1,
+          "dns": 1,
+          "random": 1,
+          "getpass": 1,
+          "time": 1,
+          "paramiko": 1,
+          "pwd": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "daianarodrig20/aws-elastic-beanstalk-express-js-sample",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "daianarodrig20/blog",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "daianarodrig20/content-github-actions-deep-dive-lab",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "daianarodrig20/content-github-actions-deep-dive-lesson",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "daianarodrig20/dns",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "daianarodrig20/EstructuraDeDatos",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "daianarodrig20/Go",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "daianarodrig20/IPOO",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "daianarodrig20/POO",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "daianarodrig20/PythonProyects",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

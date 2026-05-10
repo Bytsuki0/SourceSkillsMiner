@@ -1,0 +1,632 @@
+{
+  "username": "deus-magna",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.31308644887694204,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9119373656231052,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.1875,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.19178395644205506,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Dart": [
+        2661115,
+        369
+      ],
+      "Ruby": [
+        125727,
+        2
+      ],
+      "Swift": [
+        29885,
+        1
+      ],
+      "Kotlin": [
+        21044,
+        2
+      ],
+      "Objective-C": [
+        42582,
+        0
+      ],
+      "HTML": [
+        8938,
+        17
+      ],
+      "Shell": [
+        38019,
+        0
+      ],
+      "Gherkin": [
+        537,
+        0
+      ],
+      "JavaScript": [
+        486,
+        29
+      ],
+      "Java": [
+        36038,
+        0
+      ],
+      "C++": [
+        0,
+        10
+      ],
+      "CMake": [
+        0,
+        5
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "CSS": [
+        0,
+        0
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 435,
+    "total_lines": 2964371,
+    "top_5_languages": [
+      {
+        "language": "Dart",
+        "lines": 2661115,
+        "commits": 369
+      },
+      {
+        "language": "JavaScript",
+        "lines": 486,
+        "commits": 29
+      },
+      {
+        "language": "HTML",
+        "lines": 8938,
+        "commits": 17
+      },
+      {
+        "language": "C++",
+        "lines": 0,
+        "commits": 10
+      },
+      {
+        "language": "CMake",
+        "lines": 0,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "deus-magna",
+    "analysis_date": "2026-05-09T18:53:25.237950",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 417,
+    "languages": {
+      "C++": {
+        "files_scanned": 8,
+        "packages": {
+          "generated_plugin_registrant.h": 2,
+          "my_application.h": 2,
+          "flutter/generated_plugin_registrant.h": 2,
+          "flutter_window.h": 2,
+          "utils.h": 2,
+          "<windows.h>": 2,
+          "windows.h": 2,
+          "<flutter_windows.h>": 2,
+          "flutter_windows.h": 2,
+          "<audioplayers_linux/audioplayers_linux_plugin.h>": 1,
+          "audioplayers_linux/audioplayers_linux_plugin.h": 1,
+          "gdk/gdkx.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "<gdk/gdkx.h>": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "<audioplayers_windows/audioplayers_windows_plugin.h>": 1,
+          "audioplayers_windows/audioplayers_windows_plugin.h": 1,
+          "optional": 1,
+          "<optional>": 1,
+          "flutter/dart_project.h": 1,
+          "<flutter/flutter_view_controller.h>": 1,
+          "flutter/flutter_view_controller.h": 1,
+          "<flutter/dart_project.h>": 1,
+          "<iostream>": 1,
+          "io.h": 1,
+          "<io.h>": 1,
+          "iostream": 1,
+          "stdio.h": 1,
+          "<stdio.h>": 1,
+          "<dwmapi.h>": 1,
+          "resource.h": 1,
+          "EnableNonClientDpiScaling": 1,
+          "dwmapi.h": 1,
+          "win32_window.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 30,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 20,
+          "<UIKit/UIKit.h>": 3,
+          "<Flutter/Flutter.h>": 2,
+          "memory": 2,
+          "<memory>": 2,
+          "string": 2,
+          "<string>": 2,
+          "FLTPathProviderPlugin.h": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "<gtk/gtk.h>": 1,
+          "gtk/gtk.h": 1,
+          "flutter/plugin_registry.h": 1,
+          "<flutter/plugin_registry.h>": 1,
+          "flutter/dart_project.h": 1,
+          "<flutter/flutter_view_controller.h>": 1,
+          "flutter/flutter_view_controller.h": 1,
+          "win32_window.h": 1,
+          "<flutter/dart_project.h>": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "<functional>": 1,
+          "<windows.h>": 1,
+          "functional": 1,
+          "windows.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 287,
+        "packages": {
+          "flutter": 193,
+          "chia_utils": 21,
+          "folio": 21,
+          "google_fonts": 19,
+          "dart:convert": 18,
+          "clean_books": 18,
+          "trivia_number": 18,
+          "meta": 17,
+          "weatherflut": 16,
+          "flutter_test": 13,
+          "dart:async": 13,
+          "dartz": 13,
+          "fluttercommerce": 13,
+          "nubank_flutter_challenge": 11,
+          "dart:typed_data": 11,
+          "dart:math": 10,
+          "formvalidation": 10,
+          "http": 9,
+          "qrreaderapp": 9,
+          "quiver": 8,
+          "equatable": 8,
+          "responsive_builder": 8,
+          "domain": 7,
+          "shared_preferences": 7,
+          "flutter_icons": 7,
+          "riverbloc": 6,
+          "hooks_riverpod": 6,
+          "provider": 6,
+          "dart:ui": 5,
+          "componentes": 5,
+          "batman_signin": 4,
+          "hex": 4,
+          "crypto": 4,
+          "carousel_slider": 4,
+          "dart:io": 4,
+          "shareprefapp": 4,
+          "page_transition": 4,
+          "google_generative_ai": 4,
+          "animations": 3,
+          "oxidized": 3,
+          "bloc": 3,
+          "graphql": 3,
+          "graphql_repositories": 3,
+          "vector_math": 3,
+          "flutter_bloc": 3,
+          "animated_text_kit": 3,
+          "stream_chat_flutter": 3,
+          "flutter_environments_and_codemagic": 3,
+          "home.dart": 3,
+          "country_pickers": 3,
+          "skin_selector": 3,
+          "data_connection_checker": 3,
+          "intl": 3,
+          "find_out": 3,
+          "flutter_ia_translator": 3,
+          "dart:developer": 2,
+          "flutter_localizations": 2,
+          "bouncing_navbar": 2,
+          "get_it": 2,
+          "injection_container.dart": 2,
+          "url_launcher": 2,
+          "d_chat": 2,
+          "rxdart": 2,
+          "division": 2,
+          "checkout.dart": 2,
+          "rflutter_alert": 2,
+          "font_awesome_flutter": 2,
+          "mockito": 2,
+          "go_router": 2,
+          "main.dart": 2,
+          "src/app.dart": 1,
+          "contador": 1,
+          "flutter_gen": 1,
+          "bls": 1,
+          "clvm": 1,
+          "models.dart": 1,
+          "actions_row.dart": 1,
+          "bottom_card.dart": 1,
+          "scrollable_positioned_list": 1,
+          "universal_html": 1,
+          "friends_chat_view.dart": 1,
+          "design": 1,
+          "config_reader.dart": 1,
+          "image_picker": 1,
+          "http_parser": 1,
+          "mime_type": 1,
+          "latlong": 1,
+          "sqflite": 1,
+          "path_provider": 1,
+          "path": 1,
+          "barcode_scan": 1,
+          "flutter_map": 1,
+          "screens/login.dart": 1,
+          "products_list.dart": 1,
+          "bottom_navy_bar": 1,
+          "usersettings.dart": 1,
+          "sliding_up_panel": 1,
+          "dropdownutil.dart": 1,
+          "features/number_trivia/data/datasources/number_trivia_local_datasource.dart": 1,
+          "features/number_trivia/domain/usecases/get_random_number_trivia.dart": 1,
+          "matcher": 1,
+          "widget_of_the_week": 1,
+          "lottie": 1,
+          "shimmer": 1,
+          "audioplayers": 1,
+          "animate_do": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 2,
+        "packages": {
+          "io.flutter": 2,
+          "com.example": 1,
+          "android.os": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "axios": 2,
+          "yargs": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 20,
+        "packages": {
+          "io.flutter": 20,
+          "com.example": 16,
+          "android.os": 2,
+          "androidx.annotation": 2,
+          "com.ggt": 2,
+          "com.hmz": 1,
+          "com.diegoveloper": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 5,
+        "packages": {
+          "Foundation/Foundation.h": 2,
+          "<Foundation/Foundation.h>": 2,
+          "GeneratedPluginRegistrant.h": 2,
+          "AppDelegate.h": 2,
+          "path_provider/FLTPathProviderPlugin.h": 1,
+          "<path_provider/FLTPathProviderPlugin.h>": 1,
+          "Flutter/Flutter.h": 1,
+          "<Flutter/Flutter.h>": 1,
+          "<UIKit/UIKit.h>": 1,
+          "UIKit/UIKit.h": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 25,
+        "packages": {
+          "UIKit": 21,
+          "Flutter": 21,
+          "FlutterMacOS": 4,
+          "Cocoa": 3,
+          "XCTest": 2,
+          "path_provider_foundation": 1,
+          "audioplayers_darwin": 1,
+          "Foundation": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "deus-magna/advance-counter",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/animations",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/balance_flutter_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Dart"
+        ]
+      },
+      {
+        "repository": "deus-magna/batman_signin",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/bouncing_navbar",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/chia-crypto-utils",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Dart"
+        ]
+      },
+      {
+        "repository": "deus-magna/clean-flutter-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/clean_books",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/clima-app-node",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "deus-magna/componentes",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Kotlin",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/DevFolio",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/d_chat",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/flutter-designs",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/flutter-environments_and_codemagic",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/flutter-products-app",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/flutter-qr-reader",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/flutter-shared-preferences",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/Flutter-Shopping-UI-Kit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "deus-magna/flutter-skin-selector",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/flutter-tdd-clean-architecture",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/flutter-weather-app",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/flutter-widget-of-the-week",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/flutter_findout",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "deus-magna/flutter_ia_examples",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

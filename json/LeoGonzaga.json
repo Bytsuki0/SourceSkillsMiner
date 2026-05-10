@@ -1,0 +1,578 @@
+{
+  "username": "LeoGonzaga",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.47435897435897445,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.21153846153846154
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 12,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "LeoGonzaga/ajuda-nois-frontend": 0.4308311111111111
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6115384615384616,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        415237,
+        105
+      ],
+      "CSS": [
+        45092,
+        21
+      ],
+      "HTML": [
+        6088,
+        23
+      ],
+      "TypeScript": [
+        440681,
+        435
+      ],
+      "Shell": [
+        6337,
+        4
+      ],
+      "Procfile": [
+        4,
+        0
+      ],
+      "Java": [
+        2947,
+        2
+      ],
+      "Objective-C": [
+        2290,
+        1
+      ],
+      "Ruby": [
+        289,
+        0
+      ],
+      "Starlark": [
+        287,
+        0
+      ],
+      "PHP": [
+        51,
+        10
+      ],
+      "Handlebars": [
+        0,
+        0
+      ],
+      "SCSS": [
+        0,
+        2
+      ],
+      "Game Maker Language": [
+        0,
+        34
+      ],
+      "EJS": [
+        0,
+        1
+      ],
+      "Dart": [
+        0,
+        0
+      ],
+      "Swift": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        0,
+        0
+      ],
+      "Hack": [
+        0,
+        0
+      ],
+      "GDScript": [
+        0,
+        11
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 649,
+    "total_lines": 919303,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 440681,
+        "commits": 435
+      },
+      {
+        "language": "JavaScript",
+        "lines": 415237,
+        "commits": 105
+      },
+      {
+        "language": "Game Maker Language",
+        "lines": 0,
+        "commits": 34
+      },
+      {
+        "language": "HTML",
+        "lines": 6088,
+        "commits": 23
+      },
+      {
+        "language": "CSS",
+        "lines": 45092,
+        "commits": 21
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "LeoGonzaga",
+    "analysis_date": "2026-05-09T15:33:10.927252",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 340,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<UIKit/UIKit.h>": 1,
+          "<React/RCTBridgeDelegate.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 3,
+        "packages": {
+          "com.catsapp": 3,
+          "com.facebook": 3,
+          "android.content": 2,
+          "okhttp3.OkHttpClient": 1,
+          "java.util": 1,
+          "java.lang": 1,
+          "android.app": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 44,
+        "packages": {
+          "mongoose": 13,
+          "express": 9,
+          "path": 7,
+          "react": 6,
+          "cors": 3,
+          "jsonwebtoken": 3,
+          "multer": 2,
+          "User": 2,
+          "react-router-dom": 2,
+          "Cart": 2,
+          "Product": 2,
+          "bcrypt": 2,
+          "Booking": 1,
+          "Spot": 1,
+          "react-dom": 1,
+          "axios": 1,
+          "testing-library": 1,
+          "cheerio": 1,
+          "HtmlCompiler": 1,
+          "angular2-meteor-polyfills": 1,
+          "js-string-escape": 1,
+          "less": 1,
+          "fibers": 1,
+          "StyleCompiler": 1,
+          "sequelize": 1,
+          "fs": 1,
+          "nodemailer": 1,
+          "crypto": 1,
+          "util": 1,
+          "Post": 1,
+          "body-parser": 1,
+          "dotenv": 1,
+          "puppeteer": 1,
+          "react-native": 1,
+          "next": 1,
+          "protractor": 1,
+          "ts-node": 1,
+          "jasmine-spec-reporter": 1,
+          "angular-devkit": 1,
+          "karma-jasmine": 1,
+          "karma-jasmine-html-reporter": 1,
+          "karma-chrome-launcher": 1,
+          "karma-coverage-istanbul-reporter": 1,
+          "puppeteer-core": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 12,
+        "packages": {
+          "react": 11,
+          "prop-types": 8,
+          "lucide-react": 5,
+          "styled-components": 1,
+          "next": 1,
+          "react-dom": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 3,
+        "packages": {
+          "AppDelegate.h": 2,
+          "React/RCTRootView.h": 2,
+          "<React/RCTRootView.h>": 2,
+          "UIKit/UIKit.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "<FlipperKitReactPlugin/FlipperKitReactPlugin.h>": 1,
+          "<React/RCTBridge.h>": 1,
+          "React/RCTBridge.h": 1,
+          "FlipperKit/FlipperClient.h": 1,
+          "FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h": 1,
+          "<FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h>": 1,
+          "React/RCTBundleURLProvider.h": 1,
+          "<FlipperKit/FlipperClient.h>": 1,
+          "SKIOSNetworkPlugin/SKIOSNetworkAdapter.h": 1,
+          "FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h": 1,
+          "<React/RCTBundleURLProvider.h>": 1,
+          "<FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h>": 1,
+          "<SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>": 1,
+          "FlipperKitReactPlugin/FlipperKitReactPlugin.h": 1,
+          "FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h": 1,
+          "<FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>": 1,
+          "React/RCTLog.h": 1,
+          "XCTest/XCTest.h": 1,
+          "<XCTest/XCTest.h>": 1,
+          "<React/RCTLog.h>": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 21,
+        "packages": {
+          "Doctrine\\Common\\Collections\\ArrayCollection": 5,
+          "Zend\\ServiceManager\\FactoryInterface": 5,
+          "Zend\\ServiceManager\\ServiceLocatorInterface": 5,
+          "Zend\\View\\Model\\ViewModel": 4,
+          "Doctrine\\ORM\\Mapping": 4,
+          "Doctrine\\Common\\Persistence\\ObjectManager": 4,
+          "Database\\Controller\\AbstractEntityActionController": 3,
+          "DoctrineModule\\Stdlib\\Hydrator\\DoctrineObject": 3,
+          "Exception": 3,
+          "Zend\\View\\Model\\JsonModel": 3,
+          "Doctrine\\Common\\Collections\\Collection": 3,
+          "Zend\\Form\\Form": 3,
+          "Zend\\InputFilter\\InputFilterProviderInterface": 3,
+          "AdministrativeStructure\\Entity\\Department": 2,
+          "Zend\\Session\\Container": 2,
+          "AdministrativeStructure\\Entity\\Job": 2,
+          "Authentication\\Entity\\User": 2,
+          "Authentication\\Service\\UserService": 2,
+          "Authorization\\Entity\\Role": 2,
+          "DateTime": 2,
+          "Zend\\Form\\Fieldset": 2,
+          "Zend\\InputFilter\\InputFilter": 2,
+          "Doctrine\\DBAL\\Exception\\ConstraintViolationException": 1,
+          "Doctrine\\DBAL\\Exception\\UniqueConstraintViolationException": 1,
+          "AdministrativeStructure\\Form\\DepartmentForm": 1,
+          "AdministrativeStructure\\Form\\JobForm": 1,
+          "Recruitment\\Entity\\Recruitment": 1,
+          "Recruitment\\Entity\\Person": 1,
+          "Recruitment\\Form\\SearchRegistrationsForm": 1,
+          "Recruitment\\Entity\\RecruitmentStatus": 1,
+          "AdministrativeStructure\\Entity\\Office": 1,
+          "Doctrine\\Common\\Collections\\Criteria": 1,
+          "Recruitment\\Entity\\Registration": 1,
+          "Doctrine\\ORM\\EntityRepository": 1,
+          "AdministrativeStructure\\Controller\\DepartmentController": 1,
+          "AdministrativeStructure\\Controller\\JobController": 1,
+          "AdministrativeStructure\\Form\\Fieldset\\DepartmentFieldset": 1,
+          "Zend\\Form\\FormInterface": 1,
+          "AdministrativeStructure\\Form\\Fieldset\\JobFieldset": 1,
+          "Authentication\\Form\\LoginFilter": 1,
+          "Authentication\\Form\\LoginForm": 1,
+          "Zend\\Session\\SessionManager": 1,
+          "Zend\\Mvc\\Controller\\AbstractActionController": 1,
+          "Authentication\\Form\\UserFilter": 1,
+          "Authentication\\Form\\UserForm": 1,
+          "Authentication\\Controller\\LoginController": 1,
+          "Authentication\\Controller\\UserController": 1,
+          "Authentication\\Service\\EmailSenderService": 1,
+          "Zend\\Validator\\Identical": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 96,
+        "packages": {
+          "angular": 31,
+          "mongoose": 25,
+          "styled-components": 23,
+          "express": 5,
+          "src": 5,
+          "jsonwebtoken": 4,
+          "bcrypt": 4,
+          "rxjs": 4,
+          "angular2-meteor": 3,
+          "meteor": 2,
+          "meteor-rxjs": 2,
+          "https:": 2,
+          "testing-library": 2,
+          "protractor": 2,
+          "nodemailer": 1,
+          "firebase": 1,
+          "uuid": 1,
+          "crypto": 1,
+          "cors": 1,
+          "dotenv": 1,
+          "tasks": 1,
+          "angular2-meteor-polyfills": 1,
+          "underscore": 1,
+          "puppeteer": 1,
+          "http:": 1,
+          "500;1": 1,
+          "300;1": 1,
+          "900;1": 1,
+          "wght@0": 1,
+          "900&display=swap": 1,
+          "400;0": 1,
+          "300;0": 1,
+          "500;0": 1,
+          "400;1": 1,
+          "700;0": 1,
+          "100;0": 1,
+          "700;1": 1,
+          "100;1": 1,
+          "react-input-mask": 1,
+          "next": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 73,
+        "packages": {
+          "react": 63,
+          "next": 30,
+          "src": 21,
+          "styled-components": 12,
+          "material-ui": 6,
+          "react-native-gesture-handler": 3,
+          "react-router-dom": 3,
+          "reactflow": 3,
+          "components": 2,
+          "react-navigation": 2,
+          "testing-library": 2,
+          "react-dom": 2,
+          "react-native": 2,
+          "expo-status-bar": 1,
+          "react-modal": 1,
+          "themes": 1,
+          "react-redux": 1,
+          "Document": 1,
+          "prop-types": 1,
+          "react-test-renderer": 1,
+          "moment": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "LeoGonzaga/aircnc",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/ajuda-nois",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/ajuda-nois-backend",
+        "files_analyzed": 26,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/ajuda-nois-frontend",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/angular-meteor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/api-mongo-com222",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/api-sequelize",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/api-store-com222",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/backend-ihelp",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/bot-fazenda",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/busao",
+        "files_analyzed": 26,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/cats-app",
+        "files_analyzed": 19,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/CatsSys",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/charflow-react",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/clima-api",
+        "files_analyzed": 6,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/codelandia-desafio",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript (JSX)",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/colors",
+        "files_analyzed": 6,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/com222_front_angular",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/comment",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "LeoGonzaga/components-react",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript (JSX)"
+        ]
+      }
+    ]
+  }
+}

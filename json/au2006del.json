@@ -1,0 +1,261 @@
+{
+  "username": "au2006del",
+  "areas": {
+    "OSS": {
+      "score": -0.020961244247041155,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.46855813362943827
+      }
+    },
+    "Status": {
+      "score": -0.059110848506038094,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.39210295801017364,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.775,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.1710144185506159,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        693406,
+        1
+      ],
+      "JavaScript": [
+        336724,
+        0
+      ],
+      "Batchfile": [
+        31460,
+        0
+      ],
+      "HTML": [
+        335049,
+        0
+      ],
+      "CSS": [
+        52199,
+        0
+      ],
+      "PHP": [
+        74821,
+        6
+      ],
+      "Python": [
+        22,
+        0
+      ],
+      "Makefile": [
+        20,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 7,
+    "total_lines": 1523701,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 74821,
+        "commits": 6
+      },
+      {
+        "language": "Java",
+        "lines": 693406,
+        "commits": 1
+      },
+      {
+        "language": "JavaScript",
+        "lines": 336724,
+        "commits": 0
+      },
+      {
+        "language": "Batchfile",
+        "lines": 31460,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 335049,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "au2006del",
+    "analysis_date": "2026-05-09T21:45:46.359598",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 135,
+    "languages": {
+      "Java": {
+        "files_scanned": 64,
+        "packages": {
+          "org.apache": 60,
+          "java.util": 27,
+          "android.content": 24,
+          "org.json": 23,
+          "android.app": 14,
+          "android.webkit": 14,
+          "android.os": 13,
+          "android.util": 12,
+          "android.view": 12,
+          "android.net": 8,
+          "java.io": 7,
+          "android.widget": 7,
+          "java.security": 6,
+          "java.lang": 5,
+          "android.graphics": 3,
+          "java.net": 3,
+          "org.xmlpull": 2,
+          "android.annotation": 2,
+          "android.media": 2,
+          "java.nio": 2,
+          "android.database": 2,
+          "android.telephony": 2,
+          "com.twilio": 2,
+          "static": 2,
+          "android.support": 1,
+          "mypackage": 1,
+          "org.junit": 1,
+          "classUnderTest": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 16,
+        "packages": {
+          "Twilio\\Twiml": 7,
+          "Twilio\\Rest\\Client": 3,
+          "vendor/autoload.php": 2,
+          "Twilio.php": 2,
+          "dbconfig.php": 1,
+          "$file": 1,
+          "Services/Twilio.php": 1,
+          "Twilio\\Exceptions\\EnvironmentException": 1,
+          "Twilio\\Jwt\\Grants\\Grant": 1,
+          "Twilio\\Jwt\\Client\\ScopeURI": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "au2006del/CordovaMovieApp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "au2006del/courses",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "au2006del/CS6432017",
+        "files_analyzed": 1,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "au2006del/Final-Project-SE",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "au2006del/FinalTwilioVoice",
+        "files_analyzed": 4,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "au2006del/Project",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "au2006del/Rapid-Vocab",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "au2006del/RearwardReality",
+        "files_analyzed": 4,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "au2006del/TwilioEducation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "au2006del/TwilioSend",
+        "files_analyzed": 1,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

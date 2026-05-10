@@ -1,0 +1,373 @@
+{
+  "username": "PedroHenriqueph7",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.46153846153846145,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.19230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": 0.483333,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 3,
+        "topic_entropy_bits": 4.7776,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.30564095897435894,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        7907,
+        185
+      ],
+      "HTML": [
+        60609,
+        12
+      ],
+      "CSS": [
+        338981,
+        50
+      ],
+      "Jupyter Notebook": [
+        2572057,
+        0
+      ],
+      "PHP": [
+        483399,
+        65
+      ],
+      "Hack": [
+        117427,
+        17
+      ],
+      "JavaScript": [
+        22939,
+        2
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "Gherkin": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 331,
+    "total_lines": 3603319,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 7907,
+        "commits": 185
+      },
+      {
+        "language": "PHP",
+        "lines": 483399,
+        "commits": 65
+      },
+      {
+        "language": "CSS",
+        "lines": 338981,
+        "commits": 50
+      },
+      {
+        "language": "Hack",
+        "lines": 117427,
+        "commits": 17
+      },
+      {
+        "language": "HTML",
+        "lines": 60609,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "PedroHenriqueph7",
+    "analysis_date": "2026-05-09T02:11:33.529593",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 271,
+    "languages": {
+      "Java": {
+        "files_scanned": 222,
+        "packages": {
+          "java.util": 77,
+          "org.springframework": 55,
+          "org.estudos": 34,
+          "com.pedro_henrique": 30,
+          "me.dio": 30,
+          "jakarta.persistence": 20,
+          "com.estudos_spring": 17,
+          "io.cucumber": 15,
+          "org.projects": 14,
+          "com.example": 11,
+          "static": 11,
+          "lombok.AllArgsConstructor": 9,
+          "lombok.Getter": 9,
+          "org.junit": 8,
+          "lombok.NoArgsConstructor": 7,
+          "br.com": 6,
+          "java.time": 6,
+          "desafios_set.ordenacao": 6,
+          "jakarta.validation": 6,
+          "dio.projeto": 6,
+          "io.restassured": 6,
+          "java.math": 6,
+          "Banco": 5,
+          "aula1.entities": 5,
+          "org.slf4j": 5,
+          "desafios_list.operacoes_basicas": 4,
+          "desafios_list.ordenacao": 4,
+          "desafios_map.ordenacao": 4,
+          "lombok.Setter": 4,
+          "java.sql": 3,
+          "Banco.TipodeConta": 3,
+          "funcoes": 3,
+          "desafios_list.pesquisa": 3,
+          "desafios_map.pesquisa": 3,
+          "desafios_set.operacoes_basicas": 3,
+          "lombok.EqualsAndHashCode": 3,
+          "entities": 3,
+          "aula5.entities": 3,
+          "aula6.entities": 3,
+          "Banco.Cliente": 2,
+          "Banco.Conta": 2,
+          "desafios_map.operacoes_basicas": 2,
+          "aula2.entities": 2,
+          "aula3.auxiliar": 2,
+          "aula4.entities": 2,
+          "aula5.util": 2,
+          "aula6.model_services": 2,
+          "aula9.entities": 2,
+          "java.io": 2,
+          "desafio_extra.entities": 2,
+          "desafio_extra2.entities": 2,
+          "exercicio_proposto.entities": 2,
+          "org.hamcrest": 2,
+          "io.swagger": 2,
+          "funcionalidadeDoIphone": 1,
+          "iphone.Iphone": 1,
+          "iphone": 1,
+          "funcoes.NavegadorNaInternet": 1,
+          "funcoes.ReprodutorMusical": 1,
+          "funcoes.AparelhoTelefonico": 1,
+          "com.fasterxml": 1,
+          "CONCLUIDA": 1,
+          "PENDENTE": 1,
+          "jakarta.transaction": 1,
+          "entities.ConflitoHorarioException": 1,
+          "application": 1,
+          "entities.Agenda": 1,
+          "org.hibernate": 1,
+          "aula1.application": 1,
+          "aula2.application": 1,
+          "aula2.uaula2B": 1,
+          "aula3.application": 1,
+          "aula3.entities": 1,
+          "aula4": 1,
+          "aula4.application": 1,
+          "aula4.UpdateListConsumer": 1,
+          "aula5.application": 1,
+          "aula6.application": 1,
+          "aula7.application": 1,
+          "aula8.application": 1,
+          "aula9.application": 1,
+          "desafio_extra.application": 1,
+          "desafio_extra2.application": 1,
+          "exercicio_proposto.application": 1,
+          "java.net": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 1,
+        "packages": {
+          "DataBaseConecta.php": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "PedroHenriqueph7/demo_3_exercicio",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/desafio-dio-banco",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/desafio-iphone",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/desafio-poo-dio-java",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/DesafioControleFluxo",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/dio-trilha-java-basico-p",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/dslist",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/e-commece-pronto-saudavel-todos-os-dias",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/EstruturaDeDadosEmJava",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/Gerenciador-tarefas-domesticas-Spring",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/GerenciadorDeAgendaCompromissos",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/pix-key-manager",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/primeiro-projeto-spring-boot",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/ProgramacaoFuncionalEExpressoesLambda",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/qa-platform-automation-simple",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/qa-platform-automation-tests",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/santander-dev-java-2024-api",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "PedroHenriqueph7/santander-java-2024",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

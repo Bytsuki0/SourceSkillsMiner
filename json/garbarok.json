@@ -1,0 +1,399 @@
+{
+  "username": "garbarok",
+  "areas": {
+    "OSS": {
+      "score": 0.7811478494915507,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.9230769230769231,
+        "commits_activity": 0.7486448511604029
+      }
+    },
+    "Status": {
+      "score": 0.264765429580202,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8586866059087646,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.527914,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.8617,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 0,
+        "topic_entropy_bits": 2.585,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "garbarok/ga4-manager": -0.1692266666666667,
+        "garbarok/NestAuthAPI": -0.22208
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.31476545581435056,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        14932,
+        41
+      ],
+      "Go": [
+        6480,
+        28
+      ],
+      "Shell": [
+        384006,
+        3
+      ],
+      "JavaScript": [
+        535,
+        1
+      ],
+      "HTML": [
+        40,
+        0
+      ],
+      "Makefile": [
+        286,
+        0
+      ],
+      "GLSL": [
+        42276,
+        0
+      ],
+      "Lua": [
+        19509,
+        0
+      ],
+      "Nushell": [
+        8394,
+        0
+      ],
+      "Python": [
+        79520,
+        7
+      ],
+      "Dockerfile": [
+        171,
+        0
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 80,
+    "total_lines": 556149,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 14932,
+        "commits": 41
+      },
+      {
+        "language": "Go",
+        "lines": 6480,
+        "commits": 28
+      },
+      {
+        "language": "Python",
+        "lines": 79520,
+        "commits": 7
+      },
+      {
+        "language": "Shell",
+        "lines": 384006,
+        "commits": 3
+      },
+      {
+        "language": "JavaScript",
+        "lines": 535,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "garbarok",
+    "analysis_date": "2026-05-08T23:27:51.535511",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 147,
+    "languages": {
+      "Go": {
+        "files_scanned": 28,
+        "packages": {
+          "fmt": 24,
+          "os": 21,
+          "github.com/spf13/cobra": 14,
+          "github.com/fatih/color": 13,
+          "strings": 13,
+          "github.com/garbarok/ga4-manager/internal/config": 11,
+          "path/filepath": 9,
+          "github.com/garbarok/ga4-manager/internal/tui": 7,
+          "github.com/olekukonko/tablewriter": 7,
+          "github.com/garbarok/ga4-manager/internal/gsc": 6,
+          "github.com/garbarok/ga4-manager/internal/ga4": 5,
+          "encoding/json": 5,
+          "time": 5,
+          "encoding/csv": 4,
+          "google.golang.org/api/analyticsadmin/v1alpha": 4,
+          "testing": 3,
+          "gopkg.in/yaml.v3": 3,
+          "bufio": 2,
+          "TWO_MONTHS": 2,
+          "FOURTEEN_MONTHS": 2,
+          "github.com/stretchr/testify/assert": 2,
+          "golang.org/x/text/cases": 1,
+          "golang.org/x/text/language": 1,
+          "all": 1,
+          "no_impressions": 1,
+          "indexed": 1,
+          "low_impressions": 1,
+          "google.golang.org/api/option": 1,
+          "context": 1,
+          "basic-ecommerce.yaml": 1,
+          "template.yaml": 1,
+          "content-site.yaml": 1,
+          "os/exec": 1,
+          "your-credentials.json": 1,
+          "credentials.json": 1,
+          "github.com/joho/godotenv": 1,
+          "project-id": 1,
+          "path/to/credentials": 1,
+          "slices": 1,
+          "log": 1,
+          "your-project-id": 1,
+          "your-gcp-project-id": 1,
+          "github.com/garbarok/ga4-manager/internal/setup": 1,
+          "log/slog": 1,
+          "engagement_time_msec": 1,
+          "session_id": 1,
+          "firebase_screen_class": 1,
+          "Config": 1,
+          "ga_session_id": 1,
+          "ga_session_number": 1,
+          "firebase_screen": 1,
+          "user_id": 1,
+          "TWENTY_SIX_MONTHS": 1,
+          "FIFTY_MONTHS": 1,
+          "THIRTY_EIGHT_MONTHS": 1,
+          "STANDARD": 1,
+          "YAML": 1,
+          "MILLISECONDS": 1,
+          "SECONDS": 1,
+          "github.com/stretchr/testify/require": 1,
+          "CURRENCY": 1,
+          "include_advertising_id": 1,
+          "daily_export": 1,
+          "link_count": 1,
+          "project": 1,
+          "streaming_export": 1,
+          "name": 1,
+          "fresh_daily_tables": 1,
+          "links": 1,
+          "enabled": 1,
+          "regexp": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 12,
+        "packages": {
+          "config.lazy": 1,
+          "config.nodejs": 1,
+          "snacks": 1,
+          "fzf-lua": 1,
+          "lazy": 1,
+          "plugins.codecompanion.codecompanion-notifier": 1,
+          "kanagawa": 1,
+          "copilot.api": 1,
+          "fff.download": 1,
+          "fff": 1,
+          "gemini": 1,
+          "mason-nvim-dap": 1,
+          "dap.ui.widgets": 1,
+          "dap": 1,
+          "oil": 1,
+          "opencode": 1,
+          "rip-substitute": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 24,
+        "packages": {
+          "datetime": 10,
+          "models": 9,
+          "setup_logger": 8,
+          "utils": 8,
+          "sqlalchemy": 8,
+          "tkinter": 8,
+          "services": 7,
+          "DatabaseManager": 7,
+          "ttk": 7,
+          "typing": 7,
+          "sys": 6,
+          "Column": 6,
+          "pandas": 3,
+          "Path": 3,
+          "pathlib": 3,
+          "Transaction": 3,
+          "CategorizationService": 3,
+          "Project": 3,
+          "Optional": 3,
+          "traceback": 2,
+          "argparse": 2,
+          "InitialTrainingService": 2,
+          "create_engine": 2,
+          "os": 2,
+          "AICategorizationService": 2,
+          "Callable": 2,
+          "MigrationService": 2,
+          "gui": 2,
+          "ProjectManager": 2,
+          "List": 2,
+          "numpy": 2,
+          "relationship": 2,
+          "Base": 1,
+          "MovementType": 1,
+          "upgrade": 1,
+          "setuptools": 1,
+          "setup": 1,
+          "webbrowser": 1,
+          "make_subplots": 1,
+          "plotly": 1,
+          "UserPreferences": 1,
+          "ModelDownloader": 1,
+          "CategoryTrainingExample": 1,
+          "SettingsDialog": 1,
+          "DataProcessor": 1,
+          "file": 1,
+          "Importe": 1,
+          "get_all_categories": 1,
+          "SearchPanel": 1,
+          "€": 1,
+          "filedialog": 1,
+          "CategoryEditableTreeview": 1,
+          "TagSelectorDialog": 1,
+          "ChartManager": 1,
+          "charts": 1,
+          "FileValidationError": 1,
+          "files": 1,
+          "date": 1,
+          "DateEntry": 1,
+          "tkcalendar": 1,
+          "MainWindow": 1,
+          "ProjectSelector": 1,
+          "declarative_base": 1,
+          "enum": 1,
+          "Enum": 1,
+          "json": 1,
+          "hashlib": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 49,
+        "packages": {
+          "nestjs": 22,
+          "modelcontextprotocol": 14,
+          "class-validator": 9,
+          "zod": 7,
+          "bcrypt": 2,
+          "jwt": 2,
+          "tough-cookie": 1,
+          "axios": 1,
+          "node:path": 1,
+          "oauth-1.0a": 1,
+          "node:fs": 1,
+          "node:crypto": 1,
+          "axios-cookiejar-support": 1,
+          "node:os": 1,
+          "dotenv": 1,
+          "vitest": 1,
+          "exerciseSets": 1,
+          "typedsplits": 1,
+          "split_summaries": 1,
+          "lifetime": 1,
+          "active": 1,
+          "powerTimeInZones": 1,
+          "hrTimeInZones": 1,
+          "weather": 1,
+          "details": 1,
+          "splits": 1,
+          "Must": 1,
+          "node:readline": 1,
+          "commitlint": 1,
+          "github": 1,
+          "passport-github2": 1,
+          "google": 1,
+          "passport-google-oauth20": 1,
+          "passport-jwt": 1,
+          "typeorm": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "garbarok/ga4-manager",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "garbarok/garmin-connect-mcp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "garbarok/Gentleman.Dots",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "garbarok/NestAuthAPI",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "garbarok/SpendSightBBVA",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

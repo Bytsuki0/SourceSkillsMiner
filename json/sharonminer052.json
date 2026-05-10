@@ -1,0 +1,342 @@
+{
+  "username": "sharonminer052",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.42307692307692313,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Adaptability": {
+      "score": -0.625,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.05705128205128204,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Rust": [
+        98227,
+        87
+      ],
+      "HTML": [
+        4250,
+        2
+      ],
+      "Shell": [
+        612,
+        0
+      ],
+      "Python": [
+        18090,
+        0
+      ],
+      "Makefile": [
+        91,
+        0
+      ],
+      "TeX": [
+        4711621,
+        125
+      ],
+      "Java": [
+        248073,
+        77
+      ],
+      "CSS": [
+        16201,
+        1
+      ],
+      "JavaScript": [
+        14558,
+        29
+      ],
+      "PHP": [
+        588,
+        6
+      ],
+      "C": [
+        3620838,
+        12
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 339,
+    "total_lines": 8733149,
+    "top_5_languages": [
+      {
+        "language": "TeX",
+        "lines": 4711621,
+        "commits": 125
+      },
+      {
+        "language": "Rust",
+        "lines": 98227,
+        "commits": 87
+      },
+      {
+        "language": "Java",
+        "lines": 248073,
+        "commits": 77
+      },
+      {
+        "language": "JavaScript",
+        "lines": 14558,
+        "commits": 29
+      },
+      {
+        "language": "C",
+        "lines": 3620838,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sharonminer052",
+    "analysis_date": "2026-05-09T22:49:44.374409",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 161,
+    "languages": {
+      "Java": {
+        "files_scanned": 60,
+        "packages": {
+          "com.databasepreservation": 30,
+          "oracle.nosql": 30,
+          "java.util": 16,
+          "java.io": 15,
+          "javax.ws": 15,
+          "org.springframework": 13,
+          "javax.servlet": 11,
+          "org.roda": 11,
+          "java.nio": 7,
+          "org.slf4j": 7,
+          "org.apache": 7,
+          "io.swagger": 5,
+          "static": 5,
+          "java.net": 4,
+          "org.glassfish": 3,
+          "com.fasterxml": 2,
+          "java.math": 2,
+          "java.text": 2,
+          "io.netty": 2,
+          "javax.sql": 1,
+          "org.jasig": 1,
+          "javax.inject": 1,
+          "javax.xml": 1,
+          "java.lang": 1,
+          "com.github": 1,
+          "com.google": 1,
+          "javax.activation": 1,
+          "Region": 1,
+          "NoSQLHandleConfig.setAuthorizationProvider": 1,
+          "AuthorizationProvider": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 23,
+        "packages": {
+          "assert": 19,
+          "fs": 5,
+          "oracle-nosqldb": 3,
+          "util": 3,
+          "path": 3,
+          "os": 1,
+          "process": 1,
+          "crypto": 1,
+          "net": 1,
+          "tls": 1,
+          "endpoint": 1,
+          "events": 1,
+          "https": 1,
+          "http": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 4,
+        "packages": {
+          "Illuminate\\Support\\Facades\\Schema": 3,
+          "Illuminate\\Database\\Schema\\Blueprint": 2,
+          "Spatie\\Regex\\Regex": 2,
+          "Illuminate\\Support\\Collection": 2,
+          "Illuminate\\Support\\Facades\\DB": 2,
+          "Illuminate\\Support\\Str": 1,
+          "Illuminate\\Database\\Console\\Migrations\\BaseCommand": 1,
+          "Illuminate\\Database\\Migrations\\Migrator": 1,
+          "Illuminate\\Support\\ServiceProvider": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 14,
+        "packages": {
+          "bson": 8,
+          "os": 8,
+          "sys": 6,
+          "pymongo": 5,
+          "mongita": 4,
+          "functools": 4,
+          "shutil": 3,
+          "datetime": 3,
+          "re": 3,
+          "collections": 3,
+          "random": 2,
+          "copy": 2,
+          "sortedcontainers": 2,
+          "itertools": 2,
+          "intern": 2,
+          "pathlib": 2,
+          "threading": 2,
+          "abc": 2,
+          "mongoengine": 2,
+          "json": 1,
+          "coolname": 1,
+          "time": 1,
+          "lorem": 1,
+          "plotly": 1,
+          "json_util": 1,
+          "cProfile": 1,
+          "sqlite3": 1,
+          "msgpack": 1,
+          "pstats": 1,
+          "unicodedata": 1,
+          "setuptools": 1,
+          "Number": 1,
+          "tempfile": 1,
+          "numbers": 1,
+          "concurrent": 1,
+          "pytest": 1,
+          "ThreadPoolExecutor": 1,
+          "remove_test_dir": 1,
+          "test_mongita": 1,
+          "Template": 1,
+          "string": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 28,
+        "packages": {
+          "std": 26,
+          "crate": 22,
+          "super": 14,
+          "tempfile": 9,
+          "nebari": 7,
+          "parking_lot": 7,
+          "nanorand": 4,
+          "criterion": 3,
+          "byteorder": 3,
+          "persy": 2,
+          "_sled": 2,
+          "rusqlite": 2,
+          "serde": 2,
+          "once_cell": 2,
+          "ubyte": 1,
+          "http_auth_basic": 1,
+          "serde_json": 1,
+          "tracing_subscriber": 1,
+          "libfuzzer_sys": 1,
+          "lru": 1,
+          "thiserror": 1,
+          "backtrace": 1,
+          "flume": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sharonminer052/beanch-nebari-develop",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "sharonminer052/database-mongita-github",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sharonminer052/db-database",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sharonminer052/db-tk-ui-develop",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "sharonminer052/laravel-sync-migration-database",
+        "files_analyzed": 4,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "sharonminer052/sql-java-sdk-drive",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "sharonminer052/sql-node-sdk-database-develo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

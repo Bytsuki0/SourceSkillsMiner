@@ -1,0 +1,622 @@
+{
+  "username": "pmdpaula",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 0.4,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 6,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "pmdpaula/aluracord-01": 0.46091666666666664,
+        "pmdpaula/cakuiz": 0.4939,
+        "pmdpaula/estudo-nextjs": 0.4939
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6043589743589743,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        86977,
+        468
+      ],
+      "JavaScript": [
+        545455,
+        445
+      ],
+      "HTML": [
+        4518,
+        78
+      ],
+      "CSS": [
+        5804,
+        22
+      ],
+      "Shell": [
+        1414,
+        3
+      ],
+      "Java": [
+        3318,
+        23
+      ],
+      "Objective-C": [
+        2405,
+        9
+      ],
+      "Ruby": [
+        554,
+        1
+      ],
+      "Starlark": [
+        322,
+        0
+      ],
+      "Swift": [
+        59,
+        0
+      ],
+      "C": [
+        55,
+        0
+      ],
+      "Dockerfile": [
+        15473,
+        1
+      ],
+      "Go": [
+        3470,
+        0
+      ],
+      "Objective-C++": [
+        0,
+        0
+      ],
+      "Python": [
+        0,
+        1
+      ],
+      "MDX": [
+        0,
+        1
+      ],
+      "C++": [
+        0,
+        1
+      ],
+      "CMake": [
+        0,
+        0
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 1053,
+    "total_lines": 669824,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 86977,
+        "commits": 468
+      },
+      {
+        "language": "JavaScript",
+        "lines": 545455,
+        "commits": 445
+      },
+      {
+        "language": "HTML",
+        "lines": 4518,
+        "commits": 78
+      },
+      {
+        "language": "Java",
+        "lines": 3318,
+        "commits": 23
+      },
+      {
+        "language": "CSS",
+        "lines": 5804,
+        "commits": 22
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "pmdpaula",
+    "analysis_date": "2026-05-09T22:23:32.552163",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 414,
+    "languages": {
+      "C": {
+        "files_scanned": 17,
+        "packages": {
+          "cache.h": 15,
+          "config.h": 9,
+          "object-store.h": 6,
+          "dir.h": 5,
+          "diff.h": 5,
+          "refs.h": 4,
+          "run-command.h": 4,
+          "commit.h": 4,
+          "quote.h": 4,
+          "color.h": 3,
+          "diffcore.h": 3,
+          "revision.h": 3,
+          "string-list.h": 3,
+          "blob.h": 3,
+          "alloc.h": 3,
+          "archive.h": 3,
+          "lockfile.h": 2,
+          "add-interactive.h": 2,
+          "prompt.h": 2,
+          "strvec.h": 2,
+          "tag.h": 2,
+          "xdiff-interface.h": 2,
+          "parse-options.h": 2,
+          "streaming.h": 2,
+          "utf8.h": 2,
+          "attr.h": 2,
+          "commit-slab.h": 2,
+          "commit-graph.h": 2,
+          "bloom.h": 2,
+          "strbuf.h": 1,
+          "compat/terminal.h": 1,
+          "pathspec.h": 1,
+          "help.h": 1,
+          "alias.h": 1,
+          "object.h": 1,
+          "tree.h": 1,
+          "entry.h": 1,
+          "rerere.h": 1,
+          "apply.h": 1,
+          "ll-merge.h": 1,
+          "delta.h": 1,
+          "tar.h": 1,
+          "userdiff.h": 1,
+          "date.h": 1,
+          "tree-walk.h": 1,
+          "unpack-trees.h": 1,
+          "exec-cmd.h": 1,
+          "thread-utils.h": 1,
+          "bisect.h": 1,
+          "hash-lookup.h": 1,
+          "oid-array.h": 1,
+          "log-tree.h": 1,
+          "commit-reach.h": 1,
+          "list-objects.h": 1,
+          "mergesort.h": 1,
+          "blame.h": 1,
+          "cache-tree.h": 1,
+          "repository.h": 1,
+          "sha1.h": 1,
+          "git-compat-util.h": 1,
+          "hashmap.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 7,
+        "packages": {
+          "cache.h": 2,
+          "<React/RCTBridgeDelegate.h>": 1,
+          "<UIKit/UIKit.h>": 1,
+          "color.h": 1,
+          "git-compat-util.h": 1,
+          "strmap.h": 1,
+          "hash.h": 1,
+          "string-list.h": 1,
+          "lockfile.h": 1,
+          "pathspec.h": 1,
+          "revision.h": 1,
+          "commit.h": 1,
+          "diff.h": 1,
+          "xdiff-interface.h": 1,
+          "prio-queue.h": 1,
+          "object.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 3,
+        "packages": {
+          "com.todo": 3,
+          "com.facebook": 3,
+          "android.content": 2,
+          "okhttp3.OkHttpClient": 1,
+          "android.app": 1,
+          "java.util": 1,
+          "java.lang": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 59,
+        "packages": {
+          "react": 17,
+          "styled-components": 11,
+          ":": 7,
+          "next": 5,
+          "commitlint": 5,
+          "react-router-dom": 4,
+          "materialize-css": 4,
+          "testing-library": 4,
+          "next-images": 4,
+          "react-dom": 2,
+          "eslint-plugin-jest": 2,
+          "jest-styled-components": 2,
+          "jest-canvas-mock": 2,
+          "{": 2,
+          "undefined": 2,
+          "md5": 1,
+          "sqlite3": 1,
+          "cors": 1,
+          "express": 1,
+          "body-parser": 1,
+          "validator": 1,
+          "fs": 1,
+          "crello": 1,
+          "next-compose-plugins": 1,
+          "react-native": 1,
+          "expo": 1,
+          "vertx": 1,
+          "json-server": 1,
+          "styled-normalize": 1,
+          "react-icons": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 78,
+        "packages": {
+          "styled-components": 50,
+          "react": 46,
+          "prop-types": 29,
+          "next": 17,
+          "lodash": 8,
+          "react-router-dom": 4,
+          "skynexui": 3,
+          "framer-motion": 3,
+          "windups": 3,
+          "react-icons": 2,
+          "supabase": 1,
+          "react-slick": 1,
+          "react-tooltip": 1,
+          "react-switch": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 3,
+        "packages": {
+          "AppDelegate.h": 2,
+          "<React/RCTRootView.h>": 2,
+          "React/RCTRootView.h": 2,
+          "UIKit/UIKit.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "FlipperKitReactPlugin/FlipperKitReactPlugin.h": 1,
+          "<FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h>": 1,
+          "SKIOSNetworkPlugin/SKIOSNetworkAdapter.h": 1,
+          "React/RCTBridge.h": 1,
+          "<React/RCTBridge.h>": 1,
+          "<FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>": 1,
+          "<FlipperKit/FlipperClient.h>": 1,
+          "FlipperKit/FlipperClient.h": 1,
+          "<React/RCTBundleURLProvider.h>": 1,
+          "<FlipperKitReactPlugin/FlipperKitReactPlugin.h>": 1,
+          "FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h": 1,
+          "<SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>": 1,
+          "React/RCTBundleURLProvider.h": 1,
+          "<FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h>": 1,
+          "FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h": 1,
+          "FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h": 1,
+          "React/RCTLog.h": 1,
+          "XCTest/XCTest.h": 1,
+          "<React/RCTLog.h>": 1,
+          "<XCTest/XCTest.h>": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 1,
+        "packages": {
+          "asciidoctor": 1,
+          "asciidoctor/extensions": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 1,
+        "packages": {
+          "Foundation": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 35,
+        "packages": {
+          "styled-components": 16,
+          "react-native": 15,
+          "expo-google-fonts": 2,
+          "axios": 2,
+          "zod": 2,
+          "src": 1,
+          "color": 1,
+          "testing-library": 1,
+          "cors": 1,
+          "express": 1,
+          "prisma": 1,
+          "vite": 1,
+          "vitejs": 1,
+          "mongodb": 1,
+          "react": 1,
+          "react-native-svg": 1,
+          "react-native-responsive-fontsize": 1,
+          "next": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 70,
+        "packages": {
+          "react": 36,
+          "react-native": 23,
+          "next": 19,
+          "styled-components": 16,
+          "material-ui": 13,
+          "components": 9,
+          "react-navigation": 7,
+          "expo": 6,
+          "next-auth": 6,
+          "react-native-gesture-handler": 5,
+          "expo-status-bar": 4,
+          "testing-library": 4,
+          "react-native-community": 3,
+          "react-hook-form": 3,
+          "clsx": 3,
+          "radix-ui": 3,
+          "react-native-responsive-fontsize": 3,
+          "expo-google-fonts": 2,
+          "expo-font": 2,
+          "expo-splash-screen": 2,
+          "phosphor-react-native": 2,
+          "lodash": 2,
+          "yup": 2,
+          "react-native-vector-icons": 2,
+          "axios": 2,
+          "phosphor-react": 2,
+          "mongodb": 2,
+          "Document": 1,
+          "screens": 1,
+          "on": 1,
+          "assets": 1,
+          "storage": 1,
+          "&&": 1,
+          "color": 1,
+          "Confirme": 1,
+          "AxSnackbar": 1,
+          "react-native-iphone-x-helper": 1,
+          "react-native-linear-gradient": 1,
+          "react-dom": 1,
+          "swr": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "pmdpaula/-nlw02-mobile",
+        "files_analyzed": 18,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/alura-react-curso",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pmdpaula/aluracord-01",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/base_nextjs_styled",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/bootcamp-portifolio",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pmdpaula/cakuiz",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/daily-diet",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/dedeCustos",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/desafio01",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "Swift",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/e-sports-nlw",
+        "files_analyzed": 15,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/estudo-nextjs",
+        "files_analyzed": 18,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/faz-ae",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/git",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "pmdpaula/ignite-devstore-api",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "pmdpaula/ignitecafe",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/ImersaoGameDev",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "pmdpaula/ImersaoReactAxeThings",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/instalura",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/Instalura-Revisao",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/investview-bootcamp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "pmdpaula/jam-alura-viagens",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      }
+    ]
+  }
+}

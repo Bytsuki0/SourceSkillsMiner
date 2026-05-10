@@ -1,0 +1,556 @@
+{
+  "username": "gustav0d",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.1890097535169819,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7450530918139343,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.75,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 11,
+        "language_transitions": 12,
+        "topic_entropy_bits": 4.2971,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "gustav0d/angular-express-postgresql-crud": 0.08808,
+        "gustav0d/beacademy-devstart-ametista": 0.06077777777777777
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6211352840367298,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "PHP": [
+        60650,
+        22
+      ],
+      "Blade": [
+        15728,
+        0
+      ],
+      "Shell": [
+        175,
+        42
+      ],
+      "TypeScript": [
+        21825,
+        299
+      ],
+      "HTML": [
+        12393,
+        12
+      ],
+      "CSS": [
+        27861,
+        11
+      ],
+      "Handlebars": [
+        263,
+        0
+      ],
+      "JavaScript": [
+        2201,
+        8
+      ],
+      "Dockerfile": [
+        76,
+        4
+      ],
+      "SCSS": [
+        24,
+        0
+      ],
+      "Hack": [
+        1193,
+        0
+      ],
+      "Vim Script": [
+        0,
+        0
+      ],
+      "Astro": [
+        0,
+        59
+      ],
+      "XSLT": [
+        0,
+        6
+      ],
+      "MDX": [
+        0,
+        12
+      ],
+      "EJS": [
+        0,
+        0
+      ],
+      "Python": [
+        0,
+        10
+      ],
+      "Makefile": [
+        0,
+        1
+      ],
+      "C++": [
+        0,
+        6
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 492,
+    "total_lines": 142389,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 21825,
+        "commits": 299
+      },
+      {
+        "language": "Astro",
+        "lines": 0,
+        "commits": 59
+      },
+      {
+        "language": "Shell",
+        "lines": 175,
+        "commits": 42
+      },
+      {
+        "language": "PHP",
+        "lines": 60650,
+        "commits": 22
+      },
+      {
+        "language": "HTML",
+        "lines": 12393,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "gustav0d",
+    "analysis_date": "2026-05-08T13:00:41.861111",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 417,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "path": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 101,
+        "packages": {
+          "Illuminate\\Http\\Request": 20,
+          "App\\Providers\\RouteServiceProvider": 8,
+          "Illuminate\\Contracts\\View\\View": 8,
+          "Illuminate\\Http\\RedirectResponse": 7,
+          "Illuminate\\Support\\Facades\\Validator": 6,
+          "Illuminate\\Support\\Facades\\Auth": 6,
+          "Illuminate\\Support\\ServiceProvider": 6,
+          "App\\Http\\Controllers\\Controller": 6,
+          "App\\Models\\User": 5,
+          "App\\Models\\Product": 5,
+          "Closure": 4,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 4,
+          "App\\Models\\Address": 4,
+          "Ramsey\\Uuid\\Uuid": 4,
+          "PasswordValidationRules": 3,
+          "Illuminate\\Support\\Facades\\Hash": 3,
+          "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 3,
+          "Illuminate\\Validation\\Rule": 3,
+          "Illuminate\\Console\\Scheduling\\Schedule": 3,
+          "routes/console.php": 3,
+          "Illuminate\\Foundation\\Console\\Kernel": 3,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 3,
+          "Throwable": 3,
+          "Illuminate\\Routing\\Controller": 3,
+          "AuthorizesRequests": 3,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 3,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 3,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 3,
+          "Illuminate\\Foundation\\Http\\Kernel": 3,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 3,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 3,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 3,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 3,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 3,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 3,
+          "HasFactory": 3,
+          "Illuminate\\Support\\Facades\\RateLimiter": 3,
+          "Illuminate\\Cache\\RateLimiting\\Limit": 3,
+          "Illuminate\\Contracts\\Foundation\\Application": 3,
+          "App\\Models\\Order": 3,
+          "Illuminate\\Support\\Str": 3,
+          "App\\Connection\\Connection": 3,
+          "Laravel\\Jetstream\\Jetstream": 2,
+          "Illuminate\\Database\\Eloquent\\Model": 2,
+          "Laravel\\Sanctum\\HasApiTokens": 2,
+          "Illuminate\\Notifications\\Notifiable": 2,
+          "HasApiTokens": 2,
+          "Illuminate\\Foundation\\Auth\\User": 2,
+          "Illuminate\\Support\\Facades\\Gate": 2,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 2,
+          "Illuminate\\Support\\Facades\\Broadcast": 2,
+          "routes/channels.php": 2,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 2,
+          "Illuminate\\Auth\\Events\\Registered": 2,
+          "Illuminate\\Support\\Facades\\Event": 2,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 2,
+          "Illuminate\\Support\\Facades\\Route": 2,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 2,
+          "Illuminate\\View\\Component": 2,
+          "App\\Http\\Requests\\AddressRequest": 2,
+          "Illuminate\\Contracts\\Support\\Renderable": 2,
+          "Illuminate\\Support\\Facades\\DB": 2,
+          "App\\Http\\Requests\\UserRequest": 2,
+          "Psr\\Container\\NotFoundExceptionInterface": 2,
+          "Psr\\Container\\ContainerExceptionInterface": 2,
+          "App\\Models\\Category": 2,
+          "Illuminate\\Support\\Facades\\Http": 2,
+          "Illuminate\\Http\\Middleware\\TrustProxies": 2,
+          "routes.php": 2,
+          "App\\Exercise": 2,
+          "Dompdf\\Dompdf": 2,
+          "Professor.php": 2,
+          "Aluno.php": 2,
+          "Curso.php": 2,
+          "Produto.php": 2,
+          "Usuario.php": 2,
+          "Cliente.php": 2,
+          "Gestor.php": 2,
+          "GestorGeral.php": 2,
+          "Validar.php": 2,
+          "Laravel\\Fortify\\Contracts\\CreatesNewUsers": 1,
+          "Laravel\\Fortify\\Rules\\Password": 1,
+          "Laravel\\Fortify\\Contracts\\ResetsUserPasswords": 1,
+          "Laravel\\Fortify\\Contracts\\UpdatesUserPasswords": 1,
+          "Laravel\\Fortify\\Contracts\\UpdatesUserProfileInformation": 1,
+          "Laravel\\Jetstream\\Contracts\\DeletesUsers": 1,
+          "App\\Models\\Photo": 1,
+          "Fideloper\\Proxy\\TrustProxies": 1,
+          "Laravel\\Fortify\\TwoFactorAuthenticatable": 1,
+          "HasProfilePhoto": 1,
+          "Notifiable": 1,
+          "TwoFactorAuthenticatable": 1,
+          "Laravel\\Jetstream\\HasProfilePhoto": 1,
+          "App\\Actions\\Fortify\\ResetUserPassword": 1,
+          "Laravel\\Fortify\\Fortify": 1,
+          "App\\Actions\\Fortify\\UpdateUserPassword": 1,
+          "App\\Actions\\Fortify\\CreateNewUser": 1,
+          "App\\Actions\\Fortify\\UpdateUserProfileInformation": 1,
+          "App\\Actions\\Jetstream\\DeleteUser": 1,
+          "Illuminate\\Http\\": 1,
+          "Illuminate\\Foundation\\Auth\\ConfirmsPasswords": 1,
+          "ConfirmsPasswords": 1,
+          "Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails": 1,
+          "SendsPasswordResetEmails": 1,
+          "AuthenticatesUsers": 1,
+          "Illuminate\\Foundation\\Auth\\AuthenticatesUsers": 1,
+          "RegistersUsers": 1,
+          "Illuminate\\Foundation\\Auth\\RegistersUsers": 1,
+          "ResetsPasswords": 1,
+          "Illuminate\\Foundation\\Auth\\ResetsPasswords": 1,
+          "Illuminate\\Foundation\\Auth\\VerifiesEmails": 1,
+          "VerifiesEmails": 1,
+          "App\\Http\\Requests\\CartRequest": 1,
+          "Illuminate\\Http\\Response": 1,
+          "App\\Models\\OrderProduct": 1,
+          "App\\Models\\PaymentMethod": 1,
+          "App\\Http\\Requests\\CheckoutRequest": 1,
+          "App\\Models\\OrderStatus": 1,
+          "Illuminate\\Foundation\\Http\\FormRequest": 1,
+          "Illuminate\\Support\\Facades\\Facade": 1,
+          "selectHowManyTransactions": 1,
+          "App\\Controller\\CategoryController": 1,
+          "App\\Controller\\IndexController": 1,
+          "App\\Controller\\ProductController": 1,
+          "App\\Controller\\ErrorController": 1,
+          "Categoria.php": 1,
+          "ValidarUS.php": 1,
+          "ValidarBR.php": 1,
+          "vendor/autoload.php": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 135,
+        "packages": {
+          "nestjs": 41,
+          "express": 20,
+          "typeorm": 17,
+          "zod": 10,
+          "angular": 8,
+          "isomorphic-fetch": 8,
+          "dotenv": 5,
+          "uuid": 4,
+          "Bearer": 4,
+          "computo": 4,
+          "drizzle-orm": 4,
+          "path": 3,
+          "sequelize": 3,
+          "supertest": 3,
+          "bcrypt": 3,
+          "discord.js": 3,
+          "trpc": 3,
+          "type": 3,
+          "dotenv-safe": 2,
+          "jsonwebtoken": 2,
+          "bcryptjs": 2,
+          "nodemailer": 2,
+          "googlemaps": 2,
+          "src": 2,
+          "elysia": 2,
+          "bun:test": 2,
+          "tanstack": 2,
+          "node:path": 2,
+          "fastify": 2,
+          "cors": 1,
+          "rxjs": 1,
+          "express-async-errors": 1,
+          "reflect-metadata": 1,
+          "yup": 1,
+          "fs": 1,
+          "handlebars": 1,
+          "skipAuth": 1,
+          "faker-js": 1,
+          "class-validator": 1,
+          "tinyglobby": 1,
+          "bumpp": 1,
+          "better-auth": 1,
+          "prisma": 1,
+          "sseramemes": 1,
+          "open": 1,
+          "util": 1,
+          "${token_type}": 1,
+          "koa-router": 1,
+          "koa-cors": 1,
+          "koa-convert": 1,
+          "koa": 1,
+          "koa-bodyparser": 1,
+          "http": 1,
+          "twitter-api-v2": 1,
+          "https:": 1,
+          "🔁": 1,
+          "twitter-api-sdk": 1,
+          "webextension-polyfill-ts": 1,
+          "elysiajs": 1,
+          "tsdown": 1,
+          "top": 1,
+          "zustand": 1,
+          "state": 1,
+          "xyflow": 1,
+          "react": 1,
+          "sonner": 1,
+          "vite": 1,
+          "vitejs": 1,
+          "tailwindcss": 1,
+          "DFA": 1,
+          "drizzle-kit": 1,
+          "postgres": 1,
+          "contributions": 1,
+          "causes": 1,
+          "users": 1,
+          "user_causes": 1,
+          "node:crypto": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 29,
+        "packages": {
+          "react": 13,
+          "next": 10,
+          "lucide-react": 5,
+          "tanstack": 5,
+          "sonner": 4,
+          "xyflow": 4,
+          "computo": 3,
+          "webextension-polyfill-ts": 2,
+          "chakra-ui": 2,
+          "react-dom": 2,
+          "date-fns": 1,
+          "framer-motion": 1,
+          "geist": 1,
+          "ccsseraphini": 1,
+          "react-icons": 1,
+          "core-js": 1,
+          "regenerator-runtime": 1,
+          "isomorphic-fetch": 1,
+          "next-themes": 1,
+          "selfLoop": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "gustav0d/album",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gustav0d/angular-express-postgresql-crud",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gustav0d/api-nlw4",
+        "files_analyzed": 23,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gustav0d/api-rest-solid",
+        "files_analyzed": 12,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gustav0d/bankme-challenge",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gustav0d/beacademy-devstart-ametista",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gustav0d/beacademy-devstart-crud-contatos-php",
+        "files_analyzed": 12,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gustav0d/beacademy-devstart-introducaophp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gustav0d/beacademy-devstart-laravel9",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gustav0d/beacademy-devstart-logicadeprogramacao",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gustav0d/beacademy-devstart-php-db",
+        "files_analyzed": 20,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gustav0d/beacademy-devstart-poo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gustav0d/better-auth",
+        "files_analyzed": 16,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gustav0d/car-tracking-api-nest",
+        "files_analyzed": 27,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gustav0d/ccsseraphini",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gustav0d/computo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "gustav0d/contribution-tracker",
+        "files_analyzed": 7,
+        "languages_found": [
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

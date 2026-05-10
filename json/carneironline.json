@@ -1,0 +1,568 @@
+{
+  "username": "carneironline",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": -0.2875,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.14121794871794874,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        3161239,
+        287
+      ],
+      "JavaScript": [
+        139644,
+        863
+      ],
+      "CSS": [
+        367730,
+        14
+      ],
+      "HTML": [
+        17036,
+        61
+      ],
+      "SCSS": [
+        2530206,
+        255
+      ],
+      "MDX": [
+        8094,
+        4
+      ],
+      "Shell": [
+        26,
+        0
+      ],
+      "Dockerfile": [
+        24700,
+        0
+      ],
+      "Java": [
+        0,
+        1
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "Starlark": [
+        0,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Handlebars": [
+        0,
+        0
+      ],
+      "Vue": [
+        0,
+        1
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 1486,
+    "total_lines": 6248675,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 139644,
+        "commits": 863
+      },
+      {
+        "language": "TypeScript",
+        "lines": 3161239,
+        "commits": 287
+      },
+      {
+        "language": "SCSS",
+        "lines": 2530206,
+        "commits": 255
+      },
+      {
+        "language": "HTML",
+        "lines": 17036,
+        "commits": 61
+      },
+      {
+        "language": "CSS",
+        "lines": 367730,
+        "commits": 14
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "carneironline",
+    "analysis_date": "2026-05-09T16:30:31.094684",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 398,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<UIKit/UIKit.h>": 1,
+          "<React/RCTBridgeDelegate.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 4,
+        "packages": {
+          "com.gobarber": 4,
+          "android.content": 3,
+          "com.facebook": 3,
+          "android.os": 2,
+          "okhttp3.OkHttpClient": 1,
+          "org.devio": 1,
+          "android.app": 1,
+          "java.lang": 1,
+          "java.util": 1,
+          "androidx.appcompat": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 56,
+        "packages": {
+          "path": 10,
+          "react": 10,
+          "yeoman-test": 8,
+          "yeoman-assert": 8,
+          "react-router-dom": 6,
+          ":": 5,
+          "express": 5,
+          "react-icons": 4,
+          "supertest": 3,
+          "backstage-pages": 3,
+          "eslint": 2,
+          "typescript-eslint": 2,
+          "globals": 2,
+          "eslint-plugin-react-refresh": 2,
+          "eslint-plugin-react-hooks": 2,
+          "cors": 2,
+          "celebrate": 2,
+          "react-dom": 2,
+          "uuidv4": 2,
+          "fs": 2,
+          "gulp-load-plugins": 2,
+          "browser-sync": 2,
+          "del": 2,
+          "gulp": 2,
+          "backstage-admin": 2,
+          "redux-form": 2,
+          "body-parser": 1,
+          "http": 1,
+          "ngModel": 1,
+          "knex": 1,
+          "crypto": 1,
+          "axios": 1,
+          "styled-components": 1,
+          "https:": 1,
+          "storybook": 1,
+          "next": 1,
+          "mini-css-extract-plugin": 1,
+          "webpack": 1,
+          "html-webpack-plugin": 1,
+          "clean-webpack-plugin": 1,
+          "uglifyjs-webpack-plugin": 1,
+          "dotenv": 1,
+          "tsconfig-paths-webpack-plugin": 1,
+          "mkdirp": 1,
+          "command-exists": 1,
+          "yeoman-generator": 1,
+          "yosay": 1,
+          "yargs": 1,
+          "autoprefixer": 1,
+          "cssnano": 1,
+          "babel": 1,
+          "lucide": 1,
+          "react-native": 1,
+          "run-sequence": 1,
+          "main-bower-files": 1,
+          "wiredep": 1,
+          "t.write(": 1,
+          "t=(cn[0].contentWindow||cn[0].contentDocument).document": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "jquery": 1,
+          "object": 1,
+          "tanstack": 1,
+          "prettier": 1,
+          "enzyme": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 3,
+        "packages": {
+          "AppDelegate.h": 2,
+          "<React/RCTRootView.h>": 2,
+          "React/RCTRootView.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "UIKit/UIKit.h": 2,
+          "React/RCTBridge.h": 1,
+          "SKIOSNetworkPlugin/SKIOSNetworkAdapter.h": 1,
+          "<FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>": 1,
+          "<React/RCTBridge.h>": 1,
+          "<SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>": 1,
+          "FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h": 1,
+          "FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h": 1,
+          "<FlipperKitReactPlugin/FlipperKitReactPlugin.h>": 1,
+          "FlipperKit/FlipperClient.h": 1,
+          "FlipperKitReactPlugin/FlipperKitReactPlugin.h": 1,
+          "<FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h>": 1,
+          "<React/RCTBundleURLProvider.h>": 1,
+          "FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h": 1,
+          "React/RCTBundleURLProvider.h": 1,
+          "<FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h>": 1,
+          "<FlipperKit/FlipperClient.h>": 1,
+          "React/RCTLog.h": 1,
+          "XCTest/XCTest.h": 1,
+          "<React/RCTLog.h>": 1,
+          "<XCTest/XCTest.h>": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 58,
+        "packages": {
+          "msw": 12,
+          "vitest": 6,
+          "vite": 5,
+          "styled-components": 5,
+          "div": 4,
+          "express": 4,
+          "next": 3,
+          "main": 3,
+          "vitejs": 3,
+          "storybook": 2,
+          "path": 2,
+          "radix-ui": 2,
+          "react-native": 2,
+          "react-native-iphone-x-helper": 2,
+          "web-vitals": 2,
+          "tailwindcss": 2,
+          "tanstack": 2,
+          "react-i18next": 2,
+          "react": 2,
+          "playwright": 1,
+          "stripe": 1,
+          "stitches": 1,
+          "header": 1,
+          "span": 1,
+          "data": 1,
+          "axios": 1,
+          "recoil": 1,
+          "lucide": 1,
+          "src": 1,
+          "react-native-gesture-handler": 1,
+          "react-native-vector-icons": 1,
+          "reflect-metadata": 1,
+          "express-async-errors": 1,
+          "t3-oss": 1,
+          "zod": 1,
+          "ns-tech": 1,
+          "node:path": 1,
+          "pt": 1,
+          "i18next": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 132,
+        "packages": {
+          "react": 74,
+          "react-router-dom": 16,
+          "tanstack": 15,
+          "classnames": 12,
+          "next": 11,
+          "styled-components": 11,
+          "react-dom": 9,
+          "carneiro-ignite-ui": 9,
+          "storybook": 9,
+          "assets": 6,
+          "styled-icons": 6,
+          "styles": 5,
+          "mui": 5,
+          "react-native": 5,
+          "types": 4,
+          "react-icons": 4,
+          "recoil": 4,
+          "react-navigation": 4,
+          "ns-tech": 4,
+          "stripe": 3,
+          "components": 3,
+          "data": 3,
+          "phosphor-react": 3,
+          "unform": 3,
+          "axios": 2,
+          "normalize.css": 2,
+          "pages": 2,
+          "react-native-gesture-handler": 2,
+          "react-native-vector-icons": 2,
+          "keen-slider": 1,
+          "uuid": 1,
+          "polished": 1,
+          "div": 1,
+          "button": 1,
+          "h2": 1,
+          "p": 1,
+          "kalend": 1,
+          "yet-another-react-lightbox": 1,
+          "public": 1,
+          "html-react-parser": 1,
+          "react-test-renderer": 1,
+          "react-native-splash-screen": 1,
+          "i18next": 1,
+          "react-i18next": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "carneironline/04-pizzashop-web",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "carneironline/05-ignite-shop",
+        "files_analyzed": 15,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/alura-react-conhecendo-a-biblioteca-react-router",
+        "files_analyzed": 18,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/alura-react-escrevendo-com-typescript",
+        "files_analyzed": 11,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/alura-react-integrando-seu-projeto-react-com-apis-alfood",
+        "files_analyzed": 21,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/alura-react-lidando-com-arquivos-estaticos",
+        "files_analyzed": 8,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/alura-typescript-curso-3",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "carneironline/angular-decimal-mask",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "carneironline/be-the-hero-rocketseat",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "carneironline/Desafio-Conceitos-do-Node.js",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "carneironline/design-system",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/Discord-UI-React",
+        "files_analyzed": 26,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/formacao-gerencie-aplicacoes-react-com-typescript",
+        "files_analyzed": 13,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/freela-lodyge-booking",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/Frontend-Typescript-Boilerplate",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "carneironline/generator-webapp",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "carneironline/glb-audio-description",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "carneironline/GoBarber-Mobile",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/infoglobo",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "carneironline/jquery.maskedinput",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "carneironline/NodeJs-Typescript-Boilerplate",
+        "files_analyzed": 5,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "carneironline/nstech-front-app-boilerplate",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/nstech-front-monorepo",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "carneironline/oglobo-franja-custom",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,721 @@
+{
+  "username": "TheRockStarDBA",
+  "areas": {
+    "OSS": {
+      "score": 0.5678748821635411,
+      "details": {
+        "issue_resolution_rate": 0.9375,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.4143123232453116
+      }
+    },
+    "Status": {
+      "score": -0.33333333333333337,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Adaptability": {
+      "score": -0.1875,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 36,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.05940830976604154,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        4990524,
+        18
+      ],
+      "CSS": [
+        180739,
+        3
+      ],
+      "HTML": [
+        161326,
+        29
+      ],
+      "C#": [
+        1904578,
+        0
+      ],
+      "PowerShell": [
+        1405637,
+        8
+      ],
+      "Visual Basic": [
+        542,
+        0
+      ],
+      "ASP": [
+        61,
+        0
+      ],
+      "Python": [
+        1316666,
+        13
+      ],
+      "Procfile": [
+        138,
+        0
+      ],
+      "Shell": [
+        2308993,
+        6
+      ],
+      "Go": [
+        1188401,
+        0
+      ],
+      "HCL": [
+        480075,
+        0
+      ],
+      "Dockerfile": [
+        306487,
+        1
+      ],
+      "Jinja": [
+        248207,
+        0
+      ],
+      "Makefile": [
+        70845,
+        2
+      ],
+      "PLSQL": [
+        33810,
+        0
+      ],
+      "Rust": [
+        47590,
+        0
+      ],
+      "Jupyter Notebook": [
+        3994,
+        0
+      ],
+      "Scala": [
+        1365,
+        0
+      ],
+      "Java": [
+        881,
+        0
+      ],
+      "SCSS": [
+        0,
+        15
+      ],
+      "Ruby": [
+        0,
+        3
+      ],
+      "Smarty": [
+        0,
+        3
+      ],
+      "TSQL": [
+        0,
+        0
+      ],
+      "SQLPL": [
+        0,
+        5
+      ]
+    },
+    "language_count": 25,
+    "total_commits": 106,
+    "total_lines": 14650859,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 161326,
+        "commits": 29
+      },
+      {
+        "language": "JavaScript",
+        "lines": 4990524,
+        "commits": 18
+      },
+      {
+        "language": "SCSS",
+        "lines": 0,
+        "commits": 15
+      },
+      {
+        "language": "Python",
+        "lines": 1316666,
+        "commits": 13
+      },
+      {
+        "language": "PowerShell",
+        "lines": 1405637,
+        "commits": 8
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "TheRockStarDBA",
+    "analysis_date": "2026-05-09T21:43:05.205164",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 372,
+    "languages": {
+      "C#": {
+        "files_scanned": 87,
+        "packages": {
+          "System.Threading.Tasks": 38,
+          "System.Linq": 36,
+          "System.Collections.Generic": 34,
+          "System.Text": 30,
+          "System": 23,
+          "System.IO": 22,
+          "System.Data.Entity.Migrations": 17,
+          "Microsoft.AspNetCore.Mvc": 15,
+          "System.Threading": 12,
+          "System.Reflection": 11,
+          "Microsoft.SqlServer.XEvent": 10,
+          "Microsoft.SqlServer.XEvent.Linq": 10,
+          "MovieFanatic.Domain.Model": 9,
+          "System.Data.Entity.Migrations.Infrastructure": 9,
+          "System.Resources": 9,
+          "System.CodeDom.Compiler": 9,
+          "System.Data.SQLite": 9,
+          "MetricsReportingSandboxMvc.JustForTesting": 8,
+          "System.Web": 7,
+          "App.Metrics": 7,
+          "Microsoft.AspNetCore.Hosting": 7,
+          "Microsoft.Extensions.Hosting": 7,
+          "MovieFanatic.Domain": 5,
+          "Microsoft.AspNetCore.Http": 4,
+          "MovieFanatic.Utility": 3,
+          "System.Text.RegularExpressions": 3,
+          "App.Metrics.AspNetCore": 3,
+          "Microsoft.AspNetCore.Builder": 3,
+          "Microsoft.Extensions.Configuration": 3,
+          "Microsoft.Extensions.DependencyInjection": 3,
+          "Microsoft.Extensions.Logging": 3,
+          "System.Data.Entity.ModelConfiguration": 2,
+          "System.Data.Entity.Core.Metadata.Edm": 2,
+          "System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder": 2,
+          "System.Data": 2,
+          "System.Data.Entity.ModelConfiguration.Conventions": 1,
+          "Elmah": 1,
+          "System.Data.Entity": 1,
+          "System.Data.Entity.Validation": 1,
+          "MovieFanatic.Data.Extensions.Configurations": 1,
+          "MovieFanatic.Data.Extensions.Interceptors": 1,
+          "System.Data.Entity.Core.Common.CommandTrees": 1,
+          "MovieFanatic.Data.Extensions.Visitor": 1,
+          "System.Data.Entity.Infrastructure.Interception": 1,
+          "System.Xml": 1,
+          "System.Xml.Linq": 1,
+          "System.Data.SqlClient": 1,
+          "System.Drawing": 1,
+          "System.Windows.Forms": 1,
+          "System.ComponentModel": 1,
+          "System.Windows.Forms.DataVisualization.Charting": 1,
+          "2": 1,
+          "DbgEngManaged": 1,
+          "HkDebugTypes": 1,
+          "SqlDebugTypes": 1,
+          "SqlCsScripts.Common": 1,
+          "CsDebugScript": 1,
+          "SqlCsScripts.Extensions": 1,
+          "SqlCsScripts.Scripts": 1,
+          "client_id": 1,
+          "App.Metrics.Scheduling": 1,
+          "System.Net.Http": 1,
+          "System.Security.Claims": 1,
+          "Microsoft.Extensions.Options": 1,
+          "App.Metrics.AspNetCore.Tracking": 1,
+          "App.Metrics.Formatters.Ascii": 1,
+          "App.Metrics.Formatters": 1,
+          "App.Metrics.Filters": 1,
+          "App.Metrics.Reporting": 1,
+          "Serilog.Events": 1,
+          "System.Diagnostics": 1,
+          "Serilog": 1,
+          "App.Metrics.Histogram": 1,
+          "App.Metrics.Timer": 1,
+          "Microsoft.AspNetCore.HttpsPolicy": 1,
+          "App.Metrics.Formatters.Json": 1,
+          "MetricsSandboxMvc.JustForTesting": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 39,
+        "packages": {
+          "fmt": 31,
+          "github.com/argoproj/argo-cd/errors": 20,
+          "context": 17,
+          "github.com/spf13/cobra": 16,
+          "os": 15,
+          "github.com/argoproj/argo-cd/util": 15,
+          "github.com/argoproj/argo-cd/util/cli": 10,
+          "time": 10,
+          "github.com/argoproj/argo-cd/util/kube": 9,
+          "k8s.io/apimachinery/pkg/apis/meta/v1/unstructured": 8,
+          "github.com/argoproj/argo-cd/common": 7,
+          "strings": 7,
+          "text/tabwriter": 7,
+          "k8s.io/client-go/kubernetes": 6,
+          "github.com/argoproj/argo-cd/util/settings": 6,
+          "github.com/ghodss/yaml": 6,
+          "k8s.io/client-go/tools/clientcmd": 5,
+          "io/ioutil": 5,
+          "k8s.io/apimachinery/pkg/runtime/schema": 5,
+          "github.com/argoproj/argo-cd/util/localconfig": 5,
+          "github.com/argoproj/argo-cd/reposerver": 4,
+          "github.com/argoproj/argo-cd/util/git": 4,
+          "k8s.io/apimachinery/pkg/runtime": 4,
+          "sort": 4,
+          "testing": 4,
+          "github.com/stretchr/testify/assert": 4,
+          "github.com/argoproj/argo-cd/pkg/apis/application/v1alpha1": 4,
+          "sync": 4,
+          "github.com/argoproj/argo-cd/util/stats": 3,
+          "github.com/argoproj/argo-cd/util/cache": 3,
+          "github.com/argoproj/argo-cd/util/db": 3,
+          "io": 3,
+          "github.com/argoproj/argo-cd/server/settings": 3,
+          "k8s.io/apimachinery/pkg/types": 3,
+          "strconv": 3,
+          "encoding/json": 3,
+          "github.com/argoproj/argo-cd/controller/metrics": 3,
+          "k8s.io/client-go/tools/cache": 3,
+          "k8s.io/apimachinery/pkg/watch": 3,
+          "github.com/dghubble/go-twitter/twitter": 2,
+          "log": 2,
+          "github.com/dghubble/oauth1": 2,
+          "github.com/argoproj/argo-cd/controller": 2,
+          "github.com/argoproj/argo-cd/util/tls": 2,
+          "net/http": 2,
+          "k8s.io/client-go/rest": 2,
+          "syscall": 2,
+          "os/exec": 2,
+          "path": 2,
+          "github.com/argoproj/argo-cd/server/application": 2,
+          "reflect": 2,
+          "github.com/argoproj/argo-cd/util/diff": 2,
+          "github.com/spf13/pflag": 2,
+          "github.com/argoproj/argo-cd/reposerver/repository": 2,
+          "github.com/argoproj/argo-cd/util/argo": 2,
+          "github.com/argoproj/argo-cd/util/config": 2,
+          "github.com/argoproj/argo-cd/server/project": 2,
+          "k8s.io/apimachinery/pkg/util/wait": 2,
+          "runtime/debug": 2,
+          "github.com/prometheus/client_golang/prometheus/promhttp": 1,
+          "net": 1,
+          "github.com/argoproj/argo-cd/server": 1,
+          "bufio": 1,
+          "k8s.io/client-go/dynamic": 1,
+          "github.com/argoproj/argo-cd/util/dex": 1,
+          "github.com/argoproj/argo-cd/server/account": 1,
+          "golang.org/x/crypto/ssh/terminal": 1,
+          "github.com/argoproj/argo-cd/pkg/apiclient": 1,
+          "github.com/yudai/gojsondiff": 1,
+          "github.com/argoproj/argo-cd/util/hook": 1,
+          "github.com/google/shlex": 1,
+          "github.com/argoproj/argo-cd/util/templates": 1,
+          "net/url": 1,
+          "github.com/argoproj/argo-cd/server/cluster": 1,
+          "golang.org/x/oauth2": 1,
+          "github.com/argoproj/argo-cd/server/session": 1,
+          "github.com/skratchdot/open-golang/open": 1,
+          "github.com/argoproj/argo-cd/util/rand": 1,
+          "default)": 1,
+          "github.com/dustin/go-humanize": 1,
+          "allow-namespace-resource": 1,
+          "allow-cluster-resource": 1,
+          "deny-cluster-resource": 1,
+          "Permitted": 1,
+          "deny-namespace-resource": 1,
+          "github.com/argoproj/argo-cd/util/session": 1,
+          "github.com/argoproj/argo-cd/server/repository": 1,
+          "github.com/golang/protobuf/ptypes/empty": 1,
+          "finalizers": 1,
+          "k8s.io/apimachinery/pkg/util/runtime": 1,
+          "status": 1,
+          "k8s.io/client-go/util/workqueue": 1,
+          "metadata": 1,
+          "conditions": 1,
+          "github.com/argoproj/argo-cd/pkg/apis/application": 1,
+          "github.com/argoproj/argo-cd/pkg/client/informers/externalversions/application/v1alpha1": 1,
+          "operationState": 1,
+          "github.com/stretchr/testify/mock": 1,
+          "k8s.io/client-go/kubernetes/fake": 1,
+          "github.com/argoproj/argo-cd/test": 1,
+          "admin.password": 1,
+          "server.secretkey": 1,
+          "k8s.io/apimachinery/pkg/api/errors": 1,
+          "github.com/argoproj/argo-cd/util/health": 1,
+          "github.com/argoproj/argo-cd/util/kube/kubetest": 1,
+          "k8s.io/client-go/dynamic/fake": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 5,
+        "packages": {
+          "com.akkaserverless": 5,
+          "com.example": 5,
+          "com.google": 3,
+          "org.junit": 2,
+          "static": 2,
+          "org.slf4j": 1,
+          "java.util": 1,
+          "akka.stream": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 5,
+        "packages": {
+          "path": 2,
+          "fs": 1,
+          "assert": 1,
+          "matchdep": 1,
+          "grunt-contrib-livereload": 1,
+          ":": 1,
+          "testing-library": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 59,
+        "packages": {
+          "time": 16,
+          "*": 8,
+          "datetime": 7,
+          "unittest": 7,
+          "TestCase": 7,
+          "collections": 7,
+          "main": 6,
+          "sys": 5,
+          "people": 5,
+          "airflow": 4,
+          "DAG": 4,
+          "itertools": 4,
+          "matplotlib": 4,
+          "copy": 4,
+          "os": 3,
+          "ConnectHandler": 3,
+          "netmiko": 3,
+          "pygame": 3,
+          "random": 3,
+          "pytest": 3,
+          "BashOperator": 3,
+          "math": 3,
+          "paramiko": 2,
+          "getpass": 2,
+          "fintech": 2,
+          "json": 2,
+          "Variable": 2,
+          "timedelta": 2,
+          "api_spec_pb2": 2,
+          "akkaserverless": 2,
+          "logging": 2,
+          "defaultdict": 2,
+          "permutations": 2,
+          "maxsize": 2,
+          "generate_full_name": 1,
+          "mymodule": 1,
+          "flask": 1,
+          "Flask": 1,
+          "urljoin": 1,
+          "pathlib": 1,
+          "urllib": 1,
+          "requests": 1,
+          "lxml": 1,
+          "Path": 1,
+          "html": 1,
+          "cmd": 1,
+          "ABCMeta": 1,
+          "timeit": 1,
+          "default_timer": 1,
+          "abc": 1,
+          "utils": 1,
+          "calculator": 1,
+          "Calculator": 1,
+          "external_module": 1,
+          "pytest_mock": 1,
+          "mocker": 1,
+          "fileinput": 1,
+          "BigQueryCheckOperator": 1,
+          "BigQueryOperator": 1,
+          "HiveOperator": 1,
+          "date": 1,
+          "PythonOperator": 1,
+          "DummyOperator": 1,
+          "print_function": 1,
+          "__future__": 1,
+          "View": 1,
+          "api_impl": 1,
+          "AkkaServerlessService": 1,
+          "view": 1,
+          "argparse": 1,
+          "Properties": 1,
+          "kafka": 1,
+          "KafkaProducer": 1,
+          "pyjavaproperties": 1,
+          "KafkaError": 1,
+          "deque": 1,
+          "Iterable": 1,
+          "partial": 1,
+          "functools": 1,
+          "statistics": 1,
+          "heapdict": 1,
+          "MutableMapping": 1,
+          "heapq": 1,
+          "numpy": 1,
+          "compress": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 21,
+        "packages": {
+          "std": 13,
+          "crate": 12,
+          "anyhow": 12,
+          "super": 11,
+          "crossbeam": 5,
+          "crossterm": 5,
+          "reedline": 5,
+          "serde": 4,
+          "parking_lot": 3,
+          "clap": 2,
+          "self": 2,
+          "lazy_static": 2,
+          "serde_json": 1,
+          "futures_util": 1,
+          "eventsource_stream": 1,
+          "reqwest": 1,
+          "tokio": 1,
+          "inquire": 1,
+          "utils": 1,
+          "is_terminal": 1,
+          "repl": 1,
+          "render": 1,
+          "syntect": 1,
+          "unicode_width": 1,
+          "nu_ansi_term": 1,
+          "chrono": 1,
+          "fancy_regex": 1,
+          "base64": 1,
+          "rustc_hash": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 9,
+        "packages": {
+          "com.akkaserverless": 9,
+          "com.example": 9,
+          "org.scalatest": 6,
+          "com.google": 3,
+          "akka.actor": 2,
+          "org.slf4j": 1,
+          "scala.concurrent": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 6,
+        "packages": {
+          "grafana": 3,
+          "path": 2,
+          "src": 1,
+          "dist": 1,
+          "process": 1,
+          "os": 1,
+          "fs": 1,
+          "glob": 1,
+          "webpack-livereload-plugin": 1,
+          "webpack": 1,
+          "fork-ts-checker-webpack-plugin": 1,
+          "copy-webpack-plugin": 1,
+          "eslint-webpack-plugin": 1,
+          "**": 1,
+          "replace-in-file-webpack-plugin": 1,
+          "local": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 16,
+        "packages": {
+          "components": 14,
+          "grafana": 12,
+          "react": 5,
+          "emotion": 4,
+          "bottomToTop": 1,
+          "min": 1,
+          "none": 1,
+          "last": 1,
+          "labelColor": 1,
+          "cr": 1,
+          "react-zoom-pan-pinch": 1,
+          "dompurify": 1,
+          "yaml": 1,
+          "lodash": 1,
+          "types": 1,
+          "mathjs": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "TheRockStarDBA/1on1-questions",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/2015-Slides-and-Demos",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/30-Days-Of-Python",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/72",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/90DaysOfDevOps",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/advancedpython3",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/AGLatency",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/aichat",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/airflow-tutorial",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/akka-serverless-presence-application",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Java",
+          "Python",
+          "Scala"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/algorithms",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/algorithms-python",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/Algorithms_Design_Complexity_Analysis",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/andrewbmchugh-flow-panel",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/AppMetrics",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "TheRockStarDBA/argo-cd",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "username": "imamponco",
+  "areas": {
+    "OSS": {
+      "score": 0.002318860953836044,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.2,
+        "commits_activity": 0.303478291430754
+      }
+    },
+    "Status": {
+      "score": -0.11819395955898448,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.303478291430754,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.916667,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.2065084197210297,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        1307219,
+        1
+      ],
+      "Dockerfile": [
+        64,
+        0
+      ],
+      "Makefile": [
+        287,
+        0
+      ],
+      "Shell": [
+        22,
+        0
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 1,
+    "total_lines": 1307592,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 1307219,
+        "commits": 1
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 64,
+        "commits": 0
+      },
+      {
+        "language": "Makefile",
+        "lines": 287,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 22,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "imamponco",
+    "analysis_date": "2026-05-09T03:06:45.513746",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 53,
+    "languages": {
+      "Go": {
+        "files_scanned": 42,
+        "packages": {
+          "fmt": 18,
+          "strings": 9,
+          "net/http": 7,
+          "time": 7,
+          "github.com/gin-gonic/gin": 7,
+          "strconv": 6,
+          "os": 5,
+          "google.golang.org/protobuf/proto": 5,
+          "errors": 5,
+          "github.com/imamponco/v-gin-boilerplate/src/svc/contract": 5,
+          "bytes": 4,
+          "encoding/json": 4,
+          "regexp": 4,
+          "reflect": 4,
+          "github.com/nbs-go/nlogger": 4,
+          "log": 3,
+          "john": 3,
+          "github.com/imamponco/v-gin-boilerplate/src/pkg/vtype": 3,
+          "github.com/imamponco/v-gin-boilerplate/src/pkg/vhttp": 3,
+          "sort": 2,
+          "path/filepath": 2,
+          "github.com/nyaruka/phonenumbers": 2,
+          "encoding/binary": 2,
+          "math": 2,
+          "compress/gzip": 2,
+          "io": 2,
+          "unicode": 2,
+          "embed": 2,
+          "sync": 2,
+          "github.com/stretchr/testify/assert": 2,
+          "testing": 2,
+          "github.com/jmoiron/sqlx": 2,
+          "github.com/imamponco/v-gin-boilerplate/src/svc/dto": 2,
+          "-": 1,
+          "messages": 1,
+          "max_tokens": 1,
+          "1": 1,
+          "Instructions:\\n": 1,
+          "stream": 1,
+          "model": 1,
+          "✅": 1,
+          "⚠️": 1,
+          "🚩": 1,
+          "github.com/go-resty/resty/v2": 1,
+          "github.com/urfave/cli/v2": 1,
+          "doe": 1,
+          "encoding/xml": 1,
+          "golang.org/x/exp/maps": 1,
+          "os/exec": 1,
+          "unicode/utf8": 1,
+          "FROM_DEFAULT_COUNTRY": 1,
+          "FROM_NUMBER_WITHOUT_PLUS_SIGN": 1,
+          "UNSPECIFIED": 1,
+          "FROM_NUMBER_WITH_IDD": 1,
+          "FROM_NUMBER_WITH_PLUS_SIGN": 1,
+          "golang.org/x/text/language/display": 1,
+          "^(": 1,
+          "]*": 1,
+          "\\u00A0\\u00AD\\u200B\\u2060\\u3000()\\uFF08\\uFF09\\uFF3B\\uFF3D.": 1,
+          "[x\\uFF58#\\uFF03~\\uFF5E]|int|anexo|\\uFF49\\uFF4E\\uFF54)": 1,
+          "after": 1,
+          "(?:e?xt(?:ensi(?:o\\u0301?|\\u00F3))?n?|\\uFF45?\\uFF58\\uFF54\\uFF4E?|": 1,
+          "[-": 1,
+          "\\\\[\\\\]/~\\u2053\\u223C\\uFF5E": 1,
+          "io/fs": 1,
+          "[:\\\\.\\uFF0E]?[": 1,
+          "[": 1,
+          "[;": 1,
+          "x\\uFF58#\\uFF03~\\uFF5E]|int|anexo|\\uFF49\\uFF4E\\uFF54)": 1,
+          "golang.org/x/text/language": 1,
+          "-]*": 1,
+          "SG_NUMBER": 1,
+          "GB_MOBILE": 1,
+          "US_LONG_NUMBER": 1,
+          "America/Nassau": 1,
+          "America/Denver": 1,
+          "721123456": 1,
+          "NZ_NUMBER": 1,
+          "5551212": 1,
+          "America/Regina": 1,
+          "0721": 1,
+          "DE_NUMBER": 1,
+          "MX_NUMBER1": 1,
+          "arst": 1,
+          "INTERNATIONAL_TOLL_FREE": 1,
+          "DE_SHORT_NUMBER": 1,
+          "+12065551212": 1,
+          "US_TOLLFREE": 1,
+          "ALPHA_NUMERIC_NUMBER": 1,
+          "same": 1,
+          "US_SPOOF": 1,
+          "INTERNATIONAL_TOLL_FREE_TOO_LONG": 1,
+          "America/Tortola": 1,
+          "721": 1,
+          "MX_MOBILE1": 1,
+          "+49": 1,
+          "America/Juneau": 1,
+          "US_SPOOF_WITH_RAW_INPUT": 1,
+          "US_PREMIUM": 1,
+          "that": 1,
+          "07598765432": 1,
+          "America/Grand_Turk": 1,
+          "6502530000": 1,
+          "US_NUMBER": 1,
+          "US_LOCAL_NUMBER": 1,
+          "US_SHORT_BY_ONE_NUMBER": 1,
+          "UNIVERSAL_PREMIUM_RATE": 1,
+          "invalid": 1,
+          "America/Barbados": 1,
+          "AU_NUMBER": 1,
+          "123456": 1,
+          "0721-123456": 1,
+          "AR_NUMBER": 1,
+          "BS_NUMBER": 1,
+          "GB_NUMBER": 1,
+          "IT_MOBILE": 1,
+          "America/Adak": 1,
+          "America/Phoenix": 1,
+          "UNKNOWN_COUNTRY_CODE_NO_RAW_INPUT": 1,
+          "Pacific/Guam": 1,
+          "MX_NUMBER2": 1,
+          "AR_MOBILE": 1,
+          "IT_NUMBER": 1,
+          "JP_STAR_NUMBER": 1,
+          "America/St_Lucia": 1,
+          "AE_UAN": 1,
+          "MX_MOBILE2": 1,
+          "BS_MOBILE": 1,
+          "golang.org/x/exp/slices": 1,
+          "github.com/imamponco/v-gin-boilerplate/src/svc": 1,
+          "github.com/kelseyhightower/envconfig": 1,
+          "github.com/golang-migrate/migrate/v4": 1,
+          "application/json": 1,
+          "email": 1,
+          "github.com/swaggo/swag": 1,
+          "get": 1,
+          "Common": 1,
+          "name": 1,
+          "host": 1,
+          "schemes": 1,
+          "example": 1,
+          "$ref": 1,
+          "summary": 1,
+          "definitions": 1,
+          "consumes": 1,
+          "title": 1,
+          "200": 1,
+          "swagger": 1,
+          "dto.GetHealth_Result": 1,
+          "tags": 1,
+          "produces": 1,
+          "serverTime": 1,
+          "basePath": 1,
+          "description": 1,
+          "url": 1,
+          "buildSignature": 1,
+          "license": 1,
+          "contact": 1,
+          "info": 1,
+          "uptime": 1,
+          "responses": 1,
+          "type": 1,
+          "paths": 1,
+          "properties": 1,
+          "schema": 1,
+          "version": 1,
+          "appVersion": 1,
+          "metadata": 1,
+          "database/sql": 1,
+          "Content-Length": 1,
+          "Origin": 1,
+          "Content-Type": 1,
+          "Accept": 1,
+          "github.com/gin-contrib/secure": 1,
+          "Authorization": 1,
+          "github.com/gin-contrib/cors": 1,
+          "path": 1,
+          "github.com/gin-contrib/static": 1,
+          "github.com/lestrrat-go/jwx/jwa": 1,
+          "net/url": 1,
+          "github.com/imamponco/v-gin-boilerplate/src/svc/controller": 1,
+          "github.com/google/uuid": 1,
+          "github.com/imamponco/v-gin-boilerplate/src/svc/constant": 1,
+          "github.com/hetiansu5/urlquery": 1,
+          "database/sql/driver": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "imamponco/code-roasting",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "imamponco/fundamental-be",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "imamponco/phonenumbers",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "imamponco/v-gin-boilerplate",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

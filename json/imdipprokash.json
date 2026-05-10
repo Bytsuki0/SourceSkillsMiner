@@ -1,0 +1,537 @@
+{
+  "username": "imdipprokash",
+  "areas": {
+    "OSS": {
+      "score": 0.6541841081232969,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9812761621849454
+      }
+    },
+    "Status": {
+      "score": 0.019910148189452803,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5106344530534098,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": 0.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 12,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.18481885126254993,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        636006,
+        67
+      ],
+      "JavaScript": [
+        75685,
+        24
+      ],
+      "HTML": [
+        36873,
+        4
+      ],
+      "CSS": [
+        31403,
+        16
+      ],
+      "Dart": [
+        418238,
+        2
+      ],
+      "Swift": [
+        1440,
+        1
+      ],
+      "Kotlin": [
+        10817,
+        0
+      ],
+      "Objective-C": [
+        66558,
+        0
+      ],
+      "Markdown": [
+        27084,
+        0
+      ],
+      "Jupyter Notebook": [
+        33167,
+        4
+      ],
+      "R": [
+        8,
+        0
+      ],
+      "Ruby": [
+        21723,
+        0
+      ],
+      "Objective-C++": [
+        2747,
+        0
+      ],
+      "EJS": [
+        2058,
+        0
+      ],
+      "Python": [
+        51,
+        3
+      ],
+      "Java": [
+        165317,
+        9
+      ],
+      "C++": [
+        8796,
+        4
+      ],
+      "CMake": [
+        0,
+        1
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "Starlark": [
+        0,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 135,
+    "total_lines": 1537971,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 636006,
+        "commits": 67
+      },
+      {
+        "language": "JavaScript",
+        "lines": 75685,
+        "commits": 24
+      },
+      {
+        "language": "CSS",
+        "lines": 31403,
+        "commits": 16
+      },
+      {
+        "language": "Java",
+        "lines": 165317,
+        "commits": 9
+      },
+      {
+        "language": "HTML",
+        "lines": 36873,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "imdipprokash",
+    "analysis_date": "2026-05-09T20:19:48.170098",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 212,
+    "languages": {
+      "C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<DS18B20.h>": 1,
+          "DS18B20.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 10,
+        "packages": {
+          "<UIKit/UIKit.h>": 6,
+          "<RCTAppDelegate.h>": 4,
+          "<Flutter/Flutter.h>": 4,
+          "GeneratedPluginRegistrant.h": 1,
+          "<CoreBluetooth/CoreBluetooth.h>": 1,
+          "<FlutterMacOS/FlutterMacOS.h>": 1,
+          "GPBProtocolBuffers.h": 1,
+          "<protobuf/GPBProtocolBuffers.h>": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 22,
+        "packages": {
+          "flutter": 16,
+          "flutter_bluetooth_serial": 7,
+          "dart:async": 7,
+          "dart:convert": 4,
+          "flutter_test": 3,
+          "dart:typed_data": 3,
+          "flutter_blue": 3,
+          "dart:core": 3,
+          "integration_test": 2,
+          "scoped_model": 2,
+          "dart:math": 2,
+          "dart:ui": 2,
+          "protobuf": 2,
+          "english_words": 1,
+          "basic_app": 1,
+          "flutter_blue_example": 1,
+          "gen/flutterblue.pb.dart": 1,
+          "collection": 1,
+          "convert": 1,
+          "rxdart": 1,
+          "meta": 1,
+          "flutterblue.pbenum.dart": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 7,
+        "packages": {
+          "java.util": 5,
+          "com.pauldemarco": 5,
+          "android.bluetooth": 4,
+          "android.os": 4,
+          "io.flutter": 4,
+          "java.io": 3,
+          "android.util": 3,
+          "android.annotation": 3,
+          "com.google": 3,
+          "io.github": 2,
+          "android.app": 2,
+          "android.content": 2,
+          "androidx.core": 2,
+          "android.Manifest": 2,
+          "androidx.annotation": 1,
+          "java.net": 1,
+          "java.nio": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 18,
+        "packages": {
+          "react-native": 9,
+          "metro-config": 4,
+          "react-native-gesture-handler": 3,
+          "eslint": 2,
+          "tailwindcss": 2,
+          "next": 2,
+          "eslint-plugin-react-hooks": 1,
+          "eslint-plugin-react-refresh": 1,
+          "globals": 1,
+          "typescript-eslint": 1,
+          "eslint-config-expo": 1,
+          "readline": 1,
+          "fs": 1,
+          "expo-router": 1,
+          "path": 1,
+          "express": 1,
+          "ejs": 1,
+          "react-native-reanimated": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 11,
+        "packages": {
+          "com.facebook": 10,
+          "android.app": 5,
+          "android.os": 4,
+          "expo.modules": 2,
+          "app.netlify": 2,
+          "com.codeitlearn": 2,
+          "com.chatai": 2,
+          "co.haqiq": 2,
+          "com.hidromas": 2,
+          "io.flutter": 1,
+          "com.example": 1,
+          "android.content": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 15,
+        "packages": {
+          "UIKit/UIKit.h": 10,
+          "<UIKit/UIKit.h>": 10,
+          "AppDelegate.h": 8,
+          "<React/RCTLog.h>": 4,
+          "XCTest/XCTest.h": 4,
+          "React/RCTLog.h": 4,
+          "<React/RCTRootView.h>": 4,
+          "React/RCTRootView.h": 4,
+          "<XCTest/XCTest.h>": 4,
+          "GeneratedPluginRegistrant.h": 2,
+          "<Flutter/Flutter.h>": 2,
+          "Flutter/Flutter.h": 2,
+          "Flutterblue.pbobjc.h": 2,
+          "FlutterBluetoothSerialPlugin.h": 1,
+          "FlutterBluePlugin.h": 1,
+          "stdatomic.h": 1,
+          "GPBProtocolBuffers_RuntimeSupport.h": 1,
+          "protobuf/GPBProtocolBuffers_RuntimeSupport.h": 1,
+          "<protobuf/GPBProtocolBuffers_RuntimeSupport.h>": 1,
+          "<stdatomic.h>": 1
+        }
+      },
+      "R": {
+        "files_scanned": 1,
+        "packages": {
+          "tictoc": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 4,
+        "packages": {
+          "FlutterMacOS": 3,
+          "Cocoa": 2,
+          "Flutter": 1,
+          "UIKit": 1,
+          "Foundation": 1,
+          "flutter_blue": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "react-native": 6,
+          "next": 2,
+          "vite": 1,
+          "vitejs": 1,
+          "expo-camera": 1,
+          "expo-av": 1,
+          "react": 1,
+          "react-i18next": 1,
+          "i18next": 1,
+          "react-native-async-storage": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 66,
+        "packages": {
+          "react": 51,
+          "react-native": 39,
+          "react-navigation": 12,
+          "expo-router": 6,
+          "next": 6,
+          "react-native-gesture-handler": 4,
+          "Animated": 4,
+          "react-test-renderer": 4,
+          "jest": 4,
+          "react-three": 3,
+          "react-native-safe-area-context": 2,
+          "react-native-reanimated": 2,
+          "expo-symbols": 2,
+          "react-native-async-storage": 2,
+          "framer-motion": 2,
+          "three": 1,
+          "leva": 1,
+          "react-dom": 1,
+          "random-word-slugs": 1,
+          "to": 1,
+          "expo-image": 1,
+          "defaultSemiBold": 1,
+          "expo-status-bar": 1,
+          "expo-font": 1,
+          "expo-web-browser": 1,
+          "expo-haptics": 1,
+          "stream-io": 1,
+          "expo": 1,
+          "expo-blur": 1,
+          "react-native-swiper": 1,
+          "react-native-image-picker": 1,
+          "flyerhq": 1,
+          "react-redux": 1,
+          "react-native-community": 1,
+          "react-native-root-siblings": 1,
+          "redux-persist": 1,
+          "notifee": 1,
+          "uuid": 1,
+          "d11": 1,
+          "react-native-skeleton-placeholder": 1,
+          "react-native-heroicons": 1,
+          "react-native-responsive-screen": 1,
+          "zustand": 1,
+          "react-social-icons": 1,
+          "react-simple-typewriter": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "imdipprokash/3D-Landing-Page",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "imdipprokash/Auto-wordPair-Generator",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "imdipprokash/Beetalk",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "Kotlin",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "imdipprokash/CASSL",
+        "files_analyzed": 1,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "imdipprokash/ci-cd-nextjs",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "imdipprokash/CodeItLearn",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C/C++ Header",
+          "JavaScript",
+          "Kotlin",
+          "Objective-C / MATLAB",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "imdipprokash/Codespan",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "imdipprokash/flutter_bluetooth_serial",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++ Header",
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "imdipprokash/flutter_blue_try",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "imdipprokash/Gemini-Chat",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C/C++ Header",
+          "JavaScript",
+          "Kotlin",
+          "Objective-C / MATLAB",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "imdipprokash/Haqiq",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C/C++ Header",
+          "JavaScript",
+          "Kotlin",
+          "Objective-C / MATLAB",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "imdipprokash/Hidromas",
+        "files_analyzed": 22,
+        "languages_found": [
+          "C/C++ Header",
+          "JavaScript",
+          "Kotlin",
+          "Objective-C / MATLAB",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "imdipprokash/imdip-2.0",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

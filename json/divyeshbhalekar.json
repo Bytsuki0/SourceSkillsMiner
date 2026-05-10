@@ -1,0 +1,459 @@
+{
+  "username": "divyeshbhalekar",
+  "areas": {
+    "OSS": {
+      "score": 0.31520003578330424,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9728000536749565
+      }
+    },
+    "Status": {
+      "score": 0.18407940488429175,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7376575688648992,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.25,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 9,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.1998558881335192,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        4238,
+        7
+      ],
+      "Dockerfile": [
+        755,
+        20
+      ],
+      "Shell": [
+        41191,
+        0
+      ],
+      "Go": [
+        332,
+        1
+      ],
+      "JavaScript": [
+        55699,
+        12
+      ],
+      "CSS": [
+        28849,
+        3
+      ],
+      "HTML": [
+        75125,
+        12
+      ],
+      "Java": [
+        3378,
+        26
+      ],
+      "Ruby": [
+        2532,
+        0
+      ],
+      "Smarty": [
+        0,
+        0
+      ],
+      "SCSS": [
+        0,
+        0
+      ],
+      "EJS": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        1
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 82,
+    "total_lines": 212099,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 3378,
+        "commits": 26
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 755,
+        "commits": 20
+      },
+      {
+        "language": "JavaScript",
+        "lines": 55699,
+        "commits": 12
+      },
+      {
+        "language": "HTML",
+        "lines": 75125,
+        "commits": 12
+      },
+      {
+        "language": "Python",
+        "lines": 4238,
+        "commits": 7
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "divyeshbhalekar",
+    "analysis_date": "2026-05-09T11:05:26.895503",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 136,
+    "languages": {
+      "Go": {
+        "files_scanned": 47,
+        "packages": {
+          "fmt": 43,
+          "net/http": 9,
+          "os": 7,
+          "github.com/gin-gonic/gin": 6,
+          "time": 4,
+          "io/ioutil": 3,
+          "log": 3,
+          "message": 2,
+          "strconv": 2,
+          "math/rand": 2,
+          "strings": 2,
+          "io": 2,
+          "context": 2,
+          "email": 1,
+          "name": 1,
+          "math": 1,
+          "are": 1,
+          "Divyesh": 1,
+          "you": 1,
+          "How": 1,
+          "bytes": 1,
+          "count": 1,
+          "result": 1,
+          "database/sql": 1,
+          "Hello": 1,
+          "testing": 1,
+          "http://facebook.com": 1,
+          "http://golang.org": 1,
+          "http://stackoverflow.com": 1,
+          "http://google.com": 1,
+          "http://amazon.com": 1,
+          "green": 1,
+          "white": 1,
+          "red": 1,
+          "unicode/utf8": 1,
+          "bufio": 1,
+          "github.com/disintegration/imaging": 1,
+          "hotels.html": 1,
+          "contacts.html": 1,
+          "github.com/jackc/pgx/v4": 1,
+          "index.html": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 25,
+        "packages": {
+          "org.springframework": 16,
+          "com.thearaseng": 7,
+          "org.junit": 6,
+          "java.util": 6,
+          "com.microservices": 6,
+          "java.io": 4,
+          "org.slf4j": 4,
+          "java.net": 3,
+          "java.nio": 3,
+          "com.example": 2,
+          "static": 2,
+          "com.apigateway": 2,
+          "com.rst": 2,
+          "com.mycompany": 2,
+          "lombok.Getter": 1,
+          "lombok.Setter": 1,
+          "org.apache": 1,
+          "com.springhow": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 30,
+        "packages": {
+          "testing-library": 10,
+          "react": 9,
+          "react-dom": 5,
+          "express": 4,
+          "web-vitals": 4,
+          "react-router-dom": 2,
+          "cors": 2,
+          "body-parser": 2,
+          "redis": 2,
+          "axios": 1,
+          "pg": 1,
+          "`setTimeout`": 1,
+          "autoprefixer": 1,
+          "postcss-extract-media-query": 1,
+          "postcss-combine-duplicated-selectors": 1,
+          "css-declaration-sorter": 1,
+          "fullhuman": 1,
+          "purgecss-whitelister": 1,
+          "glob-all": 1,
+          "cssnano": 1,
+          "`fast-css-loader`": 1,
+          "terser-webpack-plugin": 1,
+          "them": 1,
+          "path": 1,
+          "dotenv": 1,
+          "src": 1,
+          "html-webpack-plugin": 1,
+          "`fast-sass-loader`": 1,
+          "clean-webpack-plugin": 1,
+          "webpack": 1,
+          "mini-css-extract-plugin": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "react": 2,
+          "components": 1,
+          "react-dom": 1,
+          "regenerator-runtime": 1,
+          "core-js": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 16,
+        "packages": {
+          "os": 8,
+          "app": 8,
+          "logging": 7,
+          "datetime": 7,
+          "load_dotenv": 5,
+          "dotenv": 5,
+          "typing": 3,
+          "dateutil": 3,
+          "ServiceAccountD": 3,
+          "relativedelta": 3,
+          "boto3": 3,
+          "WebClient": 3,
+          "re": 3,
+          "slack_sdk": 3,
+          "SlackApiError": 3,
+          "List": 2,
+          "mongoengine": 2,
+          "json": 2,
+          "asyncio": 2,
+          "requests": 2,
+          "fetch": 1,
+          "FastAPI": 1,
+          "AccountInCreate": 1,
+          "config": 1,
+          "Consumer": 1,
+          "core": 1,
+          "send_scan_data": 1,
+          "fastapi": 1,
+          "connect": 1,
+          "ExchangeType": 1,
+          "time": 1,
+          "process_message": 1,
+          "pika": 1,
+          "pdb": 1,
+          "Document": 1,
+          "RWModel": 1,
+          "BaseModel": 1,
+          "pydantic": 1,
+          "ServiceAccountM": 1,
+          "ServiceAccountY": 1,
+          "parse": 1,
+          "parser": 1,
+          "ACCOUNTSERVICE": 1,
+          "datetime_convertion": 1,
+          "pydantic_settings": 1,
+          "Path": 1,
+          "BaseSettings": 1,
+          "Any": 1,
+          "pathlib": 1,
+          "threading": 1,
+          "uvicorn": 1,
+          "Template": 1,
+          "jinja2": 1,
+          "run_aws_cost_main": 1,
+          "Flask": 1,
+          "flask_cors": 1,
+          "CORS": 1,
+          "flask": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "divyeshbhalekar/account",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/AWS-CLI-Commands",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/branch-practise",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/comp",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/cost-alert",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/demorepo",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/docker-react",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/dockerized-spring-boot-app",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/first-pipeline",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/frontend",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/github-action-react-app",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/GoCasts",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/GoFromScratchCourse",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/helm-microservice",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "JavaScript (JSX)",
+          "Python"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/java-web-app-docker",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/jenkins-resources",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "divyeshbhalekar/jenkins-test-project-1",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

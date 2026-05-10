@@ -1,0 +1,575 @@
+{
+  "username": "MarcosMateusOS",
+  "areas": {
+    "OSS": {
+      "score": 0.15139048701721536,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.75,
+        "commits_activity": 0.977085730525823
+      }
+    },
+    "Status": {
+      "score": 0.3016030713514284,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8947122993348348,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 0.25,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.14059871167372875,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        118581,
+        7
+      ],
+      "ANTLR": [
+        1202,
+        0
+      ],
+      "Makefile": [
+        4807,
+        0
+      ],
+      "Jasmin": [
+        298,
+        0
+      ],
+      "Python": [
+        98,
+        1
+      ],
+      "Batchfile": [
+        10,
+        0
+      ],
+      "JavaScript": [
+        4840507,
+        90
+      ],
+      "HTML": [
+        34625,
+        0
+      ],
+      "CSS": [
+        19289,
+        1
+      ],
+      "GLSL": [
+        18184,
+        0
+      ],
+      "Brainfuck": [
+        4066,
+        0
+      ],
+      "C": [
+        4066,
+        0
+      ],
+      "Forth": [
+        4066,
+        0
+      ],
+      "GAP": [
+        4066,
+        0
+      ],
+      "C++": [
+        232908,
+        15
+      ],
+      "TypeScript": [
+        434,
+        13
+      ],
+      "Go": [
+        256,
+        9
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 136,
+    "total_lines": 5287463,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 4840507,
+        "commits": 90
+      },
+      {
+        "language": "C++",
+        "lines": 232908,
+        "commits": 15
+      },
+      {
+        "language": "TypeScript",
+        "lines": 434,
+        "commits": 13
+      },
+      {
+        "language": "Go",
+        "lines": 256,
+        "commits": 9
+      },
+      {
+        "language": "Java",
+        "lines": 118581,
+        "commits": 7
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "MarcosMateusOS",
+    "analysis_date": "2026-05-09T01:42:59.308169",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 271,
+    "languages": {
+      "C++": {
+        "files_scanned": 25,
+        "packages": {
+          "<iostream>": 23,
+          "iostream": 23,
+          "namespace": 23,
+          "std": 22,
+          "<cstdlib>": 17,
+          "cstdlib": 17,
+          "stdio.h": 17,
+          "<stdio.h>": 17,
+          "<fstream>": 16,
+          "fstream": 16,
+          "<string>": 16,
+          "string": 16,
+          "algorithm": 15,
+          "<algorithm>": 15,
+          "<vector>": 14,
+          "vector": 14,
+          "<sstream>": 12,
+          "<chrono>": 12,
+          "<climits>": 12,
+          "sstream": 12,
+          "climits": 12,
+          "chrono": 12,
+          "<time.h>": 10,
+          "time.h": 10,
+          "std::chrono": 9,
+          "<locale.h>": 8,
+          "locale.h": 8,
+          "Actions.h": 8,
+          "<string.h>": 7,
+          "string.h": 7,
+          "<math.h>": 6,
+          "math.h": 6,
+          "<cmath>": 3,
+          "cmath": 3,
+          "Registro.h": 3,
+          "<map>": 3,
+          "Balde.h": 3,
+          "map": 3,
+          "AVLTree.h": 2,
+          "ArvB.h": 2,
+          "QuadTree.h": 2,
+          "RegistroCoordinates.h": 2,
+          "AStarSearch.h": 2,
+          "Backtracking.h": 2,
+          "queue": 2,
+          "<queue>": 2,
+          "BreadthFirstSearch.h": 2,
+          "DepthFirstSearch.h": 2,
+          "GreedySearch.h": 2,
+          "IDAStarSearch.h": 2,
+          "OrdinateSearch.h": 2,
+          "stdlib.h": 2,
+          "ctype.h": 2,
+          "<ctype.h>": 2,
+          "<stdlib.h>": 2,
+          "<bitset>": 2,
+          "Diretorio.h": 2,
+          "bitset": 2,
+          "Hashing.h": 1,
+          "NoArvB.h": 1,
+          "Tabela.h": 1,
+          "stack": 1,
+          "<stack>": 1,
+          "No.h": 1,
+          "bits/stdc++.h": 1,
+          "<bits/stdc++.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 21,
+        "packages": {
+          "namespace": 21,
+          "iostream": 19,
+          "<iostream>": 19,
+          "cstdlib": 16,
+          "<cstdlib>": 16,
+          "<vector>": 14,
+          "vector": 14,
+          "<fstream>": 12,
+          "fstream": 12,
+          "No.h": 8,
+          "chrono": 5,
+          "sstream": 5,
+          "<sstream>": 5,
+          "<chrono>": 5,
+          "<string>": 4,
+          "string": 4,
+          "cmath": 3,
+          "<cmath>": 3,
+          "<math.h>": 2,
+          "math.h": 2,
+          "Hashing.h": 2,
+          "Registro.h": 2,
+          "NoArv.h": 1,
+          "NoArvB.h": 1,
+          "NoArvQuad.h": 1,
+          "queue": 1,
+          "<queue>": 1,
+          "<stack>": 1,
+          "stack": 1,
+          "<string.h>": 1,
+          "string.h": 1,
+          "Balde.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 16,
+        "packages": {
+          "context": 8,
+          "fmt": 6,
+          "time": 4,
+          "database/sql": 4,
+          "log": 3,
+          "os": 3,
+          "testing": 3,
+          "api-assistant/internal/config": 2,
+          "github.com/gin-gonic/gin": 2,
+          "net/http": 2,
+          "github.com/openai/openai-go": 2,
+          "encoding/json": 2,
+          "github.com/stretchr/testify/require": 2,
+          "api-assistant/internal/handler": 1,
+          "github.com/joho/godotenv": 1,
+          "api-assistant/internal/services": 1,
+          "github.com/invopop/jsonschema": 1,
+          "api-assistant/internal/prompt": 1,
+          "github.com/openai/openai-go/option": 1,
+          "net/url": 1,
+          "Clima": 1,
+          "github.com/MarcosMateusOS/Backend_Master_Class/util": 1,
+          "math/rand": 1,
+          "strings": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 40,
+        "packages": {
+          "lang.ast": 30,
+          "lang.interpreter": 29,
+          "com.apirest": 10,
+          "org.springframework": 9,
+          "java.util": 8,
+          "reactor.core": 6,
+          "static": 2,
+          "lang": 1,
+          "lang.parser": 1,
+          "lang.code_gen": 1,
+          "lang.semantic": 1,
+          "java.time": 1,
+          "reactor.util": 1,
+          "org.junit": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 33,
+        "packages": {
+          "three": 19,
+          "react": 4,
+          "react-native": 4,
+          "react-native-paper": 4,
+          "react-native-vector-icons": 3,
+          "fs": 3,
+          "puppeteer": 3,
+          "react-native-maps": 2,
+          "expo-permissions": 2,
+          "react-native-places-input": 2,
+          "expo-constants": 2,
+          "react-native-maps-directions": 2,
+          "expo-location": 2,
+          "formik": 2,
+          "dgram": 2,
+          "https:": 2,
+          "k6": 2,
+          "<packing>": 1,
+          "react-native-gifted-chat": 1,
+          "date-fns": 1,
+          "moment": 1,
+          "react-native-elements": 1,
+          "yup": 1,
+          "react-native-material-dropdown": 1,
+          "react-native-keyboard-aware-scroll-view": 1,
+          "vitejs": 1,
+          "vite": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "react": 2,
+          "react-dom": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 4,
+        "packages": {
+          "socket": 4
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 73,
+        "packages": {
+          "nestjs": 34,
+          "fastify": 18,
+          "mongoose": 15,
+          "vitest": 10,
+          "zod": 10,
+          "supertest": 10,
+          "src": 5,
+          "class-transformer": 5,
+          "styled-components": 4,
+          "prisma": 3,
+          "express": 2,
+          "class-validator": 2,
+          "yargs": 1,
+          "ollama": 1,
+          "axios": 1,
+          "node:crypto": 1,
+          "dotenv": 1,
+          "node:child_process": 1,
+          "ADMIN": 1,
+          "rxjs": 1,
+          "passport-jwt": 1,
+          "bcrypt": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 18,
+        "packages": {
+          "react": 18,
+          "react-native": 9,
+          "react-navigation": 5,
+          "react-native-gesture-handler": 2,
+          "react-native-async-storage": 2,
+          "expo-app-loading": 1,
+          "expo-google-fonts": 1,
+          "react-native-iphone-x-helper": 1,
+          "lottie-react-native": 1,
+          "react-native-svg": 1,
+          "expo": 1,
+          "styled-components": 1,
+          "react-icons": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MarcosMateusOS/academic-compilers-project",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/academic-computer-graphics",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/academic-proinclusao-app",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/academic-quadtree-hashing-btree-avltree",
+        "files_analyzed": 19,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/academic-search-algorithms",
+        "files_analyzed": 19,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/academic-socket-networks",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/academic-udp-networking",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/apirest-webflux",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/Bot-Web-Scrapping",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/go-orchestrator",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/Hashin-extens-vel-Atividade-1",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/Hashing-Extensivel-ED2",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/local-gen-code",
+        "files_analyzed": 4,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/LZW-Codificador",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/NLW-05-PlantManeger",
+        "files_analyzed": 17,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/personal-api-gyms",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/personal-go-api",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/personal-my-orders",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/projeto-de-software-trab",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/rinha-de-backend-2025",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MarcosMateusOS/Trabalho-DCC062-Sistema-Operacional",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      }
+    ]
+  }
+}

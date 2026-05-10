@@ -1,0 +1,348 @@
+{
+  "username": "iandiv",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 0.916667,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 6,
+        "topic_entropy_bits": 3.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.8,
+      "details": {
+        "iandiv/AppGroup": 0.10982333333333333,
+        "iandiv/GuiScrcpyPlusPlus": 0.44025,
+        "iandiv/Side-Menu-Panel": 0.31245,
+        "iandiv/StartAllBack-Cleanup": -0.3139,
+        "iandiv/Win11Tweaker": 0.20722500000000002
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.534359041025641,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C#": [
+        193113,
+        189
+      ],
+      "HTML": [
+        12902,
+        15
+      ],
+      "JavaScript": [
+        11452,
+        9
+      ],
+      "CSS": [
+        66142,
+        4
+      ],
+      "AutoHotkey": [
+        14761,
+        12
+      ],
+      "SCSS": [
+        16163,
+        3
+      ],
+      "TypeScript": [
+        519490,
+        38
+      ],
+      "Java": [
+        11408,
+        12
+      ],
+      "PowerShell": [
+        51,
+        3
+      ],
+      "Batchfile": [
+        506,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 285,
+    "total_lines": 845988,
+    "top_5_languages": [
+      {
+        "language": "C#",
+        "lines": 193113,
+        "commits": 189
+      },
+      {
+        "language": "TypeScript",
+        "lines": 519490,
+        "commits": 38
+      },
+      {
+        "language": "HTML",
+        "lines": 12902,
+        "commits": 15
+      },
+      {
+        "language": "AutoHotkey",
+        "lines": 14761,
+        "commits": 12
+      },
+      {
+        "language": "Java",
+        "lines": 11408,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "iandiv",
+    "analysis_date": "2026-05-09T02:06:20.113575",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 119,
+    "languages": {
+      "C#": {
+        "files_scanned": 47,
+        "packages": {
+          "System.Diagnostics": 30,
+          "System.IO": 25,
+          "System.Threading.Tasks": 24,
+          "System": 21,
+          "Microsoft.UI.Xaml": 20,
+          "System.Collections.Generic": 18,
+          "System.Runtime.InteropServices": 17,
+          "Microsoft.UI.Xaml.Controls": 16,
+          "System.Linq": 16,
+          "Microsoft.UI.Xaml.Media": 8,
+          "Microsoft.UI.Windowing": 7,
+          "WinRT.Interop": 7,
+          "System.Threading": 7,
+          "System.Text.Json": 7,
+          "System.Drawing": 7,
+          "System.Windows.Forms": 7,
+          "System.ComponentModel": 6,
+          "Microsoft.UI": 6,
+          "var": 6,
+          "Microsoft.Win32": 6,
+          "Windows.Graphics": 5,
+          "WinUIEx": 5,
+          "File": 5,
+          "Windows.Storage": 5,
+          "System.Collections.ObjectModel": 5,
+          "System.Text": 5,
+          "System.Text.Json.Nodes": 5,
+          "WinBlur": 4,
+          "Microsoft.UI.Xaml.Media.Imaging": 3,
+          "Microsoft.UI.Xaml.Input": 3,
+          "Windows.UI.WindowManagement": 2,
+          "System.Text.RegularExpressions": 2,
+          "Windows.UI.StartScreen": 2,
+          "Windows.Storage.Pickers": 2,
+          "Windows.ApplicationModel.DataTransfer": 2,
+          "Microsoft.UI.Dispatching": 2,
+          "Microsoft.UI.Composition.SystemBackdrops": 2,
+          "static": 2,
+          "System.Data": 2,
+          "System.IO.Compression": 1,
+          "System.Xml": 1,
+          "System.Drawing.Imaging": 1,
+          "Image": 1,
+          "System.Collections.Concurrent": 1,
+          "Microsoft.UI.Input": 1,
+          "Windows.UI.ViewManagement": 1,
+          "Microsoft.UI.Xaml.Markup": 1,
+          "Microsoft.UI.Xaml.Media.Animation": 1,
+          "Microsoft.Windows.AppLifecycle": 1,
+          "Microsoft.UI.Xaml.Controls.Primitives": 1,
+          "IWshRuntimeLibrary": 1,
+          "System.Xml.Linq": 1,
+          "System.Reflection": 1,
+          "System.Net.Http": 1,
+          "System.Net.NetworkInformation": 1,
+          "WinRT": 1,
+          "System.Runtime.InteropServices.ComTypes": 1,
+          "System.Windows": 1,
+          "System.Windows.Interop": 1,
+          "System.Configuration": 1,
+          "Salaros.Configuration": 1,
+          "System.Security.Policy": 1,
+          "SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run": 1,
+          "System.Runtime.CompilerServices": 1,
+          "Windows.System": 1,
+          "Win11_Tweaker.Helpers": 1,
+          "IniParser.Model": 1,
+          "IniParser": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 5,
+        "packages": {
+          "com.getcapacitor": 3,
+          "org.junit": 2,
+          "static": 2,
+          "java.util": 2,
+          "android.content": 1,
+          "androidx.test": 1,
+          "io.ionic": 1,
+          "javax.swing": 1,
+          "sidebar": 1,
+          "java.awt": 1,
+          "sidebar.SideMenuPanel": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "eslint-plugin-react-refresh": 2,
+          "globals": 2,
+          "typescript-eslint": 2,
+          "eslint-plugin-react-hooks": 2,
+          "eslint": 2,
+          "karma-chrome-launcher": 1,
+          "angular-devkit": 1,
+          "karma-jasmine-html-reporter": 1,
+          "path": 1,
+          "karma-jasmine": 1,
+          "karma-coverage": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 27,
+        "packages": {
+          "angular": 20,
+          "ionic": 7,
+          "capacitor": 3,
+          "zone.js": 3,
+          "src": 2,
+          "tailwindcss": 2,
+          "vitejs": 2,
+          "vite": 2,
+          "rxjs": 1,
+          "clsx": 1,
+          "tailwind-merge": 1,
+          "path": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 14,
+        "packages": {
+          "react": 13,
+          "radix-ui": 6,
+          "class-variance-authority": 3,
+          "react-dom": 2,
+          "to": 1,
+          "lucide-react": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "iandiv/AppGroup",
+        "files_analyzed": 25,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "iandiv/dictionary-app",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "iandiv/GuiScrcpyPlusPlus",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "iandiv/iandiv.github.io",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "iandiv/KTM",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "iandiv/QuixCase",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "iandiv/Side-Menu-Panel",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "iandiv/Win11Tweaker",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}
