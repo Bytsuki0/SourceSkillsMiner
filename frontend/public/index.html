@@ -12,6 +12,23 @@
 /* ── Reset ────────────────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+
+/* Add this anywhere inside your <style> tags */
+.btn-pdf {
+  background: var(--paper2);
+  border: 1px solid var(--navy);
+  padding: 6px 12px;
+  font-family: var(--font-slab);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--navy);
+  cursor: pointer;
+  border-radius: var(--radius);
+  margin-top: 10px;
+  transition: all 0.2s;
+}
+.btn-pdf:hover { background: var(--navy); color: white; }
+
 /* ── Tokens ────────────────────────────────────────────────────────────── */
 :root {
   --paper:       #faf8f3;
@@ -744,10 +761,13 @@ body::before {
     <!-- Colophon -->
     <div class="colophon">
       <div class="colophon-left">
-        SourceSkillsMiner · Automated GitHub Profile Intelligence<br>
+        SourceSkillsMiner · Automated GitHub Profile Skill Estimation<br>
         Scoring model: Multinomial Naïve Bayes · Features: language distribution, import graph
       </div>
-      <div class="colophon-right" id="colophon-date"></div>
+      <div class="colophon-right">
+        <div id="colophon-date" style="text-align: right;"></div>
+        <button id="btn-pdf" class="btn-pdf" style="display: none;">Save PDF to Server</button>
+      </div>
     </div>
 
   </div><!-- /results -->
@@ -973,7 +993,16 @@ function renderProfile(data) {
 
   $('results').style.display = 'block';
   $('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+  // Store for manual button re-use
+  window._lastProfileData = { username, profile, classification };
+
+  // Auto-generate PDF 1 second after the UI finishes animating in
+  setTimeout(() => {
+    generateAndSavePDF(username, profile, classification);
+  }, 1000); 
 }
+
 
 // ── Network helpers ────────────────────────────────────────────────────────
 
@@ -1069,6 +1098,65 @@ $('username-input').addEventListener('keydown', e => {
   if (e.key === 'Enter') { const u = $('username-input').value.trim(); if (u) runAnalysis(u); }
 });
 window.addEventListener('load', () => $('username-input').focus());
+
+async function generateAndSavePDF(username, profileData, classificationData) {
+  const btn = document.getElementById('btn-pdf');
+  if (btn) {
+    btn.style.display = 'inline-block';
+    btn.textContent = 'Generating PDF…';
+    btn.disabled = true;
+  }
+
+  try {
+    // Send raw JSON to the server; ReportLab builds the PDF there.
+    const response = await fetch('/api/generate_pdf', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        username:       username,
+        profile:        profileData,
+        classification: classificationData,
+      }),
+    });
+
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({}));
+      throw new Error(err.error || `Server error ${response.status}`);
+    }
+
+    // The endpoint returns the PDF as a file download; also auto-saves on server.
+    const blob = await response.blob();
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = `${username}.pdf`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+
+    if (btn) {
+      btn.textContent = 'PDF saved ✓';
+      setTimeout(() => { btn.textContent = 'Save PDF to Server'; btn.disabled = false; }, 4000);
+    }
+  } catch (error) {
+    console.error('PDF Generation Error:', error);
+    if (btn) {
+      btn.textContent = 'Error — retry?';
+      btn.disabled = false;
+    }
+  }
+}
+
+// Bind manual button click
+document.getElementById('btn-pdf').addEventListener('click', () => {
+  const d = window._lastProfileData;
+  if (d && d.username && d.username !== '—') {
+    generateAndSavePDF(d.username, d.profile, d.classification);
+  }
+});
+
+
 </script>
 </body>
 </html>
