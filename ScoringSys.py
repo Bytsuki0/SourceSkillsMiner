@@ -271,8 +271,8 @@ def compute_status_score(username: str, token: str, prefetched_stats: Optional[D
     streak_norm  = _linear_cap(streak, cap=52)
 
     subs = {
-        'lines_activity':   lines_norm,
-        'commits_activity': commits_norm,
+        'lines_frequency':   lines_norm,
+        'commits_frequency': commits_norm,
         'week_streak':      streak_norm,
     }
 
