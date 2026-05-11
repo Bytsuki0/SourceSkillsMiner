@@ -18,6 +18,7 @@ Run with:
 
 import os
 import sys
+import io
 import json
 import math
 import uuid
@@ -29,8 +30,16 @@ import tempfile
 import shutil
 from typing import Optional
 
-from flask import Flask, request, jsonify, Response, stream_with_context
+from flask import Flask, request, jsonify, Response, stream_with_context, send_file
 from flask_cors import CORS
+
+# Server-side PDF generator (ReportLab) — imported lazily so the rest of the
+# API still starts up even if reportlab is not yet installed.
+try:
+    from pdf_generator import build_pdf as _build_pdf
+    _PDF_AVAILABLE = True
+except ImportError:
+    _PDF_AVAILABLE = False
 
 # ── Paths ────────────────────────────────────────────────────────────────────
 ROOT         = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -39,6 +48,7 @@ CLASS_SCRIPT = os.path.join(ROOT, 'Bayers_Classifier', 'classify_profile.py')
 MODEL_PATH   = os.path.join(ROOT, 'Bayers_Classifier', 'models', 'developer_classifier.joblib')
 CONFIG_MAIN  = os.path.join(ROOT, 'config_main.ini')
 JSON_DIR     = os.path.join(ROOT, 'json')
+PDF_DIR      = os.path.join(ROOT, 'pdf')
 PYTHON       = sys.executable
 
 app = Flask(__name__)
@@ -328,6 +338,8 @@ def analyze():
         return jsonify({'error': f'Failed to start analysis: {str(exc)}'}), 500
 
 
+
+
 @app.route('/api/status/<job_id>')
 def status_stream(job_id: str):
     with _jobs_lock:
@@ -377,6 +389,70 @@ def get_result(job_id: str):
         'result':   job['result'],
         'error':    job['error'],
     })
+
+
+@app.route('/api/save_pdf', methods=['POST'])
+def save_pdf():
+    username = request.form.get('username')
+    if not username:
+        return jsonify({'error': 'username is required'}), 400
+
+    if 'pdf' not in request.files:
+        return jsonify({'error': 'pdf file is missing'}), 400
+
+    pdf_file = request.files['pdf']
+    
+    # Ensure the ./pdf directory exists
+    os.makedirs(PDF_DIR, exist_ok=True)
+    pdf_path = os.path.join(PDF_DIR, f"{username}.pdf")
+    
+    # Save the file
+    pdf_file.save(pdf_path)
+    return jsonify({'status': 'ok', 'pdf_path': pdf_path})
+
+
+@app.route('/api/generate_pdf', methods=['POST'])
+def generate_pdf():
+    """
+    Server-side PDF generation using ReportLab.
+    Expects JSON body: { "username": "...", "profile": {...}, "classification": {...} }
+    Returns the PDF as an attachment, and also saves it to PDF_DIR/<username>.pdf.
+    """
+    if not _PDF_AVAILABLE:
+        return jsonify({'error': 'reportlab is not installed on this server. '
+                                 'Run: pip install reportlab'}), 501
+
+    body = request.get_json(force=True, silent=True) or {}
+    username       = (body.get('username') or '').strip()
+    profile_data   = body.get('profile')
+    cls_data       = body.get('classification')
+
+    if not username:
+        return jsonify({'error': 'username is required'}), 400
+    if not isinstance(profile_data, dict):
+        return jsonify({'error': 'profile must be a JSON object'}), 400
+    if cls_data is None:
+        cls_data = {}
+
+    try:
+        pdf_bytes = _build_pdf(username, profile_data, cls_data)
+    except Exception as exc:
+        import traceback
+        traceback.print_exc()          # ← add this line
+        return jsonify({'error': f'PDF generation failed: {exc}'}), 500
+
+    # Persist to ./pdf/<username>.pdf (mirrors save_pdf behaviour)
+    os.makedirs(PDF_DIR, exist_ok=True)
+    pdf_path = os.path.join(PDF_DIR, f'{username}.pdf')
+    with open(pdf_path, 'wb') as fh:
+        fh.write(pdf_bytes)
+
+    return send_file(
+        io.BytesIO(pdf_bytes),
+        mimetype='application/pdf',
+        as_attachment=True,
+        download_name=f'{username}.pdf',
+    )
 
 
 if __name__ == '__main__':
