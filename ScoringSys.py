@@ -374,6 +374,34 @@ def get_import_scan_data(username: str, token: str,
 # Orchestration
 # ---------------------------------------------------------------------------
 
+def get_github_avatar_url(username: str, token: str) -> Optional[str]:
+    """
+    Fetch the GitHub user's avatar URL from the GitHub API.
+    Returns the avatar_url or None if the request fails.
+    """
+    try:
+        import requests
+        headers = {
+            'Accept': 'application/vnd.github.v3+json',
+            'User-Agent': 'github-public-client'
+        }
+        if token:
+            headers['Authorization'] = f'token {token}'
+        
+        url = f'https://api.github.com/users/{username}'
+        response = requests.get(url, headers=headers, timeout=10)
+        
+        if response.ok:
+            data = response.json()
+            return data.get('avatar_url')
+        else:
+            print(f"Warning: Could not fetch avatar for {username} (HTTP {response.status_code})")
+            return None
+    except Exception as e:
+        print(f"Warning: Error fetching avatar: {e}")
+        return None
+
+
 def load_weights_from_config(cfg: cfgparser.ConfigParser = config) -> Dict[str, float]:
     if 'scoring' not in cfg:
         return DEFAULT_WEIGHTS.copy()
@@ -469,9 +497,13 @@ def score_user(username: Optional[str] = None,
         print("Skipping import scan.")
         import_scan_data = {'skipped': True, 'reason': 'Import scan skipped by user request.'}
 
+    print("\nCollecting GitHub profile picture...")
+    avatar_url = get_github_avatar_url(username, token)
+    
     print("\nAnalysis complete!")
     return {
         'username':       username,
+        'avatar_url':     avatar_url,
         'areas':          areas,
         'weights':        normalized,
         'final_score':    float(max(-1.0, min(1.0, final))),

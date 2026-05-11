@@ -293,6 +293,14 @@ body::before {
   color: var(--ink);
 }
 .byline-sep { color: var(--rule); font-size: 18px; }
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 1px solid var(--rule);
+  box-shadow: var(--shadow-sm);
+}
 .final-score-badge {
   display: inline-flex;
   align-items: center;
@@ -663,16 +671,21 @@ body::before {
     <!-- Article Header -->
     <div class="article-header">
       <div class="article-kicker">Profile Report</div>
-      <h2 class="article-title" id="hero-username">—</h2>
-      <div class="article-byline">
-        <span class="byline-item" id="hero-meta">—</span>
+      <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 20px;">
+        <img id="profile-picture" class="profile-picture" style="display: none;" alt="Profile picture" />
+        <div style="flex: 1;">
+          <h2 class="article-title" id="hero-username">—</h2>
+          <div class="article-byline">
+            <span class="byline-item" id="hero-meta">—</span>
         <span class="byline-sep">·</span>
         <div class="final-score-badge">
           <span class="score-label">Final Score</span>
           <span class="score-value" id="orb-val">—</span>
         </div>
+        </div>
       </div>
-    </div>
+        </div>
+      </div>
 
     <!-- §1 Classification -->
     <div class="section-heading">§1 &nbsp; Role Classification</div>
@@ -791,6 +804,16 @@ function renderProfile(data) {
   const orbVal = $('orb-val');
   orbVal.textContent = fmtScore(fs);
   orbVal.style.color = scoreColor(fs);
+
+  // Display profile picture if available
+  const avatarUrl = profile.avatar_url;
+  const profilePicEl = $('profile-picture');
+  if (avatarUrl) {
+    profilePicEl.src = avatarUrl;
+    profilePicEl.style.display = 'block';
+  } else {
+    profilePicEl.style.display = 'none';
+  }
 
   // §1 Classification
   if (classification && !classification.error) {
