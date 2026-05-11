@@ -1,0 +1,189 @@
+{
+  "username": "pawan971",
+  "areas": {
+    "OSS": {
+      "score": 0.1584383792432662,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7376575688648992
+      }
+    },
+    "Status": {
+      "score": 0.18407940488429175,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7376575688648992,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.75,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "pawan971/emailverif-go": 0.9105
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.11850355682551159,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        529,
+        2
+      ],
+      "Dockerfile": [
+        7,
+        0
+      ],
+      "Go": [
+        163660,
+        13
+      ],
+      "HTML": [
+        24540,
+        5
+      ],
+      "HCL": [
+        12425,
+        2
+      ],
+      "Python": [
+        204,
+        8
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 30,
+    "total_lines": 201365,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 163660,
+        "commits": 13
+      },
+      {
+        "language": "Python",
+        "lines": 204,
+        "commits": 8
+      },
+      {
+        "language": "HTML",
+        "lines": 24540,
+        "commits": 5
+      },
+      {
+        "language": "Java",
+        "lines": 529,
+        "commits": 2
+      },
+      {
+        "language": "HCL",
+        "lines": 12425,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "pawan971",
+    "analysis_date": "2026-05-10T17:05:00.635451",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 7,
+    "languages": {
+      "Go": {
+        "files_scanned": 1,
+        "packages": {
+          "os": 1,
+          "net": 1,
+          "fmt": 1,
+          "strings": 1,
+          "bufio": 1,
+          "log": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 5,
+        "packages": {
+          "java.net": 5,
+          "java.io": 5,
+          "java.util": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "whisper": 1,
+          "os": 1,
+          "pathlib": 1,
+          "TTS": 1,
+          "Path": 1,
+          "uuid": 1,
+          "torch": 1,
+          "translate": 1,
+          "gc": 1,
+          "gradio": 1,
+          "Translator": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "pawan971/ADV_tcp_ip",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "pawan971/emailverif-go",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "pawan971/v2vtranslator",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

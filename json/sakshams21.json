@@ -1,0 +1,339 @@
+{
+  "username": "sakshams21",
+  "areas": {
+    "OSS": {
+      "score": -0.016696621612821705,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.9749550675807674
+      }
+    },
+    "Status": {
+      "score": 0.32633108500283114,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9318043198119389,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.7125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.08057310732199813,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "ASP": [
+        2746803,
+        10
+      ],
+      "C#": [
+        11708357,
+        64
+      ],
+      "ShaderLab": [
+        8102825,
+        43
+      ],
+      "HLSL": [
+        817245,
+        2
+      ],
+      "CMake": [
+        9318,
+        1
+      ],
+      "C": [
+        9255,
+        1
+      ],
+      "C++": [
+        9159,
+        1
+      ],
+      "GLSL": [
+        0,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 122,
+    "total_lines": 23402962,
+    "top_5_languages": [
+      {
+        "language": "C#",
+        "lines": 11708357,
+        "commits": 64
+      },
+      {
+        "language": "ShaderLab",
+        "lines": 8102825,
+        "commits": 43
+      },
+      {
+        "language": "ASP",
+        "lines": 2746803,
+        "commits": 10
+      },
+      {
+        "language": "HLSL",
+        "lines": 817245,
+        "commits": 2
+      },
+      {
+        "language": "CMake",
+        "lines": 9318,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sakshams21",
+    "analysis_date": "2026-05-10T19:42:32.701705",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 321,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "+=": 2
+        }
+      },
+      "C#": {
+        "files_scanned": 300,
+        "packages": {
+          "UnityEngine": 249,
+          "System": 121,
+          "System.Collections.Generic": 93,
+          "System.Collections": 88,
+          "UnityEditor": 57,
+          "DG.Tweening.Plugins.Options": 56,
+          "DG.Tweening.Core": 56,
+          "UnityEngine.UI": 39,
+          "DG.Tweening": 33,
+          "DG.Tweening.Plugins.Core.PathCore": 21,
+          "DG.Tweening.Plugins": 21,
+          "UnityEngine.Animations.Rigging": 17,
+          "ExitGames.Client.Photon": 16,
+          "System.Reflection": 15,
+          "DG.Tweening.Core.Enums": 14,
+          "UnityEngine.SceneManagement": 13,
+          "SupportClass": 13,
+          "System.Linq": 12,
+          "Microlight.MicroEditor": 12,
+          "Hashtable": 12,
+          "UnityEngine.InputSystem": 11,
+          "TMPro": 11,
+          "UnityEngine.Rendering": 10,
+          "System.IO": 10,
+          "UnityEngine.Audio": 7,
+          "EPOOutline": 7,
+          "Outline": 7,
+          "System.Globalization": 7,
+          "Text": 7,
+          "Random": 7,
+          "UnityEditorInternal": 7,
+          "System.Diagnostics": 5,
+          "Debug": 5,
+          "UnityEngine.EventSystems": 4,
+          "UnityEditor.SceneManagement": 4,
+          "System.Text": 3,
+          "Photon.Realtime": 3,
+          "EasyButtons": 3,
+          "Unity.Cinemachine": 2,
+          "UnityEditor.PackageManager": 2,
+          "UnityEngine.UIElements": 2,
+          "UnityEngine.AI": 2,
+          "Assets.Scripts": 2,
+          "Cinemachine": 2,
+          "System.Net.Sockets": 2,
+          "System.Net": 2,
+          "Photon.Pun": 2,
+          "UnityEditor.Experimental.SceneManagement": 2,
+          "UnityEditor.AnimatedValues": 2,
+          "Object": 1,
+          "UnityEngine.Rendering.Universal": 1,
+          "UnityEngine.Events": 1,
+          "StarterAssets": 1,
+          "Amaze": 1,
+          "System.Threading.Tasks": 1,
+          "static": 1,
+          "UnityEngine.SocialPlatforms.Impl": 1,
+          "UnityEngine.Serialization": 1,
+          "UnityEngine.InputSystem.Utilities": 1,
+          "System.Security.Cryptography": 1,
+          "UnityEditor.PackageManager.Requests": 1,
+          "SupportClassPun": 1,
+          "System.Runtime.InteropServices": 1,
+          "System.Security.Authentication": 1,
+          "Windows.Storage.Streams": 1,
+          "Windows.Foundation": 1,
+          "Windows.Networking.Sockets": 1,
+          "System.Threading": 1,
+          "Windows.Networking": 1,
+          "System.Security.Cryptography.X509Certificates": 1,
+          "System.Net.Security": 1,
+          "Newtonsoft.Json": 1,
+          "UnityEditor.Animations": 1,
+          "UnityEngine.InputSystem.Controls": 1,
+          "System.Runtime.Serialization": 1,
+          "=": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "+=": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sakshams21/Amaze-Assignment",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/ARKANOID",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/Battlebucks-Hop",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/BattleBucks-Sync_Dash",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/CarDrivingPrototype",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/Card_Arrangement_and_Sorting",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C",
+          "C#",
+          "C++"
+        ]
+      },
+      {
+        "repository": "sakshams21/Challenge-2048",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/Dragon-Fight",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/MULTIPLAYER-FPS",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/RengarPrototype",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/Space_Retro_Shooter",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/Statue-Match-Game",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/TopDownShooter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/Word-Boggle",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "sakshams21/Zombie-Shooter-Game",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

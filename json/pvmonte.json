@@ -1,0 +1,204 @@
+{
+  "username": "pvmonte",
+  "areas": {
+    "OSS": {
+      "score": -0.5107679248341301,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.7338481127488048
+      }
+    },
+    "Status": {
+      "score": 0.20183026633749468,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7450530918139343,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.445833,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.3333,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 2,
+        "topic_entropy_bits": 1.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.1509541316993271,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C#": [
+        179658,
+        26
+      ],
+      "ShaderLab": [
+        526803,
+        1
+      ],
+      "HLSL": [
+        108613,
+        0
+      ],
+      "Mathematica": [
+        87731,
+        0
+      ],
+      "HTML": [
+        79055,
+        14
+      ],
+      "CSS": [
+        17435,
+        3
+      ],
+      "JavaScript": [
+        1992,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 44,
+    "total_lines": 1001287,
+    "top_5_languages": [
+      {
+        "language": "C#",
+        "lines": 179658,
+        "commits": 26
+      },
+      {
+        "language": "HTML",
+        "lines": 79055,
+        "commits": 14
+      },
+      {
+        "language": "CSS",
+        "lines": 17435,
+        "commits": 3
+      },
+      {
+        "language": "ShaderLab",
+        "lines": 526803,
+        "commits": 1
+      },
+      {
+        "language": "HLSL",
+        "lines": 108613,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "pvmonte",
+    "analysis_date": "2026-05-10T20:14:00.099250",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 80,
+    "languages": {
+      "C#": {
+        "files_scanned": 60,
+        "packages": {
+          "UnityEngine": 57,
+          "System": 27,
+          "System.Collections.Generic": 8,
+          "System.IO": 8,
+          "UnityEngine.Serialization": 6,
+          "UnityEngine.UI": 5,
+          "PunchAndCarry.Scripts.Player": 5,
+          "UnityEngine.InputSystem": 3,
+          "PunchAndCarry.Scripts.UpgradeSystem": 3,
+          "PunchAndCarry.Scripts.MoneySystem": 3,
+          "UgglaGames.SaveLoadSystem": 3,
+          "System.Collections": 2,
+          "Unity.Mathematics": 2,
+          "UnityEngine.SceneManagement": 2,
+          "TMPro": 2,
+          "PunchAndCarry.Scripts.Enemy": 2,
+          "UnityEngine.InputSystem.Utilities": 1,
+          "TheAnonymousWarrior.Scripts.Player": 1,
+          "System.Runtime.CompilerServices": 1,
+          "TheAnonymousWarrior.Scripts.PlayerStateMachine": 1,
+          "UnityEngine.Rendering.Universal": 1,
+          "System.Runtime.Serialization.Formatters.Binary": 1,
+          "DG.Tweening": 1,
+          "UnityEngine.Audio": 1,
+          "UnityEngine.Pool": 1,
+          "Unity.VisualScripting": 1,
+          "UnityEditor": 1,
+          "System.Reflection": 1,
+          "UgglaGames.DeviceTimerSystem": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "pvmonte/metroidvania-like",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "pvmonte/mobile-utils",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "pvmonte/punch-and-carry",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "pvmonte/SaveLoadSystem",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "pvmonte/TimerSystem",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

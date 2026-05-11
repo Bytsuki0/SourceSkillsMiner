@@ -1,0 +1,353 @@
+{
+  "username": "ilyas-cyber",
+  "areas": {
+    "OSS": {
+      "score": 0.3242576981138965,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.9863865471708448
+      }
+    },
+    "Status": {
+      "score": 0.20055067637480328,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7623644761006664,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.166667,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.3333,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 9,
+        "language_transitions": 8,
+        "topic_entropy_bits": 1.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.13829507489773996,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        17445,
+        27
+      ],
+      "CSS": [
+        1667,
+        1
+      ],
+      "Shell": [
+        313,
+        4
+      ],
+      "Liquid": [
+        239,
+        2
+      ],
+      "JavaScript": [
+        370,
+        7
+      ],
+      "Blade": [
+        154469,
+        2
+      ],
+      "PHP": [
+        76198,
+        3
+      ],
+      "Ruby": [
+        62894,
+        0
+      ],
+      "C": [
+        15716,
+        0
+      ],
+      "C++": [
+        0,
+        6
+      ],
+      "Python": [
+        0,
+        13
+      ],
+      "C#": [
+        0,
+        13
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 78,
+    "total_lines": 329311,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 17445,
+        "commits": 27
+      },
+      {
+        "language": "Python",
+        "lines": 0,
+        "commits": 13
+      },
+      {
+        "language": "C#",
+        "lines": 0,
+        "commits": 13
+      },
+      {
+        "language": "JavaScript",
+        "lines": 370,
+        "commits": 7
+      },
+      {
+        "language": "C++",
+        "lines": 0,
+        "commits": 6
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ilyas-cyber",
+    "analysis_date": "2026-05-10T18:33:40.756728",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 121,
+    "languages": {
+      "C": {
+        "files_scanned": 1,
+        "packages": {
+          "<fcntl.h>": 1,
+          "<unistd.h>": 1,
+          "sys/types.h": 1,
+          "sys/stat.h": 1,
+          "ruby.h": 1,
+          "stdint.h": 1,
+          "<stdint.h>": 1,
+          "bootsnap.h": 1,
+          "errno.h": 1,
+          "<errno.h>": 1,
+          "stdbool.h": 1,
+          "<sys/types.h>": 1,
+          "<sys/stat.h>": 1,
+          "fcntl.h": 1,
+          "unistd.h": 1,
+          "<stdbool.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 30,
+        "packages": {
+          "org.firstinspires": 30,
+          "com.qualcomm": 30,
+          "java.util": 9,
+          "java.io": 3,
+          "android.graphics": 2,
+          "static": 2,
+          "java.text": 1,
+          "android.content": 1,
+          "com.vuforia": 1,
+          "android.view": 1,
+          "android.app": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 22,
+        "packages": {
+          "fs": 10,
+          "path": 8,
+          "express": 7,
+          "js-yaml": 2,
+          "child_process": 2,
+          "crypto": 2,
+          "gulp": 2,
+          "webdev-infra": 1,
+          "11ty": 1,
+          "gts": 1,
+          "remark-frontmatter": 1,
+          "remark-lint": 1,
+          "remark-lint-no-duplicate-headings-in-section": 1,
+          "remark-preset-lint-markdown-style-guide": 1,
+          "remark-lint-first-heading-level": 1,
+          "dotenv": 1,
+          "algoliasearch": 1,
+          "sizeof": 1,
+          "google-cloud": 1,
+          "glob": 1,
+          "node-fetch": 1,
+          "sass": 1,
+          "rollup": 1,
+          "rollup-plugin-svg": 1,
+          "rollup-plugin-copy": 1,
+          "rollup-plugin-terser": 1,
+          "compression": 1,
+          "redirects-yaml": 1,
+          "readdirp": 1,
+          "striptags": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 28,
+        "packages": {
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 7,
+          "Illuminate\\Http\\Request": 6,
+          "Illuminate\\Database\\Eloquent\\Model": 6,
+          "HasFactory": 6,
+          "Illuminate\\Support\\ServiceProvider": 3,
+          "Illuminate\\Support\\Facades\\Auth": 2,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "routes/console.php": 1,
+          "Throwable": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "Illuminate\\Routing\\Controller": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
+          "AuthorizesRequests": 1,
+          "App\\Models\\Member": 1,
+          "App\\Models\\admin_user": 1,
+          "App\\Models\\newuser": 1,
+          "App\\Models\\owner_login": 1,
+          "App\\Models\\partner": 1,
+          "App\\Models\\client_data": 1,
+          "Illuminate\\Support\\Facades\\DB": 1,
+          "Illuminate\\Foundation\\Http\\Kernel": 1,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 1,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 1,
+          "App\\Providers\\RouteServiceProvider": 1,
+          "Closure": 1,
+          "Symfony\\Component\\HttpFoundation\\Response": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 1,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 1,
+          "Illuminate\\Http\\Middleware\\TrustProxies": 1,
+          "Illuminate\\Routing\\Middleware\\ValidateSignature": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "HasApiTokens": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "Laravel\\Sanctum\\HasApiTokens": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 1,
+          "routes/channels.php": 1,
+          "Illuminate\\Support\\Facades\\Broadcast": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Event": 1,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 1,
+          "Illuminate\\Auth\\Events\\Registered": 1,
+          "Illuminate\\Support\\Facades\\Route": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\RateLimiter": 1,
+          "Illuminate\\Cache\\RateLimiting\\Limit": 1,
+          "Illuminate\\Support\\Facades\\Facade": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 17,
+        "packages": {
+          "test_helper": 7,
+          "TmpdirHelper": 6,
+          "bootsnap/bootsnap": 3,
+          "CompileCacheISeqHelper": 3,
+          "bootsnap/compile_cache": 2,
+          "fileutils": 2,
+          "msgpack": 2,
+          "mkmf": 1,
+          "bootsnap/bundler": 1,
+          "bootsnap/load_path_cache": 1,
+          "bootsnap/version": 1,
+          "etc": 1,
+          "bootsnap/cli/worker_pool": 1,
+          "optparse": 1,
+          "RegexpMatchBackport": 1,
+          "bootsnap": 1,
+          "compile_cache/json": 1,
+          "compile_cache/yaml": 1,
+          "compile_cache/iseq": 1,
+          "zlib": 1,
+          "json": 1,
+          "yaml": 1,
+          "date": 1,
+          "#{feature}.rb": 1,
+          "#{feature}.#{DLEXT}": 1,
+          "load_path_cache/cache": 1,
+          "load_path_cache/core_ext/loaded_features": 1,
+          "load_path_cache/store": 1,
+          "load_path_cache/path_scanner": 1,
+          "load_path_cache/path": 1,
+          "load_path_cache/change_observer": 1,
+          "load_path_cache/loaded_features_index": 1,
+          "load_path_cache/core_ext/kernel_require": 1,
+          "path_scanner": 1,
+          "bootsnap/cli": 1,
+          "tempfile": 1,
+          "tmpdir": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ilyas-cyber/Best_PV_Sytem_Buy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "ilyas-cyber/bootsnap",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ilyas-cyber/developer.chrome.com",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ilyas-cyber/FTC-Skystone-Dark-Angels-Romania-2020",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

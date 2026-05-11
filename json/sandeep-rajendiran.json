@@ -1,0 +1,604 @@
+{
+  "username": "sandeep-rajendiran",
+  "areas": {
+    "OSS": {
+      "score": -0.5604618098734278,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6593072851898583
+      }
+    },
+    "Status": {
+      "score": 0.13184588243426454,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6593072851898583,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.5125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.18822318548783265,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        306284,
+        6
+      ],
+      "Shell": [
+        203,
+        0
+      ],
+      "HCL": [
+        284,
+        0
+      ],
+      "Go": [
+        1689,
+        0
+      ],
+      "HTML": [
+        1143,
+        0
+      ],
+      "JavaScript": [
+        268988,
+        9
+      ],
+      "CSS": [
+        310414,
+        1
+      ],
+      "Java": [
+        515649,
+        5
+      ],
+      "Groovy": [
+        552,
+        0
+      ],
+      "Dockerfile": [
+        63,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 21,
+    "total_lines": 1405269,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 268988,
+        "commits": 9
+      },
+      {
+        "language": "Python",
+        "lines": 306284,
+        "commits": 6
+      },
+      {
+        "language": "Java",
+        "lines": 515649,
+        "commits": 5
+      },
+      {
+        "language": "CSS",
+        "lines": 310414,
+        "commits": 1
+      },
+      {
+        "language": "Shell",
+        "lines": 203,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sandeep-rajendiran",
+    "analysis_date": "2026-05-10T18:59:59.999139",
+    "total_repos_analyzed": 10,
+    "total_files_analyzed": 94,
+    "languages": {
+      "Go": {
+        "files_scanned": 11,
+        "packages": {
+          "fmt": 10,
+          "context": 8,
+          "github.com/sandeep-rajendiran/cloud-security-auditor/pkg/models": 8,
+          "time": 7,
+          "github.com/sirupsen/logrus": 7,
+          "github.com/sandeep-rajendiran/cloud-security-auditor/internal/config": 6,
+          "github.com/sandeep-rajendiran/cloud-security-auditor/internal/providers/aws": 4,
+          "os": 4,
+          "strings": 4,
+          "Review": 3,
+          "Enable": 3,
+          "Verify": 3,
+          "Update": 3,
+          "Configure": 3,
+          "path/filepath": 3,
+          "github.com/sandeep-rajendiran/cloud-security-auditor/internal/providers/azure": 2,
+          "github.com/sandeep-rajendiran/cloud-security-auditor/internal/providers/gcp": 2,
+          "region": 2,
+          "Consider": 2,
+          "Create": 2,
+          "Rotate": 2,
+          "confidence": 2,
+          "Implement": 2,
+          "Set": 2,
+          "recommendation": 2,
+          "critical": 2,
+          "syscall": 1,
+          "github.com/sandeep-rajendiran/cloud-security-auditor/internal/assessment": 1,
+          "status": 1,
+          "github.com/gin-gonic/gin": 1,
+          "version": 1,
+          "os/signal": 1,
+          "github.com/sandeep-rajendiran/cloud-security-auditor/internal/remediation": 1,
+          "github.com/sandeep-rajendiran/cloud-security-auditor/internal/reporting": 1,
+          "log": 1,
+          "github.com/spf13/cobra": 1,
+          "access_key_id": 1,
+          "trail_name": 1,
+          "public_ip": 1,
+          "user_name": 1,
+          "engine": 1,
+          "is_logging": 1,
+          "Delete": 1,
+          "instance_id": 1,
+          "Restrict": 1,
+          "or": 1,
+          "instance_type": 1,
+          "vpc_id": 1,
+          "group_id": 1,
+          "protocol": 1,
+          "access_keys": 1,
+          "create_date": 1,
+          "storage_encrypted": 1,
+          "from_port": 1,
+          "to_port": 1,
+          "public_read": 1,
+          "bucket_name": 1,
+          "key_details": 1,
+          "Modify": 1,
+          "SSE-KMS": 1,
+          "trails_count": 1,
+          "Remove": 1,
+          "Test": 1,
+          "sync": 1,
+          "age_days": 1,
+          "group_name": 1,
+          "encrypted": 1,
+          "public_write": 1,
+          "Deactivate": 1,
+          "source_cidr": 1,
+          "db_instance_id": 1,
+          "Choose": 1,
+          "Ensure": 1,
+          "multi_az": 1,
+          "Use": 1,
+          "s3_bucket": 1,
+          "publicly_accessible": 1,
+          "versioning": 1,
+          "UnauthorizedAPICall": 1,
+          "Malware": 1,
+          "Follow": 1,
+          "Investigate": 1,
+          "Reconnaissance": 1,
+          "updated_at": 1,
+          "detector_status": 1,
+          "recommended_data_sources": 1,
+          "detector_id": 1,
+          "guardduty_finding_id": 1,
+          "InstanceCredentialExfiltration": 1,
+          "occurrence_count": 1,
+          "Check": 1,
+          "CryptoCurrency": 1,
+          "Rebuild": 1,
+          "CloudTrail": 1,
+          "Take": 1,
+          "detectors_found": 1,
+          "Immediately": 1,
+          "DNS": 1,
+          "threshold": 1,
+          "finding_type": 1,
+          "severity_score": 1,
+          "Stop": 1,
+          "pattern_type": 1,
+          "VPC": 1,
+          "Scan": 1,
+          "EKS": 1,
+          "created_at": 1,
+          "Block": 1,
+          "S3": 1,
+          "GuardDuty": 1,
+          "Application": 1,
+          "last_observed": 1,
+          "PASSED": 1,
+          "AWS": 1,
+          "threshold_acceptable": 1,
+          "PCI": 1,
+          "failed_checks": 1,
+          "benefits": 1,
+          "Automated": 1,
+          "Historical": 1,
+          "Subscribe": 1,
+          "record_state": 1,
+          "company_name": 1,
+          "criticality": 1,
+          "warning_checks": 1,
+          "Compliance": 1,
+          "Inspector": 1,
+          "Assess": 1,
+          "missing_integration": 1,
+          "CIS": 1,
+          "framework_breakdown": 1,
+          "Document": 1,
+          "WARNING": 1,
+          "severity_normalized": 1,
+          "threshold_excellent": 1,
+          "integration_benefits": 1,
+          "Prioritize": 1,
+          "first_observed": 1,
+          "threshold_good": 1,
+          "product_name": 1,
+          "passed_checks": 1,
+          "Centralized": 1,
+          "Archive": 1,
+          "Correlation": 1,
+          "stale_findings_count": 1,
+          "FAILED": 1,
+          "security_hubs_found": 1,
+          "workflow_state": 1,
+          "NOT_AVAILABLE": 1,
+          "Container": 1,
+          "Configuration": 1,
+          "Integration": 1,
+          "generator_id": 1,
+          "security_hub_finding_id": 1,
+          "total_checks": 1,
+          "EC2": 1,
+          "Config": 1,
+          "compliance_score": 1,
+          "stale_threshold_days": 1,
+          "Threat": 1,
+          "compute": 1,
+          "rds": 1,
+          "include_raw": 1,
+          "github.com/spf13/viper": 1,
+          "sqlservers": 1,
+          "compliance": 1,
+          "technical": 1,
+          "include_services": 1,
+          "executive": 1,
+          "ec2": 1,
+          "kubernetes": 1,
+          "virtualmachines": 1,
+          "github.com/aws/aws-sdk-go-v2/aws": 1,
+          "github.com/aws/aws-sdk-go-v2/service/cloudformation": 1,
+          "github.com/aws/aws-sdk-go-v2/service/guardduty": 1,
+          "github.com/aws/aws-sdk-go-v2/service/cloudtrail": 1,
+          "github.com/aws/aws-sdk-go-v2/service/s3": 1,
+          "github.com/aws/aws-sdk-go-v2/service/sts": 1,
+          "github.com/aws/aws-sdk-go-v2/service/iam": 1,
+          "github.com/aws/aws-sdk-go-v2/credentials/stscreds": 1,
+          "github.com/aws/aws-sdk-go-v2/service/rds": 1,
+          "github.com/aws/aws-sdk-go-v2/config": 1,
+          "github.com/aws/aws-sdk-go-v2/service/ec2": 1,
+          "updatedAt": 1,
+          "github.com/aws/aws-sdk-go-v2/service/securityhub": 1,
+          "github.com/Azure/azure-sdk-for-go/profiles/latest/network/mgmt/network": 1,
+          "github.com/Azure/go-autorest/autorest/azure/auth": 1,
+          "github.com/Azure/azure-sdk-for-go/profiles/latest/storage/mgmt/storage": 1,
+          "github.com/Azure/azure-sdk-for-go/profiles/latest/compute/mgmt/compute": 1,
+          "github.com/Azure/azure-sdk-for-go/profiles/latest/keyvault/mgmt/keyvault": 1,
+          "cloud.google.com/go/iam/apiv1/iampb": 1,
+          "google.golang.org/api/sqladmin/v1": 1,
+          "google.golang.org/api/cloudresourcemanager/v1": 1,
+          "google.golang.org/api/option": 1,
+          "ApplyServerSideEncryptionByDefault": 1,
+          "resource": 1,
+          "SSEAlgorithm": 1,
+          "access": 1,
+          "os/exec": 1,
+          "invalid": 1,
+          "insufficient": 1,
+          "Rules": 1,
+          "encoding/csv": 1,
+          "total_findings": 1,
+          "ID": 1,
+          "by_severity": 1,
+          "high_findings": 1,
+          "gopkg.in/yaml.v3": 1,
+          "total_controls": 1,
+          "security_score": 1,
+          "passed_controls": 1,
+          "sort": 1,
+          "automated_fixes": 1,
+          "critical_findings": 1,
+          "by_category": 1,
+          "encoding/json": 1,
+          "manual_fixes": 1,
+          "Resource": 1,
+          "by_provider": 1,
+          "overall_score": 1,
+          "html/template": 1,
+          "by_service": 1,
+          "Status": 1,
+          "semi_automated_fixes": 1,
+          "frameworks": 1,
+          "findings": 1,
+          "include_global_events": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 9,
+        "packages": {
+          "BlockChain": 3,
+          "java.util": 3,
+          "java.sql": 3,
+          "java.io": 2,
+          "javax.servlet": 2,
+          "DB.DB": 2,
+          "java.security": 1,
+          "DB": 1,
+          "BlockChain.Block": 1,
+          "com.sun": 1,
+          "crpyt1": 1,
+          "touristmanagement": 1,
+          "tourmain": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 28,
+        "packages": {
+          "react": 12,
+          "path": 6,
+          "fs": 5,
+          "express": 5,
+          "numeral": 4,
+          "react-leaflet": 2,
+          "react-dom": 2,
+          "web-vitals": 2,
+          "axios": 2,
+          "child_process": 2,
+          "leaflet": 1,
+          "material-ui": 1,
+          "react-chartjs-2": 1,
+          "cases": 1,
+          "jQuery": 1,
+          "__esModule": 1,
+          "on": 1,
+          "undefined": 1,
+          "movie-trailer": 1,
+          "react-youtube": 1,
+          "testing-library": 1,
+          "http": 1,
+          "cors": 1,
+          "socket.io": 1,
+          "morgan": 1,
+          "helmet": 1,
+          "kubernetes": 1,
+          "js-yaml": 1,
+          "dotenv": 1,
+          "winston": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 35,
+        "packages": {
+          "requests": 20,
+          "json": 11,
+          "os": 10,
+          "datetime": 9,
+          "logging": 7,
+          "sys": 7,
+          "get": 7,
+          "core": 6,
+          "boto3": 4,
+          "time": 4,
+          "plugins": 4,
+          "re": 4,
+          "Dict": 4,
+          "typing": 4,
+          "webbrowser": 3,
+          "*": 3,
+          "asyncio": 3,
+          "bs4": 2,
+          "shodan_api": 2,
+          "Image": 2,
+          "nmap": 2,
+          "ScannerEngine": 2,
+          "tempfile": 2,
+          "Path": 2,
+          "pathlib": 2,
+          "threading": 2,
+          "sqlite3": 2,
+          "statistics": 1,
+          "uuid": 1,
+          "argparse": 1,
+          "user": 1,
+          "reconspider": 1,
+          "honeypot": 1,
+          "__future__": 1,
+          "ip2Proxy": 1,
+          "shodan_host": 1,
+          "MacAddressLookup": 1,
+          "unicode_literals": 1,
+          "domain": 1,
+          "gps_analyzer": 1,
+          "Phonenumber": 1,
+          "maildb": 1,
+          "reverseimagesearch": 1,
+          "dnsmap": 1,
+          "torrent": 1,
+          "IPHeatmap": 1,
+          "censys_ip": 1,
+          "prompt_toolkit": 1,
+          "menu": 1,
+          "prompt": 1,
+          "update": 1,
+          "colors": 1,
+          "changes": 1,
+          "run": 1,
+          "update_log": 1,
+          "repl_prompt": 1,
+          "phoneapis": 1,
+          "tweepy": 1,
+          "BeautifulSoup": 1,
+          "platform": 1,
+          "socket": 1,
+          "ipstack": 1,
+          "ipaddress": 1,
+          "gmap": 1,
+          "gmplot": 1,
+          "PIL": 1,
+          "IP2Proxy": 1,
+          "shodan": 1,
+          "HTTPBearer": 1,
+          "uvicorn": 1,
+          "JSONResponse": 1,
+          "FastAPI": 1,
+          "pydantic": 1,
+          "BaseModel": 1,
+          "CORSMiddleware": 1,
+          "fastapi": 1,
+          "ABC": 1,
+          "Enum": 1,
+          "abc": 1,
+          "enum": 1,
+          "TA_CENTER": 1,
+          "matplotlib": 1,
+          "SimpleDocTemplate": 1,
+          "PdfPages": 1,
+          "inch": 1,
+          "getSampleStyleSheet": 1,
+          "pandas": 1,
+          "Environment": 1,
+          "HexColor": 1,
+          "zipfile": 1,
+          "jinja2": 1,
+          "letter": 1,
+          "reportlab": 1,
+          "contextmanager": 1,
+          "dataclass": 1,
+          "ThreadPoolExecutor": 1,
+          "contextlib": 1,
+          "xml": 1,
+          "dataclasses": 1,
+          "concurrent": 1,
+          "unittest": 1,
+          "Mock": 1,
+          "pytest": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sandeep-rajendiran/ai-threat-detection-pipeline",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sandeep-rajendiran/cloud-security-auditor",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "sandeep-rajendiran/covid-19-tracker",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sandeep-rajendiran/MedSecure",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sandeep-rajendiran/netflix-clone",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sandeep-rajendiran/OpenIntel",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sandeep-rajendiran/secure-code-analyzer",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sandeep-rajendiran/TourEasePro",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "sandeep-rajendiran/vuln-scanner-pro",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

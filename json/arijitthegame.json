@@ -1,0 +1,884 @@
+{
+  "username": "arijitthegame",
+  "areas": {
+    "OSS": {
+      "score": 0.9047619047619047,
+      "details": {
+        "issue_resolution_rate": 0.8571428571428571,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.18407940488429175,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7376575688648992,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.1875,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 7,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "arijitthegame/BERT_for_Chinese_Glyphs": -0.0516
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.3052682619292393,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        546237,
+        0
+      ],
+      "HTML": [
+        83245,
+        23
+      ],
+      "CSS": [
+        34815,
+        0
+      ],
+      "Python": [
+        3891382,
+        363
+      ],
+      "Jupyter Notebook": [
+        3163819,
+        122
+      ],
+      "Cuda": [
+        9173,
+        0
+      ],
+      "Dockerfile": [
+        1850,
+        0
+      ],
+      "C++": [
+        677,
+        0
+      ],
+      "C": [
+        16396,
+        0
+      ],
+      "Makefile": [
+        870,
+        0
+      ],
+      "Cython": [
+        190,
+        0
+      ],
+      "Shell": [
+        11516,
+        0
+      ],
+      "Jsonnet": [
+        37412,
+        0
+      ],
+      "Batchfile": [
+        39,
+        0
+      ],
+      "Perl": [
+        17412,
+        0
+      ],
+      "Scilab": [
+        1647,
+        0
+      ],
+      "Racket": [
+        30170,
+        0
+      ],
+      "Lua": [
+        10139,
+        0
+      ],
+      "OpenEdge ABL": [
+        2080,
+        0
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 508,
+    "total_lines": 7859069,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 3891382,
+        "commits": 363
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 3163819,
+        "commits": 122
+      },
+      {
+        "language": "HTML",
+        "lines": 83245,
+        "commits": 23
+      },
+      {
+        "language": "JavaScript",
+        "lines": 546237,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 34815,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "arijitthegame",
+    "analysis_date": "2026-05-10T14:57:00.385209",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 294,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 15,
+        "packages": {
+          "react": 11,
+          "jquery": 3,
+          "cors": 1,
+          "aws-sdk": 1,
+          "express": 1,
+          "body-parser": 1,
+          "react-dom": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 249,
+        "packages": {
+          "os": 91,
+          "logging": 86,
+          "torch": 82,
+          "numpy": 74,
+          "typing": 66,
+          "json": 46,
+          "tensorflow": 46,
+          "math": 45,
+          "collections": 39,
+          "sys": 37,
+          "__future__": 37,
+          "transformers": 30,
+          "allennlp": 27,
+          "argparse": 26,
+          "pathlib": 26,
+          "datasets": 24,
+          "Path": 24,
+          "re": 23,
+          "absolute_import": 23,
+          "random": 22,
+          "load_dataset": 19,
+          "functools": 19,
+          "fairseq": 18,
+          "flair": 18,
+          "dataclasses": 17,
+          "dataclass": 17,
+          "tqdm": 17,
+          "division": 17,
+          "absl": 17,
+          "require_version": 16,
+          "Optional": 16,
+          "check_min_version": 16,
+          "time": 16,
+          "unittest": 16,
+          "io": 16,
+          "datasets>=1": 15,
+          "List": 15,
+          "open": 15,
+          "DataLoader": 14,
+          "evaluate": 13,
+          "itertools": 13,
+          "print_function": 13,
+          "Subcommand": 12,
+          "six": 12,
+          "get_last_checkpoint": 11,
+          "defaultdict": 10,
+          "Params": 10,
+          "Any": 10,
+          "einops": 10,
+          "utils": 10,
+          "shutil": 9,
+          "warnings": 9,
+          "ConfigurationError": 9,
+          "flags": 9,
+          "examples": 9,
+          "chain": 8,
+          "copy": 8,
+          "inspect": 8,
+          "CrossEntropyLoss": 8,
+          "nn": 8,
+          "chapter_02": 8,
+          "LinkedList": 8,
+          "app": 8,
+          "Dict": 7,
+          "Model": 7,
+          "cached_path": 7,
+          "rearrange": 7,
+          "abc": 7,
+          "options": 7,
+          "torchvision": 6,
+          "get_logger": 6,
+          "set_seed": 6,
+          "Repository": 6,
+          "huggingface_hub": 6,
+          "Accelerator": 6,
+          "accelerate": 6,
+          "Vocabulary": 6,
+          "matplotlib": 6,
+          "Union": 6,
+          "tempfile": 6,
+          "tokenization": 6,
+          "Counter": 6,
+          "scipy": 6,
+          "jax": 6,
+          "alphafold_casp13": 6,
+          "eugen": 6,
+          "Dictionary": 6,
+          "abstractmethod": 6,
+          "Sentence": 6,
+          "`HfArgumentParser`": 5,
+          "AdapterArguments": 5,
+          "Dataset": 5,
+          "Trainer": 5,
+          "Tqdm": 5,
+          "DataIterator": 5,
+          "importlib": 5,
+          "modeling": 5,
+          "optimization": 5,
+          "sklearn": 5,
+          "partial": 5,
+          "Parameter": 5,
+          "pickle": 5,
+          "colt5_attention": 5,
+          "haiku": 5,
+          "chex": 5,
+          "adversarial_robustness": 5,
+          "sonnet": 5,
+          "enum": 5,
+          "rerank_options": 5,
+          "contextlib": 5,
+          "utils_qa": 4,
+          "spacy": 4,
+          "prepare_environment": 4,
+          "datasets_from_params": 4,
+          "load_archive": 4,
+          "DatasetReader": 4,
+          "pytest": 4,
+          "subprocess": 4,
+          "urllib": 4,
+          "IPython": 4,
+          "bertviz": 4,
+          "get_attention": 4,
+          "apex": 4,
+          "functional": 4,
+          "coor_descent": 4,
+          "namedtuple": 4,
+          "Tuple": 4,
+          "optax": 4,
+          "dm_control": 4,
+          "fast_attention": 4,
+          "rerank_utils": 4,
+          "Enum": 4,
+          "AutoConfig": 3,
+          "torch_xla": 3,
+          "Callable": 3,
+          "PredictionOutput": 3,
+          "deepcopy": 3,
+          "Instance": 3,
+          "Registrable": 3,
+          "Optimizer": 3,
+          "wraps": 3,
+          "requests": 3,
+          "urlparse": 3,
+          "the": 3,
+          "csv": 3,
+          "unicodedata": 3,
+          "Conv2D": 3,
+          "display": 3,
+          "lru_cache": 3,
+          "sentencepiece": 3,
+          "setuptools": 3,
+          "gzip": 3,
+          "Stack": 3,
+          "chapter_03": 3,
+          "attacks": 3,
+          "tensorflow_datasets": 3,
+          "model_zoo": 3,
+          "experiment": 3,
+          "jaxline": 3,
+          "distogram_io": 3,
+          "composer": 3,
+          "performer": 3,
+          "tensorflow_addons": 3,
+          "*": 3,
+          "NNK_Relu": 3,
+          "multiprocessing": 3,
+          "redirect_stdout": 3,
+          "abspath": 2,
+          "pytest_addoption_shared": 2,
+          "pytest_terminal_summary_main": 2,
+          "InterpolationMode": 2,
+          "Image": 2,
+          "PIL": 2,
+          "Compose": 2,
+          "PaddingStrategy": 2,
+          "trainer_qa": 2,
+          "postprocess_qa_predictions": 2,
+          "postprocess_qa_predictions_with_beam_search": 2,
+          "overrides": 2,
+          "Batch": 2,
+          "lazy_groups_of": 2,
+          "check_for_gpu": 2,
+          "TeeLogger": 2,
+          "FromParams": 2,
+          "cuda": 2,
+          "sha256": 2,
+          "ClientError": 2,
+          "boto3": 2,
+          "hashlib": 2,
+          "botocore": 2,
+          "TypeVar": 2,
+          "AllenNlpTestCase": 2,
+          "log_pytorch_version_info": 2,
+          "Token": 2,
+          "Sequential": 2,
+          "train_test_split": 2,
+          "FusedLayerNorm": 2,
+          "regex": 2,
+          "ftfy": 2,
+          "version": 2,
+          "packaging": 2,
+          "triton_coor_descent": 2,
+          "Tensor": 2,
+          "setup": 2,
+          "config_dict": 2,
+          "secstruct": 2,
+          "two_dim_convnet": 2,
+          "parsers": 2,
+          "box_arrangement": 2,
+          "colorsys": 2,
+          "tree_sampling": 2,
+          "sqrt": 2,
+          "array": 2,
+          "pprint": 2,
+          "ipdb": 2,
+          "gaussian_orthogonal_random_matrix": 2,
+          "tiny_nerf": 2,
+          "GeluApproxKernel": 2,
+          "StopwatchMeter": 2,
+          "Pool": 2,
+          "preprocess": 2,
+          "generate": 2,
+          "FairseqTask": 2,
+          "FairseqCriterion": 2,
+          "torchaudio": 2,
+          "ConcatDataset": 2,
+          "bz2": 2,
+          "tarfile": 2,
+          "deprecated": 2,
+          "Corpus": 2,
+          "LanguageModel": 2,
+          "SequenceTagger": 2,
+          "SGD": 2,
+          "amp": 2,
+          "datetime": 2,
+          "doctest": 1,
+          "AutoModelForSequenceClassification": 1,
+          "src": 1,
+          "PfeifferConfig": 1,
+          "GlueDataTrainingArguments": 1,
+          "randint": 1,
+          "DatasetDict": 1,
+          "CenterCrop": 1,
+          "ImageReadMode": 1,
+          "PreTrainedTokenizer": 1,
+          "Version": 1,
+          "MockDownloadManager": 1,
+          "preprocess_dataset": 1,
+          "preprocessing": 1,
+          "UD_HEAD_LABELS": 1,
+          "utils_udp": 1,
+          "datasets>=2": 1,
+          "CaptureLogger": 1,
+          "PreTrainedTokenizerBase": 1,
+          "QuestionAnsweringAdapterTrainer": 1,
+          "QuestionAnsweringTrainer": 1,
+          "trainer_seq2seq_qa": 1,
+          "EvalLoopOutput": 1,
+          "QuestionAnsweringSeq2SeqTrainer": 1,
+          "AdapterTrainer": 1,
+          "Seq2SeqTrainer": 1,
+          "VERSION": 1,
+          "FineTune": 1,
+          "Elmo": 1,
+          "FindLearningRate": 1,
+          "Evaluate": 1,
+          "Train": 1,
+          "import_submodules": 1,
+          "MakeVocab": 1,
+          "DryRun": 1,
+          "Predict": 1,
+          "__version__": 1,
+          "PrintResults": 1,
+          "any": 1,
+          "Configure": 1,
+          "TestInstall": 1,
+          "WSGIServer": 1,
+          "make_app": 1,
+          "flask_cors": 1,
+          "CORS": 1,
+          "gevent": 1,
+          "ELMoTokenCharactersIndexer": 1,
+          "remove_sentence_boundaries": 1,
+          "_ElmoBiLm": 1,
+          "h5py": 1,
+          "IO": 1,
+          "CONFIG_NAME": 1,
+          "Predictor": 1,
+          "create_serialization_dir": 1,
+          "TrainerPieces": 1,
+          "archive_model": 1,
+          "TrainerBase": 1,
+          "JsonDict": 1,
+          "NumpyDocString": 1,
+          "_Seq2VecWrapper": 1,
+          "Initializer": 1,
+          "_Seq2SeqWrapper": 1,
+          "Regularizer": 1,
+          "numpydoc": 1,
+          "Activation": 1,
+          "Embedding": 1,
+          "Retry": 1,
+          "HTTPAdapter": 1,
+          "MutableMapping": 1,
+          "evaluate_file": 1,
+          "OrderedDict": 1,
+          "_jsonnet": 1,
+          "environment": 1,
+          "zlib": 1,
+          "TextIO": 1,
+          "ModelTestCase": 1,
+          "train_model_from_file": 1,
+          "assert_allclose": 1,
+          "TestCase": 1,
+          "tqdm_notebook": 1,
+          "resource": 1,
+          "all": 1,
+          "Language": 1,
+          "here": 1,
+          "link": 1,
+          "download": 1,
+          "and": 1,
+          "zip_longest": 1,
+          "at": 1,
+          "pkgutil": 1,
+          "get_package_path": 1,
+          "Tokenizer": 1,
+          "TokenIndexer": 1,
+          "DataArray": 1,
+          "ensure_list": 1,
+          "UniversalDependenciesDatasetReader": 1,
+          "SnliReader": 1,
+          "PennTreeBankConstituencySpanDatasetReader": 1,
+          "Event2MindDatasetReader": 1,
+          "SequenceTaggingDatasetReader": 1,
+          "MultiprocessDatasetReader": 1,
+          "Conll2000DatasetReader": 1,
+          "InterleavingDatasetReader": 1,
+          "Seq2SeqDatasetReader": 1,
+          "LanguageModelingReader": 1,
+          "CopyNetDatasetReader": 1,
+          "NextTokenLmReader": 1,
+          "OntonotesNamedEntityRecognition": 1,
+          "QuoraParaphraseDatasetReader": 1,
+          "ConllCorefReader": 1,
+          "BabiReader": 1,
+          "Conll2003DatasetReader": 1,
+          "TextClassificationJsonReader": 1,
+          "SrlReader": 1,
+          "CcgBankDatasetReader": 1,
+          "MaskedLanguageModelingReader": 1,
+          "codecs": 1,
+          "tensorflow_hub": 1,
+          "run_classifier": 1,
+          "RMSprop": 1,
+          "losses": 1,
+          "Dropout": 1,
+          "UpSampling2D": 1,
+          "Dense": 1,
+          "Lambda": 1,
+          "Flatten": 1,
+          "ner": 1,
+          "stack_bidirectional_dynamic_rnn": 1,
+          "get_training_op": 1,
+          "queries/keys": 1,
+          "_get_torch_home": 1,
+          "fnmatch": 1,
+          "Identity": 1,
+          "cPickle": 1,
+          "glob": 1,
+          "copyfile": 1,
+          "BertTokenizer": 1,
+          "ConditionalRoutedViT": 1,
+          "topk": 1,
+          "LocalMHA": 1,
+          "Attend": 1,
+          "local_attention": 1,
+          "autograd": 1,
+          "triton": 1,
+          "log": 1,
+          "pack": 1,
+          "Rearrange": 1,
+          "BaseEstimator": 1,
+          "deque": 1,
+          "Sequence": 1,
+          "ml_collections": 1,
+          "base_config": 1,
+          "platform": 1,
+          "data": 1,
+          "transforms": 1,
+          "contacts_experiment": 1,
+          "aatype": 1,
+          "domain_name": 1,
+          "contacts_dataset": 1,
+          "contacts_network": 1,
+          "sec_structure": 1,
+          "solv_surf": 1,
+          "two_dim_resnet": 1,
+          "asa_output": 1,
+          "assets": 1,
+          "mjcf": 1,
+          "labmaze": 1,
+          "viewer": 1,
+          "task_examples": 1,
+          "observable": 1,
+          "specs": 1,
+          "dm_env": 1,
+          "arenas": 1,
+          "predicate_task": 1,
+          "walkers": 1,
+          "predicates": 1,
+          "props": 1,
+          "absltest": 1,
+          "tree_sampling_dpp": 1,
+          "spectral_decomp_sym": 1,
+          "spectral": 1,
+          "construct_tree": 1,
+          "get_nonuniform_cluster_matrix": 1,
+          "combinations": 1,
+          "cholesky_based_sampling": 1,
+          "block_diag": 1,
+          "rejection_sampling": 1,
+          "cholesky_sampling": 1,
+          "decompose_proposal_dpp": 1,
+          "elementary_polynomial": 1,
+          "expm": 1,
+          "ComplexWarning": 1,
+          "inv": 1,
+          "control": 1,
+          "fixed_point": 1,
+          "eig": 1,
+          "multi_dot": 1,
+          "product": 1,
+          "LinearOperator": 1,
+          "dlyap": 1,
+          "cg": 1,
+          "accuracy_score": 1,
+          "torch_geometric": 1,
+          "SVC": 1,
+          "gvoys": 1,
+          "to_dense_adj": 1,
+          "StratifiedKFold": 1,
+          "TUDataset": 1,
+          "pandas": 1,
+          "pyplot": 1,
+          "seaborn": 1,
+          "backend": 1,
+          "layers": 1,
+          "keras": 1,
+          "attention_module": 1,
+          "approximiation": 1,
+          "enformer": 1,
+          "util": 1,
+          "spe_tf": 1,
+          "create_projection_matrix": 1,
+          "PosEncodingNeRF": 1,
+          "phi_relu_mapping_torch": 1,
+          "GPT2LMHeadModel": 1,
+          "modeling_bert_eugen": 1,
+          "AdamW": 1,
+          "MixPolyBertForSequenceClassification": 1,
+          "get_rays": 1,
+          "NerfModel": 1,
+          "utils_nerf": 1,
+          "pylab": 1,
+          "LMContextWindowDataset": 1,
+          "checkpoint_utils": 1,
+          "SequenceScorer": 1,
+          "rerank_generate": 1,
+          "bleu": 1,
+          "dictionary": 1,
+          "rerank_score_bw": 1,
+          "rerank_score_lm": 1,
+          "rerank": 1,
+          "eval_lm": 1,
+          "models": 1,
+          "get_encoder": 1,
+          "encoders": 1,
+          "sacremoses": 1,
+          "en_core_web_lg": 1,
+          "MosesDetokenizer": 1,
+          "FairseqDataset": 1,
+          "data_utils": 1,
+          "concurrent": 1,
+          "import_user_module": 1,
+          "LinearizedConvolution": 1,
+          "TransformerDecoderLayer": 1,
+          "Iterable": 1,
+          "lengths_to_encoder_padding_mask": 1,
+          "contextmanager": 1,
+          "spe_filter": 1,
+          "repeat": 1,
+          "linalg": 1,
+          "networkx": 1,
+          "segtok": 1,
+          "langdetect": 1,
+          "split_contractions": 1,
+          "split_single": 1,
+          "word_tokenizer": 1,
+          "Subset": 1,
+          "device": 1,
+          "sqlitedict": 1,
+          "gensim": 1,
+          "bpemb": 1,
+          "pack_padded_sequence": 1,
+          "ParameterList": 1,
+          "BPEmb": 1,
+          "sentencepiece_load": 1,
+          "pytorch_transformers": 1,
+          "SqliteDict": 1,
+          "base64": 1,
+          "zipfile": 1,
+          "ZipFile": 1,
+          "mmap": 1,
+          "DocumentPoolEmbeddings": 1,
+          "ModelTrainer": 1,
+          "hyperopt": 1,
+          "hp": 1,
+          "TokenEmbeddings": 1,
+          "Metric": 1,
+          "tabulate": 1,
+          "MetricRegression": 1,
+          "DataPoint": 1,
+          "Result": 1,
+          "_LRScheduler": 1,
+          "required": 1,
+          "Sampler": 1,
+          "FlairDataset": 1,
+          "add_file_handler": 1,
+          "SummaryWriter": 1,
+          "MultiCorpus": 1,
+          "ReduceLROnPlateau": 1,
+          "ExpAnnealLR": 1,
+          "mean_squared_error": 1,
+          "reduce": 1,
+          "pearsonr": 1,
+          "mpld3": 1,
+          "TSNE": 1,
+          "TAGGED_ENTITY": 1,
+          "html": 1,
+          "get_ipython": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "arijitthegame/2019-drawing-app-challenge",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "arijitthegame/adapter-transformers",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/allennlp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/bert",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/BERT-CNN-models",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/bertviz",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/BERT_for_Chinese_Glyphs",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/CoLT5-attention",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/Contrastive_losses",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/CtCI-6th-Edition-Python",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/deepmind-research",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/Determinantal-Point-Processes",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/efficient_random_walk_kernel",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/enformer_performer",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/EUGen",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/Fairness",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/fairseq",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/Fast-Attention",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/fast-convolution-graph-algorithms",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arijitthegame/flair",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

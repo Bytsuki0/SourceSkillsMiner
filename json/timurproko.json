@@ -1,0 +1,627 @@
+{
+  "username": "timurproko",
+  "areas": {
+    "OSS": {
+      "score": 0.8095238095238095,
+      "details": {
+        "issue_resolution_rate": 0.7142857142857143,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.22456780532551668,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7983901695267365,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 0.125,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 5,
+        "topic_entropy_bits": 3.3219,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.28181832296986525,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C#": [
+        36152174,
+        114
+      ],
+      "ShaderLab": [
+        1473017,
+        3
+      ],
+      "HLSL": [
+        103660,
+        0
+      ],
+      "Objective-C": [
+        36878,
+        0
+      ],
+      "Shell": [
+        20933,
+        0
+      ],
+      "Python": [
+        98298,
+        114
+      ],
+      "Batchfile": [
+        154,
+        0
+      ],
+      "PowerShell": [
+        6663,
+        0
+      ],
+      "JavaScript": [
+        5503,
+        0
+      ],
+      "C++": [
+        13661,
+        0
+      ],
+      "Objective-C++": [
+        1478,
+        0
+      ],
+      "CMake": [
+        13779,
+        0
+      ],
+      "SWIG": [
+        27029,
+        0
+      ],
+      "Swift": [
+        819,
+        0
+      ],
+      "Kotlin": [
+        311,
+        0
+      ],
+      "C": [
+        0,
+        1
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 232,
+    "total_lines": 37954357,
+    "top_5_languages": [
+      {
+        "language": "C#",
+        "lines": 36152174,
+        "commits": 114
+      },
+      {
+        "language": "Python",
+        "lines": 98298,
+        "commits": 114
+      },
+      {
+        "language": "ShaderLab",
+        "lines": 1473017,
+        "commits": 3
+      },
+      {
+        "language": "C",
+        "lines": 0,
+        "commits": 1
+      },
+      {
+        "language": "HLSL",
+        "lines": 103660,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "timurproko",
+    "analysis_date": "2026-05-10T21:10:37.154513",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 504,
+    "languages": {
+      "C#": {
+        "files_scanned": 368,
+        "packages": {
+          "UnityEngine": 237,
+          "System": 151,
+          "System.Collections.Generic": 91,
+          "System.Linq": 40,
+          "UnityEditor": 37,
+          "UnityEngine.UIElements": 34,
+          "Sirenix.OdinInspector": 33,
+          "System.Threading.Tasks": 28,
+          "System.Collections": 27,
+          "PrimeTween": 26,
+          "System.IO": 26,
+          "Atomic.Entities": 24,
+          "System.Reflection": 21,
+          "System.Threading": 20,
+          "Data": 15,
+          "UnityEngine.UI": 15,
+          "Atomic.Elements": 14,
+          "System.Text": 14,
+          "UnityEditor.UIElements": 14,
+          "Newtonsoft.Json": 12,
+          "MoreMountains.Feedbacks": 11,
+          "System.Collections.Specialized": 10,
+          "UnityEngine.Scripting": 10,
+          "LitMotion.Extensions": 10,
+          "LitMotion": 10,
+          "VContainer": 9,
+          "Object": 9,
+          "UnityEditor.Compilation": 9,
+          "Interfaces": 9,
+          "System.Runtime.CompilerServices": 8,
+          "FMODUnity": 8,
+          "DG.Tweening.Plugins.Options": 8,
+          "DG.Tweening.Core": 8,
+          "UnityEngine.EventSystems": 7,
+          "var": 7,
+          "System.Globalization": 7,
+          "UnityEngine.Events": 7,
+          "UnityEngine.SceneManagement": 7,
+          "TMPro": 6,
+          "Utilities.WebRequestRest.Interfaces": 6,
+          "Settings": 6,
+          "Shapes": 6,
+          "VContainer.Unity": 5,
+          "UnityEngine.Audio": 5,
+          "System.Net": 5,
+          "Cysharp.Threading.Tasks": 5,
+          "MoreMountains.Tools": 5,
+          "DG.Tweening": 5,
+          "FMOD.Studio": 5,
+          "Oculus.Interaction": 5,
+          "UnityEngine.Serialization": 4,
+          "OpenAI.Extensions": 4,
+          "System.Text.Json": 4,
+          "LitMotion.Adapters": 4,
+          "System.Diagnostics.CodeAnalysis": 3,
+          "Utilities.WebRequestRest": 3,
+          "Unity.CodeEditor": 3,
+          "System.Net.Sockets": 3,
+          "System.Text.RegularExpressions": 3,
+          "UnityEditor.Build.Player": 3,
+          "Abstract": 3,
+          "UnityEngine.Experimental.Rendering.Universal": 3,
+          "Firebase": 3,
+          "UnityEngine.Rendering": 3,
+          "UnityEngine.Networking": 3,
+          "System.Text.Json.Nodes": 3,
+          "System.Net.Http": 3,
+          "Febucci.UI": 3,
+          "Unity.Collections": 3,
+          "DG.Tweening.Plugins": 3,
+          "DG.Tweening.Plugins.Core.PathCore": 3,
+          "static": 2,
+          "OpenAI.Models": 2,
+          "Utilities.Encoding.Wav": 2,
+          "System.Runtime.Serialization": 2,
+          "System.Diagnostics": 2,
+          "System.ComponentModel": 2,
+          "Unity.Profiling": 2,
+          "JetBrains.Annotations": 2,
+          "Needle.Timeline.Serialization": 2,
+          "UniCore.Runtime.ProfilerTools": 2,
+          "DG": 2,
+          "Firebase.Extensions": 2,
+          "Firebase.Platform": 2,
+          "Firebase.Platform.Default": 2,
+          "Flexalon": 2,
+          "Prototype": 2,
+          "Meta.XR.MRUtilityKit": 2,
+          "OpenAI": 2,
+          "DG.Tweening.Core.Enums": 2,
+          "VInspector": 1,
+          "Animancer": 1,
+          "Utilities.Rest.Editor": 1,
+          "OpenAI.FineTuning": 1,
+          "System.Collections.Concurrent": 1,
+          "Utilities.Extensions.Editor": 1,
+          "Progress": 1,
+          "OpenAI.Threads": 1,
+          "Utilities.Audio": 1,
+          "System.Security.Authentication": 1,
+          "Utilities.Async": 1,
+          "CancellationTokenSource": 1,
+          "Debug": 1,
+          "System.Runtime.InteropServices": 1,
+          "SimpleJSON": 1,
+          "UnityEditor.PackageManager": 1,
+          "SR": 1,
+          "System.Security.Cryptography": 1,
+          "System.Security": 1,
+          "Assembly": 1,
+          "PackageInfo": 1,
+          "Needle.EditorGUIUtility": 1,
+          "UnityEditor.ShortcutManagement": 1,
+          "Needle.Editors": 1,
+          "IterativeCompilationData": 1,
+          "CompilationData": 1,
+          "UnityEditorInternal": 1,
+          "UnityEngine.TestTools": 1,
+          "UnityEditor.Build": 1,
+          "NUnit.Framework": 1,
+          "Needle": 1,
+          "System.Xml": 1,
+          "Needle.Timeline": 1,
+          "Codice.Client.Common": 1,
+          "System.Security.AccessControl": 1,
+          "Needle.Timeline.AssetBinding": 1,
+          "Newtonsoft.Json.Linq": 1,
+          "UnityEngine.Assertions.Must": 1,
+          "Needle.Timeline.Commands": 1,
+          "UnityEditor.EditorTools": 1,
+          "Random": 1,
+          "UnityEngine.Playables": 1,
+          "UniGame.UiSystem.Runtime": 1,
+          "UniGame.ViewSystem.Runtime": 1,
+          "UniGame.Core.Runtime": 1,
+          "UniGame.Core.Runtime.Extension": 1,
+          "UnityEditor.SceneManagement": 1,
+          "Cinemachine.PostFX": 1,
+          "MoreMountains.FeedbacksForThirdParty": 1,
+          "UnityEngine.Rendering.PostProcessing": 1,
+          "DamageNumbersPro": 1,
+          "MoreMountains.CorgiEngine": 1,
+          "Rewired": 1,
+          "UnityEngine.VFX": 1,
+          "Firebase.Analytics": 1,
+          "UnityEditor.Search": 1,
+          "UnityEditor.Overlays": 1,
+          "UnityEngine.XR": 1,
+          "Tween": 1,
+          "PassthroughCameraSamples": 1,
+          "System.Net.Http.Json": 1,
+          "System.Net.Http.Headers": 1,
+          "JsonDocument": 1,
+          "Game": 1,
+          "OpenAI.Chat": 1,
+          "OpenAI.Audio": 1,
+          "UnityEditor.IMGUI.Controls": 1,
+          "System.Linq.Expressions": 1,
+          "LitMotion.Animation": 1,
+          "LitMotion.Collections": 1,
+          "UnityEngine.ResourceManagement.ResourceProviders": 1,
+          "UnityEngine.AddressableAssets": 1,
+          "UnityEngine.ResourceManagement.AsyncOperations": 1,
+          "Unity.Collections.LowLevel.Unsafe": 1,
+          "EPOOutline": 1,
+          "Text": 1,
+          "Outline": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "BStrHolder.h": 1,
+          "shlwapi.h": 1,
+          "windows.h": 1,
+          "iostream": 1,
+          "<filesystem>": 1,
+          "<io.h>": 1,
+          "filesystem": 1,
+          "<sstream>": 1,
+          "<shlwapi.h>": 1,
+          "dte80a.tlh": 1,
+          "<fcntl.h>": 1,
+          "string": 1,
+          "sstream": 1,
+          "<string>": 1,
+          "<windows.h>": 1,
+          "<iostream>": 1,
+          "ComPtr.h": 1,
+          "io.h": 1,
+          "fcntl.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "OleAuto.h": 1,
+          "<OleAuto.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "os": 3,
+          "fs": 3,
+          "path": 3
+        }
+      },
+      "Python": {
+        "files_scanned": 25,
+        "packages": {
+          "Path": 17,
+          "pathlib": 17,
+          "os": 14,
+          "sys": 13,
+          "json": 11,
+          "re": 9,
+          "subprocess": 7,
+          "tempfile": 6,
+          "shutil": 4,
+          "tiktoken": 4,
+          "annotations": 4,
+          "__future__": 4,
+          "zipfile": 4,
+          "requests": 3,
+          "time": 3,
+          "urllib": 3,
+          "datetime": 3,
+          "anthropic": 3,
+          "statistics": 3,
+          "typing": 3,
+          "absl": 3,
+          "app": 3,
+          "hou": 3,
+          "threading": 2,
+          "math": 2,
+          "argparse": 2,
+          "validate": 2,
+          "List": 2,
+          "flags": 2,
+          "logging": 2,
+          "numpy": 2,
+          "traceback": 2,
+          "contextlib": 2,
+          "socket": 2,
+          "ThreadPoolExecutor": 1,
+          "concurrent": 1,
+          "tarsafe": 1,
+          "t": 1,
+          "unquote": 1,
+          "i18n": 1,
+          "hashlib": 1,
+          "plotly": 1,
+          "unittest": 1,
+          "scripts": 1,
+          "FastMCP": 1,
+          "site": 1,
+          "load_dotenv": 1,
+          "ResponseSchema": 1,
+          "origin": 1,
+          "dataclasses": 1,
+          "dataclass": 1,
+          "Dict": 1,
+          "asyncio": 1,
+          "langchain": 1,
+          "mcp": 1,
+          "urljoin": 1,
+          "dotenv": 1,
+          "asynccontextmanager": 1,
+          "io": 1,
+          "urlparse": 1,
+          "redirect_stdout": 1,
+          "PySide2": 1,
+          "base64": 1,
+          "QtWidgets": 1,
+          "uuid": 1,
+          "matplotlib": 1,
+          "pandas": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "timurproko/Ameria-Heart",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/aspid.mvvm",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/asset-store-downloader",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "timurproko/Atomic",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/caveman",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "timurproko/com.openai.unity",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/com.unity.ide.cursor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "timurproko/compilation-visualizer",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/console-hyperlinks",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/custom-timeline-editor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/easyprimetween",
+        "files_analyzed": 25,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/extensions-pro-unity",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/FeelExtensions",
+        "files_analyzed": 19,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/firebase-unity-sdk",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "Python"
+        ]
+      },
+      {
+        "repository": "timurproko/Flange",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/GorillaLocomotion",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/GravityComposerXR",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/Groq-Unity",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/HealthScopeXR",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/houdini-mcp",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "timurproko/linkergenerator",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/litmotion",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "timurproko/manualdi",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "Python"
+        ]
+      },
+      {
+        "repository": "timurproko/match3-ai",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

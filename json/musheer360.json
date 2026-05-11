@@ -1,0 +1,508 @@
+{
+  "username": "musheer360",
+  "areas": {
+    "OSS": {
+      "score": 0.13809523809523805,
+      "details": {
+        "issue_resolution_rate": 0.8571428571428571,
+        "pr_merge_rate": 0.85,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 0.9,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 4,
+        "topic_entropy_bits": 4.7549,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.6,
+      "details": {
+        "Musheer360/aws-calculator-mcp": -0.04419285714285714,
+        "Musheer360/aws-cost-report": 0.1829452380952381,
+        "Musheer360/aws-infra-optimizer": 0.13407750000000002,
+        "Musheer360/BlankSlate": 0.2900052631578947,
+        "Musheer360/CreditGuard": -0.2178807692307692
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.501978021978022,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        73879,
+        23
+      ],
+      "CSS": [
+        18061,
+        34
+      ],
+      "Python": [
+        881842,
+        82
+      ],
+      "JavaScript": [
+        34153,
+        154
+      ],
+      "HTML": [
+        364850,
+        171
+      ],
+      "Kotlin": [
+        6896,
+        158
+      ],
+      "TypeScript": [
+        3659,
+        290
+      ],
+      "EJS": [
+        624,
+        0
+      ],
+      "Dockerfile": [
+        31,
+        0
+      ],
+      "Batchfile": [
+        185,
+        6
+      ],
+      "VBScript": [
+        172,
+        5
+      ],
+      "Nix": [
+        0,
+        1
+      ],
+      "C++": [
+        0,
+        0
+      ],
+      "C": [
+        0,
+        0
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 924,
+    "total_lines": 1384352,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 3659,
+        "commits": 290
+      },
+      {
+        "language": "HTML",
+        "lines": 364850,
+        "commits": 171
+      },
+      {
+        "language": "Kotlin",
+        "lines": 6896,
+        "commits": 158
+      },
+      {
+        "language": "JavaScript",
+        "lines": 34153,
+        "commits": 154
+      },
+      {
+        "language": "Python",
+        "lines": 881842,
+        "commits": 82
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "musheer360",
+    "analysis_date": "2026-05-10T16:49:47.811963",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 133,
+    "languages": {
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "<fmx.h>": 2,
+          "fmx.h": 2,
+          "<System.StartUpCopy.hpp>": 1,
+          "System.StartUpCopy.hpp": 1,
+          "<tchar.h>": 1,
+          "tchar.h": 1,
+          "<fstream>": 1,
+          "string": 1,
+          "todoMain.h": 1,
+          "<System.IOUtils.hpp>": 1,
+          "fstream": 1,
+          "<string>": 1,
+          "System.IOUtils.hpp": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 3,
+        "packages": {
+          "<fmx.h>": 2,
+          "tchar.h": 2,
+          "<tchar.h>": 2,
+          "fmx.h": 2,
+          "System.Classes.hpp": 1,
+          "<FMX.Layouts.hpp>": 1,
+          "<fstream>": 1,
+          "FMX.Edit.hpp": 1,
+          "FMX.StdCtrls.hpp": 1,
+          "FMX.ListBox.hpp": 1,
+          "<FMX.ListBox.hpp>": 1,
+          "<FMX.Forms.hpp>": 1,
+          "FMX.Layouts.hpp": 1,
+          "FMX.Types.hpp": 1,
+          "fstream": 1,
+          "<FMX.Controls.hpp>": 1,
+          "FMX.Controls.Presentation.hpp": 1,
+          "FMX.Controls.hpp": 1,
+          "<FMX.Types.hpp>": 1,
+          "<FMX.Edit.hpp>": 1,
+          "FMX.Forms.hpp": 1,
+          "<FMX.Controls.Presentation.hpp>": 1,
+          "<System.Classes.hpp>": 1,
+          "<FMX.StdCtrls.hpp>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 6,
+        "packages": {
+          "express": 2,
+          "fs": 2,
+          "path": 2,
+          "http": 2,
+          "zod": 1,
+          "modelcontextprotocol": 1,
+          "id": 1,
+          "value": 1,
+          "inputs": 1,
+          "node:assert": 1,
+          "node:test": 1,
+          "body-parser": 1,
+          "method-override": 1,
+          "sanitizer": 1,
+          "cors": 1,
+          "express-rate-limit": 1,
+          "child_process": 1,
+          "querystring": 1,
+          "shortid": 1,
+          "url": 1,
+          "sanitize-html": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 42,
+        "packages": {
+          "com.musheer360": 23,
+          "com.creditguard": 19,
+          "android.content": 19,
+          "androidx.compose": 13,
+          "kotlinx.coroutines": 12,
+          "android.os": 8,
+          "android.app": 7,
+          "android.view": 6,
+          "org.json": 6,
+          "androidx.lifecycle": 5,
+          "androidx.activity": 5,
+          "java.util": 5,
+          "org.junit": 4,
+          "androidx.core": 3,
+          "androidx.room": 3,
+          "java.text": 3,
+          "androidx.test": 3,
+          "java.net": 3,
+          "android.provider": 2,
+          "kotlin.math": 2,
+          "androidx.annotation": 2,
+          "android.widget": 2,
+          "android.graphics": 2,
+          "android.accessibilityservice": 2,
+          "org.robolectric": 2,
+          "android.Manifest": 1,
+          "androidx.sqlite": 1,
+          "androidx.security": 1,
+          "android.net": 1,
+          "com.google": 1,
+          "android.annotation": 1,
+          "androidx.appcompat": 1,
+          "java.io": 1,
+          "javax.crypto": 1,
+          "java.security": 1,
+          "java.nio": 1,
+          "android.util": 1,
+          "android.security": 1,
+          "android.animation": 1,
+          "application/json": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 12,
+        "packages": {
+          "os": 7,
+          "datetime": 6,
+          "base64": 5,
+          "json": 5,
+          "sys": 5,
+          "io": 4,
+          "boto3": 4,
+          "BytesIO": 4,
+          "validate": 3,
+          "OxmlElement": 2,
+          "WD_ALIGN_PARAGRAPH": 2,
+          "qn": 2,
+          "docx": 2,
+          "Document": 2,
+          "Inches": 2,
+          "matplotlib": 2,
+          "lambda_function": 2,
+          "traceback": 2,
+          "unittest": 2,
+          "typing": 2,
+          "List": 2,
+          "re": 2,
+          "requests": 2,
+          "random": 2,
+          "entries": 1,
+          "PatternFill": 1,
+          "Workbook": 1,
+          "openpyxl": 1,
+          "csv": 1,
+          "threading": 1,
+          "flask": 1,
+          "uuid": 1,
+          "flask_cors": 1,
+          "Flask": 1,
+          "CORS": 1,
+          "lambda_handler": 1,
+          "after": 1,
+          "generate_word_report": 1,
+          "MaxNLocator": 1,
+          "WD_STYLE_TYPE": 1,
+          "WD_ORIENT": 1,
+          "WD_TABLE_ALIGNMENT": 1,
+          "calendar": 1,
+          "get_categories_content": 1,
+          "check_entry": 1,
+          "check_description": 1,
+          "error_message": 1,
+          "check_cors": 1,
+          "check_title": 1,
+          "check_file_format": 1,
+          "check_auth": 1,
+          "check_https": 1,
+          "check_alphabetical_order": 1,
+          "check_duplicate_links": 1,
+          "get_host_from_link": 1,
+          "fake_user_agent": 1,
+          "find_links_in_text": 1,
+          "has_cloudflare_protection": 1,
+          "format": 1,
+          "links": 1,
+          "string": 1,
+          "punctuation": 1,
+          "Response": 1,
+          "webbrowser": 1,
+          "time": 1,
+          "pyautogui": 1,
+          "speech_recognition": 1,
+          "wikipedia": 1,
+          "pyttsx3": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 13,
+        "packages": {
+          "zod": 9,
+          "next": 2,
+          "react": 2,
+          "name": 1,
+          "lodash": 1,
+          "express": 1,
+          "grammy": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 28,
+        "packages": {
+          "react": 21,
+          "lucide-react": 9,
+          "next": 7,
+          "icon": 1,
+          "NoteEditor": 1,
+          "NotesSidebar": 1,
+          "SafariToolbar": 1,
+          "TabBar": 1,
+          "m": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Musheer360/AutoTempCleaner",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Musheer360/aws-calculator-mcp",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Musheer360/aws-cost-report",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Musheer360/aws-infra-optimizer",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Musheer360/Budget-Breach-ReportGen-for-ExamOnline",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Musheer360/CreditGuard",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "Musheer360/macos-sequoia-clone",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Musheer360/node-todo-app",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Musheer360/NovaChat",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "Musheer360/public-apis",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Musheer360/Python-Virtual-Assistant",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Musheer360/QuoteSlate",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Musheer360/SimuSoul",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Musheer360/skills-copilot-codespaces-vscode",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Musheer360/starter-telegram-bot",
+        "files_analyzed": 3,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "Musheer360/SwiftSlate",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "Musheer360/To-do-list-GUI-Application",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

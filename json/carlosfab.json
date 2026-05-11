@@ -1,0 +1,531 @@
+{
+  "username": "carlosfab",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.32886492820049784,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9163743153776698,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.1875,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 5,
+        "topic_entropy_bits": 3.1699,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.26993965230676625,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        4120109,
+        549
+      ],
+      "Python": [
+        59807101,
+        58
+      ],
+      "C++": [
+        11918267,
+        0
+      ],
+      "Batchfile": [
+        60420,
+        0
+      ],
+      "MATLAB": [
+        495,
+        0
+      ],
+      "Shell": [
+        5171,
+        0
+      ],
+      "HTML": [
+        0,
+        5
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 612,
+    "total_lines": 75911563,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 4120109,
+        "commits": 549
+      },
+      {
+        "language": "Python",
+        "lines": 59807101,
+        "commits": 58
+      },
+      {
+        "language": "HTML",
+        "lines": 0,
+        "commits": 5
+      },
+      {
+        "language": "C++",
+        "lines": 11918267,
+        "commits": 0
+      },
+      {
+        "language": "Batchfile",
+        "lines": 60420,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "carlosfab",
+    "analysis_date": "2026-05-10T14:36:08.403332",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 110,
+    "languages": {
+      "C++": {
+        "files_scanned": 6,
+        "packages": {
+          "stdafx.h": 5,
+          "IRTagetRecSys.h": 4,
+          "IRTagetRecSysDoc.h": 3,
+          "IRTagetRecSysView.h": 3,
+          "DetectTrack.h": 2,
+          "MainFrm.h": 2,
+          "DIB.h": 1,
+          "<propkey.h>": 1,
+          "propkey.h": 1,
+          "core/core.hpp": 1,
+          "<opencv2/highgui/highgui.hpp>": 1,
+          "iostream": 1,
+          "std": 1,
+          "<WinSock2.h>": 1,
+          "<core/core.hpp>": 1,
+          "opencv2/opencv.hpp": 1,
+          "<opencv2/opencv.hpp>": 1,
+          "WinSock2.h": 1,
+          "opencv2/highgui/highgui.hpp": 1,
+          "namespace": 1,
+          "<iostream>": 1,
+          "<opencv2/imgproc/imgproc.hpp>": 1,
+          "opencv2/imgproc/imgproc.hpp": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 3,
+        "packages": {
+          "<tchar.h>": 1,
+          "WinSock2.h": 1,
+          "<stdio.h>": 1,
+          "iostream": 1,
+          "string": 1,
+          "tchar.h": 1,
+          "<iostream>": 1,
+          "<Windows.h>": 1,
+          "<string>": 1,
+          "Windows.h": 1,
+          "<WinSock2.h>": 1,
+          "stdio.h": 1,
+          "resource.h": 1,
+          "SapClassBasic.h": 1,
+          "TrackWnd.h": 1,
+          "TrackCtrlDlg.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 84,
+        "packages": {
+          "numpy": 47,
+          "os": 29,
+          "torch": 24,
+          "cv2": 18,
+          "pandas": 18,
+          "matplotlib": 14,
+          "pathlib": 14,
+          "Path": 14,
+          "math": 13,
+          "utils": 13,
+          "argparse": 12,
+          "division": 12,
+          "__future__": 12,
+          "logging": 11,
+          "json": 10,
+          "sys": 10,
+          "time": 10,
+          "random": 8,
+          "src": 7,
+          "tqdm": 7,
+          "models": 7,
+          "copy": 7,
+          "absolute_import": 7,
+          "print_function": 7,
+          "dotenv": 6,
+          "load_dotenv": 6,
+          "yaml": 6,
+          "collections": 6,
+          "datetime": 6,
+          "pytest": 5,
+          "Image": 5,
+          "PIL": 5,
+          "shutil": 5,
+          "attempt_load": 5,
+          "pickle": 5,
+          "dataset": 5,
+          "pyplot": 4,
+          "itertools": 4,
+          "socket": 4,
+          "struct": 4,
+          "pdb": 4,
+          "warnings": 4,
+          "glob": 4,
+          "JointsDataset": 4,
+          "json_tricks": 4,
+          "open3d": 3,
+          "skyfield": 3,
+          "create_agent": 3,
+          "streamlit": 3,
+          "langchain": 3,
+          "HumanMessage": 3,
+          "tool": 3,
+          "ViewTransformer": 3,
+          "DATA_PATH": 3,
+          "SpeedEstimator": 3,
+          "typing": 3,
+          "tempfile": 3,
+          "Axes3D": 3,
+          "cycle": 3,
+          "mpl_toolkits": 3,
+          "inv": 3,
+          "ceil": 3,
+          "DataLoader": 3,
+          "torchvision": 3,
+          "DroneDetection": 3,
+          "Tracker": 3,
+          "detect_wrapper": 3,
+          "select_device": 3,
+          "scipy": 3,
+          "train_test_split": 3,
+          "sklearn": 3,
+          "LunaModel": 3,
+          "model": 3,
+          "luna_data": 3,
+          "load_candidates": 3,
+          "Dataset": 3,
+          "project_pose_cpu": 3,
+          "Topos": 2,
+          "pygame": 2,
+          "requests": 2,
+          "InMemorySaver": 2,
+          "langgraph": 2,
+          "mcp": 2,
+          "FastMCP": 2,
+          "VideoProcessor": 2,
+          "defaultdict": 2,
+          "supervision": 2,
+          "YOLO": 2,
+          "ultralytics": 2,
+          "Variable": 2,
+          "NullLocator": 2,
+          "multiprocessing": 2,
+          "datasets": 2,
+          "queue": 2,
+          "tracking_wrapper": 2,
+          "LoadStreams": 2,
+          "Conv": 2,
+          "deepcopy": 2,
+          "attempt_download": 2,
+          "create_dataloader": 2,
+          "zipfile": 2,
+          "Transportation_module": 2,
+          "seaborn": 2,
+          "classification_report": 2,
+          "SimpleITK": 2,
+          "OrderedDict": 2,
+          "keras": 2,
+          "transform_to_single_dataframe": 2,
+          "List": 2,
+          "pipeline_completa": 2,
+          "app": 2,
+          "EarthSatellite": 1,
+          "pydantic": 1,
+          "uvicorn": 1,
+          "FastAPI": 1,
+          "fastapi": 1,
+          "StreamingResponse": 1,
+          "BaseModel": 1,
+          "load_config": 1,
+          "Dict": 1,
+          "Generator": 1,
+          "OUTPUT_PATH": 1,
+          "kcftracker": 1,
+          "Process": 1,
+          "*": 1,
+          "detector": 1,
+          "trackinguav": 1,
+          "deque": 1,
+          "non_max_suppression": 1,
+          "letterbox": 1,
+          "MixConv2d": 1,
+          "check_anchor_order": 1,
+          "time_synchronized": 1,
+          "thop": 1,
+          "Hardswish": 1,
+          "set_logging": 1,
+          "coremltools": 1,
+          "onnx": 1,
+          "COCO": 1,
+          "pycocotools": 1,
+          "COCOeval": 1,
+          "wandb": 1,
+          "test": 1,
+          "Thread": 1,
+          "amp": 1,
+          "WandbLogger": 1,
+          "Model": 1,
+          "ComputeLoss": 1,
+          "labels_to_class_weights": 1,
+          "DistributedDataParallel": 1,
+          "check_anchors": 1,
+          "SummaryWriter": 1,
+          "plot_images": 1,
+          "ModelEMA": 1,
+          "threading": 1,
+          "input": 1,
+          "SimAnnealing": 1,
+          "SystemModel": 1,
+          "Impacts_module": 1,
+          "Biodigester_module": 1,
+          "Products_module": 1,
+          "bpy": 1,
+          "data": 1,
+          "stats": 1,
+          "LogisticRegression": 1,
+          "load_breast_cancer": 1,
+          "StandardScaler": 1,
+          "fetch_openml": 1,
+          "LabelBinarizer": 1,
+          "load_model": 1,
+          "gradio": 1,
+          "inference": 1,
+          "functools": 1,
+          "csv": 1,
+          "namedtuple": 1,
+          "nn": 1,
+          "get_affine_transform": 1,
+          "Shelf": 1,
+          "Campus": 1,
+          "Panoptic": 1,
+          "Synthetic": 1,
+          "rotate_points": 1,
+          "affine_transform_pts_cuda": 1,
+          "project_pose": 1,
+          "MaxPooling2D": 1,
+          "Conv2D": 1,
+          "Activation": 1,
+          "Sequential": 1,
+          "Dense": 1,
+          "Flatten": 1,
+          "cnn": 1,
+          "SGD": 1,
+          "backend": 1,
+          "fetch_mldata": 1,
+          "LeNet5": 1,
+          "to_categorical": 1,
+          "subprocess": 1,
+          "INPUT_DIR": 1,
+          "extract_from_excel": 1,
+          "load_to_excel": 1,
+          "paths": 1,
+          "pipeline": 1,
+          "BytesIO": 1,
+          "calendar": 1,
+          "io": 1,
+          "monthrange": 1,
+          "flask_restful": 1,
+          "load": 1,
+          "flask": 1,
+          "joblib": 1,
+          "Flask": 1,
+          "Resource": 1,
+          "generate_absenteeism_data": 1,
+          "ETL": 1,
+          "faker": 1,
+          "Faker": 1,
+          "extract_excel": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "carlosfab/3d_machine_learning",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/ActiveSatellitesTracker",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/ai-agents-sigmoidal",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/aircraft-takeoff-speed-estimation",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/Algebra-Linear-com-Python",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/Anti-UAV",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/aws-ml-engineering",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/Biogas-networks-in-Brazil",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/Blender_Neural_Network",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/blog-sigmoidal",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/bootcamp-deep-learning",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/camera-calibration",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/cnn_lenet5",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/conv_arithmetic",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/data-etl-pipeline",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/data-science-na-pratica",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "carlosfab/DataProjectStarterKit",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

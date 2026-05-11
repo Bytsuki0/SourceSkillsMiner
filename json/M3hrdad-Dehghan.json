@@ -1,0 +1,301 @@
+{
+  "username": "M3hrdad-Dehghan",
+  "areas": {
+    "OSS": {
+      "score": -0.38811306850580196,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.9178303972412971
+      }
+    },
+    "Status": {
+      "score": 0.30419462380189044,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9178303972412971,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.9375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.2042836889407823,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        539772,
+        73
+      ],
+      "TSQL": [
+        11952,
+        0
+      ],
+      "Python": [
+        20900,
+        2
+      ],
+      "HTML": [
+        36452,
+        7
+      ],
+      "Dockerfile": [
+        38,
+        0
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "PowerShell": [
+        156,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 82,
+    "total_lines": 609270,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 539772,
+        "commits": 73
+      },
+      {
+        "language": "HTML",
+        "lines": 36452,
+        "commits": 7
+      },
+      {
+        "language": "Python",
+        "lines": 20900,
+        "commits": 2
+      },
+      {
+        "language": "TSQL",
+        "lines": 11952,
+        "commits": 0
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 38,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "M3hrdad-Dehghan",
+    "analysis_date": "2026-05-10T14:46:59.810933",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 62,
+    "languages": {
+      "Python": {
+        "files_scanned": 58,
+        "packages": {
+          "pandas": 25,
+          "os": 19,
+          "pathlib": 16,
+          "Path": 15,
+          "sys": 12,
+          "typing": 11,
+          "kfp": 11,
+          "google": 9,
+          "__parameters": 8,
+          "mlflow": 8,
+          "numpy": 8,
+          "bigquery": 8,
+          "pipelines": 8,
+          "sklearn": 7,
+          "dsl": 7,
+          "List": 5,
+          "matplotlib": 5,
+          "joblib": 5,
+          "RetPhase_VectorStoreClass": 4,
+          "RetPhase_EmbeddingClass": 4,
+          "compiler": 4,
+          "seaborn": 4,
+          "utils": 4,
+          "RetPhase_Splitting": 3,
+          "RetPhase_Ingesting": 3,
+          "ingest_pdf_docs": 3,
+          "RetPhase_Retrieving": 3,
+          "VECTOR_STORE": 3,
+          "EMBEDDER": 3,
+          "BQMLTrainer": 3,
+          "components": 3,
+          "logic_components": 3,
+          "precision_score": 3,
+          "plot_boxplot": 3,
+          "validate_dtypes": 3,
+          "functions": 3,
+          "plot_distribution": 3,
+          "missing_value_report": 3,
+          "categorical_sanity_check": 3,
+          "libraries": 3,
+          "annotations": 3,
+          "__future__": 3,
+          "lightgbm": 3,
+          "LGBMClassifier": 3,
+          "stats": 3,
+          "scipy": 3,
+          "RAGRetriever": 2,
+          "split_documents": 2,
+          "AugPhase_SystemPrompt": 2,
+          "load_dotenv": 2,
+          "Anthropic": 2,
+          "SYSTEM_PROMPT": 2,
+          "anthropic": 2,
+          "dotenv": 2,
+          "datetime": 2,
+          "pydantic": 2,
+          "Optional": 2,
+          "fastapi": 2,
+          "FastAPI": 2,
+          "BaseModel": 2,
+          "Tuple": 2,
+          "ModelEvaluator": 2,
+          "DataLoader": 2,
+          "evaluation_component_v2": 2,
+          "data_loader_component_v2": 2,
+          "train_arima_default_component_v2": 2,
+          "model_predict": 2,
+          "ModelPredictor": 2,
+          "bq_client": 2,
+          "BigQueryClient": 2,
+          "pyodbc": 2,
+          "StandardScaler": 2,
+          "remove_cols": 2,
+          "Any": 2,
+          "numerical_cols": 2,
+          "PreprocessorManager": 2,
+          "helpers": 2,
+          "RAG_Pipeline": 1,
+          "streamlit": 1,
+          "PIPELINE": 1,
+          "VectorStore": 1,
+          "itertools": 1,
+          "EmbeddingManager": 1,
+          "EvalPhase_Metrics": 1,
+          "evaluate_query": 1,
+          "EvalPhase_Dataset": 1,
+          "EVAL_DATASET": 1,
+          "RAG_RETRIEVER": 1,
+          "sentence_transformers": 1,
+          "SentenceTransformer": 1,
+          "langchain_community": 1,
+          "PyPDFLoader": 1,
+          "langchain_text_splitters": 1,
+          "RecursiveCharacterTextSplitter": 1,
+          "chromadb": 1,
+          "uuid": 1,
+          "CHUNK": 1,
+          "catboost": 1,
+          "OneHotEncoder": 1,
+          "flask": 1,
+          "pickle": 1,
+          "Flask": 1,
+          "CatBoostRegressor": 1,
+          "logging": 1,
+          "ForecastCore": 1,
+          "StaticFiles": 1,
+          "forecast_core": 1,
+          "DefaultCredentialsError": 1,
+          "data_loader_pipeline_v2": 1,
+          "evaluation_pipeline_v2": 1,
+          "full_pipeline_v2": 1,
+          "train_arima_default_pipeline_v2": 1,
+          "traceback": 1,
+          "packages": 1,
+          "lead_scoring_service": 1,
+          "LeadScoringPyFuncModel": 1,
+          "infer_signature": 1,
+          "asynccontextmanager": 1,
+          "CORSMiddleware": 1,
+          "contextlib": 1,
+          "LogisticRegression": 1,
+          "xgboost": 1,
+          "RandomForestClassifier": 1,
+          "accuracy_score": 1,
+          "XGBClassifier": 1,
+          "optuna": 1,
+          "categorical_cols": 1,
+          "argparse": 1,
+          "json": 1,
+          "subprocess": 1,
+          "train_test_split": 1,
+          "statsmodels": 1,
+          "variance_inflation_factor": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "M3hrdad-Dehghan/applied-generative-ai",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "M3hrdad-Dehghan/applied-machine-learning",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "M3hrdad-Dehghan/end-to-end-real-world-data-projects",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "M3hrdad-Dehghan/experimentation-and-statistics",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

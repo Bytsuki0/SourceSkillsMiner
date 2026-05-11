@@ -1,0 +1,341 @@
+{
+  "username": "MattiaCinelli",
+  "areas": {
+    "OSS": {
+      "score": 0.9144936887257509,
+      "details": {
+        "issue_resolution_rate": 0.8823529411764706,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9893875919121558
+      }
+    },
+    "Status": {
+      "score": 0.4031814715311808,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9893875919121558,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": 0.05,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 4
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "MattiaCinelli/AlgoRL": 0.04501176470588236
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5235350320513864,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        217627,
+        151
+      ],
+      "Makefile": [
+        612,
+        1
+      ],
+      "HTML": [
+        70,
+        0
+      ],
+      "R": [
+        2406,
+        6
+      ],
+      "Dockerfile": [
+        553,
+        0
+      ],
+      "Shell": [
+        167,
+        0
+      ],
+      "Jupyter Notebook": [
+        3970118,
+        11
+      ],
+      "TeX": [
+        148377,
+        2
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 171,
+    "total_lines": 4339930,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 217627,
+        "commits": 151
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 3970118,
+        "commits": 11
+      },
+      {
+        "language": "R",
+        "lines": 2406,
+        "commits": 6
+      },
+      {
+        "language": "TeX",
+        "lines": 148377,
+        "commits": 2
+      },
+      {
+        "language": "Makefile",
+        "lines": 612,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "MattiaCinelli",
+    "analysis_date": "2026-05-10T14:30:58.820472",
+    "total_repos_analyzed": 13,
+    "total_files_analyzed": 83,
+    "languages": {
+      "Python": {
+        "files_scanned": 80,
+        "packages": {
+          "numpy": 49,
+          "gym": 36,
+          "os": 25,
+          "utils": 22,
+          "logging": 21,
+          "typing": 16,
+          "Box": 14,
+          "pandas": 11,
+          "Path": 10,
+          "pathlib": 10,
+          "sys": 10,
+          "spaces": 9,
+          "pygame": 9,
+          "DependencyNotInstalled": 9,
+          "Optional": 9,
+          "MuJocoPyEnv": 9,
+          "gymnasium": 9,
+          "robocrop": 9,
+          "math": 8,
+          "gfxdraw": 8,
+          "matplotlib": 7,
+          "algorl": 7,
+          "Farm": 7,
+          "icecream": 6,
+          "ic": 6,
+          "MujocoEnv": 6,
+          "stable_baselines3": 5,
+          "Monitor": 5,
+          "*": 5,
+          "path": 5,
+          "pytest": 5,
+          "evaluate_policy": 4,
+          "logs": 4,
+          "DummyVecEnv": 4,
+          "rich": 4,
+          "RichHandler": 4,
+          "List": 4,
+          "setup": 4,
+          "setuptools": 4,
+          "contextlib": 4,
+          "contextmanager": 4,
+          "sqlite3": 4,
+          "Box2D": 4,
+          "file_exists": 3,
+          "MlpPolicy": 3,
+          "itertools": 3,
+          "Table": 3,
+          "error": 3,
+          "EzPickle": 3,
+          "mypalette": 3,
+          "BoltzmannQPolicy": 3,
+          "rl": 3,
+          "Adam": 3,
+          "tensorflow": 3,
+          "Sequential": 3,
+          "DQNAgent": 3,
+          "SequentialMemory": 3,
+          "Dense": 3,
+          "DQN": 2,
+          "random": 2,
+          "create_directory": 2,
+          "abc": 2,
+          "ABC": 2,
+          "shutil": 2,
+          "django": 2,
+          "make": 2,
+          "logger": 2,
+          "TYPE_CHECKING": 2,
+          "webcolors": 2,
+          "LoadPalette": 2,
+          "unittest": 2,
+          "RoboCropEnvV4": 2,
+          "RoboCropEnvV1": 2,
+          "pyparsing": 2,
+          "Any": 2,
+          "display": 1,
+          "base64": 1,
+          "PPO": 1,
+          "VecVideoRecorder": 1,
+          "IPython": 1,
+          "make_vec_env": 1,
+          "A2C": 1,
+          "plotnine": 1,
+          "string": 1,
+          "product": 1,
+          "re": 1,
+          "DP": 1,
+          "BackwardsViewTDLambda": 1,
+          "MCPrediction": 1,
+          "NStepTD": 1,
+          "TabularTD0": 1,
+          "glob": 1,
+          "Bandits": 1,
+          "admin": 1,
+          "AppConfig": 1,
+          "ModifyDB": 1,
+          "CreateEuroNationsDB": 1,
+          "euronations": 1,
+          "VERSION": 1,
+          "Space": 1,
+          "gym_notices": 1,
+          "vector": 1,
+          "wrappers": 1,
+          "seeding": 1,
+          "warn": 1,
+          "EnvSpec": 1,
+          "load_env_plugins": 1,
+          "CarRacing": 1,
+          "BipedalWalker": 1,
+          "LunarLander": 1,
+          "fixtureDef": 1,
+          "contactListener": 1,
+          "Car": 1,
+          "warnings": 1,
+          "step_api_compatibility": 1,
+          "AcrobotEnv": 1,
+          "MountainCarEnv": 1,
+          "Continuous_MountainCarEnv": 1,
+          "CartPoleEnv": 1,
+          "PendulumEnv": 1,
+          "cos": 1,
+          "core": 1,
+          "InvertedPendulumEnv": 1,
+          "Walker2dEnv": 1,
+          "AntEnv": 1,
+          "HumanoidEnv": 1,
+          "HumanoidStandupEnv": 1,
+          "SwimmerEnv": 1,
+          "InvertedDoublePendulumEnv": 1,
+          "PusherEnv": 1,
+          "HalfCheetahEnv": 1,
+          "ReacherEnv": 1,
+          "HopperEnv": 1,
+          "Generalized": 1,
+          "subprocess": 1,
+          "ast": 1,
+          "json": 1,
+          "colorsys": 1,
+          "tempfile": 1,
+          "visualize_palette": 1,
+          "stable_baselines": 1,
+          "register": 1,
+          "dataclass": 1,
+          "dataclasses": 1,
+          "RoboCropEnvV2": 1,
+          "RoboCropEnvV3": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MattiaCinelli/AlgoRL",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MattiaCinelli/EuroNations-SQLitePy",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MattiaCinelli/gym",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MattiaCinelli/handson-ml2",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MattiaCinelli/mypalette",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MattiaCinelli/pybiscuit",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MattiaCinelli/robocrop",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

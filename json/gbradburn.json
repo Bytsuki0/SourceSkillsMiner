@@ -1,0 +1,361 @@
+{
+  "username": "gbradburn",
+  "areas": {
+    "OSS": {
+      "score": 0.46394262342374626,
+      "details": {
+        "issue_resolution_rate": 0.4,
+        "pr_merge_rate": 0.9130434782608695,
+        "commits_activity": 0.8828704568747499
+      }
+    },
+    "Status": {
+      "score": 0.3472971904111548,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8863304010013476,
+        "week_streak": 0.1346153846153846
+      }
+    },
+    "Adaptability": {
+      "score": -0.008333,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.3333,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 2,
+        "topic_entropy_bits": 1.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "gbradburn/3D-Space-Shooter-Tutorial": 0.3206
+      }
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.41058136276698026,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C#": [
+        28692074,
+        58
+      ],
+      "ShaderLab": [
+        16169866,
+        34
+      ],
+      "HLSL": [
+        5203690,
+        4
+      ],
+      "C++": [
+        653397,
+        0
+      ],
+      "C": [
+        605804,
+        0
+      ],
+      "Objective-C": [
+        11697,
+        0
+      ],
+      "Python": [
+        3967,
+        0
+      ],
+      "Shell": [
+        3041,
+        0
+      ],
+      "Makefile": [
+        1189,
+        0
+      ],
+      "OpenSCAD": [
+        293,
+        0
+      ],
+      "G-code": [
+        132,
+        0
+      ],
+      "CSS": [
+        126,
+        0
+      ],
+      "HTML": [
+        518226,
+        0
+      ],
+      "JavaScript": [
+        27,
+        0
+      ],
+      "TypeScript": [
+        270166,
+        0
+      ],
+      "Mathematica": [
+        773060,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 96,
+    "total_lines": 52906755,
+    "top_5_languages": [
+      {
+        "language": "C#",
+        "lines": 28692074,
+        "commits": 58
+      },
+      {
+        "language": "ShaderLab",
+        "lines": 16169866,
+        "commits": 34
+      },
+      {
+        "language": "HLSL",
+        "lines": 5203690,
+        "commits": 4
+      },
+      {
+        "language": "C++",
+        "lines": 653397,
+        "commits": 0
+      },
+      {
+        "language": "C",
+        "lines": 605804,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "gbradburn",
+    "analysis_date": "2026-05-10T20:17:55.008374",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 231,
+    "languages": {
+      "C#": {
+        "files_scanned": 177,
+        "packages": {
+          "UnityEngine": 158,
+          "System.Collections": 57,
+          "System.Collections.Generic": 48,
+          "System": 48,
+          "UnityEditor": 23,
+          "DG.Tweening.Core": 23,
+          "DG.Tweening.Plugins.Options": 23,
+          "DG.Tweening": 15,
+          "UnityEngine.Events": 11,
+          "TMPro": 11,
+          "UnityEngine.UI": 10,
+          "DG.Tweening.Plugins": 9,
+          "DG.Tweening.Plugins.Core.PathCore": 8,
+          "System.IO": 7,
+          "DG.Tweening.Core.Enums": 6,
+          "System.Reflection": 6,
+          "UnityEngine.Splines": 6,
+          "Random": 5,
+          "UnityEngine.Rendering": 5,
+          "System.Linq": 4,
+          "UnityEngine.Audio": 4,
+          "System.Globalization": 4,
+          "EPOOutline": 3,
+          "Text": 3,
+          "Outline": 3,
+          "Unity.Cinemachine": 3,
+          "Cinemachine": 2,
+          "UnityEngine.SceneManagement": 2,
+          "UnityEngine.InputSystem": 2,
+          "UnityEngine.EventSystems": 2,
+          "MidniteOilSoftware.ObjectPoolManager": 2,
+          "System.Security.Cryptography": 1,
+          "UnityEngine.TextCore.LowLevel": 1,
+          "static": 1,
+          "UnityEngine.Animations.Rigging": 1,
+          "UnityEngine.Playables": 1,
+          "Unity.Mathematics": 1,
+          "UnityEngine.InputSystem.UI": 1,
+          "System.Text.RegularExpressions": 1,
+          "UnityEditor.Experimental.AssetImporters": 1,
+          "UnityEditor.Rendering": 1,
+          "UnityEditor.AssetImporters": 1,
+          "Object": 1,
+          "dontshow": 1,
+          "UnityEngine.UIElements": 1,
+          "Match3": 1,
+          "Unity.VisualScripting": 1,
+          "Vector3": 1,
+          "System.Numerics": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 5,
+        "packages": {
+          "HAL.h": 2,
+          "MarlinSerial.h": 1,
+          "avr/interrupt.h": 1,
+          "<avr/interrupt.h>": 1,
+          "fastio.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 6,
+        "packages": {
+          "<avr/io.h>": 2,
+          "avr/io.h": 2,
+          "stdint.h": 2,
+          "<stdint.h>": 2,
+          "platforms.h": 1,
+          "HAL_PATH": 1,
+          "watchdog.h": 1,
+          "<util/delay.h>": 1,
+          "<avr/pgmspace.h>": 1,
+          "HardwareSerial.h": 1,
+          "avr/interrupt.h": 1,
+          "<avr/interrupt.h>": 1,
+          "fastio.h": 1,
+          "util/delay.h": 1,
+          "avr/pgmspace.h": 1,
+          "<avr/eeprom.h>": 1,
+          "math.h": 1,
+          "MarlinSerial.h": 1,
+          "<HardwareSerial.h>": 1,
+          "avr/eeprom.h": 1,
+          "WString.h": 1,
+          "<WString.h>": 1,
+          "fastio/fastio_1281.h": 1,
+          "fastio/fastio_AT90USB.h": 1,
+          "fastio/fastio_644.h": 1,
+          "fastio/fastio_1280.h": 1,
+          "fastio/fastio_168.h": 1,
+          "pinsDebug_plus_70.h": 1,
+          "pinsDebug_Teensyduino.h": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 19,
+        "packages": {
+          "UnityEngine": 19,
+          "TMPro": 5,
+          "UnityEngine.UI": 5,
+          "Genies.Avatars.Sdk": 5,
+          "Genies.Experience.CloudSave": 3,
+          "Genies.Experience.Sdk": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "gbradburn/3D-Space-Shooter-Tutorial",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "gbradburn/BIGTREETECH-SKR-mini-E3",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "gbradburn/Chrono-Collapse",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gbradburn/Color-Palette-Gridbox-Material-Generator",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "gbradburn/KodableMaze",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "gbradburn/MarioParty-Board",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "gbradburn/Match3Tut",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "gbradburn/ObjectPool_Example",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "gbradburn/QBert",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "gbradburn/spline-stamper-unity-terrain-tool",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "gbradburn/Starcastle",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

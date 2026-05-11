@@ -1,0 +1,748 @@
+{
+  "username": "abatomunkuev",
+  "areas": {
+    "OSS": {
+      "score": 0.9393939393939394,
+      "details": {
+        "issue_resolution_rate": 0.9090909090909091,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.34223203895805265,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8979634430524635,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": -0.25,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2563251956703984,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        1344409,
+        0
+      ],
+      "Python": [
+        2536322,
+        42
+      ],
+      "TypeScript": [
+        925913,
+        0
+      ],
+      "Shell": [
+        42132,
+        2
+      ],
+      "Dockerfile": [
+        41146,
+        3
+      ],
+      "Handlebars": [
+        12683,
+        3
+      ],
+      "Ruby": [
+        6009,
+        0
+      ],
+      "JavaScript": [
+        1097172,
+        136
+      ],
+      "HCL": [
+        4233,
+        0
+      ],
+      "PLpgSQL": [
+        2797,
+        0
+      ],
+      "Smarty": [
+        1607,
+        0
+      ],
+      "CSS": [
+        32893,
+        3
+      ],
+      "TSQL": [
+        1288,
+        0
+      ],
+      "HTML": [
+        1927,
+        1
+      ],
+      "Groovy": [
+        185,
+        0
+      ],
+      "Makefile": [
+        2084,
+        0
+      ],
+      "Less": [
+        19843,
+        0
+      ],
+      "Cuda": [
+        5192,
+        0
+      ],
+      "C++": [
+        3743,
+        0
+      ],
+      "CMake": [
+        41,
+        0
+      ],
+      "Jupyter Notebook": [
+        8652,
+        41
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 231,
+    "total_lines": 6090271,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 1097172,
+        "commits": 136
+      },
+      {
+        "language": "Python",
+        "lines": 2536322,
+        "commits": 42
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 8652,
+        "commits": 41
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 41146,
+        "commits": 3
+      },
+      {
+        "language": "Handlebars",
+        "lines": 12683,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "abatomunkuev",
+    "analysis_date": "2026-05-10T15:51:21.942800",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 298,
+    "languages": {
+      "C#": {
+        "files_scanned": 1,
+        "packages": {
+          "System.CommandLine": 1,
+          "System.Collections.Generic": 1,
+          "System.IO": 1,
+          "HtmlAgilityPack": 1,
+          "System.CommandLine.Invocation": 1,
+          "System.Linq": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 12,
+        "packages": {
+          "io.airbyte": 12,
+          "java.util": 11,
+          "com.google": 5,
+          "java.io": 4,
+          "org.junit": 3,
+          "static": 3,
+          "org.slf4j": 2,
+          "java.time": 2,
+          "com.segment": 2,
+          "org.mockito": 1,
+          "java.net": 1,
+          "com.fasterxml": 1,
+          "org.apache": 1,
+          "io.temporal": 1,
+          "lombok.val": 1,
+          "org.testcontainers": 1,
+          "uk.org": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 69,
+        "packages": {
+          "react": 30,
+          "prop-types": 24,
+          "gatsby": 12,
+          "react-helmet": 6,
+          "path": 5,
+          "docusaurus": 4,
+          "express": 4,
+          "content-type": 4,
+          "prism-react-renderer": 3,
+          "aws-sdk": 3,
+          "mdx-js": 2,
+          "emotion": 2,
+          "webpack": 2,
+          "plotly": 2,
+          "clsx": 2,
+          "dotenv": 2,
+          "passport": 2,
+          "compression": 2,
+          "crypto": 2,
+          "supertest": 2,
+          "fs": 2,
+          "shopify": 2,
+          "vue": 2,
+          "fontsource": 1,
+          "remark-math": 1,
+          "react-live": 1,
+          "reach": 1,
+          "gatsby-plugin-mdx": 1,
+          "typography": 1,
+          "theme": 1,
+          "helmet": 1,
+          "body-parser": 1,
+          "cors": 1,
+          "pino-http": 1,
+          "http-auth": 1,
+          "http": 1,
+          "http-auth-passport": 1,
+          "aws-jwt-verify": 1,
+          "bearer": 1,
+          "passport-http-bearer": 1,
+          "sha256": 1,
+          "pino": 1,
+          "mime-types": 1,
+          "markdown-it": 1,
+          "sharp": 1,
+          "os": 1,
+          "stoppable": 1,
+          "node:path": 1,
+          ":": 1,
+          "serve-static": 1,
+          "wait-on": 1,
+          "execa": 1,
+          "en": 1,
+          "vue-i18n": 1,
+          "vue-router": 1,
+          "undefined": 1,
+          "function": 1,
+          "jquery": 1,
+          "use": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 18,
+        "packages": {
+          "shopify": 15,
+          "react": 6,
+          "headlessui": 4,
+          "graphql-tag": 2,
+          "react-router-dom": 1,
+          "React": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 131,
+        "packages": {
+          "os": 39,
+          "torch": 33,
+          "numpy": 30,
+          "sys": 25,
+          "typing": 21,
+          "detectron2": 21,
+          "pandas": 19,
+          "json": 18,
+          "mlflow": 17,
+          "LazyCall": 16,
+          "collections": 15,
+          "argparse": 13,
+          "util": 13,
+          "airbyte_cdk": 11,
+          "logging": 11,
+          "Any": 11,
+          "re": 11,
+          "booknlp": 10,
+          "random": 10,
+          "math": 10,
+          "nn": 9,
+          "click": 8,
+          "Path": 7,
+          "pathlib": 7,
+          "html": 7,
+          "dash": 7,
+          "torchvision": 7,
+          "ShapeSpec": 7,
+          "copy": 6,
+          "Counter": 6,
+          "dcc": 6,
+          "datasets": 6,
+          "matplotlib": 6,
+          "abc": 5,
+          "ABC": 5,
+          "io": 5,
+          "datetime": 5,
+          "UserDict": 5,
+          "this": 5,
+          "Source": 4,
+          "List": 4,
+          "transformers": 4,
+          "time": 4,
+          "pkg_resources": 4,
+          "setuptools": 4,
+          "setup": 4,
+          "fvcore": 4,
+          "Matcher": 4,
+          "Box2BoxTransform": 4,
+          "NestedTensor": 4,
+          "models": 4,
+          "PIL": 4,
+          "zipfile": 4,
+          "train_test_split": 4,
+          "sklearn": 4,
+          "keras": 4,
+          "pydantic": 3,
+          "subprocess": 3,
+          "defaultdict": 3,
+          "BertTokenizer": 3,
+          "NameCoref": 3,
+          "urllib": 3,
+          "project": 3,
+          "Input": 3,
+          "plotly": 3,
+          "SimpleStem": 3,
+          "RegNet": 3,
+          "WarmupParamScheduler": 3,
+          "MultiStepParamScheduler": 3,
+          "ROIPooler": 3,
+          "DefaultAnchorGenerator": 3,
+          "BasicStem": 3,
+          "PositionEmbeddingSine": 3,
+          "panopticapi": 3,
+          "Image": 3,
+          "packaging": 3,
+          "yaml": 3,
+          "base64": 3,
+          "tensorflow": 3,
+          "MlflowClient": 3,
+          "required": 2,
+          "check_config_against_spec_or_exit": 2,
+          "--config": 2,
+          "AirbyteMessage": 2,
+          "Connector": 2,
+          "functools": 2,
+          "Type": 2,
+          "dataclasses": 2,
+          "dataclass": 2,
+          "Dict": 2,
+          "AirbyteCatalog": 2,
+          "spacy": 2,
+          "QuoteTagger": 2,
+          "Token": 2,
+          "QuotationAttribution": 2,
+          "itertools": 2,
+          "flask": 2,
+          "ssl": 2,
+          "omegaconf": 2,
+          "OmegaConf": 2,
+          "get_default_optimizer_params": 2,
+          "transforms": 2,
+          "COCOEvaluator": 2,
+          "GeneralizedRCNN": 2,
+          "RPN": 2,
+          "HungarianMatcher": 2,
+          "linear_sum_assignment": 2,
+          "Transformer": 2,
+          "scipy": 2,
+          "DETR": 2,
+          "DETRsegm": 2,
+          "box_cxcywh_to_xyxy": 2,
+          "pycocotools": 2,
+          "Backbone": 2,
+          "box_ops": 2,
+          "Tensor": 2,
+          "Optional": 2,
+          "pickle": 2,
+          "cv2": 2,
+          "Version": 2,
+          "docutils": 2,
+          "sphinx": 2,
+          "warnings": 2,
+          "mean_squared_error": 2,
+          "TempDir": 2,
+          "requests": 2,
+          "cli_args": 2,
+          "pyspark": 2,
+          "Callback": 2,
+          "Dense": 2,
+          "Sequential": 2,
+          "pkgutil": 1,
+          "AirbyteConnectionStatus": 1,
+          "ValidationError": 1,
+          "AirbyteSentry": 1,
+          "tempfile": 1,
+          "ConnectorSpecification": 1,
+          "importlib": 1,
+          "AirbyteLogFormatter": 1,
+          "get_secrets": 1,
+          "AirbyteLogMessage": 1,
+          "traceback": 1,
+          "Enum": 1,
+          "annotations": 1,
+          "AnyUrl": 1,
+          "enum": 1,
+          "__future__": 1,
+          "InternalConfig": 1,
+          "lru_cache": 1,
+          "Stream": 1,
+          "TypeTransformer": 1,
+          "create_timer": 1,
+          "HttpStream": 1,
+          "BaseModel": 1,
+          "expand_refs": 1,
+          "ResourceSchemaLoader": 1,
+          "AirbyteStream": 1,
+          "inspect": 1,
+          "selectors": 1,
+          "TextIOWrapper": 1,
+          "log_by_prefix": 1,
+          "CatalogHelper": 1,
+          "their": 1,
+          "AirbyteLogger": 1,
+          "EnglishBookNLP": 1,
+          "Variable": 1,
+          "Doc": 1,
+          "BertModel": 1,
+          "BERTSpeakerID": 1,
+          "SpacyPipeline": 1,
+          "GenderEM": 1,
+          "escape": 1,
+          "LitBankCoref": 1,
+          "LitBankEntityTagger": 1,
+          "join": 1,
+          "Tagger": 1,
+          "isfile": 1,
+          "tqdm": 1,
+          "listdir": 1,
+          "Entity": 1,
+          "BERTCorefTagger": 1,
+          "dictionary:": 1,
+          "b3": 1,
+          "shuffle": 1,
+          "sqrt": 1,
+          "CrossEntropyLoss": 1,
+          "BookNLP": 1,
+          "app": 1,
+          "update_output_div": 1,
+          "summer": 1,
+          "Config": 1,
+          "MMDetDetector": 1,
+          "get_config": 1,
+          "comm": 1,
+          "ResNet": 1,
+          "functional": 1,
+          "TrainingSampler": 1,
+          "DatasetEvaluator": 1,
+          "create_keypoint_hflip_indices": 1,
+          "FastRCNNOutputLayers": 1,
+          "KRCNNConvDeconvUpsampleHead": 1,
+          "LastLevelMaxPool": 1,
+          "PanopticFPN": 1,
+          "SemSegFPNHead": 1,
+          "LastLevelP6P7": 1,
+          "RetinaNetHead": 1,
+          "RetinaNet": 1,
+          "NaiveSyncBatchNorm": 1,
+          "CfgNode": 1,
+          "detection_utils": 1,
+          "TransformGen": 1,
+          "convert_coco_poly_to_mask": 1,
+          "log_first_n": 1,
+          "Joiner": 1,
+          "META_ARCH_REGISTRY": 1,
+          "Boxes": 1,
+          "giou_loss": 1,
+          "maybe_add_gradient_clipping": 1,
+          "DetectionCheckpointer": 1,
+          "get_cfg": 1,
+          "d2": 1,
+          "MetadataCatalog": 1,
+          "DefaultTrainer": 1,
+          "DetrDatasetMapper": 1,
+          "mask": 1,
+          "COCOeval": 1,
+          "all_gather": 1,
+          "COCO": 1,
+          "contextlib": 1,
+          "rgb2id": 1,
+          "masks_to_boxes": 1,
+          "pq_compute": 1,
+          "box_xyxy_to_cxcywh": 1,
+          "interpolate": 1,
+          "PanopticEvaluator": 1,
+          "CocoEvaluator": 1,
+          "Iterable": 1,
+          "evaluate": 1,
+          "engine": 1,
+          "build_dataset": 1,
+          "build_model": 1,
+          "DataLoader": 1,
+          "IntermediateLayerGetter": 1,
+          "OrderedDict": 1,
+          "id2rgb": 1,
+          "main": 1,
+          "uuid": 1,
+          "submitit": 1,
+          "nested_tensor_from_tensor_list": 1,
+          "hubconf": 1,
+          "onnxruntime": 1,
+          "detr_resnet50": 1,
+          "unittest": 1,
+          "box_area": 1,
+          "version": 1,
+          "builtins": 1,
+          "_new_empty_tensor": 1,
+          "_output_size": 1,
+          "seaborn": 1,
+          "Tuple": 1,
+          "micrograd": 1,
+          "Value": 1,
+          "graphviz": 1,
+          "Digraph": 1,
+          "Flask": 1,
+          "textblob": 1,
+          "ConllExtractor": 1,
+          "TextBlob": 1,
+          "posixpath": 1,
+          "pytest": 1,
+          "requirements": 1,
+          "operator": 1,
+          "{}=={}": 1,
+          "shutil": 1,
+          "languagesections": 1,
+          "Text": 1,
+          "pending_xref": 1,
+          "copyfile": 1,
+          "Directive": 1,
+          "nodes": 1,
+          "CatBoostRegressor": 1,
+          "catboost": 1,
+          "ElasticNet": 1,
+          "cnn_learner": 1,
+          "fastai": 1,
+          "BytesIO": 1,
+          "pip": 1,
+          "PYTHON_VERSION": 1,
+          "_mlflow_conda_env": 1,
+          "Row": 1,
+          "*": 1,
+          "decode_and_resize_image": 1,
+          "image_pyfunc": 1,
+          "np_utils": 1,
+          "Model": 1,
+          "vgg16": 1,
+          "tarfile": 1,
+          "estimator": 1,
+          "HybridSequential": 1,
+          "Trainer": 1,
+          "mxnet": 1,
+          "SoftmaxCrossEntropyLoss": 1,
+          "Accuracy": 1,
+          "gluon": 1,
+          "h2o": 1,
+          "H2ORandomForestEstimator": 1,
+          "GPyOpt": 1,
+          "pyplot": 1,
+          "fmin": 1,
+          "hyperopt": 1,
+          "ThreadPoolExecutor": 1,
+          "concurrent": 1,
+          "SGD": 1,
+          "Tokenizer": 1,
+          "reuters": 1,
+          "accuracy_score": 1,
+          "lightgbm": 1,
+          "RegressionEvaluator": 1,
+          "Pipeline": 1,
+          "ALS": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "abatomunkuev/airbyte",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/applyingml",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/booknlp",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/dash",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/dash-boilerplate",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/dash_learning",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/detectron2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/detr",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/docusaurus_OSD600",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/fragments",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/hydrogen",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/IPC144",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/kimchi-ssg",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/linearity",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/micrograd",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/ML-For-Beginners",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "abatomunkuev/mlflow",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

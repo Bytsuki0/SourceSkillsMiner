@@ -1,0 +1,414 @@
+{
+  "username": "kritikseth",
+  "areas": {
+    "OSS": {
+      "score": 0.11111111111111116,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.6666666666666666,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.40644679216345136,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9942855728605616,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": -0.2875,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "kritikseth/Datasets": 0.296
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.34601158065491255,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        2910256,
+        283
+      ],
+      "Jupyter Notebook": [
+        18328828,
+        196
+      ],
+      "HTML": [
+        11763,
+        88
+      ],
+      "R": [
+        163,
+        0
+      ],
+      "CSS": [
+        25,
+        242
+      ],
+      "JavaScript": [
+        0,
+        16
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "C++": [
+        0,
+        9
+      ],
+      "SCSS": [
+        0,
+        8
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 842,
+    "total_lines": 21251035,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 2910256,
+        "commits": 283
+      },
+      {
+        "language": "CSS",
+        "lines": 25,
+        "commits": 242
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 18328828,
+        "commits": 196
+      },
+      {
+        "language": "HTML",
+        "lines": 11763,
+        "commits": 88
+      },
+      {
+        "language": "JavaScript",
+        "lines": 0,
+        "commits": 16
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "kritikseth",
+    "analysis_date": "2026-05-10T16:30:55.088029",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 109,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 7,
+        "packages": {
+          "undefined": 4,
+          "jQuery": 2,
+          "function": 1,
+          "vertx": 1,
+          "object": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 77,
+        "packages": {
+          "numpy": 43,
+          "sys": 27,
+          "os": 18,
+          "*": 17,
+          "matplotlib": 15,
+          "random": 14,
+          "pandas": 14,
+          "Path": 13,
+          "pathlib": 13,
+          "time": 12,
+          "SparkSession": 12,
+          "pyspark": 12,
+          "h5py": 11,
+          "ListenBrainz": 11,
+          "keras": 10,
+          "tensorflow": 10,
+          "math": 9,
+          "sklearn": 8,
+          "pygame": 6,
+          "Model": 5,
+          "RushHour4": 5,
+          "Map": 5,
+          "load_train_val": 5,
+          "cv2": 4,
+          "scipy": 4,
+          "FourAgentGame": 4,
+          "pickle": 4,
+          "string": 3,
+          "display": 3,
+          "IPython": 3,
+          "Conv2D": 3,
+          "BatchNormalization": 3,
+          "backend": 3,
+          "trange": 3,
+          "tqdm": 3,
+          "ALS": 3,
+          "RegressionEvaluator": 3,
+          "load_train_test": 3,
+          "RankingMetrics": 3,
+          "csv": 2,
+          "train_test_split": 2,
+          "copy": 2,
+          "tabulate": 2,
+          "__future__": 2,
+          "print_function": 2,
+          "functools": 2,
+          "Lambda": 2,
+          "PIL": 2,
+          "Image": 2,
+          "MaxPooling2D": 2,
+          "genfromtxt": 2,
+          "mapping": 2,
+          "Flask": 2,
+          "flask": 2,
+          "meanAveragePrecision": 2,
+          "warnings": 2,
+          "Dataset": 2,
+          "precision_at_k": 2,
+          "LightFM": 2,
+          "lightfm": 2,
+          "emoji": 2,
+          "starmap": 2,
+          "itertools": 2,
+          "BeautifulSoup": 2,
+          "WhitespaceTokenizer": 2,
+          "textblob": 2,
+          "operator": 2,
+          "UNICODE_EMOJI": 2,
+          "add": 2,
+          "stopwords": 2,
+          "nltk": 2,
+          "contractions": 2,
+          "TextBlob": 2,
+          "bs4": 2,
+          "unicodedata": 2,
+          "LancasterStemmer": 2,
+          "num2words": 2,
+          "re": 2,
+          "SpellChecker": 2,
+          "spellchecker": 2,
+          "html": 2,
+          "the": 1,
+          "0": 1,
+          "train": 1,
+          "nim": 1,
+          "KNeighborsClassifier": 1,
+          "layers": 1,
+          "util": 1,
+          "Node": 1,
+          "tictactoe": 1,
+          "seaborn": 1,
+          "fmin": 1,
+          "deepcopy": 1,
+          "plotly": 1,
+          "manifold": 1,
+          "collections": 1,
+          "ops": 1,
+          "partial": 1,
+          "l2": 1,
+          "LeakyReLU": 1,
+          "concatenate": 1,
+          "currently": 1,
+          "reduce": 1,
+          "imghdr": 1,
+          "colorsys": 1,
+          "fr_utils": 1,
+          "imshow": 1,
+          "nst_utils": 1,
+          "LambdaCallback": 1,
+          "get_file": 1,
+          "pad_sequences": 1,
+          "LSTM": 1,
+          "Dense": 1,
+          "io": 1,
+          "music_utils": 1,
+          "to_categorical": 1,
+          "preprocess": 1,
+          "efficientnet": 1,
+          "tempfile": 1,
+          "predict": 1,
+          "default_exceptions": 1,
+          "mkdtemp": 1,
+          "flask_session": 1,
+          "Session": 1,
+          "werkzeug": 1,
+          "make_regression": 1,
+          "Game": 1,
+          "ParamGridBuilder": 1,
+          "GREENE_DATA": 1,
+          "getpass": 1,
+          "importlib": 1
+        }
+      },
+      "R": {
+        "files_scanned": 3,
+        "packages": {
+          "ggplot2": 3,
+          "corrplot": 3,
+          "dplyr": 3,
+          "tidyverse": 2,
+          "caret": 2,
+          "data.table": 2,
+          "mltools": 2,
+          "glmnet": 2,
+          "stringr": 2,
+          "Amelia": 2,
+          "nnet": 2,
+          "MASS": 1,
+          "caTools": 1,
+          "plotly": 1,
+          "lattice": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "kritikseth/AI-College-Sem-V",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kritikseth/CCM",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kritikseth/Data-Cleaning-and-Regression-on-BigMart",
+        "files_analyzed": 1,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "kritikseth/Datasets",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kritikseth/Deep-Learning-Specialization",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kritikseth/EDA-and-Linear-Regression-on-Boston-Housing-in-R",
+        "files_analyzed": 1,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "kritikseth/iKitchen-Flask",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kritikseth/KritikSeth.github.io",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "kritikseth/LinearRegression",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kritikseth/ML-Competitions",
+        "files_analyzed": 1,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "kritikseth/Moving-Target-Interception-using-Multi-Agent-Reinforcement-Learning",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kritikseth/Music-Recommendation-System",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kritikseth/NLP-Cleaning-Pipeline",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kritikseth/NLP-Cleaning-Pipeline-app",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

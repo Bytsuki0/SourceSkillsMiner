@@ -1,0 +1,284 @@
+{
+  "username": "DavidF-Dev",
+  "areas": {
+    "OSS": {
+      "score": 0.7777777777777777,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4487179487179487,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.17307692307692307
+      }
+    },
+    "Adaptability": {
+      "score": -0.116667,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.6667,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 2.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "DavidF-Dev/Terraria-Crowd-Control": 0.33808000000000005
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5219657452991453,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C#": [
+        964326,
+        1246
+      ],
+      "GLSL": [
+        4682,
+        0
+      ],
+      "C++": [
+        95232,
+        11
+      ],
+      "CSS": [
+        131428,
+        17
+      ],
+      "JavaScript": [
+        3047,
+        9
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 1283,
+    "total_lines": 1198715,
+    "top_5_languages": [
+      {
+        "language": "C#",
+        "lines": 964326,
+        "commits": 1246
+      },
+      {
+        "language": "CSS",
+        "lines": 131428,
+        "commits": 17
+      },
+      {
+        "language": "C++",
+        "lines": 95232,
+        "commits": 11
+      },
+      {
+        "language": "JavaScript",
+        "lines": 3047,
+        "commits": 9
+      },
+      {
+        "language": "GLSL",
+        "lines": 4682,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "DavidF-Dev",
+    "analysis_date": "2026-05-10T20:31:27.655507",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 88,
+    "languages": {
+      "C#": {
+        "files_scanned": 48,
+        "packages": {
+          "System": 24,
+          "Terraria.ModLoader": 17,
+          "UnityEngine": 17,
+          "Terraria": 13,
+          "System.IO": 10,
+          "System.Collections.Generic": 10,
+          "System.Linq": 7,
+          "JetBrains.Annotations": 7,
+          "System.Runtime.CompilerServices": 6,
+          "Terraria.ID": 6,
+          "Microsoft.Xna.Framework": 6,
+          "System.Reflection": 5,
+          "System.Collections": 5,
+          "System.Diagnostics.Contracts": 4,
+          "UnityEngine.Audio": 4,
+          "EasyPacketsLib": 3,
+          "Terraria.ModLoader.IO": 2,
+          "EasyPacketsLib.Internals": 2,
+          "Microsoft.Xna.Framework.Graphics": 2,
+          "Random": 2,
+          "UnityEditor": 2,
+          "InputKey": 2,
+          "UnityEngine.UI": 2,
+          "System.Runtime.InteropServices": 1,
+          "System.Text": 1,
+          "UdpClient": 1,
+          "HttpClient": 1,
+          "System.Net": 1,
+          "Newtonsoft.Json": 1,
+          "Microsoft.Toolkit.Uwp.Notifications": 1,
+          "System.Net.Sockets": 1,
+          "System.Diagnostics": 1,
+          "DownedNPCLib.Internals": 1,
+          "Terraria.Chat": 1,
+          "Terraria.Localization": 1,
+          "Terraria.ModLoader.Core": 1,
+          "GuidPlayerLib.Code.Internals": 1,
+          "Terraria.Graphics.Light": 1,
+          "PlayerRenderTargetLib.Code.Internals": 1,
+          "Object": 1,
+          "System.Runtime.Serialization.Formatters.Binary": 1,
+          "UnityEngine.EventSystems": 1,
+          "UnityEngine.InputSystem": 1,
+          "Enum": 1,
+          "UnityEngine.SceneManagement": 1,
+          "Mono.CSharp": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 8,
+        "packages": {
+          "namespace": 8,
+          "<iostream>": 6,
+          "iostream": 6,
+          "<sstream>": 4,
+          "sstream": 4,
+          "<math.h>": 1,
+          "math.h": 1,
+          "<queue>": 1,
+          "queue": 1,
+          "functional": 1,
+          "<functional>": 1,
+          "Sprite.h": 1,
+          "CentipedeGameApp.h": 1,
+          "glm\\vec2.hpp": 1,
+          "<glm\\vec2.hpp>": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "DavidF-Dev/Celeste64",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "DavidF-Dev/Centipede-2019-",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "DavidF-Dev/MacroDroid-PC-Notification",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "DavidF-Dev/Terraria-Downed-NPC-Lib",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "DavidF-Dev/Terraria-Easy-Packets-Lib",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "DavidF-Dev/Terraria-Guid-Player-Lib",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "DavidF-Dev/Terraria-Michael-Mod",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "DavidF-Dev/Terraria-Player-Render-Target-Lib",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "DavidF-Dev/Unity-Audio",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "DavidF-Dev/Unity-DeveloperConsole",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "DavidF-Dev/Unity-MathsHelper",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "DavidF-Dev/Unity-TweenAnimation",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

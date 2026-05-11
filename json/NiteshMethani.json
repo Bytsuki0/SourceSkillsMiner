@@ -1,0 +1,438 @@
+{
+  "username": "NiteshMethani",
+  "areas": {
+    "OSS": {
+      "score": 0.5882062529128349,
+      "details": {
+        "issue_resolution_rate": 0.4,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9823093793692522
+      }
+    },
+    "Status": {
+      "score": 0.3492246858063419,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9853754902479746,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.45,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "NiteshMethani/PlotQA": 0.3645714285714286
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2974861877438354,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        748282,
+        4
+      ],
+      "CMake": [
+        616564,
+        2
+      ],
+      "Dart": [
+        307041,
+        0
+      ],
+      "HTML": [
+        61509,
+        4
+      ],
+      "Swift": [
+        56681,
+        0
+      ],
+      "C": [
+        132003,
+        4
+      ],
+      "Kotlin": [
+        4513,
+        0
+      ],
+      "Objective-C": [
+        1244,
+        0
+      ],
+      "Jupyter Notebook": [
+        1606752,
+        29
+      ],
+      "Python": [
+        1460321,
+        19
+      ],
+      "Shell": [
+        31702,
+        1
+      ],
+      "MATLAB": [
+        6973,
+        0
+      ],
+      "Makefile": [
+        1078,
+        0
+      ],
+      "TeX": [
+        68591,
+        0
+      ],
+      "Batchfile": [
+        1239,
+        0
+      ],
+      "Ruby": [
+        8672,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 63,
+    "total_lines": 5113165,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 1606752,
+        "commits": 29
+      },
+      {
+        "language": "Python",
+        "lines": 1460321,
+        "commits": 19
+      },
+      {
+        "language": "C++",
+        "lines": 748282,
+        "commits": 4
+      },
+      {
+        "language": "HTML",
+        "lines": 61509,
+        "commits": 4
+      },
+      {
+        "language": "C",
+        "lines": 132003,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "NiteshMethani",
+    "analysis_date": "2026-05-10T15:22:37.816539",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 155,
+    "languages": {
+      "C++": {
+        "files_scanned": 21,
+        "packages": {
+          "generated_plugin_registrant.h": 6,
+          "my_application.h": 6,
+          "flutter/generated_plugin_registrant.h": 6,
+          "flutter_window.h": 5,
+          "windows.h": 4,
+          "utils.h": 4,
+          "<windows.h>": 4,
+          "flutter_windows.h": 4,
+          "<flutter_windows.h>": 4,
+          "<flutter_linux/flutter_linux.h>": 3,
+          "<gdk/gdkx.h>": 3,
+          "flutter_linux/flutter_linux.h": 3,
+          "gdk/gdkx.h": 3,
+          "optional": 3,
+          "<optional>": 3,
+          "flutter/flutter_view_controller.h": 2,
+          "flutter/dart_project.h": 2,
+          "<flutter/flutter_view_controller.h>": 2,
+          "<flutter/dart_project.h>": 2,
+          "<stdio.h>": 2,
+          "stdio.h": 2,
+          "<iostream>": 2,
+          "io.h": 2,
+          "<io.h>": 2,
+          "iostream": 2,
+          "<dwmapi.h>": 2,
+          "EnableNonClientDpiScaling": 2,
+          "resource.h": 2,
+          "win32_window.h": 2,
+          "dwmapi.h": 2
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 17,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 3,
+          "<flutter_linux/flutter_linux.h>": 3,
+          "flutter_linux/flutter_linux.h": 3,
+          "gtk/gtk.h": 3,
+          "<gtk/gtk.h>": 3,
+          "<flutter/plugin_registry.h>": 3,
+          "flutter/plugin_registry.h": 3,
+          "memory": 3,
+          "<memory>": 3,
+          "string": 3,
+          "<string>": 3,
+          "flutter/flutter_view_controller.h": 2,
+          "win32_window.h": 2,
+          "flutter/dart_project.h": 2,
+          "<flutter/flutter_view_controller.h>": 2,
+          "<flutter/dart_project.h>": 2,
+          "vector": 2,
+          "<vector>": 2,
+          "windows.h": 1,
+          "<windows.h>": 1,
+          "functional": 1,
+          "<functional>": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 25,
+        "packages": {
+          "flutter": 25,
+          "using_apis_in_flutter": 6,
+          "airbnb_listing_widget": 4,
+          "flutter_test": 3,
+          "app_scroll_behavior.dart": 1,
+          "video_feed_screen.dart": 1,
+          "video_player_widget.dart": 1,
+          "video_player": 1,
+          "tiktok_video_feed": 1,
+          "dio": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 3,
+        "packages": {
+          "io.flutter": 3,
+          "com.example": 3
+        }
+      },
+      "Python": {
+        "files_scanned": 66,
+        "packages": {
+          "phi": 26,
+          "tensorflow": 22,
+          "__future__": 22,
+          "Assistant": 22,
+          "print_function": 20,
+          "division": 15,
+          "numpy": 14,
+          "os": 13,
+          "absolute_import": 13,
+          "OpenAIChat": 11,
+          "time": 7,
+          "typing": 7,
+          "json": 6,
+          "matplotlib": 5,
+          "codecs": 5,
+          "pprint": 5,
+          "BaseModel": 5,
+          "pydantic": 5,
+          "asyncio": 5,
+          "argparse": 4,
+          "pandas": 4,
+          "sys": 4,
+          "lookup_ops": 4,
+          "collections": 4,
+          "fastapi": 4,
+          "app": 4,
+          "Optional": 4,
+          "PgVector2": 4,
+          "List": 4,
+          "rich": 4,
+          "errno": 3,
+          "sklearn": 3,
+          "random": 3,
+          "math": 3,
+          "APIRouter": 3,
+          "DuckDbAssistant": 3,
+          "YFinanceTools": 3,
+          "pathlib": 3,
+          "DuckDuckGo": 3,
+          "PythonAssistant": 3,
+          "Path": 3,
+          "PgAssistantStorage": 3,
+          "PDFUrlKnowledgeBase": 3,
+          "seaborn": 2,
+          "pylab": 2,
+          "router": 2,
+          "logger": 2,
+          "httpx": 2,
+          "typer": 2,
+          "CsvFile": 2,
+          "helper": 1,
+          "scipy": 1,
+          "expit": 1,
+          "log_loss": 1,
+          "mean_squared_error": 1,
+          "PCA": 1,
+          "fashion_mnist_loader": 1,
+          "FeedForwardNetwork": 1,
+          "rcParams": 1,
+          "struct": 1,
+          "*": 1,
+          "array": 1,
+          "loader": 1,
+          "load_mnist": 1,
+          "nest": 1,
+          "abc": 1,
+          "core": 1,
+          "six": 1,
+          "itertools": 1,
+          "unicode_literals": 1,
+          "re": 1,
+          "subprocess": 1,
+          "HealthResponse": 1,
+          "generate_greeting": 1,
+          "HelloResponse": 1,
+          "feature": 1,
+          "API": 1,
+          "Mangum": 1,
+          "mangum": 1,
+          "FastAPI": 1,
+          "uvicorn": 1,
+          "KMeans": 1,
+          "AssistantKnowledge": 1,
+          "ExaTools": 1,
+          "Toolkit": 1,
+          "Calculator": 1,
+          "FileTools": 1,
+          "dedent": 1,
+          "textwrap": 1,
+          "OpenAIEmbedder": 1,
+          "WebsiteReader": 1,
+          "PDFReader": 1,
+          "agent": 1,
+          "get_agent": 1,
+          "nest_asyncio": 1,
+          "streamlit": 1,
+          "Document": 1,
+          "Chroma": 1,
+          "TextLoader": 1,
+          "CharacterTextSplitter": 1,
+          "langchain": 1,
+          "OpenAIEmbeddings": 1,
+          "LangChainKnowledgeBase": 1,
+          "PgMemoryDb": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 18,
+        "packages": {
+          "FlutterMacOS": 12,
+          "Cocoa": 9,
+          "UIKit": 6,
+          "Flutter": 6,
+          "XCTest": 6,
+          "Foundation": 3
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "NiteshMethani/airbnb_listing_widget",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "NiteshMethani/Deep-Learning-CS7015",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "NiteshMethani/fastapi-lambda-boilerplate",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "NiteshMethani/Pattern-Recognition",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "NiteshMethani/phidata",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "NiteshMethani/tiktok_video_feed",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "NiteshMethani/using_apis_in_flutter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

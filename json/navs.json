@@ -1,0 +1,1000 @@
+{
+  "username": "navs",
+  "areas": {
+    "OSS": {
+      "score": -0.516006506828192,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.7259902397577118
+      }
+    },
+    "Status": {
+      "score": 0.08905525002754167,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6143521058105431,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.125,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.11039025136013009,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C#": [
+        91901,
+        6
+      ],
+      "TypeScript": [
+        99596,
+        0
+      ],
+      "CSS": [
+        27665,
+        0
+      ],
+      "JavaScript": [
+        52287,
+        2
+      ],
+      "Dockerfile": [
+        24238,
+        0
+      ],
+      "HTML": [
+        129413,
+        1
+      ],
+      "Shell": [
+        2243588,
+        0
+      ],
+      "Python": [
+        2761980,
+        0
+      ],
+      "Perl": [
+        192704,
+        0
+      ],
+      "MATLAB": [
+        60129,
+        0
+      ],
+      "M": [
+        10050,
+        0
+      ],
+      "Makefile": [
+        7564,
+        0
+      ],
+      "C": [
+        85222,
+        5
+      ],
+      "C++": [
+        913110,
+        12
+      ],
+      "Java": [
+        88906,
+        1
+      ],
+      "CMake": [
+        621,
+        0
+      ],
+      "BASIC": [
+        322099,
+        3
+      ],
+      "Go": [
+        11378,
+        0
+      ],
+      "Objective-C++": [
+        84412,
+        0
+      ],
+      "Objective-C": [
+        1981,
+        0
+      ],
+      "Batchfile": [
+        79888,
+        0
+      ],
+      "Game Maker Language": [
+        12594002,
+        0
+      ],
+      "GLSL": [
+        2307042,
+        0
+      ],
+      "Jupyter Notebook": [
+        211772,
+        0
+      ],
+      "HLSL": [
+        19972,
+        0
+      ],
+      "PowerShell": [
+        1131,
+        0
+      ],
+      "ShaderLab": [
+        0,
+        0
+      ]
+    },
+    "language_count": 27,
+    "total_commits": 30,
+    "total_lines": 22422651,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 913110,
+        "commits": 12
+      },
+      {
+        "language": "C#",
+        "lines": 91901,
+        "commits": 6
+      },
+      {
+        "language": "C",
+        "lines": 85222,
+        "commits": 5
+      },
+      {
+        "language": "BASIC",
+        "lines": 322099,
+        "commits": 3
+      },
+      {
+        "language": "JavaScript",
+        "lines": 52287,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "navs",
+    "analysis_date": "2026-05-10T21:36:12.706924",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 341,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "<EGL/egl.h>": 1,
+          "EGL/egl.h": 1,
+          "gl3stub.h": 1,
+          "windows.h": 1,
+          "Carbon/Carbon.h": 1,
+          "dlfcn.h": 1,
+          "<Carbon/Carbon.h>": 1,
+          "gl3w.h": 1,
+          "GL/glx.h": 1,
+          "<windows.h>": 1,
+          "<GL/glx.h>": 1,
+          "<dlfcn.h>": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 45,
+        "packages": {
+          "System.Collections.Generic": 20,
+          "UnityEngine": 16,
+          "Newtonsoft.Json": 15,
+          "System": 12,
+          "System.IO": 10,
+          "UnityEditor": 8,
+          "System.Linq": 8,
+          "GLTF.Math": 8,
+          "GLTF.Schema": 7,
+          "Newtonsoft.Json.Linq": 6,
+          "GLTF.Extensions": 6,
+          "System.Runtime.InteropServices": 5,
+          "UnityEditor.EditorTools": 3,
+          "GLTF.Utilities": 3,
+          "System.Collections": 2,
+          "UnityEngine.AddressableAssets": 2,
+          "UnityEngine.UI": 2,
+          "UnityEngine.ResourceManagement.AsyncOperations": 2,
+          "Actors": 1,
+          "UnityEditor.Callbacks": 1,
+          "UnityEngine.ResourceManagement.ResourceLocations": 1,
+          "UnityEngine.ResourceManagement.ResourceProviders": 1,
+          "UnityEngine.AddressableAssets.ResourceLocators": 1,
+          "UnityEngine.Events": 1,
+          "button": 1,
+          "Align": 1,
+          "box": 1,
+          "UnityEditor.AnimatedValues": 1,
+          "Toolbar": 1,
+          "System.CodeDom.Compiler": 1,
+          "System.ComponentModel": 1,
+          "UnityEngine.Rendering": 1,
+          "System.Threading.Tasks": 1,
+          "System.Threading": 1,
+          "System.IO.Pipes": 1,
+          "Microsoft.Win32": 1,
+          "NativeSupports": 1,
+          "System.Text": 1,
+          "System.Diagnostics": 1,
+          "GLTF": 1,
+          "System.Text.RegularExpressions": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 26,
+        "packages": {
+          "logger.h": 8,
+          "stdafx.h": 7,
+          "glcommon.h": 6,
+          "RenderAPI.h": 6,
+          "PlatformBase.h": 6,
+          "Renderer.h": 5,
+          "<vector>": 5,
+          "vector": 5,
+          "windows.h": 5,
+          "<windows.h>": 5,
+          "<string.h>": 4,
+          "string.h": 4,
+          "Shader.h": 4,
+          "<assert.h>": 4,
+          "assert.h": 4,
+          "<math.h>": 3,
+          "math.h": 3,
+          "<EGL/egl.h>": 3,
+          "EGL/egl.h": 3,
+          "targetver.h": 3,
+          "SDKDDKVer.h": 3,
+          "<SDKDDKVer.h>": 3,
+          "time.h": 2,
+          "<time.h>": 2,
+          "<stdlib.h>": 2,
+          "stdlib.h": 2,
+          "image.h": 2,
+          "d3d11.h": 2,
+          "<d3d11.h>": 2,
+          "<optional>": 2,
+          "<cstring>": 2,
+          "<stdint.h>": 2,
+          "<tuple>": 2,
+          "optional": 2,
+          "stdint.h": 2,
+          "cstring": 2,
+          "namespace": 2,
+          "std": 2,
+          "gml_ext.h": 2,
+          "tuple": 2,
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "ScreenCaptureDlg.h": 2,
+          "ScreenCapture.h": 2,
+          "connection.h": 2,
+          "cstdlib": 1,
+          "<cstdlib>": 1,
+          "DrawObject.h": 1,
+          "<image.h>": 1,
+          "android/log.h": 1,
+          "<android/log.h>": 1,
+          "jni.h": 1,
+          "<jni.h>": 1,
+          "Unity/IUnityGraphics.h": 1,
+          "Unity/IUnityGraphicsD3D11.h": 1,
+          "<cmath>": 1,
+          "cmath": 1,
+          "Unity/IUnityGraphicsD3D12.h": 1,
+          "<d3d12.h>": 1,
+          "d3d12.h": 1,
+          "<OpenGL/gl3.h>": 1,
+          "OpenGLES/ES2/gl.h": 1,
+          "<GL/gl.h>": 1,
+          "OpenGL/gl3.h": 1,
+          "<GLES2/gl2.h>": 1,
+          "gl3w/gl3w.h": 1,
+          "GL/gl.h": 1,
+          "<OpenGLES/ES2/gl.h>": 1,
+          "GLES2/gl2.h": 1,
+          "Unity/IUnityGraphicsVulkan.h": 1,
+          "map": 1,
+          "<map>": 1,
+          "tiny_optional.h": 1,
+          "tiny_array.h": 1,
+          "intrin.h": 1,
+          "strsafe.h": 1,
+          "<strsafe.h>": 1,
+          "<intrin.h>": 1,
+          "shellapi.h": 1,
+          "tiny_string.h": 1,
+          "<shellapi.h>": 1,
+          "<objbase.h>": 1,
+          "<string>": 1,
+          "gml_async_glue.h": 1,
+          "oleidl.h": 1,
+          "<oleidl.h>": 1,
+          "shlobj.h": 1,
+          "<shlobj.h>": 1,
+          "string": 1,
+          "objbase.h": 1,
+          "Captures.h": 1,
+          "Resource.h": 1,
+          "afxdialogex.h": 1,
+          "echo_client.h": 1,
+          "unary_server.h": 1,
+          "NativeNamedPipe.h": 1,
+          "fcntl.h": 1,
+          "sys/types.h": 1,
+          "<sys/types.h>": 1,
+          "<fcntl.h>": 1,
+          "sys/socket.h": 1,
+          "sys/un.h": 1,
+          "<sys/un.h>": 1,
+          "<sys/socket.h>": 1,
+          "<unistd.h>": 1,
+          "errno.h": 1,
+          "unistd.h": 1,
+          "<errno.h>": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "cstdint": 2,
+          "string": 2,
+          "<string>": 2,
+          "<cstdint>": 2
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 56,
+        "packages": {
+          "string": 7,
+          "<string>": 7,
+          "null_logger.h": 7,
+          "IUnityInterface.h": 6,
+          "client.h": 6,
+          "stddef.h": 5,
+          "<stddef.h>": 5,
+          "<stdint.h>": 5,
+          "stdint.h": 5,
+          "<vector>": 5,
+          "vector": 5,
+          "cstring": 3,
+          "<cstring>": 3,
+          "windows.h": 3,
+          "<stdlib.h>": 3,
+          "<windows.h>": 3,
+          "stdlib.h": 3,
+          "Windows.h": 3,
+          "<Windows.h>": 3,
+          "server_i.h": 3,
+          "default.h": 3,
+          "glcommon.h": 2,
+          "<math.h>": 2,
+          "math.h": 2,
+          "GLES3/gl3.h": 2,
+          "<GLES3/gl3.h>": 2,
+          "png.h": 2,
+          "pnglibconf.h": 2,
+          "time.h": 2,
+          "<time.h>": 2,
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "<string.h>": 2,
+          "string.h": 2,
+          "<stdbool.h>": 2,
+          "stdbool.h": 2,
+          "<fstream>": 2,
+          "fstream": 2,
+          "Extension_Interface.h": 2,
+          "steam_glue.h": 2,
+          "std::string": 2,
+          "<FirebaseFirestore/FirebaseFirestore.h>": 2,
+          "<FirebaseCore/FirebaseCore.h>": 2,
+          "the": 2,
+          "<Winsock2.h>": 2,
+          "Winsock2.h": 2,
+          "sys/socket.h": 2,
+          "thread.h": 2,
+          "<sys/socket.h>": 2,
+          "<pthread.h>": 2,
+          "pthread.h": 2,
+          "iostream": 2,
+          "<iostream>": 2,
+          "<png.h>": 1,
+          "pngconf.h": 1,
+          "setjmp.h": 1,
+          "limits.h": 1,
+          "<limits.h>": 1,
+          "<setjmp.h>": 1,
+          "<crtdbg.h>": 1,
+          "crtdbg.h": 1,
+          "<fp.h>": 1,
+          "<alloc.h>": 1,
+          "<mem.h>": 1,
+          "config.h": 1,
+          "mem.h": 1,
+          "pngusr.h": 1,
+          "pngdebug.h": 1,
+          "fp.h": 1,
+          "pnginfo.h": 1,
+          "m68881.h": 1,
+          "<float.h>": 1,
+          "pngprefix.h": 1,
+          "alloc.h": 1,
+          "float.h": 1,
+          "pngstruct.h": 1,
+          "<m68881.h>": 1,
+          "<config.h>": 1,
+          "zlib.h": 1,
+          "<GLES2/gl2.h>": 1,
+          "android/api-level.h": 1,
+          "<android/api-level.h>": 1,
+          "GLES2/gl2.h": 1,
+          "<GLES3/gl31.h>": 1,
+          "GLES3/gl32.h": 1,
+          "gl3stub.h": 1,
+          "<GLES3/gl32.h>": 1,
+          "GLES3/gl31.h": 1,
+          "android/log.h": 1,
+          "<android/log.h>": 1,
+          "Unity/IUnityGraphics.h": 1,
+          "UNITY_VULKAN_HEADER": 1,
+          "glcorearb.h": 1,
+          "<inttypes.h>": 1,
+          "inttypes.h": 1,
+          "<stdarg.h>": 1,
+          "stdarg.h": 1,
+          "<filesystem>": 1,
+          "filesystem": 1,
+          "namespace": 1,
+          "<tuple>": 1,
+          "tuple": 1,
+          "gml_ext.h": 1,
+          "pch.h": 1,
+          "<cmath>": 1,
+          "cmath": 1,
+          "steam_callbacks.h": 1,
+          "gml_glue.h": 1,
+          "gml_glue_map.h": 1,
+          "steam_api.h": 1,
+          "map": 1,
+          "<map>": 1,
+          "std::map": 1,
+          "isteamappticket.h": 1,
+          "std::vector": 1,
+          "Ref.h": 1,
+          "framework.h": 1,
+          "Captures.h": 1,
+          "resource.h": 1,
+          "afxwin.h": 1,
+          "<afxdisp.h>": 1,
+          "<afxdtctl.h>": 1,
+          "afxdtctl.h": 1,
+          "targetver.h": 1,
+          "<afxcontrolbars.h>": 1,
+          "afxext.h": 1,
+          "<afxext.h>": 1,
+          "<afxcmn.h>": 1,
+          "afxdisp.h": 1,
+          "<afxwin.h>": 1,
+          "afxcontrolbars.h": 1,
+          "afxcmn.h": 1,
+          "<SDKDDKVer.h>": 1,
+          "SDKDDKVer.h": 1,
+          "sys/types.h": 1,
+          "netinet/in.h": 1,
+          "<netinet/in.h>": 1,
+          "<sys/types.h>": 1,
+          "cstdarg": 1,
+          "<cstdarg>": 1,
+          "<cstdio>": 1,
+          "cstdio": 1,
+          "utils.h": 1,
+          "<queue>": 1,
+          "queue": 1,
+          "algorithm": 1,
+          "listener.h": 1,
+          "lock.h": 1,
+          "<algorithm>": 1,
+          "mutex.h": 1,
+          "cstdlib": 1,
+          "<cstdlib>": 1,
+          "<utility>": 1,
+          "utility": 1,
+          "connection.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 14,
+        "packages": {
+          "fmt": 11,
+          "os": 9,
+          "time": 8,
+          "strings": 4,
+          "io": 4,
+          "net/http": 4,
+          "testing": 3,
+          "bytes": 3,
+          "sync": 3,
+          "net": 3,
+          "strconv": 3,
+          "encoding/json": 3,
+          "errors": 2,
+          "path/filepath": 2,
+          "io/ioutil": 2,
+          "github.com/GeertJohan/go.rice/embedded": 2,
+          "github.com/gorilla/mux": 2,
+          "reflect": 1,
+          "encoding/hex": 1,
+          "crypto/sha256": 1,
+          "path": 1,
+          "runtime": 1,
+          "os/signal": 1,
+          "crypto/tls": 1,
+          "syscall": 1,
+          "sort": 1,
+          "encoding/gob": 1,
+          "math": 1,
+          "github.com/boltdb/bolt": 1,
+          "primer.css": 1,
+          "config.tmpl": 1,
+          "users.tmpl": 1,
+          "locks.tmpl": 1,
+          "body.tmpl": 1,
+          "objects.tmpl": 1,
+          "html/template": 1,
+          "github.com/GeertJohan/go.rice": 1,
+          "github.com/gorilla/context": 1,
+          "regexp": 1,
+          "crypto/rand": 1,
+          "net/http/httptest": 1,
+          "net/url": 1,
+          "-port": 1,
+          "bufio": 1,
+          "-host": 1,
+          "-dir": 1,
+          "os/exec": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 12,
+        "packages": {
+          "android.os": 8,
+          "android.util": 7,
+          "android.app": 7,
+          "android.content": 7,
+          "android.view": 6,
+          "com.yoyogames": 4,
+          "$": 4,
+          "java.util": 4,
+          "com.google": 4,
+          "is.navs": 4,
+          "com.android": 3,
+          "android.graphics": 3,
+          "com.unity3d": 3,
+          "org.json": 2,
+          "androidx.annotation": 2,
+          "java.lang": 2,
+          "androidx.fragment": 2,
+          "androidx.appcompat": 2,
+          "android.support": 1,
+          "java.io": 1,
+          "android.Manifest": 1,
+          "android.opengl": 1,
+          "javax.microedition": 1,
+          "android.widget": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 4,
+        "packages": {
+          "warnings": 4,
+          "utf8": 3,
+          ":std": 3,
+          ":utf8": 3,
+          "open": 3,
+          "strict": 1,
+          ":encoding(utf8)": 1,
+          "Getopt::Std": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 93,
+        "packages": {
+          "os": 35,
+          "numpy": 35,
+          "text": 25,
+          "hparams": 22,
+          "argparse": 21,
+          "re": 20,
+          "utils": 20,
+          "torch": 18,
+          "tensorflow": 18,
+          "sys": 13,
+          "audio": 12,
+          "glob": 10,
+          "json": 10,
+          "partial": 10,
+          "functools": 10,
+          "librosa": 9,
+          "symbols": 9,
+          "math": 8,
+          "io": 7,
+          "Audio": 7,
+          "tqdm": 7,
+          "scipy": 6,
+          "Transformer": 6,
+          "collections": 6,
+          "text_to_sequence": 6,
+          "util": 6,
+          "time": 5,
+          "traceback": 5,
+          "cleaners": 4,
+          "unidecode": 4,
+          "Synthesizer": 4,
+          "load_audio": 4,
+          "synthesizer": 4,
+          "datetime": 4,
+          "parallel_run": 4,
+          "log": 4,
+          "GRUCell": 4,
+          "create_model": 4,
+          "models": 4,
+          "__future__": 3,
+          "print_function": 3,
+          "codecs": 3,
+          "Variable": 3,
+          "functional": 3,
+          "matplotlib": 3,
+          "load_json": 3,
+          "defaultdict": 3,
+          "nltk": 3,
+          "string": 3,
+          "threading": 3,
+          "ProcessPoolExecutor": 3,
+          "concurrent": 3,
+          "subprocess": 3,
+          "requests": 3,
+          "inflect": 3,
+          "jamo": 3,
+          "datasets": 3,
+          "cmudict": 3,
+          "configargparse": 2,
+          "importlib": 2,
+          "logging": 2,
+          "open": 2,
+          "get_window": 2,
+          "mel": 2,
+          "read": 2,
+          "Tacotron2": 2,
+          "OrderedDict": 2,
+          "process_text": 2,
+          "copy": 2,
+          "waveglow": 2,
+          "multiprocessing": 2,
+          "google": 2,
+          "enums": 2,
+          "operator": 2,
+          "difflib": 2,
+          "SequenceMatcher": 2,
+          "speech": 2,
+          "types": 2,
+          "get_durations": 2,
+          "random": 2,
+          "makedirs": 2,
+          "sent_tokenize": 2,
+          "bs4": 2,
+          "BeautifulSoup": 2,
+          "urllib": 2,
+          "Helper": 2,
+          "_bahdanau_score": 2,
+          "_BaseAttentionMechanism": 2,
+          "BahdanauAttention": 2,
+          "RNNCell": 2,
+          "BasicDecoder": 2,
+          "save_audio": 2,
+          "h2j": 2,
+          "sequence_to_text": 2,
+          "DataFeeder": 2,
+          "pathlib": 1,
+          "sphinx_rtd_theme": 1,
+          "recommonmark": 1,
+          "espnet": 1,
+          "CommonMarkParser": 1,
+          "AutoStructify": 1,
+          "custom_english_cleaners": 1,
+          "csv": 1,
+          "unicode_literals": 1,
+          "pad_center": 1,
+          "dynamic_range_decompression": 1,
+          "dynamic_range_compression": 1,
+          "window_sumsquare": 1,
+          "griffin_lim": 1,
+          "write": 1,
+          "nn": 1,
+          "to_gpu": 1,
+          "ConvNorm": 1,
+          "sqrt": 1,
+          "MultiHeadAttention": 1,
+          "FFTBlock": 1,
+          "ScaledDotProductAttention": 1,
+          "Dataset": 1,
+          "Linear": 1,
+          "Encoder": 1,
+          "LengthRegulator": 1,
+          "modules": 1,
+          "data": 1,
+          "shutil": 1,
+          "load_data": 1,
+          "ljspeech": 1,
+          "fastspeech": 1,
+          "glow": 1,
+          "FastSpeech": 1,
+          "flask": 1,
+          "CORS": 1,
+          "hashlib": 1,
+          "Flask": 1,
+          "str2bool": 1,
+          "flask_cors": 1,
+          "signal": 1,
+          "tinytag": 1,
+          "TinyTag": 1,
+          "Pool": 1,
+          "ipdb": 1,
+          "ngrams": 1,
+          "AudioSegment": 1,
+          "pydub": 1,
+          "silence": 1,
+          "frames_to_hours": 1,
+          "pprint": 1,
+          "Counter": 1,
+          "get_encoder_name": 1,
+          "m3u8": 1,
+          "download_with_url": 1,
+          "zipfile": 1,
+          "query_yes_no": 1,
+          "gzip": 1,
+          "six": 1,
+          "tarfile": 1,
+          "create_batch_inputs_from_texts": 1,
+          "train": 1,
+          "core": 1,
+          "nest": 1,
+          "rnn_cell_impl": 1,
+          "remove_puncuations": 1,
+          "tokenize": 1,
+          "plot": 1,
+          "jamo_to_korean": 1,
+          "hangul_to_jamo": 1,
+          "ast": 1,
+          "_jamo_char_to_hcj": 1,
+          "infolog": 1,
+          "ValueWindow": 1,
+          "get_git_revision_hash": 1,
+          "wsgiref": 1,
+          "falcon": 1,
+          "simple_server": 1,
+          "cpu_count": 1,
+          "blizzard": 1,
+          "effects": 1,
+          "normalize_numbers": 1,
+          "Request": 1,
+          "Thread": 1,
+          "atexit": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "jotai": 2,
+          "sidebarWidth": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 26,
+        "packages": {
+          "mantine": 23,
+          "react-i18next": 10,
+          "react": 8,
+          "react-router-dom": 7,
+          "jotai": 4,
+          "tabler": 3,
+          "react-error-boundary": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "navs/beats",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "navs/docmost",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "navs/espnet",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Perl",
+          "Python"
+        ]
+      },
+      {
+        "repository": "navs/FastSpeech",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "navs/gles3jni",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "Java"
+        ]
+      },
+      {
+        "repository": "navs/lfs-test-server",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "navs/multi-speaker-tacotron-tensorflow",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "navs/NativeRenderingPlugin",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C",
+          "C#",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "navs/Pixel-Composer",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C++ Header",
+          "C/C++ Header",
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "navs/tacotron",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "navs/tools",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "navs/unary-server",
+        "files_analyzed": 19,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "navs/unity-addressables-example",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "navs/unity-android-examples",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "navs/unity-editor-examples",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "navs/unity-named-pipes",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C#",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "navs/unity-samples",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "navs/UnityGLTF",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

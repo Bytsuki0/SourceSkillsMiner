@@ -1,0 +1,544 @@
+{
+  "username": "MathCarv",
+  "areas": {
+    "OSS": {
+      "score": 0.0,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3711678990426597,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9990595408716817,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.0625,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.061733579808531946,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        311464,
+        32
+      ],
+      "Java": [
+        68231,
+        71
+      ],
+      "HTML": [
+        284963,
+        9
+      ],
+      "Python": [
+        297166,
+        69
+      ],
+      "C++": [
+        2527732,
+        31
+      ],
+      "CMake": [
+        2054007,
+        13
+      ],
+      "Dart": [
+        3966432,
+        17
+      ],
+      "C": [
+        155799,
+        0
+      ],
+      "Swift": [
+        152132,
+        0
+      ],
+      "Kotlin": [
+        13781,
+        0
+      ],
+      "Objective-C": [
+        4155,
+        0
+      ],
+      "Jupyter Notebook": [
+        287561,
+        43
+      ],
+      "PowerShell": [
+        5043,
+        0
+      ],
+      "C#": [
+        28774,
+        49
+      ],
+      "CSS": [
+        0,
+        2
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 336,
+    "total_lines": 10157240,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 68231,
+        "commits": 71
+      },
+      {
+        "language": "Python",
+        "lines": 297166,
+        "commits": 69
+      },
+      {
+        "language": "C#",
+        "lines": 28774,
+        "commits": 49
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 287561,
+        "commits": 43
+      },
+      {
+        "language": "JavaScript",
+        "lines": 311464,
+        "commits": 32
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "MathCarv",
+    "analysis_date": "2026-05-10T18:20:17.940886",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 246,
+    "languages": {
+      "C#": {
+        "files_scanned": 2,
+        "packages": {
+          "System": 1,
+          "Microsoft.VisualStudio.TestTools.UnitTesting": 1,
+          "CalculatorApp": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 29,
+        "packages": {
+          "flutter_window.h": 8,
+          "utils.h": 8,
+          "windows.h": 8,
+          "<windows.h>": 8,
+          "flutter_windows.h": 8,
+          "<flutter_windows.h>": 8,
+          "generated_plugin_registrant.h": 7,
+          "flutter/generated_plugin_registrant.h": 7,
+          "my_application.h": 6,
+          "optional": 4,
+          "<optional>": 4,
+          "<flutter/dart_project.h>": 4,
+          "flutter/dart_project.h": 4,
+          "flutter/flutter_view_controller.h": 4,
+          "<flutter/flutter_view_controller.h>": 4,
+          "io.h": 4,
+          "<stdio.h>": 4,
+          "<iostream>": 4,
+          "<io.h>": 4,
+          "stdio.h": 4,
+          "iostream": 4,
+          "win32_window.h": 4,
+          "EnableNonClientDpiScaling": 4,
+          "resource.h": 4,
+          "flutter_linux/flutter_linux.h": 3,
+          "<flutter_linux/flutter_linux.h>": 3,
+          "gdk/gdkx.h": 3,
+          "<gdk/gdkx.h>": 3,
+          "dwmapi.h": 3,
+          "<dwmapi.h>": 3,
+          "url_launcher_linux/url_launcher_plugin.h": 1,
+          "<url_launcher_linux/url_launcher_plugin.h>": 1,
+          "url_launcher_windows/url_launcher_windows.h": 1,
+          "<url_launcher_windows/url_launcher_windows.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 26,
+        "packages": {
+          "memory": 8,
+          "<memory>": 8,
+          "<string>": 8,
+          "string": 8,
+          "GeneratedPluginRegistrant.h": 4,
+          "flutter/plugin_registry.h": 4,
+          "<flutter/plugin_registry.h>": 4,
+          "win32_window.h": 4,
+          "<flutter/dart_project.h>": 4,
+          "flutter/dart_project.h": 4,
+          "flutter/flutter_view_controller.h": 4,
+          "<flutter/flutter_view_controller.h>": 4,
+          "vector": 4,
+          "<vector>": 4,
+          "functional": 4,
+          "windows.h": 4,
+          "<functional>": 4,
+          "<windows.h>": 4,
+          "<flutter_linux/flutter_linux.h>": 3,
+          "flutter_linux/flutter_linux.h": 3,
+          "<gtk/gtk.h>": 3,
+          "gtk/gtk.h": 3
+        }
+      },
+      "Dart": {
+        "files_scanned": 14,
+        "packages": {
+          "flutter": 13,
+          "flutter_test": 5,
+          "http": 3,
+          "dart:convert": 3,
+          "exercicio": 2,
+          "flutter_calculator": 2,
+          "album.dart": 2,
+          "view/home_screen.dart": 1,
+          "google_fonts": 1,
+          "auto_size_text": 1,
+          "dart:developer": 1,
+          "url_launcher": 1,
+          "video_player": 1,
+          "albuns_data.dart": 1,
+          "album_details_screen.dart": 1,
+          "band_members_section.dart": 1,
+          "home_screen.dart": 1,
+          "pinkfloyd": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 93,
+        "packages": {
+          "br.inatel": 65,
+          "java.util": 32,
+          "org.springframework": 19,
+          "redessociais": 9,
+          "javax.persistence": 8,
+          "pcmania": 6,
+          "com.anonymous": 4,
+          "com.facebook": 4,
+          "javax.validation": 4,
+          "org.junit": 4,
+          "java.sql": 4,
+          "android.content": 3,
+          "cofrinhointeligente": 3,
+          "ExercicioProposto": 3,
+          "java.math": 3,
+          "expo.modules": 2,
+          "reactor.core": 2,
+          "org.eclipse": 2,
+          "okhttp3.OkHttpClient": 1,
+          "android.os": 1,
+          "android.app": 1,
+          "androidx.annotation": 1,
+          "lombok.NoArgsConstructor": 1,
+          "lombok.Data": 1,
+          "lombok.AllArgsConstructor": 1,
+          "java.time": 1,
+          "static": 1,
+          "javax.annotation": 1,
+          "java.io": 1,
+          "javax.swing": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 21,
+        "packages": {
+          "react": 15,
+          "react-native": 12,
+          "react-navigation": 5,
+          "testing-library": 2,
+          "express": 2,
+          "body-parser": 2,
+          "crypto": 2,
+          "react-native-chart-kit": 1,
+          "axios": 1,
+          "env": 1,
+          "react-native-azure-ad-2": 1,
+          "react-native-picker": 1,
+          "mongoose": 1,
+          "chai": 1,
+          "azure": 1,
+          "rhea-promise": 1,
+          "buffer": 1,
+          "ws": 1,
+          "async-mqtt": 1,
+          "fs": 1,
+          "express-session": 1,
+          "moment": 1,
+          "http": 1,
+          "path": 1,
+          "tailwindcss": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 4,
+        "packages": {
+          "com.example": 4,
+          "io.flutter": 4
+        }
+      },
+      "Python": {
+        "files_scanned": 15,
+        "packages": {
+          "numpy": 4,
+          "os": 3,
+          "matplotlib": 3,
+          "scrapy": 3,
+          "unittest": 2,
+          "cv2": 2,
+          "control": 1,
+          "scipy": 1,
+          "loadmat": 1,
+          "step": 1,
+          "observer": 1,
+          "ABC": 1,
+          "abc": 1,
+          "strategy": 1,
+          "BubbleSort": 1,
+          "signals": 1,
+          "csv": 1,
+          "logging": 1,
+          "pandas": 1,
+          "ImageGrab": 1,
+          "PIL": 1,
+          "pyplot": 1,
+          "RedGPT": 1,
+          "FindingsGenerator": 1,
+          "revChatGPT": 1,
+          "argparse": 1,
+          "Chatbot": 1,
+          "threading": 1,
+          "cycle": 1,
+          "Thread": 1,
+          "itertools": 1,
+          "time": 1,
+          "shutil": 1,
+          "sleep": 1,
+          "get_terminal_size": 1,
+          "setup": 1,
+          "distutils": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 13,
+        "packages": {
+          "FlutterMacOS": 9,
+          "Cocoa": 6,
+          "UIKit": 4,
+          "Flutter": 4,
+          "Foundation": 3,
+          "url_launcher_macos": 1,
+          "path_provider_foundation": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MathCarv/AptivOps",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MathCarv/C213-PID",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MathCarv/C214-L2",
+        "files_analyzed": 23,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "MathCarv/CofrinhoInteligente",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MathCarv/Design_Patterns_C214",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MathCarv/ExerciciosC206L1",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MathCarv/Fifa_2024_Previsoes",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MathCarv/flutter-calculator",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "MathCarv/Matheus_C216",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MathCarv/MSTest",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "MathCarv/PCMania",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MathCarv/PinkFloydDiscos",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "MathCarv/ProjetoC209",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MathCarv/ProjetoFinal_C207_C206",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MathCarv/RedesSociais",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MathCarv/RedGPT",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MathCarv/SimuVoto",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MathCarv/TCC",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "MathCarv/TesteMockFlutter",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

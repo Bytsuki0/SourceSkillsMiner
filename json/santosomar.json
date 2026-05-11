@@ -1,0 +1,649 @@
+{
+  "username": "santosomar",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5384615384615385,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.3076923076923077
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 12,
+        "language_transitions": 18,
+        "topic_entropy_bits": 5.0546,
+        "closed_prs_total": 87,
+        "bounced_back_prs": 67
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "santosomar/AI-agents-for-cybersecurity": 0.38290166666666664,
+        "santosomar/ai-bom-matrix": 0.37548333333333334,
+        "santosomar/ai_news_archive": 0.34
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7910256410256411,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        1042669,
+        438
+      ],
+      "Go": [
+        11125,
+        0
+      ],
+      "Shell": [
+        48046,
+        20
+      ],
+      "Makefile": [
+        567,
+        0
+      ],
+      "Dockerfile": [
+        1377,
+        2
+      ],
+      "JavaScript": [
+        509164,
+        20
+      ],
+      "HTML": [
+        444893,
+        65
+      ],
+      "CSS": [
+        29733,
+        0
+      ],
+      "Jupyter Notebook": [
+        500444,
+        25
+      ],
+      "C++": [
+        40857,
+        7
+      ],
+      "R": [
+        0,
+        5
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 582,
+    "total_lines": 2628875,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 1042669,
+        "commits": 438
+      },
+      {
+        "language": "HTML",
+        "lines": 444893,
+        "commits": 65
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 500444,
+        "commits": 25
+      },
+      {
+        "language": "Shell",
+        "lines": 48046,
+        "commits": 20
+      },
+      {
+        "language": "JavaScript",
+        "lines": 509164,
+        "commits": 20
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "santosomar",
+    "analysis_date": "2026-05-10T17:39:13.638893",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 178,
+    "languages": {
+      "C": {
+        "files_scanned": 8,
+        "packages": {
+          "stdio.h": 6,
+          "<stdio.h>": 6,
+          "linux/module.h": 2,
+          "<linux/module.h>": 2,
+          "linux/kernel.h": 2,
+          "<linux/kernel.h>": 2,
+          "unistd.h": 2,
+          "<unistd.h>": 2,
+          "test.h": 1,
+          "windows.h": 1,
+          "<windows.h>": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 8,
+        "packages": {
+          "System": 7,
+          "System.Diagnostics": 4,
+          "System.Runtime.InteropServices": 4,
+          "System.Collections.Generic": 2,
+          "System.ComponentModel": 2,
+          "System.Reflection": 2,
+          "System.EnterpriseServices": 2,
+          "System.ServiceProcess": 1,
+          "System.Data": 1,
+          "System.Collections": 1,
+          "System.IO": 1,
+          "System.Text": 1,
+          "System.IO.Compression": 1,
+          "RGiesecke.DllExport": 1,
+          "System.Windows.Forms": 1,
+          "System.Configuration.Install": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 9,
+        "packages": {
+          "windows.h": 5,
+          "<windows.h>": 5,
+          "stdio.h": 3,
+          "<stdio.h>": 3,
+          "pch.h": 3,
+          "<Sspi.h>": 2,
+          "Sspi.h": 2,
+          "SimpleDHT.h": 1,
+          "stdafx.h": 1,
+          "<Windows.h>": 1,
+          "Windows.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 3,
+        "packages": {
+          "Arduino.h": 1,
+          "<Arduino.h>": 1,
+          "windows.h": 1,
+          "<windows.h>": 1,
+          "framework.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 14,
+        "packages": {
+          "fmt": 8,
+          "context": 7,
+          "github.com/spf13/cobra": 6,
+          "os": 5,
+          "strings": 4,
+          "io": 4,
+          "github.com/spf13/viper": 3,
+          "go.uber.org/zap": 3,
+          "net/http": 3,
+          "github.com/manifest-cyber/ai-bom/cmd/cli/options": 2,
+          "github.com/manifest-cyber/ai-bom/pkg/huggingface": 2,
+          "github.com/manifest-cyber/ai-bom/pkg/domain": 2,
+          "errors": 2,
+          "path/filepath": 2,
+          "go.uber.org/zap/zapcore": 2,
+          "encoding/json": 2,
+          "net/url": 2,
+          "model": 2,
+          "time": 2,
+          "golang.org/x/exp/slices": 1,
+          "github.com/manifest-cyber/ai-bom/pkg/serializer": 1,
+          "github.com/spf13/pflag": 1,
+          "github.com/manifest-cyber/ai-bom/pkg/log": 1,
+          "github.com/muesli/roff": 1,
+          "github.com/manifest-cyber/ai-bom/cmd/cli": 1,
+          "dataset": 1,
+          "space": 1,
+          "messages": 1,
+          "bytes": 1,
+          "max_tokens": 1,
+          "github.com/google/uuid": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 12,
+        "packages": {
+          "undefined": 4,
+          "object": 3,
+          "jquery": 3,
+          "http": 2,
+          "_process": 1,
+          "2002:pairs": 1,
+          "Error": 1,
+          "browser": 1,
+          "stream": 1,
+          "fs": 1,
+          "2002:merge": 1,
+          "%3F": 1,
+          "ono": 1,
+          "base64-js": 1,
+          "url": 1,
+          "n": 1,
+          "tag:yaml.org": 1,
+          "2002:binary": 1,
+          "punycode": 1,
+          "js-yaml": 1,
+          "2002:timestamp": 1,
+          "es6-promise": 1,
+          "json-schema-ref-parser": 1,
+          "<": 1,
+          "ms": 1,
+          "buffer": 1,
+          "utf8": 1,
+          "2002:float": 1,
+          "[object": 1,
+          "2002:map": 1,
+          "end": 1,
+          "color:": 1,
+          "https": 1,
+          "2002:seq": 1,
+          "2002:omap": 1,
+          "2002:bool": 1,
+          "util": 1,
+          "debug": 1,
+          "2002:set": 1,
+          "Malformed": 1,
+          "esprima": 1,
+          "events": 1,
+          "GET": 1,
+          "&": 1,
+          "process-nextick-args": 1,
+          "2002:js": 1,
+          "string": 1,
+          "function": 1,
+          "2002:null": 1,
+          "Arguments": 1,
+          "Continue": 1,
+          "2002:int": 1,
+          "\u001b[": 1,
+          "2002:str": 1,
+          "Authorization": 1,
+          "a.opacity&&(this.helper.css(": 1,
+          "horizontal": 1,
+          ").appendTo(o))": 1,
+          "Chart": 1,
+          "button": 1,
+          "none": 1,
+          "div": 1,
+          "image": 1,
+          "top": 1,
+          ");this.updateOption(": 1,
+          "||": 1,
+          "init:function(b){var": 1,
+          "angular": 1,
+          "karma-chrome-launcher": 1,
+          "karma-coverage-istanbul-reporter": 1,
+          "karma-jasmine": 1,
+          "karma-jasmine-html-reporter": 1,
+          "jasmine-spec-reporter": 1,
+          "ts-node": 1,
+          "querystring": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 1,
+        "packages": {
+          "Text::CSV_XS": 1,
+          "Getopt::Long": 1,
+          "strict": 1,
+          "JSON::XS": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 71,
+        "packages": {
+          "os": 35,
+          "sys": 26,
+          "langchain_openai": 23,
+          "dotenv": 20,
+          "load_dotenv": 20,
+          "ChatOpenAI": 18,
+          "ChatPromptTemplate": 16,
+          "langchain": 16,
+          "*": 15,
+          "the": 14,
+          "time": 13,
+          "re": 13,
+          "langchain_core": 12,
+          "src": 12,
+          "json": 9,
+          "StrOutputParser": 8,
+          "Chroma": 8,
+          "subprocess": 8,
+          "argparse": 7,
+          "langchain_community": 6,
+          "langgraph": 6,
+          "numpy": 5,
+          "OpenAIEmbeddings": 5,
+          "datetime": 5,
+          "TypedDict": 5,
+          "typing": 5,
+          "importlib": 5,
+          "helper": 5,
+          "TextLoader": 4,
+          "CharacterTextSplitter": 4,
+          "langchain_chroma": 4,
+          "Tool": 4,
+          "StateGraph": 4,
+          "socket": 4,
+          "shutil": 4,
+          "traceback": 4,
+          "helper_gdb": 4,
+          "OpenAI": 3,
+          "matplotlib": 3,
+          "HumanMessage": 3,
+          "RunnableBranch": 3,
+          "AIMessage": 3,
+          "Helper": 3,
+          "Process": 3,
+          "unittest": 3,
+          "tensorflow": 3,
+          "gdb": 3,
+          "openai": 2,
+          "sklearn": 2,
+          "RunnableLambda": 2,
+          "RunnableParallel": 2,
+          "RunnablePassthrough": 2,
+          "AgentExecutor": 2,
+          "hub": 2,
+          "JsonOutputParser": 2,
+          "MemorySaver": 2,
+          "BaseModel": 2,
+          "pydantic": 2,
+          "nmap": 2,
+          "operator": 2,
+          "uuid": 2,
+          "END": 2,
+          "Conv2D": 2,
+          "Sequential": 2,
+          "cifar10": 2,
+          "signal": 2,
+          "platform": 2,
+          "string": 2,
+          "win32con": 2,
+          "win32api": 2,
+          "configparser": 2,
+          "serial": 2,
+          "binascii": 2,
+          "ida_helper": 2,
+          "pickle": 2,
+          "streamlit": 1,
+          "KMeans": 1,
+          "seaborn": 1,
+          "TSNE": 1,
+          "PCA": 1,
+          "Patch": 1,
+          "pandas": 1,
+          "required": 1,
+          "transformers": 1,
+          "pipeline": 1,
+          "ollama": 1,
+          "RunnableMap": 1,
+          "necessary": 1,
+          "HuggingFaceEmbeddings": 1,
+          "tiktoken": 1,
+          "WebBaseLoader": 1,
+          "summary": 1,
+          "wikipedia": 1,
+          "ConversationBufferMemory": 1,
+          "create_stuff_documents_chain": 1,
+          "create_history_aware_retriever": 1,
+          "requests": 1,
+          "ToolNode": 1,
+          "pentest_graph_nodes": 1,
+          "pentest_graph_state": 1,
+          "route_after_analysis": 1,
+          "AttackSurfaceState": 1,
+          "pentest_graph_router": 1,
+          "redis": 1,
+          "heapq": 1,
+          "app": 1,
+          "Import_helper": 1,
+          "Tag": 1,
+          "Flask_server": 1,
+          "packages": 1,
+          "Keys": 1,
+          "Paste": 1,
+          "publisher": 1,
+          "pubsublogger": 1,
+          "magic": 1,
+          "LinfFastGradientAttack": 1,
+          "TensorFlowModel": 1,
+          "foolbox": 1,
+          "LogisticRegression": 1,
+          "StandardScaler": 1,
+          "accuracy_score": 1,
+          "imdb": 1,
+          "pad_sequences": 1,
+          "ArtilleryStartEvent": 1,
+          "base": 1,
+          "errno": 1,
+          "yaml": 1,
+          "ntpath": 1,
+          "Encoders": 1,
+          "MIMEMultipart": 1,
+          "MIMEBase": 1,
+          "urlparse": 1,
+          "smtplib": 1,
+          "MIMEText": 1,
+          "logging": 1,
+          "urlopen": 1,
+          "email": 1,
+          "urllib": 1,
+          "win32evtlog": 1,
+          "win32evtlogutil": 1,
+          "win32security": 1,
+          "random": 1,
+          "hashlib": 1,
+          "ShellExecuteEx": 1,
+          "types": 1,
+          "win32process": 1,
+          "shellcon": 1,
+          "win32com": 1,
+          "win32event": 1,
+          "ctypes": 1,
+          "libdlmalloc_28x": 1,
+          "libdlmalloc_26x": 1,
+          "libmempool_gdb": 1,
+          "libptmalloc2": 1,
+          "sync": 1,
+          "getpass": 1,
+          "inspect": 1,
+          "comm": 1,
+          "pprint": 1,
+          "filelock": 1,
+          "idautils": 1,
+          "idc": 1,
+          "paramiko": 1,
+          "threading": 1,
+          "Telnet": 1,
+          "telnetlib": 1,
+          "ps": 1,
+          "urllib2": 1,
+          "warnings": 1,
+          "ignore": 1,
+          "base64": 1,
+          "csv": 1,
+          "input": 1,
+          "Draft4Validator": 1,
+          "jsonschema": 1,
+          "validate": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 2,
+        "packages": {
+          "securerandom": 1,
+          "attack_api": 1,
+          "yaml": 1,
+          "erb": 1,
+          "open-uri": 1,
+          "json": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 20,
+        "packages": {
+          "angular": 17,
+          "rxjs": 2,
+          "file-saver": 2,
+          "zone.js": 2,
+          "protractor": 1,
+          "angular2-multiselect-dropdown": 1,
+          "1.0": 1,
+          "tinygradient": 1,
+          "tinycolor2": 1,
+          "web-animations-js": 1,
+          "core-js": 1,
+          "classlist.js": 1,
+          "intl": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "santosomar/AI-agents-for-cybersecurity",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "santosomar/ai-bom",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "santosomar/AI-BOM-Visualizer",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "santosomar/AIL-framework",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "santosomar/ai_security",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "santosomar/arduinoTempHumidity",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "santosomar/art-of-hacking",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "santosomar/artillery",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "santosomar/asadbg",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "santosomar/atomic-red-team",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C#",
+          "C++",
+          "C/C++ Header",
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "santosomar/attack-navigator",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "santosomar/automation-working-group",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "Perl",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

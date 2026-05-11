@@ -1,0 +1,398 @@
+{
+  "username": "DavidZucchet",
+  "areas": {
+    "OSS": {
+      "score": 0.16336872787595613,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.7450530918139343
+      }
+    },
+    "Status": {
+      "score": 0.20657451904244417,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7521694708713587,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.5125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.02851135061631993,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        40610,
+        22
+      ],
+      "MDX": [
+        1292305,
+        0
+      ],
+      "Makefile": [
+        25,
+        0
+      ],
+      "HTML": [
+        31812,
+        4
+      ],
+      "C++": [
+        3635,
+        0
+      ],
+      "CMake": [
+        2894,
+        0
+      ],
+      "Dart": [
+        1662,
+        0
+      ],
+      "Swift": [
+        298,
+        0
+      ],
+      "C": [
+        217,
+        0
+      ],
+      "Kotlin": [
+        19,
+        0
+      ],
+      "Objective-C": [
+        5,
+        0
+      ],
+      "Jupyter Notebook": [
+        185548,
+        15
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 41,
+    "total_lines": 1559030,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 40610,
+        "commits": 22
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 185548,
+        "commits": 15
+      },
+      {
+        "language": "HTML",
+        "lines": 31812,
+        "commits": 4
+      },
+      {
+        "language": "MDX",
+        "lines": 1292305,
+        "commits": 0
+      },
+      {
+        "language": "Makefile",
+        "lines": 25,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "DavidZucchet",
+    "analysis_date": "2026-05-10T13:55:54.436370",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 47,
+    "languages": {
+      "C++": {
+        "files_scanned": 8,
+        "packages": {
+          "generated_plugin_registrant.h": 2,
+          "my_application.h": 2,
+          "flutter/generated_plugin_registrant.h": 2,
+          "flutter_window.h": 2,
+          "<windows.h>": 2,
+          "utils.h": 2,
+          "windows.h": 2,
+          "<flutter_windows.h>": 2,
+          "flutter_windows.h": 2,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "gdk/gdkx.h": 1,
+          "<gdk/gdkx.h>": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "<optional>": 1,
+          "optional": 1,
+          "<flutter/flutter_view_controller.h>": 1,
+          "flutter/dart_project.h": 1,
+          "flutter/flutter_view_controller.h": 1,
+          "<flutter/dart_project.h>": 1,
+          "<io.h>": 1,
+          "<stdio.h>": 1,
+          "io.h": 1,
+          "iostream": 1,
+          "stdio.h": 1,
+          "<iostream>": 1,
+          "<dwmapi.h>": 1,
+          "win32_window.h": 1,
+          "resource.h": 1,
+          "dwmapi.h": 1,
+          "EnableNonClientDpiScaling": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 7,
+        "packages": {
+          "memory": 2,
+          "<memory>": 2,
+          "string": 2,
+          "<string>": 2,
+          "GeneratedPluginRegistrant.h": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "gtk/gtk.h": 1,
+          "<gtk/gtk.h>": 1,
+          "<flutter/plugin_registry.h>": 1,
+          "flutter/plugin_registry.h": 1,
+          "<flutter/flutter_view_controller.h>": 1,
+          "win32_window.h": 1,
+          "flutter/dart_project.h": 1,
+          "flutter/flutter_view_controller.h": 1,
+          "<flutter/dart_project.h>": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "<windows.h>": 1,
+          "<functional>": 1,
+          "windows.h": 1,
+          "functional": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 2,
+        "packages": {
+          "flutter": 2,
+          "flutter_test": 1,
+          "flutter_application_1": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 1,
+        "packages": {
+          "com.example": 1,
+          "io.flutter": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 21,
+        "packages": {
+          "os": 9,
+          "dotenv": 6,
+          "asyncio": 6,
+          "load_dotenv": 6,
+          "pandas": 6,
+          "re": 5,
+          "Path": 5,
+          "argparse": 5,
+          "pathlib": 5,
+          "agents": 4,
+          "torch": 4,
+          "diffusers": 4,
+          "StableDiffusionPipeline": 4,
+          "requests": 3,
+          "nltk": 3,
+          "flask": 3,
+          "word_tokenize": 3,
+          "plotly": 3,
+          "WordNetLemmatizer": 3,
+          "sys": 3,
+          "worldbankapp": 3,
+          "RunContextWrapper": 3,
+          "trace": 3,
+          "openai": 3,
+          "MCPServerStdio": 3,
+          "AsyncOpenAI": 3,
+          "aioconsole": 3,
+          "Agent": 3,
+          "ToolNode": 2,
+          "langchain": 2,
+          "langchain_core": 2,
+          "the": 2,
+          "BaseModel": 2,
+          "langgraph": 2,
+          "pydantic": 2,
+          "yaml": 2,
+          "tokenize": 2,
+          "tokenflask": 2,
+          "json": 2,
+          "sqlalchemy": 2,
+          "render_template": 2,
+          "Flask": 2,
+          "create_engine": 2,
+          "numpy": 2,
+          "app": 2,
+          "MemorySaver": 1,
+          "typing": 1,
+          "langchain_openai": 1,
+          "AIMessage": 1,
+          "Annotated": 1,
+          "StateGraph": 1,
+          "add_messages": 1,
+          "BaseCallbackHandler": 1,
+          "tools": 1,
+          "RunnableConfig": 1,
+          "uuid": 1,
+          "ChatOpenAI": 1,
+          "gradio": 1,
+          "inspect": 1,
+          "BasicAgent": 1,
+          "langchain_community": 1,
+          "DuckDuckGoSearchRun": 1,
+          "TavilySearchResults": 1,
+          "Tool": 1,
+          "subprocess": 1,
+          "ArxivLoader": 1,
+          "strict": 1,
+          "YoutubeLoader": 1,
+          "WikipediaLoader": 1,
+          "AssemblyAIAudioTranscriptLoader": 1,
+          "GoogleSerperAPIWrapper": 1,
+          "tool": 1,
+          "Burgers": 1,
+          "tempfile": 1,
+          "black": 1,
+          "nbformat": 1,
+          "shutil": 1,
+          "youtube_transcript_api": 1,
+          "Playlist": 1,
+          "youtubesearchpython": 1,
+          "SRTFormatter": 1,
+          "YouTubeTranscriptApi": 1,
+          "Bar": 1,
+          "joblib": 1,
+          "BaseEstimator": 1,
+          "pickle": 1,
+          "confusion_matrix": 1,
+          "classification_report": 1,
+          "libraries": 1,
+          "RandomForestClassifier": 1,
+          "GridSearchCV": 1,
+          "CountVectorizer": 1,
+          "sklearn": 1,
+          "train_test_split": 1,
+          "ssl": 1,
+          "MultiOutputClassifier": 1,
+          "Pipeline": 1,
+          "OrderedDict": 1,
+          "collections": 1,
+          "routes": 1,
+          "scripts": 1,
+          "return_figures": 1,
+          "all": 1,
+          "logging": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 7,
+        "packages": {
+          "FlutterMacOS": 4,
+          "UIKit": 3,
+          "Flutter": 3,
+          "Cocoa": 3,
+          "XCTest": 2,
+          "Foundation": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "DavidZucchet/AgentHFProject",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "DavidZucchet/course",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "DavidZucchet/Disaster_Response",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "DavidZucchet/FinancialStabilityLATAM",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "DavidZucchet/flutter_application_1",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "DavidZucchet/news-narrator",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

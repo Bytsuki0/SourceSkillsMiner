@@ -1,0 +1,259 @@
+{
+  "username": "Brunohpb",
+  "areas": {
+    "OSS": {
+      "score": 0.7328394130885529,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.5992591196328294
+      }
+    },
+    "Status": {
+      "score": 0.09181377206291197,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5992591196328294,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.575,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.04993063703029299,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        1253,
+        0
+      ],
+      "Python": [
+        180049,
+        2
+      ],
+      "HTML": [
+        163,
+        0
+      ],
+      "Shell": [
+        19806,
+        0
+      ],
+      "Dockerfile": [
+        19,
+        0
+      ],
+      "JavaScript": [
+        654206,
+        4
+      ],
+      "CSS": [
+        57327,
+        1
+      ],
+      "PHP": [
+        2943290,
+        0
+      ],
+      "Perl": [
+        2307,
+        0
+      ],
+      "Makefile": [
+        283,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 7,
+    "total_lines": 3858703,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 654206,
+        "commits": 4
+      },
+      {
+        "language": "Python",
+        "lines": 180049,
+        "commits": 2
+      },
+      {
+        "language": "CSS",
+        "lines": 57327,
+        "commits": 1
+      },
+      {
+        "language": "TypeScript",
+        "lines": 1253,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 163,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Brunohpb",
+    "analysis_date": "2026-05-10T17:17:50.743978",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 66,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "eslint": 1,
+          "eslint-plugin-react-refresh": 1,
+          "globals": 1,
+          "eslint-plugin-react-hooks": 1,
+          "typescript-eslint": 1,
+          "tailwindcss": 1,
+          "vite": 1,
+          "vitejs": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 9,
+        "packages": {
+          "azure": 5,
+          "react-router-dom": 3,
+          "react": 3,
+          "react-dom": 2
+        }
+      },
+      "PHP": {
+        "files_scanned": 4,
+        "packages": {
+          "AppShell.php": 2,
+          "Plugin/ApcuCache/Engine/ApcuEngine.php": 1,
+          "Config": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 4,
+        "packages": {
+          "time": 3,
+          "subprocess": 2,
+          "asyncio": 2,
+          "Bot": 2,
+          "decouple": 2,
+          "requests": 2,
+          "TelegramError": 2,
+          "datetime": 2,
+          "config": 2,
+          "telegram": 2,
+          "schedule": 2,
+          "io": 1,
+          "List": 1,
+          "re": 1,
+          "csv": 1,
+          "urlparse": 1,
+          "typing": 1,
+          "CORSMiddleware": 1,
+          "pydantic": 1,
+          "fastapi": 1,
+          "BaseModel": 1,
+          "FastAPI": 1,
+          "urllib": 1,
+          "logging": 1,
+          "sys": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 4,
+        "packages": {
+          "react": 2,
+          "axios": 1,
+          "http:": 1,
+          "vite": 1,
+          "vitejs": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 10,
+        "packages": {
+          "react": 10,
+          "lucide-react": 8,
+          "com": 1,
+          "md": 1,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Brunohpb/Dashboard-Squid",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Brunohpb/Files-Misp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Brunohpb/FindCVE",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Brunohpb/FrontendModel",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      }
+    ]
+  }
+}

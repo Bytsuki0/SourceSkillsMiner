@@ -1,0 +1,258 @@
+{
+  "username": "remonsec",
+  "areas": {
+    "OSS": {
+      "score": 0.44347575927784955,
+      "details": {
+        "issue_resolution_rate": 0.6666666666666666,
+        "pr_merge_rate": 0.6071428571428571,
+        "commits_activity": 0.8914041151072507
+      }
+    },
+    "Status": {
+      "score": 0.31221812802021853,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8914041151072507,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": -0.154167,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.9167,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 2,
+        "topic_entropy_bits": 2.75,
+        "closed_prs_total": 8,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.22030537745961362,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        12856,
+        41
+      ],
+      "PHP": [
+        39856,
+        0
+      ],
+      "Twig": [
+        6007,
+        0
+      ],
+      "JavaScript": [
+        2309,
+        0
+      ],
+      "Vue": [
+        1891,
+        0
+      ],
+      "Blade": [
+        1418,
+        0
+      ],
+      "CSS": [
+        43,
+        0
+      ],
+      "SCSS": [
+        37,
+        0
+      ],
+      "Dockerfile": [
+        19,
+        0
+      ],
+      "Ruby": [
+        3791,
+        10
+      ],
+      "HTML": [
+        221,
+        4
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 55,
+    "total_lines": 68448,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 12856,
+        "commits": 41
+      },
+      {
+        "language": "Ruby",
+        "lines": 3791,
+        "commits": 10
+      },
+      {
+        "language": "HTML",
+        "lines": 221,
+        "commits": 4
+      },
+      {
+        "language": "PHP",
+        "lines": 39856,
+        "commits": 0
+      },
+      {
+        "language": "Twig",
+        "lines": 6007,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "remonsec",
+    "analysis_date": "2026-05-10T17:30:54.289940",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 31,
+    "languages": {
+      "PHP": {
+        "files_scanned": 30,
+        "packages": {
+          "FireflyIII\\Api\\V1\\Controllers\\Controller": 29,
+          "Illuminate\\Http\\JsonResponse": 28,
+          "FireflyIII\\Enums\\UserRoleEnum": 21,
+          "FireflyIII\\Api\\V1\\Requests\\Autocomplete\\AutocompleteRequest": 13,
+          "FireflyIII\\Repositories\\Account\\AccountRepositoryInterface": 9,
+          "Illuminate\\Support\\Facades\\Log": 9,
+          "FireflyIII\\Api\\V1\\Requests\\Insight\\GenericRequest": 8,
+          "FireflyIII\\Exceptions\\FireflyException": 7,
+          "FireflyIII\\Support\\Facades\\Amount": 6,
+          "FireflyIII\\Enums\\TransactionTypeEnum": 6,
+          "Illuminate\\Support\\Collection": 5,
+          "FireflyIII\\Helpers\\Collector\\GroupCollectorInterface": 5,
+          "FireflyIII\\Models\\Account": 4,
+          "FireflyIII\\Support\\Facades\\Steam": 4,
+          "FireflyIII\\Models\\Budget": 4,
+          "FireflyIII\\Repositories\\Budget\\BudgetRepositoryInterface": 4,
+          "FireflyIII\\Models\\Category": 4,
+          "FireflyIII\\Repositories\\Category\\CategoryRepositoryInterface": 4,
+          "FireflyIII\\Support\\Http\\Api\\CleansChartData": 4,
+          "CleansChartData": 4,
+          "FireflyIII\\Enums\\AccountTypeEnum": 3,
+          "FireflyIII\\Repositories\\Bill\\BillRepositoryInterface": 3,
+          "FireflyIII\\Models\\TransactionCurrency": 3,
+          "FireflyIII\\Repositories\\PiggyBank\\PiggyBankRepositoryInterface": 3,
+          "FireflyIII\\Repositories\\Tag\\TagRepositoryInterface": 3,
+          "FireflyIII\\Models\\TransactionJournal": 3,
+          "ApiSupport": 3,
+          "FireflyIII\\Support\\Http\\Api\\ApiSupport": 3,
+          "ValidatesUserGroupTrait": 3,
+          "FireflyIII\\Support\\Http\\Api\\ValidatesUserGroupTrait": 3,
+          "Carbon\\Carbon": 3,
+          "FireflyIII\\Models\\Bill": 2,
+          "FireflyIII\\Repositories\\Currency\\CurrencyRepositoryInterface": 2,
+          "FireflyIII\\Repositories\\ObjectGroup\\ObjectGroupRepositoryInterface": 2,
+          "FireflyIII\\Repositories\\Recurring\\RecurringRepositoryInterface": 2,
+          "FireflyIII\\Models\\Recurrence": 2,
+          "FireflyIII\\Models\\Rule": 2,
+          "FireflyIII\\Repositories\\RuleGroup\\RuleGroupRepositoryInterface": 2,
+          "FireflyIII\\Models\\RuleGroup": 2,
+          "FireflyIII\\Models\\Tag": 2,
+          "FireflyIII\\Models\\TransactionGroup": 2,
+          "FireflyIII\\Repositories\\Journal\\JournalRepositoryInterface": 2,
+          "CollectsAccountsFromFilter": 2,
+          "FireflyIII\\Support\\Http\\Api\\CollectsAccountsFromFilter": 2,
+          "FireflyIII\\Api\\V1\\Requests\\Chart\\ChartRequest": 2,
+          "FireflyIII\\Repositories\\Budget\\BudgetLimitRepositoryInterface": 2,
+          "FireflyIII\\Repositories\\Budget\\OperationsRepositoryInterface": 2,
+          "FireflyIII\\Support\\Http\\Api\\ExchangeRateConverter": 2,
+          "FireflyIII\\Api\\V1\\Requests\\Data\\SameDateRequest": 2,
+          "FireflyIII\\User": 2,
+          "FireflyIII\\Services\\Internal\\Destroy\\AccountDestroyService": 2,
+          "FireflyIII\\Repositories\\Account\\OperationsRepositoryInterface": 2,
+          "FireflyIII\\Repositories\\Category\\NoCategoryRepositoryInterface": 2,
+          "FireflyIII\\Repositories\\Category\\OperationsRepositoryInterface": 2,
+          "AccountFilter": 1,
+          "FireflyIII\\Support\\Http\\Api\\AccountFilter": 1,
+          "FireflyIII\\Support\\Debug\\Timer": 1,
+          "Deprecated": 1,
+          "FireflyIII\\Models\\ObjectGroup": 1,
+          "FireflyIII\\Models\\PiggyBank": 1,
+          "FireflyIII\\Repositories\\Rule\\RuleRepositoryInterface": 1,
+          "FireflyIII\\Repositories\\TransactionGroup\\TransactionGroupRepositoryInterface": 1,
+          "FireflyIII\\Repositories\\TransactionType\\TransactionTypeRepositoryInterface": 1,
+          "FireflyIII\\Models\\TransactionType": 1,
+          "FireflyIII\\Support\\Http\\Api\\AccountBalanceGrouped": 1,
+          "FireflyIII\\Models\\BudgetLimit": 1,
+          "League\\Fractal\\Serializer\\JsonApiSerializer": 1,
+          "AuthorizesRequests": 1,
+          "Symfony\\Component\\HttpFoundation\\Exception\\BadRequestException": 1,
+          "League\\Fractal\\Pagination\\IlluminatePaginatorAdapter": 1,
+          "League\\Fractal\\Resource\\Item": 1,
+          "FireflyIII\\Exceptions\\BadHttpHeaderException": 1,
+          "League\\Fractal\\Manager": 1,
+          "DispatchesJobs": 1,
+          "Illuminate\\Routing\\Controller": 1,
+          "ValidatesRequests": 1,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
+          "Carbon\\Exceptions\\InvalidFormatException": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "Illuminate\\Database\\Eloquent\\Model": 1,
+          "Illuminate\\Pagination\\LengthAwarePaginator": 1,
+          "FireflyIII\\Transformers\\AbstractTransformer": 1,
+          "Symfony\\Component\\HttpFoundation\\ParameterBag": 1,
+          "League\\Fractal\\Resource\\Collection": 1,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 1,
+          "FireflyIII\\Api\\V1\\Requests\\Data\\Bulk\\TransactionRequest": 1,
+          "FireflyIII\\Repositories\\Budget\\AvailableBudgetRepositoryInterface": 1,
+          "FireflyIII\\Services\\Internal\\Destroy\\JournalDestroyService": 1,
+          "FireflyIII\\Api\\V1\\Requests\\Data\\DestroyRequest": 1,
+          "Safe\\Exceptions\\DatetimeException": 1,
+          "function": 1,
+          "FireflyIII\\Api\\V1\\Requests\\Data\\Export\\ExportRequest": 1,
+          "Illuminate\\Http\\Response": 1,
+          "FireflyIII\\Support\\Export\\ExportDataGenerator": 1,
+          "FireflyIII\\Repositories\\Budget\\NoBudgetRepositoryInterface": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "remonsec/RedSentry-CTF-Challenge",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

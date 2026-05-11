@@ -1,0 +1,343 @@
+{
+  "username": "aditipanchal121",
+  "areas": {
+    "OSS": {
+      "score": 0.28606077035341837,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9290911555301277
+      }
+    },
+    "Status": {
+      "score": 0.3391515978233439,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9318043198119389,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": -0.1875,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "aditipanchal121/jeopardytrivia": -0.11315
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.08754247363535245,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CSS": [
+        1363655,
+        41
+      ],
+      "HTML": [
+        709367,
+        17
+      ],
+      "JavaScript": [
+        1236417,
+        13
+      ],
+      "Jupyter Notebook": [
+        106917,
+        11
+      ],
+      "Ruby": [
+        3277,
+        6
+      ],
+      "SCSS": [
+        86,
+        0
+      ],
+      "Java": [
+        5861,
+        0
+      ],
+      "Kotlin": [
+        26,
+        0
+      ],
+      "Python": [
+        70419,
+        20
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 108,
+    "total_lines": 3496025,
+    "top_5_languages": [
+      {
+        "language": "CSS",
+        "lines": 1363655,
+        "commits": 41
+      },
+      {
+        "language": "Python",
+        "lines": 70419,
+        "commits": 20
+      },
+      {
+        "language": "HTML",
+        "lines": 709367,
+        "commits": 17
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1236417,
+        "commits": 13
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 106917,
+        "commits": 11
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "aditipanchal121",
+    "analysis_date": "2026-05-10T15:25:08.043575",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 98,
+    "languages": {
+      "Java": {
+        "files_scanned": 12,
+        "packages": {
+          "com.example": 12,
+          "android.os": 7,
+          "android.content": 5,
+          "java.util": 5,
+          "android.widget": 5,
+          "android.util": 4,
+          "android.view": 4,
+          "androidx.fragment": 4,
+          "androidx.appcompat": 3,
+          "androidx.annotation": 3,
+          "static": 2,
+          "org.junit": 2,
+          "java.text": 2,
+          "com.google": 2,
+          "androidx.lifecycle": 2,
+          "androidx.test": 1,
+          "org.json": 1,
+          "androidx.core": 1,
+          "androidx.viewpager": 1,
+          "android.app": 1,
+          "com.reimaginebanking": 1,
+          "androidx.arch": 1,
+          "android.text": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 21,
+        "packages": {
+          "react": 6,
+          "object": 4,
+          "testing-library": 4,
+          "jquery": 3,
+          "rails": 2,
+          "undefined": 2,
+          "This": 2,
+          "react-dom": 2,
+          "channels": 1,
+          "turbolinks": 1,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "t.write(": 1,
+          "path": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 4,
+        "packages": {
+          "react": 4
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 1,
+        "packages": {
+          "androidx.fragment": 1,
+          "com.example": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 13,
+        "packages": {
+          "numpy": 9,
+          "collections": 4,
+          "gym": 4,
+          "pandas": 3,
+          "JeopardyFlask": 3,
+          "os": 3,
+          "tensorflow": 3,
+          "DQNAgent": 3,
+          "requests": 2,
+          "json": 2,
+          "flask": 2,
+          "app": 2,
+          "PIL": 2,
+          "Image": 2,
+          "cv2": 2,
+          "deque": 2,
+          "Blob": 2,
+          "time": 2,
+          "sys": 2,
+          "matplotlib": 2,
+          "ast": 1,
+          "yaml": 1,
+          "Flask": 1,
+          "json2html": 1,
+          "*": 1,
+          "render_template": 1,
+          "request": 1,
+          "datetime": 1,
+          "environ": 1,
+          "warnings": 1,
+          "Dense": 1,
+          "TensorBoard": 1,
+          "Adam": 1,
+          "Sequential": 1,
+          "tqdm": 1,
+          "random": 1,
+          "windy_gridworld": 1,
+          "itertools": 1,
+          "WindyGridworldEnv": 1,
+          "plotting": 1,
+          "defaultdict": 1,
+          "Axes3D": 1,
+          "pyplot": 1,
+          "namedtuple": 1,
+          "mpl_toolkits": 1,
+          "discrete": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 6,
+        "packages": {
+          "active_support/core_ext/integer/time": 3,
+          "rails/all": 1,
+          "boot": 1,
+          "bundler/setup": 1,
+          "bootsnap/setup": 1,
+          "application": 1,
+          "generic": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "aditipanchal121/aditipanchal121.github.io",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "aditipanchal121/environment_test",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "aditipanchal121/GoalDigger-C1",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "aditipanchal121/government-sentiment",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aditipanchal121/jeopardytrivia",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "aditipanchal121/Lemon",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "aditipanchal121/monsters-rolodex",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "aditipanchal121/NamingContest",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "aditipanchal121/Shakespeare-Playwright",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aditipanchal121/SpaceCRAFT",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

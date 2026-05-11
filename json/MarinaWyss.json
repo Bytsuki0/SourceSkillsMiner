@@ -1,0 +1,525 @@
+{
+  "username": "MarinaWyss",
+  "areas": {
+    "OSS": {
+      "score": 0.7561904761904763,
+      "details": {
+        "issue_resolution_rate": 0.7142857142857143,
+        "pr_merge_rate": 0.92,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.46153846153846145,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.19230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": 0.4375,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.48104578754578764,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        717125,
+        194
+      ],
+      "Python": [
+        1403317,
+        72
+      ],
+      "R": [
+        111666,
+        61
+      ],
+      "Jupyter Notebook": [
+        3261370,
+        10
+      ],
+      "CSS": [
+        16034,
+        5
+      ],
+      "Shell": [
+        3378,
+        0
+      ],
+      "Roff": [
+        588,
+        0
+      ],
+      "MDX": [
+        1299674,
+        0
+      ],
+      "Makefile": [
+        24,
+        0
+      ],
+      "Java": [
+        5580,
+        95
+      ],
+      "JavaScript": [
+        863,
+        28
+      ],
+      "Rich Text Format": [
+        0,
+        1
+      ],
+      "TypeScript": [
+        0,
+        110
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 576,
+    "total_lines": 6819619,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 717125,
+        "commits": 194
+      },
+      {
+        "language": "TypeScript",
+        "lines": 0,
+        "commits": 110
+      },
+      {
+        "language": "Java",
+        "lines": 5580,
+        "commits": 95
+      },
+      {
+        "language": "Python",
+        "lines": 1403317,
+        "commits": 72
+      },
+      {
+        "language": "R",
+        "lines": 111666,
+        "commits": 61
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "MarinaWyss",
+    "analysis_date": "2026-05-10T13:49:12.112185",
+    "total_repos_analyzed": 19,
+    "total_files_analyzed": 161,
+    "languages": {
+      "Java": {
+        "files_scanned": 6,
+        "packages": {
+          "java.util": 6
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 10,
+        "packages": {
+          "vercel": 7,
+          "dotenv": 6,
+          "mui": 2,
+          "react": 2,
+          "supabase": 1,
+          "react-router-dom": 1,
+          "react-dom": 1,
+          "formidable": 1,
+          "fs": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 6,
+        "packages": {
+          "react": 6,
+          "mui": 5,
+          "react-router-dom": 3,
+          "axios": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 56,
+        "packages": {
+          "pandas": 22,
+          "logging": 20,
+          "numpy": 17,
+          "yaml": 17,
+          "os": 11,
+          "zenml": 10,
+          "re": 10,
+          "Path": 7,
+          "pathlib": 7,
+          "tensorflow": 6,
+          "sklearn": 6,
+          "steps": 6,
+          "argparse": 6,
+          "datetime": 5,
+          "typing": 5,
+          "List": 5,
+          "utils": 5,
+          "unittest": 5,
+          "train_model": 4,
+          "step": 4,
+          "time": 4,
+          "nltk": 4,
+          "pipeline": 3,
+          "pipelines": 3,
+          "model": 3,
+          "sys": 3,
+          "get_email_content": 3,
+          "google": 3,
+          "Request": 3,
+          "Credentials": 3,
+          "googleapiclient": 3,
+          "build": 3,
+          "InstalledAppFlow": 3,
+          "google_auth_oauthlib": 3,
+          "stopwords": 3,
+          "torch": 3,
+          "requests": 3,
+          "AUC": 2,
+          "Sequential": 2,
+          "Adam": 2,
+          "load_data": 2,
+          "evaluate_model": 2,
+          "import_data": 2,
+          "mlflow": 2,
+          "Image": 2,
+          "random": 2,
+          "PIL": 2,
+          "streamlit": 2,
+          "plotly": 2,
+          "load_dotenv": 2,
+          "openai": 2,
+          "OpenAI": 2,
+          "dotenv": 2,
+          "transformers": 2,
+          "warnings": 2,
+          "TextBlob": 2,
+          "textblob": 2,
+          "json": 2,
+          "subprocess": 2,
+          "train_test_split": 2,
+          "LinearSVR": 2,
+          "RegressorChain": 2,
+          "pickle": 2,
+          "prepare_data": 2,
+          "data_prep": 2,
+          "hyperparameter_tune": 2,
+          "tune_hyperparams": 2,
+          "predict_and_evaluate": 2,
+          "predict": 2,
+          "train_and_save_model": 2,
+          "get_tracking_uri": 1,
+          "precision_score": 1,
+          "keras_tuner": 1,
+          "MLFLOW": 1,
+          "DockerSettings": 1,
+          "classification_dataset_from_directory": 1,
+          "train_test_validation": 1,
+          "deepchecks": 1,
+          "DeploymentTriggerConfig": 1,
+          "mlflow_model_deployer_step": 1,
+          "continuous_deployment_pipeline": 1,
+          "MLFlowDeployerParameters": 1,
+          "inference_pipeline": 1,
+          "dynamic_importer": 1,
+          "train_pipeline": 1,
+          "Evaluation": 1,
+          "BaseParameters": 1,
+          "MLFlowDeploymentService": 1,
+          "CatClassifier": 1,
+          "KerasMaterializer": 1,
+          "choice": 1,
+          "s3fs": 1,
+          "defaultdict": 1,
+          "config": 1,
+          "collections": 1,
+          "CAREERS": 1,
+          "base64": 1,
+          "HttpError": 1,
+          "tiktoken": 1,
+          "parse": 1,
+          "dateutil": 1,
+          "DateFormatter": 1,
+          "seaborn": 1,
+          "matplotlib": 1,
+          "BeautifulSoup": 1,
+          "bs4": 1,
+          "Input": 1,
+          "dash": 1,
+          "dash_html_components": 1,
+          "dash_core_components": 1,
+          "dash_bootstrap_components": 1,
+          "BERT": 1,
+          "punctuation": 1,
+          "string": 1,
+          "DataPrep": 1,
+          "Data_Prep": 1,
+          "Descriptives": 1,
+          "SentimentAnalysis": 1,
+          "Sentiment_Analysis": 1,
+          "WebScraper": 1,
+          "Web_Scraper_Classes": 1,
+          "black": 1,
+          "shutil": 1,
+          "nbformat": 1,
+          "youtube_transcript_api": 1,
+          "SRTFormatter": 1,
+          "Playlist": 1,
+          "YouTubeTranscriptApi": 1,
+          "youtubesearchpython": 1,
+          "csv": 1,
+          "openai_request": 1,
+          "xml": 1,
+          "LabelEncoder": 1,
+          "GridSearchCV": 1,
+          "mean_absolute_error": 1,
+          "airflow": 1,
+          "Variable": 1,
+          "DAG": 1,
+          "PythonOperator": 1,
+          "MovieGroupProcess": 1,
+          "gsdmm": 1,
+          "Dense": 1,
+          "preprocessing": 1,
+          "keras": 1,
+          "SMOTE": 1,
+          "classification_report": 1,
+          "imblearn": 1,
+          "lime": 1
+        }
+      },
+      "R": {
+        "files_scanned": 35,
+        "packages": {
+          "tidyverse": 32,
+          "caret": 17,
+          "kableExtra": 15,
+          "tidytext": 8,
+          "quanteda": 8,
+          "vip": 8,
+          "DMwR": 7,
+          "tools": 6,
+          "xgboost": 6,
+          "tidyr": 5,
+          "stringr": 5,
+          "h2o": 5,
+          "e1071": 4,
+          "stargazer": 3,
+          "topicmodels": 3,
+          "dplyr": 3,
+          "ggplot2": 3,
+          "stringi": 3,
+          "stm": 3,
+          "glmnet": 3,
+          "wesanderson": 3,
+          "MASS": 2,
+          "mice": 2,
+          "plyr": 2,
+          "ranger": 2,
+          "corrplot": 2,
+          "sentimentr": 2,
+          "chron": 2,
+          "lme4": 2,
+          "ggthemes": 1,
+          "lmtest": 1,
+          "extrafont": 1,
+          "rsample": 1,
+          "randomForest": 1,
+          "mlbench": 1,
+          "lubridate": 1,
+          "gridExtra": 1,
+          "DT": 1,
+          "shiny": 1,
+          "shinydashboard": 1,
+          "robustHD": 1,
+          "Amelia": 1,
+          "mltools": 1,
+          "hms": 1,
+          "data.table": 1,
+          "coefplot": 1,
+          "Metrics": 1,
+          "textdata": 1,
+          "reshape2": 1,
+          "wordcloud": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 21,
+        "packages": {
+          "react": 17,
+          "lucide-react": 11,
+          "radix-ui": 6,
+          "class-variance-authority": 3,
+          "wouter": 2,
+          "tanstack": 1,
+          "react-hook-form": 1,
+          "react-day-picker": 1,
+          "useEmblaCarousel": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MarinaWyss/are-you-a-cat",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/DataCareerQuiz",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/EmailNewsSummarizer",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/Hertie-AppliedLogisticRegression",
+        "files_analyzed": 1,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/Hertie-ML-TADA-Project",
+        "files_analyzed": 14,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/Hertie-NLP-Python-Project",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/huggingface_course",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/JavaDSA",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/LinkedInAnalyzer",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/McKinseyDatathon",
+        "files_analyzed": 2,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/MetricsBot",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/mit-hackathon",
+        "files_analyzed": 2,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/packvote-coming-soon",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/predicting-student-performance-airflow",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/search-engine-thesis",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python",
+          "R"
+        ]
+      },
+      {
+        "repository": "MarinaWyss/ShelfScanner",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

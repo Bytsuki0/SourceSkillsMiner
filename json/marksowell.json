@@ -1,0 +1,456 @@
+{
+  "username": "marksowell",
+  "areas": {
+    "OSS": {
+      "score": 0.5873015873015872,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.38095238095238093,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3529370317420484,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9717132399207649,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 11,
+        "language_transitions": 12,
+        "topic_entropy_bits": 5.5843,
+        "closed_prs_total": 10,
+        "bounced_back_prs": 7
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.43804772380872714,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        1935060,
+        0
+      ],
+      "Vue": [
+        746191,
+        0
+      ],
+      "JavaScript": [
+        200187,
+        123
+      ],
+      "CSS": [
+        3581,
+        26
+      ],
+      "C": [
+        1600,
+        0
+      ],
+      "Sass": [
+        1081,
+        0
+      ],
+      "Dockerfile": [
+        930,
+        0
+      ],
+      "MDX": [
+        2141,
+        2
+      ],
+      "TypeScript": [
+        541,
+        0
+      ],
+      "Python": [
+        467282,
+        197
+      ],
+      "Shell": [
+        3176,
+        38
+      ],
+      "C#": [
+        103,
+        0
+      ],
+      "Ruby": [
+        56,
+        0
+      ],
+      "PowerShell": [
+        55,
+        4
+      ],
+      "C++": [
+        0,
+        8
+      ],
+      "HTML": [
+        0,
+        0
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "EJS": [
+        0,
+        0
+      ],
+      "Lua": [
+        0,
+        12
+      ],
+      "Astro": [
+        0,
+        43
+      ],
+      "XSLT": [
+        0,
+        25
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 478,
+    "total_lines": 3361984,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 467282,
+        "commits": 197
+      },
+      {
+        "language": "JavaScript",
+        "lines": 200187,
+        "commits": 123
+      },
+      {
+        "language": "Astro",
+        "lines": 0,
+        "commits": 43
+      },
+      {
+        "language": "Shell",
+        "lines": 3176,
+        "commits": 38
+      },
+      {
+        "language": "CSS",
+        "lines": 3581,
+        "commits": 26
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "marksowell",
+    "analysis_date": "2026-05-10T19:23:35.261435",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 65,
+    "languages": {
+      "C#": {
+        "files_scanned": 2,
+        "packages": {
+          "Microsoft.Rest": 2,
+          "Newtonsoft.Json.Linq": 2,
+          "System.IO": 2,
+          "Microsoft.Azure.Management.Resources": 2,
+          "Newtonsoft.Json": 2,
+          "System": 2,
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": 2,
+          "Microsoft.Azure.Management.Resources.Models": 2
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "LoRa.h": 1,
+          "<Preferences.h>": 1,
+          "time.h": 1,
+          "Preferences.h": 1,
+          "<LoRa.h>": 1,
+          "SPI.h": 1,
+          "<SPI.h>": 1,
+          "<LittleFS.h>": 1,
+          "<time.h>": 1,
+          "NTPClient.h": 1,
+          "<WiFiUdp.h>": 1,
+          "<ESPAsyncWebServer.h>": 1,
+          "ESPAsyncWebServer.h": 1,
+          "AsyncTCP.h": 1,
+          "<ArduinoJson.h>": 1,
+          "ETH.h": 1,
+          "LittleFS.h": 1,
+          "<ETH.h>": 1,
+          "deque": 1,
+          "ArduinoJson.h": 1,
+          "WiFi.h": 1,
+          "<AsyncTCP.h>": 1,
+          "ArduinoOTA.h": 1,
+          "<deque>": 1,
+          "<ArduinoOTA.h>": 1,
+          "<WiFi.h>": 1,
+          "<NTPClient.h>": 1,
+          "WiFiUdp.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 28,
+        "packages": {
+          "com.akto": 28,
+          "java.util": 28,
+          "com.mongodb": 21,
+          "org.bson": 14,
+          "static": 11,
+          "org.slf4j": 10,
+          "org.junit": 8,
+          "com.fasterxml": 5,
+          "org.apache": 5,
+          "java.io": 4,
+          "com.google": 3,
+          "java.time": 1,
+          "java.net": 1,
+          "org.springframework": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "express": 3,
+          "dotenv": 1,
+          "body-parser": 1,
+          "crypto": 1,
+          "gulp-imagemin": 1,
+          "gulp": 1,
+          "ejs": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 21,
+        "packages": {
+          "json": 11,
+          "os": 9,
+          "sys": 8,
+          "httplib": 6,
+          "time": 5,
+          "cp_mgmt_api": 5,
+          "subprocess": 5,
+          "hashlib": 4,
+          "socket": 4,
+          "base64": 4,
+          "datetime": 3,
+          "AnsibleModule": 3,
+          "ast": 3,
+          "ansible": 3,
+          "HTTPResponse": 3,
+          "api_response": 3,
+          "ssl": 3,
+          "APIResponse": 3,
+          "requests": 2,
+          "re": 2,
+          "mgmt_api_lib": 2,
+          "APIClient": 2,
+          "boto3": 1,
+          "the": 1,
+          "PySimpleGUI": 1,
+          "ffmpeg": 1,
+          "unittest": 1,
+          "btdl": 1,
+          "clean_file_name": 1,
+          "canvas": 1,
+          "letter": 1,
+          "reportlab": 1,
+          "platform": 1,
+          "urllib": 1,
+          "colorama": 1,
+          "pad": 1,
+          "urandom": 1,
+          "random": 1,
+          "AES": 1,
+          "Crypto": 1,
+          "argparse": 1,
+          "init": 1,
+          "env": 1,
+          "javax": 1,
+          "Import": 1,
+          "BorderLayout": 1,
+          "EmptyBorder": 1,
+          "ArrayList": 1,
+          "DefaultTableModel": 1,
+          "File": 1,
+          "MouseAdapter": 1,
+          "burp": 1,
+          "FileNameExtensionFilter": 1,
+          "java": 1,
+          "IBurpExtender": 1,
+          "load_dotenv": 1,
+          "fastapi": 1,
+          "dotenv": 1,
+          "HTMLResponse": 1,
+          "StaticFiles": 1,
+          "httpx": 1,
+          "FastAPI": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 2,
+        "packages": {
+          "azure_mgmt_resources": 2
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "astrojs": 1,
+          "astro:content": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "marksowell/akto",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "marksowell/Astro-Starlight-Documentation",
+        "files_analyzed": 2,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "marksowell/aws-account-finder",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "marksowell/BrightTalk-video-downloader",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "marksowell/caldera-report-generator",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "marksowell/Ckpt_Mike-",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C#",
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "marksowell/Clickjacking-POC",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "marksowell/codespaces-express",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "marksowell/CVE-2024-4367-PoC",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "marksowell/DSViper",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "marksowell/esp32-web-lora-demo-ota-multi-device",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C++",
+          "Python"
+        ]
+      },
+      {
+        "repository": "marksowell/express",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "marksowell/Findings-Tracker",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "marksowell/gh-dash",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "marksowell/haikus-for-codespaces",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

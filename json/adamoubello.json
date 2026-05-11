@@ -1,0 +1,477 @@
+{
+  "username": "adamoubello",
+  "areas": {
+    "OSS": {
+      "score": -0.43860062155228985,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8420990676715652
+      }
+    },
+    "Status": {
+      "score": 0.20055067637480328,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7623644761006664,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.45,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.13760998903549732,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        1372104,
+        39
+      ],
+      "TypeScript": [
+        86350,
+        2
+      ],
+      "CSS": [
+        65939,
+        1
+      ],
+      "HTML": [
+        40425,
+        0
+      ],
+      "JavaScript": [
+        13019,
+        0
+      ],
+      "PHP": [
+        1245,
+        0
+      ],
+      "Ruby": [
+        158,
+        0
+      ],
+      "SCSS": [
+        856,
+        0
+      ],
+      "Less": [
+        0,
+        0
+      ],
+      "Groovy": [
+        0,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 42,
+    "total_lines": 1580096,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 1372104,
+        "commits": 39
+      },
+      {
+        "language": "TypeScript",
+        "lines": 86350,
+        "commits": 2
+      },
+      {
+        "language": "CSS",
+        "lines": 65939,
+        "commits": 1
+      },
+      {
+        "language": "HTML",
+        "lines": 40425,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 13019,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "adamoubello",
+    "analysis_date": "2026-05-10T17:25:05.566191",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 469,
+    "languages": {
+      "Java": {
+        "files_scanned": 342,
+        "packages": {
+          "com.adamoubello": 210,
+          "java.util": 138,
+          "org.springframework": 133,
+          "javax.persistence": 30,
+          "com.userfront": 30,
+          "com.cancunsleep": 29,
+          "java.io": 25,
+          "org.junit": 17,
+          "lombok.Data": 14,
+          "com.fasterxml": 14,
+          "lombok.AllArgsConstructor": 12,
+          "lombok.NoArgsConstructor": 12,
+          "static": 11,
+          "android.util": 10,
+          "java.math": 10,
+          "android.content": 9,
+          "android.os": 8,
+          "android.app": 8,
+          "org.hibernate": 8,
+          "android.view": 7,
+          "java.security": 7,
+          "androidx.annotation": 6,
+          "android.widget": 6,
+          "lombok.Builder": 6,
+          "java.time": 6,
+          "colleague": 6,
+          "com.android": 6,
+          "model.Movie": 6,
+          "javax.validation": 5,
+          "org.mapstruct": 5,
+          "org.apache": 5,
+          "mediator": 5,
+          "mediator.MachineMediator": 5,
+          "util.Constants": 5,
+          "org.json": 5,
+          "lombok": 5,
+          "android.graphics": 4,
+          "javax.servlet": 4,
+          "Deadlock_11": 4,
+          "model": 4,
+          "org.osgi": 4,
+          "androidx.navigation": 3,
+          "androidx.appcompat": 3,
+          "java.net": 3,
+          "android.media": 3,
+          "lombok.extern": 3,
+          "org.slf4j": 3,
+          "CallableAndFuture_13": 3,
+          "LockObjects_4": 3,
+          "Semaphores_12": 3,
+          "StartingThreads_1": 3,
+          "WaitAndNotify_8": 3,
+          "data.CustomListviewAdapter": 3,
+          "model.MovieProfile": 3,
+          "lombok.Getter": 3,
+          "lombok.Setter": 3,
+          "androidx.test": 2,
+          "androidx.fragment": 2,
+          "com.google": 2,
+          "androidx.localbroadcastmanager": 2,
+          "java.sql": 2,
+          "java.nio": 2,
+          "io.jsonwebtoken": 2,
+          "java.text": 2,
+          "xpay.Xpay": 2,
+          "payd": 2,
+          "xpay": 2,
+          "colleague.Valve": 2,
+          "colleague.Machine": 2,
+          "colleague.Heater": 2,
+          "LowLevelProducerConsumer_9": 2,
+          "ReentrantLocks_10": 2,
+          "ThreadPools_5": 2,
+          "androidx.lifecycle": 2,
+          "com.felipecsl": 2,
+          "android.annotation": 2,
+          "util": 2,
+          "androidx.core": 1,
+          "lombok.RequiredArgsConstructor": 1,
+          "lombok.val": 1,
+          "reactor.core": 1,
+          "io.github": 1,
+          "javax.annotation": 1,
+          "org.modelmapper": 1,
+          "payd.PayD": 1,
+          "xpay.XpayImpl": 1,
+          "payd.XpayToPayDAdapter": 1,
+          "CountDownLatch_6": 1,
+          "InterruptingThreads14": 1,
+          "JoiningAndSynchronizeThreads_3": 1,
+          "ProducerConsumer_7": 1,
+          "VolatileKeyword_2": 1,
+          "javax.imageio": 1,
+          "java.awt": 1,
+          "com.sun": 1,
+          "javafx.application": 1,
+          "javafx.beans": 1,
+          "javafx.scene": 1,
+          "javafx.geometry": 1,
+          "javafx.event": 1,
+          "javafx.animation": 1,
+          "javafx.util": 1,
+          "javafx.stage": 1,
+          "com.readystatesoftware": 1,
+          "java.lang": 1,
+          "com.manuelpeinado": 1,
+          "model.Rating": 1,
+          "android.text": 1,
+          "android.net": 1,
+          "data": 1,
+          "springfox.documentation": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 15,
+        "packages": {
+          "jsonwebtoken": 4,
+          "crypto": 3,
+          "fs": 2,
+          "path": 2,
+          "ts-node": 2,
+          "jasmine-spec-reporter": 2,
+          "Ext.window.MessageBox": 2,
+          "karma-coverage-istanbul-reporter": 1,
+          "angular-devkit": 1,
+          "karma-chrome-launcher": 1,
+          "karma-jasmine": 1,
+          "karma-jasmine-html-reporter": 1,
+          "nocss": 1,
+          "jQuery": 1,
+          "Ext.rtl.*": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 66,
+        "packages": {
+          "angular": 47,
+          "express": 9,
+          "rxjs": 8,
+          "ngrx": 7,
+          "protractor": 3,
+          "lodash": 3,
+          "argon2": 3,
+          "moment": 2,
+          "fs": 2,
+          "src": 2,
+          "password-validator": 1,
+          "crypto": 1,
+          "util": 1,
+          "jsonwebtoken": 1,
+          "https": 1,
+          "body-parser": 1,
+          "cookie-parser": 1,
+          "command-line-args": 1,
+          "customer": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "adamoubello/album-resource-server",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/angular-complete-guide",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "adamoubello/angular-security-foundation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "adamoubello/bimbouplay",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/brewery-rest-docs",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/cancunsleep",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/currency-microservices",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/dependency-injection",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/Front-End-Test",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "adamoubello/givaudan-test",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/givaudan-test-front",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "adamoubello/java-abstraction-payments-system",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/java-design-patterns",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/java-multithreading",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/java-multithreading-concurrency-performance-optimization",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/movieprofiler",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/mvc-rest-swagger-ui",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/online-bank",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/orders-resource-server",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/orders-web-oauth-client",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/osgi-sample",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/pet-clinic",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/photo-app-rest-template",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "adamoubello/photo-app-webclient",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

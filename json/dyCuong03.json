@@ -1,0 +1,485 @@
+{
+  "username": "dyCuong03",
+  "areas": {
+    "OSS": {
+      "score": 0.06082267193605384,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.5912340079040806
+      }
+    },
+    "Status": {
+      "score": 0.02802314216288937,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.5228039440135649,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.1875,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.019730837180211364,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "ShaderLab": [
+        1240626,
+        6
+      ],
+      "C#": [
+        35539327,
+        3
+      ],
+      "HLSL": [
+        109766,
+        1
+      ],
+      "Shell": [
+        6176,
+        1
+      ],
+      "TypeScript": [
+        109592,
+        0
+      ],
+      "HTML": [
+        42453,
+        0
+      ],
+      "JavaScript": [
+        33111,
+        1
+      ],
+      "CSS": [
+        627,
+        0
+      ],
+      "Perl": [
+        327,
+        0
+      ],
+      "Dockerfile": [
+        290,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 12,
+    "total_lines": 37082295,
+    "top_5_languages": [
+      {
+        "language": "ShaderLab",
+        "lines": 1240626,
+        "commits": 6
+      },
+      {
+        "language": "C#",
+        "lines": 35539327,
+        "commits": 3
+      },
+      {
+        "language": "HLSL",
+        "lines": 109766,
+        "commits": 1
+      },
+      {
+        "language": "Shell",
+        "lines": 6176,
+        "commits": 1
+      },
+      {
+        "language": "JavaScript",
+        "lines": 33111,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "dyCuong03",
+    "analysis_date": "2026-05-10T21:24:19.287619",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 420,
+    "languages": {
+      "C#": {
+        "files_scanned": 258,
+        "packages": {
+          "UnityEngine": 141,
+          "System": 125,
+          "System.Collections.Generic": 101,
+          "System.Collections": 42,
+          "UnityEngine.Scripting": 40,
+          "System.Linq": 37,
+          "Cysharp.Threading.Tasks": 34,
+          "System.Threading": 33,
+          "UnityEditor": 30,
+          "UniT.Extensions": 26,
+          "Unity.Entities": 24,
+          "UnityEngine.UI": 19,
+          "UniT.DI": 17,
+          "VContainer": 16,
+          "Unity.Mathematics": 16,
+          "UniT.Logging.DI": 15,
+          "Unity.Transforms": 14,
+          "System.IO": 11,
+          "BlockSmash.Extensions": 9,
+          "Unity.Burst": 9,
+          "Zenject": 9,
+          "UniT.ResourceManagement.DI": 9,
+          "Object": 8,
+          "Com.ForbiddenByte.OSA.Core": 8,
+          "UniT.Logging": 8,
+          "MessagePipe": 7,
+          "System.Diagnostics.CodeAnalysis": 7,
+          "UnityEngine.UIElements": 7,
+          "BlockSmash.Pooling": 6,
+          "BlockSmash.Models": 6,
+          "BlockSmash.Managers": 5,
+          "VContainer.Unity": 5,
+          "Random": 5,
+          "Unity.Rendering": 5,
+          "Unity.Collections": 5,
+          "ILogger": 5,
+          "System.Collections.ObjectModel": 5,
+          "BlockSmash.Signals": 4,
+          "BlockSmash.Entities": 4,
+          "UnityEngine.SceneManagement": 4,
+          "System.Reflection": 4,
+          "System.Threading.Tasks": 4,
+          "var": 4,
+          "Sirenix.OdinInspector.Editor": 4,
+          "BlockSmash.Signals.BlockSmash.Signals": 3,
+          "BlockSmash.Services": 3,
+          "GameConfigs": 3,
+          "UnityEngine.AddressableAssets": 3,
+          "Newtonsoft.Json": 3,
+          "frame8.Logic.Misc.Other.Extensions": 3,
+          "frame8.Logic.Misc.Visual.UI.MonoBehaviours": 3,
+          "System.Globalization": 3,
+          "UniT.ResourceManagement": 3,
+          "UniT.Pooling.DI": 3,
+          "System.Runtime.CompilerServices": 3,
+          "BlockSmash.Implements": 2,
+          "UnityEditorInternal": 2,
+          "System.Text": 2,
+          "UnityEditor.SceneManagement": 2,
+          "UnityEngine.EventSystems": 2,
+          "frame8.Logic.Misc.Visual.UI": 2,
+          "TMPro": 2,
+          "UnityEngine.ResourceManagement.AsyncOperations": 2,
+          "UnityEngine.Playables": 2,
+          "BlockSmash.DI": 1,
+          "Grid": 1,
+          "_Game.Scripts.Gameplay.Utils": 1,
+          "Models": 1,
+          "UnityEngine.Rendering": 1,
+          "Unity.Jobs": 1,
+          "UnityEngine.Serialization": 1,
+          "GameFoundation.BuildScripts.Runtime": 1,
+          "UnityEditor.AddressableAssets.Settings": 1,
+          "UnityEditor.Build.Reporting": 1,
+          "UnityEditor.Build": 1,
+          "UnityEditor.AddressableAssets.Build": 1,
+          "System.Diagnostics": 1,
+          "UnityEditor.Compilation": 1,
+          "UnityEditor.iOS.Xcode": 1,
+          "UnityEditor.Callbacks": 1,
+          "GameFoundation.Scripts.Utilities.Extension": 1,
+          "UnityEditor.UIElements": 1,
+          "SystemInfo": 1,
+          "UnityEditor.UI": 1,
+          "GameFoundation.Scripts.UIModule.Utilities.UIStuff": 1,
+          "GameFoundation.Scripts.UIModule.ScreenFlow.BaseScreen.Presenter": 1,
+          "GameFoundation.Scripts.AssetLibrary": 1,
+          "GameFoundation.Scripts.UIModule.MVP": 1,
+          "GameFoundation.Scripts.Utilities.LogService": 1,
+          "GameFoundation.Scripts.UIModule.ScreenFlow.BaseScreen.View": 1,
+          "System.Text.RegularExpressions": 1,
+          "Com.ForbiddenByte.OSA.AdditionalComponents": 1,
+          "Com.ForbiddenByte.OSA.Editor.OSAWizard": 1,
+          "Com.ForbiddenByte.OSA.Editor.Util": 1,
+          "frame8.Logic.Misc.Other": 1,
+          "Com.ForbiddenByte.OSA.Editor.OSAWizard.CustomAdapterConfigurators": 1,
+          "Com.ForbiddenByte.OSA.CustomAdapters.GridView": 1,
+          "Com.ForbiddenByte.OSA.CustomParams": 1,
+          "Com.ForbiddenByte.OSA.Core.SubComponents": 1,
+          "UniT.Pooling": 1,
+          "Sirenix.Utilities.Editor": 1,
+          "VContainer.Internal": 1,
+          "UnityEngine.ResourceManagement.ResourceLocations": 1,
+          "UnityEngine.Networking": 1,
+          "UnityEngine.ResourceManagement.ResourceProviders": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 20,
+        "packages": {
+          "fs": 4,
+          "path": 3,
+          "crypto": 3,
+          "express": 3,
+          ":": 2,
+          "os": 2,
+          "node:assert": 2,
+          "node:test": 2,
+          "supertest": 2,
+          "__esModule": 1,
+          "cc": 1,
+          "child_process": 1,
+          "undefined": 1,
+          "rollup": 1,
+          "rollup-plugin-dts": 1,
+          "node": 1,
+          "is-builtin-module": 1,
+          "uglify-js": 1,
+          "helmet": 1,
+          "cors": 1,
+          "dotenv": 1,
+          "cluster": 1,
+          "google-cloud": 1,
+          "redis": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 39,
+        "packages": {
+          "cc": 12,
+          "path": 11,
+          "db:": 10,
+          "fs": 6,
+          "uuid": 5,
+          "name": 5,
+          "nodeUuid": 4,
+          "url": 3,
+          "fs-extra": 2,
+          "pattern": 2,
+          "script": 2,
+          "uuids": 2,
+          "mraid.js": 2,
+          "InjectionToken": 2,
+          "http": 1,
+          "vue": 1,
+          "#exportConfigBtn": 1,
+          "click": 1,
+          "#importConfigBtn": 1,
+          "#importModal": 1,
+          "#importConfigJson": 1,
+          "sourceDirectory": 1,
+          "urlOrUUID": 1,
+          "urls": 1,
+          "messageType": 1,
+          ":": 1,
+          "sourcePrefabPath": 1,
+          "prefabPath": 1,
+          "importPath": 1,
+          "source": 1,
+          "sourcePath": 1,
+          "platform": 1,
+          "assetPath": 1,
+          "opacity": 1,
+          "x": 1,
+          "key": 1,
+          "paths": 1,
+          "sx": 1,
+          "undoId": 1,
+          "assetUuid": 1,
+          "target": 1,
+          "className": 1,
+          "scenePath": 1,
+          "sceneName": 1,
+          "visible": 1,
+          "type": 1,
+          "is2D": 1,
+          "is3D": 1,
+          "size": 1,
+          "os": 1,
+          "description:": 1,
+          "jsonString": 1,
+          "toolName": 1,
+          "value": 1,
+          "ExitApi.exit()": 1,
+          "ad.orientation": 1,
+          "text": 1,
+          "ready": 1,
+          "DependencyContainer": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "dyCuong03/BlockSmash",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/cocos-mcp-server",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "dyCuong03/cocos-pnp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "dyCuong03/DOTS-training-samples",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/EntityComponentSystemSamples",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/GameFoundation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/playable-foundation",
+        "files_analyzed": 27,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "dyCuong03/playable_tracking",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "dyCuong03/tsyringe",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "dyCuong03/UniT.Audio",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/UniT.Data",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/UniT.Easings",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/UniT.Entities",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/UniT.Extensions",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/UniT.Lifecycle",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/UniT.Logging",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/UniT.Pooling",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/UniT.ResourceManagement",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "dyCuong03/UniT.UI",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

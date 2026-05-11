@@ -1,0 +1,870 @@
+{
+  "username": "seanliu96",
+  "areas": {
+    "OSS": {
+      "score": 0.7738095238095237,
+      "details": {
+        "issue_resolution_rate": 0.875,
+        "pr_merge_rate": 0.7857142857142857,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": -0.11819395955898448,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.303478291430754,
+        "week_streak": 0.019230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": 0.145833,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.6667,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 8,
+        "topic_entropy_bits": 2.0,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.21028971285010786,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        22420,
+        0
+      ],
+      "HTML": [
+        14426743,
+        20
+      ],
+      "Ruby": [
+        1409,
+        0
+      ],
+      "CSS": [
+        1276,
+        1
+      ],
+      "Python": [
+        5903656,
+        75
+      ],
+      "Jupyter Notebook": [
+        2251847,
+        0
+      ],
+      "TeX": [
+        1610,
+        5
+      ],
+      "Smarty": [
+        94,
+        0
+      ],
+      "Shell": [
+        36635,
+        1
+      ],
+      "C++": [
+        27990,
+        54
+      ],
+      "QMake": [
+        501,
+        0
+      ],
+      "CMake": [
+        0,
+        17
+      ],
+      "C": [
+        0,
+        16
+      ],
+      "Makefile": [
+        0,
+        14
+      ],
+      "Java": [
+        0,
+        4
+      ],
+      "Batchfile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 207,
+    "total_lines": 22674181,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 5903656,
+        "commits": 75
+      },
+      {
+        "language": "C++",
+        "lines": 27990,
+        "commits": 54
+      },
+      {
+        "language": "HTML",
+        "lines": 14426743,
+        "commits": 20
+      },
+      {
+        "language": "CMake",
+        "lines": 0,
+        "commits": 17
+      },
+      {
+        "language": "C",
+        "lines": 0,
+        "commits": 16
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "seanliu96",
+    "analysis_date": "2026-05-10T14:14:28.999673",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 323,
+    "languages": {
+      "C#": {
+        "files_scanned": 29,
+        "packages": {
+          "System.Collections.Generic": 29,
+          "System.Linq": 24,
+          "System.Text": 23,
+          "System.Threading.Tasks": 19,
+          "System.Diagnostics": 18,
+          "System.Runtime.Serialization": 17,
+          "Newtonsoft.Json.Linq": 15,
+          "static": 10,
+          "Microsoft.Azure.Documents.Client": 7,
+          "Newtonsoft.Json": 6,
+          "Microsoft.Azure.Documents": 6,
+          "System.IO": 5,
+          "System.Globalization": 5,
+          "System": 5,
+          "Microsoft.SqlServer.TransactSql.ScriptDom": 4,
+          "System.Net": 3,
+          "System.Collections": 3,
+          "System.Reflection": 3,
+          "GraphView.GraphViewDBPortal": 3,
+          "System.Runtime.Serialization.Formatters.Binary": 2,
+          "PathStatue": 2,
+          "BindingStatue": 2,
+          "LinkStatue": 2,
+          "System.Collections.ObjectModel": 2,
+          "System.Runtime.CompilerServices": 2,
+          "GraphView": 1,
+          "System.CodeDom.Compiler": 1,
+          "System.Linq.Expressions": 1,
+          "System.Text.RegularExpressions": 1,
+          "Microsoft.CSharp": 1,
+          "System.Threading": 1,
+          "JsonServer": 1,
+          "JsonServer.Exceptions": 1,
+          "System.CodeDom": 1,
+          "Newtonsoft.Json.Converters": 1,
+          "System.Collections.Concurrent": 1,
+          "Newtonsoft.Json.Serialization": 1,
+          "System.Data": 1,
+          "System.Collections.Specialized": 1,
+          "System.Runtime.InteropServices.WindowsRuntime": 1,
+          "Microsoft.Azure.Documents.Partitioning": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 19,
+        "packages": {
+          "stdio.h": 7,
+          "iostream": 6,
+          "std": 6,
+          "namespace": 6,
+          "<iostream>": 6,
+          "<cstdlib>": 5,
+          "ctime": 5,
+          "cstdlib": 5,
+          "<ctime>": 5,
+          "<cmath>": 5,
+          "cmath": 5,
+          "<stdio.h>": 5,
+          "<vector>": 5,
+          "vector": 5,
+          "deploy.h": 4,
+          "<QMessageBox>": 3,
+          "QMessageBox": 3,
+          "<QtDebug>": 3,
+          "QtDebug": 3,
+          "<cstring>": 3,
+          "<algorithm>": 3,
+          "algorithm": 3,
+          "<random>": 3,
+          "utility": 3,
+          "<deque>": 3,
+          "cstring": 3,
+          "random": 3,
+          "<utility>": 3,
+          "queue": 3,
+          "<queue>": 3,
+          "limits.h": 3,
+          "deque": 3,
+          "<limits.h>": 3,
+          "<fstream>": 3,
+          "fstream": 3,
+          "<cstdio>": 2,
+          "cstdio": 2,
+          "<QDateTime>": 2,
+          "QDateTime": 2,
+          "<QApplication>": 2,
+          "QApplication": 2,
+          "mainwindow.h": 2,
+          "lib_time.h": 2,
+          "lib_io.h": 2,
+          "<string.h>": 2,
+          "<assert.h>": 2,
+          "stdlib.h": 2,
+          "sys/timeb.h": 2,
+          "errno.h": 2,
+          "unistd.h": 2,
+          "<time.h>": 2,
+          "<unistd.h>": 2,
+          "time.h": 2,
+          "string.h": 2,
+          "<signal.h>": 2,
+          "<sys/timeb.h>": 2,
+          "<errno.h>": 2,
+          "<stdlib.h>": 2,
+          "signal.h": 2,
+          "assert.h": 2,
+          "<string>": 2,
+          "<sstream>": 2,
+          "<set>": 2,
+          "string": 2,
+          "set": 2,
+          "sstream": 2,
+          "conio.h": 1,
+          "process.h": 1,
+          "windows.h": 1,
+          "<conio.h>": 1,
+          "<windows.h>": 1,
+          "BrickBreaker.h": 1,
+          "<process.h>": 1,
+          "ui_breakthebricks.h": 1,
+          "<QKeyEvent>": 1,
+          "QKeyEvent": 1,
+          "breakthebricks.h": 1,
+          "ball.h": 1,
+          "bar.h": 1,
+          "brick.h": 1,
+          "QTextStream": 1,
+          "game.h": 1,
+          "<QTextStream>": 1,
+          "<QPainter>": 1,
+          "QFile": 1,
+          "QPainter": 1,
+          "<QFile>": 1,
+          "<QHBoxLayout>": 1,
+          "QLineEdit": 1,
+          "QVBoxLayout": 1,
+          "<QVBoxLayout>": 1,
+          "<QWidget>": 1,
+          "QWidget": 1,
+          "QHBoxLayout": 1,
+          "<QLineEdit>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 8,
+        "packages": {
+          "QColor": 4,
+          "<QColor>": 4,
+          "<QRect>": 3,
+          "QRect": 3,
+          "<QLabel>": 2,
+          "<QMainWindow>": 2,
+          "QLabel": 2,
+          "QMainWindow": 2,
+          "<vector>": 2,
+          "vector": 2,
+          "namespace": 2,
+          "<QMutex>": 1,
+          "QMutex": 1,
+          "ball.h": 1,
+          "QList": 1,
+          "<QList>": 1,
+          "bar.h": 1,
+          "brick.h": 1,
+          "<QWidget>": 1,
+          "QWidget": 1,
+          "QPushButton": 1,
+          "QTimer": 1,
+          "<QKeyEvent>": 1,
+          "<QTimer>": 1,
+          "QComboBox": 1,
+          "<QPushButton>": 1,
+          "game.h": 1,
+          "QKeyEvent": 1,
+          "<QComboBox>": 1,
+          "lib_io.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 232,
+        "packages": {
+          "numpy": 108,
+          "os": 53,
+          "argparse": 42,
+          "torch": 40,
+          "time": 35,
+          "keras": 33,
+          "sys": 31,
+          "matplotlib": 30,
+          "math": 26,
+          "Sequential": 26,
+          "dgl": 26,
+          "mxnet": 25,
+          "Dense": 24,
+          "gluon": 24,
+          "logging": 23,
+          "PIL": 20,
+          "Image": 20,
+          "util": 19,
+          "DGLGraph": 18,
+          "__future__": 17,
+          "register_data_args": 17,
+          "json": 15,
+          "random": 15,
+          "*": 15,
+          "sklearn": 13,
+          "re": 11,
+          "tensorflow": 11,
+          "onmt": 10,
+          "functools": 10,
+          "syntax_tree": 10,
+          "Syntax_tree": 10,
+          "h5py": 10,
+          "datetime": 9,
+          "others": 9,
+          "division": 9,
+          "config": 9,
+          "np_utils": 9,
+          "transformers": 8,
+          "partial": 8,
+          "autoprompt": 7,
+          "tqdm": 7,
+          "collections": 7,
+          "logger": 7,
+          "Feature": 7,
+          "feature": 7,
+          "backend": 7,
+          "typing": 6,
+          "utils": 6,
+          "DataLoader": 6,
+          "copy": 6,
+          "print_function": 6,
+          "models": 6,
+          "singleton": 6,
+          "ArgumentParser": 6,
+          "scipy": 6,
+          "Conv2D": 6,
+          "SGD": 6,
+          "plot_model": 6,
+          "bs4": 5,
+          "requests": 5,
+          "BeautifulSoup": 5,
+          "scrapy": 5,
+          "glob": 5,
+          "helper": 5,
+          "model": 5,
+          "connective_dict": 5,
+          "Connectives_dict": 5,
+          "nltk": 5,
+          "WordNetLemmatizer": 5,
+          "Model": 5,
+          "chainer": 5,
+          "mnist": 5,
+          "BFS": 5,
+          "db": 5,
+          "get_db": 5,
+          "Path": 4,
+          "pathlib": 4,
+          "AutoConfig": 4,
+          "setuptools": 4,
+          "subprocess": 4,
+          "itertools": 4,
+          "NoReturn": 4,
+          "Variable": 4,
+          "BatchNormalization": 4,
+          "extensions": 4,
+          "training": 4,
+          "datasets": 4,
+          "MinMaxScaler": 4,
+          "bson": 4,
+          "consts": 4,
+          "django": 4,
+          "urllib": 3,
+          "urllib2": 3,
+          "defaultdict": 3,
+          "unittest": 3,
+          "TestCase": 3,
+          "TimeoutError": 3,
+          "twisted": 3,
+          "ResponseNeverReceived": 3,
+          "pytorch_pretrained_bert": 3,
+          "distributed": 3,
+          "setup": 3,
+          "tiktoken": 3,
+          "base64": 3,
+          "path": 3,
+          "model_trainer": 3,
+          "clause": 3,
+          "import": 3,
+          "Lambda": 3,
+          "MaxPooling2D": 3,
+          "genfromtxt": 3,
+          "Chain": 3,
+          "Activation": 3,
+          "KB": 3,
+          "gcn_cv_sc": 3,
+          "gcn_ns_sc": 3,
+          "graphsage_cv": 3,
+          "gcn_ns_train": 3,
+          "graphsage_cv_train": 3,
+          "gcn_cv_train": 3,
+          "ObjectId": 3,
+          "dumps": 3,
+          "tornado": 3,
+          "define": 3,
+          "csv": 2,
+          "Dict": 2,
+          "pickle": 2,
+          "gc": 2,
+          "Statistics": 2,
+          "SummaryWriter": 2,
+          "tensorboardX": 2,
+          "nn": 2,
+          "log": 2,
+          "codecs": 2,
+          "pyrouge": 2,
+          "prepro": 2,
+          "hashlib": 2,
+          "data_loader": 2,
+          "threading": 2,
+          "uuid": 2,
+          "httpx": 2,
+          "Set": 2,
+          "Dataset": 2,
+          "torch_scatter": 2,
+          "pdb": 2,
+          "MessagePassing": 2,
+          "constituent": 2,
+          "ConnHeadMapper": 2,
+          "Constituent": 2,
+          "operator": 2,
+          "non_explicit_dict": 2,
+          "Non_Explicit_dict": 2,
+          "xml": 2,
+          "pack_padded_sequence": 2,
+          "pad_packed_sequence": 2,
+          "pycld2": 2,
+          "unicodeblock": 2,
+          "Counter": 2,
+          "fr_utils": 2,
+          "TensorBoard": 2,
+          "Env": 2,
+          "policy_nn": 2,
+          "count": 2,
+          "networks": 2,
+          "env": 2,
+          "cPickle": 2,
+          "NodeUpdate": 2,
+          "Recommender": 2,
+          "pymongo": 2,
+          "svds": 2,
+          "normalize": 2,
+          "pairwise_distances": 2,
+          "json_decode": 2,
+          "fetch_free_proxyes": 2,
+          "quote": 1,
+          "pandas": 1,
+          "io": 1,
+          "streamlit": 1,
+          "dataclass": 1,
+          "dataclasses": 1,
+          "LambdaLR": 1,
+          "CrossEntropyLoss": 1,
+          "AutoPopsicle": 1,
+          "pad_sequence": 1,
+          "baike": 1,
+          "signals": 1,
+          "jieba": 1,
+          "lxml": 1,
+          "Cleaner": 1,
+          "gensim": 1,
+          "LayerNormLSTM": 1,
+          "MultiHeadedAttention": 1,
+          "TransformerInterEncoder": 1,
+          "Optimizer": 1,
+          "BertModel": 1,
+          "xavier_uniform_": 1,
+          "clip_grad_norm_": 1,
+          "get_rank": 1,
+          "all_gather_list": 1,
+          "ReportMgr": 1,
+          "test_rouge": 1,
+          "absolute_import": 1,
+          "tempfile": 1,
+          "platform": 1,
+          "check_output": 1,
+          "mkdtemp": 1,
+          "rouge_path_parser": 1,
+          "configparser": 1,
+          "PunktSentenceSplitter": 1,
+          "ConfigParser": 1,
+          "verify_dir": 1,
+          "shutil": 1,
+          "_get_word_ngrams": 1,
+          "multiprocess": 1,
+          "Pool": 1,
+          "clean": 1,
+          "BertTokenizer": 1,
+          "join": 1,
+          "init_logger": 1,
+          "data_builder": 1,
+          "build_trainer": 1,
+          "BertConfig": 1,
+          "signal": 1,
+          "Summarizer": 1,
+          "traceback": 1,
+          "load_dataset": 1,
+          "find_namespace_packages": 1,
+          "openai": 1,
+          "date": 1,
+          "Authenticator": 1,
+          "md5": 1,
+          "environ": 1,
+          "annotations": 1,
+          "contextlib": 1,
+          "AsyncClient": 1,
+          "Error": 1,
+          "OpenAIAuth": 1,
+          "getenv": 1,
+          "wraps": 1,
+          "asyncio": 1,
+          "importlib": 1,
+          "--config": 1,
+          "revChatGPT": 1,
+          "duckduckgo_search": 1,
+          "ddg": 1,
+          "PromptSession": 1,
+          "WordCompleter": 1,
+          "AutoSuggestFromHistory": 1,
+          "prompt": 1,
+          "KeyBindings": 1,
+          "InMemoryHistory": 1,
+          "prompt_toolkit": 1,
+          "ordered_set": 1,
+          "Parameter": 1,
+          "functional": 1,
+          "scatter_add": 1,
+          "OrderedSet": 1,
+          "xavier_normal_": 1,
+          "pprint": 1,
+          "inspect": 1,
+          "scatter": 1,
+          "CompGCNConvBasis": 1,
+          "CompGCNConv": 1,
+          "get_tense_in_sent": 1,
+          "Explicit_dict": 1,
+          "explicit_dict": 1,
+          "exp_dict_util": 1,
+          "implicit_arg1_dict": 1,
+          "Implicit_arg1_dict": 1,
+          "implicit_arg1_dict_util": 1,
+          "implicit_arg2_dict": 1,
+          "Implicit_arg2_dict": 1,
+          "implicit_arg2_dict_util": 1,
+          "NT_dict": 1,
+          "NT_dict_util": 1,
+          "mergeFeatures": 1,
+          "string": 1,
+          "non_exp_dict_util": 1,
+          "itemgetter": 1,
+          "wordnet": 1,
+          "ps_arg1_dict_util": 1,
+          "ps_arg1_dict": 1,
+          "Ps_arg1_dict": 1,
+          "CoreNLPClient": 1,
+          "gzip": 1,
+          "stanza": 1,
+          "clip_grad_norm": 1,
+          "Beam": 1,
+          "Translator": 1,
+          "Optim": 1,
+          "GlobalAttention": 1,
+          "cuda": 1,
+          "cove": 1,
+          "data": 1,
+          "MTLSTM": 1,
+          "torchtext": 1,
+          "open": 1,
+          "ops": 1,
+          "LeakyReLU": 1,
+          "l2": 1,
+          "concatenate": 1,
+          "currently": 1,
+          "reduce": 1,
+          "colorsys": 1,
+          "imghdr": 1,
+          "cv2": 1,
+          "nst_utils": 1,
+          "imshow": 1,
+          "optimizers": 1,
+          "RMSprop": 1,
+          "Adam": 1,
+          "initializers": 1,
+          "LSTM": 1,
+          "Queue": 1,
+          "sets": 1,
+          "linear_model": 1,
+          "cosine_similarity": 1,
+          "namedtuple": 1,
+          "sphinx_gallery": 1,
+          "FileNameSortKey": 1,
+          "edge_softmax": 1,
+          "gat": 1,
+          "GAT": 1,
+          "EarlyStopping": 1,
+          "GraphConv": 1,
+          "GCN": 1,
+          "gcn": 1,
+          "RelGraphConv": 1,
+          "BaseRGCN": 1,
+          "load_data": 1,
+          "GraphSAGETrain": 1,
+          "GraphSAGELayer": 1,
+          "SamplerPool": 1,
+          "dis_gcn_cv_sc": 1,
+          "dis_gcn_ns_sc": 1,
+          "dis_graphsage_cv": 1,
+          "multiprocessing": 1,
+          "Process": 1,
+          "sparse": 1,
+          "TAGConv": 1,
+          "TAGCN": 1,
+          "tagcn": 1,
+          "warnings": 1,
+          "TreeLSTM": 1,
+          "tree_lstm": 1,
+          "zipfile": 1,
+          "networkx": 1,
+          "APPNPConv": 1,
+          "APPNP": 1,
+          "appnp": 1,
+          "recommender": 1,
+          "Note": 1,
+          "NoteBook": 1,
+          "User": 1,
+          "request": 1,
+          "pyodbc": 1,
+          "CountVectorizer": 1,
+          "multinomial": 1,
+          "argmax": 1,
+          "gsdmm": 1,
+          "MovieGroupProcess": 1,
+          "Request": 1,
+          "url": 1,
+          "views": 1,
+          "IPBanTest": 1,
+          "JsonResponse": 1,
+          "HttpResponseForbidden": 1,
+          "Timer": 1,
+          "cache_page": 1,
+          "get_wsgi_application": 1,
+          "execute_from_command_line": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "seanliu96/annotated-transformer",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/autoprompt",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/baike",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/BertSum",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/BrickBreaker",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "seanliu96/ChatGPT",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/CompGCN",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/conll2015_discourse",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/cove",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/deeplearning.ai",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/DeepLearningZeroToAll",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/DeepPath",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/dgl",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/DigitalImageProcessing",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/dscientia",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/GPS-monitoring-system",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/GraphView",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "seanliu96/gsdmm",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/HttpProxyMiddleware",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "seanliu96/HuaweiCodeCraft2017",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      }
+    ]
+  }
+}

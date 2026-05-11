@@ -1,0 +1,378 @@
+{
+  "username": "kumarnikhil936",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.218979873103192,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.7900082711932495,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.0625,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.09796264128730506,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        584315,
+        29
+      ],
+      "Shell": [
+        5175,
+        3
+      ],
+      "Jupyter Notebook": [
+        586626,
+        112
+      ],
+      "HTML": [
+        47407,
+        5
+      ],
+      "Dockerfile": [
+        23,
+        0
+      ],
+      "C": [
+        176,
+        46
+      ],
+      "Makefile": [
+        2,
+        0
+      ],
+      "Java": [
+        0,
+        2
+      ],
+      "C++": [
+        0,
+        25
+      ],
+      "Gnuplot": [
+        0,
+        1
+      ],
+      "CSS": [
+        0,
+        0
+      ],
+      "VHDL": [
+        0,
+        0
+      ],
+      "Tcl": [
+        0,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 223,
+    "total_lines": 1223724,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 586626,
+        "commits": 112
+      },
+      {
+        "language": "C",
+        "lines": 176,
+        "commits": 46
+      },
+      {
+        "language": "Python",
+        "lines": 584315,
+        "commits": 29
+      },
+      {
+        "language": "C++",
+        "lines": 0,
+        "commits": 25
+      },
+      {
+        "language": "HTML",
+        "lines": 47407,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "kumarnikhil936",
+    "analysis_date": "2026-05-10T13:59:39.748753",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 77,
+    "languages": {
+      "C": {
+        "files_scanned": 3,
+        "packages": {
+          "dev/sht11/sht11-sensor.h": 2,
+          "<stdio.h>": 2,
+          "contiki.h": 2,
+          "dev/leds.h": 2,
+          "stdio.h": 2,
+          "lib/random.h": 1,
+          "sys/ctimer.h": 1,
+          "dev/button-sensor.h": 1,
+          "net/ipv6/uip-ds6.h": 1,
+          "sys/etimer.h": 1,
+          "dev/light-sensor.h": 1,
+          "<string.h>": 1,
+          "string.h": 1,
+          "simple-udp.h": 1,
+          "net/ip/uip.h": 1,
+          "symbols.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "loader/symbols.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 13,
+        "packages": {
+          "android.util": 10,
+          "org.tensorflow": 10,
+          "android.content": 9,
+          "java.util": 9,
+          "android.view": 8,
+          "android.graphics": 8,
+          "android.os": 7,
+          "android.app": 5,
+          "com.example": 4,
+          "android.media": 4,
+          "java.io": 3,
+          "android.widget": 3,
+          "android.hardware": 2,
+          "java.nio": 2,
+          "android.support": 1,
+          "android.Manifest": 1,
+          "android.text": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 58,
+        "packages": {
+          "numpy": 36,
+          "tensorflow": 35,
+          "input_data": 22,
+          "sklearn": 17,
+          "KFold": 17,
+          "os": 13,
+          "matplotlib": 13,
+          "print_function": 12,
+          "__future__": 12,
+          "division": 11,
+          "absolute_import": 11,
+          "keras": 9,
+          "pandas": 7,
+          "sys": 6,
+          "time": 4,
+          "datetime": 4,
+          "lfw": 4,
+          "load_model": 4,
+          "models": 4,
+          "lfw_fuel": 4,
+          "Callback": 4,
+          "TensorBoard": 4,
+          "clean": 4,
+          "six": 3,
+          "re": 3,
+          "Conv2D": 3,
+          "BatchNormalization": 3,
+          "backend": 3,
+          "argparse": 3,
+          "cv2": 3,
+          "urllib": 2,
+          "tarfile": 2,
+          "cifar10": 2,
+          "math": 2,
+          "scipy": 2,
+          "Sequential": 2,
+          "Input": 2,
+          "generator": 2,
+          "buzz": 2,
+          "random": 2,
+          "PIL": 2,
+          "gfile": 2,
+          "graph_util": 2,
+          "collections": 2,
+          "tensor_shape": 2,
+          "Image": 2,
+          "Model": 2,
+          "MaxPooling2D": 2,
+          "genfromtxt": 2,
+          "fr_utils": 2,
+          "cifar10_input": 1,
+          "xrange": 1,
+          "alexnet": 1,
+          "imresize": 1,
+          "lenet": 1,
+          "ZeroPadding2D": 1,
+          "some": 1,
+          "maxnorm": 1,
+          "the": 1,
+          "core": 1,
+          "setuptools": 1,
+          "setup": 1,
+          "find_packages": 1,
+          "simple_model": 1,
+          "vgg": 1,
+          "flask": 1,
+          "Flask": 1,
+          "unittest": 1,
+          "BeautifulSoup": 1,
+          "bs4": 1,
+          "smtplib": 1,
+          "requests": 1,
+          "scripts": 1,
+          "load_graph": 1,
+          "graph_pb2": 1,
+          "app": 1,
+          "node_def_pb2": 1,
+          "array_ops": 1,
+          "flags": 1,
+          "session": 1,
+          "tensor_util": 1,
+          "importer": 1,
+          "ops": 1,
+          "dtypes": 1,
+          "attr_value_pb2": 1,
+          "constant_op": 1,
+          "compat": 1,
+          "hashlib": 1,
+          "IPython": 1,
+          "loadmat": 1,
+          "Convolution2D": 1,
+          "dlib": 1,
+          "imutils": 1,
+          "FaceAligner": 1,
+          "face_utils": 1,
+          "h5py": 1,
+          "*": 1,
+          "glob": 1,
+          "model": 1,
+          "Lambda": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "kumarnikhil936/alexnet_cifar_tensorflow",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kumarnikhil936/alexnet_lenet_vgg16_keras",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kumarnikhil936/automated_ci_cd_pipeline",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kumarnikhil936/contiki_distributed_event_detection",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "kumarnikhil936/covid19_visualisation_india",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kumarnikhil936/drop_connect_neural_network_sparsity",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kumarnikhil936/edge_computing_tflite",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "kumarnikhil936/face_recognition_vgg16",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kumarnikhil936/facial_recognition_inception_network",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

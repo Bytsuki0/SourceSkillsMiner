@@ -1,0 +1,680 @@
+{
+  "username": "tushar-semwal",
+  "areas": {
+    "OSS": {
+      "score": 0.5128205128205128,
+      "details": {
+        "issue_resolution_rate": 0.7692307692307693,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.320816882704988,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.904302247134405,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.375,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "tushar-semwal/awesome-federated-computing": 0.5700999999999999
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5417274791051002,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TeX": [
+        456889,
+        1
+      ],
+      "Shell": [
+        105994,
+        0
+      ],
+      "CSS": [
+        77615,
+        0
+      ],
+      "JavaScript": [
+        2854203,
+        1
+      ],
+      "HTML": [
+        73914,
+        141
+      ],
+      "Ruby": [
+        780,
+        0
+      ],
+      "C++": [
+        275329,
+        35
+      ],
+      "C": [
+        2056761,
+        0
+      ],
+      "Arduino": [
+        71343,
+        0
+      ],
+      "Python": [
+        491762,
+        11
+      ],
+      "Batchfile": [
+        5502,
+        0
+      ],
+      "Makefile": [
+        6645,
+        0
+      ],
+      "Jupyter Notebook": [
+        2573604,
+        2
+      ],
+      "Objective-C": [
+        32671,
+        0
+      ],
+      "Assembly": [
+        17715,
+        0
+      ],
+      "Perl": [
+        2132,
+        0
+      ],
+      "XSLT": [
+        611,
+        0
+      ],
+      "Gnuplot": [
+        206,
+        0
+      ],
+      "Awk": [
+        11,
+        0
+      ],
+      "Prolog": [
+        54,
+        0
+      ],
+      "Perl 6": [
+        1,
+        0
+      ],
+      "CMake": [
+        0,
+        0
+      ],
+      "SCSS": [
+        0,
+        0
+      ]
+    },
+    "language_count": 23,
+    "total_commits": 191,
+    "total_lines": 9103742,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 73914,
+        "commits": 141
+      },
+      {
+        "language": "C++",
+        "lines": 275329,
+        "commits": 35
+      },
+      {
+        "language": "Python",
+        "lines": 491762,
+        "commits": 11
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 2573604,
+        "commits": 2
+      },
+      {
+        "language": "TeX",
+        "lines": 456889,
+        "commits": 1
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "tushar-semwal",
+    "analysis_date": "2026-05-10T15:42:36.478796",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 178,
+    "languages": {
+      "C": {
+        "files_scanned": 21,
+        "packages": {
+          "<string.h>": 16,
+          "string.h": 16,
+          "<stdio.h>": 11,
+          "stdio.h": 11,
+          "net/ip/uip-debug.h": 9,
+          "stdlib.h": 8,
+          "<stdlib.h>": 8,
+          "index.h": 7,
+          "aql.h": 6,
+          "db-options.h": 6,
+          "storage.h": 6,
+          "result.h": 5,
+          "<limits.h>": 5,
+          "limits.h": 5,
+          "<errno.h>": 4,
+          "errno.h": 4,
+          "lib/memb.h": 4,
+          "netinet/in.h": 3,
+          "arpa/inet.h": 3,
+          "<sys/socket.h>": 3,
+          "netdb.h": 3,
+          "<netdb.h>": 3,
+          "<arpa/inet.h>": 3,
+          "<netinet/in.h>": 3,
+          "<sys/types.h>": 3,
+          "sys/types.h": 3,
+          "sys/socket.h": 3,
+          "contiki.h": 3,
+          "relation.h": 3,
+          "lvm.h": 3,
+          "lib/list.h": 3,
+          "<event2/event.h>": 2,
+          "tinydtls/dtls.h": 2,
+          "<assert.h>": 2,
+          "tinydtls/debug.h": 2,
+          "tinydtls/config.h": 2,
+          "event2/event.h": 2,
+          "unistd.h": 2,
+          "fcntl.h": 2,
+          "<fcntl.h>": 2,
+          "<unistd.h>": 2,
+          "assert.h": 2,
+          "sys/dsc.h": 2,
+          "antelope.h": 2,
+          "<ctype.h>": 2,
+          "ctype.h": 2,
+          "attribute.h": 2,
+          "debug.h": 2,
+          "<stdint.h>": 2,
+          "stdint.h": 2,
+          "lib/random.h": 2,
+          "cfs/cfs.h": 2,
+          "cfs/cfs-coffee.h": 2,
+          "avr/io.h": 1,
+          "<avr/interrupt.h>": 1,
+          "avr/interrupt.h": 1,
+          "<avr/io.h>": 1,
+          "util/delay.h": 1,
+          "<util/delay.h>": 1,
+          "sys/time.h": 1,
+          "<math.h>": 1,
+          "nethelper.h": 1,
+          "math.h": 1,
+          "<sys/time.h>": 1,
+          "lib/petsciiconv.h": 1,
+          "ctk/ctk.h": 1,
+          "<stdarg.h>": 1,
+          "stdarg.h": 1,
+          "lib/crc16.h": 1,
+          "at-master.h": 1,
+          "dev/uart.h": 1,
+          "sys/cc.h": 1,
+          "dev/serial-line.h": 1,
+          "cpu.h": 1,
+          "dev/sys-ctrl.h": 1,
+          "contiki-lib.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 28,
+        "packages": {
+          "<iostream>": 8,
+          "iostream": 8,
+          "cstdlib": 6,
+          "fstream": 6,
+          "<libfreenect2/registration.h>": 6,
+          "<libfreenect2/frame_listener_impl.h>": 6,
+          "<signal.h>": 6,
+          "signal.h": 6,
+          "<libfreenect2/libfreenect2.hpp>": 6,
+          "libfreenect2/registration.h": 6,
+          "libfreenect2/logger.h": 6,
+          "<fstream>": 6,
+          "<libfreenect2/logger.h>": 6,
+          "libfreenect2/packet_pipeline.h": 6,
+          "<cstdlib>": 6,
+          "libfreenect2/libfreenect2.hpp": 6,
+          "libfreenect2/frame_listener_impl.h": 6,
+          "<libfreenect2/packet_pipeline.h>": 6,
+          "viewer.h": 6,
+          "stdio.h": 5,
+          "<stdio.h>": 5,
+          "<stdlib.h>": 5,
+          "stdlib.h": 5,
+          "arpa/inet.h": 4,
+          "cantcoap.h": 4,
+          "BrickPiA.h": 3,
+          "BrickPiCS.h": 3,
+          "BrickPiUART.h": 3,
+          "string.h": 3,
+          "<string.h>": 3,
+          "<arpa/inet.h>": 3,
+          "BrickPiI2C.h": 2,
+          "BrickPiM.h": 2,
+          "BrickPiUS.h": 2,
+          "unistd.h": 2,
+          "<unistd.h>": 2,
+          "<stdint.h>": 2,
+          "stdint.h": 2,
+          "netinet/in.h": 2,
+          "sys/time.h": 2,
+          "<sys/socket.h>": 2,
+          "netdb.h": 2,
+          "<math.h>": 2,
+          "<netdb.h>": 2,
+          "<errno.h>": 2,
+          "<netinet/in.h>": 2,
+          "<sys/types.h>": 2,
+          "nethelper.h": 2,
+          "sys/types.h": 2,
+          "math.h": 2,
+          "<sys/time.h>": 2,
+          "errno.h": 2,
+          "sys/socket.h": 2,
+          "pins_arduino.h": 1,
+          "WProgram.h": 1,
+          "Arduino.h": 1,
+          "WConstants.h": 1,
+          "Firebird.h": 1,
+          "BrickPiEV3.h": 1,
+          "sysdep.h": 1,
+          "uthash.h": 1,
+          "CUnit/Basic.h": 1,
+          "dbg.h": 1,
+          "opencv2/highgui/highgui.hpp": 1,
+          "cv": 1,
+          "namespace": 1,
+          "std": 1,
+          "image_transport/image_transport.h": 1,
+          "<kinect2_bridge/kinect2_definitions.h>": 1,
+          "ros/ros.h": 1,
+          "<ros/spinner.h>": 1,
+          "kinect2_bridge/kinect2_definitions.h": 1,
+          "pcl/point_cloud.h": 1,
+          "<mutex>": 1,
+          "<image_transport/image_transport.h>": 1,
+          "<image_transport/subscriber_filter.h>": 1,
+          "chrono": 1,
+          "mutex": 1,
+          "sstream": 1,
+          "<pcl/visualization/cloud_viewer.h>": 1,
+          "image_transport/subscriber_filter.h": 1,
+          "message_filters/sync_policies/exact_time.h": 1,
+          "<sstream>": 1,
+          "<sensor_msgs/CameraInfo.h>": 1,
+          "<cmath>": 1,
+          "<chrono>": 1,
+          "<message_filters/subscriber.h>": 1,
+          "<string>": 1,
+          "message_filters/subscriber.h": 1,
+          "message_filters/synchronizer.h": 1,
+          "opencv2/opencv.hpp": 1,
+          "<pcl/point_cloud.h>": 1,
+          "pcl/io/pcd_io.h": 1,
+          "<message_filters/sync_policies/approximate_time.h>": 1,
+          "thread": 1,
+          "<cv_bridge/cv_bridge.h>": 1,
+          "pcl/point_types.h": 1,
+          "cv_bridge/cv_bridge.h": 1,
+          "ros/spinner.h": 1,
+          "<opencv2/opencv.hpp>": 1,
+          "vector": 1,
+          "sensor_msgs/CameraInfo.h": 1,
+          "<ros/ros.h>": 1,
+          "<pcl/point_types.h>": 1,
+          "sensor_msgs/Image.h": 1,
+          "cmath": 1,
+          "message_filters/sync_policies/approximate_time.h": 1,
+          "string": 1,
+          "<pcl/io/pcd_io.h>": 1,
+          "<message_filters/sync_policies/exact_time.h>": 1,
+          "<thread>": 1,
+          "<vector>": 1,
+          "pcl/visualization/cloud_viewer.h": 1,
+          "<message_filters/synchronizer.h>": 1,
+          "<sensor_msgs/Image.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 32,
+        "packages": {
+          "Arduino.h": 16,
+          "BrickPiA.h": 5,
+          "<stdint.h>": 4,
+          "stdint.h": 4,
+          "<stdlib.h>": 4,
+          "stdlib.h": 4,
+          "relation.h": 4,
+          "db-options.h": 4,
+          "index.h": 3,
+          "EEPROM.h": 2,
+          "BrickPiI2C.h": 2,
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "result.h": 2,
+          "db-types.h": 2,
+          "lib/list.h": 2,
+          "pins_arduino.h": 1,
+          "WConstants.h": 1,
+          "WProgram.h": 1,
+          "SoftwareSerial.h": 1,
+          "unistd.h": 1,
+          "<unistd.h>": 1,
+          "dbg.h": 1,
+          "<arpa/inet.h>": 1,
+          "arpa/inet.h": 1,
+          "string.h": 1,
+          "<string.h>": 1,
+          "<inttypes.h>": 1,
+          "stddef.h": 1,
+          "<stddef.h>": 1,
+          "inttypes.h": 1,
+          "sys/dsc.h": 1,
+          "aql.h": 1,
+          "contiki-conf.h": 1,
+          "attribute.h": 1,
+          "storage.h": 1,
+          "contiki.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 30,
+        "packages": {
+          "java.util": 19,
+          "org.senml": 16,
+          "org.eclipse": 14,
+          "org.controller": 12,
+          "java.io": 10,
+          "java.lang": 6,
+          "com.google": 5,
+          "com.abhilash": 5,
+          "cds.iisc": 3,
+          "org.wso2": 2,
+          "android.widget": 2,
+          "android.view": 2,
+          "android.support": 2,
+          "android.util": 2,
+          "android.app": 1,
+          "android.test": 1,
+          "org.json": 1,
+          "android.os": 1,
+          "android.content": 1,
+          "static": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "=": 1,
+          "cdata": 1,
+          "language-": 1,
+          "object-assign": 1,
+          "core-js": 1,
+          "__esModule": 1,
+          "2.4.0": 1,
+          "default": 1,
+          ":14": 1,
+          "undefined": 1,
+          "object": 1,
+          "in": 1,
+          "function": 1,
+          "match-at": 1,
+          "fs": 1,
+          "use": 1,
+          "babel-runtime": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 54,
+        "packages": {
+          "numpy": 33,
+          "tensorflow": 25,
+          "__future__": 22,
+          "print_function": 22,
+          "absolute_import": 20,
+          "division": 20,
+          "inception": 14,
+          "matplotlib": 11,
+          "os": 10,
+          "autoencoder": 7,
+          "torch": 5,
+          "sys": 5,
+          "sklearn": 5,
+          "time": 5,
+          "datetime": 5,
+          "copy": 4,
+          "random": 4,
+          "input_data": 4,
+          "slim": 4,
+          "inception_model": 4,
+          "Dataset": 3,
+          "warnings": 3,
+          "ImagenetData": 3,
+          "image_processing": 3,
+          "multiprocessing": 2,
+          "functional": 2,
+          "gzip": 2,
+          "gym": 2,
+          "neat": 2,
+          "NEAT": 2,
+          "visualize": 2,
+          "graphviz": 2,
+          "Image": 2,
+          "PIL": 2,
+          "threading": 2,
+          "inception_eval": 2,
+          "FlowersData": 2,
+          "inception_train": 2,
+          "re": 2,
+          "torchvision": 1,
+          "cpu_count": 1,
+          "nn": 1,
+          "typing": 1,
+          "resnet18": 1,
+          "Callable": 1,
+          "tqdm": 1,
+          "trainers": 1,
+          "homura": 1,
+          "argparse": 1,
+          "cca": 1,
+          "CCAHook": 1,
+          "ArgumentParser": 1,
+          "deepcopy": 1,
+          "resnet20": 1,
+          "trange": 1,
+          "cifar10_loaders": 1,
+          "setup": 1,
+          "setuptools": 1,
+          "Subset": 1,
+          "AgglomerativeClustering": 1,
+          "DataLoader": 1,
+          "clear_output": 1,
+          "IPython": 1,
+          "cPickle": 1,
+          "backpropagation": 1,
+          "MultivariateNormalFullCovariance": 1,
+          "rospy": 1,
+          "*": 1,
+          "std_msgs": 1,
+          "firebird_v": 1,
+          "SharpSensor": 1,
+          "LCD": 1,
+          "AdditiveGaussianNoiseAutoencoder": 1,
+          "Autoencoder": 1,
+          "MaskingNoiseAutoencoder": 1,
+          "VariationalAutoencoder": 1,
+          "xml": 1,
+          "glob": 1,
+          "abc": 1,
+          "ABCMeta": 1,
+          "abstractmethod": 1,
+          "this": 1,
+          "inception_distributed_train": 1,
+          "math": 1,
+          "scopes": 1,
+          "ops": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "tushar-semwal/al-folio",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/Arduino-FirebirdV",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/BrickPi",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/cantcoap",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/cca.pytorch",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/clustered-federated-learning",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/contiki",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/Data-Science-Decal-Fall-2017",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/Evolutionary-Algorithm",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/exer_bot",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C++",
+          "Python"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/firebirdv-ros-package",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/iot-school",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "tushar-semwal/models",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

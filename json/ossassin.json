@@ -1,0 +1,302 @@
+{
+  "username": "ossassin",
+  "areas": {
+    "OSS": {
+      "score": -0.07351466640802184,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.5,
+        "commits_activity": 0.8897280003879673
+      }
+    },
+    "Status": {
+      "score": 0.23671454996422092,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8166102864847931,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.2125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "ossassin/deploying-ai": 0.7658,
+        "ossassin/shell": -0.32775
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.09013997671123981,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        524401,
+        10
+      ],
+      "Jupyter Notebook": [
+        10431061,
+        13
+      ],
+      "HTML": [
+        2458115,
+        2
+      ],
+      "Python": [
+        800935,
+        0
+      ],
+      "Shell": [
+        442398,
+        0
+      ],
+      "CSS": [
+        84457,
+        0
+      ],
+      "R": [
+        60748,
+        11
+      ],
+      "SCSS": [
+        262433,
+        2
+      ],
+      "Ruby": [
+        2881,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 38,
+    "total_lines": 15067429,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 10431061,
+        "commits": 13
+      },
+      {
+        "language": "R",
+        "lines": 60748,
+        "commits": 11
+      },
+      {
+        "language": "JavaScript",
+        "lines": 524401,
+        "commits": 10
+      },
+      {
+        "language": "HTML",
+        "lines": 2458115,
+        "commits": 2
+      },
+      {
+        "language": "SCSS",
+        "lines": 262433,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ossassin",
+    "analysis_date": "2026-05-10T15:01:20.220655",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 46,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "jquery": 2,
+          "repl": 1,
+          "prompt-sync": 1,
+          "jQuery": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 31,
+        "packages": {
+          "os": 21,
+          "load_dotenv": 18,
+          "dotenv": 18,
+          "utils": 10,
+          "get_logger": 10,
+          "json": 9,
+          "langchain": 9,
+          "OpenAI": 8,
+          "openai": 8,
+          "requests": 8,
+          "langchain_core": 8,
+          "pandas": 6,
+          "gradio": 5,
+          "typing": 5,
+          "tool": 5,
+          "init_chat_model": 5,
+          "SystemMessage": 4,
+          "chromadb": 4,
+          "OpenAIEmbeddingFunction": 4,
+          "pydantic": 4,
+          "BaseModel": 4,
+          "FastMCP": 4,
+          "fastmcp": 4,
+          "HumanMessage": 3,
+          "StateGraph": 3,
+          "langgraph": 3,
+          "re": 3,
+          "animals_chat": 2,
+          "typing_extensions": 2,
+          "return_instructions_root": 2,
+          "TypedDict": 2,
+          "get_graph": 2,
+          "ToolNode": 2,
+          "course_chat": 2,
+          "sqlalchemy": 2,
+          "horoscope_chat": 2,
+          "Optional": 2,
+          "RunnableConfig": 2,
+          "glob": 2,
+          "TfidfVectorizer": 1,
+          "cosine_similarity": 1,
+          "sklearn": 1,
+          "get_animals_chat_agent": 1,
+          "AnyMessage": 1,
+          "Literal": 1,
+          "operator": 1,
+          "main": 1,
+          "langchain_text_splitters": 1,
+          "RecursiveCharacterTextSplitter": 1,
+          "tools": 1,
+          "career_plan": 1,
+          "inspirational_quote": 1,
+          "get_horoscope": 1,
+          "recommend_albums": 1,
+          "get_cat_facts": 1,
+          "return_instructions": 1,
+          "these": 1,
+          "it": 1,
+          "math": 1,
+          "StructuredTool": 1,
+          "ChatOpenAI": 1,
+          "numexpr": 1,
+          "ChatPromptTemplate": 1,
+          "langchain_openai": 1,
+          "List": 1,
+          "ngrok": 1,
+          "OutputParserException": 1,
+          "BaseTool": 1,
+          "BaseMessage": 1,
+          "BaseTransformOutputParser": 1,
+          "ast": 1,
+          "pybtex": 1,
+          "string": 1,
+          "bibtex": 1,
+          "strptime": 1,
+          "html": 1,
+          "time": 1,
+          "geopy": 1,
+          "getorg": 1,
+          "Nominatim": 1,
+          "itertools": 1,
+          "compress": 1
+        }
+      },
+      "R": {
+        "files_scanned": 2,
+        "packages": {
+          "plm": 2,
+          "readr": 2,
+          "corrplot": 2,
+          "dplyr": 1,
+          "ggstance": 1,
+          "moments": 1,
+          "lattice": 1,
+          "jtools": 1,
+          "broom.mixed": 1,
+          "gplots": 1,
+          "ggplot2": 1,
+          "tidyverse": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ossassin/Command-Line-Games-with-Javascript",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ossassin/deploying-ai",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ossassin/Environmental-Kuznet-Curves",
+        "files_analyzed": 1,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "ossassin/ossassin.github.io",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "ossassin/shell",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ossassin/Sierra-Snowpack",
+        "files_analyzed": 1,
+        "languages_found": [
+          "R"
+        ]
+      }
+    ]
+  }
+}

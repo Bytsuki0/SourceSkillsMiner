@@ -1,0 +1,320 @@
+{
+  "username": "ptkvaibhav",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.46153846153846145,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.19230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": 0.55,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 5.6856,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "ptkvaibhav/burp-fortify-ssc-parser-plugin": 0.0139125,
+        "ptkvaibhav/clinkz": 0.27518000000000004,
+        "ptkvaibhav/ptkvaibhav": 0.024587499999999998
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.46897435897435896,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        3472000,
+        45
+      ],
+      "Python": [
+        33692,
+        151
+      ],
+      "Shell": [
+        22,
+        0
+      ],
+      "JavaScript": [
+        13242,
+        25
+      ],
+      "TypeScript": [
+        51900,
+        66
+      ],
+      "CSS": [
+        3153,
+        3
+      ],
+      "HTML": [
+        29,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 290,
+    "total_lines": 3574038,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 33692,
+        "commits": 151
+      },
+      {
+        "language": "TypeScript",
+        "lines": 51900,
+        "commits": 66
+      },
+      {
+        "language": "Java",
+        "lines": 3472000,
+        "commits": 45
+      },
+      {
+        "language": "JavaScript",
+        "lines": 13242,
+        "commits": 25
+      },
+      {
+        "language": "CSS",
+        "lines": 3153,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ptkvaibhav",
+    "analysis_date": "2026-05-10T17:03:51.490181",
+    "total_repos_analyzed": 5,
+    "total_files_analyzed": 95,
+    "languages": {
+      "Java": {
+        "files_scanned": 6,
+        "packages": {
+          "com.fortify": 6,
+          "com.fasterxml": 4,
+          "java.util": 3,
+          "java.io": 2,
+          "org.junit": 2,
+          "static": 2,
+          "java.nio": 1,
+          "java.security": 1,
+          "org.slf4j": 1,
+          "org.mockito": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 22,
+        "packages": {
+          "node:path": 21,
+          "node:fs": 14,
+          "node:process": 5,
+          "nyx.config.json": 3,
+          "$1": 1,
+          "open": 1,
+          "You": 1,
+          "pdf-parse": 1,
+          "better-sqlite3": 1,
+          "node:crypto": 1,
+          "node:child_process": 1,
+          "node:readline": 1,
+          "Important": 1,
+          "docs": 1,
+          "protected": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 27,
+        "packages": {
+          "__future__": 23,
+          "annotations": 23,
+          "clinkz": 20,
+          "logging": 19,
+          "typing": 18,
+          "json": 15,
+          "Path": 14,
+          "pathlib": 14,
+          "StateStore": 11,
+          "EngagementScope": 10,
+          "Any": 9,
+          "re": 8,
+          "asyncio": 7,
+          "KnowledgeBase": 7,
+          "TYPE_CHECKING": 7,
+          "BaseAgent": 7,
+          "ToolBase": 6,
+          "LLMClient": 5,
+          "PersistentKnowledgeBase": 4,
+          "urllib": 4,
+          "os": 3,
+          "sys": 3,
+          "time": 3,
+          "AgentMessage": 3,
+          "ToolResolver": 3,
+          "UTC": 3,
+          "datetime": 3,
+          "BaseModel": 3,
+          "pydantic": 3,
+          "OrchestratorAgent": 2,
+          "GeminiClient": 2,
+          "AgentAction": 2,
+          "the": 2,
+          "WebAuthenticator": 2,
+          "HTTPClientTool": 2,
+          "urlparse": 2,
+          "MessageBus": 2,
+          "ORCHESTRATOR": 2,
+          "SkillsLoader": 2,
+          "get_active_trace_writer": 2,
+          "uuid": 2,
+          "subprocess": 1,
+          "aiohttp": 1,
+          "get_llm_client": 1,
+          "ExploitAgent": 1,
+          "app": 1,
+          "ReconAgent": 1,
+          "CrawlAgent": 1,
+          "pattern::": 1,
+          "abc": 1,
+          "ToolInstallerTool": 1,
+          "Stopwatch": 1,
+          "ABC": 1,
+          "FindingStatus": 1,
+          "random": 1,
+          "string": 1,
+          "ResilientLLMClient": 1,
+          "html": 1,
+          "Endpoint": 1,
+          "hashlib": 1,
+          "parse_qsl": 1,
+          "HTMLParser": 1,
+          "Host": 1,
+          "ExecutiveSummary": 1,
+          "Finding": 1,
+          "RuntimeResearcher": 1,
+          "urljoin": 1,
+          "Annotated": 1,
+          "ipaddress": 1,
+          "ClinkzDockerError": 1,
+          "typer": 1,
+          "defaultdict": 1,
+          "KNOWN_AGENTS": 1,
+          "collections": 1,
+          "enum": 1,
+          "StrEnum": 1,
+          "load_dotenv": 1,
+          "Literal": 1,
+          "dotenv": 1,
+          "PayloadLoader": 1,
+          "aiosqlite": 1,
+          "AsyncAnthropic": 1,
+          "settings": 1,
+          "anthropic": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "next": 4,
+          "server-only": 3,
+          "nodejs": 1,
+          "react": 1,
+          "upstash": 1,
+          "tailwind-merge": 1,
+          "clsx": 1,
+          "zod": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 15,
+        "packages": {
+          "react": 10,
+          "next": 8,
+          "lucide-react": 5,
+          "gsap": 3,
+          "class-variance-authority": 2,
+          "geist": 1,
+          "react-hook-form": 1,
+          "hookform": 1,
+          "radix-ui": 1,
+          "input": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ptkvaibhav/burp-fortify-ssc-parser-plugin",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "ptkvaibhav/clinkz",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ptkvaibhav/nyx",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ptkvaibhav/ptkvaibhav",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

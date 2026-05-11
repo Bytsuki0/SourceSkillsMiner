@@ -1,0 +1,693 @@
+{
+  "username": "RakinAli",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.4487179487179487,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.17307692307692307
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 9,
+        "language_transitions": 9,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.3564102564102564,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        831510,
+        145
+      ],
+      "kvlang": [
+        9166,
+        3
+      ],
+      "Jupyter Notebook": [
+        10678085,
+        185
+      ],
+      "PDDL": [
+        1565,
+        0
+      ],
+      "Prolog": [
+        138339,
+        3
+      ],
+      "Java": [
+        1977234,
+        39
+      ],
+      "C": [
+        48742,
+        0
+      ],
+      "TeX": [
+        40012,
+        0
+      ],
+      "MATLAB": [
+        23372,
+        0
+      ],
+      "JavaScript": [
+        254499,
+        28
+      ],
+      "CSS": [
+        121711,
+        3
+      ],
+      "HTML": [
+        47086,
+        4
+      ],
+      "Elixir": [
+        93132,
+        104
+      ],
+      "TypeScript": [
+        93446,
+        0
+      ],
+      "Dockerfile": [
+        437,
+        0
+      ],
+      "Ruby": [
+        53267,
+        0
+      ],
+      "Shell": [
+        28422,
+        0
+      ],
+      "C#": [
+        68608,
+        3
+      ],
+      "M": [
+        192,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "C++": [
+        0,
+        11
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 528,
+    "total_lines": 14508825,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 10678085,
+        "commits": 185
+      },
+      {
+        "language": "Python",
+        "lines": 831510,
+        "commits": 145
+      },
+      {
+        "language": "Elixir",
+        "lines": 93132,
+        "commits": 104
+      },
+      {
+        "language": "Java",
+        "lines": 1977234,
+        "commits": 39
+      },
+      {
+        "language": "JavaScript",
+        "lines": 254499,
+        "commits": 28
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "RakinAli",
+    "analysis_date": "2026-05-10T16:00:06.046300",
+    "total_repos_analyzed": 24,
+    "total_files_analyzed": 471,
+    "languages": {
+      "C": {
+        "files_scanned": 3,
+        "packages": {
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "mex.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 30,
+        "packages": {
+          "UnityEngine": 30,
+          "System.Collections": 28,
+          "System.Collections.Generic": 28,
+          "UnityEngine.Playables": 6,
+          "UnityEngine.UI": 5,
+          "System.Linq": 4,
+          "System": 4,
+          "UnityEngine.SceneManagement": 3,
+          "UnityEngine.Audio": 2
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "<chrono>": 1,
+          "algorithm": 1,
+          "<cmath>": 1,
+          "cmath": 1,
+          "<iostream>": 1,
+          "<vector>": 1,
+          "vector": 1,
+          "iostream": 1,
+          "<algorithm>": 1,
+          "chrono": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 72,
+        "packages": {
+          "java.util": 44,
+          "java.io": 27,
+          "java.net": 8,
+          "Ov5": 6,
+          "java.nio": 5,
+          "EU4": 5,
+          "EU3": 3,
+          "static": 3,
+          "tcpclient.TCPClient": 3,
+          "tcpclient": 3,
+          "com.getcapacitor": 3,
+          "Labbar.Lab2": 2,
+          "Ov2": 2,
+          "Ov3": 2,
+          "org.junit": 2,
+          "EU1": 1,
+          "EU2": 1,
+          "Ov4": 1,
+          "Ov1": 1,
+          "androidx.test": 1,
+          "android.content": 1,
+          "io.ionic": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 41,
+        "packages": {
+          "react": 28,
+          "react-router-dom": 13,
+          "mongoose": 5,
+          "express": 4,
+          "dotenv": 3,
+          "jsonwebtoken": 2,
+          "allowArrowFunction": 2,
+          "react-dom": 2,
+          "bcryptjs": 1,
+          "validator": 1,
+          "cors": 1,
+          "axios": 1,
+          "eslint": 1,
+          "typescript-eslint": 1,
+          "eslint-plugin-no-catch-all": 1,
+          "globals": 1,
+          "mantine": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 142,
+        "packages": {
+          "numpy": 107,
+          "matplotlib": 60,
+          "sys": 39,
+          "math": 28,
+          "scipy": 27,
+          "os": 26,
+          "random": 23,
+          "argparse": 17,
+          "Functions": 13,
+          "tqdm": 12,
+          "time": 11,
+          "Image": 11,
+          "convolve2d": 11,
+          "sklearn": 11,
+          "collections": 11,
+          "PIL": 10,
+          "fishing_game_core": 9,
+          "distance_matrix": 9,
+          "defaultdict": 9,
+          "kivy": 8,
+          "showgrey": 8,
+          "SettingLoader": 7,
+          "fft2": 7,
+          "gaussian_filter": 7,
+          "ListedColormap": 6,
+          "*": 6,
+          "DoubleLayerNN": 6,
+          "RBF_network": 6,
+          "NearestNeighbors": 6,
+          "copy": 5,
+          "kmeans_segm": 5,
+          "cdist": 5,
+          "RBF": 5,
+          "pickle": 5,
+          "torch": 5,
+          "load_dotenv": 5,
+          "dotenv": 5,
+          "pandas": 5,
+          "codecs": 5,
+          "Window": 4,
+          "Communicator": 4,
+          "pathlib": 4,
+          "json": 4,
+          "Path": 4,
+          "shared": 4,
+          "lab3": 4,
+          "torchaudio": 4,
+          "dtree": 4,
+          "nltk": 4,
+          "string": 4,
+          "Clock": 3,
+          "Node": 3,
+          "datetime": 3,
+          "App": 3,
+          "Position": 3,
+          "Slider": 3,
+          "backprop": 3,
+          "data_generator": 3,
+          "SOM": 3,
+          "trange": 3,
+          "Rnn": 3,
+          "RNN": 3,
+          "parse_dataset": 3,
+          "Dataset": 3,
+          "__future__": 3,
+          "lab1_tools": 3,
+          "openai": 3,
+          "platform": 2,
+          "Builder": 2,
+          "join": 2,
+          "TYPE_TO_SCORE": 2,
+          "UnsupportedOperation": 2,
+          "io": 2,
+          "itertools": 2,
+          "deepcopy": 2,
+          "product": 2,
+          "BoundedNumericProperty": 2,
+          "EventDispatcher": 2,
+          "multiprocessing": 2,
+          "player": 2,
+          "PlayerControllerHuman": 2,
+          "Config": 2,
+          "yaml": 2,
+          "minimax": 2,
+          "PlayerController": 2,
+          "ACTION_TO_STR": 2,
+          "communicator": 2,
+          "Fish": 2,
+          "position": 2,
+          "mean_segments": 2,
+          "multivariate_normal": 2,
+          "gaussfft": 2,
+          "sparse": 2,
+          "MLPRegressor": 2,
+          "double_layer_regression_nn": 2,
+          "libraries": 2,
+          "Audio": 2,
+          "speechbrain": 2,
+          "warnings": 2,
+          "monkdata": 2,
+          "minimize": 2,
+          "terminaltables": 2,
+          "AsciiTable": 2,
+          "print_function": 2,
+          "-t": 2,
+          "BinaryLogisticRegression": 2,
+          "required": 2,
+          "Halo": 2,
+          "halo": 2,
+          "re": 2,
+          "sndio": 2,
+          "pysndfile": 2,
+          "trfbank": 2,
+          "dct": 2,
+          "lab2_tools": 2,
+          "savemat": 2,
+          "deque": 2,
+          "requests": 2,
+          "SimpleDataStore": 2,
+          "data": 2,
+          "get_embedding": 2,
+          "FishingDerby": 1,
+          "opponent": 1,
+          "Boat": 1,
+          "Player": 1,
+          "Sequences": 1,
+          "OBS_TO_MOVES": 1,
+          "SequencesDatafile": 1,
+          "Button": 1,
+          "Widget": 1,
+          "Popup": 1,
+          "ObjectProperty": 1,
+          "FloatLayout": 1,
+          "BoxLayout": 1,
+          "ScrollView": 1,
+          "FishingDerbyHumanApp": 1,
+          "FishingDerbyMinimaxApp": 1,
+          "app": 1,
+          "PlayerControllerMinimax": 1,
+          "pytransform": 1,
+          "pyarmor_runtime": 1,
+          "fnmatch": 1,
+          "cdll": 1,
+          "ctypes": 1,
+          "ctime": 1,
+          "struct": 1,
+          "widgets": 1,
+          "threading": 1,
+          "JellySmile": 1,
+          "headless_utils": 1,
+          "Diver": 1,
+          "JSONEncoder": 1,
+          "PlayerControllerRL": 1,
+          "PlayerControllerRandom": 1,
+          "app_manager": 1,
+          "FishingDerbyRLApp": 1,
+          "agent": 1,
+          "pick": 1,
+          "Figure": 1,
+          "fftwave": 1,
+          "lab3_orig": 1,
+          "distance": 1,
+          "double_layer_nn": 1,
+          "RBF_2_dim": 1,
+          "prettytable": 1,
+          "PrettyTable": 1,
+          "the": 1,
+          "pyannote": 1,
+          "Segment": 1,
+          "Model": 1,
+          "Pipeline": 1,
+          "librosa": 1,
+          "pairwise_distances": 1,
+          "AgglomerativeClustering": 1,
+          "laplacian": 1,
+          "EncoderClassifier": 1,
+          "subprocess": 1,
+          "IPython": 1,
+          "pprint": 1,
+          "soundfile": 1,
+          "combined_waveplot": 1,
+          "Simple_diarizer": 1,
+          "Diarizer": 1,
+          "check_ffmpeg": 1,
+          "MelSpectrogram": 1,
+          "apply_effects_tensor": 1,
+          "onnxruntime": 1,
+          "Callable": 1,
+          "typing": 1,
+          "Qt": 1,
+          "PyQt4": 1,
+          "PyQt5": 1,
+          "QtCore": 1,
+          "QApplication": 1,
+          "drawtree_qt5": 1,
+          "labfuns": 1,
+          "reload": 1,
+          "imp": 1,
+          "misc": 1,
+          "logreg": 1,
+          "LogisticRegression": 1,
+          "Parser": 1,
+          "dep_parser": 1,
+          "unicode_literals": 1,
+          "faulthandler": 1,
+          "mmap": 1,
+          "-w": 1,
+          "signal": 1,
+          "hierarchy": 1,
+          "fft": 1,
+          "lifter": 1,
+          "linkage": 1,
+          "ChatReadRetriveRead": 1,
+          "flask": 1,
+          "chat": 1,
+          "Flask": 1,
+          "api": 1,
+          "get_chat_keywords": 1,
+          "logging": 1,
+          "double": 1,
+          "array": 1,
+          "cosine_similarity": 1,
+          "csv": 1,
+          "selenium": 1,
+          "Options": 1,
+          "By": 1,
+          "expected_conditions": 1,
+          "WebDriverWait": 1,
+          "webdriver": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 1,
+        "packages": {
+          "AppKit": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 23,
+        "packages": {
+          "path": 18,
+          "fs": 17,
+          "child_process": 8,
+          "os": 6,
+          "better-sqlite3": 4,
+          "vitest": 4,
+          "zod": 2,
+          "playwright": 2,
+          "react": 1,
+          "anthropic-ai": 1,
+          "Tweet": 1,
+          "readline": 1,
+          "url": 1,
+          "{channel}_{group-name}": 1,
+          "modelcontextprotocol": 1,
+          "cron-parser": 1,
+          "pino": 1,
+          "whiskeysockets": 1,
+          "launchd": 1,
+          "macos": 1,
+          "vite": 1,
+          "vitejs": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 13,
+        "packages": {
+          "react": 13,
+          "fluentui": 4,
+          "d3": 2,
+          "d3-selection": 2,
+          "react-spinners": 1,
+          "react-icons": 1,
+          "react-router-dom": 1,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "RakinAli/AI-course",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "RakinAli/Algo-Datastructures",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "Java"
+        ]
+      },
+      {
+        "repository": "RakinAli/Algorithms",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "RakinAli/Computer-Vision-course",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "RakinAli/Deep-Architectures",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "RakinAli/Deep-Learning",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "RakinAli/Diarization---Project",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "RakinAli/Fitness-project",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "RakinAli/II1305-Project-in-Information-and-Communication-Technology",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "RakinAli/Java-course",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "RakinAli/Machine-Learning-Intro",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "RakinAli/nanoclaw",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Swift",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "RakinAli/Networks-course",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "RakinAli/NLP-Course",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "RakinAli/Speaker-and-Speech",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "RakinAli/Tamapluggi",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "RakinAli/TSP-Problem",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "RakinAli/wine-genai",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}

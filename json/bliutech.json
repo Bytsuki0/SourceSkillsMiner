@@ -1,0 +1,961 @@
+{
+  "username": "bliutech",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Adaptability": {
+      "score": 0.772727,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.5455,
+        "distinct_primary_languages": 8,
+        "language_transitions": 8,
+        "topic_entropy_bits": 4.6808,
+        "closed_prs_total": 11,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "bliutech/bliu.tech": 0.148,
+        "bliutech/cyber.bliu.tech": 0.1222,
+        "bliutech/mbased": 0.12400952380952382,
+        "bliutech/nlp-pdf-malware-detection": 0.9022
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7173659128205129,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        1447006,
+        290
+      ],
+      "HTML": [
+        444189,
+        176
+      ],
+      "CSS": [
+        87219,
+        78
+      ],
+      "JavaScript": [
+        79559,
+        251
+      ],
+      "Ruby": [
+        733376,
+        79
+      ],
+      "Shell": [
+        2238,
+        3
+      ],
+      "Dockerfile": [
+        8079,
+        1
+      ],
+      "Rust": [
+        134780,
+        0
+      ],
+      "TeX": [
+        96467,
+        0
+      ],
+      "C": [
+        130092,
+        0
+      ],
+      "Go": [
+        6783,
+        0
+      ],
+      "Roff": [
+        4371,
+        0
+      ],
+      "Makefile": [
+        2719,
+        0
+      ],
+      "C++": [
+        687166,
+        30
+      ],
+      "LLVM": [
+        364334,
+        0
+      ],
+      "Assembly": [
+        87107,
+        0
+      ],
+      "Objective-C": [
+        32915,
+        0
+      ],
+      "Objective-C++": [
+        9397,
+        0
+      ],
+      "CMake": [
+        2966,
+        0
+      ],
+      "OCaml": [
+        1826,
+        0
+      ],
+      "Cuda": [
+        1337,
+        0
+      ],
+      "Perl": [
+        738,
+        0
+      ],
+      "Batchfile": [
+        137,
+        0
+      ],
+      "C#": [
+        125,
+        0
+      ],
+      "Vim Script": [
+        104,
+        0
+      ],
+      "Emacs Lisp": [
+        100,
+        0
+      ],
+      "Fortran": [
+        50,
+        0
+      ],
+      "NASL": [
+        34,
+        0
+      ],
+      "AppleScript": [
+        8,
+        0
+      ],
+      "RenderScript": [
+        4,
+        0
+      ],
+      "Monkey C": [
+        1,
+        0
+      ],
+      "M": [
+        1,
+        0
+      ],
+      "Solidity": [
+        0,
+        5
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "ANTLR": [
+        0,
+        0
+      ]
+    },
+    "language_count": 35,
+    "total_commits": 913,
+    "total_lines": 4365228,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 1447006,
+        "commits": 290
+      },
+      {
+        "language": "JavaScript",
+        "lines": 79559,
+        "commits": 251
+      },
+      {
+        "language": "HTML",
+        "lines": 444189,
+        "commits": 176
+      },
+      {
+        "language": "Ruby",
+        "lines": 733376,
+        "commits": 79
+      },
+      {
+        "language": "CSS",
+        "lines": 87219,
+        "commits": 78
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "bliutech",
+    "analysis_date": "2026-05-10T17:01:50.316403",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 356,
+    "languages": {
+      "C": {
+        "files_scanned": 9,
+        "packages": {
+          "<stdio.h>": 8,
+          "stdio.h": 8,
+          "stdlib.h": 8,
+          "<stdlib.h>": 8,
+          "<string.h>": 4,
+          "string.h": 4,
+          "<unistd.h>": 3,
+          "unistd.h": 3,
+          "time.h": 2,
+          "<time.h>": 2,
+          "<fcntl.h>": 1,
+          "fcntl.h": 1,
+          "<sys/mman.h>": 1,
+          "sys/mman.h": 1,
+          "caml/fail.h": 1,
+          "caml/memory.h": 1,
+          "caml/custom.h": 1,
+          "llvm-c/Target.h": 1,
+          "caml/alloc.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 12,
+        "packages": {
+          "namespace": 8,
+          "std": 5,
+          "llvm": 3,
+          "llvm/IR/Module.h": 3,
+          "game.hpp": 3,
+          "constants.hpp": 3,
+          "IRBindings.h": 2,
+          "llvm/IR/IRBuilder.h": 2,
+          "<stdlib.h>": 2,
+          "stdlib.h": 2,
+          "alien.hpp": 2,
+          "alienspawner.hpp": 2,
+          "bullet.hpp": 2,
+          "graphics.hpp": 2,
+          "<iostream>": 2,
+          "iostream": 2,
+          "missile.hpp": 2,
+          "player.hpp": 2,
+          "DIBuilderBindings.h": 1,
+          "llvm/IR/DIBuilder.h": 1,
+          "llvm/IR/DebugLoc.h": 1,
+          "llvm/IR/LLVMContext.h": 1,
+          "llvm/IR/Function.h": 1,
+          "llvm/IR/Attributes.h": 1,
+          "llvm/IR/LegacyPassManager.h": 1,
+          "llvm/Transforms/Instrumentation.h": 1,
+          "llvm-c/Core.h": 1,
+          "InstrumentationBindings.h": 1,
+          "<string.h>": 1,
+          "SupportBindings.h": 1,
+          "string.h": 1,
+          "llvm/Support/DynamicLibrary.h": 1,
+          "cstdlib": 1,
+          "cstring": 1,
+          "<cstring>": 1,
+          "string": 1,
+          "<string>": 1,
+          "<cstdlib>": 1,
+          "<sys/time.h>": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "sys/time.h": 1,
+          "<unistd.h>": 1,
+          "<list>": 1,
+          "<termios.h>": 1,
+          "iterator": 1,
+          "<sys/types.h>": 1,
+          "sys/types.h": 1,
+          "actor.hpp": 1,
+          "fcntl.h": 1,
+          "unistd.h": 1,
+          "list": 1,
+          "<iterator>": 1,
+          "termios.h": 1,
+          "<fcntl.h>": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 8,
+        "packages": {
+          "actor.hpp": 6,
+          "namespace": 5,
+          "std": 5,
+          "string": 3,
+          "<string>": 3,
+          "constants.hpp": 2,
+          "<list>": 2,
+          "list": 2,
+          "alienspawner.hpp": 1,
+          "<iostream>": 1,
+          "iostream": 1,
+          "game.hpp": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 3,
+        "packages": {
+          "llvm-c/Core.h": 3,
+          "IRBindings.h": 1,
+          "llvm/Support/CBindingWrapping.h": 1,
+          "stdint.h": 1,
+          "llvm/IR/Metadata.h": 1,
+          "<stdint.h>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 22,
+        "packages": {
+          "C": 14,
+          "<stdlib.h>": 10,
+          "errors": 8,
+          "unsafe": 7,
+          "llvm-c/Core.h": 6,
+          "net/http": 3,
+          "testing": 3,
+          "encoding/xml": 2,
+          "gopkg.in/yaml.v3": 2,
+          "io": 2,
+          "bytes": 2,
+          "encoding/json": 2,
+          "fmt": 2,
+          "strings": 2,
+          "os": 2,
+          "xq": 1,
+          "man": 1,
+          "os/exec": 1,
+          "yq": 1,
+          "jq": 1,
+          "log": 1,
+          "go/build": 1,
+          "llvm-c/Analysis.h": 1,
+          "llvm-c/BitReader.h": 1,
+          "llvm-c/BitWriter.h": 1,
+          "DIBuilderBindings.h": 1,
+          "debug/dwarf": 1,
+          "llvm-c/ExecutionEngine.h": 1,
+          "IRBindings.h": 1,
+          "struct": 1,
+          "cold": 1,
+          "returned": 1,
+          "sret": 1,
+          "returns_twice": 1,
+          "noinline": 1,
+          "nocapture": 1,
+          "optsize": 1,
+          "nonlazybind": 1,
+          "noalias": 1,
+          "sanitize_address": 1,
+          "jumptable": 1,
+          "nonnull": 1,
+          "nounwind": 1,
+          "nobuiltin": 1,
+          "uwtable": 1,
+          "minsize": 1,
+          "noimplicitfloat": 1,
+          "naked": 1,
+          "optnone": 1,
+          "nest": 1,
+          "noredzone": 1,
+          "builtin": 1,
+          "inlinehint": 1,
+          "byval": 1,
+          "inreg": 1,
+          "noreturn": 1,
+          "readnone": 1,
+          "safestack": 1,
+          "noduplicate": 1,
+          "sanitize_memory": 1,
+          "inalloca": 1,
+          "ssp": 1,
+          "sspreq": 1,
+          "sspstrong": 1,
+          "alwaysinline": 1,
+          "convergent": 1,
+          "readonly": 1,
+          "signext": 1,
+          "zeroext": 1,
+          "sanitize_thread": 1,
+          "llvm-c/Linker.h": 1,
+          "SupportBindings.h": 1,
+          "llvm-c/Support.h": 1,
+          "llvm-c/TargetMachine.h": 1,
+          "llvm-c/Target.h": 1,
+          "InstrumentationBindings.h": 1,
+          "llvm-c/Transforms/IPO.h": 1,
+          "llvm-c/Transforms/PassManagerBuilder.h": 1,
+          "llvm-c/Transforms/Scalar.h": 1,
+          "llvm/Config/llvm-config.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 64,
+        "packages": {
+          "react": 43,
+          "react-router-dom": 31,
+          "react-dom": 5,
+          "firebase": 4,
+          "express-session": 2,
+          "crypto": 2,
+          "express": 2,
+          "testing-library": 2,
+          "react-hook-form": 2,
+          "dotenv": 2,
+          "mongoose": 2,
+          "react-google-autocomplete": 2,
+          "puppeteer": 1,
+          "cookie-parser": 1,
+          "fs": 1,
+          "web-vitals": 1,
+          "fortawesome": 1,
+          "font-awesome": 1,
+          "<b>RE<": 1,
+          "axios": 1,
+          "file-saver": 1,
+          "cors": 1,
+          "memorystore": 1,
+          "hex": 1,
+          "*+": 1,
+          "html-webpack-plugin": 1,
+          "copy-webpack-plugin": 1,
+          "path": 1,
+          "truffle": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 12,
+        "packages": {
+          "react": 12,
+          "react-router-dom": 7,
+          "web3": 6,
+          "react-dom": 1,
+          "regenerator-runtime": 1,
+          "react-cookie": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 134,
+        "packages": {
+          "os": 39,
+          "numpy": 32,
+          "*": 23,
+          "django": 21,
+          "cv2": 21,
+          "flask": 19,
+          "models": 17,
+          "Image": 16,
+          "threading": 16,
+          "PIL": 15,
+          "db": 15,
+          "User": 14,
+          "mbased": 14,
+          "simpledialog": 14,
+          "playsound": 14,
+          "Translator": 14,
+          "gtts": 14,
+          "fromstring": 14,
+          "pyaudio": 14,
+          "gTTS": 14,
+          "pickle": 14,
+          "socket": 14,
+          "speech_recognition": 14,
+          "tkinter": 14,
+          "googletrans": 14,
+          "Thread": 14,
+          "torch": 13,
+          "sys": 13,
+          "math": 13,
+          "__future__": 11,
+          "mss": 11,
+          "webbrowser": 11,
+          "unicode_literals": 10,
+          "migrations": 10,
+          "Flask": 10,
+          "torchvision": 9,
+          "json": 9,
+          "AES": 9,
+          "Crypto": 9,
+          "flask_login": 9,
+          "time": 8,
+          "LL1_Academy": 8,
+          "typing": 8,
+          "copy": 8,
+          "sqlalchemy": 8,
+          "networks": 7,
+          "datasets": 7,
+          "random": 7,
+          "Parser": 7,
+          "override": 7,
+          "requests": 7,
+          "utils": 6,
+          "Expr": 6,
+          "Lexer": 6,
+          "Visitor": 6,
+          "Blueprint": 6,
+          "CNN": 5,
+          "re": 5,
+          "pwn": 5,
+          "cache": 5,
+          "login_required": 5,
+          "flask_restful": 5,
+          "CNNLSTM": 4,
+          "string": 4,
+          "BaseCommand": 4,
+          "Grammar": 4,
+          "TestCase": 4,
+          "typing_extensions": 4,
+          "parser": 4,
+          "unittest": 4,
+          "datetime": 4,
+          "secrets": 4,
+          "CORS": 4,
+          "flask_cors": 4,
+          "select": 4,
+          "controllers": 4,
+          "JWT": 4,
+          "flask_jwt": 4,
+          "UserModel": 4,
+          "Resource": 4,
+          "render": 3,
+          "authenticate": 3,
+          "matplotlib": 3,
+          "urllib": 3,
+          "pandas": 3,
+          "DistilBertForSequenceClassification": 3,
+          "transformers": 3,
+          "current_app": 3,
+          "Template": 3,
+          "Resume": 3,
+          "SQLAlchemy": 3,
+          "flask_sqlalchemy": 3,
+          "Base": 3,
+          "Mapped": 3,
+          "base64": 3,
+          "nn": 2,
+          "tqdm": 2,
+          "transforms": 2,
+          "MassGrammarGenerator": 2,
+          "settings": 2,
+          "the": 2,
+          "importlib": 2,
+          "import_module": 2,
+          "ast": 2,
+          "JsonResponse": 2,
+          "DictionaryEncoder": 2,
+          "Solver": 2,
+          "OpCounter": 2,
+          "abc": 2,
+          "abstractmethod": 2,
+          "argparse": 2,
+          "sympy": 2,
+          "subprocess": 2,
+          "functools": 2,
+          "Limiter": 2,
+          "flask_limiter": 2,
+          "urlparse": 2,
+          "keras": 2,
+          "preprocessing": 2,
+          "get_file_byte_string": 2,
+          "dotenv": 2,
+          "load_dotenv": 2,
+          "alembic": 2,
+          "logging": 2,
+          "google": 2,
+          "get_full_resume": 2,
+          "cache_response": 2,
+          "model": 2,
+          "jwt": 2,
+          "app": 2,
+          "CustomCIFAR": 1,
+          "FGSMTransform": 1,
+          "attacks": 1,
+          "pygame": 1,
+          "admin": 1,
+          "AppConfig": 1,
+          "SingleGrammarGenerator": 1,
+          "UserHistory": 1,
+          "call_command": 1,
+          "timezone": 1,
+          "HttpRequest": 1,
+          "reverse": 1,
+          "Site": 1,
+          "GrammarChecker": 1,
+          "randint": 1,
+          "sklearn": 1,
+          "svm": 1,
+          "model_to_dict": 1,
+          "stats": 1,
+          "messages": 1,
+          "BackgroundTaskThread": 1,
+          "BinaryViewType": 1,
+          "binaryninja": 1,
+          "MediumLevelILOperation": 1,
+          "log_info": 1,
+          "PluginCommand": 1,
+          "BooleanGenerator": 1,
+          "MBAObfuscator": 1,
+          "NameGenerator": 1,
+          "RetVisitor": 1,
+          "TypeVar": 1,
+          "Optional": 1,
+          "TYPE_CHECKING": 1,
+          "run_experiment": 1,
+          "AndExpr": 1,
+          "Or": 1,
+          "z3": 1,
+          "html": 1,
+          "itertools": 1,
+          "Iterator": 1,
+          "OrExpr": 1,
+          "encoding": 1,
+          "mercurial": 1,
+          "hex": 1,
+          "constants": 1,
+          "procutil": 1,
+          "markdown": 1,
+          "psycopg2": 1,
+          "defaultdict": 1,
+          "ctypes": 1,
+          "collections": 1,
+          "CDLL": 1,
+          "RMSprop": 1,
+          "Dense": 1,
+          "ImageDataGenerator": 1,
+          "Conv2D": 1,
+          "print_function": 1,
+          "ModelCheckpoint": 1,
+          "Sequential": 1,
+          "sleep": 1,
+          "image": 1,
+          "load_model": 1,
+          "img_to_array": 1,
+          "gesture": 1,
+          "csv": 1,
+          "glob": 1,
+          "zipfile": 1,
+          "shutil": 1,
+          "Trainer": 1,
+          "DistilBertTokenizerFast": 1,
+          "public": 1,
+          "compile_views": 1,
+          "LoginManager": 1,
+          "auth_view": 1,
+          "template_views": 1,
+          "init_cache": 1,
+          "flask_migrate": 1,
+          "views": 1,
+          "ai_views": 1,
+          "Migrate": 1,
+          "user_views": 1,
+          "resume_views": 1,
+          "Lock": 1,
+          "Cache": 1,
+          "wraps": 1,
+          "current_user": 1,
+          "flask_caching": 1,
+          "SECTION_TYPE_TO_DISPLAY_NAME_MAPPING": 1,
+          "selectinload": 1,
+          "title": 1,
+          "fileConfig": 1,
+          "context": 1,
+          "op": 1,
+          "DateTime": 1,
+          "enum": 1,
+          "List": 1,
+          "UserMixin": 1,
+          "GenerationConfig": 1,
+          "WebApplicationClient": 1,
+          "invalidate_cache": 1,
+          "oauthlib": 1,
+          "login_user": 1,
+          "process_resume_update": 1,
+          "compile_latex_to_pdf": 1,
+          "tasks": 1,
+          "celery": 1,
+          "Celery": 1,
+          "jinja2": 1,
+          "Environment": 1,
+          "manager": 1,
+          "celery_app": 1,
+          "upload_to_gcs": 1,
+          "tempfile": 1,
+          "Client": 1,
+          "storage": 1,
+          "AnonymousCredentials": 1,
+          "Leaderboard": 1,
+          "security": 1,
+          "resources": 1,
+          "Api": 1,
+          "GetUser": 1,
+          "NOT_FOUND_ERR": 1,
+          "xml": 1,
+          "image_search": 1,
+          "genericpath": 1,
+          "exists": 1,
+          "hmac": 1,
+          "compare_digest": 1,
+          "ABI": 1,
+          "Dataset": 1,
+          "routes": 1,
+          "Session": 1,
+          "config": 1,
+          "is_authenticated": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 36,
+        "packages": {
+          "std": 33,
+          "crate": 17,
+          "snafu": 13,
+          "ex": 12,
+          "colored": 9,
+          "parking_game": 7,
+          "libafl": 7,
+          "libafl_bolts": 6,
+          "shared_memory": 5,
+          "serde_json": 5,
+          "serde": 4,
+          "pkey_mprotect": 3,
+          "libc": 2,
+          "nix": 2,
+          "goblin": 2,
+          "version_compare": 2,
+          "twoway": 2,
+          "structopt": 2,
+          "super": 1,
+          "is_executable": 1,
+          "lzma": 1,
+          "flate2": 1,
+          "pwninit": 1,
+          "derive_setters": 1,
+          "maplit": 1,
+          "strfmt": 1,
+          "tempfile": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "serwist": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 5,
+        "packages": {
+          "react": 4,
+          "next": 4,
+          "lucide-react": 3,
+          "dnd-kit": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "bliutech/adversarial-networks",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bliutech/bliu.tech",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "bliutech/Cupcakes_and_Cats",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bliutech/LL1-Academy",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bliutech/mbased",
+        "files_analyzed": 23,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "bliutech/MPKLink",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "bliutech/my-ctf-challenges",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C",
+          "Go",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "bliutech/nlp-cv-learning-platform",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bliutech/nlp-pdf-malware-detection",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bliutech/obfuscator",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header",
+          "Go"
+        ]
+      },
+      {
+        "repository": "bliutech/organ-safe",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "bliutech/parking-game-fuzzer",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "bliutech/prolio",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "bliutech/pwninit",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python",
+          "Rust"
+        ]
+      },
+      {
+        "repository": "bliutech/qwerty",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "bliutech/re",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "bliutech/RendeYou",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "bliutech/SeBRUS",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "Python"
+        ]
+      },
+      {
+        "repository": "bliutech/splash-ucla-2024-cpp",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      }
+    ]
+  }
+}

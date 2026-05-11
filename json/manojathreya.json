@@ -1,0 +1,489 @@
+{
+  "username": "manojathreya",
+  "areas": {
+    "OSS": {
+      "score": -0.7142857142857143,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.42857142857142855,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.15284587992756404,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6908072814298076,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.125,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.08728796687163007,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        16648630,
+        70
+      ],
+      "JavaScript": [
+        1076130,
+        18
+      ],
+      "HTML": [
+        728016,
+        47
+      ],
+      "CSS": [
+        164328,
+        9
+      ],
+      "Python": [
+        2741,
+        48
+      ],
+      "C": [
+        51,
+        0
+      ],
+      "C++": [
+        0,
+        0
+      ],
+      "Java": [
+        0,
+        0
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "PHP": [
+        51911,
+        31
+      ],
+      "CoffeeScript": [
+        4075,
+        0
+      ],
+      "ActionScript": [
+        676,
+        0
+      ],
+      "Shell": [
+        416,
+        0
+      ],
+      "TSQL": [
+        321,
+        0
+      ],
+      "Go": [
+        288,
+        0
+      ],
+      "Hack": [
+        83,
+        0
+      ],
+      "Makefile": [
+        19,
+        0
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 223,
+    "total_lines": 18677685,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 16648630,
+        "commits": 70
+      },
+      {
+        "language": "Python",
+        "lines": 2741,
+        "commits": 48
+      },
+      {
+        "language": "HTML",
+        "lines": 728016,
+        "commits": 47
+      },
+      {
+        "language": "PHP",
+        "lines": 51911,
+        "commits": 31
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1076130,
+        "commits": 18
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "manojathreya",
+    "analysis_date": "2026-05-10T16:35:14.765963",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 210,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 63,
+        "packages": {
+          "react": 22,
+          "semantic-ui-react": 9,
+          "material-ui": 8,
+          "web3": 8,
+          "jquery": 7,
+          "express": 7,
+          "path": 7,
+          "prop-types": 6,
+          "mongoose": 5,
+          "object": 4,
+          "undefined": 3,
+          "react-dom": 3,
+          "fs": 3,
+          "solc": 3,
+          "truffle-hdwallet-provider": 3,
+          "assert": 3,
+          "ganache-cli": 3,
+          "next": 2,
+          "jQuery": 2,
+          "passport": 2,
+          "morgan": 1,
+          "chalk": 1,
+          "fortawesome": 1,
+          "react-clap-button": 1,
+          "markdown-to-jsx": 1,
+          "react-scroll": 1,
+          "react-iframe": 1,
+          "lotion": 1,
+          "We": 1,
+          "shCore": 1,
+          ":Inbox": 1,
+          "fs-extra": 1,
+          "next-routes": 1,
+          "http": 1,
+          ":Lottery": 1,
+          "gulp-rename": 1,
+          "gulp-header": 1,
+          "gulp-uglify": 1,
+          "browser-sync": 1,
+          "gulp-clean-css": 1,
+          "gulp": 1,
+          "gulp-less": 1,
+          "express-handlebars": 1,
+          "express-session": 1,
+          "cookie-parser": 1,
+          "passport-google-oauth20": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "react": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 15,
+        "packages": {
+          "App\\restaurant_admin\\Restaurant": 7,
+          "vendor/autoload.php": 3,
+          "PDO": 2,
+          "<?php": 2,
+          "DOCUMENT_ROOT": 1,
+          "App\\Connection": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 25,
+        "packages": {
+          "os": 14,
+          "numpy": 9,
+          "torch": 7,
+          "scipy": 5,
+          "json": 5,
+          "dotenv": 5,
+          "load_dotenv": 5,
+          "nest_asyncio": 4,
+          "sounddevice": 4,
+          "write": 4,
+          "librosa": 4,
+          "sklearn": 3,
+          "gradio": 3,
+          "pandas": 3,
+          "warnings": 3,
+          "langchain_openai": 3,
+          "ChatOpenAI": 3,
+          "tqdm": 3,
+          "Counter": 3,
+          "collections": 3,
+          "random": 3,
+          "keras": 3,
+          "matplotlib": 2,
+          "transformers": 2,
+          "cosine_similarity": 2,
+          "train_test_split": 2,
+          "langchain_groq": 2,
+          "langchain": 2,
+          "ChatGroq": 2,
+          "langchain_core": 2,
+          "ChatPromptTemplate": 2,
+          "Variable": 2,
+          "argparse": 2,
+          "utils": 2,
+          "time": 2,
+          "load_model": 2,
+          "wavfile": 1,
+          "signal": 1,
+          "cloudant": 1,
+          "Cloudant": 1,
+          "Flask": 1,
+          "flask": 1,
+          "atexit": 1,
+          "codecs": 1,
+          "setuptools": 1,
+          "setup": 1,
+          "path": 1,
+          "open": 1,
+          "re": 1,
+          "FullOptimStateDictConfig": 1,
+          "TfidfVectorizer": 1,
+          "peft": 1,
+          "AutoTokenizer": 1,
+          "exllama_set_max_input_length": 1,
+          "FullyShardedDataParallelPlugin": 1,
+          "auto_gptq": 1,
+          "datasets": 1,
+          "nltk": 1,
+          "SFTTrainer": 1,
+          "evaluate": 1,
+          "PeftModel": 1,
+          "trl": 1,
+          "load_dataset": 1,
+          "accelerate": 1,
+          "openai": 1,
+          "together": 1,
+          "PyPDF2": 1,
+          "OpenAI": 1,
+          "datetime": 1,
+          "botocore": 1,
+          "boto3": 1,
+          "Dict": 1,
+          "tool": 1,
+          "itemgetter": 1,
+          "AIMessage": 1,
+          "Runnable": 1,
+          "operator": 1,
+          "typing": 1,
+          "AgentExecutor": 1,
+          "getpass": 1,
+          "hub": 1,
+          "StrOutputParser": 1,
+          "Together": 1,
+          "langchain_community": 1,
+          "Ollama": 1,
+          "langchain_together": 1,
+          "fastapi": 1,
+          "add_routes": 1,
+          "FastAPI": 1,
+          "uvicorn": 1,
+          "langserve": 1,
+          "LlamaParse": 1,
+          "llama_index": 1,
+          "llama_parse": 1,
+          "VectorStoreIndex": 1,
+          "Groq": 1,
+          "pickle": 1,
+          "QdrantVectorStore": 1,
+          "Settings": 1,
+          "qdrant_client": 1,
+          "OllamaEmbedding": 1,
+          "DatasetManager": 1,
+          "ModelManager": 1,
+          "Processor": 1,
+          "ordered_set": 1,
+          "OrderedDict": 1,
+          "OrderedSet": 1,
+          "Dataset": 1,
+          "deepcopy": 1,
+          "DataLoader": 1,
+          "copy": 1,
+          "math": 1,
+          "pad_packed_sequence": 1,
+          "pack_padded_sequence": 1,
+          "miulab": 1,
+          "Sequential": 1,
+          "Dense": 1,
+          "to_categorical": 1,
+          "confusion_matrix": 1,
+          "SentenceTransformer": 1,
+          "AutoModelForCausalLM": 1,
+          "TTS": 1,
+          "*": 1,
+          "WhisperForConditionalGeneration": 1,
+          "subprocess": 1,
+          "src": 1,
+          "playsound": 1,
+          "sentence_transformers": 1,
+          "pprint": 1,
+          "python_weather": 1,
+          "youtubesearchpython": 1,
+          "unicodedata": 1,
+          "VideosSearch": 1,
+          "requests": 1,
+          "asyncio": 1,
+          "itertools": 1,
+          "PIL": 1,
+          "Image": 1,
+          "tkinter": 1,
+          "count": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ManojAthreya/air2020",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/alexa-community-jaipur",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/blockchat",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/CMS",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/demo",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/EthereumCasts",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/EventSite",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/FoodHub",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/FYP_CA",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/get-started-python",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/hobbies",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/LLM",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/LULU_Voice_Assistant",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ManojAthreya/MedStorj",
+        "files_analyzed": 21,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

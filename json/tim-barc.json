@@ -1,0 +1,154 @@
+{
+  "username": "tim-barc",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.46153846153846145,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.19230769230769232
+      }
+    },
+    "Adaptability": {
+      "score": -0.275,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 4.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.15397435897435896,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        51,
+        4
+      ],
+      "HTML": [
+        162137,
+        122
+      ],
+      "CSS": [
+        2239,
+        38
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 164,
+    "total_lines": 164427,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 162137,
+        "commits": 122
+      },
+      {
+        "language": "CSS",
+        "lines": 2239,
+        "commits": 38
+      },
+      {
+        "language": "Python",
+        "lines": 51,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "tim-barc",
+    "analysis_date": "2026-05-10T18:04:11.584252",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 7,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "undefined": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "logging": 1,
+          "pynput": 1,
+          "Key": 1,
+          "re": 1,
+          "random": 1,
+          "string": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "tim-barc/basic_keylogger-",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tim-barc/blog.github.io",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "tim-barc/password_checker",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tim-barc/password_generator",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

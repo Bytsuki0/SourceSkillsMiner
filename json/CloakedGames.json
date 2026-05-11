@@ -1,0 +1,98 @@
+{
+  "username": "CloakedGames",
+  "areas": {
+    "OSS": {
+      "score": 0.8,
+      "details": {
+        "issue_resolution_rate": 0.7,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.3717948717948718,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": -0.775,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.12935897435897437,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Game Maker Language": [
+        3146728,
+        229
+      ],
+      "GLSL": [
+        218945,
+        17
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 246,
+    "total_lines": 3365673,
+    "top_5_languages": [
+      {
+        "language": "Game Maker Language",
+        "lines": 3146728,
+        "commits": 229
+      },
+      {
+        "language": "GLSL",
+        "lines": 218945,
+        "commits": 17
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "CloakedGames",
+    "analysis_date": "2026-05-10T20:11:17.485813",
+    "total_repos_analyzed": 10,
+    "total_files_analyzed": 0,
+    "languages": {},
+    "repositories": []
+  }
+}

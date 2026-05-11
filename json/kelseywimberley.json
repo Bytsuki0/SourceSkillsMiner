@@ -1,0 +1,343 @@
+{
+  "username": "kelseywimberley",
+  "areas": {
+    "OSS": {
+      "score": 0.9527274370200851,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9290911555301277
+      }
+    },
+    "Status": {
+      "score": 0.30419462380189044,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.9178303972412971,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.6125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {
+        "kelseywimberley/MamaCatAndTheGreatKittenBarrage": -0.6764
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.1288844121643951,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        283017,
+        3
+      ],
+      "C++": [
+        29715241,
+        7
+      ],
+      "C": [
+        293301,
+        0
+      ],
+      "JavaScript": [
+        5693,
+        0
+      ],
+      "CSS": [
+        1540,
+        0
+      ],
+      "Objective-C": [
+        849,
+        0
+      ],
+      "CMake": [
+        467,
+        0
+      ],
+      "ShaderLab": [
+        6082562,
+        64
+      ],
+      "C#": [
+        5619234,
+        37
+      ],
+      "HLSL": [
+        866965,
+        8
+      ],
+      "Mathematica": [
+        1176265,
+        0
+      ],
+      "Python": [
+        2179641,
+        0
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 119,
+    "total_lines": 46224775,
+    "top_5_languages": [
+      {
+        "language": "ShaderLab",
+        "lines": 6082562,
+        "commits": 64
+      },
+      {
+        "language": "C#",
+        "lines": 5619234,
+        "commits": 37
+      },
+      {
+        "language": "HLSL",
+        "lines": 866965,
+        "commits": 8
+      },
+      {
+        "language": "C++",
+        "lines": 29715241,
+        "commits": 7
+      },
+      {
+        "language": "HTML",
+        "lines": 283017,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "kelseywimberley",
+    "analysis_date": "2026-05-10T22:07:30.598690",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 155,
+    "languages": {
+      "C#": {
+        "files_scanned": 94,
+        "packages": {
+          "UnityEngine": 87,
+          "System.Collections.Generic": 75,
+          "System.Collections": 72,
+          "UnityEngine.SceneManagement": 14,
+          "TMPro": 12,
+          "UnityEngine.UI": 9,
+          "System": 7,
+          "Cinemachine": 3,
+          "UnityEngine.XR.Interaction.Toolkit": 3,
+          "UnityEngine.InputSystem": 3,
+          "Unity.XR.CoreUtils": 3,
+          "UnityEngine.XR.Interaction.Toolkit.Utilities.Tweenables.Primitives": 3,
+          "UnityEditor": 3,
+          "UnityEngine.XR.Interaction.Toolkit.Filtering": 2,
+          "Unity.XR.CoreUtils.Bindings": 2,
+          "UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State": 2,
+          "Unity.Mathematics": 2,
+          "UnityEngine.Events": 2,
+          "UnityEngine.Video": 2,
+          "System.Threading": 1,
+          "Unity.XR.CoreUtils.Editor": 1,
+          "System.Linq": 1,
+          "UnityEngine.XR.Interaction.Toolkit.UI": 1,
+          "UnityEngine.Assertions": 1,
+          "UnityEngine.EventSystems": 1,
+          "UnityEngine.Serialization": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 22,
+        "packages": {
+          "VrmMetaObject.h": 12,
+          "VrmUtil.h": 12,
+          "Animation/AnimInstanceProxy.h": 10,
+          "AnimationRuntime.h": 10,
+          "<algorithm>": 8,
+          "algorithm": 8,
+          "VrmAssetListObject.h": 8,
+          "DrawDebugHelpers.h": 6,
+          "Kismet/KismetSystemLibrary.h": 6,
+          "Animation/AnimNodeBase.h": 4,
+          "AnimNode_VrmConstraint.h": 3,
+          "AnimNode_VrmSpringBone.h": 3,
+          "pch.h": 2,
+          "BonePose.h": 2,
+          "VrmBPFunctionLibrary.h": 2,
+          "Animation/Rig.h": 2,
+          "Collision.h": 1,
+          "Component.h": 1,
+          "EngineIncludes.h": 1,
+          "UIEditor.h": 1,
+          "AnimNode_VrmCopyHandBone.h": 1,
+          "AnimNode_VrmModifyBoneDynamic.h": 1,
+          "AnimNode_VrmModifyBoneList.h": 1,
+          "AnimNode_VrmModifyBoneListRetarget.h": 1,
+          "AnimNode_VrmModifyHumanoidBone.h": 1,
+          "AnimNode_VrmPoseBlendNode.h": 1,
+          "AnimNode_VrmQuestHandBone.h": 1,
+          "Animation/AnimInstance.h": 1,
+          "AnimNode_VrmRetargetFromMannequin.h": 1,
+          "VrmSpringBone.h": 1,
+          "SceneInterface.h": 1,
+          "RigUnit_VrmDynamicHierarchy.h": 1,
+          "Components/SkeletalMeshComponent.h": 1,
+          "Units/RigUnitContext.h": 1,
+          "Engine/SkeletalMesh.h": 1,
+          "ControlRig.h": 1,
+          "Rigs/RigHierarchyController.h": 1,
+          "Developer/Settings/Public/ISettingsModule.h": 1,
+          "Modules/ModuleManager.h": 1,
+          "VrmRuntimeSettings.h": 1,
+          "VRM4U.h": 1,
+          "VRM4U_AnimSubsystem.h": 1,
+          "Vrm1LicenseObject.h": 1,
+          "BoneControllers/AnimNode_TwoBoneIK.h": 1,
+          "BoneControllers/AnimNode_SplineIK.h": 1,
+          "VrmAnimInstance.h": 1,
+          "Misc/EngineVersionComparison.h": 1,
+          "BoneControllers/AnimNode_Fabrik.h": 1,
+          "VrmAnimInstanceCopy.h": 1,
+          "AnimNodes/AnimNode_RetargetPoseFromMesh.h": 1,
+          "VrmAnimInstanceRetargetFromMannequin.h": 1,
+          "VrmRigHeader.h": 1,
+          "VrmAnimInstanceTemplate.h": 1,
+          "EditorFramework/AssetImportData.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 4,
+        "packages": {
+          "<GL/glew.h>": 2,
+          "GL/glew.h": 2,
+          "Transform.h": 1,
+          "GameObject.h": 1,
+          "<sys/types.h>": 1,
+          "KHR/khrplatform.h": 1,
+          "<KHR/khrplatform.h>": 1,
+          "<EGL/eglplatform.h>": 1,
+          "sys/types.h": 1,
+          "EGL/eglplatform.h": 1,
+          "<X11/Xmd.h>": 1,
+          "X11/Xutil.h": 1,
+          "X11/Xlib.h": 1,
+          "<X11/Xutil.h>": 1,
+          "X11/Xmd.h": 1,
+          "<X11/Xlib.h>": 1,
+          "windows.h": 1,
+          "<windows.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "jQuery": 1,
+          "jquery": 1,
+          "horizontal": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 11,
+        "packages": {
+          "unreal": 11,
+          "argparse": 10,
+          "asyncio": 3,
+          "NULL": 3,
+          "time": 3,
+          "platform": 2,
+          "java_ver": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "kelseywimberley/First-Game-Engine",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "kelseywimberley/GMTKJam2024",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "kelseywimberley/kelseywimberley",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C#",
+          "C++"
+        ]
+      },
+      {
+        "repository": "kelseywimberley/MamaCatAndTheGreatKittenBarrage",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "kelseywimberley/SweetEscapeVR",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "kelseywimberley/TheLifeSaver",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "kelseywimberley/ThirdPersonShooter_Unreal",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

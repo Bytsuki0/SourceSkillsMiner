@@ -1,0 +1,187 @@
+{
+  "username": "Caldass",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.41025641025641035,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.11538461538461539
+      }
+    },
+    "Adaptability": {
+      "score": -0.9375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "Caldass/rental_properties": 0.0094
+      }
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.02788461538461541,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        2008626,
+        181
+      ],
+      "Python": [
+        2379,
+        0
+      ],
+      "HTML": [
+        259759,
+        17
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 198,
+    "total_lines": 2270764,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 2008626,
+        "commits": 181
+      },
+      {
+        "language": "HTML",
+        "lines": 259759,
+        "commits": 17
+      },
+      {
+        "language": "Python",
+        "lines": 2379,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Caldass",
+    "analysis_date": "2026-05-10T14:42:50.822366",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 12,
+    "languages": {
+      "Python": {
+        "files_scanned": 12,
+        "packages": {
+          "pandas": 12,
+          "numpy": 7,
+          "os": 7,
+          "pickle": 5,
+          "time": 4,
+          "sklearn": 3,
+          "MinMaxScaler": 2,
+          "matplotlib": 2,
+          "selenium": 2,
+          "BeautifulSoup": 2,
+          "bs4": 2,
+          "webdriver": 2,
+          "requests": 2,
+          "Flask": 2,
+          "flask": 2,
+          "cross_val_score": 2,
+          "train_test_split": 2,
+          "re": 1,
+          "inflection": 1,
+          "yellowbrick": 1,
+          "KMeans": 1,
+          "seaborn": 1,
+          "KElbowVisualizer": 1,
+          "umap": 1,
+          "metrics": 1,
+          "accuracy_score": 1,
+          "classification_report": 1,
+          "KNeighborsClassifier": 1,
+          "LogisticRegression": 1,
+          "GradientBoostingClassifier": 1,
+          "GridSearchCV": 1,
+          "RFE": 1,
+          "RandomForestClassifier": 1,
+          "geopy": 1,
+          "GeocoderTimedOut": 1,
+          "geodesic": 1,
+          "RateLimiter": 1,
+          "Nominatim": 1,
+          "json": 1,
+          "data_prep": 1,
+          "DataPrep": 1,
+          "RandomizedSearchCV": 1,
+          "GradientBoostingRegressor": 1,
+          "scipy": 1,
+          "RandomForestRegressor": 1,
+          "randint": 1,
+          "mean_absolute_percentage_error": 1,
+          "LinearRegression": 1,
+          "Lasso": 1,
+          "collections": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Caldass/all-in-one-sales",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Caldass/pl-matches-predictor",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Caldass/rental_properties",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

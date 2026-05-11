@@ -1,0 +1,212 @@
+{
+  "username": "ROHANSAMUEL134",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.6153846153846154,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.4230769230769231
+      }
+    },
+    "Adaptability": {
+      "score": -0.420833,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.3333,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 1,
+        "topic_entropy_bits": 1.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.20557698974358973,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        169500,
+        33
+      ],
+      "CSS": [
+        319814,
+        215
+      ],
+      "Java": [
+        1536,
+        23
+      ],
+      "HTML": [
+        2760497,
+        279
+      ],
+      "JavaScript": [
+        107852,
+        30
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 580,
+    "total_lines": 3359199,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 2760497,
+        "commits": 279
+      },
+      {
+        "language": "CSS",
+        "lines": 319814,
+        "commits": 215
+      },
+      {
+        "language": "Python",
+        "lines": 169500,
+        "commits": 33
+      },
+      {
+        "language": "JavaScript",
+        "lines": 107852,
+        "commits": 30
+      },
+      {
+        "language": "Java",
+        "lines": 1536,
+        "commits": 23
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ROHANSAMUEL134",
+    "analysis_date": "2026-05-10T15:19:34.395582",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 38,
+    "languages": {
+      "Java": {
+        "files_scanned": 6,
+        "packages": {
+          "java.util": 5,
+          "java.sql": 3,
+          "java.io": 1,
+          "java.time": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 17,
+        "packages": {
+          "django": 12,
+          "os": 3,
+          "openai": 2,
+          "time": 2,
+          "datetime": 2,
+          "admin": 2,
+          "migrations": 2,
+          "path": 2,
+          "*": 1,
+          "winsound": 1,
+          "tkinter": 1,
+          "threading": 1,
+          "selenium": 1,
+          "webdriver": 1,
+          "execute_from_command_line": 1,
+          "sys": 1,
+          "AppConfig": 1,
+          "forms": 1,
+          "models": 1,
+          "TestCase": 1,
+          "decimal": 1,
+          "messages": 1,
+          "HttpResponse": 1,
+          "login_required": 1,
+          "User": 1,
+          "render": 1,
+          "authenticate": 1,
+          "Decimal": 1,
+          "get_wsgi_application": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ROHANSAMUEL134/AI_Phase5",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ROHANSAMUEL134/Alarm-Clock",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ROHANSAMUEL134/Automation",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ROHANSAMUEL134/Banking-Application",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "ROHANSAMUEL134/Bus_Reservation_System",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ROHANSAMUEL134/Chatgpt",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

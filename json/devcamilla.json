@@ -1,0 +1,163 @@
+{
+  "username": "devcamilla",
+  "areas": {
+    "OSS": {
+      "score": 0.07130438857433874,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.606956582861508
+      }
+    },
+    "Status": {
+      "score": 0.11560296300696526,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.6349429060489094,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.8375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.13011852968373921,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        3686,
+        0
+      ],
+      "C#": [
+        3122,
+        10
+      ]
+    },
+    "language_count": 2,
+    "total_commits": 10,
+    "total_lines": 6808,
+    "top_5_languages": [
+      {
+        "language": "C#",
+        "lines": 3122,
+        "commits": 10
+      },
+      {
+        "language": "Java",
+        "lines": 3686,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "devcamilla",
+    "analysis_date": "2026-05-10T19:59:10.894431",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 51,
+    "languages": {
+      "C#": {
+        "files_scanned": 11,
+        "packages": {
+          "UnityEngine": 11,
+          "System.Collections": 8,
+          "System.Collections.Generic": 6,
+          "static": 4,
+          "System.Linq": 3,
+          "UnityEngine.UI": 2,
+          "System": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 40,
+        "packages": {
+          "com.dev": 30,
+          "java.util": 15,
+          "javax.persistence": 13,
+          "org.springframework": 11,
+          "com.devcamilla": 8,
+          "com.bowlingkata": 2,
+          "org.junit": 2,
+          "com.fasterxml": 2,
+          "static": 1,
+          "java.sql": 1,
+          "java.io": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "devcamilla/bowlingkata",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "devcamilla/shooting-game-endless",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "devcamilla/shop",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "devcamilla/shoppingcart",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "devcamilla/toggleable-test",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}

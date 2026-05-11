@@ -1,0 +1,820 @@
+{
+  "username": "M0ngi",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.28433226100705533,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8880368530490446,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 14,
+        "language_transitions": 13,
+        "topic_entropy_bits": 4.5016,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.3735331188680777,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        696024,
+        155
+      ],
+      "Dart": [
+        27821,
+        1
+      ],
+      "HTML": [
+        8250,
+        37
+      ],
+      "Swift": [
+        1494,
+        0
+      ],
+      "Kotlin": [
+        476,
+        3
+      ],
+      "Objective-C": [
+        139,
+        0
+      ],
+      "TypeScript": [
+        77963,
+        75
+      ],
+      "JavaScript": [
+        198829,
+        52
+      ],
+      "CSS": [
+        13863,
+        105
+      ],
+      "PHP": [
+        34,
+        6
+      ],
+      "Shell": [
+        9,
+        16
+      ],
+      "Hack": [
+        0,
+        4
+      ],
+      "C": [
+        0,
+        20
+      ],
+      "Dockerfile": [
+        0,
+        6
+      ],
+      "C++": [
+        0,
+        16
+      ],
+      "Assembly": [
+        0,
+        0
+      ],
+      "VCL": [
+        0,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Twig": [
+        0,
+        2
+      ],
+      "C#": [
+        0,
+        1
+      ],
+      "Just": [
+        0,
+        10
+      ],
+      "Java": [
+        0,
+        25
+      ],
+      "HCL": [
+        0,
+        4
+      ],
+      "Pawn": [
+        0,
+        0
+      ],
+      "Jupyter Notebook": [
+        0,
+        0
+      ]
+    },
+    "language_count": 25,
+    "total_commits": 538,
+    "total_lines": 1024902,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 696024,
+        "commits": 155
+      },
+      {
+        "language": "CSS",
+        "lines": 13863,
+        "commits": 105
+      },
+      {
+        "language": "TypeScript",
+        "lines": 77963,
+        "commits": 75
+      },
+      {
+        "language": "JavaScript",
+        "lines": 198829,
+        "commits": 52
+      },
+      {
+        "language": "HTML",
+        "lines": 8250,
+        "commits": 37
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "M0ngi",
+    "analysis_date": "2026-05-10T18:03:16.216718",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 374,
+    "languages": {
+      "C": {
+        "files_scanned": 21,
+        "packages": {
+          "stdio.h": 15,
+          "<stdio.h>": 15,
+          "stdlib.h": 14,
+          "<stdlib.h>": 14,
+          "<unistd.h>": 13,
+          "unistd.h": 13,
+          "string.h": 10,
+          "<string.h>": 10,
+          "utils.h": 7,
+          "stdint.h": 6,
+          "<stdint.h>": 6,
+          "sys/stat.h": 3,
+          "fcntl.h": 3,
+          "sys/types.h": 3,
+          "<sys/types.h>": 3,
+          "<sys/stat.h>": 3,
+          "<fcntl.h>": 3,
+          "<pthread.h>": 3,
+          "pthread.h": 3,
+          "linux/seccomp.h": 2,
+          "<linux/filter.h>": 2,
+          "<stddef.h>": 2,
+          "<sys/prctl.h>": 2,
+          "stddef.h": 2,
+          "sys/prctl.h": 2,
+          "linux/filter.h": 2,
+          "<linux/seccomp.h>": 2,
+          "<ctype.h>": 1,
+          "ctype.h": 1,
+          "<sys/syscall.h>": 1,
+          "sys/syscall.h": 1,
+          "<sys/ioctl.h>": 1,
+          "syscall.h": 1,
+          "<syscall.h>": 1,
+          "sys/mman.h": 1,
+          "<sys/mman.h>": 1,
+          "sys/ioctl.h": 1,
+          "stm32f10x.h": 1,
+          "stm32f10x_it.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 3,
+        "packages": {
+          "System.Diagnostics": 3,
+          "WebApplication1.Models": 2,
+          "System.Data.SQLite": 1,
+          "System.Linq": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 2,
+        "packages": {
+          "string.h": 1,
+          "namespace": 1,
+          "<sys/prctl.h>": 1,
+          "iostream": 1,
+          "linux/filter.h": 1,
+          "sys/prctl.h": 1,
+          "seccomp.h": 1,
+          "<unistd.h>": 1,
+          "<syscall.h>": 1,
+          "unistd.h": 1,
+          "std": 1,
+          "<string.h>": 1,
+          "<iostream>": 1,
+          "sys/ioctl.h": 1,
+          "<linux/filter.h>": 1,
+          "<seccomp.h>": 1,
+          "syscall.h": 1,
+          "<sys/ioctl.h>": 1,
+          "stdio.h": 1,
+          "<stdio.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 4,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 2,
+          "misc.h": 1,
+          "stm32f10x_exti.h": 1,
+          "stm32f10x_gpio.h": 1,
+          "stm32f10x_dma.h": 1,
+          "stm32f10x_usart.h": 1,
+          "stm32f10x_rcc.h": 1,
+          "stm32f10x.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 20,
+        "packages": {
+          "flutter": 18,
+          "manager": 14,
+          "flutter_test": 2,
+          "gsheets": 1,
+          "config/responsive_config.dart": 1,
+          "qr_code_scanner": 1,
+          "dart:developer": 1,
+          "flutter_svg": 1,
+          "items_list_widget.dart": 1,
+          "aeroday_2021": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 59,
+        "packages": {
+          "react": 23,
+          "react-native": 14,
+          "express": 10,
+          "firebase": 8,
+          "testing-library": 4,
+          "path": 4,
+          "mongoose": 3,
+          "express-session": 3,
+          "cors": 2,
+          "cookie-parser": 2,
+          "jsonwebtoken": 2,
+          "react-native-safe-area-context": 2,
+          "expo": 2,
+          "react-native-elements": 2,
+          "bootstrap": 2,
+          "react-modal": 2,
+          "react-dom": 2,
+          "web-vitals": 2,
+          "request-ip": 2,
+          "firebase-admin": 2,
+          "fs": 2,
+          "mongodb": 2,
+          "body-parser": 2,
+          "ejs": 2,
+          "symfony": 2,
+          "jquery-validation": 2,
+          "dotenv": 1,
+          "post": 1,
+          "bcrypt": 1,
+          "user": 1,
+          "expo-status-bar": 1,
+          "expo-notifications": 1,
+          "react-native-svg": 1,
+          "expo-facebook": 1,
+          "userEmailPhoneNumbers": 1,
+          "users": 1,
+          "participants": 1,
+          "chalk": 1,
+          "inquirer": 1,
+          "figlet": 1,
+          "nanospinner": 1,
+          "expo-server-sdk": 1,
+          "react-navigation": 1,
+          "react-toastify": 1,
+          "react-qr-reader": 1,
+          "got": 1,
+          "mongo-sanitize": 1,
+          "querystring": 1,
+          "child_process": 1,
+          "tree-kill": 1,
+          "hotwired": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 7,
+        "packages": {
+          "react": 7,
+          "react-native": 3,
+          "expo": 2,
+          "react-native-exception-handler": 1,
+          "firebase": 1,
+          "react-native-async-storage": 1,
+          "react-navigation": 1,
+          "clickable": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 2,
+        "packages": {
+          "io.flutter": 2,
+          "com.example": 2
+        }
+      },
+      "PHP": {
+        "files_scanned": 14,
+        "packages": {
+          "App\\Entity\\PFE": 4,
+          "App\\Repository\\EntrepriseRepository": 3,
+          "Doctrine\\Persistence\\ManagerRegistry": 3,
+          "Doctrine\\Bundle\\FixturesBundle\\Fixture": 3,
+          "Doctrine\\Persistence\\ObjectManager": 3,
+          "App\\Entity\\Entreprise": 3,
+          "Symfony\\Bundle\\FrameworkBundle\\Controller\\AbstractController": 2,
+          "Symfony\\Component\\HttpFoundation\\Response": 2,
+          "Symfony\\Component\\Routing\\Annotation\\Route": 2,
+          "Faker\\Factory": 2,
+          "Doctrine\\ORM\\Mapping": 2,
+          "Doctrine\\Bundle\\DoctrineBundle\\Repository\\ServiceEntityRepository": 2,
+          "Doctrine\\ORM\\OptimisticLockException": 2,
+          "Doctrine\\ORM\\Exception\\ORMException": 2,
+          "Doctrine\\DBAL\\Schema\\Schema": 1,
+          "Doctrine\\Migrations\\AbstractMigration": 1,
+          "App\\Kernel": 1,
+          "Symfony\\Component\\Form\\Extension\\Core\\Type\\SubmitType": 1,
+          "App\\Form\\PFEType": 1,
+          "Symfony\\Component\\HttpFoundation\\Request": 1,
+          "Doctrine\\Common\\Collections\\ArrayCollection": 1,
+          "Doctrine\\Common\\Collections\\Collection": 1,
+          "App\\Repository\\PFERepository": 1,
+          "Symfony\\Component\\Form\\FormBuilderInterface": 1,
+          "Symfony\\Component\\OptionsResolver\\OptionsResolver": 1,
+          "Symfony\\Component\\Form\\AbstractType": 1,
+          "MicroKernelTrait": 1,
+          "Symfony\\Component\\HttpKernel\\Kernel": 1,
+          "Symfony\\Bundle\\FrameworkBundle\\Kernel\\MicroKernelTrait": 1,
+          "Twig\\TwigFunction": 1,
+          "Twig\\Extension\\AbstractExtension": 1,
+          "Twig\\TwigFilter": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 73,
+        "packages": {
+          "website": 17,
+          "flask": 13,
+          "PyQt5": 10,
+          "os": 8,
+          "models": 8,
+          "sqlalchemy": 8,
+          "bc_challenge": 7,
+          "typing": 7,
+          "RemoteGefUnitTestGeneric": 7,
+          "tests": 7,
+          "returns": 6,
+          "Product": 6,
+          "QtCore": 6,
+          "pathlib": 6,
+          "pytest": 6,
+          "datetime": 5,
+          "requests": 5,
+          "re": 5,
+          "Blueprint": 5,
+          "json": 4,
+          "pydantic": 4,
+          "BaseModel": 4,
+          "types": 4,
+          "int2": 4,
+          "helpers": 4,
+          "QtWidgets": 4,
+          "pika": 4,
+          "rabbitmq": 4,
+          "RabbitMQConnection": 4,
+          "db": 4,
+          "ADMIN_ROLE_ID": 4,
+          "random": 4,
+          "GetObject": 3,
+          "system": 3,
+          "win32com": 3,
+          "CodePatch": 3,
+          "Result": 3,
+          "safe": 3,
+          "iter2": 3,
+          "CodeType": 3,
+          "Session": 3,
+          "sys": 3,
+          "role_required": 3,
+          "error_response": 3,
+          "token_required": 3,
+          "functools": 3,
+          "tempfile": 3,
+          "subprocess": 3,
+          "ARCH": 3,
+          "*": 2,
+          "pwn": 2,
+          "importlib": 2,
+          "with_packed_args": 2,
+          "Mapping": 2,
+          "opmap": 2,
+          "OpCode": 2,
+          "dataclasses": 2,
+          "dataclass": 2,
+          "Tuple": 2,
+          "ResultME": 2,
+          "opcode": 2,
+          "COLUMNS": 2,
+          "ClickableImageWidget": 2,
+          "AddProdScreen": 2,
+          "ProductTableWidget": 2,
+          "consts": 2,
+          "Ui_MainWindow": 2,
+          "MainWindow": 2,
+          "sessionmaker": 2,
+          "Base": 2,
+          "create_engine": 2,
+          "Mapped": 2,
+          "Column": 2,
+          "NackError": 2,
+          "Config": 2,
+          "findAll": 2,
+          "api_token_required": 2,
+          "valid_response": 2,
+          "werkzeug": 2,
+          "render_template": 2,
+          "flash": 2,
+          "User": 2,
+          "wraps": 2,
+          "time": 2,
+          "argparse": 2,
+          "rpyc": 2,
+          "firestore": 1,
+          "auth": 1,
+          "credentials": 1,
+          "cv2": 1,
+          "mod": 1,
+          "firebase_admin": 1,
+          "operator": 1,
+          "hlextend": 1,
+          "ceil": 1,
+          "match": 1,
+          "math": 1,
+          "when": 1,
+          "base64": 1,
+          "ReqTaskSource": 1,
+          "httpx": 1,
+          "TaskInfo": 1,
+          "load_settings": 1,
+          "collect_all_results": 1,
+          "Secret": 1,
+          "raise_exception": 1,
+          "pretty_print_code_patch": 1,
+          "import_module": 1,
+          "ApiClient": 1,
+          "click": 1,
+          "testing": 1,
+          "maybe_to_result": 1,
+          "ApiClientSettings": 1,
+          "Union": 1,
+          "Sequence": 1,
+          "OPCODE_MAPPING": 1,
+          "or_": 1,
+          "genActionMessage": 1,
+          "handleSyncAction": 1,
+          "and_": 1,
+          "createApp": 1,
+          "SQLAlchemy": 1,
+          "DEFAULT_ROLES": 1,
+          "flask_sqlalchemy": 1,
+          "Flask": 1,
+          "func": 1,
+          "flask_login": 1,
+          "UserMixin": 1,
+          "api": 1,
+          "check_password_hash": 1,
+          "createToken": 1,
+          "createUser": 1,
+          "apiGet": 1,
+          "web": 1,
+          "apiPost": 1,
+          "Role": 1,
+          "USER_ROLE_ID": 1,
+          "generate_password_hash": 1,
+          "current_app": 1,
+          "post": 1,
+          "jsonify": 1,
+          "findOne": 1,
+          "jwt": 1,
+          "redirect": 1,
+          "urllib": 1,
+          "abc": 1,
+          "StringIO": 1,
+          "string": 1,
+          "shutil": 1,
+          "urlopen": 1,
+          "itertools": 1,
+          "collections": 1,
+          "warnings": 1,
+          "io": 1,
+          "create_string_buffer": 1,
+          "traceback": 1,
+          "site": 1,
+          "ModuleType": 1,
+          "lru_cache": 1,
+          "struct": 1,
+          "name": 1,
+          "termios": 1,
+          "enum": 1,
+          "hashlib": 1,
+          "configparser": 1,
+          "ast": 1,
+          "inspect": 1,
+          "binascii": 1,
+          "platform": 1,
+          "ctypes": 1,
+          "fcntl": 1,
+          "atexit": 1,
+          "codecs": 1,
+          "socket": 1,
+          "gdb": 1,
+          "logging": 1,
+          "debugpy": 1,
+          "WARNING_DEPRECATION_MESSAGE": 1,
+          "unittest": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 2,
+        "packages": {
+          "Flutter": 2,
+          "UIKit": 2
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 60,
+        "packages": {
+          "nestjs": 39,
+          "class-validator": 14,
+          "class-transformer": 12,
+          "config": 10,
+          "app_config": 9,
+          "react-native": 8,
+          "base": 7,
+          "api_client": 6,
+          "rxjs": 4,
+          "axios": 2,
+          "miscConfig": 2,
+          "react": 2,
+          "firebase": 2,
+          "express": 1,
+          "leagues": 1,
+          "fotmob": 1,
+          "matches": 1,
+          "search": 1,
+          "typeorm": 1,
+          "path": 1,
+          "authConfig": 1,
+          "loginConfig": 1,
+          "refreshConfig": 1,
+          "supertest": 1,
+          "expo-facebook": 1,
+          "userEmailPhoneNumbers": 1,
+          "users": 1,
+          "participants": 1,
+          "staff": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 35,
+        "packages": {
+          "react": 20,
+          "react-native": 20,
+          "react-native-svg": 9,
+          "react-navigation": 5,
+          "react-native-elements": 4,
+          "react-native-safe-area-context": 3,
+          "firebase": 3,
+          "expo-font": 2,
+          "react-native-vector-icons": 2,
+          "react-native-responsive-checker": 1,
+          "expo-network": 1,
+          "expo-status-bar": 1,
+          "react-error-boundary": 1,
+          "react-native-exception-handler": 1,
+          "expo": 1,
+          "expo-barcode-scanner": 1,
+          "react-hook-form": 1,
+          "react-datepicker": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "M0ngi/AerobotixManager",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "M0ngi/aeroday-2021-main",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "M0ngi/aeroday-2023-mobile",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "M0ngi/BackendMobile",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "M0ngi/BackendWebGL4",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "M0ngi/Base-NestJS-Project-MYSQL",
+        "files_analyzed": 27,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "M0ngi/ChatLogSaver-SAMP",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "M0ngi/CSTC",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "Python"
+        ]
+      },
+      {
+        "repository": "M0ngi/cstc-qr",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "M0ngi/cstc-vote",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "M0ngi/CSTCTreasurerWebApp",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "M0ngi/CTF-Writeups",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "M0ngi/DB-Synchronization-with-RabbitMQ",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "M0ngi/ExaminTPWeb",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "M0ngi/Flask-Auth-Web-App",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "M0ngi/gef",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C",
+          "C++",
+          "Python"
+        ]
+      },
+      {
+        "repository": "M0ngi/GL3-Manip6-Prog-Bas-Niveau",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "M0ngi/GL3-TP-ASP.NET-MVC",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C#",
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

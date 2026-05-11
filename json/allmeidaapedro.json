@@ -1,0 +1,354 @@
+{
+  "username": "allmeidaapedro",
+  "areas": {
+    "OSS": {
+      "score": 0.33333333333333326,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.39743589743589736,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.09615384615384616
+      }
+    },
+    "Adaptability": {
+      "score": -0.9375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.05865384615384614,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        11733320,
+        538
+      ],
+      "Python": [
+        613424,
+        9
+      ],
+      "HTML": [
+        45437,
+        0
+      ],
+      "TypeScript": [
+        72795,
+        0
+      ],
+      "JavaScript": [
+        33442,
+        0
+      ],
+      "Shell": [
+        14357,
+        0
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 547,
+    "total_lines": 12512775,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 11733320,
+        "commits": 538
+      },
+      {
+        "language": "Python",
+        "lines": 613424,
+        "commits": 9
+      },
+      {
+        "language": "HTML",
+        "lines": 45437,
+        "commits": 0
+      },
+      {
+        "language": "TypeScript",
+        "lines": 72795,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 33442,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "allmeidaapedro",
+    "analysis_date": "2026-05-10T13:42:34.300893",
+    "total_repos_analyzed": 22,
+    "total_files_analyzed": 136,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "express": 2,
+          "fs": 1,
+          "https": 1,
+          "express-validator": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 128,
+        "packages": {
+          "src": 82,
+          "sys": 79,
+          "os": 77,
+          "CustomException": 68,
+          "pandas": 65,
+          "logging": 65,
+          "numpy": 49,
+          "sklearn": 34,
+          "warnings": 26,
+          "dataclasses": 24,
+          "dataclass": 24,
+          "seaborn": 19,
+          "matplotlib": 19,
+          "filterwarnings": 17,
+          "save_object": 16,
+          "openai": 16,
+          "dotenv": 13,
+          "find_packages": 11,
+          "setuptools": 11,
+          "typing": 11,
+          "List": 11,
+          "\\n": 11,
+          "datetime": 11,
+          "Flask": 10,
+          "flask": 10,
+          "time": 10,
+          "the": 9,
+          "DataTransformation": 9,
+          "ModelTrainer": 9,
+          "pickle": 9,
+          "json": 9,
+          "InputData": 8,
+          "train_test_split": 8,
+          "lightgbm": 8,
+          "load_object": 8,
+          "DataIngestion": 8,
+          "OneHotEncoder": 7,
+          "cross_val_score": 7,
+          "roc_auc_score": 7,
+          "math": 7,
+          "AzureOpenAI": 7,
+          "Pipeline": 6,
+          "DataTransformationConfig": 6,
+          "ModelTrainerConfig": 6,
+          "OpenAI": 6,
+          "argparse": 6,
+          "LGBMClassifier": 5,
+          "BaseEstimator": 5,
+          "DataIngestionConfig": 5,
+          "Image": 5,
+          "PIL": 5,
+          "requests": 5,
+          "classification_report": 4,
+          "ColumnTransformer": 4,
+          "data_cleaning": 4,
+          "mean_absolute_error": 4,
+          "threading": 4,
+          "queue": 4,
+          "rich": 4,
+          "Progress": 4,
+          "scripts": 3,
+          "LGBMRegressor": 3,
+          "tenacity": 3,
+          "RFECV": 2,
+          "RandomForestClassifier": 2,
+          "LogisticRegression": 2,
+          "mean_squared_error": 2,
+          "feature_engine": 2,
+          "ProbeFeatureSelection": 2,
+          "tiktoken": 2,
+          "glob": 2,
+          "re": 2,
+          "get_embedding": 2,
+          "nlp_data_cleaning": 2,
+          "FeatureEngineer": 1,
+          "category_encoders": 1,
+          "SimpleImputer": 1,
+          "TargetEncoder": 1,
+          "OrdinalEncoder": 1,
+          "silhouette_score": 1,
+          "PCA": 1,
+          "GaussianMixture": 1,
+          "scipy": 1,
+          "check_outliers": 1,
+          "KMeans": 1,
+          "linkage": 1,
+          "Lasso": 1,
+          "ClassificationFeatureEngineer": 1,
+          "RegressionFeatureEngineer": 1,
+          "calibration_curve": 1,
+          "flask_wtf": 1,
+          "DataRequired": 1,
+          "wtforms": 1,
+          "FlaskForm": 1,
+          "StringField": 1,
+          "youtube_transcript_api": 1,
+          "WebVTTFormatter": 1,
+          "googleapiclient": 1,
+          "YouTubeTranscriptApi": 1,
+          "statsmodels": 1,
+          "TimeSeriesSplit": 1,
+          "CountVectorizer": 1,
+          "word_tokenize": 1,
+          "pos_tag": 1,
+          "nltk": 1,
+          "WordNetLemmatizer": 1,
+          "stopwords": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 5,
+        "packages": {
+          "azure": 5,
+          "dotenv": 5,
+          "axios": 1,
+          "location": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "allmeidaapedro/Churn-Prediction-Credit-Card",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/Clusterizacao-Clientes-Inst-Financeira",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/Credit-Risk-Prediction-German-Bank",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/Credit-Scoring-German-Bank",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/Customer-Segmentation-Retail",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/Enem-Analysis",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/Enem-Modeling",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/Enem-Modeling-TCC",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/generative-ai-for-beginners",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/Lending-Club-Credit-Scoring",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/Olist-Analysis",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/Store-Item-Demand-Forecasting",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "allmeidaapedro/Twitter-Disaster-Analysis",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

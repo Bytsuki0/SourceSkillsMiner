@@ -1,0 +1,811 @@
+{
+  "username": "muhammedabdelkader",
+  "areas": {
+    "OSS": {
+      "score": 0.33773786076269263,
+      "details": {
+        "issue_resolution_rate": 0.15384615384615385,
+        "pr_merge_rate": 0.9130434782608695,
+        "commits_activity": 0.9397171590370157
+      }
+    },
+    "Status": {
+      "score": -0.10537344673847171,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.303478291430754,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 17,
+        "topic_entropy_bits": 4.3219,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.2464728828048442,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        525214,
+        0
+      ],
+      "CSS": [
+        293774,
+        0
+      ],
+      "HTML": [
+        426113,
+        24
+      ],
+      "Jupyter Notebook": [
+        155816,
+        0
+      ],
+      "Python": [
+        153888,
+        28
+      ],
+      "Ruby": [
+        2835,
+        0
+      ],
+      "Rust": [
+        731599,
+        0
+      ],
+      "Shell": [
+        28055,
+        20
+      ],
+      "Nix": [
+        318,
+        0
+      ],
+      "Dockerfile": [
+        7488,
+        4
+      ],
+      "Just": [
+        179,
+        0
+      ],
+      "RenderScript": [
+        0,
+        0
+      ],
+      "Go": [
+        362,
+        8
+      ],
+      "C": [
+        178200,
+        0
+      ],
+      "Roff": [
+        1765,
+        0
+      ],
+      "Yacc": [
+        815,
+        0
+      ],
+      "CMake": [
+        2685,
+        0
+      ],
+      "XSLT": [
+        680,
+        0
+      ],
+      "M4": [
+        390,
+        0
+      ],
+      "Lex": [
+        254,
+        0
+      ],
+      "Makefile": [
+        170,
+        0
+      ],
+      "C++": [
+        86,
+        0
+      ],
+      "Vim Script": [
+        28145,
+        1
+      ],
+      "Svelte": [
+        4354,
+        0
+      ],
+      "Batchfile": [
+        201,
+        0
+      ],
+      "Lua": [
+        0,
+        0
+      ],
+      "Processing": [
+        0,
+        11
+      ],
+      "HCL": [
+        0,
+        0
+      ],
+      "Java": [
+        0,
+        4
+      ],
+      "Erlang": [
+        0,
+        0
+      ]
+    },
+    "language_count": 30,
+    "total_commits": 100,
+    "total_lines": 2543386,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 153888,
+        "commits": 28
+      },
+      {
+        "language": "HTML",
+        "lines": 426113,
+        "commits": 24
+      },
+      {
+        "language": "Shell",
+        "lines": 28055,
+        "commits": 20
+      },
+      {
+        "language": "Processing",
+        "lines": 0,
+        "commits": 11
+      },
+      {
+        "language": "Go",
+        "lines": 362,
+        "commits": 8
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "muhammedabdelkader",
+    "analysis_date": "2026-05-10T17:14:10.365820",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 170,
+    "languages": {
+      "C": {
+        "files_scanned": 7,
+        "packages": {
+          "string.h": 7,
+          "<string.h>": 7,
+          "ac_cfg.h": 7,
+          "libavrdude.h": 7,
+          "avrdude.h": 7,
+          "<unistd.h>": 6,
+          "unistd.h": 6,
+          "<stdio.h>": 5,
+          "stdio.h": 5,
+          "stdlib.h": 5,
+          "<stdlib.h>": 5,
+          "<sys/time.h>": 4,
+          "<ctype.h>": 4,
+          "sys/time.h": 4,
+          "ctype.h": 4,
+          "errno.h": 3,
+          "<errno.h>": 3,
+          "time.h": 2,
+          "<time.h>": 2,
+          "<stdint.h>": 2,
+          "avrftdi_tpi.h": 2,
+          "stdint.h": 2,
+          "avrftdi_private.h": 2,
+          "stk500_private.h": 1,
+          "arduino.h": 1,
+          "stk500.h": 1,
+          "tpi.h": 1,
+          "avr910.h": 1,
+          "avrftdi.h": 1,
+          "usbdevs.h": 1,
+          "<sys/types.h>": 1,
+          "stdarg.h": 1,
+          "sys/types.h": 1,
+          "<stdarg.h>": 1,
+          "usbasp.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "ntsecapi.h": 1,
+          "<Windows.h>": 1,
+          "openssl/ssl.h": 1,
+          "wuapi.h": 1,
+          "offreg.h": 1,
+          "windefend_h.h": 1,
+          "<ntsecapi.h>": 1,
+          "fcntl.h": 1,
+          "<Lmcons.h>": 1,
+          "<fcntl.h>": 1,
+          "wininet.h": 1,
+          "openssl/aes.h": 1,
+          "<string.h>": 1,
+          "cfapi.h": 1,
+          "sddl.h": 1,
+          "<openssl/sha.h>": 1,
+          "<openssl/evp.h>": 1,
+          "<openssl/provider.h>": 1,
+          "<wuapi.h>": 1,
+          "<Shlwapi.h>": 1,
+          "<conio.h>": 1,
+          "Lmcons.h": 1,
+          "ntstatus.h": 1,
+          "iostream": 1,
+          "ktmw32.h": 1,
+          "openssl/err.h": 1,
+          "<cfapi.h>": 1,
+          "conio.h": 1,
+          "<iostream>": 1,
+          "string.h": 1,
+          "<winternl.h>": 1,
+          "<ktmw32.h>": 1,
+          "<openssl/err.h>": 1,
+          "openssl/provider.h": 1,
+          "winternl.h": 1,
+          "<openssl/aes.h>": 1,
+          "<aclapi.h>": 1,
+          "<openssl/ssl.h>": 1,
+          "<openssl/hmac.h>": 1,
+          "<fdi.h>": 1,
+          "openssl/hmac.h": 1,
+          "<wininet.h>": 1,
+          "openssl/sha.h": 1,
+          "Shlwapi.h": 1,
+          "aclapi.h": 1,
+          "openssl/evp.h": 1,
+          "fdi.h": 1,
+          "<sddl.h>": 1,
+          "Windows.h": 1,
+          "<ntstatus.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 4,
+        "packages": {
+          "<stdint.h>": 2,
+          "stdint.h": 2,
+          "stdio.h": 1,
+          "<stdio.h>": 1,
+          "libusb-1.0/libusb.h": 1,
+          "<libftdi1/ftdi.h>": 1,
+          "<libusb-1.0/libusb.h>": 1,
+          "<ftdi.h>": 1,
+          "libftdi1/ftdi.h": 1,
+          "ac_cfg.h": 1,
+          "libusb.h": 1,
+          "<libusb.h>": 1,
+          "ftdi.h": 1,
+          "rpcndr.h": 1,
+          "oaidl.h": 1,
+          "rpc.h": 1,
+          "ocidl.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 81,
+        "packages": {
+          "fmt": 53,
+          "os": 45,
+          "github.com/aws/aws-sdk-go-v2/service/sts": 30,
+          "github.com/BishopFox/cloudfox/internal": 30,
+          "github.com/aws/aws-sdk-go-v2/aws": 29,
+          "path/filepath": 29,
+          "github.com/sirupsen/logrus": 24,
+          "cloud.google.com/go/bigquery": 24,
+          "strings": 23,
+          "github.com/BishopFox/cloudfox/aws/sdk": 23,
+          "module": 22,
+          "strconv": 21,
+          "sync": 20,
+          "golang.org/x/net/context": 16,
+          "github.com/assetnote/commonspeak2/log": 16,
+          "Mode": 16,
+          "time": 15,
+          "github.com/bishopfox/awsservicemap": 15,
+          "Source": 15,
+          "context": 14,
+          "Name": 13,
+          "io": 12,
+          "Region": 12,
+          "Service": 12,
+          "github.com/urfave/cli": 10,
+          "sort": 9,
+          "github.com/assetnote/commonspeak2/assets": 9,
+          "limit": 8,
+          "github.com/valyala/fasttemplate": 8,
+          "google.golang.org/api/option": 8,
+          "google.golang.org/api/iterator": 8,
+          "encoding/json": 7,
+          "testing": 7,
+          "CanPrivEscToAdmin?": 6,
+          "date": 6,
+          "Limit": 6,
+          "net/http": 5,
+          "errors": 5,
+          "Resource": 5,
+          "log": 5,
+          "Role": 5,
+          "IsAdminRole?": 5,
+          "github.com/assetnote/commonspeak2/noisey": 5,
+          "io/ioutil": 4,
+          "bytes": 4,
+          "net/url": 4,
+          "github.com/BishopFox/cloudfox/internal/aws/policy": 4,
+          "Principal": 4,
+          "github.com/aws/aws-sdk-go-v2/service/s3": 4,
+          "github.com/aws/aws-sdk-go-v2/service/lambda": 4,
+          "ID": 4,
+          "github.com/aws/aws-sdk-go-v2/service/ecs": 4,
+          "Type": 4,
+          "github.com/aws/aws-sdk-go-v2/service/lightsail": 4,
+          "github.com/dwisiswant0/cve-2023-50164-poc/internal/pkg/utils": 4,
+          "Effect": 3,
+          "Action": 3,
+          "github.com/aws/aws-sdk-go-v2/service/efs": 3,
+          "External": 3,
+          "Internal": 3,
+          "github.com/aws/aws-sdk-go-v2/service/elasticloadbalancingv2": 3,
+          "github.com/aws/aws-sdk-go-v2/service/apprunner": 3,
+          "github.com/aws/aws-sdk-go-v2/service/rds": 3,
+          "github.com/aws/aws-sdk-go-v2/service/iam": 3,
+          "github.com/aws/aws-sdk-go-v2/service/ec2": 3,
+          "bufio": 2,
+          "flag": 2,
+          "Version": 2,
+          "Statement": 2,
+          "github.com/spf13/afero": 2,
+          "github.com/aws/aws-sdk-go-v2/service/sns": 2,
+          "github.com/aws/aws-sdk-go-v2/service/codebuild": 2,
+          "github.com/aws/aws-sdk-go-v2/service/ecr": 2,
+          "github.com/aws/aws-sdk-go-v2/service/fsx": 2,
+          "github.com/aws/aws-sdk-go-v2/service/sqs": 2,
+          "Endpoint": 2,
+          "github.com/aws/aws-sdk-go-v2/service/ecr/types": 2,
+          "Public": 2,
+          "github.com/aws/aws-sdk-go-v2/service/ec2/types": 2,
+          "github.com/aws/aws-sdk-go-v2/service/cloudfront": 2,
+          "github.com/aws/aws-sdk-go-v2/service/apigatewayv2": 2,
+          "github.com/aws/aws-sdk-go-v2/service/apigateway": 2,
+          "github.com/aws/aws-sdk-go-v2/service/opensearch": 2,
+          "github.com/aws/aws-sdk-go-v2/service/elasticloadbalancing": 2,
+          "Protocol": 2,
+          "github.com/aws/aws-sdk-go-v2/service/mq": 2,
+          "github.com/aws/aws-sdk-go-v2/service/grafana": 2,
+          "Policy": 2,
+          "regexp": 2,
+          "log/slog": 2,
+          "github.com/brianvoe/gofakeit/v6": 2,
+          "os/exec": 2,
+          "https://graph.facebook.com/certificates?fields=domains&access_token=%s&query=*.%s": 1,
+          "https://graph.facebook.com/oauth/access_token?client_id=%s&client_secret=%s&grant_type=client_credentials": 1,
+          "https://api.spyse.com/v1/subdomains-aggregate?api_token=%s&domain=%s": 1,
+          "https://api.spyse.com/v1/subdomains?api_token=%s&domain=%s&page=%d": 1,
+          "https://www.virustotal.com/vtapi/v2/domain/report?domain=%s&apikey=%s": 1,
+          "Access": 1,
+          "User": 1,
+          "unicode/utf8": 1,
+          "Public?": 1,
+          "Sid": 1,
+          "github.com/aws/aws-sdk-go-v2/service/s3/types": 1,
+          "github.com/aws/aws-sdk-go-v2/service/organizations": 1,
+          "github.com/aws/aws-sdk-go-v2/service/cloudformation/types": 1,
+          "codebuild:StopBuild": 1,
+          "github.com/aws/aws-sdk-go-v2/service/codebuild/types": 1,
+          "codebuild:BatchGetProjects": 1,
+          "AWS": 1,
+          "codebuild:BatchGetBuilds": 1,
+          "codebuild:ListProjects": 1,
+          "codebuild:StartBuild": 1,
+          "UserName": 1,
+          "Size": 1,
+          "Engine": 1,
+          "ImageSize": 1,
+          "ImageTags": 1,
+          "PushedAt": 1,
+          "URI": 1,
+          "github.com/aws/aws-sdk-go-v2/service/ecs/types": 1,
+          "TaskDefinition": 1,
+          "Cluster": 1,
+          "RoleArn": 1,
+          "LaunchType": 1,
+          "NodeGroup": 1,
+          "github.com/aws/aws-sdk-go-v2/service/eks/types": 1,
+          "github.com/aws/aws-sdk-go-v2/service/eks": 1,
+          "Description": 1,
+          "Attached": 1,
+          "VPC": 1,
+          "github.com/aws/smithy-go": 1,
+          "github.com/aws/aws-sdk-go-v2/service/redshift": 1,
+          "Port": 1,
+          "github.com/aws/aws-sdk-go-v2/service/sagemaker": 1,
+          "Key": 1,
+          "Value": 1,
+          "DNS": 1,
+          "github.com/aws/aws-sdk-go-v2/service/efs/types": 1,
+          "Permissions": 1,
+          "Mount": 1,
+          "iam:AttachUserPolicy": 1,
+          "ecr:BatchGetImage": 1,
+          "ssm:SendCommand": 1,
+          "iam:AttachRolePolicy": 1,
+          "ssm:GetParameter": 1,
+          "ecr:GetAuthorizationToken": 1,
+          "lambda:ListFunctions": 1,
+          "iam:PassRole": 1,
+          "ec2:DescribeInstanceAttributeInput": 1,
+          "s3:GetObject": 1,
+          "Query": 1,
+          "sqs:SendMessage": 1,
+          "ssm:GetDocument": 1,
+          "sts:AssumeRole": 1,
+          "eks:UpdateClusterConfig": 1,
+          "sns:Subscribe": 1,
+          "iam:PutRolePolicy": 1,
+          "secretsmanager:GetSecretValue": 1,
+          "iam:PutUserPolicy": 1,
+          "s3:ListBucket": 1,
+          "ssm:StartSession": 1,
+          "encoding/base64": 1,
+          "Zone": 1,
+          "State": 1,
+          "RDS": 1,
+          "SNS": 1,
+          "SecretsManager": 1,
+          "github.com/aws/aws-sdk-go-v2/service/secretsmanager": 1,
+          "github.com/aws/aws-sdk-go-v2/service/ssm": 1,
+          "total": 1,
+          "APIGateway": 1,
+          "ECS": 1,
+          "ElasticBeanstalk": 1,
+          "ELBv2": 1,
+          "Route53": 1,
+          "ECR": 1,
+          "CloudFormation": 1,
+          "Lightsail": 1,
+          "SQS": 1,
+          "StepFunctions": 1,
+          "github.com/aws/aws-sdk-go-v2/service/dynamodb": 1,
+          "CodeCommit": 1,
+          "DataPipeline": 1,
+          "Glue": 1,
+          "DynamoDB": 1,
+          "ELB": 1,
+          "CodeArtifact": 1,
+          "IAM": 1,
+          "EMR": 1,
+          "AppRunner": 1,
+          "Grafana": 1,
+          "Cloudfront": 1,
+          "OpenSearch": 1,
+          "Athena": 1,
+          "EC2": 1,
+          "CodeBuild": 1,
+          "SSM": 1,
+          "Kinesis": 1,
+          "S3": 1,
+          "github.com/aws/aws-sdk-go-v2/service/athena": 1,
+          "Elasticache": 1,
+          "Redshift": 1,
+          "MQ": 1,
+          "EKS": 1,
+          "APIGatewayv2": 1,
+          "CodeDeploy": 1,
+          "Lambda": 1,
+          "github.com/aws/aws-sdk-go-v2/service/cloudformation": 1,
+          "github.com/aws/aws-sdk-go-v2/service/lambda/types": 1,
+          "Ports": 1,
+          "Host": 1,
+          "17": 1,
+          "6": 1,
+          "-1": 1,
+          "github.com/aws/aws-sdk-go-v2/service/elasticache": 1,
+          "github.com/aws/aws-sdk-go-v2/service/organizations/types": 1,
+          "isManagementAccount?": 1,
+          "github.com/kyokomi/emoji": 1,
+          "Status": 1,
+          "Email": 1,
+          "Log": 1,
+          "github.com/aws/aws-sdk-go-v2/service/cloudtrail": 1,
+          "Destination": 1,
+          "Condition": 1,
+          "github.com/aws/aws-sdk-go-v2/service/iam/types": 1,
+          "IsAdmin?": 1,
+          "github.com/dominikbraun/graph": 1,
+          "Arn": 1,
+          "string-parameters.txt": 1,
+          "compress/gzip": 1,
+          "numerical-parameters.txt": 1,
+          "parameters.sql": 1,
+          "data/sql/http-archive/subdomains.sql": 1,
+          "data/sql/github/tomcat-routes.sql": 1,
+          "data/sql/github/rails-routes-test.sql": 1,
+          "apiroutes.sql": 1,
+          "sql": 1,
+          "data/filters/string-parameters.txt": 1,
+          "data/.DS_Store": 1,
+          "rails-routes.sql": 1,
+          "tomcat-routes.sql": 1,
+          "data/sql/github/deleted-files.sql": 1,
+          "hackernews": 1,
+          "data/sql/github/nodejs-routes-test.sql": 1,
+          "data/filters/numerical-parameters.txt": 1,
+          "data/sql/github/rails-routes.sql": 1,
+          "data/sql/hackernews/subdomains.sql": 1,
+          "nodejs-routes.sql": 1,
+          "data/sql/github/tomcat-routes-test.sql": 1,
+          "tomcat-routes-test.sql": 1,
+          "data/sql/github/deleted-files-test.sql": 1,
+          "data/sql/.DS_Store": 1,
+          "data": 1,
+          "filters": 1,
+          "deleted-files-test.sql": 1,
+          "nodejs-routes-test.sql": 1,
+          "data/sql/http-archive/directories.sql": 1,
+          "deleted-files.sql": 1,
+          "data/sql/http-archive/technologies.sql": 1,
+          "subdomains.sql": 1,
+          "rails-routes-test.sql": 1,
+          "data/sql/github/words-with-ext.sql": 1,
+          "data/sql/http-archive/apiroutes.sql": 1,
+          "data/sql/http-archive/words-with-ext.sql": 1,
+          "directories.sql": 1,
+          "technologies.sql": 1,
+          "data/sql/github/nodejs-routes.sql": 1,
+          "github": 1,
+          "words-with-ext.sql": 1,
+          "data/sql/http-archive/parameters.sql": 1,
+          "http-archive": 1,
+          "github.com/icrowley/fake": 1,
+          "(": 1,
+          "*": 1,
+          "\\": 1,
+          "Framework": 1,
+          ")": 1,
+          "Verbose": 1,
+          "Silent": 1,
+          "technology": 1,
+          "extensions": 1,
+          "Extensions": 1,
+          "github.com/assetnote/commonspeak2/command/subdomains": 1,
+          "github.com/assetnote/commonspeak2/command/routes": 1,
+          "github.com/assetnote/commonspeak2/command/technologies": 1,
+          "github.com/assetnote/commonspeak2/command/apiroutes": 1,
+          "github.com/assetnote/commonspeak2/command/directories": 1,
+          "github.com/assetnote/commonspeak2/command/wordswithext": 1,
+          "github.com/assetnote/commonspeak2/command/parameters": 1,
+          "github.com/assetnote/commonspeak2/command/deletedfiles": 1,
+          "github.com/mattn/go-colorable": 1,
+          "github.com/lmittmann/tint": 1,
+          "mime/multipart": 1,
+          "github.com/dwisiswant0/cve-2023-50164-poc/internal/pkg/war": 1,
+          "github.com/carlmjohnson/requests": 1,
+          "github.com/dwisiswant0/cve-2023-50164-poc/internal/pkg/payload": 1,
+          "Remote": 1,
+          "path": 1,
+          "err": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "jquery": 2,
+          "jQuery": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 10,
+        "packages": {
+          "os": 4,
+          "re": 4,
+          "utils": 4,
+          "enum_tools": 4,
+          "pandas": 2,
+          "time": 2,
+          "sys": 2,
+          "requests": 2,
+          "strptime": 1,
+          "html": 1,
+          "bibtex": 1,
+          "pybtex": 1,
+          "string": 1,
+          "getorg": 1,
+          "geopy": 1,
+          "glob": 1,
+          "Nominatim": 1,
+          "colorama": 1,
+          "argparse": 1,
+          "aws_checks": 1,
+          "requirement": 1,
+          "azure_checks": 1,
+          "gcp_checks": 1,
+          "azure_regions": 1,
+          "gcp_regions": 1,
+          "csv": 1,
+          "ThreadPoolExecutor": 1,
+          "requests_futures": 1,
+          "Pool": 1,
+          "partial": 1,
+          "dns": 1,
+          "ipaddress": 1,
+          "urllib": 1,
+          "json": 1,
+          "multiprocessing": 1,
+          "concurrent": 1,
+          "urlparse": 1,
+          "TimeoutError": 1,
+          "FuturesSession": 1,
+          "datetime": 1,
+          "functools": 1,
+          "setuptools": 1,
+          "setup": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 24,
+        "packages": {
+          "std": 14,
+          "codex_core": 11,
+          "crate": 7,
+          "super": 6,
+          "clap": 6,
+          "codex_common": 6,
+          "tempfile": 4,
+          "codex_login": 4,
+          "anyhow": 3,
+          "serde": 3,
+          "tokio": 3,
+          "thiserror": 2,
+          "codex_chatgpt": 2,
+          "codex_protocol": 2,
+          "ansi_to_tui": 1,
+          "ratatui": 1,
+          "similar": 1,
+          "parser": 1,
+          "pretty_assertions": 1,
+          "tree_sitter_bash": 1,
+          "tree_sitter": 1,
+          "Hunk": 1,
+          "ParseError": 1,
+          "foo": 1,
+          "assert_cmd": 1,
+          "codex_exec": 1,
+          "codex_arg0": 1,
+          "uuid": 1,
+          "reason": 1,
+          "tiktoken_rs": 1,
+          "clap_complete": 1,
+          "codex_cli": 1,
+          "futures": 1,
+          "content": 1,
+          "codex_tui": 1,
+          "tracing": 1,
+          "toml": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "muhammedabdelkader/academicpages",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "muhammedabdelkader/ARTEMIS",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "muhammedabdelkader/assetfinder",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "muhammedabdelkader/avrdude",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "muhammedabdelkader/BlueHammer",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "muhammedabdelkader/cloudfox",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "muhammedabdelkader/cloud_enum",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "muhammedabdelkader/commonspeak2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "muhammedabdelkader/cve-2023-50164-poc",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

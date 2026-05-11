@@ -1,0 +1,356 @@
+{
+  "username": "0xNayel",
+  "areas": {
+    "OSS": {
+      "score": -0.4137694418908038,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8793458371637943
+      }
+    },
+    "Status": {
+      "score": 0.2831946263085907,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8863304010013476,
+        "week_streak": 0.038461538461538464
+      }
+    },
+    "Adaptability": {
+      "score": -0.15,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 1,
+        "topic_entropy_bits": 4.1699,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.056114963116442616,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        235,
+        5
+      ],
+      "PHP": [
+        728,
+        8
+      ],
+      "Hack": [
+        59,
+        1
+      ],
+      "Dockerfile": [
+        236,
+        0
+      ],
+      "Python": [
+        719,
+        16
+      ],
+      "TypeScript": [
+        26821,
+        37
+      ],
+      "Go": [
+        18939,
+        26
+      ],
+      "CSS": [
+        1491,
+        2
+      ],
+      "Makefile": [
+        121,
+        0
+      ],
+      "Shell": [
+        414,
+        2
+      ],
+      "JavaScript": [
+        96,
+        0
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 97,
+    "total_lines": 49859,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 26821,
+        "commits": 37
+      },
+      {
+        "language": "Go",
+        "lines": 18939,
+        "commits": 26
+      },
+      {
+        "language": "Python",
+        "lines": 719,
+        "commits": 16
+      },
+      {
+        "language": "PHP",
+        "lines": 728,
+        "commits": 8
+      },
+      {
+        "language": "HTML",
+        "lines": 235,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "0xNayel",
+    "analysis_date": "2026-05-10T17:29:36.079735",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 42,
+    "languages": {
+      "Go": {
+        "files_scanned": 29,
+        "packages": {
+          "github.com/0xNayel/MonMon/internal/models": 19,
+          "fmt": 13,
+          "net/http": 13,
+          "strings": 12,
+          "encoding/json": 11,
+          "github.com/gin-gonic/gin": 10,
+          "os": 10,
+          "time": 10,
+          "context": 9,
+          "gorm.io/gorm": 9,
+          "strconv": 6,
+          "testing": 6,
+          "crypto/sha256": 5,
+          "github.com/0xNayel/MonMon/internal/logger": 4,
+          "github.com/0xNayel/MonMon/internal/config": 4,
+          "github.com/0xNayel/MonMon/internal/alert": 4,
+          "io": 4,
+          "github.com/0xNayel/MonMon/internal/monitor": 3,
+          "github.com/0xNayel/MonMon/internal/diff": 3,
+          "gopkg.in/yaml.v3": 3,
+          "per_page": 3,
+          "total": 3,
+          "data": 3,
+          "page": 3,
+          "os/exec": 3,
+          "github.com/glebarez/sqlite": 3,
+          "sync": 3,
+          "runtime": 3,
+          "last_check_at": 2,
+          "github.com/0xNayel/MonMon/internal/scheduler": 2,
+          "github.com/0xNayel/MonMon/internal/auth": 2,
+          "total_checks": 2,
+          "github.com/0xNayel/MonMon/internal/updater": 2,
+          "error": 2,
+          "gorm.io/gorm/logger": 2,
+          "net/http/httptest": 2,
+          "path/filepath": 2,
+          "sort": 2,
+          "github.com/0xNayel/MonMon/internal/api": 1,
+          "github.com/0xNayel/MonMon/internal/db": 1,
+          "os/signal": 1,
+          "github.com/spf13/cobra": 1,
+          "syscall": 1,
+          "DiffText": 1,
+          "HasDiff": 1,
+          "CheckStatus": 1,
+          "github.com/projectdiscovery/notify/pkg/providers": 1,
+          "TaskName": 1,
+          "text/template": 1,
+          "github.com/projectdiscovery/notify/pkg/types": 1,
+          "bytes": 1,
+          "TaskType": 1,
+          "CheckVersion": 1,
+          "DiffAdded": 1,
+          "DiffRemoved": 1,
+          "DurationMs": 1,
+          "ErrorMsg": 1,
+          "total_removed": 1,
+          "first_time_lines": 1,
+          "removed": 1,
+          "first_time_added": 1,
+          "diff": 1,
+          "added": 1,
+          "sections": 1,
+          "from_version": 1,
+          "is_multi": 1,
+          "to_version": 1,
+          "total_added": 1,
+          "changes_24h": 1,
+          "active": 1,
+          "errors_24h": 1,
+          "changes": 1,
+          "github.com/gorilla/websocket": 1,
+          "checks": 1,
+          "tasks": 1,
+          "recent_activity": 1,
+          "paused": 1,
+          "github.com/0xNayel/MonMon/internal/webui": 1,
+          "mime": 1,
+          "path": 1,
+          "release_url": 1,
+          "docker": 1,
+          "required_by": 1,
+          "release_notes": 1,
+          "all_ok": 1,
+          "tools": 1,
+          "latest": 1,
+          "update_available": 1,
+          "current": 1,
+          "golang.org/x/crypto/bcrypt": 1,
+          "user_id": 1,
+          "errors": 1,
+          "github.com/golang-jwt/jwt/v5": 1,
+          "username": 1,
+          "exp": 1,
+          "crypto/rand": 1,
+          "github.com/spf13/viper": 1,
+          "encoding/hex": 1,
+          "github.com/rs/zerolog": 1,
+          "slices": 1,
+          "content_length": 1,
+          "response_time_ms": 1,
+          "regexp": 1,
+          "status_code": 1,
+          "github.com/robfig/cron/v3": 1,
+          "embed": 1,
+          "io/fs": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "eslint": 1,
+          "typescript-eslint": 1,
+          "globals": 1,
+          "eslint-plugin-react-refresh": 1,
+          "eslint-plugin-react-hooks": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 2,
+        "packages": {
+          "phar_checker_auto.php": 1,
+          "phar://$pharPath/index.php": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 5,
+        "packages": {
+          "sys": 4,
+          "subprocess": 4,
+          "time": 4,
+          "requests": 3,
+          "pathlib": 2,
+          "re": 2,
+          "argparse": 2,
+          "html": 1,
+          "urllib": 1,
+          "bs4": 1,
+          "InsecureRequestWarning": 1,
+          "random": 1,
+          "BeautifulSoup": 1,
+          "os": 1,
+          "typing": 1,
+          "datetime": 1,
+          "Path": 1,
+          "List": 1,
+          "<unistd": 1,
+          "<sys/socket": 1,
+          "<sys/types": 1,
+          "ladder": 1,
+          "<stdlib": 1,
+          "<arpa/inet": 1,
+          "signal": 1,
+          "<stdio": 1,
+          "<netinet/in": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "0xNayel/0xNayel",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "0xNayel/headlessHTBsolve",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "0xNayel/monitoredHTBsolution",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "0xNayel/MonMon",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "0xNayel/phpggc-fuzzer",
+        "files_analyzed": 6,
+        "languages_found": [
+          "PHP",
+          "Python"
+        ]
+      },
+      {
+        "repository": "0xNayel/WifineticTwo",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

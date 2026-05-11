@@ -1,0 +1,372 @@
+{
+  "username": "sathishvanga",
+  "areas": {
+    "OSS": {
+      "score": -0.33333333333333337,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5128205128205128,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 1.0,
+        "week_streak": 0.2692307692307692
+      }
+    },
+    "Adaptability": {
+      "score": -0.6125,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.03660256410256413,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        457782,
+        126
+      ],
+      "Python": [
+        2179367,
+        196
+      ],
+      "JavaScript": [
+        2496,
+        0
+      ],
+      "CSS": [
+        1830,
+        0
+      ],
+      "Shell": [
+        13274,
+        1
+      ],
+      "Batchfile": [
+        38,
+        0
+      ],
+      "HTML": [
+        1635,
+        1
+      ],
+      "Procfile": [
+        1,
+        0
+      ],
+      "TypeScript": [
+        152,
+        0
+      ],
+      "Dockerfile": [
+        2,
+        0
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 324,
+    "total_lines": 2656577,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 2179367,
+        "commits": 196
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 457782,
+        "commits": 126
+      },
+      {
+        "language": "Shell",
+        "lines": 13274,
+        "commits": 1
+      },
+      {
+        "language": "HTML",
+        "lines": 1635,
+        "commits": 1
+      },
+      {
+        "language": "JavaScript",
+        "lines": 2496,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sathishvanga",
+    "analysis_date": "2026-05-10T15:45:40.040237",
+    "total_repos_analyzed": 24,
+    "total_files_analyzed": 86,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "axios": 1,
+          "amount": 1,
+          "vite": 1,
+          "react": 1,
+          "vitejs": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 8,
+        "packages": {
+          "react": 8,
+          "react-router-dom": 7,
+          "react-dom": 1,
+          "chart.js": 1,
+          "react-chartjs-2": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 64,
+        "packages": {
+          "typing": 30,
+          "os": 27,
+          "app": 22,
+          "Any": 15,
+          "streamlit": 14,
+          "numpy": 14,
+          "pandas": 13,
+          "__future__": 12,
+          "annotations": 12,
+          "sqlalchemy": 11,
+          "datetime": 10,
+          "fastapi": 10,
+          "pickle": 9,
+          "FrameState": 9,
+          "Session": 8,
+          "logging": 8,
+          "APIRouter": 7,
+          "HTTPBearer": 6,
+          "Dict": 6,
+          "cv2": 6,
+          "Optional": 5,
+          "collections": 5,
+          "dotenv": 4,
+          "load_dotenv": 4,
+          "sys": 4,
+          "Flask": 4,
+          "flask": 4,
+          "joblib": 3,
+          "func": 3,
+          "and_": 3,
+          "List": 3,
+          "Path": 3,
+          "pathlib": 3,
+          "json": 3,
+          "re": 3,
+          "dataclass": 3,
+          "dataclasses": 3,
+          "deque": 3,
+          "sklearn": 2,
+          "create_engine": 2,
+          "JSONResponse": 2,
+          "CORSMiddleware": 2,
+          "FastAPI": 2,
+          "psycopg2": 2,
+          "subprocess": 2,
+          "time": 2,
+          "string": 2,
+          "WordNetLemmatizer": 2,
+          "stopwords": 2,
+          "nltk": 2,
+          "get_settings": 2,
+          "defaultdict": 2,
+          "timedelta": 2,
+          "get_keypoint": 2,
+          "YOLO": 2,
+          "ultralytics": 2,
+          "YoloPoseAdapter": 2,
+          "plotly": 2,
+          "mlxtend": 1,
+          "Model": 1,
+          "plot_decision_regions": 1,
+          "Dense": 1,
+          "matplotlib": 1,
+          "train_test_split": 1,
+          "Adam": 1,
+          "keras": 1,
+          "jose": 1,
+          "HTTPException": 1,
+          "bcrypt": 1,
+          "jwt": 1,
+          "declarative_base": 1,
+          "sessionmaker": 1,
+          "routers": 1,
+          "uvicorn": 1,
+          "Column": 1,
+          "relationship": 1,
+          "pydantic": 1,
+          "BaseModel": 1,
+          "User": 1,
+          "get_db": 1,
+          "hash_password": 1,
+          "settings": 1,
+          "signal": 1,
+          "StreamingResponse": 1,
+          "uuid": 1,
+          "langgraph": 1,
+          "uuid4": 1,
+          "MemorySaver": 1,
+          "HumanMessage": 1,
+          "langchain_community": 1,
+          "add_messages": 1,
+          "TavilySearchResults": 1,
+          "TypedDict": 1,
+          "langchain_openai": 1,
+          "ChatOpenAI": 1,
+          "langchain_core": 1,
+          "word_tokenize": 1,
+          "emoji": 1,
+          "warnings": 1,
+          "CountVectorizer": 1,
+          "hmac": 1,
+          "asyncio": 1,
+          "multiprocessing": 1,
+          "JSON": 1,
+          "mimetypes": 1,
+          "functools": 1,
+          "more": 1,
+          "ActivityConfig": 1,
+          "EvidenceManager": 1,
+          "required_consecutive": 1,
+          "optional": 1,
+          "TrainMotionDetector": 1,
+          "ObjectDetector": 1,
+          "SleepDetector": 1,
+          "ActivityDetector": 1,
+          "GestureDetector": 1,
+          "MindDiversionDetector": 1,
+          "bbox_overlap_with_margin": 1,
+          "math": 1,
+          "YOLOHandler": 1,
+          "ModelLoader": 1,
+          "torch": 1,
+          "mediapipe": 1,
+          "ImagePreprocessingService": 1,
+          "gc": 1,
+          "YoloPoseLandmarks": 1,
+          "deduplicate_person_boxes": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 1,
+        "packages": {
+          "next": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 4,
+        "packages": {
+          "react": 3,
+          "next": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sathishvanga/A-Neural-Network-Playground",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sathishvanga/Budget-Tracker",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "Python"
+        ]
+      },
+      {
+        "repository": "sathishvanga/Data-Science-AI-Assistant",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "sathishvanga/Innomatics-Research-Labs-Internship",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sathishvanga/Locopilot-Monitoring-System",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sathishvanga/Machine-Learning-Projects",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sathishvanga/Personality-Prediction",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sathishvanga/PIDC-Hackathon",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

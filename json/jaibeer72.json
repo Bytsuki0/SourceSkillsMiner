@@ -1,0 +1,629 @@
+{
+  "username": "jaibeer72",
+  "areas": {
+    "OSS": {
+      "score": 0.37102014294996755,
+      "details": {
+        "issue_resolution_rate": 0.3157894736842105,
+        "pr_merge_rate": 0.7407407407407407,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.2721783225825747,
+      "details": {
+        "lines_activity": 1.0,
+        "commits_activity": 0.8505751761815543,
+        "week_streak": 0.057692307692307696
+      }
+    },
+    "Adaptability": {
+      "score": 0.2,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.4,
+        "distinct_primary_languages": 14,
+        "language_transitions": 13,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.25,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.21863969310650846,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        11978907,
+        199
+      ],
+      "CMake": [
+        22,
+        3
+      ],
+      "C#": [
+        14156618,
+        40
+      ],
+      "Mathematica": [
+        442336,
+        2
+      ],
+      "ShaderLab": [
+        3520664,
+        18
+      ],
+      "Java": [
+        263090,
+        4
+      ],
+      "HTML": [
+        347370,
+        73
+      ],
+      "CSS": [
+        113877,
+        3
+      ],
+      "JavaScript": [
+        13218,
+        77
+      ],
+      "HLSL": [
+        430537,
+        2
+      ],
+      "Python": [
+        383616,
+        2
+      ],
+      "Go": [
+        125863,
+        0
+      ],
+      "C": [
+        231817,
+        2
+      ],
+      "Shell": [
+        85,
+        20
+      ],
+      "Makefile": [
+        0,
+        5
+      ],
+      "TypeScript": [
+        0,
+        28
+      ],
+      "Svelte": [
+        0,
+        29
+      ],
+      "OCaml": [
+        0,
+        3
+      ],
+      "Dockerfile": [
+        0,
+        1
+      ],
+      "GLSL": [
+        0,
+        5
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Promela": [
+        0,
+        3
+      ],
+      "ASP": [
+        0,
+        0
+      ],
+      "Smalltalk": [
+        0,
+        0
+      ]
+    },
+    "language_count": 24,
+    "total_commits": 519,
+    "total_lines": 32008020,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 11978907,
+        "commits": 199
+      },
+      {
+        "language": "JavaScript",
+        "lines": 13218,
+        "commits": 77
+      },
+      {
+        "language": "HTML",
+        "lines": 347370,
+        "commits": 73
+      },
+      {
+        "language": "C#",
+        "lines": 14156618,
+        "commits": 40
+      },
+      {
+        "language": "Svelte",
+        "lines": 0,
+        "commits": 29
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jaibeer72",
+    "analysis_date": "2026-05-10T20:58:02.888800",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 215,
+    "languages": {
+      "C#": {
+        "files_scanned": 109,
+        "packages": {
+          "UnityEngine": 94,
+          "System.Collections.Generic": 77,
+          "System.Collections": 45,
+          "System": 31,
+          "UnityEngine.AI": 22,
+          "UnityEditor": 13,
+          "UnityEngine.UIElements": 9,
+          "NUnit.Framework": 8,
+          "UnityEngine.TestTools": 8,
+          "System.IO": 7,
+          "UnityEngine.UI": 6,
+          "UnityEditor.SceneManagement": 6,
+          "UnityEditor.Experimental.SceneManagement": 6,
+          "System.Reflection": 5,
+          "UnityEngine.SceneManagement": 5,
+          "Vuforia": 5,
+          "UnityEngine.Events": 5,
+          "UnityEngine.AddressableAssets": 5,
+          "System.Linq": 4,
+          "UnityEngine.InputSystem": 3,
+          "UnrealBuildTool": 3,
+          "UnityEditor.AI": 3,
+          "Object": 3,
+          "Cinemachine": 2,
+          "UnityEngine.Experimental.VFX": 2,
+          "UnityEngine.Rendering": 2,
+          "System.Runtime.InteropServices": 2,
+          "UnityEditorInternal": 2,
+          "UnityEditor.IMGUI.Controls": 2,
+          "Random": 1,
+          "Vuforia.EditorClasses": 1,
+          "System.Diagnostics": 1,
+          "System.Collections.ObjectModel": 1,
+          "System.Threading.Tasks": 1,
+          "System.Runtime.CompilerServices": 1,
+          "UnityEngine.Tilemaps": 1,
+          "static": 1,
+          "System.Buffers.Text": 1,
+          "UnityEditor.UIElements": 1,
+          "UnityEngine.ResourceManagement.AsyncOperations": 1,
+          "TMPro": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 27,
+        "packages": {
+          "<iostream>": 4,
+          "iostream": 4,
+          "<bitcoin/bitcoin.hpp>": 4,
+          "bitcoin/bitcoin.hpp": 4,
+          "std": 3,
+          "namespace": 3,
+          "GLpremitives.h": 2,
+          "math.h": 2,
+          "<math.h>": 2,
+          "fstream": 2,
+          "vector": 2,
+          "<sstream>": 2,
+          "<fstream>": 2,
+          "<string>": 2,
+          "sstream": 2,
+          "<vector>": 2,
+          "string": 2,
+          "ListManager.h": 2,
+          "Stock.h": 2,
+          "<cstdlib>": 2,
+          "commands.h": 2,
+          "cstdlib": 2,
+          "thread": 2,
+          "<thread>": 2,
+          "TgaModule.hpp": 2,
+          "Arr_Queue.h": 1,
+          "Arr_Stack.h": 1,
+          "random": 1,
+          "<random>": 1,
+          "Modules/ModuleManager.h": 1,
+          "CastleBuilder.h": 1,
+          "CastleBuilderGameModeBase.h": 1,
+          "GridCell.h": 1,
+          "Components/BoxComponent.h": 1,
+          "GridManager.h": 1,
+          "<unistd.h>": 1,
+          "algorithm": 1,
+          "cstring": 1,
+          "<sys/wait.h>": 1,
+          "unistd.h": 1,
+          "<cstring>": 1,
+          "sys/wait.h": 1,
+          "<unordered_map>": 1,
+          "<algorithm>": 1,
+          "unordered_map": 1,
+          "functional": 1,
+          "<functional>": 1,
+          "ImageBlurrer.hpp": 1,
+          "<cmath>": 1,
+          "cmath": 1,
+          "FastGaussianBlur.hpp": 1,
+          "NaiveBlur.hpp": 1,
+          "NaiveBlurPrefixSumMat.hpp": 1,
+          "NaiveBlurThreaded.hpp": 1,
+          "ImageData.hpp": 1,
+          "ImageData/TgaModule.hpp": 1,
+          "ImageBlurringAlgos/Base/ImageBlurrer.hpp": 1,
+          "chrono": 1,
+          "ImageData/ImageData.hpp": 1,
+          "<chrono>": 1,
+          "Arguments.hpp": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 10,
+        "packages": {
+          "<iostream>": 6,
+          "iostream": 6,
+          "string": 3,
+          "<string>": 3,
+          "<memory>": 3,
+          "memory": 3,
+          "fstream": 2,
+          "vector": 2,
+          "<fstream>": 2,
+          "std": 2,
+          "namespace": 2,
+          "<vector>": 2,
+          "<unordered_map>": 1,
+          "unordered_map": 1,
+          "<sstream>": 1,
+          "sstream": 1,
+          "ImageBlurringAlgos/Base/ESupportedImageBlurringAlgos.hpp": 1,
+          "functional": 1,
+          "<functional>": 1,
+          "<map>": 1,
+          "map": 1,
+          "ESupportedImageBlurringAlgos.hpp": 1,
+          "IImageData.hpp": 1,
+          "Pixel.hpp": 1,
+          "Base/AImageData.hpp": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 11,
+        "packages": {
+          "CoreMinimal.h": 4,
+          "ListBase.h": 2,
+          "<string>": 2,
+          "string": 2,
+          "GameFramework/Actor.h": 2,
+          "stdlib.h": 1,
+          "stdio.h": 1,
+          "<stdlib.h>": 1,
+          "<stdio.h>": 1,
+          "Stock.h": 1,
+          "unordered_set": 1,
+          "<memory>": 1,
+          "memory": 1,
+          "Arr_Queue.h": 1,
+          "Arr_Stack.h": 1,
+          "<unordered_map>": 1,
+          "<unordered_set>": 1,
+          "unordered_map": 1,
+          "iostream": 1,
+          "<iostream>": 1,
+          "GameFramework/GameModeBase.h": 1,
+          "CastleBuilderGameModeBase.generated.h": 1,
+          "GridCell.generated.h": 1,
+          "GridCell.h": 1,
+          "GridManager.generated.h": 1,
+          "Handler": 1,
+          "functional": 1,
+          "vector": 1,
+          "<functional>": 1,
+          "<vector>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 3,
+        "packages": {
+          "github.com/conformal/btcscript": 2,
+          "fmt": 2,
+          "os": 2,
+          "github.com/conformal/btcnet": 2,
+          "github.com/conformal/btcutil": 2,
+          "encoding/hex": 1,
+          "time": 1,
+          "log": 1,
+          "github.com/conformal/btcrpcclient": 1,
+          "io/ioutil": 1,
+          "path/filepath": 1,
+          "github.com/conformal/btcwire": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 21,
+        "packages": {
+          "com.badlogic": 21,
+          "com.Colorz": 9,
+          "com.packtpub": 8,
+          "com.mpacktpub": 4,
+          "android.os": 2,
+          "org.robovm": 1,
+          "java.util": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "function": 1,
+          "bitcore-lib": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 21,
+        "packages": {
+          "bitcoin": 4,
+          "datetime": 4,
+          "core": 4,
+          "IEngine": 4,
+          "print_function": 3,
+          "__future__": 3,
+          "RawProxy": 3,
+          "IServiceCriteria": 3,
+          "re": 2,
+          "requests": 2,
+          "hashlib": 2,
+          "abc": 2,
+          "ABC": 2,
+          "ecdsa": 1,
+          "os": 1,
+          "json": 1,
+          "time": 1,
+          "Key": 1,
+          "pycoin": 1,
+          "create_signed_tx": 1,
+          "spendables_for_address": 1,
+          "is_address_valid": 1,
+          "sys": 1,
+          "argv": 1,
+          "flask": 1,
+          "Flask": 1,
+          "Session": 1,
+          "flask_session": 1,
+          "workbook": 1,
+          "numpy": 1,
+          "urllib": 1,
+          "bs4": 1,
+          "pandas": 1,
+          "openpyxl": 1,
+          "ast": 1,
+          "BeautifulSoup": 1,
+          "Request": 1,
+          "date": 1,
+          "SternmanEngine": 1,
+          "car": 1,
+          "WilloughbyEngine": 1,
+          "Car": 1,
+          "CapuletEngine": 1,
+          "unittest": 1,
+          "Rorschach": 1,
+          "Palindrome": 1,
+          "engine": 1,
+          "Glissade": 1,
+          "Thovex": 1,
+          "Calliope": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jaibeer72/2Dprem",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "jaibeer72/AdventOfCode",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "jaibeer72/AI-Playground",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jaibeer72/AIArenaGame",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jaibeer72/AndroidStudio-MontyHallSim",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jaibeer72/AndroidStudio-WhackAMole",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jaibeer72/AR-Basic-Shooter-Target-Game",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jaibeer72/Assignment1_advanceProgramming",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "jaibeer72/basicSRPV1.0",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jaibeer72/bitcoinbook",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C++",
+          "Go",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jaibeer72/CarTrafficGame",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jaibeer72/CastleBuilder",
+        "files_analyzed": 11,
+        "languages_found": [
+          "C#",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "jaibeer72/CodeChef",
+        "files_analyzed": 1,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "jaibeer72/codecrafters-shell-cpp",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "jaibeer72/ColorzGame_MT1",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jaibeer72/com.jaibeer.minesweeper",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "jaibeer72/CppImageCompression",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C++",
+          "C++ Header"
+        ]
+      },
+      {
+        "repository": "jaibeer72/CS50",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jaibeer72/Data-Extratction-Python",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jaibeer72/forage-lyft-starter-repo",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jaibeer72/InfinateRunnerBasics",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      }
+    ]
+  }
+}
