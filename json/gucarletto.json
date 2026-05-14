@@ -1,0 +1,533 @@
+{
+  "username": "gucarletto",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1106206?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333333,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.75,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.2572928333044675,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.8090161730336244,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": 0.4,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.8,
+        "distinct_primary_languages": 10,
+        "language_transitions": 9,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.39812523332756017,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        64210,
+        38
+      ],
+      "CSS": [
+        282,
+        16
+      ],
+      "HTML": [
+        1170,
+        6
+      ],
+      "PHP": [
+        8498,
+        9
+      ],
+      "Go": [
+        1644,
+        28
+      ],
+      "Makefile": [
+        148,
+        0
+      ],
+      "Elixir": [
+        1109,
+        7
+      ],
+      "TypeScript": [
+        3412,
+        100
+      ],
+      "Shell": [
+        6,
+        0
+      ],
+      "Java": [
+        448934,
+        9
+      ],
+      "Batchfile": [
+        703,
+        0
+      ],
+      "HCL": [
+        130,
+        5
+      ],
+      "Dockerfile": [
+        44,
+        0
+      ],
+      "SCSS": [
+        0,
+        0
+      ],
+      "Python": [
+        0,
+        12
+      ],
+      "Jupyter Notebook": [
+        0,
+        7
+      ],
+      "Vue": [
+        0,
+        1
+      ],
+      "Blade": [
+        0,
+        1
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 239,
+    "total_lines": 530290,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 3412,
+        "commits": 100
+      },
+      {
+        "language": "JavaScript",
+        "lines": 64210,
+        "commits": 38
+      },
+      {
+        "language": "Go",
+        "lines": 1644,
+        "commits": 28
+      },
+      {
+        "language": "CSS",
+        "lines": 282,
+        "commits": 16
+      },
+      {
+        "language": "Python",
+        "lines": 0,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "gucarletto",
+    "analysis_date": "2026-05-14T16:50:55.337521",
+    "total_repos_analyzed": 20,
+    "total_files_analyzed": 208,
+    "languages": {
+      "Elixir": {
+        "files_scanned": 24,
+        "packages": {
+          "Config": 5,
+          "Wabanex.": 5,
+          "Ecto.Schema": 3,
+          "Ecto.Changeset": 3,
+          "Ecto.UUID": 3,
+          "WabanexWeb": 3,
+          "Absinthe.Schema.Notation": 3,
+          "Wabanex.Training": 2,
+          "WabanexWeb.Gettext": 2,
+          "#{config_env()}.exs": 1,
+          "environment": 1,
+          "Application": 1,
+          "Swoosh.Mailer": 1,
+          "Ecto.Repo": 1,
+          "Ecto.Query": 1,
+          "WabanexWeb.Router.Helpers": 1,
+          "Phoenix.Channel": 1,
+          "Phoenix.Router": 1,
+          "Phoenix.Controller": 1,
+          "shared": 1,
+          "Phoenix.View": 1,
+          "basic": 1,
+          "Plug.Conn": 1,
+          "WabanexWeb.ErrorHelpers": 1,
+          "convenience": 1,
+          "Wabanex.IMC": 1,
+          "Phoenix.Endpoint": 1,
+          "Gettext": 1,
+          "Phoenix.LiveDashboard.Router": 1,
+          "Absinthe.Schema": 1,
+          ">=": 1,
+          "WabanexWeb.Resolvers.User": 1,
+          "WabanexWeb.Schema.Types": 1,
+          "Crudry.Middlewares.TranslateErrors": 1,
+          "WabanexWeb.Resolvers.Training": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 44,
+        "packages": {
+          "fmt": 12,
+          "net/http": 11,
+          "github.com/gin-gonic/gin": 10,
+          "time": 9,
+          "context": 8,
+          "os": 7,
+          "github.com/arthur404dev/gopportunities/schemas": 7,
+          "log": 5,
+          "gorm.io/gorm": 5,
+          "sync": 4,
+          "encoding/json": 3,
+          "database/sql": 3,
+          "github.com/gucarletto/go-messaging/internal/entity": 3,
+          "gucarletto/golang-tech-week/internal/domain/entity": 3,
+          "strings": 2,
+          "required": 2,
+          "go.mongodb.org/mongo-driver/mongo": 2,
+          "github.com/arthur404dev/cv-manager/config": 2,
+          "errors": 2,
+          "github.com/arthur404dev/cv-manager/model": 2,
+          "github.com/arthur404dev/cv-manager/generated": 2,
+          "github.com/joho/godotenv": 2,
+          "io": 2,
+          "github.com/confluentinc/confluent-kafka-go/kafka": 2,
+          "github.com/gucarletto/go-messaging/internal/usecase": 2,
+          "github.com/google/uuid": 2,
+          "path/filepath": 2,
+          "testing": 2,
+          "message": 2,
+          "errorCode": 2,
+          "data": 2,
+          "github.com/arthur404dev/gopportunities/config": 2,
+          "reflect": 1,
+          "go.mongodb.org/mongo-driver/mongo/options": 1,
+          "bytes": 1,
+          "github.com/99designs/gqlgen/graphql": 1,
+          "github.com/vektah/gqlparser/v2/ast": 1,
+          "strconv": 1,
+          "github.com/99designs/gqlgen/graphql/introspection": 1,
+          "sync/atomic": 1,
+          "github.com/arthur404dev/cv-manager/db": 1,
+          "github.com/go-chi/chi": 1,
+          "github.com/arthur404dev/cv-manager/resolvers": 1,
+          "github.com/go-chi/cors": 1,
+          "github.com/99designs/gqlgen/graphql/playground": 1,
+          "github.com/99designs/gqlgen/graphql/handler": 1,
+          "crypto/sha256": 1,
+          "github.com/davecgh/go-spew/spew": 1,
+          "encoding/hex": 1,
+          "github.com/gorilla/mux": 1,
+          "gorm.io/driver/postgres": 1,
+          "host=%v": 1,
+          "github.com/gucarletto/go-gin-rest-boilerplate/models": 1,
+          "github.com/gucarletto/go-gin-rest-boilerplate/server": 1,
+          "github.com/gucarletto/go-gin-rest-boilerplate/db": 1,
+          "github.com/golang-jwt/jwt/v4": 1,
+          "github.com/gucarletto/go-gin-rest-boilerplate/routes": 1,
+          "github.com/gucarletto/go-messaging/internal/infra/akafka": 1,
+          "github.com/go-chi/chi/v5": 1,
+          "github.com/gucarletto/go-messaging/internal/infra/repository": 1,
+          "github.com/gucarletto/go-messaging/internal/infra/web": 1,
+          "bootstrap.servers": 1,
+          "auto.offset.reset": 1,
+          "group.id": 1,
+          "gucarletto/golang-tech-week/internal/domain/repository": 1,
+          "github.com/stretchr/testify/assert": 1,
+          "github.com/DATA-DOG/go-sqlmock": 1,
+          "gucarletto/golang-tech-week/pkg/workerpool": 1,
+          "math/rand": 1,
+          "log/slog": 1,
+          "gorm.io/driver/sqlite": 1,
+          "salary": 1,
+          "application/json": 1,
+          "404": 1,
+          "handler.ErrorResponse": 1,
+          "company": 1,
+          "location": 1,
+          "title": 1,
+          "handler.CreateOpeningResponse": 1,
+          "swagger": 1,
+          "createdAt": 1,
+          "handler.ListOpeningsResponse": 1,
+          "contact": 1,
+          "github.com/swaggo/swag": 1,
+          "description": 1,
+          "delete": 1,
+          "responses": 1,
+          "items": 1,
+          "schemes": 1,
+          "handler.ShowOpeningResponse": 1,
+          "schemas.OpeningResponse": 1,
+          "updatedAt": 1,
+          "id": 1,
+          "link": 1,
+          "consumes": 1,
+          "schema": 1,
+          "$ref": 1,
+          "remote": 1,
+          "host": 1,
+          "handler.UpdateOpeningResponse": 1,
+          "paths": 1,
+          "tags": 1,
+          "definitions": 1,
+          "Openings": 1,
+          "handler.DeleteOpeningResponse": 1,
+          "role": 1,
+          "summary": 1,
+          "parameters": 1,
+          "produces": 1,
+          "basePath": 1,
+          "500": 1,
+          "in": 1,
+          "properties": 1,
+          "200": 1,
+          "type": 1,
+          "info": 1,
+          "400": 1,
+          "handler.UpdateOpeningRequest": 1,
+          "handler.CreateOpeningRequest": 1,
+          "name": 1,
+          "post": 1,
+          "version": 1,
+          "deteledAt": 1,
+          "put": 1,
+          "get": 1,
+          "github.com/arthur404dev/gopportunities/router": 1,
+          "github.com/arthur404dev/gopportunities/handler": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 31,
+        "packages": {
+          "com.gdcontrol": 30,
+          "javax.swing": 23,
+          "java.util": 21,
+          "java.io": 4,
+          "net.sf": 3,
+          "java.text": 2,
+          "java.lang": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 46,
+        "packages": {
+          "react": 24,
+          "emotion": 11,
+          "apollo": 9,
+          "reach": 5,
+          "express": 5,
+          "sequelize": 5,
+          "supertest": 4,
+          "tailwindcss": 2,
+          "testing-library": 2,
+          "apollo-server": 2,
+          "path": 2,
+          "autoprefixer": 1,
+          "postcss-import": 1,
+          "postcss-nested": 1,
+          "fullhuman": 1,
+          "adonisjs": 1,
+          "react-markdown": 1,
+          "react-player": 1,
+          "react-dom": 1,
+          "apollo-datasource-rest": 1,
+          "body-parser": 1,
+          "some-package": 1,
+          "cors": 1,
+          "cookie-parser": 1,
+          "morgan": 1,
+          "fs": 1,
+          "ts-jest": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 5,
+        "packages": {
+          "Sassnowski\\CsvSchema\\Exceptions\\CastException": 2,
+          "Sassnowski\\CsvSchema\\Exceptions\\UnsupportedTypeException": 2,
+          "Exception": 2,
+          "PhpSpec\\ObjectBehavior": 1,
+          "Sassnowski\\CsvSchema\\Parser": 1,
+          "League\\Csv\\Reader": 1,
+          "migration/FromMySqlToPostgreSql/": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 6,
+        "packages": {
+          "typeorm": 5,
+          "apollo-server-express": 2,
+          "bcrypt": 1,
+          "class-validator": 1,
+          "express": 1,
+          "dotenv": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "gucarletto/adonis-blog-demo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gucarletto/Calculo-Numerico",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "gucarletto/catstronauts",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gucarletto/csv-schema",
+        "files_analyzed": 4,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gucarletto/cv-manager",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "gucarletto/deel-backend-challenge",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gucarletto/elixir-graphql-bootcamp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Elixir",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gucarletto/express-sequelize-boilerplate",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "gucarletto/express-typeorm-graphql",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "gucarletto/FromMySqlToPostgreSql",
+        "files_analyzed": 4,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "gucarletto/gdcontrol",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "gucarletto/go-blockchain-tutorial",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "gucarletto/go-gin-rest-boilerplate",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "gucarletto/go-messaging",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "gucarletto/golang-tech-week",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "gucarletto/gopportunities",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

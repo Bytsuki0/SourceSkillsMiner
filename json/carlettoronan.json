@@ -1,0 +1,113 @@
+{
+  "username": "carlettoronan",
+  "avatar_url": "https://avatars.githubusercontent.com/u/123790566?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.7220887312670459,
+      "details": {
+        "issue_resolution_rate": 0.8571428571428571,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.7259902397577118
+      }
+    },
+    "Status": {
+      "score": 0.2019422111205258,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.7259902397577118,
+        "week_streak": 0.07692307692307693
+      }
+    },
+    "Adaptability": {
+      "score": -0.9375,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.0,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": -0.00269381152248567,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        8064,
+        46
+      ]
+    },
+    "language_count": 1,
+    "total_commits": 46,
+    "total_lines": 8064,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 8064,
+        "commits": 46
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "carlettoronan",
+    "analysis_date": "2026-05-14T16:39:51.752961",
+    "total_repos_analyzed": 1,
+    "total_files_analyzed": 3,
+    "languages": {
+      "Python": {
+        "files_scanned": 3,
+        "packages": {
+          "sqlite3": 1,
+          "os": 1,
+          "get_connection": 1,
+          "db": 1,
+          "BaseController": 1,
+          "controller": 1,
+          "ui": 1,
+          "LoginWindow": 1,
+          "MainWindow": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "carlettoronan/sistema-estoque-eng-software",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}
