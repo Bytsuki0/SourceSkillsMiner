@@ -266,9 +266,9 @@ def compute_status_score(username: str, token: str, prefetched_stats: Optional[D
 
     print(f"Raw status metrics - Lines: {lines}, Commits: {commits}, Streak: {streak}")
 
-    lines_norm   = _safe_log_norm(lines,   scale=5000.0)
+    lines_norm   = _safe_log_norm(lines,   scale=50000.0)
     commits_norm = _safe_log_norm(commits, scale=200.0)
-    streak_norm  = _linear_cap(streak, cap=52)
+    streak_norm  = _linear_cap(streak, cap=10)
 
     subs = {
         'lines_frequency':   lines_norm,
@@ -414,6 +414,9 @@ def load_weights_from_config(cfg: cfgparser.ConfigParser = config) -> Dict[str, 
             weights[k] = DEFAULT_WEIGHTS[k]
     return weights
 
+def to_01(score: float) -> float:
+    return max(0.0, min(1.0, (score + 1.0) / 2.0))
+
 
 def score_user(username: Optional[str] = None,
                token: Optional[str] = None,
@@ -474,15 +477,18 @@ def score_user(username: Optional[str] = None,
     commitment_res = compute_commit_score(username, token)
 
     areas = {
-        'OSS':        oss_res,
-        'Status':     status_res,
-        'Adaptability': adaptability_res,
-        'Sentiment':  sentiment_res,
-        'Commitment': commitment_res,
-        
-    }
+    'OSS':          oss_res,
+    'Status':       status_res,
+    'Adaptability': adaptability_res,
+    'Sentiment':    sentiment_res,
+    'Commitment':   commitment_res,
+}
 
-    final = sum(areas[k]['score'] * normalized[k] for k in areas)
+    for k in areas:
+        areas[k]['score'] = to_01(areas[k]['score'])
+
+    raw_final = sum(areas[k]['score'] * normalized[k] for k in areas)
+    final = max(0.0, min(1.0, raw_final))
 
     print("\nCollecting supplementary data...")
     language_data = get_language_usage_data(username, token, prefetched_stats=raw_stats)
