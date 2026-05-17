@@ -1,0 +1,432 @@
+{
+  "username": "AdrianaAC",
+  "avatar_url": "https://avatars.githubusercontent.com/u/66623377?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8113207547169812,
+      "details": {
+        "issue_resolution_rate": 0.4339622641509434,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7333333333333334,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 0.80625,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 3,
+        "topic_entropy_bits": 5.4954,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6951808176100629,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        1274745,
+        150
+      ],
+      "Dockerfile": [
+        1909,
+        0
+      ],
+      "CSS": [
+        160848,
+        64
+      ],
+      "JavaScript": [
+        49871,
+        176
+      ],
+      "HTML": [
+        1539216,
+        129
+      ],
+      "Java": [
+        2085504,
+        3
+      ]
+    },
+    "language_count": 6,
+    "total_commits": 522,
+    "total_lines": 5112093,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 49871,
+        "commits": 176
+      },
+      {
+        "language": "TypeScript",
+        "lines": 1274745,
+        "commits": 150
+      },
+      {
+        "language": "HTML",
+        "lines": 1539216,
+        "commits": 129
+      },
+      {
+        "language": "CSS",
+        "lines": 160848,
+        "commits": 64
+      },
+      {
+        "language": "Java",
+        "lines": 2085504,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "AdrianaAC",
+    "analysis_date": "2026-05-17T14:43:26.210469",
+    "total_repos_analyzed": 24,
+    "total_files_analyzed": 366,
+    "languages": {
+      "Java": {
+        "files_scanned": 61,
+        "packages": {
+          "org.academiadecodigo": 54,
+          "org.springframework": 17,
+          "javax.validation": 9,
+          "java.util": 7,
+          "javax.sound": 6,
+          "javax.swing": 5,
+          "java.awt": 4,
+          "java.io": 3,
+          "TestingMusicMachines": 3,
+          "tryingGui.MyDrawPanel": 3,
+          "static": 2,
+          "java.net": 2,
+          "javax.persistence": 2,
+          "javax.security": 1,
+          "tryingGui": 1,
+          "javax.servlet": 1,
+          "com.fasterxml": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 46,
+        "packages": {
+          "react": 20,
+          "vite": 9,
+          "vitejs": 9,
+          "path": 6,
+          "react-dev-utils": 5,
+          "webpack": 4,
+          "eslint-plugin-react-hooks": 3,
+          "globals": 3,
+          "eslint-plugin-react-refresh": 3,
+          "eslint": 3,
+          "fs": 3,
+          "typescript-eslint": 2,
+          "html-webpack-plugin": 2,
+          "autoprefixer": 2,
+          "postcss-flexbugs-fixes": 2,
+          "chalk": 2,
+          "react-router-dom": 2,
+          "react-dom": 2,
+          "eslint-plugin-react": 1,
+          "tailwindcss": 1,
+          "dayjs": 1,
+          "dotenv": 1,
+          "url": 1,
+          "promise": 1,
+          "object-assign": 1,
+          "whatwg-fetch": 1,
+          "style-loader": 1,
+          "case-sensitive-paths-webpack-plugin": 1,
+          "sw-precache-webpack-plugin": 1,
+          "extract-text-webpack-plugin": 1,
+          "webpack-manifest-plugin": 1,
+          "root": 1,
+          "fs-extra": 1,
+          "webpack-dev-server": 1,
+          "jest": 1,
+          "react-redux": 1,
+          "axios": 1,
+          "prop-types": 1,
+          "the": 1,
+          "your": 1,
+          "abc": 1,
+          "adnasdoasflak1": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 20,
+        "packages": {
+          "react": 18,
+          "react-dom": 9,
+          "dayjs": 2,
+          "ionic": 2,
+          "ionicons": 1,
+          "recharts": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 80,
+        "packages": {
+          "next": 31,
+          "vitest": 12,
+          "zod": 8,
+          "type": 5,
+          "reduxjs": 4,
+          "testing-library": 4,
+          "react-router": 4,
+          "openai": 3,
+          "normal": 3,
+          "web-vitals": 2,
+          "node:crypto": 2,
+          "vite": 2,
+          "styled-components": 2,
+          "vitejs": 2,
+          "ai": 1,
+          "ai-sdk": 1,
+          "nodejs": 1,
+          "courses": 1,
+          "playwright": 1,
+          "node:path": 1,
+          "kickoff": 1,
+          "info": 1,
+          "subject": 1,
+          "title": 1,
+          "tailwindcss": 1,
+          "vite-tsconfig-paths": 1,
+          "make": 1,
+          "asc": 1,
+          "id": 1,
+          "prisma": 1,
+          "dotenv": 1,
+          "bcrypt": 1,
+          "the": 1,
+          "name": 1,
+          "key": 1,
+          "source": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 74,
+        "packages": {
+          "react": 41,
+          "react-router-dom": 18,
+          "next": 12,
+          "~": 12,
+          "react-router": 7,
+          "testing-library": 6,
+          "antd": 6,
+          "styled-components": 5,
+          "react-dom": 4,
+          "vitest": 3,
+          "ant-design": 3,
+          "mui": 2,
+          "papaparse": 1,
+          "sample": 1,
+          "react-redux": 1,
+          "a": 1,
+          "maplibre-gl": 1,
+          "react-map-gl": 1,
+          "axios": 1,
+          "clsx": 1,
+          "job": 1,
+          "type": 1,
+          "lucide-react": 1,
+          "react-dropzone": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "AdrianaAC/AI-Energy-Analyzer",
+        "files_analyzed": 6,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/api-integration-sandbox",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/console-doctor",
+        "files_analyzed": 8,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/frontend-assessment-ingenius",
+        "files_analyzed": 17,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/frontend-assessment-internal-automation",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/frontend-assessment-LTPLabs",
+        "files_analyzed": 28,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/frontend-assessment-nearshore",
+        "files_analyzed": 8,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/frontend-assessment-neotalent",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/frontend-assessment-wavecom",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/ionic-biorhythm-calculator",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/java-battle-of-the-river",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/java-beatbox-machine",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/mirror-me",
+        "files_analyzed": 13,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/personal-recruiter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/react-burger-builder",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/react-complete-guide-learning",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/ticket-forge",
+        "files_analyzed": 29,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/warpers-hackathon-project",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "AdrianaAC/web-development-bootcamp-learning",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      }
+    ]
+  }
+}

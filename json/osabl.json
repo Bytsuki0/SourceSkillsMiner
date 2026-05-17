@@ -1,0 +1,397 @@
+{
+  "username": "osabl",
+  "avatar_url": "https://avatars.githubusercontent.com/u/47601147?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9166666666666666,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.75,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.8333333333333334,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.5
+      }
+    },
+    "Adaptability": {
+      "score": 0.725,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 2,
+        "topic_entropy_bits": 3.1699,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.72,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        6831920,
+        0
+      ],
+      "Vue": [
+        2797150,
+        44
+      ],
+      "SCSS": [
+        90294,
+        0
+      ],
+      "JavaScript": [
+        459980,
+        164
+      ],
+      "CSS": [
+        1313822,
+        83
+      ],
+      "Liquid": [
+        34267,
+        0
+      ],
+      "HTML": [
+        296771,
+        49
+      ],
+      "Dockerfile": [
+        2911,
+        0
+      ],
+      "Astro": [
+        1706,
+        3
+      ],
+      "Pug": [
+        31662,
+        0
+      ],
+      "Shell": [
+        378,
+        0
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 343,
+    "total_lines": 11860861,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 459980,
+        "commits": 164
+      },
+      {
+        "language": "CSS",
+        "lines": 1313822,
+        "commits": 83
+      },
+      {
+        "language": "HTML",
+        "lines": 296771,
+        "commits": 49
+      },
+      {
+        "language": "Vue",
+        "lines": 2797150,
+        "commits": 44
+      },
+      {
+        "language": "Astro",
+        "lines": 1706,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "osabl",
+    "analysis_date": "2026-05-17T14:52:59.161663",
+    "total_repos_analyzed": 16,
+    "total_files_analyzed": 178,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 46,
+        "packages": {
+          "path": 10,
+          "mini-css-extract-plugin": 7,
+          "react": 7,
+          "fs": 6,
+          "copy-webpack-plugin": 5,
+          "html-webpack-plugin": 5,
+          "autoprefixer": 4,
+          "css-mqpacker": 4,
+          "clean-webpack-plugin": 4,
+          "cssnano": 3,
+          "vue": 3,
+          "date-fns": 3,
+          "closest": 2,
+          "jquery": 2,
+          "webpack": 2,
+          "webpack-merge": 2,
+          "child_process": 2,
+          "simple-icons": 2,
+          "os": 2,
+          "rollup-plugin-typescript2": 2,
+          "rollup-plugin-node-resolve": 2,
+          "rollup-plugin-commonjs": 2,
+          "rollup-plugin-json": 2,
+          "named": 2,
+          "sharp": 1,
+          "vue-router": 1,
+          "vuex": 1,
+          "mkdirp": 1,
+          "gulp-svgstore": 1,
+          "del": 1,
+          "gulp-pug": 1,
+          "gulp-plumber": 1,
+          "gulp-debug": 1,
+          "gulp-svgmin": 1,
+          "through2": 1,
+          "postcss-object-fit-images": 1,
+          "cpy": 1,
+          "vinyl-buffer": 1,
+          "browser-sync": 1,
+          "webpack-stream": 1,
+          "merge-stream": 1,
+          "gulp-rename": 1,
+          "gulp-csso": 1,
+          "${src}": 1,
+          "gulp.spritesmith": 1,
+          "gulp-pretty-html": 1,
+          "gulp-postcss": 1,
+          "gulp-replace": 1,
+          "gulp": 1,
+          "postcss-inline-svg": 1,
+          "gulp-imagemin": 1,
+          "get-classes-from-html": 1,
+          "postcss-import": 1,
+          "gulp-sass": 1,
+          "gh-pages": 1,
+          "baron": 1,
+          "choices.js": 1,
+          "autosize": 1,
+          "object-fit-images": 1,
+          "svg4everybody": 1,
+          "immutable": 1,
+          "netlify-cms-app": 1,
+          "!to-string-loader!css-loader!postcss-loader!sass-loader!..": 1,
+          "assets-webpack-plugin": 1,
+          "terser-webpack-plugin": 1,
+          "optimize-css-assets-webpack-plugin": 1,
+          "undefined": 1,
+          "[object": 1,
+          "use": 1,
+          "o=n.length;i<o;i++)t.style[r]=n[i];else": 1,
+          "mo=[": 1,
+          ");else{var": 1,
+          "https:": 1,
+          "postcss-flexbugs-fixes": 1,
+          "COPY_AS_LINK": 1,
+          "COPY_AS_MARKDOWN": 1,
+          "COPY_AS_HTML": 1,
+          "color": 1,
+          "alphabetically": 1,
+          "relevance": 1,
+          "preferred-ordering": 1,
+          "preferred-copy-method": 1,
+          "preferred-color-scheme": 1,
+          "https": 1,
+          "puppeteer": 1,
+          "url": 1,
+          "get-relative-luminance": 1,
+          "css-minimizer-webpack-plugin": 1,
+          "swiper": 1,
+          "normalize.css": 1,
+          "webpack-bundle-analyzer": 1,
+          "html-beautify-webpack-plugin": 1,
+          "rollup-plugin-peer-deps-external": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 46,
+        "packages": {
+          "directus": 12,
+          "xchainjs": 11,
+          "zod": 9,
+          "express": 7,
+          "path": 5,
+          "#layers": 5,
+          "axios": 5,
+          "h3": 4,
+          "knex": 3,
+          "joi": 3,
+          "inquirer": 3,
+          "fs": 3,
+          "node:module": 2,
+          "qs": 2,
+          "jsonwebtoken": 2,
+          "openid-client": 2,
+          "flat": 2,
+          "nanoid": 2,
+          "uuid": 2,
+          "chalk": 2,
+          "js-yaml": 2,
+          "pinia": 2,
+          "vue": 2,
+          "binance-chain": 2,
+          "bitcoinjs-lib": 2,
+          "vitest": 1,
+          "supertest": 1,
+          "lodash-es": 1,
+          "helmet": 1,
+          "cookie-parser": 1,
+          "node:fs": 1,
+          "http": 1,
+          "ldapjs": 1,
+          "perf_hooks": 1,
+          "argon2": 1,
+          "samlify": 1,
+          "authenio": 1,
+          "keyv-memcache": 1,
+          "keyv": 1,
+          "getDatabase": 1,
+          "latest": 1,
+          "execa": 1,
+          "ora": 1,
+          "cart": 1,
+          "products": 1,
+          "#app": 1,
+          "~": 1,
+          "electronics": 1,
+          "protobufjs": 1,
+          "utf8": 1,
+          "nock": 1,
+          "big.js": 1,
+          "RECEIVE": 1,
+          ":": 1,
+          "H": 1,
+          "axios-mock-adapter": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "osabl/directus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "osabl/knight-tour",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osabl/note-list",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osabl/NTH-start-project",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osabl/nuxt-layer-example",
+        "files_analyzed": 18,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "osabl/one-click-hugo-cms",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osabl/osabl.github.io",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osabl/simple-badges",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osabl/timetable",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osabl/wallet-budgetbakers",
+        "files_analyzed": 2,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "osabl/webpack-template",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "osabl/xchainjs-lib",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "username": "thejohnlima",
+  "avatar_url": "https://avatars.githubusercontent.com/u/12019206?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9444444444444444,
+      "details": {
+        "issue_resolution_rate": 0.8333333333333334,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.849925388648332,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.949776165944996,
+        "week_streak": 0.6
+      }
+    },
+    "Adaptability": {
+      "score": 0.65625,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 7,
+        "topic_entropy_bits": 3.3219,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7651239666185553,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        6191397,
+        715
+      ],
+      "Ruby": [
+        36829,
+        35
+      ],
+      "Objective-C": [
+        820175,
+        35
+      ],
+      "Shell": [
+        22955,
+        0
+      ],
+      "Java": [
+        86621,
+        11
+      ],
+      "TeX": [
+        403900,
+        0
+      ],
+      "Makefile": [
+        1884,
+        0
+      ],
+      "Vue": [
+        1893539,
+        0
+      ],
+      "JavaScript": [
+        546605,
+        0
+      ],
+      "HTML": [
+        88770,
+        0
+      ],
+      "C++": [
+        543367,
+        0
+      ],
+      "Python": [
+        28229,
+        0
+      ],
+      "CSS": [
+        22334,
+        0
+      ],
+      "C": [
+        2833,
+        0
+      ],
+      "Objective-C++": [
+        1503,
+        0
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 796,
+    "total_lines": 10690941,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 6191397,
+        "commits": 715
+      },
+      {
+        "language": "Ruby",
+        "lines": 36829,
+        "commits": 35
+      },
+      {
+        "language": "Objective-C",
+        "lines": 820175,
+        "commits": 35
+      },
+      {
+        "language": "Java",
+        "lines": 86621,
+        "commits": 11
+      },
+      {
+        "language": "Shell",
+        "lines": 22955,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "thejohnlima",
+    "analysis_date": "2026-05-17T13:33:56.909124",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 511,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 26,
+        "packages": {
+          "<UIKit/UIKit.h>": 12,
+          "<Foundation/Foundation.h>": 8,
+          "OTRThreadOwner.h": 2,
+          "<DarkModeKit/DMNamespace.h>": 2,
+          "<GoogleAnalytics/GAI.h>": 1,
+          "<GoogleAnalytics/GAIFields.h>": 1,
+          "<GoogleAnalytics/GAIDictionaryBuilder.h>": 1,
+          "Storage-Bridging-Header.h": 1,
+          "Try.h": 1,
+          "HttpsEverywhereObjC.h": 1,
+          "ThirdParty/Apple/UIImage+ImageEffects.h": 1,
+          "ablock_rust_lib.h": 1,
+          "<BuddyBuildSDK/BuddyBuildSDK.h>": 1,
+          "NSFileManager+Tar.h": 1,
+          "<YubiKit/YubiKit.h>": 1,
+          "ThirdParty/UIImageViewAligned/UIImageViewAligned.h": 1,
+          "NSData+GZIP.h": 1,
+          "Shared-Bridging-Header.h": 1,
+          "<CommonCrypto/CommonCrypto.h>": 1,
+          "OTRActivityItemProvider.h": 1,
+          "OTRListSetting.h": 1,
+          "OTRUserInfoProfile.h": 1,
+          "OTRDownloadMessage.h": 1,
+          "OTRPasswordGenerator.h": 1,
+          "OTREncryptionManager.h": 1,
+          "OTRShareSetting.h": 1,
+          "OTRBaseLoginViewController.h": 1,
+          "OTRBuddyCache.h": 1,
+          "OTRXMPPRoomManager.h": 1,
+          "OTRProtocolManager.h": 1,
+          "OTRMessageEncryptionInfo.h": 1,
+          "OTRMessagesHoldTalkViewController.h": 1,
+          "OTRXLFormCreator.h": 1,
+          "OTRAttachmentPicker.h": 1,
+          "OTRConstants.h": 1,
+          "OTRAppDelegate.h": 1,
+          "OTRImages.h": 1,
+          "OTRDatabaseUnlockViewController.h": 1,
+          "OTRSignalSignedPreKey.h": 1,
+          "OTRBuddyApprovalCell.h": 1,
+          "OTRSignalSession.h": 1,
+          "OTRMessagesViewController.h": 1,
+          "OTRXMPPCreateAccountHandler.h": 1,
+          "OTRAccount.h": 1,
+          "OTRSettingsViewController.h": 1,
+          "OTRServerCapabilities.h": 1,
+          "OTRSettingsGroup.h": 1,
+          "RoomOccupantRole.h": 1,
+          "OMEMODevice.h": 1,
+          "OTRInviteViewController.h": 1,
+          "OTRSignalSenderKey.h": 1,
+          "OTRDatabaseView.h": 1,
+          "OTRAccountMigrationViewController.h": 1,
+          "OTRLanguageListSettingViewController.h": 1,
+          "OTRMediaItem.h": 1,
+          "OTRConversationViewController.h": 1,
+          "OTRTitleSubtitleView.h": 1,
+          "OTRBuddyInfoCell.h": 1,
+          "OTRXMPPServerInfo.h": 1,
+          "OTRBuddy.h": 1,
+          "OTRListSettingViewController.h": 1,
+          "OTRVideoItem.h": 1,
+          "OTRDatabaseManager.h": 1,
+          "OTRSettingDetailViewController.h": 1,
+          "OTRYapMessageSendAction.h": 1,
+          "OTRAccountMigrator.h": 1,
+          "OTRSignalPreKey.h": 1,
+          "OTRCertificatePinning.h": 1,
+          "OTRNewBuddyViewController.h": 1,
+          "OTRAccountSignalIdentity.h": 1,
+          "OTRXMPPBuddy.h": 1,
+          "NSURL+ChatSecure.h": 1,
+          "UIImage+ChatSecure.h": 1,
+          "NSString+ChatSecure.h": 1,
+          "OTRChooseAccountViewController.h": 1,
+          "OTRIncomingMessage.h": 1,
+          "YapDatabaseViewConnection+ChatSecure.h": 1,
+          "OTRQRCodeReaderDelegate.h": 1,
+          "OTRComposeViewController.h": 1,
+          "AppTheme.h": 1,
+          "OTROutgoingMessage.h": 1,
+          "OTRLanguageSetting.h": 1,
+          "OTRXMPPError.h": 1,
+          "OTRXMPPManager.h": 1,
+          "OTRAudioItem.h": 1,
+          "OTRMessage.h": 1,
+          "OTRQRCodeActivity.h": 1,
+          "OTRValueSetting.h": 1,
+          "OTRImageItem.h": 1,
+          "AppKitBridge.h": 1,
+          "CoreSimulator.h": 1,
+          "<DarkModeKit/UIColor+DarkModeKit.h>": 1,
+          "<DarkModeKit/UIImage+DarkModeKit.h>": 1,
+          "<DarkModeKit/UIView+DarkModeKit.h>": 1,
+          "<DarkModeKit/DMDynamicColor.h>": 1,
+          "<DarkModeKit/DMDynamicImage.h>": 1,
+          "<DarkModeKit/NSObject+DarkModeKit.h>": 1,
+          "<DarkModeKit/DMTraitCollection.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 3,
+        "packages": {
+          "android.vetmobile": 3,
+          "static": 2,
+          "org.junit": 2,
+          "android.support": 2,
+          "android.content": 1,
+          "android.os": 1,
+          "android.view": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 10,
+        "packages": {
+          "path": 3,
+          "webpack-merge": 2,
+          "use": 2,
+          ");else{var": 2,
+          "[object": 2,
+          "fs": 2,
+          "Loading": 1,
+          "Ha=[": 1,
+          "o=n.length;i<o;i++)t.style[r]=n[i];else": 1,
+          "function": 1,
+          "s=n.length;i<s;i++)t.style[r]=n[i];else": 1,
+          "Wr=[": 1,
+          "undefined": 1,
+          "puppeteer": 1,
+          "rxjs": 1,
+          "http": 1,
+          "mv": 1,
+          "pdf-image": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 21,
+        "packages": {
+          "DMDynamicColor.h": 3,
+          "DMTraitCollection.h": 3,
+          "NSObject+DarkModeKit.h": 3,
+          "ChatSecureCoreCompat-Swift.h": 2,
+          "NSURL+ChatSecure.h": 2,
+          "UIActivity+ChatSecure.h": 2,
+          "OTROpenInFacebookActivity.h": 2,
+          "OTROpenInTwitterActivity.h": 2,
+          "OTRXMPPManager_Private.h": 2,
+          "Foundation/Foundation.h": 2,
+          "<Foundation/Foundation.h>": 2,
+          "DMDynamicImage.h": 2,
+          "JSQMessagesCollectionViewCell+ChatSecure.h": 1,
+          "NSFileManager+ChatSecure.h": 1,
+          "NSString+ChatSecure.h": 1,
+          "OTRConstants.h": 1,
+          "UIActivityViewController+ChatSecure.h": 1,
+          "UIImage+ChatSecure.h": 1,
+          "UITableView+ChatSecure.h": 1,
+          "OTRXMPPBuddy.h": 1,
+          "UIViewController+ChatSecure.h": 1,
+          "YapDatabaseViewConnection+ChatSecure.h": 1,
+          "OTRDatabaseManager.h": 1,
+          "OTRAccountMigrator.h": 1,
+          "OTRXMPPAccount.h": 1,
+          "OTRXMPPManager.h": 1,
+          "OTRProtocolManager.h": 1,
+          "OTRLog.h": 1,
+          "CoreSimulator.h": 1,
+          "ControlRoom-Swift.h": 1,
+          "UIColor+DarkModeKit.h": 1,
+          "UIImage+DarkModeKit.h": 1,
+          "UIView+DarkModeKit.h": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 379,
+        "packages": {
+          "UIKit": 139,
+          "Foundation": 130,
+          "SwiftUI": 42,
+          "XCTest": 28,
+          "class": 27,
+          "Cocoa": 18,
+          "var": 18,
+          "func": 16,
+          "override": 13,
+          "PackageDescription": 12,
+          "Shared": 10,
+          "DarkModeCore": 10,
+          "BaseTracking": 9,
+          "LocalAuthentication": 5,
+          "Anchorage": 5,
+          "SwiftyJSON": 5,
+          "Combine": 5,
+          "AlamofireImage": 4,
+          "RealmSwift": 4,
+          "JavaScriptCore": 4,
+          "CoreLocation": 4,
+          "OTRAssets": 4,
+          "MobileCoreServices": 3,
+          "CoreServices": 3,
+          "BaseNetworkKit": 3,
+          "asl": 3,
+          "AccordionSwift": 2,
+          "Gloss": 2,
+          "SystemConfiguration": 2,
+          "ObservableKit": 2,
+          "LMStorage": 2,
+          "Segment": 2,
+          "AppTrackingTransparency": 2,
+          "BraveShared": 2,
+          "Alamofire": 2,
+          "Deferred": 2,
+          "AVFoundation": 2,
+          "CameraManager": 2,
+          "XMPPFramework": 2,
+          "CocoaLumberjack": 2,
+          "weak": 2,
+          "CRRefresh": 2,
+          "aiDee": 1,
+          "GMStepper": 1,
+          "Dispatch": 1,
+          "multipart/form-data;": 1,
+          "AppKit": 1,
+          "Firebase": 1,
+          "Social": 1,
+          "XCGLogger": 1,
+          "SnapKit": 1,
+          "SafariServices": 1,
+          "WebKit": 1,
+          "ImageIO": 1,
+          "CoreImage": 1,
+          "CoreMotion": 1,
+          "=": 1,
+          "Photos": 1,
+          "PhotosUI": 1,
+          "MyLibraryTests": 1,
+          "SwiftUIChartsTests": 1,
+          "ChatSecureCore": 1,
+          "MWFeedParser": 1,
+          "UserNotifications": 1,
+          "OTRKit": 1,
+          "YapTaskQueue": 1,
+          "YapDatabase": 1,
+          "Chatto": 1,
+          "CodableCSV": 1,
+          "MapKit": 1,
+          "SKCountryPicker": 1,
+          "CRRefreshFooterIdleText": 1,
+          "CRRefreshFooterRefreshingText": 1,
+          "CRRefreshFooterNoMoreText": 1,
+          "CRRefreshHeaderPullingText": 1,
+          "CRRefreshHeaderIdleText": 1,
+          "CRRefreshHeaderRefreshingText": 1,
+          "CryptoSwift": 1,
+          "Glibc": 1,
+          "Darwin": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "thejohnlima/AccordionSwift",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/aiDee",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/AmaroiOS",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/Anchorage",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/Android-Vetmobile",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "thejohnlima/BaseNetworkKit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/BaseTracking",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/best-resume-ever",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "thejohnlima/brave-ios",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/CameraManager",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/CarBode-Barcode-Scanner-For-SwiftUI",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/ChartView",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/ChatSecure-iOS",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/Chatto",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/CITravis",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/CodableCSV",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/CollectionViewPagingLayout",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/Console",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/ControlRoom",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/CountryPicker",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/CRRefresh",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/CryptoSwift",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "thejohnlima/DarkModeKit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}
