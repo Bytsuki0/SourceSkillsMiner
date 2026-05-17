@@ -1,4 +1,5 @@
 # SourceSkillsMiner ___________OUTDATED DOCUMENT__________________
+# A Python Script for github scrapping for Prediction model bulding and profiling
 
 > **Automated GitHub contributor profiling and multi-dimensional scoring system.**
 
