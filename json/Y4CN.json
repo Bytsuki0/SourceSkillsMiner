@@ -1,0 +1,609 @@
+{
+  "username": "Y4CN",
+  "avatar_url": "https://avatars.githubusercontent.com/u/101870735?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666666,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.8666666666666667,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.6
+      }
+    },
+    "Adaptability": {
+      "score": 0.125,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5566666666666666,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        87416,
+        14
+      ],
+      "CMake": [
+        73562,
+        11
+      ],
+      "Dart": [
+        299915,
+        169
+      ],
+      "Ruby": [
+        4410,
+        1
+      ],
+      "HTML": [
+        7193,
+        0
+      ],
+      "Swift": [
+        6150,
+        0
+      ],
+      "C": [
+        5604,
+        0
+      ],
+      "Kotlin": [
+        497,
+        0
+      ],
+      "Objective-C": [
+        143,
+        0
+      ],
+      "Go": [
+        392974,
+        25
+      ],
+      "Makefile": [
+        225,
+        0
+      ],
+      "JavaScript": [
+        0,
+        84
+      ]
+    },
+    "language_count": 12,
+    "total_commits": 304,
+    "total_lines": 878089,
+    "top_5_languages": [
+      {
+        "language": "Dart",
+        "lines": 299915,
+        "commits": 169
+      },
+      {
+        "language": "JavaScript",
+        "lines": 0,
+        "commits": 84
+      },
+      {
+        "language": "Go",
+        "lines": 392974,
+        "commits": 25
+      },
+      {
+        "language": "C++",
+        "lines": 87416,
+        "commits": 14
+      },
+      {
+        "language": "CMake",
+        "lines": 73562,
+        "commits": 11
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Y4CN",
+    "analysis_date": "2026-05-17T08:14:31.702985",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 534,
+    "languages": {
+      "C++": {
+        "files_scanned": 110,
+        "packages": {
+          "generated_plugin_registrant.h": 28,
+          "my_application.h": 28,
+          "flutter/generated_plugin_registrant.h": 28,
+          "flutter_window.h": 28,
+          "utils.h": 27,
+          "windows.h": 27,
+          "<windows.h>": 27,
+          "<flutter_windows.h>": 26,
+          "flutter_windows.h": 26,
+          "gdk/gdkx.h": 14,
+          "flutter_linux/flutter_linux.h": 14,
+          "<flutter_linux/flutter_linux.h>": 14,
+          "<gdk/gdkx.h>": 14,
+          "optional": 14,
+          "<optional>": 14,
+          "<flutter/flutter_view_controller.h>": 14,
+          "flutter/flutter_view_controller.h": 14,
+          "flutter/dart_project.h": 14,
+          "<flutter/dart_project.h>": 14,
+          "<iostream>": 13,
+          "iostream": 13,
+          "stdio.h": 13,
+          "<io.h>": 13,
+          "<stdio.h>": 13,
+          "io.h": 13,
+          "win32_window.h": 13,
+          "<dwmapi.h>": 13,
+          "EnableNonClientDpiScaling": 13,
+          "resource.h": 13,
+          "dwmapi.h": 13,
+          "url_launcher_linux/url_launcher_plugin.h": 2,
+          "<url_launcher_linux/url_launcher_plugin.h>": 2,
+          "url_launcher_windows/url_launcher_windows.h": 2,
+          "<url_launcher_windows/url_launcher_windows.h>": 2,
+          "permission_handler_windows/permission_handler_windows_plugin.h": 1,
+          "<permission_handler_windows/permission_handler_windows_plugin.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 98,
+        "packages": {
+          "memory": 26,
+          "<memory>": 26,
+          "<string>": 25,
+          "string": 25,
+          "GeneratedPluginRegistrant.h": 17,
+          "flutter_linux/flutter_linux.h": 14,
+          "<flutter_linux/flutter_linux.h>": 14,
+          "<gtk/gtk.h>": 14,
+          "gtk/gtk.h": 14,
+          "<flutter/plugin_registry.h>": 14,
+          "flutter/plugin_registry.h": 14,
+          "win32_window.h": 14,
+          "<flutter/flutter_view_controller.h>": 14,
+          "flutter/flutter_view_controller.h": 14,
+          "flutter/dart_project.h": 14,
+          "<flutter/dart_project.h>": 14,
+          "<vector>": 13,
+          "vector": 13,
+          "functional": 12,
+          "windows.h": 12,
+          "<windows.h>": 12,
+          "<functional>": 12
+        }
+      },
+      "Dart": {
+        "files_scanned": 114,
+        "packages": {
+          "flutter": 53,
+          "flutter_test": 15,
+          "dartz": 15,
+          "apple_shop": 15,
+          "game_hacks_chat": 15,
+          "dio": 13,
+          "flutter_bloc": 12,
+          "network_service": 10,
+          "dart:io": 9,
+          "divar_app": 9,
+          "bloc": 6,
+          "flutter_farsi_socket": 6,
+          "instagram": 5,
+          "get_storage": 5,
+          "get": 5,
+          "dart:ui": 4,
+          "chat_ui": 4,
+          "app_errors.dart": 4,
+          "dart:async": 3,
+          "chat_bubbles": 3,
+          "sizer": 3,
+          "hero_widget": 3,
+          "token_user": 3,
+          "url_launcher": 2,
+          "flutter_background_service": 2,
+          "background_test_service": 2,
+          "flutter_local_notifications": 2,
+          "notif_locally_app": 2,
+          "gemini_flutter_test": 2,
+          "get_screenshot": 2,
+          "flutter_staggered_grid_view": 2,
+          "mockito": 2,
+          "dart:convert": 2,
+          "installed_apps": 1,
+          "android_intent_plus": 1,
+          "testing_installed_app": 1,
+          "flutter_background_service_android": 1,
+          "permission_handler": 1,
+          "clicl_test": 1,
+          "loading_animation_widget": 1,
+          "flutter_localizations": 1,
+          "image_picker": 1,
+          "smooth_page_indicator": 1,
+          "home_state.dart": 1,
+          "hive_flutter": 1,
+          "dart:ffi": 1,
+          "flame": 1,
+          "flame_flutter_farsi": 1,
+          "flutter_gemini": 1,
+          "flutter_dotenv": 1,
+          "file_picker": 1,
+          "flutter_colorpicker": 1,
+          "screenshot": 1,
+          "dotted_border": 1,
+          "audio_video_progress_bar": 1,
+          "just_audio": 1,
+          "music_player": 1,
+          "errors/error_handler.dart": 1,
+          "errors.dart": 1,
+          "http_request_type.dart": 1,
+          "get_it": 1,
+          "errors/errors.dart": 1,
+          "dio_network_manager_test.mocks.dart": 1,
+          "web_socket_channel": 1,
+          "camera": 1,
+          "o3d": 1,
+          "three_d_model": 1,
+          "dart:math": 1,
+          "shared_preferences": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 39,
+        "packages": {
+          "fmt": 28,
+          "github.com/y4cn/divar_full/model": 7,
+          "os": 6,
+          "github.com/y4cn/divar_full/database": 6,
+          "gorm.io/gorm": 5,
+          "status": 5,
+          "message": 5,
+          "github.com/gin-gonic/gin": 5,
+          "github.com/y4cn/divar_full/helper": 4,
+          "net/http": 4,
+          "errors": 3,
+          "io": 3,
+          "item": 3,
+          "strconv": 3,
+          "github.com/joho/godotenv": 2,
+          "gorm.io/driver/mysql": 1,
+          "sync": 1,
+          "github.com/golang-jwt/jwt": 1,
+          "golang.org/x/crypto/bcrypt": 1,
+          "github.com/y4cn/divar_full/route": 1,
+          "messages": 1,
+          "token": 1,
+          "items": 1,
+          "math/rand": 1,
+          "keyword": 1,
+          "github.com/go-vgo/robotgo": 1,
+          "time": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "path": 3,
+          "object": 3,
+          "CanvasKitInit": 2,
+          "failed": 2,
+          "worker_threads": 2,
+          "perf_hooks": 1,
+          "skwasm": 1,
+          "utf8": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 17,
+        "packages": {
+          "io.flutter": 17,
+          "com.example": 16,
+          "com.Y4CN": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 14,
+        "packages": {
+          "osia_helper": 10,
+          "octokit": 3,
+          "json": 2,
+          "awesome_print": 2,
+          "netrc": 2,
+          "pp": 1,
+          "date": 1,
+          "delete_my_tweets": 1,
+          "colored": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 82,
+        "packages": {
+          "FlutterMacOS": 53,
+          "Cocoa": 39,
+          "Flutter": 29,
+          "UIKit": 29,
+          "XCTest": 23,
+          "Foundation": 14,
+          "flutter_local_notifications": 3,
+          "url_launcher_macos": 2,
+          "path_provider_foundation": 2,
+          "audio_session": 1,
+          "just_audio": 1,
+          "shared_preferences_foundation": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Y4CN/adm_intent_lunch",
+        "files_analyzed": 25,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/background_service_test",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/chat_ui",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/click_app",
+        "files_analyzed": 25,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/divar",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Go",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/ecommerce_project",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/flame_flutter_farsi",
+        "files_analyzed": 25,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/flutter_notification",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/Gamak",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/gemini_flutter",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/get_screenshot",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/hero_widget",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/instagram_clone_amir_ahmad",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/learngo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Y4CN/MathModule",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Y4CN/music_player",
+        "files_analyzed": 25,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/network_service",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Dart"
+        ]
+      },
+      {
+        "repository": "Y4CN/open-source-ios-apps",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "Y4CN/repeat_golang",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Y4CN/samstorenain.github.io",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Y4CN/socket_flutter_farsi",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/three_d_model",
+        "files_analyzed": 25,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Y4CN/token_user",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

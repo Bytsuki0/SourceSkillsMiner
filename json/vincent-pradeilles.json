@@ -1,0 +1,427 @@
+{
+  "username": "vincent-pradeilles",
+  "avatar_url": "https://avatars.githubusercontent.com/u/5090957?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9444444444444444,
+      "details": {
+        "issue_resolution_rate": 0.8333333333333334,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5637446693013602,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.5912340079040806,
+        "week_streak": 0.1
+      }
+    },
+    "Adaptability": {
+      "score": 0.6875,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 7,
+        "topic_entropy_bits": -0.0,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 4
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7141378227491609,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        5772928,
+        182
+      ],
+      "Ruby": [
+        46076,
+        6
+      ],
+      "Objective-C": [
+        714027,
+        1
+      ],
+      "JavaScript": [
+        14481,
+        0
+      ],
+      "Shell": [
+        6560,
+        0
+      ],
+      "Kotlin": [
+        179,
+        16
+      ],
+      "CSS": [
+        0,
+        50
+      ],
+      "HTML": [
+        0,
+        17
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 272,
+    "total_lines": 6554251,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 5772928,
+        "commits": 182
+      },
+      {
+        "language": "CSS",
+        "lines": 0,
+        "commits": 50
+      },
+      {
+        "language": "HTML",
+        "lines": 0,
+        "commits": 17
+      },
+      {
+        "language": "Kotlin",
+        "lines": 179,
+        "commits": 16
+      },
+      {
+        "language": "Ruby",
+        "lines": 46076,
+        "commits": 6
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "vincent-pradeilles",
+    "analysis_date": "2026-05-17T10:44:45.068563",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 308,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 16,
+        "packages": {
+          "<UIKit/UIKit.h>": 11,
+          "DemoBaseViewController.h": 8,
+          "<Charts/Charts.h>": 8,
+          "<Foundation/Foundation.h>": 4,
+          "<CommonCrypto/CommonCrypto.h>": 1,
+          "ChartsDemo-Swift.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "all": 1,
+          "node-onesignal": 1,
+          "fs": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 7,
+        "packages": {
+          "java.util": 3,
+          "kotlin.math": 2,
+          "kotlin.test": 1,
+          "such": 1,
+          "kotlin.system": 1,
+          "android.os": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 11,
+        "packages": {
+          "ChartsDemo-Swift.h": 8,
+          "DemoListViewController.h": 2,
+          "BarChartViewController.h": 2,
+          "BubbleChartViewController.h": 2,
+          "CandleStickChartViewController.h": 2,
+          "CubicLineChartViewController.h": 2,
+          "AnotherBarChartViewController.h": 2,
+          "ColoredLineChartViewController.h": 2,
+          "CombinedChartViewController.h": 2,
+          "HalfPieChartViewController.h": 2,
+          "AppDelegate.h": 1,
+          "DemoBaseViewController.h": 1,
+          "LineChart2ViewController.h": 1,
+          "MultipleLinesChartViewController.h": 1,
+          "ScatterChartViewController.h": 1,
+          "RealmDemosViewController.h": 1,
+          "NegativeStackedBarChartViewController.h": 1,
+          "PieChartViewController.h": 1,
+          "LineChartTimeViewController.h": 1,
+          "RadarChartViewController.h": 1,
+          "PiePolylineChartViewController.h": 1,
+          "LineChartFilledViewController.h": 1,
+          "MultipleBarChartViewController.h": 1,
+          "StackedBarChartViewController.h": 1,
+          "HorizontalBarChartViewController.h": 1,
+          "PositiveNegativeBarChartViewController.h": 1,
+          "LineChart1ViewController.h": 1,
+          "SinusBarChartViewController.h": 1,
+          "DayAxisValueFormatter.h": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 1,
+        "packages": {
+          "json": 1,
+          "date": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 246,
+        "packages": {
+          "Foundation": 100,
+          "XCTest": 67,
+          "UIKit": 57,
+          "KeyPathKit": 24,
+          "SwiftUI": 20,
+          "class": 15,
+          "Combine": 15,
+          "RxSwift": 14,
+          "JSONCodable": 14,
+          "Alamofire": 12,
+          "protocol": 12,
+          "Cocoa": 10,
+          "enum": 10,
+          "CoreData": 8,
+          "Charts": 7,
+          "AlamofireImage": 6,
+          "PackageDescription": 6,
+          "func": 5,
+          "struct": 5,
+          "PlaygroundSupport": 5,
+          "var": 3,
+          "override": 3,
+          "MapKit": 3,
+          "Decodable": 2,
+          "NaturalLanguage": 2,
+          "Dispatch": 2,
+          "Darwin": 2,
+          "SwiftShims": 2,
+          "Glibc": 2,
+          "CoreLocation": 2,
+          "SwiftSyntaxMacros": 2,
+          "LocalAuthentication": 2,
+          "private": 1,
+          "WatchKit": 1,
+          "CoreGraphics": 1,
+          "CoreImage": 1,
+          "AutoMocker": 1,
+          "CoreML": 1,
+          "Vision": 1,
+          "AVKit": 1,
+          "CreateMLUI": 1,
+          "CreateML": 1,
+          "Swift": 1,
+          "CompilerPluginSupport": 1,
+          "URLMacro": 1,
+          "SwiftSyntax": 1,
+          "SwiftSyntaxBuilder": 1,
+          "SwiftCompilerPlugin": 1,
+          "SwiftSyntaxMacrosTestSupport": 1,
+          "URLMacroMacros": 1,
+          "os.log": 1,
+          "SQLite3": 1,
+          "KeychainSwift": 1,
+          "SideMenu": 1,
+          "KeyPathTesting": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "vincent-pradeilles/AlamofireImage",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/AutoMocker",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/awesome-swift",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript",
+          "Ruby",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/Charts",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/Decodable",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/dynamic-localization",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/emoji-reaction-swiftui",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/euler-kotlin",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/experimenting-with-createml-resources",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/from-async-rx-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/geomento",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/How-to-get-started-with-Parameter-Packs",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/how-to-get-started-with-swift-macros",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/how-to-master-combine-like-a-pro",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/how-to-master-modern-swift-syntaxes-keypath",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/i-review-your-ios-take-home-project",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/iOS-Conf-Training",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/JSONCodable",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/KeyPathKit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/KeyPathTesting",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "vincent-pradeilles/kotlin-tips",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Kotlin"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,988 @@
+{
+  "username": "kvaps",
+  "avatar_url": "https://avatars.githubusercontent.com/u/7556217?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.6381173686035144,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.6143521058105431,
+        "week_streak": 0.3
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 21,
+        "language_transitions": 27,
+        "topic_entropy_bits": 6.5201,
+        "closed_prs_total": 219,
+        "bounced_back_prs": 114
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7692901403873696,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        5194663,
+        1918
+      ],
+      "C++": [
+        56987,
+        0
+      ],
+      "C": [
+        184430,
+        0
+      ],
+      "C#": [
+        19724,
+        0
+      ],
+      "PHP": [
+        7578,
+        0
+      ],
+      "Go": [
+        1098702,
+        120
+      ],
+      "Python": [
+        4053670,
+        19
+      ],
+      "JavaScript": [
+        15443,
+        71
+      ],
+      "Perl": [
+        1634,
+        0
+      ],
+      "Java": [
+        7649,
+        0
+      ],
+      "Makefile": [
+        36358,
+        158
+      ],
+      "Lua": [
+        28962,
+        145
+      ],
+      "SWIG": [
+        279,
+        0
+      ],
+      "Batchfile": [
+        212,
+        0
+      ],
+      "M4": [
+        183,
+        0
+      ],
+      "CMake": [
+        19631,
+        0
+      ],
+      "HTML": [
+        26730,
+        183
+      ],
+      "ASP.NET": [
+        28,
+        0
+      ],
+      "VCL": [
+        1232,
+        0
+      ],
+      "Raku": [
+        11,
+        0
+      ],
+      "Ruby": [
+        32194,
+        0
+      ],
+      "CSS": [
+        3023,
+        2
+      ],
+      "PowerShell": [
+        91394,
+        0
+      ],
+      "Elm": [
+        179345,
+        0
+      ],
+      "Dockerfile": [
+        7771,
+        210
+      ],
+      "Tcl": [
+        187,
+        0
+      ],
+      "Roff": [
+        6857,
+        0
+      ],
+      "DIGITAL Command Language": [
+        69,
+        0
+      ],
+      "SQLPL": [
+        19,
+        0
+      ],
+      "TSQL": [
+        14,
+        0
+      ],
+      "Jinja": [
+        2483,
+        0
+      ],
+      "Vim Script": [
+        320,
+        55
+      ],
+      "Augeas": [
+        170,
+        0
+      ],
+      "HCL": [
+        150,
+        0
+      ],
+      "Jsonnet": [
+        0,
+        39
+      ],
+      "AutoIt": [
+        0,
+        11
+      ],
+      "Visual Basic": [
+        0,
+        12
+      ],
+      "Mustache": [
+        0,
+        5
+      ],
+      "Smarty": [
+        0,
+        25
+      ],
+      "TypeScript": [
+        0,
+        10
+      ],
+      "Vue": [
+        0,
+        9
+      ]
+    },
+    "language_count": 41,
+    "total_commits": 2992,
+    "total_lines": 11078102,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 5194663,
+        "commits": 1918
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 7771,
+        "commits": 210
+      },
+      {
+        "language": "HTML",
+        "lines": 26730,
+        "commits": 183
+      },
+      {
+        "language": "Makefile",
+        "lines": 36358,
+        "commits": 158
+      },
+      {
+        "language": "Lua",
+        "lines": 28962,
+        "commits": 145
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "kvaps",
+    "analysis_date": "2026-05-17T02:00:40.893306",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 218,
+    "languages": {
+      "C": {
+        "files_scanned": 7,
+        "packages": {
+          "<stdio.h>": 6,
+          "stdio.h": 6,
+          "<stdlib.h>": 5,
+          "stdlib.h": 5,
+          "err.h": 4,
+          "<err.h>": 4,
+          "<unistd.h>": 4,
+          "unistd.h": 4,
+          "string.h": 3,
+          "<string.h>": 3,
+          "sys/stat.h": 2,
+          "<sys/types.h>": 2,
+          "<sys/stat.h>": 2,
+          "sys/types.h": 2,
+          "tls.h": 2,
+          "<tls.h>": 2,
+          "apr_lib.h": 1,
+          "apr_network_io.h": 1,
+          "apr_xlate.h": 1,
+          "<math.h>": 1,
+          "<apr_lib.h>": 1,
+          "<ctype.h>": 1,
+          "math.h": 1,
+          "<pem.h>": 1,
+          "<apr_general.h>": 1,
+          "<openssl/crypto.h>": 1,
+          "<openssl/rsa.h>": 1,
+          "ssl.h": 1,
+          "apr_time.h": 1,
+          "<limits.h>": 1,
+          "<x509.h>": 1,
+          "pem.h": 1,
+          "<apr_poll.h>": 1,
+          "<apr_xlate.h>": 1,
+          "<r_rand.h>": 1,
+          "openssl/x509.h": 1,
+          "openssl/err.h": 1,
+          "<openssl/x509.h>": 1,
+          "<apr_want.h>": 1,
+          "<openssl/rand.h>": 1,
+          "apr_signal.h": 1,
+          "apr_strings.h": 1,
+          "x509.h": 1,
+          "apr.h": 1,
+          "<apr_network_io.h>": 1,
+          "openssl/pem.h": 1,
+          "apr_portable.h": 1,
+          "openssl/ssl.h": 1,
+          "<apr.h>": 1,
+          "<openssl/ssl.h>": 1,
+          "<rsa.h>": 1,
+          "<sslc.h>": 1,
+          "<openssl/err.h>": 1,
+          "ap_release.h": 1,
+          "apr_want.h": 1,
+          "apr_base64.h": 1,
+          "limits.h": 1,
+          "<apr_getopt.h>": 1,
+          "sslc.h": 1,
+          "apr_general.h": 1,
+          "apr_poll.h": 1,
+          "rsa.h": 1,
+          "openssl/crypto.h": 1,
+          "<apr_strings.h>": 1,
+          "<apr_base64.h>": 1,
+          "<apr_time.h>": 1,
+          "<apr_signal.h>": 1,
+          "<apr_file_io.h>": 1,
+          "ctype.h": 1,
+          "apr_file_io.h": 1,
+          "openssl/rand.h": 1,
+          "<apr_portable.h>": 1,
+          "<openssl/pem.h>": 1,
+          "openssl/rsa.h": 1,
+          "r_rand.h": 1,
+          "<ssl.h>": 1,
+          "apr_getopt.h": 1,
+          "ap_config_auto.h": 1,
+          "coro.h": 1,
+          "mntent.h": 1,
+          "<mntent.h>": 1,
+          "libgen.h": 1,
+          "<libgen.h>": 1,
+          "<poll.h>": 1,
+          "poll.h": 1,
+          "<errno.h>": 1,
+          "errno.h": 1,
+          "<assert.h>": 1,
+          "assert.h": 1
+        }
+      },
+      "C#": {
+        "files_scanned": 27,
+        "packages": {
+          "Microsoft.VisualStudio.TestTools.UnitTesting": 18,
+          "FiftyOne.UnitTests": 13,
+          "System": 7,
+          "System.Runtime.CompilerServices": 7,
+          "System.Runtime.InteropServices": 7,
+          "System.Text": 6,
+          "System.Collections.Generic": 5,
+          "System.Linq": 5,
+          "as": 5,
+          "System.Threading.Tasks": 5,
+          "FiftyOne.Mobile.Detection.Provider.Interop.Trie": 3,
+          "System.IO": 2,
+          "FiftyOne.Mobile.Detection.Provider.Interop.Pattern": 2,
+          "Match": 2,
+          "FiftyOne.Mobile.Detection.Provider.Interop": 1,
+          "System.Reflection": 1,
+          "FiftyOne.Example.Illustration.CSharp.DifferenceTolerance": 1,
+          "FiftyOne.Example.Illustration.CSharp.DriftTolerance": 1,
+          "FiftyOne.Example.Illustration.CSharp.FindProfiles": 1,
+          "FiftyOne.Example.Illustration.CSharp.GettingStarted": 1,
+          "FiftyOne.Example.Illustration.CSharp.GettingStartedTrie": 1,
+          "FiftyOne.Example.Illustration.CSharp.MatchForDeviceId": 1,
+          "FiftyOne.Example.Illustration.CSharp.MatchMetrics": 1,
+          "FiftyOne.Example.Illustration.CSharp.OfflineProcessing": 1,
+          "FiftyOne.Example.Illustration.CSharp.Reload_Data_File": 1,
+          "FiftyOne.Example.Illustration.CSharp.Reload_Data_File_Trie": 1,
+          "FiftyOne.Example.Illustration.CSharp.Reload_From_Memory": 1,
+          "FiftyOne.Example.Illustration.CSharp.Reload_From_Memory_Trie": 1,
+          "FiftyOne.Example.Illustration.CSharp.StronglyTyped": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 5,
+        "packages": {
+          "linux/types.h": 2,
+          "<sys/ioctl.h>": 2,
+          "sys/time.h": 2,
+          "<linux/pps.h>": 2,
+          "<errno.h>": 2,
+          "linux/pps.h": 2,
+          "sys/ioctl.h": 2,
+          "errno.h": 2,
+          "<sys/time.h>": 2,
+          "<linux/types.h>": 2,
+          "<err.h>": 2,
+          "err.h": 2,
+          "apr_general.h": 1,
+          "<apr_general.h>": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1,
+          "<stdarg.h>": 1,
+          "stdarg.h": 1,
+          "<sys/null.h>": 1,
+          "sys/null.h": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 62,
+        "packages": {
+          "fmt": 36,
+          "time": 35,
+          "net/http": 29,
+          "github.com/go-openapi/strfmt": 26,
+          "github.com/go-openapi/runtime": 24,
+          "context": 20,
+          "io": 17,
+          "testing": 14,
+          "k8s.io/klog/v2": 13,
+          "google.golang.org/grpc": 13,
+          "io/ioutil": 12,
+          "sync": 10,
+          "net": 10,
+          "github.com/go-openapi/errors": 9,
+          "net/http/httptest": 8,
+          "github.com/prometheus/alertmanager/api/v2/models": 8,
+          "sigs.k8s.io/apiserver-network-proxy/konnectivity-client/proto/client": 8,
+          "errors": 7,
+          "sigs.k8s.io/apiserver-network-proxy/proto/agent": 7,
+          "github.com/prometheus/client_golang/prometheus": 6,
+          "bytes": 6,
+          "sigs.k8s.io/apiserver-network-proxy/konnectivity-client/pkg/client": 6,
+          "github.com/prometheus/alertmanager/config": 5,
+          "github.com/prometheus/alertmanager/types": 5,
+          "os": 5,
+          "strings": 5,
+          "github.com/prometheus/common/model": 4,
+          "github.com/prometheus/alertmanager/provider": 4,
+          "github.com/prometheus/alertmanager/dispatch": 4,
+          "github.com/prometheus/alertmanager/pkg/labels": 4,
+          "strconv": 4,
+          "github.com/go-openapi/swag": 4,
+          "crypto/tls": 4,
+          "github.com/spf13/pflag": 4,
+          "flag": 4,
+          "github.com/spf13/cobra": 4,
+          "sigs.k8s.io/apiserver-network-proxy/pkg/util": 4,
+          "math/rand": 4,
+          "github.com/go-kit/kit/log": 3,
+          "github.com/prometheus/alertmanager/cluster": 3,
+          "github.com/prometheus/alertmanager/silence": 3,
+          "github.com/prometheus/alertmanager/silence/silencepb": 3,
+          "regexp": 3,
+          "github.com/google/uuid": 3,
+          "google.golang.org/grpc/credentials": 3,
+          "os/signal": 3,
+          "bufio": 3,
+          "sigs.k8s.io/apiserver-network-proxy/pkg/server": 3,
+          "google.golang.org/grpc/metadata": 3,
+          "sigs.k8s.io/apiserver-network-proxy/proto/header": 3,
+          "k8s.io/apimachinery/pkg/util/wait": 3,
+          "net/url": 3,
+          "github.com/aws/aws-sdk-go/aws/signer/v4": 3,
+          "github.com/prometheus/common/route": 2,
+          "runtime": 2,
+          "github.com/go-kit/kit/log/level": 2,
+          "github.com/prometheus/alertmanager/api/metrics": 2,
+          "github.com/prometheus/common/version": 2,
+          "encoding/json": 2,
+          "sort": 2,
+          "foo": 2,
+          "test": 2,
+          "github.com/stretchr/testify/require": 2,
+          "github.com/prometheus/client_golang/prometheus/promhttp": 2,
+          "sigs.k8s.io/apiserver-network-proxy/pkg/agent": 2,
+          "crypto/x509": 2,
+          "k8s.io/client-go/kubernetes": 2,
+          "syscall": 2,
+          "google.golang.org/grpc/connectivity": 2,
+          "agent3": 2,
+          "reflect": 2,
+          "agent1": 2,
+          "github.com/aws/aws-sdk-go/aws/endpoints": 2,
+          "Exceeded": 1,
+          "Limit": 1,
+          "try": 1,
+          "Access-Control-Expose-Headers": 1,
+          "failed": 1,
+          "Access-Control-Allow-Origin": 1,
+          "buildUser": 1,
+          "Access-Control-Allow-Headers": 1,
+          "Access-Control-Allow-Methods": 1,
+          "branch": 1,
+          "buildDate": 1,
+          "version": 1,
+          "revision": 1,
+          "goVersion": 1,
+          "Cache-Control": 1,
+          "label1!=test2": 1,
+          "label1!~test2": 1,
+          "label1!~test1": 1,
+          "baz": 1,
+          "label1=~test1": 1,
+          "label1!=test1": 1,
+          "label2=~test2": 1,
+          "label2=test2": 1,
+          "label1=test2": 1,
+          "label2!~test2": 1,
+          "label1=test1": 1,
+          "label1=~test2": 1,
+          "label2!=test2": 1,
+          "github.com/prometheus/alertmanager/api/v2/restapi/operations": 1,
+          "github.com/rs/cors": 1,
+          "github.com/go-openapi/runtime/middleware": 1,
+          "github.com/prometheus/alertmanager/api/v2/restapi": 1,
+          "github.com/go-openapi/loads": 1,
+          "2019-01-01T13:00:00+00:00": 1,
+          "2019-01-01T12:00:00+00:00": 1,
+          "github.com/prometheus/alertmanager/api/v2/client/alertgroup": 1,
+          "github.com/prometheus/alertmanager/api/v2/client/receiver": 1,
+          "github.com/prometheus/alertmanager/api/v2/client/alert": 1,
+          "github.com/prometheus/alertmanager/api/v2/client/silence": 1,
+          "github.com/prometheus/alertmanager/api/v2/client/general": 1,
+          "net/http/pprof": 1,
+          "k8s.io/client-go/tools/clientcmd": 1,
+          "EOF": 1,
+          "DIAL_RSP": 1,
+          "DIAL_REQ": 1,
+          "DATA": 1,
+          "CLOSE_REQ": 1,
+          "CLOSE_RSP": 1,
+          "sigs.k8s.io/apiserver-network-proxy/pkg/agent/metrics": 1,
+          "sync/atomic": 1,
+          "sigs.k8s.io/apiserver-network-proxy/pkg/server/metrics": 1,
+          "k8s.io/apimachinery/pkg/runtime": 1,
+          "github.com/golang/mock/gomock": 1,
+          "log": 1,
+          "Test": 1,
+          "github.com/stretchr/testify/assert": 1,
+          "net/http/httputil": 1,
+          "github.com/aws/aws-sdk-go/aws/credentials": 1,
+          "gopkg.in/alecthomas/kingpin.v2": 1,
+          "github.com/aws/aws-sdk-go/aws/defaults": 1,
+          "github.com/awslabs/aws-sigv4-proxy/handler": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 4,
+        "packages": {
+          "java.security": 4,
+          "java.lang": 2,
+          "java.math": 2
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 8,
+        "packages": {
+          "utils": 7,
+          "sunstone": 3,
+          "opennebula": 2,
+          "hbs!.": 2,
+          "sunstone-config": 1,
+          "react": 1,
+          "]&&i(o[": 1,
+          "react-dom": 1,
+          "undefined": 1,
+          "use": 1,
+          "create-react-class": 1,
+          "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 1,
+        "packages": {
+          "posix": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 27,
+        "packages": {
+          "typing": 19,
+          "benji": 17,
+          "os": 12,
+          "logger": 9,
+          "re": 7,
+          "time": 7,
+          "threading": 7,
+          "List": 6,
+          "Tuple": 6,
+          "logging": 6,
+          "subprocess": 5,
+          "ReprMixIn": 5,
+          "datetime": 5,
+          "ConfigDict": 5,
+          "IOBase": 5,
+          "sys": 4,
+          "collections": 4,
+          "json": 4,
+          "urllib": 4,
+          "UsageError": 4,
+          "DereferencedBlock": 4,
+          "ansible": 3,
+          "distutils": 3,
+          "importlib": 3,
+          "Config": 3,
+          "Dict": 3,
+          "VERSIONS": 3,
+          "copy": 2,
+          "__future__": 2,
+          "module_from_spec": 2,
+          "setuptools": 2,
+          "concurrent": 2,
+          "contextlib": 2,
+          "InputDataError": 2,
+          "io": 2,
+          "StringIO": 2,
+          "operator": 2,
+          "semantic_version": 2,
+          "functools": 2,
+          "ConfigurationError": 2,
+          "abc": 2,
+          "uuid": 2,
+          "benji_log_level": 2,
+          "parse": 2,
+          "JobExecutor": 2,
+          "rbd": 2,
+          "rados": 2,
+          "errors": 1,
+          "traceback": 1,
+          "vvv": 1,
+          "select": 1,
+          "fcntl": 1,
+          "utils": 1,
+          "absolute_import": 1,
+          "AUTH_ARG_SPEC": 1,
+          "DynamicApiError": 1,
+          "type": 1,
+          "openshift": 1,
+          "ConnectionBase": 1,
+          "shlex_quote": 1,
+          "to_bytes": 1,
+          "AnsibleLoader": 1,
+          "AnsibleError": 1,
+          "Display": 1,
+          "sphinx_rtd_theme": 1,
+          "setup": 1,
+          "sdist": 1,
+          "build_py": 1,
+          "namedtuple": 1,
+          "struct": 1,
+          "Crypto": 1,
+          "AES": 1,
+          "RetentionFilter": 1,
+          "AbstractContextManager": 1,
+          "Database": 1,
+          "hashlib": 1,
+          "CancelledError": 1,
+          "defaultdict": 1,
+          "Cache": 1,
+          "notify": 1,
+          "random": 1,
+          "errno": 1,
+          "BlockUidHistory": 1,
+          "InvalidBlockException": 1,
+          "StorageFactory": 1,
+          "IOFactory": 1,
+          "diskcache": 1,
+          "BlockUid": 1,
+          "sparsebitfield": 1,
+          "SparseBitfield": 1,
+          "__version__": 1,
+          "RestAPI": 1,
+          "prettytable": 1,
+          "PrettyTable": 1,
+          "Benji": 1,
+          "NbdServer": 1,
+          "hints_from_rbd_diff": 1,
+          "Version": 1,
+          "resource_filename": 1,
+          "pkg_resources": 1,
+          "ruamel": 1,
+          "cerberus": 1,
+          "deepcopy": 1,
+          "Validator": 1,
+          "expanduser": 1,
+          "reduce": 1,
+          "inspect": 1,
+          "platform": 1,
+          "math": 1,
+          "contextmanager": 1,
+          "StorageKeyMixIn": 1,
+          "chain": 1,
+          "command": 1,
+          "sqlalchemy": 1,
+          "attribute_mapped_collection": 1,
+          "sqlite3": 1,
+          "ScriptDirectory": 1,
+          "object_session": 1,
+          "binascii": 1,
+          "enum": 1,
+          "hexlify": 1,
+          "total_ordering": 1,
+          "dateparser": 1,
+          "EnvironmentContext": 1,
+          "pyparsing": 1,
+          "abstractmethod": 1,
+          "alembic": 1,
+          "OrderedDict": 1,
+          "import_v{}": 1,
+          "Union": 1,
+          "InputValidation": 1,
+          "itertools": 1,
+          "colorama": 1,
+          "string": 1,
+          "subprocess_run": 1,
+          "NamedTemporaryFile": 1,
+          "blinker": 1,
+          "signal": 1,
+          "tempfile": 1,
+          "TimeoutExpired": 1,
+          "running_pod_name": 1,
+          "kubernetes": 1,
+          "ERROR_CHANNEL": 1,
+          "stream": 1,
+          "prom_push_gateway": 1,
+          "prometheus_client": 1,
+          "CollectorRegistry": 1,
+          "requests": 1,
+          "Any": 1,
+          "HTTPError": 1,
+          "JSONDecodeError": 1,
+          "Block": 1,
+          "ABCMeta": 1,
+          "NamedTuple": 1,
+          "InternalError": 1,
+          "libiscsi": 1,
+          "deque": 1,
+          "queue": 1,
+          "BoundedSemaphore": 1,
+          "ThreadPoolExecutor": 1,
+          "structlog": 1,
+          "FormatRenderer": 1,
+          "Optional": 1,
+          "_find_first_app_frame_and_name": 1,
+          "warnings": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 35,
+        "packages": {
+          "Logging": 4,
+          "rubygems": 3,
+          "pp": 3,
+          "render": 3,
+          "convert_pass": 3,
+          "uri": 2,
+          "appmarket_version": 2,
+          "erb": 2,
+          "tilt": 2,
+          "convert_toc": 2,
+          "name": 2,
+          "net/https": 1,
+          "mongo": 1,
+          "yaml": 1,
+          "mailer": 1,
+          "parser": 1,
+          "appmarket": 1,
+          "session": 1,
+          "haml": 1,
+          "sinatra": 1,
+          "redcarpet": 1,
+          "models": 1,
+          "mail": 1,
+          "json": 1,
+          "digest/sha1": 1,
+          "init": 1,
+          "models/user_collection/user": 1,
+          "models/user_collection": 1,
+          "models/app_collection": 1,
+          "validator": 1,
+          "models/collection": 1,
+          "models/app_collection/app": 1,
+          "Enumerable": 1,
+          "bcrypt": 1,
+          "rspec": 1,
+          "rack/test": 1,
+          "controllers/appmarket-server": 1,
+          "the": 1,
+          "benchmark": 1,
+          "open-uri": 1,
+          "Benchmark": 1,
+          "this": 1,
+          "minitest": 1,
+          "asciidoctor": 1,
+          "simplecov": 1,
+          "slim": 1,
+          "Minitest::Assertions": 1,
+          "asciidoctor/reader": 1,
+          "asciidoctor/timings": 1,
+          "asciidoctor/core_ext": 1,
+          "asciidoctor/list": 1,
+          "cgi/util": 1,
+          "asciidoctor/stylesheets": 1,
+          "asciidoctor/convert": 1,
+          "asciidoctor/table": 1,
+          "asciidoctor/section": 1,
+          "asciidoctor/document": 1,
+          "asciidoctor/callouts": 1,
+          "asciidoctor/substitutors": 1,
+          "asciidoctor/syntax_highlighter": 1,
+          "set": 1,
+          "asciidoctor/logging": 1,
+          "asciidoctor/js/postscript": 1,
+          "asciidoctor/block": 1,
+          "asciidoctor/converter": 1,
+          "asciidoctor/path_resolver": 1,
+          "asciidoctor/rx": 1,
+          "asciidoctor/js": 1,
+          "asciidoctor/load": 1,
+          "asciidoctor/helpers": 1,
+          "asciidoctor/writer": 1,
+          "asciidoctor/version": 1,
+          "asciidoctor/abstract_node": 1,
+          "asciidoctor/extensions": 1,
+          "asciidoctor/attribute_list": 1,
+          "asciidoctor/inline": 1,
+          "asciidoctor/abstract_block": 1,
+          "asciidoctor/parser": 1,
+          "query": 1,
+          "append": 1,
+          "Substitutors": 1,
+          "blockname": 1,
+          "cli/options": 1,
+          "optparse": 1,
+          "cli/invoker": 1,
+          "zlib": 1,
+          "path": 1,
+          "render_file": 1,
+          "Converter": 1,
+          "Factory": 1,
+          "PROVIDED[backend]": 1,
+          "DefaultFactory": 1,
+          "Asciidoctor::Converter": 1,
+          "backend_info": 1,
+          "convert_video": 1,
+          "convert_audio": 1,
+          "convert_embedded": 1,
+          "convert_preamble": 1,
+          "concurrent/map": 1,
+          "helpers": 1,
+          "slim/include": 1,
+          "core_ext/hash/merge": 1,
+          "core_ext/match_data/names": 1,
+          "core_ext/nil_or_empty": 1,
+          "core_ext/float/truncate": 1,
+          "core_ext/regexp/is_match": 1,
+          "nil_or_empty?": 1,
+          "match?": 1,
+          "has_header?": 1,
+          "counter_increment": 1,
+          "references": 1,
+          "title": 1,
+          "to_s": 1,
+          "using_format": 1,
+          "GitIncludeProcessor": 1,
+          "default_attrs": 1,
+          "SyntaxProcessorDsl": 1,
+          "treeprocessors": 1,
+          "parse_content_as": 1,
+          "on_context": 1,
+          "DocumentProcessorDsl": 1,
+          "treeprocessor": 1,
+          "name_positional_attributes": 1,
+          "match_format": 1,
+          "treeprocessors?": 1,
+          "MacroProcessorDsl": 1,
+          "ProcessorDsl": 1,
+          "resolves_attributes": 1,
+          "on_contexts": 1,
+          "positional_attrs": 1,
+          "bind_to": 1,
+          "use_dsl": 1,
+          "const_get": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "kvaps/51Degrees-Device-Detection",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C#",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "kvaps/addon-appmarket",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "kvaps/alertmanager",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "kvaps/ansible-connection-nsenter",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kvaps/ansible-k8s-status-module",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kvaps/ansible-nsenter",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "kvaps/apiserver-network-proxy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "kvaps/aports",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Java",
+          "Lua",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "kvaps/asciidoctor",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "kvaps/aws-sigv4-proxy",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "kvaps/benji",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "username": "tiangolo",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1326112?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8518518518518519,
+      "details": {
+        "issue_resolution_rate": 0.5555555555555556,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.9,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.7
+      }
+    },
+    "Adaptability": {
+      "score": 0.96875,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 6,
+        "topic_entropy_bits": 6.1679,
+        "closed_prs_total": 203,
+        "bounced_back_prs": 114
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "tiangolo/angular-docker-multi-stage-example": 0.16841,
+        "tiangolo/ansible-babun-bootstrap": 0.4926,
+        "tiangolo/babun-docker": 0.12249,
+        "tiangolo/blog-posts": 0.414375,
+        "tiangolo/compose-to-rancher": 0.22165555555555555,
+        "tiangolo/docker-auto-labels": 0.42551538461538463,
+        "tiangolo/docker-with-compose": 0.32180666666666663,
+        "tiangolo/dockerswarm.rocks": 0.059256382978723404,
+        "tiangolo/flask-frontend-docker": 0.38092857142857145,
+        "tiangolo/full-stack": 0.5718166666666666,
+        "tiangolo/full-stack-fastapi-couchbase": 0.5933866666666667
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.9191203703703704,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        116347,
+        2389
+      ],
+      "Shell": [
+        12919,
+        259
+      ],
+      "Batchfile": [
+        126,
+        0
+      ],
+      "HTML": [
+        6006,
+        78
+      ],
+      "Dockerfile": [
+        4371,
+        233
+      ],
+      "CSS": [
+        880,
+        1
+      ],
+      "JavaScript": [
+        1046,
+        10
+      ],
+      "Vue": [
+        9161,
+        211
+      ],
+      "TypeScript": [
+        5326,
+        193
+      ],
+      "Mako": [
+        108,
+        1
+      ],
+      "Jinja": [
+        0,
+        0
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 3375,
+    "total_lines": 156290,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 116347,
+        "commits": 2389
+      },
+      {
+        "language": "Shell",
+        "lines": 12919,
+        "commits": 259
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 4371,
+        "commits": 233
+      },
+      {
+        "language": "Vue",
+        "lines": 9161,
+        "commits": 211
+      },
+      {
+        "language": "TypeScript",
+        "lines": 5326,
+        "commits": 193
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "tiangolo",
+    "analysis_date": "2026-05-16T12:24:13.289490",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 235,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "react": 1,
+          "vue": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 178,
+        "packages": {
+          "app": 70,
+          "config": 33,
+          "pathlib": 31,
+          "Path": 31,
+          "os": 26,
+          "typing": 24,
+          "fastapi": 23,
+          "installed": 23,
+          "logging": 20,
+          "json": 18,
+          "flask": 17,
+          "requests": 17,
+          "sys": 15,
+          "sqlalchemy": 15,
+          "docker": 14,
+          "flask_apispec": 14,
+          "flask_jwt_extended": 14,
+          "standard": 13,
+          "pydantic": 12,
+          "Container": 12,
+          "re": 11,
+          "doc": 11,
+          "time": 11,
+          "APIRouter": 10,
+          "fields": 10,
+          "webargs": 10,
+          "Session": 9,
+          "abort": 9,
+          "get_default_bucket": 9,
+          "List": 8,
+          "BaseModel": 8,
+          "datetime": 8,
+          "db_session": 8,
+          "User": 8,
+          "docs": 8,
+          "tenacity": 8,
+          "Schemas": 7,
+          "get_current_user": 7,
+          "Bucket": 7,
+          "couchbase": 7,
+          "pytest": 6,
+          "BaseSettings": 6,
+          "celery_app": 6,
+          "MsgSchema": 6,
+          "UserSchema": 6,
+          "init_db": 6,
+          "crud": 6,
+          "RoleEnum": 6,
+          "starlette": 5,
+          "passlib": 5,
+          "CryptContext": 5,
+          "github": 5,
+          "pydantic_settings": 5,
+          "Any": 5,
+          "Flask": 5,
+          "models": 5,
+          "Role": 5,
+          "CONSISTENCY_REQUEST": 5,
+          "library_skills": 5,
+          "dataclass": 4,
+          "dataclasses": 4,
+          "FastAPI": 4,
+          "jwt": 4,
+          "Literal": 4,
+          "typer": 4,
+          "collections": 4,
+          "flask_cors": 4,
+          "CORS": 4,
+          "timedelta": 4,
+          "create_access_token": 4,
+          "retry": 4,
+          "celery": 4,
+          "Celery": 4,
+          "get_password_hash": 4,
+          "UserInDB": 4,
+          "after_log": 4,
+          "jsonable_encoder": 4,
+          "HTTPBasicAuth": 4,
+          "cloudant": 4,
+          "click": 3,
+          "Optional": 3,
+          "skills_ref": 3,
+          "argparse": 3,
+          "HTTPException": 3,
+          "TestClient": 3,
+          "subprocess": 3,
+          "OrderedDict": 3,
+          "oyaml": 3,
+          "Base": 3,
+          "FlaskApiSpec": 3,
+          "APISpec": 3,
+          "apispec": 3,
+          "pwd_context": 3,
+          "TokenSchema": 3,
+          "raven": 3,
+          "Sentry": 3,
+          "jsonify": 3,
+          "JWTManager": 3,
+          "get_user": 3,
+          "get_current_active_superuser": 3,
+          "Dict": 3,
+          "UserInCreate": 3,
+          "Github": 3,
+          "csv": 2,
+          "create_engine": 2,
+          "declarative_base": 2,
+          "Depends": 2,
+          "OAuth2PasswordBearer": 2,
+          "jose": 2,
+          "OAuth2PasswordRequestForm": 2,
+          "yaml": 2,
+          "CliRunner": 2,
+          "Auth": 2,
+          "HTTPServer": 2,
+          "http": 2,
+          "__future__": 2,
+          "alembic": 2,
+          "jwt_required": 2,
+          "Msg": 2,
+          "send_new_account_email": 2,
+          "EmailStr": 2,
+          "send_test_email": 2,
+          "UserCreate": 2,
+          "USERPROFILE_DOC_TYPE": 2,
+          "uuid": 2,
+          "Field": 2,
+          "Enum": 2,
+          "enum": 2,
+          "MatchAllQuery": 2,
+          "LOCKMODE_WAIT": 2,
+          "Cluster": 2,
+          "get_cluster_couchbase_url": 2,
+          "ensure_create_full_text_indexes": 2,
+          "get_client": 2,
+          "CouchDB": 2,
+          "CouchDatabase": 2,
+          "Document": 2,
+          "CloudantDatabase": 2,
+          "shutil": 2,
+          "rich": 2,
+          "Console": 2,
+          "strictyaml": 1,
+          "html": 1,
+          "unicodedata": 1,
+          "to_prompt": 1,
+          "validate": 1,
+          "the": 1,
+          "bitbucket_issues_to_redmine_csv": 1,
+          "streamlit": 1,
+          "FigureCanvas": 1,
+          "matplotlib": 1,
+          "Figure": 1,
+          "holoviews": 1,
+          "hvplot": 1,
+          "pandas": 1,
+          "panel": 1,
+          "numpy": 1,
+          "sessionmaker": 1,
+          "ValidationError": 1,
+          "status": 1,
+          "Boolean": 1,
+          "relationship": 1,
+          "path": 1,
+          "codecs": 1,
+          "open": 1,
+          "setup": 1,
+          "setuptools": 1,
+          "random": 1,
+          "Node": 1,
+          "docker_auto_labels": 1,
+          "cli": 1,
+          "Link": 1,
+          "MkDocsConfig": 1,
+          "Files": 1,
+          "mkdocs": 1,
+          "Page": 1,
+          "cors": 1,
+          "context": 1,
+          "fileConfig": 1,
+          "with_statement": 1,
+          "engine_from_config": 1,
+          "op": 1,
+          "RoleSchema": 1,
+          "get_user_by_username": 1,
+          "all": 1,
+          "scoped_session": 1,
+          "flask_sqlalchemy": 1,
+          "SQLAlchemy": 1,
+          "items": 1,
+          "Item": 1,
+          "get_current_active_user": 1,
+          "Token": 1,
+          "HTTP_403_FORBIDDEN": 1,
+          "TokenPayload": 1,
+          "PyJWTError": 1,
+          "ALGORITHM": 1,
+          "ItemCreate": 1,
+          "ITEM_DOC_TYPE": 1,
+          "check_if_user_is_active": 1,
+          "ensure_enums_to_strs": 1,
+          "RolesSchema": 1,
+          "UserInUpdate": 1,
+          "check_if_user_is_superuser": 1,
+          "COUCHBASE_BUCKET_NAME": 1,
+          "upsert_user": 1,
+          "authenticate_user": 1,
+          "get_db_users": 1,
+          "CloudantDatabaseException": 1,
+          ":func:`~cloudant": 1,
+          "RemoteCouchDatabase": 1,
+          "a": 1,
+          "DesignDocument": 1,
+          "RemoteCouchDB": 1,
+          "atexit": 1,
+          "add_user_to_db_admins": 1,
+          "create_or_get_user": 1,
+          "SecurityDocument": 1,
+          "HTTPError": 1,
+          "base64": 1,
+          "Sequence": 1,
+          "add_user_to_db_members": 1,
+          "Schema": 1,
+          "marshmallow": 1,
+          "PaginatedList": 1,
+          "IssueEvent": 1,
+          "Issue": 1,
+          "IssueComment": 1,
+          "typing_extensions": 1,
+          "PullRequestReview": 1,
+          "Template": 1,
+          "jinja2": 1,
+          "PullRequest": 1,
+          "latest_changes": 1,
+          "inspect": 1,
+          "date": 1,
+          "find_ruff_bin": 1,
+          "ruff": 1,
+          "\\{[^}]*docs_src/[^}]*_py39[^}]*\\": 1,
+          "Theme": 1,
+          "RichToolkit": 1,
+          "Counter": 1,
+          "Table": 1,
+          "rich_toolkit": 1,
+          "Annotated": 1,
+          "Option": 1,
+          "MinimalStyle": 1,
+          "tomllib": 1,
+          "tomli": 1,
+          "urllib": 1,
+          "url2pathname": 1,
+          "urlparse": 1,
+          "email": 1,
+          "Parser": 1,
+          "patch": 1,
+          "importlib": 1,
+          "unittest": 1,
+          "Skill": 1,
+          "print_function": 1,
+          "multiprocessing": 1,
+          "NotFound": 1,
+          "DockerClient": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 8,
+        "packages": {
+          "node:path": 5,
+          "node:fs": 3,
+          "node:url": 3,
+          "inquirer": 2,
+          "vitest": 2,
+          "commander": 1,
+          "smol-toml": 1,
+          "csv-parse": 1,
+          "node:child_process": 1,
+          "node:os": 1,
+          "tsup": 1,
+          "ts": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "tiangolo/agentskills",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/bitbucket_issues_to_redmine_csv",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/blog-posts",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/compose-to-rancher",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/docker-auto-labels",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/dockerswarm.rocks",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/flask-frontend-docker",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/full-stack",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/full-stack-fastapi-couchbase",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/full-stack-flask-couchbase",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/full-stack-flask-couchdb",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/issue-manager",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/label-approved",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/latest-changes",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/library-skills",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "tiangolo/meinheld-gunicorn-docker",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "tiangolo/meinheld-gunicorn-flask-docker",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,695 @@
+{
+  "username": "hugobowne",
+  "avatar_url": "https://avatars.githubusercontent.com/u/4182382?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7318791318701416,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.7956373956104248,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 0.65625,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 11,
+        "bounced_back_prs": 7
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "hugobowne/build-your-own-ai-assistant": 0.8989,
+        "hugobowne/building-with-ai": 0.00876
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.794292493040695,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        7097469,
+        184
+      ],
+      "Python": [
+        423287,
+        40
+      ],
+      "R": [
+        259353,
+        10
+      ],
+      "Shell": [
+        416,
+        0
+      ],
+      "HTML": [
+        8271,
+        161
+      ],
+      "Makefile": [
+        9,
+        0
+      ],
+      "Swift": [
+        128008,
+        0
+      ],
+      "C++": [
+        6496,
+        3
+      ],
+      "JavaScript": [
+        2971,
+        13
+      ],
+      "C": [
+        1150,
+        0
+      ],
+      "CMake": [
+        564,
+        0
+      ],
+      "CSS": [
+        28,
+        0
+      ],
+      "Less": [
+        0,
+        0
+      ],
+      "SCSS": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "MATLAB": [
+        0,
+        0
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 411,
+    "total_lines": 7928022,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 7097469,
+        "commits": 184
+      },
+      {
+        "language": "HTML",
+        "lines": 8271,
+        "commits": 161
+      },
+      {
+        "language": "Python",
+        "lines": 423287,
+        "commits": 40
+      },
+      {
+        "language": "JavaScript",
+        "lines": 2971,
+        "commits": 13
+      },
+      {
+        "language": "R",
+        "lines": 259353,
+        "commits": 10
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "hugobowne",
+    "analysis_date": "2026-05-16T17:39:24.824445",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 368,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 17,
+        "packages": {
+          "docusaurus": 8,
+          "react": 4,
+          "theme": 3,
+          "fs-extra": 3,
+          "clsx": 3,
+          "path": 2,
+          "prism-react-renderer": 2,
+          "site": 2,
+          "function": 1,
+          "undefined": 1,
+          "https:": 1,
+          "normalize.css": 1,
+          "history": 1,
+          "react-router-dom": 1,
+          "react-dom": 1,
+          "7fb2990d51938b98cd97bbc04cd9027c9e4e0e6d21a258a8d9ac10febebdcac64d63025ed50a6ee6aec6b666eaf2549070fbc2250f5d0f31ab0f15fc9896c6df": 1,
+          "styles.module.css": 1,
+          "chokidar": 1,
+          "shelljs": 1,
+          "url": 1,
+          "image-size": 1,
+          "sharp": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 11,
+        "packages": {
+          "react": 11,
+          "styled-components": 9,
+          "prop-types": 5,
+          "react-fontawesome": 2,
+          "query-string": 1,
+          "react-dom": 1,
+          "react-syntax-highlighter": 1,
+          "react-router-dom": 1,
+          "react-markdown": 1,
+          "react-player": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 287,
+        "packages": {
+          "google": 56,
+          "typing": 53,
+          "metaflow": 51,
+          "FlowSpec": 48,
+          "os": 46,
+          "numpy": 40,
+          "Any": 40,
+          "pydantic": 37,
+          "json": 37,
+          "BaseModel": 34,
+          "asyncio": 32,
+          "pathlib": 31,
+          "AgentContext": 30,
+          "Client": 29,
+          "Path": 28,
+          "sklearn": 28,
+          "rich": 28,
+          "types": 26,
+          "gradio": 23,
+          "print": 23,
+          "cross_val_score": 22,
+          "datetime": 20,
+          "datasets": 20,
+          "scikit-learn": 19,
+          "RandomForestClassifier": 19,
+          "tensorflow": 18,
+          "taxi_modules": 18,
+          "time": 17,
+          "state": 17,
+          "pandas": 16,
+          "__future__": 16,
+          "agent_tools": 15,
+          "sys": 14,
+          "abc": 14,
+          "ABC": 14,
+          "required": 14,
+          "dataclasses": 14,
+          "dataclass": 14,
+          "llama_index": 13,
+          "VectorStoreIndex": 13,
+          "importlib": 13,
+          "absolute_import": 13,
+          "DecisionTreeClassifier": 13,
+          "ExtraTreesClassifier": 13,
+          "uuid": 12,
+          "ollama": 12,
+          "load_dotenv": 12,
+          "dotenv": 12,
+          "tools": 12,
+          "logging": 11,
+          "fitz": 10,
+          "burr": 10,
+          "re": 10,
+          "requests": 10,
+          "mcp": 10,
+          "Ollama": 9,
+          "HuggingFaceEmbedding": 9,
+          "opentelemetry": 9,
+          "OpenAIInstrumentor": 9,
+          "openai": 9,
+          "FastMCP": 9,
+          "subprocess": 9,
+          "Markdown": 9,
+          "datashader": 9,
+          "streamlit": 9,
+          "OpenAI": 8,
+          "Agent": 8,
+          "Exa": 8,
+          "exa_py": 8,
+          "action": 7,
+          "pymupdf": 7,
+          "sqlite3": 7,
+          "path": 7,
+          "cloud_scanner": 7,
+          "pytest": 6,
+          "genai": 6,
+          "base64": 6,
+          "copy": 6,
+          "anthropic": 6,
+          "*": 6,
+          "xarray": 6,
+          "tempfile": 6,
+          "NumpyArrayFeatureEncoder": 6,
+          "RegressionModel": 6,
+          "LinearRegression": 6,
+          "threading": 5,
+          "the": 5,
+          "argparse": 5,
+          "Annotated": 5,
+          "aiosqlite": 5,
+          "agent": 5,
+          "deepcopy": 5,
+          "ProcessConfig": 5,
+          "io": 5,
+          "instructor": 4,
+          "chat": 4,
+          "AsyncExitStack": 4,
+          "Optional": 4,
+          "contextlib": 4,
+          "stdio_client": 4,
+          "ClientSession": 4,
+          "Live": 4,
+          "box": 4,
+          "Table": 4,
+          "automations": 4,
+          "fastmcp": 4,
+          "init": 4,
+          "itertools": 4,
+          "toolz": 4,
+          "datashape": 4,
+          "constants": 4,
+          "train_test_split": 4,
+          "Literal": 3,
+          "agent_hooks": 3,
+          "FastAPI": 3,
+          "fastapi": 3,
+          "uvicorn": 3,
+          "modal": 3,
+          "difflib": 3,
+          "Panel": 3,
+          "session": 3,
+          "Syntax": 3,
+          "collections": 3,
+          "MODIFY_TODO_TOOL": 3,
+          "todos": 3,
+          "ValidationError": 3,
+          "lilypad": 3,
+          "functools": 3,
+          "PIL": 3,
+          "print_function": 3,
+          "layers": 3,
+          "keras": 3,
+          "xgboost": 3,
+          "import_module": 3,
+          "FEATURES": 3,
+          "filter_outliers": 3,
+          "chain": 3,
+          "profile": 3,
+          "geohash": 3,
+          "Hashing": 3,
+          "concatenate": 3,
+          "mean_squared_error": 3,
+          "pipeline_gold": 2,
+          "build_pipeline": 2,
+          "State": 2,
+          "Application": 2,
+          "concurrent": 2,
+          "logic": 2,
+          "iter_modules": 2,
+          "pkgutil": 2,
+          "this": 2,
+          "logfire": 2,
+          "retry": 2,
+          "mirascope": 2,
+          "llm": 2,
+          "SERVER_URL": 2,
+          "tenacity": 2,
+          "GmailThreadHeader": 2,
+          "fastai": 2,
+          "torch": 2,
+          "exp": 2,
+          "string": 2,
+          "bokeh": 2,
+          "dask": 2,
+          "dshape": 2,
+          "BytesIO": 2,
+          "api": 2,
+          "unicode_literals": 2,
+          "zipfile": 2,
+          "LocalTrackingClient": 1,
+          "ApplicationBuilder": 1,
+          "OllamaInstrumentor": 1,
+          "assistant_gold": 1,
+          "build_assistant": 1,
+          "textwrap": 1,
+          "LabelEncoder": 1,
+          "janitor": 1,
+          "csv": 1,
+          "ChatResponse": 1,
+          "webvtt": 1,
+          "youtube_transcript_api": 1,
+          "YouTubeTranscriptApi": 1,
+          "AgentTool": 1,
+          "TOOLS": 1,
+          "telegram": 1,
+          "Bot": 1,
+          "httpx": 1,
+          "shlex": 1,
+          "telegram_types": 1,
+          "TelegramUpdate": 1,
+          "queue": 1,
+          "textual": 1,
+          "Input": 1,
+          "Awaitable": 1,
+          "RenderableType": 1,
+          "Container": 1,
+          "App": 1,
+          "Text": 1,
+          "TypeAlias": 1,
+          "READ_FILE_TOOL": 1,
+          "Tool": 1,
+          "ReadFileMetadata": 1,
+          "normal": 1,
+          "all": 1,
+          "delegate_search": 1,
+          "Review": 1,
+          "Anthropic": 1,
+          "sse_client": 1,
+          "reduce": 1,
+          "HumanLayer": 1,
+          "humanlayer": 1,
+          "defaultdict": 1,
+          "collect_errors": 1,
+          "batch": 1,
+          "FromCallArgs": 1,
+          "InstalledAppFlow": 1,
+          "Credentials": 1,
+          "EmailMessage": 1,
+          "email": 1,
+          "google_auth_oauthlib": 1,
+          "categorize_gmail_emails": 1,
+          "googleapiclient": 1,
+          "build": 1,
+          "ToolClient": 1,
+          "run_browser_task": 1,
+          "TextContent": 1,
+          "hashlib": 1,
+          "batch_list": 1,
+          "Resource": 1,
+          "Image": 1,
+          "set_trace": 1,
+          "gzip": 1,
+          "IPython": 1,
+          "tensor": 1,
+          "math": 1,
+          "operator": 1,
+          "matplotlib": 1,
+          "pickle": 1,
+          "nn": 1,
+          "Fore": 1,
+          "colorama": 1,
+          "datafuncs": 1,
+          "notebook_div": 1,
+          "_CommsHandle": 1,
+          "get_comms": 1,
+          "CustomJS": 1,
+          "Document": 1,
+          "_ModelInDocument": 1,
+          "unique": 1,
+          "count": 1,
+          "discover": 1,
+          "odo": 1,
+          "istabular": 1,
+          "_globals": 1,
+          "tokenize": 1,
+          "memoize": 1,
+          "identity": 1,
+          "concat": 1,
+          "coretypes": 1,
+          "rgb": 1,
+          "apply": 1,
+          "raises": 1,
+          "get_sync": 1,
+          "set_options": 1,
+          "Dispatcher": 1,
+          "fromarray": 1,
+          "real": 1,
+          "inspect": 1,
+          "Unit": 1,
+          "getmro": 1,
+          "launder": 1,
+          "numba": 1,
+          "webbrowser": 1,
+          "fields": 1,
+          "yaml": 1,
+          "IOLoop": 1,
+          "use_args": 1,
+          "Select": 1,
+          "Figure": 1,
+          "Server": 1,
+          "tornado": 1,
+          "OrderedDict": 1,
+          "webargs": 1,
+          "RequestHandler": 1,
+          "FunctionHandler": 1,
+          "setup": 1,
+          "setuptools": 1,
+          "Groq": 1,
+          "groq": 1,
+          "aiohttp": 1,
+          "replicate": 1,
+          "init_session_state": 1,
+          "utils": 1,
+          "ui": 1,
+          "partial": 1,
+          "audio_recorder": 1,
+          "transcribe_audio": 1,
+          "audio_recorder_streamlit": 1,
+          "DEFAULT_IMAGE_GEN_NEGATIVE_PROMPT": 1,
+          "tree": 1,
+          "accuracy_score": 1,
+          "Key": 1,
+          "schedule": 1,
+          "boto": 1,
+          "lxml": 1
+        }
+      },
+      "R": {
+        "files_scanned": 3,
+        "packages": {
+          "plyr": 2,
+          "ggplot2": 2,
+          "foreach": 2,
+          "doMC": 2,
+          "dplyr": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 7,
+        "packages": {
+          "netlify": 4,
+          "docusaurus": 2,
+          "fs-extra": 2,
+          "unified": 1,
+          "vfile": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 2,
+        "packages": {
+          "clsx": 2,
+          "site": 2,
+          "react": 2,
+          "theme": 1,
+          "docusaurus": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "hugobowne/AI-for-SWEs",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/alt-splice-quantification",
+        "files_analyzed": 8,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "hugobowne/bayesian-stats-simulation-tutorial",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/build-ai-products-with-gemma",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/build-with-ai-knowledge-base-example",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/build-your-own-ai-assistant",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/build-your-own-deep-research-agent",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/building-with-ai",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/cloud-scanner",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/course-v3",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)",
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/data-testing-tutorial",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/datashader",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/docusaurus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "hugobowne/first-multimodal-genAI-app",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/full-stack-ml-metaflow-corise-week-2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/full-stack-ml-metaflow-corise-week-3",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/full-stack-ml-metaflow-corise-week-4",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hugobowne/gdelt_download",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

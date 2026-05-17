@@ -1,0 +1,386 @@
+{
+  "username": "rossi99",
+  "avatar_url": "https://avatars.githubusercontent.com/u/64086695?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.46119429168043746,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.7692307692307693,
+        "commits_activity": 0.6143521058105431
+      }
+    },
+    "Status": {
+      "score": 0.5714507019368477,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.6143521058105431,
+        "week_streak": 0.1
+      }
+    },
+    "Adaptability": {
+      "score": 0.43125,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "rossi99/pipeline-first-aider": 0.16147142857142854
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5927789987234571,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        81514,
+        0
+      ],
+      "Makefile": [
+        647,
+        0
+      ],
+      "Jinja": [
+        150,
+        0
+      ],
+      "Shell": [
+        457,
+        0
+      ],
+      "Batchfile": [
+        29,
+        0
+      ],
+      "Go": [
+        766,
+        20
+      ],
+      "PHP": [
+        69970,
+        0
+      ],
+      "HTML": [
+        21076,
+        0
+      ],
+      "Dockerfile": [
+        363,
+        0
+      ],
+      "Starlark": [
+        78,
+        2
+      ],
+      "Vue": [
+        1964110,
+        0
+      ],
+      "CSS": [
+        91642,
+        0
+      ],
+      "JavaScript": [
+        32588,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 22,
+    "total_lines": 2263390,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 766,
+        "commits": 20
+      },
+      {
+        "language": "Starlark",
+        "lines": 78,
+        "commits": 2
+      },
+      {
+        "language": "Python",
+        "lines": 81514,
+        "commits": 0
+      },
+      {
+        "language": "Makefile",
+        "lines": 647,
+        "commits": 0
+      },
+      {
+        "language": "Jinja",
+        "lines": 150,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rossi99",
+    "analysis_date": "2026-05-15T21:15:34.514874",
+    "total_repos_analyzed": 6,
+    "total_files_analyzed": 81,
+    "languages": {
+      "Go": {
+        "files_scanned": 15,
+        "packages": {
+          "fmt": 13,
+          "errors": 3,
+          "context": 2,
+          "os": 2,
+          "flag": 2,
+          "github.com/anthropics/anthropic-sdk-go/option": 1,
+          "github.com/anthropics/anthropic-sdk-go": 1,
+          "napier/hack/errors": 1,
+          "path/filepath": 1,
+          "napier/hack/ai": 1,
+          "strings": 1,
+          "encoding/json": 1,
+          "github.com/stretchr/testify/assert": 1,
+          "success:": 1,
+          "testing": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "jquery": 1,
+          "vue": 1,
+          "chenfengyuan": 1,
+          "vue-carousel": 1,
+          "fortawesome": 1,
+          "vue-router": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 24,
+        "packages": {
+          "App\\Http\\Controllers\\Controller": 5,
+          "Illuminate\\Support\\ServiceProvider": 2,
+          "Illuminate\\Support\\Str": 2,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "routes/console.php": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "Exception": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails": 1,
+          "SendsPasswordResetEmails": 1,
+          "AuthenticatesUsers": 1,
+          "Illuminate\\Foundation\\Auth\\AuthenticatesUsers": 1,
+          "Illuminate\\Support\\Facades\\Validator": 1,
+          "Illuminate\\Support\\Facades\\Hash": 1,
+          "Illuminate\\Foundation\\Auth\\RegistersUsers": 1,
+          "RegistersUsers": 1,
+          "App\\User": 1,
+          "Illuminate\\Foundation\\Auth\\ResetsPasswords": 1,
+          "ResetsPasswords": 1,
+          "Illuminate\\Foundation\\Auth\\VerifiesEmails": 1,
+          "VerifiesEmails": 1,
+          "AuthorizesRequests": 1,
+          "Illuminate\\Routing\\Controller": 1,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
+          "Illuminate\\Foundation\\Http\\Kernel": 1,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode": 1,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 1,
+          "Closure": 1,
+          "Illuminate\\Support\\Facades\\Auth": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 1,
+          "Fideloper\\Proxy\\TrustProxies": 1,
+          "Illuminate\\Http\\Request": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 1,
+          "Illuminate\\Support\\Facades\\Gate": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 1,
+          "routes/channels.php": 1,
+          "Illuminate\\Support\\Facades\\Broadcast": 1,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 1,
+          "Illuminate\\Auth\\Events\\Registered": 1,
+          "Illuminate\\Support\\Facades\\Event": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Route": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 1,
+          "Notifiable": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 28,
+        "packages": {
+          "cookiecutter": 19,
+          "os": 17,
+          "annotations": 16,
+          "__future__": 16,
+          "Path": 14,
+          "pathlib": 14,
+          "typing": 14,
+          "TYPE_CHECKING": 10,
+          "sys": 8,
+          "logging": 8,
+          "jinja2": 8,
+          "json": 7,
+          "Environment": 6,
+          "pytest": 5,
+          "typing_extensions": 4,
+          "collections": 4,
+          "Any": 4,
+          "shutil": 4,
+          "OrderedDict": 3,
+          "re": 3,
+          "tempfile": 3,
+          "make_sure_path_exists": 3,
+          "Literal": 2,
+          "get_user_config": 2,
+          "copy": 2,
+          "Extension": 2,
+          "rich": 2,
+          "subprocess": 2,
+          "UndefinedError": 2,
+          "utils": 2,
+          "prompt_and_delete": 2,
+          "replay": 2,
+          "runpy": 1,
+          "main": 1,
+          "Context": 1,
+          "__version__": 1,
+          "configure_logger": 1,
+          "Iterable": 1,
+          "click": 1,
+          "ConfigDoesNotExistException": 1,
+          "yaml": 1,
+          "UnknownExtension": 1,
+          "TemplateError": 1,
+          "choice": 1,
+          "arrow": 1,
+          "uuid": 1,
+          "secrets": 1,
+          "DEFAULT_SEPARATOR": 1,
+          "Parser": 1,
+          "slugify": 1,
+          "string": 1,
+          "NonTemplatedInputDirException": 1,
+          "YesNoPrompt": 1,
+          "InvalidResponse": 1,
+          "warnings": 1,
+          "TemplateSyntaxError": 1,
+          "binaryornot": 1,
+          "run_hook_from_repo_dir": 1,
+          "find_template": 1,
+          "is_binary": 1,
+          "fnmatch": 1,
+          "errno": 1,
+          "FailedHookException": 1,
+          "choose_nested_template": 1,
+          "run_pre_prompt_hook": 1,
+          "generate_context": 1,
+          "output+dir": 1,
+          "template": 1,
+          "repo": 1,
+          "InvalidModeException": 1,
+          "determine_repo_dir": 1,
+          "dump": 1,
+          "rather": 1,
+          "default": 1,
+          "rmtree": 1,
+          "checkout": 1,
+          "UndefinedVariableInTemplate": 1,
+          "itertools": 1,
+          "starmap": 1,
+          "TypeAlias": 1,
+          "Confirm": 1,
+          "create_env_with_context": 1,
+          "RepositoryNotFound": 1,
+          "clone": 1,
+          "unzip": 1,
+          "stat": 1,
+          "contextlib": 1,
+          "StrictEnvironment": 1,
+          "which": 1,
+          "zipfile": 1,
+          "BadZipFile": 1,
+          "InvalidZipRepository": 1,
+          "requests": 1,
+          "setuptools": 1,
+          "setup": 1,
+          "TypedDict": 1,
+          "DEFAULT_CONFIG": 1,
+          "exceptions": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rossi99/cookiecutter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rossi99/go_notebook_code",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rossi99/mobilemastersshop",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "rossi99/pipeline-first-aider",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "rossi99/raceview",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

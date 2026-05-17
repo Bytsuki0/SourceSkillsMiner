@@ -1,0 +1,284 @@
+{
+  "username": "pyjanitor-devs",
+  "avatar_url": "https://avatars.githubusercontent.com/u/53411673?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.5,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.3333333333333333,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.0,
+      "details": {
+        "language_diversity_score": 0.0,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 0,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "pyjanitor-devs/pyjanitor-examples": 0.24695,
+        "pyjanitor-devs/pyjviz": 0.56935
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4666666666666667,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Rust": [
+        5964,
+        0
+      ],
+      "Python": [
+        570325,
+        0
+      ],
+      "Dockerfile": [
+        4518,
+        0
+      ],
+      "Jupyter Notebook": [
+        85482,
+        0
+      ],
+      "Makefile": [
+        3063,
+        0
+      ],
+      "CSS": [
+        349,
+        0
+      ],
+      "Shell": [
+        216,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 0,
+    "total_lines": 669917,
+    "top_5_languages": [
+      {
+        "language": "Rust",
+        "lines": 5964,
+        "commits": 0
+      },
+      {
+        "language": "Python",
+        "lines": 570325,
+        "commits": 0
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 4518,
+        "commits": 0
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 85482,
+        "commits": 0
+      },
+      {
+        "language": "Makefile",
+        "lines": 3063,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "pyjanitor-devs",
+    "analysis_date": "2026-05-16T17:06:16.765757",
+    "total_repos_analyzed": 5,
+    "total_files_analyzed": 89,
+    "languages": {
+      "Python": {
+        "files_scanned": 49,
+        "packages": {
+          "pandas": 29,
+          "janitor": 23,
+          "pandas_flavor": 21,
+          "pyjviz": 17,
+          "typing": 15,
+          "os": 15,
+          "ipdb": 12,
+          "numpy": 10,
+          "sys": 9,
+          "importlib": 7,
+          "pytest": 7,
+          "inspect": 6,
+          "warnings": 5,
+          "functools": 5,
+          "running_on_ci": 5,
+          "helpers": 5,
+          "annotations": 4,
+          "__future__": 4,
+          "wraps": 3,
+          "io": 3,
+          "DataFrameGroupBy": 2,
+          "xarray": 2,
+          "Hashable": 2,
+          "Chem": 2,
+          "rdkit": 2,
+          "unyt": 2,
+          "glob": 2,
+          "scipy": 2,
+          "pyspark": 2,
+          "Union": 2,
+          "base64": 2,
+          "threading": 2,
+          "rdflib": 2,
+          "BeautifulSoup": 2,
+          "bs4": 2,
+          "textwrap": 2,
+          "time": 1,
+          "find_stack_level": 1,
+          "register_dataarray_accessor": 1,
+          "version": 1,
+          "Bio": 1,
+          "SeqIO": 1,
+          "tqdm": 1,
+          "tqdm_notebook": 1,
+          "lru_cache": 1,
+          "datetime": 1,
+          "date": 1,
+          "JanitorError": 1,
+          "json": 1,
+          "requests": 1,
+          "Optional": 1,
+          "StringIO": 1,
+          "collections": 1,
+          "subprocess": 1,
+          "openpyxl": 1,
+          "Cell": 1,
+          "Workbook": 1,
+          "ReadOnlyCell": 1,
+          "polars": 1,
+          "IO": 1,
+          "defaultdict": 1,
+          "load_workbook": 1,
+          "itertools": 1,
+          "chain": 1,
+          "TYPE_CHECKING": 1,
+          "ndarray": 1,
+          "Series": 1,
+          "register_dataframe_accessor": 1,
+          "import_message": 1,
+          "DataFrame": 1,
+          "re": 1,
+          "utils": 1,
+          "hypothesis": 1,
+          "strategies": 1,
+          "column": 1,
+          "warn": 1,
+          "pathlib": 1,
+          "deprecated_kwargs": 1,
+          "Any": 1,
+          "socket": 1,
+          "all": 1,
+          "singledispatch": 1,
+          "Path": 1,
+          "date_data": 1,
+          "convert_units": 1,
+          "UnitConversionError": 1,
+          "imread": 1,
+          "label": 1,
+          "skimage": 1,
+          "threshold_otsu": 1,
+          "rgb2gray": 1,
+          "area_closing": 1,
+          "dis": 1,
+          "empiricaldist": 1,
+          "Pmf": 1,
+          "poisson": 1,
+          "base_uri": 1,
+          "fractions": 1,
+          "display": 1,
+          "IPython": 1,
+          "pre_run_cell": 1,
+          "graphviz": 1,
+          "get_ipython": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 27,
+        "packages": {
+          "pyo3": 27,
+          "numpy": 27,
+          "itertools": 15,
+          "std": 13
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "pyjanitor-devs/janitor-rs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "pyjanitor-devs/pandas_flavor",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "pyjanitor-devs/pyjanitor",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "pyjanitor-devs/pyjviz",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

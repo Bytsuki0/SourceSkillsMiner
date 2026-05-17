@@ -1,0 +1,211 @@
+{
+  "username": "adamrushy",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1519998?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.923153889199785,
+      "details": {
+        "issue_resolution_rate": 0.9230769230769231,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.8463847445224318
+      }
+    },
+    "Status": {
+      "score": 0.782128248174144,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.8463847445224318,
+        "week_streak": 0.5
+      }
+    },
+    "Adaptability": {
+      "score": 0.49375,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 20,
+        "bounced_back_prs": 17
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "adamrushy/OpenAISwift": 0.3150790322580645,
+        "adamrushy/social-swiftui-app": 0.24697,
+        "adamrushy/XcodeServer-Tutorial-Fruits": 0.8883
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8148064274747858,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        17059,
+        0
+      ],
+      "Ruby": [
+        91751,
+        0
+      ],
+      "Swift": [
+        1653431,
+        83
+      ],
+      "Objective-C": [
+        5970,
+        0
+      ],
+      "HTML": [
+        153,
+        4
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 87,
+    "total_lines": 1768364,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 1653431,
+        "commits": 83
+      },
+      {
+        "language": "HTML",
+        "lines": 153,
+        "commits": 4
+      },
+      {
+        "language": "JavaScript",
+        "lines": 17059,
+        "commits": 0
+      },
+      {
+        "language": "Ruby",
+        "lines": 91751,
+        "commits": 0
+      },
+      {
+        "language": "Objective-C",
+        "lines": 5970,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "adamrushy",
+    "analysis_date": "2026-05-17T06:59:44.841573",
+    "total_repos_analyzed": 9,
+    "total_files_analyzed": 104,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<UIKit/UIKit.h>": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 102,
+        "packages": {
+          "Foundation": 42,
+          "UIKit": 35,
+          "SwiftUI": 19,
+          "XCTest": 7,
+          "PackageDescription": 3,
+          "FoundationXML": 3,
+          "FoundationNetworking": 3,
+          "MusicKit": 3,
+          "ASN1Swift": 3,
+          "GoogleMaps": 2,
+          "class": 2,
+          "StoreKit": 2,
+          "CoreLocation": 1,
+          "GoogleNavigation": 1,
+          "velocity": 1,
+          "the": 1,
+          "this": 1,
+          "CoreData": 1,
+          "Lottie": 1,
+          "TPInAppReceipt": 1,
+          "WatchKit": 1,
+          "Cocoa": 1,
+          "IOKit": 1,
+          "CommonCrypto": 1,
+          "TPInAppReceiptTests": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "adamrushy/google-navigation-poc",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "adamrushy/OpenAISwift",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "adamrushy/PanModal",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "adamrushy/social-swiftui-app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "adamrushy/TPInAppReceipt",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "adamrushy/XcodeServer-Tutorial-Fruits",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

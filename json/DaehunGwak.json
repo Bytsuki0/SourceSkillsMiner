@@ -1,0 +1,638 @@
+{
+  "username": "DaehunGwak",
+  "avatar_url": "https://avatars.githubusercontent.com/u/12469427?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.9301258063982646,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.9903774191947936,
+        "week_streak": 0.8
+      }
+    },
+    "Adaptability": {
+      "score": 0.75,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 10,
+        "language_transitions": 10,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7776918279463196,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        13508,
+        155
+      ],
+      "Jupyter Notebook": [
+        1664841,
+        72
+      ],
+      "JavaScript": [
+        71024,
+        77
+      ],
+      "Shell": [
+        348,
+        0
+      ],
+      "TypeScript": [
+        302,
+        222
+      ],
+      "CSS": [
+        836,
+        31
+      ],
+      "Dockerfile": [
+        113,
+        0
+      ],
+      "HTML": [
+        4755,
+        101
+      ],
+      "SCSS": [
+        33946,
+        19
+      ],
+      "Vue": [
+        28334,
+        79
+      ],
+      "Java": [
+        25689,
+        139
+      ],
+      "Makefile": [
+        15,
+        0
+      ],
+      "Mustache": [
+        261,
+        1
+      ],
+      "Dart": [
+        0,
+        272
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "C++": [
+        0,
+        24
+      ],
+      "CMake": [
+        0,
+        20
+      ],
+      "Swift": [
+        0,
+        8
+      ],
+      "Ruby": [
+        0,
+        4
+      ],
+      "C": [
+        0,
+        1
+      ],
+      "Kotlin": [
+        0,
+        53
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Smarty": [
+        0,
+        1
+      ]
+    },
+    "language_count": 23,
+    "total_commits": 1279,
+    "total_lines": 1843972,
+    "top_5_languages": [
+      {
+        "language": "Dart",
+        "lines": 0,
+        "commits": 272
+      },
+      {
+        "language": "TypeScript",
+        "lines": 302,
+        "commits": 222
+      },
+      {
+        "language": "Python",
+        "lines": 13508,
+        "commits": 155
+      },
+      {
+        "language": "Java",
+        "lines": 25689,
+        "commits": 139
+      },
+      {
+        "language": "HTML",
+        "lines": 4755,
+        "commits": 101
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "DaehunGwak",
+    "analysis_date": "2026-05-16T01:50:38.335158",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 326,
+    "languages": {
+      "C++": {
+        "files_scanned": 8,
+        "packages": {
+          "generated_plugin_registrant.h": 2,
+          "my_application.h": 2,
+          "flutter/generated_plugin_registrant.h": 2,
+          "flutter_window.h": 2,
+          "utils.h": 2,
+          "windows.h": 2,
+          "<windows.h>": 2,
+          "<flutter_windows.h>": 2,
+          "flutter_windows.h": 2,
+          "flutter_linux/flutter_linux.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "gdk/gdkx.h": 1,
+          "<gdk/gdkx.h>": 1,
+          "<optional>": 1,
+          "optional": 1,
+          "flutter/dart_project.h": 1,
+          "<flutter/flutter_view_controller.h>": 1,
+          "<flutter/dart_project.h>": 1,
+          "flutter/flutter_view_controller.h": 1,
+          "<io.h>": 1,
+          "iostream": 1,
+          "<iostream>": 1,
+          "io.h": 1,
+          "stdio.h": 1,
+          "<stdio.h>": 1,
+          "resource.h": 1,
+          "<dwmapi.h>": 1,
+          "EnableNonClientDpiScaling": 1,
+          "win32_window.h": 1,
+          "dwmapi.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 10,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 4,
+          "<memory>": 2,
+          "memory": 2,
+          "string": 2,
+          "<string>": 2,
+          "flutter_linux/flutter_linux.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "gtk/gtk.h": 1,
+          "<gtk/gtk.h>": 1,
+          "flutter/plugin_registry.h": 1,
+          "<flutter/plugin_registry.h>": 1,
+          "flutter/dart_project.h": 1,
+          "<flutter/flutter_view_controller.h>": 1,
+          "win32_window.h": 1,
+          "<flutter/dart_project.h>": 1,
+          "flutter/flutter_view_controller.h": 1,
+          "vector": 1,
+          "<vector>": 1,
+          "windows.h": 1,
+          "<windows.h>": 1,
+          "<functional>": 1,
+          "functional": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 34,
+        "packages": {
+          "flutter": 27,
+          "dart:convert": 5,
+          "animation_class": 5,
+          "dart:math": 5,
+          "flutter_test": 3,
+          "animation_music_player": 3,
+          "gemma_test": 3,
+          "flutter_tab_bar_test": 3,
+          "constructor_practice.dart": 1,
+          "default.dart": 1,
+          "mixins.dart": 1,
+          "abstract_classes.dart": 1,
+          "enums.dart": 1,
+          "constructors.dart": 1,
+          "inheritance.dart": 1,
+          "casecade_notation.dart": 1,
+          "test": 1,
+          "lottie": 1,
+          "dart:ui": 1,
+          "flutter_gemma": 1,
+          "dio": 1,
+          "router.dart": 1,
+          "go_router": 1,
+          "models/types/tab_type.dart": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 31,
+        "packages": {
+          "com.ordi": 28,
+          "org.springframework": 16,
+          "lombok.Getter": 11,
+          "java.util": 10,
+          "lombok.RequiredArgsConstructor": 9,
+          "static": 7,
+          "org.junit": 7,
+          "lombok.Builder": 5,
+          "lombok.NoArgsConstructor": 4,
+          "javax.servlet": 3,
+          "java.time": 3,
+          "javax.persistence": 3,
+          "com.example": 3,
+          "android.support": 2,
+          "android.content": 2,
+          "java.lang": 1,
+          "java.io": 1,
+          "android.Manifest": 1,
+          "android.net": 1,
+          "android.widget": 1,
+          "android.hardware": 1,
+          "android.util": 1,
+          "android.os": 1,
+          "java.security": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 54,
+        "packages": {
+          "assets": 25,
+          "vue": 10,
+          "k6": 6,
+          "react": 5,
+          "vue-router": 3,
+          ":": 2,
+          "axios": 2,
+          "vue-axios": 2,
+          "vuex": 2,
+          "canvas-sketch": 1,
+          ")?": 1,
+          "tailwindcss": 1,
+          "Lucida": 1,
+          "~": 1,
+          "undefined": 1,
+          "[object": 1,
+          "Symbol(": 1,
+          "i=n.length;o<i;o++)t.style[r]=n[o];else": 1,
+          "mi=[": 1,
+          ");else{var": 1,
+          "layouts": 1,
+          "context": 1,
+          "routes": 1,
+          "emotion": 1,
+          "react-router-dom": 1,
+          "mui": 1,
+          "components": 1,
+          "examples": 1,
+          "stylis-plugin-rtl": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 3,
+        "packages": {
+          "io.flutter": 3,
+          "io.ordi": 2,
+          "com.example": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 76,
+        "packages": {
+          "os": 31,
+          "numpy": 24,
+          "__future__": 23,
+          "division": 22,
+          "absolute_import": 22,
+          "print_function": 22,
+          "keras": 18,
+          "cv2": 16,
+          "pickle": 16,
+          "nsml": 14,
+          "ReduceLROnPlateau": 14,
+          "argparse": 14,
+          "DATASET_PATH": 14,
+          "fastapi": 13,
+          "app": 13,
+          "django": 13,
+          "ImageDataGenerator": 12,
+          "MobileNet": 10,
+          "Dense": 10,
+          "Sequential": 10,
+          "Conv2D": 10,
+          "model": 9,
+          "backend": 8,
+          "data_loader": 8,
+          "train_data_loader": 8,
+          "setup": 7,
+          "distutils": 7,
+          "Model": 7,
+          "APIRouter": 7,
+          "sklearn": 6,
+          "time": 6,
+          "FastAPI": 5,
+          "sys": 5,
+          "json": 5,
+          "ResNet50": 4,
+          "*": 4,
+          "threading": 4,
+          "euclidean_distances": 4,
+          "asynccontextmanager": 4,
+          "contextlib": 4,
+          "Path": 4,
+          "pathlib": 4,
+          "Dropout": 3,
+          "embed": 3,
+          "httpx": 3,
+          "io": 3,
+          "librosa": 3,
+          "BaseModel": 3,
+          "pydantic": 3,
+          "fixtures": 3,
+          "MobileNetV2": 2,
+          "StratifiedKFold": 2,
+          "ModelClient": 2,
+          "JSONResponse": 2,
+          "EmbeddingResponse": 2,
+          "BytesIO": 2,
+          "torch": 2,
+          "laion_clap": 2,
+          "urllib": 2,
+          "math": 2,
+          "path": 2,
+          "admin": 2,
+          "AppConfig": 2,
+          "migrations": 2,
+          "models": 2,
+          "RedirectResponse": 2,
+          "templates": 2,
+          "HTMLResponse": 2,
+          "pytest": 2,
+          "merge": 1,
+          "collections": 1,
+          "defaultdict": 1,
+          "pprint": 1,
+          "get_model": 1,
+          "NearestNeighbors": 1,
+          "tqdm": 1,
+          "MODEL_SERVICE_URL": 1,
+          "infer": 1,
+          "InferResponse": 1,
+          "soundfile": 1,
+          "tarfile": 1,
+          "hf_hub_download": 1,
+          "huggingface_hub": 1,
+          "transformers": 1,
+          "RobertaTokenizer": 1,
+          "TritonCLAPClient": 1,
+          "get_asgi_application": 1,
+          "get_wsgi_application": 1,
+          "render": 1,
+          "execute_from_command_line": 1,
+          "router": 1,
+          "StaticFiles": 1,
+          "Jinja2Templates": 1,
+          "typing": 1,
+          "Any": 1,
+          "datetime": 1,
+          "annotations": 1,
+          "secrets": 1,
+          "ASGITransport": 1,
+          "re": 1,
+          "firestore": 1,
+          "firebase_admin": 1,
+          "credentials": 1,
+          "dataclasses": 1,
+          "ast": 1,
+          "dataclass": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 20,
+        "packages": {
+          "FlutterMacOS": 12,
+          "Cocoa": 9,
+          "Flutter": 8,
+          "UIKit": 8,
+          "XCTest": 7,
+          "Foundation": 3,
+          "path_provider_foundation": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "DaehunGwak/24h-Naver2018AIHack-Vision",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/ai-playground",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/AI-Vision",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/ask-company-django-react",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/atdd-subway-map",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/atdd-subway-path",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/canvas-sketch-sample",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/claude-design-demo",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/clone-springboot2-webservice",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/CPL-20191-Team8",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/creative-archives",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/daehungwak.github.io",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/dart-playground",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Dart"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/docusaurus-test",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/effective-python-skill",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/emoji-lab",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/fc-project-sns",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/flutter-playground",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/flutter-toys",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "DaehunGwak/flutter_devtools_test",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

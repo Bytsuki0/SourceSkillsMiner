@@ -1,0 +1,562 @@
+{
+  "username": "nanuchi",
+  "avatar_url": "https://avatars.githubusercontent.com/u/16731478?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.5204596553338338,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.6666666666666666,
+        "commits_activity": 0.8947122993348348
+      }
+    },
+    "Status": {
+      "score": 0.657345475020064,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.7720364250601922,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 0.375,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "nanuchi/devsecops-crash-course-pygoat": 0.710075
+      }
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6355610260707796,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        1256989,
+        10
+      ],
+      "Java": [
+        1465509,
+        11
+      ],
+      "Kotlin": [
+        60,
+        0
+      ],
+      "Shell": [
+        279865,
+        7
+      ],
+      "Python": [
+        389319,
+        4
+      ],
+      "CSS": [
+        190597,
+        2
+      ],
+      "Jupyter Notebook": [
+        21723,
+        0
+      ],
+      "JavaScript": [
+        1222431,
+        8
+      ],
+      "Dockerfile": [
+        93755,
+        2
+      ],
+      "Procfile": [
+        37,
+        0
+      ],
+      "Groovy": [
+        634,
+        0
+      ],
+      "Go": [
+        163921,
+        0
+      ],
+      "C#": [
+        31991,
+        0
+      ],
+      "Vue": [
+        28965,
+        5
+      ],
+      "HCL": [
+        120874,
+        0
+      ],
+      "C": [
+        93923,
+        0
+      ],
+      "Smarty": [
+        37408,
+        0
+      ],
+      "Vim Snippet": [
+        3487,
+        0
+      ]
+    },
+    "language_count": 18,
+    "total_commits": 49,
+    "total_lines": 5401488,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 1465509,
+        "commits": 11
+      },
+      {
+        "language": "HTML",
+        "lines": 1256989,
+        "commits": 10
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1222431,
+        "commits": 8
+      },
+      {
+        "language": "Shell",
+        "lines": 279865,
+        "commits": 7
+      },
+      {
+        "language": "Vue",
+        "lines": 28965,
+        "commits": 5
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "nanuchi",
+    "analysis_date": "2026-05-17T01:20:24.756407",
+    "total_repos_analyzed": 13,
+    "total_files_analyzed": 188,
+    "languages": {
+      "C#": {
+        "files_scanned": 8,
+        "packages": {
+          "System": 6,
+          "System.Threading.Tasks": 6,
+          "Microsoft.Extensions.Hosting": 3,
+          "Microsoft.AspNetCore.Hosting": 3,
+          "cartservice.cartstore": 3,
+          "Grpc.Core": 3,
+          "System.Linq": 2,
+          "Hipstershop": 2,
+          "static": 2,
+          "cartservice": 1,
+          "Microsoft.AspNetCore.Builder": 1,
+          "Microsoft.AspNetCore.Http": 1,
+          "Microsoft.AspNetCore.Diagnostics.HealthChecks": 1,
+          "Microsoft.Extensions.DependencyInjection": 1,
+          "cartservice.services": 1,
+          "Microsoft.Extensions.Diagnostics.HealthChecks": 1,
+          "Microsoft.Extensions.Configuration": 1,
+          "System.Collections.Concurrent": 1,
+          "Google.Protobuf": 1,
+          "StackExchange.Redis": 1,
+          "Microsoft.Extensions.Logging": 1,
+          "Grpc.Health.V1": 1,
+          "Xunit": 1,
+          "Microsoft.AspNetCore.TestHost": 1,
+          "Grpc.Net.Client": 1,
+          "var": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 12,
+        "packages": {
+          "time": 8,
+          "fmt": 8,
+          "os": 6,
+          "context": 5,
+          "testing": 5,
+          "github.com/sirupsen/logrus": 4,
+          "strings": 4,
+          "github.com/pkg/errors": 3,
+          "net/http": 3,
+          "os/exec": 3,
+          "github.com/gruntwork-io/terratest/modules/terraform": 3,
+          "region": 3,
+          "log": 3,
+          "go.opencensus.io/stats/view": 2,
+          "go.opencensus.io/plugin/ocgrpc": 2,
+          "contrib.go.opencensus.io/exporter/stackdriver": 2,
+          "github.com/google/uuid": 2,
+          "google.golang.org/grpc": 2,
+          "contrib.go.opencensus.io/exporter/jaeger": 2,
+          "cloud.google.com/go/profiler": 2,
+          "go.opencensus.io/trace": 2,
+          "net": 2,
+          "errors": 2,
+          "reflect": 2,
+          "CAD": 2,
+          "github.com/gorilla/mux": 2,
+          "USD": 2,
+          "EUR": 2,
+          "JPY": 2,
+          "GBP": 2,
+          "TRY": 2,
+          "google.golang.org/grpc/codes": 1,
+          "google.golang.org/grpc/status": 1,
+          "currencies": 1,
+          "show_currency": 1,
+          "status_code": 1,
+          "cart_size": 1,
+          "math/rand": 1,
+          "total_cost": 1,
+          "banner_color": 1,
+          "product": 1,
+          "ad": 1,
+          "html/template": 1,
+          "user_currency": 1,
+          "renderMoney": 1,
+          "expiration_years": 1,
+          "status": 1,
+          "renderCurrencyLogo": 1,
+          "items": 1,
+          "strconv": 1,
+          "github.com/GoogleCloudPlatform/microservices-demo/src/frontend/money": 1,
+          "platform_name": 1,
+          "request_id": 1,
+          "recommendations": 1,
+          "products": 1,
+          "platform_css": 1,
+          "shipping_cost": 1,
+          "total_paid": 1,
+          "error": 1,
+          "order": 1,
+          "session_id": 1,
+          "go.opencensus.io/plugin/ochttp/propagation/b3": 1,
+          "go.opencensus.io/plugin/ochttp": 1,
+          "http.req.path": 1,
+          "http.req.method": 1,
+          "http.resp.status": 1,
+          "http.resp.bytes": 1,
+          "http.resp.took_ms": 1,
+          "http.req.id": 1,
+          "Environment": 1,
+          "Application": 1,
+          "tags": 1,
+          "CreatedBy": 1,
+          "project_id": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 36,
+        "packages": {
+          "org.springframework": 22,
+          "org.owasp": 22,
+          "java.util": 18,
+          "java.io": 7,
+          "lombok.extern": 7,
+          "com.jetbrains": 6,
+          "static": 6,
+          "java.nio": 5,
+          "org.apache": 4,
+          "io.swagger": 4,
+          "jakarta.servlet": 4,
+          "org.slf4j": 3,
+          "org.junit": 3,
+          "com.coditorium": 3,
+          "com.google": 3,
+          "org.thymeleaf": 3,
+          "lombok.Getter": 3,
+          "hipstershop": 2,
+          "io.opencensus": 2,
+          "hipstershop.Demo": 2,
+          "io.grpc": 2,
+          "javax.annotation": 2,
+          "com.example": 2,
+          "java.net": 1,
+          "lombok.AllArgsConstructor": 1,
+          "nz.net": 1,
+          "lombok.ToString": 1,
+          "org.asciidoctor": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 32,
+        "packages": {
+          "react": 14,
+          "path": 6,
+          "fs": 5,
+          "react-redux": 3,
+          "pino": 3,
+          "react-dom": 2,
+          "grpc": 2,
+          "google-cloud": 2,
+          "express": 2,
+          "body-parser": 2,
+          "testing-library": 2,
+          "CHANGE_FILTER": 1,
+          "REQUEST_COUNTRIES": 1,
+          "RECEIVE_COUNTRIES": 1,
+          "redux": 1,
+          "redux-thunk": 1,
+          "left-pad": 1,
+          "uuid": 1,
+          "simple-card-validator": 1,
+          "fancy-log": 1,
+          "gulp-zip": 1,
+          "child_process": 1,
+          "gulp": 1,
+          "webpack-stream": 1,
+          "del": 1,
+          "*": 1,
+          "utf-8": 1,
+          "crypto": 1,
+          "querystring": 1,
+          "Request": 1,
+          "res": 1,
+          "use": 1,
+          "socket": 1,
+          "zlib": 1,
+          "argument": 1,
+          "_dbcs": 1,
+          "string": 1,
+          "$1�$2": 1,
+          "charset": 1,
+          "etag": 1,
+          "undefined": 1,
+          "get": 1,
+          "content-encoding": 1,
+          "type": 1,
+          "attachment": 1,
+          "if-modified-since": 1,
+          "http": 1,
+          "head": 1,
+          "production": 1,
+          "callSiteToString": 1,
+          "string_decoder": 1,
+          "bodyParser": 1,
+          "o": 1,
+          "iconv-lite": 1,
+          "content-type": 1,
+          "test": 1,
+          "req": 1,
+          "root": 1,
+          "object": 1,
+          "events": 1,
+          "name": 1,
+          "events...]": 1,
+          "{": 1,
+          "number": 1,
+          "arg": 1,
+          "function": 1,
+          "tty": 1,
+          "lookup": 1,
+          "stream": 1,
+          "bootstrap": 1,
+          "mongodb": 1,
+          "vue": 1,
+          "supertest": 1,
+          "time-grunt": 1,
+          "load-grunt-tasks": 1,
+          "npm-shrinkwrap": 1,
+          "markdown": 1,
+          "glob": 1,
+          "btoa": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 63,
+        "packages": {
+          "django": 52,
+          "migrations": 42,
+          "csrf_exempt": 4,
+          "subprocess": 4,
+          "settings": 4,
+          "os": 4,
+          "requests": 3,
+          "time": 3,
+          "sys": 3,
+          "grpc": 3,
+          "demo_pb2": 3,
+          "BestMatch": 2,
+          "chatterbot": 2,
+          "ChatBot": 2,
+          "ListTrainer": 2,
+          "admin": 2,
+          "introduction": 2,
+          "main": 2,
+          "JsonResponse": 2,
+          "redirect": 2,
+          "check_vuln": 2,
+          "login": 2,
+          "Log": 2,
+          "AppConfig": 2,
+          "User": 2,
+          "forms": 2,
+          "UserCreationForm": 2,
+          "json": 2,
+          "yaml": 2,
+          "md5": 2,
+          "datetime": 2,
+          "re": 2,
+          "jwt": 2,
+          "HttpResponse": 2,
+          "render": 2,
+          "hashlib": 2,
+          "google": 2,
+          "demo_pb2_grpc": 2,
+          "logger": 2,
+          "opencensus": 2,
+          "getJSONLogger": 2,
+          "descriptor": 1,
+          "symbol_database": 1,
+          "message": 1,
+          "reflection": 1,
+          "descriptor_pb2": 1,
+          "Tracer": 1,
+          "stackdriver_exporter": 1,
+          "client_interceptor": 1,
+          "health_pb2_grpc": 1,
+          "jinja2": 1,
+          "trace_exporter": 1,
+          "server_interceptor": 1,
+          "health_pb2": 1,
+          "samplers": 1,
+          "GoogleAPICallError": 1,
+          "AsyncTransport": 1,
+          "argparse": 1,
+          "grpc_health": 1,
+          "DefaultCredentialsError": 1,
+          "googleclouddebugger": 1,
+          "googlecloudprofiler": 1,
+          "Environment": 1,
+          "futures": 1,
+          "concurrent": 1,
+          "logging": 1,
+          "pythonjsonlogger": 1,
+          "jsonlogger": 1,
+          "locust": 1,
+          "HttpUser": 1,
+          "random": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "nanuchi/anewtodolist",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "nanuchi/devsecops-crash-course-pygoat",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "nanuchi/java-react-example",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "nanuchi/microservices-demo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "Go",
+          "Java",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "nanuchi/my-project",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "nanuchi/pygoat",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "nanuchi/react-nodejs-example",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "nanuchi/teamable",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "nanuchi/todomvc",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "nanuchi/wrongsecrets",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Java",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "username": "isun-dev",
+  "avatar_url": "https://avatars.githubusercontent.com/u/43905552?v=4",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.8,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 0.693494,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.774,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 13,
+        "topic_entropy_bits": 2.3219,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7736988,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        15131,
+        311
+      ],
+      "Python": [
+        465627,
+        25
+      ],
+      "Dockerfile": [
+        22369,
+        0
+      ],
+      "C++": [
+        27035,
+        0
+      ],
+      "JavaScript": [
+        936,
+        11
+      ],
+      "Mustache": [
+        788,
+        5
+      ],
+      "HTML": [
+        670,
+        6
+      ],
+      "CSS": [
+        384,
+        3
+      ],
+      "Kotlin": [
+        1625,
+        9
+      ],
+      "Objective-C": [
+        0,
+        1
+      ],
+      "Ruby": [
+        0,
+        3
+      ],
+      "Starlark": [
+        0,
+        0
+      ],
+      "SCSS": [
+        0,
+        0
+      ],
+      "Less": [
+        0,
+        0
+      ],
+      "PLSQL": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        1
+      ],
+      "TypeScript": [
+        0,
+        3
+      ],
+      "Blade": [
+        0,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 378,
+    "total_lines": 534565,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 15131,
+        "commits": 311
+      },
+      {
+        "language": "Python",
+        "lines": 465627,
+        "commits": 25
+      },
+      {
+        "language": "JavaScript",
+        "lines": 936,
+        "commits": 11
+      },
+      {
+        "language": "Kotlin",
+        "lines": 1625,
+        "commits": 9
+      },
+      {
+        "language": "HTML",
+        "lines": 670,
+        "commits": 6
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "isun-dev",
+    "analysis_date": "2026-05-16T00:55:33.682111",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 341,
+    "languages": {
+      "C++": {
+        "files_scanned": 39,
+        "packages": {
+          "namespace": 39,
+          "std": 39,
+          "bits/stdc++.h": 30,
+          "<bits/stdc++.h>": 30,
+          "<iostream>": 9,
+          "iostream": 9,
+          "<algorithm>": 3,
+          "algorithm": 3
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<UIKit/UIKit.h>": 1,
+          "<React/RCTBridgeDelegate.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 93,
+        "packages": {
+          "java.util": 67,
+          "java.io": 27,
+          "com.sun": 21,
+          "org.springframework": 16,
+          "lombok.Getter": 9,
+          "org.junit": 7,
+          "lombok.RequiredArgsConstructor": 5,
+          "static": 5,
+          "lombok.Builder": 4,
+          "lombok.NoArgsConstructor": 4,
+          "javax.persistence": 3,
+          "java.time": 3,
+          "com.daylog": 3,
+          "com.facebook": 3,
+          "com.nicole": 2,
+          "com.careerly": 2,
+          "android.content": 2,
+          "boj": 1,
+          "okhttp3.OkHttpClient": 1,
+          "android.app": 1,
+          "java.lang": 1,
+          "javax.servlet": 1,
+          "com.example": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 8,
+        "packages": {
+          "react": 7,
+          "react-native": 5,
+          "react-navigation": 3,
+          "react-native-vector-icons": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 44,
+        "packages": {
+          "kr.co": 44,
+          "org.json": 26,
+          "android.content": 22,
+          "android.os": 21,
+          "android.widget": 18,
+          "androidx.appcompat": 13,
+          "kotlinx.android": 13,
+          "android.util": 9,
+          "com.bumptech": 9,
+          "android.view": 9,
+          "java.text": 6,
+          "java.util": 5,
+          "org.junit": 4,
+          "com.google": 4,
+          "java.io": 3,
+          "androidx.test": 2,
+          "android.text": 2,
+          "okhttp3.HttpUrl": 2,
+          "okhttp3": 2,
+          "android.app": 2,
+          "kotlin.collections": 2,
+          "android.graphics": 1,
+          "kotlin.math": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 3,
+        "packages": {
+          "AppDelegate.h": 2,
+          "<React/RCTRootView.h>": 2,
+          "React/RCTRootView.h": 2,
+          "UIKit/UIKit.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "<FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>": 1,
+          "<FlipperKitReactPlugin/FlipperKitReactPlugin.h>": 1,
+          "FlipperKit/FlipperClient.h": 1,
+          "<FlipperKit/FlipperClient.h>": 1,
+          "<React/RCTBridge.h>": 1,
+          "FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h": 1,
+          "React/RCTBridge.h": 1,
+          "<FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h>": 1,
+          "FlipperKitReactPlugin/FlipperKitReactPlugin.h": 1,
+          "React/RCTBundleURLProvider.h": 1,
+          "<React/RCTBundleURLProvider.h>": 1,
+          "FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h": 1,
+          "SKIOSNetworkPlugin/SKIOSNetworkAdapter.h": 1,
+          "FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h": 1,
+          "<FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h>": 1,
+          "<SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>": 1,
+          "XCTest/XCTest.h": 1,
+          "React/RCTLog.h": 1,
+          "<XCTest/XCTest.h>": 1,
+          "<React/RCTLog.h>": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 60,
+        "packages": {
+          "sys": 29,
+          "collections": 13,
+          "fastapi": 13,
+          "deque": 10,
+          "APIRouter": 9,
+          "List": 9,
+          "typing": 9,
+          "pydantic": 8,
+          "BaseModel": 8,
+          "pandas": 5,
+          "app": 3,
+          "Counter": 2,
+          "Query": 2,
+          "httpx": 2,
+          "settings": 2,
+          "router": 2,
+          "FastAPI": 2,
+          "math": 2,
+          "datetime": 1,
+          "os": 1,
+          "uuid": 1,
+          "pydantic_settings": 1,
+          "BaseSettings": 1,
+          "sessionmaker": 1,
+          "databases": 1,
+          "Database": 1,
+          "declarative_base": 1,
+          "AsyncSession": 1,
+          "sqlalchemy": 1,
+          "database": 1,
+          "users": 1,
+          "reduce": 1,
+          "functools": 1,
+          "re": 1,
+          "ascii_lowercase": 1,
+          "string": 1,
+          "heapq": 1,
+          "io": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "isun-dev/about_keycloak",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "isun-dev/algorithm",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "isun-dev/algorithm-study",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "isun-dev/algorithms_practice",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "isun-dev/Api-Server",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "isun-dev/backend_festapi",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "isun-dev/baekjoon_algorithm",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "isun-dev/basic-algo-lecture",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "isun-dev/boardJpa",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "isun-dev/BrainStorming",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "isun-dev/CodeUpBasic100",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "isun-dev/CodingTestArchive",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "isun-dev/Daily10Minutes_20200824",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "isun-dev/Daily10Minute_20200719",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "isun-dev/DayLog",
+        "files_analyzed": 19,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "isun-dev/demo",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "isun-dev/fastapi-prc",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "isun-dev/FastCampus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "Java",
+          "Python"
+        ]
+      }
+    ]
+  }
+}

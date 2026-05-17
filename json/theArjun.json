@@ -1,0 +1,565 @@
+{
+  "username": "theArjun",
+  "avatar_url": "https://avatars.githubusercontent.com/u/33110520?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8666666666666667,
+      "details": {
+        "issue_resolution_rate": 0.75,
+        "pr_merge_rate": 0.85,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7607697931230841,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.9823093793692522,
+        "week_streak": 0.3
+      }
+    },
+    "Adaptability": {
+      "score": 0.75,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 14,
+        "language_transitions": 12,
+        "topic_entropy_bits": 5.0702,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "theArjun/awesome-django-blogs": 0.19936666666666666,
+        "theArjun/cafeteria-management-system": 0.46666666666666673
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8504872919579503,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TeX": [
+        295398,
+        49
+      ],
+      "C++": [
+        5178385,
+        17
+      ],
+      "Python": [
+        507017,
+        548
+      ],
+      "JavaScript": [
+        303998,
+        104
+      ],
+      "Shell": [
+        2156,
+        190
+      ],
+      "HTML": [
+        5595,
+        178
+      ],
+      "Kotlin": [
+        6451,
+        0
+      ],
+      "CSS": [
+        39700,
+        46
+      ],
+      "Dockerfile": [
+        131,
+        13
+      ],
+      "Java": [
+        0,
+        779
+      ],
+      "Procfile": [
+        0,
+        0
+      ],
+      "Ruby": [
+        0,
+        10
+      ],
+      "PowerShell": [
+        0,
+        25
+      ],
+      "Batchfile": [
+        0,
+        1
+      ],
+      "Jupyter Notebook": [
+        0,
+        380
+      ],
+      "Go": [
+        0,
+        3
+      ],
+      "Sass": [
+        0,
+        6
+      ],
+      "SCSS": [
+        0,
+        1
+      ],
+      "Rust": [
+        0,
+        56
+      ],
+      "TypeScript": [
+        0,
+        18
+      ]
+    },
+    "language_count": 20,
+    "total_commits": 2424,
+    "total_lines": 6338831,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 0,
+        "commits": 779
+      },
+      {
+        "language": "Python",
+        "lines": 507017,
+        "commits": 548
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 0,
+        "commits": 380
+      },
+      {
+        "language": "Shell",
+        "lines": 2156,
+        "commits": 190
+      },
+      {
+        "language": "HTML",
+        "lines": 5595,
+        "commits": 178
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "theArjun",
+    "analysis_date": "2026-05-16T03:01:47.385921",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 196,
+    "languages": {
+      "C++": {
+        "files_scanned": 5,
+        "packages": {
+          "iostream": 5,
+          "std": 5,
+          "namespace": 5,
+          "<iostream>": 5,
+          "<vector>": 4,
+          "vector": 4,
+          "<stack>": 1,
+          "stack": 1,
+          "queue": 1,
+          "<queue>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 8,
+        "packages": {
+          "factory": 6,
+          "singleton": 2,
+          "java.util": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "undefined": 1,
+          "jquery": 1,
+          "jQuery": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 27,
+        "packages": {
+          "react": 26,
+          "antd": 20,
+          "react-router-dom": 9,
+          "classnames": 4,
+          "react-icons": 4,
+          "tanstack": 3,
+          "react-dom": 1,
+          "html2canvas": 1,
+          "jspdf": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 30,
+        "packages": {
+          "com.bitchat": 30,
+          "java.util": 14,
+          "kotlinx.coroutines": 13,
+          "android.util": 12,
+          "android.content": 11,
+          "androidx.compose": 8,
+          "android.os": 7,
+          "androidx.lifecycle": 4,
+          "kotlin.random": 4,
+          "android.app": 3,
+          "androidx.activity": 3,
+          "android.Manifest": 3,
+          "android.bluetooth": 3,
+          "javax.crypto": 2,
+          "java.security": 2,
+          "androidx.core": 2,
+          "java.nio": 2,
+          "kotlinx.parcelize": 2,
+          "java.text": 2,
+          "android.security": 1,
+          "kotlin.experimental": 1,
+          "org.bouncycastle": 1,
+          "kotlin.math": 1,
+          "kotlin.collections": 1,
+          "android.provider": 1,
+          "com.google": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 109,
+        "packages": {
+          "django": 68,
+          "os": 20,
+          "pandas": 18,
+          "admin": 12,
+          "requests": 10,
+          "sys": 10,
+          "bs4": 9,
+          "BeautifulSoup": 9,
+          "models": 9,
+          "re": 7,
+          "path": 7,
+          "AppConfig": 6,
+          "logging": 6,
+          "matplotlib": 6,
+          "reverse": 6,
+          "settings": 5,
+          "easy": 5,
+          "mark_safe": 4,
+          "forms": 4,
+          "utils": 4,
+          "migrations": 4,
+          "gettext_lazy": 4,
+          "render": 4,
+          "pathlib": 4,
+          "Path": 4,
+          "get_wsgi_application": 4,
+          "execute_from_command_line": 4,
+          "argparse": 4,
+          "receiver": 3,
+          "collections": 3,
+          "datetime": 3,
+          "setup": 3,
+          "redirect": 3,
+          "naturaltime": 3,
+          "core": 3,
+          "reverse_lazy": 3,
+          "TimeStampedModel": 3,
+          "model_utils": 3,
+          "rest_framework": 3,
+          "asyncio": 2,
+          "cafeteria": 2,
+          "Sum": 2,
+          "TestCase": 2,
+          "get_asgi_application": 2,
+          "config": 2,
+          "decouple": 2,
+          "static": 2,
+          "coronaupdates": 2,
+          "distutils": 2,
+          "crawl4ai": 2,
+          "hashlib": 2,
+          "django_heroku": 2,
+          "HttpResponseRedirect": 2,
+          "helper": 2,
+          "messages": 2,
+          "urlencode": 2,
+          "test_app": 2,
+          "include": 2,
+          "typing": 2,
+          "EnhancedAdminMixin": 2,
+          "List": 2,
+          "import_export": 2,
+          "scrape": 2,
+          "aiofiles": 1,
+          "HTMLResponse": 1,
+          "FastAPI": 1,
+          "fastapi": 1,
+          "Stock": 1,
+          "JsonResponse": 1,
+          "Submit": 1,
+          "FormHelper": 1,
+          "ugettext_lazy": 1,
+          "crispy_forms": 1,
+          "calculate_percentage": 1,
+          "PercentField": 1,
+          "DjangoIntegration": 1,
+          "sentry_sdk": 1,
+          "PrettyTable": 1,
+          "yaspin": 1,
+          "json": 1,
+          "prettytable": 1,
+          "csv": 1,
+          "OrderedDict": 1,
+          "ipo_result": 1,
+          "IPOResult": 1,
+          "tabulate": 1,
+          "argv": 1,
+          "Covid19": 1,
+          "__version__": 1,
+          "get_domain": 1,
+          "INITIAL_URL": 1,
+          "AsyncWebCrawler": 1,
+          "deque": 1,
+          "create_crawler_config": 1,
+          "dotenv": 1,
+          "load_dotenv": 1,
+          "pydantic": 1,
+          "BaseModel": 1,
+          "urlparse": 1,
+          "urllib": 1,
+          "abc": 1,
+          "dj_database_url": 1,
+          "KNeighborsClassifier": 1,
+          "predictor": 1,
+          "RandomForestClassifier": 1,
+          "sklearn": 1,
+          "BreastCancerForm": 1,
+          "numpy": 1,
+          "wraps": 1,
+          "functools": 1,
+          "cache": 1,
+          "Iterable": 1,
+          "Model": 1,
+          "ref": 1,
+          "conditional_escape": 1,
+          "render_to_string": 1,
+          "_weakref": 1,
+          "admin_urlname": 1,
+          "url": 1,
+          "get_model_name": 1,
+          "import": 1,
+          "=": 1,
+          "get_installed_libraries": 1,
+          "get_library": 1,
+          "import_library": 1,
+          "flatatt": 1,
+          "SafeData": 1,
+          "default_storage": 1,
+          "uuid": 1,
+          "Question": 1,
+          "HttpRequest": 1,
+          "PollAdmin": 1,
+          "AdminSite": 1,
+          "baker": 1,
+          "model_bakery": 1,
+          "Nothing": 1,
+          "test": 1,
+          "SessionStore": 1,
+          "get_runner": 1,
+          "__future__": 1,
+          "setuptools": 1,
+          "HttpResponse": 1,
+          "Choice": 1,
+          "get_template": 1,
+          "ImportMixin": 1,
+          "base_formats": 1,
+          "SimpleListFilter": 1,
+          "timezone": 1,
+          "apps": 1,
+          "resources": 1,
+          "query": 1,
+          "serializers": 1,
+          "pre_save": 1,
+          "routers": 1,
+          "pipelines": 1,
+          "ecommerce": 1,
+          "viewsets": 1,
+          "LoginRequiredMixin": 1,
+          "View": 1,
+          "Response": 1,
+          "icecream": 1,
+          "ic": 1,
+          "TruncDay": 1,
+          "fsm_admin": 1,
+          "FSMTransitionMixin": 1,
+          "UserAdmin": 1,
+          "Enum": 1,
+          "AbstractUser": 1,
+          "django_fsm": 1,
+          "enum": 1,
+          "FSMField": 1,
+          "BATON": 1,
+          "baton": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "theArjun/algorithms",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "theArjun/apache-log-streamer",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/bf-boilerplate",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "theArjun/bikeinfos",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/bitchat-android",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "theArjun/BizbazarVendor",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "theArjun/cafeteria-management-system",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/check-ipo-result",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/corona-updates",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/crawl-news",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/data-analysis-bootcamp",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/design-patterns",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/diary-app",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/disease-predictor",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/django-admin-easy",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/duplicate-files-checker",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "theArjun/e-scrape",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

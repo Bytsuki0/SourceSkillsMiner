@@ -1,0 +1,327 @@
+{
+  "username": "saantleo",
+  "avatar_url": "https://avatars.githubusercontent.com/u/142956367?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.23926353822535518,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.7177906146760656
+      }
+    },
+    "Status": {
+      "score": 0.6406449979691573,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.721934993907472,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 0.4375,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.48848170723890255,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        14284,
+        0
+      ],
+      "HTML": [
+        8765,
+        0
+      ],
+      "CSS": [
+        27864,
+        3
+      ],
+      "JavaScript": [
+        26211,
+        5
+      ],
+      "Go": [
+        61,
+        4
+      ],
+      "Lua": [
+        1988,
+        20
+      ],
+      "Shell": [
+        783,
+        0
+      ],
+      "Rust": [
+        341551,
+        0
+      ],
+      "Gleam": [
+        8516,
+        0
+      ],
+      "Erlang": [
+        1172,
+        0
+      ],
+      "Cap'n Proto": [
+        652,
+        0
+      ],
+      "Makefile": [
+        552,
+        0
+      ],
+      "PowerShell": [
+        102,
+        0
+      ],
+      "Elixir": [
+        79,
+        0
+      ],
+      "Dockerfile": [
+        60,
+        0
+      ],
+      "SCSS": [
+        843,
+        0
+      ],
+      "Solidity": [
+        1215,
+        3
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 35,
+    "total_lines": 434698,
+    "top_5_languages": [
+      {
+        "language": "Lua",
+        "lines": 1988,
+        "commits": 20
+      },
+      {
+        "language": "JavaScript",
+        "lines": 26211,
+        "commits": 5
+      },
+      {
+        "language": "Go",
+        "lines": 61,
+        "commits": 4
+      },
+      {
+        "language": "CSS",
+        "lines": 27864,
+        "commits": 3
+      },
+      {
+        "language": "Solidity",
+        "lines": 1215,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "saantleo",
+    "analysis_date": "2026-05-15T21:40:28.844304",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 85,
+    "languages": {
+      "Go": {
+        "files_scanned": 3,
+        "packages": {
+          "strconv": 3,
+          "strings": 2
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 2,
+        "packages": {
+          "next": 2
+        }
+      },
+      "Lua": {
+        "files_scanned": 14,
+        "packages": {
+          "lazy": 2,
+          "base46": 2,
+          "mason-lspconfig": 1,
+          "lspconfig": 1,
+          "nvim-treesitter.configs": 1,
+          "=": 1,
+          "🌙": 1,
+          "mason": 1,
+          "which-key": 1,
+          "mason-tool-installer": 1,
+          "telescope": 1,
+          "nvchad.post_install": 1,
+          "plugins": 1,
+          "plenary.reload": 1,
+          "nvchad.updater": 1,
+          "nvchad.renamer": 1,
+          "Comment.api": 1,
+          "nvterm.terminal": 1,
+          "nvchad.tabufline": 1,
+          "gitsigns": 1,
+          "formatter.filetypes.javascript": 1,
+          "formatter.filetypes.any": 1,
+          "lint": 1,
+          "custom.configs.lint": 1,
+          "custom.configs.lspconfig": 1,
+          "plugins.configs.lspconfig": 1,
+          "vscode": 1,
+          "cmp": 1,
+          "mini.ai": 1,
+          "mini.tabline": 1,
+          "mini.icons": 1,
+          "mini.surround": 1,
+          "octo": 1,
+          "statuscol": 1,
+          "ufo": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 28,
+        "packages": {
+          "gleam_core": 22,
+          "camino": 18,
+          "std": 16,
+          "crate": 15,
+          "ecow": 5,
+          "strum": 4,
+          "hexpm": 3,
+          "itertools": 3,
+          "regex": 3,
+          "termcolor": 2,
+          "super": 2,
+          "flate2": 2,
+          "clap": 2,
+          "zzz": 1,
+          "futures": 1,
+          "~>": 1,
+          "same_file": 1,
+          "req_1": 1,
+          "==": 1,
+          "async_trait": 1,
+          "http": 1,
+          "config": 1,
+          "dependencies": 1,
+          "pretty_assertions": 1,
+          "fs": 1,
+          "hex": 1,
+          "serde": 1,
+          "gleeunit/should": 1,
+          "https://github.com/gleam-lang/gleam.git": 1,
+          "sha2": 1,
+          "capnp": 1,
+          "vec1": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 5,
+        "packages": {
+          "better-sqlite3": 2,
+          "express": 2,
+          "testing-library": 1,
+          "cors": 1,
+          "process": 1,
+          "dotenv": 1,
+          "multer": 1,
+          "os": 1,
+          "fs": 1,
+          "path": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 8,
+        "packages": {
+          "mui": 7,
+          "react": 5,
+          "axios-hooks": 3,
+          "react-hook-form": 1,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "saantleo/allie-health-assessment",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "saantleo/codewars",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "saantleo/dotfiles",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "saantleo/gleam",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "saantleo/Webbb3",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

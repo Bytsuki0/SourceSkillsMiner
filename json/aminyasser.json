@@ -1,0 +1,524 @@
+{
+  "username": "aminyasser",
+  "avatar_url": "https://avatars.githubusercontent.com/u/64032541?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.3307805403197749,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.9923416209593247
+      }
+    },
+    "Status": {
+      "score": 0.7416489254329071,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.9249467762987214,
+        "week_streak": 0.3
+      }
+    },
+    "Adaptability": {
+      "score": 0.4375,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "aminyasser/twitter-clone": 0.06378
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6519858931505365,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        3439448,
+        15
+      ],
+      "PHP": [
+        867823,
+        15
+      ],
+      "Blade": [
+        259752,
+        0
+      ],
+      "JavaScript": [
+        83551,
+        5
+      ],
+      "Ruby": [
+        403346,
+        30
+      ],
+      "Go": [
+        6176,
+        4
+      ],
+      "Dockerfile": [
+        515,
+        0
+      ],
+      "Shell": [
+        3081,
+        0
+      ],
+      "SCSS": [
+        264863,
+        4
+      ],
+      "Less": [
+        475731,
+        5
+      ],
+      "CSS": [
+        290171,
+        15
+      ],
+      "Vue": [
+        609,
+        0
+      ],
+      "TypeScript": [
+        2388,
+        8
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 101,
+    "total_lines": 6097454,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 403346,
+        "commits": 30
+      },
+      {
+        "language": "HTML",
+        "lines": 3439448,
+        "commits": 15
+      },
+      {
+        "language": "PHP",
+        "lines": 867823,
+        "commits": 15
+      },
+      {
+        "language": "CSS",
+        "lines": 290171,
+        "commits": 15
+      },
+      {
+        "language": "TypeScript",
+        "lines": 2388,
+        "commits": 8
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "aminyasser",
+    "analysis_date": "2026-05-16T03:52:45.603045",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 353,
+    "languages": {
+      "Go": {
+        "files_scanned": 42,
+        "packages": {
+          "fmt": 13,
+          "github.com/gin-gonic/gin": 10,
+          "net/http": 9,
+          "log": 9,
+          "github.com/aminyasser/todo-list/entity/model": 8,
+          "strconv": 7,
+          "time": 7,
+          "github.com/aminyasser/todo-list/entity/response": 7,
+          "gorm.io/gorm": 6,
+          "github.com/aminyasser/todo-list/entity/request": 6,
+          "github.com/aminyasser/todo-list/service": 5,
+          "github.com/aminyasser/chat-api/golang-service/domain/model": 4,
+          "errors": 4,
+          "encoding/json": 4,
+          "github.com/dgrijalva/jwt-go": 4,
+          "github.com/aminyasser/todo-list/repository": 4,
+          "net/url": 3,
+          "strings": 3,
+          "github.com/aminyasser/chat-api/golang-service/domain/dto": 3,
+          "github.com/aminyasser/chat-api/golang-service/app/repository": 3,
+          "github.com/mashingan/smapping": 3,
+          "testing": 3,
+          "message": 2,
+          "github.com/aminyasser/chat-api/golang-service/clients/redis": 2,
+          "github.com/aminyasser/chat-api/golang-service/queue/producer": 2,
+          "github.com/aminyasser/chat-api/golang-service/app/usecase": 2,
+          "golang.org/x/crypto/bcrypt": 2,
+          "io": 2,
+          "regexp": 2,
+          "net/http/httputil": 1,
+          "chat_number": 1,
+          "message_number": 1,
+          "gorm.io/driver/mysql": 1,
+          "context": 1,
+          "github.com/redis/go-redis/v9": 1,
+          "github.com/jasonlvhit/gocron": 1,
+          "chats_queue": 1,
+          "messages_queue": 1,
+          "github.com/aminyasser/chat-api/golang-service/clients/rabbitmq": 1,
+          "gorm.io/driver/postgres": 1,
+          "github.com/aminyasser/todo-list/controller": 1,
+          "github.com/aminyasser/todo-list/database": 1,
+          "github.com/aminyasser/todo-list/middleware": 1,
+          "os": 1,
+          "github.com/google/go-querystring/query": 1,
+          "io/ioutil": 1,
+          "path": 1,
+          "include,omitempty": 1,
+          "bytes": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 31,
+        "packages": {
+          "sequelize": 7,
+          "sequelize-cli": 7,
+          "undefined": 4,
+          "jQuery": 4,
+          "rails": 4,
+          "jquery": 2,
+          "express-validator": 2,
+          "express": 2,
+          "toastr": 2,
+          "turbolinks": 2,
+          "channels": 2,
+          "pg": 1,
+          "path": 1,
+          "fs": 1,
+          "process": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 118,
+        "packages": {
+          "App\\Http\\Controllers\\Controller": 31,
+          "Illuminate\\Http\\Request": 25,
+          "Illuminate\\Support\\Facades\\Auth": 18,
+          "App\\Providers\\RouteServiceProvider": 12,
+          "Illuminate\\Support\\Facades\\DB": 12,
+          "App\\Models\\User": 11,
+          "Livewire\\Component": 9,
+          "App\\Models\\Product": 7,
+          "validInterface.php": 6,
+          "ValidInterface.php": 6,
+          "Illuminate\\Http\\RedirectResponse": 5,
+          "App\\Models\\Post": 5,
+          "Illuminate\\Broadcasting\\InteractsWithSockets": 4,
+          "Illuminate\\Broadcasting\\Channel": 4,
+          "Illuminate\\Queue\\SerializesModels": 4,
+          "Illuminate\\Foundation\\Events\\Dispatchable": 4,
+          "Dispatchable": 4,
+          "Illuminate\\Contracts\\Broadcasting\\ShouldBroadcast": 4,
+          "App\\Course": 4,
+          "Illuminate\\Support\\Facades\\Notification": 3,
+          "Illuminate\\Foundation\\Console\\Kernel": 3,
+          "routes/console.php": 3,
+          "Illuminate\\Console\\Scheduling\\Schedule": 3,
+          "Illuminate\\Broadcasting\\PresenceChannel": 3,
+          "Throwable": 3,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 3,
+          "Exception": 3,
+          "Illuminate\\Foundation\\Auth\\AuthenticatesUsers": 3,
+          "Illuminate\\Support\\Facades\\Validator": 3,
+          "Illuminate\\Support\\Facades\\Hash": 3,
+          "AuthorizesRequests": 3,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 3,
+          "Illuminate\\Routing\\Controller": 3,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 3,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 3,
+          "Illuminate\\Auth\\Access\\AuthorizationException": 3,
+          "Illuminate\\Contracts\\View\\View": 3,
+          "core/init.php": 3,
+          "App\\Models\\Follow": 3,
+          "App\\Models\\Tag": 3,
+          "Closure": 3,
+          "App\\Category": 3,
+          "App\\Trainer": 3,
+          "App\\Student": 3,
+          "Tidy\\Database\\Model\\Model": 3,
+          "Tidy\\Database\\Managers\\Main\\DatabaseManager": 3,
+          "Carbon\\Carbon": 2,
+          "Illuminate\\Console\\Command": 2,
+          "App\\Factories\\interfaces\\Report": 2,
+          "ConfirmsPasswords": 2,
+          "Illuminate\\Foundation\\Auth\\ConfirmsPasswords": 2,
+          "Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails": 2,
+          "SendsPasswordResetEmails": 2,
+          "AuthenticatesUsers": 2,
+          "Illuminate\\Foundation\\Auth\\RegistersUsers": 2,
+          "App\\Http\\Services\\VerificationServices": 2,
+          "RegistersUsers": 2,
+          "ResetsPasswords": 2,
+          "Illuminate\\Foundation\\Auth\\ResetsPasswords": 2,
+          "Illuminate\\Foundation\\Auth\\VerifiesEmails": 2,
+          "VerifiesEmails": 2,
+          "Illuminate\\Support\\Facades\\Cache": 2,
+          "Illuminate\\Support\\Facades\\Storage": 2,
+          "App\\Models\\Property": 2,
+          "validation\\Validator": 2,
+          "Illuminate\\Foundation\\Http\\Kernel": 2,
+          "Livewire\\WithFileUploads": 2,
+          "WithFileUploads": 2,
+          "Intervention\\Image\\ImageManagerStatic": 2,
+          "App\\Models\\Comment": 2,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 2,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 2,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 2,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 2,
+          "Illuminate\\Database\\Eloquent\\Model": 2,
+          "Tidy\\Http\\Request": 2,
+          "Tidy\\Http\\Response": 2,
+          "Tidy\\Database\\DB": 2,
+          "Tidy\\Support\\Session": 2,
+          "Tidy\\Http\\Route": 2,
+          "Tidy\\Support\\Arr": 2,
+          "Tidy\\View\\View": 2,
+          "Illuminate\\Contracts\\Database\\Eloquent\\CastsAttributes": 1,
+          "App\\Notifications\\DeadlineBidSoonNotification": 1,
+          "App\\Notifications\\ProductOwnerNotification": 1,
+          "App\\Events\\BidEvent": 1,
+          "App\\Events\\EndBidEvent": 1,
+          "App\\Notifications\\TellBiddersTheProductIsFinishedNotification": 1,
+          "App\\Console\\Commands\\HandleBidCommand": 1,
+          "App\\Console\\Commands\\DeadlineBidCommand": 1,
+          "Spatie\\ShortSchedule\\ShortSchedule": 1,
+          "App\\Models\\ReportProduct": 1,
+          "App\\Models\\ReportUser": 1,
+          "Illuminate\\Validation\\Rules\\Password": 1,
+          "App\\Http\\Traits\\withSocialMedia": 1,
+          "App\\Http\\Requests\\VerificationCodeRequest": 1,
+          "App\\Models\\BlockUser": 1,
+          "App\\Models\\SubCategory": 1,
+          "App\\Http\\Requests\\StoreCategoryRequest": 1,
+          "App\\Http\\Requests\\UpdateCategoryRequest": 1,
+          "Illuminate\\Http\\Response": 1,
+          "App\\Models\\Category": 1,
+          "Illuminate\\Support\\Facades\\Gate": 1,
+          "Illuminate\\Support\\Facades\\File": 1,
+          "App\\Models\\Image": 1,
+          "App\\Http\\Services\\ImageResizeService": 1,
+          "App\\Notifications\\AdminToUsersNotification": 1,
+          "Illuminate\\Bus\\Batch": 1,
+          "App\\Http\\Requests\\StoreNotificationRequest": 1,
+          "Illuminate\\Support\\Facades\\Bus": 1,
+          "App\\Http\\Requests\\UpdateProductStatusRequest": 1,
+          "App\\Events\\StopBidEvent": 1,
+          "App\\Http\\Requests\\Properties\\UpdatePropertyRequest": 1,
+          "App\\Http\\Requests\\Properties\\StorePropertyRequest": 1,
+          "App\\Http\\Requests\\PropertyValues\\UpdatePropertyValueRequest": 1,
+          "App\\Models\\PropertyValue": 1,
+          "App\\Http\\Requests\\PropertyValues\\StorePropertyValueRequest": 1,
+          "email.php": 1,
+          "Max20.php": 1,
+          "Min5.php": 1,
+          "str.php": 1,
+          "required.php": 1,
+          "numeric.php": 1,
+          "classes/Category.php": 1,
+          "classes/User.php": 1,
+          "classes/Cinema.php": 1,
+          "classes/connection.php": 1,
+          "classes/Seats.php": 1,
+          "database/connection.php": 1,
+          "Illuminate\\Contracts\\Validation\\Rule": 1,
+          "GuzzleHttp\\Promise\\Create": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 1,
+          "Notifiable": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "Illuminate\\Support\\Facades\\Mail": 1,
+          "App\\Mail\\RegisterMail": 1,
+          "App\\User": 1,
+          "App\\Admin": 1,
+          "Laravel\\Socialite\\Facades\\Socialite": 1,
+          "Illuminate\\Validation\\Rule": 1,
+          "Hamcrest\\Core\\Set": 1,
+          "App\\Setting": 1,
+          "App\\SiteContent": 1,
+          "App\\Test": 1,
+          "App\\Message": 1,
+          "App\\Newsletter": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode": 1,
+          "Fideloper\\Proxy\\TrustProxies": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 1,
+          "Tidy\\Database\\Managers\\MySQLManager": 1,
+          "Tidy\\Support\\Config": 1,
+          "Tidy\\Database\\Concerns\\Connect": 1,
+          "Tidy\\Database\\Grammars\\MySQLGrammer": 1,
+          "PDOException": 1,
+          "Tidy\\Support\\Str": 1,
+          "Tidy\\Validation\\Validator": 1,
+          "ArrayAccess": 1,
+          "Tidy\\Application": 1,
+          "includes/tweets.php": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 8,
+        "packages": {
+          "active_support/core_ext/integer/time": 3,
+          "Elasticsearch::Model::Callbacks": 1,
+          "Elasticsearch::Model": 1,
+          "default": 1,
+          "boot": 1,
+          "rails/all": 1,
+          "bundler/setup": 1,
+          "bootsnap/setup": 1,
+          "application": 1,
+          "generic": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 29,
+        "packages": {
+          "nestjs": 28,
+          "mongoose": 9,
+          "src": 5,
+          "class-validator": 3,
+          "express": 1,
+          "class-transformer": 1,
+          "supertest": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "aminyasser/Bidding.com",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "aminyasser/chat-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "aminyasser/cinema-booking-system",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "aminyasser/instagram-clone",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "aminyasser/learning-academy",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "aminyasser/library-api",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "aminyasser/Popcornflix",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "aminyasser/restaurant-recommendation-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "aminyasser/schedule-tweets",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "aminyasser/TidyPHP",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "aminyasser/todolist-api",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "aminyasser/twitter-clone",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "aminyasser/woocommerce",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

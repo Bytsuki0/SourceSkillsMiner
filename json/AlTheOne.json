@@ -1,0 +1,418 @@
+{
+  "username": "AlTheOne",
+  "avatar_url": "https://avatars.githubusercontent.com/u/38474673?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.5321149593518972,
+      "details": {
+        "issue_resolution_rate": 0.7,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8963448780556919
+      }
+    },
+    "Status": {
+      "score": 0.7321149593518973,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.8963448780556919,
+        "week_streak": 0.3
+      }
+    },
+    "Adaptability": {
+      "score": 0.38724400000000003,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.774,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 2,
+        "topic_entropy_bits": 2.3219,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5552947837407589,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        13395,
+        37
+      ],
+      "Makefile": [
+        113,
+        0
+      ],
+      "Dockerfile": [
+        325,
+        0
+      ],
+      "HTML": [
+        366,
+        0
+      ],
+      "Shell": [
+        1927,
+        56
+      ],
+      "Svelte": [
+        9408,
+        1
+      ],
+      "TypeScript": [
+        2418,
+        0
+      ],
+      "CSS": [
+        1376,
+        0
+      ],
+      "JavaScript": [
+        1145,
+        0
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 94,
+    "total_lines": 30473,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 1927,
+        "commits": 56
+      },
+      {
+        "language": "Python",
+        "lines": 13395,
+        "commits": 37
+      },
+      {
+        "language": "Svelte",
+        "lines": 9408,
+        "commits": 1
+      },
+      {
+        "language": "Makefile",
+        "lines": 113,
+        "commits": 0
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 325,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "AlTheOne",
+    "analysis_date": "2026-05-16T00:00:16.971867",
+    "total_repos_analyzed": 14,
+    "total_files_analyzed": 160,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "sveltejs": 1,
+          "svelte-preprocess": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 137,
+        "packages": {
+          "django": 48,
+          "db": 24,
+          "fastapi": 21,
+          "typing": 20,
+          "os": 17,
+          "time": 14,
+          "models": 14,
+          "repositories": 14,
+          "sqlalchemy": 14,
+          "algo_dll": 11,
+          "Node": 10,
+          "admin": 10,
+          "APIRouter": 10,
+          "api": 10,
+          "rest_framework": 9,
+          "path": 9,
+          "core": 9,
+          "threading": 8,
+          "AccessTokenPayload": 8,
+          "status": 8,
+          "schemas": 8,
+          "BaseRepository": 8,
+          "NonUniqueDataException": 8,
+          "multiprocessing": 7,
+          "User": 7,
+          "starlette": 7,
+          "DllManager": 6,
+          "sys": 6,
+          "asyncio": 6,
+          "AppConfig": 6,
+          "Optional": 6,
+          "utils": 6,
+          "strings": 6,
+          "get_repository": 6,
+          "get_current_user": 6,
+          "resources": 6,
+          "FastAPI": 6,
+          "Base": 6,
+          "List": 6,
+          "pytest": 5,
+          "Any": 4,
+          "Process": 4,
+          "get_wsgi_application": 4,
+          "mainApp": 4,
+          "execute_from_command_line": 4,
+          "Callable": 4,
+          "NotFoundDataException": 4,
+          "Boolean": 4,
+          "IntegrityError": 4,
+          "InvalidNextIdException": 3,
+          "random": 3,
+          "futures": 3,
+          "concurrent": 3,
+          "math": 3,
+          "sqrt": 3,
+          "UserStats": 3,
+          "serializers": 3,
+          "json": 3,
+          "render": 3,
+          "Response": 3,
+          "authentication": 3,
+          "Path": 3,
+          "pathlib": 3,
+          "settings": 3,
+          "router": 3,
+          "*": 2,
+          "NodeDoesNotExistException": 2,
+          "requests": 2,
+          "is_prime": 2,
+          "flags_download": 2,
+          "include": 2,
+          "APIView": 2,
+          "permissions": 2,
+          "channels": 2,
+          "JWT_PREFIX_TOKEN": 2,
+          "HTTPException": 2,
+          "jwt": 2,
+          "Request": 2,
+          "get_jwt_token_payload": 2,
+          "ExpiredSignatureError": 2,
+          "Depends": 2,
+          "Connection": 2,
+          "sqlite3": 2,
+          "prefix_router": 2,
+          "generate_file_path": 2,
+          "FilesRepository": 2,
+          "io": 2,
+          "FileListForResponse": 2,
+          "UploadFile": 2,
+          "StreamingResponse": 2,
+          "NewsRepository": 2,
+          "CreateNewsInRequest": 2,
+          "UsersRepository": 2,
+          "create_tokens": 2,
+          "AuthResponse": 2,
+          "close_db_connection": 2,
+          "Config": 2,
+          "create_engine": 2,
+          "declarative_base": 2,
+          "sessionmaker": 2,
+          "DB_URL": 2,
+          "SessionLocal": 2,
+          "news": 2,
+          "create_start_app_handler": 2,
+          "engine": 2,
+          "CORSMiddleware": 2,
+          "Column": 2,
+          "Session": 2,
+          "Files": 2,
+          "News": 2,
+          "Users": 2,
+          "pydantic": 2,
+          "BaseModel": 2,
+          "app": 2,
+          "aioredis": 2,
+          "Redis": 2,
+          "SimpleRouter": 2,
+          "mixins": 2,
+          "GenericViewSet": 2,
+          "rest_framework_simplejwt": 2,
+          "employees": 2,
+          "ManagerByIdMixin": 1,
+          "tests": 1,
+          "NodeAlreadyExistException": 1,
+          "PartialManager": 1,
+          "argparse": 1,
+          "aiohttp": 1,
+          "transports": 1,
+          "f1": 1,
+          "exp_muliprocessing": 1,
+          "_thread": 1,
+          "exp_threads": 1,
+          "is_pimary": 1,
+          "queue": 1,
+          "dj_database_url": 1,
+          "datetime": 1,
+          "whitenoise": 1,
+          "DjangoWhiteNoise": 1,
+          "TestCase": 1,
+          "UsersList": 1,
+          "rest_framework_jwt": 1,
+          "obtain_jwt_token": 1,
+          "HttpResponse": 1,
+          "choice": 1,
+          "ascii_uppercase": 1,
+          "Context": 1,
+          "View": 1,
+          "string": 1,
+          "UsersListSerializer": 1,
+          "asgiref": 1,
+          "WebsocketConsumer": 1,
+          "async_to_sync": 1,
+          "mark_safe": 1,
+          "ProtocolTypeRouter": 1,
+          "AuthMiddlewareStack": 1,
+          "chat": 1,
+          "async_timeout": 1,
+          "WebSocket": 1,
+          "get_redis": 1,
+          "HTMLResponse": 1,
+          "HTML": 1,
+          "IsAuthenticated": 1,
+          "get_object_or_404": 1,
+          "timezone": 1,
+          "ValidationError": 1,
+          "validate_password": 1,
+          "email": 1,
+          "UnicodeUsernameValidator": 1,
+          "get_asgi_application": 1,
+          "receiver": 1,
+          "Task": 1,
+          "Notification": 1,
+          "tasks": 1,
+          "pre_save": 1,
+          "projects": 1,
+          "Project": 1,
+          "forms": 1,
+          "Employee": 1,
+          "reverse": 1,
+          "LoginRequiredMixin": 1,
+          "Sum": 1,
+          "views": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 5,
+        "packages": {
+          "sveltejs": 3,
+          "$app": 1,
+          "playwright": 1,
+          "vite": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "AlTheOne/algo_dll",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AlTheOne/code_base",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AlTheOne/darts-api",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AlTheOne/djchan",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AlTheOne/example_api_for_tests",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AlTheOne/example_app",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AlTheOne/example_fastapi_websocket_redis",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AlTheOne/garage_api",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "AlTheOne/template-sveltekit-app",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "AlTheOne/tms",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

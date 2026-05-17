@@ -1,0 +1,454 @@
+{
+  "username": "jdob",
+  "avatar_url": "https://avatars.githubusercontent.com/u/128268?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9329396364929587,
+      "details": {
+        "issue_resolution_rate": 0.9090909090909091,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.8897280003879673
+      }
+    },
+    "Status": {
+      "score": 0.6738228282893225,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.6214684848679674,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 0.8229165,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.6667,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 11,
+        "topic_entropy_bits": 2.0,
+        "closed_prs_total": 31,
+        "bounced_back_prs": 19
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6859357929564562,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        34479,
+        3
+      ],
+      "Jinja": [
+        3100,
+        1
+      ],
+      "Smarty": [
+        2595,
+        0
+      ],
+      "HTML": [
+        1910,
+        0
+      ],
+      "Shell": [
+        575572,
+        25
+      ],
+      "Mustache": [
+        252,
+        0
+      ],
+      "Makefile": [
+        163,
+        0
+      ],
+      "CSS": [
+        255,
+        0
+      ],
+      "Go": [
+        81683,
+        0
+      ],
+      "Dockerfile": [
+        400,
+        0
+      ],
+      "Vim Script": [
+        7958,
+        0
+      ],
+      "JavaScript": [
+        6307,
+        0
+      ],
+      "Roff": [
+        38891,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 29,
+    "total_lines": 753565,
+    "top_5_languages": [
+      {
+        "language": "Shell",
+        "lines": 575572,
+        "commits": 25
+      },
+      {
+        "language": "Python",
+        "lines": 34479,
+        "commits": 3
+      },
+      {
+        "language": "Jinja",
+        "lines": 3100,
+        "commits": 1
+      },
+      {
+        "language": "Smarty",
+        "lines": 2595,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 1910,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jdob",
+    "analysis_date": "2026-05-17T03:22:51.169136",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 137,
+    "languages": {
+      "Go": {
+        "files_scanned": 60,
+        "packages": {
+          "fmt": 34,
+          "os": 29,
+          "path/filepath": 28,
+          "github.com/urfave/cli/v2": 23,
+          "github.com/suse-edge/edge-image-builder/pkg/image": 19,
+          "github.com/suse-edge/edge-image-builder/pkg/fileio": 15,
+          "testing": 14,
+          "github.com/suse/elemental/v3/pkg/sys": 12,
+          "github.com/stretchr/testify/require": 11,
+          "github.com/stretchr/testify/assert": 11,
+          "github.com/suse-edge/edge-image-builder/pkg/log": 11,
+          "github.com/suse/elemental/v3/internal/cli/cmd": 10,
+          "github.com/suse/elemental/v3/pkg/sys/vfs": 8,
+          "go.uber.org/zap": 7,
+          "github.com/suse-edge/edge-image-builder/pkg/template": 6,
+          "os/signal": 6,
+          "syscall": 6,
+          "io/fs": 5,
+          "strings": 5,
+          "bytes": 5,
+          "github.com/suse/elemental/v3/pkg/deployment": 5,
+          "github.com/suse/elemental/v3/pkg/unpack": 5,
+          "github.com/suse/elemental/v3/internal/cli/action": 4,
+          "go.yaml.in/yaml/v3": 4,
+          "github.com/suse/elemental/v3/pkg/log": 4,
+          "time": 3,
+          "log": 3,
+          "errors": 3,
+          "github.com/suse/elemental/v3/pkg/firmware": 3,
+          "github.com/suse/elemental/v3/pkg/bootloader": 3,
+          "io": 2,
+          "github.com/suse-edge/edge-image-builder/pkg/registry": 2,
+          "gopkg.in/yaml.v3": 2,
+          "github.com/suse/elemental/v3/internal/cli/app": 2,
+          "github.com/suse/elemental/v3/internal/image/kubernetes": 2,
+          "github.com/suse/elemental/v3/pkg/helm": 2,
+          "github.com/suse/elemental/v3/pkg/sys/platform": 2,
+          "github.com/suse/elemental/v3/pkg/installermedia": 2,
+          "github.com/suse/elemental/v3/pkg/upgrade": 2,
+          "context": 2,
+          "net/http": 1,
+          "github.com/suse-edge/edge-image-builder/pkg/cli/cmd": 1,
+          "github.com/suse-edge/edge-image-builder/pkg/cli/build": 1,
+          "strconv": 1,
+          "hash/fnv": 1,
+          "baz": 1,
+          "qux": 1,
+          "bar.sh": 1,
+          "Unexpected": 1,
+          "foo.sh": 1,
+          "configFilePath": 1,
+          "imagesPath": 1,
+          "manifestsPath": 1,
+          "installPath": 1,
+          "An": 1,
+          "registryMirrors": 1,
+          "apiVIP6": 1,
+          "installScript": 1,
+          "binaryPath": 1,
+          "github.com/suse-edge/edge-image-builder/pkg/kubernetes": 1,
+          "apiVIP4": 1,
+          "apiHost": 1,
+          "setNodeIPScript": 1,
+          "tls-san": 1,
+          "token": 1,
+          "cni": 1,
+          "k8s-host.com": 1,
+          "service-cidr": 1,
+          "cluster-cidr": 1,
+          "node-ip": 1,
+          "server.yaml": 1,
+          "github.com/suse-edge/edge-image-builder/pkg/version": 1,
+          "github.com/coreos/butane/config": 1,
+          "github.com/coreos/butane/config/common": 1,
+          "github.com/suse/elemental/v3/internal/butane": 1,
+          "github.com/coreos/butane/base/v0_6": 1,
+          "encoding/json": 1,
+          "github.com/suse/elemental/v3/pkg/http": 1,
+          "slices": 1,
+          "github.com/suse/elemental/v3/internal/image": 1,
+          "github.com/suse/elemental/v3/internal/build": 1,
+          "github.com/suse/elemental/v3/pkg/install": 1,
+          "github.com/suse/elemental/v3/pkg/transaction": 1,
+          "runtime": 1,
+          "github.com/suse/elemental/v3/internal/image/install": 1,
+          "github.com/suse/elemental/v3/internal/image/release": 1,
+          "regexp": 1,
+          "math/rand": 1,
+          "github.com/suse/elemental/v3/internal/manifest/extractor": 1,
+          "text/template": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 1,
+        "packages": {
+          "java.net": 1,
+          "java.io": 1,
+          "java.util": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 23,
+        "packages": {
+          "react": 22,
+          "react-bootstrap": 14,
+          "react-modal": 7,
+          "react-icons-kit": 7,
+          "react-router-dom": 6,
+          "react-bootstrap-table": 5,
+          "axios": 3,
+          "react-dom": 2,
+          "material-ui": 1,
+          "history": 1,
+          "react-calendar": 1,
+          "react-sidenav": 1,
+          "path": 1,
+          "mongodb": 1,
+          "os": 1,
+          "http": 1,
+          "ip": 1,
+          "morgan": 1,
+          "socket.io": 1,
+          "express": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 42,
+        "packages": {
+          "django": 16,
+          "os": 8,
+          "BaseCommand": 8,
+          "bonkbot": 7,
+          "fusion": 7,
+          "command": 6,
+          "logging": 3,
+          "urllib": 3,
+          "flask": 3,
+          "datetime": 3,
+          "Group": 3,
+          "rest_framework": 3,
+          "SafeConfigParser": 2,
+          "ConfigParser": 2,
+          "random": 2,
+          "minidom": 2,
+          "xml": 2,
+          "setup": 2,
+          "setuptools": 2,
+          "sys": 2,
+          "conway": 2,
+          "TrelloClient": 2,
+          "trello": 2,
+          "current_app": 2,
+          "admin": 2,
+          "json": 2,
+          "base64": 2,
+          "thread": 1,
+          "irc": 1,
+          "socket": 1,
+          "optparse": 1,
+          "InstalledPluginLoader": 1,
+          "bot": 1,
+          "loaders": 1,
+          "OptionParser": 1,
+          "imp": 1,
+          "re": 1,
+          "pickle": 1,
+          "join": 1,
+          "numpy": 1,
+          "game": 1,
+          "curses": 1,
+          "argparse": 1,
+          "update_wrapper": 1,
+          "functools": 1,
+          "create_app": 1,
+          "dashboard": 1,
+          "Flask": 1,
+          "render_template": 1,
+          "AppConfig": 1,
+          "Partner": 1,
+          "Category": 1,
+          "migrations": 1,
+          "models": 1,
+          "serializers": 1,
+          "APIView": 1,
+          "Token": 1,
+          "AuthTokenSerializer": 1,
+          "path": 1,
+          "url": 1,
+          "routers": 1,
+          "get_wsgi_application": 1,
+          "execute_from_command_line": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 4,
+        "packages": {
+          "log": 3,
+          "anyhow": 2,
+          "std": 2,
+          "crate": 2,
+          "network_interface": 1,
+          "nmstate": 1,
+          "generate_conf": 1,
+          "apply_conf": 1,
+          "serde": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jdob/biffbot",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jdob/bonkbot",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jdob/conway",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jdob/da-dashboard",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jdob/demo-container",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "jdob/edge-image-builder",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "jdob/elemental",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "jdob/fusion-service",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jdob/fusion-webui",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jdob/namegen",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jdob/nm-configurator",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "jdob/node-mongo",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,812 @@
+{
+  "username": "caarlos0",
+  "avatar_url": "https://avatars.githubusercontent.com/u/245435?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 1.0,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 1.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.9638045,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.8552,
+        "distinct_primary_languages": 12,
+        "language_transitions": 12,
+        "topic_entropy_bits": 6.8345,
+        "closed_prs_total": 297,
+        "bounced_back_prs": 127
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "caarlos0/ctrlc": -0.0046966666666666676
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8344275666666667,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Rust": [
+        3485,
+        64
+      ],
+      "Python": [
+        1094428,
+        75
+      ],
+      "HTML": [
+        141732,
+        88
+      ],
+      "TypeScript": [
+        86622,
+        54
+      ],
+      "JavaScript": [
+        73225,
+        74
+      ],
+      "Astro": [
+        64938,
+        0
+      ],
+      "CSS": [
+        30840,
+        36
+      ],
+      "C#": [
+        28120,
+        0
+      ],
+      "Shell": [
+        553456,
+        2245
+      ],
+      "PowerShell": [
+        12206,
+        0
+      ],
+      "Java": [
+        9273,
+        0
+      ],
+      "Go": [
+        173209,
+        2411
+      ],
+      "Bicep": [
+        330,
+        0
+      ],
+      "Makefile": [
+        177,
+        29
+      ],
+      "Assembly": [
+        23706,
+        0
+      ],
+      "C": [
+        444,
+        0
+      ],
+      "Dockerfile": [
+        574,
+        20
+      ],
+      "Lua": [
+        556605,
+        767
+      ],
+      "Tree-sitter Query": [
+        2264,
+        53
+      ],
+      "Ruby": [
+        1013,
+        112
+      ],
+      "Scheme": [
+        11505,
+        7
+      ],
+      "HCL": [
+        0,
+        9
+      ],
+      "C++": [
+        0,
+        12
+      ],
+      "Nix": [
+        0,
+        117
+      ],
+      "Elixir": [
+        0,
+        8
+      ],
+      "Go Template": [
+        0,
+        14
+      ],
+      "Zig": [
+        0,
+        4
+      ]
+    },
+    "language_count": 27,
+    "total_commits": 6199,
+    "total_lines": 2868152,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 173209,
+        "commits": 2411
+      },
+      {
+        "language": "Shell",
+        "lines": 553456,
+        "commits": 2245
+      },
+      {
+        "language": "Lua",
+        "lines": 556605,
+        "commits": 767
+      },
+      {
+        "language": "Nix",
+        "lines": 0,
+        "commits": 117
+      },
+      {
+        "language": "Ruby",
+        "lines": 1013,
+        "commits": 112
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "caarlos0",
+    "analysis_date": "2026-05-16T19:50:53.161638",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 202,
+    "languages": {
+      "C#": {
+        "files_scanned": 7,
+        "packages": {
+          "GitHub.Copilot.SDK": 7,
+          "✅": 1,
+          "actual": 1,
+          "the": 1,
+          "System.Diagnostics": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 114,
+        "packages": {
+          "fmt": 56,
+          "time": 51,
+          "context": 47,
+          "strings": 45,
+          "testing": 32,
+          "os": 26,
+          "net/http": 24,
+          "errors": 22,
+          "log": 19,
+          "io": 19,
+          "crypto": 14,
+          "crypto/x509": 14,
+          "bytes": 14,
+          "crypto/rand": 13,
+          "encoding/json": 13,
+          "sync": 12,
+          "encoding/base64": 12,
+          "github.com/rs/zerolog/log": 12,
+          "path/filepath": 11,
+          "reflect": 11,
+          "crypto/sha256": 10,
+          "crypto/ecdsa": 10,
+          "math/big": 10,
+          "crypto/elliptic": 8,
+          "crypto/x509/pkix": 8,
+          "crypto/tls": 8,
+          "strconv": 7,
+          "encoding/pem": 7,
+          "net/http/httptest": 7,
+          "net/url": 7,
+          "github.com/prometheus/client_golang/prometheus": 7,
+          "github.com/domainr/whois": 7,
+          "os/exec": 6,
+          "crypto/rsa": 6,
+          "github.com/caarlos0/domain_exporter/internal/client": 6,
+          "encoding/xml": 6,
+          "regexp": 5,
+          "encoding/asn1": 5,
+          "sort": 5,
+          "golang.org/x/crypto/acme": 5,
+          "encoding/binary": 5,
+          "syscall": 5,
+          "github.com/stretchr/testify/require": 5,
+          "github.com/caarlos0/domain_exporter/internal/safeconfig": 5,
+          "github.com/prometheus/common/log": 5,
+          "net": 4,
+          "os/signal": 4,
+          "github.com/prometheus/client_golang/prometheus/promhttp": 4,
+          "github.com/patrickmn/go-cache": 4,
+          "github.com/google/go-github/v83/github": 4,
+          "archive/zip": 4,
+          "type": 3,
+          "flag": 3,
+          "golang.org/x/oauth2": 3,
+          "encoding/hex": 3,
+          "status": 3,
+          "path": 3,
+          "github.com/cheshir/ttlcache": 3,
+          "github.com/caarlos0/log": 3,
+          ":": 3,
+          "FOO": 3,
+          "bufio": 2,
+          "runtime/debug": 2,
+          "github.com/charmbracelet/lipgloss": 2,
+          "github.com/charmbracelet/bubbles/spinner": 2,
+          "detail": 2,
+          "error": 2,
+          "golang.org/x/net/idna": 2,
+          "golang.org/x/crypto/acme/autocert/internal/acmetest": 2,
+          "runtime": 2,
+          "crypto/hmac": 2,
+          "expires": 2,
+          "golang.org/x/crypto/blake2b": 2,
+          "github.com/caarlos0/domain_exporter/internal/rdap": 2,
+          "github.com/caarlos0/domain_exporter/internal/whois": 2,
+          "2006.01.02": 2,
+          "2006-01-02T15:04:05.0Z": 2,
+          "02-January-2006": 2,
+          "2006-01-02T15:04:05Z": 2,
+          "January": 2,
+          "02/01/2006": 2,
+          "02-Jan-2006": 2,
+          "2006/01/02": 2,
+          "20060102": 2,
+          "(dd/mm/yyyy):": 2,
+          "02.01.2006": 2,
+          "2006-01-02": 2,
+          "github.com/rs/zerolog": 2,
+          "VAR": 2,
+          "text/template": 2,
+          "Exporter": 2,
+          "Returns": 2,
+          "Download": 2,
+          "github.com/caarlos0/fastcom-exporter/fast": 2,
+          "github.com/alecthomas/kingpin": 2,
+          "charm.land/bubbles/v2/key": 2,
+          "charm.land/lipgloss/v2": 2,
+          "charm.land/bubbles/v2/list": 2,
+          "invalid": 2,
+          "github.com/caarlos0/github_releases_exporter/config": 2,
+          "failed": 2,
+          "github.com/caarlos0/github_releases_exporter/client": 2,
+          "App.exe": 2,
+          "Assets/logo.png": 2,
+          "actual": 1,
+          "args": 1,
+          "the": 1,
+          "tools": 1,
+          "✅": 1,
+          "playwright": 1,
+          "command": 1,
+          "github.com/google/go-github/v51/github": 1,
+          "git": 1,
+          "github.com/urfave/cli": 1,
+          "github.com/caarlos0/clone-org/internal/ui": 1,
+          "github.com/mattn/go-isatty": 1,
+          "github.com/charmbracelet/bubbles/viewport": 1,
+          "%s": 1,
+          "Gathering": 1,
+          "hostname": 1,
+          "validationRecord": 1,
+          "uri": 1,
+          "combinations": 1,
+          "challenges": 1,
+          "url": 1,
+          "token": 1,
+          "identifier": 1,
+          "h2": 1,
+          "golang.org/x/crypto/acme/autocert": 1,
+          "Im5vbmNlIiwidXJsIjoidXJsIn0": 1,
+          "bFBvaWIyajNUeExCa3NLWmZveUZ5ZWszODBtSGdKQXVtUV9JMmZq": 1,
+          "VT86zwu1RK7aPFFxuhDR1L6tSoc_BJECPebWKRXjBZCiFV4n3oknjhMstn6": 1,
+          "IlJTQSIsIm4iOiI0eGdaM2VSUGt3b1J2eTdxZVJVYm1NRGUwVi14": 1,
+          "QkVoYmhOdTU0cHAza3hvNlR1V0xpOWU2cFhlV2V0RXdtbEJ3dFda": 1,
+          "ajk4Xzk3bWszaWhPWTRBZ1ZkQ0RqMXpfR0NvWmtHNVJxN25iQ0d5": 1,
+          "nO8gG52mv1x2OMQ5MAFtt8jcngBLzts4AyhI6mBJ2w7Yaj3ZCriq": 1,
+          "there\\xe2\\x80\\x99s": 1,
+          "VlZjMxNGJjNzAzNyJ9": 1,
+          "gJlzIG5vIGtub3dpbmcgd2hlcmUgeW91IG1pZ2h0IGJlIHN3ZXB0IG9m": 1,
+          "Z29pbmcgb3V0IHlvdXIgZG9vci4gWW91IHN0ZXAgb250byB0aGUgcm9h": 1,
+          "bUJtCkABwBMvBQNyD3MmXsrRFRTgvVlyU_yMaucYm7nmzEr_2PaQ": 1,
+          "Hd3dJ_2IRqBrXDZZ2n4ZeA_4mm3QFwmwyeDwe2sWElhb82lCZ8iX": 1,
+          "and": 1,
+          "uFnjeOmSOjx-nWwPa5ibCXzLq13zZ-OBV1Z4oN_TuailQeRoSfA3": 1,
+          "QkAgDPrwQrJmbnX9cwlGfP-HqHZR1": 1,
+          "xQoH04w8cOXY8S2vCEpUgKZlkMXyk1Cajz9/ioOjVNU": 1,
+          "ZCwgYW5kIGlmIHlvdSBkb24ndCBrZWVwIHlvdXIgZmVldCwgdGhlcmXi": 1,
+          "vcmcvYWNjb3VudC8xIiwibm9uY2UiOiJub25jZSIsInVybCI6InVybCJ9": 1,
+          "aQ-G_xBniIqbw0Ls1jF44-csFCur-kEgU8awapJzKnqDKgw": 1,
+          "1CbOpbISD08qNLyrdkt-bFTWhAI4vMQFh6WeZu0fM4lFd2NcRwr3XPksINH": 1,
+          "SDllV0xkdTBpaGVlTGxybUQybXFXWGZQOUllU0tBcGJuMzRnOFR1": 1,
+          "W2QvzqY368QQMicAtaSqzs8KJZgnYb9c7d0zgdAZHzu6qMQvRL5hajrn1n9": 1,
+          "VGFMc213b2tZVVl5TnhHc1M1RU1JS3dzTklLayJ9LCJub25jZSI6": 1,
+          "NWdOa3dZSTlTWTJSSFh0dmxuM3pzNXdJVE5yZG9zcUVYZWFJa1ZZ": 1,
+          "5djxLa8ISlSApmWQxfKTUJqPP3-Kg6NU1Q": 1,
+          "KqjqvjyekWF-7ytDyRXYgCF5cj0Kt": 1,
+          "door.": 1,
+          "to.": 1,
+          "eSI6IkVDIiwieCI6IjVsaEV1ZzV4SzR4QkRaMm5BYmF4THRhTGl2": 1,
+          "QVM5ZzV6aHE4RUxRM2ttanItS1Y4NkdBTWdJNlZBY0dscTNRcnpw": 1,
+          "ODVieEo3ZVBkMWRrTzIzSFEiLCJ5IjoiNGFpSzcyc0JlVUFHa3Yw": 1,
+          "4tZ_2W-5JsGY4Hc5n9yBXArwl93lqt7_RN5w6Cf0h4QyQ5v-65YGjQR0_FD": 1,
+          "50rFt_9qOfJ4sfbLtG1Wwae57BQx1g": 1,
+          "UVEifSwibm9uY2UiOiJub25jZSIsInVybCI6InVybCJ9": 1,
+          "ZiB0by4": 1,
+          "DWA3GLFvvHdW1Ba9Z01wtGT2CuZI7DUk_6Qj1b3BkBGcoKur5C9i": 1,
+          "VENmXzMwQWI3LXphd3JmUmFGT05hMUh3RXpQWTFLSG5HVmt4SmM4": 1,
+          "b3N5S1d5RFgwMFpzLW5OcVZob0xlSXZYQzRubldkSk1aNnJvZ3h5": 1,
+          "contact": 1,
+          "caaIdentities": 1,
+          "website": 1,
+          "newAccount": 1,
+          "keyChange": 1,
+          "newOrder": 1,
+          "newNonce": 1,
+          "externalAccountRequired": 1,
+          "notBefore": 1,
+          "certificate": 1,
+          "meta": 1,
+          "authorizations": 1,
+          "newAuthz": 1,
+          "revokeCert": 1,
+          "finalize": 1,
+          "identifiers": 1,
+          "notAfter": 1,
+          "termsOfService": 1,
+          "orders": 1,
+          "hash": 1,
+          "golang.org/x/sys/cpu": 1,
+          "golang.org/x/crypto/blowfish": 1,
+          "crypto/subtle": 1,
+          "github.com/caarlos0/ctrlc": 1,
+          "-e": 1,
+          "osascript": 1,
+          "github.com/hugolgst/rich-go/client": 1,
+          "foo": 1,
+          "math": 1,
+          "whether": 1,
+          "returns": 1,
+          "domain_expiry_days{domain=\\": 1,
+          "goreleaser.com\\": 1,
+          "domain_probe_success{domain=\\": 1,
+          "github.com/openrdap/rdap": 1,
+          "gopkg.in/yaml.v3": 1,
+          "file-which-does-not-exist.yaml": 1,
+          "whois.jprs.jp": 1,
+          "whois.nic.kz": 1,
+          "whois.dot.ph": 1,
+          "whois.net.vn": 1,
+          "Exp": 1,
+          "Registrar": 1,
+          "2.1.2006": 1,
+          "20060102150405": 1,
+          "Registry": 1,
+          "Expiration": 1,
+          "Renewal": 1,
+          "registered": 1,
+          "Valid": 1,
+          "2006-Jan-02.": 1,
+          "Domain": 1,
+          "Expiry": 1,
+          "2006-01-02T15:04:05-0700": 1,
+          "paid-till": 1,
+          "expire": 1,
+          "OK-UNTIL": 1,
+          "02-01-2006": 1,
+          "Expires": 1,
+          "Expire": 1,
+          "02": 1,
+          "expire-date": 1,
+          "expires\\\\.{12}": 1,
+          "Record": 1,
+          "github.com/caarlos0/domain_exporter/internal/collector": 1,
+          "github.com/caarlos0/domain_exporter/internal/refresher": 1,
+          "github.com/alecthomas/kingpin/v2": 1,
+          "s": 1,
+          "us": 1,
+          "μs": 1,
+          "mo": 1,
+          "h": 1,
+          "w": 1,
+          "m": 1,
+          "y": 1,
+          "µs": 1,
+          "d": 1,
+          "ms": 1,
+          "ns": 1,
+          "unicode": 1,
+          "encoding": 1,
+          "Foo": 1,
+          "Foo_Bar": 1,
+          "_PortHTTP": 1,
+          "fooBar": 1,
+          "Foo__Bar": 1,
+          "Foo____Bar": 1,
+          "_SSH___Port_": 1,
+          "KEY2": 1,
+          "T_BLAH": 1,
+          "k1": 1,
+          "FOOBar": 1,
+          "HTTPPort": 1,
+          "T_BAR_HOME": 1,
+          "KEY1": 1,
+          "T_FOO_HOME": 1,
+          "SSHPort": 1,
+          "REQUIRED,required": 1,
+          "FOO_BAR": 1,
+          "T_HOME": 1,
+          "k2": 1,
+          "FooBar": 1,
+          "HTTP_PORT": 1,
+          "PATH": 1,
+          "=::": 1,
+          "=C:": 1,
+          "EX_PASSWORD": 1,
+          "EX_USERNAME": 1,
+          "github.com/charmbracelet/log": 1,
+          "github.com/brutella/hap/characteristic": 1,
+          "github.com/brutella/hap": 1,
+          "github.com/caarlos0/env/v11": 1,
+          "github.com/brutella/hap/accessory": 1,
+          "sync/atomic": 1,
+          "golang.org/x/sync/semaphore": 1,
+          "golang.org/x/sync/errgroup": 1,
+          "github.com/caarlos0/fastcom-exporter/collector": 1,
+          "github.com/caarlos0/fork-cleaner/v2/internal/ui": 1,
+          "github.com/urfave/cli/v2": 1,
+          "\\n": 1,
+          "charm.land/bubbles/v2/spinner": 1,
+          "github.com/caarlos0/fork-cleaner/v2": 1,
+          "github.com/google/go-github/github": 1,
+          "Latest": 1,
+          "collecting": 1,
+          "release": 1,
+          "io/ioutil": 1,
+          "github.com/caarlos0/github_releases_exporter/collector": 1,
+          "license_key": 1,
+          "product_id": 1,
+          "valid": 1,
+          "net/http/httputil": 1,
+          "product": 1,
+          "refunded": 1,
+          "disputed": 1,
+          "ended": 1,
+          "seller": 1,
+          "blank": 1,
+          "hasNS": 1,
+          "hasCaps": 1,
+          "hasAppExtensions": 1,
+          "hasPkgExtensions": 1,
+          "xmlEscape": 1,
+          "string": 1,
+          "See": 1,
+          "readme.txt": 1,
+          "large.dat": 1,
+          "Assets/icon.png": 1,
+          "lib/helper.dll": 1,
+          "config.json": 1,
+          "Data/config.json": 1,
+          "AppxManifest.xml": 1,
+          "[Content_Types].xml": 1,
+          "Assets/150.png": 1,
+          "Assets/44.png": 1,
+          "AppxBlockMap.xml": 1,
+          "go.mozilla.org/pkcs7": 1,
+          "hash/crc32": 1,
+          "compress/flate": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 7,
+        "packages": {
+          "com.github": 7,
+          "java.util": 5,
+          "java.io": 2,
+          "tests": 1,
+          "actual": 1,
+          "Playwright's": 1,
+          "the": 1,
+          "✅": 1,
+          "java.nio": 1
+        }
+      },
+      "Lua": {
+        "files_scanned": 12,
+        "packages": {
+          "catppuccin": 2,
+          "nvim-ts-autotag": 2,
+          "nvim-autopairs": 2,
+          "plugins.syntax": 1,
+          "image": 1,
+          "other-nvim": 1,
+          "vim._core.ui2": 1,
+          "copilot": 1,
+          "git-conflict": 1,
+          "auto-hlsearch": 1,
+          "neogen": 1,
+          "conform": 1,
+          "better_escape": 1,
+          "plugins.lsp": 1,
+          "gitsigns": 1,
+          "blink.cmp": 1,
+          "lualine": 1,
+          "dressing": 1,
+          "lsp_autocommands": 1,
+          "telescope.builtin": 1,
+          "all": 1,
+          "=": 1,
+          "todo-comments": 1,
+          "nvim-treesitter": 1,
+          "treesitter-context": 1,
+          "nvim-surround": 1,
+          "nvim-treesitter-textobjects": 1,
+          "user.keymaps": 1,
+          "lazy": 1,
+          "user.options": 1,
+          "user.autocommands": 1,
+          "easyread": 1,
+          "user.cmp": 1,
+          "luasnip": 1,
+          "luasnip.loaders.from_vscode": 1,
+          "neodev": 1,
+          "user.lsp": 1,
+          "user.colorscheme": 1,
+          "user.notify": 1,
+          "user.autosession": 1,
+          "user.harpoon": 1,
+          "mini.bufremove": 1,
+          "user.fugitive": 1,
+          "user.telescope": 1,
+          "nvim-treesitter.configs": 1,
+          "auto-session": 1,
+          "mason-lspconfig": 1,
+          "mason": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "asyncio": 2,
+          "copilot": 2,
+          "actual": 1,
+          "the": 1,
+          "✅": 1,
+          "CopilotClient": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 21,
+        "packages": {
+          "std": 10,
+          "core": 8,
+          "crate": 5,
+          "lazy_static": 5,
+          "x86_64": 4,
+          "beckeros": 4,
+          "spin": 2,
+          "nom": 1,
+          "indexmap": 1,
+          "camino": 1,
+          "input1.txt": 1,
+          "input2.txt": 1,
+          "rocket": 1,
+          "url": 1,
+          "rocket_contrib": 1,
+          "diesel": 1,
+          "uart_16550": 1,
+          "volatile": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 7,
+        "packages": {
+          "github": 7,
+          "node:readline": 2,
+          "actual": 1,
+          "the": 1,
+          "✅": 1,
+          "node:path": 1,
+          "node:os": 1,
+          "node:child_process": 1,
+          "fs": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "caarlos0/advent-of-code-2022",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "caarlos0/awesome-copilot",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "Go",
+          "Java",
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "caarlos0/beckerly",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "caarlos0/beckeros",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "caarlos0/clone-org",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/crypto",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/ctrlc",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/discord-applemusic-rich-presence",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/domain_exporter",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/dotfiles",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "caarlos0/dotfiles.fish",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Lua"
+        ]
+      },
+      {
+        "repository": "caarlos0/duration",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/env",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/esp8266-garage-door",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/fastcom-exporter",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/fork-cleaner",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/github_releases_exporter",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/go-gumroad",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "caarlos0/go-msix",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

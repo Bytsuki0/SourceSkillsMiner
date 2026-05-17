@@ -1,0 +1,766 @@
+{
+  "username": "ashfurrow",
+  "avatar_url": "https://avatars.githubusercontent.com/u/498212?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.658571431750698,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.675714295252094,
+        "week_streak": 0.3
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 11,
+        "language_transitions": 15,
+        "topic_entropy_bits": 4.2776,
+        "closed_prs_total": 109,
+        "bounced_back_prs": 67
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "ashfurrow/500px-API-Test": 0.9554,
+        "ashfurrow/AFImageDownloader": 0.5547333333333334,
+        "ashfurrow/AFTabledCollectionView": 0.337453125
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8733809530168063,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "CoffeeScript": [
+        1274928,
+        0
+      ],
+      "CSS": [
+        614082,
+        62
+      ],
+      "JavaScript": [
+        445453,
+        1898
+      ],
+      "Shell": [
+        17179,
+        4
+      ],
+      "Objective-C": [
+        334504,
+        654
+      ],
+      "C": [
+        5617,
+        0
+      ],
+      "Ruby": [
+        35383,
+        454
+      ],
+      "Swift": [
+        17898,
+        488
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Nunjucks": [
+        0,
+        34
+      ],
+      "TypeScript": [
+        0,
+        133
+      ],
+      "HTML": [
+        0,
+        192
+      ],
+      "C++": [
+        0,
+        0
+      ],
+      "Haskell": [
+        0,
+        8
+      ]
+    },
+    "language_count": 14,
+    "total_commits": 3927,
+    "total_lines": 2745044,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 445453,
+        "commits": 1898
+      },
+      {
+        "language": "Objective-C",
+        "lines": 334504,
+        "commits": 654
+      },
+      {
+        "language": "Swift",
+        "lines": 17898,
+        "commits": 488
+      },
+      {
+        "language": "Ruby",
+        "lines": 35383,
+        "commits": 454
+      },
+      {
+        "language": "HTML",
+        "lines": 0,
+        "commits": 192
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ashfurrow",
+    "analysis_date": "2026-05-17T05:36:33.015358",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 348,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 131,
+        "packages": {
+          "<Foundation/Foundation.h>": 59,
+          "<UIKit/UIKit.h>": 34,
+          "ANKResource.h": 5,
+          "ANKClient+ANKHandlerBlocks.h": 5,
+          "<Cocoa/Cocoa.h>": 4,
+          "ARTiledImageViewDataSource.h": 4,
+          "SBJsonStreamParser.h": 3,
+          "PXAPIHelper.h": 3,
+          "<TargetConditionals.h>": 3,
+          "ARAnalytics.h": 3,
+          "ApertureExportManager.h": 2,
+          "<Growl/GrowlDefines.h>": 2,
+          "SBJsonStreamWriter.h": 2,
+          "PXRequest.h": 2,
+          "AFURLSessionManager.h": 2,
+          "<SystemConfiguration/SystemConfiguration.h>": 2,
+          "AFURLResponseSerialization.h": 2,
+          "AFSecurityPolicy.h": 2,
+          "AFURLRequestSerialization.h": 2,
+          "AFNetworkReachabilityManager.h": 2,
+          "EXPExpect.h": 2,
+          "EXPMatcher.h": 2,
+          "EXPDefines.h": 2,
+          "Expecta.h": 2,
+          "<PluginManager/PROAPIAccessing.h>": 1,
+          "<Growl/Growl.h>": 1,
+          "ApertureExportPlugIn.h": 1,
+          "FiveHundredPxOAuthEngine.h": 1,
+          "<Quartz/Quartz.h>": 1,
+          "RSOAuthEngine.h": 1,
+          "<Growl/GrowlApplicationBridge.h>": 1,
+          "Growl/GrowlDefines.h": 1,
+          "Growl/GrowlApplicationBridge.h": 1,
+          "<AppKit/AppKit.h>": 1,
+          "SBJsonParser.h": 1,
+          "NSObject+SBJson.h": 1,
+          "SBJsonWriter.h": 1,
+          "this": 1,
+          "SBJsonTokeniser.h": 1,
+          "<Foundation/NSData.h>": 1,
+          "PXAPIHelper+Auth.h": 1,
+          "PXRequest+Creation.h": 1,
+          "<SenTestingKit/SenTestingKit.h>": 1,
+          "OCMockObject.h": 1,
+          "OCMockRecorder.h": 1,
+          "NSNotificationCenter+OCMAdditions.h": 1,
+          "OCMArg.h": 1,
+          "OCMConstraint.h": 1,
+          "<ADNKit/ANKUsernamePasswordAuthViewController.h>": 1,
+          "<ADNKit/ANKOAuthViewController.h>": 1,
+          "<ADNKit/ANKUser.h>": 1,
+          "<ADNKit/ANKPlaceCategory.h>": 1,
+          "<ADNKit/ANKClient+ANKExploreStream.h>": 1,
+          "<ADNKit/ANKMentionEntity.h>": 1,
+          "<ADNKit/ANKClient.h>": 1,
+          "<ADNKit/ANKValueTransformations.h>": 1,
+          "<ADNKit/ANKResource.h>": 1,
+          "<ADNKit/ANKGeolocation.h>": 1,
+          "<ADNKit/ANKStorage.h>": 1,
+          "<ADNKit/ANKClient+ANKUser.h>": 1,
+          "<ADNKit/ANKOEmbed.h>": 1,
+          "<ADNKit/ANKFilter.h>": 1,
+          "<ADNKit/ANKClient+ANKMessage.h>": 1,
+          "<ADNKit/ANKPost.h>": 1,
+          "<ADNKit/ANKAPIResponse.h>": 1,
+          "<ADNKit/ANKEntity.h>": 1,
+          "<ADNKit/ANKFile.h>": 1,
+          "<ADNKit/ANKPlace.h>": 1,
+          "<ADNKit/ANKAnnotationReplacement.h>": 1,
+          "<ADNKit/ANKStream.h>": 1,
+          "<ADNKit/ANKClient+ANKPlace.h>": 1,
+          "<ADNKit/ANKAnnotatableResource.h>": 1,
+          "<ADNKit/ANKChannel.h>": 1,
+          "<ADNKit/ANKMessage.h>": 1,
+          "<ADNKit/ANKEntities.h>": 1,
+          "<ADNKit/ANKObjectSource.h>": 1,
+          "<ADNKit/ANKInteraction.h>": 1,
+          "<ADNKit/ANKTokenStatus.h>": 1,
+          "<ADNKit/ANKExploreStream.h>": 1,
+          "<ADNKit/ANKClient+ANKPost.h>": 1,
+          "ADNKit-iOS.h": 1,
+          "<ADNKit/ANKFilterClause.h>": 1,
+          "<ADNKit/ANKAnnotation.h>": 1,
+          "<ADNKit/ANKChannelCounts.h>": 1,
+          "<ADNKit/ANKUserCounts.h>": 1,
+          "<ADNKit/ANKClient+ANKChannel.h>": 1,
+          "<ADNKit/ANKImage.h>": 1,
+          "<ADNKit/ANKUserDescription.h>": 1,
+          "<ADNKit/ANKJSONRequestOperation.h>": 1,
+          "<ADNKit/ANKPaginationSettings.h>": 1,
+          "<ADNKit/ANKClient+ANKFile.h>": 1,
+          "<ADNKit/ANKACL.h>": 1,
+          "<ADNKit/ANKLinkEntity.h>": 1,
+          "<ADNKit/ANKAPIResponseMeta.h>": 1,
+          "<ADNKit/ANKUsernameFormatter.h>": 1,
+          "<ADNKit/ANKClient+ANKInteraction.h>": 1,
+          "<ADNKit/ANKStreamMarker.h>": 1,
+          "<ADNKit/ANKClient+ANKFilter.h>": 1,
+          "<ADNKit/ANKClient+ANKPostStreams.h>": 1,
+          "<ADNKit/ANKClient+ANKTokenStatus.h>": 1,
+          "ADNKit-OSX.h": 1,
+          "<ADNKit/ANKClient+ANKStream.h>": 1,
+          "<ADNKit/ANKHashtagEntity.h>": 1,
+          "ANKAnnotatableResource.h": 1,
+          "ANKClient.h": 1,
+          "NSData+AFDecompression.h": 1,
+          "<MobileCoreServices/MobileCoreServices.h>": 1,
+          "<CoreServices/CoreServices.h>": 1,
+          "AFHTTPSessionManager.h": 1,
+          "<Availability.h>": 1,
+          "<Security/Security.h>": 1,
+          "<WatchKit/WatchKit.h>": 1,
+          "<CoreGraphics/CoreGraphics.h>": 1,
+          "ASHGameBoard.h": 1,
+          "ASHGameBoardViewModel.h": 1,
+          "RVMViewModel.h": 1,
+          "the": 1,
+          "ARAnalyticalProvider.h": 1,
+          "ARModel.h": 1,
+          "ARTiledImageView.h": 1,
+          "ARTiledImageScrollView.h": 1,
+          "ExpectaSupport.h": 1,
+          "EXPBackwardCompatibility.h": 1,
+          "EXPMatchers.h": 1,
+          "EXPBlockDefinedMatcher.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 18,
+        "packages": {
+          "gulp": 13,
+          "fs": 4,
+          "run-sequence": 3,
+          "del": 2,
+          "gulp-rename": 2,
+          "path": 2,
+          "gulp-minify-css": 1,
+          "gulp-uglify": 1,
+          "gulp-changed": 1,
+          "gulp-image-resize": 1,
+          "gulp-imagemin": 1,
+          "watchify": 1,
+          "browserify": 1,
+          "vinyl-source-stream": 1,
+          "gulp-cloudfront": 1,
+          "gulp-awspublish": 1,
+          "gulp-rev-css-url": 1,
+          "gulp-rev": 1,
+          "nib": 1,
+          "gulp-stylus": 1,
+          "browser-sync": 1,
+          "gulp-jade": 1,
+          "pretty-hrtime": 1,
+          "gulp-util": 1,
+          "gulp-notify": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 142,
+        "packages": {
+          "<UIKit/UIKit.h>": 10,
+          "UIKit/UIKit.h": 10,
+          "AFImageDownloader.h": 7,
+          "ARAppDelegate.h": 6,
+          "Kiwi.h": 5,
+          "objc/runtime.h": 5,
+          "<objc/runtime.h>": 5,
+          "Post.h": 5,
+          "User.h": 5,
+          "ASHGameBoard.h": 5,
+          "OAuth+Additions.h": 4,
+          "AFAppDelegate.h": 4,
+          "AFViewController.h": 4,
+          "ASHGameBoardViewModel.h": 4,
+          "ARCollectionViewMasonryLayout.h": 4,
+          "ARTiledImageView.h": 4,
+          "ARTiledImageDemoViewController.h": 4,
+          "PhotoModel.h": 3,
+          "SBJsonStreamParser.h": 3,
+          "OAuthCore.h": 3,
+          "ANKACL.h": 3,
+          "ANKChannel.h": 3,
+          "<QuartzCore/QuartzCore.h>": 3,
+          "QuartzCore/QuartzCore.h": 3,
+          "<Cocoa/Cocoa.h>": 3,
+          "Cocoa/Cocoa.h": 3,
+          "ASHAppDelegate.h": 3,
+          "ASHGameModel.h": 3,
+          "ASHGameBoardPieceView.h": 3,
+          "ORAppDelegate.h": 3,
+          "_ARCollectionViewMasonryAttributesGrid.h": 3,
+          "ARCollectionViewController.h": 3,
+          "ARLocalTiledImageDataSource.h": 3,
+          "ARWebTiledImageDataSource.h": 3,
+          "ARMasterViewController.h": 3,
+          "EXPUnsupportedObject.h": 3,
+          "Expecta.h": 3,
+          "EXPMatcherHelpers.h": 3,
+          "FiveHundredPxExtraMetadata.h": 2,
+          "NSObject+SBJson.h": 2,
+          "APIHelper.h": 2,
+          "PhotoTableViewCell.h": 2,
+          "RootViewController.h": 2,
+          "DetailViewController.h": 2,
+          "SBJsonParser.h": 2,
+          "SBJsonStreamParserAccumulator.h": 2,
+          "SBJsonStreamParserState.h": 2,
+          "SBJsonTokeniser.h": 2,
+          "SBJsonStreamWriterState.h": 2,
+          "SBJsonStreamWriter.h": 2,
+          "PXMasterViewController.h": 2,
+          "PXAPI/PXAPI.h": 2,
+          "<PXAPI/PXAPI.h>": 2,
+          "PXAppDelegate.h": 2,
+          "PXDetailViewController.h": 2,
+          "<Foundation/Foundation.h>": 2,
+          "Foundation/Foundation.h": 2,
+          "NSData+Base64.h": 2,
+          "PXAPIHelper+Auth.h": 2,
+          "PXRequest.h": 2,
+          "ANKAPIResponseMeta.h": 2,
+          "ANKAPIResponse.h": 2,
+          "ANKAnnotation.h": 2,
+          "ANKFile.h": 2,
+          "AFURLSessionManager.h": 2,
+          "AFNetworkActivityLogger/AFNetworkActivityLogger.h": 2,
+          "AFNetworking/AFURLConnectionOperation.h": 2,
+          "<AFNetworking/AFURLConnectionOperation.h>": 2,
+          "TestHelpers.h": 2,
+          "<AFNetworkActivityLogger/AFNetworkActivityLogger.h>": 2,
+          "<XCTest/XCTest.h>": 2,
+          "XCTest/XCTest.h": 2,
+          "netinet6/in6.h": 2,
+          "netdb.h": 2,
+          "arpa/inet.h": 2,
+          "<TargetConditionals.h>": 2,
+          "WatchKit/WatchKit.h": 2,
+          "<arpa/inet.h>": 2,
+          "<netdb.h>": 2,
+          "netinet/in.h": 2,
+          "AFURLRequestSerialization.h": 2,
+          "<netinet/in.h>": 2,
+          "AFURLResponseSerialization.h": 2,
+          "TargetConditionals.h": 2,
+          "<netinet6/in6.h>": 2,
+          "<ifaddrs.h>": 2,
+          "<WatchKit/WatchKit.h>": 2,
+          "ifaddrs.h": 2,
+          "AFAppDotNetAPIClient.h": 2,
+          "AppDelegate.h": 2,
+          "GlobalTimelineViewController.h": 2,
+          "PostTableViewCell.h": 2,
+          "AFTableViewCell.h": 2,
+          "ASHComputerPlayerModel.h": 2,
+          "ASHGameBoard+Private.h": 2,
+          "ASHGameBoardView.h": 2,
+          "ASHGameBoardViewController.h": 2,
+          "ASHPlayerIndicatorView.h": 2,
+          "asl.h": 2,
+          "<asl.h>": 2,
+          "ARAnalyticalProvider.h": 2,
+          "ARNavigationControllerDelegateProxy.h": 2,
+          "ORViewController.h": 2,
+          "<ARAnalytics/ARAnalytics.h>": 2,
+          "ARAnalytics/ARAnalytics.h": 2,
+          "ORStubbedProvider.h": 2,
+          "NSDictionary+GoogleAnalytics.h": 2,
+          "ARCollectionViewCell.h": 2,
+          "ARModel.h": 2,
+          "ARImageBackedTiledView.h": 2,
+          "ARTile.h": 2,
+          "<SDWebImage/UIImageView+WebCache.h>": 2,
+          "SDWebImage/UIImageView+WebCache.h": 2,
+          "ARTiledImageScrollView.h": 2,
+          "<ARTiledImageView/ARLocalTiledImageDataSource.h>": 2,
+          "ARTiledImageView/ARLocalTiledImageDataSource.h": 2,
+          "EXPBlockDefinedMatcher.h": 2,
+          "EXPDoubleTuple.h": 2,
+          "NSObject+Expecta.h": 2,
+          "EXPFloatTuple.h": 2,
+          "NSValue+Expecta.h": 2,
+          "FiveHundredPxApertureExporter.h": 1,
+          "ApertureExportPlugIn.h": 1,
+          "Quartz/Quartz.h": 1,
+          "<Quartz/Quartz.h>": 1,
+          "FiveHundredPxOAuthEngine.h": 1,
+          "CJSONDeserializer.h": 1,
+          "APIConstants.h": 1,
+          "SBJsonWriter.h": 1,
+          "<limits.h>": 1,
+          "limits.h": 1,
+          "SBJsonStreamWriterAccumulator.h": 1,
+          "SBJsonUTF8Stream.h": 1,
+          "CommonCrypto/CommonHMAC.h": 1,
+          "<CommonCrypto/CommonHMAC.h>": 1,
+          "PXAPIHelper.h": 1,
+          "PXRequest+Creation.h": 1,
+          "PXAPI.h": 1,
+          "OCMock.h": 1,
+          "PXRequestTests.h": 1,
+          "ANKAnnotatableResource.h": 1,
+          "ANKGeolocation.h": 1,
+          "ANKPlace.h": 1,
+          "ANKChannelCounts.h": 1,
+          "ANKClient+ANKChannel.h": 1,
+          "ANKUser.h": 1,
+          "ANKExploreStream.h": 1,
+          "ANKClient+ANKExploreStream.h": 1,
+          "ANKClient+ANKFile.h": 1,
+          "ANKClient+ANKFilter.h": 1,
+          "ANKClient+ANKHandlerBlocks.h": 1,
+          "ANKResource.h": 1,
+          "ANKClient+ANKInteraction.h": 1,
+          "ANKInteraction.h": 1,
+          "AFActivityIndicatorView.h": 1,
+          "NSData+AFDecompression.h": 1,
+          "AFURLConnectionOperation.h": 1,
+          "AFNetworkActivityLogger.h": 1,
+          "Specta/Specta.h": 1,
+          "<Expecta/Expecta.h>": 1,
+          "<Specta/Specta.h>": 1,
+          "Expecta/Expecta.h": 1,
+          "AFHTTPSessionManager.h": 1,
+          "<Availability.h>": 1,
+          "Security/Security.h": 1,
+          "Availability.h": 1,
+          "<Security/Security.h>": 1,
+          "AFNetworkReachabilityManager.h": 1,
+          "AFSecurityPolicy.h": 1,
+          "AssertMacros.h": 1,
+          "<AssertMacros.h>": 1,
+          "MobileCoreServices/MobileCoreServices.h": 1,
+          "<MobileCoreServices/MobileCoreServices.h>": 1,
+          "CoreServices/CoreServices.h": 1,
+          "<CoreServices/CoreServices.h>": 1,
+          "CoreGraphics/CoreGraphics.h": 1,
+          "<CoreGraphics/CoreGraphics.h>": 1,
+          "TodayViewController.h": 1,
+          "NotificationCenter/NotificationCenter.h": 1,
+          "<NotificationCenter/NotificationCenter.h>": 1,
+          "Crashlytics/Crashlytics.h": 1,
+          "<Crashlytics/Crashlytics.h>": 1,
+          "RACDelegateProxy.h": 1,
+          "ASHViewController.h": 1,
+          "NSValue+ASHGameBoardGeometry.h": 1,
+          "<sys/stat.h>": 1,
+          "sys/stat.h": 1,
+          "ARAnalytics.h": 1,
+          "ARAnalyticsProviders.h": 1,
+          "<RSSwizzle/RSSwizzle.h>": 1,
+          "ARDSL.h": 1,
+          "RSSwizzle/RSSwizzle.h": 1,
+          "<ReactiveCocoa/ReactiveCocoa.h>": 1,
+          "ReactiveCocoa/ReactiveCocoa.h": 1,
+          "ORLibratoStubs.h": 1,
+          "<ARAnalytics/ARDSL.h>": 1,
+          "ARAnalytics/ARDSL.h": 1,
+          "<OCMock/OCMock.h>": 1,
+          "OCMock/OCMock.h": 1,
+          "ARAnalytics+Chartbeat.h": 1,
+          "CBTracker.h": 1,
+          "ChartbeatProvider.h": 1,
+          "GAIDictionaryBuilder.h": 1,
+          "GAI.h": 1,
+          "ARAnalytics+GoogleAnalytics.h": 1,
+          "NSMutableDictionary+GoogleAnalytics.h": 1,
+          "EDColor/UIColor+iOS7.h": 1,
+          "<EDColor/UIColor+iOS7.h>": 1,
+          "ARTiledImageViewDataSource.h": 1,
+          "<QuartzCore/CATiledLayer.h>": 1,
+          "QuartzCore/CATiledLayer.h": 1,
+          "<ARTiledImageView/ARTiledImageScrollView.h>": 1,
+          "ARTiledImageView/ARTiledImageScrollView.h": 1,
+          "ARTiledImageView/ARTiledImageView.h": 1,
+          "<ARTiledImageView/ARTiledImageView.h>": 1,
+          "EXPBackwardCompatibility.h": 1,
+          "EXPMatcher.h": 1,
+          "libkern/OSAtomic.h": 1,
+          "EXPExpect.h": 1,
+          "<libkern/OSAtomic.h>": 1,
+          "ExpectaSupport.h": 1,
+          "EXPDefines.h": 1,
+          "EXPMatchers+beCloseTo.h": 1,
+          "EXPMatchers+beFalsy.h": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 3,
+        "packages": {
+          "set": 1,
+          "json": 1,
+          "rspec": 1,
+          "uri": 1,
+          "pathname": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 16,
+        "packages": {
+          "RxSwift": 9,
+          "Foundation": 6,
+          "UIKit": 6,
+          "RxCocoa": 5,
+          "Action": 5,
+          "XCTest": 5,
+          "Nimble": 4,
+          "RxBlocking": 4,
+          "Quick": 4,
+          "ObjectiveC": 2
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "danger": 2,
+          "github-webhook-event-types": 1,
+          "slack": 1,
+          "danger-plugin-yarn": 1,
+          "danger-plugin-spellcheck": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 9,
+        "packages": {
+          "styled-components": 5,
+          "next": 5,
+          "react": 3,
+          "artsy": 3,
+          "date-fns": 2,
+          "lodash.shuffle": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ashfurrow/2014.artsy.net",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ashfurrow/500px-Aperture-Uploader",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/500px-API-Test",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/500px-iOS-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/Action",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "ashfurrow/ADNKit",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/advent-of-code-2024",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ashfurrow/AFActivityIndicatorView",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/AFImageDownloader",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/AFNetworkActivityLogger",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/AFNetworking",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/AFTabledCollectionView",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/Alamofire",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "ashfurrow/alcatraz-packages",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ashfurrow/Angular",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/ARAnalytics",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "ashfurrow/ARCollectionViewMasonryLayout",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/arrow",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "ashfurrow/ARTiledImageView",
+        "files_analyzed": 26,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "ashfurrow/artsy-danger",
+        "files_analyzed": 3,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "ashfurrow/Artsy-OSSUIFonts",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      }
+    ]
+  }
+}

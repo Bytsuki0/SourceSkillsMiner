@@ -1,0 +1,275 @@
+{
+  "username": "kms920106",
+  "avatar_url": "https://avatars.githubusercontent.com/u/46584742?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.7777777777777778,
+      "details": {
+        "issue_resolution_rate": 0.3333333333333333,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 1.0,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 1.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.4125,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 2,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 5
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": true,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7130555555555556,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        312701,
+        1116
+      ],
+      "Kotlin": [
+        55617,
+        70
+      ],
+      "Shell": [
+        614,
+        0
+      ],
+      "Dockerfile": [
+        207,
+        0
+      ],
+      "TypeScript": [
+        1765905,
+        1635
+      ],
+      "HTML": [
+        31269,
+        41
+      ],
+      "CSS": [
+        24588,
+        26
+      ],
+      "JavaScript": [
+        14319,
+        16
+      ],
+      "Mustache": [
+        2168,
+        2
+      ],
+      "Ruby": [
+        961,
+        1
+      ],
+      "Objective-C": [
+        628,
+        0
+      ],
+      "Vue": [
+        471,
+        0
+      ],
+      "Objective-C++": [
+        357,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 2907,
+    "total_lines": 2209805,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 1765905,
+        "commits": 1635
+      },
+      {
+        "language": "Java",
+        "lines": 312701,
+        "commits": 1116
+      },
+      {
+        "language": "Kotlin",
+        "lines": 55617,
+        "commits": 70
+      },
+      {
+        "language": "HTML",
+        "lines": 31269,
+        "commits": 41
+      },
+      {
+        "language": "CSS",
+        "lines": 24588,
+        "commits": 26
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "kms920106",
+    "analysis_date": "2026-05-15T23:56:31.259479",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 167,
+    "languages": {
+      "Java": {
+        "files_scanned": 90,
+        "packages": {
+          "org.springframework": 45,
+          "lombok.Getter": 35,
+          "com.survey": 30,
+          "com.bank": 30,
+          "com.tastyhouse": 30,
+          "java.util": 21,
+          "lombok.RequiredArgsConstructor": 17,
+          "java.time": 15,
+          "jakarta.persistence": 14,
+          "lombok.NoArgsConstructor": 13,
+          "jakarta.validation": 9,
+          "lombok.AccessLevel": 8,
+          "lombok.AllArgsConstructor": 8,
+          "io.swagger": 7,
+          "org.slf4j": 6,
+          "com.querydsl": 5,
+          "com.fasterxml": 5,
+          "lombok.Setter": 5,
+          "javax.persistence": 4,
+          "jakarta.servlet": 3,
+          "java.io": 3,
+          "lombok.Builder": 3,
+          "org.hibernate": 2,
+          "com.auth0": 2,
+          "javax.servlet": 2,
+          "javax.validation": 2,
+          "com.sun": 1,
+          "com.p6spy": 1,
+          "jakarta.annotation": 1,
+          "lombok": 1,
+          "lombok.Data": 1,
+          "org.springdoc": 1,
+          "java.lang": 1,
+          "static": 1,
+          "lombok.ToString": 1,
+          "org.aspectj": 1,
+          "lombok.extern": 1,
+          "org.junit": 1,
+          "lombok.EqualsAndHashCode": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 17,
+        "packages": {
+          "org.fastcampus": 17,
+          "org.springframework": 16,
+          "org.junit": 8
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 14,
+        "packages": {
+          "playwright": 7,
+          "next": 6,
+          "axe-core": 1,
+          "type": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 16,
+        "packages": {
+          "next": 10,
+          "react-hook-form": 8,
+          "hookform": 6,
+          "sonner": 4,
+          "tanstack": 2,
+          "react": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "kms920106/be-onboarding-project",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kms920106/O2O-BE",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "kms920106/study",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kms920106/tastyhouse-admin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "kms920106/tastyhouse-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "kms920106/tastyhouse-web",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

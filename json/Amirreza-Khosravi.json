@@ -1,0 +1,362 @@
+{
+  "username": "Amirreza-Khosravi",
+  "avatar_url": "https://avatars.githubusercontent.com/u/100726687?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.21976909506328612,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6593072851898583
+      }
+    },
+    "Status": {
+      "score": 0.6015937346668164,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.7047812040004494,
+        "week_streak": 0.1
+      }
+    },
+    "Adaptability": {
+      "score": 0.0625,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.37677256594602054,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        70900,
+        9
+      ],
+      "Dart": [
+        212657,
+        6
+      ],
+      "CMake": [
+        37923,
+        2
+      ],
+      "HTML": [
+        15115,
+        0
+      ],
+      "C": [
+        3286,
+        0
+      ],
+      "Swift": [
+        2041,
+        0
+      ],
+      "Kotlin": [
+        511,
+        0
+      ],
+      "Objective-C": [
+        150,
+        0
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 17,
+    "total_lines": 342583,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 70900,
+        "commits": 9
+      },
+      {
+        "language": "Dart",
+        "lines": 212657,
+        "commits": 6
+      },
+      {
+        "language": "CMake",
+        "lines": 37923,
+        "commits": 2
+      },
+      {
+        "language": "HTML",
+        "lines": 15115,
+        "commits": 0
+      },
+      {
+        "language": "C",
+        "lines": 3286,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Amirreza-Khosravi",
+    "analysis_date": "2026-05-17T07:54:43.668332",
+    "total_repos_analyzed": 11,
+    "total_files_analyzed": 235,
+    "languages": {
+      "C++": {
+        "files_scanned": 53,
+        "packages": {
+          "flutter_window.h": 18,
+          "utils.h": 17,
+          "<windows.h>": 17,
+          "windows.h": 17,
+          "flutter_windows.h": 16,
+          "<flutter_windows.h>": 16,
+          "generated_plugin_registrant.h": 13,
+          "flutter/generated_plugin_registrant.h": 12,
+          "optional": 9,
+          "<optional>": 9,
+          "flutter/dart_project.h": 9,
+          "<flutter/flutter_view_controller.h>": 9,
+          "<flutter/dart_project.h>": 9,
+          "flutter/flutter_view_controller.h": 9,
+          "stdio.h": 8,
+          "io.h": 8,
+          "<iostream>": 8,
+          "<stdio.h>": 8,
+          "iostream": 8,
+          "<io.h>": 8,
+          "resource.h": 8,
+          "win32_window.h": 8,
+          "EnableNonClientDpiScaling": 8,
+          "my_application.h": 6,
+          "flutter_linux/flutter_linux.h": 3,
+          "gdk/gdkx.h": 3,
+          "<flutter_linux/flutter_linux.h>": 3,
+          "<gdk/gdkx.h>": 3
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 51,
+        "packages": {
+          "memory": 17,
+          "<memory>": 17,
+          "<string>": 16,
+          "string": 16,
+          "GeneratedPluginRegistrant.h": 10,
+          "flutter/plugin_registry.h": 10,
+          "<flutter/plugin_registry.h>": 10,
+          "win32_window.h": 9,
+          "flutter/dart_project.h": 9,
+          "<flutter/flutter_view_controller.h>": 9,
+          "<flutter/dart_project.h>": 9,
+          "flutter/flutter_view_controller.h": 9,
+          "<vector>": 8,
+          "vector": 8,
+          "<windows.h>": 8,
+          "windows.h": 8,
+          "functional": 8,
+          "<functional>": 8,
+          "flutter_linux/flutter_linux.h": 3,
+          "<flutter_linux/flutter_linux.h>": 3,
+          "gtk/gtk.h": 3,
+          "<gtk/gtk.h>": 3
+        }
+      },
+      "Dart": {
+        "files_scanned": 80,
+        "packages": {
+          "flutter": 70,
+          "money_app": 14,
+          "flutter_test": 10,
+          "coin_watch": 9,
+          "note_app": 9,
+          "instagram": 7,
+          "flutter_staggered_grid_view": 7,
+          "flutter_bloc": 6,
+          "dart:ui": 6,
+          "dart:async": 5,
+          "hive": 5,
+          "counter": 4,
+          "dotted_border": 4,
+          "monews": 4,
+          "quiz_application": 4,
+          "bmi_app": 2,
+          "calculator_application": 2,
+          "dartz": 2,
+          "dio": 2,
+          "flutter_spinkit": 2,
+          "hive_flutter": 2,
+          "time_pickerr": 2,
+          "widgets/backgroundShape_right.dart": 1,
+          "widgets/backgroundShape_left.dart": 1,
+          "hexcolor": 1,
+          "math_expressions": 1,
+          "get_it": 1,
+          "smooth_page_indicator": 1,
+          "tic_tac_toe": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 10,
+        "packages": {
+          "com.example": 10,
+          "io.flutter": 10
+        }
+      },
+      "Swift": {
+        "files_scanned": 21,
+        "packages": {
+          "Flutter": 11,
+          "UIKit": 11,
+          "FlutterMacOS": 10,
+          "Cocoa": 7,
+          "Foundation": 3,
+          "XCTest": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Amirreza-Khosravi/bmi_app",
+        "files_analyzed": 18,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Amirreza-Khosravi/calculator",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Amirreza-Khosravi/CoinWatch",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Amirreza-Khosravi/Counter-App",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Amirreza-Khosravi/instagram",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Amirreza-Khosravi/monews",
+        "files_analyzed": 23,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Amirreza-Khosravi/money_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Amirreza-Khosravi/note_app",
+        "files_analyzed": 27,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Amirreza-Khosravi/quiz_app",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "Amirreza-Khosravi/tic_tac_toe",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

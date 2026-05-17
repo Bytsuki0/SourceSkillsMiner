@@ -1,0 +1,260 @@
+{
+  "username": "amzotelli",
+  "avatar_url": "https://avatars.githubusercontent.com/u/77364052?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8205128205128205,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 0.9615384615384616,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.8,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 0.525,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6791025641025642,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        2523892,
+        215
+      ],
+      "TypeScript": [
+        5636,
+        57
+      ],
+      "CSS": [
+        691016,
+        56
+      ],
+      "HTML": [
+        40650,
+        14
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 342,
+    "total_lines": 3261194,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 2523892,
+        "commits": 215
+      },
+      {
+        "language": "TypeScript",
+        "lines": 5636,
+        "commits": 57
+      },
+      {
+        "language": "CSS",
+        "lines": 691016,
+        "commits": 56
+      },
+      {
+        "language": "HTML",
+        "lines": 40650,
+        "commits": 14
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "amzotelli",
+    "analysis_date": "2026-05-16T04:00:14.103488",
+    "total_repos_analyzed": 17,
+    "total_files_analyzed": 167,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 54,
+        "packages": {
+          "react": 20,
+          "assert": 10,
+          "express": 6,
+          "fs": 6,
+          "testing-library": 6,
+          "react-dom": 5,
+          "prop-types": 4,
+          "dotenv": 3,
+          "react-router-dom": 3,
+          "react-redux": 3,
+          "redux": 3,
+          "body-parser": 2,
+          "ts-jest": 2,
+          "redux-thunk": 2,
+          "jsonwebtoken": 1,
+          "sequelize": 1,
+          "path": 1,
+          "categories": 1,
+          "pg": 1,
+          "infra": 1,
+          "next": 1,
+          "DELETE_EXPENSE": 1,
+          "GET_CURRENCIES_ERROR": 1,
+          "NEW_EXPENSE": 1,
+          "GET_CURRENCIES_SUCCESS": 1,
+          "jest-localstorage-mock": 1,
+          "sheerun": 1,
+          "redux-devtools-extension": 1,
+          "history": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 24,
+        "packages": {
+          "react": 14,
+          "prop-types": 10,
+          "next": 8,
+          "react-redux": 4
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 27,
+        "packages": {
+          "express": 13,
+          "mongoose": 5,
+          "zod": 4,
+          "chai": 3,
+          "sinon": 3,
+          "mysql2": 3,
+          "Id": 1,
+          "chai-http": 1,
+          "jsonwebtoken": 1,
+          "dotenv": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "amzotelli/blogs-api-trybe",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "amzotelli/car-shop-trybe",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "amzotelli/clone-tabnews",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "amzotelli/front-end-matilha-test",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "amzotelli/js-unit-tests-trybe",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "amzotelli/nodejs-trybe",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "amzotelli/react-kanban",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "amzotelli/react-moviecard-library-trybe",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "amzotelli/react-wallet-trybe",
+        "files_analyzed": 23,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "amzotelli/starwars-search-trybe",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "amzotelli/trybesmith",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

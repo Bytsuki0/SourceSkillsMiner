@@ -1,0 +1,766 @@
+{
+  "username": "thomasjpfan",
+  "avatar_url": "https://avatars.githubusercontent.com/u/5402633?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.8,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 19,
+        "language_transitions": 21,
+        "topic_entropy_bits": 5.4669,
+        "closed_prs_total": 356,
+        "bounced_back_prs": 284
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8016666666666667,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Rust": [
+        50841,
+        0
+      ],
+      "JavaScript": [
+        48919,
+        69
+      ],
+      "CSS": [
+        82378,
+        230
+      ],
+      "SCSS": [
+        16653,
+        56
+      ],
+      "HTML": [
+        70485,
+        254
+      ],
+      "Python": [
+        102560,
+        1051
+      ],
+      "Jinja": [
+        4621,
+        132
+      ],
+      "TeX": [
+        204236,
+        0
+      ],
+      "Jupyter Notebook": [
+        218664,
+        796
+      ],
+      "Go": [
+        114924,
+        208
+      ],
+      "Makefile": [
+        6241,
+        50
+      ],
+      "Shell": [
+        5256,
+        383
+      ],
+      "Dockerfile": [
+        588,
+        96
+      ],
+      "Ruby": [
+        12313,
+        27
+      ],
+      "Cython": [
+        0,
+        0
+      ],
+      "Vim Script": [
+        0,
+        3
+      ],
+      "Perl": [
+        0,
+        0
+      ],
+      "Roff": [
+        0,
+        7
+      ],
+      "C": [
+        0,
+        2
+      ],
+      "Smarty": [
+        0,
+        0
+      ],
+      "R": [
+        0,
+        0
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 3364,
+    "total_lines": 938679,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 102560,
+        "commits": 1051
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 218664,
+        "commits": 796
+      },
+      {
+        "language": "Shell",
+        "lines": 5256,
+        "commits": 383
+      },
+      {
+        "language": "HTML",
+        "lines": 70485,
+        "commits": 254
+      },
+      {
+        "language": "CSS",
+        "lines": 82378,
+        "commits": 230
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "thomasjpfan",
+    "analysis_date": "2026-05-16T14:24:02.124393",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 288,
+    "languages": {
+      "C++": {
+        "files_scanned": 7,
+        "packages": {
+          "<arrow-glib/error.hpp>": 6,
+          "arrow-glib/error.hpp": 6,
+          "<arrow-glib/schema.hpp>": 4,
+          "arrow-glib/schema.hpp": 4,
+          "arrow-glib/record-batch.hpp": 3,
+          "<arrow-glib/record-batch.hpp>": 3,
+          "arrow-dataset-glib/partitioning.hpp": 3,
+          "<arrow-glib/file-system.hpp>": 3,
+          "<arrow-dataset-glib/file-format.hpp>": 3,
+          "<arrow-dataset-glib/dataset.hpp>": 3,
+          "<arrow-dataset-glib/partitioning.hpp>": 3,
+          "arrow-glib/file-system.hpp": 3,
+          "arrow-dataset-glib/file-format.hpp": 3,
+          "arrow-dataset-glib/dataset.hpp": 3,
+          "arrow-glib/output-stream.hpp": 2,
+          "<arrow-glib/output-stream.hpp>": 2,
+          "arrow-dataset-glib/dataset-factory.hpp": 2,
+          "<arrow-dataset-glib/dataset-factory.hpp>": 2,
+          "arrow-dataset-glib/scanner.hpp": 2,
+          "<arrow-dataset-glib/scanner.hpp>": 2,
+          "arrow-glib/table.hpp": 2,
+          "<arrow-glib/table.hpp>": 2,
+          "arrow-glib/reader.hpp": 2,
+          "<arrow-glib/reader.hpp>": 2,
+          "<arrow-glib/ipc-options.hpp>": 1,
+          "arrow-cuda-glib/cuda.hpp": 1,
+          "arrow-glib/ipc-options.hpp": 1,
+          "arrow-glib/buffer.hpp": 1,
+          "<arrow-glib/readable.hpp>": 1,
+          "arrow-glib/input-stream.hpp": 1,
+          "<arrow-glib/input-stream.hpp>": 1,
+          "arrow-glib/readable.hpp": 1,
+          "<arrow-glib/buffer.hpp>": 1,
+          "<arrow-cuda-glib/cuda.hpp>": 1,
+          "arrow-dataset-glib/fragment.hpp": 1,
+          "<arrow-dataset-glib/fragment.hpp>": 1,
+          "<arrow-glib/array.hpp>": 1,
+          "arrow-dataset-glib/enums.h": 1,
+          "arrow-glib/array.hpp": 1,
+          "<arrow-dataset-glib/enums.h>": 1,
+          "arrow-glib/expression.hpp": 1,
+          "<arrow-glib/expression.hpp>": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 9,
+        "packages": {
+          "arrow/dataset/api.h": 6,
+          "<arrow/dataset/api.h>": 6,
+          "arrow-glib/arrow-glib.hpp": 2,
+          "<arrow-glib/arrow-glib.hpp>": 2,
+          "arrow-dataset-glib/fragment.h": 2,
+          "<arrow-dataset-glib/fragment.h>": 2,
+          "arrow-cuda-glib/cuda.hpp": 1,
+          "<arrow-cuda-glib/cuda.hpp>": 1,
+          "<arrow/gpu/cuda_api.h>": 1,
+          "arrow-cuda-glib/cuda.h": 1,
+          "<arrow-cuda-glib/cuda.h>": 1,
+          "arrow/gpu/cuda_api.h": 1,
+          "arrow-dataset-glib/dataset-factory.hpp": 1,
+          "arrow-dataset-glib/partitioning.hpp": 1,
+          "arrow-dataset-glib/scanner.hpp": 1,
+          "<arrow-dataset-glib/file-format.hpp>": 1,
+          "<arrow-dataset-glib/dataset.hpp>": 1,
+          "arrow-dataset-glib/fragment.hpp": 1,
+          "<arrow-dataset-glib/fragment.hpp>": 1,
+          "<arrow-dataset-glib/partitioning.hpp>": 1,
+          "<arrow-dataset-glib/scanner.hpp>": 1,
+          "<arrow-dataset-glib/dataset-factory.hpp>": 1,
+          "arrow-dataset-glib/file-format.hpp": 1,
+          "arrow-dataset-glib/dataset.hpp": 1,
+          "<arrow-dataset-glib/dataset-factory.h>": 1,
+          "arrow-dataset-glib/dataset-factory.h": 1,
+          "<arrow-dataset-glib/dataset.h>": 1,
+          "arrow-dataset-glib/dataset.h": 1,
+          "<arrow-dataset-glib/file-format.h>": 1,
+          "arrow-dataset-glib/file-format.h": 1,
+          "arrow-dataset-glib/partitioning.h": 1,
+          "<arrow-dataset-glib/partitioning.h>": 1,
+          "arrow-dataset-glib/scanner.h": 1,
+          "<arrow-dataset-glib/scanner.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 10,
+        "packages": {
+          "<arrow-glib/arrow-glib.h>": 6,
+          "arrow-glib/arrow-glib.h": 6,
+          "arrow-dataset-glib/dataset.h": 3,
+          "<arrow-dataset-glib/dataset.h>": 3,
+          "arrow-dataset-glib/file-format.h": 2,
+          "arrow-dataset-glib/fragment.h": 2,
+          "<arrow-dataset-glib/file-format.h>": 2,
+          "<arrow-dataset-glib/fragment.h>": 2,
+          "arrow-cuda-glib/cuda.h": 1,
+          "<arrow-cuda-glib/cuda.h>": 1,
+          "arrow-dataset-glib/dataset-factory.h": 1,
+          "<arrow-dataset-glib/dataset-factory.h>": 1,
+          "<arrow-dataset-glib/partitioning.h>": 1,
+          "arrow-dataset-glib/scanner.h": 1,
+          "arrow-dataset-glib/enums.h": 1,
+          "<arrow-dataset-glib/enums.h>": 1,
+          "<arrow-dataset-glib/scanner.h>": 1,
+          "arrow-dataset-glib/partitioning.h": 1,
+          "arrow-flight-glib/common.h": 1,
+          "arrow-flight-glib/client.h": 1,
+          "arrow-flight-glib/server.h": 1,
+          "<arrow-flight-glib/common.h>": 1,
+          "<arrow-flight-glib/server.h>": 1,
+          "<arrow-flight-glib/client.h>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 8,
+        "packages": {
+          "k8s.io/apimachinery/pkg/runtime/schema": 3,
+          "sigs.k8s.io/controller-runtime/pkg/scheme": 3,
+          "k8s.io/apimachinery/pkg/apis/meta/v1": 2,
+          "fmt": 1,
+          "testing": 1,
+          "reflect": 1,
+          "k8s.io/api/core/v1": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 21,
+        "packages": {
+          "object": 8,
+          "function": 5,
+          "fs": 5,
+          "socket.io": 4,
+          "express": 4,
+          "http": 4,
+          "undefined": 2,
+          "crypto": 2,
+          "mustache": 2,
+          "system": 2,
+          "_:": 1,
+          "t]}}}": 1,
+          "}]}}]};return{case_insensitive:!0": 1,
+          "r": 1,
+          "(]([^\\n]+)[": 1,
+          "meta:": 1,
+          "darcula.css": 1,
+          "built_in:": 1,
+          "contains:[e.C_LINE_COMMENT_MODE": 1,
+          "}": 1,
+          "illegal:": 1,
+          "-webkit-transform": 1,
+          "{name:": 1,
+          "s=": 1,
+          "s": 1,
+          "e.C_NUMBER_MODE": 1,
+          "e.C_BLOCK_COMMENT_MODE": 1,
+          "n": 1,
+          "literal:": 1,
+          "l": 1,
+          "o": 1,
+          "https": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 134,
+        "packages": {
+          "numpy": 53,
+          "bayeux": 22,
+          "typing": 21,
+          "matplotlib": 18,
+          "jax": 17,
+          "os": 16,
+          "sys": 16,
+          "pytest": 15,
+          "json": 14,
+          "astropy": 14,
+          "annotations": 13,
+          "__future__": 13,
+          "functools": 12,
+          "shared": 11,
+          "pandas": 10,
+          "List": 9,
+          "time": 8,
+          "transformers": 8,
+          "*": 8,
+          "cupy": 8,
+          "warnings": 8,
+          "xarray": 8,
+          "argparse": 7,
+          "logging": 7,
+          "tensorflow_probability": 7,
+          "re": 6,
+          "random": 6,
+          "dataclasses": 6,
+          "itertools": 6,
+          "importlib": 6,
+          "pathlib": 5,
+          "Path": 5,
+          "datetime": 5,
+          "PreTrainedTokenizerBase": 5,
+          "scipy": 5,
+          "types": 5,
+          "copy": 5,
+          "collections": 5,
+          "find_current_module": 5,
+          "arviz": 5,
+          "asyncio": 4,
+          "Any": 4,
+          "torch": 4,
+          "urllib": 3,
+          "io": 3,
+          "openai": 3,
+          "vllm": 3,
+          "backend_request_func": 3,
+          "get_tokenizer": 3,
+          "math": 3,
+          "array_api_stubs": 3,
+          "_array_api_conf": 3,
+          "wraps": 3,
+          "TYPE_CHECKING": 3,
+          "deepcopy": 3,
+          "shutil": 3,
+          "units": 3,
+          "Quantity": 3,
+          "constants": 3,
+          "debug": 3,
+          "numpyro": 3,
+          "oryx": 3,
+          "optax": 3,
+          "sklearn": 2,
+          "urlretrieve": 2,
+          "utils": 2,
+          "FlexibleArgumentParser": 2,
+          "EngineArgs": 2,
+          "AutoTokenizer": 2,
+          "tqdm": 2,
+          "csv": 2,
+          "dataclass": 2,
+          "enum": 2,
+          "Enum": 2,
+          "inspect": 2,
+          "ModuleType": 2,
+          "Device": 2,
+          "abs": 2,
+          "partial": 2,
+          "builtins": 2,
+          "subprocess": 2,
+          "glob": 2,
+          "defaultdict": 2,
+          "AstropyDeprecationWarning": 2,
+          "conf": 2,
+          "e": 2,
+          "h": 2,
+          "b_wien": 2,
+          "c": 2,
+          "Constant": 2,
+          "g0": 2,
+          "initialization": 2,
+          "optimize": 2,
+          "mcmc": 2,
+          "pymc": 2,
+          "Point": 2,
+          "HMC": 2,
+          "joblib": 1,
+          "gzip": 1,
+          "enable_hist_gradient_boosting": 1,
+          "HistGradientBoostingClassifier": 1,
+          "accuracy_score": 1,
+          "GzipFile": 1,
+          "train_test_split": 1,
+          "Memory": 1,
+          "livereload": 1,
+          "Server": 1,
+          "Template": 1,
+          "jinja2": 1,
+          "ThreadPoolExecutor": 1,
+          "concurrent": 1,
+          "get_running_loop": 1,
+          "HistGradientBoostingRegressor": 1,
+          "make_regression": 1,
+          "njit": 1,
+          "numba": 1,
+          "GridSpec": 1,
+          "status_code": 1,
+          "traceback": 1,
+          "HttpUser": 1,
+          "locust": 1,
+          "Lock": 1,
+          "threading": 1,
+          "minimize": 1,
+          "stats": 1,
+          "string": 1,
+          "Tuple": 1,
+          "truncnorm": 1,
+          "timedelta": 1,
+          "distribution": 1,
+          "Timedelta": 1,
+          "sample_request": 1,
+          "LLM": 1,
+          "kubernetes": 1,
+          "client": 1,
+          "_2021_12": 1,
+          "_2022_12": 1,
+          "_draft": 1,
+          "sphinx": 1,
+          "sphinx_material": 1,
+          "for": 1,
+          "authors": 1,
+          "like": 1,
+          "signature": 1,
+          "NamedTuple": 1,
+          "Optional": 1,
+          "stream": 1,
+          "runtime": 1,
+          "cupy_backends": 1,
+          "normalize_axis_tuple": 1,
+          "Literal": 1,
+          "__all__": 1,
+          "all": 1,
+          "dtype": 1,
+          "setuptools": 1,
+          "setup": 1,
+          "array_api_compat": 1,
+          "uses_torch": 1,
+          "uses_cupy": 1,
+          "skip": 1,
+          "vendor_test": 1,
+          "uses_numpy": 1,
+          "platform": 1,
+          "ArgumentParser": 1,
+          "style": 1,
+          "pkg_resources": 1,
+          "used": 1,
+          ":": 1,
+          "hashlib": 1,
+          "namedtuple": 1,
+          "netCDF4": 1,
+          "linecache": 1,
+          "emcee": 1,
+          "pymc3": 1,
+          "EmpiricalMarginal": 1,
+          "pyro": 1,
+          "operator": 1,
+          "OrderedDict": 1,
+          "itemgetter": 1,
+          "pystan": 1,
+          "a": 1,
+          "tee": 1,
+          "`space`": 1,
+          "gaussian": 1,
+          "coo_matrix": 1,
+          "entropy": 1,
+          "NullFormatter": 1,
+          "mpl_toolkits": 1,
+          "gridspec": 1,
+          "make_axes_locatable": 1,
+          "product": 1,
+          "mode": 1,
+          "fftconvolve": 1,
+          "collect_data_files": 1,
+          "PyInstaller": 1,
+          "erfa": 1,
+          "urlencode": 1,
+          "webbrowser": 1,
+          "get_version": 1,
+          "setuptools_scm": 1,
+          "warn": 1,
+          "textwrap": 1,
+          "deprecated": 1,
+          "path": 1,
+          "contextlib": 1,
+          "TextWrapper": 1,
+          "configobj": 1,
+          "pkgutil": 1,
+          "log": 1,
+          "contextmanager": 1,
+          "as::": 1,
+          "resolve_name": 1,
+          "isiterable": 1,
+          "winreg": 1,
+          "is_unedited_config_file": 1,
+          "ConfigItem": 1,
+          "configuration": 1,
+          "get_pkg_data_filename": 1,
+          "get_config": 1,
+          "generate_config": 1,
+          "tempfile": 1,
+          "__version__": 1,
+          "pyplot": 1,
+          "HAS_MATPLOTLIB": 1,
+          "PYTEST_HEADER_MODULES": 1,
+          "pytest_astropy_header": 1,
+          "AstropyUserWarning": 1,
+          "lazyproperty": 1,
+          "Unit": 1,
+          "check_pickling_recovery": 1,
+          "astropyconst13": 1,
+          "iau2012": 1,
+          "astronomical_constants": 1,
+          "Model": 1,
+          "vi": 1,
+          "pprint": 1,
+          "Callable": 1,
+          "blackjax": 1,
+          "rqSpline": 1,
+          "realNVP": 1,
+          "Sampler": 1,
+          "flowMC": 1,
+          "MALA": 1,
+          "jaxopt": 1,
+          "optimistix": 1,
+          "MaskedCouplingRQSplineHMC": 1,
+          "CheesHMC": 1,
+          "HMCPathfinder": 1,
+          "NUTSPathfinder": 1,
+          "RealNVPHMC": 1,
+          "MeadsHMC": 1,
+          "MaskedCouplingRQSplineMALA": 1,
+          "RealNVPMALA": 1,
+          "SnaperHMC": 1,
+          "NUTS": 1,
+          "Dogleg": 1,
+          "BFGS": 1,
+          "NonlinearCG": 1,
+          "Adafactor": 1,
+          "Adam": 1,
+          "Radam": 1,
+          "Amsgrad": 1,
+          "AdaBelief": 1,
+          "Adamw": 1,
+          "Adamax": 1,
+          "Lion": 1,
+          "Sm3": 1,
+          "Chord": 1,
+          "NelderMead": 1,
+          "Lamb": 1,
+          "GaussNewton": 1,
+          "LevenbergMarquardt": 1,
+          "LBFGS": 1,
+          "GradientDescent": 1,
+          "Sgd": 1,
+          "Rmsprop": 1,
+          "NoisySgd": 1,
+          "Adagrad": 1,
+          "Yogi": 1,
+          "Fromage": 1,
+          "Novograd": 1,
+          "IndirectLevenbergMarquardt": 1,
+          "Newton": 1,
+          "Factored": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 26,
+        "packages": {
+          "crate": 15,
+          "super": 9,
+          "std": 3,
+          "common": 2,
+          "outro_02": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "thomasjpfan/100-exercises-to-learn-rust",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/2020-czi-scikit-learn",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/2020-richmond-ds-meetup-gradient-boosting",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/2024-accelerate-python-with-parallelism",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/aibrix",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/ansible-docker-role",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/ansible-docker-swarm-role",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/ansible-ufw-cluster-role",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/array-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/array-api-compat",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/array-api-compat-feedstock",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/arrow",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C++ Header",
+          "C/C++ Header",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/arviz",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/astropy",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "thomasjpfan/bayeux",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

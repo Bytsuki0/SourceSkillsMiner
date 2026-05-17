@@ -1,0 +1,807 @@
+{
+  "username": "racheltho",
+  "avatar_url": "https://avatars.githubusercontent.com/u/2602738?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8055555555555556,
+      "details": {
+        "issue_resolution_rate": 0.4166666666666667,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.9,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.7
+      }
+    },
+    "Adaptability": {
+      "score": 0.46875,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 6,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6848611111111111,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "R": [
+        4932096,
+        5
+      ],
+      "Swift": [
+        197846,
+        103
+      ],
+      "Objective-C": [
+        3164,
+        0
+      ],
+      "Ruby": [
+        4588,
+        1
+      ],
+      "JavaScript": [
+        1731626,
+        127
+      ],
+      "Python": [
+        51679,
+        36
+      ],
+      "PHP": [
+        396,
+        0
+      ],
+      "CoffeeScript": [
+        38,
+        0
+      ],
+      "Shell": [
+        12591,
+        4
+      ],
+      "CSS": [
+        266290,
+        6
+      ],
+      "XML": [
+        53114,
+        0
+      ],
+      "Jupyter Notebook": [
+        130144,
+        52
+      ],
+      "HTML": [
+        6718451,
+        156
+      ],
+      "SCSS": [
+        20745,
+        8
+      ],
+      "Smarty": [
+        4272,
+        1
+      ],
+      "Makefile": [
+        3116,
+        1
+      ],
+      "Dockerfile": [
+        791,
+        0
+      ],
+      "Fortran": [
+        5060,
+        0
+      ],
+      "C": [
+        6,
+        0
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 500,
+    "total_lines": 14136013,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 6718451,
+        "commits": 156
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1731626,
+        "commits": 127
+      },
+      {
+        "language": "Swift",
+        "lines": 197846,
+        "commits": 103
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 130144,
+        "commits": 52
+      },
+      {
+        "language": "Python",
+        "lines": 51679,
+        "commits": 36
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "racheltho",
+    "analysis_date": "2026-05-16T07:38:52.393896",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 320,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 33,
+        "packages": {
+          "<Foundation/Foundation.h>": 24,
+          "<Availability.h>": 6,
+          "<UIKit/UIKit.h>": 5,
+          "AFURLRequestSerialization.h": 4,
+          "AFURLResponseSerialization.h": 4,
+          "AFSecurityPolicy.h": 4,
+          "AFNetworkReachabilityManager.h": 3,
+          "<SystemConfiguration/SystemConfiguration.h>": 3,
+          "<UIImageView+AFNetworking.h>": 3,
+          "<Bolts/BFAppLinkReturnToRefererView.h>": 3,
+          "<Bolts/BFAppLink.h>": 3,
+          "AFURLConnectionOperation.h": 2,
+          "AFHTTPRequestOperation.h": 2,
+          "<MobileCoreServices/MobileCoreServices.h>": 2,
+          "<CoreServices/CoreServices.h>": 2,
+          "AFURLSessionManager.h": 2,
+          "<Bolts/BFMeasurementEvent.h>": 2,
+          "<Bolts/BFAppLinkNavigation.h>": 2,
+          "<Bolts/BFURL.h>": 2,
+          "<SVProgressHUD.h>": 2,
+          "<FacebookSDK/FacebookSDK.h>": 1,
+          "UIImageView+AFNetworking.h": 1,
+          "AFHTTPSessionManager.h": 1,
+          "AFHTTPRequestOperationManager.h": 1,
+          "<Security/Security.h>": 1,
+          "<CoreGraphics/CoreGraphics.h>": 1,
+          "<Bolts/BFTaskCompletionSource.h>": 1,
+          "<Bolts/BFAppLinkReturnToRefererController.h>": 1,
+          "<Bolts/BoltsVersion.h>": 1,
+          "<Bolts/BFAppLinkTarget.h>": 1,
+          "<Bolts/BFTask.h>": 1,
+          "<Bolts/BFExecutor.h>": 1,
+          "<Bolts/BFAppLinkResolving.h>": 1,
+          "<BDBOAuth1RequestSerializer.h>": 1,
+          "<NSString+BDBOAuth1Manager.h>": 1,
+          "<BDBOAuth1RequestOperationManager.h>": 1,
+          "<NSDictionary+BDBOAuth1Manager.h>": 1,
+          "<BDBOAuth1SessionManager.h>": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 5,
+        "packages": {
+          "java.util": 5,
+          "java.io": 5,
+          "myudfs": 5,
+          "java.lang": 4,
+          "org.apache": 4
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 25,
+        "packages": {
+          "ngModel": 10,
+          "?ngModel": 7,
+          "select": 4,
+          "=": 4,
+          "fs": 4,
+          "O=[G": 2,
+          "multiLineStrings:!0": 2,
+          "w=[y": 2,
+          "hashComments:!0": 2,
+          "+P": 2,
+          "z]": 2,
+          "J={};d(S": 2,
+          "cStyleComments:!0": 2,
+          "Q": 2,
+          "]": 2,
+          "[": 2,
+          "regexLiterals:!0})": 2,
+          "Q=[z": 2,
+          "^tabbable": 2,
+          "path": 2,
+          "jQuery": 2,
+          "t.write(": 2,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 2,
+          ")).appendTo(t.documentElement)": 2,
+          "testacular": 1,
+          "npm-shrinkwrap": 1,
+          "time-grunt": 1,
+          "load-grunt-tasks": 1,
+          "remarkable": 1,
+          "glob": 1,
+          "btoa": 1,
+          "use": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 24,
+        "packages": {
+          "UIKit/UIKit.h": 6,
+          "<UIKit/UIKit.h>": 6,
+          "BFAppLinkTarget.h": 5,
+          "AFHTTPRequestOperation.h": 4,
+          "BFTask.h": 4,
+          "AFURLSessionManager.h": 3,
+          "BFExecutor.h": 3,
+          "BFTaskCompletionSource.h": 3,
+          "BFAppLink_Internal.h": 3,
+          "BFMeasurementEvent_Internal.h": 3,
+          "BFAppLink.h": 3,
+          "Availability.h": 2,
+          "Security/Security.h": 2,
+          "Foundation/Foundation.h": 2,
+          "<Foundation/Foundation.h>": 2,
+          "<Availability.h>": 2,
+          "<Security/Security.h>": 2,
+          "<netinet/in.h>": 2,
+          "netinet6/in6.h": 2,
+          "netinet/in.h": 2,
+          "arpa/inet.h": 2,
+          "ifaddrs.h": 2,
+          "netdb.h": 2,
+          "AFURLRequestSerialization.h": 2,
+          "<ifaddrs.h>": 2,
+          "<arpa/inet.h>": 2,
+          "<netinet6/in6.h>": 2,
+          "<netdb.h>": 2,
+          "AFURLResponseSerialization.h": 2,
+          "Bolts.h": 2,
+          "BFWebViewAppLinkResolver.h": 2,
+          "BFURL_Internal.h": 2,
+          "AFHTTPRequestOperationManager.h": 1,
+          "AFHTTPSessionManager.h": 1,
+          "AFNetworkReachabilityManager.h": 1,
+          "<AssertMacros.h>": 1,
+          "AFSecurityPolicy.h": 1,
+          "AssertMacros.h": 1,
+          "AFURLConnectionOperation.h": 1,
+          "MobileCoreServices/MobileCoreServices.h": 1,
+          "<MobileCoreServices/MobileCoreServices.h>": 1,
+          "<CoreServices/CoreServices.h>": 1,
+          "CoreServices/CoreServices.h": 1,
+          "CoreGraphics/CoreGraphics.h": 1,
+          "<CoreGraphics/CoreGraphics.h>": 1,
+          "<Cocoa/Cocoa.h>": 1,
+          "Cocoa/Cocoa.h": 1,
+          "objc/runtime.h": 1,
+          "<objc/runtime.h>": 1,
+          "AFNetworkActivityIndicatorManager.h": 1,
+          "UIActivityIndicatorView+AFNetworking.h": 1,
+          "libkern/OSAtomic.h": 1,
+          "<libkern/OSAtomic.h>": 1,
+          "BFAppLinkNavigation.h": 1,
+          "BoltsVersion.h": 1,
+          "BFAppLinkReturnToRefererController.h": 1,
+          "BFAppLinkReturnToRefererView_Internal.h": 1,
+          "BFAppLinkReturnToRefererView.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 86,
+        "packages": {
+          "numpy": 40,
+          "sklearn": 34,
+          "os": 29,
+          "time": 26,
+          "sys": 21,
+          "__future__": 20,
+          "datetime": 17,
+          "collections": 16,
+          "logging": 14,
+          "matplotlib": 14,
+          "gc": 14,
+          "pandas": 14,
+          "scipy": 13,
+          "defaultdict": 12,
+          "print_function": 10,
+          "re": 9,
+          "pylab": 9,
+          "tcre": 9,
+          "csv": 8,
+          "*": 8,
+          "argparse": 8,
+          "absolute_import": 7,
+          "random": 6,
+          "division": 6,
+          "werkzeug": 5,
+          "requests": 5,
+          "AuthBase": 5,
+          "Href": 5,
+          "sanetime": 5,
+          "itertools": 5,
+          "flask": 5,
+          "string": 5,
+          "torch": 5,
+          "json": 4,
+          "models": 4,
+          "date": 4,
+          "sqlalchemy": 4,
+          "Memory": 4,
+          "make_regression": 4,
+          "axes3d": 4,
+          "mpl_toolkits": 4,
+          "tqdm": 4,
+          "snorkel": 4,
+          "operator": 3,
+          "pathlib": 3,
+          "webapp2": 3,
+          "google": 3,
+          "template": 3,
+          "pypropack": 3,
+          "csr_matrix": 3,
+          "svdp": 3,
+          "join": 3,
+          "check_array": 3,
+          "RandomForestClassifier": 3,
+          "DecisionTreeClassifier": 3,
+          "get_data_home": 3,
+          "tempfile": 3,
+          "xrange": 3,
+          "shutil": 3,
+          "matthews_corrcoef": 3,
+          "DistributedSampler": 3,
+          "tensorboardX": 3,
+          "apex": 3,
+          "SummaryWriter": 3,
+          "ptvsd": 3,
+          "Candidate": 3,
+          "unicodedata": 3,
+          "StringIO": 2,
+          "groupby": 2,
+          "jsonify": 2,
+          "relationship": 2,
+          "xldate": 2,
+          "xlrd": 2,
+          "psycopg2": 2,
+          "Table": 2,
+          "itemgetter": 2,
+          "declarative_base": 2,
+          "xldate_as_tuple": 2,
+          "db_utils": 2,
+          "Response": 2,
+          "PCode": 2,
+          "qobjects": 2,
+          "Iterator": 2,
+          "Path": 2,
+          "fast_template": 2,
+          "rename_for_jekyll": 2,
+          "svd": 2,
+          "warnings": 2,
+          "setup": 2,
+          "Configuration": 2,
+          "LogisticRegression": 2,
+          "DummyClassifier": 2,
+          "ExtraTreesClassifier": 2,
+          "zero_one_loss": 2,
+          "LinearSVC": 2,
+          "total_seconds": 2,
+          "Lasso": 2,
+          "lars_path": 2,
+          "make_low_rank_matrix": 2,
+          "check_random_state": 2,
+          "randomized_svd": 2,
+          "pickle": 2,
+          "optparse": 2,
+          "AdamW": 2,
+          "amp": 2,
+          "pytorch_transformers": 2,
+          "glob": 2,
+          "open": 2,
+          "pearsonr": 2,
+          "enum": 2,
+          "io": 2,
+          "click": 2,
+          "SnorkelSession": 2,
+          "BeautifulSoup": 2,
+          "bs4": 2,
+          "features": 2,
+          "cli_client": 2,
+          "urllib2": 1,
+          "oauth2": 1,
+          "the": 1,
+          "MapReduce": 1,
+          "finance": 1,
+          "Poll": 1,
+          "formset_factory": 1,
+          "Campaign": 1,
+          "django": 1,
+          "forms": 1,
+          "pdb": 1,
+          "to": 1,
+          "namedtuple": 1,
+          "xlwt": 1,
+          "mktime": 1,
+          "flask_sqlalchemy": 1,
+          "flask_restless": 1,
+          "Flask": 1,
+          "typing": 1,
+          "Tuple": 1,
+          "export2html": 1,
+          "Config": 1,
+          "nbdev": 1,
+          "csc_matrix": 1,
+          "sparsesvd": 1,
+          "svds": 1,
+          "aslinearoperator": 1,
+          "get_info": 1,
+          "assert_allclose": 1,
+          "fetch_20newsgroups_vectorized": 1,
+          "accuracy_score": 1,
+          "AdaBoostClassifier": 1,
+          "MultinomialNB": 1,
+          "GaussianNB": 1,
+          "SGDClassifier": 1,
+          "GradientBoostingClassifier": 1,
+          "fetch_covtype": 1,
+          "linear_model": 1,
+          "glmnet": 1,
+          "fetch_kddcup99": 1,
+          "roc_curve": 1,
+          "IsolationForest": 1,
+          "LabelBinarizer": 1,
+          "shuffle": 1,
+          "isotonic_regression": 1,
+          "make_pipeline": 1,
+          "MLPClassifier": 1,
+          "RBFSampler": 1,
+          "fetch_mldata": 1,
+          "Nystroem": 1,
+          "make_multilabel_classification": 1,
+          "partial": 1,
+          "functools": 1,
+          "ignore_warnings": 1,
+          "timeit": 1,
+          "LSHForest": 1,
+          "make_blobs": 1,
+          "NearestNeighbors": 1,
+          "gettempdir": 1,
+          "KMeans": 1,
+          "IncrementalPCA": 1,
+          "fetch_lfw_people": 1,
+          "lasso_path": 1,
+          "ticker": 1,
+          "neighbors": 1,
+          "NMF": 1,
+          "norm": 1,
+          "make_sparse_coded_signal": 1,
+          "pairwise_distances": 1,
+          "pairwise_kernels": 1,
+          "gen_batches": 1,
+          "fbpca": 1,
+          "AgglomerativeClustering": 1,
+          "hierarchy": 1,
+          "clone": 1,
+          "get_auto_step_size": 1,
+          "get_max_squared_sum": 1,
+          "lightning": 1,
+          "fetch_rcv1": 1,
+          "sample_without_replacement": 1,
+          "mean_squared_error": 1,
+          "Ridge": 1,
+          "SGDRegressor": 1,
+          "r2_score": 1,
+          "DecisionTreeRegressor": 1,
+          "github_link": 1,
+          "gen_rst": 1,
+          "make_linkcode_resolve": 1,
+          "u": 1,
+          "nose": 1,
+          "exists": 1,
+          "SkipTest": 1,
+          "datasets": 1,
+          "uninstall_mldata_mock": 1,
+          "install_mldata_mock": 1,
+          "makedirs": 1,
+          "check_skip_network": 1,
+          "processors": 1,
+          "FusedAdam": 1,
+          "CrossEntropyLoss": 1,
+          "BertAdam": 1,
+          "WEIGHTS_NAME": 1,
+          "BertTokenizer": 1,
+          "BertForSequenceClassification": 1,
+          "run_tcre_dataset_utils": 1,
+          "cPickle": 1,
+          "pytorch_pretrained_bert": 1,
+          "FP16_Optimizer": 1,
+          "utils_dataset": 1,
+          "Document": 1,
+          "heapq": 1,
+          "unittest": 1,
+          "ProteinTokenizer": 1,
+          "ptkn": 1,
+          "copy": 1,
+          "dotenv_values": 1,
+          "dotenv": 1,
+          "sampling": 1,
+          "KeyedVectors": 1,
+          "dill": 1,
+          "data": 1,
+          "supervise": 1,
+          "simulation": 1,
+          "get_candidate_classes": 1,
+          "BucketIterator": 1,
+          "gensim": 1,
+          "utils": 1,
+          "torchtext": 1,
+          "W2VVocab": 1,
+          "Vocab": 1,
+          "LabelBalancer": 1,
+          "pprint": 1,
+          "RERNN": 1,
+          "cli": 1,
+          "MAX_POS_DIST": 1,
+          "pack_padded_sequence": 1,
+          "skopt": 1,
+          "CheckpointSaver": 1,
+          "forest_minimize": 1,
+          "pyarrow": 1,
+          "spacy": 1,
+          "LabelKey": 1,
+          "supervision": 1,
+          "LabelAnnotator": 1,
+          "Label": 1,
+          "csr_LabelMatrix": 1,
+          "load_gold_labels": 1,
+          "interlap": 1,
+          "get_ipython": 1,
+          "InterLap": 1,
+          "IPython": 1,
+          "name": 1,
+          "unidecode": 1,
+          "mygene": 1,
+          "hashlib": 1,
+          "chain": 1
+        }
+      },
+      "R": {
+        "files_scanned": 6,
+        "packages": {
+          "ggplot2": 2,
+          "caret": 2,
+          "randomForest": 2,
+          "gbm": 2,
+          "ipred": 2,
+          "FNN": 1,
+          "grid": 1,
+          "kernlab": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 37,
+        "packages": {
+          "UIKit": 36,
+          "XCTest": 7,
+          "MapKit": 4,
+          "AVFoundation": 2,
+          "CoreLocation": 1,
+          "Foundation": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "racheltho/datasci_course_materials",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/DigitRec",
+        "files_analyzed": 6,
+        "languages_found": [
+          "R"
+        ]
+      },
+      {
+        "repository": "racheltho/FacebookDemoSwift",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "racheltho/financedjango",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/financeFlask",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/financeFlask11",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/from-callbacks-to-promises",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/instagram-clone",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "racheltho/parse2",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "racheltho/personal-site",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/place-finder",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/pypropack",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/RachELP",
+        "files_analyzed": 13,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "racheltho/racheltho.github.io",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "racheltho/recording-app",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "racheltho/rotten-tomatoes-app",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "racheltho/scikit-learn",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/Smiley-Face-Canvas",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "racheltho/t-cell-relation-extraction",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/three-app-website",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/three-pictures",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "racheltho/tip-app",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

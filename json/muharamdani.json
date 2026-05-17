@@ -1,0 +1,726 @@
+{
+  "username": "muharamdani",
+  "avatar_url": "https://avatars.githubusercontent.com/u/57168257?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9961308470807899,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9883925412423699
+      }
+    },
+    "Status": {
+      "score": 0.6530090047948587,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.7590270143845761,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 0.63208,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.5283,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 7,
+        "topic_entropy_bits": 1.585,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6812439703751297,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        234102,
+        67
+      ],
+      "Jupyter Notebook": [
+        51,
+        1
+      ],
+      "Shell": [
+        177,
+        3
+      ],
+      "JavaScript": [
+        66997,
+        13
+      ],
+      "CSS": [
+        53405,
+        2
+      ],
+      "HTML": [
+        103,
+        0
+      ],
+      "PHP": [
+        138755,
+        25
+      ],
+      "Hack": [
+        237,
+        0
+      ],
+      "Batchfile": [
+        3,
+        0
+      ],
+      "Python": [
+        1723,
+        9
+      ],
+      "Mako": [
+        11,
+        0
+      ],
+      "Blade": [
+        1156,
+        0
+      ],
+      "PLpgSQL": [
+        0,
+        2
+      ],
+      "TypeScript": [
+        0,
+        34
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "Perl": [
+        0,
+        0
+      ],
+      "TSQL": [
+        0,
+        0
+      ]
+    },
+    "language_count": 17,
+    "total_commits": 156,
+    "total_lines": 496720,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 234102,
+        "commits": 67
+      },
+      {
+        "language": "TypeScript",
+        "lines": 0,
+        "commits": 34
+      },
+      {
+        "language": "PHP",
+        "lines": 138755,
+        "commits": 25
+      },
+      {
+        "language": "JavaScript",
+        "lines": 66997,
+        "commits": 13
+      },
+      {
+        "language": "Python",
+        "lines": 1723,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "muharamdani",
+    "analysis_date": "2026-05-16T05:10:23.278596",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 403,
+    "languages": {
+      "Go": {
+        "files_scanned": 81,
+        "packages": {
+          "gorm.io/gorm": 23,
+          "github.com/gin-gonic/gin": 22,
+          "fmt": 16,
+          "os": 15,
+          "log": 15,
+          "net/http": 10,
+          "github.com/gofrs/uuid": 9,
+          "github.com/go-gormigrate/gormigrate/v2": 8,
+          "testing": 8,
+          "dot-app/utils": 7,
+          "github.com/muharamdani/go-base-rest-api/utils": 7,
+          "github.com/astaxie/beego": 6,
+          "github.com/spf13/cobra": 5,
+          "dot-app/db": 5,
+          "strings": 4,
+          "strconv": 4,
+          "github.com/go-playground/validator/v10": 4,
+          "dot-app/pkg/comments/models": 4,
+          "time": 3,
+          "dot-app/db/migrations": 3,
+          "gorm.io/driver/postgres": 3,
+          "dot-app/pkg/articles/requests": 3,
+          "dot-app/pkg/articles/models": 3,
+          "github.com/gavv/httpexpect/v2": 3,
+          "github.com/stretchr/testify/suite": 3,
+          "dot-app/pkg/comments/requests": 3,
+          "github.com/muharamdani/gin-user-services/utils": 3,
+          "github.com/muharamdani/go-base-rest-api/pkg/users/models": 3,
+          "gopkg.in/mgo.v2/bson": 2,
+          "dot-app/pkg": 2,
+          "dot-app/utils/http": 2,
+          "status": 2,
+          "data": 2,
+          "title": 2,
+          "content": 2,
+          "author": 2,
+          "github.com/muharamdani/gin-user-services/models": 2,
+          "github.com/muharamdani/gin-user-services/config": 2,
+          "github.com/joho/godotenv": 2,
+          "github.com/muharamdani/go-base-rest-api/db/migrations": 2,
+          "github.com/muharamdani/go-base-rest-api/db/seeders": 2,
+          "github.com/google/uuid": 2,
+          "github.com/muharamdani/go-base-rest-api/config": 2,
+          "github.com/muharamdani/go-base-rest-api/db": 2,
+          "encoding/base64": 2,
+          "regexp": 2,
+          "github.com/labstack/echo/v4": 2,
+          "github.com/muharamdani/store_service/config": 2,
+          "user_services/utils": 1,
+          "user_services/models": 1,
+          "gopkg.in/LyricTian/lib.v1/mongo": 1,
+          "patch:PostUpdate": 1,
+          "user_services/controllers": 1,
+          "get:GetByID": 1,
+          "get:List": 1,
+          "delete:PostDelete": 1,
+          "post:PostCreate": 1,
+          "encoding/json": 1,
+          "github.com/beego/beego/v2/core/validation": 1,
+          "github.com/gin-gonic/gin/binding": 1,
+          "127.0.0.1": 1,
+          "reflect": 1,
+          "dot-app/cmd": 1,
+          "dot-app/pkg/articles/repositories": 1,
+          "dot-app/pkg/articles/services": 1,
+          "gorm.io/gorm/clause": 1,
+          "dot-app/pkg/articles/controllers": 1,
+          "id": 1,
+          "dot-app/pkg/articles/routers": 1,
+          "dot-app/pkg/comments/repositories": 1,
+          "dot-app/pkg/comments/services": 1,
+          "dot-app/pkg/comments/controllers": 1,
+          "errors": 1,
+          "parent_id": 1,
+          "article_id": 1,
+          "math": 1,
+          "github.com/muharamdani/gin-user-services/services": 1,
+          "github.com/muharamdani/gin-user-services/routers": 1,
+          "github.com/muharamdani/gin-user-services/controllers": 1,
+          "github.com/bxcodec/faker/v4": 1,
+          "gorm.io/driver/sqlite": 1,
+          "github.com/muharamdani/go-base-rest-api/cmd": 1,
+          "github.com/muharamdani/go-base-rest-api/pkg/users/requests": 1,
+          "github.com/muharamdani/go-base-rest-api/pkg/users/controllers": 1,
+          "first_name": 1,
+          "last_name": 1,
+          "password": 1,
+          "email": 1,
+          "github.com/muharamdani/go-base-rest-api/pkg/users/routers": 1,
+          "username": 1,
+          "crypto/aes": 1,
+          "crypto/cipher": 1,
+          "github.com/muharamdani/go-base-rest-api/utils/errors": 1,
+          "io/ioutil": 1,
+          "crypto/sha256": 1,
+          "crypto/x509": 1,
+          "crypto/rsa": 1,
+          "crypto/rand": 1,
+          "crypto": 1,
+          "encoding/pem": 1,
+          "github.com/go-playground/assert/v2": 1,
+          "github.com/stretchr/testify/assert": 1,
+          "github.com/muharamdani/goimer/pkg/imagemerge": 1,
+          "path/filepath": 1,
+          "image": 1,
+          "golang.org/x/image/webp": 1,
+          "image/png": 1,
+          "github.com/schollz/progressbar/v3": 1,
+          "image/jpeg": 1,
+          "image/draw": 1,
+          "sync": 1,
+          "github.com/tkanos/gonfig": 1,
+          "github.com/jinzhu/gorm": 1,
+          "github.com/muharamdani/store_service/models": 1,
+          "github.com/muharamdani/store_service/routes": 1,
+          "database/sql": 1,
+          "github.com/labstack/echo/v4/middleware": 1,
+          "github.com/muharamdani/store_service/controllers": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 6,
+        "packages": {
+          ")).appendTo(t.documentElement)": 1,
+          "t.write(": 1,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1,
+          "mousewheel": 1,
+          "highlight.js": 1,
+          "docsearch.js": 1,
+          "path": 1,
+          "fs": 1,
+          "hasbin": 1,
+          "extra-watch-webpack-plugin": 1,
+          "browser-sync-webpack-plugin": 1,
+          "node-cmd": 1,
+          "browser-sync": 1,
+          "yargs": 1,
+          "laravel-mix": 1,
+          "laravel-mix-purgecss": 1,
+          "tailwindcss": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 173,
+        "packages": {
+          "Illuminate\\Http\\Request": 25,
+          "CodeIgniter\\Config\\BaseConfig": 14,
+          "Illuminate\\Support\\ServiceProvider": 11,
+          "Closure": 10,
+          "Illuminate\\Routing\\Controller": 8,
+          "Illuminate\\Support\\Facades\\Auth": 7,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 7,
+          "Illuminate\\Support\\Str": 7,
+          "RequestService": 6,
+          "routes/console.php": 5,
+          "Illuminate\\Foundation\\Console\\Kernel": 5,
+          "Illuminate\\Console\\Scheduling\\Schedule": 5,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 5,
+          "App\\Traits\\RequestService": 5,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 5,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 5,
+          "AuthorizesRequests": 5,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 5,
+          "Illuminate\\Foundation\\Http\\Kernel": 5,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 5,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 5,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 5,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 5,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 5,
+          "Illuminate\\Http\\Middleware\\TrustProxies": 5,
+          "GuzzleHttp\\Client": 5,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 5,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 5,
+          "Illuminate\\Support\\Facades\\Gate": 5,
+          "Illuminate\\Support\\Facades\\Broadcast": 5,
+          "routes/channels.php": 5,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 5,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 5,
+          "Illuminate\\Support\\Facades\\Event": 5,
+          "Illuminate\\Auth\\Events\\Registered": 5,
+          "Illuminate\\Cache\\RateLimiting\\Limit": 5,
+          "Illuminate\\Support\\Facades\\RateLimiter": 5,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 5,
+          "Illuminate\\Support\\Facades\\Route": 5,
+          "Illuminate\\Foundation\\Http\\FormRequest": 5,
+          "Throwable": 4,
+          "GuzzleHttp\\Exception\\ClientException": 4,
+          "App\\Providers\\RouteServiceProvider": 4,
+          "Illuminate\\Notifications\\Notifiable": 4,
+          "Illuminate\\Http\\Response": 4,
+          "Illuminate\\Support\\Facades\\Facade": 4,
+          "HasFactory": 4,
+          "App\\Traits\\ApiResponse": 3,
+          "HasApiTokens": 3,
+          "Laravel\\Sanctum\\HasApiTokens": 3,
+          "Illuminate\\Foundation\\Auth\\User": 3,
+          "function": 3,
+          "Illuminate\\Database\\Eloquent\\Model": 3,
+          "Laravolt\\Support\\Base\\BaseServiceProvider": 3,
+          "TightenCo\\Jigsaw\\Jigsaw": 3,
+          "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 2,
+          "App\\Models\\Product": 2,
+          "phpqrcode/qrlib.php": 2,
+          "Illuminate\\Support\\Arr": 2,
+          "Illuminate\\Support\\Facades\\File": 2,
+          "Illuminate\\Contracts\\Pagination\\LengthAwarePaginator": 1,
+          "App\\Http\\Requests\\CreateProductRequest": 1,
+          "App\\Http\\Services\\ProductService": 1,
+          "App\\Http\\Requests\\UpdateProductRequest": 1,
+          "GuzzleHttp\\Exception\\GuzzleException": 1,
+          "\\App\\Traits\\RequestService": 1,
+          "App\\Models\\Store": 1,
+          "App\\Http\\Requests\\UpdateStoreRequest": 1,
+          "App\\Http\\Requests\\CreateStoreRequest": 1,
+          "App\\Http\\Requests\\RegisterRequest": 1,
+          "App\\Http\\Services\\AuthServices": 1,
+          "App\\Http\\Requests\\LoginRequest": 1,
+          "Illuminate\\Support\\Facades\\Hash": 1,
+          "App\\Models\\User": 1,
+          "PHPOpenSourceSaver\\JWTAuth\\Contracts\\JWTSubject": 1,
+          "Config/AutoloadConfig.php": 1,
+          "travis/Database.php": 1,
+          "CodeIgniter\\Events\\Events": 1,
+          "Kint\\Renderer\\Renderer": 1,
+          "Config/Routes.php": 1,
+          "Config/": 1,
+          "Config/Services.php": 1,
+          "CodeIgniter\\Config\\Services": 1,
+          "qrlib.php": 1,
+          "qrspec.php": 1,
+          "qrrscode.php": 1,
+          "qrencode.php": 1,
+          "qrimage.php": 1,
+          "qrmask.php": 1,
+          "qrtools.php": 1,
+          "qrbitstream.php": 1,
+          "qrconfig.php": 1,
+          "qrinput.php": 1,
+          "qrsplit.php": 1,
+          "qrconst.php": 1,
+          "Illuminate\\Auth\\Access\\AuthorizationException": 1,
+          "Illuminate\\Session\\TokenMismatchException": 1,
+          "Illuminate\\Auth\\AuthenticationException": 1,
+          "AutoSort": 1,
+          "Notifiable": 1,
+          "AutoFilter": 1,
+          "Laravolt\\Support\\Traits\\AutoFilter": 1,
+          "Laravolt\\Support\\Traits\\AutoSort": 1,
+          "database-monitor::backup._restore-button": 1,
+          "Laravolt\\DatabaseMonitor\\Jobs\\BackupDatabaseJob": 1,
+          "Illuminate\\Support\\Facades\\Artisan": 1,
+          "Illuminate\\Queue\\SerializesModels": 1,
+          "Illuminate\\Foundation\\Bus\\Dispatchable": 1,
+          "Dispatchable": 1,
+          "Illuminate\\Bus\\Queueable": 1,
+          "Illuminate\\Queue\\InteractsWithQueue": 1,
+          "Illuminate\\Contracts\\Queue\\ShouldQueue": 1,
+          "League\\Flysystem\\Filesystem": 1,
+          "Laravolt\\Epilog\\MonologParser\\Reader\\LogReader": 1,
+          "League\\Flysystem\\Adapter\\Local": 1,
+          "Laravolt\\Epilog\\Epilog": 1,
+          "Laravolt\\Epilog\\MonologParser\\Parser\\LineLogParser": 1,
+          "Dubture\\Monolog\\Parser\\LogParserInterface": 1,
+          "Illuminate\\Support\\Facades\\Crypt": 1,
+          "Carbon\\Carbon": 1,
+          "Illuminate\\Contracts\\Filesystem\\Filesystem": 1,
+          "Illuminate\\Support\\Facades\\Storage": 1,
+          "routes/web.php": 1,
+          "Illuminate\\Database\\Schema\\Blueprint": 1,
+          "Illuminate\\Support\\Facades\\Schema": 1,
+          "Illuminate\\Database\\Migrations\\Migration": 1,
+          "App\\Listeners\\GenerateSitemap": 1,
+          "navigation.php": 1,
+          "Wa72\\HtmlPageDom\\HtmlPageCrawler": 1,
+          "TightenCo\\Jigsaw\\Collection\\CollectionItem": 1,
+          "samdark\\sitemap\\Sitemap": 1,
+          "_nav.menu-toggle": 1,
+          "_components.ga": 1,
+          "_nav.search-input": 1,
+          "_nav.menu-item": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 42,
+        "packages": {
+          "gi": 21,
+          "hydrapaper": 18,
+          "Gtk": 15,
+          "ConfManager": 14,
+          "os": 13,
+          "gettext": 8,
+          "utils": 7,
+          "environ": 7,
+          "db": 6,
+          "isfile": 6,
+          "pathlib": 6,
+          "models": 5,
+          "flask": 5,
+          "typing": 5,
+          "Path": 5,
+          "subprocess": 5,
+          "werkzeug": 4,
+          "flask_jwt_extended": 4,
+          "sqlalchemy": 4,
+          "flask_restx": 4,
+          "threading": 4,
+          "is_flatpak": 4,
+          "HTTPStatus": 3,
+          "http": 3,
+          "Resource": 3,
+          "response": 3,
+          "Attendance": 3,
+          "datetime": 3,
+          "HpSearchBar": 3,
+          "hashlib": 3,
+          "get_desktop_environment": 3,
+          "Thread": 3,
+          "sha256": 3,
+          "Optional": 3,
+          "run": 3,
+          "Gdk": 2,
+          "Activity": 2,
+          "jwt_required": 2,
+          "request": 2,
+          "cast": 2,
+          "BadRequest": 2,
+          "config": 2,
+          "Users": 2,
+          "alembic": 2,
+          "get_gnome_dark_mode": 2,
+          "apply_wallpapers": 2,
+          "is_image": 2,
+          "Adw": 2,
+          "json": 2,
+          "dbus": 2,
+          "PIL": 2,
+          "Image": 2,
+          "FolderObj": 2,
+          "usb": 1,
+          "configparser": 1,
+          "driver_backend": 1,
+          "parser": 1,
+          "dateutil": 1,
+          "Api": 1,
+          "Flask": 1,
+          "NotFound": 1,
+          "JWTManager": 1,
+          "activity_namespace": 1,
+          "attend": 1,
+          "config_dict": 1,
+          "attend_namespace": 1,
+          "flask_migrate": 1,
+          "auth": 1,
+          "activity": 1,
+          "auth_namespace": 1,
+          "Migrate": 1,
+          "create_app": 1,
+          "api": 1,
+          "generate_password_hash": 1,
+          "exc": 1,
+          "\\": 1,
+          "decouple": 1,
+          "timedelta": 1,
+          "secrets": 1,
+          "logging": 1,
+          "fileConfig": 1,
+          "with_statement": 1,
+          "context": 1,
+          "__future__": 1,
+          "current_app": 1,
+          "op": 1,
+          "Forbidden": 1,
+          "flask_sqlalchemy": 1,
+          "SQLAlchemy": 1,
+          "make_response": 1,
+          "argparse": 1,
+          "random": 1,
+          "PreferencesWindow": 1,
+          "HydraPaperAppWindow": 1,
+          "randint": 1,
+          "BaseApp": 1,
+          "sys": 1,
+          "build_monitors_autodetect": 1,
+          "HydraPaperMainStack": 1,
+          "BaseWindow": 1,
+          "HydraPaperMonitorsFlowbox": 1,
+          "HydraPaperHeaderbar": 1,
+          "GLib": 1,
+          "Callable": 1,
+          "enum": 1,
+          "Enum": 1,
+          "GObject": 1,
+          "makedirs": 1,
+          "List": 1,
+          "PIPE": 1,
+          "Gio": 1,
+          "HydraPaperWallpapersFoldersView": 1,
+          "SlideshowListboxRow": 1,
+          "HydraPaperWallpapersFlowbox": 1,
+          "get_combined_resolution": 1,
+          "traceback": 1,
+          "remove": 1,
+          "GaussianBlur": 1,
+          "re": 1,
+          "fit": 1,
+          "WallpaperBox": 1,
+          "WallpapersFolderListBoxRow": 1,
+          "isdir": 1,
+          "FolderStore": 1,
+          "call": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "muharamdani/beego-user-services",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "muharamdani/dot-app",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "muharamdani/ec_api_gateway",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "muharamdani/ec_product_service",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "muharamdani/ec_store_service",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "muharamdani/ec_user_service",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "muharamdani/ekantinci4",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "muharamdani/ekantinnative",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "muharamdani/FantechX9ThorDriver",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "muharamdani/flask_web_app",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "muharamdani/geekacademy-laravolt",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "muharamdani/gin-user-services",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "muharamdani/go-base-rest-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "muharamdani/goimer",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "muharamdani/go_store_service",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "muharamdani/hook-test",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "muharamdani/HydraPaper",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "muharamdani/laravolt",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "muharamdani/laravolt.github.io",
+        "files_analyzed": 21,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

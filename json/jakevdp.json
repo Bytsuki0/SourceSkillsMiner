@@ -1,0 +1,589 @@
+{
+  "username": "jakevdp",
+  "avatar_url": "https://avatars.githubusercontent.com/u/781659?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.9503322113508939,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.9509966340526814,
+        "week_streak": 0.9
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 13,
+        "language_transitions": 12,
+        "topic_entropy_bits": 3.0958,
+        "closed_prs_total": 227,
+        "bounced_back_prs": 175
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "jakevdp/2013_fall_ASTR599": 0.3182,
+        "jakevdp/2014_fall_ASTR599": 0.5056923076923077,
+        "jakevdp/altair": 0.2732,
+        "jakevdp/altair-examples": 0.4926
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.9317331089368455,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        439302,
+        1060
+      ],
+      "HTML": [
+        3060,
+        27
+      ],
+      "CSS": [
+        264735,
+        40
+      ],
+      "Python": [
+        879449,
+        1035
+      ],
+      "Makefile": [
+        950,
+        0
+      ],
+      "TeX": [
+        342,
+        309
+      ],
+      "Shell": [
+        1546,
+        6
+      ],
+      "JavaScript": [
+        0,
+        55
+      ],
+      "C": [
+        0,
+        11
+      ],
+      "C++": [
+        0,
+        12
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Fortran": [
+        0,
+        19
+      ],
+      "Less": [
+        0,
+        0
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 2574,
+    "total_lines": 1589384,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 439302,
+        "commits": 1060
+      },
+      {
+        "language": "Python",
+        "lines": 879449,
+        "commits": 1035
+      },
+      {
+        "language": "TeX",
+        "lines": 342,
+        "commits": 309
+      },
+      {
+        "language": "JavaScript",
+        "lines": 0,
+        "commits": 55
+      },
+      {
+        "language": "CSS",
+        "lines": 264735,
+        "commits": 40
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jakevdp",
+    "analysis_date": "2026-05-16T14:48:02.252645",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 282,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 9,
+        "packages": {
+          "undefined": 5,
+          ");a.addRule(": 2,
+          "all": 2,
+          "object": 2,
+          "vega": 1,
+          "u": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 228,
+        "packages": {
+          "altair": 63,
+          "typing": 63,
+          "numpy": 62,
+          "pytest": 43,
+          "__future__": 36,
+          "pandas": 32,
+          "os": 30,
+          "vega_datasets": 26,
+          "data": 25,
+          "json": 20,
+          "Any": 20,
+          "re": 20,
+          "warnings": 16,
+          "sys": 15,
+          "math": 15,
+          "altair_saver": 15,
+          "io": 14,
+          "annotations": 14,
+          "scipy": 13,
+          "hypothesis": 13,
+          "matplotlib": 12,
+          "functools": 12,
+          "collections": 11,
+          "TYPE_CHECKING": 11,
+          "*": 11,
+          "assert_allclose": 11,
+          "altair_viewer": 10,
+          "strategies": 10,
+          "distutils": 9,
+          "Dict": 9,
+          "altair_data_server": 9,
+          "sklearn": 8,
+          "altair_transform": 8,
+          "jsonschema": 8,
+          "integrate": 8,
+          "inspect": 7,
+          "Optional": 7,
+          "JSONDict": 7,
+          "subprocess": 7,
+          "itertools": 7,
+          "assume": 7,
+          "Provider": 6,
+          "tornado": 6,
+          "setup": 6,
+          "setuptools": 6,
+          "cupy": 6,
+          "IPython": 5,
+          "get_bundled_script": 5,
+          "torch": 5,
+          "given": 5,
+          "pylab": 4,
+          "display": 4,
+          "copy": 4,
+          "defaultdict": 4,
+          "List": 4,
+          "Union": 4,
+          "operator": 4,
+          "uuid": 4,
+          "wraps": 4,
+          "Callable": 4,
+          "tempfile": 4,
+          "contextlib": 4,
+          "Saver": 4,
+          "Iterator": 4,
+          "time": 4,
+          "dask": 4,
+          "importlib": 4,
+          "cmath": 4,
+          "absolute_import": 4,
+          "astropy": 4,
+          "ball_tree": 4,
+          "nose": 4,
+          "singledispatch": 3,
+          "pkgutil": 3,
+          "keyword": 3,
+          "urllib": 3,
+          "shutil": 3,
+          "threading": 3,
+          "HTTPClient": 3,
+          "Image": 3,
+          "PIL": 3,
+          "webbrowser": 3,
+          "array_api_compat": 3,
+          "import_module": 3,
+          "warn": 3,
+          "product": 3,
+          "types": 3,
+          "BallTree": 3,
+          "dist_metrics": 3,
+          "DistanceMetric": 3,
+          "Circle": 2,
+          "neighbors": 2,
+          "ListedColormap": 2,
+          "LinearRegression": 2,
+          "make_blobs": 2,
+          "SGDClassifier": 2,
+          "apply": 2,
+          "ast": 2,
+          "load_schema": 2,
+          "textwrap": 2,
+          "hashlib": 2,
+          "abc": 2,
+          "data_server": 2,
+          "OrderedDict": 2,
+          "http": 2,
+          "socket": 2,
+          "vega-embed": 2,
+          "selenium": 2,
+          "WebDriver": 2,
+          "fmt_to_mimetype": 2,
+          "render": 2,
+          "ChartViewer": 2,
+          "EventProvider": 2,
+          "sparse": 2,
+          "jax": 2,
+          "Device": 2,
+          "Literal": 2,
+          "abs": 2,
+          "__all__": 2,
+          "dtype": 2,
+          "builtins": 2,
+          "errno": 2,
+          "contextmanager": 2,
+          "iter_indices": 2,
+          "ndindex": 2,
+          "imp": 2,
+          "log": 2,
+          "astropy_helpers": 2,
+          "ArgumentParser": 2,
+          "jinja2": 2,
+          "argparse": 2,
+          "Extension": 2,
+          "path": 2,
+          "cdist": 2,
+          "KDTree": 2,
+          "kd_tree": 2,
+          "pickle": 2,
+          "StrictVersion": 1,
+          "print_function": 1,
+          "magic_arguments": 1,
+          "v5": 1,
+          "yaml": 1,
+          "toolz": 1,
+          "v4": 1,
+          "curried": 1,
+          "v3": 1,
+          "deprecated": 1,
+          "extract_transform": 1,
+          "visit": 1,
+          "to_dataframe": 1,
+          "extract_data": 1,
+          "_encoding_to_transform": 1,
+          "eval_vegajs": 1,
+          "stats": 1,
+          "LooseVersion": 1,
+          "to_values": 1,
+          "AGG_REPLACEMENTS": 1,
+          "assert_equal": 1,
+          "ply": 1,
+          "Tuple": 1,
+          "dataclasses": 1,
+          "dataclass": 1,
+          "six": 1,
+          "parse_shorthand": 1,
+          "wrapper": 1,
+          "join": 1,
+          "iter_example_names": 1,
+          "Root": 1,
+          "SchemaBase": 1,
+          "infer_dtype": 1,
+          "request": 1,
+          "zipfile": 1,
+          "parse": 1,
+          "portpicker": 1,
+          "weakref": 1,
+          "mimetypes": 1,
+          "_background_server": 1,
+          "extract_format": 1,
+          "client": 1,
+          "IO": 1,
+          "MimebundleContent": 1,
+          "check_output_with_stderr": 1,
+          "Mimebundle": 1,
+          "NoSuchElementException": 1,
+          "base64": 1,
+          "atexit": 1,
+          "BasicSaver": 1,
+          "HTMLSaver": 1,
+          "internet_connected": 1,
+          "PdfFileReader": 1,
+          "PyPDF2": 1,
+          "NodeSaver": 1,
+          "SeleniumSaver": 1,
+          "xml": 1,
+          "minidom": 1,
+          "vega": 1,
+          "SysCaptureBinary": 1,
+          "_pytest": 1,
+          "save": 1,
+          "NoMatchingVersions": 1,
+          "find_version": 1,
+          "this": 1,
+          "HTTPTimeoutError": 1,
+          "random": 1,
+          "Version": 1,
+          "urlretrieve": 1,
+          "starcluster": 1,
+          "ClusterSetup": 1,
+          "authors": 1,
+          "signature": 1,
+          "like": 1,
+          "NamedTuple": 1,
+          "Sequence": 1,
+          "cupy_backends": 1,
+          "runtime": 1,
+          "ndonnx": 1,
+          "stream": 1,
+          "normalize_axis_tuple": 1,
+          "matmul": 1,
+          "trace": 1,
+          "_CopyMode": 1,
+          "_umath_linalg": 1,
+          "all": 1,
+          "linalg": 1,
+          "outer": 1,
+          "array_api": 1,
+          "Mapping": 1,
+          "lru_cache": 1,
+          "mul": 1,
+          "sqrt": 1,
+          "reduce": 1,
+          "Type": 1,
+          "Unsatisfiable": 1,
+          "prod": 1,
+          "raises": 1,
+          "Parameter": 1,
+          "getfullargspec": 1,
+          "doesnt_raise": 1,
+          "FunctionType": 1,
+          "find_spec": 1,
+          "Path": 1,
+          "pathlib": 1,
+          "count": 1,
+          "struct": 1,
+          "MagicMock": 1,
+          "unittest": 1,
+          "Array": 1,
+          "array_api_tests": 1,
+          "deque": 1,
+          "Iterable": 1,
+          "enum": 1,
+          "Enum": 1,
+          "Cosmology": 1,
+          "pdb": 1,
+          "optimize": 1,
+          "locale": 1,
+          "DEBUG": 1,
+          "ConfigParser": 1,
+          "pkg_resources": 1,
+          "use_setuptools": 1,
+          "PackageIndex": 1,
+          "run_setup": 1,
+          "ez_setup": 1,
+          "configparser": 1,
+          "Distribution": 1,
+          "logging": 1,
+          "version_info": 1,
+          "__builtin__": 1,
+          "ModuleType": 1,
+          "Environment": 1,
+          "machinery": 1,
+          "get_pkg_version_module": 1,
+          "glob": 1,
+          "cextern/erfa": 1,
+          "setup_helpers": 1,
+          "core": 1,
+          "`numpy": 1,
+          "as::": 1,
+          "conf": 1,
+          "pyplot": 1,
+          "datetime": 1,
+          "hist": 1,
+          "graphviz": 1,
+          "trans_to_color": 1,
+          "Source": 1,
+          "frame_transform_graph": 1,
+          "get_pkg_data_filename": 1,
+          "make_lupton_rgb": 1,
+          "fits": 1,
+          "DTYPE": 1,
+          "cKDTree": 1,
+          "build_ext": 1,
+          "Cython": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jakevdp/2013_fall_ASTR599",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/2014_fall_ASTR599",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/altair",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/altair-transform",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/altair2",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/altair_data_server",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/altair_pandas",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/altair_saver",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/altair_viewer",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/anaconda-ec2",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/array-api-compat",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/array-api-tests",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/ASTR599_homework",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/astropy",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/astropy-v2.0-paper",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jakevdp/BinaryTree",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

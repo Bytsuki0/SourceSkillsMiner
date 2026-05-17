@@ -1,0 +1,634 @@
+{
+  "username": "ac2393921",
+  "avatar_url": "https://avatars.githubusercontent.com/u/54408970?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.875,
+      "details": {
+        "issue_resolution_rate": 0.625,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 1.0,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 1.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.75,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 14,
+        "language_transitions": 15,
+        "topic_entropy_bits": -0.0,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "ac2393921/arxiv-agent": 0.4275444444444444
+      }
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8750000000000001,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Rust": [
+        10806,
+        89
+      ],
+      "Go": [
+        2482,
+        173
+      ],
+      "Python": [
+        20128,
+        505
+      ],
+      "Shell": [
+        109,
+        28
+      ],
+      "C++": [
+        6502,
+        49
+      ],
+      "TypeScript": [
+        49161,
+        102
+      ],
+      "PLpgSQL": [
+        966,
+        1
+      ],
+      "CSS": [
+        66730,
+        0
+      ],
+      "JavaScript": [
+        274,
+        11
+      ],
+      "Dockerfile": [
+        977,
+        10
+      ],
+      "Makefile": [
+        1135,
+        8
+      ],
+      "HTML": [
+        18358,
+        4
+      ],
+      "Jupyter Notebook": [
+        1412,
+        94
+      ],
+      "Batchfile": [
+        504,
+        1
+      ],
+      "Mako": [
+        0,
+        0
+      ],
+      "Vim Script": [
+        0,
+        15
+      ],
+      "Lua": [
+        0,
+        13
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "Xonsh": [
+        0,
+        0
+      ],
+      "Nu": [
+        0,
+        0
+      ],
+      "Dart": [
+        0,
+        109
+      ],
+      "Swift": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        39
+      ],
+      "Vue": [
+        0,
+        0
+      ],
+      "Blade": [
+        0,
+        0
+      ],
+      "HCL": [
+        0,
+        11
+      ],
+      "SCSS": [
+        0,
+        0
+      ]
+    },
+    "language_count": 29,
+    "total_commits": 1262,
+    "total_lines": 179544,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 20128,
+        "commits": 505
+      },
+      {
+        "language": "Go",
+        "lines": 2482,
+        "commits": 173
+      },
+      {
+        "language": "Dart",
+        "lines": 0,
+        "commits": 109
+      },
+      {
+        "language": "TypeScript",
+        "lines": 49161,
+        "commits": 102
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 1412,
+        "commits": 94
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ac2393921",
+    "analysis_date": "2026-05-16T06:14:42.206047",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 327,
+    "languages": {
+      "C++": {
+        "files_scanned": 30,
+        "packages": {
+          "namespace": 30,
+          "std": 30,
+          "bits/stdc++.h": 26,
+          "<bits/stdc++.h>": 26,
+          "ll": 25,
+          "algorithm": 7,
+          "<algorithm>": 7,
+          "iostream": 7,
+          "<iostream>": 7,
+          "iterator": 2,
+          "<iterator>": 2,
+          "<cstdio>": 2,
+          "cstdio": 2,
+          "<vector>": 1,
+          "vector": 1,
+          "<chrono>": 1,
+          "chrono": 1,
+          "ostream": 1,
+          "<ostream>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 28,
+        "packages": {
+          "context": 13,
+          "auction-platform/internal/core/ports": 12,
+          "github.com/stretchr/testify/require": 7,
+          "github.com/google/uuid": 7,
+          "testing": 7,
+          "github.com/stretchr/testify/assert": 7,
+          "fmt": 7,
+          "errors": 6,
+          "time": 6,
+          "sync": 5,
+          "encoding/json": 4,
+          "github.com/ac2393921/design-pattern-go/abstract_factory/internal/pizza_ingredient/pepperoni": 3,
+          "github.com/ac2393921/design-pattern-go/abstract_factory/internal/pizza_ingredient/veggies": 3,
+          "github.com/ac2393921/design-pattern-go/abstract_factory/internal/pizza_ingredient/dougth": 3,
+          "github.com/ac2393921/design-pattern-go/abstract_factory/internal/pizza_ingredient/cheese": 3,
+          "github.com/ac2393921/design-pattern-go/abstract_factory/internal/pizza_ingredient/sauce": 3,
+          "github.com/ac2393921/design-pattern-go/abstract_factory/internal/pizza_ingredient/clams": 3,
+          "github.com/jroimartin/gocui": 3,
+          "auction-platform/internal/core/domain/aggregates": 2,
+          "github.com/stretchr/testify/mock": 2,
+          "sync/atomic": 2,
+          "github.com/ac2393921/design-pattern-go/abstract_factory/internal/pizza": 2,
+          "sort": 1,
+          "auction-platform/internal/adapters/repositories": 1,
+          "auction-platform/internal/infrastructure/eventbus": 1,
+          "auction-platform/internal/infrastructure/eventstore": 1,
+          "auction-platform/internal/infrastructure/commandbus": 1,
+          "runtime/debug": 1,
+          "github.com/ac2393921/design-pattern-go/abstract_factory/internal/pizza_store": 1,
+          "github.com/ac2393921/docap/pkg/app": 1,
+          "github.com/ac2393921/docap/pkg/gui": 1,
+          "github.com/jesseduffield/yaml": 1,
+          "strings": 1,
+          "io/ioutil": 1,
+          "path/filepath": 1,
+          "os": 1,
+          "github.com/OpenPeeDeeP/xdg": 1,
+          "github.com/golang-collections/collections/stack": 1,
+          "containers": 1,
+          "images": 1,
+          "options": 1,
+          "volumes": 1,
+          "project": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "next": 2,
+          "testing-library": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 104,
+        "packages": {
+          "app": 44,
+          "django": 23,
+          "List": 21,
+          "typing": 21,
+          "ABC": 12,
+          "abc": 12,
+          "os": 12,
+          "logging": 10,
+          "arxiv_agent": 7,
+          "sys": 7,
+          "Path": 6,
+          "pathlib": 6,
+          "pydantic": 6,
+          "BaseModel": 6,
+          "strawberry": 6,
+          "MovieId": 6,
+          "dataclasses": 5,
+          "dataclass": 5,
+          "Paper": 5,
+          "Entity": 5,
+          "Belief": 5,
+          "LowerSchool": 5,
+          "User": 5,
+          "src": 4,
+          "Rank": 4,
+          "School": 4,
+          "GetMoviesByIdsInputPort": 4,
+          "admin": 4,
+          "datetime": 3,
+          "Summary": 3,
+          "google": 3,
+          "uuid": 3,
+          "uuid4": 3,
+          "Movie": 3,
+          "ITransactionManager": 3,
+          "IMovieRepository": 3,
+          "settings": 3,
+          "path": 3,
+          "arxiv": 2,
+          "yaml": 2,
+          "json": 2,
+          "load_config": 2,
+          "requests": 2,
+          "NotificationConfig": 2,
+          "genai": 2,
+          "dotenv": 2,
+          "pytest": 2,
+          "IBeliefRepository": 2,
+          "ISchoolRepository": 2,
+          "FetchAllBeliefUsecase": 2,
+          "FetchAllSchoolUsecase": 2,
+          "BeliefType": 2,
+          "RankType": 2,
+          "LowerSchoolType": 2,
+          "SchoolType": 2,
+          "SQLHandler": 2,
+          "sqlalchemy": 2,
+          "MySQLHandler": 2,
+          "grpc": 2,
+          "MovieController": 2,
+          "MovieUseCaseBus": 2,
+          "InputPort": 2,
+          "OutputPort": 2,
+          "GetMoviesByIdsOutputPort": 2,
+          "AppConfig": 2,
+          "migrations": 2,
+          "models": 2,
+          "TestCase": 2,
+          "render": 2,
+          "execute_from_command_line": 2,
+          "get_asgi_application": 2,
+          "users": 2,
+          "get_wsgi_application": 2,
+          "PaperHistory": 1,
+          "PromptBuilder": 1,
+          "setup_logger": 1,
+          "ArxivClient": 1,
+          "GeminiClient": 1,
+          "Notifier": 1,
+          "types": 1,
+          "{title}": 1,
+          "SearchConfig": 1,
+          "notify": 1,
+          "summarize_papers": 1,
+          "collect_papers": 1,
+          "load_dotenv": 1,
+          "SummarizedPaper": 1,
+          "time": 1,
+          "tenacity": 1,
+          "SummaryConfig": 1,
+          "retry": 1,
+          "main": 1,
+          "ILowerSchoolRepository": 1,
+          "IRankRepository": 1,
+          "FetchAllRankUsecase": 1,
+          "BeliefController": 1,
+          "FetchAllRankInteractor": 1,
+          "SchoolController": 1,
+          "LowerSchoolController": 1,
+          "RankController": 1,
+          "GraphQL": 1,
+          "FastAPI": 1,
+          "fastapi": 1,
+          "mlflow": 1,
+          "find_packages": 1,
+          "setuptools": 1,
+          "find_dotenv": 1,
+          "click": 1,
+          "python3": 1,
+          "BaseSettings": 1,
+          "pydantic_settings": 1,
+          "Enum": 1,
+          "enum": 1,
+          "ValueObject": 1,
+          "Connection": 1,
+          "sessionmaker": 1,
+          "text": 1,
+          "descriptor_pool": 1,
+          "symbol_database": 1,
+          "builder": 1,
+          "descriptor": 1,
+          "futures": 1,
+          "grpc_reflection": 1,
+          "concurrent": 1,
+          "reflection": 1,
+          "GetMoviesByIdsInteractor": 1,
+          "mysql_settings": 1,
+          "GrpcServer": 1,
+          "DomainException": 1,
+          "GetMoviesByIdsUseCase": 1,
+          "timezone": 1,
+          "reverse": 1,
+          "ListView": 1,
+          "LoginRequiredMixin": 1,
+          "views": 1,
+          "static": 1,
+          "UserCreationForm": 1,
+          "forms": 1,
+          "PIL": 1,
+          "Image": 1,
+          "receiver": 1,
+          "post_save": 1,
+          "messages": 1,
+          "login_required": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 63,
+        "packages": {
+          "crate": 35,
+          "std": 20,
+          "serde": 17,
+          "super": 12,
+          "event_store_adapter_rs": 10,
+          "thiserror": 8,
+          "ulid_generator_rs": 7,
+          "chrono": 6,
+          "axum": 5,
+          "command_domain": 5,
+          "async_graphql": 5,
+          "sqlx": 4,
+          "command_interface_adaptor_if": 4,
+          "config": 3,
+          "anyhow": 3,
+          "common": 2,
+          "derive_getters": 2,
+          "registry": 2,
+          "hyper": 2,
+          "tower_http": 2,
+          "command_interface_adaptor_impl": 2,
+          "command_processor": 2,
+          "outro_02": 1,
+          "actix_web": 1,
+          "shared": 1,
+          "kernel": 1,
+          "derive_new": 1,
+          "async_trait": 1,
+          "query_interface_adaptor": 1,
+          "read_api_server": 1,
+          "lambda_runtime": 1,
+          "rmu": 1,
+          "read_model_updater": 1,
+          "log": 1,
+          "aws_sdk_dynamodb": 1,
+          "aws_config": 1,
+          "once_cell": 1,
+          "async_graphql_axum": 1,
+          "tokio": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 4,
+        "packages": {
+          "use-local-storage-state": 4,
+          "swr": 3,
+          "react": 1,
+          "next": 1,
+          "access-token": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 36,
+        "packages": {
+          "react": 26,
+          "testing-library": 13,
+          "next": 12,
+          "use-local-storage-state": 8,
+          "chakra-ui": 8,
+          "swr": 5,
+          "radix-ui": 2,
+          "class-variance-authority": 1,
+          "lucide-react": 1,
+          "supabase": 1,
+          "ユーザー名は必須です": 1,
+          "Eメールアドレスは必須です": 1,
+          "react-hook-form": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ac2393921/100-exercises-to-learn-rust",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ac2393921/architectural-katas",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ac2393921/arxiv-agent",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ac2393921/atcoder-c",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "ac2393921/bigami-sheet",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "ac2393921/bigami-sheet-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ac2393921/book-service",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ac2393921/book-worm",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "ac2393921/colab-mlops",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ac2393921/cqrs-es-example-rs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "ac2393921/ddd-blog",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ac2393921/design-pattern-go",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ac2393921/django_crud_blog",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ac2393921/djanlog",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ac2393921/docap",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

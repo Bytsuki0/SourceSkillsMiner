@@ -1,0 +1,354 @@
+{
+  "username": "salaboy",
+  "avatar_url": "https://avatars.githubusercontent.com/u/271966?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.602318860953836,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.606956582861508,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 17,
+        "language_transitions": 18,
+        "topic_entropy_bits": 6.205,
+        "closed_prs_total": 315,
+        "bounced_back_prs": 218
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7621304388574339,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        2535827,
+        2449
+      ],
+      "Shell": [
+        11230,
+        609
+      ],
+      "Groovy": [
+        53,
+        6
+      ],
+      "Dockerfile": [
+        45,
+        45
+      ],
+      "HTML": [
+        6452,
+        543
+      ],
+      "PLpgSQL": [
+        1330,
+        0
+      ],
+      "PLSQL": [
+        370,
+        0
+      ],
+      "Makefile": [
+        52384,
+        1641
+      ],
+      "Smarty": [
+        235273,
+        57
+      ],
+      "TypeScript": [
+        0,
+        76
+      ],
+      "JavaScript": [
+        0,
+        328
+      ],
+      "CSS": [
+        0,
+        202
+      ],
+      "Go": [
+        0,
+        555
+      ],
+      "Mustache": [
+        0,
+        8
+      ],
+      "SCSS": [
+        0,
+        112
+      ],
+      "FreeMarker": [
+        0,
+        26
+      ],
+      "ApacheConf": [
+        0,
+        2
+      ],
+      "Ruby": [
+        0,
+        18
+      ],
+      "Processing": [
+        0,
+        8
+      ],
+      "Batchfile": [
+        0,
+        10
+      ],
+      "HCL": [
+        0,
+        2
+      ],
+      "Gherkin": [
+        0,
+        1
+      ],
+      "Python": [
+        0,
+        29
+      ],
+      "C++": [
+        0,
+        9
+      ],
+      "Arduino": [
+        0,
+        7
+      ],
+      "Objective-C": [
+        0,
+        1
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "PowerShell": [
+        0,
+        2
+      ]
+    },
+    "language_count": 28,
+    "total_commits": 6746,
+    "total_lines": 2842964,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 2535827,
+        "commits": 2449
+      },
+      {
+        "language": "Makefile",
+        "lines": 52384,
+        "commits": 1641
+      },
+      {
+        "language": "Shell",
+        "lines": 11230,
+        "commits": 609
+      },
+      {
+        "language": "Go",
+        "lines": 0,
+        "commits": 555
+      },
+      {
+        "language": "HTML",
+        "lines": 6452,
+        "commits": 543
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "salaboy",
+    "analysis_date": "2026-05-17T00:47:39.309445",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 187,
+    "languages": {
+      "Java": {
+        "files_scanned": 187,
+        "packages": {
+          "org.activiti": 155,
+          "org.springframework": 90,
+          "java.util": 68,
+          "io.a2a": 30,
+          "org.slf4j": 28,
+          "static": 24,
+          "org.junit": 21,
+          "io.fabric8": 19,
+          "java.io": 17,
+          "com.fasterxml": 16,
+          "org.jspecify": 13,
+          "com.example": 11,
+          "io.grpc": 8,
+          "com.querydsl": 8,
+          "javax.persistence": 6,
+          "=": 5,
+          "org.mockito": 5,
+          "lombok.extern": 4,
+          "org.apache": 3,
+          "java.text": 3,
+          "java.nio": 2,
+          "com.google": 2,
+          "org.mockserver": 1,
+          "reactor.core": 1,
+          "java.net": 1,
+          "me.ramswaroop": 1,
+          "io.restassured": 1,
+          "org.conf": 1,
+          "org.assertj": 1,
+          "net.sf": 1,
+          "lombok.Data": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "salaboy/a2a-java",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-cloud-apps-operator",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-cloud-audit",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-cloud-audit-service",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-cloud-connector-slack",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-cloud-modeling",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-cloud-org-service",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-cloud-query",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-cloud-query-service",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-cloud-rb-create-article",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-cloud-rb-review-articles",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-cloud-runtime-bundle-service",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-demo",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "salaboy/activiti-examples",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

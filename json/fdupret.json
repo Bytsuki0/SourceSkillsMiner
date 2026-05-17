@@ -1,0 +1,188 @@
+{
+  "username": "fdupret",
+  "avatar_url": "https://avatars.githubusercontent.com/u/67047285?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.7630688917875691,
+      "details": {
+        "issue_resolution_rate": 0.9166666666666666,
+        "pr_merge_rate": 0.8888888888888888,
+        "commits_activity": 0.48365111980715186
+      }
+    },
+    "Status": {
+      "score": 0.45380065733559416,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.26140197200678245,
+        "week_streak": 0.1
+      }
+    },
+    "Adaptability": {
+      "score": 0.3625,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 3.5216,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5158739098246327,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "ABAP": [
+        737173,
+        3
+      ],
+      "JavaScript": [
+        24240,
+        0
+      ],
+      "CSS": [
+        8293,
+        0
+      ],
+      "Shell": [
+        520,
+        0
+      ],
+      "TypeScript": [
+        2295186,
+        0
+      ],
+      "HTML": [
+        616,
+        0
+      ],
+      "Less": [
+        588,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 3,
+    "total_lines": 3066616,
+    "top_5_languages": [
+      {
+        "language": "ABAP",
+        "lines": 737173,
+        "commits": 3
+      },
+      {
+        "language": "JavaScript",
+        "lines": 24240,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 8293,
+        "commits": 0
+      },
+      {
+        "language": "Shell",
+        "lines": 520,
+        "commits": 0
+      },
+      {
+        "language": "TypeScript",
+        "lines": 2295186,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "fdupret",
+    "analysis_date": "2026-05-16T18:16:09.161543",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 33,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "fs": 2,
+          "path": 2,
+          "child_process": 1,
+          "+": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 25,
+        "packages": {
+          "abaplint": 18,
+          "fs": 6,
+          "xml-js": 3,
+          "chai": 3,
+          "playwright": 2,
+          "node:path": 2,
+          "path": 2,
+          "memfs": 2,
+          "minimist": 1,
+          "zlib": 1,
+          "p-limit": 1,
+          "glob": 1,
+          "node:zlib": 1,
+          "node:fs": 1,
+          "node:os": 1,
+          "node:crypto": 1,
+          "chalk": 1,
+          "generic_error": 1,
+          "v8": 1,
+          "child_process": 1,
+          "json5": 1,
+          "progress": 1,
+          "os": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "fdupret/abapGit",
+        "files_analyzed": 3,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fdupret/abaplint",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

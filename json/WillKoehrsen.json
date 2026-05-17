@@ -1,0 +1,716 @@
+{
+  "username": "WillKoehrsen",
+  "avatar_url": "https://avatars.githubusercontent.com/u/17484616?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9369369369369369,
+      "details": {
+        "issue_resolution_rate": 0.8108108108108109,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 1.0,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 1.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.943494,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.774,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 5,
+        "topic_entropy_bits": 2.3219,
+        "closed_prs_total": 21,
+        "bounced_back_prs": 18
+      }
+    },
+    "Sentiment": {
+      "score": 0.8333333333333333,
+      "details": {
+        "WillKoehrsen/automated-feature-engineering": -0.12055,
+        "WillKoehrsen/Bokeh-Python-Visualization": 0.3315428571428572,
+        "WillKoehrsen/Data-Analysis": 0.2226205882352941
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.917752854054054,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        17612831,
+        1118
+      ],
+      "HTML": [
+        492362,
+        144
+      ],
+      "Python": [
+        179665,
+        44
+      ],
+      "Shell": [
+        546,
+        7
+      ],
+      "Ruby": [
+        175033,
+        1
+      ],
+      "R": [
+        57,
+        0
+      ],
+      "JavaScript": [
+        532,
+        12
+      ],
+      "Java": [
+        30964,
+        3
+      ],
+      "Kotlin": [
+        21918,
+        2
+      ],
+      "C++": [
+        20655,
+        2
+      ],
+      "Haskell": [
+        6862,
+        0
+      ],
+      "C#": [
+        413,
+        0
+      ],
+      "Scala": [
+        359,
+        0
+      ],
+      "Rust": [
+        347,
+        2
+      ],
+      "CSS": [
+        0,
+        0
+      ],
+      "TeX": [
+        0,
+        1
+      ],
+      "MATLAB": [
+        0,
+        4
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ],
+      "PowerShell": [
+        0,
+        0
+      ],
+      "Nix": [
+        0,
+        0
+      ],
+      "DIGITAL Command Language": [
+        0,
+        8
+      ],
+      "PLpgSQL": [
+        0,
+        51
+      ],
+      "Batchfile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 23,
+    "total_commits": 1399,
+    "total_lines": 18542544,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 17612831,
+        "commits": 1118
+      },
+      {
+        "language": "HTML",
+        "lines": 492362,
+        "commits": 144
+      },
+      {
+        "language": "PLpgSQL",
+        "lines": 0,
+        "commits": 51
+      },
+      {
+        "language": "Python",
+        "lines": 179665,
+        "commits": 44
+      },
+      {
+        "language": "JavaScript",
+        "lines": 532,
+        "commits": 12
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "WillKoehrsen",
+    "analysis_date": "2026-05-16T14:01:05.235842",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 208,
+    "languages": {
+      "C#": {
+        "files_scanned": 1,
+        "packages": {
+          "System": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 4,
+        "packages": {
+          "iostream": 4,
+          "<iostream>": 4,
+          "<vector>": 1,
+          "algorithm": 1,
+          "<algorithm>": 1,
+          "vector": 1,
+          "cassert": 1,
+          "<cassert>": 1
+        }
+      },
+      "Haskell": {
+        "files_scanned": 1,
+        "packages": {
+          "Control.Exception": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 5,
+        "packages": {
+          "java.util": 5,
+          "java.io": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "readline": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 5,
+        "packages": {
+          "java.util": 5,
+          "java.io": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 131,
+        "packages": {
+          "numpy": 50,
+          "pandas": 44,
+          "matplotlib": 26,
+          "os": 20,
+          "style": 20,
+          "torch": 19,
+          "time": 19,
+          "sys": 18,
+          "sklearn": 16,
+          "random": 14,
+          "pickle": 14,
+          "__future__": 14,
+          "datetime": 10,
+          "bokeh": 10,
+          "quandl": 10,
+          "argparse": 9,
+          "collections": 9,
+          "math": 9,
+          "re": 8,
+          "pip": 8,
+          "train_test_split": 7,
+          "scipy": 6,
+          "preprocessing": 6,
+          "figure": 6,
+          "print_function": 5,
+          "Variable": 5,
+          "logging": 5,
+          "Category20_16": 5,
+          "column": 5,
+          "copy": 4,
+          "PIL": 4,
+          "itertools": 4,
+          "warnings": 4,
+          "division": 4,
+          "Counter": 4,
+          "sqlite3": 4,
+          "requests": 4,
+          "bs4": 4,
+          "curdoc": 4,
+          "ColumnDataSource": 4,
+          "typing": 4,
+          "threading": 3,
+          "json": 3,
+          "functools": 3,
+          "chain": 3,
+          "Image": 3,
+          "utils": 3,
+          "mean": 3,
+          "input_data": 3,
+          "statistics": 3,
+          "main": 3,
+          "data": 3,
+          "datashader": 3,
+          "BeautifulSoup": 3,
+          "default_timer": 3,
+          "timeit": 3,
+          "Flask": 3,
+          "flask": 3,
+          "absolute_import": 3,
+          "concurrent": 2,
+          "ThreadPoolExecutor": 2,
+          "tqdm": 2,
+          "glob": 2,
+          "shutil": 2,
+          "string": 2,
+          "bcolz": 2,
+          "contextlib": 2,
+          "pdb": 2,
+          "urllib": 2,
+          "nn": 2,
+          "senet": 2,
+          "*": 2,
+          "torchvision": 2,
+          "regression": 2,
+          "gym": 2,
+          "tflearn": 2,
+          "Blob": 2,
+          "Blob_def": 2,
+          "pygame": 2,
+          "make_blobs": 2,
+          "KMeans": 2,
+          "Pool": 2,
+          "multiprocessing": 2,
+          "tensorflow": 2,
+          "enum": 2,
+          "annotations": 2,
+          "generic_search": 2,
+          "List": 2,
+          "pairwise_distances": 2,
+          "csr_matrix": 2,
+          "spdiags": 2,
+          "normalize": 2,
+          "deepcopy": 2,
+          "graphlab": 2,
+          "multivariate_normal": 2,
+          "OrderedDict": 2,
+          "fastparquet": 2,
+          "Figure": 2,
+          "STAMEN_TONER": 2,
+          "dateutil": 2,
+          "parser": 2,
+          "plotly": 2,
+          "Imputer": 2,
+          "unittest": 2,
+          "MagicMock": 2,
+          "keras": 2,
+          "ctypes": 2,
+          "email": 2,
+          "calendar": 2,
+          "CaseInsensitiveDict": 2,
+          "io": 2,
+          "Puzzle": 1,
+          "eight_puzzle": 1,
+          "fileinput": 1,
+          "SequentialSampler": 1,
+          "queue": 1,
+          "traceback": 1,
+          "ImageFile": 1,
+          "graphviz": 1,
+          "Iterable": 1,
+          "ipywidgets": 1,
+          "pathlib": 1,
+          "DataFrameSummary": 1,
+          "FileLink": 1,
+          "reload": 1,
+          "isoweek": 1,
+          "pandas_summary": 1,
+          "pyplot": 1,
+          "interact": 1,
+          "sklearn_pandas": 1,
+          "abc": 1,
+          "LooseVersion": 1,
+          "Week": 1,
+          "metrics": 1,
+          "abstractmethod": 1,
+          "operator": 1,
+          "IPython": 1,
+          "distutils": 1,
+          "itemgetter": 1,
+          "cv2": 1,
+          "partial": 1,
+          "tqdm_notebook": 1,
+          "IPKernelApp": 1,
+          "Path": 1,
+          "ipykernel": 1,
+          "seaborn": 1,
+          "urlretrieve": 1,
+          "gzip": 1,
+          "an": 1,
+          "AverageMeter": 1,
+          "progress_bar": 1,
+          "init": 1,
+          "load_lua": 1,
+          "reduce": 1,
+          "lib2to3": 1,
+          "MeanShift": 1,
+          "svm": 1,
+          "cvxopt": 1,
+          "linalg": 1,
+          "pylab": 1,
+          "epic": 1,
+          "dirname": 1,
+          "density_tab": 1,
+          "scripts": 1,
+          "histogram_tab": 1,
+          "Tabs": 1,
+          "route_tab": 1,
+          "table_tab": 1,
+          "map_tab": 1,
+          "gaussian_kde": 1,
+          "TableColumn": 1,
+          "show": 1,
+          "CheckboxGroup": 1,
+          "CategoricalColorMapper": 1,
+          "row": 1,
+          "Tuple": 1,
+          "IntEnum": 1,
+          "heapq": 1,
+          "TypeVar": 1,
+          "heappush": 1,
+          "Protocol": 1,
+          "typing_extensions": 1,
+          "Enum": 1,
+          "sqrt": 1,
+          "dfs": 1,
+          "bfs": 1,
+          "dask": 1,
+          "feather": 1,
+          "Cache": 1,
+          "transfer_functions": 1,
+          "export_image": 1,
+          "distributed": 1,
+          "socket": 1,
+          "struct": 1,
+          "Hot": 1,
+          "rasterio": 1,
+          "BuGn9": 1,
+          "VBox": 1,
+          "path": 1,
+          "bar": 1,
+          "download_sample_data": 1,
+          "xarray": 1,
+          "geoviews": 1,
+          "sqlalchemy": 1,
+          "create_engine": 1,
+          "crs": 1,
+          "cartopy": 1,
+          "selenium": 1,
+          "ChromeDriverManager": 1,
+          "webdriver_manager": 1,
+          "webdriver": 1,
+          "cufflinks": 1,
+          "LinearRegression": 1,
+          "statsmodels": 1,
+          "mean_squared_error": 1,
+          "stats": 1,
+          "VotingClassifier": 1,
+          "FunctionTransformer": 1,
+          "make_pipeline": 1,
+          "LogisticRegression": 1,
+          "TPOTClassifier": 1,
+          "tpot": 1,
+          "pandas_datareader": 1,
+          "fmin": 1,
+          "csv": 1,
+          "roc_auc_score": 1,
+          "hyperopt": 1,
+          "KFold": 1,
+          "gc": 1,
+          "hp": 1,
+          "lightgbm": 1,
+          "STATUS_OK": 1,
+          "ast": 1,
+          "tpe": 1,
+          "Trials": 1,
+          "RandomForestClassifier": 1,
+          "udacity_pa": 1,
+          "udacity": 1,
+          "subprocess": 1,
+          "h5py": 1,
+          "load_model": 1,
+          "backend": 1,
+          "InceptionV3": 1,
+          "image": 1,
+          "preprocess_input": 1,
+          "Model": 1,
+          "gensim": 1,
+          "pydoc": 1,
+          "models": 1,
+          "InferenceTask": 1,
+          "seq2seq": 1,
+          "locate": 1,
+          "setuptools": 1,
+          "get_installed_distributions": 1,
+          "vcs": 1,
+          "commands_dict": 1,
+          "optparse": 1,
+          "ConfigOptionParser": 1,
+          "InstallationError": 1,
+          "get_summaries": 1,
+          "DependencyWarning": 1,
+          "git": 1,
+          "locale": 1,
+          "deprecation": 1,
+          "windll": 1,
+          "_winreg": 1,
+          "jna": 1,
+          "array": 1,
+          "win32": 1,
+          "shellcon": 1,
+          "win32com": 1,
+          "platform": 1,
+          "win32api": 1,
+          "com": 1,
+          "logger": 1,
+          "DictCache": 1,
+          "ArgumentParser": 1,
+          "CacheControlAdapter": 1,
+          "HTTPAdapter": 1,
+          "types": 1,
+          "Lock": 1,
+          "redis": 1,
+          "dedent": 1,
+          "textwrap": 1,
+          "LockFile": 1,
+          "MkdirLockFile": 1,
+          "hashlib": 1,
+          "cPickle": 1,
+          "urljoin": 1,
+          "urlparse": 1,
+          "HTTPResponse": 1,
+          "is_fp_closed": 1,
+          "parsedate_tz": 1,
+          "BytesIO": 1,
+          "the": 1,
+          "formatdate": 1,
+          "base64": 1,
+          "zlib": 1,
+          "atexit": 1,
+          "byref": 1,
+          "wintypes": 1,
+          "LibraryLoader": 1,
+          "NullHandler": 1,
+          "PCA": 1,
+          "UMAP": 1,
+          "TSNE": 1,
+          "umap": 1,
+          "dill": 1,
+          "google_auth_oauthlib": 1,
+          "InstalledAppFlow": 1,
+          "google": 1,
+          "Request": 1,
+          "build": 1,
+          "pprint": 1,
+          "googleapiclient": 1,
+          "plot": 1
+        }
+      },
+      "R": {
+        "files_scanned": 2,
+        "packages": {
+          "tidyverse": 2,
+          "lubridate": 2
+        }
+      },
+      "Ruby": {
+        "files_scanned": 11,
+        "packages": {
+          "clearance/testing/controller_helpers": 2,
+          "clearance/testing/deny_access_matcher": 2,
+          "active_support/deprecation": 1,
+          "clearance/rack_session": 1,
+          "clearance/sign_in_guard": 1,
+          "clearance/password_strategies": 1,
+          "clearance/controller": 1,
+          "clearance/back_door": 1,
+          "clearance/session": 1,
+          "clearance/user": 1,
+          "clearance/configuration": 1,
+          "clearance/engine": 1,
+          "clearance/constraints": 1,
+          "clearance/constraints/signed_in": 1,
+          "clearance/constraints/signed_out": 1,
+          "clearance/authorization": 1,
+          "Clearance::Authorization": 1,
+          "Clearance::Controller": 1,
+          "Clearance::Authentication": 1,
+          "clearance/authentication": 1,
+          "clearance": 1,
+          "rails/engine": 1,
+          "argon2": 1,
+          "bcrypt": 1,
+          "rspec/rails": 1,
+          "clearance/testing/view_helpers": 1,
+          "clearance/default_sign_in_guard": 1,
+          "clearance/session_status": 1,
+          "Clearance::Testing::ControllerHelpers": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "WillKoehrsen/ai-projects",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/airbus",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/Assorted-Python-Learning-",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/Bokeh-Python-Visualization",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/classic_computer_science",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/clearance",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/Coursera-Machine-Learning-Specialization",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/Data-Analysis",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python",
+          "R"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/data-science-for-good",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/data-structures-and-algorithms-coursera",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#",
+          "C++",
+          "Haskell",
+          "Java",
+          "JavaScript",
+          "Kotlin",
+          "Python"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/deep-learning-v2-pytorch",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/deep_learning_cookbook",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/dimension-reduction-experiment",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "WillKoehrsen/drive-interaction",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

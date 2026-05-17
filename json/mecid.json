@@ -1,0 +1,536 @@
+{
+  "username": "mecid",
+  "avatar_url": "https://avatars.githubusercontent.com/u/324372?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9105691056910569,
+      "details": {
+        "issue_resolution_rate": 0.7317073170731707,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 1.0,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 1.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.55625,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.8333333333333333,
+      "details": {
+        "mecid/mecid.github.io": 0.27995000000000003,
+        "mecid/sleepbot-landing": -0.296,
+        "mecid/swift-unidirectional-flow": 0.29007037037037037
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8350304878048781,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Kotlin": [
+        2509,
+        19
+      ],
+      "Java": [
+        16305,
+        557
+      ],
+      "SCSS": [
+        3777795,
+        2136
+      ],
+      "HTML": [
+        2120737,
+        1100
+      ],
+      "Ruby": [
+        16664,
+        18
+      ],
+      "Swift": [
+        82698,
+        326
+      ],
+      "Shell": [
+        26,
+        0
+      ],
+      "Makefile": [
+        11,
+        0
+      ],
+      "CSS": [
+        91682,
+        6
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 4162,
+    "total_lines": 6108427,
+    "top_5_languages": [
+      {
+        "language": "SCSS",
+        "lines": 3777795,
+        "commits": 2136
+      },
+      {
+        "language": "HTML",
+        "lines": 2120737,
+        "commits": 1100
+      },
+      {
+        "language": "Java",
+        "lines": 16305,
+        "commits": 557
+      },
+      {
+        "language": "Swift",
+        "lines": 82698,
+        "commits": 326
+      },
+      {
+        "language": "Kotlin",
+        "lines": 2509,
+        "commits": 19
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mecid",
+    "analysis_date": "2026-05-17T05:52:32.329478",
+    "total_repos_analyzed": 24,
+    "total_files_analyzed": 235,
+    "languages": {
+      "C": {
+        "files_scanned": 23,
+        "packages": {
+          "<stdio.h>": 21,
+          "stdio.h": 21,
+          "<stdlib.h>": 16,
+          "<string.h>": 16,
+          "string.h": 16,
+          "stdlib.h": 16,
+          "awk.h": 10,
+          "<curl/curl.h>": 10,
+          "curl/curl.h": 10,
+          "ios_error.h": 9,
+          "ytab.h": 9,
+          "ctype.h": 6,
+          "<ctype.h>": 6,
+          "<errno.h>": 6,
+          "errno.h": 6,
+          "<time.h>": 5,
+          "time.h": 5,
+          "<unistd.h>": 5,
+          "unistd.h": 5,
+          "fcntl.h": 4,
+          "<fcntl.h>": 4,
+          "<math.h>": 3,
+          "math.h": 3,
+          "sys/types.h": 3,
+          "<sys/types.h>": 3,
+          "<stdarg.h>": 2,
+          "stdarg.h": 2,
+          "signal.h": 2,
+          "<signal.h>": 2,
+          "<ws2tcpip.h>": 2,
+          "<sys/time.h>": 2,
+          "winsock2.h": 2,
+          "windows.h": 2,
+          "<winsock2.h>": 2,
+          "<sys/socket.h>": 2,
+          "<windows.h>": 2,
+          "sys/time.h": 2,
+          "ws2tcpip.h": 2,
+          "sys/socket.h": 2,
+          "<arpa/inet.h>": 2,
+          "arpa/inet.h": 2,
+          "<sys/stat.h>": 2,
+          "sys/stat.h": 2,
+          "<openssl/ssl.h>": 2,
+          "openssl/ssl.h": 2,
+          "=": 1,
+          "<locale.h>": 1,
+          "locale.h": 1,
+          "setjmp.h": 1,
+          "<setjmp.h>": 1,
+          "<limits.h>": 1,
+          "limits.h": 1,
+          "stddef.h": 1,
+          "<malloc.h>": 1,
+          "libintl.h": 1,
+          "malloc.h": 1,
+          "<alloca.h>": 1,
+          "alloca.h": 1,
+          "<stddef.h>": 1,
+          "<libintl.h>": 1,
+          "<float.h>": 1,
+          "<sys/xattr.h>": 1,
+          "<stropts.h>": 1,
+          "winsock.h": 1,
+          "<winsock.h>": 1,
+          "sys/ioctl.h": 1,
+          "<netdb.h>": 1,
+          "stdbool.h": 1,
+          "stropts.h": 1,
+          "<stdbool.h>": 1,
+          "sys/xattr.h": 1,
+          "net/if.h": 1,
+          "float.h": 1,
+          "<net/if.h>": 1,
+          "<sys/ioctl.h>": 1,
+          "netdb.h": 1,
+          "<curl/multi.h>": 1,
+          "curl/multi.h": 1,
+          "stdint.h": 1,
+          "<io.h>": 1,
+          "<stdint.h>": 1,
+          "io.h": 1,
+          "<gtk/gtk.h>": 1,
+          "gtk/gtk.h": 1,
+          "<openssl/objects.h>": 1,
+          "<openssl/err.h>": 1,
+          "<openssl/pkcs12.h>": 1,
+          "openssl/pkcs12.h": 1,
+          "openssl/x509_vfy.h": 1,
+          "openssl/err.h": 1,
+          "<openssl/evp.h>": 1,
+          "openssl/lhash.h": 1,
+          "openssl/bio.h": 1,
+          "<openssl/lhash.h>": 1,
+          "<openssl/x509.h>": 1,
+          "openssl/evp.h": 1,
+          "openssl/objects.h": 1,
+          "<openssl/x509v3.h>": 1,
+          "openssl/crypto.h": 1,
+          "<openssl/x509_vfy.h>": 1,
+          "openssl/x509.h": 1,
+          "openssl/x509v3.h": 1,
+          "<openssl/crypto.h>": 1,
+          "<openssl/bio.h>": 1,
+          "<ev.h>": 1,
+          "ev.h": 1,
+          "<sys/poll.h>": 1,
+          "sys/poll.h": 1,
+          "netinet/in.h": 1,
+          "<netinet/in.h>": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 1,
+        "packages": {
+          "<curl/curl.h>": 1,
+          "iostream": 1,
+          "curl/curl.h": 1,
+          "boost/asio.hpp": 1,
+          "<boost/bind.hpp>": 1,
+          "<boost/asio.hpp>": 1,
+          "boost/bind.hpp": 1,
+          "<iostream>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "<assert.h>": 1,
+          "assert.h": 1,
+          "proto.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 32,
+        "packages": {
+          "com.aaplab": 32,
+          "android.content": 20,
+          "java.util": 16,
+          "rx.Observable": 12,
+          "rx.functions": 10,
+          "rx.Subscriber": 10,
+          "android.database": 9,
+          "twitter4j.TwitterException": 9,
+          "android.net": 8,
+          "twitter4j.Status": 8,
+          "android.app": 7,
+          "android.support": 7,
+          "timber.log": 6,
+          "twitter4j.User": 6,
+          "android.os": 6,
+          "auto.parcel": 5,
+          "com.google": 4,
+          "twitter4j.DirectMessage": 3,
+          "android.test": 2,
+          "rx.schedulers": 2,
+          "android.text": 2,
+          "rx.android": 2,
+          "twitter4j.UserMentionEntity": 2,
+          "twitter4j.auth": 2,
+          "twitter4j.Query": 2,
+          "twitter4j.Paging": 2,
+          "com.tjeannin": 2,
+          "static": 1,
+          "org.junit": 1,
+          "com.yandex": 1,
+          "android.util": 1,
+          "jonathanfinerty.once": 1,
+          "com.squareup": 1,
+          "android.graphics": 1,
+          "rx.subscriptions": 1,
+          "twitter4j.MediaEntity": 1,
+          "twitter4j.ExtendedMediaEntity": 1,
+          "twitter4j.URLEntity": 1,
+          "twitter4j.conf": 1,
+          "twitter4j.TwitterFactory": 1,
+          "twitter4j.Twitter": 1,
+          "rx.subjects": 1,
+          "com.anjlab": 1,
+          "java.io": 1,
+          "twitter4j.UploadedMedia": 1,
+          "twitter4j.StatusUpdate": 1,
+          "twitter4j.IDs": 1,
+          "twitter4j.SavedSearch": 1,
+          "twitter4j.TwitterStreamFactory": 1,
+          "twitter4j.StallWarning": 1,
+          "twitter4j.UserStreamListener": 1,
+          "twitter4j.StatusDeletionNotice": 1,
+          "twitter4j.TwitterStream": 1,
+          "twitter4j.UserList": 1,
+          "twitter4j.GeoLocation": 1,
+          "twitter4j.Trend": 1,
+          "twitter4j.Location": 1,
+          "twitter4j.QueryResult": 1,
+          "java.lang": 1,
+          "twitter4j.Relationship": 1,
+          "twitter4j.PagableResponseList": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 3,
+        "packages": {
+          "com.aaplab": 3,
+          "android.app": 2,
+          "timber.log": 2,
+          "com.google": 2,
+          "java.util": 2,
+          "okhttp3.Request": 1,
+          "okhttp3.OkHttpClient": 1,
+          "org.json": 1,
+          "rx.lang": 1,
+          "java.text": 1,
+          "rx.Observable": 1,
+          "android.view": 1,
+          "android.Manifest": 1,
+          "rx.schedulers": 1,
+          "android.content": 1,
+          "android.os": 1,
+          "android.preference": 1,
+          "rx.subscriptions": 1,
+          "android.text": 1,
+          "android.location": 1,
+          "rx.android": 1,
+          "android.support": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 161,
+        "packages": {
+          "SwiftUI": 53,
+          "Foundation": 52,
+          "UIKit": 31,
+          "IBLinterCore": 13,
+          "XCTest": 13,
+          "Combine": 12,
+          "Testing": 5,
+          "PackageDescription": 4,
+          "SWXMLHash": 4,
+          "IBLinterKit": 4,
+          "KingfisherSwiftUI": 4,
+          "UIKitSwiftDSL": 3,
+          "Commandant": 2,
+          "Observation": 2,
+          "Firebase": 2,
+          "Kingfisher": 2,
+          "Result": 1,
+          "Yams": 1,
+          "UnidirectionalFlow": 1,
+          "class": 1,
+          "StoreKit": 1,
+          "os.log": 1,
+          "SafariServices": 1,
+          "SwiftUIChartsTests": 1,
+          "SwiftUIFluxTests": 1,
+          "MetalKit": 1,
+          "SceneKit": 1,
+          "MapKit": 1,
+          "SpriteKit": 1,
+          "WebKit": 1,
+          "AVFoundation": 1,
+          "GoogleMaps": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mecid/BakuBus",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "mecid/IBLinter",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/PackageList",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/robird-reborn",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "mecid/swift-unidirectional-flow",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/swiftui-bug",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/swiftui-form-editing-bug",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/swiftui-navigationlink-bug",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/swiftui-performance-issue-example",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/swiftui-recipes-app",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/swiftui-search",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/swiftui-trakttv-app",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/SwiftUICharts",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/SwiftUIFlux",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/terminal",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "mecid/UIKitSwiftDSL",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "mecid/Wander",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

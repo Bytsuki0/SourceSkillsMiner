@@ -1,0 +1,677 @@
+{
+  "username": "dipo0x",
+  "avatar_url": "https://avatars.githubusercontent.com/u/63419117?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.7777777777777778,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.3333333333333333,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7030053910112082,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.8090161730336244,
+        "week_streak": 0.3
+      }
+    },
+    "Adaptability": {
+      "score": 0.71875,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 5,
+        "topic_entropy_bits": 3.0,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6649066337577972,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        220046,
+        21
+      ],
+      "TypeScript": [
+        4587,
+        169
+      ],
+      "JavaScript": [
+        115596,
+        125
+      ],
+      "Shell": [
+        788,
+        1
+      ],
+      "Python": [
+        6113907,
+        59
+      ],
+      "CSS": [
+        79572,
+        2
+      ],
+      "Smarty": [
+        50,
+        0
+      ],
+      "Makefile": [
+        44,
+        0
+      ],
+      "Go": [
+        866,
+        35
+      ],
+      "Pug": [
+        0,
+        6
+      ],
+      "Handlebars": [
+        0,
+        19
+      ],
+      "Dart": [
+        0,
+        9
+      ],
+      "Swift": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        0
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 446,
+    "total_lines": 6535456,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 4587,
+        "commits": 169
+      },
+      {
+        "language": "JavaScript",
+        "lines": 115596,
+        "commits": 125
+      },
+      {
+        "language": "Python",
+        "lines": 6113907,
+        "commits": 59
+      },
+      {
+        "language": "Go",
+        "lines": 866,
+        "commits": 35
+      },
+      {
+        "language": "HTML",
+        "lines": 220046,
+        "commits": 21
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "dipo0x",
+    "analysis_date": "2026-05-16T03:20:34.179621",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 349,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 1,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 4,
+        "packages": {
+          "flutter": 4,
+          "currency_converter": 2,
+          "flutter_test": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 34,
+        "packages": {
+          "github.com/gofiber/fiber/v2": 20,
+          "github.com/google/uuid": 11,
+          "time": 10,
+          "fmt": 7,
+          "context": 7,
+          "success": 7,
+          "status": 7,
+          "ecommerce-api/config": 6,
+          "log": 5,
+          "go.mongodb.org/mongo-driver/bson": 5,
+          "ecommerce-api/types": 5,
+          "data": 5,
+          "error": 5,
+          "ecommerce-api/controller": 5,
+          "ecommerce-api/models": 4,
+          "ecommerce-api/helpers": 4,
+          "ecommerce-api/middleware": 4,
+          "os": 2,
+          "github.com/joho/godotenv": 2,
+          "go.mongodb.org/mongo-driver/mongo/options": 2,
+          "go.mongodb.org/mongo-driver/mongo": 2,
+          "userId": 2,
+          "$set": 2,
+          "github.com/golang-jwt/jwt/v5": 2,
+          "github.com/go-playground/validator/v10": 2,
+          "go-rest-api/types": 2,
+          "go-rest-api/config": 2,
+          "go-rest-api/controllers": 2,
+          "user": 1,
+          "ecommerce-api/utils": 1,
+          "token": 1,
+          "github.com/stripe/stripe-go/v81": 1,
+          "github.com/stripe/stripe-go/v81/checkout/session": 1,
+          "strconv": 1,
+          "ecommerce-api/routes": 1,
+          "strings": 1,
+          "golang.org/x/crypto/bcrypt": 1,
+          "exp": 1,
+          "go-rest-api/models": 1,
+          "title": 1,
+          "content": 1,
+          "author": 1,
+          "updated_at": 1,
+          "go-rest-api/routes": 1,
+          "go-rest-api/middleware": 1,
+          "net/http": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 27,
+        "packages": {
+          "next": 8,
+          "discord.js": 6,
+          "path": 4,
+          "react": 4,
+          "fs": 3,
+          "express": 3,
+          "gsap": 3,
+          "axios": 3,
+          "http-errors": 2,
+          "passport": 2,
+          "mongoose": 2,
+          "bcrypt": 2,
+          "child_process": 1,
+          "multiLineStrings:!0": 1,
+          "I=[v": 1,
+          "]": 1,
+          "[": 1,
+          "regexLiterals:!0})": 1,
+          "F=[w": 1,
+          "hashComments:!0": 1,
+          "morgan": 1,
+          "connect-flash": 1,
+          "express-session": 1,
+          "cookie-parser": 1,
+          "dotenv": 1,
+          "passport-local": 1,
+          "User": 1,
+          "validator": 1,
+          "settlin": 1,
+          "crypto": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 1,
+        "packages": {
+          "io.flutter": 1,
+          "com.example": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 196,
+        "packages": {
+          "django": 183,
+          "migrations": 47,
+          "settings": 29,
+          "rest_framework": 24,
+          "os": 24,
+          "admin": 23,
+          "User": 19,
+          "path": 17,
+          "AppConfig": 16,
+          "models": 15,
+          "TestCase": 12,
+          "reverse": 10,
+          "render": 9,
+          "gettext_lazy": 9,
+          "accounts": 8,
+          "serializers": 7,
+          "views": 7,
+          "sys": 7,
+          "get_wsgi_application": 7,
+          "forms": 7,
+          "core": 7,
+          "__future__": 7,
+          "unicode_literals": 7,
+          "Response": 6,
+          "api": 6,
+          "execute_from_command_line": 6,
+          "Profile": 5,
+          "Q": 5,
+          "static": 5,
+          "timezone": 5,
+          "authenticate": 5,
+          "api_settings": 5,
+          "status": 4,
+          "api_view": 4,
+          "pathlib": 4,
+          "Path": 4,
+          "login_required": 4,
+          "Token": 4,
+          "get_user_model": 4,
+          "url": 4,
+          "Product": 4,
+          "shop": 4,
+          "format_suffix_patterns": 3,
+          "permissions": 3,
+          "get_asgi_application": 3,
+          "LoginView": 3,
+          "ImproperlyConfigured": 3,
+          "functools": 3,
+          "warnings": 3,
+          "re": 3,
+          "django_countries": 3,
+          "random": 3,
+          "LoginRequiredMixin": 3,
+          "ListView": 3,
+          "decimal": 3,
+          "ValidationError": 3,
+          "coreapi": 3,
+          "datetime": 3,
+          "HttpResponse": 3,
+          "Journal": 3,
+          "Post": 2,
+          "generics": 2,
+          "JSONParser": 2,
+          "redirect": 2,
+          "AuthTokenSerializer": 2,
+          "importlib": 2,
+          "collections": 2,
+          "django_reflinks": 2,
+          "ReferralLink": 2,
+          "CountryField": 2,
+          "AuthenticationForm": 2,
+          "receiver": 2,
+          "post_save": 2,
+          "csrf_exempt": 2,
+          "ObjectDoesNotExist": 2,
+          "Decimal": 2,
+          "messages": 2,
+          "binascii": 2,
+          "APIView": 2,
+          "requests": 2,
+          "force_str": 2,
+          "math": 2,
+          "mark_safe": 2,
+          "ecommerce": 2,
+          "is_safe_url": 2,
+          "billing": 2,
+          "BillingProfile": 2,
+          "UserCreationForm": 2,
+          "ContentType": 2,
+          "ProfileSerializer": 1,
+          "AllowAny": 1,
+          "logout": 1,
+          "knox": 1,
+          "Book": 1,
+          "UserSerializer": 1,
+          "home": 1,
+          "BookSerializer": 1,
+          "apps": 1,
+          "configure_logging": 1,
+          "set_script_prefix": 1,
+          "get_version": 1,
+          "management": 1,
+          "import_module": 1,
+          "module_has_submodule": 1,
+          "partial": 1,
+          "applications": 1,
+          "threading": 1,
+          "AppRegistryNotReady": 1,
+          "Counter": 1,
+          "each": 1,
+          "URLValidator": 1,
+          "traceback": 1,
+          "get_script_prefix": 1,
+          "LazyObject": 1,
+          "global_settings": 1,
+          "time": 1,
+          "RemovedInDjango40Warning": 1,
+          "pymongo": 1,
+          "MongoClient": 1,
+          "allauth": 1,
+          "widgets": 1,
+          "SignupForm": 1,
+          "CountrySelectWidget": 1,
+          "Sum": 1,
+          "user_visit": 1,
+          "string": 1,
+          "UserVisit": 1,
+          "Paginator": 1,
+          "stripe": 1,
+          "debug_toolbar": 1,
+          "Django's": 1,
+          "HTTP_HEADER_ENCODING": 1,
+          "base64": 1,
+          "CsrfViewMiddleware": 1,
+          "HTTP": 1,
+          "quote": 1,
+          "ChangeList": 1,
+          "BaseCommand": 1,
+          "parsers": 1,
+          "ManualSchema": 1,
+          "Tags": 1,
+          "pygments": 1,
+          "HtmlFormatter": 1,
+          "TextLexer": 1,
+          "Preprocessor": 1,
+          "fields": 1,
+          "markdown": 1,
+          "yaml": 1,
+          "View": 1,
+          "coreschema": 1,
+          "uritemplate": 1,
+          "types": 1,
+          "pretty_name": 1,
+          "SchemaGenerator": 1,
+          "include": 1,
+          "ngettext": 1,
+          "ReturnDict": 1,
+          "JsonResponse": 1,
+          "clean_ipv6_address": 1,
+          "FilePathField": 1,
+          "ErrorDetail": 1,
+          "html": 1,
+          "uuid": 1,
+          "Mapping": 1,
+          "utc": 1,
+          "ImageField": 1,
+          "is_protected_type": 1,
+          "InvalidTimeError": 1,
+          "copy": 1,
+          "localize_input": 1,
+          "lazy_format": 1,
+          "ProhibitSurrogateCharactersValidator": 1,
+          "OrderedDict": 1,
+          "inspect": 1,
+          "pytz": 1,
+          "duration_string": 1,
+          "operator": 1,
+          "loader": 1,
+          "LOOKUP_SEP": 1,
+          "reduce": 1,
+          "get_object_or_404": 1,
+          "Http404": 1,
+          "QuerySet": 1,
+          "mixins": 1,
+          "git": 1,
+          "UserAdmin": 1,
+          "Group": 1,
+          "ReadOnlyPasswordHashField": 1,
+          "send_mail": 1,
+          "timedelta": 1,
+          "get_template": 1,
+          "full_name": 1,
+          "pre_save": 1,
+          "random_string_generator": 1,
+          "Signal": 1,
+          "products": 1,
+          "UserProductHistoryView": 1,
+          "CreateView": 1,
+          "method_decorator": 1,
+          "FormMixin": 1,
+          "NextUrlMixin": 1,
+          "require_POST": 1,
+          "require_http_methods": 1,
+          "environ": 1,
+          "json": 1,
+          "Cart": 1,
+          "cart": 1,
+          "BaseModel": 1,
+          "FastAPI": 1,
+          "Optional": 1,
+          "fastapi": 1,
+          "pydantic": 1,
+          "typing": 1,
+          "pydrive": 1,
+          "GoogleDrive": 1,
+          "GoogleAuth": 1,
+          "PIL": 1,
+          "Image": 1,
+          "statistics": 1,
+          "fmean": 1,
+          "shuffle": 1,
+          "Category": 1,
+          "GenericForeignKey": 1,
+          "login": 1,
+          "HttpResponseRedirect": 1,
+          "JournalModelForm": 1,
+          "handler404": 1,
+          "serve": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 2,
+        "packages": {
+          "Flutter": 2,
+          "UIKit": 2,
+          "XCTest": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 25,
+        "packages": {
+          "express": 11,
+          "mongoose": 6,
+          "zod": 5,
+          "jsonwebtoken": 4,
+          "dotenv": 2,
+          "supertest": 2,
+          "zennv": 1,
+          "cors": 1,
+          "Investment": 1,
+          "User": 1,
+          "bcrypt": 1,
+          "pino": 1,
+          "mongodb-memory-server": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "dipo0x/Altfolio-backend",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "dipo0x/Blog-Django-API",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dipo0x/Book-Store-API",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dipo0x/django",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dipo0x/Django-MongoDB",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dipo0x/django-referral-system",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dipo0x/django-rest-framework",
+        "files_analyzed": 25,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "dipo0x/Django-RestAPI",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dipo0x/eCommerce",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dipo0x/Ecommerce-api",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "dipo0x/Ecommerce-website",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dipo0x/ExpressJS-Referral-System",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "dipo0x/Fastapi-basic",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dipo0x/flutter-currency-app",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "dipo0x/Golang-Post-Api",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "dipo0x/Google-Drive-Python",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "dipo0x/gzt-web",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "dipo0x/Hacktoberfest2021",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "dipo0x/Instagram-Clone",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "username": "Ansar54",
+  "avatar_url": "https://avatars.githubusercontent.com/u/113664810?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.6125712383447988,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8377137150343963
+      }
+    },
+    "Status": {
+      "score": 0.6799730465861351,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.8399191397584053,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 0.175,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4935088569861868,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C": [
+        65025,
+        8
+      ],
+      "Python": [
+        61773,
+        47
+      ],
+      "CSS": [
+        306688,
+        6
+      ],
+      "HTML": [
+        30164,
+        2
+      ],
+      "TypeScript": [
+        15330,
+        1
+      ],
+      "JavaScript": [
+        281213,
+        3
+      ],
+      "Mako": [
+        29,
+        0
+      ],
+      "Jupyter Notebook": [
+        466,
+        1
+      ]
+    },
+    "language_count": 8,
+    "total_commits": 68,
+    "total_lines": 760688,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 61773,
+        "commits": 47
+      },
+      {
+        "language": "C",
+        "lines": 65025,
+        "commits": 8
+      },
+      {
+        "language": "CSS",
+        "lines": 306688,
+        "commits": 6
+      },
+      {
+        "language": "JavaScript",
+        "lines": 281213,
+        "commits": 3
+      },
+      {
+        "language": "HTML",
+        "lines": 30164,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Ansar54",
+    "analysis_date": "2026-05-15T21:27:59.066664",
+    "total_repos_analyzed": 12,
+    "total_files_analyzed": 146,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "<stdio.h>": 2,
+          "<stdlib.h>": 2,
+          "stdlib.h": 2,
+          "stdio.h": 2,
+          "unistd.h": 1,
+          "sys/stat.h": 1,
+          "<sys/stat.h>": 1,
+          "fcntl.h": 1,
+          "<unistd.h>": 1,
+          "linux/stat.h": 1,
+          "<linux/stat.h>": 1,
+          "<fcntl.h>": 1,
+          "string.h": 1,
+          "<string.h>": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 9,
+        "packages": {
+          "object": 4,
+          "typescript-eslint": 2,
+          "eslint-plugin-react-refresh": 2,
+          "globals": 2,
+          "eslint-plugin-react-hooks": 2,
+          "eslint": 2,
+          "jQuery": 2,
+          "undefined": 2,
+          "2.6.2": 1,
+          "transitions": 1,
+          "Array": 1,
+          "npm": 1,
+          "focusable": 1,
+          "style": 1,
+          "updateView": 1,
+          "selectedOffset": 1,
+          "view": 1,
+          "#006edd": 1,
+          "vertical": 1,
+          "grid": 1,
+          "arc": 1,
+          "center": 1,
+          "map": 1,
+          "pan": 1,
+          "sampling": 1,
+          "borderColor": 1,
+          "use": 1,
+          "jquery": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 81,
+        "packages": {
+          "sqlalchemy": 32,
+          "django": 31,
+          "fastapi": 15,
+          "os": 10,
+          "migrations": 10,
+          "Session": 10,
+          "FastAPI": 9,
+          "alembic": 9,
+          "app": 8,
+          "pydantic": 7,
+          "op": 7,
+          "models": 6,
+          "Base": 6,
+          "typing": 6,
+          "BaseModel": 6,
+          "datetime": 6,
+          "declarative_base": 5,
+          "sessionmaker": 5,
+          "create_engine": 5,
+          "Column": 5,
+          "sys": 4,
+          "path": 4,
+          "admin": 4,
+          "settings": 4,
+          "List": 4,
+          "APIRouter": 4,
+          "database": 4,
+          "streamlit": 4,
+          "time": 3,
+          "relationship": 3,
+          "schemas": 3,
+          "func": 3,
+          "uuid": 3,
+          "get_asgi_application": 2,
+          "pathlib": 2,
+          "Path": 2,
+          "static": 2,
+          "get_wsgi_application": 2,
+          "execute_from_command_line": 2,
+          "AppConfig": 2,
+          "TestCase": 2,
+          "render": 2,
+          "uvicorn": 2,
+          "get_current_user": 2,
+          "Depends": 2,
+          "jose": 2,
+          "get_db": 2,
+          "OAuth2PasswordBearer": 2,
+          "CryptContext": 2,
+          "JWTError": 2,
+          "passlib": 2,
+          "load_dotenv": 2,
+          "dotenv": 2,
+          "CORSMiddleware": 2,
+          "logging": 2,
+          "engine_from_config": 2,
+          "fileConfig": 2,
+          "context": 2,
+          "create_connection": 2,
+          "auth_helpers": 2,
+          "chat": 2,
+          "session": 2,
+          "Optional": 2,
+          "bcc": 1,
+          "string": 1,
+          "<linux/string": 1,
+          "BPF": 1,
+          "Template": 1,
+          "<linux/sched": 1,
+          "<uapi/linux/ptrace": 1,
+          "meetups": 1,
+          "forms": 1,
+          "HttpResponseNotFound": 1,
+          "users": 1,
+          "routers": 1,
+          "products": 1,
+          "Product": 1,
+          "json": 1,
+          "hashlib": 1,
+          "sqlite3": 1,
+          "ast": 1,
+          "generate_questions": 1,
+          "return_auth": 1,
+          "make_login": 1,
+          "LLMChain": 1,
+          "ChatGoogleGenerativeAI": 1,
+          "langchain_google_genai": 1,
+          "ResponseSchema": 1,
+          "PromptTemplate": 1,
+          "re": 1,
+          "langchain": 1,
+          "sessionlocal": 1,
+          "UUID": 1,
+          "CRUD": 1,
+          "get_user_model": 1,
+          "chain": 1,
+          "HttpResponse": 1,
+          "messages": 1,
+          "login_required": 1,
+          "User": 1,
+          "random": 1,
+          "itertools": 1,
+          "pool": 1,
+          "BaseSettings": 1,
+          "psycopg2": 1,
+          "RealDictCursor": 1,
+          "engine": 1,
+          "enum": 1,
+          "TIMESTAMP": 1,
+          "false": 1,
+          "unique": 1,
+          "ForeignKey": 1,
+          "VerifyingKey": 1,
+          "ecdsa": 1,
+          "OAuth2PasswordRequestForm": 1,
+          "starlette": 1,
+          "HTTP_409_CONFLICT": 1,
+          "conint": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 48,
+        "packages": {
+          "react": 40,
+          "lucide-react": 20,
+          "radix-ui": 15,
+          "react-router-dom": 5,
+          "sonner": 4,
+          "class-variance-authority": 4,
+          "tanstack": 2,
+          "emailjs": 1,
+          "react-day-picker": 1,
+          "useEmblaCarousel": 1,
+          "recharts": 1,
+          "cmdk": 1,
+          "vaul": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Ansar54/Assessment_task",
+        "files_analyzed": 3,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Ansar54/Django_meetups",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Ansar54/Health_vault",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Ansar54/Inventory_management_system",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Ansar54/linux-APIs",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Ansar54/open_vetting",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Ansar54/Portfolio-Website",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "Ansar54/School_management-system",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Ansar54/simple_sqlalchemy_project",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Ansar54/SocialNest",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "Ansar54/Social_media_App",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

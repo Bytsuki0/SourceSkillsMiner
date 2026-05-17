@@ -1,0 +1,782 @@
+{
+  "username": "h2oai",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1402695?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.5,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.3333333333333333,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.0,
+        "week_streak": 0.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.0,
+      "details": {
+        "language_diversity_score": 0.0,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 0,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "h2oai/aiverify": 0.31416666666666665,
+        "h2oai/app-ask-craig": 0.7184,
+        "h2oai/app-malicious-domains": 0.5106
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4666666666666667,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        733123,
+        0
+      ],
+      "Python": [
+        8706686,
+        0
+      ],
+      "JavaScript": [
+        535225,
+        0
+      ],
+      "CSS": [
+        359859,
+        0
+      ],
+      "Jupyter Notebook": [
+        3001171,
+        0
+      ],
+      "Shell": [
+        68449,
+        0
+      ],
+      "Makefile": [
+        13936,
+        0
+      ],
+      "Kotlin": [
+        4634667,
+        0
+      ],
+      "Java": [
+        3976574,
+        0
+      ],
+      "Jinja": [
+        19524,
+        0
+      ],
+      "Handlebars": [
+        13589,
+        0
+      ],
+      "PLpgSQL": [
+        13562,
+        0
+      ],
+      "Dockerfile": [
+        31963,
+        0
+      ],
+      "PLSQL": [
+        5240,
+        0
+      ],
+      "TSQL": [
+        2828,
+        0
+      ],
+      "TypeScript": [
+        1735879,
+        0
+      ],
+      "Smarty": [
+        62874,
+        0
+      ],
+      "SCSS": [
+        48139,
+        0
+      ],
+      "Go": [
+        15413,
+        0
+      ],
+      "Mustache": [
+        4552,
+        0
+      ],
+      "FreeMarker": [
+        3478,
+        0
+      ],
+      "MDX": [
+        269153,
+        0
+      ],
+      "HCL": [
+        1416,
+        0
+      ],
+      "D2": [
+        738,
+        0
+      ],
+      "Starlark": [
+        607,
+        0
+      ],
+      "PureBasic": [
+        5395,
+        0
+      ],
+      "jq": [
+        275,
+        0
+      ],
+      "Scala": [
+        149779,
+        0
+      ],
+      "CoffeeScript": [
+        2847,
+        0
+      ],
+      "Thrift": [
+        235,
+        0
+      ],
+      "R": [
+        120152,
+        0
+      ]
+    },
+    "language_count": 31,
+    "total_commits": 0,
+    "total_lines": 24537328,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 733123,
+        "commits": 0
+      },
+      {
+        "language": "Python",
+        "lines": 8706686,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 535225,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 359859,
+        "commits": 0
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 3001171,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "h2oai",
+    "analysis_date": "2026-05-16T16:40:41.048050",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 247,
+    "languages": {
+      "Java": {
+        "files_scanned": 38,
+        "packages": {
+          "java.util": 31,
+          "com.h2o": 26,
+          "java.io": 15,
+          "ai.h2o": 7,
+          "java.nio": 5,
+          "org.apache": 5,
+          "io.airbyte": 4,
+          "com.google": 4,
+          "javax.servlet": 3,
+          "hex.genmodel": 3,
+          "java.text": 3,
+          "org.gradle": 2,
+          "java.net": 2,
+          "com.sun": 2,
+          "com.fasterxml": 1,
+          "org.junit": 1,
+          "com.amazonaws": 1,
+          "org.python": 1,
+          "static": 1,
+          "org.json": 1,
+          "java.math": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 11,
+        "packages": {
+          "d3": 4,
+          "undefined": 3,
+          "react": 2,
+          "d3-request": 2,
+          "lodash": 1,
+          "fs": 1,
+          "jsonfile": 1,
+          "webpack-dev-server": 1,
+          "webpack": 1,
+          "d3-queue": 1,
+          "react-dom": 1,
+          "d3-tip": 1,
+          "dat-gui": 1,
+          "globals": 1,
+          "eslint": 1,
+          "typescript-eslint": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 56,
+        "packages": {
+          "io.airbyte": 56,
+          "io.micronaut": 30,
+          "jakarta.inject": 23,
+          "java.util": 15,
+          "okhttp3.Response": 13,
+          "java.time": 10,
+          "com.fasterxml": 10,
+          "okhttp3.Interceptor": 10,
+          "io.github": 9,
+          "org.junit": 9,
+          "java.io": 8,
+          "io.mockk": 8,
+          "okhttp3.Request": 8,
+          "java.nio": 4,
+          "java.net": 4,
+          "dev.failsafe": 4,
+          "java.lang": 3,
+          "com.segment": 3,
+          "okhttp3.OkHttpClient": 3,
+          "edu.umd": 2,
+          "com.kjetland": 2,
+          "java.math": 2,
+          "org.apache": 2,
+          "kotlin.time": 2,
+          "java.security": 2,
+          "class": 2,
+          "com.google": 2,
+          "reactor.core": 2,
+          "picocli.CommandLine": 1,
+          "kotlin.system": 1,
+          "CLOUD": 1,
+          "org.openapi4j": 1,
+          "fun": 1,
+          "expected": 1,
+          "regex": 1,
+          "error": 1,
+          "org.bouncycastle": 1,
+          "datadog.trace": 1,
+          "io.opentracing": 1,
+          "jakarta.annotation": 1,
+          "retrofit.client": 1,
+          "retrofit.mime": 1,
+          "reactor.util": 1,
+          "okhttp3.HttpUrl": 1,
+          "org.openapitools": 1,
+          "com.auth0": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 87,
+        "packages": {
+          "typing": 29,
+          "os": 23,
+          "torch": 22,
+          "numpy": 21,
+          "pandas": 15,
+          "datetime": 15,
+          "Optional": 13,
+          "sqlalchemy": 12,
+          "ldm": 11,
+          "Mapped": 9,
+          "Q": 8,
+          "h2o_wave": 8,
+          "pathlib": 8,
+          "h2o_authn": 8,
+          "json": 7,
+          "transformers": 7,
+          "Path": 7,
+          "sys": 7,
+          "shutil": 6,
+          "partial": 6,
+          "functools": 6,
+          "einops": 6,
+          "src": 6,
+          "rearrange": 5,
+          "math": 5,
+          "pytest": 5,
+          "ForeignKey": 5,
+          "tqdm": 4,
+          "io": 4,
+          "*": 4,
+          "config": 4,
+          "Any": 4,
+          "peft": 4,
+          "abc": 3,
+          "Dataset": 3,
+          "torchvision": 3,
+          "glob": 3,
+          "omegaconf": 3,
+          "instantiate_from_config": 3,
+          "pytorch_lightning": 3,
+          "collections": 3,
+          "Union": 3,
+          "Tuple": 3,
+          "re": 3,
+          "Dict": 3,
+          "h2o": 3,
+          "subprocess": 3,
+          "List": 3,
+          "String": 3,
+          "LlamaForCausalLM": 3,
+          "PeftModel": 3,
+          "__future__": 3,
+          "tensorflow": 3,
+          "token": 3,
+          "abstractmethod": 2,
+          "OmegaConf": 2,
+          "taming": 2,
+          "Image": 2,
+          "PIL": 2,
+          "Encoder": 2,
+          "contextlib": 2,
+          "contextmanager": 2,
+          "LambdaLR": 2,
+          "log_txt_as_img": 2,
+          "make_ddim_sampling_parameters": 2,
+          "nn": 2,
+          "Counter": 2,
+          "logging": 2,
+          "hashlib": 2,
+          "urllib": 2,
+          "validate": 2,
+          "jsonschema": 2,
+          "hybrid_property": 2,
+          "datasets": 2,
+          "fire": 2,
+          "Prompter": 2,
+          "utils": 2,
+          "division": 2,
+          "sklearn": 2,
+          "stats": 2,
+          "scipy": 2,
+          "timeit": 2,
+          "shap": 2,
+          "keras": 2,
+          "Input": 2,
+          "default_timer": 2,
+          "Model": 2,
+          "backend": 2,
+          "Dense": 2,
+          "ssl": 2,
+          "h2o_discovery": 2,
+          "time_machine": 2,
+          "respx": 2,
+          "matplotlib": 2,
+          "Flask": 1,
+          "CORS": 1,
+          "flask": 1,
+          "flask_cors": 1,
+          "Response": 1,
+          "pickle": 1,
+          "str_to_indices": 1,
+          "cv2": 1,
+          "albumentations": 1,
+          "yaml": 1,
+          "tarfile": 1,
+          "ImagePaths": 1,
+          "degradation_fn_bsr": 1,
+          "academictorrents": 1,
+          "transforms": 1,
+          "VectorQuantizer2": 1,
+          "DiagonalGaussianDistribution": 1,
+          "EncoderUNetModel": 1,
+          "natsort": 1,
+          "copy": 1,
+          "AdamW": 1,
+          "deepcopy": 1,
+          "natsorted": 1,
+          "functional": 1,
+          "VQModelInterface": 1,
+          "make_grid": 1,
+          "make_beta_schedule": 1,
+          "rank_zero_only": 1,
+          "pudb": 1,
+          "normal_kl": 1,
+          "LitEma": 1,
+          "DDIMSampler": 1,
+          "inspect": 1,
+          "checkpoint": 1,
+          "isfunction": 1,
+          "LinearAttention": 1,
+          "Attention": 1,
+          "ListConfig": 1,
+          "Iterable": 1,
+          "SpatialTransformer": 1,
+          "repeat": 1,
+          "count_params": 1,
+          "kornia": 1,
+          "BertTokenizerFast": 1,
+          "CLIPTokenizer": 1,
+          "clip": 1,
+          "mux_py": 1,
+          "conftest": 1,
+          "H2OGPTE": 1,
+          "REMOTE_ADDRESS": 1,
+          "filelock": 1,
+          "h2ogpte": 1,
+          "ai100_data": 1,
+          "datatable": 1,
+          "transform": 1,
+          "argparse": 1,
+          "warnings": 1,
+          "relativedelta": 1,
+          "dateutil": 1,
+          "detoxify": 1,
+          "GPUtil": 1,
+          "wordninja": 1,
+          "pipeline": 1,
+          "SentimentIntensityAnalyzer": 1,
+          "vaderSentiment": 1,
+          "pandarallel": 1,
+          "punctuation": 1,
+          "string": 1,
+          "multiprocessing": 1,
+          "process_transactions": 1,
+          "Process": 1,
+          "get_openapi": 1,
+          "FastAPI": 1,
+          "load_dotenv": 1,
+          "routers": 1,
+          "dotenv": 1,
+          "fastapi": 1,
+          "uvicorn": 1,
+          "enum": 1,
+          "StrEnum": 1,
+          "venv": 1,
+          "create_engine": 1,
+          "logger": 1,
+          "sessionmaker": 1,
+          "PurePath": 1,
+          "urljoin": 1,
+          "zipfile": 1,
+          "ZipFile": 1,
+          "func": 1,
+          "tempfile": 1,
+          "select": 1,
+          "tomllib": 1,
+          "boto3": 1,
+          "urlparse": 1,
+          "ast": 1,
+          "PluginType": 1,
+          "aiverify_test_engine": 1,
+          "importlib": 1,
+          "mimetypes": 1,
+          "DeclarativeBase": 1,
+          "Enum": 1,
+          "uuid": 1,
+          "bitsandbytes": 1,
+          "load_dataset": 1,
+          "GenerationConfig": 1,
+          "gradio": 1,
+          "thrift": 1,
+          "TSocket": 1,
+          "TTransport": 1,
+          "askcraig": 1,
+          "Thrift": 1,
+          "TBinaryProtocol": 1,
+          "AskCraig": 1,
+          "H2OGradientBoostingEstimator": 1,
+          "H2OGeneralizedLinearEstimator": 1,
+          "hex": 1,
+          "NamesHolder_MaliciousDomainModel": 1,
+          "EasyPredictModelWrapper": 1,
+          "RowData": 1,
+          "java": 1,
+          "Math": 1,
+          "MaliciousDomainModel": 1,
+          "train_test_split": 1,
+          "RandomForestClassifier": 1,
+          "roc_auc_score": 1,
+          "notebooks": 1,
+          "DisparityTesting": 1,
+          "metrics": 1,
+          "AsyncTokenProvider": 1,
+          "TokenProvider": 1,
+          "__version__": 1,
+          "provider": 1,
+          "error": 1,
+          "httpx": 1,
+          "model": 1,
+          "print_function": 1,
+          "setuptools": 1,
+          "setup": 1,
+          "random": 1,
+          "time": 1,
+          "ray": 1
+        }
+      },
+      "R": {
+        "files_scanned": 3,
+        "packages": {
+          "h2o": 3
+        }
+      },
+      "Scala": {
+        "files_scanned": 6,
+        "packages": {
+          "org.apache": 6,
+          "water.apps": 4,
+          "water.api": 2,
+          "SparkContext}": 2,
+          "hex.tree": 2,
+          "hex.Model": 2,
+          "h2oContext._": 2,
+          "java.util": 1,
+          "water.DKV": 1,
+          "mllib}": 1,
+          "water.Key": 1,
+          "SparkContextSupport": 1,
+          "SparklingWaterApp}": 1,
+          "CraigslistJobTitlesApp._": 1,
+          "ModelMetricsSupport": 1,
+          "Vectors}": 1,
+          "water.app": 1,
+          "sqlContext.implicits": 1,
+          "Word2VecModel}": 1,
+          "hex.splitframe": 1,
+          "water.fvec": 1,
+          "Chunk}": 1,
+          "hex": 1,
+          "FrameSplitter}": 1,
+          "H2OFrame}": 1,
+          "Frame": 1,
+          "water.parser": 1,
+          "hex.{ModelMetrics": 1,
+          "water._": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 3,
+        "packages": {
+          "node:fs": 2,
+          "node:path": 2,
+          "fs": 1,
+          "rehype-mdx-import-media": 1,
+          "unified": 1,
+          "unist": 1,
+          "mdast": 1,
+          "remark-gfm": 1,
+          "path": 1,
+          "mdx-bundler": 1,
+          "unist-util-visit": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "h2oai/2017-06-21-hackathon",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "h2oai/aggregator-zoom",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "h2oai/ai-h2o-wave-stable-diffusion",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "h2oai/ai100",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "h2oai/airbyte",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "h2oai/airbyte-platform",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "h2oai/AITD",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "h2oai/aiverify",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "h2oai/alpaca-lora",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "h2oai/app-ask-craig",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python",
+          "Scala"
+        ]
+      },
+      {
+        "repository": "h2oai/app-consumer-loan",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "Python",
+          "R"
+        ]
+      },
+      {
+        "repository": "h2oai/app-malicious-domains",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "h2oai/app-mojo-servlet",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java",
+          "R"
+        ]
+      },
+      {
+        "repository": "h2oai/app-news-classification",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Scala"
+        ]
+      },
+      {
+        "repository": "h2oai/app-titanic",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java",
+          "JavaScript",
+          "R"
+        ]
+      },
+      {
+        "repository": "h2oai/article-information-2019",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "h2oai/authn-py",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "h2oai/autoviz",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "h2oai/benford_py",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "h2oai/bitnami-containers",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

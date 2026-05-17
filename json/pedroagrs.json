@@ -1,0 +1,216 @@
+{
+  "username": "pedroagrs",
+  "avatar_url": "https://avatars.githubusercontent.com/u/43187922?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.7975523021414594,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 0.6666666666666666,
+        "commits_activity": 0.7259902397577118
+      }
+    },
+    "Status": {
+      "score": 0.6252380984173647,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.675714295252094,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 0.3625,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 4.2479,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5570580801117648,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        1915444,
+        31
+      ],
+      "Kotlin": [
+        1215,
+        2
+      ],
+      "HTML": [
+        212,
+        0
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 33,
+    "total_lines": 1916871,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 1915444,
+        "commits": 31
+      },
+      {
+        "language": "Kotlin",
+        "lines": 1215,
+        "commits": 2
+      },
+      {
+        "language": "HTML",
+        "lines": 212,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "pedroagrs",
+    "analysis_date": "2026-05-15T22:16:47.250860",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 105,
+    "languages": {
+      "Java": {
+        "files_scanned": 105,
+        "packages": {
+          "org.bukkit": 67,
+          "java.util": 44,
+          "com.rarley": 30,
+          "com.plotsquared": 30,
+          "io.pedroagrs": 26,
+          "com.google": 25,
+          "lombok.RequiredArgsConstructor": 22,
+          "lombok.Getter": 20,
+          "org.checkerframework": 16,
+          "lombok.NonNull": 12,
+          "com.comphenix": 11,
+          "java.lang": 10,
+          "io.github": 10,
+          "com.sk89q": 10,
+          "lombok.SneakyThrows": 9,
+          "java.io": 8,
+          "org.apache": 8,
+          "static": 7,
+          "org.springframework": 6,
+          "io.papermc": 6,
+          "lombok.Setter": 5,
+          "com.github": 5,
+          "com.huck": 5,
+          "java.sql": 4,
+          "com.zaxxer": 4,
+          "lombok.AccessLevel": 4,
+          "net.kyori": 4,
+          "lombok.experimental": 3,
+          "javax.annotation": 3,
+          "io.grpc": 2,
+          "redis.clients": 2,
+          "com.destroystokyo": 2,
+          "net.md_5": 2,
+          "me.pedro": 2,
+          "lombok.AllArgsConstructor": 1,
+          "javax.persistence": 1,
+          "lombok.NoArgsConstructor": 1,
+          "org.junit": 1,
+          "lombok.Data": 1,
+          "lombok.Builder": 1,
+          "org.incendo": 1,
+          "org.bstats": 1,
+          "org.jetbrains": 1,
+          "com.mojang": 1,
+          "java.nio": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "pedroagrs/Crates",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "pedroagrs/GameServer",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "pedroagrs/grpc-core",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "pedroagrs/JedisManager",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "pedroagrs/minecraft-buttons",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "pedroagrs/PlotSquared",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "pedroagrs/SeniorBot",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "pedroagrs/StaffChat",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

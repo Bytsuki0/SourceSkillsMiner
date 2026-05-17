@@ -1,0 +1,1063 @@
+{
+  "username": "anandsuresh",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1027513?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9388228298789572,
+      "details": {
+        "issue_resolution_rate": 0.8571428571428571,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.9593256324940144
+      }
+    },
+    "Status": {
+      "score": 0.5173837078557342,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.4521511235672025,
+        "week_streak": 0.1
+      }
+    },
+    "Adaptability": {
+      "score": 0.7645204999999999,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.8617,
+        "resilience_score": 0.5714,
+        "distinct_primary_languages": 5,
+        "language_transitions": 17,
+        "topic_entropy_bits": 2.585,
+        "closed_prs_total": 28,
+        "bounced_back_prs": 8
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6691454075469383,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        208083,
+        0
+      ],
+      "Vim Script": [
+        1433,
+        0
+      ],
+      "JavaScript": [
+        7487835,
+        84
+      ],
+      "Less": [
+        738913,
+        0
+      ],
+      "CoffeeScript": [
+        251266,
+        0
+      ],
+      "Batchfile": [
+        4027,
+        0
+      ],
+      "Dockerfile": [
+        2306,
+        0
+      ],
+      "HTML": [
+        268020,
+        0
+      ],
+      "EJS": [
+        205,
+        0
+      ],
+      "Modelica": [
+        450,
+        0
+      ],
+      "Python": [
+        1424079,
+        8
+      ],
+      "C++": [
+        201283,
+        51
+      ],
+      "Go": [
+        110868,
+        0
+      ],
+      "CSS": [
+        33084,
+        0
+      ],
+      "CMake": [
+        788,
+        0
+      ],
+      "Jupyter Notebook": [
+        419,
+        0
+      ],
+      "Ruby": [
+        37348,
+        0
+      ],
+      "Gherkin": [
+        2190,
+        0
+      ],
+      "Makefile": [
+        56682,
+        2
+      ],
+      "Erlang": [
+        115668,
+        0
+      ],
+      "C": [
+        42757,
+        4
+      ]
+    },
+    "language_count": 21,
+    "total_commits": 149,
+    "total_lines": 10987704,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 7487835,
+        "commits": 84
+      },
+      {
+        "language": "C++",
+        "lines": 201283,
+        "commits": 51
+      },
+      {
+        "language": "Python",
+        "lines": 1424079,
+        "commits": 8
+      },
+      {
+        "language": "C",
+        "lines": 42757,
+        "commits": 4
+      },
+      {
+        "language": "Makefile",
+        "lines": 56682,
+        "commits": 2
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "anandsuresh",
+    "analysis_date": "2026-05-16T19:19:24.456869",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 349,
+    "languages": {
+      "C": {
+        "files_scanned": 9,
+        "packages": {
+          "<string.h>": 9,
+          "string.h": 9,
+          "<unistd.h>": 7,
+          "unistd.h": 7,
+          "stdio.h": 7,
+          "<stdio.h>": 7,
+          "stdlib.h": 6,
+          "<stdlib.h>": 6,
+          "security/pam_appl.h": 6,
+          "<security/pam_appl.h>": 6,
+          "<pwd.h>": 4,
+          "pwd.h": 4,
+          "sys/param.h": 4,
+          "<sys/param.h>": 4,
+          "<erl_driver.h>": 3,
+          "driver_comm.h": 3,
+          "erl_driver.h": 3,
+          "erl_compatibility.h": 2,
+          "spidermonkey.h": 2,
+          "security/pam_modules.h": 2,
+          "<security/pam_modules.h>": 2,
+          "<sys/wait.h>": 2,
+          "<err.h>": 2,
+          "syslog.h": 2,
+          "<security/openpam.h>": 2,
+          "err.h": 2,
+          "sys/wait.h": 2,
+          "<syslog.h>": 2,
+          "security/openpam.h": 2,
+          "strings.h": 1,
+          "<strings.h>": 1,
+          "time.h": 1,
+          "<time.h>": 1,
+          "<stdint.h>": 1,
+          "<assert.h>": 1,
+          "config.h": 1,
+          "assert.h": 1,
+          "stdint.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 20,
+        "packages": {
+          "bitcoin/bitcoin.hpp": 4,
+          "<bitcoin/bitcoin.hpp>": 4,
+          "blocksci": 4,
+          "namespace": 4,
+          "chain/transaction.hpp": 4,
+          "<iostream>": 3,
+          "iostream": 3,
+          "raw_address_pointer.hpp": 3,
+          "address_index.hpp": 3,
+          "address_info.hpp": 3,
+          "address.hpp": 3,
+          "data_configuration.hpp": 3,
+          "data_access.hpp": 3,
+          "<blocksci/blocksci.hpp>": 2,
+          "pybind11/pybind11.h": 2,
+          "<pybind11/pybind11.h>": 2,
+          "blocksci/blocksci.hpp": 2,
+          "pybind11/stl.h": 2,
+          "<pybind11/stl.h>": 2,
+          "<blocksci/chain/output.hpp>": 2,
+          "blocksci/chain/input.hpp": 2,
+          "unordered_set": 2,
+          "blocksci/chain/output.hpp": 2,
+          "<unordered_set>": 2,
+          "<blocksci/chain/input.hpp>": 2,
+          "<libcluster/cluster_manager.hpp>": 2,
+          "libcluster/cluster.hpp": 2,
+          "libcluster/cluster_manager.hpp": 2,
+          "<libcluster/cluster.hpp>": 2,
+          "cluster.hpp": 2,
+          "cluster_manager.hpp": 2,
+          "scripts/script.hpp": 2,
+          "address_first_seen_access.hpp": 2,
+          "<sstream>": 2,
+          "sstream": 2,
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "<fstream>": 1,
+          "fstream": 1,
+          "<blocksci/scripts/scriptsfwd.hpp>": 1,
+          "<blocksci/chain/transaction.hpp>": 1,
+          "blocksci/chain/blockchain.hpp": 1,
+          "unordered_map": 1,
+          "<blocksci/address/address.hpp>": 1,
+          "blocksci/scripts/scripthash_script.hpp": 1,
+          "blocksci/scripts/scriptsfwd.hpp": 1,
+          "<blocksci/chain/blockchain.hpp>": 1,
+          "dset/dset.h": 1,
+          "future": 1,
+          "blocksci/address/address.hpp": 1,
+          "<blocksci/scripts/scripthash_script.hpp>": 1,
+          "<dset/dset.h>": 1,
+          "pair_type": 1,
+          "<map>": 1,
+          "blocksci/chain/transaction.hpp": 1,
+          "map": 1,
+          "<unordered_map>": 1,
+          "<future>": 1,
+          "boost/range/algorithm/copy.hpp": 1,
+          "<boost/range/adaptor/filtered.hpp>": 1,
+          "<boost/range/algorithm/copy.hpp>": 1,
+          "boost/range/adaptor/filtered.hpp": 1,
+          "<blocksci/address/address_info.hpp>": 1,
+          "blocksci/address/address_info.hpp": 1,
+          "<blocksci/chain/block.hpp>": 1,
+          "<blocksci/chain/transaction_iterator.hpp>": 1,
+          "blocksci/chain/block.hpp": 1,
+          "blocksci/chain/transaction_iterator.hpp": 1,
+          "cluster_range": 1,
+          "address_range": 1,
+          "scripts/pubkeyhash_script.hpp": 1,
+          "scripts/scriptsfwd.hpp": 1,
+          "scripts/script_access.hpp": 1,
+          "scripts/scripthash_script.hpp": 1,
+          "chain/output_pointer.hpp": 1,
+          "chain/output.hpp": 1,
+          "vector": 1,
+          "<vector>": 1,
+          "chain/input.hpp": 1,
+          "chain/input_pointer.hpp": 1,
+          "address_types.hpp": 1,
+          "hash.hpp": 1,
+          "scripts/script_data.hpp": 1,
+          "scripts/bitcoin_base58.hpp": 1,
+          "<string.h>": 1,
+          "string.h": 1,
+          "bitcoin_uint256.hpp": 1
+        }
+      },
+      "C++ Header": {
+        "files_scanned": 9,
+        "packages": {
+          "stdio.h": 6,
+          "<stdio.h>": 6,
+          "address_types.hpp": 3,
+          "vector": 3,
+          "<vector>": 3,
+          "<string>": 3,
+          "string": 3,
+          "boost/range/iterator_range.hpp": 2,
+          "<boost/range/iterator_range.hpp>": 2,
+          "<blocksci/file_mapper.hpp>": 2,
+          "blocksci/file_mapper.hpp": 2,
+          "boost/optional.hpp": 2,
+          "<boost/optional.hpp>": 2,
+          "unordered_map": 1,
+          "blocksci/address/address.hpp": 1,
+          "<blocksci/address/address.hpp>": 1,
+          "<cstdint>": 1,
+          "cstdint": 1,
+          "<unordered_map>": 1,
+          "blocksci::FixedSizeFileMapper<uint32_t>::FixedSizeFileMapper": 1,
+          "cluster.hpp": 1,
+          "<blocksci/address/address_info.hpp>": 1,
+          "<boost/range/counting_range.hpp>": 1,
+          "blocksci/address/address_info.hpp": 1,
+          "ScriptClusterIndexTuple": 1,
+          "boost/range/counting_range.hpp": 1,
+          "memory": 1,
+          "<memory>": 1,
+          "address_info.hpp": 1,
+          "FixedSizeFileMapper<uint32_t>::FixedSizeFileMapper": 1,
+          "AddressFilesFirstSeenTuple": 1,
+          "unordered_set": 1,
+          "<sqlite3.h>": 1,
+          "<unordered_set>": 1,
+          "sqlite3.h": 1,
+          "tuple": 1,
+          "<boost/variant/variant_fwd.hpp>": 1,
+          "storage": 1,
+          "boost/variant/variant_fwd.hpp": 1,
+          "type": 1,
+          "AddressInfoList": 1,
+          "to_script_variant_t": 1,
+          "<sstream>": 1,
+          "<tuple>": 1,
+          "sstream": 1,
+          "<array>": 1,
+          "array": 1,
+          "blocksci/bitcoin_uint256.hpp": 1,
+          "<blocksci/bitcoin_uint256.hpp>": 1,
+          "<stdint.h>": 1,
+          "<assert.h>": 1,
+          "<stdexcept>": 1,
+          "assert.h": 1,
+          "stdint.h": 1,
+          "<cstring>": 1,
+          "stdexcept": 1,
+          "cstring": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "erl_compatibility.h": 1,
+          "jsapi.h": 1
+        }
+      },
+      "Erlang": {
+        "files_scanned": 4,
+        "packages": {
+          "eunit/include/eunit.hrl": 4
+        }
+      },
+      "Go": {
+        "files_scanned": 3,
+        "packages": {
+          "fmt": 2,
+          "os": 2,
+          "github.com/conformal/btcnet": 2,
+          "github.com/conformal/btcscript": 2,
+          "github.com/conformal/btcutil": 2,
+          "encoding/hex": 1,
+          "path/filepath": 1,
+          "io/ioutil": 1,
+          "log": 1,
+          "github.com/conformal/btcwire": 1,
+          "github.com/conformal/btcrpcclient": 1,
+          "time": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 30,
+        "packages": {
+          "org.numenta": 30,
+          "java.util": 23,
+          "gnu.trove": 12,
+          "org.openjdk": 4,
+          "java.io": 3,
+          "org.slf4j": 3,
+          "org.joda": 3,
+          "chaschev.lang": 2,
+          "com.cedarsoftware": 1,
+          "org.nustaq": 1,
+          "no.uib": 1,
+          "static": 1,
+          "java.net": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 67,
+        "packages": {
+          "path": 14,
+          "fs": 11,
+          "atom": 9,
+          "electron": 9,
+          "gcloud": 8,
+          "grim": 7,
+          "child_process": 6,
+          "util": 6,
+          "etch": 6,
+          "extend": 6,
+          "chai": 5,
+          "through2": 5,
+          "assert": 4,
+          "fs-plus": 3,
+          "stream-events": 3,
+          "crypto": 3,
+          "request": 3,
+          "os": 2,
+          "debug": 2,
+          "stream": 2,
+          "fast-crc32c": 2,
+          "chart.js": 1,
+          "glob": 1,
+          "text-buffer": 1,
+          "event-kit": 1,
+          "pathwatcher": 1,
+          "semver": 1,
+          "sinon": 1,
+          "atom-mocha-test-runner": 1,
+          "test.js": 1,
+          "underscore-plus": 1,
+          "marked": 1,
+          "dfinity": 1,
+          "node-fetch": 1,
+          "http": 1,
+          "web3": 1,
+          "truffle-contract": 1,
+          "babel-register": 1,
+          "copy-webpack-plugin": 1,
+          "undefined": 1,
+          "tue:33": 1,
+          "8": 1,
+          "17": 1,
+          "mani:[]": 1,
+          "screen:[0": 1,
+          "library_nam:[0": 1,
+          "color:[0": 1,
+          "30": 1,
+          "region:[0": 1,
+          "fundament:30": 1,
+          "parent:[0": 1,
+          "my_cookbook:30": 1,
+          "15": 1,
+          "rebuild:[]": 1,
+          "31": 1,
+          "12": 1,
+          "rabbitmq_vhost:[0": 1,
+          "gpasswd:[0": 1,
+          "19": 1,
+          "6": 1,
+          "west:[0": 1,
+          "cancel:[0": 1,
+          "quiet:[0": 1,
+          "symfoni:[0": 1,
+          "colon:[0": 1,
+          "36]": 1,
+          "mark:[0": 1,
+          "editpad:25": 1,
+          "syntax_check_cache_path:25": 1,
+          "runcontext:[0": 1,
+          "across:[0": 1,
+          "rubi:[]": 1,
+          "7": 1,
+          "21": 1,
+          "23": 1,
+          ":[0": 1,
+          "20": 1,
+          "34": 1,
+          "27": 1,
+          "1": 1,
+          "24": 1,
+          "16": 1,
+          "28": 1,
+          "4": 1,
+          "windows_path:[0": 1,
+          "bluepil:[0": 1,
+          "2": 1,
+          "sname:[0": 1,
+          "pychef:[0": 1,
+          "uncondition:[0": 1,
+          "uuid:[0": 1,
+          "13": 1,
+          "ultim:[0": 1,
+          "come:25": 1,
+          "14": 1,
+          "replace_str:27": 1,
+          "period:[0": 1,
+          "22": 1,
+          "those:[0": 1,
+          "10": 1,
+          "rebuilt:[0": 1,
+          "11": 1,
+          "generic_writ:[0": 1,
+          "9": 1,
+          "26": 1,
+          "datamapp:[0": 1,
+          "33": 1,
+          "18": 1,
+          "5": 1,
+          "25": 1,
+          "reindex:[0": 1,
+          "3": 1,
+          "29": 1,
+          "spiceweasel:[0": 1,
+          "35": 1,
+          "32": 1,
+          "node_nam:[0": 1,
+          "YOUR": 1,
+          "globals": 1,
+          "eslint": 1,
+          "=": 1,
+          "literal:": 1,
+          "cc=": 1,
+          "fc=": 1,
+          "function": 1,
+          "3})?": 1,
+          "gc=": 1,
+          "_b=": 1,
+          "dc=": 1,
+          "bc=": 1,
+          "a-z\\u00A0-\\u05FF\\u0700-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF]+|[\\u0600-\\u06FF\\": 1,
+          "Xb=": 1,
+          "Yb=": 1,
+          "$b=": 1,
+          "ac=": 1,
+          "Zb=": 1,
+          "ec=": 1,
+          "2}": 1,
+          "2.0.0": 1,
+          "object": 1,
+          "institutions": 1,
+          "duplexify": 1,
+          "google-auth-library": 1,
+          "node-uuid": 1,
+          "protobufjs": 1,
+          "events": 1,
+          "buffer": 1,
+          "stream-pair": 1,
+          "net": 1,
+          "t.write(": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "t=(Pt[0].contentWindow||Pt[0].contentDocument).document": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 5,
+        "packages": {
+          "strict": 5,
+          "Getopt::Std": 2,
+          "Digest::MD5": 1,
+          "Fcntl": 1,
+          "vars": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 50,
+        "packages": {
+          "os": 14,
+          "re": 12,
+          "deepagents": 10,
+          "json": 9,
+          "sys": 9,
+          "typing": 8,
+          "create_deep_agent": 8,
+          "annotations": 7,
+          "__future__": 7,
+          "langchain_core": 7,
+          "torch": 7,
+          "Path": 5,
+          "pathlib": 5,
+          "asyncio": 5,
+          "langchain": 5,
+          "argparse": 5,
+          "deepagents_acp": 5,
+          "langgraph": 5,
+          "numpy": 5,
+          "requests": 4,
+          "pandas": 4,
+          "datetime": 4,
+          "rich": 4,
+          "Console": 4,
+          "AIMessage": 4,
+          "typing_extensions": 4,
+          "acp": 4,
+          "MemorySaver": 4,
+          "Panel": 3,
+          "TavilyClient": 3,
+          "tavily": 3,
+          "tavily_search": 3,
+          "CompositeBackend": 3,
+          "Any": 3,
+          "dotenv": 3,
+          "load_dotenv": 3,
+          "ToolRuntime": 3,
+          "collections": 3,
+          "AgentServerACP": 3,
+          "scipy": 3,
+          "text": 3,
+          "hashlib": 2,
+          "blocksci": 2,
+          "subprocess": 2,
+          "*": 2,
+          "tomllib": 2,
+          "Text": 2,
+          "tool": 2,
+          "FilesystemBackend": 2,
+          "warnings": 2,
+          "Literal": 2,
+          "research_agent": 2,
+          "init_chat_model": 2,
+          "InjectedToolArg": 2,
+          "httpx": 2,
+          "markdownify": 2,
+          "Annotated": 2,
+          "Tavily": 2,
+          "logging": 2,
+          "RequestError": 2,
+          "Client": 2,
+          "Checkpointer": 2,
+          "CompiledStateGraph": 2,
+          "Callable": 2,
+          "TYPE_CHECKING": 2,
+          "GenericFakeChatModel": 2,
+          "tests": 2,
+          "Variable": 2,
+          "mel": 2,
+          "random": 2,
+          "matplotlib": 2,
+          "data": 2,
+          "flowtron": 2,
+          "Data": 2,
+          "DataLoader": 2,
+          "Flowtron": 2,
+          "ecdsa": 1,
+          "string_to_number": 1,
+          "bitcoin": 1,
+          "time": 1,
+          "create_signed_tx": 1,
+          "pycoin": 1,
+          "Key": 1,
+          "is_address_valid": 1,
+          "spendables_for_address": 1,
+          "argv": 1,
+          "psutil": 1,
+          "Template": 1,
+          "Pool": 1,
+          "dateparser": 1,
+          "relativedelta": 1,
+          "tempfile": 1,
+          "multiprocess": 1,
+          "importlib": 1,
+          "string": 1,
+          "operator": 1,
+          "functools": 1,
+          "inspect": 1,
+          "reduce": 1,
+          "dateutil": 1,
+          "the": 1,
+          "binascii": 1,
+          "Crypto": 1,
+          "tabulate": 1,
+          "glob": 1,
+          "compile": 1,
+          "Markdown": 1,
+          "genai": 1,
+          "Live": 1,
+          "Spinner": 1,
+          "google": 1,
+          "yaml": 1,
+          "ChatGoogleGenerativeAI": 1,
+          "langchain_google_genai": 1,
+          "this": 1,
+          "src": 1,
+          "TypedDict": 1,
+          "langchain_nvidia_ai_endpoints": 1,
+          "create_backend": 1,
+          "ChatNVIDIA": 1,
+          "ModalSandbox": 1,
+          "modal": 1,
+          "langchain_modal": 1,
+          "deepagents_cli": 1,
+          "contextlib": 1,
+          "run_non_interactive": 1,
+          "parse_shell_allow_list": 1,
+          "langchain_anthropic": 1,
+          "ChatAnthropic": 1,
+          "langchain_community": 1,
+          "SQLDatabase": 1,
+          "SQLDatabaseToolkit": 1,
+          "_serve_test_agent": 1,
+          "uuid": 1,
+          "Command": 1,
+          "dataclass": 1,
+          "RunnableConfig": 1,
+          "uuid4": 1,
+          "dataclasses": 1,
+          "shlex": 1,
+          "LocalContextMiddleware": 1,
+          "examples": 1,
+          "ExecuteResponse": 1,
+          "SummarizationEvent": 1,
+          "Runtime": 1,
+          "Awaitable": 1,
+          "BaseChatModel": 1,
+          "BaseTool": 1,
+          "override": 1,
+          "tool_calls": 1,
+          "Runnable": 1,
+          "LanguageModelInput": 1,
+          "ChatGeneration": 1,
+          "CallbackManagerForLLMRun": 1,
+          "pytest": 1,
+          "interrupt": 1,
+          "text_block": 1,
+          "create_agent": 1,
+          "HumanInTheLoopMiddleware": 1,
+          "extract_command_types": 1,
+          "librosa": 1,
+          "pad_center": 1,
+          "get_window": 1,
+          "text_to_sequence": 1,
+          "read": 1,
+          "audio_processing": 1,
+          "TacotronSTFT": 1,
+          "nn": 1,
+          "functional": 1,
+          "plot_alignment_to_numpy": 1,
+          "flowtron_plotting_utils": 1,
+          "SummaryWriter": 1,
+          "tensorboardX": 1,
+          "train": 1,
+          "WaveGlow": 1,
+          "update_params": 1,
+          "glow": 1,
+          "write": 1,
+          "_punctuation": 1,
+          "symbols": 1,
+          "cleaners": 1,
+          "unidecode": 1,
+          "inflect": 1,
+          "cmudict": 1,
+          "init_distributed": 1,
+          "apex": 1,
+          "FlowtronLoss": 1,
+          "DistributedSampler": 1,
+          "FlowtronLogger": 1,
+          "amp": 1,
+          "ast": 1,
+          "distributed": 1,
+          "flowtron_logger": 1,
+          "getopt": 1,
+          "errno": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 39,
+        "packages": {
+          "chefspec": 12,
+          "chef/config": 9,
+          "chef/log": 7,
+          "chef/application": 6,
+          "chef/chef_fs/data_handler/data_handler_base": 6,
+          "chef/client": 4,
+          "chef/daemon": 3,
+          "chef/exceptions": 3,
+          "chef/rest": 3,
+          "mixlib/cli": 3,
+          "chef/config_fetcher": 3,
+          "Mixlib::CLI": 3,
+          "fileutils": 3,
+          "chef": 3,
+          "chef/providers": 2,
+          "chef/mash": 2,
+          "chef/resources": 2,
+          "socket": 2,
+          "chef/platform": 2,
+          "chef/handler/error_report": 2,
+          "chef/knife": 2,
+          "chef/chef_fs/file_system": 2,
+          "json": 2,
+          "chef/version": 1,
+          "chef/nil_argument": 1,
+          "chef/shell_out": 1,
+          "chef/handler/json_file": 1,
+          "chef/monkey_patches/uri": 1,
+          "chef/monkey_patches/tempfile": 1,
+          "chef/monkey_patches/object": 1,
+          "chef/run_status": 1,
+          "chef/monkey_patches/string": 1,
+          "chef/monkey_patches/file": 1,
+          "chef/handler": 1,
+          "chef/monkey_patches/numeric": 1,
+          "chef/search/query": 1,
+          "chef/mixin/from_file": 1,
+          "chef/json_compat": 1,
+          "Chef::Mixin::FromFile": 1,
+          "Chef::Mixin::ParamsValidate": 1,
+          "chef/mixin/params_validate": 1,
+          "chef/chef_fs/config": 1,
+          "chef_zero/server": 1,
+          "rbconfig": 1,
+          "pp": 1,
+          "tmpdir": 1,
+          "chef/chef_fs/chef_fs_data_store": 1,
+          "tempfile": 1,
+          "mixlib/log": 1,
+          "chef/monkey_patches/net_http.rb": 1,
+          "chef/monkey_patches/uri.rb": 1,
+          "ohai/config": 1,
+          "win32/daemon": 1,
+          "chef/mixin/shell_out": 1,
+          "chef/monologger": 1,
+          "Chef::Mixin::ShellOut": 1,
+          "win32/service": 1,
+          "chef/application/agent": 1,
+          "chef/application/client": 1,
+          "chef/application/apply": 1,
+          "chef/application/knife": 1,
+          "chef/application/solo": 1,
+          "chef_zero/data_store/data_not_found_error": 1,
+          "chef/chef_fs/file_system/memory_root": 1,
+          "chef_zero/data_store/data_already_exists_error": 1,
+          "chef/chef_fs/file_pattern": 1,
+          "chef/chef_fs/file_system/not_found_error": 1,
+          "chef_zero/data_store/memory_store": 1,
+          "chef/util/diff": 1,
+          "chef/chef_fs/file_system/operation_failed_error": 1,
+          "chef/chef_fs/file_system/operation_not_allowed_error": 1,
+          "chef/chef_fs/file_system/chef_server_root_dir": 1,
+          "chef/chef_fs/file_system/chef_repository_file_system_root_dir": 1,
+          "chef/chef_fs/path_utils": 1,
+          "chef/api_client": 1,
+          "chef/cookbook/metadata": 1,
+          "chef/data_bag_item": 1,
+          "chef/environment": 1,
+          "chefspec/cacher": 1,
+          "fauxhai/exception": 1,
+          "fauxhai/mocker": 1,
+          "fauxhai/fetcher": 1,
+          "fauxhai/version": 1,
+          "digest/sha1": 1,
+          "net/ssh": 1,
+          "pathname": 1,
+          "open-uri": 1,
+          "ohai": 1,
+          "ohai/plugins/chef": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "opencode-ai": 7,
+          "fs": 5,
+          "path": 5,
+          "dfinity": 1,
+          "1.6.0": 1,
+          "standard": 1,
+          "child_process": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "anandsuresh/as-audio",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "anandsuresh/atom",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "anandsuresh/berk",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "anandsuresh/bitcoinbook",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C++",
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "anandsuresh/BlockchainStore",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "anandsuresh/BlockSci",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "anandsuresh/bomparse",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "anandsuresh/chef",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "anandsuresh/chefspec",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "anandsuresh/deepagents",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "anandsuresh/erlang_js",
+        "files_analyzed": 22,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Erlang",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "anandsuresh/everything-claude-code",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "anandsuresh/fauxhai",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "anandsuresh/flowtron",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "anandsuresh/freebsd-doc",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C",
+          "Perl",
+          "Python"
+        ]
+      },
+      {
+        "repository": "anandsuresh/gcloud-node",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "anandsuresh/handle-thing",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "anandsuresh/hash-stream-validation",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "anandsuresh/htm.java",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "anandsuresh/htm.js",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

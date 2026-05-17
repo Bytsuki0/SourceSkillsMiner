@@ -1,0 +1,609 @@
+{
+  "username": "hollance",
+  "avatar_url": "https://avatars.githubusercontent.com/u/346853?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9523809523809523,
+      "details": {
+        "issue_resolution_rate": 0.8571428571428571,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.665212465203475,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.7956373956104248,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 8,
+        "topic_entropy_bits": 4.1066,
+        "closed_prs_total": 9,
+        "bounced_back_prs": 5
+      }
+    },
+    "Sentiment": {
+      "score": 0.9166666666666667,
+      "details": {
+        "hollance/airwindows-juce": 0.83725,
+        "hollance/AudioBufferPlayer": -0.18070000000000003,
+        "hollance/BlazeFace-PyTorch": 0.24522500000000003,
+        "hollance/CoreML-Custom-Layers": 0.12040333333333333,
+        "hollance/coreml-survival-guide": 0.14675,
+        "hollance/coreml-training": 0.0772
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8818520168502189,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        28587,
+        169
+      ],
+      "Objective-C": [
+        10690,
+        69
+      ],
+      "Jupyter Notebook": [
+        245343,
+        11
+      ],
+      "Python": [
+        188220,
+        51
+      ],
+      "Swift": [
+        233370,
+        255
+      ],
+      "CMake": [
+        2566,
+        7
+      ],
+      "JavaScript": [
+        54269,
+        0
+      ],
+      "Ruby": [
+        4187,
+        0
+      ],
+      "Metal": [
+        140,
+        5
+      ],
+      "Objective-C++": [
+        0,
+        3
+      ],
+      "C": [
+        0,
+        93
+      ],
+      "CSS": [
+        0,
+        7
+      ],
+      "HTML": [
+        0,
+        1
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "Rich Text Format": [
+        0,
+        4
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 675,
+    "total_lines": 767372,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 233370,
+        "commits": 255
+      },
+      {
+        "language": "C++",
+        "lines": 28587,
+        "commits": 169
+      },
+      {
+        "language": "C",
+        "lines": 0,
+        "commits": 93
+      },
+      {
+        "language": "Objective-C",
+        "lines": 10690,
+        "commits": 69
+      },
+      {
+        "language": "Python",
+        "lines": 188220,
+        "commits": 51
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "hollance",
+    "analysis_date": "2026-05-17T05:42:54.764109",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 298,
+    "languages": {
+      "C++": {
+        "files_scanned": 14,
+        "packages": {
+          "PluginProcessor.h": 9,
+          "PluginEditor.h": 4,
+          "<JuceHeader.h>": 2,
+          "JuceHeader.h": 2,
+          "DSP.h": 2,
+          "a": 1,
+          "namespace": 1,
+          "Params": 1,
+          "LookAndFeel.h": 1,
+          "Parameters.h": 1,
+          "Synth.h": 1,
+          "XYPad.h": 1,
+          "FFTProcessor.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 29,
+        "packages": {
+          "<JuceHeader.h>": 13,
+          "JuceHeader.h": 13,
+          "cocos2d.h": 6,
+          "<CoreML/CoreML.h>": 3,
+          "pybind11/stl.h": 3,
+          "<pybind11/stl.h>": 3,
+          "pybind11/pybind11.h": 3,
+          "<pybind11/pybind11.h>": 3,
+          "Box2D.h": 3,
+          "namespace": 2,
+          "PluginProcessor.h": 2,
+          "<Foundation/Foundation.h>": 2,
+          "<vector>": 2,
+          "<AudioToolbox/AudioToolbox.h>": 1,
+          "RTS": 1,
+          "APVTS": 1,
+          "Ptr": 1,
+          "<AVFoundation/AVFoundation.h>": 1,
+          "<cmath>": 1,
+          "cmath": 1,
+          "DSP.h": 1,
+          "LookAndFeel.h": 1,
+          "XYPad.h": 1,
+          "Synth.h": 1,
+          "Voice.h": 1,
+          "DCBlockFilter.h": 1,
+          "Parameters.h": 1,
+          "Oscillator.h": 1,
+          "pybind11/numpy.h": 1,
+          "sstream": 1,
+          "<sstream>": 1,
+          "cstring": 1,
+          "vector": 1,
+          "<pybind11/numpy.h>": 1,
+          "<cstring>": 1,
+          "CoreMLPythonUtils.h": 1,
+          "os/availability.h": 1,
+          "LayerShapeConstraints.hpp": 1,
+          "<string>": 1,
+          "<os/availability.h>": 1,
+          "string": 1,
+          "FFTProcessor.h": 1,
+          "<UIKit/UIKit.h>": 1,
+          "MPSCNNConvolution+MPSCNNConvolution_iOS10.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 5,
+        "packages": {
+          "promise": 4,
+          "request": 3,
+          "iconv-lite": 1,
+          "node-fetch": 1,
+          "string_decoder": 1,
+          "undefined": 1,
+          "stream": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 12,
+        "packages": {
+          "DemoAppDelegate.h": 4,
+          "DemoViewController.h": 4,
+          "MHAudioBufferPlayer.h": 2,
+          "Synth.h": 2,
+          "AVBufferPlayer.h": 2,
+          "MHRandom.h": 1,
+          "sys/time.h": 1,
+          "MHUtil.h": 1,
+          "<sys/time.h>": 1,
+          "AppDelegate.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 47,
+        "packages": {
+          "coremltools": 28,
+          "numpy": 17,
+          "os": 14,
+          "sys": 13,
+          "torch": 6,
+          "logging": 5,
+          "Builder": 5,
+          "*": 4,
+          "keras": 4,
+          "register_pass": 4,
+          "AbstractGraphPass": 4,
+          "tensorflow": 3,
+          "PIL": 3,
+          "copy": 3,
+          "libsvm": 3,
+          "gc": 3,
+          "collections": 3,
+          "ColorLayout": 3,
+          "NameSanitizer": 3,
+          "block_context_manager": 3,
+          "AvailableTarget": 3,
+          "NeuralNetwork_pb2": 2,
+          "load_img": 2,
+          "backend": 2,
+          "tfcoreml": 2,
+          "datatypes": 2,
+          "neural_network": 2,
+          "symbol_database": 2,
+          "enum_type_wrapper": 2,
+          "descriptor_pb2": 2,
+          "reflection": 2,
+          "google": 2,
+          "descriptor": 2,
+          "message": 2,
+          "caffe_pb2": 2,
+          "h5py": 2,
+          "quantization_utils": 2,
+          "enum": 2,
+          "sklearn": 2,
+          "svm": 2,
+          "re": 2,
+          "_profile": 2,
+          "this": 2,
+          "_METADATA_VERSION": 2,
+          "time": 2,
+          "svmutil": 2,
+          "types": 2,
+          "_get_probability_var_for_classifier": 2,
+          "mil": 2,
+          "PASS_REGISTRY": 2,
+          "Sequential": 2,
+          "torchvision": 2,
+          "__future__": 2,
+          "functools": 2,
+          "Layer": 1,
+          "dtypes": 1,
+          "strip_unused_lib": 1,
+          "gfile": 1,
+          "helpers": 1,
+          "get_nn": 1,
+          "KNearestNeighborsClassifierBuilder": 1,
+          "NeuralNetworkBuilder": 1,
+          "Enum": 1,
+          "getLogger": 1,
+          "xgboost": 1,
+          "version": 1,
+          "distutils": 1,
+          "platform": 1,
+          "packaging": 1,
+          "StrictVersion": 1,
+          "scipy": 1,
+          "warnings": 1,
+          "mil_convert": 1,
+          "_MLPACKAGE_EXTENSION": 1,
+          "TF2Loader": 1,
+          "TF1Loader": 1,
+          "_HAS_TORCH": 1,
+          "Program": 1,
+          "input_length": 1,
+          "__version__": 1,
+          "svm_load_model": 1,
+          "register_tf_op": 1,
+          "IntEnum": 1,
+          "FeatureTypes_pb2": 1,
+          "builtin_to_proto_types": 1,
+          "np_val_to_py_type": 1,
+          "_WEIGHTS_DIR_NAME": 1,
+          "SSAOpRegistry": 1,
+          "_WEIGHTS_FILE_NAME": 1,
+          "_SPECIFICATION_VERSION_IOS_15": 1,
+          "_set_optional_inputs": 1,
+          "_BlobStorageWriter": 1,
+          "_OPSET": 1,
+          "nptype_from_builtin": 1,
+          "defs": 1,
+          "nn_backend_passes": 1,
+          "pytest": 1,
+          "itertools": 1,
+          "string_to_builtin": 1,
+          "Symbol": 1,
+          "_macos_version": 1,
+          "flexible_shape_utils": 1,
+          "Array": 1,
+          "Dense": 1,
+          "mnist": 1,
+          "LeakyReLU": 1,
+          "Conv2D": 1,
+          "DataLoader": 1,
+          "ignition": 1,
+          "data_loader_sample_count": 1,
+          "Compose": 1,
+          "Image": 1,
+          "absolute_import": 1,
+          "print_function": 1,
+          "math": 1,
+          "Dataset": 1,
+          "partial": 1,
+          "IPython": 1,
+          "random": 1,
+          "struct": 1,
+          "Variable": 1,
+          "reload": 1,
+          "threading": 1,
+          "pickle": 1,
+          "io": 1,
+          "defaultdict": 1,
+          "pandas": 1,
+          "tqdm": 1,
+          "seaborn": 1,
+          "matplotlib": 1,
+          "metrics": 1,
+          "Digraph": 1,
+          "reduce": 1,
+          "graphviz": 1,
+          "OrderedDict": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 165,
+        "packages": {
+          "UIKit": 79,
+          "Foundation": 77,
+          "Metal": 24,
+          "CoreML": 23,
+          "MetalPerformanceShaders": 21,
+          "Accelerate": 16,
+          "Vision": 11,
+          "Forge": 11,
+          "Crashlytics": 9,
+          "CloudKit": 9,
+          "MetalKit": 8,
+          "CoreMedia": 7,
+          "QuartzCore": 6,
+          "AVFoundation": 6,
+          "CoreVideo": 4,
+          "the": 4,
+          "CoreImage": 3,
+          "CoreMLHelpers": 3,
+          "simd": 3,
+          "CoreSpotlight": 2,
+          "StoreKit": 2,
+          "MapKit": 2,
+          "Swift": 2,
+          "CoreGraphics": 2,
+          "VideoToolbox": 2,
+          "def": 1,
+          "Fabric": 1,
+          "CoreLocation": 1,
+          "Combine": 1,
+          "XCTest": 1,
+          "Apple's": 1,
+          "this": 1,
+          "class": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "hollance/airwindows-juce",
+        "files_analyzed": 8,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "hollance/AudioBufferPlayer",
+        "files_analyzed": 9,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "hollance/AudioFilePlayerPlugin",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "hollance/AVBufferPlayer",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "hollance/BlazeFace-PyTorch",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hollance/BNNS-vs-MPSCNN",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "hollance/bombaz",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "hollance/BuildYourOwnLispInSwift",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "hollance/CocoaHeadsNL-iOS",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "hollance/code-challenges",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "hollance/CoreML-Custom-Layers",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "hollance/coreml-survival-guide",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Python",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "hollance/coreml-training",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "hollance/CoreMLHelpers",
+        "files_analyzed": 25,
+        "languages_found": [
+          "C/C++ Header",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "hollance/coremltools",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Python"
+        ]
+      },
+      {
+        "repository": "hollance/Deepfish",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "hollance/fft-juce",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "hollance/Forge",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Python",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "hollance/GalaxyApocalypse",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "hollance/Ignition",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hollance/Inception-CoreML",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

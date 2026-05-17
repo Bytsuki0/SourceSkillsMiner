@@ -1,0 +1,634 @@
+{
+  "username": "mneedham",
+  "avatar_url": "https://avatars.githubusercontent.com/u/13220?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.8209285255402041,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.9627855766206123,
+        "week_streak": 0.5
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 24,
+        "language_transitions": 29,
+        "topic_entropy_bits": 4.781,
+        "closed_prs_total": 89,
+        "bounced_back_prs": 54
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8058523717747076,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        3454971,
+        756
+      ],
+      "Haskell": [
+        74505,
+        90
+      ],
+      "Ruby": [
+        62272,
+        47
+      ],
+      "HTML": [
+        351,
+        797
+      ],
+      "TeX": [
+        5,
+        0
+      ],
+      "Shell": [
+        4,
+        34
+      ],
+      "Java": [
+        31014,
+        128
+      ],
+      "Smarty": [
+        14011,
+        0
+      ],
+      "CSS": [
+        4554,
+        186
+      ],
+      "R": [
+        4741,
+        21
+      ],
+      "Jupyter Notebook": [
+        0,
+        366
+      ],
+      "JavaScript": [
+        0,
+        478
+      ],
+      "Objective-C": [
+        0,
+        5
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        38
+      ],
+      "Puppet": [
+        0,
+        7
+      ],
+      "Kotlin": [
+        0,
+        4
+      ],
+      "Vim Script": [
+        0,
+        5
+      ],
+      "MATLAB": [
+        0,
+        7
+      ],
+      "Clojure": [
+        0,
+        32
+      ],
+      "FreeMarker": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        36
+      ],
+      "Rust": [
+        0,
+        5
+      ]
+    },
+    "language_count": 24,
+    "total_commits": 3042,
+    "total_lines": 3646428,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 351,
+        "commits": 797
+      },
+      {
+        "language": "Python",
+        "lines": 3454971,
+        "commits": 756
+      },
+      {
+        "language": "JavaScript",
+        "lines": 0,
+        "commits": 478
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 0,
+        "commits": 366
+      },
+      {
+        "language": "CSS",
+        "lines": 4554,
+        "commits": 186
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mneedham",
+    "analysis_date": "2026-05-16T12:33:20.553687",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 185,
+    "languages": {
+      "Haskell": {
+        "files_scanned": 6,
+        "packages": {
+          "System.IO.Unsafe": 4,
+          "qualified": 4,
+          "Data.IORef": 4,
+          "Data.Set": 4,
+          "Data.Maybe": 4,
+          "Data.Array": 4,
+          "Data.List": 3,
+          "Control.Monad": 3,
+          "Debug.Trace": 3,
+          "Data.Array.Diff": 2,
+          "Control.Concurrent.MVar": 2,
+          "Data.Array.IO": 2,
+          "Data.Array.MArray": 2,
+          "System.IO": 2,
+          "Data.Map": 2,
+          "Data.List.Split": 2,
+          "Control.DeepSeq": 1,
+          "System.CPUTime": 1,
+          "Data.Bits": 1,
+          "Data.Char": 1,
+          "MutableLeaders": 1,
+          "System.Environment": 1,
+          "Data.HashTable.IO": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 38,
+        "packages": {
+          "org.neo4j": 33,
+          "java.io": 17,
+          "java.util": 17,
+          "com.lmax": 12,
+          "static": 6,
+          "org.apache": 4,
+          "edu.ucla": 4,
+          "java.nio": 4,
+          "test": 4,
+          "org.junit": 2,
+          "java.net": 1,
+          "main": 1,
+          "main.Program": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "fs": 2,
+          "webpage": 2,
+          ").classed(": 1,
+          ").on(": 1,
+          "system": 1,
+          "all": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 80,
+        "packages": {
+          "sys": 21,
+          "os": 21,
+          "lightrag": 15,
+          "csv": 15,
+          "GraphDatabase": 13,
+          "neo4j": 13,
+          "json": 12,
+          "typing": 12,
+          "re": 9,
+          "time": 9,
+          "requests": 9,
+          "logging": 8,
+          "ModelClient": 8,
+          "import": 8,
+          "numpy": 8,
+          "functions": 8,
+          "ModelType": 7,
+          "*": 6,
+          "bs4": 6,
+          "BeautifulSoup": 6,
+          "backoff": 6,
+          "List": 5,
+          "lxml": 5,
+          "html": 5,
+          "Component": 4,
+          "copy": 4,
+          "Dict": 4,
+          "datetime": 4,
+          "html_parse_tree": 4,
+          "ReActAgent": 3,
+          "OpenAIClient": 3,
+          "FunctionTool": 3,
+          "EntityMapping": 3,
+          "deepcopy": 3,
+          "tqdm": 3,
+          "itertools": 3,
+          "tensorflow": 3,
+          "traceback": 3,
+          "StringIO": 3,
+          "__future__": 2,
+          "get": 2,
+          "LightRAG": 2,
+          "GroqAPIClient": 2,
+          "dotenv": 2,
+          "the": 2,
+          "search": 2,
+          "benchmarks": 2,
+          "core": 2,
+          "components": 2,
+          "inspect": 2,
+          "google": 2,
+          "functools": 2,
+          "streamlit": 2,
+          "math": 2,
+          "chain": 2,
+          "httpagentparser": 2,
+          "apachelogs": 2,
+          "LogParser": 2,
+          "argparse": 2,
+          "random": 2,
+          "gzip": 2,
+          "AccessLogParser": 2,
+          "access_log_parser": 2,
+          "faust": 2,
+          "urllib": 2,
+          "collections": 2,
+          "concurrent": 2,
+          "ProcessPoolExecutor": 2,
+          "scrape_year": 2,
+          "tournaments": 2,
+          "glob": 2,
+          "nltk": 2,
+          "print_function": 1,
+          "py2neo": 1,
+          "httpstream": 1,
+          "quickgeoff": 1,
+          "AnswerMatchAcc": 1,
+          "eval": 1,
+          "AnswerMacthEvaluator": 1,
+          "string": 1,
+          "importlib": 1,
+          "dataclass": 1,
+          "dataclasses": 1,
+          "Generator": 1,
+          "ToolManager": 1,
+          "printc": 1,
+          "JsonOutputParser": 1,
+          "TextSplitter": 1,
+          "Document": 1,
+          "Tokenizer": 1,
+          "LocalDB": 1,
+          "anthropic": 1,
+          "Message": 1,
+          "cohere": 1,
+          "GenerateContentResponse": 1,
+          "groq": 1,
+          "Groq": 1,
+          "warnings": 1,
+          "`ollama": 1,
+          "RequestError": 1,
+          "ollama": 1,
+          "openai": 1,
+          "parse_embedding_response": 1,
+          "OpenAI": 1,
+          "ChatCompletionChunk": 1,
+          "Completion": 1,
+          "transformers": 1,
+          "Tensor": 1,
+          "torch": 1,
+          "lru_cache": 1,
+          "get_top_k_indices_scores": 1,
+          "Any": 1,
+          "chdb": 1,
+          "session": 1,
+          "shutil": 1,
+          "dask": 1,
+          "Faker": 1,
+          "zipfile": 1,
+          "randrange": 1,
+          "faker": 1,
+          "pytz": 1,
+          "tzlocal": 1,
+          "get_localzone": 1,
+          "reduce": 1,
+          "bottle": 1,
+          "CGIHandler": 1,
+          "wsgiref": 1,
+          "Cheetah": 1,
+          "with_statement": 1,
+          "util": 1,
+          "base64": 1,
+          "make_server": 1,
+          "gevent": 1,
+          "httplib": 1,
+          "WSGIRequestHandler": 1,
+          "waitress": 1,
+          "DictMixin": 1,
+          "BytesIO": 1,
+          "cPickle": 1,
+          "TextIOWrapper": 1,
+          "reactor": 1,
+          "latin1": 1,
+          "ThreadPool": 1,
+          "cherrypy": 1,
+          "signal": 1,
+          "fapws": 1,
+          "wsgi": 1,
+          "urlparse": 1,
+          "http": 1,
+          "Template": 1,
+          "TransLogger": 1,
+          "bjoern": 1,
+          "pickle": 1,
+          "SimpleCookie": 1,
+          "mako": 1,
+          "io": 1,
+          "server": 1,
+          "OptionParser": 1,
+          "tempfile": 1,
+          "thread": 1,
+          "gunicorn": 1,
+          "tornado": 1,
+          "normalize": 1,
+          "wsgiserver": 1,
+          "SafeConfigParser": 1,
+          "date": 1,
+          "Environment": 1,
+          "flup": 1,
+          "Application": 1,
+          "serve": 1,
+          "urljoin": 1,
+          "imap": 1,
+          "eventlet": 1,
+          "socket": 1,
+          "MutableMapping": 1,
+          "TemporaryFile": 1,
+          "twisted": 1,
+          "base": 1,
+          "optparse": 1,
+          "diesel": 1,
+          "urlencode": 1,
+          "WSGIApplication": 1,
+          "run": 1,
+          "rocket": 1,
+          "ConfigParser": 1,
+          "httpserver": 1,
+          "TemplateLookup": 1,
+          "email": 1,
+          "jinja2": 1,
+          "_thread": 1,
+          "cgi": 1,
+          "configparser": 1,
+          "format_exc": 1,
+          "Cookie": 1,
+          "getargspec": 1,
+          "paste": 1,
+          "UserDict": 1,
+          "Rocket": 1,
+          "unicodedata": 1,
+          "meinheld": 1,
+          "socketio": 1,
+          "defaultdict": 1,
+          "pprint": 1,
+          "bng_to_latlon": 1,
+          "OSGB36toWGS84": 1,
+          "stomp": 1,
+          "xml": 1,
+          "duckdb": 1,
+          "st_searchbox": 1,
+          "streamlit_searchbox": 1,
+          "count": 1,
+          "etree": 1,
+          "numbers": 1,
+          "ast": 1,
+          "hashlib": 1,
+          "Flask": 1,
+          "flask": 1,
+          "word_tokenize": 1,
+          "demjson": 1
+        }
+      },
+      "R": {
+        "files_scanned": 1,
+        "packages": {
+          "scatterplot3d": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 12,
+        "packages": {
+          "set": 3,
+          "open-uri": 2,
+          "priority_queue": 1,
+          "rubygems": 1,
+          "asciidoctor/backends/_stylesheets": 1,
+          "asciidoctor/stylesheets": 1,
+          "colorize": 1,
+          "asciidoctor": 1,
+          "json": 1,
+          "stringio": 1,
+          "rest-client": 1,
+          "ascii_press/version": 1,
+          "active_support/core_ext/enumerable": 1,
+          "logger": 1,
+          "base64": 1,
+          "rubypress": 1,
+          "spec_helper": 1,
+          "ascii_press": 1,
+          "faker": 1,
+          "aruba/cucumber": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mneedham/24",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mneedham/AdalFlow",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mneedham/aiven-open-source-data-infrastructure-meetup",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mneedham/algorithms2",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Haskell",
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mneedham/analysing-log-files",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mneedham/article-1",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mneedham/asciidoc-slides",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mneedham/asciidoctor-backends",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mneedham/ascii_press",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mneedham/atoc",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "mneedham/atp-head-to-head",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mneedham/atp-world-tour-tennis-data",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python",
+          "R"
+        ]
+      },
+      {
+        "repository": "mneedham/batch-import",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "mneedham/batch-import-video",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "mneedham/bbcgoodfood",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mneedham/biblioteca",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java",
+          "Ruby"
+        ]
+      }
+    ]
+  }
+}

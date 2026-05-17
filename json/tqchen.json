@@ -1,0 +1,74 @@
+{
+  "username": "tqchen",
+  "avatar_url": null,
+  "areas": {
+    "OSS": {
+      "score": 0.8421052631578947,
+      "details": {
+        "issue_resolution_rate": 0.5263157894736842,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7364060512516714,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.709218153755014,
+        "week_streak": 0.5
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 10,
+        "language_transitions": 12,
+        "topic_entropy_bits": 4.589,
+        "closed_prs_total": 90,
+        "bounced_back_prs": 81
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7157022628819132,
+  "language_usage": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /users/tqchen/repos?per_page=100&page=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 11001] getaddrinfo failed)\"))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": "analyze_imports failed: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /users/tqchen/repos?per_page=100&page=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 11001] getaddrinfo failed)\"))",
+    "languages": {},
+    "repositories": []
+  }
+}

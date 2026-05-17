@@ -1,0 +1,443 @@
+{
+  "username": "ricardoandre97",
+  "avatar_url": "https://avatars.githubusercontent.com/u/34402209?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.28622886863625485,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8586866059087646
+      }
+    },
+    "Status": {
+      "score": 0.6614019720067824,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.7842059160203473,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 12,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5145261681286075,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        143214,
+        8
+      ],
+      "HTML": [
+        173702,
+        6
+      ],
+      "CSS": [
+        45252,
+        1
+      ],
+      "Shell": [
+        2002,
+        11
+      ],
+      "Dockerfile": [
+        8065,
+        4
+      ],
+      "TypeScript": [
+        10809,
+        0
+      ],
+      "Smarty": [
+        80577,
+        4
+      ],
+      "Python": [
+        59132,
+        0
+      ],
+      "PHP": [
+        474355,
+        18
+      ],
+      "SCSS": [
+        18167,
+        0
+      ],
+      "Less": [
+        994,
+        0
+      ],
+      "Hack": [
+        171,
+        0
+      ],
+      "Java": [
+        232,
+        6
+      ],
+      "Go": [
+        199,
+        8
+      ],
+      "Groovy": [
+        115,
+        1
+      ],
+      "Jinja": [
+        561,
+        9
+      ]
+    },
+    "language_count": 16,
+    "total_commits": 76,
+    "total_lines": 1017547,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 474355,
+        "commits": 18
+      },
+      {
+        "language": "Shell",
+        "lines": 2002,
+        "commits": 11
+      },
+      {
+        "language": "Jinja",
+        "lines": 561,
+        "commits": 9
+      },
+      {
+        "language": "JavaScript",
+        "lines": 143214,
+        "commits": 8
+      },
+      {
+        "language": "Go",
+        "lines": 199,
+        "commits": 8
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "ricardoandre97",
+    "analysis_date": "2026-05-16T18:58:42.811545",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 170,
+    "languages": {
+      "Go": {
+        "files_scanned": 8,
+        "packages": {
+          "net/http": 5,
+          "fmt": 5,
+          "os": 4,
+          "encoding/json": 3,
+          "io/ioutil": 3,
+          "log": 2,
+          "time": 1,
+          "crypto/sha256": 1,
+          "errors": 1,
+          "crypto/hmac": 1,
+          "encoding/hex": 1,
+          "strings": 1,
+          "gopkg.in/yaml.v2": 1,
+          "bytes": 1,
+          "text/template": 1,
+          "app/pkg/handlers": 1,
+          "html/template": 1,
+          "app/pkg/utils": 1,
+          "github.com/aws/aws-sdk-go/aws/credentials": 1,
+          "github.com/aws/aws-sdk-go/aws/session": 1,
+          "github.com/aws/aws-sdk-go/service/sns": 1,
+          "github.com/aws/aws-sdk-go/service/ssm": 1,
+          "github.com/aws/aws-sdk-go/aws": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 53,
+        "packages": {
+          "bluebird": 15,
+          "moment": 14,
+          "async": 7,
+          "underscore": 6,
+          "joi": 5,
+          "bfx-svc-boot-js": 5,
+          ":": 4,
+          "undefined": 4,
+          "path": 3,
+          "wrk-base": 3,
+          "express-handlebars": 2,
+          "fs": 2,
+          "crypto": 2,
+          "backstage": 2,
+          "tv4": 2,
+          "dirty-chai": 2,
+          "chai": 2,
+          "body-parser": 1,
+          "cookie-parser": 1,
+          "serve-favicon": 1,
+          "connect-session-sequelize": 1,
+          "express": 1,
+          "express-session": 1,
+          "morgan": 1,
+          "nconf": 1,
+          "nodemailer-smtp-transport": 1,
+          "nodemailer": 1,
+          "csv": 1,
+          "bank_holidays": 1,
+          "ldapauth-fork": 1,
+          "leave_types": 1,
+          "moment-timezone": 1,
+          "uuid": 1,
+          "audit": 1,
+          "html-to-text": 1,
+          "sequelize": 1,
+          "node-uuid": 1,
+          "jQuery": 1,
+          "function": 1,
+          "gsap": 1,
+          "jquery": 1,
+          "use": 1,
+          "object": 1,
+          "keys": 1,
+          "data": 1,
+          "token": 1,
+          "role_id": 1,
+          "secret_shares": 1,
+          "sealed": 1,
+          "secret_id": 1,
+          "secret_id_accessor": 1,
+          "password": 1,
+          "lease_id": 1,
+          "key": 1,
+          "started": 1,
+          "accessor": 1,
+          "role": 1,
+          "auth": 1,
+          "mustache": 1,
+          "request-promise-native": 1,
+          "debug": 1,
+          "assert": 1,
+          "testProperty": 1,
+          "sinon-chai": 1,
+          "sinon": 1,
+          "testParam1": 1,
+          "id": 1,
+          "type": 1,
+          "name": 1,
+          "status": 1,
+          "email": 1,
+          "lib-js-util-promise": 1,
+          "hp-svc-facs-store": 1,
+          "bfx-wrk-base": 1,
+          "pino": 1,
+          "tpl-wrk-thing": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 9,
+        "packages": {
+          "flask": 6,
+          "Flask": 6,
+          "os": 4,
+          "datetime": 3,
+          "random": 2,
+          "socket": 2,
+          "re": 2,
+          "CORS": 2,
+          "flask_cors": 2,
+          "numpy": 2,
+          "match": 1,
+          "json": 1,
+          "xmltodict": 1,
+          "math": 1,
+          "pi": 1,
+          "mysql": 1,
+          "pennylane": 1,
+          "psycopg2": 1,
+          "Image": 1,
+          "PIL": 1,
+          "time": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 5,
+        "packages": {
+          "playwright": 2,
+          "backstage": 2,
+          "testing-library": 1,
+          "request": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 8,
+        "packages": {
+          "react": 8,
+          "backstage": 5,
+          "material-ui": 5,
+          "testing-library": 1,
+          "react-router-dom": 1,
+          "backstage-community": 1,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "ricardoandre97/application",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/backstage",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/backstage-software-templates",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/docker-es-resources",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/earnings-bancolombia",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/finlatics",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/gcp-cloudbuild-artifactregistry",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/k8s-resources",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/node-vault",
+        "files_analyzed": 26,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/python-app",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/quantum-coin-flip",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/RandomJenkinsStuff",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/sample-form",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/tensors-toolbox",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/terraform-app-sms",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "ricardoandre97/tether-task-lead",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

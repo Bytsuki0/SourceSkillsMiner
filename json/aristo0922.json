@@ -1,0 +1,544 @@
+{
+  "username": "aristo0922",
+  "avatar_url": "https://avatars.githubusercontent.com/u/65939213?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8589743589743589,
+      "details": {
+        "issue_resolution_rate": 0.5769230769230769,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 1.0,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 1.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.75,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 11,
+        "language_transitions": 13,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 26,
+        "bounced_back_prs": 24
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7717948717948718,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        167912,
+        745
+      ],
+      "Rust": [
+        521088,
+        0
+      ],
+      "JavaScript": [
+        1640427,
+        13
+      ],
+      "Python": [
+        27390807,
+        112
+      ],
+      "Shell": [
+        41167,
+        0
+      ],
+      "CSS": [
+        24225,
+        4
+      ],
+      "Dockerfile": [
+        10108,
+        0
+      ],
+      "HTML": [
+        6116,
+        25
+      ],
+      "Jupyter Notebook": [
+        4396298,
+        11
+      ],
+      "Go": [
+        437,
+        8
+      ],
+      "C++": [
+        182739,
+        0
+      ],
+      "Dart": [
+        0,
+        3
+      ],
+      "Kotlin": [
+        0,
+        42
+      ],
+      "Swift": [
+        0,
+        9
+      ],
+      "C": [
+        0,
+        15
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 987,
+    "total_lines": 34381324,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 167912,
+        "commits": 745
+      },
+      {
+        "language": "Python",
+        "lines": 27390807,
+        "commits": 112
+      },
+      {
+        "language": "Kotlin",
+        "lines": 0,
+        "commits": 42
+      },
+      {
+        "language": "HTML",
+        "lines": 6116,
+        "commits": 25
+      },
+      {
+        "language": "C",
+        "lines": 0,
+        "commits": 15
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "aristo0922",
+    "analysis_date": "2026-05-16T04:11:56.655361",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 348,
+    "languages": {
+      "C++": {
+        "files_scanned": 8,
+        "packages": {
+          "std": 8,
+          "namespace": 8,
+          "bits/stdc++.h": 2,
+          "<bits/stdc++.h>": 2
+        }
+      },
+      "Go": {
+        "files_scanned": 20,
+        "packages": {
+          "fmt": 17,
+          "net/http": 14,
+          "log": 11,
+          "os": 8,
+          "bufio": 5,
+          "net/http/httptest": 3,
+          "testing": 3,
+          "io/ioutil": 2,
+          "flag": 1,
+          "gopkg.in/yaml.v2": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 83,
+        "packages": {
+          "java.util": 47,
+          "java.io": 30,
+          "com.study": 30,
+          "org.springframework": 20,
+          "com.edu": 9,
+          "ch03": 7,
+          "prac.bubble": 6,
+          "ch03.two_pointer": 6,
+          "jakarta.persistence": 5,
+          "org.junit": 4,
+          "java.lang": 4,
+          "lombok.RequiredArgsConstructor": 3,
+          "lombok.NoArgsConstructor": 2,
+          "java.sql": 2,
+          "lombok.Getter": 2,
+          "aristo": 2,
+          "prac.string_buffer": 2,
+          "ch03.sliding_window": 2,
+          "january": 2,
+          "lombok.Data": 1,
+          "javax.sql": 1,
+          "static": 1,
+          "lombok.ToString": 1,
+          "lombok.Setter": 1,
+          "jakarta.annotation": 1,
+          "jakarta.servlet": 1,
+          "org.assertj": 1,
+          "boj_problems": 1,
+          "ch04_search": 1,
+          "may.lastWeek": 1,
+          "prac": 1,
+          "org.w3c": 1,
+          "ch03.stack_and_queue": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "react": 6,
+          "fs": 4,
+          "testing-library": 2,
+          "undefined": 2,
+          "react-dom": 1,
+          "popperjs": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 140,
+        "packages": {
+          "django": 71,
+          "os": 37,
+          "sys": 19,
+          "numpy": 13,
+          "admin": 12,
+          "path": 12,
+          "json": 11,
+          "argparse": 10,
+          "AppConfig": 8,
+          "models": 8,
+          "*": 8,
+          "tensorflow": 8,
+          "cv2": 8,
+          "TestCase": 7,
+          "datetime": 7,
+          "time": 7,
+          "tools": 7,
+          "rest_framework": 6,
+          "get_wsgi_application": 5,
+          "torch": 5,
+          "random": 5,
+          "generator": 5,
+          "glob": 5,
+          "tqdm": 5,
+          "fastapi": 5,
+          "drf_yasg": 4,
+          "get_asgi_application": 4,
+          "Path": 4,
+          "pathlib": 4,
+          "backend_project": 4,
+          "Image": 4,
+          "PIL": 4,
+          "net": 4,
+          "execute_from_command_line": 4,
+          "render": 4,
+          "status": 3,
+          "Response": 3,
+          "APIView": 3,
+          "image": 3,
+          "forms": 3,
+          "requests": 3,
+          "collections": 3,
+          "Generator": 3,
+          "model": 3,
+          "migrations": 3,
+          "urllib": 3,
+          "subprocess": 3,
+          "sqlalchemy": 3,
+          "APIRouter": 3,
+          "serializers": 2,
+          "swagger_auto_schema": 2,
+          "common": 2,
+          "pymysql": 2,
+          "ImproperlyConfigured": 2,
+          "openapi": 2,
+          "authenticate": 2,
+          "get_user_model": 2,
+          "views": 2,
+          "jwt": 2,
+          "SECRET_KEY": 2,
+          "io": 2,
+          "BytesIO": 2,
+          "hashlib": 2,
+          "defaultdict": 2,
+          "AnimeGANv2": 2,
+          "torchvision": 2,
+          "to_tensor": 2,
+          "get_secret": 2,
+          "APIconnect": 2,
+          "utils": 2,
+          "pytz": 2,
+          "API": 2,
+          "SolvedAPI": 2,
+          "HttpResponse": 2,
+          "uuid": 2,
+          "include": 2,
+          "SwaggerHeader": 1,
+          "user_token_to_data": 1,
+          "IsAuthenticated": 1,
+          "__future__": 1,
+          "Celery": 1,
+          "absolute_import": 1,
+          "celery": 1,
+          "timedelta": 1,
+          "smart_str": 1,
+          "get_schema_view": 1,
+          "permissions": 1,
+          "settings": 1,
+          "static": 1,
+          "ReadOnlyPasswordHashField": 1,
+          "AbstractBaseUser": 1,
+          "nickname": 1,
+          "RefreshToken": 1,
+          "rest_framework_simplejwt": 1,
+          "AllowAny": 1,
+          "Ai_modelSerializer": 1,
+          "ImgsAppConfig": 1,
+          "Models": 1,
+          "threading": 1,
+          "boto3": 1,
+          "pyautogui": 1,
+          "tkinter": 1,
+          "pandas": 1,
+          "filedialog": 1,
+          "itertools": 1,
+          "nn": 1,
+          "Vgg19": 1,
+          "D_net": 1,
+          "ImageGenerator": 1,
+          "graph_util": 1,
+          "onnxruntime": 1,
+          "check_folder": 1,
+          "slim": 1,
+          "adjust_brightness_from_src_to_dst": 1,
+          "naverSMS": 1,
+          "AuthSmsSendView": 1,
+          "base64": 1,
+          "hmac": 1,
+          "randint": 1,
+          "request": 1,
+          "ssl": 1,
+          "atexit": 1,
+          "Communication": 1,
+          "Table": 1,
+          "make_table": 1,
+          "BeautifulSoup": 1,
+          "bs4": 1,
+          "Date": 1,
+          "deque": 1,
+          "Session": 1,
+          "declarative_base": 1,
+          "create_engine": 1,
+          "sessionmaker": 1,
+          "Header": 1,
+          "Depends": 1,
+          "relationship": 1,
+          "Boolean": 1,
+          "typing": 1,
+          "pydantic": 1,
+          "List": 1,
+          "BaseModel": 1,
+          "User": 1,
+          "UserCreationForm": 1,
+          "UserForm": 1,
+          "template": 1,
+          "Paginator": 1,
+          "HttpResponseNotAllowed": 1,
+          "hello_world": 1,
+          "account": 1,
+          "environ": 1,
+          "url": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 7,
+        "packages": {
+          "crate": 7,
+          "std": 3
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "aristo0922/-ORM-JPA-Programming",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "aristo0922/2023-MatKor-Rust-Interpreter",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "aristo0922/2023SB-Team-J",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/22-KD-Member-Management",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/Algorithm",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/algorithm_multicenter-",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/animegan2-pytorch",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/AnimeGANv2",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/API-test",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/AristosGit",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "aristo0922/baekjoon",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/Boot-Club",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "aristo0922/ChatProject",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/cloudnativedevops",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "aristo0922/CodingTest",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "aristo0922/DjangoPosting",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/Django_mysite",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/django_todo_app",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "aristo0922/do-it-java",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

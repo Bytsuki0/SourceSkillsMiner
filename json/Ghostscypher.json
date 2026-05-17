@@ -1,0 +1,565 @@
+{
+  "username": "Ghostscypher",
+  "avatar_url": "https://avatars.githubusercontent.com/u/32034312?v=4",
+  "areas": {
+    "OSS": {
+      "score": 1.0,
+      "details": {
+        "issue_resolution_rate": 1.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7777154671267892,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.9331464013803675,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 0.9166665,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.6667,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 11,
+        "language_transitions": 12,
+        "topic_entropy_bits": 2.0,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7638763934253578,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        59622,
+        80
+      ],
+      "HTML": [
+        29048,
+        8
+      ],
+      "C++": [
+        1151899,
+        7
+      ],
+      "Visual Basic": [
+        12032,
+        3
+      ],
+      "PHP": [
+        276136,
+        288
+      ],
+      "TypeScript": [
+        149368,
+        17
+      ],
+      "SCSS": [
+        9910,
+        0
+      ],
+      "Dockerfile": [
+        2776,
+        0
+      ],
+      "Shell": [
+        2977,
+        0
+      ],
+      "Blade": [
+        60179,
+        1
+      ],
+      "Rich Text Format": [
+        380931,
+        1
+      ],
+      "Batchfile": [
+        4183,
+        0
+      ],
+      "C": [
+        3604,
+        0
+      ],
+      "Makefile": [
+        1909,
+        0
+      ],
+      "Jupyter Notebook": [
+        64307,
+        1
+      ],
+      "CSS": [
+        0,
+        2
+      ],
+      "Go": [
+        0,
+        2
+      ],
+      "Kotlin": [
+        0,
+        4
+      ],
+      "GLSL": [
+        0,
+        3
+      ],
+      "Sass": [
+        0,
+        0
+      ],
+      "Antlers": [
+        0,
+        0
+      ],
+      "Vue": [
+        0,
+        0
+      ],
+      "Mustache": [
+        0,
+        3
+      ],
+      "Visual Basic .NET": [
+        0,
+        2
+      ]
+    },
+    "language_count": 24,
+    "total_commits": 422,
+    "total_lines": 2208881,
+    "top_5_languages": [
+      {
+        "language": "PHP",
+        "lines": 276136,
+        "commits": 288
+      },
+      {
+        "language": "JavaScript",
+        "lines": 59622,
+        "commits": 80
+      },
+      {
+        "language": "TypeScript",
+        "lines": 149368,
+        "commits": 17
+      },
+      {
+        "language": "HTML",
+        "lines": 29048,
+        "commits": 8
+      },
+      {
+        "language": "C++",
+        "lines": 1151899,
+        "commits": 7
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Ghostscypher",
+    "analysis_date": "2026-05-15T22:26:30.654423",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 194,
+    "languages": {
+      "C": {
+        "files_scanned": 4,
+        "packages": {
+          "openssl/err.h": 3,
+          "<openssl/err.h>": 3,
+          "<string.h>": 3,
+          "string.h": 3,
+          "<stdio.h>": 3,
+          "stdio.h": 3,
+          "openssl/obj_mac.h": 2,
+          "openssl/opensslconf.h": 2,
+          "<openssl/opensslconf.h>": 2,
+          "<openssl/obj_mac.h>": 2,
+          "<stdlib.h>": 2,
+          "openssl/rand.h": 2,
+          "<openssl/objects.h>": 2,
+          "openssl/objects.h": 2,
+          "<openssl/engine.h>": 2,
+          "openssl/engine.h": 2,
+          "<openssl/rand.h>": 2,
+          "stdlib.h": 2,
+          "unistd.h": 2,
+          "<assert.h>": 2,
+          "<errno.h>": 2,
+          "assert.h": 2,
+          "<unistd.h>": 2,
+          "errno.h": 2,
+          "ec_lcl.h": 1,
+          "openssl/bn.h": 1,
+          "<openssl/ec.h>": 1,
+          "time.h": 1,
+          "e_os.h": 1,
+          "<time.h>": 1,
+          "openssl/ec.h": 1,
+          "<openssl/bn.h>": 1,
+          "openssl/ssl.h": 1,
+          "<fcntl.h>": 1,
+          "<openssl/rsa.h>": 1,
+          "<pthread.h>": 1,
+          "openssl/md5.h": 1,
+          "<openssl/ssl.h>": 1,
+          "limits.h": 1,
+          "<openssl/md5.h>": 1,
+          "fcntl.h": 1,
+          "<openssl/crypto.h>": 1,
+          "openssl/crypto.h": 1,
+          "openssl/rsa.h": 1,
+          "<limits.h>": 1,
+          "pthread.h": 1,
+          "dirent.h": 1,
+          "signal.h": 1,
+          "<libgen.h>": 1,
+          "process.h": 1,
+          "<sys/types.h>": 1,
+          "<signal.h>": 1,
+          "sys/wait.h": 1,
+          "<dirent.h>": 1,
+          "stdint.h": 1,
+          "<sys/wait.h>": 1,
+          "<sys/stat.h>": 1,
+          "stdarg.h": 1,
+          "sys/types.h": 1,
+          "libgen.h": 1,
+          "<stdint.h>": 1,
+          "<process.h>": 1,
+          "<stdarg.h>": 1,
+          "sys/stat.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 21,
+        "packages": {
+          "<iostream>": 18,
+          "iostream": 18,
+          "namespace": 17,
+          "std": 17,
+          "<stdexcept>": 6,
+          "stdexcept": 6,
+          "Emp.h": 4,
+          "Time.h": 4,
+          "Date.h": 3,
+          "<iomanip>": 2,
+          "iomanip": 2,
+          "Increment.h": 2,
+          "Interface.h": 2,
+          "<bits/stdc++.h>": 2,
+          "bits/stdc++.h": 2,
+          "std::endl": 1,
+          "std::cin": 1,
+          "std::cout": 1,
+          "Implimentation.h": 1,
+          "<string>": 1,
+          "string": 1,
+          "<stddef.h>": 1,
+          "<cstdio>": 1,
+          "stddef.h": 1,
+          "cstdio": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 9,
+        "packages": {
+          "Globals.h": 3,
+          "Vehicle.h": 2,
+          "<string>": 2,
+          "namespace": 2,
+          "string": 2,
+          "<Print.h>": 1,
+          "string.h": 1,
+          "stdint.h": 1,
+          "<stdint.h>": 1,
+          "index_t": 1,
+          "Print.h": 1,
+          "<string.h>": 1,
+          "stddef.h": 1,
+          "<stddef.h>": 1,
+          "Type": 1,
+          "CircularBuffer.h": 1,
+          "Line_track.h": 1,
+          "Object_Detection.h": 1,
+          "Arduino.h": 1,
+          "<Arduino.h>": 1,
+          "Date.h": 1,
+          "opensslconf-s390.h": 1,
+          "opensslconf-sparc.h": 1,
+          "opensslconf-x86_64.h": 1,
+          "opensslconf-i386.h": 1,
+          "opensslconf-sparc64.h": 1,
+          "opensslconf-ia64.h": 1,
+          "opensslconf-ppc64.h": 1,
+          "opensslconf-s390x.h": 1,
+          "opensslconf-ppc.h": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "ts-node": 1,
+          "path": 1,
+          "jasmine-spec-reporter": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 65,
+        "packages": {
+          "Ghostscypher\\CDP\\Facades\\CDP": 9,
+          "Illuminate\\Http\\Request": 8,
+          "Illuminate\\Support\\Str": 8,
+          "Closure": 6,
+          "Illuminate\\Support\\Arr": 5,
+          "Ghostscypher\\CDP\\Contracts\\CDPActionContract": 5,
+          "Illuminate\\Foundation\\Events\\Dispatchable": 5,
+          "Dispatchable": 5,
+          "Illuminate\\Queue\\SerializesModels": 5,
+          "Illuminate\\Support\\ServiceProvider": 4,
+          "Symfony\\Component\\HttpKernel\\Exception\\AccessDeniedHttpException": 4,
+          "Illuminate\\Support\\Facades\\Schema": 4,
+          "Illuminate\\Database\\Schema\\Blueprint": 4,
+          "Illuminate\\Database\\Migrations\\Migration": 4,
+          "Illuminate\\Support\\Facades\\DB": 4,
+          "Illuminate\\Console\\Command": 4,
+          "Illuminate\\Support\\Facades\\Broadcast": 3,
+          "Illuminate\\Contracts\\Broadcasting\\Factory": 3,
+          "Illuminate\\Broadcasting\\BroadcastException": 3,
+          "Illuminate\\Contracts\\Broadcasting\\HasBroadcastChannel": 3,
+          "Ghostscypher\\CDP\\Http\\Resources\\ApiResource": 3,
+          "Illuminate\\Routing\\Controller": 2,
+          "ReflectionClass": 2,
+          "Pusher\\Pusher": 2,
+          "Psr\\Log\\LoggerInterface": 2,
+          "Ably\\AblyRest": 2,
+          "Illuminate\\Contracts\\Broadcasting\\Broadcaster": 2,
+          "UsePusherChannelConventions": 2,
+          "Illuminate\\Support\\Facades\\Route": 2,
+          "Illuminate\\Support\\Facades\\Validator": 2,
+          "Illuminate\\Bus\\Queueable": 1,
+          "ReflectionProperty": 1,
+          "Illuminate\\Contracts\\Queue\\ShouldQueue": 1,
+          "Queueable": 1,
+          "Illuminate\\Contracts\\Support\\Arrayable": 1,
+          "RuntimeException": 1,
+          "GuzzleHttp\\Client": 1,
+          "Illuminate\\Broadcasting\\Broadcasters\\LogBroadcaster": 1,
+          "Illuminate\\Broadcasting\\Broadcasters\\RedisBroadcaster": 1,
+          "Illuminate\\Broadcasting\\Broadcasters\\PusherBroadcaster": 1,
+          "Illuminate\\Contracts\\Foundation\\CachesRoutes": 1,
+          "InvalidArgumentException": 1,
+          "Illuminate\\Contracts\\Broadcasting\\ShouldBroadcastNow": 1,
+          "Illuminate\\Contracts\\Bus\\Dispatcher": 1,
+          "Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster": 1,
+          "Illuminate\\Broadcasting\\Broadcasters\\NullBroadcaster": 1,
+          "Illuminate\\Contracts\\Support\\DeferrableProvider": 1,
+          "Ably\\Exceptions\\AblyException": 1,
+          "Ably\\Models\\Message": 1,
+          "Illuminate\\Contracts\\Routing\\BindingRegistrar": 1,
+          "Illuminate\\Contracts\\Routing\\UrlRoutable": 1,
+          "Exception": 1,
+          "Illuminate\\Container\\Container": 1,
+          "Illuminate\\Support\\Reflector": 1,
+          "ReflectionFunction": 1,
+          "Pusher\\ApiErrorException": 1,
+          "Predis\\Connection\\ConnectionException": 1,
+          "Illuminate\\Contracts\\Redis\\Factory": 1,
+          "RedisException": 1,
+          "Illuminate\\Contracts\\Events\\Dispatcher": 1,
+          "Ghostscypher\\CDP\\Jobs\\ExecuteActionJob": 1,
+          "Illuminate\\Database\\Eloquent\\Model": 1,
+          "Illuminate\\Routing\\Router": 1,
+          "Illuminate\\Support\\Facades\\Artisan": 1,
+          "Illuminate\\Auth\\Access\\AuthorizationException": 1,
+          "Illuminate\\Support\\Facades\\Facade": 1,
+          "Illuminate\\Support\\Facades\\Log": 1,
+          "routes/console.php": 1,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 1,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
+          "AuthorizesRequests": 1,
+          "Illuminate\\Foundation\\Http\\Kernel": 1,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 1,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance": 1,
+          "Illuminate\\Support\\Facades\\Auth": 1,
+          "App\\Providers\\RouteServiceProvider": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 1,
+          "Illuminate\\Http\\Middleware\\TrustHosts": 1,
+          "Fideloper\\Proxy\\TrustProxies": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "HasFactory": 1,
+          "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 1,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 1,
+          "Illuminate\\Support\\Facades\\Gate": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 1,
+          "routes/channels.php": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 1,
+          "Illuminate\\Support\\Facades\\Event": 1,
+          "Illuminate\\Auth\\Events\\Registered": 1,
+          "Illuminate\\Cache\\RateLimiting\\Limit": 1,
+          "Illuminate\\Support\\Facades\\RateLimiter": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 1,
+          "Monolog\\Handler\\StreamHandler": 1,
+          "Monolog\\Handler\\SyslogUdpHandler": 1,
+          "Monolog\\Handler\\NullHandler": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 15,
+        "packages": {
+          "strict": 15,
+          "warnings": 12,
+          "<": 2,
+          "constant": 1,
+          "Data::Dumper": 1,
+          "DateTime::Format::Strptime": 1,
+          "DateTime::Format::DBI": 1,
+          "Getopt::Long": 1,
+          "Text::DHCPLeases": 1,
+          "DBI": 1,
+          "DateTime": 1,
+          "Getopt::Std": 1,
+          "Log::Log4perl": 1,
+          "NetSNMP::agent": 1,
+          "IO::Socket::INET": 1,
+          "threads": 1,
+          "Net::Radius::Dictionary": 1,
+          "threads::shared": 1,
+          "Digest::HMAC_MD5": 1,
+          "NetSNMP::ASN": 1,
+          "Net::Radius::Packet": 1,
+          "Template": 1,
+          "Net::IP": 1,
+          "YAML::XS": 1,
+          "DBD::mysql": 1,
+          "an": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 22,
+        "packages": {
+          "angular": 8,
+          "express": 7,
+          "sequelize-typescript": 4,
+          "ionic": 4,
+          "ionic-native": 3,
+          "aws-sdk": 2,
+          "connect": 2,
+          "jsonwebtoken": 2,
+          "body-parser": 2,
+          "cors": 2,
+          "email-validator": 1,
+          "bcrypt": 1,
+          "bluebird": 1,
+          "protractor": 1,
+          "rxjs": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Ghostscypher/Arduino-LineTrack-Prototype",
+        "files_analyzed": 7,
+        "languages_found": [
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "Ghostscypher/broadcasting",
+        "files_analyzed": 19,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ghostscypher/cd0354-monolith-to-microservices-project",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "Ghostscypher/cdp-package",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ghostscypher/conadopt",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Ghostscypher/Deitel_Cpp",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C++",
+          "C/C++ Header"
+        ]
+      },
+      {
+        "repository": "Ghostscypher/freeradius-server",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C",
+          "C/C++ Header",
+          "Perl"
+        ]
+      },
+      {
+        "repository": "Ghostscypher/golclinics-dsa",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C++"
+        ]
+      }
+    ]
+  }
+}

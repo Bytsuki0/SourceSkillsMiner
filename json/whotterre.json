@@ -1,0 +1,799 @@
+{
+  "username": "whotterre",
+  "avatar_url": "https://avatars.githubusercontent.com/u/76275625?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8484848484848485,
+      "details": {
+        "issue_resolution_rate": 0.5454545454545454,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.9666666666666667,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.9
+      }
+    },
+    "Adaptability": {
+      "score": 0.818494,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.774,
+        "resilience_score": 0.5,
+        "distinct_primary_languages": 11,
+        "language_transitions": 11,
+        "topic_entropy_bits": 2.3219,
+        "closed_prs_total": 4,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8017291030303031,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Shell": [
+        8608,
+        198
+      ],
+      "Python": [
+        14480,
+        413
+      ],
+      "HTML": [
+        5987,
+        76
+      ],
+      "CSS": [
+        2787,
+        49
+      ],
+      "JavaScript": [
+        46750,
+        272
+      ],
+      "TypeScript": [
+        1039,
+        191
+      ],
+      "Jupyter Notebook": [
+        19,
+        28
+      ],
+      "C": [
+        6630,
+        308
+      ],
+      "Assembly": [
+        36,
+        1
+      ],
+      "Ruby": [
+        528,
+        10
+      ],
+      "Puppet": [
+        309,
+        5
+      ],
+      "Go": [
+        0,
+        464
+      ],
+      "Dockerfile": [
+        0,
+        2
+      ],
+      "Mako": [
+        0,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "PowerShell": [
+        0,
+        2
+      ],
+      "Pug": [
+        0,
+        4
+      ],
+      "EJS": [
+        0,
+        1
+      ],
+      "C++": [
+        0,
+        18
+      ]
+    },
+    "language_count": 19,
+    "total_commits": 2042,
+    "total_lines": 87173,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 0,
+        "commits": 464
+      },
+      {
+        "language": "Python",
+        "lines": 14480,
+        "commits": 413
+      },
+      {
+        "language": "C",
+        "lines": 6630,
+        "commits": 308
+      },
+      {
+        "language": "JavaScript",
+        "lines": 46750,
+        "commits": 272
+      },
+      {
+        "language": "Shell",
+        "lines": 8608,
+        "commits": 198
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "whotterre",
+    "analysis_date": "2026-05-16T02:33:33.755267",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 431,
+    "languages": {
+      "C": {
+        "files_scanned": 29,
+        "packages": {
+          "stdio.h": 20,
+          "<stdio.h>": 20,
+          "main.h": 9,
+          "<stdlib.h>": 2,
+          "time.h": 2,
+          "<time.h>": 2,
+          "stdlib.h": 2
+        }
+      },
+      "Go": {
+        "files_scanned": 69,
+        "packages": {
+          "github.com/planetscale/cli/internal/cmdutil": 26,
+          "context": 24,
+          "fmt": 24,
+          "github.com/planetscale/cli/internal/printer": 20,
+          "log": 18,
+          "time": 17,
+          "github.com/spf13/cobra": 17,
+          "github.com/google/uuid": 15,
+          "bytes": 14,
+          "gorm.io/gorm": 13,
+          "errors": 11,
+          "net/http": 11,
+          "testing": 11,
+          "github.com/planetscale/cli/internal/config": 11,
+          "github.com/gin-gonic/gin": 9,
+          "encoding/json": 9,
+          "whotterre/img_service/internal/config": 9,
+          "github.com/planetscale/cli/internal/mock": 9,
+          "whotterre/argent/internal/models": 8,
+          "whotterre/argent/internal/dto": 7,
+          "github.com/aws/aws-sdk-go-v2/service/s3": 7,
+          "strings": 6,
+          "io": 6,
+          "github.com/planetscale/planetscale-go/planetscale": 6,
+          "branch": 6,
+          "whotterre/argent/internal/config": 5,
+          "status": 5,
+          "os": 5,
+          "whotterre/argent/internal/services": 5,
+          "whotterre/img_service/internal/models": 5,
+          "email": 4,
+          "whotterre/argent/internal/repositories": 4,
+          "whotterre/img_service/internal/repositories": 4,
+          "result": 4,
+          "path/filepath": 4,
+          "github.com/hashicorp/go-cleanhttp": 4,
+          "message": 3,
+          "whotterre/argent/internal/customErrors": 3,
+          "github.com/hibiken/asynq": 3,
+          "whotterre/img_service/internal/workers": 3,
+          "completed_at": 3,
+          "progress": 3,
+          "error_message": 3,
+          "net/url": 3,
+          "github.com/pkg/browser": 3,
+          "github.com/planetscale/cli/internal/auth": 3,
+          "expires_at": 2,
+          "url": 2,
+          "wallet": 2,
+          "api_key": 2,
+          "amount": 2,
+          "reference": 2,
+          "error": 2,
+          "slices": 2,
+          "token": 2,
+          "gorm.io/driver/postgres": 2,
+          "whotterre/argent/internal/utils": 2,
+          "encoding/base64": 2,
+          "crypto/rand": 2,
+          "golang.org/x/oauth2": 2,
+          "compressed_url": 2,
+          "github.com/aws/aws-sdk-go-v2/aws": 2,
+          "thumbnail_url": 2,
+          "resized_url": 2,
+          "github.com/aws/aws-sdk-go-v2/credentials": 2,
+          "image/jpeg": 2,
+          "github.com/disintegration/imaging": 2,
+          "image": 2,
+          "github.com/benbjohnson/clock": 2,
+          "device_code": 2,
+          "net/http/httptest": 2,
+          "github.com/lensesio/tableprinter": 2,
+          "github.com/AlecAivazis/survey/v2/terminal": 2,
+          "backup": 2,
+          "github.com/AlecAivazis/survey/v2": 2,
+          "github.com/gin-contrib/cors": 1,
+          "whotterre/argent/internal/routes": 1,
+          "whotterre/argent/internal/initializers": 1,
+          "auth": 1,
+          "schema": 1,
+          "whotterre_argent_internal_dto.BalanceResponse": 1,
+          "summary": 1,
+          "in": 1,
+          "whotterre_argent_internal_dto.DepositWalletRequest": 1,
+          "definitions": 1,
+          "400": 1,
+          "authorization_url": 1,
+          "412": 1,
+          "github.com/swaggo/swag": 1,
+          "parameters": 1,
+          "whotterre_argent_internal_dto.RolloverAPIKeyResponse": 1,
+          "host": 1,
+          "$ref": 1,
+          "info": 1,
+          "get": 1,
+          "expired_key_id": 1,
+          "whotterre_argent_internal_dto.TransactionResponse": 1,
+          "produces": 1,
+          "security": 1,
+          "basePath": 1,
+          "expiry": 1,
+          "license": 1,
+          "tags": 1,
+          "properties": 1,
+          "termsOfService": 1,
+          "description": 1,
+          "200": 1,
+          "items": 1,
+          "name": 1,
+          "title": 1,
+          "type": 1,
+          "api-keys": 1,
+          "whotterre_argent_internal_dto.DepositWalletResponse": 1,
+          "additionalProperties": 1,
+          "application/json": 1,
+          "swagger": 1,
+          "version": 1,
+          "balance": 1,
+          "responses": 1,
+          "whotterre_argent_internal_dto.CreateAPIKeyResponse": 1,
+          "500": 1,
+          "BearerAuth": 1,
+          "required": 1,
+          "schemes": 1,
+          "permissions": 1,
+          "paths": 1,
+          "whotterre_argent_internal_dto.DepositStatusResponse": 1,
+          "302": 1,
+          "whotterre_argent_internal_dto.TransferResponse": 1,
+          "wallet_number": 1,
+          "securityDefinitions": 1,
+          "contact": 1,
+          "consumes": 1,
+          "post": 1,
+          "whotterre_argent_internal_dto.CreateAPIKeyRequest": 1,
+          "whotterre_argent_internal_dto.TransferRequest": 1,
+          "whotterre_argent_internal_dto.RolloverAPIKeyRequest": 1,
+          "404": 1,
+          "github.com/joho/godotenv": 1,
+          "id": 1,
+          "last_name": 1,
+          "user": 1,
+          "first_name": 1,
+          "success": 1,
+          "github.com/lib/pq": 1,
+          "whotterre/argent/internal/handlers": 1,
+          "whotterre/argent/internal/middleware": 1,
+          "golang.org/x/crypto/bcrypt": 1,
+          "golang.org/x/oauth2/google": 1,
+          "https://www.googleapis.com/auth/userinfo.profile": 1,
+          "github.com/golang-jwt/jwt/v5": 1,
+          "https://www.googleapis.com/auth/userinfo.email": 1,
+          "exp": 1,
+          "iat": 1,
+          "user_id": 1,
+          "crypto/sha512": 1,
+          "encoding/hex": 1,
+          "callback_url": 1,
+          "crypto/hmac": 1,
+          "whotterre/img_service/internal/routes": 1,
+          "whotterre/img_service/internal/initializers": 1,
+          "github.com/spf13/viper": 1,
+          "metadata": 1,
+          "original": 1,
+          "processed": 1,
+          "width": 1,
+          "height": 1,
+          "compressed_size": 1,
+          "format": 1,
+          "links": 1,
+          "job_id": 1,
+          "size": 1,
+          "created_at": 1,
+          "gorm.io/gorm/logger": 1,
+          "compressed_path": 1,
+          "thumbnail_path": 1,
+          "resized_path": 1,
+          "whotterre/img_service/internal/handlers": 1,
+          "low": 1,
+          "critical": 1,
+          "default": 1,
+          "image/png": 1,
+          "os/signal": 1,
+          "github.com/planetscale/cli/internal/cmd": 1,
+          "client_id": 1,
+          "client_secret": 1,
+          "read_databases": 1,
+          "grant_type": 1,
+          "scope": 1,
+          "verification_uri_complete": 1,
+          "expires_in": 1,
+          "github.com/stretchr/testify/assert": 1,
+          "interval": 1,
+          "user_code": 1,
+          "verification_uri": 1,
+          "path": 1,
+          "net/http/httputil": 1,
+          "github.com/MakeNowJust/heredoc": 1,
+          "{db}": 1,
+          "-": 1,
+          "Content-Type": 1,
+          "User-Agent": 1,
+          "hello": 1,
+          "Redirect": 1,
+          "github.com/stretchr/testify/require": 1,
+          "world": 1,
+          "monde": 1,
+          "bye": 1,
+          "Expected": 1,
+          "salut": 1,
+          "hello.world=1": 1,
+          "hello.monde=2": 1,
+          "golang.org/x/text/cases": 1,
+          "golang.org/x/text/language": 1,
+          "service_token.deleted": 1,
+          "organization.joined": 1,
+          "organization_membership.created": 1,
+          "organization_invitation.deleted": 1,
+          "organization.removed_member": 1,
+          "integration.deleted": 1,
+          "organization.disabled_sso": 1,
+          "deploy_request.closed": 1,
+          "deploy_request.deleted": 1,
+          "deploy_request.unqueued": 1,
+          "organization_invitation.created": 1,
+          "branch.created": 1,
+          "database.created": 1,
+          "branch.deleted": 1,
+          "deploy_request.created": 1,
+          "organization.enabled_sso": 1,
+          "database.deleted": 1,
+          "deploy_request.approved": 1,
+          "service_token.granted_access": 1,
+          "deploy_request.queued": 1,
+          "integration.created": 1,
+          "service_token.created": 1,
+          "organization.updated_role": 1,
+          "github.com/fatih/color": 1,
+          "runtime": 1,
+          "bufio": 1,
+          "github.com/planetscale/cli/internal/cmd/branch": 1,
+          "github.com/planetscale/cli/internal/cmd/branch/vtctld": 1,
+          "The": 1,
+          "source": 1,
+          "database": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 52,
+        "packages": {
+          "express": 13,
+          "mongoose": 8,
+          "redis": 7,
+          "mongodb": 6,
+          "dotenv": 6,
+          "kue": 5,
+          "fs": 5,
+          "cookie-parser": 4,
+          "jsonwebtoken": 4,
+          "util": 3,
+          "sha1": 3,
+          "uuid": 2,
+          "node:buffer": 2,
+          "path": 2,
+          "bull": 2,
+          "bcryptjs": 2,
+          "multer": 2,
+          "jQuery": 1,
+          "os": 1,
+          "node:process": 1,
+          "mime-types": 1,
+          "process": 1,
+          "image-thumbnail": 1,
+          "request": 1,
+          "morgan": 1,
+          "validator": 1,
+          "markdown-it": 1,
+          "sequelize": 1,
+          "child_process": 1,
+          "cloudinary": 1,
+          "socket.io": 1,
+          "http": 1,
+          "url": 1,
+          "cors": 1,
+          "eslint": 1,
+          "eslint-plugin-react-refresh": 1,
+          "eslint-plugin-react": 1,
+          "eslint-plugin-react-hooks": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 10,
+        "packages": {
+          "react": 7,
+          "lucide-react": 7,
+          "react-hot-toast": 3,
+          "react-router-dom": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 147,
+        "packages": {
+          "models": 49,
+          "typing": 46,
+          "BaseModel": 26,
+          "os": 23,
+          "flask": 23,
+          "datetime": 22,
+          "api": 20,
+          "sqlalchemy": 19,
+          "User": 15,
+          "sys": 14,
+          "List": 14,
+          "unittest": 13,
+          "FileStorage": 11,
+          "Flask": 11,
+          "Babel": 8,
+          "flask_babel": 8,
+          "re": 8,
+          "State": 7,
+          "Review": 7,
+          "Place": 7,
+          "Amenity": 7,
+          "City": 7,
+          "uuid": 7,
+          "asyncio": 7,
+          "app_views": 7,
+          "Column": 6,
+          "tests": 6,
+          "test_basemodel": 6,
+          "requests": 6,
+          "json": 5,
+          "declarative_base": 5,
+          "BaseCaching": 5,
+          "base_caching": 5,
+          "Union": 5,
+          "random": 5,
+          "request": 5,
+          "Mapped": 5,
+          "storage": 4,
+          "Tuple": 4,
+          "collections": 4,
+          "OrderedDict": 4,
+          "DateTime": 4,
+          "TYPE_CHECKING": 4,
+          "fastapi": 4,
+          "Optional": 4,
+          "uuid4": 3,
+          "relationship": 3,
+          "getenv": 3,
+          "csv": 3,
+          "Dict": 3,
+          "Any": 3,
+          "time": 3,
+          "importlib": 3,
+          "functools": 3,
+          "MongoClient": 3,
+          "pymongo": 3,
+          "logging": 3,
+          "Auth": 3,
+          "abort": 3,
+          "Base": 3,
+          "add": 3,
+          "signal": 3,
+          "alembic": 3,
+          "get_settings": 3,
+          "pydantic": 3,
+          "Student": 3,
+          "StudentFace": 3,
+          "APIRouter": 3,
+          "Session": 3,
+          "cmd": 2,
+          "sessionmaker": 2,
+          "create_engine": 2,
+          "math": 2,
+          "pytz": 2,
+          "import_module": 2,
+          "utils": 2,
+          "parameterized": 2,
+          "wraps": 2,
+          "flask_cors": 2,
+          "BasicAuth": 2,
+          "base64": 2,
+          "binascii": 2,
+          "Blueprint": 2,
+          "*": 2,
+          "jsonify": 2,
+          "path": 2,
+          "TypeVar": 2,
+          "hashlib": 2,
+          "calculator_1": 2,
+          "Sequence": 2,
+          "op": 2,
+          "AttendanceSession": 2,
+          "AttendanceRecord": 2,
+          "get_db": 2,
+          "get_face_service": 2,
+          "amenity": 1,
+          "base_model": 1,
+          "city": 1,
+          "place": 1,
+          "review": 1,
+          "state": 1,
+          "user": 1,
+          "shlex": 1,
+          "DBStorage": 1,
+          "UUID": 1,
+          "Callable": 1,
+          "Iterable": 1,
+          "Generator": 1,
+          "TEST_PAYLOAD": 1,
+          "HTTPError": 1,
+          "fixtures": 1,
+          "client": 1,
+          "patch": 1,
+          "redis": 1,
+          "bcrypt": 1,
+          "mysql": 1,
+          "SessionExpAuth": 1,
+          "SessionAuth": 1,
+          "SessionDBAuth": 1,
+          "UserSession": 1,
+          "auth": 1,
+          "this": 1,
+          "add_0": 1,
+          "string": 1,
+          "hidden_4": 1,
+          "a": 1,
+          "variable_load_5": 1,
+          "sleep": 1,
+          "engine_from_config": 1,
+          "fileConfig": 1,
+          "context": 1,
+          "model": 1,
+          "pool": 1,
+          "Path": 1,
+          "Field": 1,
+          "lru_cache": 1,
+          "BaseSettings": 1,
+          "pydantic_settings": 1,
+          "pathlib": 1,
+          "decimal": 1,
+          "Decimal": 1,
+          "ForeignKey": 1,
+          "pgvector": 1,
+          "Vector": 1,
+          "SessionCreate": 1,
+          "StudentRegisterRequest": 1,
+          "deepface": 1,
+          "cv2": 1,
+          "numpy": 1,
+          "DeepFace": 1,
+          "FaceService": 1,
+          "FastAPI": 1,
+          "CORSMiddleware": 1,
+          "central_router": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "express": 8,
+          "prisma": 2,
+          "validator": 2,
+          "jsonwebtoken": 2,
+          "dotenv": 1,
+          "bcryptjs": 1,
+          "node:process": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "whotterre/AirBnB_clone",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "whotterre/AirBnB_clone_v2",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "whotterre/algorithms-playground",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "whotterre/alx-backend",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "whotterre/alx-backend-python",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "whotterre/alx-backend-storage",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "whotterre/alx-backend-user-data",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "whotterre/alx-files_manager",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "whotterre/alx-higher_level_programming",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "whotterre/alx-interview",
+        "files_analyzed": 19,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "whotterre/alx-low_level_programming",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "whotterre/alx-system_engineering-devops",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "whotterre/argent_api",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "whotterre/atninedance",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "whotterre/backendprojects",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "whotterre/bg_upload_service",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "whotterre/Chatosi-Real-Time-Chat-App",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "whotterre/cli",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

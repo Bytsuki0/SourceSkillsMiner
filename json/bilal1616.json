@@ -1,0 +1,570 @@
+{
+  "username": "bilal1616",
+  "avatar_url": "https://avatars.githubusercontent.com/u/92885233?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.3333333333333333,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.6971347050357503,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.8914041151072507,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 0.1875,
+      "details": {
+        "language_diversity_score": 0.75,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 6,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4435936076738167,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Dart": [
+        807908,
+        45
+      ],
+      "C++": [
+        174244,
+        20
+      ],
+      "TypeScript": [
+        28553,
+        0
+      ],
+      "CMake": [
+        129051,
+        17
+      ],
+      "Ruby": [
+        8633,
+        0
+      ],
+      "Swift": [
+        14425,
+        0
+      ],
+      "HTML": [
+        156480,
+        17
+      ],
+      "C": [
+        9333,
+        0
+      ],
+      "Shell": [
+        1011,
+        0
+      ],
+      "Kotlin": [
+        897,
+        0
+      ],
+      "Objective-C": [
+        270,
+        0
+      ],
+      "Python": [
+        12625,
+        27
+      ],
+      "JavaScript": [
+        120385,
+        6
+      ],
+      "CSS": [
+        16956,
+        1
+      ],
+      "SCSS": [
+        0,
+        0
+      ]
+    },
+    "language_count": 15,
+    "total_commits": 133,
+    "total_lines": 1480771,
+    "top_5_languages": [
+      {
+        "language": "Dart",
+        "lines": 807908,
+        "commits": 45
+      },
+      {
+        "language": "Python",
+        "lines": 12625,
+        "commits": 27
+      },
+      {
+        "language": "C++",
+        "lines": 174244,
+        "commits": 20
+      },
+      {
+        "language": "CMake",
+        "lines": 129051,
+        "commits": 17
+      },
+      {
+        "language": "HTML",
+        "lines": 156480,
+        "commits": 17
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "bilal1616",
+    "analysis_date": "2026-05-17T09:07:50.970218",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 358,
+    "languages": {
+      "C++": {
+        "files_scanned": 46,
+        "packages": {
+          "my_application.h": 16,
+          "generated_plugin_registrant.h": 14,
+          "flutter/generated_plugin_registrant.h": 13,
+          "flutter_window.h": 9,
+          "<gdk/gdkx.h>": 8,
+          "flutter_linux/flutter_linux.h": 8,
+          "gdk/gdkx.h": 8,
+          "<flutter_linux/flutter_linux.h>": 8,
+          "windows.h": 8,
+          "utils.h": 8,
+          "<windows.h>": 8,
+          "<flutter_windows.h>": 7,
+          "flutter_windows.h": 7,
+          "optional": 5,
+          "<optional>": 5,
+          "<flutter/flutter_view_controller.h>": 4,
+          "flutter/dart_project.h": 4,
+          "flutter/flutter_view_controller.h": 4,
+          "<flutter/dart_project.h>": 4,
+          "<io.h>": 4,
+          "<iostream>": 4,
+          "stdio.h": 4,
+          "iostream": 4,
+          "<stdio.h>": 4,
+          "io.h": 4,
+          "EnableNonClientDpiScaling": 3,
+          "dwmapi.h": 3,
+          "resource.h": 3,
+          "<dwmapi.h>": 3,
+          "win32_window.h": 3,
+          "file_selector_linux/file_selector_plugin.h": 3,
+          "<file_selector_linux/file_selector_plugin.h>": 3,
+          "file_selector_windows/file_selector_windows.h": 3,
+          "<file_selector_windows/file_selector_windows.h>": 3,
+          "<firebase_auth/firebase_auth_plugin_c_api.h>": 2,
+          "<firebase_core/firebase_core_plugin_c_api.h>": 2,
+          "cloud_firestore/cloud_firestore_plugin_c_api.h": 2,
+          "firebase_storage/firebase_storage_plugin_c_api.h": 2,
+          "firebase_core/firebase_core_plugin_c_api.h": 2,
+          "<cloud_firestore/cloud_firestore_plugin_c_api.h>": 2,
+          "firebase_auth/firebase_auth_plugin_c_api.h": 2,
+          "<firebase_storage/firebase_storage_plugin_c_api.h>": 2,
+          "<url_launcher_linux/url_launcher_plugin.h>": 1,
+          "url_launcher_linux/url_launcher_plugin.h": 1,
+          "<url_launcher_windows/url_launcher_windows.h>": 1,
+          "url_launcher_windows/url_launcher_windows.h": 1,
+          "<flutter_localization/flutter_localization_plugin.h>": 1,
+          "flutter_localization/flutter_localization_plugin.h": 1,
+          "<flutter_localization/flutter_localization_plugin_c_api.h>": 1,
+          "permission_handler_windows/permission_handler_windows_plugin.h": 1,
+          "flutter_localization/flutter_localization_plugin_c_api.h": 1,
+          "<permission_handler_windows/permission_handler_windows_plugin.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 42,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 10,
+          "<flutter_linux/flutter_linux.h>": 8,
+          "flutter_linux/flutter_linux.h": 8,
+          "<gtk/gtk.h>": 8,
+          "gtk/gtk.h": 8,
+          "memory": 7,
+          "<memory>": 7,
+          "flutter/plugin_registry.h": 6,
+          "<flutter/plugin_registry.h>": 6,
+          "<flutter/flutter_view_controller.h>": 5,
+          "flutter/dart_project.h": 5,
+          "<flutter/dart_project.h>": 5,
+          "flutter/flutter_view_controller.h": 5,
+          "win32_window.h": 5,
+          "<string>": 5,
+          "string": 5,
+          "vector": 3,
+          "<vector>": 3,
+          "<functional>": 2,
+          "windows.h": 2,
+          "functional": 2,
+          "<windows.h>": 2
+        }
+      },
+      "Dart": {
+        "files_scanned": 131,
+        "packages": {
+          "flutter": 91,
+          "supabase_flutter": 20,
+          "provider": 15,
+          "cloud_firestore": 15,
+          "flutter_bloc": 14,
+          "firebase_auth": 12,
+          "mealsapp": 12,
+          "go_router": 11,
+          "miniblogapp": 11,
+          "google_fonts": 10,
+          "shared_preferences": 9,
+          "flutter_riverpod": 9,
+          "dio": 8,
+          "dart:convert": 8,
+          "dart:async": 8,
+          "flutter_test": 7,
+          "cinetv": 7,
+          "image_picker": 7,
+          "firebaseexampleapp": 6,
+          "flutter_dotenv": 5,
+          "equatable": 5,
+          "bmi_calculator_app": 5,
+          "get": 5,
+          "intl": 5,
+          "custom_refresh_indicator": 5,
+          "kar_tahmncisi": 5,
+          "hydrated_bloc": 4,
+          "calculator_app": 4,
+          "firebase_messaging": 4,
+          "table_calendar": 4,
+          "dart:io": 4,
+          "app_to_note": 3,
+          "kuafor_salon_randevu": 3,
+          "login_screen.dart": 3,
+          "firebase_storage": 3,
+          "dart:ui": 2,
+          "dart:math": 2,
+          "webview_flutter": 2,
+          "flutter_localizations": 2,
+          "fingloba": 2,
+          "flutter_spinkit": 2,
+          "http": 2,
+          "easy_sidemenu": 2,
+          "firebase_core": 2,
+          "flutter_animate": 2,
+          "functions_client": 1,
+          "path_provider": 1,
+          "presentation/pages/auth/register_page.dart": 1,
+          "presentation/core/connectivity_binder.dart": 1,
+          "data/repositories/notes_repository.dart": 1,
+          "presentation/pages/notes/trash_page.dart": 1,
+          "presentation/cubits/auth/auth_cubit.dart": 1,
+          "presentation/cubits/offline/offline_queqe_cubit.dart": 1,
+          "presentation/cubits/trash/trash_cubit.dart": 1,
+          "presentation/cubits/notes/notes_cubit.dart": 1,
+          "presentation/pages/notes/notes_page.dart": 1,
+          "presentation/pages/auth/auth_gate.dart": 1,
+          "connectivity_plus": 1,
+          "auth_state.dart": 1,
+          "notes_state.dart": 1,
+          "offline_queqe_state.dart": 1,
+          "trash_state.dart": 1,
+          "login_page.dart": 1,
+          "shimmer": 1,
+          "math_expressions": 1,
+          "flutter_advanced_switch": 1,
+          "router.dart": 1,
+          "flutter_cache_manager": 1,
+          "meta": 1,
+          "path": 1,
+          "mime": 1,
+          "youtube_player_iframe": 1,
+          "showcaseview": 1,
+          "app/app.dart": 1,
+          "screens/splash_screen.dart": 1,
+          "crypto_screen.dart": 1,
+          "parite_screen.dart": 1,
+          "borsa_screen.dart": 1,
+          "hisse_screen.dart": 1,
+          "gold_screen.dart": 1,
+          "home_screen.dart": 1,
+          "flutter_local_notifications": 1,
+          "permission_handler": 1,
+          "register_screen.dart": 1,
+          "bottom_navbar_menu.dart": 1,
+          "flutter_image_slideshow": 1,
+          "google_sign_in": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 14,
+        "packages": {
+          "react": 9,
+          "axios": 6,
+          "react-router-dom": 5,
+          "react-dom": 2,
+          "web-vitals": 2,
+          "testing-library": 2,
+          "path": 1,
+          "cors": 1,
+          "mongoose": 1,
+          "multer": 1,
+          "jsonwebtoken": 1,
+          "uuid": 1,
+          "express": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 10,
+        "packages": {
+          "io.flutter": 10,
+          "com.example": 10
+        }
+      },
+      "Python": {
+        "files_scanned": 24,
+        "packages": {
+          "django": 22,
+          "os": 4,
+          "migrations": 4,
+          "admin": 3,
+          "path": 3,
+          "sys": 2,
+          "AppConfig": 2,
+          "TestCase": 2,
+          "render": 2,
+          "messages": 2,
+          "PyQt5": 1,
+          "functools": 1,
+          "Qt": 1,
+          "QLineEdit": 1,
+          "QWidget": 1,
+          "partial": 1,
+          "QApplication": 1,
+          "QPushButton": 1,
+          "QVBoxLayout": 1,
+          "QMainWindow": 1,
+          "QGridLayout": 1,
+          "get_asgi_application": 1,
+          "pathlib": 1,
+          "Path": 1,
+          "settings": 1,
+          "static": 1,
+          "get_wsgi_application": 1,
+          "execute_from_command_line": 1,
+          "ModelForm": 1,
+          "*": 1,
+          "User": 1,
+          "UserCreationForm": 1,
+          "models": 1,
+          "authenticate": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 52,
+        "packages": {
+          "FlutterMacOS": 32,
+          "Cocoa": 24,
+          "Flutter": 20,
+          "UIKit": 20,
+          "XCTest": 18,
+          "Foundation": 8,
+          "shared_preferences_foundation": 4,
+          "file_selector_macos": 3,
+          "path_provider_foundation": 2,
+          "firebase_auth": 2,
+          "firebase_storage": 2,
+          "firebase_core": 2,
+          "cloud_firestore": 2,
+          "url_launcher_macos": 1,
+          "webview_flutter_wkwebview": 1,
+          "sqflite_darwin": 1,
+          "firebase_messaging": 1,
+          "flutter_local_notifications": 1,
+          "flutter_localization": 1,
+          "cloud_functions": 1,
+          "google_sign_in_ios": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "bilal1616/app_to_note",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "bilal1616/bmi_calculator_app",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "bilal1616/calculator",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bilal1616/calculator_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "bilal1616/cinetv",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "bilal1616/e-ticaret-fullstack",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "bilal1616/Exxen-Django",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "bilal1616/finGloba",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "bilal1616/kar_tahmincisi",
+        "files_analyzed": 29,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "bilal1616/kuafor_randevu",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "bilal1616/Lets_Talk",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "bilal1616/meals_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "bilal1616/miniblogapp",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "bilal1616/my-xox-game-with-react",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

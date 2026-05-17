@@ -1,0 +1,455 @@
+{
+  "username": "mlabouardy",
+  "avatar_url": "https://avatars.githubusercontent.com/u/10320205?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9298245614035088,
+      "details": {
+        "issue_resolution_rate": 0.7894736842105263,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.849515915616318,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.9485477468489539,
+        "week_streak": 0.6
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 18,
+        "language_transitions": 17,
+        "topic_entropy_bits": 4.607,
+        "closed_prs_total": 8,
+        "bounced_back_prs": 4
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8308680954039654,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        561028,
+        233
+      ],
+      "Go": [
+        175682,
+        897
+      ],
+      "JavaScript": [
+        58147,
+        304
+      ],
+      "HTML": [
+        439,
+        170
+      ],
+      "CSS": [
+        339052,
+        183
+      ],
+      "HCL": [
+        1553,
+        207
+      ],
+      "Shell": [
+        4597,
+        460
+      ],
+      "Dockerfile": [
+        359,
+        11
+      ],
+      "Groovy": [
+        90,
+        4
+      ],
+      "PHP": [
+        0,
+        43
+      ],
+      "Batchfile": [
+        0,
+        6
+      ],
+      "Python": [
+        0,
+        73
+      ],
+      "C++": [
+        0,
+        19
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "C#": [
+        0,
+        3
+      ],
+      "C": [
+        0,
+        10
+      ],
+      "Ruby": [
+        0,
+        23
+      ],
+      "TypeScript": [
+        0,
+        412
+      ],
+      "Makefile": [
+        0,
+        2
+      ],
+      "Dart": [
+        0,
+        4
+      ],
+      "Perl": [
+        0,
+        10
+      ],
+      "CoffeeScript": [
+        0,
+        0
+      ],
+      "PowerShell": [
+        0,
+        0
+      ],
+      "Lex": [
+        0,
+        0
+      ],
+      "OCaml": [
+        0,
+        0
+      ],
+      "TeX": [
+        0,
+        8
+      ],
+      "Nginx": [
+        0,
+        8
+      ],
+      "Mustache": [
+        0,
+        0
+      ],
+      "Smarty": [
+        0,
+        1
+      ]
+    },
+    "language_count": 29,
+    "total_commits": 3091,
+    "total_lines": 1140947,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 175682,
+        "commits": 897
+      },
+      {
+        "language": "Shell",
+        "lines": 4597,
+        "commits": 460
+      },
+      {
+        "language": "TypeScript",
+        "lines": 0,
+        "commits": 412
+      },
+      {
+        "language": "JavaScript",
+        "lines": 58147,
+        "commits": 304
+      },
+      {
+        "language": "Java",
+        "lines": 561028,
+        "commits": 233
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mlabouardy",
+    "analysis_date": "2026-05-17T02:39:20.277587",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 107,
+    "languages": {
+      "Go": {
+        "files_scanned": 22,
+        "packages": {
+          "fmt": 12,
+          "encoding/json": 12,
+          "log": 11,
+          "os": 9,
+          "net/http": 8,
+          "github.com/aws/aws-sdk-go-v2/aws/external": 8,
+          "github.com/aws/aws-sdk-go-v2/aws": 6,
+          "github.com/aws/aws-sdk-go-v2/service/dynamodb": 6,
+          "github.com/aws/aws-lambda-go/lambda": 6,
+          "context": 5,
+          "strings": 4,
+          "github.com/aws/aws-sdk-go-v2/service/dynamodb/dynamodbattribute": 4,
+          "github.com/aws/aws-sdk-go-v2/service/sqs": 4,
+          "testing": 3,
+          "github.com/rs/xid": 3,
+          "commands": 3,
+          "github.com/aws/aws-sdk-go-v2/service/ssm": 3,
+          "bytes": 2,
+          "github.com/aws/aws-sdk-go-v2/service/ec2": 2,
+          "strconv": 2,
+          "ID": 2,
+          ":s": 2,
+          "time": 2,
+          "errors": 2,
+          "github.com/aws/aws-lambda-go/events": 2,
+          "golang.org/x/net/html": 1,
+          "io": 1,
+          "got": 1,
+          "expected": 1,
+          "reflect": 1,
+          "github.com/gorilla/mux": 1,
+          "github.com/mlabouardy/9gag": 1,
+          ":c": 1,
+          "E": 1,
+          "C": 1,
+          "B": 1,
+          "D": 1,
+          "A": 1,
+          "io/ioutil": 1,
+          "#c": 1,
+          ":cluster": 1,
+          "path": 1,
+          "net/http/httptest": 1,
+          "Content-Type": 1,
+          "github.com/mlabouardy/imdb": 1,
+          "Access-Control-Allow-Origin": 1,
+          "Access-Control-Allow-Headers": 1,
+          "movie": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 44,
+        "packages": {
+          "com.bordeaux": 30,
+          "java.util": 20,
+          "com.labouardy": 14,
+          "org.springframework": 13,
+          "javax.persistence": 12,
+          "java.security": 4,
+          "org.codehaus": 4,
+          "javax.swing": 3,
+          "static": 3,
+          "android.support": 3,
+          "com.google": 3,
+          "java.awt": 2,
+          "org.junit": 2,
+          "android.content": 2,
+          "android.view": 2,
+          "android.widget": 2,
+          "retrofit2.Call": 2,
+          "android.util": 2,
+          "com.android": 2,
+          "javax.validation": 2,
+          "javax.imageio": 1,
+          "java.io": 1,
+          "butterknife.ButterKnife": 1,
+          "android.os": 1,
+          "com.miguelcatalan": 1,
+          "retrofit2.converter": 1,
+          "android.text": 1,
+          "cn.pedant": 1,
+          "retrofit2.Retrofit": 1,
+          "butterknife.BindView": 1,
+          "retrofit2.Response": 1,
+          "retrofit2.Callback": 1,
+          "retrofit2.http": 1,
+          "android.graphics": 1,
+          "java.lang": 1,
+          "javax.ws": 1,
+          "javax.annotation": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 7,
+        "packages": {
+          "express": 2,
+          "body-parser": 2,
+          "jit-grunt": 2,
+          "autoprefixer-core": 2,
+          "jshint-stylish": 2,
+          "time-grunt": 2,
+          "request": 1,
+          "influx": 1,
+          "load-grunt-tasks": 1,
+          "async": 1,
+          "fs": 1,
+          "jsftp": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mlabouardy/2dgamesdk-engine",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "mlabouardy/9gag",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mlabouardy/9gag-clone",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "mlabouardy/9gag-restapi",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mlabouardy/Accounts-Manager",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mlabouardy/Agile-tool",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "mlabouardy/alb-go",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mlabouardy/alexa-aws-cda",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mlabouardy/alexa-github",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mlabouardy/alexa-monitor",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mlabouardy/alexa-swarm",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mlabouardy/alldaydevops-2018",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mlabouardy/alldaydevops-2020",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mlabouardy/alldaydevops-engine-2019",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mlabouardy/angucomplete",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mlabouardy/angular-resources",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mlabouardy/arabic-radio",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

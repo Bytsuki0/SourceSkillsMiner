@@ -1,0 +1,462 @@
+{
+  "username": "FilipiRafael",
+  "avatar_url": "https://avatars.githubusercontent.com/u/61629642?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8703703703703703,
+      "details": {
+        "issue_resolution_rate": 0.6111111111111112,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.693745459873238,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.7812363796197139,
+        "week_streak": 0.3
+      }
+    },
+    "Adaptability": {
+      "score": 0.75,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 10,
+        "language_transitions": 9,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7128231660487218,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        342423,
+        294
+      ],
+      "Python": [
+        13312,
+        41
+      ],
+      "TypeScript": [
+        97388,
+        254
+      ],
+      "SCSS": [
+        204840,
+        11
+      ],
+      "HTML": [
+        113804,
+        147
+      ],
+      "CSS": [
+        86997,
+        150
+      ],
+      "Dockerfile": [
+        75,
+        0
+      ],
+      "Java": [
+        0,
+        58
+      ],
+      "Nunjucks": [
+        0,
+        1
+      ],
+      "Dart": [
+        0,
+        2
+      ],
+      "Shell": [
+        0,
+        0
+      ],
+      "C++": [
+        0,
+        18
+      ],
+      "Objective-C++": [
+        0,
+        19
+      ],
+      "Starlark": [
+        0,
+        1
+      ],
+      "Ruby": [
+        0,
+        7
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        0,
+        9
+      ],
+      "CMake": [
+        0,
+        0
+      ],
+      "Swift": [
+        0,
+        0
+      ],
+      "C#": [
+        0,
+        7
+      ],
+      "C": [
+        0,
+        0
+      ]
+    },
+    "language_count": 22,
+    "total_commits": 1019,
+    "total_lines": 858839,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 342423,
+        "commits": 294
+      },
+      {
+        "language": "TypeScript",
+        "lines": 97388,
+        "commits": 254
+      },
+      {
+        "language": "CSS",
+        "lines": 86997,
+        "commits": 150
+      },
+      {
+        "language": "HTML",
+        "lines": 113804,
+        "commits": 147
+      },
+      {
+        "language": "Java",
+        "lines": 0,
+        "commits": 58
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "FilipiRafael",
+    "analysis_date": "2026-05-17T11:57:33.826767",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 178,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 64,
+        "packages": {
+          "react-native": 30,
+          "react": 20,
+          "strapi": 9,
+          "express": 4,
+          "popperjs": 4,
+          "react-navigation": 3,
+          "object": 3,
+          "api::category.category": 3,
+          "api::product.product": 3,
+          "api::supplier.supplier": 3,
+          "http": 3,
+          "react-native-vector-icons": 2,
+          "undefined": 2,
+          "path": 2,
+          "axios": 1,
+          "react-dom": 1,
+          "jquery": 1,
+          "react-native-svg": 1,
+          "expo-linear-gradient": 1,
+          "react-native-reanimated": 1,
+          "phosphor-react": 1,
+          "body-parser": 1,
+          "react-native-picker": 1,
+          "expo-sqlite": 1,
+          "preventOverflow": 1,
+          "popperOffsets": 1,
+          "computeStyles": 1,
+          "offset": 1,
+          "babel-register": 1,
+          "http-errors": 1,
+          "express-nunjucks": 1,
+          "cookie-parser": 1,
+          "morgan": 1,
+          "debug": 1,
+          "lodash": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 5,
+        "packages": {
+          "react": 4,
+          "components": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 30,
+        "packages": {
+          "django": 22,
+          "os": 7,
+          "admin": 4,
+          "sys": 3,
+          "migrations": 3,
+          "restaurantes": 3,
+          "rest_framework": 3,
+          "get_asgi_application": 2,
+          "pathlib": 2,
+          "Path": 2,
+          "path": 2,
+          "get_wsgi_application": 2,
+          "AppConfig": 2,
+          "models": 2,
+          "TestCase": 2,
+          "execute_from_command_line": 2,
+          "sistema": 2,
+          "sistemas": 2,
+          "User": 2,
+          "Restaurante": 2,
+          "drf_yasg": 2,
+          "clientes": 2,
+          "Cliente": 2,
+          "render": 1,
+          "PySimpleGUI": 1,
+          "sqlite3": 1,
+          "pickle": 1,
+          "total_ordering": 1,
+          "functools": 1,
+          "sleep": 1,
+          "time": 1,
+          "CASCADE": 1,
+          "serializers": 1,
+          "IsAuthenticated": 1,
+          "JsonResponse": 1,
+          "APIView": 1,
+          "DjangoFilterBackend": 1,
+          "Response": 1,
+          "status": 1,
+          "RestauranteSerializer": 1,
+          "django_filters": 1,
+          "generics": 1,
+          "timedelta": 1,
+          "datetime": 1,
+          "routers": 1,
+          "static": 1,
+          "rest_framework_simplejwt": 1,
+          "openapi": 1,
+          "TokenObtainPairView": 1,
+          "get_schema_view": 1,
+          "permissions": 1,
+          "RestauranteViewSet": 1,
+          "settings": 1,
+          "random": 1,
+          "contas": 1,
+          "Conta": 1,
+          "Banco": 1,
+          "bancos": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 5,
+        "packages": {
+          "strapi": 2,
+          "tailwind-merge": 1,
+          "clsx": 1,
+          "axios": 1,
+          "tailwindcss": 1,
+          "tailwindcss-animate": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 19,
+        "packages": {
+          "react": 16,
+          "next": 7,
+          "react-router-dom": 4,
+          "axios": 2,
+          "headlessui": 2,
+          "heroicons": 2,
+          "radix-ui": 2,
+          "react-dom": 1,
+          "react-social-media-embed": 1,
+          "next-themes": 1,
+          "class-variance-authority": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "FilipiRafael/acate-start",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/agenda",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/agenda_telefonica",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/allfood",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/allfood-restaurants-api",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/alura-hub",
+        "files_analyzed": 14,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/alura-space",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/alura-typer",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/aluramed",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/aluraplay",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/amigo_oculto",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/api-nodejs",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/AppNotes",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/aula_bootstrap",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/banco",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/beuniapi",
+        "files_analyzed": 20,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/beuniapp",
+        "files_analyzed": 17,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "FilipiRafael/book-first-steps-with-node",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

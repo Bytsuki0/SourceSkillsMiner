@@ -1,0 +1,568 @@
+{
+  "username": "EugeniaGao",
+  "avatar_url": "https://avatars.githubusercontent.com/u/23374988?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.558571431750698,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 0.675714295252094
+      }
+    },
+    "Status": {
+      "score": 0.479285715875349,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.337857147626047,
+        "week_streak": 0.1
+      }
+    },
+    "Adaptability": {
+      "score": 0.34375,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.47632142952520945,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        3012218,
+        27
+      ],
+      "JavaScript": [
+        155781,
+        2
+      ],
+      "Kotlin": [
+        1869964,
+        0
+      ],
+      "Dart": [
+        2348460,
+        0
+      ],
+      "Objective-C": [
+        610783,
+        0
+      ],
+      "Ruby": [
+        145167,
+        0
+      ],
+      "Objective-C++": [
+        132908,
+        0
+      ],
+      "Vue": [
+        65979,
+        0
+      ],
+      "Shell": [
+        44841,
+        0
+      ],
+      "Swift": [
+        20366,
+        0
+      ],
+      "CSS": [
+        10624,
+        0
+      ],
+      "HTML": [
+        197,
+        0
+      ],
+      "Python": [
+        0,
+        1
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 30,
+    "total_lines": 8417288,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 3012218,
+        "commits": 27
+      },
+      {
+        "language": "JavaScript",
+        "lines": 155781,
+        "commits": 2
+      },
+      {
+        "language": "Python",
+        "lines": 0,
+        "commits": 1
+      },
+      {
+        "language": "Kotlin",
+        "lines": 1869964,
+        "commits": 0
+      },
+      {
+        "language": "Dart",
+        "lines": 2348460,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "EugeniaGao",
+    "analysis_date": "2026-05-17T07:27:09.265325",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 370,
+    "languages": {
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "<Flutter/Flutter.h>": 1,
+          "<UIKit/UIKit.h>": 1,
+          "GeneratedPluginRegistrant.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 11,
+        "packages": {
+          "flutter": 11,
+          "ai_assistant": 10,
+          "provider": 8,
+          "dart:io": 4,
+          "dart:math": 4,
+          "shared_preferences": 4,
+          "dart:convert": 4,
+          "uuid": 3,
+          "path_provider": 2,
+          "dart:async": 2,
+          "timeago": 1,
+          "flutter_displaymode": 1,
+          "opus_dart": 1,
+          "opus_flutter": 1,
+          "permission_handler": 1,
+          "dart:ui": 1,
+          "crypto": 1,
+          "device_info_plus": 1,
+          "image_picker": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 193,
+        "packages": {
+          "android.content": 76,
+          "java.util": 64,
+          "android.view": 60,
+          "com.jing": 60,
+          "android.widget": 50,
+          "android.os": 46,
+          "com.github": 37,
+          "static": 32,
+          "androidx.annotation": 31,
+          "org.junit": 29,
+          "pub.devrel": 28,
+          "android.support": 27,
+          "android.graphics": 26,
+          "android.app": 25,
+          "lombok.Getter": 23,
+          "lombok.Setter": 23,
+          "android.util": 22,
+          "com.unnamed": 20,
+          "androidx.fragment": 18,
+          "android.text": 14,
+          "java.io": 13,
+          "com.example": 13,
+          "com.neusoft": 13,
+          "androidx.appcompat": 11,
+          "androidx.viewpager": 11,
+          "io.noties": 8,
+          "www.hello": 8,
+          "android.Manifest": 6,
+          "org.commonmark": 6,
+          "butterknife.ButterKnife": 6,
+          "com.hello": 5,
+          "androidx.core": 5,
+          "androidx.test": 5,
+          "com.google": 5,
+          "butterknife.BindView": 5,
+          "com.uphyca": 5,
+          "com.facebook": 5,
+          "java.lang": 4,
+          "org.mockito": 4,
+          "org.robolectric": 4,
+          "android.hardware": 4,
+          "com.viewpagerindicator": 4,
+          "android.animation": 3,
+          "androidx.recyclerview": 3,
+          "android.database": 3,
+          "org.json": 3,
+          "android.provider": 2,
+          "android.net": 2,
+          "com.ycbjie": 2,
+          "butterknife.OnClick": 2,
+          "io.realm": 2,
+          "io.flutter": 1,
+          "com.bumptech": 1,
+          "com.jeremyfeinstein": 1,
+          "com.squareup": 1,
+          "retrofit2.Call": 1,
+          "okhttp3.RequestBody": 1,
+          "retrofit2.http": 1,
+          "java.text": 1,
+          "javax.annotation": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 24,
+        "packages": {
+          "mongoose": 13,
+          "path": 6,
+          "puppeteer": 4,
+          "child_process": 4,
+          "koa": 3,
+          "element-ui": 2,
+          "vue": 2,
+          "glob": 2,
+          "nuxt": 2,
+          "consola": 2,
+          "koa-router": 2,
+          "koa-body": 2,
+          "bcrypt": 1,
+          "browser-sync": 1,
+          "autoprefixer": 1,
+          "gulp-rename": 1,
+          "\\s+href=": 1,
+          "yargs": 1,
+          "gulp-postcss": 1,
+          "gulp-less": 1,
+          "gulp": 1,
+          "gulp-tap": 1,
+          "gulp-sourcemaps": 1,
+          "gulp-cssnano": 1,
+          "fs": 1,
+          "postcss-discard-comments": 1,
+          "gulp-header": 1,
+          "vitepress": 1,
+          "&&": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 86,
+        "packages": {
+          "android.view": 36,
+          "me.hgj": 30,
+          "com.jing": 28,
+          "android.content": 22,
+          "io.noties": 22,
+          "android.widget": 19,
+          "android.os": 19,
+          "androidx.fragment": 11,
+          "android.app": 11,
+          "java.util": 10,
+          "androidx.lifecycle": 8,
+          "kotlinx.coroutines": 8,
+          "android.util": 8,
+          "android.text": 8,
+          "android.net": 6,
+          "java.io": 6,
+          "androidx.viewpager": 6,
+          "fun": 5,
+          "com.neusoft": 5,
+          "androidx.recyclerview": 5,
+          "androidx.appcompat": 4,
+          "com.tencent": 4,
+          "kotlinx.android": 4,
+          "class": 3,
+          "androidx.annotation": 3,
+          "okhttp3.Request": 3,
+          "org.commonmark": 3,
+          "org.litepal": 3,
+          "androidx.viewbinding": 2,
+          "kotlin.jvm": 2,
+          "com.kunminx": 2,
+          "java.net": 2,
+          "org.json": 2,
+          "java.nio": 2,
+          "okhttp3.MediaType": 2,
+          "android.Manifest": 2,
+          "android.annotation": 2,
+          "com.noober": 1,
+          "com.gyf": 1,
+          "val": 1,
+          "kotlin.apply": 1,
+          "kotlin.text": 1,
+          "kotlin.let": 1,
+          "kotlin.run": 1,
+          "com.scwang": 1,
+          "com.hjq": 1,
+          "javax.net": 1,
+          "com.google": 1,
+          "okio.Buffer": 1,
+          "okhttp3": 1,
+          "javax.xml": 1,
+          "kotlin.coroutines": 1,
+          "kotlin.also": 1,
+          "pub.devrel": 1,
+          "android.webkit": 1,
+          "okhttp3.Response": 1,
+          "okhttp3.Call": 1,
+          "okhttp3.OkHttpClient": 1,
+          "okhttp3.Callback": 1,
+          "android.graphics": 1,
+          "com.jeremyfeinstein": 1,
+          "com.viewpagerindicator": 1,
+          "com.lhht": 1,
+          "io.flutter": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 1,
+        "packages": {
+          "AppDelegate.h": 1,
+          "GeneratedPluginRegistrant.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 30,
+        "packages": {
+          "re": 25,
+          "requests": 8,
+          "request": 7,
+          "urllib": 7,
+          "etree": 2,
+          "lxml": 2,
+          "random": 2,
+          "turtle": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 2,
+        "packages": {
+          "UIKit": 2,
+          "Flutter": 2,
+          "XCTest": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "path": 2,
+          "vitepress": 1,
+          "fs-extra": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "EugeniaGao/AndroidTreeView",
+        "files_analyzed": 20,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/Animation",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/CircleMenu",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/easypermissions",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/ECharts",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/ExpandableView",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/FlutterFrom0To1",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Java",
+          "JavaScript",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/JetpackMvvm",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/JSWithNative",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/Lottery",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/Markwon",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/MVP",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/myNavigation",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/Picture",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/PythonStudies",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/QQ_Pop",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/SmartBJ",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/SmartMenuKotlin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/stetho-realm",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/TestPaid",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/Test_MD_PicColor",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/weui",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "EugeniaGao/xiaozhi-android-client",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "JavaScript",
+          "Kotlin",
+          "Swift",
+          "TypeScript"
+        ]
+      }
+    ]
+  }
+}

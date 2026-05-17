@@ -1,0 +1,922 @@
+{
+  "username": "jedi4ever",
+  "avatar_url": "https://avatars.githubusercontent.com/u/70908?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8518518518518519,
+      "details": {
+        "issue_resolution_rate": 0.5555555555555556,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7666666666666666,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.3
+      }
+    },
+    "Adaptability": {
+      "score": 0.892857,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.5714,
+        "distinct_primary_languages": 15,
+        "language_transitions": 15,
+        "topic_entropy_bits": 4.4594,
+        "closed_prs_total": 28,
+        "bounced_back_prs": 8
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "jedi4ever/addt": 0.50374,
+        "jedi4ever/agents-workshop-for-dev-sec-ops": 0.84235
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8772751037037038,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        93830,
+        618
+      ],
+      "Shell": [
+        59152,
+        808
+      ],
+      "HTML": [
+        929,
+        782
+      ],
+      "Dockerfile": [
+        457,
+        1
+      ],
+      "Makefile": [
+        432,
+        7
+      ],
+      "Objective-C": [
+        141902,
+        1
+      ],
+      "Swift": [
+        2034,
+        0
+      ],
+      "Ruby": [
+        555,
+        1133
+      ],
+      "C": [
+        404,
+        17
+      ],
+      "Python": [
+        66148,
+        21
+      ],
+      "Scheme": [
+        813,
+        0
+      ],
+      "Jupyter Notebook": [
+        4892,
+        50
+      ],
+      "Vue": [
+        309,
+        0
+      ],
+      "TypeScript": [
+        697,
+        3
+      ],
+      "CSS": [
+        201371,
+        87
+      ],
+      "JavaScript": [
+        1134030,
+        503
+      ],
+      "Vim Script": [
+        0,
+        26
+      ],
+      "Erlang": [
+        0,
+        0
+      ],
+      "PowerShell": [
+        0,
+        10
+      ],
+      "HCL": [
+        0,
+        1
+      ],
+      "AutoIt": [
+        0,
+        0
+      ],
+      "Batchfile": [
+        0,
+        38
+      ],
+      "Svelte": [
+        0,
+        0
+      ],
+      "Perl": [
+        0,
+        1
+      ],
+      "Java": [
+        0,
+        43
+      ],
+      "C++": [
+        0,
+        11
+      ],
+      "Puppet": [
+        0,
+        4
+      ],
+      "Gherkin": [
+        0,
+        1
+      ],
+      "ApacheConf": [
+        0,
+        0
+      ],
+      "Nix": [
+        0,
+        2
+      ]
+    },
+    "language_count": 30,
+    "total_commits": 4168,
+    "total_lines": 1707955,
+    "top_5_languages": [
+      {
+        "language": "Ruby",
+        "lines": 555,
+        "commits": 1133
+      },
+      {
+        "language": "Shell",
+        "lines": 59152,
+        "commits": 808
+      },
+      {
+        "language": "HTML",
+        "lines": 929,
+        "commits": 782
+      },
+      {
+        "language": "Go",
+        "lines": 93830,
+        "commits": 618
+      },
+      {
+        "language": "JavaScript",
+        "lines": 1134030,
+        "commits": 503
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jedi4ever",
+    "analysis_date": "2026-05-17T02:46:30.282797",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 288,
+    "languages": {
+      "C": {
+        "files_scanned": 2,
+        "packages": {
+          "unistd.h": 2,
+          "stdio.h": 2,
+          "fcntl.h": 2,
+          "<stdio.h>": 2,
+          "<unistd.h>": 2,
+          "<fcntl.h>": 2,
+          "sys/un.h": 1,
+          "<string.h>": 1,
+          "<stdarg.h>": 1,
+          "stdarg.h": 1,
+          "pthread.h": 1,
+          "<sys/syscall.h>": 1,
+          "<dlfcn.h>": 1,
+          "errno.h": 1,
+          "<stdlib.h>": 1,
+          "patterns_generated.h": 1,
+          "arpa/inet.h": 1,
+          "stdlib.h": 1,
+          "<sys/socket.h>": 1,
+          "string.h": 1,
+          "<sys/stat.h>": 1,
+          "sys/param.h": 1,
+          "sys/stat.h": 1,
+          "<errno.h>": 1,
+          "<sys/param.h>": 1,
+          "<regex.h>": 1,
+          "sys/socket.h": 1,
+          "<pthread.h>": 1,
+          "<sys/un.h>": 1,
+          "<arpa/inet.h>": 1,
+          "dlfcn.h": 1,
+          "regex.h": 1,
+          "sys/syscall.h": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 15,
+        "packages": {
+          "<Foundation/Foundation.h>": 10,
+          "<UIKit/UIKit.h>": 5,
+          "<TargetConditionals.h>": 3,
+          "AFURLSessionManager.h": 2,
+          "<SystemConfiguration/SystemConfiguration.h>": 2,
+          "AFNetworkReachabilityManager.h": 2,
+          "AFSecurityPolicy.h": 2,
+          "AFURLRequestSerialization.h": 2,
+          "AFURLResponseSerialization.h": 2,
+          "<CoreServices/CoreServices.h>": 1,
+          "<MobileCoreServices/MobileCoreServices.h>": 1,
+          "<Availability.h>": 1,
+          "AFHTTPSessionManager.h": 1,
+          "<Security/Security.h>": 1,
+          "<WatchKit/WatchKit.h>": 1,
+          "<CoreGraphics/CoreGraphics.h>": 1,
+          "AFCompatibilityMacros.h": 1,
+          "<Cocoa/Cocoa.h>": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 31,
+        "packages": {
+          "os": 19,
+          "fmt": 18,
+          "strings": 16,
+          "testing": 10,
+          "os/exec": 6,
+          "github.com/jedi4ever/addt/config": 4,
+          "github.com/jedi4ever/addt/provider": 4,
+          "docker.dind.enable": 4,
+          "time": 3,
+          "net/http": 3,
+          "bytes": 3,
+          "container.cpus": 3,
+          "firewall.enabled": 3,
+          "github.forward_token": 3,
+          "github.com/jedi4ever/addt/extensions": 3,
+          "path/filepath": 3,
+          "embed": 2,
+          "encoding/json": 2,
+          "flag": 2,
+          "log": 2,
+          "io": 2,
+          "claude": 2,
+          "security.disable_ipc": 2,
+          "security.no_new_privileges": 2,
+          "ssh.forward_mode": 2,
+          "security.isolate_secrets": 2,
+          "security.cap_add": 2,
+          "security.time_limit": 2,
+          "security.network_mode": 2,
+          "github.scope_token": 2,
+          "container.memory": 2,
+          "security.pids_limit": 2,
+          "security.seccomp_profile": 2,
+          "security.audit_log": 2,
+          "git.disable_hooks": 2,
+          "security.disable_devices": 2,
+          "firewall.mode": 2,
+          "workdir.automount": 2,
+          "security.user_namespace": 2,
+          "config.automount": 2,
+          "security.yolo": 2,
+          "config.readonly": 2,
+          "security.audit_log_file": 2,
+          "ssh.forward_keys": 2,
+          "workdir.readonly": 2,
+          "security.cap_drop": 2,
+          "security.read_only_rootfs": 2,
+          "env_file_load": 2,
+          "io/fs": 1,
+          "github.com/gorilla/websocket": 1,
+          "sync": 1,
+          "github.com/creack/pty": 1,
+          "compress/gzip": 1,
+          "format": 1,
+          "--build-arg": 1,
+          "github.com/muesli/termenv": 1,
+          "workdir.path": 1,
+          "persistent": 1,
+          "vm.cpus": 1,
+          "gpg.forward": 1,
+          "log.enabled": 1,
+          "log.rotate": 1,
+          "node_version": 1,
+          "reflect": 1,
+          "gopkg.in/yaml.v3": 1,
+          "sort": 1,
+          "github.com/jedi4ever/addt/config/otel": 1,
+          "otel.endpoint": 1,
+          "github.com/jedi4ever/addt/config/security": 1,
+          "github.com/jedi4ever/addt/util": 1,
+          "runtime": 1,
+          "github.com/codegangsta/cli": 1,
+          "net/url": 1,
+          "github.com/jszwedko/go-circleci": 1,
+          "github.com/fatih/color": 1,
+          "text/tabwriter": 1,
+          "bufio": 1
+        }
+      },
+      "Haskell": {
+        "files_scanned": 29,
+        "packages": {
+          "Course.Core": 11,
+          "Course.List": 9,
+          "Prelude": 8,
+          "qualified": 8,
+          "Network.Server.Common.Lens": 8,
+          "Course.Functor": 8,
+          "Network.Server.Common.HandleLens": 7,
+          "Course.Optional": 7,
+          "Course.Id": 7,
+          "System.IO": 6,
+          "Network.Server.Common.Ref": 6,
+          "Data.Foldable": 5,
+          "Data.IORef": 5,
+          "Network.Server.Common.Line": 5,
+          "Control.Applicative": 5,
+          "Data.Set": 5,
+          "Course.Apply": 5,
+          "Control.Monad.Trans": 4,
+          "Network.Server.Common.Accept": 4,
+          "Network.Server.Common.Env": 4,
+          "Data.Function": 4,
+          "Network.Server.Chat.Loop": 3,
+          "Network": 3,
+          "Control.Monad": 3,
+          "Control.Exception": 3,
+          "Data.Char": 3,
+          "Course.Bind": 3,
+          "Data.List": 2,
+          "Network.Server.Chat.Chat": 2,
+          "Data.Maybe": 2,
+          "Control.Concurrent": 2,
+          "Network.Server.TicTacToe.Game": 2,
+          "Network.Server.TicTacToe.Loop": 2,
+          "Course.Applicative": 2,
+          "Course.Extend": 2,
+          "Test.QuickCheck": 1,
+          "Data.Map": 1,
+          "Data.Traversable": 1,
+          "Network.Server.Common": 1,
+          "Data.TicTacToe": 1,
+          "System.Directory": 1,
+          "Test.DocTest": 1,
+          "Build_doctests": 1,
+          "System.FilePath": 1,
+          "Course.Interactive": 1,
+          "Course.StateT": 1,
+          "Course.FastAnagrams": 1,
+          "Course.Parser": 1,
+          "Course.Person": 1,
+          "Course.Monad": 1,
+          "Course.State": 1,
+          "Course.ListZipper": 1,
+          "Course.Traversable": 1,
+          "Course.MoreParser": 1,
+          "Course.Cheque": 1,
+          "Course.JsonValue": 1,
+          "Course.Validation": 1,
+          "Course.JsonParser": 1,
+          "Course.Compose": 1,
+          "Course.Anagrams": 1,
+          "Course.Comonad": 1,
+          "Control.Arrow": 1,
+          "Data.String": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 52,
+        "packages": {
+          "fs": 18,
+          "path": 16,
+          "async": 9,
+          "debug": 8,
+          "hashmerge": 7,
+          "child_process": 6,
+          "coverage": 5,
+          "resolve": 4,
+          "undefined": 3,
+          "expect.js": 3,
+          "http": 3,
+          "events": 2,
+          "=": 2,
+          "module": 2,
+          "underscore": 2,
+          "util": 2,
+          "temp": 2,
+          "object": 2,
+          ")).appendTo(t.documentElement)": 2,
+          "t.write(": 2,
+          "t=(vt[0].contentWindow||vt[0].contentDocument).document": 2,
+          "function": 2,
+          "url": 2,
+          "request": 2,
+          "ssh2": 2,
+          "shell-quote": 2,
+          "array-extended": 2,
+          "aws-sdk": 2,
+          "mustache": 2,
+          "pty.js": 2,
+          "operator": 1,
+          "%>": 1,
+          "<%": 1,
+          "utf8": 1,
+          "ejs": 1,
+          "outcome": 1,
+          "flatten": 1,
+          "stepc": 1,
+          "vm": 1,
+          "net": 1,
+          "repl": 1,
+          "buffer_ieee754": 1,
+          "assert": 1,
+          "npm": 1,
+          "node-fetcher": 1,
+          "fstream-ignore": 1,
+          "minimatch": 1,
+          "ncp": 1,
+          "winston": 1,
+          "longjohn": 1,
+          "shelljs": 1,
+          "lodash": 1,
+          "taffydb": 1,
+          "jsdoc": 1,
+          "domain": 1,
+          "js-yaml": 1,
+          "handlebars": 1,
+          "redis": 1,
+          ":": 1,
+          "a": 1,
+          "earendil-works": 1,
+          "node:fs": 1,
+          "node:buffer": 1,
+          "node:stream": 1,
+          "node:net": 1,
+          "chai": 1,
+          "ws": 1,
+          "colors": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 14,
+        "packages": {
+          "User.h": 5,
+          "Post.h": 5,
+          "<netinet/in.h>": 2,
+          "TargetConditionals.h": 2,
+          "<UIKit/UIKit.h>": 2,
+          "arpa/inet.h": 2,
+          "<netdb.h>": 2,
+          "netdb.h": 2,
+          "WatchKit/WatchKit.h": 2,
+          "netinet6/in6.h": 2,
+          "<ifaddrs.h>": 2,
+          "UIKit/UIKit.h": 2,
+          "netinet/in.h": 2,
+          "AFURLRequestSerialization.h": 2,
+          "AFURLResponseSerialization.h": 2,
+          "ifaddrs.h": 2,
+          "<arpa/inet.h>": 2,
+          "<netinet6/in6.h>": 2,
+          "<WatchKit/WatchKit.h>": 2,
+          "<TargetConditionals.h>": 2,
+          "AFAppDotNetAPIClient.h": 2,
+          "GlobalTimelineViewController.h": 2,
+          "AppDelegate.h": 2,
+          "PostTableViewCell.h": 2,
+          "AFHTTPSessionManager.h": 1,
+          "Security/Security.h": 1,
+          "Availability.h": 1,
+          "<Security/Security.h>": 1,
+          "<Availability.h>": 1,
+          "AFNetworkReachabilityManager.h": 1,
+          "AssertMacros.h": 1,
+          "<AssertMacros.h>": 1,
+          "AFSecurityPolicy.h": 1,
+          "<CoreServices/CoreServices.h>": 1,
+          "CoreServices/CoreServices.h": 1,
+          "MobileCoreServices/MobileCoreServices.h": 1,
+          "<MobileCoreServices/MobileCoreServices.h>": 1,
+          "CoreGraphics/CoreGraphics.h": 1,
+          "<Cocoa/Cocoa.h>": 1,
+          "<CoreGraphics/CoreGraphics.h>": 1,
+          "Cocoa/Cocoa.h": 1,
+          "AFURLSessionManager.h": 1,
+          "objc/runtime.h": 1,
+          "<objc/runtime.h>": 1,
+          "NotificationCenter/NotificationCenter.h": 1,
+          "<NotificationCenter/NotificationCenter.h>": 1,
+          "TodayViewController.h": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 40,
+        "packages": {
+          "os": 14,
+          "sys": 13,
+          "json": 11,
+          "pathlib": 11,
+          "Path": 11,
+          "aider": 10,
+          "re": 5,
+          "argparse": 4,
+          "git": 4,
+          "litellm": 4,
+          "utils": 4,
+          "pyautogui": 4,
+          "__version__": 3,
+          "traceback": 3,
+          "InputOutput": 3,
+          "threading": 3,
+          "math": 3,
+          "difflib": 3,
+          "explanation": 3,
+          "dump": 3,
+          "diffs": 3,
+          "subprocess": 3,
+          "socket": 3,
+          "requests": 3,
+          "Console": 2,
+          "rich": 2,
+          "time": 2,
+          "is_image_file": 2,
+          "GitRepo": 2,
+          "openai": 2,
+          "Flask": 2,
+          "flask": 2,
+          "hello": 2,
+          "path": 2,
+          "Scraper": 2,
+          "prompt_toolkit": 2,
+          "models": 2,
+          "Coder": 2,
+          "streamlit": 2,
+          "get_parser": 2,
+          "warnings": 2,
+          "typing": 2,
+          "csv": 2,
+          "clean_name": 2,
+          "all_tools": 2,
+          "yaml": 2,
+          "pytesseract": 2,
+          "websockets": 2,
+          "asyncio": 2,
+          "connect": 2,
+          "struct": 2,
+          "configargparse": 1,
+          "hashlib": 1,
+          "ChatSummary": 1,
+          "Linter": 1,
+          "RepoMap": 1,
+          "send_with_retries": 1,
+          "JSONDecodeError": 1,
+          "Markdown": 1,
+          "Commands": 1,
+          "MarkdownStream": 1,
+          "Draft7Validator": 1,
+          "jsonschema": 1,
+          "SequenceMatcher": 1,
+          "enough": 1,
+          "*ALL*": 1,
+          "diff_match_patch": 1,
+          "tqdm": 1,
+          "GitTemporaryDirectory": 1,
+          "additional": 1,
+          "groupby": 1,
+          "=": 1,
+          "itertools": 1,
+          "the": 1,
+          "Completion": 1,
+          "random": 1,
+          "main": 1,
+          "simple_send_with_retries": 1,
+          "base64": 1,
+          "pygments": 1,
+          "Completer": 1,
+          "FileHistory": 1,
+          "Text": 1,
+          "Style": 1,
+          "datetime": 1,
+          "collections": 1,
+          "ClassNotFound": 1,
+          "MarkdownLexer": 1,
+          "defaultdict": 1,
+          "KeyBindings": 1,
+          "Token": 1,
+          "PygmentsLexer": 1,
+          "CompleteStyle": 1,
+          "dataclasses": 1,
+          "tree-sitter": 1,
+          "TreeContext": 1,
+          "grep_ast": 1,
+          "tree_sitter_languages": 1,
+          "dataclass": 1,
+          "load_dotenv": 1,
+          "SwitchModel": 1,
+          "dotenv": 1,
+          "cli": 1,
+          "configparser": 1,
+          "gui": 1,
+          "psutil": 1,
+          "check_version": 1,
+          "Agent": 1,
+          "crewai": 1,
+          "uuid": 1,
+          "langchain": 1,
+          "AgentAction": 1,
+          "UUID": 1,
+          "Document": 1,
+          "Any": 1,
+          "BaseCallbackHandler": 1,
+          "langchain_openai": 1,
+          "ChatOllama": 1,
+          "langchain_community": 1,
+          "OpenAI": 1,
+          "tempfile": 1,
+          "domains_from_csv": 1,
+          "Response": 1,
+          "ask_sdk_core": 1,
+          "SkillBuilder": 1,
+          "ask_sdk_model": 1,
+          "HandlerInput": 1,
+          "logging": 1,
+          "AbstractRequestHandler": 1,
+          "AbstractExceptionHandler": 1,
+          "pydantic": 1,
+          "fastapi": 1,
+          "FastAPI": 1,
+          "List": 1,
+          "uvicorn": 1,
+          "BaseModel": 1,
+          "MatchType": 1,
+          "PromptInjection": 1,
+          "llm_guard": 1,
+          "nemoguardrails": 1,
+          "checks": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 10,
+        "packages": {
+          "chefspec": 5,
+          "uuid": 2,
+          "json": 2,
+          "pp": 2,
+          "dante": 1,
+          "rubygems": 1,
+          "eventmachine": 1,
+          "collectd-zmq/local_collectd_handler": 1,
+          "socket": 1,
+          "em-zeromq": 1,
+          "collectd-zmq/test_zmq_handler": 1,
+          "collectd": 1,
+          "collectd-zmq/collectd_packet": 1,
+          "fileutils": 1,
+          "tempfile": 1,
+          "openvz::sysctl": 1,
+          "openvz::install": 1,
+          "openvz::repo": 1,
+          "openvz::services": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 14,
+        "packages": {
+          "vitest": 5,
+          "pinia": 5,
+          "vue": 4,
+          "vscode": 3,
+          "playwright": 2,
+          "node:url": 2,
+          "http": 2,
+          "tcp-port-used": 2,
+          "ws": 2,
+          "eslint-plugin-playwright": 1,
+          "eslint-plugin-vue": 1,
+          "node:process": 1,
+          "dotenv": 1,
+          "vue-router": 1,
+          "toolLandscape": 1,
+          "vite-plugin-vue-devtools": 1,
+          "vite": 1,
+          "vitejs": 1,
+          "src": 1,
+          "rollup": 1,
+          "node:assert": 1,
+          "node:timers": 1,
+          "net": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jedi4ever/addt",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "jedi4ever/AFNetworking",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "jedi4ever/agentic-devops",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jedi4ever/agents-workshop-for-dev-sec-ops",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jedi4ever/ai-native-dev-landscape",
+        "files_analyzed": 14,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "jedi4ever/aind-landscape-export-tools",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jedi4ever/alexa-gpt",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jedi4ever/amdify.js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jedi4ever/autocoder-cline",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "jedi4ever/bashpack",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jedi4ever/bluebox.js",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jedi4ever/bonkers.js",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jedi4ever/buitengewooon.be",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jedi4ever/cc-gondolin-sandbox",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jedi4ever/chef-command.js",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jedi4ever/chrome-pagecheck",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jedi4ever/circleci-cli",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "jedi4ever/cloudrunner",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jedi4ever/collectd-zmq",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jedi4ever/context-filter",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C",
+          "Python"
+        ]
+      },
+      {
+        "repository": "jedi4ever/cookbook-openvz",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "jedi4ever/course",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Haskell"
+        ]
+      }
+    ]
+  }
+}

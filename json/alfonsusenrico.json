@@ -1,0 +1,587 @@
+{
+  "username": "alfonsusenrico",
+  "avatar_url": "https://avatars.githubusercontent.com/u/25098036?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.3307805403197749,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.9923416209593247
+      }
+    },
+    "Status": {
+      "score": 0.8311053673378976,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.993316102013693,
+        "week_streak": 0.5
+      }
+    },
+    "Adaptability": {
+      "score": 0.55625,
+      "details": {
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 5,
+        "language_transitions": 3,
+        "topic_entropy_bits": 4.9363,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5436271815315346,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        783843,
+        73
+      ],
+      "Shell": [
+        170,
+        1
+      ],
+      "JavaScript": [
+        6899,
+        25
+      ],
+      "CSS": [
+        4892,
+        15
+      ],
+      "HTML": [
+        3226,
+        9
+      ],
+      "Dockerfile": [
+        37,
+        0
+      ],
+      "Go": [
+        1604,
+        11
+      ],
+      "Makefile": [
+        7,
+        0
+      ],
+      "PHP": [
+        2593,
+        25
+      ],
+      "TypeScript": [
+        4964,
+        11
+      ],
+      "Blade": [
+        1122,
+        2
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 172,
+    "total_lines": 809357,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 783843,
+        "commits": 73
+      },
+      {
+        "language": "JavaScript",
+        "lines": 6899,
+        "commits": 25
+      },
+      {
+        "language": "PHP",
+        "lines": 2593,
+        "commits": 25
+      },
+      {
+        "language": "CSS",
+        "lines": 4892,
+        "commits": 15
+      },
+      {
+        "language": "Go",
+        "lines": 1604,
+        "commits": 11
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "alfonsusenrico",
+    "analysis_date": "2026-05-15T23:02:54.213144",
+    "total_repos_analyzed": 11,
+    "total_files_analyzed": 121,
+    "languages": {
+      "Go": {
+        "files_scanned": 18,
+        "packages": {
+          "strings": 11,
+          "fmt": 9,
+          "os": 8,
+          "path/filepath": 7,
+          "encoding/json": 6,
+          "net/http": 5,
+          "errors": 5,
+          "github.com/gofiber/fiber/v2": 4,
+          "proposal/internal/templates": 3,
+          "proposal/internal/storage": 3,
+          "proposal/internal/ai": 3,
+          "log": 3,
+          "time": 3,
+          "proposal/internal/progress": 3,
+          "proposal/internal/util": 3,
+          "os/exec": 3,
+          "sync": 3,
+          "stability-test-task-api/models": 3,
+          "proposal/internal/scaffold": 2,
+          "proposal/internal/config": 2,
+          "proposal/internal/stack": 2,
+          "strconv": 2,
+          "sort": 2,
+          "unicode": 2,
+          "stability-test-task-api/store": 2,
+          "testing": 2,
+          "bytes": 2,
+          "io": 2,
+          "proposal/internal/httpapi": 1,
+          "measurable": 1,
+          "hard": 1,
+          "use": 1,
+          "Ownership": 1,
+          "Replacement": 1,
+          "risks": 1,
+          "stack": 1,
+          "remove": 1,
+          "unknowns;": 1,
+          "Assumption": 1,
+          "default": 1,
+          "keep": 1,
+          "Defaults": 1,
+          "Success": 1,
+          "Week": 1,
+          "Inference": 1,
+          "timeline": 1,
+          "Transformation": 1,
+          "Formatting": 1,
+          "integrations": 1,
+          "Demo": 1,
+          "Status": 1,
+          "Quality": 1,
+          "Header": 1,
+          "Reasoning": 1,
+          "Open": 1,
+          "Stack": 1,
+          "You": 1,
+          "set": 1,
+          "and": 1,
+          "or": 1,
+          "Follow": 1,
+          "write": 1,
+          "3": 1,
+          "constraints": 1,
+          "Acceptance": 1,
+          "Tone": 1,
+          "github.com/openai/openai-go/v3/option": 1,
+          "context": 1,
+          "no": 1,
+          "Scope": 1,
+          "Clone": 1,
+          "Output": 1,
+          "prefer": 1,
+          "dependencies": 1,
+          "License": 1,
+          "rename": 1,
+          "performance": 1,
+          "Deliverables": 1,
+          "tables": 1,
+          "table": 1,
+          "Consistency": 1,
+          "Truthfulness": 1,
+          "prices": 1,
+          "Summary": 1,
+          "Timeline": 1,
+          "Keep": 1,
+          "Length": 1,
+          "github.com/openai/openai-go/v3/responses": 1,
+          "bullet": 1,
+          "cd": 1,
+          "project_name": 1,
+          "git": 1,
+          "proposal/internal/project": 1,
+          "version": 1,
+          "date": 1,
+          "client_or_owner": 1,
+          "net/url": 1,
+          "DOCKER_START_CMD": 1,
+          "SERVICE_NAME": 1,
+          "MIGRATE_CHECK_CMD": 1,
+          "TYPE_CMD": 1,
+          "METRICS_LOG_PATH": 1,
+          "PROJECT_NAME": 1,
+          "APP_PORT": 1,
+          "ARCHITECTURE.md": 1,
+          "QUALITY.md": 1,
+          "DEPLOYMENT.md": 1,
+          "RUNBOOK.md": 1,
+          "DOCKER_COPY_DEPS": 1,
+          "-": 1,
+          "DOCKER_BUILD_STEP": 1,
+          "DOCKER_BASE_IMAGE": 1,
+          "RELEASE.md": 1,
+          "IMAGE_NAME": 1,
+          "DEPLOY_PATH_STAGING": 1,
+          "TEST_CMD": 1,
+          "INTEGRATION_TEST_CMD": 1,
+          "HEALTH_ENDPOINT": 1,
+          "DOCKER_INSTALL_STEP": 1,
+          "ENV_VARS.md": 1,
+          "CLIENT_OR_OWNER": 1,
+          "METRICS.md": 1,
+          "LINT_CMD": 1,
+          "REPO_URL": 1,
+          "INSTALL_CMD": 1,
+          "DEP_AUDIT_CMD": 1,
+          "DEPLOY_PATH_PROD": 1,
+          "SECURITY.md": 1,
+          "BUILD_CMD": 1,
+          "DEPLOY_LOG_PATH": 1,
+          "-V": 1,
+          "--metadata": 1,
+          "--pdf-engine=xelatex": 1,
+          "pandoc": 1,
+          "regexp": 1,
+          "crypto/rand": 1,
+          "encoding/hex": 1,
+          "stability-test-task-api/handlers": 1,
+          "application/json": 1,
+          "net/http/httptest": 1,
+          "mime": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "exportBtn": 1,
+          "input": 1,
+          "pdf": 1,
+          "exportModal": 1,
+          "exportInPreview": 1,
+          "all": 1,
+          "Enter": 1,
+          "exportOutPreview": 1,
+          "Preview": 1,
+          "exportAccountSelect": 1,
+          "-": 1,
+          "change": 1,
+          "exportRangePreview": 1,
+          "exportForm": 1,
+          "exportFormat.value": 1,
+          "Loading": 1,
+          "Range": 1,
+          "exportNetPreview": 1,
+          "exportDay": 1,
+          "click": 1,
+          "exportFormat": 1,
+          "submit": 1,
+          "USD": 1,
+          "exportMsg": 1,
+          "${targetAccount}": 1,
+          "exportCountPreview": 1,
+          "25": 1,
+          "https:": 1,
+          "axios": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 22,
+        "packages": {
+          "Illuminate\\Support\\Str": 4,
+          "Illuminate\\Support\\Facades\\Schema": 4,
+          "Illuminate\\Database\\Schema\\Blueprint": 4,
+          "Illuminate\\Database\\Migrations\\Migration": 4,
+          "connection.php": 3,
+          "Illuminate\\Http\\Request": 3,
+          "Illuminate\\Foundation\\Application": 2,
+          "Illuminate\\Support\\Facades\\Route": 2,
+          "function.php": 1,
+          "App\\Models\\Courier": 1,
+          "Illuminate\\Validation\\Rule": 1,
+          "Illuminate\\Database\\Eloquent\\Model": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1,
+          "HasFactory": 1,
+          "Illuminate\\Database\\Eloquent\\Factories\\HasFactory": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "Illuminate\\Support\\Facades\\RateLimiter": 1,
+          "Illuminate\\Support\\ServiceProvider": 1,
+          "Illuminate\\Cache\\RateLimiting\\Limit": 1,
+          "Illuminate\\Foundation\\Configuration\\Middleware": 1,
+          "Illuminate\\Foundation\\Configuration\\Exceptions": 1,
+          "Monolog\\Processor\\PsrLogMessageProcessor": 1,
+          "Monolog\\Handler\\StreamHandler": 1,
+          "Monolog\\Handler\\NullHandler": 1,
+          "Monolog\\Handler\\SyslogUdpHandler": 1,
+          "Illuminate\\Support\\Facades\\Hash": 1,
+          "Illuminate\\Database\\Eloquent\\Factories\\Factory": 1,
+          "WithoutModelEvents": 1,
+          "Illuminate\\Database\\Console\\Seeds\\WithoutModelEvents": 1,
+          "Illuminate\\Database\\Seeder": 1,
+          "App\\Models\\User": 1,
+          "$maintenance": 1,
+          "App\\Http\\Controllers\\CourierController": 1,
+          "Illuminate\\Support\\Facades\\Artisan": 1,
+          "Illuminate\\Foundation\\Inspiring": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 33,
+        "packages": {
+          "app": 20,
+          "typing": 16,
+          "datetime": 15,
+          "json": 10,
+          "Any": 8,
+          "settings": 8,
+          "time": 7,
+          "dataclasses": 7,
+          "os": 7,
+          "dataclass": 7,
+          "fastapi": 7,
+          "threading": 6,
+          "psycopg": 6,
+          "sys": 6,
+          "logging": 6,
+          "unittest": 5,
+          "Dict": 5,
+          "HTTPException": 4,
+          "pathlib": 4,
+          "GmailClient": 4,
+          "uuid": 3,
+          "db_conn": 3,
+          "types": 3,
+          "Database": 3,
+          "Settings": 3,
+          "AssistantEvaluationDispatchItem": 3,
+          "GmailAccountConfig": 3,
+          "AssistantBridgeClient": 3,
+          "AccountRuntime": 3,
+          "install_dependency_stubs": 3,
+          "tests": 3,
+          "random": 2,
+          "commands": 2,
+          "discord": 2,
+          "RedisError": 2,
+          "Redis": 2,
+          "redis": 2,
+          "re": 2,
+          "secrets": 2,
+          "contextlib": 2,
+          "Response": 2,
+          "accounts": 2,
+          "base64": 2,
+          "APIRouter": 2,
+          "timedelta": 2,
+          "UniqueViolation": 2,
+          "bcrypt": 2,
+          "passlib": 2,
+          "io": 2,
+          "Path": 2,
+          "RateLimiter": 2,
+          "TimedCache": 2,
+          "importance": 2,
+          "GmailMessage": 2,
+          "googleapiclient": 2,
+          "HttpError": 2,
+          "build": 2,
+          "google": 2,
+          "AccountBackoff": 2,
+          "collections": 1,
+          "TidakDitemukan": 1,
+          "deque": 1,
+          "KBBI": 1,
+          "kbbi": 1,
+          "AutentikasiKBBI": 1,
+          "pickle": 1,
+          "ConnectionPool": 1,
+          "dict_row": 1,
+          "contextmanager": 1,
+          "psycopg_pool": 1,
+          "asynccontextmanager": 1,
+          "FastAPI": 1,
+          "close_db_pool": 1,
+          "JSONResponse": 1,
+          "router": 1,
+          "SessionMiddleware": 1,
+          "starlette": 1,
+          "pydantic": 1,
+          "BaseModel": 1,
+          "Literal": 1,
+          "hashlib": 1,
+          "Full": 1,
+          "rate_limiter": 1,
+          "queue": 1,
+          "ZoneInfo": 1,
+          "all": 1,
+          "cache": 1,
+          "fpdf": 1,
+          "csv": 1,
+          "calendar": 1,
+          "zoneinfo": 1,
+          "date": 1,
+          "FPDF": 1,
+          "PIL": 1,
+          "Image": 1,
+          "gzip": 1,
+          "patch": 1,
+          "http": 1,
+          "hmac": 1,
+          "HTTPStatus": 1,
+          "BaseHTTPRequestHandler": 1,
+          "urllib": 1,
+          "quote": 1,
+          "List": 1,
+          "Jsonb": 1,
+          "getaddresses": 1,
+          "email": 1,
+          "BeautifulSoup": 1,
+          "bs4": 1,
+          "Credentials": 1,
+          "RefreshError": 1,
+          "AssistantApiServer": 1,
+          "PubSubWorker": 1,
+          "ConfigError": 1,
+          "WatchManager": 1,
+          "GmailSyncService": 1,
+          "Optional": 1,
+          "pubsub_v1": 1,
+          "ExponentialBackoff": 1,
+          "subprocess": 1,
+          "InstalledAppFlow": 1,
+          "true": 1,
+          "argparse": 1,
+          "google_auth_oauthlib": 1,
+          "GmailIngestJob": 1,
+          "asyncio": 1,
+          "apiclient": 1,
+          "yt_dlp": 1,
+          "html": 1,
+          "load_dotenv": 1,
+          "dotenv": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 27,
+        "packages": {
+          "angular": 27,
+          "ionic": 18,
+          "ionic-native": 8,
+          "fortawesome": 5,
+          "ngx-device-detector": 4,
+          "rxjs": 3,
+          "ngx-socket-io": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "alfonsusenrico/bot_sambungkata",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "alfonsusenrico/cash-flow-tracker",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "alfonsusenrico/documentation-generator",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "alfonsusenrico/enrico-email-manager",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "alfonsusenrico/reminder_bot",
+        "files_analyzed": 3,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "alfonsusenrico/rhitem",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "alfonsusenrico/sosmed_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "alfonsusenrico/tcl-group-technical-test",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "alfonsusenrico/test-backend-gradin",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

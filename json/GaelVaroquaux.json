@@ -1,0 +1,646 @@
+{
+  "username": "GaelVaroquaux",
+  "avatar_url": "https://avatars.githubusercontent.com/u/208217?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.6406449979691573,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.721934993907472,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 0.96875,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 7,
+        "language_transitions": 6,
+        "topic_entropy_bits": 4.5136,
+        "closed_prs_total": 87,
+        "bounced_back_prs": 55
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "GaelVaroquaux/canica": 0.7157571428571429,
+        "GaelVaroquaux/cross_validation_failure": 0.17203333333333334
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8635456662604982,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        1263373,
+        123
+      ],
+      "Ruby": [
+        2218,
+        0
+      ],
+      "Python": [
+        253054,
+        271
+      ],
+      "Shell": [
+        3526,
+        7
+      ],
+      "CSS": [
+        33888,
+        19
+      ],
+      "JavaScript": [
+        8115,
+        2
+      ],
+      "Makefile": [
+        1635,
+        14
+      ],
+      "Batchfile": [
+        14,
+        0
+      ],
+      "HTML": [
+        64,
+        480
+      ],
+      "TeX": [
+        0,
+        2
+      ]
+    },
+    "language_count": 10,
+    "total_commits": 918,
+    "total_lines": 1565887,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 64,
+        "commits": 480
+      },
+      {
+        "language": "Python",
+        "lines": 253054,
+        "commits": 271
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 1263373,
+        "commits": 123
+      },
+      {
+        "language": "CSS",
+        "lines": 33888,
+        "commits": 19
+      },
+      {
+        "language": "Makefile",
+        "lines": 1635,
+        "commits": 14
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "GaelVaroquaux",
+    "analysis_date": "2026-05-16T14:29:53.327815",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 162,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "string": 1,
+          "undefined": 1,
+          "boolean": 1,
+          "remarkable": 1,
+          "models": 1,
+          "core": 1
+        }
+      },
+      "Perl": {
+        "files_scanned": 1,
+        "packages": {
+          "file:": 1,
+          "strict": 1,
+          "%incbib": 1,
+          "warnings": 1,
+          "options": 1,
+          "Encode": 1,
+          "Term::ANSIColor": 1,
+          "utf8": 1,
+          "Text::Wrap": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 145,
+        "packages": {
+          "numpy": 68,
+          "os": 37,
+          "__future__": 33,
+          "sklearn": 25,
+          "pandas": 24,
+          "matplotlib": 21,
+          "pytest": 21,
+          "toolz": 21,
+          "dask": 19,
+          "print_function": 19,
+          "tornado": 17,
+          "scipy": 14,
+          "nilearn": 14,
+          "absolute_import": 14,
+          "join": 12,
+          "itertools": 11,
+          "sys": 11,
+          "confound_prediction": 11,
+          "operator": 11,
+          "distributed": 11,
+          "functools": 10,
+          "merge": 10,
+          "gen": 10,
+          "nibabel": 9,
+          "pyplot": 9,
+          "joblib": 8,
+          "collections": 8,
+          "seaborn": 8,
+          "datasets": 8,
+          "runpy": 8,
+          "time": 7,
+          "defs": 7,
+          "pylab": 6,
+          "simulate_confounded_data": 6,
+          "partial": 6,
+          "IOLoop": 6,
+          "logging": 6,
+          "bokeh": 6,
+          "click": 6,
+          "Parallel": 5,
+          "accuracy_score": 5,
+          "add": 5,
+          "count": 5,
+          "getitem": 5,
+          "math": 5,
+          "nose": 4,
+          "BaseEstimator": 4,
+          "train_test_split": 4,
+          "ndimage": 4,
+          "product": 4,
+          "plotting": 4,
+          "atexit": 4,
+          "gen_cluster": 4,
+          "check_python_3": 4,
+          "canica": 3,
+          "linalg": 3,
+          "random": 3,
+          "Memory": 3,
+          "stats": 3,
+          "nipy": 3,
+          "glob": 3,
+          "distutils": 3,
+          "setup": 3,
+          "Bunch": 3,
+          "data_input": 3,
+          "LinearSVC": 3,
+          "inspect": 3,
+          "wraps": 3,
+          "Iterator": 3,
+          "threading": 3,
+          "raises": 3,
+          "mdutils": 3,
+          "image": 3,
+          "iter_img": 3,
+          "weakref": 3,
+          "subprocess": 3,
+          "figure": 3,
+          "AsyncHTTPClient": 3,
+          "wait": 3,
+          "BokehScheduler": 3,
+          "get_ip_interface": 3,
+          "DecisionBoundaryDisplay": 3,
+          "setuptools": 2,
+          "gaussian_kde": 2,
+          "_ensure_int_positive": 2,
+          "utils": 2,
+          "pickle": 2,
+          "bisect": 2,
+          "Number": 2,
+          "numbers": 2,
+          "h5py": 2,
+          "map": 2,
+          "valmap": 2,
+          "assert_array_almost_equal": 2,
+          "get": 2,
+          "skip": 2,
+          "Array": 2,
+          "xml": 2,
+          "sparse": 2,
+          "fetch_atlases": 2,
+          "atlas": 2,
+          "TimeoutError": 2,
+          "config": 2,
+          "queue": 2,
+          "concurrent": 2,
+          "Queue": 2,
+          "deque": 2,
+          "row": 2,
+          "web": 2,
+          "LooseVersion": 2,
+          "Application": 2,
+          "escape": 2,
+          "curdoc": 2,
+          "FunctionHandler": 2,
+          "DataTable": 2,
+          "jinja2": 2,
+          "first": 2,
+          "sleep": 2,
+          "Scheduler": 2,
+          "BokehWorker": 2,
+          "Security": 2,
+          "Launch": 2,
+          "SelectKBest": 2,
+          "DecisionTreeClassifier": 2,
+          "make_classification": 2,
+          "DummyClassifier": 2,
+          "LogisticRegression": 2,
+          "KFold": 2,
+          "MultiNiftiMasker": 2,
+          "cross_validation": 1,
+          "main": 1,
+          "save_ics": 1,
+          "output": 1,
+          "canica_split_half": 1,
+          "super_glob": 1,
+          "tools": 1,
+          "types": 1,
+          "fastica": 1,
+          "center_and_norm": 1,
+          "copy": 1,
+          "load": 1,
+          "save": 1,
+          "string": 1,
+          "pprint": 1,
+          "CompositionError": 1,
+          "VolumeImg": 1,
+          "viz": 1,
+          "extra_setuptools_args": 1,
+          "setup_egg": 1,
+          "bibtexparser": 1,
+          "codecs": 1,
+          "LinearRegression": 1,
+          "gamma": 1,
+          "det": 1,
+          "pi": 1,
+          "NearestNeighbors": 1,
+          "MultiOutputRegressor": 1,
+          "shuffle": 1,
+          "OrderedDict": 1,
+          "preprocessing": 1,
+          "mutual_kde": 1,
+          "clean": 1,
+          "deconfound_jointly": 1,
+          "DeConfounder": 1,
+          "assert_raises": 1,
+          "RidgeCV": 1,
+          "Streamlines": 1,
+          "Space": 1,
+          "colormap": 1,
+          "save_trk": 1,
+          "peaks_from_model": 1,
+          "get_fnames": 1,
+          "load_nifti": 1,
+          "gradient_table": 1,
+          "default_sphere": 1,
+          "read_bvals_bvecs": 1,
+          "CsaOdfModel": 1,
+          "dipy": 1,
+          "auto_response": 1,
+          "window": 1,
+          "ThresholdStoppingCriterion": 1,
+          "LocalTracking": 1,
+          "make_figures": 1,
+          "dash_table": 1,
+          "dash_core_components": 1,
+          "dash": 1,
+          "Input": 1,
+          "make_map": 1,
+          "tidy_most_recent": 1,
+          "dash_html_components": 1,
+          "fetcher": 1,
+          "fetch_john_hopkins_data": 1,
+          "get_all_data": 1,
+          "plotly": 1,
+          "statsmodels": 1,
+          "environ": 1,
+          "Container": 1,
+          "concat": 1,
+          "getargspec": 1,
+          "broadcast_to": 1,
+          "Chest": 1,
+          "Iterable": 1,
+          "dot_graph": 1,
+          "chest": 1,
+          "Lock": 1,
+          "RuleSet": 1,
+          "compose": 1,
+          "factorial": 1,
+          "ceil": 1,
+          "identity": 1,
+          "*": 1,
+          "coarsen": 1,
+          "SGDClassifier": 1,
+          "tsqr": 1,
+          "from_array": 1,
+          "getarray": 1,
+          "_percentile": 1,
+          "dill": 1,
+          "intersect_chunks": 1,
+          "cumdims_label": 1,
+          "arg_aggregate": 1,
+          "ignoring": 1,
+          "slice_array": 1,
+          "ones": 1,
+          "ElementTree": 1,
+          "_get_dataset_dir": 1,
+          "LabelBinarizer": 1,
+          "safe_sparse_dot": 1,
+          "estimates": 1,
+          "set_data_storage": 1,
+          "visualization": 1,
+          "overlaps": 1,
+          "plot_overlaps": 1,
+          "_safe_get_data": 1,
+          "bs4": 1,
+          "faulthandler": 1,
+          "_base": 1,
+          "ZMQIOLoop": 1,
+          "jupyter_core": 1,
+          "uuid": 1,
+          "ipykernel": 1,
+          "jupyter_runtime_dir": 1,
+          "zmq": 1,
+          "IPKernelApp": 1,
+          "Popen": 1,
+          "Event": 1,
+          "uuid4": 1,
+          "IPython": 1,
+          "Thread": 1,
+          "jupyter_client": 1,
+          "get_ipython": 1,
+          "BlockingKernelClient": 1,
+          "errno": 1,
+          "re": 1,
+          "asyncio": 1,
+          "to_asyncio_future": 1,
+          "BaseAsyncIOLoop": 1,
+          "the": 1,
+          "Spectral9": 1,
+          "Server": 1,
+          "Int": 1,
+          "CDN": 1,
+          "file_html": 1,
+          "JavaScript": 1,
+          "Tool": 1,
+          "column": 1,
+          "Viridis11": 1,
+          "pipe": 1,
+          "factor_cmap": 1,
+          "cytoolz": 1,
+          "sqrt": 1,
+          "datetime": 1,
+          "slowinc": 1,
+          "messages": 1,
+          "ColumnDataSource": 1,
+          "Counters": 1,
+          "flatten": 1,
+          "tokey": 1,
+          "scheduler": 1,
+          "url_escape": 1,
+          "json": 1,
+          "TaskStreamPlugin": 1,
+          "frequencies": 1,
+          "partition": 1,
+          "RdBu": 1,
+          "six": 1,
+          "mpi4py": 1,
+          "MPI": 1,
+          "_remote": 1,
+          "preload_modules": 1,
+          "shutil": 1,
+          "resource": 1,
+          "tempfile": 1,
+          "SSHCluster": 1,
+          "_submit": 1,
+          "exit": 1,
+          "_ncores": 1,
+          "Nanny": 1,
+          "validate_preload_argv": 1,
+          "get_address_host_port": 1,
+          "manifold": 1,
+          "subsampler": 1,
+          "EllipticEnvelopeFilter": 1,
+          "outlier_filtering": 1,
+          "SubSampler": 1,
+          "EllipticEnvelope": 1,
+          "check_random_state": 1,
+          "make_pipeline": 1,
+          "LogisticRegressionCV": 1,
+          "make_scorer": 1,
+          "GroupKFold": 1,
+          "metrics": 1,
+          "RocCurveDisplay": 1,
+          "RandomForestClassifier": 1,
+          "HistGradientBoostingClassifier": 1,
+          "PrecisionRecallDisplay": 1,
+          "defaultdict": 1,
+          "cross_val_score": 1,
+          "argparse": 1,
+          "SpectralClustering": 1,
+          "MiniBatchKMeans": 1,
+          "WardAgglomeration": 1,
+          "Nifti1Image": 1,
+          "Pipeline": 1,
+          "SVC": 1,
+          "f_classif": 1,
+          "NiftiMasker": 1,
+          "Rectangle": 1,
+          "precision_score": 1,
+          "FastICA": 1,
+          "CanICA": 1,
+          "MelodicICA": 1,
+          "LassoLarsCV": 1,
+          "Ridge": 1,
+          "Line2D": 1,
+          "BeautifulStoneSoup": 1,
+          "BeautifulSoup": 1,
+          "urllib": 1,
+          "unicodedata": 1,
+          "multiprocessing": 1,
+          "apply": 1,
+          "__builtin__": 1,
+          "ipdb": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "GaelVaroquaux/canica",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/cite-software",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/confound_prediction",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/course-materials-2020",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/covid-dashboard",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/cross_validation_failure",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/cross_val_experiments",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/dask",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/DiFuMo",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/distributed",
+        "files_analyzed": 29,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/enhancement_proposals",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/euroscipy2012_document",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/euroscipy_2022_evaluation",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/example",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/frontiers2013",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Perl",
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/gaelvaroquaux.github.io",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "GaelVaroquaux/group_lasso",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

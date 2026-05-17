@@ -1,0 +1,665 @@
+{
+  "username": "mhausenblas",
+  "avatar_url": "https://avatars.githubusercontent.com/u/52594?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.756744935271587,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.8702348058147611,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 0.8833335,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 0.5333,
+        "distinct_primary_languages": 17,
+        "language_transitions": 13,
+        "topic_entropy_bits": 4.6235,
+        "closed_prs_total": 15,
+        "bounced_back_prs": 4
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "mhausenblas/2018-state-of-faas-on-kube": 0.4466,
+        "mhausenblas/apache-big-data-cheat-sheet": 0.6408,
+        "mhausenblas/apache-drill-frontend": 0.6264000000000001
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8696823537209841,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        27497,
+        583
+      ],
+      "SCSS": [
+        1983,
+        53
+      ],
+      "JavaScript": [
+        18910,
+        279
+      ],
+      "PHP": [
+        2667,
+        0
+      ],
+      "CSS": [
+        959,
+        385
+      ],
+      "Shell": [
+        248,
+        435
+      ],
+      "Dockerfile": [
+        190,
+        20
+      ],
+      "Python": [
+        2274,
+        265
+      ],
+      "Go": [
+        350,
+        1526
+      ],
+      "Makefile": [
+        186,
+        46
+      ],
+      "TypeScript": [
+        453087,
+        1
+      ],
+      "Open Policy Agent": [
+        0,
+        20
+      ],
+      "Scala": [
+        0,
+        42
+      ],
+      "Ruby": [
+        0,
+        16
+      ],
+      "Vim Script": [
+        0,
+        3
+      ],
+      "ActionScript": [
+        0,
+        0
+      ],
+      "Rust": [
+        0,
+        19
+      ],
+      "Java": [
+        0,
+        0
+      ],
+      "Svelte": [
+        0,
+        0
+      ],
+      "C": [
+        0,
+        7
+      ],
+      "Web Ontology Language": [
+        0,
+        2
+      ],
+      "ApacheConf": [
+        0,
+        0
+      ]
+    },
+    "language_count": 22,
+    "total_commits": 3702,
+    "total_lines": 508351,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 350,
+        "commits": 1526
+      },
+      {
+        "language": "HTML",
+        "lines": 27497,
+        "commits": 583
+      },
+      {
+        "language": "Shell",
+        "lines": 248,
+        "commits": 435
+      },
+      {
+        "language": "CSS",
+        "lines": 959,
+        "commits": 385
+      },
+      {
+        "language": "JavaScript",
+        "lines": 18910,
+        "commits": 279
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "mhausenblas",
+    "analysis_date": "2026-05-16T20:08:52.946859",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 149,
+    "languages": {
+      "Go": {
+        "files_scanned": 67,
+        "packages": {
+          "fmt": 34,
+          "testing": 23,
+          "os": 20,
+          "github.com/stretchr/testify/assert": 20,
+          "strings": 19,
+          "time": 11,
+          "github.com/aws/aws-ebpf-sdk-go/pkg/logger": 10,
+          "golang.org/x/sys/unix": 10,
+          "k8s.io/autoscaler/cluster-autoscaler/cloudprovider": 9,
+          "github.com/aws/aws-controllers-k8s/pkg/model": 8,
+          "net/http": 7,
+          "github.com/golang/glog": 7,
+          "sync": 7,
+          "path/filepath": 7,
+          ":=": 7,
+          "github.com/aws/aws-controllers-k8s/pkg/testutil": 7,
+          "github.com/stretchr/testify/require": 7,
+          "unsafe": 7,
+          "runtime": 6,
+          "io/ioutil": 6,
+          "syscall": 6,
+          "errors": 5,
+          "github.com/aws/aws-ebpf-sdk-go/pkg/utils": 5,
+          "encoding/json": 4,
+          "math": 4,
+          "github.com/aws/aws-sdk-go/service/autoscaling": 4,
+          "github.com/aws/aws-sdk-go/aws": 4,
+          "k8s.io/kubernetes/plugin/pkg/scheduler/schedulercache": 4,
+          "k8s.io/autoscaler/cluster-autoscaler/utils/errors": 4,
+          "io": 4,
+          "strconv": 4,
+          "github.com/spf13/cobra": 4,
+          "sort": 4,
+          "Tags": 4,
+          "k8s.io/apimachinery/pkg/util/wait": 3,
+          "k8s.io/apimachinery/pkg/api/resource": 3,
+          "n1-standard-8": 3,
+          "encoding/binary": 3,
+          "github.com/golang/mock/gomock": 3,
+          "github.com/vishvananda/netlink": 3,
+          "github.com/aws/aws-sdk-go/aws/arn": 2,
+          "Access-Control-Allow-Origin": 2,
+          "github.com/aws/aws-lambda-go/lambda": 2,
+          "github.com/aws/aws-lambda-go/events": 2,
+          "Content-Type": 2,
+          "cpu": 2,
+          "memory": 2,
+          "storage": 2,
+          "regexp": 2,
+          "k8s.io/autoscaler/cluster-autoscaler/config/dynamic": 2,
+          "github.com/stretchr/testify/mock": 2,
+          "gopkg.in/gcfg.v1": 2,
+          "math/rand": 2,
+          "github.com/Azure/azure-sdk-for-go/arm/compute": 2,
+          "github.com/Azure/go-autorest/autorest": 2,
+          "bytes": 2,
+          "path": 2,
+          "log": 2,
+          "github.com/aws/aws-controllers-k8s/pkg/generate": 2,
+          "github.com/aws/aws-controllers-k8s/pkg/util": 2,
+          "debug/elf": 2,
+          "github.com/aws/aws-ebpf-sdk-go/pkg/elfparser": 2,
+          "gopkg.in/natefinch/lumberjack.v2": 2,
+          "go.uber.org/zap/zapcore": 2,
+          "k8s.io/kubernetes/pkg/api/resource": 1,
+          "k8s.io/autoscaler/addon-resizer/nanny": 1,
+          "k8s.io/kubernetes/pkg/client/restclient": 1,
+          "reflect": 1,
+          "github.com/aws/aws-sdk-go/aws/session": 1,
+          "t2.nano": 1,
+          "t1.micro": 1,
+          "cc1.4xlarge": 1,
+          "r4.large": 1,
+          "t2.small": 1,
+          "cg1.4xlarge": 1,
+          "r3.2xlarge": 1,
+          "p2.8xlarge": 1,
+          "cr1.8xlarge": 1,
+          "c3.2xlarge": 1,
+          "c3.xlarge": 1,
+          "m3.xlarge": 1,
+          "m4.16xlarge": 1,
+          "m4.10xlarge": 1,
+          "m2.4xlarge": 1,
+          "r4.4xlarge": 1,
+          "t2.2xlarge": 1,
+          "c4.large": 1,
+          "m4.large": 1,
+          "d2.2xlarge": 1,
+          "r4.8xlarge": 1,
+          "p2.xlarge": 1,
+          "f1.16xlarge": 1,
+          "m3.large": 1,
+          "r4.xlarge": 1,
+          "d2.8xlarge": 1,
+          "t2.micro": 1,
+          "c4.2xlarge": 1,
+          "c3.8xlarge": 1,
+          "r4.16xlarge": 1,
+          "r4.2xlarge": 1,
+          "m1.large": 1,
+          "r3.8xlarge": 1,
+          "d2.xlarge": 1,
+          "m2.xlarge": 1,
+          "f1.2xlarge": 1,
+          "m4.xlarge": 1,
+          "m4.2xlarge": 1,
+          "c1.medium": 1,
+          "i2.xlarge": 1,
+          "r3.xlarge": 1,
+          "m1.xlarge": 1,
+          "i2.8xlarge": 1,
+          "g2.2xlarge": 1,
+          "i3.16xlarge": 1,
+          "i3.2xlarge": 1,
+          "i3.4xlarge": 1,
+          "m4.4xlarge": 1,
+          "i2.2xlarge": 1,
+          "c1.xlarge": 1,
+          "p2.16xlarge": 1,
+          "hi1.4xlarge": 1,
+          "m1.medium": 1,
+          "r3.large": 1,
+          "c3.4xlarge": 1,
+          "i3.large": 1,
+          "t2.medium": 1,
+          "c4.8xlarge": 1,
+          "cc2.8xlarge": 1,
+          "m1.small": 1,
+          "r3.4xlarge": 1,
+          "x1.32xlarge": 1,
+          "x1.16xlarge": 1,
+          "g2.8xlarge": 1,
+          "i3.8xlarge": 1,
+          "t2.large": 1,
+          "c3.large": 1,
+          "t2.xlarge": 1,
+          "i2.4xlarge": 1,
+          "i3.xlarge": 1,
+          "hs1.8xlarge": 1,
+          "c4.4xlarge": 1,
+          "m2.2xlarge": 1,
+          "d2.4xlarge": 1,
+          "m3.2xlarge": 1,
+          "m3.medium": 1,
+          "c4.xlarge": 1,
+          "{{": 1,
+          "flag": 1,
+          "github.com/aws/aws-sdk-go/aws/endpoints": 1,
+          "html/template": 1,
+          "github.com/Azure/go-autorest/autorest/azure": 1,
+          "k8s.io/autoscaler/cluster-autoscaler/cloudprovider/azure": 1,
+          "k8s.io/autoscaler/cluster-autoscaler/cloudprovider/gce": 1,
+          "k8s.io/autoscaler/cluster-autoscaler/cloudprovider/aws": 1,
+          "net/url": 1,
+          "golang.org/x/oauth2": 1,
+          "golang.org/x/oauth2/google": 1,
+          "c=d": 1,
+          "DNS_SERVER_IP:": 1,
+          "test=dev:PreferNoSchedule": 1,
+          "a=b:c'\\n": 1,
+          "cloud.google.com/gke-preemptible=true\\n": 1,
+          "NODE_TAINTS:": 1,
+          "cloud.google.com/gke-nodepool=pool-3": 1,
+          "NODE_LABELS:": 1,
+          "n1-highcpu-8": 1,
+          "n1-standard-16": 1,
+          "n1-standard-2": 1,
+          "n1-highmem-16": 1,
+          "n1-standard-4": 1,
+          "n1-standard-64": 1,
+          "n1-highcpu-4": 1,
+          "n1-highcpu-2": 1,
+          "n1-highmem-2": 1,
+          "n1-highmem-64": 1,
+          "n1-highcpu-32": 1,
+          "n1-standard-32": 1,
+          "g1-small": 1,
+          "n1-highmem-8": 1,
+          "n1-highmem-32": 1,
+          "n1-highcpu-64": 1,
+          "n1-highmem-4": 1,
+          "n1-standard-1": 1,
+          "f1-micro": 1,
+          "n1-highcpu-16": 1,
+          "bufio": 1,
+          "github.com/pkg/errors": 1,
+          "net": 1,
+          "github.com/iancoleman/strcase": 1,
+          "os/exec": 1,
+          "default/kustomization": 1,
+          "manager": 1,
+          "rbac/kustomization": 1,
+          "resource": 1,
+          "controller/deployment": 1,
+          "controller/kustomization": 1,
+          "descriptor": 1,
+          "sdk": 1,
+          "rbac/cluster-role-binding": 1,
+          "identifiers": 1,
+          "manager_factory": 1,
+          "github.com/mitchellh/go-homedir": 1,
+          "github.com/aws/aws-controllers-k8s/cmd/ack-generate/command": 1,
+          "error": 1,
+          "github.com/aws/aws-sdk-go/aws/awserr": 1,
+          "setting": 1,
+          "APIKeyRequired": 1,
+          "ModelSelectionExpression": 1,
+          "AuthorizationType": 1,
+          "APIID": 1,
+          "AuthorizationScopes": 1,
+          "RequestModels": 1,
+          "Target": 1,
+          "RouteID": 1,
+          "RouteKey": 1,
+          "AuthorizerID": 1,
+          "OperationName": 1,
+          "RouteResponseSelectionExpression": 1,
+          "APIGatewayManaged": 1,
+          "RequestParameters": 1,
+          "Revision": 1,
+          "ApplicationName": 1,
+          "Description": 1,
+          "DeploymentGroupName": 1,
+          "IgnoreApplicationStopFailures": 1,
+          "UpdateOutdatedInstancesOnly": 1,
+          "FileExistsBehavior": 1,
+          "DeploymentConfigName": 1,
+          "TargetInstances": 1,
+          "DeploymentID": 1,
+          "AutoRollbackConfiguration": 1,
+          "github.com/ghodss/yaml": 1,
+          "BillingMode": 1,
+          "StreamSpecification": 1,
+          "ProvisionedThroughput": 1,
+          "KeySchema": 1,
+          "ItemCount": 1,
+          "LocalSecondaryIndexes": 1,
+          "TableSizeBytes": 1,
+          "GlobalSecondaryIndexes": 1,
+          "RestoreSummary": 1,
+          "ArchivalSummary": 1,
+          "LatestStreamLabel": 1,
+          "TableStatus": 1,
+          "BillingModeSummary": 1,
+          "SSESpecification": 1,
+          "LatestStreamARN": 1,
+          "Replicas": 1,
+          "CreationDateTime": 1,
+          "GlobalTableVersion": 1,
+          "TableID": 1,
+          "TableName": 1,
+          "AttributeDefinitions": 1,
+          "SSEDescription": 1,
+          "CreatedBy": 1,
+          "LatestVersionNumber": 1,
+          "VersionDescription": 1,
+          "DefaultVersionNumber": 1,
+          "LaunchTemplateID": 1,
+          "DryRun": 1,
+          "LaunchTemplateData": 1,
+          "CreateTime": 1,
+          "ClientToken": 1,
+          "LaunchTemplateName": 1,
+          "TagSpecifications": 1,
+          "CreatedAt": 1,
+          "RepositoryURI": 1,
+          "ImageScanningConfiguration": 1,
+          "ImageTagMutability": 1,
+          "RegistryID": 1,
+          "RepositoryName": 1,
+          "EngineVersion": 1,
+          "PreferredMaintenanceWindow": 1,
+          "SecurityGroups": 1,
+          "AZMode": 1,
+          "AtRestEncryptionEnabled": 1,
+          "AuthToken": 1,
+          "SnapshotWindow": 1,
+          "CacheNodeType": 1,
+          "SnapshotARNs": 1,
+          "NotificationConfiguration": 1,
+          "CacheNodes": 1,
+          "CacheSubnetGroupName": 1,
+          "ConfigurationEndpoint": 1,
+          "CacheParameterGroupName": 1,
+          "CacheSecurityGroups": 1,
+          "NumCacheNodes": 1,
+          "SecurityGroupIDs": 1,
+          "PendingModifiedValues": 1,
+          "CacheClusterStatus": 1,
+          "Port": 1,
+          "ClientDownloadLandingPage": 1,
+          "TransitEncryptionEnabled": 1,
+          "AuthTokenLastModifiedDate": 1,
+          "CacheClusterID": 1,
+          "CacheClusterCreateTime": 1,
+          "SnapshotRetentionLimit": 1,
+          "AutoMinorVersionUpgrade": 1,
+          "CacheParameterGroup": 1,
+          "CacheSecurityGroupNames": 1,
+          "AuthTokenEnabled": 1,
+          "PreferredAvailabilityZones": 1,
+          "ReplicationGroupID": 1,
+          "SnapshotName": 1,
+          "PreferredAvailabilityZone": 1,
+          "NotificationTopicARN": 1,
+          "Engine": 1,
+          "scanStatus": 1,
+          "IN_PROGRESS": 1,
+          "on_demand": 1,
+          "InstanceLifecycle": 1,
+          "ecr": 1,
+          "value": 1,
+          "spot": 1,
+          "instanceLifecycle": 1,
+          "ec2": 1,
+          "ScanStatus": 1,
+          "FAILED": 1,
+          "on-demand": 1,
+          "COMPLETE": 1,
+          "original": 1,
+          "github.com/aws/aws-controllers-k8s/pkg/names": 1,
+          "github.com/aws/aws-ebpf-sdk-go/pkg/cache": 1,
+          "sync/atomic": 1,
+          "go.uber.org/zap": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "sys": 4,
+          "fs": 3,
+          "url": 2,
+          "path": 2,
+          "http": 2,
+          "querystring": 1,
+          "events": 1,
+          "child_process": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 4,
+        "packages": {
+          "os": 4,
+          "sys": 3,
+          "BaseHTTPRequestHandler": 2,
+          "BaseHTTPServer": 2,
+          "logging": 2,
+          "HTTPServer": 2,
+          "random": 2,
+          "*": 2,
+          "datetime": 2,
+          "json": 2,
+          "pyes": 2,
+          "couchdbkit": 1,
+          "FileSystemDocsLoader": 1,
+          "Server": 1,
+          "subprocess": 1,
+          "restkit": 1,
+          "math": 1,
+          "DictReader": 1,
+          "BasicAuth": 1,
+          "csv": 1,
+          "urllib": 1,
+          "curdir": 1,
+          "string": 1,
+          "cgi": 1,
+          "time": 1,
+          "urlparse": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 9,
+        "packages": {
+          "danger": 3,
+          "the": 2,
+          "s": 2,
+          "re": 2,
+          "fs": 1,
+          "glob": 1,
+          "or": 1,
+          "stop": 1,
+          "see": 1,
+          "import": 1,
+          "an": 1,
+          "describe": 1,
+          "notify": 1,
+          "disassociate": 1,
+          "associate": 1,
+          "and": 1,
+          "if": 1,
+          "then": 1,
+          "oas30": 1,
+          "integrations": 1,
+          "file:": 1,
+          "t": 1,
+          "a": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "mhausenblas/addrable",
+        "files_analyzed": 10,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "mhausenblas/apache-drill-frontend",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mhausenblas/arn.services",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mhausenblas/as",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "mhausenblas/autocomplete",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "mhausenblas/autoscaler",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mhausenblas/aws-app-mesh-examples",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mhausenblas/aws-controllers-k8s",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "mhausenblas/aws-ebpf-sdk-go",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

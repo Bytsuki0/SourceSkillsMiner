@@ -1,0 +1,649 @@
+{
+  "username": "hamelsmu",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1483922?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.6197690950632861,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.6593072851898583,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 16,
+        "language_transitions": 18,
+        "topic_entropy_bits": 4.9838,
+        "closed_prs_total": 212,
+        "bounced_back_prs": 165
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "hamelsmu/actions-demo": 0.09852,
+        "hamelsmu/air-demo": 0.27686666666666665
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8656204856793239,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        10995051,
+        560
+      ],
+      "Just": [
+        1714,
+        0
+      ],
+      "HTML": [
+        7391,
+        111
+      ],
+      "Shell": [
+        6741,
+        191
+      ],
+      "Jupyter Notebook": [
+        3531470,
+        730
+      ],
+      "JavaScript": [
+        389535,
+        219
+      ],
+      "CSS": [
+        73756,
+        77
+      ],
+      "Vue": [
+        1330407,
+        0
+      ],
+      "TypeScript": [
+        1278682,
+        0
+      ],
+      "SCSS": [
+        85925,
+        2
+      ],
+      "Dockerfile": [
+        10653,
+        11
+      ],
+      "Mako": [
+        989,
+        0
+      ],
+      "Procfile": [
+        500,
+        0
+      ],
+      "Go": [
+        522776,
+        10
+      ],
+      "Makefile": [
+        4826,
+        14
+      ],
+      "Ruby": [
+        0,
+        0
+      ],
+      "Smarty": [
+        0,
+        0
+      ],
+      "R": [
+        0,
+        12
+      ],
+      "TeX": [
+        0,
+        0
+      ],
+      "Rust": [
+        0,
+        4
+      ],
+      "XSLT": [
+        0,
+        0
+      ],
+      "Lua": [
+        0,
+        0
+      ],
+      "Swift": [
+        0,
+        17
+      ]
+    },
+    "language_count": 23,
+    "total_commits": 1958,
+    "total_lines": 18240416,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 3531470,
+        "commits": 730
+      },
+      {
+        "language": "Python",
+        "lines": 10995051,
+        "commits": 560
+      },
+      {
+        "language": "JavaScript",
+        "lines": 389535,
+        "commits": 219
+      },
+      {
+        "language": "Shell",
+        "lines": 6741,
+        "commits": 191
+      },
+      {
+        "language": "HTML",
+        "lines": 7391,
+        "commits": 111
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "hamelsmu",
+    "analysis_date": "2026-05-16T13:55:01.819221",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 183,
+    "languages": {
+      "Go": {
+        "files_scanned": 31,
+        "packages": {
+          "os": 23,
+          "fmt": 21,
+          "github.com/spf13/cobra": 21,
+          "log": 9,
+          "github.com/argoproj/argo/workflow/util": 7,
+          "time": 6,
+          "github.com/argoproj/pkg/errors": 6,
+          "strings": 5,
+          "k8s.io/client-go/tools/clientcmd": 5,
+          "github.com/argoproj/argo/workflow/common": 5,
+          "k8s.io/client-go/kubernetes": 4,
+          "k8s.io/apimachinery/pkg/fields": 4,
+          "strconv": 3,
+          "encoding/json": 3,
+          "github.com/argoproj/pkg/stats": 3,
+          "github.com/argoproj/argo/pkg/client/clientset/versioned/typed/workflow/v1alpha1": 2,
+          "io": 2,
+          "github.com/ghodss/yaml": 2,
+          "github.com/argoproj/pkg/humanize": 2,
+          "text/tabwriter": 2,
+          "sync": 2,
+          "bufio": 2,
+          "context": 2,
+          "github.com/argoproj/argo/util/cmd": 2,
+          "github.com/argoproj/pkg/kube/cli": 2,
+          "flag": 2,
+          "testing": 2,
+          "rsc.io/quote/v3": 2,
+          "k8s.io/client-go/rest": 1,
+          "zsh": 1,
+          "bash": 1,
+          "github.com/argoproj/argo/workflow/validate": 1,
+          "k8s.io/apimachinery/pkg/selection": 1,
+          "sort": 1,
+          "k8s.io/apimachinery/pkg/labels": 1,
+          "k8s.io/client-go/tools/cache": 1,
+          "math": 1,
+          "k8s.io/apimachinery/pkg/runtime": 1,
+          "k8s.io/api/core/v1": 1,
+          "k8s.io/client-go/tools/watch": 1,
+          "hash/fnv": 1,
+          "github.com/argoproj/argo/pkg/apis/workflow/v1alpha1": 1,
+          "github.com/argoproj/pkg/json": 1,
+          "net/http": 1,
+          "io/ioutil": 1,
+          "github.com/argoproj/argo/cmd/argo/commands": 1,
+          "github.com/argoproj/argo/workflow/executor/docker": 1,
+          "github.com/argoproj/argo/workflow/executor/kubelet": 1,
+          "github.com/argoproj/argo/workflow/executor/k8sapi": 1,
+          "github.com/argoproj/argo": 1,
+          "github.com/argoproj/argo/workflow/executor": 1,
+          "github.com/argoproj/argo/cmd/argoexec/commands": 1,
+          "github.com/argoproj/argo/workflow/controller": 1,
+          "path/filepath": 1,
+          "github.com/pkg/errors": 1,
+          "github.com/stretchr/testify/assert": 1,
+          "github.com/argoproj/argo/errors": 1,
+          "k8s.io/kube-openapi/pkg/common": 1,
+          "github.com/go-openapi/spec": 1,
+          "example.com/user/hello/morestrings": 1,
+          "github.com/google/go-cmp/cmp": 1,
+          "github.com/hamelsmu/test_go_module/hello": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 33,
+        "packages": {
+          "vue-svgicon": 25,
+          "undefined": 6,
+          "object": 1,
+          "use": 1,
+          "popperjs": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 89,
+        "packages": {
+          "typing": 35,
+          "air": 24,
+          "os": 23,
+          "pathlib": 19,
+          "logging": 19,
+          "Path": 18,
+          "re": 16,
+          "transformers": 16,
+          "sys": 14,
+          "collections": 11,
+          "Any": 11,
+          "axolotl": 11,
+          "datetime": 10,
+          "torch": 9,
+          "starlette": 8,
+          "fastapi": 8,
+          "rename_for_jekyll": 8,
+          "fast_template": 8,
+          "functools": 7,
+          "random": 7,
+          "__future__": 7,
+          "Callable": 7,
+          "rich": 6,
+          "dataclasses": 6,
+          "dataclass": 6,
+          "setuptools": 6,
+          "TrainerCliArgs": 6,
+          "fire": 6,
+          "Optional": 6,
+          "print": 5,
+          "annotations": 5,
+          "Request": 5,
+          "PretrainedConfig": 5,
+          "asyncio": 4,
+          "warnings": 4,
+          "Depends": 4,
+          "math": 4,
+          "partial": 4,
+          "flash_attn": 4,
+          "Tuple": 4,
+          "export2html": 4,
+          "Config": 4,
+          "nbdev": 4,
+          "*": 3,
+          "inspect": 3,
+          "types": 3,
+          "enum": 3,
+          "typing_extensions": 3,
+          "Doc": 3,
+          "sqlmodel": 3,
+          "json": 3,
+          "alfie": 3,
+          "requirements": 3,
+          "parse_version": 3,
+          "configparser": 3,
+          "pkg_resources": 3,
+          "ConfigParser": 3,
+          "DictDefault": 3,
+          "importlib": 3,
+          "rearrange": 3,
+          "einops": 3,
+          "uvicorn": 2,
+          "pydantic": 2,
+          "environ": 2,
+          "Final": 2,
+          "Children": 2,
+          "sleep": 2,
+          "wraps": 2,
+          "this": 2,
+          "generate_unique_id": 2,
+          "IncEx": 2,
+          "Air": 2,
+          "Enum": 2,
+          "FunctionType": 2,
+          "the": 2,
+          "deprecated": 2,
+          "Response": 2,
+          "Annotated": 2,
+          "ASGIApp": 2,
+          "Dict": 2,
+          "SQLModel": 2,
+          "load_model": 2,
+          "numpy": 2,
+          "KmerFeatures": 2,
+          "setup": 2,
+          "subprocess": 2,
+          "train": 2,
+          "accelerate": 2,
+          "configure_logging": 2,
+          "Fore": 2,
+          "colorama": 2,
+          "Dataset": 2,
+          "datasets": 2,
+          "List": 2,
+          "mamba_ssm": 2,
+          "CrossEntropyLoss": 2,
+          "ACT2FN": 2,
+          "CausalLMOutputWithPast": 2,
+          "pad_input": 2,
+          "absolute_import": 2,
+          "bayes_logistic": 2,
+          "shlex": 2,
+          "claudette": 2,
+          "cosette": 2,
+          "fastcore": 2,
+          "itemgetter": 1,
+          "Frontmatter": 1,
+          "frontmatter": 1,
+          "mistletoe": 1,
+          "operator": 1,
+          "cache": 1,
+          "BaseModel": 1,
+          "Profiler": 1,
+          "pyinstrument": 1,
+          "HTML_SAMPLE": 1,
+          "examples": 1,
+          "typer": 1,
+          "defaultdict": 1,
+          "ast": 1,
+          "StaticFiles": 1,
+          "AirResponse": 1,
+          "FastAPI": 1,
+          "Middleware": 1,
+          "BaseRoute": 1,
+          "Lifespan": 1,
+          "BackgroundTasks": 1,
+          "HTTPException": 1,
+          "TYPE_CHECKING": 1,
+          "authlib": 1,
+          "OAuth": 1,
+          "contextlib": 1,
+          "BinaryExpression": 1,
+          "Engine": 1,
+          "getenv": 1,
+          "db": 1,
+          "Hero": 1,
+          "Heroes": 1,
+          "AsyncEngine": 1,
+          "sqlalchemy": 1,
+          "IntEnum": 1,
+          "asynccontextmanager": 1,
+          "AsyncSession": 1,
+          "AsyncGenerator": 1,
+          "pydantic_core": 1,
+          "AliasChoices": 1,
+          "Deprecated": 1,
+          "ErrorDetails": 1,
+          "annotated_types": 1,
+          "UnionType": 1,
+          "FormData": 1,
+          "time": 1,
+          "SessionMiddleware": 1,
+          "urllib": 1,
+          "urlsplit": 1,
+          "Headers": 1,
+          "randint": 1,
+          "URL": 1,
+          "override": 1,
+          "Send": 1,
+          "Mapping": 1,
+          "BackgroundTask": 1,
+          "params": 1,
+          "APIRoute": 1,
+          "load_dotenv": 1,
+          "AuthenticateRequestOptions": 1,
+          "httpx": 1,
+          "dotenv": 1,
+          "Clerk": 1,
+          "clerk_backend_api": 1,
+          "___": 1,
+          "tensorflow": 1,
+          "pytest": 1,
+          "Union": 1,
+          "hashlib": 1,
+          "base64": 1,
+          "string": 1,
+          "slack_sdk": 1,
+          "WebClient": 1,
+          "run": 1,
+          "argparse": 1,
+          "tempfile": 1,
+          "shard": 1,
+          "find_packages": 1,
+          "normalize_config": 1,
+          "huggingface_hub": 1,
+          "is_main_process": 1,
+          "GenerationConfig": 1,
+          "load_tokenizer": 1,
+          "Thread": 1,
+          "check_dataset_labels": 1,
+          "text2art": 1,
+          "prepare_optim_env": 1,
+          "set_model_mem_id": 1,
+          "prepare_dataset": 1,
+          "HfApi": 1,
+          "LocalTokenNotFoundError": 1,
+          "TrainDatasetMeta": 1,
+          "setup_wandb_env_vars": 1,
+          "art": 1,
+          "config_args": 1,
+          "gradio": 1,
+          "threading": 1,
+          "yaml": 1,
+          "do_merge_lora": 1,
+          "DEFAULT_DATASET_PREPARED_PATH": 1,
+          "PreprocessCliArgs": 1,
+          "load_cfg": 1,
+          "EarlyStoppingCallback": 1,
+          "abstractmethod": 1,
+          "abc": 1,
+          "seed_worker": 1,
+          "OneCycleLR": 1,
+          "BatchSampler": 1,
+          "MultipackBatchSampler": 1,
+          "ReLoRACallback": 1,
+          "torchdistx": 1,
+          "get_cosine_schedule_with_quadratic_warmup": 1,
+          "Formatter": 1,
+          "dictConfig": 1,
+          "mixer_seq_simple": 1,
+          "nn": 1,
+          "MambaConfig": 1,
+          "load_config_hf": 1,
+          "namedtuple": 1,
+          "MixerModel": 1,
+          "GenerationMixin": 1,
+          "copy": 1,
+          "FlashCrossAttention": 1,
+          "FusedDense": 1,
+          "RotaryEmbedding": 1,
+          "flash_attn_func": 1,
+          "AutoConfig": 1,
+          "init_empty_weights": 1,
+          "fastchat": 1,
+          "SeparatorStyle": 1,
+          "Generator": 1,
+          "LlamaAttention": 1,
+          "get_cu_seqlens_from_pos_ids": 1,
+          "xformers": 1,
+          "RMSNorm": 1,
+          "SwiGLU": 1,
+          "BaseModelOutputWithPast": 1,
+          "apply_rotary_pos_emb": 1,
+          "minimize": 1,
+          "norm": 1,
+          "scipy": 1,
+          "distutils": 1,
+          "unittest": 1,
+          "get_type_hints": 1,
+          "msglm": 1,
+          "Markdown": 1,
+          "OpenAI": 1,
+          "Console": 1,
+          "check_output": 1,
+          "mk_msg_openai": 1,
+          "openai": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "hamelsmu/air",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/air-demo",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/alfie",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/apl-study",
+        "files_analyzed": 12,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/argilla",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/argo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/axolotl",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/bayes_logistic",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/bb_dbnl",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/blog",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/blog-1",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/blog-2",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/blog-3",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/bq-gpt",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "hamelsmu/build-hugo",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

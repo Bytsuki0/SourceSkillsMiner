@@ -1,0 +1,546 @@
+{
+  "username": "arpitbbhayani",
+  "avatar_url": "https://avatars.githubusercontent.com/u/4745789?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 1.0,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 1.0
+      }
+    },
+    "Adaptability": {
+      "score": 1.0,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 1.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 16,
+        "language_transitions": 15,
+        "topic_entropy_bits": 4.3764,
+        "closed_prs_total": 16,
+        "bounced_back_prs": 11
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8416666666666668,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        17817,
+        148
+      ],
+      "Go": [
+        1074,
+        128
+      ],
+      "C": [
+        5476,
+        56
+      ],
+      "C++": [
+        52354,
+        1922
+      ],
+      "JavaScript": [
+        77427,
+        367
+      ],
+      "Shell": [
+        4188,
+        65
+      ],
+      "Python": [
+        51157,
+        442
+      ],
+      "HTML": [
+        1210842,
+        755
+      ],
+      "CSS": [
+        44676,
+        98
+      ],
+      "SCSS": [
+        7305,
+        4
+      ],
+      "Java": [
+        58996,
+        57
+      ],
+      "Dockerfile": [
+        11,
+        0
+      ],
+      "Makefile": [
+        0,
+        7
+      ],
+      "Assembly": [
+        0,
+        1
+      ],
+      "Nix": [
+        0,
+        0
+      ],
+      "ANTLR": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        39
+      ],
+      "Svelte": [
+        0,
+        5
+      ],
+      "Yacc": [
+        0,
+        0
+      ],
+      "Lex": [
+        0,
+        0
+      ],
+      "Vue": [
+        0,
+        15
+      ],
+      "CMake": [
+        0,
+        0
+      ]
+    },
+    "language_count": 22,
+    "total_commits": 4109,
+    "total_lines": 1531323,
+    "top_5_languages": [
+      {
+        "language": "C++",
+        "lines": 52354,
+        "commits": 1922
+      },
+      {
+        "language": "HTML",
+        "lines": 1210842,
+        "commits": 755
+      },
+      {
+        "language": "Python",
+        "lines": 51157,
+        "commits": 442
+      },
+      {
+        "language": "JavaScript",
+        "lines": 77427,
+        "commits": 367
+      },
+      {
+        "language": "Jupyter Notebook",
+        "lines": 17817,
+        "commits": 148
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "arpitbbhayani",
+    "analysis_date": "2026-05-16T06:47:08.543468",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 186,
+    "languages": {
+      "C": {
+        "files_scanned": 19,
+        "packages": {
+          "stdio.h": 19,
+          "<stdio.h>": 19,
+          "stdlib.h": 14,
+          "<stdlib.h>": 14,
+          "<limits.h>": 3,
+          "limits.h": 3,
+          "<string.h>": 1,
+          "string.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 10,
+        "packages": {
+          "<iostream>": 10,
+          "iostream": 10,
+          "namespace": 10,
+          "std": 10,
+          "<vector>": 4,
+          "vector": 4,
+          "queue": 3,
+          "<queue>": 3,
+          "list": 3,
+          "<list>": 3,
+          "<cstdio>": 3,
+          "cstdio": 3,
+          "<climits>": 2,
+          "climits": 2,
+          "algorithm": 2,
+          "<algorithm>": 2,
+          "map": 2,
+          "<map>": 2,
+          "stack": 1,
+          "<stack>": 1,
+          "<string>": 1,
+          "string": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 21,
+        "packages": {
+          "fmt": 7,
+          "github.com/arpitbbhayani/abloom": 6,
+          "testing": 6,
+          "os": 5,
+          "math/rand": 4,
+          "strconv": 4,
+          "log": 4,
+          "bytes": 3,
+          "io/ioutil": 3,
+          "time": 3,
+          "github.com/spf13/cobra": 3,
+          "encoding/csv": 2,
+          "github.com/arpitbbhayani/badger-cli/sessions": 2,
+          "github.com/sirupsen/logrus": 2,
+          "github.com/dgraph-io/badger": 2,
+          "github.com/arpitbbhayani/cerr": 2,
+          "hash": 1,
+          "github.com/twmb/murmur3": 1,
+          "house": 1,
+          "arpit": 1,
+          "math": 1,
+          "encoding/binary": 1,
+          "random-key": 1,
+          "random-key-2": 1,
+          "github.com/go-redis/redis": 1,
+          "sync": 1,
+          "github.com/paulbellamy/ratecounter": 1,
+          "github.com/arpitbbhayani/arlt/arlt": 1,
+          "bufio": 1,
+          "github.com/arpitbbhayani/badger-cli/commands": 1,
+          "encoding/json": 1,
+          "errors": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 17,
+        "packages": {
+          "com.articulate": 17,
+          "java.io": 13,
+          "java.util": 9,
+          "java.net": 1,
+          "spark.Response": 1,
+          "spark.Route": 1,
+          "freemarker.template": 1,
+          "spark.Spark": 1,
+          "spark.Request": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 33,
+        "packages": {
+          "object": 9,
+          "date-fns": 6,
+          "express": 4,
+          "fs": 4,
+          "node-emoji": 2,
+          "chalk": 2,
+          "commander": 2,
+          "path": 2,
+          "webpack": 2,
+          ")": 2,
+          "function": 2,
+          "http": 2,
+          "socket.io": 2,
+          "ora": 1,
+          "webpack-node-externals": 1,
+          "yargs": 1,
+          "jQuery": 1,
+          "n.corpusTokens=t.SortedSet.load(e.corpusTokens)": 1,
+          "n.tokenStore=t.TokenStore.load(e.tokenStore)": 1,
+          "e){var": 1,
+          "boost:e.boost||1};return": 1,
+          "n.pipeline=t.Pipeline.load(e.pipeline)": 1,
+          "t.Index.prototype.tokenizer=function(e){var": 1,
+          "+e.version);var": 1,
+          "t.Index.prototype.field=function(t": 1,
+          "t.Index.prototype.ref=function(t){return": 1,
+          "n.documentStore=t.Store.load(e.documentStore)": 1,
+          "n}": 1,
+          "this}": 1,
+          "n.tokenizer(t.tokenizer.load(e.tokenizer))": 1,
+          "n={name:t": 1,
+          "n._ref=e.ref": 1,
+          "h.style.setProperty(": 1,
+          "R.style.setProperty(": 1,
+          "c:[{b:": 1,
+          "a=": 1,
+          "crypto": 1,
+          "mustache": 1,
+          "body-parser": 1,
+          "express-handlebars": 1,
+          "cookie-parser": 1,
+          "config": 1,
+          "mongodb": 1,
+          "mkdirp": 1,
+          "gulp-util": 1,
+          "url": 1,
+          "event-stream": 1,
+          "gulp-concat": 1,
+          "camelcase": 1,
+          "gulp": 1,
+          "del": 1,
+          "gulp-sass": 1,
+          "gulp-uglify": 1,
+          "ansi-colors": 1,
+          "autoprefixer": 1,
+          "fancy-log": 1,
+          "gulp-minify-css": 1,
+          "node_modules": 1,
+          "gulp-clean-css": 1,
+          "gulp-nop": 1,
+          "webpack-stream": 1,
+          "gulp-run": 1,
+          "gulp-postcss": 1,
+          "browser-sync": 1,
+          "yyyy-MM-dd": 1,
+          "string": 1,
+          "[object": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 32,
+        "packages": {
+          "os": 14,
+          "sys": 10,
+          "re": 8,
+          "pytrie": 6,
+          "OrderedDict": 6,
+          "porter2": 6,
+          "collections": 6,
+          "enchant": 6,
+          "django": 4,
+          "services": 3,
+          "utils": 3,
+          "get_logger": 3,
+          "argparse": 2,
+          "logging": 2,
+          "yaml": 2,
+          "twython": 2,
+          "time": 2,
+          "TwythonStreamer": 2,
+          "operator": 2,
+          "streamlit": 2,
+          "aiohttp": 2,
+          "asyncio": 2,
+          "do": 1,
+          "render_pixelgrid": 1,
+          "encode": 1,
+          "KMeans": 1,
+          "numpy": 1,
+          "logger": 1,
+          "Image": 1,
+          "shuffle": 1,
+          "sklearn": 1,
+          "matplotlib": 1,
+          "PIL": 1,
+          "pairwise_distances_argmin": 1,
+          "datetime": 1,
+          "optparse": 1,
+          "OptionParser": 1,
+          "doctest": 1,
+          "itemgetter": 1,
+          "DictMixin": 1,
+          "UserDict": 1,
+          "copy": 1,
+          "get_asgi_application": 1,
+          "path": 1,
+          "admin": 1,
+          "get_wsgi_application": 1,
+          "execute_from_command_line": 1,
+          "socket": 1,
+          "json": 1,
+          "bs4": 1,
+          "JobQueue": 1,
+          "job_queue": 1,
+          "BeautifulSoup": 1,
+          "Queue": 1,
+          "download_utils": 1,
+          "download_file_async": 1,
+          "slugify": 1,
+          "urlsplit": 1,
+          "urllib": 1,
+          "gensim": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "arpitbbhayani/abloom",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/aps_src",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C",
+          "C++"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/arcli",
+        "files_analyzed": 9,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/arlt",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/arp",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/arpitbbhayani.github.io",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/articles",
+        "files_analyzed": 2,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/articulate",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/artisen",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/arws",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/arx",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/arxiv-download",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/badger-cli",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/boilr-base-express-app",
+        "files_analyzed": 7,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/bulma-calendar",
+        "files_analyzed": 28,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/byte-pair-tokenization",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "arpitbbhayani/cerr",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

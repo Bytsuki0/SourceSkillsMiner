@@ -1,0 +1,214 @@
+{
+  "username": "lukaszcettler",
+  "avatar_url": "https://avatars.githubusercontent.com/u/107297474?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.5977068424412082,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.9285714285714286,
+        "commits_activity": 0.864549098752196
+      }
+    },
+    "Status": {
+      "score": 0.6894528516227635,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.8683585548682905,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 0.3625,
+      "details": {
+        "language_diversity_score": 0.25,
+        "technology_adoption_score": 0.2,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 2,
+        "language_transitions": 1,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 1,
+        "bounced_back_prs": 1
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5299319388127943,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        755371,
+        81
+      ],
+      "Kotlin": [
+        25025,
+        3
+      ],
+      "Java": [
+        2852,
+        0
+      ],
+      "Python": [
+        24657,
+        3
+      ]
+    },
+    "language_count": 4,
+    "total_commits": 87,
+    "total_lines": 807905,
+    "top_5_languages": [
+      {
+        "language": "Swift",
+        "lines": 755371,
+        "commits": 81
+      },
+      {
+        "language": "Kotlin",
+        "lines": 25025,
+        "commits": 3
+      },
+      {
+        "language": "Python",
+        "lines": 24657,
+        "commits": 3
+      },
+      {
+        "language": "Java",
+        "lines": 2852,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "lukaszcettler",
+    "analysis_date": "2026-05-17T13:22:09.538894",
+    "total_repos_analyzed": 7,
+    "total_files_analyzed": 82,
+    "languages": {
+      "Java": {
+        "files_scanned": 3,
+        "packages": {
+          "com.example": 3,
+          "static": 2,
+          "org.junit": 2,
+          "androidx.test": 1,
+          "android.content": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 6,
+        "packages": {
+          "androidx.appcompat": 6,
+          "android.os": 6,
+          "com.example": 6,
+          "android.widget": 5,
+          "android.annotation": 3,
+          "android.text": 2,
+          "kotlin.math": 2,
+          "android.content": 2,
+          "com.jjoe64": 1,
+          "android.graphics": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 2,
+        "packages": {
+          "webdriver": 2,
+          "unittest": 2,
+          "re": 2,
+          "By": 2,
+          "selenium": 2,
+          "NoSuchElementException": 2,
+          "time": 2,
+          "NoAlertPresentException": 2,
+          "Keys": 1,
+          "Select": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 70,
+        "packages": {
+          "UIKit": 45,
+          "XCTest": 12,
+          "Foundation": 11,
+          "SpriteKit": 3,
+          "WebKit": 2,
+          "GameplayKit": 2
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "lukaszcettler/Drynks",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "lukaszcettler/PAMO",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "lukaszcettler/Project1",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "lukaszcettler/SwiftTraining",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "lukaszcettler/TaskManager",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "lukaszcettler/TAU",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python",
+          "Swift"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "username": "esmaily",
+  "avatar_url": "https://avatars.githubusercontent.com/u/15994540?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.5967371636824673,
+      "details": {
+        "issue_resolution_rate": 0.8666666666666667,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.9235448243807354
+      }
+    },
+    "Status": {
+      "score": 0.8078482747935785,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.9235448243807354,
+        "week_streak": 0.5
+      }
+    },
+    "Adaptability": {
+      "score": 0.24375000000000002,
+      "details": {
+        "language_diversity_score": 0.375,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 3,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "esmaily/python-soap-server": 0.3404
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6296670876952092,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Python": [
+        3552,
+        119
+      ],
+      "Dockerfile": [
+        20,
+        0
+      ],
+      "JavaScript": [
+        68465,
+        2
+      ],
+      "PHP": [
+        52655,
+        1
+      ],
+      "Shell": [
+        5,
+        0
+      ],
+      "HTML": [
+        71352,
+        1
+      ],
+      "CSS": [
+        31089,
+        0
+      ]
+    },
+    "language_count": 7,
+    "total_commits": 123,
+    "total_lines": 227138,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 3552,
+        "commits": 119
+      },
+      {
+        "language": "JavaScript",
+        "lines": 68465,
+        "commits": 2
+      },
+      {
+        "language": "PHP",
+        "lines": 52655,
+        "commits": 1
+      },
+      {
+        "language": "HTML",
+        "lines": 71352,
+        "commits": 1
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 20,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "esmaily",
+    "analysis_date": "2026-05-15T21:18:17.163169",
+    "total_repos_analyzed": 10,
+    "total_files_analyzed": 107,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 11,
+        "packages": {
+          "object": 3,
+          "jQuery": 2,
+          "[]": 2,
+          "512": 2,
+          "undefined": 2,
+          "ws": 2,
+          "use": 1,
+          "__esModule": 1,
+          ":": 1,
+          ":[576": 1,
+          "express": 1,
+          "http": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 26,
+        "packages": {
+          "Shetabit\\Multipay\\RedirectionForm": 22,
+          "Shetabit\\Multipay\\Contracts\\ReceiptInterface": 22,
+          "Shetabit\\Multipay\\Invoice": 21,
+          "Shetabit\\Multipay\\Abstracts\\Driver": 20,
+          "Shetabit\\Multipay\\Receipt": 20,
+          "Shetabit\\Multipay\\Exceptions\\PurchaseFailedException": 19,
+          "Shetabit\\Multipay\\Exceptions\\InvalidPaymentException": 17,
+          "Shetabit\\Multipay\\Request": 17,
+          "GuzzleHttp\\Client": 14,
+          "Carbon\\Carbon": 3,
+          "core/helpers.php": 1,
+          "core/Database.php": 1,
+          "Shetabit\\Multipay\\Contracts\\DriverInterface": 1,
+          "Core/fn.atipay.php": 1,
+          "Shetabit\\Multipay\\Drivers\\Pasargad\\Utils\\RSAProcessor": 1,
+          "DateTimeZone": 1,
+          "DateTime": 1,
+          "Shetabit\\Multipay\\Drivers\\Pasargad\\Utils\\RSA": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 47,
+        "packages": {
+          "app": 22,
+          "fastapi": 19,
+          "sqlalchemy": 11,
+          "typing": 9,
+          "pydantic": 9,
+          "datetime": 9,
+          "APIRouter": 8,
+          "FastAPI": 8,
+          "Any": 7,
+          "BaseModel": 6,
+          "json": 5,
+          "settings": 5,
+          "GatewayModel": 5,
+          "databases": 4,
+          "spyne": 4,
+          "os": 3,
+          "asyncio": 3,
+          "api_router": 3,
+          "create_engine": 3,
+          "uuid": 3,
+          "uuid4": 3,
+          "Boolean": 3,
+          "relationship": 3,
+          "es": 2,
+          "Article": 2,
+          "BaseSettings": 2,
+          "ormar": 2,
+          "Database": 2,
+          "declarative_base": 2,
+          "sqlite3": 2,
+          "TestClient": 2,
+          "CustomerSchema": 2,
+          "Config": 2,
+          "sessionmaker": 2,
+          "ABC": 2,
+          "abc": 2,
+          "db": 2,
+          "random": 2,
+          "jose": 2,
+          "Session": 2,
+          "src": 2,
+          "enum": 2,
+          "Enum": 2,
+          "articles": 1,
+          "create_article_task": 1,
+          "kombu": 1,
+          "Queue": 1,
+          "crontab": 1,
+          "Celery": 1,
+          "celery": 1,
+          "Elasticsearch": 1,
+          "elasticsearch": 1,
+          "connect": 1,
+          "aio_pika": 1,
+          "init_listen_queues": 1,
+          "database": 1,
+          "celery_app": 1,
+          "time": 1,
+          "psutil": 1,
+          "async_main": 1,
+          "pytest": 1,
+          "Array": 1,
+          "CustomerCreateValidation": 1,
+          "decouple": 1,
+          "URL": 1,
+          "Singleton": 1,
+          "update": 1,
+          "Orm": 1,
+          "ServiceSchema": 1,
+          "ValidationError": 1,
+          "AbstractValidator": 1,
+          "date": 1,
+          "Integer": 1,
+          "CustomerModel": 1,
+          "ComplexModel": 1,
+          "dataclasses": 1,
+          "dataclass": 1,
+          "logging": 1,
+          "wsgiref": 1,
+          "CustomerController": 1,
+          "Application": 1,
+          "WsgiApplication": 1,
+          "make_server": 1,
+          "Soap11": 1,
+          "sms": 1,
+          "gateway_api": 1,
+          "Annotated": 1,
+          "StaticPool": 1,
+          "BaseMeta": 1,
+          "Optional": 1,
+          "GhasedakGateway": 1,
+          "KavenegarGateway": 1,
+          "ghasedakpack": 1,
+          "concurrent": 1,
+          "kavenegar": 1,
+          "APIException": 1,
+          "OAuth2PasswordBearer": 1,
+          "JWTError": 1,
+          "Depends": 1,
+          "UUID4": 1,
+          "UserCreate": 1,
+          "RepositoryBase": 1,
+          "schemas": 1,
+          "passlib": 1,
+          "jwt": 1,
+          "CryptContext": 1,
+          "functools": 1,
+          "secrets": 1,
+          "AnyUrl": 1,
+          "lru_cache": 1,
+          "config": 1,
+          "starlette": 1,
+          "router": 1,
+          "jsonable_encoder": 1,
+          "Base": 1,
+          "ticket": 1,
+          "auth": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "esmaily/elastic-fastapi-project-example",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "esmaily/js-excel-online",
+        "files_analyzed": 24,
+        "languages_found": [
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "repository": "esmaily/memry-monitor",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "esmaily/multipay",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "esmaily/python-soap-server",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "esmaily/Real-Time-Chat-Nodejs",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "esmaily/sms-gateway",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "esmaily/support-ticket-fastapi",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

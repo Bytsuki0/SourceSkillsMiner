@@ -1,0 +1,516 @@
+{
+  "username": "theEmris",
+  "avatar_url": "https://avatars.githubusercontent.com/u/95921297?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.26880509375182843,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.8064152812554853
+      }
+    },
+    "Status": {
+      "score": 0.657345475020064,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.7720364250601922,
+        "week_streak": 0.2
+      }
+    },
+    "Adaptability": {
+      "score": 0.125,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.4102301137543785,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "C++": [
+        20853,
+        11
+      ],
+      "Dart": [
+        44744,
+        25
+      ],
+      "CMake": [
+        10636,
+        3
+      ],
+      "HTML": [
+        7934,
+        2
+      ],
+      "C": [
+        954,
+        0
+      ],
+      "Swift": [
+        923,
+        0
+      ],
+      "Kotlin": [
+        259,
+        0
+      ],
+      "Objective-C": [
+        72,
+        0
+      ],
+      "Java": [
+        0,
+        0
+      ],
+      "JavaScript": [
+        0,
+        0
+      ],
+      "Shell": [
+        0,
+        0
+      ]
+    },
+    "language_count": 11,
+    "total_commits": 41,
+    "total_lines": 86375,
+    "top_5_languages": [
+      {
+        "language": "Dart",
+        "lines": 44744,
+        "commits": 25
+      },
+      {
+        "language": "C++",
+        "lines": 20853,
+        "commits": 11
+      },
+      {
+        "language": "CMake",
+        "lines": 10636,
+        "commits": 3
+      },
+      {
+        "language": "HTML",
+        "lines": 7934,
+        "commits": 2
+      },
+      {
+        "language": "C",
+        "lines": 954,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "theEmris",
+    "analysis_date": "2026-05-17T09:00:14.417685",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 375,
+    "languages": {
+      "C++": {
+        "files_scanned": 52,
+        "packages": {
+          "flutter_window.h": 20,
+          "<windows.h>": 20,
+          "utils.h": 20,
+          "windows.h": 20,
+          "flutter_windows.h": 19,
+          "<flutter_windows.h>": 19,
+          "generated_plugin_registrant.h": 11,
+          "flutter/generated_plugin_registrant.h": 11,
+          "optional": 10,
+          "<optional>": 10,
+          "<flutter/flutter_view_controller.h>": 10,
+          "flutter/flutter_view_controller.h": 10,
+          "<flutter/dart_project.h>": 10,
+          "flutter/dart_project.h": 10,
+          "<iostream>": 10,
+          "<io.h>": 10,
+          "io.h": 10,
+          "stdio.h": 10,
+          "<stdio.h>": 10,
+          "iostream": 10,
+          "EnableNonClientDpiScaling": 9,
+          "resource.h": 9,
+          "win32_window.h": 9,
+          "my_application.h": 2,
+          "connectivity_plus_windows/connectivity_plus_windows_plugin.h": 1,
+          "<connectivity_plus_windows/connectivity_plus_windows_plugin.h>": 1,
+          "flutter_linux/flutter_linux.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "gdk/gdkx.h": 1,
+          "<gdk/gdkx.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 58,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 18,
+          "memory": 18,
+          "<memory>": 18,
+          "<string>": 18,
+          "string": 18,
+          "flutter/plugin_registry.h": 10,
+          "<flutter/plugin_registry.h>": 10,
+          "<flutter/flutter_view_controller.h>": 10,
+          "flutter/flutter_view_controller.h": 10,
+          "<flutter/dart_project.h>": 10,
+          "win32_window.h": 10,
+          "flutter/dart_project.h": 10,
+          "<vector>": 10,
+          "vector": 10,
+          "<functional>": 8,
+          "<windows.h>": 8,
+          "functional": 8,
+          "windows.h": 8,
+          "flutter_linux/flutter_linux.h": 1,
+          "<flutter_linux/flutter_linux.h>": 1,
+          "<gtk/gtk.h>": 1,
+          "gtk/gtk.h": 1
+        }
+      },
+      "Dart": {
+        "files_scanned": 185,
+        "packages": {
+          "flutter": 160,
+          "yiqilma_app": 20,
+          "provider": 18,
+          "flutter_test": 17,
+          "organico": 16,
+          "flutter_svg": 15,
+          "flutter_bloc": 12,
+          "imtihonthird": 11,
+          "lastproject": 10,
+          "hive_flutter": 9,
+          "halal_farm": 9,
+          "my_app": 8,
+          "hive": 8,
+          "interview_app": 7,
+          "dio": 5,
+          "dart:math": 5,
+          "provider_task_1": 5,
+          "mycubitproject1": 4,
+          "animation1": 3,
+          "get_storage": 3,
+          "find_hiden_namber": 3,
+          "flutter_qiblah": 3,
+          "cached_network_image": 3,
+          "extensions_": 3,
+          "cloud_firestore": 3,
+          "noteficationrepeat": 2,
+          "dart:convert": 2,
+          "imtihon": 2,
+          "dart:io": 2,
+          "dart:async": 2,
+          "geolocator": 2,
+          "revision1": 2,
+          "date_time_picker": 2,
+          "lottie": 1,
+          "connectivity_plus": 1,
+          "baseview": 1,
+          "sanagich": 1,
+          "egar_revo": 1,
+          "bloc": 1,
+          "flutter_local_notifications": 1,
+          "timezone": 1,
+          "intl": 1,
+          "calendar_agenda": 1,
+          "awesome_dialog": 1,
+          "google_maps_flutter": 1,
+          "loading_animation_widget": 1,
+          "flutter_alarm_clock": 1,
+          "path_provider": 1,
+          "firebase_auth": 1,
+          "firebase_storage": 1,
+          "firebase_core": 1,
+          "bottom_picker": 1,
+          "date_picker_timeline": 1,
+          "im_stepper": 1,
+          "awesome_stepper": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 1,
+        "packages": {
+          "androidx.multidex": 1,
+          "io.flutter": 1,
+          "androidx.annotation": 1,
+          "android.content": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 4,
+        "packages": {
+          "strapi": 3,
+          "api::new.new": 3,
+          "path": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 18,
+        "packages": {
+          "io.flutter": 18,
+          "com.example": 17,
+          "com.firebase5": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 21,
+        "packages": {
+          "UIKit": 18,
+          "Flutter": 18,
+          "FlutterMacOS": 3,
+          "Cocoa": 2,
+          "Foundation": 1,
+          "path_provider_macos": 1,
+          "sqflite": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "theEmris/Animation",
+        "files_analyzed": 21,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/appWithStrapi",
+        "files_analyzed": 28,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/baseveiw",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/counter",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/egar_revo",
+        "files_analyzed": 15,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/find_the_color",
+        "files_analyzed": 18,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/flutter-notification",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/forInterview",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/halal_farm",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/IBilling_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/imtihon_app",
+        "files_analyzed": 14,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/imtihon_third",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/learn_extensions",
+        "files_analyzed": 20,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/my-first-bloc-app-",
+        "files_analyzed": 18,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/newprojectforsmth",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/organico",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/provider_task_1",
+        "files_analyzed": 12,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/revision1",
+        "files_analyzed": 16,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "theEmris/sizedConfig",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Dart"
+        ]
+      },
+      {
+        "repository": "theEmris/strapi_example1",
+        "files_analyzed": 11,
+        "languages_found": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}

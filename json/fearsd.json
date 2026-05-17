@@ -1,0 +1,606 @@
+{
+  "username": "fearsd",
+  "avatar_url": "https://avatars.githubusercontent.com/u/46864568?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8551282051282051,
+      "details": {
+        "issue_resolution_rate": 0.6153846153846154,
+        "pr_merge_rate": 0.95,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7666666666666666,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.3
+      }
+    },
+    "Adaptability": {
+      "score": 0.7154135,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.8617,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 8,
+        "language_transitions": 8,
+        "topic_entropy_bits": 2.585,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {
+        "fearsd/idea_tracker_bot": -0.19934
+      }
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6674416743589744,
+  "language_usage": {
+    "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/fearsd/zapominayka/languages (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1077)')))",
+    "languages": {},
+    "language_count": 0,
+    "total_commits": 0,
+    "total_lines": 0
+  },
+  "import_scan": {
+    "error": null,
+    "username": "fearsd",
+    "analysis_date": "2026-05-15T21:38:45.455494",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 254,
+    "languages": {
+      "C#": {
+        "files_scanned": 14,
+        "packages": {
+          "System.Linq": 10,
+          "System.Windows": 6,
+          "System.Threading.Tasks": 5,
+          "System.Collections.Generic": 5,
+          "System.Text": 3,
+          "System.Data": 2,
+          "System.Configuration": 2,
+          "System.Windows.Input": 2,
+          "System.Windows.Media": 2,
+          "System.Windows.Navigation": 2,
+          "System.Windows.Controls": 2,
+          "System.Windows.Documents": 2,
+          "System.Windows.Data": 2,
+          "System.Windows.Shapes": 2,
+          "System.Windows.Media.Imaging": 2,
+          "Microsoft.AspNetCore.Mvc": 1,
+          "Microsoft.AspNetCore.Mvc.RazorPages": 1,
+          "Microsoft.AspNetCore.Components": 1,
+          "Microsoft.AspNetCore.Components.Web": 1,
+          "course_work2023.Data": 1,
+          "System.Windows.Forms": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 2,
+        "packages": {
+          "<UIKit/UIKit.h>": 2,
+          "<Flutter/Flutter.h>": 2
+        }
+      },
+      "Dart": {
+        "files_scanned": 2,
+        "packages": {
+          "flutter": 2,
+          "dart:math": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 7,
+        "packages": {
+          "fmt": 4,
+          "net/http": 2,
+          "testing": 2,
+          "github.com/stretchr/testify/require": 2,
+          "github.com/fearsd/course_work2024/backend/src/handlers": 1,
+          "math/rand": 1,
+          "encoding/json": 1,
+          "github.com/fearsd/course_work2024/backend/src/algos": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 2,
+        "packages": {
+          "co.appbrewery": 2,
+          "io.flutter": 2,
+          "android.os": 2
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "react": 4,
+          "undefined": 3,
+          "object": 2,
+          "react-dom": 2,
+          "sveltejs": 1,
+          "gzip-js": 1,
+          "jquery": 1,
+          "Mn=function(A){Sn(A": 1,
+          "bit": 1,
+          "<svg": 1,
+          "c": 1,
+          "testing-library": 1
+        }
+      },
+      "Objective-C / MATLAB": {
+        "files_scanned": 4,
+        "packages": {
+          "AppDelegate.h": 4,
+          "GeneratedPluginRegistrant.h": 2,
+          "UIKit/UIKit.h": 2,
+          "<Flutter/Flutter.h>": 2,
+          "Flutter/Flutter.h": 2,
+          "<UIKit/UIKit.h>": 2
+        }
+      },
+      "Python": {
+        "files_scanned": 148,
+        "packages": {
+          "sqlalchemy": 42,
+          "pandas": 34,
+          "numpy": 28,
+          "os": 26,
+          "sqlmodel": 23,
+          "django": 21,
+          "datetime": 20,
+          "alembic": 20,
+          "op": 18,
+          "fastapi": 11,
+          "DataFrame": 11,
+          "app": 10,
+          "typing": 10,
+          "random": 9,
+          "pytest": 9,
+          "logging": 9,
+          "date": 9,
+          "APIRouter": 9,
+          "db": 8,
+          "yahooquery": 8,
+          "models": 7,
+          "AsyncSession": 7,
+          "pydantic": 7,
+          "BaseModel": 7,
+          "time": 6,
+          "get_async_session": 6,
+          "string": 6,
+          "config": 5,
+          "json": 5,
+          "asyncio": 5,
+          "SQLModel": 5,
+          "Session": 5,
+          "re": 5,
+          "sys": 4,
+          "settings": 4,
+          "prometheus_client": 4,
+          "Base": 4,
+          "Column": 4,
+          "publish_event": 4,
+          "dispatch_event": 4,
+          "List": 4,
+          "get_db": 4,
+          "torch": 4,
+          "transformers": 4,
+          "io": 4,
+          "warnings": 4,
+          "logging_middleware": 3,
+          "TestCase": 3,
+          "path": 3,
+          "rest_framework": 3,
+          "aio_pika": 3,
+          "handlers": 3,
+          "requests": 3,
+          "Optional": 3,
+          "create_engine": 3,
+          "utils": 3,
+          "postgresql": 3,
+          "GPT2LMHeadModel": 3,
+          "itertools": 3,
+          "setuptools": 2,
+          "DEFAULTS": 2,
+          "Response": 2,
+          "EVENTS_PROCESSED": 2,
+          "metrics": 2,
+          "async_sessionmaker": 2,
+          "DeclarativeBase": 2,
+          "consumer": 2,
+          "init_db": 2,
+          "start_http_server": 2,
+          "threading": 2,
+          "Counter": 2,
+          "select": 2,
+          "TeamCreatedEvent": 2,
+          "TrackAddedEvent": 2,
+          "redis": 2,
+          "FastAPI": 2,
+          "Mapped": 2,
+          "functools": 2,
+          "hashlib": 2,
+          "sessionmaker": 2,
+          "ideas_to_text": 2,
+          "engine_from_config": 2,
+          "fileConfig": 2,
+          "context": 2,
+          "func": 2,
+          "engine": 2,
+          "run_game": 2,
+          "fineclass": 2,
+          "finetune": 2,
+          "flask": 2,
+          "Flask": 2,
+          "csv": 2,
+          "BytesIO": 2,
+          "admin": 2,
+          "migrations": 2,
+          "COUNTRIES": 2,
+          "Ticker": 2,
+          "urllib": 2,
+          "FuturesSession": 2,
+          "parse": 2,
+          "urlparse": 2,
+          "requests_futures": 2,
+          "Player": 1,
+          "webbrowser": 1,
+          "sleep": 1,
+          "Config": 1,
+          "telebot": 1,
+          "check_settings": 1,
+          "checks": 1,
+          "logger": 1,
+          "loguru": 1,
+          "User": 1,
+          "override_settings": 1,
+          "api_view": 1,
+          "APIView": 1,
+          "View": 1,
+          "DriverAchievement": 1,
+          "update_achievements": 1,
+          "achievements": 1,
+          "asynccontextmanager": 1,
+          "contextlib": 1,
+          "consume_events": 1,
+          "BaseSettings": 1,
+          "pydantic_settings": 1,
+          "handle_event": 1,
+          "schemas": 1,
+          "DriverCreatedEvent": 1,
+          "start_consuming": 1,
+          "DriverEvent": 1,
+          "cache_response": 1,
+          "get_redis": 1,
+          "DriverStanding": 1,
+          "RaceScheduledEvent": 1,
+          "RaceEvent": 1,
+          "TeamEvent": 1,
+          "TrackEvent": 1,
+          "prometheus_fastapi_instrumentator": 1,
+          "Instrumentator": 1,
+          "router": 1,
+          "drivers": 1,
+          "DateTime": 1,
+          "JSONB": 1,
+          "String": 1,
+          "Callable": 1,
+          "JSONResponse": 1,
+          "wraps": 1,
+          "Request": 1,
+          "starlette": 1,
+          "Any": 1,
+          "dotenv_values": 1,
+          "dotenv": 1,
+          "Item": 1,
+          "aiogram": 1,
+          "Bot": 1,
+          "relationship": 1,
+          "declarative_base": 1,
+          "ForeignKey": 1,
+          "AsyncEngine": 1,
+          "backend": 1,
+          "Category": 1,
+          "pool": 1,
+          "District": 1,
+          "UserAccount": 1,
+          "users_router": 1,
+          "CORSMiddleware": 1,
+          "district_router": 1,
+          "polls_router": 1,
+          "api": 1,
+          "save_fake_names_to_db": 1,
+          "Result": 1,
+          "typer": 1,
+          "filter_groups_by_poll": 1,
+          "run_saving_questions": 1,
+          "JSON": 1,
+          "enum": 1,
+          "__future__": 1,
+          "with_statement": 1,
+          "math": 1,
+          "play_game_progression": 1,
+          "games": 1,
+          "play_game_lcm": 1,
+          "Bootstrap": 1,
+          "werkzeug": 1,
+          "replyclass": 1,
+          "flask_bootstrap": 1,
+          "session": 1,
+          "flask_sqlalchemy": 1,
+          "SQLAlchemy": 1,
+          "NotFound": 1,
+          "tqdm": 1,
+          "amp": 1,
+          "DistributedSampler": 1,
+          "pad_sequence": 1,
+          "Dict": 1,
+          "pickle": 1,
+          "SummaryWriter": 1,
+          "argparse": 1,
+          "ptvsd": 1,
+          "shutil": 1,
+          "apex": 1,
+          "glob": 1,
+          "DataLoader": 1,
+          "subprocess": 1,
+          "lib": 1,
+          "importlib": 1,
+          "import_module": 1,
+          "checked_add_with_arr": 1,
+          "operator": 1,
+          "extract_array": 1,
+          "cache_readonly": 1,
+          "union_categoricals": 1,
+          "DatetimeIndex": 1,
+          "pandas_dtype": 1,
+          "*": 1,
+          "Hour": 1,
+          "test_parallel": 1,
+          "algos": 1,
+          "take_1d": 1,
+          "ascii_letters": 1,
+          "partial": 1,
+          "product": 1,
+          "gc": 1,
+          "index": 1,
+          "Series": 1,
+          "Categorical": 1,
+          "OpenDocumentSpreadsheet": 1,
+          "Table": 1,
+          "P": 1,
+          "odf": 1,
+          "read_sas": 1,
+          "sqlite3": 1,
+          "AppConfig": 1,
+          "blake2b": 1,
+          "serializers": 1,
+          "render": 1,
+          "viewsets": 1,
+          "CreateModelMixin": 1,
+          "HttpResponseRedirect": 1,
+          "execute_from_command_line": 1,
+          "get_asgi_application": 1,
+          "Path": 1,
+          "pathlib": 1,
+          "get_wsgi_application": 1,
+          "textract": 1,
+          "tempfile": 1,
+          "convert": 1,
+          "FileConverter": 1,
+          "pdf2image": 1,
+          "convert_from_path": 1,
+          "setup": 1,
+          "Research": 1,
+          "Screener": 1,
+          "YahooSelenium": 1,
+          "_convert_to_list": 1,
+          "as_completed": 1,
+          "concurrent": 1,
+          "USER_AGENT_LIST": 1,
+          "By": 1,
+          "webdriver": 1,
+          "expected_conditions": 1,
+          "WebDriverWait": 1,
+          "selenium": 1,
+          "TimeoutException": 1,
+          "_YahooFinance": 1,
+          "HTTPAdapter": 1,
+          "Retry": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 2,
+        "packages": {
+          "axios": 1,
+          "vite": 1,
+          "sveltejs": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "fearsd/chess",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/console_utilite",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/course_work2023",
+        "files_analyzed": 4,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "fearsd/course_work2024",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go",
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "fearsd/dicee",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "fearsd/dino_bot",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/django-logging-middleware",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/f1-project",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/golang-ninja",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "fearsd/idea_tracker_bot",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/leaders_hack_2023",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/magic_ball",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Java",
+          "Objective-C / MATLAB"
+        ]
+      },
+      {
+        "repository": "fearsd/methodology-task1",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/neuroplay",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/pandas",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/react_issue",
+        "files_analyzed": 3,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "fearsd/uni_labs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "fearsd/url_shortener",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/url_shortener_front",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "fearsd/xmashack2022",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "fearsd/yahooquery",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

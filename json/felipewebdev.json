@@ -1,0 +1,220 @@
+{
+  "username": "felipewebdev",
+  "avatar_url": "https://avatars.githubusercontent.com/u/164900988?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.5,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.0
+      }
+    },
+    "Status": {
+      "score": 0.6483377697495676,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.5450133092487028,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 0.03125,
+      "details": {
+        "language_diversity_score": 0.125,
+        "technology_adoption_score": 0.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 1,
+        "language_transitions": 0,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.43591755394991355,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "JavaScript": [
+        234222,
+        17
+      ],
+      "TypeScript": [
+        3582,
+        0
+      ],
+      "CSS": [
+        198,
+        0
+      ],
+      "Vue": [
+        2015,
+        0
+      ],
+      "HTML": [
+        1616,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 17,
+    "total_lines": 241633,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 234222,
+        "commits": 17
+      },
+      {
+        "language": "TypeScript",
+        "lines": 3582,
+        "commits": 0
+      },
+      {
+        "language": "CSS",
+        "lines": 198,
+        "commits": 0
+      },
+      {
+        "language": "Vue",
+        "lines": 2015,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 1616,
+        "commits": 0
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "felipewebdev",
+    "analysis_date": "2026-05-17T03:32:13.207615",
+    "total_repos_analyzed": 4,
+    "total_files_analyzed": 84,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 29,
+        "packages": {
+          "styled-components": 6,
+          "dotenv": 3,
+          "sequelize": 3,
+          "jsonwebtoken": 2,
+          "bcryptjs": 2,
+          "sequelize-cli": 2,
+          "express": 2,
+          "reduxjs": 2,
+          "globals": 1,
+          ":": 1,
+          "eslint": 1,
+          "backblaze-b2": 1,
+          "fs": 1,
+          "jsonschema": 1,
+          "multer": 1,
+          "uuid": 1,
+          "cors": 1,
+          "crypto": 1,
+          "util": 1,
+          "faker": 1,
+          "react": 1,
+          "react-dom": 1,
+          "react-redux": 1,
+          "redux": 1,
+          "redux-logger": 1,
+          "web-vitals": 1,
+          "testing-library": 1
+        }
+      },
+      "JavaScript (JSX)": {
+        "files_scanned": 5,
+        "packages": {
+          "react-redux": 4,
+          "react": 3,
+          "react-icons": 2
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 5,
+        "packages": {
+          "pinia": 2,
+          "vue": 2,
+          "cypress": 1,
+          "vue-router": 1,
+          "node:url": 1,
+          "vitejs": 1,
+          "vite": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 23,
+        "packages": {
+          "styled-components": 16,
+          "react": 10,
+          "next": 5,
+          "tanstack": 4,
+          "axios": 3
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "FelipeWebDev/curso-node-backend",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "FelipeWebDev/frontend-challenge",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "FelipeWebDev/newbacon-test",
+        "files_analyzed": 9,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "FelipeWebDev/redux-guide",
+        "files_analyzed": 27,
+        "languages_found": [
+          "JavaScript",
+          "JavaScript (JSX)"
+        ]
+      }
+    ]
+  }
+}

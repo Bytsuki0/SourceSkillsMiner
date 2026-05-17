@@ -1,0 +1,539 @@
+{
+  "username": "benhamner",
+  "avatar_url": "https://avatars.githubusercontent.com/u/582878?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.75,
+        "pr_merge_rate": 0.75,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.8333333333333334,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.5
+      }
+    },
+    "Adaptability": {
+      "score": 0.5,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 12,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 2,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7083333333333334,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Makefile": [
+        24099,
+        41
+      ],
+      "Python": [
+        328431,
+        393
+      ],
+      "JavaScript": [
+        780031,
+        50
+      ],
+      "TeX": [
+        334818,
+        0
+      ],
+      "HTML": [
+        521024,
+        61
+      ],
+      "Ruby": [
+        25565,
+        0
+      ],
+      "Clojure": [
+        19534,
+        0
+      ],
+      "Erlang": [
+        17838,
+        0
+      ],
+      "Java": [
+        14345,
+        0
+      ],
+      "Alloy": [
+        13822,
+        0
+      ],
+      "Julia": [
+        14447,
+        434
+      ],
+      "LiveScript": [
+        4564,
+        0
+      ],
+      "CSS": [
+        28700,
+        18
+      ],
+      "Shell": [
+        2330,
+        29
+      ],
+      "CoffeeScript": [
+        1453,
+        0
+      ],
+      "MATLAB": [
+        56449,
+        62
+      ],
+      "R": [
+        31559,
+        70
+      ],
+      "F#": [
+        0,
+        24
+      ],
+      "Jupyter Notebook": [
+        0,
+        25
+      ],
+      "C#": [
+        0,
+        61
+      ],
+      "Haskell": [
+        0,
+        21
+      ],
+      "TypeScript": [
+        0,
+        26
+      ]
+    },
+    "language_count": 22,
+    "total_commits": 1315,
+    "total_lines": 2219009,
+    "top_5_languages": [
+      {
+        "language": "Julia",
+        "lines": 14447,
+        "commits": 434
+      },
+      {
+        "language": "Python",
+        "lines": 328431,
+        "commits": 393
+      },
+      {
+        "language": "R",
+        "lines": 31559,
+        "commits": 70
+      },
+      {
+        "language": "MATLAB",
+        "lines": 56449,
+        "commits": 62
+      },
+      {
+        "language": "HTML",
+        "lines": 521024,
+        "commits": 61
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "benhamner",
+    "analysis_date": "2026-05-16T07:00:13.266963",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 172,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "object": 1,
+          "m": 1,
+          "]": 1,
+          "F=[w": 1,
+          "multiLineStrings:!0": 1,
+          "regexLiterals:!0})": 1,
+          "hashComments:!0": 1,
+          "I=[v": 1,
+          "[": 1
+        }
+      },
+      "Julia": {
+        "files_scanned": 24,
+        "packages": {
+          "Devectorize": 9,
+          "src/helpers.jl": 8,
+          "Base.Test": 7,
+          "MAT": 5,
+          "Devectorize.@devec": 4,
+          "Devectorize.dump_devec": 4,
+          "Devectorize.@inspect_devec": 4,
+          "Devectorize.": 4,
+          "GZip": 3,
+          "DataFrames": 3,
+          "MachineLearning": 3,
+          "Devectorize.sqr": 3,
+          "PyCall": 2,
+          "DataStructures": 1,
+          "GLM": 1,
+          "Color": 1,
+          "Gadfly": 1,
+          "texpr.jl": 1,
+          "extensions.jl": 1,
+          "scalar_backend.jl": 1,
+          "Base.": 1,
+          "compile_base.jl": 1,
+          "fun_traits.jl": 1,
+          "Base.==": 1,
+          "meta_tools.jl": 1,
+          "test_tmode.jl": 1,
+          "all": 1,
+          "test_extensions.jl": 1,
+          "test_texpr.jl": 1,
+          "test_scalar_backend.jl": 1,
+          "test_scalar_ewise.jl": 1,
+          "test_scalar_special.jl": 1,
+          "test_scalar_hybrid.jl": 1,
+          "test_scalar_ref.jl": 1,
+          "test_scalar_reduc.jl": 1,
+          "Devectorize.blend": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 75,
+        "packages": {
+          "numpy": 27,
+          "os": 20,
+          "__future__": 18,
+          "print_function": 16,
+          "absolute_import": 16,
+          "sys": 15,
+          "csv": 15,
+          "division": 14,
+          "pandas": 13,
+          "tensorflow": 13,
+          "re": 11,
+          "util": 10,
+          "sklearn": 9,
+          "unittest": 8,
+          "cleverhans": 8,
+          "thorn_row": 7,
+          "warnings": 7,
+          "unicode_literals": 7,
+          "random": 6,
+          "six": 6,
+          "argparse": 5,
+          "RandomForestRegressor": 5,
+          "scipy": 5,
+          "distutils": 4,
+          "collections": 4,
+          "csv_io": 4,
+          "math": 4,
+          "keras": 4,
+          "imread": 4,
+          "tutorials": 4,
+          "json": 3,
+          "setup": 3,
+          "features": 3,
+          "pickle": 3,
+          "data_io": 3,
+          "xrange": 3,
+          "flags": 3,
+          "np_utils": 3,
+          "PIL": 3,
+          "Image": 3,
+          "inception": 3,
+          "imsave": 3,
+          "subprocess": 2,
+          "score": 2,
+          "competition_io": 2,
+          "Counter": 2,
+          "parse": 2,
+          "dateutil": 2,
+          "theano": 2,
+          "nose": 2,
+          "SkipTest": 2,
+          "cnn_model": 2,
+          "LooseVersion": 2,
+          "time": 2,
+          "detect_types": 2,
+          "openpyxl": 1,
+          "load_workbook": 1,
+          "glob": 1,
+          "envoy": 1,
+          "*": 1,
+          "itertools": 1,
+          "neighbors": 1,
+          "price": 1,
+          "gzip": 1,
+          "RandomForestClassifier": 1,
+          "svm": 1,
+          "defaultdict": 1,
+          "psi": 1,
+          "pearsonr": 1,
+          "BaseEstimator": 1,
+          "ml_metrics": 1,
+          "Pipeline": 1,
+          "CountVectorizer": 1,
+          "abc": 1,
+          "ABCMeta": 1,
+          "copy": 1,
+          "MRG_RandomStreams": 1,
+          "gradient": 1,
+          "logging": 1,
+          "inspect": 1,
+          "docstring_errors": 1,
+          "pycodestyle": 1,
+          "StyleGuide": 1,
+          "traceback": 1,
+          "list_files": 1,
+          "conv_2d": 1,
+          "matplotlib": 1,
+          "Dense": 1,
+          "Convolution2D": 1,
+          "Conv2D": 1,
+          "Sequential": 1,
+          "input_data": 1,
+          "mnist": 1,
+          "add_loss": 1,
+          "OrderedDict": 1,
+          "backend": 1,
+          "cifar10": 1,
+          "model_train": 1,
+          "app": 1,
+          "fgsm": 1,
+          "urllib2": 1,
+          "cStringIO": 1,
+          "FastGradientMethod": 1,
+          "loaded": 1,
+          "setuptools": 1,
+          "find_packages": 1,
+          "Attack": 1,
+          "VirtualAdversarialMethod": 1,
+          "mnist_blackbox": 1,
+          "mnist_tutorial_jsma": 1,
+          "mnist_tutorial_pure_tf": 1,
+          "mnist_tutorial_tf": 1,
+          "kl_with_logits": 1,
+          "csv_to_postgres": 1,
+          "psycopg2": 1,
+          "datetime": 1
+        }
+      },
+      "R": {
+        "files_scanned": 3,
+        "packages": {
+          "ggmap": 2,
+          "plyr": 2,
+          "RUnit": 1,
+          "lubridate": 1,
+          "scales": 1,
+          "stringr": 1,
+          "ggplot2": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 7,
+        "packages": {
+          "catechism": 2,
+          "catechism/subject_wrapper": 1,
+          "catechism/describe_block": 1,
+          "catechism/version": 1,
+          "catechism/cli": 1,
+          "catechism/trial": 1,
+          "thor": 1,
+          "catechism/it_block": 1,
+          "catechism/method_mocker": 1,
+          "catechism/matchers/raise_error": 1,
+          "catechism/matchers/change": 1,
+          "catechism/matchers/equal": 1,
+          "catechism/matchers/send": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "benhamner/2016-us-election",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/500lines",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python",
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "benhamner/ASAP-AES",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Python",
+          "R"
+        ]
+      },
+      {
+        "repository": "benhamner/ASAP-SAS",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/avazu-ctr-prediction",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Julia"
+        ]
+      },
+      {
+        "repository": "benhamner/awic2012",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/baseball",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/bay-area-bike-share",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/BayesImpactHackathonThorn",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Julia",
+          "Python",
+          "R"
+        ]
+      },
+      {
+        "repository": "benhamner/benhamner.github.com",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "benhamner/BioResponse",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/BluebookForBulldozers",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/CauseEffectPairsChallenge",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/cleverhans",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/crowdflower-airline-twitter-sentiment",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/crowdflower-first-gop-debate-twitter-sentiment",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/CsvJazz",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "benhamner/DetectingFacesFromMegBrainActivity",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Julia"
+        ]
+      },
+      {
+        "repository": "benhamner/Devectorize.jl",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Julia"
+        ]
+      }
+    ]
+  }
+}

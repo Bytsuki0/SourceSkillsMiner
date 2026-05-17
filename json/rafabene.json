@@ -1,0 +1,594 @@
+{
+  "username": "rafabene",
+  "avatar_url": "https://avatars.githubusercontent.com/u/30131?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.6845016433389854,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.6535049300169562,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 0.75,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 14,
+        "language_transitions": 15,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 148,
+        "bounced_back_prs": 100
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "rafabene/addon-deltaspike": 0.28186666666666665
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8285669953344639,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        2901186,
+        362
+      ],
+      "Shell": [
+        1628919,
+        132
+      ],
+      "Dockerfile": [
+        21,
+        45
+      ],
+      "JavaScript": [
+        185483,
+        252
+      ],
+      "CSS": [
+        32581,
+        41
+      ],
+      "HTML": [
+        6586,
+        36
+      ],
+      "TypeScript": [
+        32549,
+        7
+      ],
+      "Groovy": [
+        871,
+        2
+      ],
+      "Ruby": [
+        65106,
+        25
+      ],
+      "CoffeeScript": [
+        8,
+        0
+      ],
+      "Python": [
+        14427,
+        6
+      ],
+      "Thrift": [
+        1008,
+        0
+      ],
+      "Batchfile": [
+        466,
+        0
+      ],
+      "Protocol Buffer": [
+        45,
+        0
+      ],
+      "Visual Basic": [
+        156355,
+        0
+      ],
+      "Go": [
+        0,
+        51
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        0
+      ],
+      "XSLT": [
+        0,
+        0
+      ],
+      "Mustache": [
+        0,
+        0
+      ],
+      "SCSS": [
+        0,
+        0
+      ],
+      "HCL": [
+        0,
+        5
+      ]
+    },
+    "language_count": 22,
+    "total_commits": 964,
+    "total_lines": 5025611,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 2901186,
+        "commits": 362
+      },
+      {
+        "language": "JavaScript",
+        "lines": 185483,
+        "commits": 252
+      },
+      {
+        "language": "Shell",
+        "lines": 1628919,
+        "commits": 132
+      },
+      {
+        "language": "Go",
+        "lines": 0,
+        "commits": 51
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 21,
+        "commits": 45
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rafabene",
+    "analysis_date": "2026-05-16T19:07:13.259986",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 321,
+    "languages": {
+      "Java": {
+        "files_scanned": 171,
+        "packages": {
+          "java.util": 62,
+          "com.redhat": 47,
+          "com.github": 31,
+          "com.acme": 30,
+          "javax.inject": 28,
+          "org.jboss": 23,
+          "static": 21,
+          "com.rafabene": 21,
+          "java.io": 21,
+          "javax.enterprise": 20,
+          "org.junit": 16,
+          "javax.ejb": 16,
+          "org.apache": 11,
+          "demo.domain": 11,
+          "org.drools": 10,
+          "org.springframework": 9,
+          "org.jbpm": 9,
+          "demo.infrastructure": 9,
+          "io.vertx": 8,
+          "android.content": 8,
+          "com.twitter": 8,
+          "javax.persistence": 8,
+          "br.com": 8,
+          "javax.ws": 8,
+          "android.os": 6,
+          "java.lang": 5,
+          "android.widget": 5,
+          "com.actionbarsherlock": 4,
+          "android.util": 4,
+          "java.net": 4,
+          "com.google": 4,
+          "junit.framework": 4,
+          "demo": 4,
+          "javax.annotation": 3,
+          "android.app": 3,
+          "android.net": 3,
+          "com.vaadin": 3,
+          "rx.Observable": 3,
+          "org.slf4j": 3,
+          "rx.Single": 3,
+          "org.wildfly": 3,
+          "io.opentracing": 2,
+          "android.view": 2,
+          "twitter4j.TwitterException": 2,
+          "twitter4j.Twitter": 2,
+          "twitter4j.auth": 2,
+          "java.nio": 2,
+          "java.math": 2,
+          "java.text": 2,
+          "javax.faces": 2,
+          "io.quarkus": 2,
+          "feign.Logger": 1,
+          "feign.hystrix": 1,
+          "feign.opentracing": 1,
+          "feign.httpclient": 1,
+          "feign.RequestLine": 1,
+          "com.uber": 1,
+          "javax.jws": 1,
+          "javax.naming": 1,
+          "javax.decorator": 1,
+          "twitter4j.QueryResult": 1,
+          "twitter4j.Status": 1,
+          "twitter4j.Query": 1,
+          "android.database": 1,
+          "twitter4j.TwitterFactory": 1,
+          "org.mockito": 1,
+          "javax.servlet": 1,
+          "org.vaadin": 1,
+          "android.text": 1,
+          "android.preference": 1,
+          "android.media": 1,
+          "android.annotation": 1,
+          "android.graphics": 1,
+          "android.test": 1,
+          "com.mongodb": 1,
+          "org.bson": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 42,
+        "packages": {
+          "react": 11,
+          "undefined": 7,
+          "express": 5,
+          "react-router-dom": 5,
+          "object": 4,
+          "popperjs": 4,
+          "react-icons": 4,
+          "react-native": 4,
+          "react-navigation": 3,
+          "path": 2,
+          "cors": 2,
+          "celebrate": 2,
+          "supertest": 2,
+          "expo": 2,
+          "expo-constants": 2,
+          "jquery": 2,
+          "s": 1,
+          "underscore": 1,
+          "r": 1,
+          "s){t.Backbone=e(t": 1,
+          "]": 1,
+          "r)})}else": 1,
+          "function(i": 1,
+          "i": 1,
+          "use": 1,
+          "function": 1,
+          "tag:yaml.org": 1,
+          "2002:bool": 1,
+          "change": 1,
+          "b": 1,
+          "browser": 1,
+          "test": 1,
+          "[object": 1,
+          "jasmine-spec-reporter": 1,
+          "ts-node": 1,
+          "protractor": 1,
+          "offset": 1,
+          "computeStyles": 1,
+          "preventOverflow": 1,
+          "popperOffsets": 1,
+          "knex": 1,
+          "crypto": 1,
+          "react-dom": 1,
+          "axios": 1,
+          "intl": 1,
+          "expo-mail-composer": 1,
+          "react-native-gesture-handler": 1,
+          "chai": 1,
+          "ev-emitter": 1,
+          "keycloak-connect": 1,
+          "fs": 1,
+          "request": 1,
+          "http": 1,
+          "mustache-express": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 13,
+        "packages": {
+          "django": 10,
+          "os": 5,
+          "admin": 2,
+          "AppConfig": 1,
+          "models": 1,
+          "TestCase": 1,
+          "path": 1,
+          "HttpResponse": 1,
+          "render": 1,
+          "csrf_exempt": 1,
+          "sys": 1,
+          "execute_from_command_line": 1,
+          "get_asgi_application": 1,
+          "Path": 1,
+          "pathlib": 1,
+          "include": 1,
+          "get_wsgi_application": 1,
+          "logging": 1,
+          "azure": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 21,
+        "packages": {
+          "awestruct/deploy/base_deploy": 3,
+          "nokogiri": 2,
+          "awestruct/astruct_mixin": 1,
+          "AStructMixin": 1,
+          "awestruct/dependencies": 1,
+          "listen": 1,
+          "awestruct/deploy/s3_deploy": 1,
+          "awestruct/deploy/github_pages_deploy": 1,
+          "awestruct/deploy/rsync_deploy": 1,
+          "ninesixty": 1,
+          "compass": 1,
+          "awestruct/engine": 1,
+          "sass": 1,
+          "sass/plugin": 1,
+          "awestruct/cli/manifest": 1,
+          "awestruct/cli/deploy": 1,
+          "awestruct/cli/init": 1,
+          "awestruct/cli/generate": 1,
+          "pathname": 1,
+          "awestruct/cli/server": 1,
+          "awestruct/cli/options": 1,
+          "awestruct/cli/auto": 1,
+          "logger": 1,
+          "awestruct/logger": 1,
+          "compass/logger": 1,
+          "compass/commands/base": 1,
+          "compass/configuration": 1,
+          "compass/commands/create_project": 1,
+          "compass/installers/bare_installer": 1,
+          "compass/commands/registry": 1,
+          "sass/callbacks": 1,
+          "compass/actions": 1,
+          "compass/app_integration": 1,
+          "optparse": 1,
+          "awestruct/version": 1,
+          "awestruct/rack/app": 1,
+          "rack": 1,
+          "rack/server": 1,
+          "awestruct/astruct": 1,
+          "git": 1,
+          "awestruct/deployers": 1,
+          "shellwords": 1,
+          "open3": 1,
+          "ruby-s3cmd": 1,
+          "awestruct/extensions/pipeline": 1,
+          "fileutils": 1,
+          "awestruct/page": 1,
+          "awestruct/site": 1,
+          "awestruct/util/inflector": 1,
+          "set": 1,
+          "awestruct/config": 1,
+          "awestruct/util/default_inflections": 1,
+          "awestruct/page_loader": 1,
+          "awestruct/pipeline": 1,
+          "awestruct/extensions/relative": 1,
+          "Awestruct::Extensions::Relative": 1,
+          "coffee-script": 1,
+          "digest/sha1": 1,
+          "yard": 1,
+          "extension_documenter": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 13,
+        "packages": {
+          "angular": 11,
+          "protractor": 2,
+          "rxjs": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rafabene/12factor-app",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rafabene/addon-deltaspike",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rafabene/aloha",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rafabene/Angular-houses",
+        "files_analyzed": 16,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "rafabene/arquillian-showcase",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rafabene/awestruct",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "rafabene/awestruct.org",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "rafabene/azure-python-quickstart",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "rafabene/azure-pythonfunction",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "rafabene/be-the-hero",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rafabene/BenevidesAndroidLib",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rafabene/brave",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rafabene/brms-coolstore-demo",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rafabene/brms-customer-evaluation-demo",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rafabene/brms-rewards-demo",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rafabene/calculator",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rafabene/catholicdroid",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rafabene/CDIExample",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "rafabene/cicd-kb8s",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rafabene/cloud-native-labs",
+        "files_analyzed": 28,
+        "languages_found": [
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rafabene/cloudnative-demoscripts",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "rafabene/contacts-rest-api-mongodb",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,656 @@
+{
+  "username": "vitorfs",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1429529?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9047619047619048,
+      "details": {
+        "issue_resolution_rate": 0.7142857142857143,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 1.0,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 1.0
+      }
+    },
+    "Adaptability": {
+      "score": 0.7154135,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.8617,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 9,
+        "language_transitions": 7,
+        "topic_entropy_bits": 2.585,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.799035080952381,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "HTML": [
+        415938,
+        708
+      ],
+      "JavaScript": [
+        119595,
+        276
+      ],
+      "CSS": [
+        157273,
+        158
+      ],
+      "Python": [
+        5111410,
+        1309
+      ],
+      "R": [
+        42278,
+        0
+      ],
+      "Shell": [
+        6697,
+        8
+      ],
+      "Dockerfile": [
+        1007,
+        0
+      ],
+      "Smarty": [
+        45,
+        0
+      ],
+      "Makefile": [
+        43,
+        0
+      ],
+      "Java": [
+        0,
+        40
+      ],
+      "C": [
+        0,
+        73
+      ],
+      "C++": [
+        0,
+        3
+      ],
+      "PHP": [
+        0,
+        16
+      ]
+    },
+    "language_count": 13,
+    "total_commits": 2591,
+    "total_lines": 5854286,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 5111410,
+        "commits": 1309
+      },
+      {
+        "language": "HTML",
+        "lines": 415938,
+        "commits": 708
+      },
+      {
+        "language": "JavaScript",
+        "lines": 119595,
+        "commits": 276
+      },
+      {
+        "language": "CSS",
+        "lines": 157273,
+        "commits": 158
+      },
+      {
+        "language": "C",
+        "lines": 0,
+        "commits": 73
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "vitorfs",
+    "analysis_date": "2026-05-16T17:55:37.816862",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 334,
+    "languages": {
+      "C": {
+        "files_scanned": 3,
+        "packages": {
+          "adjacency_matrix.h": 2,
+          "stdlib.h": 2,
+          "<stdlib.h>": 2,
+          "stdio.h": 2,
+          "<stdio.h>": 2,
+          "adjacency_list.h": 1
+        }
+      },
+      "C++": {
+        "files_scanned": 11,
+        "packages": {
+          "iostream": 10,
+          "std": 10,
+          "<iostream>": 10,
+          "namespace": 10,
+          "stdlib.h": 4,
+          "<time.h>": 4,
+          "<stdlib.h>": 4,
+          "time.h": 4,
+          "iomanip": 3,
+          "<iomanip>": 3,
+          "math.h": 1,
+          "<math.h>": 1,
+          "conio.h": 1,
+          "<conio.h>": 1,
+          "<stdio.h>": 1,
+          "stdio.h": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 57,
+        "packages": {
+          "br.edu": 28,
+          "java.util": 22,
+          "java.sql": 16,
+          "model": 10,
+          "persistence": 9,
+          "controller": 8,
+          "model.Produto": 8,
+          "android.os": 7,
+          "android.app": 7,
+          "android.view": 6,
+          "android.content": 6,
+          "android.graphics": 5,
+          "model.Mostruario": 5,
+          "model.Revendedora": 5,
+          "android.widget": 4,
+          "model.PagamentoMostruario": 4,
+          "model.Fornecedor": 4,
+          "model.TipoProduto": 4,
+          "javax.swing": 3,
+          "model.ProdutoConsignado": 2,
+          "model.LogEstoque": 2,
+          "model.MotivoMovimentoEstoque": 2,
+          "model.ContatoFornecedor": 2,
+          "util.Horus": 2,
+          "com.mysql": 2,
+          "java.text": 2,
+          "java.awt": 2,
+          "java.io": 2,
+          "javax.imageio": 2,
+          "tablemodel.ProdutoMostruarioTableModel": 2,
+          "print": 2,
+          "persistence.FinanceiroDAO": 1,
+          "persistence.EstoqueDAO": 1,
+          "persistence.FornecedorDAO": 1,
+          "persistence.MostruarioDAO": 1,
+          "persistence.ProdutoDAO": 1,
+          "persistence.RevendedoraDAO": 1,
+          "persistence.TipoProdutoDAO": 1,
+          "util.ExportExcel": 1,
+          "controller.ManterMostruarioController": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "undefined": 1,
+          "jQuery": 1,
+          "t=(cn[0].contentWindow||cn[0].contentDocument).document": 1,
+          ")).appendTo(t.documentElement)": 1,
+          "t.write(": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 180,
+        "packages": {
+          "django": 143,
+          "models": 28,
+          "TestCase": 20,
+          "__future__": 19,
+          "unicode_literals": 19,
+          "os": 15,
+          "ugettext_lazy": 14,
+          "User": 14,
+          "admin": 13,
+          "settings": 13,
+          "migrations": 12,
+          "scrapy": 10,
+          "timezone": 10,
+          "bootcamp": 10,
+          "render": 9,
+          "sys": 9,
+          "AppConfig": 9,
+          "cmdbox": 9,
+          "colossus": 9,
+          "reverse": 8,
+          "forms": 8,
+          "Article": 7,
+          "uuid": 7,
+          "bs4": 6,
+          "re": 6,
+          "HttpResponse": 6,
+          "patterns": 6,
+          "BeautifulSoup": 5,
+          "Spider": 5,
+          "execute_from_command_line": 5,
+          "ValidationError": 5,
+          "views": 5,
+          "gettext": 5,
+          "gitd": 5,
+          "get_wsgi_application": 4,
+          "Path": 4,
+          "logging": 4,
+          "requests": 4,
+          "messages": 4,
+          "json": 4,
+          "woid": 4,
+          "login_required": 4,
+          "RequestContext": 4,
+          "render_to_response": 4,
+          "gettext_lazy": 4,
+          "utils": 4,
+          "wikiSpider": 3,
+          "Product": 3,
+          "bloodhound": 3,
+          "require_POST": 3,
+          "datetime": 3,
+          "unipath": 3,
+          "markdownx": 3,
+          "test_plus": 3,
+          "url": 3,
+          "Message": 3,
+          "Organization": 3,
+          "subprocess": 3,
+          "exams": 3,
+          "apps": 3,
+          "nltk": 3,
+          "GitHubException": 3,
+          "abstract_models": 3,
+          "Item": 2,
+          "stackSpider": 2,
+          "StackQuestion": 2,
+          "Bloodhound": 2,
+          "Paginator": 2,
+          "dj_database_url": 2,
+          "decouple": 2,
+          "taggit": 2,
+          "Notification": 2,
+          "Count": 2,
+          "LoginRequiredMixin": 2,
+          "urllib": 2,
+          "channels": 2,
+          "escape": 2,
+          "hashlib": 2,
+          "HttpResponseRedirect": 2,
+          "Activity": 2,
+          "authenticate": 2,
+          "SignUpForm": 2,
+          "auth": 2,
+          "functools": 2,
+          "game": 2,
+          "validate_forbidden_slug": 2,
+          "UserCreationForm": 2,
+          "SignupForm": 2,
+          "UserExam": 2,
+          "pytz": 2,
+          "path": 2,
+          "get_current_site": 2,
+          "ActivityTypes": 2,
+          "typing": 2,
+          "importlib": 2,
+          "ImproperlyConfigured": 2,
+          "warnings": 2,
+          "threading": 2,
+          "word_tokenize": 2,
+          "xlrd": 2,
+          "*": 2,
+          "GitHubEvents": 2,
+          "Deployment": 2,
+          "github_handler": 2,
+          "extract_attrs": 2,
+          "AbstractTag": 2,
+          "WikispiderItem": 1,
+          "Q": 1,
+          "config": 1,
+          "CrawlFrontier": 1,
+          "include": 1,
+          "MarkdownxFormField": 1,
+          "comment_was_posted": 1,
+          "TaggableManager": 1,
+          "MarkdownxField": 1,
+          "django_comments": 1,
+          "slugify": 1,
+          "markdownify": 1,
+          "PIL": 1,
+          "tempfile": 1,
+          "Client": 1,
+          "Image": 1,
+          "CreateView": 1,
+          "ArticleForm": 1,
+          "AuthorRequiredMixin": 1,
+          "_simple_domain_name_validator": 1,
+          "urljoin": 1,
+          "HttpResponseBadRequest": 1,
+          "EmptyPage": 1,
+          "PermissionDenied": 1,
+          "View": 1,
+          "AsyncWebsocketConsumer": 1,
+          "get_user_model": 1,
+          "async_to_sync": 1,
+          "asgiref": 1,
+          "get_channel_layer": 1,
+          "transaction": 1,
+          "graphene_django": 1,
+          "DjangoObjectType": 1,
+          "graphene": 1,
+          "comma": 1,
+          "post_save": 1,
+          "OrganizationForm": 1,
+          "bleach": 1,
+          "Feed": 1,
+          "render_to_string": 1,
+          "dj_static": 1,
+          "Cling": 1,
+          "Match": 1,
+          "wraps": 1,
+          "random": 1,
+          "ajax_required": 1,
+          "Queue": 1,
+          "cj": 1,
+          "columns": 1,
+          "VERSION": 1,
+          "find_packages": 1,
+          "setuptools": 1,
+          "mommy": 1,
+          "model_mommy": 1,
+          "ugettext": 1,
+          "Snippet": 1,
+          "FileSystemObject": 1,
+          "login": 1,
+          "TEMPLATE_CONTEXT_PROCESSORS": 1,
+          "staticfiles_urlpatterns": 1,
+          "Exam": 1,
+          "UnknownTimeZoneError": 1,
+          "AbstractUser": 1,
+          "receiver": 1,
+          "get_client_ip": 1,
+          "factory": 1,
+          "AdminUserCreationForm": 1,
+          "UserFactory": 1,
+          "resolve": 1,
+          "AuthenticatedTestCase": 1,
+          "UpdateView": 1,
+          "UserForm": 1,
+          "reverse_lazy": 1,
+          "smtplib": 1,
+          "SMTPException": 1,
+          "CampaignStatus": 1,
+          "EmailMultiAlternatives": 1,
+          "get_absolute_url": 1,
+          "html2text": 1,
+          "Tag": 1,
+          "ContextMixin": 1,
+          "MailingList": 1,
+          "get_random_string": 1,
+          "get_template_blocks": 1,
+          "Context": 1,
+          "EmailTemplate": 1,
+          "Optional": 1,
+          "mail_managers": 1,
+          "celery": 1,
+          "shared_task": 1,
+          "get_version": 1,
+          "set_script_prefix": 1,
+          "configure_logging": 1,
+          "management": 1,
+          "import_module": 1,
+          "module_has_submodule": 1,
+          "Counter": 1,
+          "partial": 1,
+          "each": 1,
+          "AppRegistryNotReady": 1,
+          "applications": 1,
+          "collections": 1,
+          "RemovedInDjango30Warning": 1,
+          "global_settings": 1,
+          "LazyObject": 1,
+          "time": 1,
+          "tkinter": 1,
+          "filedialog": 1,
+          "ttk": 1,
+          "ScrolledText": 1,
+          "SnowballStemmer": 1,
+          "xlwt": 1,
+          "string": 1,
+          "stopwords": 1,
+          "exceptions": 1,
+          "ElsevierException": 1,
+          "get_asgi_application": 1,
+          "Dict": 1,
+          "shlex": 1,
+          "Services": 1,
+          "sha256": 1,
+          "csrf_exempt": 1,
+          "ip_address": 1,
+          "ipaddress": 1,
+          "hmac": 1,
+          "force_bytes": 1,
+          "Csv": 1,
+          "pathlib": 1,
+          "AbstractFormTag": 1,
+          "Input": 1,
+          "typography": 1,
+          "A": 1
+        }
+      },
+      "Ruby": {
+        "files_scanned": 4,
+        "packages": {
+          "default": 1,
+          "rails/all": 1,
+          "bundler/setup": 1,
+          "devise/orm/active_record": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "vitorfs/478",
+        "files_analyzed": 1,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "vitorfs/bap-seminar",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/blog-code-snippets",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/bloodhound",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/bootcamp",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/bootcamp2",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/choosies",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/cj",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/cmdbox",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/code-exam",
+        "files_analyzed": 15,
+        "languages_found": [
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/colossus",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/django",
+        "files_analyzed": 18,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/elektra",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/elsevier-sdk-python",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/exemplo-locadora",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "vitorfs/Galileo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Ruby"
+        ]
+      },
+      {
+        "repository": "vitorfs/gitd",
+        "files_analyzed": 16,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "vitorfs/gomap",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "vitorfs/graph",
+        "files_analyzed": 5,
+        "languages_found": [
+          "C"
+        ]
+      },
+      {
+        "repository": "vitorfs/historical-archives",
+        "files_analyzed": 10,
+        "languages_found": [
+          "C++"
+        ]
+      },
+      {
+        "repository": "vitorfs/horus",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "Java"
+        ]
+      },
+      {
+        "repository": "vitorfs/html-builder",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

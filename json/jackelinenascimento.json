@@ -1,0 +1,337 @@
+{
+  "username": "jackelinenascimento",
+  "avatar_url": "https://avatars.githubusercontent.com/u/52252747?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.6818181818181818,
+      "details": {
+        "issue_resolution_rate": 0.045454545454545456,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.716858392060518,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.8505751761815543,
+        "week_streak": 0.3
+      }
+    },
+    "Adaptability": {
+      "score": 0.5854165,
+      "details": {
+        "language_diversity_score": 0.875,
+        "technology_adoption_score": 0.8,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.6667,
+        "distinct_primary_languages": 7,
+        "language_transitions": 4,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 6,
+        "bounced_back_prs": 2
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.64681861477574,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Java": [
+        1637,
+        136
+      ],
+      "TypeScript": [
+        3862,
+        0
+      ],
+      "Dockerfile": [
+        85,
+        0
+      ],
+      "Python": [
+        324069,
+        62
+      ],
+      "Kotlin": [
+        3372,
+        69
+      ],
+      "HTML": [
+        44670,
+        50
+      ],
+      "CSS": [
+        18631,
+        11
+      ],
+      "JavaScript": [
+        179559,
+        23
+      ],
+      "TSQL": [
+        0,
+        1
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 352,
+    "total_lines": 575885,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 1637,
+        "commits": 136
+      },
+      {
+        "language": "Kotlin",
+        "lines": 3372,
+        "commits": 69
+      },
+      {
+        "language": "Python",
+        "lines": 324069,
+        "commits": 62
+      },
+      {
+        "language": "HTML",
+        "lines": 44670,
+        "commits": 50
+      },
+      {
+        "language": "JavaScript",
+        "lines": 179559,
+        "commits": 23
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "jackelinenascimento",
+    "analysis_date": "2026-05-16T03:39:30.612529",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 132,
+    "languages": {
+      "Java": {
+        "files_scanned": 43,
+        "packages": {
+          "java.util": 16,
+          "view": 15,
+          "controller": 13,
+          "com.jackie": 7,
+          "org.springframework": 5,
+          "javax.swing": 5,
+          "java.io": 3,
+          "idwall.desafio": 3,
+          "controller.ThreadCarro": 2,
+          "controller.ThreadCalc": 2,
+          "inputdatavalidation": 2,
+          "outputdatavalidation": 2,
+          "controller.ProcessosController": 1,
+          "com.openai": 1,
+          "io.github": 1,
+          "org.junit": 1,
+          "controller.RedesController": 1,
+          "controller.Metodos": 1,
+          "controler": 1,
+          "controler.ThreadCarro": 1,
+          "controller.Conta": 1,
+          "controller.ThreadVetor": 1,
+          "controller.Threads": 1,
+          "controller.Sapinho": 1,
+          "java.awt": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 16,
+        "packages": {
+          "react": 15,
+          "react-router-dom": 1,
+          "react-dom": 1,
+          "axios": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 24,
+        "packages": {
+          "java.util": 17,
+          "org.example": 15,
+          "org.springframework": 12,
+          "com.clean_arch_kotlin_springboot": 9,
+          "jakarta.validation": 5,
+          "java.time": 2,
+          "javax.sql": 1,
+          "jakarta.persistence": 1,
+          "org.slf4j": 1,
+          "io.swagger": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 7,
+        "packages": {
+          "os": 2,
+          "math": 2,
+          "json": 2,
+          "openai": 1,
+          "load_dotenv": 1,
+          "the": 1,
+          "dotenv": 1,
+          "sha1": 1,
+          "hashlib": 1,
+          "requests": 1,
+          "Flask": 1,
+          "flask": 1,
+          "matplotlib": 1,
+          "numpy": 1,
+          "collections": 1,
+          "Counter": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 11,
+        "packages": {
+          "express": 4,
+          "src": 4,
+          "sequelize": 3,
+          "body-parser": 1,
+          "itens": 1,
+          "crypto": 1,
+          "winston": 1,
+          "swagger-autogen": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "jackelinenascimento/AulasSO1",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/backend-fase01",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/chatbot-workshop",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/chatgpt-prompt-course",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/clean-arch-kotlin-springboot",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/clube-de-leitura-dev",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/Codenation-Challenge",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/Concrete-Challenge",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/data-validation",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/desafios",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/exercicios-processos",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/exercicios-semaforos",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/exercicios-threads",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/experimentacoes-kotlin",
+        "files_analyzed": 15,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "jackelinenascimento/experimentamath",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

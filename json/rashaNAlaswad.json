@@ -1,0 +1,599 @@
+{
+  "username": "rashaNAlaswad",
+  "avatar_url": "https://avatars.githubusercontent.com/u/132019035?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666666,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7670531599926815,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.9011594799780447,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 0.39166650000000003,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.4,
+        "domain_flexibility_score": 0.6667,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 2,
+        "topic_entropy_bits": 2.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.625,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 1,
+        "max_points": 4,
+        "percentage": 25.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.5900772653318697,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Kotlin": [
+        22293,
+        144
+      ],
+      "Dart": [
+        575740,
+        356
+      ],
+      "C++": [
+        20544,
+        90
+      ],
+      "CMake": [
+        16504,
+        69
+      ],
+      "Swift": [
+        9028,
+        2
+      ],
+      "C": [
+        1201,
+        0
+      ],
+      "HTML": [
+        1492,
+        0
+      ],
+      "Objective-C": [
+        431,
+        0
+      ],
+      "Java": [
+        0,
+        4
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 665,
+    "total_lines": 647233,
+    "top_5_languages": [
+      {
+        "language": "Dart",
+        "lines": 575740,
+        "commits": 356
+      },
+      {
+        "language": "Kotlin",
+        "lines": 22293,
+        "commits": 144
+      },
+      {
+        "language": "C++",
+        "lines": 20544,
+        "commits": 90
+      },
+      {
+        "language": "CMake",
+        "lines": 16504,
+        "commits": 69
+      },
+      {
+        "language": "Java",
+        "lines": 0,
+        "commits": 4
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "rashaNAlaswad",
+    "analysis_date": "2026-05-17T12:05:02.989221",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 489,
+    "languages": {
+      "C++": {
+        "files_scanned": 51,
+        "packages": {
+          "generated_plugin_registrant.h": 14,
+          "my_application.h": 14,
+          "flutter/generated_plugin_registrant.h": 14,
+          "flutter_window.h": 13,
+          "<windows.h>": 12,
+          "windows.h": 12,
+          "utils.h": 12,
+          "flutter_windows.h": 10,
+          "<flutter_windows.h>": 10,
+          "gdk/gdkx.h": 7,
+          "flutter_linux/flutter_linux.h": 7,
+          "<flutter_linux/flutter_linux.h>": 7,
+          "<gdk/gdkx.h>": 7,
+          "optional": 7,
+          "<optional>": 7,
+          "<flutter/flutter_view_controller.h>": 6,
+          "flutter/flutter_view_controller.h": 6,
+          "flutter/dart_project.h": 6,
+          "<flutter/dart_project.h>": 6,
+          "<io.h>": 6,
+          "<stdio.h>": 6,
+          "stdio.h": 6,
+          "iostream": 6,
+          "io.h": 6,
+          "<iostream>": 6,
+          "<dwmapi.h>": 4,
+          "win32_window.h": 4,
+          "dwmapi.h": 4,
+          "EnableNonClientDpiScaling": 4,
+          "resource.h": 4,
+          "<flutter_secure_storage_linux/flutter_secure_storage_linux_plugin.h>": 1,
+          "flutter_secure_storage_linux/flutter_secure_storage_linux_plugin.h": 1,
+          "<flutter_secure_storage_windows/flutter_secure_storage_windows_plugin.h>": 1,
+          "flutter_secure_storage_windows/flutter_secure_storage_windows_plugin.h": 1,
+          "firebase_core/firebase_core_plugin_c_api.h": 1,
+          "<firebase_core/firebase_core_plugin_c_api.h>": 1
+        }
+      },
+      "C/C++ Header": {
+        "files_scanned": 52,
+        "packages": {
+          "GeneratedPluginRegistrant.h": 17,
+          "<memory>": 10,
+          "memory": 10,
+          "<string>": 8,
+          "string": 8,
+          "flutter_linux/flutter_linux.h": 7,
+          "<flutter_linux/flutter_linux.h>": 7,
+          "gtk/gtk.h": 7,
+          "<gtk/gtk.h>": 7,
+          "<flutter/plugin_registry.h>": 7,
+          "flutter/plugin_registry.h": 7,
+          "<flutter/flutter_view_controller.h>": 6,
+          "flutter/flutter_view_controller.h": 6,
+          "win32_window.h": 6,
+          "flutter/dart_project.h": 6,
+          "<flutter/dart_project.h>": 6,
+          "<vector>": 4,
+          "vector": 4,
+          "<windows.h>": 4,
+          "windows.h": 4,
+          "functional": 4,
+          "<functional>": 4
+        }
+      },
+      "Dart": {
+        "files_scanned": 184,
+        "packages": {
+          "flutter": 147,
+          "get": 34,
+          "flutter_screenutil": 27,
+          "flutter_bloc": 15,
+          "flutter_test": 9,
+          "flutter_svg": 7,
+          "cloud_firestore": 7,
+          "firebase_auth": 7,
+          "flutter_testing_lab": 7,
+          "app_colors.dart": 6,
+          "routes.dart": 5,
+          "cart_getx_hw": 5,
+          "dio": 5,
+          "google_fonts": 4,
+          "provider": 4,
+          "routes/app_pages.dart": 3,
+          "chat_app": 3,
+          "get_it": 3,
+          "dart:async": 3,
+          "shared_preferences": 3,
+          "hive": 3,
+          "hw_login_with_provider": 3,
+          "app_font_weight.dart": 2,
+          "routes/app_routes.dart": 2,
+          "components/no_data.dart": 2,
+          "components/custome_back_arrow.dart": 2,
+          "components/circular_widget.dart": 2,
+          "components/custome_button.dart": 2,
+          "components/cart_item.dart": 2,
+          "components/order_cart_details.dart": 2,
+          "circular_widget.dart": 2,
+          "image_picker": 2,
+          "flutter_local_notifications": 2,
+          "intl": 2,
+          "core/routes/app_routes.dart": 1,
+          "core/theme/app_theme.dart": 1,
+          "core/routes/routes.dart": 1,
+          "info_chip.dart": 1,
+          "info_row.dart": 1,
+          "persistent_bottom_nav_bar": 1,
+          "anime_item.dart": 1,
+          "character_item.dart": 1,
+          "businesscard": 1,
+          "app_pages.dart": 1,
+          "widgets/message_input.dart": 1,
+          "widgets/message_bubble.dart": 1,
+          "widgets/chat_room_tile.dart": 1,
+          "end_points.dart": 1,
+          "flutter_dealing_with_api": 1,
+          "error_model.dart": 1,
+          "dart:io": 1,
+          "dart:math": 1,
+          "dice": 1,
+          "en_US/en_us_translation.dart": 1,
+          "ar_AR/ar_ar_translation.dart": 1,
+          "config/translations/localization_service.dart": 1,
+          "data/local/app_shared_pref.dart": 1,
+          "widget/cart_item.dart": 1,
+          "widget/favourite_item.dart": 1,
+          "widget/banner_section.dart": 1,
+          "widget/laptop_item.dart": 1,
+          "flutter_shared_pref": 1,
+          "components/email_input_field.dart": 1,
+          "components/password_input_field.dart": 1,
+          "app_routes.dart": 1,
+          "sqflite": 1,
+          "app_settings": 1,
+          "dart:convert": 1,
+          "flutter_timezone": 1,
+          "flutter_to_do_app": 1,
+          "dart:developer": 1,
+          "timezone": 1,
+          "workmanager": 1,
+          "local_notification.dart": 1,
+          "task_state.dart": 1,
+          "widgets/task_component.dart": 1,
+          "colors_widget.dart": 1,
+          "colors_helper.dart": 1,
+          "data/helper_data.dart": 1,
+          "widgets/task_item.dart": 1,
+          "models/task.dart": 1,
+          "animation_chain/loading_animation.dart": 1,
+          "interactive_dismissible_list/interactive_dismissible_list.dart": 1,
+          "interactive_physics_widget/interactive_physics_widget.dart": 1,
+          "read_cubit_state.dart": 1,
+          "write_cubit_state.dart": 1,
+          "core/routing/app_route.dart": 1,
+          "hive_flutter": 1,
+          "core/helpers/constants.dart": 1,
+          "controller/read/read_cubit.dart": 1,
+          "controller/write/write_cubit.dart": 1,
+          "model/word.dart": 1,
+          "custome_list_tile.dart": 1,
+          "interactive_viewer.dart": 1,
+          "flutter_slidable": 1,
+          "imagesstacked": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 86,
+        "packages": {
+          "com.rns": 72,
+          "android.os": 21,
+          "io.flutter": 17,
+          "org.junit": 16,
+          "android.view": 16,
+          "com.example": 14,
+          "androidx.navigation": 13,
+          "androidx.compose": 12,
+          "androidx.fragment": 11,
+          "androidx.test": 8,
+          "androidx.lifecycle": 8,
+          "kotlinx.coroutines": 8,
+          "androidx.recyclerview": 7,
+          "androidx.appcompat": 6,
+          "androidx.room": 6,
+          "android.content": 5,
+          "android.app": 4,
+          "android.widget": 3,
+          "java.text": 3,
+          "androidx.databinding": 2,
+          "java.util": 2,
+          "androidx.activity": 2,
+          "androidx.core": 2,
+          "androidx.annotation": 1,
+          "org.mockito": 1,
+          "retrofit2.http": 1,
+          "retrofit2.Retrofit": 1,
+          "com.squareup": 1,
+          "retrofit2.converter": 1,
+          "android.annotation": 1,
+          "androidx.arch": 1,
+          "com.google": 1,
+          "kotlin.math": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 63,
+        "packages": {
+          "UIKit": 35,
+          "Flutter": 35,
+          "FlutterMacOS": 28,
+          "XCTest": 24,
+          "Cocoa": 21,
+          "Foundation": 7,
+          "path_provider_foundation": 1,
+          "shared_preferences_foundation": 1,
+          "sqflite_darwin": 1,
+          "flutter_secure_storage_macos": 1,
+          "firebase_core": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "rashaNAlaswad/Affirmations",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/AmphibiansApp",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/anime_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/BusinessCard",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/BusScheduleApp",
+        "files_analyzed": 11,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/CartPageTask",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/chat_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/CupcakeApp",
+        "files_analyzed": 8,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/demo-API",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/Dice",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/DiceRoller",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/flutter_advanced_course",
+        "files_analyzed": 23,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/flutter_laptop_store",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/flutter_shared_pref",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/Flutter_Testing_Lab",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/flutter_to_do_app",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/Flutter_UI_Challenges",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/flutter_vocab_repo",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/flutter_widget_ui",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/hwLoginWithProvider",
+        "files_analyzed": 30,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/ImagesStacked",
+        "files_analyzed": 6,
+        "languages_found": [
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/input_formatters_example",
+        "files_analyzed": 25,
+        "languages_found": [
+          "C++",
+          "C/C++ Header",
+          "Dart",
+          "Kotlin",
+          "Swift"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/InventoryApp",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/JetCalculator",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "rashaNAlaswad/JetLazySample",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Kotlin"
+        ]
+      }
+    ]
+  }
+}

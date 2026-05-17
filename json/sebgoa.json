@@ -1,0 +1,759 @@
+{
+  "username": "sebgoa",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1886299?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.8666666666666667,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 1.0,
+        "week_streak": 0.6
+      }
+    },
+    "Adaptability": {
+      "score": 0.695122,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.7805,
+        "distinct_primary_languages": 8,
+        "language_transitions": 5,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 41,
+        "bounced_back_prs": 16
+      }
+    },
+    "Sentiment": {
+      "score": 1.0,
+      "details": {
+        "sebgoa/cloudstack-books": 0.5122333333333333
+      }
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.8540244000000001,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Go": [
+        1003083,
+        41
+      ],
+      "Shell": [
+        199643,
+        48
+      ],
+      "Makefile": [
+        24596,
+        0
+      ],
+      "Python": [
+        8590,
+        257
+      ],
+      "C#": [
+        75727,
+        21
+      ],
+      "JavaScript": [
+        164330,
+        10
+      ],
+      "Dockerfile": [
+        48968,
+        26
+      ],
+      "HTML": [
+        983988,
+        4
+      ],
+      "CSS": [
+        84985,
+        2
+      ],
+      "TeX": [
+        16076,
+        62
+      ],
+      "Scala": [
+        5516,
+        0
+      ],
+      "Java": [
+        30968,
+        0
+      ],
+      "DataWeave": [
+        1,
+        0
+      ],
+      "Elixir": [
+        177415,
+        0
+      ],
+      "Rust": [
+        8320,
+        0
+      ],
+      "Swift": [
+        7771,
+        0
+      ],
+      "Clojure": [
+        5791,
+        0
+      ],
+      "Dart": [
+        5194,
+        0
+      ],
+      "Haskell": [
+        4947,
+        0
+      ],
+      "R": [
+        4152,
+        0
+      ],
+      "Mustache": [
+        0,
+        4
+      ],
+      "Ruby": [
+        0,
+        24
+      ],
+      "Perl": [
+        0,
+        0
+      ],
+      "PHP": [
+        0,
+        0
+      ],
+      "Scheme": [
+        0,
+        0
+      ]
+    },
+    "language_count": 25,
+    "total_commits": 499,
+    "total_lines": 2860061,
+    "top_5_languages": [
+      {
+        "language": "Python",
+        "lines": 8590,
+        "commits": 257
+      },
+      {
+        "language": "TeX",
+        "lines": 16076,
+        "commits": 62
+      },
+      {
+        "language": "Shell",
+        "lines": 199643,
+        "commits": 48
+      },
+      {
+        "language": "Go",
+        "lines": 1003083,
+        "commits": 41
+      },
+      {
+        "language": "Dockerfile",
+        "lines": 48968,
+        "commits": 26
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "sebgoa",
+    "analysis_date": "2026-05-17T03:08:35.740479",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 233,
+    "languages": {
+      "Go": {
+        "files_scanned": 150,
+        "packages": {
+          "fmt": 71,
+          "github.com/spf13/cobra": 54,
+          "os": 52,
+          "strings": 49,
+          "context": 32,
+          "testing": 32,
+          "io": 28,
+          "net/http": 25,
+          "encoding/json": 24,
+          "github.com/sirupsen/logrus": 22,
+          "github.com/kubeless/kubeless/pkg/utils": 20,
+          "log": 16,
+          "path/filepath": 16,
+          "github.com/gptscript-ai/gptscript/pkg/types": 16,
+          "github.com/kubernetes-incubator/kompose/pkg/kobject": 16,
+          "github.com/stretchr/testify/assert": 14,
+          "github.com/hyperledger/firefly/pkg/core": 13,
+          "bytes": 13,
+          "time": 12,
+          "k8s.io/client-go/kubernetes": 12,
+          "io/ioutil": 12,
+          "net/http/httptest": 12,
+          "github.com/ghodss/yaml": 11,
+          "k8s.io/kubernetes/pkg/api": 11,
+          "github.com/hyperledger/firefly/internal/coremsgs": 10,
+          "strconv": 10,
+          "reflect": 10,
+          "github.com/google/go-containerregistry/pkg/name": 10,
+          "os/exec": 9,
+          "github.com/google/ko/pkg/build": 9,
+          "github.com/Sirupsen/logrus": 9,
+          "k8s.io/api/core/v1": 9,
+          "github.com/stretchr/testify/mock": 8,
+          "github.com/hyperledger/firefly-common/pkg/ffapi": 8,
+          "k8s.io/client-go/rest": 7,
+          "github.com/hyperledger/firefly/pkg/database": 7,
+          "errors": 7,
+          "github.com/gptscript-ai/gptscript/pkg/mvl": 7,
+          "github.com/google/ko/pkg/commands/options": 7,
+          "k8s.io/kubernetes/pkg/runtime": 7,
+          "syscall": 6,
+          "sort": 6,
+          "github.com/hyperledger/firefly-common/pkg/fftypes": 6,
+          "net/url": 6,
+          "sync": 6,
+          "foo": 6,
+          "github.com/hyperledger/firefly-common/pkg/i18n": 5,
+          "github.com/hyperledger/firefly-common/pkg/config": 5,
+          "os/signal": 5,
+          "github.com/gptscript-ai/gptscript/pkg/openai": 5,
+          "sync/atomic": 5,
+          "encoding/hex": 5,
+          "k8s.io/apimachinery/pkg/api/resource": 5,
+          "k8s.io/api/autoscaling/v2beta1": 5,
+          "bash": 5,
+          "github.com/kubeless/kubeless/pkg/client/clientset/versioned": 5,
+          "io/fs": 4,
+          "github.com/gptscript-ai/gptscript/pkg/version": 4,
+          "github.com/gptscript-ai/gptscript/pkg/runner": 4,
+          "golang.org/x/sync/errgroup": 4,
+          "github.com/google/ko/pkg/publish": 4,
+          "path": 4,
+          "github.com/google/go-containerregistry/pkg/v1/random": 4,
+          "github.com/kubernetes-incubator/kompose/pkg/transformer": 4,
+          "k8s.io/kubernetes/pkg/apis/extensions": 4,
+          "k8s.io/kubernetes/pkg/api/unversioned": 4,
+          "github.com/gosuri/uitable": 4,
+          "github.com/hyperledger/firefly/internal/apiserver": 3,
+          "github.com/hyperledger/firefly/internal/namespace": 3,
+          "github.com/spf13/viper": 3,
+          "runtime/debug": 3,
+          "github.com/gptscript-ai/gptscript/pkg/builtin": 3,
+          "github.com/gptscript-ai/gptscript/pkg/engine": 3,
+          "github.com/gptscript-ai/gptscript/pkg/loader": 3,
+          "id": 3,
+          "crypto/sha256": 3,
+          "crypto/md5": 3,
+          "regexp": 3,
+          "github.com/google/go-containerregistry/pkg/authn": 3,
+          "and": 3,
+          "github.com/kubernetes-incubator/kompose/pkg/app": 3,
+          "github.com/kubernetes-incubator/kompose/pkg/transformer/kubernetes": 3,
+          "github.com/fatih/structs": 3,
+          "github.com/kubeless/kubeless/pkg/version": 3,
+          "github.com/kubeless/kubeless/pkg/controller": 3,
+          "k8s.io/client-go/kubernetes/fake": 3,
+          "github.com/kubeless/kubeless/pkg/langruntime": 3,
+          "k8s.io/apimachinery/pkg/util/intstr": 3,
+          "k8s.io/api/extensions/v1beta1": 3,
+          "--zookeeper": 3,
+          "--topic": 3,
+          "github.com/actions/workflow-parser/model": 2,
+          "google.golang.org/api/drive/v3": 2,
+          "github.com/hyperledger/firefly/internal/coreconfig": 2,
+          "github.com/hyperledger/firefly-common/pkg/log": 2,
+          "encoding/base64": 2,
+          "type": 2,
+          "input": 2,
+          "github.com/getkin/kin-openapi/openapi3": 2,
+          "properties": 2,
+          "name": 2,
+          "github.com/acorn-io/cmd": 2,
+          "command": 2,
+          "url": 2,
+          "directory": 2,
+          "github.com/gptscript-ai/gptscript/pkg/assemble": 2,
+          "parentID": 2,
+          "request": 2,
+          "runtime": 2,
+          "github.com/gptscript-ai/gptscript/pkg/cache": 2,
+          "github.com/google/ko/pkg/commands": 2,
+          "github.com/google/go-containerregistry/pkg/logs": 2,
+          "k8s.io/cli-runtime/pkg/genericclioptions": 2,
+          "github.com/spf13/pflag": 2,
+          "github.com/google/go-containerregistry/pkg/v1/types": 2,
+          "github.com/google/go-containerregistry/pkg/v1/remote": 2,
+          "Which": 2,
+          "gopkg.in/yaml.v3": 2,
+          "bar": 2,
+          "github.com/google/go-containerregistry/pkg/v1/daemon": 2,
+          "Networks": 2,
+          "Full": 2,
+          "github.com/docker/libcompose/project": 2,
+          "github.com/docker/libcompose/config": 2,
+          "github.com/kubernetes-incubator/kompose/pkg/testutils": 2,
+          "k8s.io/kubernetes/pkg/util/intstr": 2,
+          "If": 2,
+          "use": 2,
+          "k8s.io/kubernetes/pkg/kubectl": 2,
+          "created-by": 2,
+          "github.com/actions/workflow-parser/parser": 1,
+          "github.com/triggermesh/aktion/pkg/client": 1,
+          "serving.knative.dev/visibility": 1,
+          "github.com/triggermesh/aktion/cmd": 1,
+          "k8s.io/client-go/tools/clientcmd": 1,
+          "golang.org/x/oauth2": 1,
+          "authorization": 1,
+          "golang.org/x/oauth2/google": 1,
+          "net/http/pprof": 1,
+          "github.com/gorilla/mux": 1,
+          "github.com/hyperledger/firefly/mocks/apiservermocks": 1,
+          "github.com/hyperledger/firefly/mocks/namespacemocks": 1,
+          "crypto/sha1": 1,
+          "options": 1,
+          "payable": 1,
+          "price": 1,
+          "stateMutability": 1,
+          "anonymous": 1,
+          "database/sql/driver": 1,
+          "github.com/hyperledger/firefly/mocks/contractmocks": 1,
+          "github.com/gptscript-ai/gptscript/pkg/cli": 1,
+          "override": 1,
+          "content": 1,
+          "sys.download": 1,
+          "sys.http.post": 1,
+          "sys.abort": 1,
+          "sys.http.get": 1,
+          "filename": 1,
+          "sys.remove": 1,
+          "sys.read": 1,
+          "sys.exec": 1,
+          "message": 1,
+          "contentType": 1,
+          "pattern": 1,
+          "sys.write": 1,
+          "github.com/jaytaylor/html2text": 1,
+          "location": 1,
+          "sys.getenv": 1,
+          "sys.http.html2text": 1,
+          "sys.find": 1,
+          "github.com/adrg/xdg": 1,
+          "github.com/gptscript-ai/gptscript/pkg/monitor": 1,
+          "golang.org/x/term": 1,
+          "github.com/gptscript-ai/gptscript/pkg/input": 1,
+          "github.com/gptscript-ai/gptscript/pkg/server": 1,
+          "output": 1,
+          "err": 1,
+          "github.com/google/shlex": 1,
+          "{}": 1,
+          "tool": 1,
+          "hash/fnv": 1,
+          "github.com/gptscript-ai/gptscript/pkg/parser": 1,
+          "toolID": 1,
+          "cached": 1,
+          "slices": 1,
+          "completionID": 1,
+          "response": 1,
+          "logger": 1,
+          "github.com/gptscript-ai/gptscript/pkg/vision": 1,
+          "log/slog": 1,
+          "github.com/gptscript-ai/gptscript/pkg/hash": 1,
+          "key": 1,
+          "compress/gzip": 1,
+          "github.com/sashabaranov/go-openai": 1,
+          "bufio": 1,
+          "github.com/rs/cors": 1,
+          "github.com/acorn-io/broadcaster": 1,
+          "github.com/gptscript-ai/gptscript/static": 1,
+          "github.com/olahol/melody": 1,
+          "github.com/stretchr/testify/require": 1,
+          "fac.gpt": 1,
+          "helloworld.gpt": 1,
+          "github.com/hexops/autogold/v2": 1,
+          "The": 1,
+          "platform]*": 1,
+          "Disable": 1,
+          "--filename": 1,
+          "Continuously": 1,
+          "github.com/fsnotify/fsnotify": 1,
+          "or": 1,
+          "Filename": 1,
+          "Process": 1,
+          "Load": 1,
+          "(may": 1,
+          "Whether": 1,
+          "==": 1,
+          "Selector": 1,
+          "key2=value2)": 1,
+          "supports": 1,
+          "golang.org/x/tools/go/packages": 1,
+          "github.com/mattmoor/dep-notify/pkg/graph": 1,
+          "github.com/google/ko/pkg/resolve": 1,
+          "k8s.io/apimachinery/pkg/labels": 1,
+          "github.com/google/go-cmp/cmp/cmpopts": 1,
+          "github.com/google/go-cmp/cmp": 1,
+          "--attach": 1,
+          "--log-flush-frequency=1s": 1,
+          "--generator=run-pod/v1": 1,
+          "--restart=Never": 1,
+          "--rm": 1,
+          "asdf": 1,
+          "github.com/docker/docker/api/types": 1,
+          "github.com/google/ko": 1,
+          "github.com/google/go-containerregistry/pkg/crane": 1,
+          "github.com/Google/go-containerregistry/cmd/crane": 1,
+          "github.com/google/go-containerregistry/pkg/registry": 1,
+          "_complete=_bash_comp": 1,
+          ":": 1,
+          "_expand=_bash_expand": 1,
+          "{{.CommandPath}}": 1,
+          "github.com/kubernetes-incubator/kompose/cmd": 1,
+          "github.com/kubernetes-incubator/kompose/pkg/loader": 1,
+          "github.com/kubernetes-incubator/kompose/pkg/transformer/openshift": 1,
+          "JSON": 1,
+          "unexpected": 1,
+          "Bundle": 1,
+          "DomainName": 1,
+          "ShmSize": 1,
+          "github.com/docker/libcompose/lookup": 1,
+          "DependsOn": 1,
+          "EnvFile": 1,
+          "StopSignal": 1,
+          "Dockerfile": 1,
+          "Extends": 1,
+          "Pid": 1,
+          "NetworkMode": 1,
+          "Ipc": 1,
+          "ExternalLinks": 1,
+          "Uts": 1,
+          "Logging": 1,
+          "Devices": 1,
+          "Hostname": 1,
+          "SecurityOpt": 1,
+          "MemLimit": 1,
+          "ExtraHosts": 1,
+          "DNSSearch": 1,
+          "MemSwapLimit": 1,
+          "CgroupParent": 1,
+          "MacAddress": 1,
+          "VolumeDriver": 1,
+          "Net": 1,
+          "ReadOnly": 1,
+          "DNS": 1,
+          "Ulimits": 1,
+          "github.com/docker/libcompose/yaml": 1,
+          "Default": 1,
+          "With": 1,
+          "Empty": 1,
+          "github.com/kubernetes-incubator/kompose/pkg/loader/bundle": 1,
+          "github.com/kubernetes-incubator/kompose/pkg/loader/compose": 1,
+          "text/template": 1,
+          "Build": 1,
+          "k8s.io/kubernetes/pkg/api/resource": 1,
+          "restart'": 1,
+          "DS": 1,
+          "Convert": 1,
+          "k8s.io/kubernetes/pkg/client/unversioned/clientcmd": 1,
+          "Get": 1,
+          "Assert": 1,
+          "math/rand": 1,
+          "host:container:mode": 1,
+          "host:container": 1,
+          "name:host:container:mode": 1,
+          "name:host:container": 1,
+          "container": 1,
+          "container:mode": 1,
+          "name:container": 1,
+          "name:container:mode": 1,
+          "net/http/httputil": 1,
+          "github.com/kubeless/kubeless/pkg/client/informers/externalversions": 1,
+          "github.com/robfig/cron": 1,
+          "function": 1,
+          "unicode/utf8": 1,
+          "foobar": 1,
+          "foo=bar": 1,
+          "archive/zip": 1,
+          "qux=bar": 1,
+          "bar:foo": 1,
+          "foo=bar=baz": 1,
+          "baz": 1,
+          "test": 1,
+          "github.com/kubeless/kubeless/cmd/kubeless/version": 1,
+          "github.com/kubeless/kubeless/cmd/kubeless/trigger": 1,
+          "github.com/kubeless/kubeless/cmd/kubeless/completion": 1,
+          "github.com/kubeless/kubeless/cmd/kubeless/getserverconfig": 1,
+          "github.com/kubeless/kubeless/cmd/kubeless/topic": 1,
+          "github.com/kubeless/kubeless/cmd/kubeless/function": 1,
+          "github.com/kubeless/kubeless/cmd/kubeless/autoscale": 1,
+          "--create": 1,
+          "--replication-factor": 1,
+          "--partitions": 1,
+          "--delete": 1,
+          "--list": 1,
+          "--broker-list": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 5,
+        "packages": {
+          "org.slf4j": 4,
+          "java.util": 2,
+          "java.io": 1,
+          "org.mule": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 11,
+        "packages": {
+          "util": 4,
+          "etcd3": 4,
+          "express": 3,
+          "ajaxForm": 1,
+          "jquery": 1,
+          "http": 1,
+          "redis": 1,
+          "assert": 1,
+          "request-promise-native": 1,
+          "body-parser": 1,
+          "gulp-clean-css": 1,
+          "gulp": 1,
+          "gulp-header": 1,
+          "browser-sync": 1,
+          "gulp-rename": 1,
+          "gulp-sass": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 16,
+        "packages": {
+          "json": 7,
+          "datetime": 4,
+          "os": 4,
+          "sys": 4,
+          "scrapy": 3,
+          "flask": 3,
+          "Flask": 3,
+          "time": 3,
+          "urllib": 2,
+          "httplib": 2,
+          "kubernetes": 2,
+          "client": 2,
+          "Item": 1,
+          "signals": 1,
+          "DropItem": 1,
+          "BaseSpider": 1,
+          "asfmailspider": 1,
+          "settings": 1,
+          "asfproject": 1,
+          "HtmlXPathSelector": 1,
+          "Request": 1,
+          "matplotlib": 1,
+          "PrettyTable": 1,
+          "prettytable": 1,
+          "requester": 1,
+          "base64": 1,
+          "shlex": 1,
+          "pdb": 1,
+          "hmac": 1,
+          "types": 1,
+          "urllib2": 1,
+          "hashlib": 1,
+          "re": 1,
+          "syslog": 1,
+          "Parser": 1,
+          "email": 1,
+          "docker": 1,
+          "random": 1,
+          "socket": 1,
+          "request": 1,
+          "ApiException": 1,
+          "logging": 1,
+          "yaml": 1,
+          "requests": 1,
+          "google": 1,
+          "argparse": 1
+        }
+      },
+      "Scala": {
+        "files_scanned": 21,
+        "packages": {
+          "org.mule": 21,
+          "java.io": 14,
+          "scala.io": 5,
+          "java.util": 5,
+          "scala.collection": 4,
+          "java.nio": 3,
+          "org.scalatest": 2,
+          "scala.util": 2,
+          "io.netty": 1,
+          "scala.concurrent": 1,
+          "sun.misc": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "sebgoa/aktion",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "sebgoa/asf-mail-spider",
+        "files_analyzed": 7,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sebgoa/cloudstack-flask",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sebgoa/cloudtank",
+        "files_analyzed": 13,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sebgoa/community",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "sebgoa/data-weave-cli",
+        "files_analyzed": 26,
+        "languages_found": [
+          "Java",
+          "Scala"
+        ]
+      },
+      {
+        "repository": "sebgoa/docker-collectd",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sebgoa/firefly",
+        "files_analyzed": 29,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "sebgoa/functions",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "sebgoa/gptscript",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "sebgoa/hostname",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sebgoa/kkcd",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sebgoa/klr-demo",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "sebgoa/ko",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "sebgoa/kompose",
+        "files_analyzed": 27,
+        "languages_found": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "sebgoa/kubeconeu",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Go",
+          "JavaScript",
+          "Python"
+        ]
+      },
+      {
+        "repository": "sebgoa/kubeless",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      }
+    ]
+  }
+}

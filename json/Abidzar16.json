@@ -1,0 +1,661 @@
+{
+  "username": "Abidzar16",
+  "avatar_url": "https://avatars.githubusercontent.com/u/23272569?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.9166666666666666,
+      "details": {
+        "issue_resolution_rate": 0.75,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.5325416807925979,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.4976250423777936,
+        "week_streak": 0.1
+      }
+    },
+    "Adaptability": {
+      "score": 0.8333335,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.3333,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 15,
+        "language_transitions": 18,
+        "topic_entropy_bits": 1.0,
+        "closed_prs_total": 3,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.5,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.656508369491853,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Jupyter Notebook": [
+        2385997,
+        42
+      ],
+      "Python": [
+        16076,
+        6
+      ],
+      "Shell": [
+        419,
+        11
+      ],
+      "Makefile": [
+        259,
+        0
+      ],
+      "PHP": [
+        192972,
+        0
+      ],
+      "HTML": [
+        8810,
+        4
+      ],
+      "Go": [
+        204,
+        2
+      ],
+      "JavaScript": [
+        4294,
+        36
+      ],
+      "Pug": [
+        894,
+        0
+      ],
+      "CSS": [
+        342,
+        0
+      ],
+      "Blade": [
+        0,
+        0
+      ],
+      "Dockerfile": [
+        0,
+        4
+      ],
+      "Vue": [
+        0,
+        0
+      ],
+      "C#": [
+        0,
+        1
+      ],
+      "Nix": [
+        0,
+        0
+      ],
+      "TypeScript": [
+        0,
+        9
+      ],
+      "C++": [
+        0,
+        0
+      ],
+      "CMake": [
+        0,
+        0
+      ],
+      "Dart": [
+        0,
+        0
+      ],
+      "C": [
+        0,
+        3
+      ],
+      "Swift": [
+        0,
+        0
+      ],
+      "Kotlin": [
+        0,
+        0
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Ruby": [
+        0,
+        3
+      ],
+      "SCSS": [
+        0,
+        1
+      ],
+      "Cython": [
+        0,
+        0
+      ],
+      "PowerShell": [
+        0,
+        0
+      ],
+      "Nushell": [
+        0,
+        0
+      ],
+      "Batchfile": [
+        0,
+        0
+      ],
+      "HCL": [
+        0,
+        9
+      ],
+      "Arduino": [
+        0,
+        1
+      ],
+      "ASP": [
+        0,
+        0
+      ]
+    },
+    "language_count": 32,
+    "total_commits": 132,
+    "total_lines": 2610267,
+    "top_5_languages": [
+      {
+        "language": "Jupyter Notebook",
+        "lines": 2385997,
+        "commits": 42
+      },
+      {
+        "language": "JavaScript",
+        "lines": 4294,
+        "commits": 36
+      },
+      {
+        "language": "Shell",
+        "lines": 419,
+        "commits": 11
+      },
+      {
+        "language": "TypeScript",
+        "lines": 0,
+        "commits": 9
+      },
+      {
+        "language": "HCL",
+        "lines": 0,
+        "commits": 9
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "Abidzar16",
+    "analysis_date": "2026-05-15T22:09:09.713693",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 123,
+    "languages": {
+      "Go": {
+        "files_scanned": 6,
+        "packages": {
+          "fmt": 4,
+          "net/http": 3,
+          "github.com/gin-gonic/gin": 2,
+          "gorm.io/gorm": 2,
+          "strings": 2,
+          "github.com/golang-jwt/jwt": 1,
+          "os": 1,
+          "time": 1,
+          "errors": 1,
+          "error": 1,
+          "token": 1,
+          "gorm.io/driver/sqlite": 1,
+          "io/ioutil": 1,
+          "log": 1,
+          "github.com/gorilla/websocket": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "mongodb": 3,
+          "passport": 3,
+          "bcrypt": 3,
+          "fs": 3,
+          "express": 3,
+          "passport-local": 2,
+          "dotenv": 2,
+          "chai": 2,
+          "passport-github": 1,
+          "express-session": 1,
+          "http": 1,
+          "socket.io": 1,
+          "body-parser": 1,
+          "cors": 1,
+          "path": 1,
+          "mocha": 1,
+          "events": 1,
+          "zombie": 1,
+          "chai-http": 1,
+          "nanoid": 1,
+          "hapi": 1,
+          "supertest": 1
+        }
+      },
+      "PHP": {
+        "files_scanned": 42,
+        "packages": {
+          "MicrosoftAzure\\Storage\\Blob\\Internal\\BlobResources": 13,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\Validate": 8,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\Utilities": 7,
+          "App\\Http\\Controllers\\Controller": 5,
+          "MicrosoftAzure\\Storage\\Common\\Models\\Range": 2,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\Serialization\\XmlSerializer": 2,
+          "MicrosoftAzure\\Storage\\Common\\SharedAccessSignatureHelper": 2,
+          "MicrosoftAzure\\Storage\\Common\\Models\\ServiceOptions": 2,
+          "MicrosoftAzure\\Storage\\Common\\Models\\AccessPolicy": 2,
+          "Illuminate\\Support\\ServiceProvider": 2,
+          "Illuminate\\Support\\Str": 2,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CreateContainerOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\PageWriteOption": 1,
+          "ServiceRestTrait": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\BlobServiceOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Internal\\IBlob": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CreateBlobSnapshotOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CreateBlobPagesResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CreatePageBlobOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\GetContainerACLResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\ListBlobsOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\GetBlobMetadataResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\SetBlobPropertiesResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CreateBlobOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CommitBlobBlocksOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\GetBlobPropertiesResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\ListBlobBlocksOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\ListBlobBlocksResult": 1,
+          "MicrosoftAzure\\Storage\\Common\\LocationMode": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CopyBlobResult": 1,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\StorageServiceSettings": 1,
+          "GuzzleHttp\\Psr7": 1,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\Middlewares\\CommonRequestMiddleware": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\LeaseResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CreateBlobSnapshotResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\ListContainersOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\ListPageBlobRangesDiffResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\GetBlobPropertiesOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\AppendBlockResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CopyBlobOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\PutBlobResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\SetBlobTierOptions": 1,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\Http\\HttpFormatter": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\ListBlobsResult": 1,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\ServiceRestTrait": 1,
+          "Psr\\Http\\Message\\StreamInterface": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\GetBlobResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\BreakLeaseResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CopyBlobFromURLOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\LeaseMode": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\GetContainerPropertiesResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\ListPageBlobRangesOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\GetBlobOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\DeleteBlobOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\BlockList": 1,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\Authentication\\TokenAuthScheme": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\SetBlobPropertiesOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\PutBlockResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\BlobType": 1,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\Authentication\\SharedKeyAuthScheme": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\Block": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\GetBlobMetadataOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CreateBlobBlockOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\ListPageBlobRangesResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\SetBlobMetadataResult": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\CreateBlobPagesOptions": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\ListContainersResult": 1,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\Authentication\\SharedAccessSignatureAuthScheme": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models\\AppendBlockOptions": 1,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\ServiceRestProxy": 1,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\Resources": 1,
+          "MicrosoftAzure\\Storage\\Common\\Models\\ServiceProperties": 1,
+          "MicrosoftAzure\\Storage\\Blob\\Models": 1,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\WindowsAzureUtilities": 1,
+          "MicrosoftAzure\\Storage\\Common\\Internal\\ACLBase": 1,
+          "AccessTierTrait": 1,
+          "Illuminate\\Foundation\\Console\\Kernel": 1,
+          "routes/console.php": 1,
+          "Illuminate\\Console\\Scheduling\\Schedule": 1,
+          "Exception": 1,
+          "Illuminate\\Foundation\\Exceptions\\Handler": 1,
+          "Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails": 1,
+          "SendsPasswordResetEmails": 1,
+          "Illuminate\\Foundation\\Auth\\AuthenticatesUsers": 1,
+          "AuthenticatesUsers": 1,
+          "Illuminate\\Foundation\\Auth\\RegistersUsers": 1,
+          "Illuminate\\Support\\Facades\\Validator": 1,
+          "App\\User": 1,
+          "Illuminate\\Support\\Facades\\Hash": 1,
+          "RegistersUsers": 1,
+          "Illuminate\\Foundation\\Auth\\ResetsPasswords": 1,
+          "ResetsPasswords": 1,
+          "VerifiesEmails": 1,
+          "Illuminate\\Foundation\\Auth\\VerifiesEmails": 1,
+          "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": 1,
+          "Illuminate\\Routing\\Controller": 1,
+          "Illuminate\\Foundation\\Bus\\DispatchesJobs": 1,
+          "AuthorizesRequests": 1,
+          "Illuminate\\Foundation\\Validation\\ValidatesRequests": 1,
+          "Illuminate\\Foundation\\Http\\Kernel": 1,
+          "Illuminate\\Auth\\Middleware\\Authenticate": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode": 1,
+          "Illuminate\\Cookie\\Middleware\\EncryptCookies": 1,
+          "Closure": 1,
+          "Illuminate\\Support\\Facades\\Auth": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings": 1,
+          "Fideloper\\Proxy\\TrustProxies": 1,
+          "Illuminate\\Http\\Request": 1,
+          "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Gate": 1,
+          "Illuminate\\Support\\Facades\\Broadcast": 1,
+          "routes/channels.php": 1,
+          "Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification": 1,
+          "Illuminate\\Support\\Facades\\Event": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider": 1,
+          "Illuminate\\Auth\\Events\\Registered": 1,
+          "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider": 1,
+          "Illuminate\\Support\\Facades\\Route": 1,
+          "Illuminate\\Contracts\\Auth\\MustVerifyEmail": 1,
+          "Illuminate\\Notifications\\Notifiable": 1,
+          "Notifiable": 1,
+          "Illuminate\\Foundation\\Auth\\User": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 32,
+        "packages": {
+          "os": 14,
+          "the": 10,
+          "tensorflow": 10,
+          "__future__": 9,
+          "print_function": 9,
+          "division": 9,
+          "typing": 9,
+          "numpy": 8,
+          "tfx": 8,
+          "pandas": 7,
+          "datacube": 7,
+          "absolute_import": 7,
+          "required": 6,
+          "sys": 6,
+          "xarray": 6,
+          "datetime": 5,
+          "scipy": 5,
+          "absl": 5,
+          "logging": 5,
+          "pipeline": 5,
+          "Text": 5,
+          "models": 5,
+          "tensorflow_transform": 5,
+          "warnings": 4,
+          "dask": 4,
+          "geopandas": 4,
+          "init_components": 4,
+          "matplotlib": 3,
+          "IPython": 3,
+          "odc": 3,
+          "display": 3,
+          "tqdm": 3,
+          "trainer_pb2": 3,
+          "metadata": 3,
+          "kubeflow_dag_runner": 3,
+          "features": 3,
+          "tensorflow_hub": 3,
+          "Union": 3,
+          "pipelines": 3,
+          "ipywidgets": 2,
+          "requests": 2,
+          "ipyleaflet": 2,
+          "masking": 2,
+          "rasterio": 2,
+          "CRS": 2,
+          "collections": 2,
+          "skimage": 2,
+          "shapely": 2,
+          "BeamDagRunner": 2,
+          "configs": 2,
+          "tensorflow_model_analysis": 2,
+          "types": 1,
+          "lxml": 1,
+          "ui_poll": 1,
+          "SimpleNamespace": 1,
+          "ciso8601": 1,
+          "pytz": 1,
+          "GeoMedian": 1,
+          "calculate_indices": 1,
+          "dea_datahandling": 1,
+          "dea_bandindices": 1,
+          "sklearn": 1,
+          "copy": 1,
+          "geometry": 1,
+          "load_ard": 1,
+          "geometry_mask": 1,
+          "dea_spatialtools": 1,
+          "deepcopy": 1,
+          "ClusterMixin": 1,
+          "a": 1,
+          "xr_rasterize": 1,
+          "KMeans": 1,
+          "datacube_stats": 1,
+          "ProgressBar": 1,
+          "multiprocessing": 1,
+          "rasterize": 1,
+          "botocore": 1,
+          "parse": 1,
+          "dateutil": 1,
+          "boto3": 1,
+          "otps": 1,
+          "TimePoint": 1,
+          "stats": 1,
+          "register_matplotlib_converters": 1,
+          "predict_tide": 1,
+          "`tidepost_lat`": 1,
+          "importlib": 1,
+          "find_spec": 1,
+          "start_local_dask": 1,
+          "create_local_dask_cluster": 1,
+          "dea_dask": 1,
+          "configure_s3_access": 1,
+          "binary_dilation": 1,
+          "normalise_dt": 1,
+          "numexpr": 1,
+          "gdal": 1,
+          "random": 1,
+          "zipfile": 1,
+          "Counter": 1,
+          "randint": 1,
+          "branca": 1,
+          "FuncAnimation": 1,
+          "folium": 1,
+          "calendar": 1,
+          "image_aspect": 1,
+          "pathlib": 1,
+          "inset_axes": 1,
+          "Proj": 1,
+          "image": 1,
+          "math": 1,
+          "Map": 1,
+          "xarrays": 1,
+          "linear": 1,
+          "box": 1,
+          "make_axes_locatable": 1,
+          "ListedColormap": 1,
+          "Path": 1,
+          "exposure": 1,
+          "pyproj": 1,
+          "rescale_intensity": 1,
+          "spatial_dims": 1,
+          "mpl_toolkits": 1,
+          "write_cog": 1,
+          "label": 1,
+          "write_geotiff": 1,
+          "find_contours": 1,
+          "LineString": 1,
+          "ndimage": 1,
+          "version": 1,
+          "wiener": 1,
+          "hdstats": 1,
+          "packaging": 1,
+          "assign_crs": 1,
+          "etree": 1,
+          "owslib": 1,
+          "PropertyIsEqualTo": 1,
+          "WebFeatureService": 1,
+          "telemetry_utils": 1,
+          "constants": 1,
+          "pytest": 1,
+          "model": 1,
+          "preprocessing": 1,
+          "google": 1,
+          "Optional": 1,
+          "executor_spec": 1,
+          "latest_blessed_model_resolver": 1,
+          "Trainer": 1,
+          "pusher_pb2": 1,
+          "ExampleValidator": 1,
+          "external_input": 1,
+          "Channel": 1,
+          "CsvExampleGen": 1,
+          "Pusher": 1,
+          "ml_metadata": 1,
+          "Evaluator": 1,
+          "StatisticsGen": 1,
+          "Transform": 1,
+          "ResolverNode": 1,
+          "executor": 1,
+          "ModelBlessing": 1,
+          "Model": 1,
+          "SchemaGen": 1,
+          "metadata_store_pb2": 1,
+          "csv": 1,
+          "transform": 1,
+          "components": 1,
+          "fill_in_missing": 1,
+          "AirflowDagRunner": 1,
+          "base_pipeline": 1,
+          "AirflowPipelineConfig": 1,
+          "requirements": 1,
+          "v1": 1,
+          "example_gen_pb2": 1,
+          "kfp": 1,
+          "onprem": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "Abidzar16/2021-Better-Working-World-Data-Challenge",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Abidzar16/azure-storage-php",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      },
+      {
+        "repository": "Abidzar16/barebone_crud_api",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Abidzar16/boilerplate-advancednode",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Abidzar16/boilerplate-mochachai",
+        "files_analyzed": 6,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Abidzar16/bookshelf-api-project",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Abidzar16/building-machine-learning-pipelines",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "Abidzar16/chapter-8-example-2",
+        "files_analyzed": 2,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "Abidzar16/chirpbird",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "Abidzar16/cicd-laravel",
+        "files_analyzed": 30,
+        "languages_found": [
+          "PHP"
+        ]
+      }
+    ]
+  }
+}

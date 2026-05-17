@@ -1,0 +1,625 @@
+{
+  "username": "robertheo15",
+  "avatar_url": "https://avatars.githubusercontent.com/u/57569392?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.6666666666666666,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.651168310005652,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.6535049300169562,
+        "week_streak": 0.3
+      }
+    },
+    "Adaptability": {
+      "score": 0.75,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 13,
+        "language_transitions": 11,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 5,
+        "bounced_back_prs": 3
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.75,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 2,
+        "max_points": 4,
+        "percentage": 50.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.6635669953344638,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "Swift": [
+        1475174,
+        36
+      ],
+      "Java": [
+        297438,
+        83
+      ],
+      "Kotlin": [
+        387743,
+        186
+      ],
+      "Go": [
+        1137,
+        407
+      ],
+      "HTML": [
+        38,
+        18
+      ],
+      "Shell": [
+        1230,
+        0
+      ],
+      "JavaScript": [
+        608,
+        139
+      ],
+      "Dockerfile": [
+        157,
+        2
+      ],
+      "CSS": [
+        0,
+        144
+      ],
+      "TypeScript": [
+        0,
+        5
+      ],
+      "Python": [
+        0,
+        69
+      ],
+      "Metal": [
+        0,
+        0
+      ],
+      "SCSS": [
+        0,
+        1
+      ],
+      "Dart": [
+        0,
+        21
+      ],
+      "Objective-C": [
+        0,
+        0
+      ],
+      "Makefile": [
+        0,
+        0
+      ],
+      "C++": [
+        0,
+        6
+      ],
+      "PHP": [
+        0,
+        27
+      ],
+      "Hack": [
+        0,
+        0
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "Blade": [
+        0,
+        5
+      ],
+      "Nix": [
+        0,
+        2
+      ],
+      "C#": [
+        0,
+        42
+      ]
+    },
+    "language_count": 23,
+    "total_commits": 1193,
+    "total_lines": 2163525,
+    "top_5_languages": [
+      {
+        "language": "Go",
+        "lines": 1137,
+        "commits": 407
+      },
+      {
+        "language": "Kotlin",
+        "lines": 387743,
+        "commits": 186
+      },
+      {
+        "language": "CSS",
+        "lines": 0,
+        "commits": 144
+      },
+      {
+        "language": "JavaScript",
+        "lines": 608,
+        "commits": 139
+      },
+      {
+        "language": "Java",
+        "lines": 297438,
+        "commits": 83
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "robertheo15",
+    "analysis_date": "2026-05-15T21:25:21.245510",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 363,
+    "languages": {
+      "Go": {
+        "files_scanned": 52,
+        "packages": {
+          "context": 24,
+          "time": 21,
+          "github.com/suhriar/blog-mono-api/model": 20,
+          "net/http": 14,
+          "fmt": 10,
+          "log": 9,
+          "strconv": 8,
+          "database/sql": 8,
+          "testing": 8,
+          "github.com/stretchr/testify/assert": 8,
+          "encoding/json": 6,
+          "os": 5,
+          "github.com/suhriar/blog-mono-api/config": 5,
+          "github.com/DATA-DOG/go-sqlmock": 5,
+          "github.com/gin-gonic/gin": 4,
+          "success": 4,
+          "errors": 4,
+          "github.com/gorilla/mux": 4,
+          "github.com/rs/zerolog/log": 4,
+          "strings": 4,
+          "github.com/suhriar/blog-mono-api/pkg/utils": 4,
+          "gorm.io/gorm": 3,
+          "assignment-2/models": 3,
+          "golang.org/x/crypto/bcrypt": 3,
+          "github.com/suhriar/blog-mono-api/internal/usecase": 3,
+          "github.com/stretchr/testify/mock": 3,
+          "github.com/robertheo/category-svc/internal/model": 3,
+          "message": 2,
+          "limit": 2,
+          "assignment-2/helpers": 2,
+          "total": 2,
+          "email": 2,
+          "id": 2,
+          "auth-app/internal/repository": 2,
+          "auth-app/pkg/proto/auth": 2,
+          "github.com/joho/godotenv": 2,
+          "github.com/go-redis/redis/v8": 2,
+          "github.com/golang-jwt/jwt/v4": 2,
+          "auth-app/internal/model": 2,
+          "github.com/suhriar/blog-mono-api/config/database": 2,
+          "github.com/suhriar/blog-mono-api/internal/repository/mysql/mocks": 2,
+          "github.com/robertheo/category-svc/internal/repository": 2,
+          "github.com/robertheo/category-svc/internal/service": 2,
+          "result": 1,
+          "gorm.io/driver/postgres": 1,
+          "post": 1,
+          "delete": 1,
+          "controllers.ItemsResponse": 1,
+          "quantity": 1,
+          "additionalProperties": 1,
+          "order_id": 1,
+          "contact": 1,
+          "tags": 1,
+          "consumes": 1,
+          "responses": 1,
+          "swagger": 1,
+          "definitions": 1,
+          "ordered_at": 1,
+          "url": 1,
+          "paths": 1,
+          "items": 1,
+          "description": 1,
+          "200": 1,
+          "models.Order": 1,
+          "name": 1,
+          "deleted_at": 1,
+          "query": 1,
+          "type": 1,
+          "basePath": 1,
+          "produces": 1,
+          "$ref": 1,
+          "github.com/swaggo/swag": 1,
+          "schemes": 1,
+          "license": 1,
+          "summary": 1,
+          "models.Item": 1,
+          "example": 1,
+          "host": 1,
+          "required": 1,
+          "customer_name": 1,
+          "controllers.OrderResponse": 1,
+          "controllers.OrdersResponse": 1,
+          "created_at": 1,
+          "title": 1,
+          "application/json": 1,
+          "properties": 1,
+          "put": 1,
+          "get": 1,
+          "info": 1,
+          "controllers.ItemResponse": 1,
+          "data": 1,
+          "version": 1,
+          "item_code": 1,
+          "in": 1,
+          "schema": 1,
+          "updated_at": 1,
+          "parameters": 1,
+          "error": 1,
+          "assignment-2/router": 1,
+          "assignment-2/database": 1,
+          "assignment-2/controllers": 1,
+          "math/rand": 1,
+          "assignment-3/structs": 1,
+          "io/ioutil": 1,
+          "html/template": 1,
+          "auth-app/internal/config": 1,
+          "google.golang.org/grpc": 1,
+          "net": 1,
+          "auth-app/internal/service": 1,
+          "github.com/pkg/errors": 1,
+          "roles": 1,
+          "auth-app/internal/middleware": 1,
+          "github.com/suhriar/blog-mono-api/internal/delivery/rest": 1,
+          "os/signal": 1,
+          "syscall": 1,
+          "github.com/suhriar/blog-mono-api/pkg/logger": 1,
+          "github.com/suhriar/blog-mono-api/cmd/app": 1,
+          "github.com/google/uuid": 1,
+          "github.com/suhriar/blog-mono-api/internal/delivery/middleware": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 43,
+        "packages": {
+          "com.example": 30,
+          "org.springframework": 20,
+          "java.util": 14,
+          "com.dicoding": 13,
+          "common.base": 8,
+          "static": 7,
+          "org.junit": 7,
+          "lombok.Getter": 7,
+          "lombok.Setter": 7,
+          "javax.validation": 6,
+          "android.content": 5,
+          "javax.persistence": 5,
+          "androidx.test": 4,
+          "androidx.lifecycle": 4,
+          "io.swagger": 4,
+          "lombok.RequiredArgsConstructor": 4,
+          "android.os": 3,
+          "lombok.AllArgsConstructor": 3,
+          "common.util": 3,
+          "androidx.appcompat": 2,
+          "retrofit2.Call": 2,
+          "com.fasterxml": 2,
+          "java.io": 2,
+          "javax.servlet": 2,
+          "retrofit2.converter": 1,
+          "okhttp3.logging": 1,
+          "okhttp3.OkHttpClient": 1,
+          "retrofit2.Retrofit": 1,
+          "retrofit2.http": 1,
+          "androidx.recyclerview": 1,
+          "com.bumptech": 1,
+          "android.view": 1,
+          "retrofit2.Response": 1,
+          "retrofit2.Callback": 1,
+          "android.util": 1,
+          "org.jetbrains": 1,
+          "org.hibernate": 1,
+          "lombok.Data": 1,
+          "lombok.NoArgsConstructor": 1,
+          "lombok.EqualsAndHashCode": 1,
+          "java.security": 1,
+          "io.jsonwebtoken": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 13,
+        "packages": {
+          "sapper": 4,
+          "process": 3,
+          "http": 2,
+          "fs": 2,
+          "nanoid": 1,
+          "hapi": 1,
+          "function": 1,
+          "use": 1,
+          "rollup-plugin-babel": 1,
+          "module": 1,
+          "rollup": 1,
+          "rollup-plugin-svelte": 1,
+          "rollup-plugin-terser": 1,
+          "compression": 1,
+          "polka": 1,
+          "sirv": 1,
+          "svelte": 1
+        }
+      },
+      "Kotlin": {
+        "files_scanned": 171,
+        "packages": {
+          "com.example": 71,
+          "com.dicoding": 70,
+          "android.os": 61,
+          "android.view": 41,
+          "androidx.lifecycle": 35,
+          "com.company": 30,
+          "androidx.fragment": 29,
+          "org.junit": 26,
+          "androidx.appcompat": 24,
+          "androidx.recyclerview": 22,
+          "android.content": 18,
+          "androidx.test": 17,
+          "com.google": 14,
+          "com.bumptech": 14,
+          "android.util": 13,
+          "kotlinx.parcelize": 13,
+          "retrofit2.Call": 12,
+          "com.squareup": 12,
+          "android.widget": 11,
+          "kotlinx.coroutines": 10,
+          "retrofit2.Response": 9,
+          "retrofit2.Callback": 9,
+          "java.util": 9,
+          "retrofit2.http": 7,
+          "javax.inject": 7,
+          "androidx.room": 6,
+          "androidx.core": 5,
+          "retrofit2.converter": 5,
+          "okhttp3.logging": 5,
+          "okhttp3.OkHttpClient": 5,
+          "retrofit2.Retrofit": 5,
+          "android.app": 5,
+          "androidx.navigation": 5,
+          "dagger.hilt": 5,
+          "androidx.paging": 5,
+          "android.annotation": 4,
+          "androidx.annotation": 4,
+          "kotlin.system": 4,
+          "androidx.viewpager2": 4,
+          "androidx.datastore": 4,
+          "dagger.Module": 3,
+          "class": 2,
+          "androidx.activity": 2,
+          "com.android": 2,
+          "kotlinx.android": 2,
+          "com.mapbox": 2,
+          "android.text": 2,
+          "org.json": 2,
+          "org.hamcrest": 2,
+          "java.text": 2,
+          "dagger.Provides": 2,
+          "org.jetbrains": 1,
+          "android.graphics": 1,
+          "com.jakewharton": 1,
+          "io.reactivex": 1,
+          "java.io": 1,
+          "com.loopj": 1,
+          "okio.IOException": 1,
+          "retrofit2.HttpException": 1,
+          "androidx.viewbinding": 1,
+          "dagger.Binds": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 1,
+        "packages": {
+          "numpy": 1
+        }
+      },
+      "Swift": {
+        "files_scanned": 30,
+        "packages": {
+          "SwiftUI": 23,
+          "Foundation": 7,
+          "SwiftData": 5,
+          "CoreHaptics": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 13,
+        "packages": {
+          "typeorm": 12,
+          "type-graphql": 6,
+          "apollo-server": 2,
+          "dotenv": 1,
+          "reflect-metadata": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "robertheo15/100-Days-Of-SwiftUI",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Swift"
+        ]
+      },
+      {
+        "repository": "robertheo15/a14-android-fundamental-labs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "robertheo15/a165-android-expert-labs",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "robertheo15/a165-android-expert-project",
+        "files_analyzed": 23,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "robertheo15/android-basics-kotlin-lunch-tray-app",
+        "files_analyzed": 14,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "robertheo15/assignment",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "robertheo15/assignment-2",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "robertheo15/assignment-3",
+        "files_analyzed": 3,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "robertheo15/auth-app",
+        "files_analyzed": 13,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "robertheo15/belajar-kubernetes",
+        "files_analyzed": 5,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "robertheo15/BFAA-Submission1",
+        "files_analyzed": 6,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "robertheo15/BFAA-Submission2",
+        "files_analyzed": 21,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "robertheo15/BFAA_Submission3",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "robertheo15/blog-mono-api",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "robertheo15/Bookshelf-API",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "robertheo15/carikerja",
+        "files_analyzed": 22,
+        "languages_found": [
+          "JavaScript"
+        ]
+      },
+      {
+        "repository": "robertheo15/category-svc",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "robertheo15/Clinic-API",
+        "files_analyzed": 26,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "robertheo15/company-project",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Kotlin"
+        ]
+      },
+      {
+        "repository": "robertheo15/Data_Structure_tugas",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,907 @@
+{
+  "username": "austinlparker",
+  "avatar_url": "https://avatars.githubusercontent.com/u/4140740?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.8333333333333334,
+      "details": {
+        "issue_resolution_rate": 0.5,
+        "pr_merge_rate": 1.0,
+        "commits_activity": 1.0
+      }
+    },
+    "Status": {
+      "score": 0.7099867018787402,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.7299601056362207,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 0.8993735,
+      "details": {
+        "language_diversity_score": 1.0,
+        "technology_adoption_score": 1.0,
+        "domain_flexibility_score": 0.5975,
+        "resilience_score": 1.0,
+        "distinct_primary_languages": 23,
+        "language_transitions": 25,
+        "topic_entropy_bits": 1.7925,
+        "closed_prs_total": 79,
+        "bounced_back_prs": 52
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.875,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": true,
+          "has_6_month_streak": true,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": true
+        },
+        "total_points": 3,
+        "max_points": 4,
+        "percentage": 75.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.7635387070424148,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        2344139,
+        98
+      ],
+      "HTML": [
+        29258,
+        132
+      ],
+      "JavaScript": [
+        20598,
+        24
+      ],
+      "Dockerfile": [
+        3384,
+        4
+      ],
+      "Python": [
+        2929923,
+        80
+      ],
+      "PowerShell": [
+        1090369,
+        0
+      ],
+      "Shell": [
+        36250,
+        39
+      ],
+      "Makefile": [
+        2947,
+        5
+      ],
+      "Tcl": [
+        321,
+        0
+      ],
+      "Go": [
+        2515,
+        75
+      ],
+      "DIGITAL Command Language": [
+        116,
+        0
+      ],
+      "Roff": [
+        98,
+        0
+      ],
+      "C#": [
+        8593118,
+        2
+      ],
+      "Batchfile": [
+        2604,
+        0
+      ],
+      "Rust": [
+        7449,
+        19
+      ],
+      "CSS": [
+        940949,
+        31
+      ],
+      "Perl": [
+        850,
+        4
+      ],
+      "Handlebars": [
+        16601,
+        0
+      ],
+      "Java": [
+        8836,
+        21
+      ],
+      "HCL": [
+        6021,
+        13
+      ],
+      "Kotlin": [
+        3377,
+        0
+      ],
+      "XSLT": [
+        862,
+        0
+      ],
+      "Smalltalk": [
+        354,
+        0
+      ],
+      "Ruby": [
+        56,
+        0
+      ],
+      "PHP": [
+        5,
+        0
+      ],
+      "Sass": [
+        0,
+        25
+      ],
+      "Go Template": [
+        0,
+        2
+      ],
+      "Swift": [
+        0,
+        45
+      ],
+      "ASP": [
+        0,
+        0
+      ],
+      "Starlark": [
+        0,
+        0
+      ],
+      "Jupyter Notebook": [
+        0,
+        13
+      ],
+      "Vue": [
+        0,
+        13
+      ],
+      "Mustache": [
+        0,
+        0
+      ],
+      "Smarty": [
+        0,
+        0
+      ],
+      "Nginx": [
+        0,
+        2
+      ]
+    },
+    "language_count": 35,
+    "total_commits": 647,
+    "total_lines": 16041000,
+    "top_5_languages": [
+      {
+        "language": "HTML",
+        "lines": 29258,
+        "commits": 132
+      },
+      {
+        "language": "TypeScript",
+        "lines": 2344139,
+        "commits": 98
+      },
+      {
+        "language": "Python",
+        "lines": 2929923,
+        "commits": 80
+      },
+      {
+        "language": "Go",
+        "lines": 2515,
+        "commits": 75
+      },
+      {
+        "language": "Swift",
+        "lines": 0,
+        "commits": 45
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "austinlparker",
+    "analysis_date": "2026-05-17T03:02:42.187898",
+    "total_repos_analyzed": 25,
+    "total_files_analyzed": 362,
+    "languages": {
+      "C#": {
+        "files_scanned": 18,
+        "packages": {
+          "System": 18,
+          "System.Collections.Generic": 7,
+          "System.Collections.Concurrent": 6,
+          "System.Threading": 4,
+          "Newtonsoft.Json": 3,
+          "Microsoft.Azure.Commands.Common.Authentication.Abstractions": 3,
+          "System.IO": 2,
+          "Microsoft.Azure.Commands.Common.Authentication.Abstractions.Properties": 2,
+          "System.Linq": 2,
+          "System.Diagnostics": 1,
+          "System.Text": 1,
+          "System.Security.Cryptography.X509Certificates": 1
+        }
+      },
+      "Go": {
+        "files_scanned": 39,
+        "packages": {
+          "os": 21,
+          "fmt": 20,
+          "strings": 17,
+          "testing": 14,
+          "strconv": 9,
+          "encoding/json": 6,
+          "context": 5,
+          "time": 5,
+          "github.com/urfave/cli/v2": 5,
+          "net/http": 5,
+          "sort": 4,
+          "log": 4,
+          "path/filepath": 4,
+          "1": 3,
+          "5": 3,
+          "11": 3,
+          "bytes": 3,
+          "github.com/bluesky-social/indigo/api/bsky": 3,
+          "github.com/fatih/color": 3,
+          "slices": 2,
+          "math": 2,
+          "3": 2,
+          "7": 2,
+          "2": 2,
+          "github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2017-03-30/compute": 2,
+          "regexp": 2,
+          "io/ioutil": 2,
+          "github.com/bluesky-social/indigo/xrpc": 2,
+          "L82": 1,
+          "L99": 1,
+          "L5": 1,
+          "L1": 1,
+          "R14": 1,
+          "L55": 1,
+          "L30": 1,
+          "L68": 1,
+          "R48": 1,
+          "R60": 1,
+          "95-115": 1,
+          "222220-222224": 1,
+          "1698522-1698528": 1,
+          "38593856-38593862": 1,
+          "565653-565659": 1,
+          "11-22": 1,
+          "998-1012": 1,
+          "2121212118-2121212124": 1,
+          "824824821-824824827": 1,
+          "446443-446449": 1,
+          "1188511880-1188511890": 1,
+          "987654321111111": 1,
+          "811111111111119": 1,
+          "234234234234278": 1,
+          "818181911112111": 1,
+          "@@@.@.@.@@": 1,
+          "@@@@@.@.@@": 1,
+          "@.@.@@@.@.": 1,
+          "@.@@@@..@.": 1,
+          "@.@@@.@@@@": 1,
+          "@@.@@@@.@@": 1,
+          "3-5": 1,
+          "12-18": 1,
+          "17": 1,
+          "10-14": 1,
+          "8": 1,
+          "16-20": 1,
+          "32": 1,
+          "unicode": 1,
+          "*": 1,
+          "123": 1,
+          "6": 1,
+          "45": 1,
+          "maps": 1,
+          "618": 1,
+          "344": 1,
+          "941": 1,
+          "668": 1,
+          "300": 1,
+          "970": 1,
+          "812": 1,
+          "949": 1,
+          "862": 1,
+          "425": 1,
+          "592": 1,
+          "35": 1,
+          "117": 1,
+          "236": 1,
+          "906": 1,
+          "340": 1,
+          "158": 1,
+          "18": 1,
+          "479": 1,
+          "146": 1,
+          "52": 1,
+          "987": 1,
+          "993": 1,
+          "984": 1,
+          "560": 1,
+          "352": 1,
+          "739": 1,
+          "940": 1,
+          "530": 1,
+          "88": 1,
+          "92": 1,
+          "57": 1,
+          "988": 1,
+          "29": 1,
+          "168": 1,
+          "216": 1,
+          "805": 1,
+          "542": 1,
+          "825": 1,
+          "470": 1,
+          "431": 1,
+          "615": 1,
+          "817": 1,
+          "342": 1,
+          "819": 1,
+          "650": 1,
+          "715": 1,
+          "466": 1,
+          "96": 1,
+          "61": 1,
+          "977": 1,
+          "690": 1,
+          "689": 1,
+          "346": 1,
+          "162": 1,
+          "360": 1,
+          "9": 1,
+          "4)": 1,
+          "3)": 1,
+          "[.##.]": 1,
+          "5)": 1,
+          "5}": 1,
+          "4": 1,
+          "2)": 1,
+          "[.###.#]": 1,
+          "12": 1,
+          "[...#.]": 1,
+          "1)": 1,
+          "2}": 1,
+          "10": 1,
+          "7}": 1,
+          "bbb:": 1,
+          "eee:": 1,
+          "tty:": 1,
+          "dac:": 1,
+          "ggg:": 1,
+          "svr:": 1,
+          "ddd:": 1,
+          "fff:": 1,
+          "hub:": 1,
+          "hhh:": 1,
+          "ccc:": 1,
+          "aaa:": 1,
+          "you:": 1,
+          "fft:": 1,
+          "iii:": 1,
+          "github.com/Azure/go-autorest/autorest/azure/auth": 1,
+          "github.com/olekukonko/tablewriter": 1,
+          "github.com/ashwanthkumar/slack-go-webhook": 1,
+          "github.com/Azure/go-autorest/autorest/date": 1,
+          "runtime": 1,
+          "reflect": 1,
+          "used": 1,
+          "github.com/gorilla/websocket": 1,
+          "github.com/bluesky-social/indigo/events": 1,
+          "github.com/PuerkitoBio/goquery": 1,
+          "github.com/bluesky-social/indigo/repomgr": 1,
+          "os/signal": 1,
+          "syscall": 1,
+          "net/url": 1,
+          "2006-01-02T15:04:05.000000Z": 1,
+          "2006-01-02T15:04:05Z": 1,
+          "2006-01-02T15:04:05.000Z": 1,
+          "2006-01-02T15:04:05-07:00": 1,
+          "2006-01-02T15:04:05": 1,
+          "database/sql": 1,
+          "html/template": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 17,
+        "packages": {
+          "com.softwareaws": 16,
+          "javax.annotation": 10,
+          "org.jooq": 10,
+          "java.util": 7,
+          "org.springframework": 4,
+          "io.lettuce": 4,
+          "org.apache": 4,
+          "java.io": 3,
+          "io.grpc": 3,
+          "static": 2,
+          "io.opentelemetry": 2,
+          "okhttp3.Call": 2,
+          "software.amazon": 2,
+          "com.amazonaws": 2,
+          "reactor.core": 1,
+          "spark.Spark": 1,
+          "com.google": 1,
+          "okhttp3.Request": 1,
+          "okhttp3.Response": 1,
+          "java.net": 1,
+          "okhttp3.OkHttpClient": 1,
+          "javax.servlet": 1,
+          "io.awsobservability": 1
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "next": 1,
+          "esbuild": 1,
+          "esbuild-node-externals": 1,
+          "tailwindcss": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 29,
+        "packages": {
+          "click": 14,
+          "samcli": 10,
+          "pass_context": 8,
+          "os": 7,
+          "json": 7,
+          "logging": 6,
+          "sys": 5,
+          "server": 4,
+          "Flask": 3,
+          "flask": 3,
+          "atproto": 3,
+          "datetime": 3,
+          "yaml": 2,
+          "FlaskInstrumentor": 2,
+          "random": 2,
+          "trace": 2,
+          "Resource": 2,
+          "TracerProvider": 2,
+          "opentelemetry": 2,
+          "config": 2,
+          "typing": 2,
+          "logger": 2,
+          "plistlib": 1,
+          "path": 1,
+          "dumps": 1,
+          "importlib": 1,
+          "__version__": 1,
+          "execute_command": 1,
+          "RUNTIME_TEMPLATE_MAPPING": 1,
+          "UserException": 1,
+          "GenerateProjectFailedError": 1,
+          "generate_project": 1,
+          "LambdaRuntime": 1,
+          "ContainerManager": 1,
+          "LocalLambdaRunner": 1,
+          "a": 1,
+          "docker": 1,
+          "yaml_parse": 1,
+          "requests": 1,
+          "generate_api_event": 1,
+          "generate_dynamodb_event": 1,
+          "base64": 1,
+          "generate_kinesis_event": 1,
+          "generate_s3_event": 1,
+          "generate_schedule_event": 1,
+          "generate_sns_event": 1,
+          "RedisInstrumentor": 1,
+          "set_global_textmap": 1,
+          "SimpleExportSpanProcessor": 1,
+          "OTLPSpanExporter": 1,
+          "CompositeHTTPPropagator": 1,
+          "B3Format": 1,
+          "propagators": 1,
+          "redis": 1,
+          "socket": 1,
+          "jsonlogger": 1,
+          "MeterProvider": 1,
+          "time": 1,
+          "Status": 1,
+          "uuid": 1,
+          "pythonjsonlogger": 1,
+          "LoggingInstrumentor": 1,
+          "ids": 1,
+          "Client": 1,
+          "app": 1,
+          "Optional": 1,
+          "Post": 1,
+          "operations_callback": 1,
+          "algos": 1,
+          "threading": 1,
+          "signal": 1,
+          "data_stream": 1,
+          "db": 1,
+          "models": 1,
+          "get_or_create": 1,
+          "XrpcError": 1,
+          "CAR": 1,
+          "FirehoseError": 1,
+          "FirehoseSubscribeReposClient": 1,
+          "MessageFrame": 1,
+          "SubscriptionState": 1,
+          "peewee": 1
+        }
+      },
+      "Rust": {
+        "files_scanned": 21,
+        "packages": {
+          "std": 20,
+          "super": 10,
+          "colored": 2,
+          "rayon": 2,
+          "reqwest": 1,
+          "ggez": 1,
+          "base64": 1,
+          "futures": 1,
+          "image": 1,
+          "serde_json": 1,
+          "tracing": 1,
+          "tracing_subscriber": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 134,
+        "packages": {
+          "atproto": 78,
+          "multiformats": 49,
+          "express": 25,
+          "fs": 17,
+          "path": 17,
+          "vscode": 15,
+          "dotenv": 13,
+          "src": 6,
+          "kysely": 4,
+          "twilio": 3,
+          "opentelemetry": 3,
+          "remix-run": 3,
+          "list": 3,
+          "id": 3,
+          "accessJwt": 3,
+          "count": 3,
+          "image": 3,
+          "enabled": 3,
+          "availableUserDomains": 3,
+          "start": 3,
+          "view": 3,
+          "labels": 3,
+          "thumb": 3,
+          "repo": 3,
+          "profiles": 3,
+          "codeCount": 3,
+          "actor": 3,
+          "email": 3,
+          "records": 3,
+          "blocks": 3,
+          "repos": 3,
+          "name": 3,
+          "post": 3,
+          "did": 3,
+          "indexedAt": 3,
+          "by": 3,
+          "mutes": 3,
+          "index": 3,
+          "notifications": 3,
+          "usedBy": 3,
+          "uri": 3,
+          "seq": 3,
+          "external": 3,
+          "root": 3,
+          "label": 3,
+          "codes": 3,
+          "cid": 3,
+          "handle": 3,
+          "feed": 3,
+          "seenAt": 3,
+          "lists": 3,
+          "cids": 3,
+          "reasonType": 3,
+          "preferences": 3,
+          "uris": 3,
+          "repost": 3,
+          "subject": 3,
+          "code": 3,
+          "identifier": 3,
+          "action": 3,
+          "account": 3,
+          "byteStart": 3,
+          "blob": 3,
+          "uriPatterns": 3,
+          "passwords": 3,
+          "width": 3,
+          "actors": 3,
+          "hostname": 3,
+          "feeds": 3,
+          "posts": 3,
+          "record": 3,
+          "text": 3,
+          "useCount": 3,
+          "images": 3,
+          "thread": 3,
+          "token": 3,
+          "util": 2,
+          "elevenlabs": 2,
+          "cookie-parser": 2,
+          "express-session": 2,
+          "collection": 2,
+          "pinned": 2,
+          "sent": 2,
+          "val": 2,
+          "values": 2,
+          "serviceDid": 2,
+          "recipientDid": 2,
+          "suggestions": 2,
+          "q": 2,
+          "tag": 2,
+          "better-sqlite3": 2,
+          "type": 2,
+          "inquirer": 2,
+          "reports": 2,
+          "actions": 2,
+          "actionId": 2,
+          "reason": 2,
+          "partykit": 2,
+          "tslog": 1,
+          "trending_content.json": 1,
+          "gray-matter": 1,
+          "remix-auth": 1,
+          "remix-auth-form": 1,
+          "lodash.throttle": 1,
+          "zlib": 1,
+          "child_process": 1,
+          "follow-redirects": 1,
+          "https-proxy-agent": 1,
+          "tmp": 1,
+          "url": 1,
+          "vscode-nls": 1,
+          "react-native-fs": 1,
+          "signingKey": 1,
+          "comment": 1,
+          "subjectStatuses": 1,
+          "tokenRequired": 1,
+          "reportType": 1,
+          "applied": 1,
+          "events": 1,
+          "event": 1,
+          "subjectLine": 1,
+          "durationInHours": 1,
+          "createLabelVals": 1,
+          "tanstack": 1,
+          "vinxi": 1,
+          "bracket-feed": 1,
+          "pg": 1,
+          "skyware": 1,
+          "at:": 1,
+          "commits": 1,
+          "pino": 1,
+          "wrangler": 1,
+          "tailwindcss": 1,
+          "vite": 1,
+          "vite-tsconfig-paths": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 39,
+        "packages": {
+          "remix-run": 22,
+          "react": 16,
+          "tanstack": 9,
+          "src": 6,
+          "fortawesome": 6,
+          "~": 6,
+          "atproto": 5,
+          "react-dom": 5,
+          "next": 3,
+          "isbot": 2,
+          "react-markdown": 2,
+          "partysocket": 2,
+          "node:stream": 1,
+          "edge": 1,
+          "vinxi": 1,
+          "GET": 1,
+          "node:fs": 1,
+          "react-player": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "austinlparker/777bsky",
+        "files_analyzed": 24,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "austinlparker/aoc2024",
+        "files_analyzed": 25,
+        "languages_found": [
+          "Rust"
+        ]
+      },
+      {
+        "repository": "austinlparker/aoc2025",
+        "files_analyzed": 24,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "austinlparker/aparker.io",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "austinlparker/aparkerio-og-gen",
+        "files_analyzed": 4,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "austinlparker/asciidoctor-vscode",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Python",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "austinlparker/atproto",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "austinlparker/atproyo",
+        "files_analyzed": 18,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "austinlparker/aws-otel-playground",
+        "files_analyzed": 17,
+        "languages_found": [
+          "Java"
+        ]
+      },
+      {
+        "repository": "austinlparker/aws-sam-cli",
+        "files_analyzed": 19,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "austinlparker/azure-powershell",
+        "files_analyzed": 24,
+        "languages_found": [
+          "C#"
+        ]
+      },
+      {
+        "repository": "austinlparker/azure-slacker",
+        "files_analyzed": 2,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "austinlparker/azure-voting-app-redis",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "austinlparker/bad-instrumentation",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "austinlparker/bsky",
+        "files_analyzed": 9,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "austinlparker/bsky-bracket",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "austinlparker/bsky-cloud-shitposting-feed",
+        "files_analyzed": 30,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "austinlparker/bsky-domain-manager",
+        "files_analyzed": 5,
+        "languages_found": [
+          "Go"
+        ]
+      },
+      {
+        "repository": "austinlparker/bsky-histogram-feed",
+        "files_analyzed": 10,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "austinlparker/bsky-jobstone",
+        "files_analyzed": 5,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "austinlparker/btv",
+        "files_analyzed": 24,
+        "languages_found": [
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
+  }
+}
