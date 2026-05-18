@@ -541,8 +541,8 @@ class AdaptabilityAnalyzer:
 
         sub_scores = [div_score, adopt_score, domain_score, resil_score]
         mean01     = sum(sub_scores) / len(sub_scores)
-        final      = _to_signed(mean01)
-        #final      = mean01
+        #final      = _to_signed(mean01)
+        final      = mean01
 
         return {
             "score": round(final, 6),

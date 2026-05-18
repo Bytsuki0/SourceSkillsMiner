@@ -477,15 +477,18 @@ def score_user(username: Optional[str] = None,
     commitment_res = compute_commit_score(username, token)
 
     areas = {
-    'OSS':          oss_res,
-    'Status':       status_res,
+    'OSS': oss_res,
+    'Status': status_res,
     'Adaptability': adaptability_res,
-    'Sentiment':    sentiment_res,
-    'Commitment':   commitment_res,
+    'Sentiment': {
+        **sentiment_res,
+        'score': to_01(sentiment_res['score'])
+    },
+    'Commitment': commitment_res,
 }
 
-    for k in areas:
-        areas[k]['score'] = to_01(areas[k]['score'])
+    #for k in areas:
+    #    areas[k]['score'] = to_01(areas[k]['score'])
 
     raw_final = sum(areas[k]['score'] * normalized[k] for k in areas)
     final = max(0.0, min(1.0, raw_final))
@@ -512,7 +515,7 @@ def score_user(username: Optional[str] = None,
         'avatar_url':     avatar_url,
         'areas':          areas,
         'weights':        normalized,
-        'final_score':    float(max(-1.0, min(1.0, final))),
+        'final_score':    float(max(0, min(1.0, final))),
         'language_usage': language_data,
         'import_scan':    import_scan_data,
     }
