@@ -3,23 +3,23 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/134155841?v=4",
   "areas": {
     "OSS": {
-      "score": 0.27056946916665847,
+      "score": 0.6368116247640873,
       "details": {
         "issue_resolution_rate": 0.0,
         "pr_merge_rate": 1.0,
-        "commits_activity": 0.9058542037499878
+        "commits_activity": 0.9104348742922619
       }
     },
     "Status": {
-      "score": 0.3269007042340002,
+      "score": 0.8059434657470991,
       "details": {
         "lines_frequency": 1.0,
-        "commits_frequency": 0.9134279794279234,
-        "week_streak": 0.07692307692307693
+        "commits_frequency": 0.9178303972412971,
+        "week_streak": 0.5
       }
     },
     "Adaptability": {
-      "score": -0.65,
+      "score": 0.175,
       "details": {
         "language_diversity_score": 0.5,
         "technology_adoption_score": 0.2,
@@ -33,7 +33,7 @@
       }
     },
     "Sentiment": {
-      "score": 0.0,
+      "score": 0.5,
       "details": {}
     },
     "Commitment": {
@@ -58,20 +58,20 @@
     "Sentiment": 0.2,
     "Commitment": 0.2
   },
-  "final_score": 0.03949403468013173,
+  "final_score": 0.4735510181022373,
   "language_usage": {
     "error": null,
     "languages": {
       "Java": [
-        81042,
-        39
+        85482,
+        42
       ],
       "JavaScript": [
-        116331,
+        116281,
         27
       ],
       "CSS": [
-        50928,
+        50764,
         8
       ],
       "C++": [
@@ -79,7 +79,7 @@
         27
       ],
       "HTML": [
-        11306,
+        11286,
         3
       ],
       "Kotlin": [
@@ -87,22 +87,22 @@
         2
       ],
       "TypeScript": [
-        60198,
+        56837,
         12
       ]
     },
     "language_count": 7,
-    "total_commits": 118,
-    "total_lines": 338286,
+    "total_commits": 121,
+    "total_lines": 339131,
     "top_5_languages": [
       {
         "language": "Java",
-        "lines": 81042,
-        "commits": 39
+        "lines": 85482,
+        "commits": 42
       },
       {
         "language": "JavaScript",
-        "lines": 116331,
+        "lines": 116281,
         "commits": 27
       },
       {
@@ -112,12 +112,12 @@
       },
       {
         "language": "TypeScript",
-        "lines": 60198,
+        "lines": 56837,
         "commits": 12
       },
       {
         "language": "CSS",
-        "lines": 50928,
+        "lines": 50764,
         "commits": 8
       }
     ]
@@ -125,59 +125,59 @@
   "import_scan": {
     "error": null,
     "username": "miguelcoelho22",
-    "analysis_date": "2026-05-15T09:56:56.617750",
+    "analysis_date": "2026-05-18T21:41:29.889520",
     "total_repos_analyzed": 14,
     "total_files_analyzed": 239,
     "languages": {
       "C++": {
         "files_scanned": 23,
         "packages": {
-          "std": 23,
           "namespace": 23,
+          "std": 23,
           "iostream": 15,
           "<iostream>": 15,
-          "string": 4,
           "<string>": 4,
-          "<cmath>": 2,
+          "string": 4,
           "cmath": 2,
+          "<cmath>": 2,
           "<fstream>": 2,
           "fstream": 2,
-          "vector": 1,
           "<vector>": 1,
-          "cstring": 1,
-          "<cstring>": 1
+          "vector": 1,
+          "<cstring>": 1,
+          "cstring": 1
         }
       },
       "Java": {
         "files_scanned": 128,
         "packages": {
           "org.example": 55,
-          "org.springframework": 51,
+          "org.springframework": 52,
           "com.example": 42,
           "java.util": 33,
           "br.ufla": 30,
-          "java.time": 20,
-          "jakarta.persistence": 15,
+          "java.time": 22,
+          "jakarta.persistence": 16,
           "java.math": 14,
-          "jakarta.validation": 12,
+          "lombok.RequiredArgsConstructor": 13,
           "lombok": 12,
-          "lombok.RequiredArgsConstructor": 12,
+          "jakarta.validation": 10,
           "jakarta.transaction": 6,
-          "io.swagger": 5,
+          "io.swagger": 6,
           "org.junit": 4,
           "lombok.experimental": 4,
           "org.mapstruct": 3,
           "java.io": 3,
-          "lombok.Getter": 3,
-          "lombok.Setter": 2,
+          "lombok.AllArgsConstructor": 2,
+          "lombok.NoArgsConstructor": 2,
+          "lombok.Getter": 2,
           "jakarta.mail": 1,
-          "lombok.NoArgsConstructor": 1,
           "lombok.Data": 1,
-          "lombok.AllArgsConstructor": 1,
-          "java.net": 1,
           "java.nio": 1,
+          "java.net": 1,
           "jakarta.servlet": 1,
-          "com.auth0": 1
+          "com.auth0": 1,
+          "lombok.Setter": 1
         }
       },
       "JavaScript": {
@@ -192,8 +192,8 @@
           "O": 2,
           "web-vitals": 1,
           "dotenv": 1,
-          "O(a)": 1,
-          "A": 1
+          "A": 1,
+          "O(a)": 1
         }
       },
       "JavaScript (JSX)": {

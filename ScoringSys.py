@@ -159,7 +159,7 @@ def compute_oss_score(username: str, token: str, num_events: int = 1000000) -> D
         return {'score': 0.0, 'details': subs}
 
     avg01 = statistics.mean(list(subs.values()))
-    score = _to_signed01(avg01)
+    score = avg01
     return {'score': score, 'details': subs}
 
 
@@ -280,7 +280,7 @@ def compute_status_score(username: str, token: str, prefetched_stats: Optional[D
         return {'score': 0.0, 'details': subs}
 
     avg01 = statistics.mean(list(subs.values()))
-    score = _to_signed01(avg01)
+    score = avg01
     return {'score': score, 'details': subs}
 
 

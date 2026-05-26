@@ -3,37 +3,37 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/202173383?v=4",
   "areas": {
     "OSS": {
-      "score": 0.6587567676897561,
+      "score": 0.7723701075501707,
       "details": {
-        "issue_resolution_rate": 0.8666666666666667,
+        "issue_resolution_rate": 0.6521739130434783,
         "pr_merge_rate": 1.0,
-        "commits_activity": 0.6214684848679674
+        "commits_activity": 0.6649364096070336
       }
     },
     "Status": {
-      "score": 0.11944052837351671,
+      "score": 0.6883121365356779,
       "details": {
         "lines_frequency": 1.0,
-        "commits_frequency": 0.6214684848679674,
-        "week_streak": 0.057692307692307696
+        "commits_frequency": 0.6649364096070336,
+        "week_streak": 0.4
       }
     },
     "Adaptability": {
-      "score": -0.8125,
+      "score": 0.175,
       "details": {
-        "language_diversity_score": 0.375,
-        "technology_adoption_score": 0.0,
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.2,
         "domain_flexibility_score": 0.0,
         "resilience_score": 0.0,
-        "distinct_primary_languages": 3,
-        "language_transitions": 0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 1,
         "topic_entropy_bits": 0.0,
         "closed_prs_total": 0,
         "bounced_back_prs": 0
       }
     },
     "Sentiment": {
-      "score": 0.0,
+      "score": 0.5,
       "details": {}
     },
     "Commitment": {
@@ -58,16 +58,16 @@
     "Sentiment": 0.2,
     "Commitment": 0.2
   },
-  "final_score": -0.006860540787345437,
+  "final_score": 0.4271364488171697,
   "language_usage": {
     "error": null,
     "languages": {
       "CSS": [
-        40065,
-        9
+        38339,
+        10
       ],
       "HTML": [
-        1290,
+        1029,
         1
       ],
       "JavaScript": [
@@ -75,36 +75,36 @@
         1
       ],
       "Java": [
-        204,
-        5
+        562,
+        10
       ],
       "Python": [
         614,
         2
       ],
       "TypeScript": [
-        33437,
-        5
+        41797,
+        7
       ]
     },
     "language_count": 6,
-    "total_commits": 23,
-    "total_lines": 75797,
+    "total_commits": 31,
+    "total_lines": 82528,
     "top_5_languages": [
       {
         "language": "CSS",
-        "lines": 40065,
-        "commits": 9
+        "lines": 38339,
+        "commits": 10
       },
       {
         "language": "Java",
-        "lines": 204,
-        "commits": 5
+        "lines": 562,
+        "commits": 10
       },
       {
         "language": "TypeScript",
-        "lines": 33437,
-        "commits": 5
+        "lines": 41797,
+        "commits": 7
       },
       {
         "language": "Python",
@@ -113,7 +113,7 @@
       },
       {
         "language": "HTML",
-        "lines": 1290,
+        "lines": 1029,
         "commits": 1
       }
     ]
@@ -121,9 +121,9 @@
   "import_scan": {
     "error": null,
     "username": "diovaniMangiajr",
-    "analysis_date": "2026-05-15T09:58:08.247095",
-    "total_repos_analyzed": 4,
-    "total_files_analyzed": 27,
+    "analysis_date": "2026-05-18T22:12:04.530734",
+    "total_repos_analyzed": 5,
+    "total_files_analyzed": 30,
     "languages": {
       "Java": {
         "files_scanned": 2,
@@ -137,39 +137,42 @@
       "Python": {
         "files_scanned": 3,
         "packages": {
-          "ascii_uppercase": 1,
-          "shuffle": 1,
           "choice": 1,
-          "random": 1,
-          "secrets": 1,
           "string": 1,
-          "customtkinter": 1,
-          "gerar_senha": 1,
+          "ascii_uppercase": 1,
+          "secrets": 1,
+          "random": 1,
+          "shuffle": 1,
           "messagebox": 1,
           "gerador_senha": 1,
           "tkinter": 1,
+          "gerar_senha": 1,
+          "customtkinter": 1,
           "interface": 1,
           "App": 1
         }
       },
       "TypeScript": {
-        "files_scanned": 3,
+        "files_scanned": 4,
         "packages": {
-          "axios": 2,
           "http:": 2,
-          "node:url": 1,
-          "vitejs": 1,
+          "axios": 2,
+          "create": 1,
+          "operational": 1,
           "node:path": 1,
-          "vite": 1
+          "vitejs": 1,
+          "vite": 1,
+          "node:url": 1
         }
       },
       "TypeScript (TSX)": {
-        "files_scanned": 7,
+        "files_scanned": 9,
         "packages": {
           "react-router-dom": 6,
-          "react": 3,
+          "react": 5,
+          "lucide-react": 2,
           "react-dom": 2,
-          "lucide-react": 1
+          "type": 1
         }
       }
     },
@@ -190,7 +193,7 @@
       },
       {
         "repository": "diovaniMangiajr/projeto-descarte-lixo-eletronico",
-        "files_analyzed": 20,
+        "files_analyzed": 23,
         "languages_found": [
           "TypeScript",
           "TypeScript (TSX)"
