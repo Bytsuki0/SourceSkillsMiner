@@ -1,0 +1,334 @@
+{
+  "username": "markesapucai",
+  "avatar_url": "https://avatars.githubusercontent.com/u/124087041?v=4",
+  "areas": {
+    "OSS": {
+      "score": 0.26613005650891214,
+      "details": {
+        "issue_resolution_rate": 0.0,
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.7983901695267365
+      }
+    },
+    "Status": {
+      "score": 0.7327967231755789,
+      "details": {
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.7983901695267365,
+        "week_streak": 0.4
+      }
+    },
+    "Adaptability": {
+      "score": 0.275,
+      "details": {
+        "language_diversity_score": 0.5,
+        "technology_adoption_score": 0.6,
+        "domain_flexibility_score": 0.0,
+        "resilience_score": 0.0,
+        "distinct_primary_languages": 4,
+        "language_transitions": 3,
+        "topic_entropy_bits": 0.0,
+        "closed_prs_total": 0,
+        "bounced_back_prs": 0
+      }
+    },
+    "Sentiment": {
+      "score": 0.5,
+      "details": {}
+    },
+    "Commitment": {
+      "score": 0.0,
+      "details": {
+        "criteria_met": {
+          "has_12_month_streak": false,
+          "has_6_month_streak": false,
+          "has_repo_at_50th_percentile_commits": false,
+          "at_75th_percentile_followers": false
+        },
+        "total_points": 0,
+        "max_points": 4,
+        "percentage": 0.0
+      }
+    }
+  },
+  "weights": {
+    "OSS": 0.2,
+    "Status": 0.2,
+    "Adaptability": 0.2,
+    "Sentiment": 0.2,
+    "Commitment": 0.2
+  },
+  "final_score": 0.3547853559368982,
+  "language_usage": {
+    "error": null,
+    "languages": {
+      "TypeScript": [
+        174598,
+        22
+      ],
+      "JavaScript": [
+        19536,
+        2
+      ],
+      "Python": [
+        54901,
+        9
+      ],
+      "HTML": [
+        1989,
+        1
+      ],
+      "Mako": [
+        19,
+        0
+      ],
+      "SCSS": [
+        87639,
+        5
+      ],
+      "CSS": [
+        12926,
+        1
+      ],
+      "C++": [
+        6311,
+        11
+      ],
+      "Java": [
+        2212,
+        3
+      ]
+    },
+    "language_count": 9,
+    "total_commits": 54,
+    "total_lines": 360131,
+    "top_5_languages": [
+      {
+        "language": "TypeScript",
+        "lines": 174598,
+        "commits": 22
+      },
+      {
+        "language": "C++",
+        "lines": 6311,
+        "commits": 11
+      },
+      {
+        "language": "Python",
+        "lines": 54901,
+        "commits": 9
+      },
+      {
+        "language": "SCSS",
+        "lines": 87639,
+        "commits": 5
+      },
+      {
+        "language": "Java",
+        "lines": 2212,
+        "commits": 3
+      }
+    ]
+  },
+  "import_scan": {
+    "error": null,
+    "username": "markesapucai",
+    "analysis_date": "2026-06-07T18:07:33.374836",
+    "total_repos_analyzed": 8,
+    "total_files_analyzed": 85,
+    "languages": {
+      "C++": {
+        "files_scanned": 4,
+        "packages": {
+          "std": 4,
+          "namespace": 4,
+          "<iostream>": 4,
+          "iostream": 4,
+          "<cmath>": 2,
+          "cmath": 2,
+          "<sys/stat.h>": 1,
+          "<string>": 1,
+          "fstream": 1,
+          "sstream": 1,
+          "<algorithm>": 1,
+          "<sstream>": 1,
+          "sys/stat.h": 1,
+          "<fstream>": 1,
+          "string": 1,
+          "algorithm": 1
+        }
+      },
+      "Java": {
+        "files_scanned": 9,
+        "packages": {
+          "java.util": 9
+        }
+      },
+      "JavaScript": {
+        "files_scanned": 3,
+        "packages": {
+          "mongoose": 2,
+          "dotenv": 2,
+          "express": 2,
+          "express-session": 1,
+          "cors": 1,
+          "csurf": 1,
+          "jsonwebtoken": 1,
+          "body-parser": 1,
+          "bcrypt": 1
+        }
+      },
+      "Python": {
+        "files_scanned": 26,
+        "packages": {
+          "app": 17,
+          "sqlalchemy": 7,
+          "fastapi": 7,
+          "settings": 6,
+          "datetime": 5,
+          "typing": 5,
+          "APIRouter": 5,
+          "User": 4,
+          "Base": 3,
+          "QueryLog": 3,
+          "os": 3,
+          "JWTHandler": 3,
+          "UserRepository": 3,
+          "LogRepository": 3,
+          "ReportService": 3,
+          "AsyncSession": 3,
+          "Any": 3,
+          "asyncio": 2,
+          "httpx": 2,
+          "SessionLocal": 2,
+          "AuthService": 2,
+          "CPFCNPJClient": 2,
+          "QueryService": 2,
+          "String": 2,
+          "Mapped": 2,
+          "select": 2,
+          "get_report_service": 2,
+          "pydantic": 2,
+          "BaseModel": 2,
+          "pandas": 2,
+          "pool": 1,
+          "Connection": 1,
+          "sys": 1,
+          "async_engine_from_config": 1,
+          "context": 1,
+          "logging": 1,
+          "fileConfig": 1,
+          "alembic": 1,
+          "pydantic_settings": 1,
+          "BaseSettings": 1,
+          "create_async_engine": 1,
+          "DeclarativeBase": 1,
+          "Depends": 1,
+          "OAuth2PasswordBearer": 1,
+          "CryptContext": 1,
+          "passlib": 1,
+          "jwt": 1,
+          "jose": 1,
+          "auth": 1,
+          "StaticFiles": 1,
+          "CORSMiddleware": 1,
+          "web": 1,
+          "FastAPI": 1,
+          "Sequence": 1,
+          "get_auth_service": 1,
+          "OAuth2PasswordRequestForm": 1,
+          "Token": 1,
+          "DocumentQuery": 1,
+          "CPFCNPJException": 1,
+          "get_query_service": 1,
+          "Jinja2Templates": 1,
+          "HTMLResponse": 1,
+          "re": 1,
+          "Dict": 1,
+          "calendar": 1,
+          "read_excel": 1,
+          "utils": 1,
+          "generate_report": 1,
+          "openai": 1,
+          "termos": 1,
+          "dotenv": 1,
+          "load_dotenv": 1,
+          "docx": 1,
+          "Document": 1,
+          "google": 1,
+          "streamlit": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 10,
+        "packages": {
+          "strapi": 8,
+          "api::author.author": 3,
+          "api::post.post": 3,
+          "path": 1,
+          "vitejs": 1,
+          "vite": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 13,
+        "packages": {
+          "react": 7,
+          "react-bootstrap": 4,
+          "bootstrap": 4,
+          "next": 3,
+          "react-router-dom": 2,
+          "axios": 1,
+          "react-dom": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "markesapucai/blog",
+        "files_analyzed": 17,
+        "languages_found": [
+          "TypeScript"
+        ]
+      },
+      {
+        "repository": "markesapucai/cadastroWeb",
+        "files_analyzed": 22,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "markesapucai/example-page",
+        "files_analyzed": 8,
+        "languages_found": [
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "markesapucai/landing-page",
+        "files_analyzed": 17,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      },
+      {
+        "repository": "markesapucai/mvp",
+        "files_analyzed": 4,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
+        "repository": "markesapucai/studing_ufla",
+        "files_analyzed": 17,
+        "languages_found": [
+          "C++",
+          "Java"
+        ]
+      }
+    ]
+  }
+}

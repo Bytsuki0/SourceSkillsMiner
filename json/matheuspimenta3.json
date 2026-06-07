@@ -11,21 +11,21 @@
       }
     },
     "Status": {
-      "score": 0.5791800406120616,
+      "score": 0.5817421802042289,
       "details": {
-        "lines_frequency": 0.9566594304097963,
+        "lines_frequency": 0.9643458491862981,
         "commits_frequency": 0.6808806914263886,
         "week_streak": 0.1
       }
     },
     "Adaptability": {
-      "score": 0.0,
+      "score": 0.03125,
       "details": {
-        "language_diversity_score": 0.0,
+        "language_diversity_score": 0.125,
         "technology_adoption_score": 0.0,
         "domain_flexibility_score": 0.0,
         "resilience_score": 0.0,
-        "distinct_primary_languages": 0,
+        "distinct_primary_languages": 1,
         "language_transitions": 0,
         "topic_entropy_bits": 0.0,
         "closed_prs_total": 0,
@@ -58,21 +58,87 @@
     "Sentiment": 0.2,
     "Commitment": 0.2
   },
-  "final_score": 0.26122805421750495,
+  "final_score": 0.26799048213593835,
   "language_usage": {
     "error": null,
-    "languages": {},
-    "language_count": 0,
-    "total_commits": 0,
-    "total_lines": 0
+    "languages": {
+      "JavaScript": [
+        15667,
+        16
+      ],
+      "TypeScript": [
+        14542,
+        15
+      ],
+      "HTML": [
+        3785,
+        4
+      ]
+    },
+    "language_count": 3,
+    "total_commits": 35,
+    "total_lines": 33994,
+    "top_5_languages": [
+      {
+        "language": "JavaScript",
+        "lines": 15667,
+        "commits": 16
+      },
+      {
+        "language": "TypeScript",
+        "lines": 14542,
+        "commits": 15
+      },
+      {
+        "language": "HTML",
+        "lines": 3785,
+        "commits": 4
+      }
+    ]
   },
   "import_scan": {
     "error": null,
     "username": "matheuspimenta3",
-    "analysis_date": "2026-05-18T22:19:12.762106",
+    "analysis_date": "2026-06-07T18:08:07.604467",
     "total_repos_analyzed": 1,
-    "total_files_analyzed": 0,
-    "languages": {},
-    "repositories": []
+    "total_files_analyzed": 8,
+    "languages": {
+      "JavaScript": {
+        "files_scanned": 1,
+        "packages": {
+          "typescript-eslint": 1,
+          "eslint-plugin-react-hooks": 1,
+          "eslint": 1,
+          "eslint-plugin-react-refresh": 1,
+          "globals": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 5,
+        "packages": {
+          "nestjs": 4,
+          "vitejs": 1,
+          "vite": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 1,
+        "packages": {
+          "react-dom": 1,
+          "react": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "matheuspimenta3/engenharia-de-software",
+        "files_analyzed": 8,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
+        ]
+      }
+    ]
   }
 }

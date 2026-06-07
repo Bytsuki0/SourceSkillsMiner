@@ -1,21 +1,21 @@
 {
-  "username": "carlettoronan",
-  "avatar_url": "https://avatars.githubusercontent.com/u/123790566?v=4",
+  "username": "Bruno-Svb",
+  "avatar_url": "https://avatars.githubusercontent.com/u/217257486?v=4",
   "areas": {
     "OSS": {
-      "score": 0.9150176972713114,
+      "score": 0.5602935638087962,
       "details": {
         "issue_resolution_rate": 1.0,
-        "pr_merge_rate": 1.0,
-        "commits_activity": 0.7450530918139343
+        "pr_merge_rate": 0.0,
+        "commits_activity": 0.6808806914263886
       }
     },
     "Status": {
-      "score": 0.7607862086123741,
+      "score": 0.6936268971421296,
       "details": {
-        "lines_frequency": 0.8785806136463454,
-        "commits_frequency": 0.8037780121907769,
-        "week_streak": 0.6
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.6808806914263886,
+        "week_streak": 0.4
       }
     },
     "Adaptability": {
@@ -37,17 +37,17 @@
       "details": {}
     },
     "Commitment": {
-      "score": 0.25,
+      "score": 0.0,
       "details": {
         "criteria_met": {
           "has_12_month_streak": false,
           "has_6_month_streak": false,
-          "has_repo_at_50th_percentile_commits": true,
+          "has_repo_at_50th_percentile_commits": false,
           "at_75th_percentile_followers": false
         },
-        "total_points": 1,
+        "total_points": 0,
         "max_points": 4,
-        "percentage": 25.0
+        "percentage": 0.0
       }
     }
   },
@@ -58,81 +58,89 @@
     "Sentiment": 0.2,
     "Commitment": 0.2
   },
-  "final_score": 0.49141078117673714,
+  "final_score": 0.35703409219018517,
   "language_usage": {
     "error": null,
     "languages": {
       "JavaScript": [
-        5975,
-        31
+        87629,
+        35
       ],
-      "Python": [
-        4859,
-        25
+      "Dockerfile": [
+        379,
+        0
       ],
       "HTML": [
-        2591,
-        13
+        260,
+        0
       ],
       "CSS": [
-        13,
+        50,
         0
       ]
     },
     "language_count": 4,
-    "total_commits": 69,
-    "total_lines": 13438,
+    "total_commits": 35,
+    "total_lines": 88318,
     "top_5_languages": [
       {
         "language": "JavaScript",
-        "lines": 5975,
-        "commits": 31
+        "lines": 87629,
+        "commits": 35
       },
       {
-        "language": "Python",
-        "lines": 4859,
-        "commits": 25
+        "language": "Dockerfile",
+        "lines": 379,
+        "commits": 0
       },
       {
         "language": "HTML",
-        "lines": 2591,
-        "commits": 13
+        "lines": 260,
+        "commits": 0
       },
       {
         "language": "CSS",
-        "lines": 13,
+        "lines": 50,
         "commits": 0
       }
     ]
   },
   "import_scan": {
     "error": null,
-    "username": "carlettoronan",
-    "analysis_date": "2026-06-07T18:15:00.121195",
+    "username": "Bruno-Svb",
+    "analysis_date": "2026-06-07T17:50:22.390902",
     "total_repos_analyzed": 1,
-    "total_files_analyzed": 6,
+    "total_files_analyzed": 30,
     "languages": {
-      "Python": {
-        "files_scanned": 3,
+      "JavaScript": {
+        "files_scanned": 20,
         "packages": {
-          "flask": 1,
-          "CORS": 1,
-          "flask_cors": 1,
-          "Flask": 1,
-          "DatabaseManager": 1,
-          "database": 1,
-          "sqlite3": 1,
-          "app": 1,
-          "unittest": 1
+          "express": 7,
+          "prisma": 3,
+          "joi": 3,
+          "bcrypt": 2,
+          "nodemailer": 2,
+          "jsonwebtoken": 2,
+          "swagger-ui-express": 1,
+          "express-rate-limit": 1,
+          "cors": 1,
+          "morgan": 1,
+          "helmet": 1,
+          "swagger-jsdoc": 1,
+          "cloudinary": 1,
+          "fs": 1,
+          "dotenv": 1,
+          "path": 1,
+          "multer": 1
         }
       }
     },
     "repositories": [
       {
-        "repository": "carlettoronan/sistema-estoque-eng-software",
-        "files_analyzed": 6,
+        "repository": "Bruno-Svb/Portfolio-de-Qualidade",
+        "files_analyzed": 30,
         "languages_found": [
-          "Python"
+          "JavaScript"
         ]
       }
     ]

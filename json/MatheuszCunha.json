@@ -3,29 +3,29 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/188711787?v=4",
   "areas": {
     "OSS": {
-      "score": 0.20238538720755195,
+      "score": 0.43019234200086975,
       "details": {
-        "issue_resolution_rate": 0.4,
+        "issue_resolution_rate": 0.4666666666666667,
         "pr_merge_rate": 0.0,
-        "commits_activity": 0.2071561616226558
+        "commits_activity": 0.8239103593359426
       }
     },
     "Status": {
-      "score": 0.20275991830443746,
+      "score": 0.6746367864453142,
       "details": {
-        "lines_frequency": 0.3011235932906566,
-        "commits_frequency": 0.2071561616226558,
-        "week_streak": 0.1
+        "lines_frequency": 1.0,
+        "commits_frequency": 0.8239103593359426,
+        "week_streak": 0.2
       }
     },
     "Adaptability": {
-      "score": 0.0,
+      "score": 0.03125,
       "details": {
-        "language_diversity_score": 0.0,
+        "language_diversity_score": 0.125,
         "technology_adoption_score": 0.0,
         "domain_flexibility_score": 0.0,
         "resilience_score": 0.0,
-        "distinct_primary_languages": 0,
+        "distinct_primary_languages": 1,
         "language_transitions": 0,
         "topic_entropy_bits": 0.0,
         "closed_prs_total": 0,
@@ -58,21 +58,99 @@
     "Sentiment": 0.2,
     "Commitment": 0.2
   },
-  "final_score": 0.2310290611023979,
+  "final_score": 0.37721582568923684,
   "language_usage": {
     "error": null,
-    "languages": {},
-    "language_count": 0,
-    "total_commits": 0,
-    "total_lines": 0
+    "languages": {
+      "Java": [
+        83997,
+        40
+      ],
+      "TypeScript": [
+        70278,
+        33
+      ],
+      "CSS": [
+        2013,
+        0
+      ],
+      "JavaScript": [
+        613,
+        0
+      ],
+      "HTML": [
+        254,
+        0
+      ]
+    },
+    "language_count": 5,
+    "total_commits": 73,
+    "total_lines": 157155,
+    "top_5_languages": [
+      {
+        "language": "Java",
+        "lines": 83997,
+        "commits": 40
+      },
+      {
+        "language": "TypeScript",
+        "lines": 70278,
+        "commits": 33
+      },
+      {
+        "language": "CSS",
+        "lines": 2013,
+        "commits": 0
+      },
+      {
+        "language": "JavaScript",
+        "lines": 613,
+        "commits": 0
+      },
+      {
+        "language": "HTML",
+        "lines": 254,
+        "commits": 0
+      }
+    ]
   },
   "import_scan": {
     "error": null,
     "username": "MatheuszCunha",
-    "analysis_date": "2026-05-18T22:07:38.887138",
-    "total_repos_analyzed": 4,
-    "total_files_analyzed": 0,
-    "languages": {},
-    "repositories": []
+    "analysis_date": "2026-06-07T18:09:23.641694",
+    "total_repos_analyzed": 5,
+    "total_files_analyzed": 30,
+    "languages": {
+      "Java": {
+        "files_scanned": 30,
+        "packages": {
+          "br.ufla": 30,
+          "org.springframework": 15,
+          "java.time": 10,
+          "java.util": 8,
+          "lombok.RequiredArgsConstructor": 7,
+          "jakarta.validation": 6,
+          "io.swagger": 6,
+          "jakarta.persistence": 4,
+          "lombok": 3,
+          "lombok.Getter": 2,
+          "java.io": 1,
+          "jakarta.servlet": 1,
+          "com.auth0": 1,
+          "lombok.NoArgsConstructor": 1,
+          "lombok.AllArgsConstructor": 1,
+          "lombok.Setter": 1
+        }
+      }
+    },
+    "repositories": [
+      {
+        "repository": "MatheuszCunha/PEGUFLA",
+        "files_analyzed": 30,
+        "languages_found": [
+          "Java"
+        ]
+      }
+    ]
   }
 }

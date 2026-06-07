@@ -3,19 +3,19 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/123790566?v=4",
   "areas": {
     "OSS": {
-      "score": 0.9150176972713114,
+      "score": 0.8610443656335229,
       "details": {
-        "issue_resolution_rate": 1.0,
+        "issue_resolution_rate": 0.8571428571428571,
         "pr_merge_rate": 1.0,
-        "commits_activity": 0.7450530918139343
+        "commits_activity": 0.7259902397577118
       }
     },
     "Status": {
-      "score": 0.7607862086123741,
+      "score": 0.6524544388729051,
       "details": {
-        "lines_frequency": 0.8785806136463454,
-        "commits_frequency": 0.8037780121907769,
-        "week_streak": 0.6
+        "lines_frequency": 0.8313730768610034,
+        "commits_frequency": 0.7259902397577118,
+        "week_streak": 0.4
       }
     },
     "Adaptability": {
@@ -37,17 +37,17 @@
       "details": {}
     },
     "Commitment": {
-      "score": 0.25,
+      "score": 0.0,
       "details": {
         "criteria_met": {
           "has_12_month_streak": false,
           "has_6_month_streak": false,
-          "has_repo_at_50th_percentile_commits": true,
+          "has_repo_at_50th_percentile_commits": false,
           "at_75th_percentile_followers": false
         },
-        "total_points": 1,
+        "total_points": 0,
         "max_points": 4,
-        "percentage": 25.0
+        "percentage": 0.0
       }
     }
   },
@@ -58,79 +58,52 @@
     "Sentiment": 0.2,
     "Commitment": 0.2
   },
-  "final_score": 0.49141078117673714,
+  "final_score": 0.40894976090128565,
   "language_usage": {
     "error": null,
     "languages": {
-      "JavaScript": [
-        5975,
-        31
-      ],
       "Python": [
-        4859,
-        25
-      ],
-      "HTML": [
-        2591,
-        13
-      ],
-      "CSS": [
-        13,
-        0
+        8064,
+        46
       ]
     },
-    "language_count": 4,
-    "total_commits": 69,
-    "total_lines": 13438,
+    "language_count": 1,
+    "total_commits": 46,
+    "total_lines": 8064,
     "top_5_languages": [
       {
-        "language": "JavaScript",
-        "lines": 5975,
-        "commits": 31
-      },
-      {
         "language": "Python",
-        "lines": 4859,
-        "commits": 25
-      },
-      {
-        "language": "HTML",
-        "lines": 2591,
-        "commits": 13
-      },
-      {
-        "language": "CSS",
-        "lines": 13,
-        "commits": 0
+        "lines": 8064,
+        "commits": 46
       }
     ]
   },
   "import_scan": {
     "error": null,
     "username": "carlettoronan",
-    "analysis_date": "2026-06-07T18:15:00.121195",
+    "analysis_date": "2026-05-18T21:37:12.411626",
     "total_repos_analyzed": 1,
-    "total_files_analyzed": 6,
+    "total_files_analyzed": 3,
     "languages": {
       "Python": {
         "files_scanned": 3,
         "packages": {
-          "flask": 1,
-          "CORS": 1,
-          "flask_cors": 1,
-          "Flask": 1,
-          "DatabaseManager": 1,
-          "database": 1,
           "sqlite3": 1,
-          "app": 1,
-          "unittest": 1
+          "os": 1,
+          "get_connection": 1,
+          "db": 1,
+          "LoginWindow": 1,
+          "ui": 1,
+          "controller": 1,
+          "BaseController": 1,
+          "MainWindow": 1
         }
       }
     },
     "repositories": [
       {
         "repository": "carlettoronan/sistema-estoque-eng-software",
-        "files_analyzed": 6,
+        "files_analyzed": 3,
         "languages_found": [
           "Python"
         ]
