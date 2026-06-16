@@ -1,6 +1,6 @@
 {
-  "username": "Bytsuki0",
-  "avatar_url": "https://avatars.githubusercontent.com/u/131626504?v=4",
+  "username": "ByTsuki0",
+  "avatar_url": "https://avatars.githubusercontent.com/u/131626504?u=84ce3caaf0a07e73b6c90eee298f754e4dd9c825&v=4",
   "areas": {
     "OSS": {
       "score": 0.6666666666666666,
@@ -19,14 +19,14 @@
       }
     },
     "Adaptability": {
-      "score": 0.358333,
+      "score": 0.439583,
       "details": {
-        "language_diversity_score": 0.5,
-        "technology_adoption_score": 0.6,
+        "language_diversity_score": 0.625,
+        "technology_adoption_score": 0.8,
         "domain_flexibility_score": 0.3333,
         "resilience_score": 0.0,
-        "distinct_primary_languages": 4,
-        "language_transitions": 3,
+        "distinct_primary_languages": 5,
+        "language_transitions": 4,
         "topic_entropy_bits": 1.0,
         "closed_prs_total": 0,
         "bounced_back_prs": 0
@@ -58,13 +58,21 @@
     "Sentiment": 0.2,
     "Commitment": 0.2
   },
-  "final_score": 0.5483332666666667,
+  "final_score": 0.5645832666666667,
   "language_usage": {
     "error": null,
     "languages": {
       "Python": [
-        4584512,
-        150
+        5362267,
+        168
+      ],
+      "PowerShell": [
+        557,
+        0
+      ],
+      "Shell": [
+        25709,
+        0
       ],
       "Cython": [
         230277,
@@ -75,48 +83,36 @@
         2
       ],
       "C": [
-        64592,
+        66429,
         2
       ],
       "XSLT": [
         6622,
         0
       ],
-      "Fortran": [
-        1740,
+      "Roff": [
+        340,
+        0
+      ],
+      "JavaScript": [
+        29964,
+        0
+      ],
+      "Batchfile": [
+        29,
         0
       ],
       "Meson": [
         1641,
         0
       ],
-      "JavaScript": [
-        24111,
+      "Fortran": [
+        1740,
         0
       ],
-      "CSS": [
-        566,
+      "Smarty": [
+        5,
         0
-      ],
-      "PowerShell": [
-        379,
-        0
-      ],
-      "Go Template": [
-        376,
-        0
-      ],
-      "Roff": [
-        340,
-        0
-      ],
-      "Shell": [
-        25646,
-        0
-      ],
-      "HTML": [
-        1591367,
-        83
       ],
       "CMake": [
         73,
@@ -126,12 +122,16 @@
         67,
         0
       ],
-      "Batchfile": [
-        29,
+      "HTML": [
+        2253276,
+        86
+      ],
+      "CSS": [
+        1582,
         0
       ],
-      "Smarty": [
-        5,
+      "Go Template": [
+        376,
         0
       ],
       "Java": [
@@ -142,24 +142,32 @@
         5212,
         3
       ],
-      "R": [
-        11112,
+      "TeX": [
+        2506,
         0
+      ],
+      "R": [
+        12245,
+        0
+      ],
+      "TypeScript": [
+        5766,
+        1
       ]
     },
-    "language_count": 21,
-    "total_commits": 258,
-    "total_lines": 6779758,
+    "language_count": 23,
+    "total_commits": 280,
+    "total_lines": 8237774,
     "top_5_languages": [
       {
         "language": "Python",
-        "lines": 4584512,
-        "commits": 150
+        "lines": 5362267,
+        "commits": 168
       },
       {
         "language": "HTML",
-        "lines": 1591367,
-        "commits": 83
+        "lines": 2253276,
+        "commits": 86
       },
       {
         "language": "Java",
@@ -180,30 +188,30 @@
   },
   "import_scan": {
     "error": null,
-    "username": "Bytsuki0",
-    "analysis_date": "2026-06-07T17:30:27.079997",
-    "total_repos_analyzed": 12,
-    "total_files_analyzed": 129,
+    "username": "ByTsuki0",
+    "analysis_date": "2026-06-15T23:23:46.179922",
+    "total_repos_analyzed": 15,
+    "total_files_analyzed": 172,
     "languages": {
       "C": {
         "files_scanned": 1,
         "packages": {
-          "string.h": 1,
-          "<string.h>": 1
+          "<string.h>": 1,
+          "string.h": 1
         }
       },
       "C#": {
         "files_scanned": 1,
         "packages": {
-          "Amazon.Lambda.APIGatewayEvents": 1,
           "System.Net.Http": 1,
+          "System.Text.Json": 1,
+          "Amazon.Lambda.Serialization.SystemTextJson": 1,
+          "JsonDocument": 1,
+          "System.Collections.Generic": 1,
+          "System.Threading.Tasks": 1,
           "Amazon.Lambda.Core": 1,
           "System": 1,
-          "System.Threading.Tasks": 1,
-          "JsonDocument": 1,
-          "System.Text.Json": 1,
-          "System.Collections.Generic": 1,
-          "Amazon.Lambda.Serialization.SystemTextJson": 1
+          "Amazon.Lambda.APIGatewayEvents": 1
         }
       },
       "Java": {
@@ -213,140 +221,199 @@
           "java.util": 12,
           "estacionamento": 12,
           "java.sql": 5,
-          "com.tutorial": 1,
           "teste": 1,
-          "javax.swing": 1,
-          "java.awt": 1
+          "com.tutorial": 1,
+          "java.awt": 1,
+          "javax.swing": 1
         }
       },
       "JavaScript": {
-        "files_scanned": 23,
+        "files_scanned": 22,
         "packages": {
           "undefined": 11,
           "object": 4,
           "use": 4,
-          "min": 3,
-          "https:": 3,
           "popperjs": 3,
-          "path": 1,
+          "path": 2,
           "http-proxy-middleware": 1,
-          "express": 1
+          "express": 1,
+          "eslint": 1,
+          "globals": 1,
+          "eslint-plugin-react-hooks": 1,
+          "eslint-plugin-react-refresh": 1,
+          "typescript-eslint": 1,
+          ":": 1,
+          "fs": 1,
+          "url": 1
         }
       },
       "Python": {
-        "files_scanned": 23,
+        "files_scanned": 36,
         "packages": {
+          "os": 17,
           "configparser": 16,
           "json": 15,
-          "os": 13,
           "requests": 13,
           "time": 11,
           "typing": 8,
           "re": 7,
           "Dict": 7,
-          "csv": 6,
+          "pandas": 6,
           "subprocess": 6,
+          "csv": 6,
           "collections": 6,
           "datetime": 6,
           "defaultdict": 6,
           "platform": 5,
-          "math": 5,
           "StatusAnaliser": 5,
-          "pandas": 4,
+          "math": 5,
+          "flask": 5,
+          "Flask": 5,
           "OSSanaliser": 4,
           "SentimentalAnaliser": 4,
+          "Config": 4,
+          "models": 4,
+          "config": 4,
+          "DictCursor": 4,
+          "flask_mysqldb": 4,
+          "MySQL": 4,
+          "MySQLdb": 4,
           "sys": 4,
-          "pathlib": 3,
           "Path": 3,
+          "pathlib": 3,
           "gitblame": 3,
           "argparse": 3,
           "github": 3,
-          "Github": 3,
           "matplotlib": 3,
+          "Github": 3,
           "shutil": 3,
+          "streamlit": 2,
+          "numpy": 2,
           "joblib": 2,
           "statistics": 2,
-          "nltk": 2,
-          "translate": 2,
-          "detect": 2,
-          "langdetect": 2,
-          "Translator": 2,
           "SentimentIntensityAnalyzer": 2,
+          "nltk": 2,
+          "langdetect": 2,
+          "detect": 2,
+          "Translator": 2,
+          "translate": 2,
           "GitHubStatsAnalyzerAllTime": 2,
           "stat": 2,
+          "mysql": 2,
           "traceback": 2,
           "io": 2,
-          "pdf_generator": 2,
           "build_pdf": 2,
-          "numpy": 1,
-          "accuracy_score": 1,
+          "pdf_generator": 2,
+          "StandardScaler": 1,
           "train_test_split": 1,
+          "accuracy_score": 1,
+          "ast": 1,
           "sklearn": 1,
           "GaussianNB": 1,
-          "StandardScaler": 1,
-          "ast": 1,
           "score_usersudo": 1,
           "ScoringSys": 1,
-          "streamlit": 1,
           "random": 1,
+          "token": 1,
           "WorkTypeAnalyzer": 1,
           "Adaptabilityanalyzer": 1,
-          "token": 1,
           "skipped": 1,
           "|": 1,
           "base64": 1,
-          "Flask": 1,
-          "queue": 1,
-          "Optional": 1,
-          "uuid": 1,
-          "flask": 1,
           "flask_cors": 1,
-          "CORS": 1,
-          "threading": 1,
           "tempfile": 1,
-          "reportlab": 1,
-          "Flowable": 1,
-          "urllib": 1,
-          "pdfmetrics": 1,
-          "getSampleStyleSheet": 1,
-          "cm": 1,
-          "TTFont": 1,
-          "A4": 1,
+          "threading": 1,
+          "queue": 1,
+          "uuid": 1,
+          "Optional": 1,
+          "CORS": 1,
           "colors": 1,
-          "TA_LEFT": 1
+          "urllib": 1,
+          "A4": 1,
+          "cm": 1,
+          "pdfmetrics": 1,
+          "TTFont": 1,
+          "reportlab": 1,
+          "TA_LEFT": 1,
+          "Flowable": 1,
+          "getSampleStyleSheet": 1
         }
       },
       "R": {
-        "files_scanned": 2,
+        "files_scanned": 6,
         "packages": {
-          "dplyr": 2,
-          "gridExtra": 2,
-          "FinTS": 2,
-          "forecast": 2,
-          "ggplot2": 2,
-          "xts": 2,
-          "tidyr": 2,
-          "cowplot": 2,
-          "PerformanceAnalytics": 2,
+          "zoo": 6,
+          "forecast": 6,
+          "lubridate": 6,
+          "PerformanceAnalytics": 6,
+          "xts": 6,
+          "ggplot2": 6,
+          "tseries": 6,
+          "stochvol": 5,
+          "tidyr": 5,
+          "cowplot": 5,
+          "dplyr": 5,
+          "FinTS": 5,
+          "quantmod": 5,
+          "rugarch": 4,
+          "modeltime": 3,
+          "highfrequency": 3,
+          "parsnip": 3,
+          "fpp2": 3,
+          "timetk": 3,
+          "rsample": 3,
+          "fpp3": 3,
+          "gridExtra": 3,
+          "broom": 3,
+          "wavelets": 3,
           "knitr": 2,
           "coda": 2,
-          "wavelets": 2,
-          "broom": 2,
-          "tseries": 2,
-          "rugarch": 2,
-          "zoo": 2,
-          "stochvol": 2,
-          "car": 2,
           "moments": 2,
-          "lubridate": 2,
-          "quantmod": 2,
           "boot": 2,
+          "car": 2,
+          "urca": 1,
+          "TTR": 1,
           "strucchange": 1,
           "changepoint": 1
+        }
+      },
+      "TypeScript": {
+        "files_scanned": 6,
+        "packages": {
+          "vitejs": 2,
+          "path": 2,
+          "tailwindcss": 1,
+          "tailwindcss-animate": 1,
+          "vite": 1,
+          "src": 1,
+          "vitest": 1,
+          "react": 1,
+          "pendente": 1,
+          "tailwind-merge": 1,
+          "clsx": 1
+        }
+      },
+      "TypeScript (TSX)": {
+        "files_scanned": 20,
+        "packages": {
+          "react-router-dom": 15,
+          "react": 15,
+          "sonner": 10,
+          "lucide-react": 5,
+          "tanstack": 1,
+          "react-dom": 1,
+          "var(--color-border)": 1,
+          "estudante": 1
         }
       }
     },
     "repositories": [
+      {
+        "repository": "Bytsuki0/Gecida_Github",
+        "files_analyzed": 1,
+        "languages_found": [
+          "Python"
+        ]
+      },
       {
         "repository": "Bytsuki0/GitBlame",
         "files_analyzed": 11,
@@ -369,6 +436,13 @@
         ]
       },
       {
+        "repository": "Bytsuki0/Learning-Deployment-DataStructure",
+        "files_analyzed": 12,
+        "languages_found": [
+          "Python"
+        ]
+      },
+      {
         "repository": "Bytsuki0/Leet_code",
         "files_analyzed": 27,
         "languages_found": [
@@ -381,6 +455,7 @@
         "files_analyzed": 30,
         "languages_found": [
           "JavaScript",
+          "Python",
           "R"
         ]
       },
@@ -397,6 +472,15 @@
         "files_analyzed": 7,
         "languages_found": [
           "Java"
+        ]
+      },
+      {
+        "repository": "Bytsuki0/UnifiedCongress",
+        "files_analyzed": 30,
+        "languages_found": [
+          "JavaScript",
+          "TypeScript",
+          "TypeScript (TSX)"
         ]
       },
       {
