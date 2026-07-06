@@ -434,7 +434,7 @@ def build_pdf(username: str, profile: dict, classification: dict) -> bytes:
     crit_labels = {
         'has_12_month_streak':                  '12-month contribution streak',
         'has_6_month_streak':                   '6-month contribution streak',
-        'has_repo_at_50th_percentile_commits':  'Commits at/above 50th percentile',
+        'has_substantial_commits_per_repo':     'Median commits per repo at or above 50',
         'at_75th_percentile_followers':          'Followers at/above 75th percentile',
     }
     criteria  = (areas.get('Commitment') or {}).get('details', {}).get('criteria_met', {}) or {}

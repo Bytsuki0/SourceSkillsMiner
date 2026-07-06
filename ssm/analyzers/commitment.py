@@ -76,7 +76,7 @@ class CommitmentAnalyzer(Analyzer):
         return max_streak
 
     @staticmethod
-    def _check_50th_percentile_commits(all_commits: Dict[str, list]) -> bool:
+    def _check_median_commits_per_repo(all_commits: Dict[str, list]) -> bool:
         counts = [
             sum(n.get("commitCount", 0) for n in nodes)
             for nodes in all_commits.values()
@@ -84,7 +84,9 @@ class CommitmentAnalyzer(Analyzer):
         ]
         if not counts:
             return False
-        median = sorted(counts)[len(counts) // 2]
+        s = sorted(counts)
+        mid = len(s) // 2
+        median = (s[mid - 1] + s[mid]) / 2 if len(s) % 2 == 0 else s[mid]
         return median >= 50
 
     @staticmethod
@@ -112,7 +114,7 @@ class CommitmentAnalyzer(Analyzer):
                 "has_12_month_streak": max_streak >= 12,
                 "has_6_month_streak": max_streak >= 6,
                 "has_write_to_non_owned_repo": False,  # criterion removed; kept for schema compat
-                "has_repo_at_50th_percentile_commits": self._check_50th_percentile_commits(all_commits),
+                "has_substantial_commits_per_repo": self._check_median_commits_per_repo(all_commits),
                 "at_75th_percentile_followers": self._check_75th_percentile_followers(profile),
             }
         }

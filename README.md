@@ -7,6 +7,51 @@ SourceSkillsMiner is a Python-based analytical pipeline that collects, processes
 
 ---
 
+## Quick Start — Running the Web App Locally
+
+The easiest way to use this project is through the web dashboard: a Flask backend that does the analysis, and a Node/Express frontend that serves the page in your browser.
+
+### 1. Install Python dependencies
+
+```bash
+pip install -r requirements.txt
+python -c "import nltk; nltk.download('vader_lexicon')"
+```
+
+### 2. Add a GitHub token
+
+Edit `config_main.ini` in the project root and fill in your own GitHub username and a [personal access token](https://github.com/settings/tokens):
+
+```ini
+[github]
+username = your-github-username
+token = your-github-token
+```
+
+### 3. Start the backend (Flask API)
+
+```bash
+python backend/api.py
+```
+
+This runs the API at `http://localhost:5000`. Leave this terminal open.
+
+### 4. Start the frontend (in a new terminal)
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+This runs the dashboard at `http://localhost:3000`.
+
+### 5. Use it
+
+Open `http://localhost:3000` in your browser, type in a GitHub username, and the dashboard will mine, score, and classify that profile, showing the results on the page (with an option to export a PDF report).
+
+---
+
 ## Table of Contents
 
 1. [Architecture Overview](#1-architecture-overview)
