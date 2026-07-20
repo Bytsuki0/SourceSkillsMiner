@@ -7,6 +7,36 @@ SourceSkillsMiner is a Python-based analytical pipeline that collects, processes
 
 ---
 
+## Quick Start — Interactive Shell (easiest)
+
+The fastest way in: a colorful interactive shell where you just type a GitHub
+username. No config files needed — it asks for (and can remember) your token.
+
+```bash
+pip install -r requirements.txt
+python miner.py        # or double-click run.bat on Windows / ./run.sh on Linux & macOS
+```
+
+On first run it asks for a [GitHub personal access token](https://github.com/settings/tokens)
+(read-only public access is enough), verifies it against GitHub, and offers to
+remember it in `config_main.ini` (gitignored) so you never type it again.
+A token can also come from `--token`, or the `GITHUB_TOKEN` env var.
+
+```
+ssm ❯ octocat          mine + score + classify that profile (live progress)
+ssm ❯ list             everything analyzed so far
+ssm ❯ show octocat     re-display a saved profile
+ssm ❯ pdf octocat      export a PDF report
+ssm ❯ fast             toggle quick mode (skips the import scan)
+ssm ❯ help             everything else
+```
+
+It is also a one-shot CLI for scripting: `python miner.py octocat --fast --pdf`.
+Results land in `json/<username>.json` (+ `<username>.classification.json`) and
+`pdf/<username>.pdf`.
+
+---
+
 ## Quick Start — Running the Web App Locally
 
 The easiest way to use this project is through the web dashboard: a Flask backend that does the analysis, and a Node/Express frontend that serves the page in your browser.
