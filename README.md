@@ -1,5 +1,5 @@
 # SourceSkillsMiner ___________OUTDATED DOCUMENT____________
-# A Python Script for github scrapping for Prediction model bulding and profiling
+# A Python Script for github scrapping for Prediction model bulding/ profiling
 
 > **Automated GitHub contributor profiling and multi-dimensional scoring system.**
 
@@ -9,12 +9,12 @@ SourceSkillsMiner is a Python-based analytical pipeline that collects, processes
 
 ## Quick Start — Interactive Shell (easiest)
 
-The fastest way in: a colorful interactive shell where you just type a GitHub
+The fastest way in: a colorful interactive shell where you just type a GitHu
 username. No config files needed — it asks for (and can remember) your token.
 
 ```bash
 pip install -r requirements.txt
-python miner.py        # or double-click run.bat on Windows / ./run.sh on Linux & macOS
+python miner.py        # or double-click run.bat on Windows / ./run.sh on Linux 
 ```
 
 On first run it asks for a [GitHub personal access token](https://github.com/settings/tokens)
