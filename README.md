@@ -1,5 +1,5 @@
 # SourceSkillsMiner ___________OUTDATED DOCUMENT____________
-# A Python Script for github scrapping for Prediction model bulding/ profiling
+# A Python Script for github scrapping for Prediction model bulding profiling
 
 > **Automated GitHub contributor profiling and multi-dimensional scoring system.**
 
@@ -20,7 +20,7 @@ python miner.py        # or double-click run.bat on Windows / ./run.sh on Linux
 On first run it asks for a [GitHub personal access token](https://github.com/settings/tokens)
 (read-only public access is enough), verifies it against GitHub, and offers to
 remember it in `config_main.ini` (gitignored) so you never type it again.
-A token can also come from `--token`, or the `GITHUB_TOKEN` env var.
+A token can also come from `--token`, or the `GITHUB_TOKEN` env var
 
 ```
 ssm ❯ octocat          mine + score + classify that profile (live progress)
